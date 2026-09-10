@@ -24,7 +24,7 @@ Behalten Sie die historische Orthografie und Interpunktion bei. Lösen Sie Abkü
 
 ## 2. Die XML-Datei anlegen und Metadaten ausfüllen
 
-Speichern Sie die bereitgestellte Vorlage unter einem eigenen Dateinamen im GitHub-Ordner [ergebnisse](Digitalisate/Dienstag_Willdenow/ergebnisse), beispielsweise `gruppe_01.xml`. Die Vorlage enthält die TEI-Grundstruktur mit `<teiHeader>` und `<text><body>`.
+Speichern Sie die bereitgestellte Vorlage unter einem eigenen Dateinamen im GitHub-Ordner [ergebnisse](ergebnisse\), beispielsweise `gruppe_01.xml`. Nutzen Sie dafür die [XML-Vorlage](H0001200_Template.xml) mit den Basis-Elementen innerhalb der TEI-Grundstruktur aus `<teiHeader>` und `<text><body>`.
 
 Tragen Sie die benötigten Metadaten ein. Nutzen Sie dafür auch die Quellenangaben in der [README-Datei](README.md):
 
@@ -32,8 +32,6 @@ Tragen Sie die benötigten Metadaten ein. Nutzen Sie dafür auch die Quellenanga
 - Publikationsstatus der Seminarfassung;
 - Aufbewahrungsort und Signatur der Handschrift;
 - Absender, Empfänger, Schreiborte und Daten des Briefes.
-
-Die Briefmetadaten beschreiben den Brief als Ganzes. Kennzeichnen Sie zusätzlich, welchen Ausschnitt Sie bearbeiten. Unterscheiden Sie die Angaben zu Ihrer Seminarfassung von den Herausgeber- und Publikationsangaben der wissenschaftlichen Edition.
 
 ## 3. Den Text auszeichnen
 
@@ -45,8 +43,6 @@ Fügen Sie den vereinbarten Textausschnitt in den Textbereich ein. Bearbeiten Si
 
 Prüfen Sie anschließend handschriftliche Zusätze (`add`), soweit sie im ausgewählten Ausschnitt vorkommen. Weitere Phänomene bearbeiten Sie nach verfügbarer Zeit. Unsichere Lesungen dürfen offenbleiben und sollen dokumentiert werden; für eine unsicher gelesene Textstelle kann `unclear` verwendet werden.
 
-Prüfen Sie Ihre Datei auf XML-Wohlgeformtheit. Sofern ein passendes Schema bereitsteht, validieren Sie die Datei zusätzlich. Technische Gültigkeit ersetzt nicht die Prüfung am Digitalisat.
-
 ## 4. Die Ergebnisse der Gruppen vergleichen
 
 Vergleichen Sie zwei oder drei ausgewählte Stellen und erläutern Sie Ihre Entscheidungen:
@@ -55,13 +51,22 @@ Vergleichen Sie zwei oder drei ausgewählte Stellen und erläutern Sie Ihre Ents
 - Beruht eine Abweichung auf einer anderen Lesung, einer anderen Kodierungsentscheidung oder einem Fehler?
 - Welche Information erhält die jeweilige Auszeichnung, welche bleibt unberücksichtigt?
 
-Dokumentieren Sie zwei begründete Entscheidungen und eine offene Frage. Sichern Sie Ihre eigene Kodierung vor dem folgenden Referenzvergleich als separate Datei, beispielsweise `gruppe_01_eigenfassung.xml`.
+Dokumentieren Sie begründete Entscheidungen und/oder offene Fragen. Nutzen Sie dafür die Kommentarfunktion in XML. 
+
+**Beispiel**
+
+```xml
+
+<lb> … bestimmt sind, muß ich Dich über mich selbst u mein Schiksal orientiren. Die-
+<lb>ses Schiksal <!-- sollten wir hier "Schicksal" schreiben? --> ist nun in diesem Jahr wunderbar genug gewesen
+
+```
 
 ## 5. Die wissenschaftliche Edition hinzuziehen
 
-Öffnen Sie nun die [XML-Datei der edition humboldt digital, Version 12](https://edition-humboldt.de/v12/H0001200.xml), und suchen Sie die gemeinsam untersuchten Stellen auf. Vergleichen Sie Lesungen und Auszeichnungen mit Ihren Ergebnissen. Ziehen Sie bei Bedarf die [Editionsrichtlinien](https://edition-humboldt.de/richtlinien/) hinzu.
+Öffnen Sie nun die [XML-Datei der edition humboldt digital, Version 12] ([hier im Repo](referenz_ehd/H000120.xml) oder auf der [Live-Instanz der Edition](https://edition-humboldt.de/v12/H0001200.xml), und suchen Sie die gemeinsam untersuchten Stellen auf. Vergleichen Sie Lesungen und Auszeichnungen mit Ihren Ergebnissen. Ziehen Sie bei Bedarf die [Editionsrichtlinien](https://edition-humboldt.de/richtlinien/) hinzu.
 
-Die Edition dient als wissenschaftliche Referenz. Eine abweichende Kodierung ist nicht automatisch falsch: Entscheidend sind Quellenbefund, Editionsziel und die zugrunde gelegten Regeln. Berücksichtigen Sie auch, dass die Lesehilfe aus dieser Edition abgeleitet wurde; der Vergleich ist daher kein unabhängiger Transkriptionstest.
+Die Edition dient als wissenschaftliche Referenz. Eine abweichende Kodierung ist nicht automatisch falsch: Entscheidend sind Quellenbefund, Editionsziel und die zugrunde gelegten Regeln. 
 
 ## 6. Ergebnisse sichern
 
