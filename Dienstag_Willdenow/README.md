@@ -2,7 +2,7 @@
 
 **Aranjuez, 20. April 1799; La Coruña, 5. Juni 1799**
 
-Dieses Verzeichnis enthält Digitalisate für die Übung **„Von der Handschrift zur TEI/XML-Edition“** im Seminar „KI als Mit-Herausgeber?“. Sie dienen als Grundlage für das Lesen der Handschrift und die eigene Auszeichnung eines Briefausschnitts. Die Arbeitsaufträge und den Sitzungsablauf finden Sie im HackMD-Dokument zum Seminar.
+Dieses Verzeichnis enthält Digitalisate für die Übung **„Von der Handschrift zur TEI/XML-Edition“** im Seminar „KI als Mit-Herausgeber?“. Sie dienen als Grundlage für das Lesen der Handschrift und die eigene Auszeichnung eines Briefausschnitts. Die Arbeitsaufträge und den Sitzungsablauf finden Sie im Dokument [Ablauf und Aufgaben](Dienstag_Willdenow/Ablauf_und_Aufgaben.md).
 
 ## Der Brief
 
