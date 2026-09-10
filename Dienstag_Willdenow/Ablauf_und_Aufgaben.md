@@ -70,9 +70,7 @@ Die Edition dient als wissenschaftliche Referenz. Eine abweichende Kodierung ist
 
 ## 6. Ergebnisse sichern
 
-Bewahren Sie Ihre XML-Datei und Ihr kurzes Entscheidungsprotokoll auf, beispielsweise als `gruppe_01.xml` und `gruppe_01_notizen.md`. Halten Sie Überarbeitungen nach dem Referenzvergleich im Protokoll fest und erhalten Sie die zuvor gesicherte Eigenfassung.
-
-Diese Fassungen, Entscheidungen und offenen Fragen bilden den Ausgangspunkt für die zweite Sitzung zum Einsatz von KI.
+Bewahren Sie Ihre XML-Datei und Ihr kurzes Entscheidungsprotokoll auf, beispielsweise als `gruppe_01.xml` und `gruppe_01_notizen.md`. Diese Dateien bilden den Ausgangspunkt für die zweite Sitzung zum Einsatz von KI.
 
 ## TEI-Hilfen
 
