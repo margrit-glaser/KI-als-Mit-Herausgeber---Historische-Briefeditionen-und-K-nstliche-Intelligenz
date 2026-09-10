@@ -8,9 +8,8 @@ Ziel ist eine nachvollziehbar begründete Kodierung eines kurzen Ausschnitts. KI
 
 ## Materialien und Textumfang
 
-- [Digitalisate und Quellenangaben im Repo](https://github.com/margrit-glaser/KI-als-Mit-Herausgeber---Historische-Briefeditionen-und-K-nstliche-Intelligenz/tree/main/Digitalisate/1799_04_20_a_Willdenow)
-- [Handschrift im Browser der SBB-PK](http://resolver.staatsbibliothek-berlin.de/SBB0001A88D00000000)
-- [Lesehilfe](https://github.com/margrit-glaser/KI-als-Mit-Herausgeber---Historische-Briefeditionen-und-K-nstliche-Intelligenz/Digitalisate/Dienstag_Willdenow/H0001200_Lesehilfe_Ausschnitt.txt) und [XML-Vorlage](https://github.com/margrit-glaser/KI-als-Mit-Herausgeber---Historische-Briefeditionen-und-K-nstliche-Intelligenz/Digitalisate/Dienstag_Willdenow/H0001200_Template.xml), die für die Übung bereitgestellt werden
+- [Digitalisate im Repo](https://github.com/margrit-glaser/KI-als-Mit-Herausgeber---Historische-Briefeditionen-und-K-nstliche-Intelligenz/tree/main/Digitalisate/1799_04_20_a_Willdenow)
+- [Handschrift im Browser der SBB-PK](H0001200_Lesehilfe_Ausschnitt.txt) und [XML-Vorlage](H0001200_Template.xml), die für die Übung bereitgestellt werden
 
 Arbeiten Sie während der Lektüre stets mit dem Digitalisat. Die Lesehilfe unterstützt die Entzifferung; handschriftliche Zusätze, Streichungen und räumliche Anordnungen müssen Sie selbst am Bild erkennen.
 
