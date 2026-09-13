@@ -31,9 +31,9 @@ Alternativ können Sie die [Handschrift in den Digitalisierten Sammlungen der SB
 
 Für die Übung erhalten Sie ergänzend eine Lesehilfe und eine XML-Vorlage. Der zu bearbeitende Textausschnitt und der Umfang der selbständigen Transkription werden in der Sitzung erläutert.
 
-Die **Lesehilfe** ist eine aus der wissenschaftlichen Edition abgeleitete Rohtranskription. Sie bewahrt originale Schreibweisen und Abkürzungen. Abkürzungsauflösungen, Normalisierungen, editorische Korrekturen und Ergänzungen wurden entfernt. Handschriftliche Zusätze und gegebenenfalls gestrichene Wörter sind als unmarkierter Text enthalten. Prüfen Sie ihren Status und ihre Position am Digitalisat. Die Lesehilfe ist keine unabhängige Transkription.
+Die [**Lesehilfe**](H0001200_Lesehilfe_Ausschnitt.txt) ist eine aus der wissenschaftlichen Edition abgeleitete Rohtranskription. Sie bewahrt originale Schreibweisen und Abkürzungen. Abkürzungsauflösungen, Normalisierungen, editorische Korrekturen und Ergänzungen wurden entfernt. Handschriftliche Zusätze und gegebenenfalls gestrichene Wörter sind als unmarkierter Text enthalten. Prüfen Sie ihren Status und ihre Position am Digitalisat. Die Lesehilfe ist keine unabhängige Transkription.
 
-Die **XML-Vorlage** gibt die TEI-Grundstruktur mit einem Metadatenbereich (`teiHeader`) und einem Textbereich (`text/body`) vor. Die Metadaten und die Auszeichnung des Brieftextes erarbeiten Sie selbst.
+Die [**XML-Vorlage**](H0001200_Template.xml) gibt die TEI-Grundstruktur mit einem Metadatenbereich (`teiHeader`) und einem Textbereich (`text/body`) vor. Die Metadaten und die Auszeichnung des Brieftextes erarbeiten Sie selbst.
 
 In der ersten Sitzung arbeiten Sie ohne KI. Die wissenschaftliche Edition und ihre XML-Datei ziehen wir für die gemeinsame Abschlussdiskussion hinzu. Bewahren Sie Ihre eigene Fassung vor diesem Vergleich auf; sie bildet eine Grundlage für die zweite Sitzung zum Einsatz von KI.
 
