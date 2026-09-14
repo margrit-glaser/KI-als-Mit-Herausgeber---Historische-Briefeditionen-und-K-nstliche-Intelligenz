@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- Speichern Sie eine eigene Kopie. Füllen Sie die leeren Elemente aus.
+       Die Kommentare geben Hinweise und gehören nicht zum Brieftext.
+       Sie können gelöscht werden, nachdem Sie die Bearbeitung abgeschlossen haben.
+       Der Header beschreibt Ihre Seminarbearbeitung und deren Quellen.
+       Den Umfang des Textausschnitts legen wir in der Sitzung fest. -->
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- Tragen Sie den Titel Ihrer Bearbeitung ein. Kennzeichnen Sie den Ausschnitt. --></title>
+        <author>
+          <persName><!-- Wer hat den historischen Brief verfasst? --></persName>
+        </author>
+        <respStmt>
+          <resp><!-- Beschreiben Sie Ihre Tätigkeit bei dieser Bearbeitung. --></resp>
+          <name><!-- Tragen Sie die Namen der Bearbeitenden ein. --></name>
+        </respStmt>
+      </titleStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <institution><!-- Welche Institution bewahrt die Handschrift auf? --></institution>
+            <repository><!-- Nennen Sie die zuständige Abteilung. --></repository>
+            <collection><!-- Zu welcher Sammlung gehört die Handschrift? --></collection>
+            <idno type="shelfmark"><!-- Tragen Sie die Signatur ein. --></idno>
+            <idno type="URI"><!-- Tragen Sie den dauerhaften Link zum SBB-Digitalisat ein. --></idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- Halten Sie kurz Ihre Regeln für Transkription und Auszeichnung fest.
+               Wie behandeln Sie etwa Abkürzungen und unsichere Lesungen? --></p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName><!-- Tragen Sie den Absender ein. --></persName>
+          <!-- Der Brief entstand in zwei Schreibphasen. Erfassen Sie die
+               zugehörigen Orte und Daten anhand der Quellenangaben. -->
+          <placeName><!-- Schreibort der ersten Schreibphase --></placeName>
+          <date><!-- Datum der ersten Schreibphase --></date>
+          <placeName><!-- Schreibort der zweiten Schreibphase --></placeName>
+          <date><!-- Datum der zweiten Schreibphase --></date>
+          <!-- Ergänzen Sie bei Bedarf an den date-Elementen das Attribut when
+               mit einem Datum im Format JJJJ-MM-TT. Ein Schreibdatum ist
+               nicht automatisch ein nachgewiesenes Versanddatum. -->
+        </correspAction>
+        <correspAction type="received">
+          <persName><!-- Tragen Sie den Empfänger ein. --></persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <!-- Fügen Sie den vereinbarten Briefausschnitt ein und zeichnen Sie ihn
+           selbst aus. Das leere p-Element ist ein Ausgangspunkt; passen Sie
+           die Textstruktur dem bearbeiteten Ausschnitt an. -->
+      <p></p>
+    </body>
+  </text>
+</TEI>
