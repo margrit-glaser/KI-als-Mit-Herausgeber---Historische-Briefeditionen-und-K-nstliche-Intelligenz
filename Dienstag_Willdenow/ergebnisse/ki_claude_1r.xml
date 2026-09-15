@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alexander von Humboldt an Karl Ludwig Willdenow, Aranjuez, 20. April 1799 – KI-Transkription von Blatt 1r (Teilausschnitt: Datumszeile und Zeilen 1–22)</title>
+        <author>
+          <persName>Alexander von Humboldt</persName>
+        </author>
+        <respStmt>
+          <resp>Transkription und TEI-Auszeichnung, KI-generiert, ohne Lesehilfe und ohne Edition</resp>
+          <name>Claude (Anthropic), Modell claude-opus-5</name>
+        </respStmt>
+        <respStmt>
+          <resp>Auftrag; Prüfung am Digitalisat steht aus</resp>
+          <name><!-- Namen der prüfenden Person(en) eintragen --></name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unveröffentlichte, ungeprüfte Arbeitsfassung für das Seminar „KI als Mit-Herausgeber? Historische Briefeditionen und Künstliche Intelligenz“.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+            <repository>Handschriftenabteilung</repository>
+            <collection>Autographen<!-- aus der Signatur erschlossen; prüfen --></collection>
+            <idno type="shelfmark">Autogr. I/169</idno>
+            <idno type="URI">http://resolver.staatsbibliothek-berlin.de/SBB0001A88D00000000</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatische Transkription ausschließlich nach dem Digitalisat 1r_leicht.png (vergrößert, kontrastverstärkt, zeilenweise begradigt). Lesehilfe, Rohtranskription, Ergebnisse anderer Gruppen und die edition humboldt digital wurden nicht herangezogen; bekannt waren nur die Beispielzeilen (hier Z. 11–12) aus Ablauf_und_Aufgaben.md. Historische Orthographie und Interpunktion bleiben erhalten; nichts wird ergänzt. Zeilenwechsel: lb; Worttrennung am Zeilenende: lb mit break="no", Trennstrich wie in der Handschrift. Abkürzungen: abbr, nicht aufgelöst. Ortsnamen: placeName. Unterstreichung: hi. Zusätze: add. Unsichere Lesungen: unclear mit cert (medium = wahrscheinlich, low = geraten); Alternativen stehen in Kommentaren. Unlesbares oder nicht Bearbeitetes: gap.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Alexander von Humboldt</persName>
+          <placeName>Aranjuez</placeName>
+          <date when="1799-04-20">20. April 1799</date>
+          <placeName>La Coruña</placeName>
+          <date when="1799-06-05">5. Juni 1799</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Karl Ludwig Willdenow</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="de">
+    <body>
+      <div type="letter">
+        <pb n="1r" facs="../1r_leicht.png"/>
+        <!-- Oben links Bibliotheksstempel und Signatur (spätere Zusätze, nicht transkribiert).
+             Rechts neben der Datumszeile eine „1“ (Foliierung?). -->
+        <opener>
+          <dateline><placeName>Aranjuez</placeName> <unclear cert="medium">unfern</unclear> <placeName>Madrid</placeName> den <date when="1799-04-20">20 April 99.</date></dateline>
+        </opener>
+        <p>
+          <!-- Z. 1: drittes Wort alternativ „nun“; Komma nach „ich“ unsicher (evtl. nur Schleife des h) -->
+          <lb n="1"/>Wenn ich <unclear cert="low">mein brüderlichst geliebter Freund, seit <placeName>Marseille</placeName> auch keine Zeile an Dich ge-
+          <lb n="2" break="no"/>schrieben habe, so bin ich deshalb, wie der Inhalt dieses <unclear cert="low">Briefs</unclear> zeigen wird, doch nicht
+          <lb n="3"/>minder thätig für Dich <abbr>u</abbr> Deine Freunde gewesen. Ich schicke so eben eine Kiste von
+          <lb n="4"/><hi rend="underline">400</hi> Pflanzen für Dich zu, von denen 1/4 gewiß noch unbeschrieben <abbr>u</abbr> aus Gegenden
+          <!-- Z. 5: öffnende Klammer vor „wie“ erscheint nur als langer Strich; schließende Klammer deutlich -->
+          <lb n="5"/>sind, die (wie <placeName><abbr>St.</abbr> Blasio</placeName> in <placeName>Californien</placeName>, <placeName>Chiloe</placeName> <abbr>u</abbr> die <placeName>Philippinen</placeName>) kaum von
+          <lb n="6"/><unclear cert="medium">einem</unclear> Botanisten <unclear cert="medium">betreten</unclear> worden sind. Wenn Du diese Pflanzen durchsiehst, so wirst
+          <lb n="7"/>Du Dich überzeugen, daß kaum ein Tag vergangen ist, an dem nicht in Wäldern
+          <!-- Z. 8: „dein“ alternativ „dem“; über der Zeile ein Wort mit Verweisstrich, Lesung unsicher -->
+          <lb n="8"/>Wüsten <abbr>u</abbr> am Meerufer <unclear cert="medium">dein</unclear> Andenken <add place="above"><unclear cert="low">innig</unclear></add> lebendig gewesen ist. <unclear cert="medium">Ueberall</unclear> habe ich für Dich
+          <!-- Z. 9: nach „nicht“ klammerartige Zeichen am Anfang und Ende der Passage (eckige Klammern? Streichung?); am Digitalisat prüfen -->
+          <lb n="9"/>gesammelt <abbr>u</abbr> zwar nur für Dich, da ich selbst nicht <gap reason="illegible" quantity="3" unit="word" precision="low"/> <unclear cert="low">meine eigene</unclear>
+          <!-- Z. 10: „Ehe“ alternativ „Daß“; nach „Dich“ ein Tintenfleck; „mein Lie-/ber“ geraten, passt aber zu „ber“ in Z. 11 -->
+          <lb n="10"/><gap reason="illegible" quantity="1" unit="word"/> <unclear cert="medium">empfangen</unclear> ist. <unclear cert="low">Ehe</unclear> ich <unclear cert="medium">Dir</unclear> <unclear cert="low">die</unclear> Pflanzen <unclear cert="medium">nenne</unclear>, welche für Dich <unclear cert="low">mein Lie-</unclear>
+          <lb n="11" break="no"/><unclear cert="low">ber</unclear> bestimmt sind, muß ich Dich über mich selbst <abbr>u</abbr> mein Schiksal orientiren. Die-
+          <lb n="12" break="no"/>ses Schiksal ist nun in diesem Jahr wunderbar genug gewesen, doch wirst Du be-
+          <lb n="13" break="no"/>merken, daß ich <unclear cert="medium">wenigstens</unclear> hartnäckig in Verfolgung meiner Plane gewesen bin <abbr>u</abbr>
+          <!-- Z. 14: vor „Hartnäckigkeit“ ein Strich vom linken Rand her (Einfügungszeichen?); prüfen -->
+          <lb n="14"/>daß diese Hartnäckigkeit mich nun <unclear cert="low">doch</unclear> noch von <placeName>Californien</placeName> bis zum <placeName>Patagonen-
+          <lb n="15" break="no"/>lande</placeName>, vielleicht selbst um die Welt <unclear cert="medium">schickt</unclear>. Bei einem so arbeitsamen <abbr>u</abbr> tumultuö-
+          <!-- Z. 16/17: „als Folge“ sehr unsicher; in Z. 17 schließt eine Klammer, deren öffnende Klammer nicht erkannt wurde -->
+          <lb n="16" break="no"/>sen Leben als das meinige, bei der großen Menge von Dingen, die <unclear cert="low">als Folge</unclear>
+          <lb n="17"/>von Chronometern) <abbr>astronom.</abbr> Beobachtungen, stündlich <unclear cert="medium">aufzuzeichnen</unclear> sind, bei der
+          <lb n="18"/>vielen Zeit, welche ich dem gesellschaftlichen Leben <unclear cert="medium">aufopfere</unclear>, <unclear cert="low">stellst</unclear> Du, mein <unclear cert="medium">Theurer</unclear>
+          <lb n="19"/>vor, selbst <unclear cert="low">nun</unclear>, daß ich <unclear cert="medium">keinen</unclear> sehr lebhaften Briefwechsel führen kann. In der
+          <lb n="20"/>That habe ich eigentlich allen Briefwechsel völlig aufgegeben, denn da ich auf der
+          <!-- Z. 21: Zeilenanfang von einem dunklen Fleck am linken Rand verdeckt (sichtbar evtl. „…lon“); „da“ evtl. gestrichen -->
+          <lb n="21"/><gap reason="illegible" quantity="1" unit="word"/> hundert Menschen in Verbindung stehe, <unclear cert="low">da</unclear> mit jeder neuen Reise die alten
+          <!-- Z. 22: „sondern“ alternativ „so ändern“ -->
+          <lb n="22"/><unclear cert="medium">Correspondenten</unclear> den neuen Platz machen <unclear cert="medium">müßten</unclear> — <unclear cert="low">sondern</unclear> meine unschätzbarsten Freunde
+          <!-- Ende der bearbeiteten Zeilen. Die übrigen ca. 20–25 Zeilen der Seite sind nicht transkribiert.
+               Vorläufige Lesefragmente aus schnellen Durchgängen, NICHT verifiziert,
+               Zeilenzuordnung und Reihenfolge unsicher (nur als Einstieg fürs Weiterarbeiten):
+               … wenn man täglich 600 … Briefe …
+               … auf 4 u 5 meiner vertrautesten Freunde …
+               … ich wohl nicht erst zu sagen. Wenn ich auch nur …
+               … alle 2 – 3 Monathe schreiben, so …
+               … mir selbst. Nachdem ich in Salzburg meine zweite Reise …
+               … nach Italien u die … Vulkane zu …
+               … welches ich in Neapel über die gelehrt… …
+               … aufgab, hatte ich keine andre …
+               … Lord Bristol ein Schiff in Livorno gekauft hatte …
+               … Mailand … In Paris … Bougainville …
+               … bei Bologna … 60000 Rt. …
+               … mit magnetischen Untersuchungen … Egypten …
+               … vor Toulon … Buonaparte … bereits abgesegelt war. Mit diesen … -->
+          <gap reason="not-transcribed" unit="line" atLeast="20" atMost="25"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
