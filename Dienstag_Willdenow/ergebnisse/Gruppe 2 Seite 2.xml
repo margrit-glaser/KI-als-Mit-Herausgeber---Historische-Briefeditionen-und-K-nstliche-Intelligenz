@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- Speichern Sie eine eigene Kopie. Füllen Sie die leeren Elemente aus.
+       Die Kommentare geben Hinweise und gehören nicht zum Brieftext.
+       Sie können gelöscht werden, nachdem Sie die Bearbeitung abgeschlossen haben.
+       Der Header beschreibt Ihre Seminarbearbeitung und deren Quellen.
+       Den Umfang des Textausschnitts legen wir in der Sitzung fest. -->
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Humboldt an Willdenow</title>
+        <author>
+          <persName>Alexander von Humboldt</persName>
+        </author>
+        <respStmt>
+          <resp>Einfügen von TEI-XML Elementen persName, placeName, abbr</resp>
+          <name>Carlotta</name>
+          <name>Hamza</name>
+        </respStmt>
+      </titleStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <institution>Staatsbibliothek zu Berlin</institution>
+            <repository>Nachlässe digital</repository>
+            <collection><!-- Zu welcher Sammlung gehört die Handschrift? --></collection>
+            <idno type="shelfmark">Autogr. I/169</idno>
+            <idno type="URI">http://resolver.staatsbibliothek-berlin.de/SBB0001A88D00000000</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p>Titel wurden als Teil des Namens kodiert</p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Alexander von Humboldt</persName>
+          <placeName>Aranjuez</placeName>
+          <date>20.04.1799</date>
+          <placeName>La Coruña</placeName>
+          <date>05.06.1799</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Karl Ludwig Willdenow</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <p>
+      <pb/>n="2"
+      <lb/>war ich beschäftigt, als auf einmal das Directorium den heroischen Entschluß faßt, nicht
+<lb/>den 75 jährigen <persName>Bougainville</persName> sondern den <abbr>Cap.</abbr> Baudin eine Reise um die
+<lb/>Welt machen zu lassen. Ich höre von diesem arrêté nicht eher, als auch schon
+<lb/>das Gouvernement mich einladen läßt, mich auf dem Volcan, einer der 3 Corvetten
+<lb/>einzuschiffen. Alle National-Samlungen wurden mir geöfnet, um von Instrumenten
+<lb/>zu sammeln, was ich wollte. Bei der Wahl der Naturalisten, bei allem was
+<lb/>die Ausrüstung betraf wurde ich um Rath befragt. Viele meiner Freunde waren
+<lb/>unzufrieden damit, mich den Gefahren einer 5 jährigen Seereise ausgesezt zu sehen,
+<lb/>aber mein Entschluß stand eisern fest <abbr>u</abbr> ich würde mich selbst verachtet haben, wenn
+<lb/>ich eine solche Gelegenheit nüzlich zu sein, versäumt hätte. Die Schiffe waren
+<lb/>bemastet. <persName>Bougainville</persName> wollte mir seinen 14 jährigen Sohn anvertrauen, damit er
+<lb/>sich früh an die Gefahren des Seelebens gewöhnte. Die Wahl der unserer Gefährten
+<lb/>war vortreflich, lauter junge, kenntnißvolle, kräftige Menschen. Wie scharf jeder
+<lb/>den anderen ins Auge faßte, wenn er ihn zum ersten Male sah. Vorher fremd
+<lb/><abbr>u</abbr> dann so viele Jahre lang einander so nahe. Das 1ste Jahr sollten wir in <placeName>Paraguaÿ</placeName>,
+<lb/><abbr>u</abbr> im <placeName>Patagonenlande</placeName>, das <abbr>2te</abbr> in <placeName>Peru</placeName>, <placeName>Chili</placeName>, <placeName>Mexiko</placeName><abbr>u</abbr><placeName>Californien</placeName>, das 3te
+<lb/>im <placeName>Südmeer</placeName>, das <abbr>4te</abbr> in <placeName>Madagascar</placeName> <abbr>u</abbr> das <abbr>5te</abbr> in <placeName>Guinea</placeName> zubringen.
+<lb/>Mein Bruder <abbr>u</abbr> meine Schwägerin wollten mich bis in den <placeName>Havre</placeName> begleiten. Wir waren
+<lb/>alle mit der Idee so vertraut, daß diese Abreise uns ein Fest schien. Welch ein
+<lb/>unnennbarer Schmerz, als in 14 Tagen, alle alle diese Hofnungen scheiterten. Elende
+<lb/>300000 livres<abbr>u</abbr>der nahe gefürchtete Ausbruch des Krieges waren die Ursachen. Mein
+<lb/>persönlicher Einfluß bei <persName>François de Neufchâteau</persName>, der mir sehr wohl will, alle Trieb-
+<lb/>federn waren umsonst. In <placeName>Paris</placeName>, das von dieser Reise voll gewesen war, glaubte man
+<lb/>uns abgesegelt. Das directorium sezte durch ein <abbr>2tes</abbr> arrêté die Abreise bis
+<lb/>zum künftigen Jahre (??) aus. Eine solche Lage, ein solcher Schmerz läßt sich nur
+<lb/>fühlen. Aber Männer müssen handeln, <abbr>u</abbr> sich nicht dem Schmerz überlassen. Ich
+<lb/>faßte nun den Entschluß der egÿptischen Armee auf dem Landwege mit der Cara-
+<lb/>vane die von <placeName>Tripolis</placeName> durch die <placeName>Wüste Selimar</placeName> nach <placeName>Cairo</placeName> geht zu folgen.
+<lb/>Ich gesellte einen der jungen Leute der mit zur Reise um die Welt bestim̅t war,
+<lb/><persName>Bonpland</persName>, einen sehr guten Botanisten, den besten Schüler von <persName>Jussieu</persName> <abbr>u</abbr>
+<lb/>Desfontaines mir zu. Er hat auf der Flotte gedient, ist sehr stämmig, muthig,
+<lb/>gutmüthig, <abbr>u</abbr> in der anatomia comparata geschikt. Wir eilten nach <placeName>Marseille</placeName> um
+<lb/>von dort aus mit dem Schwedischen <persName>Consul Sköldebrand</persName> auf einer Fregatte, welche
+<lb/>Geschenke führte, abzugehen. Ich wollte den Winter in <placeName>Alger</placeName> <abbr>u</abbr> dem <placeName>Atlas</placeName>
+<lb/>zubringen, wo in der <placeName>Provinz Constantine</placeName> (laut <persName>Desfontaines</persName>) noch ein 400 neue
+<lb/>species zu finden sind, von da wollte ich über <placeName>Suffetula</placeName>, <placeName>Tunis</placeName>, <placeName>Tripoli</placeName>
+<lb/>auf der Caravana, welche nach <placeName>Mecka</placeName> geht, zu <persName>Buonaparte</persName> stoßen. 2 Monathe
+<lb/>lang harrten wir vergeblich Unsere Koffer mußten gepakt bleiben<abbr>u</abbr>wir lie-
+<lb/>fen täglich ans Ufer. Die Fregatte Jaramas, welche uns führen sollte, ging
+<lb/>unter. Alle Manschaft ersoff. Einige meiner Freunde, welche mich schon einge-
+<lb/>schift glaubten, hat diese Nachricht sehr erschrekt. Ich miethete, durch das lange
+<lb/>Harren nicht abgeschrekt, einen Ragusaner der uns directe nach <placeName>Tunis</placeName> führen
+<lb/>sollte. Die Municipilatät zu <placeName>Marseille</placeName> aber, wahrscheinlich schon unterrichtet
+<lb/>von den Stürmen welche bald in der Berberei gegen alle Franzosen zus aus-
+<lb/>brechen sollten, verweigerte die Pässe. Bald darauf kam die Nachricht an, daß
+<lb/>der Dey von <placeName>Alger</placeName> die Caravane nach <placeName>Mekka</placeName> nicht abgehen lassen wolle, da-
+<lb/>mit sie nicht durch das von Christen verunreinigte <placeName>Egÿpten</placeName> gehe – nun war alle
+<lb/>Hofnung nach <placeName>Cairo</placeName> zur Armee zu stoßen dahin. Zur See war alle
+</p>
+    </body>
+  </text>
+</TEI>
