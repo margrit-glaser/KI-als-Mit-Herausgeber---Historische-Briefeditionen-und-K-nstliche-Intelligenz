@@ -14,7 +14,7 @@ Was für alle Wege gilt: Die KI ist Werkzeug, nicht Herausgeberin. Sie bleiben f
 ### Materialien
 
 - [Tagebuch_Juli_1823.xml](Tagebuch_Juli_1823.xml): Ausgangsdatei; Erläuterungen dazu in der [README-Datei](README.md#die-datei)
-- [Digitalisate des Tagebuchs 1823](https://goethe-biographica.de/recherche/tagebuecher/1823-1824/digitalisate-einzeltagebuecher/tagebuch-1823.html) in den PROPYLÄEN
+- Digitalisate der Einträge in den PROPYLÄEN, erreichbar über die ID des Eintrags, z. B. [GT09_0183](https://goethe-biographica.de/id/GT09_0183) für den 1. Juli (alle Links in der [README-Datei](README.md#digitalisate))
 - PDF-Dateien der Druckausgabe, Band 9 (werden in der Sitzung bereitgestellt)
 - [Hilfsmittel des Goethe- und Schiller-Archivs](README.md#hilfsmittel-des-goethe--und-schiller-archivs)
 - zum Vergleich: [Eintrag vom 27.2.1825 in der Kodierung der PROPYLÄEN](../Aufgaben_und_Daten_Tagebuch_Februar_1825/referenz_propylaeen/18250227_GT20058_tei.xml)
