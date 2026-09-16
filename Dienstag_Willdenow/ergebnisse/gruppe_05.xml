@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <!-- Speichern Sie eine eigene Kopie. Füllen Sie die leeren Elemente aus.
-       Die Kommentare geben Hinweise und gehören nicht zum Brieftext.
-       Sie können gelöscht werden, nachdem Sie die Bearbeitung abgeschlossen haben.
-       Der Header beschreibt Ihre Seminarbearbeitung und deren Quellen.
-       Den Umfang des Textausschnitts legen wir in der Sitzung fest. -->
 
   <teiHeader>
     <fileDesc>
@@ -26,8 +21,8 @@
         <msDesc>
           <msIdentifier>
             <institution>Staatsbibliothek zu Berlin</institution>
-            <repository>Handschriftenabteilung </repository>
-            <collection><!-- Zu welcher Sammlung gehört die Handschrift? --> Nachlässe Digital (?)</collection>
+            <repository>Handschriftenabteilung</repository>
+            <collection><!-- Zu welcher Sammlung gehört die Handschrift? --> Nachlässe Digital(?)</collection>
             <idno type="shelfmark">Autogr.I/169</idno>
             <idno type="URI">http://resolver.staatsbibliothek-berlin.de/SBB0001A88D00000000</idno>
           </msIdentifier>
@@ -40,7 +35,7 @@
         <p><!-- Halten Sie kurz Ihre Regeln für Transkription und Auszeichnung fest.
                Wie behandeln Sie etwa Abkürzungen und unsichere Lesungen? --> 
                Ausgezeichnet werden Personennamen (inklusive z.B. König, wenn eine eindeutige Person gemeint ist, aber ohne indirekte Nennungen),
-                Ortsnamen, Abkürzungen (inklusive "u" als Abkürzung für "und"), Einfügungen, unklare Stellen und lateinische Schrift; </p>
+                Ortsnamen, Abkürzungen (insbesondere "u" als Abkürzung für "und"), Einfügungen von Humboldt, unklare Stellen und lateinische Schrift</p>
       </editorialDecl>
     </encodingDesc>
 
