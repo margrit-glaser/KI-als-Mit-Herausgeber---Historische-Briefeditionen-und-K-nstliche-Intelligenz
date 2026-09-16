@@ -16,7 +16,7 @@ Was für alle Wege gilt: Die KI ist Werkzeug, nicht Herausgeberin. Sie bleiben f
 - [Tagebuch_Juli_1823.xml](Tagebuch_Juli_1823.xml): Ausgangsdatei; Erläuterungen dazu in der [README-Datei](README.md#die-datei)
 - PDF-Dateien der Druckausgabe, Band 9 (werden in der Sitzung bereitgestellt)
 - [Hilfsmittel des Goethe- und Schiller-Archivs](README.md#hilfsmittel-des-goethe--und-schiller-archivs)
-- zum Vergleich: [Eintrag vom 27.2.1825 in der Kodierung der PROPYLÄEN](../Aufgaben_und_Daten_Tagebuch/referenz_propylaeen/18250227_GT20058_tei.xml)
+- zum Vergleich: [Eintrag vom 27.2.1825 in der Kodierung der PROPYLÄEN](../Aufgaben_und_Daten_Tagebuch_Februar_1825/referenz_propylaeen/18250227_GT20058_tei.xml)
 - [TEI Guidelines, Kapitel 11: Representation of Primary Sources](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html)
 
 ### Vorschlag zur Arbeitsweise
@@ -68,7 +68,7 @@ Fragen, die sich dabei stellen können:
 - Wird bei `Kriegrath > Kriegsrath` das ganze Wort als Ersetzung kodiert oder nur der ergänzte Buchstabe?
 - Was bedeutet `hand="#44155"` an den Einträgen, und wie verhält es sich zu den Siglen `Jo` und `G`? (so:fie könnte helfen.)
 - Was geschieht mit Apparatnotizen, die sich nicht sinnvoll in Elemente überführen lassen?
-- Wie gehen die PROPYLÄEN im [Vergleichseintrag von 1825](../Aufgaben_und_Daten_Tagebuch/referenz_propylaeen/18250227_GT20058_tei.xml) vor (`subst`, `del rendition="#ow"`, `add place="across"`)?
+- Wie gehen die PROPYLÄEN im [Vergleichseintrag von 1825](../Aufgaben_und_Daten_Tagebuch_Februar_1825/referenz_propylaeen/18250227_GT20058_tei.xml) vor (`subst`, `del rendition="#ow"`, `add place="across"`)?
 
 Ihre Regeln lassen sich im `teiHeader` unter `encodingDesc/editorialDecl` festhalten.
 
@@ -143,7 +143,7 @@ Mögliche Schritte:
 - Briefe **an** Goethe suchen. Die [Regestausgabe Briefe an Goethe](https://ores.klassik-stiftung.de/ords/f?p=403) reicht derzeit nur bis 1822. Welche anderen Wege gibt es, etwa über die [Archivdatenbank](https://ores.klassik-stiftung.de/ords/f?p=401) oder die PROPYLÄEN?
 - Festhalten, welche Briefe sich nicht eindeutig zuordnen lassen, und warum.
 
-Für die Kodierung der Briefnotizen gibt es verschiedene Möglichkeiten, etwa `rs type="letter"` mit einem Verweis (`@ref`) auf den Datensatz, einen eigenen Abschnitt `div type="exped"` wie im [Vergleichseintrag](../Aufgaben_und_Daten_Tagebuch/referenz_propylaeen/18250227_GT20058_tei.xml) oder `anchor`-Elemente des Typs „Briefausgangsnotiz“.
+Für die Kodierung der Briefnotizen gibt es verschiedene Möglichkeiten, etwa `rs type="letter"` mit einem Verweis (`@ref`) auf den Datensatz, einen eigenen Abschnitt `div type="exped"` wie im [Vergleichseintrag](../Aufgaben_und_Daten_Tagebuch_Februar_1825/referenz_propylaeen/18250227_GT20058_tei.xml) oder `anchor`-Elemente des Typs „Briefausgangsnotiz“.
 
 ---
 
