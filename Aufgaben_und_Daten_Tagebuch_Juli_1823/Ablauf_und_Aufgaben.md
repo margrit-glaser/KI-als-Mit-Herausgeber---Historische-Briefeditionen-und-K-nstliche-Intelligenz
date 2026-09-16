@@ -14,6 +14,7 @@ Was für alle Wege gilt: Die KI ist Werkzeug, nicht Herausgeberin. Sie bleiben f
 ### Materialien
 
 - [Tagebuch_Juli_1823.xml](Tagebuch_Juli_1823.xml): Ausgangsdatei; Erläuterungen dazu in der [README-Datei](README.md#die-datei)
+- [Digitalisate des Tagebuchs 1823](https://goethe-biographica.de/recherche/tagebuecher/1823-1824/digitalisate-einzeltagebuecher/tagebuch-1823.html) in den PROPYLÄEN
 - PDF-Dateien der Druckausgabe, Band 9 (werden in der Sitzung bereitgestellt)
 - [Hilfsmittel des Goethe- und Schiller-Archivs](README.md#hilfsmittel-des-goethe--und-schiller-archivs)
 - zum Vergleich: [Eintrag vom 27.2.1825 in der Kodierung der PROPYLÄEN](../Aufgaben_und_Daten_Tagebuch_Februar_1825/referenz_propylaeen/18250227_GT20058_tei.xml)
@@ -35,6 +36,7 @@ Ein Einstieg könnte sein, sich zunächst ohne KI einen Überblick zu verschaffe
 - Wie hängen ein `ptr` im Text und der zugehörige `app` am Dateiende zusammen (`ptr/@target`, `app/@n`, `app/@ana`)?
 - Auf welche Textstelle bezieht sich ein Apparateintrag? Der Verweis steht hinter dem Wort; wo beginnt die betroffene Stelle?
 - Was zeigt der Vergleich einiger Stellen mit Text und Apparat in der Druckausgabe? Ist bei der Konvertierung etwas verloren gegangen oder verschoben worden?
+- Wie sehen die Stellen in der Handschrift aus? Die [Digitalisate](README.md#digitalisate) zeigen, was der Apparat beschreibt, etwa eine Korrektur von Goethes Hand oder eine Ergänzung in der linken Spalte.
 
 ### 2. Die Siglen des Apparats klären
 
@@ -83,7 +85,7 @@ Besuchte mich Hofr. Rehbein und Inspector<ptr target="#220_84,14"/>
 Besuchte mich Hofr. Rehbein und <del>Dr.</del> Inspector
 ```
 
-Ob diese Lösung dem Befund entspricht, lässt sich an der Druckausgabe prüfen.
+Ob diese Lösung dem Befund entspricht, lässt sich an der Druckausgabe und am Digitalisat prüfen.
 
 ### 4. Den Apparat mit KI überführen
 
@@ -103,7 +105,7 @@ Mögliche Prüffragen:
 
 - **Texttreue:** Entspricht der Text ohne `del`-Inhalte noch Zeichen für Zeichen der Ausgangsdatei? Ein Vergleichsskript kann helfen.
 - **Vollständigkeit:** Sind alle Apparateinträge berücksichtigt? Wie viele `ptr` sind übrig?
-- **Befund:** Stimmen Position und Reichweite der Kodierungen mit dem Apparat der Druckausgabe überein?
+- **Befund:** Stimmen Position und Reichweite der Kodierungen mit dem Apparat der Druckausgabe und mit den Digitalisaten überein?
 - **Gültigkeit:** Ist die Datei wohlgeformt und valide gegen das TEI-Schema?
 - **KI-Fehler:** Wurde Text verändert, wurden Siglen falsch gedeutet oder Notizen erfunden?
 

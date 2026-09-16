@@ -33,6 +33,10 @@ Der Ausschnitt enthält 31 Tageseinträge und 103 Apparateinträge. Einträge an
 </app>
 ```
 
+## Digitalisate
+
+Die Handschrift des Tagebuchs 1823 ist in den PROPYLÄEN digitalisiert: [Digitalisate Tagebuch 1823](https://goethe-biographica.de/recherche/tagebuecher/1823-1824/digitalisate-einzeltagebuecher/tagebuch-1823.html). Dort können Sie die Einträge vom Juli 1823 aufsuchen und Korrekturen, Ergänzungen, Streichungen und Schreiberwechsel am Original prüfen. Beachten Sie die dort angegebenen Nutzungsbedingungen.
+
 ## Druckausgabe
 
 Als Hilfsmittel stehen Ihnen die beiden PDF-Dateien der Druckausgabe (Band 9) zur Verfügung. Sie werden in der Sitzung bereitgestellt und sind nicht Teil dieses Repositorys. Dort finden Sie den gedruckten Text, den Apparat, die Erläuterung der Siglen und Zeichen sowie den Kommentar.
