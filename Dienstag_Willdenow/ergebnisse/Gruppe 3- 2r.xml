@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- Speichern Sie eine eigene Kopie. Füllen Sie die leeren Elemente aus.
+       Die Kommentare geben Hinweise und gehören nicht zum Brieftext.
+       Sie können gelöscht werden, nachdem Sie die Bearbeitung abgeschlossen haben.
+       Der Header beschreibt Ihre Seminarbearbeitung und deren Quellen.
+       Den Umfang des Textausschnitts legen wir in der Sitzung fest. -->
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- Brieft S.3 --></title>
+        <author>
+          <persName><!-- Alexander von Humboldt --></persName>
+        </author>
+        <respStmt>
+          <resp><!-- Editor --></resp>
+          <name><!--  Lena Baulig und Louis Assauer --></name>
+        </respStmt>
+      </titleStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <institution><!-- Staatsbibliothek zu Berlin - Preußische Kulturbesitz --></institution>
+            <repository><!-- Naxhlässe und Autographen --></repository>
+            <collection><!-- Nachlässe und Autographen--></collection>
+            <idno type="shelfmark"><!-- Autogr. I/169 --></idno>
+            <idno type="URI"><!-- 	http://resolver.staatsbibliothek-berlin.de/SBB0001A88D00000000 --></idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- Halten Sie kurz Ihre Regeln für Transkription und Auszeichnung fest.
+               Wie behandeln Sie etwa Abkürzungen und unsichere Lesungen? --></p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName><!-- Alexander von Humboldt --></persName>
+          <!-- Der Brief entstand in zwei Schreibphasen. Erfassen Sie die
+               zugehörigen Orte und Daten anhand der Quellenangaben. -->
+          <placeName><!-- Schreibort der ersten Schreibphase --></placeName>
+          <date><!-- Datum der ersten Schreibphase --></date>
+          <placeName><!-- Schreibort der zweiten Schreibphase --></placeName>
+          <date><!-- Datum der zweiten Schreibphase --></date>
+          <!-- Ergänzen Sie bei Bedarf an den date-Elementen das Attribut when
+               mit einem Datum im Format JJJJ-MM-TT. Ein Schreibdatum ist
+               nicht automatisch ein nachgewiesenes Versanddatum. -->
+        </correspAction>
+        <correspAction type="received">
+          <persName><!-- Tragen Sie den Empfänger ein. --></persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <!-- Fügen Sie den vereinbarten Briefausschnitt ein und zeichnen Sie ihn
+           selbst aus. Das leere p-Element ist ein Ausgangspunkt; passen Sie
+           die Textstruktur dem bearbeiteten Ausschnitt an. -->
+
+
+<pb n="2r"/>
+<lb/> Communikation abgeschnitten. Es blieb mir nichts übrig, als für den Herbst die Reise in
+<lb/> den <placeName>Orient</placeName> aufzugeben, den Winter in <placeName>Spanien</placeName> zuzubringen und von dort aus
+<lb/> im Frühjahr ein Schiff nach <placeName>Smyrna</placeName> zu suchen. Traurige Zeiten in denen man
+<lb/> troz aller Aufopferungen <abbr.>u</abbr.> wollte man Millionen daran wenden, nicht sicher von
+<lb/> Küste zu Küste <choice><orig>kom̅en</orig><reg>kommen</reg></choice> kann. Ich reiste nun, meist zu Fuß <del>de</del>, längst der Küste des
+<lb/> mittelländischen Meeres, über <placeName>Cette</placeName>, <placeName>Monpellier</placeName>, <placeName>Narbonne</placeName>, <placeName>Perpignan</placeName>, die Pyrenäen, <abbr.>u</abbr.>
+<lb/> <placeName>Catalonien</placeName> nach <placeName>Valencia</placeName> <abbr.>u</abbr.> <placeName>Murcia</placeName> <abbr.>u</abbr.> von da über durch die hohe Ebene von
+<lb/> La Mancha hieher. In Montpellier brachte ich köstliche Tage in <persName>Chaptals</persName> Hause, in
+<lb/> <placeName>Barcellona</placeName> bei <persName>John Gille</persName> einem Engländer zu, der mit dem ich <placeName>Hamburg</placeName> zusamen wohnte
+<lb/> <abbr.>u</abbr.> der jezt in Spanien Chef einer großen Handlung ist. In den <placeName>Thälern der Pyrenäen</placeName>
+<lb/> blühten die Schoten, während daß der Canigou sein schneebedektes Haupt daneben erhob,
+<lb/> in Katalonien <abbr.>u</abbr.> Valencia ist das Land ein ewiger Garten, mit Cactus <abbr.>u</abbr.> Agave
+<lb/> eingefaßt. <measure>40–50 Fuß</measure> hohe Dattelpalmen streben mit Traubenfrüchten beladen über alle
+<lb/> Klöster <del>h</del> empor. Der Akker scheint ein Wald von Ceratop Ceratonia, Oelbäumen
+<lb/> <abbr.>u</abbr.> Orangen, von denen viele, Stämme Kronen wie unsere Birnbäume haben. In
+<lb/> <placeName>Valencia</placeName> kosten 68 Orangen <measure>1 piacette</measure> <abbr.>d. i.</abbr.> <measure>6 gr.</measure> Bei Balaguet <abbr.>u</abbr.> am Ausfluß des
+<lb/> Ebro ist eine <measure>10 Meilen</measure> lange Ebene mit Chamaerops, Pistacien <abbr.>u</abbr.> zahllosen Erica-
+<lb break="no"/> Arten (E. vagans. E. scoparia E. mediterrania) <abbr.>u</abbr.> Cistus bewachsen. Die Heide blühte <abbr.>u</abbr.> mit<g type="hyphon"/>
+<lb break="no"/>ten in der Wildniß pflükten wir Narcissen <abbr.>u</abbr.> Jonquillen. Bei Cambrils ist Phö<g type="hyphon"/> 
+<lb break="no"/>nix dactilifera so verwildert, daß man 20–30 Stämme so dicht grouppirt sieht,
+<lb/> daß kein Thier durchdringen kann. Da man weiße Palmenblätter sehr in den
+<lb/> Kirchen liebt, so sieht man in Valencia Dattelstämme deren mittlerer Trieb
+<lb/> mit einer Art conischer Müze von Stipa tenacissima überzogen ist, damit die
+<lb/> jungen Blätter im Finstern <seg><orig>etiolirt</orig><note type="editor">Etioliert beschreibt eine Pflanze, die durch starken Lichtmangel blass, gelblich und mit sehr dünnen, langen Stängeln gewachsen ist.</note></seg> werden. Das bassin in dem die Stadt Va-
+<lb/> lence liegt, südlich wie Calabrien, hat an Ueppigkeit der Vegetation seines Gleichen in Europa
+<lb/> nicht. Man glaubt nie Bäume u Blätter gesehen zu haben,
+<lb/> wenn man diese Palmen, Granaten, Ceratonia, Malven p
+<lb/> sieht. Mitte Januar stand das Thermometer im Schatten 18° Réaum. Alle Blüthen waren
+<lb/> fast schon abgefallen. Im Pouzzol blühen Musa bihai, Aletris u Ravenalien im
+<lb/> Freien. Schinus molle, Anona reticulata u Laurus Persea sind dort sehr gemein u tra-
+<lb/> gen jährlich reife Früchte. Von den Ruinen von Tarragon, dem Berge von Murviedro,
+<lb/> oder dem Dianentempel des alten Sagunt, seinem ungeheuren Amphiteater, dem
+<lb/> Herkulesthurm, von dem man die Thürme von Valencia aus einem Walde von Dat-
+<lb/> telpalmen u Garaffen hervorragen sieht u das Meer u das Cabo de Culleras –
+<lb/> von dem allen sage ich nichts. Ihr Armen die Ihr Euch kaum erwärmen kontet, während
+<lb/> daß ich mit triefender Stirn unter blühenden Orangen u auf Aekkern umherlief, die
+<lb/> durch tausend Kanäle bewässert, in einem Jahre 5 Erndten (Reis, Weizen, Hanf, Erbsen u
+<lb/> Baumwolle) tragen. Wie gern vergißt man bei dieser Ueppigkeit des Pflanzenwuchses, bei dieser
+<lb/> unbeschreiblichen Schönheit der Menschenformen die Beschwerden des Weges u die Wirtshäuser in denen
+<lb/> auch nicht einmal Brod zu haben ist. Dazu ist die Küste fast überall schön angebaut. In Ca-
+<lb/> talonien herscht eine Industrie die der Holländischen gleicht. In allen Dörfern wird gewebt,
+<lb/> Schifbau getrieben p alles arbeitet. Der Akker- u Gartenbau ist vielleicht in Europa nicht
+<lb/> weiter getrie gediehen, als zwischen Castellon de la Plana u Valencia. Aber 15 Meilen
+<lb/> in das Innere des Landes hinein ist alles öde. Dieses Innere ist die Kuppe eines
+<lb/> Gebirges, daß 2–3000 F. hoch über dem Meere stehen geblieben ist, als das Mittelmeer
+<lb/> alles verschlang. Dieser Höhe verdankt Spanien sein Dasein, aber auch (die Küsten ab-
+<lb/> gerechnet) seine Dürre u zum Theil seine Kälte. Bei Madrid leiden die Oelbäume
+<lb/> schon oft im Freien; u Orangen im Freien sind eine Seltenheit. Doch ich fange an zu be-
+<lb/> schreiben, was ich eigentlich nie thun will, da ich Bücher statt eines Briefes schikken müßte.
+<lb/> Ich kehre zu meinen Plänen zurük:
+
+      <p></p>
+    </body>
+  </text>
+</TEI>
