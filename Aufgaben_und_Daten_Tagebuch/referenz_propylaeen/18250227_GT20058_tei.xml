@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gt-sorting-number bd="10" n="590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gt20058">
+  <teiHeader xml:id="gt20058_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" sameAs="gt_diary_70.xml#gt_diary_70">Tagebuch 1825</title>
+        <title type="sub">27.2.1825, Sonntag, <placeName key="sndb:ort#79627">Weimar</placeName></title>
+      </titleStmt>
+<publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+<publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Tagebücher. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+<pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2025-11-25T12:23:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gt20058_tei.xml</idno>
+        <idno type="URI">gt20058</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">gt20058</idno>
+        <idno type="KSW-ID">20058</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+          <listBibl>
+            <bibl/>
+          </listBibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gt_diary70_header_hwit84" corresp="#gt_diary70_source_hwit84" sameAs="#gt_diary70_comment_hwit84">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+<placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>27 Goethe, Johann Wolfgang von / Tagebücher</collection>
+            <idno type="shelfmark">GSA 27/42</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:11342</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Secr. Kräuter, wegen dersMeteorolog. Abdrucks. Munda der Briefe an Reinhard und Beust nach</incipit>
+            </msItem>
+          </msContents>
+<physDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+<projectDesc>
+        <p>Die historisch-kritische Ausgabe der Tagebücher von Johann Wolfgang Goethe ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica.</p>
+      </projectDesc>
+      <editorialDecl>
+<p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht eintragsspezifisch sondern GT-global!)]</rendition>
+      </tagsDecl>
+      <refsDecl>
+        <cRefPattern matchPattern="sndb:person#([0-9]+)" replacementPattern="https://ores.klassik-stiftung.de/ords/f?p=900:2:::::P2_ID:$1">
+<p>URIs using <code>sndb:person</code> are pointers to person entries in the authority file database of the Klassik Stiftung Weimar (so:fie). For example, <code>sndb:person#2475</code> dereferences to <code>https://ores.klassik-stiftung.de/ords/f?p=900:2:::::P2_ID:2475</code>.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="sndb:ort#([0-9]+)" replacementPattern="https://ores.klassik-stiftung.de/ords/f?p=900:4:::::P4_ID:$1">
+<p>URIs using <code>sndb:ort</code> are pointers to place entries in the authority file database of the Klassik Stiftung Weimar (so:fie). For example, <code>sndb:ort#79627</code> dereferences to <code>https://ores.klassik-stiftung.de/ords/f?p=900:4:::::P4_ID:79627</code>.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="sndb:organisation#([0-9]+)" replacementPattern="https://ores.klassik-stiftung.de/ords/f?p=900:2:::::P2_ID:$1">
+<p>URIs using <code>sndb:organisation</code> are pointers to organisation entries in the authority file database of the Klassik Stiftung Weimar (so:fie). For example, <code>sndb:organisation#89684</code> dereferences to <code>https://ores.klassik-stiftung.de/ords/f?p=900:2:::::P2_ID:89684</code>.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="gnd:ort#([0-9]+-X)" replacementPattern="https://d-nb.info/gnd/$1">
+<p>Private URIs using the <code>gnd</code> prefix are pointers to place entries in the integrated authority file (GND) of the Deutsche Nationalbibliothek. For example, <code>gnd:ort#4065105-8</code> dereferences to <code>https://d-nb.info/gnd/4065105-8</code>.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="gnd:person#([0-9]+-X)" replacementPattern="https://d-nb.info/gnd/$1">
+<p>Private URIs using the <code>gnd</code> prefix are pointers to person entries in the integrated authority file (GND) of the Deutsche Nationalbibliothek. For example, <code>gnd:person#1030517312</code> dereferences to <code>https://d-nb.info/gnd/1030517312</code>.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+<profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:space="preserve" type="source" xml:id="gt20058_source" corresp="#gt20058_comment" resp="gnd:person#133829685">
+<body>
+<div type="diaryEntry">
+<dateline><supplied><placeName key="SNDB79627" type="uebernachtungsort"/></supplied>
+<lb/><date when="1825-02-27"><hi rendition="#u">Sonntag</hi> <abbr>d<g ref="#typoSuspension"/>.</abbr> 27. <abbr><hi rendition="#latin">ejd.</hi></abbr></date></dateline>
+<div type="diaryText">
+<p>
+<lb/><anchor type="Begegnungen-Meteorologie/Wetter" xml:id="gt20058_lemText010"/><rs type="person" key="sndb:person#44302"><abbr>Secr.</abbr> Kräuter</rs>, wegen de<subst><del rendition="#ow">r</del><add place="across">s</add></subst>
+<lb/><abbr>Meteorolog<g ref="#typoSuspension"/>.</abbr> Abdrucks.<anchor corresp="#gt20058_lemText010"/> <anchor type="Briefausgangsnotiz" xml:id="gt20058_lemText020"/>Munda
+<lb/>der Briefe an <rs type="person" key="sndb:person#40609">Reinhard</rs>
+<lb/>und <rs type="person" key="sndb:person#43135">Beust</rs> nach <rs type="place" key="sndb:ort#77853">Frankfurt</rs>.<anchor corresp="#gt20058_lemText020"/>
+<lb/><anchor type="Werkentstehung" xml:id="gt20058_lemText030"/><rs type="person" key="sndb:person#44570">Meyers</rs> Aufsatz zu <abbr>K.</abbr> <abbr>u</abbr>
+<lb/><abbr>Alterth.</abbr> mundirt.<anchor corresp="#gt20058_lemText030"/> <anchor type="Begegnungen" xml:id="gt20058_lemText040"/><rs type="person" key="sndb:person#43691">Der
+<lb/>junge Frommann</rs>.<anchor corresp="#gt20058_lemText040"/> <anchor type="Mittag" xml:id="gt20058_lemText050"/>Mittag
+<lb/><rs type="person" key="sndb:person#36828"><abbr>Dr.</abbr> Eckermann</rs>.<anchor corresp="#gt20058_lemText050"/> <anchor type="Familienangelegenheiten" xml:id="gt20058_lemText060"/><rs type="person" key="sndb:person#43780">Mein Sohn</rs> hatte
+<lb/>den Hofdienst.<anchor corresp="#gt20058_lemText060"/> <anchor type="Lektüre" xml:id="gt20058_lemText070"/><rs type="place" key="sndb:ort#79565">Venetianische</rs>
+<lb/>Sonette des <rs type="person" key="sndb:person#40355">Grafen Platen</rs>,
+<lb/>lobenswürdig gefunden.<anchor corresp="#gt20058_lemText070"/> <anchor type="Werkentstehung" xml:id="gt20058_lemText080"/>Be<g ref="#typoHyphen"/>
+<lb break="no"/>trachtungen über Faust. Die
+<lb/>ältern Nacharbeitungen
+<lb/>vorgenommen. Einiges zu
+<lb/>rechte gestellt.<anchor corresp="#gt20058_lemText080"/> <del rendition="#s"><g ref="#NB"/> <rs type="person" key="sndb:person#44302">Kräuter</rs>
+<lb/>hatte früh <abbr>u.</abbr></del> <anchor type="Begegnungen" xml:id="gt20058_lemText090"/><rs type="person" key="sndb:person#37707"><abbr>Ober Consistor.</abbr>
+<lb/>Rath Günther</rs>, Kohle und Holz
+<lb/><abbr>v.</abbr> <rs type="place" key="sndb:ort#78549">Mattstett</rs> bringend.
+<pb type="v" facs="gt:digitalisate#27/11342/11342_56.jpg"/>
+<lb/><fw><abbr><hi rendition="#latin">Febr.</hi></abbr></fw>
+<lb/>Zeigte <rs type="person" key="sndb:person#37707">ihm</rs> die <hi rendition="#latin">flora subterranea</hi>
+<lb/>des <rs type="person" key="sndb:person#49782">Grafen Sternberg</rs> und eini<g ref="#typoHyphen"/>
+<lb break="no"/>ge Musterstücke vor.<anchor corresp="#gt20058_lemText090"/> <anchor type="Briefeingangsnotiz" xml:id="gt20058_lemText100"/>Billet
+<lb/>von <rs type="person" key="sndb:person#36828">Eckermann</rs>, wegen einer
+<lb/><rs type="person" key="sndb:person#78040">Hannöverischen</rs> Anstellung.<anchor corresp="#gt20058_lemText100"/>
+</p>
+</div>
+<div type="exped">
+<pb type="r" facs="gt:digitalisate#27/11342/11342_55.jpg"/>
+<list>
+<item><anchor type="Briefausgangsnotiz" xml:id="gt20058_lemExped020"/><lb/><abbr>H<g ref="#typoSuspension"/>.</abbr> Grafen <hi rendition="#u">Reinhard</hi> nach
+<lb/><abbr>Frkfrt</abbr> <abbr>a/m</abbr><anchor corresp="#gt20058_lemExped020"/></item>
+<item><anchor type="Briefausgangsnotiz" xml:id="gt20058_lemExped030"/><lb/><abbr>H<g ref="#typoSuspension"/>.</abbr> <hi rendition="#u">Velten</hi>, nach Carlsruhe
+<lb/>mit einer Rolle. 
+<lb/>Gingen erst Morgen ab.<anchor corresp="#gt20058_lemExped010"/><anchor corresp="#gt20058_lemExped030"/></item>
+</list>
+</div>
+</div>
+</body>
+</text>
+</TEI>

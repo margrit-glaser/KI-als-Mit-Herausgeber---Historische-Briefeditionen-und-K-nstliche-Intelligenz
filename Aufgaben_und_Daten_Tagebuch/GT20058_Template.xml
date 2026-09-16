@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- Speichern Sie eine eigene Kopie. Füllen Sie die leeren Elemente aus.
+       Die Kommentare geben Hinweise und gehören nicht zum Tagebuchtext.
+       Sie können gelöscht werden, nachdem Sie die Bearbeitung abgeschlossen haben.
+       Der Header beschreibt Ihre Seminarbearbeitung und deren Quellen. -->
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><!-- Tragen Sie den Titel Ihrer Bearbeitung ein. Nennen Sie Jahrgang und Eintrag. --></title>
+        <author>
+          <persName><!-- Wessen Tagebuch ist das? --></persName>
+        </author>
+        <respStmt>
+          <resp><!-- Beschreiben Sie Ihre Tätigkeit bei dieser Bearbeitung. --></resp>
+          <name><!-- Tragen Sie die Namen der Bearbeitenden ein. --></name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <p><!-- Beschreiben Sie den Status Ihrer Fassung, z. B. unveröffentlichte Seminarbearbeitung. --></p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country><!-- Land --></country>
+            <settlement><!-- Ort der aufbewahrenden Institution --></settlement>
+            <institution><!-- Welche Institution bewahrt die Handschrift auf? --></institution>
+            <collection><!-- Zu welchem Bestand gehört die Handschrift? --></collection>
+            <idno type="shelfmark"><!-- Tragen Sie die Signatur ein. --></idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- Halten Sie kurz Ihre Regeln für Transkription und Auszeichnung fest.
+               Wie behandeln Sie etwa Streichungen, Abkürzungen und unsichere Lesungen?
+               Wie geben Sie die zweispaltige Anlage der Seiten wieder? --></p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <creation>
+        <!-- Auf welchen Tag bezieht sich der Eintrag, und wo wurde er geschrieben?
+             Ergänzen Sie am date-Element das Attribut when im Format JJJJ-MM-TT. -->
+        <date></date>
+        <placeName></placeName>
+      </creation>
+      <langUsage>
+        <language ident="de">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <!-- Ein Tagebucheintrag besteht aus einer Datumszeile, dem Eintragstext
+           und den Expeditionen, den Notizen zur abgehenden Post in der linken Spalte.
+           Die Struktur unten ist ein Ausgangspunkt; passen Sie sie dem Befund an. -->
+      <div type="diaryEntry">
+        <dateline><!-- Datumszeile des Eintrags --></dateline>
+        <div type="diaryText">
+          <p></p>
+        </div>
+        <div type="exped">
+          <!-- Erfassen Sie hier die Notizen der linken Spalte.
+               Auf welcher Seite stehen sie? Die Liste ist ein Vorschlag:
+               ein item pro Notiz; passen Sie sie dem Befund an. -->
+          <list>
+            <item></item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
