@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3660"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb31" n="GB 3, Nr. 357">
+  <teiHeader xml:id="gb31_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>357.</label> An <persName key="sndb:person#39285">Johann August Ludecus</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 8. Mai <supplied>1778. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:07Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb31_tei.xml</idno>
+        <idno type="URI">gb31</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR357_0</idno>
+        <idno type="KSW-ID">31</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="206" to="206">206</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="697" to="698">697-698</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb31_header_hwit1351" corresp="#gb31_source_hwit1351" sameAs="#gb31_comment_hwit1351" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/316,I</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8364</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/31,,1351/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Für Durchl. den Prinzen hab ich 10 Dukaten an Mahler Müllern in Rom ausgelegt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-05-08">8. Mai <supplied>1778</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39285">Ludecus, Johann August</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#93">RA 1, Nr. 85</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb31_source_hwit1351" corresp="#gb31_header_hwit1351" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#31/12127"/>
+      <p>
+        <anchor xml:id="GB03_1_BR357_0_206_008"/>Für Durch<g ref="#typoSuspension"/> den <ref target="gb:note#GB03_2_BR357_0_note_001_206_8" xml:id="start_com_3135"/>Prinzen<ref xml:id="end_com_3135"/> hab ich <ref target="gb:note#GB03_2_BR357_0_note_002_206_8" xml:id="start_com_3137"/>10 Dukaten an Mahler Müllern<ref xml:id="end_com_3137"/> in 
+<anchor xml:id="GB03_1_BR357_0_206_009"/>Rom ausgelegt und auch schon <ref target="gb:note#GB03_2_BR357_0_note_003_206_9" xml:id="start_com_3138"/>die Quittung<ref xml:id="end_com_3138"/> überschickt bitte gelegent
+<anchor xml:id="GB03_1_BR357_0_206_010"/><g ref="#typoSuspension"/>. um den <ref target="gb:note#GB03_2_BR357_0_note_004_206_10" xml:id="start_com_3136"/>Ersaz<ref xml:id="end_com_3136"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck3">
+          <anchor xml:id="GB03_1_BR357_0_206_011"/>d<g ref="#typoSuspension"/>. 8 May                                   </dateline>
+        <signed rend="signature">Goethe</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#31/12128"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb31_comment">
+<body>
+<div type="metadata" xml:id="gb31_comment_com979">
+  <ab type="numberAddressee"><label>357.</label> An <persName key="sndb:person#39285">Johann August Ludecus</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 8. Mai <supplied>1778</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb31_comment_com1840">
+  <p>Der Brief stammt aller Wahrscheinlichkeit nach aus dem Jahr 1778. Die als Unterstützung von Friedrich Müller gedachte Subskription war durch einen Brief des Erfurter Statthalters Carl Theodor von Dalberg an Goethe vom 4. Mai 1778 (vgl. <ref target="ra:dokument#93">RA 1, 70, Nr 85</ref>) initiiert worden. In diesen Zusammenhang gehören vermutlich die von Goethe ausgelegten zehn Dukaten (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR357_0_note_002_206_8">206,8</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb31_comment_com3023">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8364">GSA 29/316,I</ref>. – 1 Bl. 18,1 × 9,7 cm, &#xBE; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">H<g ref="#typoSuspension"/>. Rath / Ludeckus</quote>, rote Siegelreste.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 50 (1912), 8, Nr 700a (Carl Schüddekopf).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb31_comment_com4819">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Johann August Ludecus (1742–1801) war seit 1775 Geheimsekretär der Herzoginmutter Anna Amalia in Weimar, seit 1777 auch deren Schatullier; als solcher hatte er die Zuständigkeit für die Finanzen des Prinzen Constantin. 1785 wurde er Steuer- und Akziserat, 1801 Hofrat. Ludecus war mit Johann Joachim Bode und Carl Ludwig von Knebel befreundet; die Beziehung zu Goethe war rein amtlicher Natur. – Von Goethe ist außer dem vorliegenden nur noch ein Brief vom 17. November 1787 aus Rom an Ludecus überliefert (<ref target="gb:dokument#12219">GB 7 I, Nr 122</ref>). Von Ludecus gibt es fünf überlieferte Briefe an Goethe aus den Jahren 1793–1801; sie betreffen ausschließlich Geschäftliches.</p>
+  <p rendition="#einrueck1">Der Maler Friedrich Müller (als Schriftsteller Maler Müller genannt) ging im August 1778 nach Rom, um dort Studien zu treiben und sich weiter auszubilden. Carl Theodor von Dalberg hatte angeregt, Müller durch ein jährliches Stipendium zu unterstützen, an welchem sich, vermittelt durch Goethe, auch Wieland, Knebel und der herzogliche Hof in Weimar als Geldgeber beteiligten. Vgl. dazu ausführlich die einleitende Erläuterung zu <ref target="gb:note#gb3651_comment_com3988">Nr 383</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb31_comment_com5298">
+<label xml:id="GB03_2_BR357_0_note_001_206_8" copyOf="#start_com_3135"><hi rendition="#fett">206,8</hi>Prinzen</label>
+<p>Constantin von Sachsen-Weimar und Eisenach, der sich am Stipendium für Friedrich Müller beteiligte.</p>
+
+</note>
+<note xml:id="gb31_comment_com5299">
+<label xml:id="GB03_2_BR357_0_note_002_206_8" copyOf="#start_com_3137"><hi rendition="#fett">206,8</hi>10 Dukaten an Mahler Müllern</label>
+<p>Das Geld dürfte als Teilbetrag (etwa 30 Reichstaler) für die Müller gewährte jährliche Pension von gut 304 Reichstalern (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb3651_comment_com3988">Nr 383</ref>) gedacht gewesen sein.</p>
+
+</note>
+<note xml:id="gb31_comment_com15477">
+<label xml:id="GB03_2_BR357_0_note_003_206_9" copyOf="#start_com_3138"><hi rendition="#fett">206,9</hi>die Quittung</label>
+<p>Aus dem Jahr 1778 liegen keine Quittungen vor. Es ist lediglich eine Quittung aus dem Jahr 1780 überliefert, die belegt, dass die Zahlungen jährlich erfolgten: „Zehn Ducaten Pension auf das Jahr 1779 für Mahler Müller in Rom aus Durchl. Prinzen Constantin Scatoulle erhalten. Weimar d. 20. Jan. 1780. P. C. Goethe“ (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A 1425, Bl. 413r).</p>
+
+</note>
+<note xml:id="gb31_comment_com5300">
+<label xml:id="GB03_2_BR357_0_note_004_206_10" copyOf="#start_com_3136"><hi rendition="#fett">206,10</hi>Ersaz</label>
+<p>Ein Beleg für die Auszahlung der Summe durch Ludecus ist nicht überliefert.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

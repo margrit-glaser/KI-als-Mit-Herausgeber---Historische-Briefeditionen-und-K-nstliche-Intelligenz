@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1870"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11208" n="GB 3, Nr. 185">
+  <teiHeader xml:id="gb11208_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>185.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. November 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11208_tei.xml</idno>
+        <idno type="URI">gb11208</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR185_0</idno>
+        <idno type="KSW-ID">11208</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="116" to="117">116-117</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="420" to="421">420-421</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11208_header_hwit1098" corresp="#gb11208_source_hwit1098" sameAs="#gb11208_comment_hwit1098" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 38</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11208,,1098/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lenz grüsst Sie er ist bey mir. Hier der Mantel er hat mich wohl gehalten. Akkurat</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11208_header_acc486" corresp="gb11208_comment_acc486">
+            <objectIdentifier>
+              <objectName><quote type="G">Mantel</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-11-10">10. November 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11208_source_hwit1098" corresp="#gb11208_header_hwit1098" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11208/22482"/>
+      <p>
+        <anchor xml:id="GB03_1_BR185_0_116_023"/>
+        <ref target="gb:note#GB03_2_BR185_0_note_001_116_23" xml:id="start_com_1774"/>Lenz grüsst sie<ref xml:id="end_com_1774"/> er ist bey mir. Hier <ref target="gb:note#GB03_2_BR185_0_note_002_116_23" xml:id="start_com_1775"/>der Mantel<ref xml:id="end_com_1775"/> er hat mich wohl gehalten 
+<anchor xml:id="GB03_1_BR185_0_116_024"/>Akkurat <ref target="gb:note#GB03_2_BR185_0_note_003_116_24" xml:id="start_com_1776"/>20 Minuten brauch ich von Ihrer Stube in meine<ref xml:id="end_com_1776"/>. 
+<anchor xml:id="GB03_1_BR185_0_117_001"/>Vielleicht komm ich <ref target="gb:note#GB03_2_BR185_0_note_004_117_1" xml:id="start_com_1777"/>ein paar Seiten Englisch<ref xml:id="end_com_1777"/> zurückzulegen, <ref target="gb:note#GB03_2_BR185_0_note_005_117_1-2" xml:id="start_com_1778"/>eh Sie 
+<anchor xml:id="GB03_1_BR185_0_117_002"/>nach Hof gehn<ref xml:id="end_com_1778"/>. Ich maskire mir iezt das Verlangen Sie zu sehen mit 
+<anchor xml:id="GB03_1_BR185_0_117_003"/>der Idee dass ich Ihnen <ref target="gb:note#GB03_2_BR185_0_note_006_117_3" xml:id="start_com_1779"/>zu was nuz bin<ref xml:id="end_com_1779"/>. Addio.   d<g ref="#typoSuspension"/>. 10 Nov 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR185_0_117_004"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11208_comment">
+<body>
+<div type="metadata" xml:id="gb11208_comment_com656">
+  <ab type="numberAddressee"><label>185.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. November 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11208_comment_com2700">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 38. – 1 Bl. 10 × 8,6 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), &#xBE; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „94“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 94), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 70.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 119, Nr 526.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11208_comment_com3628">
+  <p><quote type="G">Mantel</quote> (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR185_0_note_002_116_23">116,23</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11208_comment_com4496">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11208_comment_com17764">
+<label xml:id="GB03_2_BR185_0_note_001_116_23" copyOf="#start_com_1774"><hi rendition="#fett">116,23</hi>Lenz grüsst sie</label>
+<p>Lenz war demnach aus Berka zurückgekehrt, von wo aus er am 3. November 1776 an Charlotte von Stein geschrieben hatte, um sich für all die Liebenswürdigkeiten, mit denen er während seines Kochberger Aufenthaltes bedacht worden sei, zu bedanken: „I feal’d all my faculties hightend by your presence and thought myself a superior being, as i was sure to prove so, near the influences of your genius in all that i did undertake of. Therefore do not wonder at the roughness and infirmity of the very expressions of my letter, having even forgot all my English, by being no more inspired from as gracious a Scolar, of whom the very presence and her application to that tongue did improve me of all that i could teach her and to speak truly, have been much more profitable to me than all my instructions could have proved to her.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 47 f. – „Ich fühlte all meine Fähigkeiten gesteigert durch Ihre Gegenwart und hielt mich selbst für ein höheres Wesen, so wie ich sicher war, dafür, nahe den Einflüssen Ihres Genius, in allem, was ich unternahm, den Nachweis zu erbringen. Wundern Sie sich daher nicht über die Ungeschliffenheit und Kraftlosigkeit der Ausdrücke meines Briefes, da ich mein ganzes Englisch vergessen habe, werde ich doch nicht mehr von einer so begeisterten Schülerin angefeuert, deren bloße Gegenwart und deren Bemühung um diese Sprache mich in allem verbesserte, was ich sie lehren konnte und was, um die Wahrheit zu sagen, gewinnbringender für mich war, als alle meine Belehrungen für sie sein konnten.“ [<ref target="sndb:sigle#2977">Lenz, Werke und Briefe</ref> 3, 892].)</p>
+
+</note>
+<note xml:id="gb11208_comment_com10582">
+<label xml:id="GB03_2_BR185_0_note_002_116_23" copyOf="#start_com_1775"><hi rendition="#fett">116,23</hi>der Mantel</label>
+<p>Hier wahrscheinlich ein langer in Falten gelegter Umhang aus Wolle, den Frauen über ihrer Kleidung trugen (vgl. <ref target="sndb:sigle#3152">Zedler</ref> 19, 1102) oder „eine wollene Decke“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1763); möglicherweise der in späteren Briefen mehrfach ausdrücklich erwähnte ‚blaue Mantel‘ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR257_0_note_003_144_13">144,13</ref>).</p>
+
+</note>
+<note xml:id="gb11208_comment_com18711">
+<label xml:id="GB03_2_BR185_0_note_003_116_24" copyOf="#start_com_1776"><hi rendition="#fett">116,24</hi>20 Minuten <gap quantity="3" reason="editorial"/> von Ihrer Stube in meine</label>
+<p>Mit Bezug auf das Gartenhaus, das Goethe einige Tage zuvor winterfest gemacht hatte, wie u. a. der Tagebucheintrag vom 8. November 1776 belegt: <quote type="G"><gap quantity="3" reason="editorial"/> im Garten. aufgeräumt und Anstalt zu winter bleiben.</quote> (<ref target="gt:dokument#199">GT I 1, 29</ref>; vgl. auch <ref target="gb:text#GB03_1_BR187_0_118_006 #GB03_1_BR187_0_118_008">118,6–8</ref>; <ref target="gb:text#GB03_1_BR188_0_118_017 #GB03_1_BR188_0_118_018">118,17–18</ref>.) Vom Garten über dem „Stern“ an der Ilm bis zu Charlotte von Steins Stadtwohnung in der Kleinen Teichgasse 8, nahe dem heutigen Kasseturm, brauchte man demnach bei der damaligen Straßenführung zu Fuß etwa 20 Minuten (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>). – Goethes Stadtwohnung am heutigen Burgplatz (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>) lag dagegen näher an der Teichgasse.</p>
+
+</note>
+<note xml:id="gb11208_comment_com10796">
+<label xml:id="GB03_2_BR185_0_note_004_117_1" copyOf="#start_com_1777"><hi rendition="#fett">117,1</hi>ein paar Seiten Englisch</label>
+<p>Wahrscheinlich eine gemeinsame Shakespeare-Lektüre (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_007_104_15">104,15</ref>). Demnach hatte Goethe es nun selbst übernommen, Charlotte von Stein Englischstunden zu geben (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_006_104_10">104,10</ref>).</p>
+
+</note>
+<note xml:id="gb11208_comment_com17819">
+<label xml:id="GB03_2_BR185_0_note_005_117_1-2" copyOf="#start_com_1778"><hi rendition="#fett">117,1-2</hi>eh Sie nach Hof gehn</label>
+<p>Charlotte von Stein war am 10. November 1776 Gast der abendlichen Hoftafel, im Fourierbuch ist sie nach der Herzogin Louise und der Herzoginmutter Anna Amalia namentlich aufgeführt; insgesamt waren an diesem Abend 15 Personen geladen, Herzog Carl August und sein engerer Kreis nahmen nicht teil (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 281). Eine Marschallstafel, an der Goethe als Bürgerlicher zugelassen war, fand offenbar nicht statt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_004_26_10">26,10</ref>).</p>
+
+</note>
+<note xml:id="gb11208_comment_com10797">
+<label xml:id="GB03_2_BR185_0_note_006_117_3" copyOf="#start_com_1779"><hi rendition="#fett">117,3</hi>zu was nuz bin</label>
+<p>Mit Bezug zum Englischunterricht, den zuvor Lenz erteilt hatte.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

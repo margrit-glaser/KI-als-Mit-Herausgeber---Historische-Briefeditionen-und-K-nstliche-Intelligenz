@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2850"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9221" n="GB 3, Nr. 280">
+  <teiHeader xml:id="gb9221_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>280.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 11. August 1777. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9221_tei.xml</idno>
+        <idno type="URI">gb9221</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR280_0</idno>
+        <idno type="KSW-ID">9221</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="155" to="155">155</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="547" to="549">547-549</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9221_header_hwit1229" corresp="#gb9221_source_hwit1229" sameAs="#gb9221_comment_hwit1229" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 55</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9221,,1229/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dass ich mich immer träumend an den Erscheinungen der Natur und an der Liebe zu Ihnen weide</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb9221_header_acc444" corresp="gb9221_comment_acc444">
+            <objectIdentifier>
+              <objectName>Gedichthandschrift </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-08-11">11. August 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9221_source_hwit1229" corresp="#gb9221_header_hwit1229" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9221/22650"/>
+      <p>
+        <anchor xml:id="GB03_1_BR280_0_155_009"/>Dass ich mich<ptr n="1" target="#a001_155.9"/> immer träumend an den Erscheinungen der Natur und 
+<anchor xml:id="GB03_1_BR280_0_155_010"/>an der Liebe zu Ihnen weide, sehn Sie an <ref target="gb:note#GB03_2_BR280_0_note_001_155_10" xml:id="start_com_2385"/>beykommendem<ref xml:id="end_com_2385"/>. Ich muss 
+<anchor xml:id="GB03_1_BR280_0_155_011"/>mich festhalten sonst risse mich <ref target="gb:note#GB03_2_BR280_0_note_002_155_11" xml:id="start_com_2386"/>Ihr Kummer<ref xml:id="end_com_2386"/> mit weg, und da ist mir 
+<anchor xml:id="GB03_1_BR280_0_155_012"/>so weh dass ich das einzige was meinem Herzen übrig bleibt, Ihr Andencken<ptr n="2" target="#a002_155.13"/>
+        <anchor xml:id="GB03_1_BR280_0_155_013"/>offt weghalten muss.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR280_0_155_014"/>Adieu Engel. <ref target="gb:note#GB03_2_BR280_0_note_003_155_14" xml:id="start_com_2387"/>Die Waldner<ref xml:id="end_com_2387"/> schickt mir eben <ref target="gb:note#GB03_2_BR280_0_note_004_155_14" xml:id="start_com_2388"/>das Paquet<ref xml:id="end_com_2388"/>. Sie geben 
+<anchor xml:id="GB03_1_BR280_0_155_015"/>mir Speise gegen Schatten. – Wenns <ref target="gb:note#GB03_2_BR280_0_note_005_155_15" xml:id="start_com_2389"/>Steinens Gesuch<ref xml:id="end_com_2389"/> thulich ist will 
+<anchor xml:id="GB03_1_BR280_0_155_016"/>ich’s zu machen suchen. Adieu beste.   d<g ref="#typoSuspension"/> 11 Aug 77   G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9221_comment">
+<body>
+<div type="metadata" xml:id="gb9221_comment_com895">
+  <ab type="numberAddressee"><label>280.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 11. August 1777 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9221_comment_com2939">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 55. – 1 Bl. 15,2(–16) × 9,9(–10,1) cm, untere linke Ecke ausgeschnitten, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „40“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 42), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 109.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 166, Nr 622.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb9221_comment_com3711">
+  <p>Gedichthandschrift (vgl. zu <ref target="gb:note#GB03_2_BR280_0_note_001_155_10">155,10</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb9221_comment_com4735">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Charlotte von Stein war am Abend des 29. Juli 1777 <quote type="G">unerwartet</quote> von Pyrmont zurückgekommen (<ref target="gt:dokument#408">GT I 1, 45</ref>), muss aber schon wenig später nach Kochberg gefahren sein (vgl. zu <ref target="gb:note#GB03_2_BR280_0_note_003_155_14">155,14</ref>), wo sie bis etwa Mitte Oktober blieb.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9221_comment_com16729">
+<label xml:id="GB03_2_BR280_0_note_001_155_10" copyOf="#start_com_2385"><hi rendition="#fett">155,10</hi>beykommendem</label>
+<p>Dem Kontext nach ein Gedicht Goethes; seit Petersen wird vermutet, dass eine Handschrift von „An den Mond“, möglicherweise in einer unbekannten frühen Fassung, beigelegen haben könnte (vgl. <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 574, Anm. zu Nr 180). – Die im Konvolut der Briefe Goethes an Charlotte von Stein erhaltene frühe Fassung mit Goethes Abschrift von Kaysers Vertonung entstand wahrscheinlich erst später, vermutlich zwischen Oktober/November 1777 und Ende Januar 1778 (vgl. Datierung zu <ref target="gb:note#gb11675_comment_com1647">Nr 326</ref>).</p>
+
+</note>
+<note xml:id="gb9221_comment_com7331">
+<label xml:id="GB03_2_BR280_0_note_002_155_11" copyOf="#start_com_2386"><hi rendition="#fett">155,11</hi>Ihr Kummer</label>
+<p>Ob es dafür einen konkreten Anlass gab, ist unklar. – Eine Ursache könnte die Sorge um den erkrankten Josias von Stein gewesen sein (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_021_154_3">154,3</ref>). Allerdings scheint es ihm Mitte August schon wieder sehr viel besser gegangen zu sein, wie das im Anschluss an die Erläuterungen zum vorliegenden Brief abgedruckte <ref target="gb:note#gb9221_comment_com84669">Billett</ref> der Herzogin Louise an Charlotte von Stein vom 19. August 1777 vermuten lässt.</p>
+
+</note>
+<note xml:id="gb9221_comment_com16799">
+<label xml:id="GB03_2_BR280_0_note_003_155_14" copyOf="#start_com_2387"><hi rendition="#fett">155,14</hi>Die Waldner</label>
+<p>Louise Adelaide Waldner von Freundstein, Hofdame der Herzogin Louise, eine Freundin Charlotte von Steins. – Wie das Fourierbuch belegt, waren „Durch<g ref="#typoSuspension"/>. Herzogin <supplied>Louise</supplied>, benebst der Fräu<g ref="#typoSuspension"/>. v. Waldner“ am 9. August 1777 „früh 6. Uhr <gap quantity="3" reason="editorial"/> auf des H<g ref="#typoSuspension"/>. OberstallMstr: v. Stein Ihr Guth nacher Kochberg“ gefahren; am 11. August „um 10. Uhr vor Mittags“ kamen sie wieder nach Weimar zurück (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 173 f.).</p>
+
+</note>
+<note xml:id="gb9221_comment_com7332">
+<label xml:id="GB03_2_BR280_0_note_004_155_14" copyOf="#start_com_2388"><hi rendition="#fett">155,14</hi>das Paquet</label>
+<p>Ein Geschenk Charlotte von Steins, vielleicht Lebensmittel (vgl. <ref target="gb:text#GB03_1_BR284_0_161_006">161,6</ref>).</p>
+
+</note>
+<note xml:id="gb9221_comment_com7333">
+<label xml:id="GB03_2_BR280_0_note_005_155_15" copyOf="#start_com_2389"><hi rendition="#fett">155,15</hi>Steinens Gesuch</label>
+<p>Möglicherweise eine Bitte um Beurlaubung Josias von Steins, der wahrscheinlich ebenfalls für einige Tage in Kochberg war, zumindest wird er in der Zeit vom 9. bis 12. August 1777 nicht unter den Gästen der Hoftafel genannt (vgl. <ref target="sndb:sigle#3943">FB 1777</ref>, S. 173–175).</p>
+
+</note>
+</div>
+<div xml:id="gb9221_comment_com84669">
+  <p>Louise Herzogin von Sachsen-Weimar und Eisenach an Charlotte von Stein</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56445_source" corresp="#gb56445_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB023_0_548_001"/>À Madame</p>
+      <p>
+        <anchor xml:id="GB03_2_FB023_0_548_002"/>La Baronne deStein</p>
+      <p>
+        <anchor xml:id="GB03_2_FB023_0_548_003"/>
+        <hi rendition="#hervor1">à Kochberg</hi>
+      </p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB023_0_548_004"/>à Belvedere la 19 áout 1777.</p>
+      <lb/>
+      <p>
+        <anchor xml:id="GB03_2_FB023_0_548_005"/>J’ai une proposition à vous faire ma chère Stein, qui est quevous alliés avec moi <ref target="gb:note#GB03_2_FB023_0_548_note_160_548_5-6" xml:id="start_com_7176"/>à 
+<anchor xml:id="GB03_2_FB023_0_548_006"/>Ilmenau<ref xml:id="end_com_7176"/>, mais si cela vous incommoda, ou quevous croyés que cela peut faire le 
+<anchor xml:id="GB03_2_FB023_0_548_007"/>moindre chagrin à votre mari, devous savoir éloignée, alors je renonce à ceplaisir, 
+<anchor xml:id="GB03_2_FB023_0_548_008"/>car jeserai au desespoir d’ etre cause delui faire la moindre peine, dans <ref target="gb:note#GB03_2_FB023_0_548_note_161_548_8-9" xml:id="start_com_7177"/>L’etat ouil-est<ref xml:id="end_com_7177"/>. 
+<anchor xml:id="GB03_2_FB023_0_548_009"/>Jel’ai vûe hier et l’ai trouvé assé bien, et bon visage; C’est avec bien delasatisfaction 
+<anchor xml:id="GB03_2_FB023_0_548_010"/>quejepense <ref target="gb:note#GB03_2_FB023_0_548_note_162_548_10" xml:id="start_com_7178"/>à mon sejour a Kochberg<ref xml:id="end_com_7178"/>, où deux jours m’ont passé bien aimablement. 
+<anchor xml:id="GB03_2_FB023_0_548_011"/>Embrassés vos Infans dema part; faites moi l’amitié deme repondre tous 
+<anchor xml:id="GB03_2_FB023_0_548_012"/>suite si j’aurai le plaisir devous voir de visage, ousi non; Le Duc desireroit le savoir 
+<anchor xml:id="GB03_2_FB023_0_548_013"/>à cause <ref target="gb:note#GB03_2_FB023_0_548_note_163_548_13" xml:id="start_com_7179"/>des anagrammes<ref xml:id="end_com_7179"/>. Adieu ma bien chère Stein, je vous aime bien tendrement. 
+<anchor xml:id="GB03_2_FB023_0_548_014"/>Louise.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56445_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56445_comment_com84664">
+  <p>(H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 9864. – Übersetzung:</p>
+  <lb/>
+  <p>An Frau</p>
+  <p>Baronin von Stein</p>
+  <p>auf Kochberg</p>
+  <p rendition="#einrueck17">Belvedere, 19. August 1777</p>
+  <lb/>
+  <p>Ich möchte Ihnen, meine liebe Stein, einen Vorschlag machen, nämlich gemeinsam mit Ihnen nach Ilmenau zu gehen. Aber wenn es Ihnen ungelegen kommt oder wenn Sie glauben, es könnte Ihrem Gatten auch nur den geringsten Kummer bereiten, Sie entfernt zu wissen, dann verzichte ich auf dieses Vergnügen, denn ich wäre untröstlich, Anlass auch nur seiner geringsten Betrübnis zu sein, in dem Zustand, in dem er sich befindet. Ich habe ihn gestern gesehen und fand, dass er recht gut und gesund aussah. Ich denke mit Entzücken an meinen Aufenthalt in Kochberg zurück, wo mir zwei Tage so reizend vergingen. Umarmen Sie Ihre Kinder von mir. Seien Sie so freundlich und antworten Sie mir rasch, ob ich das Vergnügen haben werde, Sie von Angesicht zu Angesicht zu sehen oder nicht; der Herzog möchte es gern wegen der Anagramme wissen. Adieu, meine liebe Stein, ich liebe Sie innig. Louise. – Transkription und Übersetzung von Wolf-Dieter Lange, Bonn.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56445_comment_com84665">
+<label xml:id="GB03_2_FB023_0_548_note_160_548_5-6" copyOf="#start_com_7176"><hi rendition="#normal">548,5-6</hi>à Ilmenau</label>
+<p>Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11795_comment_com4935">Nr 291</ref>. </p>
+</note>
+<note xml:id="gb56445_comment_com84666">
+<label xml:id="GB03_2_FB023_0_548_note_161_548_8-9" copyOf="#start_com_7177"><hi rendition="#normal">548,8-9</hi>L’etat ouil-est</label>
+<p>Mit Bezug auf Josias von Steins angegriffene Gesundheit (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_021_154_3">154,3</ref>). </p>
+</note>
+<note xml:id="gb56445_comment_com84667">
+<label xml:id="GB03_2_FB023_0_548_note_162_548_10" copyOf="#start_com_7178"><hi rendition="#normal">548,10</hi>à mon sejour a Kochberg</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR280_0_note_003_155_14">155,14</ref>. </p>
+</note>
+<note xml:id="gb56445_comment_com84668">
+<label xml:id="GB03_2_FB023_0_548_note_163_548_13" copyOf="#start_com_7179"><hi rendition="#normal">548,13</hi>des anagrammes</label>
+<p>Anagramm: ein Wort (z. B. ein Name), das durch Umstellung aus Buchstaben oder Silben eines anderen Wortes gebildet wird; hier wahrscheinlich mit Bezug auf ein für den Ilmenauer Aufenthalt geplantes Gesellschaftsspiel.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

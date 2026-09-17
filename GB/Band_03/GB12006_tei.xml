@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5310"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12006" n="GB 3, Nr. 521">
+  <teiHeader xml:id="gb12006_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>521.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 18. August 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12006_tei.xml</idno>
+        <idno type="URI">gb12006</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR521_0</idno>
+        <idno type="KSW-ID">12006</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="291" to="291">291</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="951" to="953">951-953</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12006_header_hwit1509" corresp="#gb12006_source_hwit1509" sameAs="#gb12006_comment_hwit1509" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 19</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12006,,1509/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich sehne mich gar sehr nach Ihnen, und so bald es möglich ist    werd ich kommen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb12006_header_acc408" corresp="gb12006_comment_acc408">
+            <objectIdentifier>
+              <objectName><quote type="G">Obst</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-08-18">18. August 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12006_source_hwit1509" corresp="#gb12006_header_hwit1509" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12006/23095"/>
+      <p>
+        <anchor xml:id="GB03_1_BR521_0_291_001"/>Ich sehne mich gar sehr nach Ihnen, und <ref target="gb:note#GB03_2_BR521_0_note_001_291_1-2" xml:id="start_com_4190"/>so bald es möglich ist werd 
+<anchor xml:id="GB03_1_BR521_0_291_002"/>ich kommen<ref xml:id="end_com_4190"/>, <ref target="gb:note#GB03_2_BR521_0_note_002_291_2" xml:id="start_com_4191"/>seit Sie weg sind<ref xml:id="end_com_4191"/>, bin ich überall herumgezogen, war 
+<anchor xml:id="GB03_1_BR521_0_291_003"/>einen Tag in <ref target="gb:note#GB03_2_BR521_0_note_003_291_3" xml:id="start_com_4192"/>Ettersburg<ref xml:id="end_com_4192"/>, in Tiefurth, <ref target="gb:note#GB03_2_BR521_0_note_004_291_3" xml:id="start_com_4193"/>auf<ptr n="1" target="#a001_291.3"/> der Jagd in Troistädt<ref xml:id="end_com_4193"/>, es ist 
+<anchor xml:id="GB03_1_BR521_0_291_004"/>wie mit einer Erbschafft die nach dem Abgang<ptr n="2" target="#a002_291.4"/> des einigen Besizzers 
+<anchor xml:id="GB03_1_BR521_0_291_005"/>an viele zerfällt. Mir wird s nicht recht wohl dabey, denn ich habe keinen 
+<anchor xml:id="GB03_1_BR521_0_291_006"/>Ort woher ich komme und wohin ich gehe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR521_0_291_007"/>Die <ref target="gb:note#GB03_2_BR521_0_note_005_291_7" xml:id="start_com_4194"/>Weste<ref xml:id="end_com_4194"/> sizt gar schön, es ist die erste die so passt zu meiner grosen 
+<anchor xml:id="GB03_1_BR521_0_291_008"/>Freude. Sie sieht gar lieblich, und ich hoffte drinn mit Ihnen <ref target="gb:note#GB03_2_BR521_0_note_006_291_8-9" xml:id="start_com_4195"/>einen 
+<anchor xml:id="GB03_1_BR521_0_291_009"/>Englischen<ref xml:id="end_com_4195"/> durchzuführen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR521_0_291_010"/>In Ettersburg fing ich aus zufälliger Laune an nach <ref target="gb:note#GB03_2_BR521_0_note_007_291_10-11" xml:id="start_com_4196"/>oeserischen 
+<anchor xml:id="GB03_1_BR521_0_291_011"/>Zeichnungen zu krizzeln<ref xml:id="end_com_4196"/>, es ging gut und nun mach ich mehr, Sie 
+<anchor xml:id="GB03_1_BR521_0_291_012"/>sollen ehstens<ptr n="3" target="#a003_291.12"/> etwas haben; der herzog hat<ptr n="4" target="#a004_291.12"/> eine Zeichnung von mir für 
+<anchor xml:id="GB03_1_BR521_0_291_013"/>
+        <ref target="gb:note#GB03_2_BR521_0_note_008_291_13" xml:id="start_com_4197"/>eine schöne Dame<ref xml:id="end_com_4197"/> verlangt, der er wie er sagt sie versprochen hat. 
+<anchor xml:id="GB03_1_BR521_0_291_014"/>Hier schick ich etwas Obst. Adieu sagen Sie mir durch <ref target="gb:note#GB03_2_BR521_0_note_009_291_14" xml:id="start_com_4198"/>die Botin<ref xml:id="end_com_4198"/> ein 
+<anchor xml:id="GB03_1_BR521_0_291_015"/>Wort und grüsen <ref target="gb:note#GB03_2_BR521_0_note_010_291_15" xml:id="start_com_4199"/>die Kinder<ref xml:id="end_com_4199"/>.     W. d<g ref="#typoSuspension"/>. 18 Aug 1779.           G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12006_comment">
+<body>
+<div type="metadata" xml:id="gb12006_comment_com1282">
+  <ab type="numberAddressee"><label>521.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 18. August 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12006_comment_com3326">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 19. – 1 Bl. 13,7 × 18,8(–19,4) cm, 1 S. beschr., egh., Tinte; Papier am unteren Rand abgeschnitten, dadurch Jahresangabe und Paraphe teilweise beschnitten; oben rechts von fremder Hd, Tinte: „40<hi rendition="#sup #u">a</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 41), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 232 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 53 f., Nr 838.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb12006_comment_com3812">
+  <p><quote type="G">Obst</quote> (<ref target="gb:text#GB03_1_BR521_0_291_014">291,14</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb12006_comment_com5122">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12006_comment_com12048">
+<label xml:id="GB03_2_BR521_0_note_001_291_1-2" copyOf="#start_com_4190"><hi rendition="#fett">291,1-2</hi>so bald es möglich ist werd ich kommen</label>
+<p>Goethe besuchte Charlotte von Stein vom 22. bis 25. August in Kochberg (vgl. zu <ref target="gb:note#GB03_2_BR523_0_note_001_292_8">292,8</ref>).</p>
+
+</note>
+<note xml:id="gb12006_comment_com15549">
+<label xml:id="GB03_2_BR521_0_note_002_291_2" copyOf="#start_com_4191"><hi rendition="#fett">291,2</hi>seit Sie weg sind</label>
+<p>Seit dem 11. August: <quote type="G">Früh ging &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">nach Kochberg</quote> (<ref target="gt:dokument#753">GT I 1, 87</ref>). – Wie der Kontext belegt, war der vorliegende Brief der erste, den Goethe der Freundin nach ihrer Abreise geschrieben hat (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12004_comment_com5121">Nr 518</ref>). In dieser Zeit scheint Goethes Verhältnis zu Corona Schröter ungewöhnlich eng gewesen zu sein. Für die Woche vom 15. bis zum 21. August z. B. lautet ein Tagebucheintrag: <quote type="G">Sonst mit Cr.</quote> <supplied>Crone: Corona</supplied> <quote type="G">gut gelebt und einiges mit Liebe gezeichnet wenns nur anhielte.</quote> (<ref target="gt:dokument#757">GT I 1, 87 f.</ref>) Auch am 27. August ging Goethe <quote type="G">Mittags zu Cronen</quote> (<ref target="gt:dokument#762">ebd., 88</ref>). Am 30. August war er wiederum mittags bei Corona Schröter. Am selben Abend gingen sie gemeinsam nach Belvedere, wozu der abschließende Tagebucheintrag lautet: <quote type="G">war ein überschöner Abend und Nacht</quote> (<ref target="gt:dokument#764">ebd., 89</ref>; vgl. zu <ref target="gb:note#GB03_2_BR524_0_note_011_293_7">293,7</ref>; zu <ref target="gb:note#GB03_2_BR524_0_note_012_293_8-9">293,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb12006_comment_com15638">
+<label xml:id="GB03_2_BR521_0_note_003_291_3" copyOf="#start_com_4192"><hi rendition="#fett">291,3</hi>Ettersburg</label>
+<p>Noch am Tag von Charlottes Abreise war Goethe nach Ettersburg gegangen, wo er bis zum Morgen des 13. August blieb: <quote type="G">Hatte eine starcke Erklärung mit &#x263E;</quote> <supplied>Herzoginmutter Anna Amalia</supplied> <quote type="G">die auf das alte hinauslief. bey Verhältnissen die nicht zu andern sind müssen gewisse Schärfigkeiten sich sammeln, und zulezt irgendwo ausbrechen. Von Zeit zu Zeit wiederhohlt sich das.</quote> (<ref target="gt:dokument#754">GT I 1, 87</ref>.) In Ettersburg traf Goethe außerdem die Gräfin Charitas Emilie von Bernstorff sowie deren Geschäftsführer, den Schriftsteller und Freimaurer Johann Joachim Christoph Bode, die seit Anfang November 1778 in Weimar lebten.</p>
+
+</note>
+<note xml:id="gb12006_comment_com18181">
+<label xml:id="GB03_2_BR521_0_note_004_291_3" copyOf="#start_com_4193"><hi rendition="#fett">291,3</hi>auf der Jagd in Troistädt</label>
+<p>Troistedt, etwa 10 km südwestlich von Weimar gelegen; der dortige Forst war Jagdrevier vorwiegend für Rotwild. – Im Tagebuch vermerkte Goethe: <quote type="G">Auf dem Troistädter Jagen d. 18<hi rendition="#sup">ten</hi> einen vergnügten Tag mit Wedeln.</quote> (<ref target="gt:dokument#758">GT I 1, 88</ref>.)</p>
+
+</note>
+<note xml:id="gb12006_comment_com12066">
+<label xml:id="GB03_2_BR521_0_note_005_291_7" copyOf="#start_com_4194"><hi rendition="#fett">291,7</hi>Weste</label>
+<p>Offenbar ein Geschenk Charlotte von Steins, das Goethe auch im Brief vom 7. September 1779 erwähnt (vgl. <ref target="gb:text#GB03_1_BR527_0_294_024">294,24</ref>).</p>
+
+</note>
+<note xml:id="gb12006_comment_com12067">
+<label xml:id="GB03_2_BR521_0_note_006_291_8-9" copyOf="#start_com_4195"><hi rendition="#fett">291,8-9</hi>einen Englischen</label>
+<p>Englischer Tanz, Bezeichnung für aus dem englischen Kulturbereich kommende Tänze. Beliebt war im 18. Jahrhundert vor allem der Kontertanz, ein höfischer Gesellschaftstanz (franz. Anglaise), bei dem sich die Tänzer in Reihen paarweise gegenüberstanden und verschiedene Figuren tanzten.</p>
+
+</note>
+<note xml:id="gb12006_comment_com12068">
+<label xml:id="GB03_2_BR521_0_note_007_291_10-11" copyOf="#start_com_4196"><hi rendition="#fett">291,10-11</hi>oeserischen Zeichnungen zu krizzeln</label>
+<p>Zeichnungen Goethes nach Vorlagen von Adam Friedrich Oeser sind aus dieser Zeit nicht überliefert.</p>
+
+</note>
+<note xml:id="gb12006_comment_com18095">
+<label xml:id="GB03_2_BR521_0_note_008_291_13" copyOf="#start_com_4197"><hi rendition="#fett">291,13</hi>eine schöne Dame</label>
+<p>Wahrscheinlich die damals 27-jährige Johanna Louise Gräfin von Werthern-Beichlingen auf Neunheiligen. Dass sie hier gemeint sein könnte, legt Goethes Tagebucheintrag vom 26. Juli nahe: <quote type="G">Der Herzog kam Abends mit der Gräfin Werther von Erfurt.</quote> (<ref target="gt:dokument#743">GT I 1, 84</ref>.) Laut Fourierbuch waren die Gräfin und ihr Mann Jacob Friedemann Graf von Werthern, ehemals spanischer Gesandter, vom 26. bis 30. Juli Gäste des Weimarer Hofes (vgl. <ref target="sndb:sigle#3945">FB 1779</ref>, S. 133 und 137). – Über das erwachende Interesse Herzog Carl Augusts an Johanna Louise Gräfin von Werthern vgl. zu <ref target="gb:note#GB03_2_BR524_0_note_002_292_17">292,17</ref>.</p>
+
+</note>
+<note xml:id="gb12006_comment_com11824">
+<label xml:id="GB03_2_BR521_0_note_009_291_14" copyOf="#start_com_4198"><hi rendition="#fett">291,14</hi>die Botin</label>
+<p>Möglicherweise Maria Dorothea Goetze (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR333_0_note_004_198_1">198,1</ref>). – Dass sie im Herbst 1779 mehrfach Botengänge nach Kochberg übernahm, geht aus Goethes Rechnungen hervor (vgl. <ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 13).</p>
+
+</note>
+<note xml:id="gb12006_comment_com15722">
+<label xml:id="GB03_2_BR521_0_note_010_291_15" copyOf="#start_com_4199"><hi rendition="#fett">291,15</hi>die Kinder</label>
+<p>Carl, Ernst und Friedrich von Stein.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2980"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10969" n="GB 3, Nr. 292">
+  <teiHeader xml:id="gb10969_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>292.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 27. Oktober <supplied>1777. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10969_tei.xml</idno>
+        <idno type="URI">gb10969</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR292_0</idno>
+        <idno type="KSW-ID">10969</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="170" to="171">170-171</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="579" to="582">579-582</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10969_header_hwit1743" corresp="#gb10969_source_hwit1743" sameAs="#gb10969_comment_hwit1743" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 129</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10969,,1743/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Auf deinen Brief dient zur Antwort dass wir von den Gemählden behalten wollen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-10-27">27. Oktober <supplied>1777</supplied></date>
+            <note>
+              <date type="WA" when="1780-10-27"><supplied>27. Oktober 1780</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10969_source_hwit1743" corresp="#gb10969_header_hwit1743" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10969/14416"/>
+      <p>
+        <anchor xml:id="GB03_1_BR292_0_170_012"/>Auf deinen Brief dient zur Antwort dass wir von den <ref target="gb:note#GB03_2_BR292_0_note_001_170_12" xml:id="start_com_2555"/>Gemählden<ref xml:id="end_com_2555"/> behalten 
+<anchor xml:id="GB03_1_BR292_0_170_013"/>wollen.</p>
+        <table><!-- GB 3, Nr. 292 -->
+         <row>
+            <cell><table><row>
+                     <cell><anchor xml:id="GB03_1_BR292_0_170_014"/><emph rendition="#latin">No.</emph></cell> <cell>26</cell> <cell></cell> <cell><ref target="gb:note#GB03_2_BR292_0_note_002_170_14" xml:id="start_com_2556"/>Jakob Steen<ref xml:id="end_com_2556"/>   &#x2014;&#x2013;</cell>
+            </row></table></cell>
+            <cell>&#xA0;f 75.</cell>
+         </row>
+            <row>
+               <cell><table><row>
+                        <cell><anchor xml:id="GB03_1_BR292_0_170_015"/>&#x2014;&#x2013;</cell>
+                            <cell>69</cell> <cell></cell> <cell><ref target="gb:note#GB03_2_BR292_0_note_003_170_15" xml:id="start_com_2557"/>Roos<ref xml:id="end_com_2557"/>   &#x2014;&#x2014;&#x2014;</cell>
+               </row></table></cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;72</cell>
+            </row>
+            <row>
+               <cell><table><row>
+                        <cell><anchor xml:id="GB03_1_BR292_0_170_016"/>&#x2014;&#x2013;</cell> <cell>45</cell> <cell></cell> <cell><ref target="gb:note#GB03_2_BR292_0_note_004_170_16" xml:id="start_com_2558"/>Mompre<ref xml:id="end_com_2558"/>   &#x2014;  &#x2014;</cell>
+               </row></table></cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;24</cell>
+            </row>
+            <row>
+               <cell><table><row>
+                        <cell><anchor xml:id="GB03_1_BR292_0_170_017"/>&#x2014;&#x2013;</cell> <cell>87</cell> <cell rows="2" rendition="#rightBraced"></cell> <cell rows="2"><emph rendition="#latin"><ref target="gb:note#GB03_2_BR292_0_note_005_170_18" xml:id="start_com_2559"/>St Vree</emph><ref xml:id="end_com_2559"/>   &#x2014;</cell>
+               </row>
+               <row>
+                  <cell></cell> <cell><anchor xml:id="GB03_1_BR292_0_170_018"/>88</cell>
+               </row></table></cell>
+               <cell><hi rendition="#u">&#xA0;&#xA0;&#xA0;&#xA0;60</hi></cell>
+            </row>
+           
+            <row>
+               <cell></cell> <cell>f 231</cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_BR292_0_170_019"/>Davon ab ein <ref target="gb:note#GB03_2_BR292_0_note_006_170_19" xml:id="start_com_2560"/>Quart<ref xml:id="end_com_2560"/> mit</cell> <cell><hi rendition="#u">&#xA0;&#xA0;&#xA0;&#xA0;57</hi></cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_BR292_0_170_020"/>wären etwa</cell> <cell>f 174</cell>
+            </row>
+         </table>
+      <p>
+        <anchor xml:id="GB03_1_BR292_0_170_021"/>
+        <ref target="gb:note#GB03_2_BR292_0_note_007_170_21" xml:id="start_com_2561"/>Wegen der Kupfer hab ich dir neulich schon geschrieben.<ref xml:id="end_com_2561"/> Seh was du 
+<anchor xml:id="GB03_1_BR292_0_170_022"/>machst.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR292_0_170_023"/>Uberhaupt kannst du künftig von uns vierteljährig auf 5 Carolin 
+<anchor xml:id="GB03_1_BR292_0_170_024"/>rechnen das mag nun für Ein<ptr n="1" target="#a001_170.24"/> gut blat seyn oder für mehrere, such 
+<anchor xml:id="GB03_1_BR292_0_170_025"/>und erwische was guts. Deinen Brief ohne Datum krieg ich erst heute 
+<anchor xml:id="GB03_1_BR292_0_171_001"/>d<g ref="#typoSuspension"/>. 27 Okts. <ref target="gb:note#GB03_2_BR292_0_note_008_171_1-2" xml:id="start_com_2562"/>Der Herzog hat eine böse hand von einem Hunde Biss 
+<anchor xml:id="GB03_1_BR292_0_171_002"/>mit aus Eisen. gebracht.<ref xml:id="end_com_2562"/> Er ist viel zu hause und drum wollt ich dass 
+<anchor xml:id="GB03_1_BR292_0_171_003"/>du bald was zu gucken schicktest.     Adieu.     Ubrigens wär mirs sehr 
+<anchor xml:id="GB03_1_BR292_0_171_004"/>gelegen wenn du mir <ref target="gb:note#GB03_2_BR292_0_note_009_171_4" xml:id="start_com_2563"/>einiges Geld<ref xml:id="end_com_2563"/> auf Weynachten heraus <ref target="gb:note#GB03_2_BR292_0_note_010_171_4-5" xml:id="start_com_2564"/>negotiirtest<ref xml:id="end_com_2564"/>. 
+<anchor xml:id="GB03_1_BR292_0_171_005"/>Ade. Nur die Gemählde sehr gut gepackt alle in Rahmen, keins 
+<anchor xml:id="GB03_1_BR292_0_171_006"/>gerollt pp.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR292_0_171_007"/>
+        <signed rend="paraph" rendition="#einrueck25">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10969/14417" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10969/14418" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10969/14419"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10969_comment">
+<body>
+<div type="metadata" xml:id="gb10969_comment_com1312">
+  <ab type="numberAddressee"><label>292.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 27. Oktober <supplied>1777</supplied> → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb10969_comment_com1979">
+  <p>In E wird der Brief ohne weitere Begründung ins Jahr 1780 gesetzt; die <ref target="sndb:sigle#1157">WA</ref> folgt dieser Datierung. Das fehlende Jahr 1777 ergibt sich aber eindeutig aus der Erwähnung der Verletzung Herzog Carl Augusts durch einen Hundebiss. Dazu kam es laut Goethes Tagebuch in der Zeit zwischen dem 11. und 22. Oktober 1777 (vgl. <ref target="gt:dokument#460">GT I 1, 50</ref> und GT I 2, 441, zu 50,30–31).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10969_comment_com3356">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 129. – Doppelblatt 17,2(–17,5) × 20,6(–20,9) cm, Büttenrand, 1 S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Herrn / Kriegsrath Merck / nach / Darmstadt / franck.</quote>, rotes Initialsiegel: „G“, durch Öffnen in zwei Hälften zerbrochen.</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 272 f., Nr 122.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 324 f., Nr 1031.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10969_comment_com5152">
+  <p>Der Bezugsbrief (vgl. <ref target="gb:text#GB03_1_BR292_0_170_012">170, 12</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 29. Oktober 1777 (vgl. <ref target="sndb:sigle#4227">GR/RB 1777,3</ref>, Bl. 10v).</p>
+  <p rendition="#einrueck1">Johann Heinrich Merck hatte Goethe vom 21. bis 28. September 1777 in Eisenach besucht, wo sich dieser im Gefolge Herzog Carl Augusts aufhielt, um am Ausschusstag der Eisenacher Landstände teilzunehmen. Hatte Merck zuvor Goethes Engagement am Weimarer Hof mit Missfallen betrachtet, so änderte er nach dem Besuch seine Meinung. Am 3. November 1777 schrieb er an Friedrich Nicolai: „Ich hab’ ihn <supplied>Goethe</supplied> neuerlich auf Wartburg besucht, und wir haben 10 Tage zusammen wie die Kinder gelebt. Mich freuts daß ich von Angesicht gesehen habe, was an seiner Situation ist – das Beste von allem ist der Herzog, den die Esel zu einem schwachen Menschen gebrandmarkt haben, u. der ein eisenfester Charakter ist. Ich würde aus Liebe zu ihm eben das thun, was Goethe thut. <gap quantity="3" reason="editorial"/> Ich sage Ihnen aufrichtig der Herzog ist Einer der respektabelsten, u. gescheutesten Menschen die ich je gesehen habe – und überlegen Sie dabey ein Fürst, u. ein Mensch von 20 Jahren.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 9.) Nach Goethes Tagebuchaufzeichnungen waren die gemeinsamen Tage nicht ohne Dissonanzen geblieben. Unter dem 27. September 1777 heißt es: <quote type="G">Hezze über Tisch. Unbehaglichkeit und Aerger. Vermehrt und gereizt durch M. Gegenwart.</quote> (<ref target="gt:dokument#446">GT I 1, 48</ref>.) Dennoch notierte Goethe am Abschiedsmorgen: <quote type="G">Früh 8 mit M. hinab. ich fühlte den Abschied als wir zum Burg thor hinaus traten.</quote> (<ref target="gt:dokument#447">GT I 1, 49</ref>.)</p>
+  <p rendition="#einrueck1">Während dieses Besuchs hatte Merck vom Herzog den Auftrag erhalten, ihm Kupferstiche, insbesondere Blätter von Rembrandt, zu besorgen. Die erste Lieferung gelangte mit einem Brief Mercks vom 25. Oktober 1777 an Friedrich Justin Bertuch, den Schatullverwalter des Herzogs, nach Weimar: „Ich habe hier die Ehre Ihnen die Rembrands für Ihro Durchlaucht den Herrn Herzog zu übersenden.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 770.) Goethe vermerkt im Tagebuch unter dem 1. November 1777: <quote type="G">kamen die Trauben und die Rembr. von Mercken.</quote> (<ref target="gt:dokument#470">GT I 1, 51</ref>.) Es folgten weitere Sendungen mit Briefen an Bertuch vom 3. Januar und vom 4. Februar 1778 (vgl. <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 28 f., 49). Im erstgenannten Brief erwähnt Merck die Künstler Jonas Suyderhoff und Cornelis Visscher (vgl. zu <ref target="gb:note#GB03_2_BR320_0_note_001_189_15">189,15</ref>) sowie das Bild „Joueurs de Vielle“ von Adriaen van Ostade (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR320_0_note_003_189_18">189,18</ref>), von denen auch in seinem Beitrag „Aus einem Schreiben an den H. über die Frage: wie eine Kupferstichsammlung anzulegen sey?“ im Mai-Heft des „Teutschen Merkur“ von 1778 (S. 170–175) die Rede ist. Vermutlich haben also die nach Weimar gesandten Blätter Merck zu seinem Aufsatz veranlasst. Am 18. März 1778 bedankte sich Goethe für eine neuerliche Lieferung (vgl. zu <ref target="gb:note#GB03_2_BR336_0_note_001_199_5">199,5</ref>). Neben Rembrandt war Dürer einer der Schwerpunkte von Mercks Sammlertätigkeit für Herzog Carl August. Auch für dessen Mutter, Herzogin Anna Amalia, kaufte Merck Graphik ein. (Über Mercks Dienste als Vermittler von Kunstwerken für Herzog Carl August vgl. <ref target="sndb:sigle#2155">Grave</ref>, 58–64; Markus Bertsch: Merck und die Anfänge der Graphiksammlung von Herzog Carl August. In: Räume der Kunst. Blicke auf Goethes Sammlungen. Hrsg. von Markus Bertsch und Johannes Grave. Göttingen 2005, S. 47–75; Ulrike Leuschner: Die Korrespondenzen des Johann Heinrich Merck. In: <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 5, 76 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10969_comment_com17661">
+<label xml:id="GB03_2_BR292_0_note_001_170_12" copyOf="#start_com_2555"><hi rendition="#fett">170,12</hi>Gemählden</label>
+<p>Die im Folgenden erwähnten Nummern entstammen offenbar Auktions- oder Lagerkatalogen. Ein Katalog aus dem Jahr 1777, der alle fünf Gemälde enthält, konnte nicht ermittelt werden. Möglicherweise handelte es sich um eine Auktion, zu der kein Katalog überliefert ist, wie etwa die Versteigerung der Kunstsammlung von Peter Pasquay im Jahr 1777 in Frankfurt (vgl. zu <ref target="gb:note#GB03_2_BR298_0_note_008_173_12">173,12</ref>). – Vgl. im Übrigen die Hinweise zu den im vorliegenden Brief angegebenen Einzelnummern in den folgenden Erläuterungen.</p>
+
+</note>
+<note xml:id="gb10969_comment_com10178">
+<label xml:id="GB03_2_BR292_0_note_002_170_14" copyOf="#start_com_2556"><hi rendition="#fett">170,14</hi>Jakob Steen</label>
+<p>Jan Steen, niederländischer Maler des 17. Jahrhunderts, der die längste Zeit seines Lebens in Leiden gelebt hat, wo er einige Jahre auch als Brauer und Schankwirt tätig war. Als Schöpfer zahlreicher, oft humoristisch-satirischer Szenen aus dem bäuerlichen und bürgerlichen Alltagsleben gilt er als „Maler und Erzähler“ zugleich (so der Titel der Ausstellung der National Gallery of Art, Washington, und des Rijksmuseums Amsterdam 1996/97; vgl. den Katalog gleichen Titels, hrsg. von Guido M. C. Jansen, Stuttgart, Zürich, Amsterdam, Washington 1996). – In den Weimarer Kunstsammlungen befindet sich ein Gemälde von unbekannter Hand: „Bauernfamilie. Wahrscheinlich Copie nach Jan Steen“ (Inv.-Nr G 790). Wann das Bild erworben wurde, ist nicht bekannt (vgl. <ref target="sndb:sigle#2878">Goethes „Bildergalerie“</ref>, 126, Nr 35).</p>
+
+</note>
+<note xml:id="gb10969_comment_com17711">
+<label xml:id="GB03_2_BR292_0_note_003_170_15" copyOf="#start_com_2557"><hi rendition="#fett">170,15</hi>Roos</label>
+<p>Johann Heinrich Roos, deutscher Maler des 17. Jahrhunderts, in der Pfalz geboren, in Amsterdam aufgewachsen, lebte seit 1659 in Heidelberg, seit 1667 in Frankfurt. Er war ebenso wie seine Söhne Philipp Peter und Johann Melchior Tiermaler. Goethes Jugendfreund, der Kunsthistoriker Heinrich Sebastian Hüsgen, nannte ihn den „Rafael aller Viehmaler“ (Verrätherische Briefe von Historie und Kunst. Frankfurt a. M. 1776, S. 45, Anm.). In seinem Brief an Merck vom 11. Oktober 1780 schrieb Goethe über eine von ihm erworbene Zeichnung (vgl. <ref target="sndb:sigle#3083">Schuchardt</ref> 1, 282, Nr 514; Abb. in: <ref target="sndb:sigle#2155">Grave</ref>, 575, Nr 6): <quote type="G">Drei Schaafgruppen auf einem halben Foliobogen, Studium von Heinrich Roos ganz vortrefflich. Es sind keine natürliche Schafe, sondern es ist, als wenn ein Gott, nachdem er sie gemacht hat, zu ihnen sagte: sie sind gut, und an der Ruhe, an der thierischen Zufriedenheit, die er in sie gelegt, sich selbst ergötzte.</quote> (<ref target="gb:text#GB04_1_BR181_0_144_001 #GB04_1_BR181_0_144_005">GB 4 I, 144,1-5</ref>.) In Trient berichtete Goethe im Reise-Tagebuch für Charlotte von Stein unter dem 11. September 1786 von <quote type="G">treflichen Ochsen</quote> und <quote type="G">beladnen Eselgen</quote> und merkte dazu an: <quote type="G">alles macht einen immer lebenden und sich bewegenden <hi rendition="#hervor1">Heinrich Roos</hi>.</quote> (<ref target="gt:dokument#1097">GT I 1, 191</ref>.) Noch 1824 zeigte sich Goethe im Gespräch mit Johann Peter Eckermann fasziniert von Johann Roos; am 26. Februar soll er gesagt haben: „Mir wird immer bange <gap quantity="3" reason="editorial"/>, wenn ich diese Thiere ansehe. Das Beschränkte, Dumpfe, Träumende, Gähnende ihres Zustandes zieht mich in das Mitgefühl desselben hinein; man fürchtet zum Thier zu werden, und möchte fast glauben, der Künstler sey selber eins gewesen.“ (<ref target="sndb:sigle#4373">Eckermann, Gespräche</ref> 1, 125.) – Zur herzoglichen Kunstsammlung gehörte ein inzwischen verschollenes Gemälde „Landschaft, mit einer gelb und weiß gefleckten Kuh und Ziegenbock staffirt“, das entweder von Johann Heinrich Roos selbst stammt oder eine Kopie nach einem seiner Gemälde ist (vgl. <ref target="sndb:sigle#2878">Goethes „Bildergalerie“</ref>, 219, Nr 137).</p>
+
+</note>
+<note xml:id="gb10969_comment_com17716">
+<label xml:id="GB03_2_BR292_0_note_004_170_16" copyOf="#start_com_2558"><hi rendition="#fett">170,16</hi>Mompre</label>
+<p>Joos (Jodocus) de Momper, flämischer Landschaftsmaler und Radierer des 16./17. Jahrhunderts in Antwerpen. Im schon zitierten Brief vom 11. Oktober 1780, in dem von Johann Heinrich Roos die Rede ist, bedankt sich Goethe bei Merck für die Lieferung eines Kupferstiches: <quote type="G">Der Momper ist trefflich; ich hab mir ihn angemaßt. Sieh, daß du mir so was in Cassel eroberst.</quote> (<ref target="gb:text#GB04_1_BR181_0_146_022 #GB04_1_BR181_0_146_023">GB 4 I, 146,22-23</ref>.) Offenbar handelte es sich um das eigentlich für Herzog Carl August bestimmte Blatt, das laut Mercks Rechnung vom 18. September 1780 den Titel „un Dessein fini“ trägt (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 486). – In den Weimarer Kunstsammlungen befindet sich Mompers Gemälde „Hügellandschaft mit Volk und Richtstätte“ (Inv.-Nr G 821). Wann es in die Sammlung kam, ist nicht geklärt.</p>
+
+</note>
+<note xml:id="gb10969_comment_com10131">
+<label xml:id="GB03_2_BR292_0_note_005_170_18" copyOf="#start_com_2559"><hi rendition="#fett">170,18</hi><emph rendition="#latin">St Vree</emph></label>
+<p>Möglicherweise ist Nicolaes de Vree, niederländischer Maler von ländlichen Szenen und mythologischen Darstellungen, gemeint oder A. de Vree, dessen Identität nicht geklärt werden konnte. Gemälde des Letzteren wurden bei einer Auktion angeboten, die der Kunsthändler Michael Kaller im Jahr 1764 in Frankfurt veranstaltete. Käufer von zwei Bildern – einer Landschaft mit badenden Nymphen und eines weiteren mit ähnlicher Motivik – war damals der Frankfurter Arzt und Sammler Peter Pasquay (vgl. Thomas Ketelsen/Tilmann von Stockhausen: Verzeichnis der verkauften Gemälde im deutschsprachigen Raum vor 1800. München 2002. Bd 3, S. 1780 f.). Über ihn vgl. weiter zu <ref target="gb:note#GB03_2_BR292_0_note_001_170_12">170,12</ref>; zu <ref target="gb:note#GB03_2_BR298_0_note_008_173_12">173,12</ref>.</p>
+
+</note>
+<note xml:id="gb10969_comment_com10132">
+<label xml:id="GB03_2_BR292_0_note_006_170_19" copyOf="#start_com_2560"><hi rendition="#fett">170,19</hi>Quart</label>
+<p>Ein Viertel, 25 Prozent.</p>
+
+</note>
+<note xml:id="gb10969_comment_com15952">
+<label xml:id="GB03_2_BR292_0_note_007_170_21" copyOf="#start_com_2561"><hi rendition="#fett">170,21</hi>Wegen der Kupfer <gap quantity="3" reason="editorial"/> geschrieben.</label>
+<p>Der Brief ist nicht überliefert (vgl. <ref target="gb:dokument#15842">EB 161</ref>). In seinen Briefen vom 11. Januar und vom 18. März 1778 (<ref target="gb:dokument#11249">Nr 320</ref> und <ref target="gb:dokument#11962">336</ref>) bedankt sich Goethe für die Übersendung von Kupferstichen (vgl. <ref target="gb:text#GB03_1_BR320_0_189_015">189,15</ref>; <ref target="gb:text#GB03_1_BR336_0_199_005">199,5</ref>).</p>
+
+</note>
+<note xml:id="gb10969_comment_com10143">
+<label xml:id="GB03_2_BR292_0_note_008_171_1-2" copyOf="#start_com_2562"><hi rendition="#fett">171,1-2</hi>Der Herzog hat eine böse hand <gap quantity="3" reason="editorial"/> gebracht.</label>
+<p>Goethe vermerkte in einem Tagebucheintrag, der sich auf den Zeitraum vom 11. bis 22. Oktober 1777 bezieht: <quote type="G">Ward die Hand des Herz. den in der Zillbach ein Hund gebissen hatte und die er vernachlässigt hatte schlimm und verdarb uns wieder vielen Spas</quote> (<ref target="gt:dokument#460">GT I 1, 50</ref>). Der Vorfall hatte sich während des zurückliegenden Aufenthalts im Thüringer Wald in Zillbach ereignet, einem Jagdschloss und Forstrevier südlich von Eisenach, westlich von Oberhof.</p>
+
+</note>
+<note xml:id="gb10969_comment_com17069">
+<label xml:id="GB03_2_BR292_0_note_009_171_4" copyOf="#start_com_2563"><hi rendition="#fett">171,4</hi>einiges Geld</label>
+<p>Merck verschaffte Goethe wiederholt Kredite (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>; zu <ref target="gb:note#GB03_2_BR016_0_note_035_17_23-24">17,23-24</ref>; zu <ref target="gb:note#GB03_2_BR027_0_note_001_23_10">23,10</ref>; zu <ref target="gb:note#GB03_2_BR058_0_note_001_41_12">41,12</ref>). In den folgenden überlieferten Briefen ist von Geldgeschäften nicht mehr die Rede. Unter dem 31. Dezember 1777 verzeichnet Goethe in seinem Tagebuch: <quote type="G">Geld von Merck.</quote> (<ref target="gt:dokument#502">GT I 1, 55</ref>.)</p>
+
+</note>
+<note xml:id="gb10969_comment_com15087">
+<label xml:id="GB03_2_BR292_0_note_010_171_4-5" copyOf="#start_com_2564"><hi rendition="#fett">171,4-5</hi>negotiirtest</label>
+<p>‚Negotiieren‘ eigentlich ‚unter Kaufleuten handeln‘, ‚Geschäfte machen‘ (von franz. négocier: verhandeln); hier: verschaffen.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

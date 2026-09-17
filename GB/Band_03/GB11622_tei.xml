@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2380"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11622" n="GB 3, Nr. 235">
+  <teiHeader xml:id="gb11622_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>235.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 16. März 1777. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:01Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11622_tei.xml</idno>
+        <idno type="URI">gb11622</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR235_0</idno>
+        <idno type="KSW-ID">11622</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="136" to="136">136</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="494" to="494">494</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11622_header_hwit1166" corresp="#gb11622_source_hwit1166" sameAs="#gb11622_comment_hwit1166" type="notAuthorisedCopyOfAuthorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/389,IV</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8479</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11622,,1166/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sie melden mir daß der achte Abschnitt fehle. So viel ich weis, hab ich den 8 und 10ten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-03-16">16. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11622_source_hwit1166" corresp="#gb11622_header_hwit1166" type="source" rend="notAuthorisedCopyOfAuthorisedLetter">
+  <body>
+    <div>
+      <head><supplied>Abschrift</supplied></head>
+      <pb n="1" facs="gb:digitalisate#11622/25737"/>
+      <p>
+        <anchor xml:id="GB03_1_BR235_0_136_001"/>Sie melden mir daß <ref target="gb:note#GB03_2_BR235_0_note_001_136_1" xml:id="start_com_2105"/>der <hi rendition="#hervor1">achte</hi> Abschnitt<ref xml:id="end_com_2105"/> fehle. So viel ich weis, hab 
+<anchor xml:id="GB03_1_BR235_0_136_002"/>ich <ref target="gb:note#GB03_2_BR235_0_note_002_136_2" xml:id="start_com_2106"/>den 8 und 10 ten<ref xml:id="end_com_2106"/> schon überschickt, der neunte fehlt mir aber, ist 
+<anchor xml:id="GB03_1_BR235_0_136_003"/>der in Ihren Händen so ist alles richtig.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR235_0_136_004"/>d. 16. Marz 77.                                                            </dateline>
+        <signed rend="signature">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11622/25738" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11622_comment">
+<body>
+<div type="metadata" xml:id="gb11622_comment_com561">
+  <ab type="numberAddressee"><label>235.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 16. März 1777 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11622_comment_com2605">
+  <p>H: Verbleib unbekannt; bis August 1894 Privatbesitz, Dresden (vgl. zu h). – Egh., Empfangsvermerk, Tinte: „1777. 18. Marz Weimar Goethe.“ (nach h).</p>
+  <p>h: GSA Weimar, Sign.: <ref target="archivdb:dokument#8479">GSA 29/389,IV</ref>. – Abschrift Eduard von der Hellens; über dem Text von dessen Hd: „Publicationsbefugniss nicht erbeten, auch nicht ertheilt.“, unter dem Text von dessen Hd: „Klein 4°bogen g. pag. 4 von Reichs Hand: 1777. 18. Marz Weimar Goethe.“, darunter: „Hs sandte im August 1894 das Antiquariat v. Zahn u. Jaensch, Dresden, Schlossstrasse 22, zur Ansicht und mit der Preisforderung von M. 60,00. Publicationserlaubniss wurde nicht erbeten, auch nicht ertheilt. Daher diese Copie wol für uns zu behalten, bis das Billet anderswo publicirt oder die Erlaubniss vom Besitzer erwirkt ist. / 6. 8. 94. / vdH.“</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 30 (1905), 10, Nr 575a (Carl Schüddekopf; nach h). – Incipit zuvor schon in: Antiquariat v. Zahn &amp; Jaensch (Dresden), Katalog 42 (1894), S. 9, Nr 139 (<ref target="gb:text#GB03_1_BR235_0_136_001">136,1</ref> <quote type="G">Sie melden mir <gap quantity="3" reason="editorial"/> fehle.</quote>).</p>
+  <p>Textgrundlage: h.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11622_comment_com4401">
+  <p>Der Bezugsbrief (vgl. <ref target="gb:text#GB03_1_BR235_0_136_001">136,1</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11622_comment_com17844">
+<label xml:id="GB03_2_BR235_0_note_001_136_1" copyOf="#start_com_2105"><hi rendition="#fett">136,1</hi>der <hi rendition="#hervor1">achte</hi> Abschnitt</label>
+<p>Im vorhergehenden Brief an Reich vom 11. März 1777 (<ref target="gb:dokument#11402">Nr 230</ref>) hatte Goethe schon einmal nach dem Verbleib des 9. Abschnitts vom 3. Band der „Physiognomischen Fragmente“ Lavaters gefragt. Dass Reich meinte, es handle sich um den 8. Abschnitt, passt zu seiner Notiz auf der Handschrift von Goethes Brief, die „Bezeichnung der abschnitte“ habe sich verwirrt (vgl. Überlieferung zu <ref target="gb:note#gb11402_comment_com2665">Nr 230</ref>). Lavater hatte den 9. Abschnitt direkt nach Leipzig und nicht an Goethe geschickt, weil dieser darin selbst Gegenstand physiognomischer Betrachtung ist (vgl. zu <ref target="gb:note#GB03_2_BR228_0_note_006_133_14">133,14</ref>).</p>
+
+</note>
+<note xml:id="gb11622_comment_com11084">
+<label xml:id="GB03_2_BR235_0_note_002_136_2" copyOf="#start_com_2106"><hi rendition="#fett">136,2</hi>den 8 und 10 ten</label>
+<p>Der 8. Abschnitt (S. 193–202) trägt die Überschrift „Musiker“ und behandelt die Komponisten Niccolò Jomelli, Carl Philipp Emanuel Bach und Philipp Christoph Kayser. Der 10. Abschnitt (S. 227–288) bezieht sich auf „Religiose“; darunter finden sich neben Ignatius von Loyola, Vincent de Paul und Carlo Borromeo auch Personen wie der Zürcher Prediger Johann Jakob Heß, Johann Gottfried Herder und „Ein schwäbischer Bauer“.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

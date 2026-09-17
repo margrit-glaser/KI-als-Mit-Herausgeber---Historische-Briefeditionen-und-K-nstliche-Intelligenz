@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1790"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11186" n="GB 3, Nr. 177">
+  <teiHeader xml:id="gb11186_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>177.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zwischen 24. und 27. September 1776. Zwischen Dienstag und Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:28Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11186_tei.xml</idno>
+        <idno type="URI">gb11186</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR177_0</idno>
+        <idno type="KSW-ID">11186</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="111" to="111">111</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="408" to="409">408-409</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11186_header_hwit1083" corresp="#gb11186_source_hwit1083" sameAs="#gb11186_comment_hwit1083" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 33</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11186,,1083/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier schickt Ihnen Ihre Schwägerin die ich täglich lieber gewinne ein Stückgen Desert zum</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11186_header_acc312" corresp="gb11186_comment_acc312">
+            <objectIdentifier>
+              <objectName><quote type="G">Desert</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-09-24" to="1776-09-27"><supplied>zwischen 24. und 27. September 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11186_source_hwit1083" corresp="#gb11186_header_hwit1083" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11186/22471"/>
+      <p>
+        <anchor xml:id="GB03_1_BR177_0_111_009"/>Hier schickt Ihnen <ref target="gb:note#GB03_2_BR177_0_note_001_111_9" xml:id="start_com_1714"/>Ihre Schwägerin<ref xml:id="end_com_1714"/> die ich täglich lieber gewinne ein 
+<anchor xml:id="GB03_1_BR177_0_111_010"/>
+        <ref target="gb:note#GB03_2_BR177_0_note_002_111_10" xml:id="start_com_1715"/>Stückgen Desert<ref xml:id="end_com_1715"/> zum Zeichen des Andenckens, auch <ref target="gb:note#GB03_2_BR177_0_note_003_111_10" xml:id="start_com_1716"/>der Stadthalter<ref xml:id="end_com_1716"/>
+        <anchor xml:id="GB03_1_BR177_0_111_011"/>lässt sie grüsen und sagen er stehe <ref target="gb:note#GB03_2_BR177_0_note_004_111_11" xml:id="start_com_1717"/>von seiner Bitte<ref xml:id="end_com_1717"/> nicht ab. Ein braves 
+<anchor xml:id="GB03_1_BR177_0_111_012"/>Weib sezte er hinzu, habe nichts abzuschlagen was ein ehrlicher Kerl 
+<anchor xml:id="GB03_1_BR177_0_111_013"/>verlangen dürfe – Alles giebt mir Aufträge an Sie und niemand weis 
+<anchor xml:id="GB03_1_BR177_0_111_014"/>
+        <ref target="gb:note#GB03_2_BR177_0_note_005_111_14" xml:id="start_com_1718"/>wie<ptr n="1" target="#a001_111.14"/> schlecht ich im Fall bin sie auszurichten<ref xml:id="end_com_1718"/>.   Adieu.                 G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11186_comment">
+<body>
+<div type="metadata" xml:id="gb11186_comment_com634">
+  <ab type="numberAddressee"><label>177.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zwischen 24. und 27. September 1776</supplied> → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11186_comment_com1694">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach dem vom 20. September 1776 (<ref target="gb:dokument#11183">Nr 176</ref>) eingeordnet. Die Erwähnung Dalbergs, der sich vom 24. bis 27. September 1776 in Weimar aufhielt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR177_0_note_003_111_10">111,10</ref>), legt nahe, dass der Brief aus diesen Tagen stammt. So wurde er auch bisher datiert.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11186_comment_com2678">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 33. – 1 Bl. 19,2(–19,5) × 10,3(–10,6) cm, &#xBE; S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Reste eines roten Siegels; Vs. unten links von Charlotte von Steins Hd, Bleistift: „76“, oben rechts von fremder Hd, Tinte: „84“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 84), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 64.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 113 f., Nr 518.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11186_comment_com3620">
+  <p><quote type="G">Desert</quote> (vgl. <ref target="gb:text#GB03_1_BR177_0_111_010">111,10</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11186_comment_com4474">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11186_comment_com17677">
+<label xml:id="GB03_2_BR177_0_note_001_111_9" copyOf="#start_com_1714"><hi rendition="#fett">111,9</hi>Ihre Schwägerin</label>
+<p>Gottlobe Sophie Christiane Johanna Friederike Charlotte von Stein, die damals 42-jährige Hofdame der Herzoginmutter Anna Amalia, eine unverheiratete Schwester Josias von Steins. – Ihr Rufname war ebenfalls Charlotte, weshalb gelegentlich angenommen wurde, die Adressatin sei in den 1770er Jahren noch immer Hofdame Anna Amalias gewesen.</p>
+
+</note>
+<note xml:id="gb11186_comment_com10586">
+<label xml:id="GB03_2_BR177_0_note_002_111_10" copyOf="#start_com_1715"><hi rendition="#fett">111,10</hi>Stückgen Desert</label>
+<p>Vielleicht Konfekt oder Gebäck von der herzoglichen Tafel.</p>
+
+</note>
+<note xml:id="gb11186_comment_com17686">
+<label xml:id="GB03_2_BR177_0_note_003_111_10" copyOf="#start_com_1716"><hi rendition="#fett">111,10</hi>der Stadthalter</label>
+<p>Carl Theodor von Dalberg, seit 1771 Kurmainzer Statthalter in Erfurt (vgl. zu <ref target="gb:note#GB03_2_BR039_0_note_002_29_23">29,23</ref>), der sich vom 24. bis 27. September in Weimar aufhielt (vgl. <ref target="gt:dokument#153">GT I 1, 26</ref>), unter anderem <quote type="G">wegen Redecker</quote> (ebd.; vgl. zu <ref target="gb:note#GB03_2_BR166_0_note_001_102_14">102,14</ref>).</p>
+
+</note>
+<note xml:id="gb11186_comment_com10587">
+<label xml:id="GB03_2_BR177_0_note_004_111_11" copyOf="#start_com_1717"><hi rendition="#fett">111,11</hi>von seiner Bitte</label>
+<p>Wahrscheinlich eine Einladung zu einem gemeinsamen Besuch.</p>
+
+</note>
+<note xml:id="gb11186_comment_com10588">
+<label xml:id="GB03_2_BR177_0_note_005_111_14" copyOf="#start_com_1718"><hi rendition="#fett">111,14</hi>wie schlecht ich <gap quantity="3" reason="editorial"/> sie auszurichten</label>
+<p>Anspielung auf Goethes Vorsatz, Charlotte von Stein nicht in Kochberg zu besuchen (vgl. zu <ref target="gb:note#GB03_2_BR172_0_note_005_109_6-7">109,6-7</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

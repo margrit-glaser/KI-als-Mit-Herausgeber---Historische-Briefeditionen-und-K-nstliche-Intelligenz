@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1440"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9885" n="GB 3, Nr. 143">
+  <teiHeader xml:id="gb9885_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>143.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. Juli 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:58Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9885_tei.xml</idno>
+        <idno type="URI">gb9885</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR143_0</idno>
+        <idno type="KSW-ID">9885</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="85" to="86">85-86</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="334" to="336">334-336</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9885_header_hwit1022" corresp="#gb9885_source_hwit1022" sameAs="#gb9885_comment_hwit1022" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9885,,1022/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier ein Brief. Schreib mir doch lieber Bruder wie du kommst, schreib mir wie dirs mit Meubels</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-07-10">10. Juli 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9885_source_hwit1022" corresp="#gb9885_header_hwit1022" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9885/18397"/>
+      <p>
+        <anchor xml:id="GB03_1_BR143_0_085_016"/>
+        <ref target="gb:note#GB03_2_BR143_0_note_001_85_16" xml:id="start_com_1340"/>Hier ein Brief.<ref xml:id="end_com_1340"/> Schreib mir doch l. Br. wie du kommst, schreib mir 
+<anchor xml:id="GB03_1_BR143_0_085_017"/>wie dirs mit Meubels gehn wird du kommst in <ref target="gb:note#GB03_2_BR143_0_note_002_85_17" xml:id="start_com_1341"/>ein leer Haus<ref xml:id="end_com_1341"/>. Es ist 
+<anchor xml:id="GB03_1_BR143_0_085_018"/>noch ganz gut gebaut hat einen grosen Garten in dem aber <ref target="gb:note#GB03_2_BR143_0_note_003_85_18-19" xml:id="start_com_1342"/>die Igel 
+<anchor xml:id="GB03_1_BR143_0_085_019"/>brüten<ref xml:id="end_com_1342"/>. mit dem Detail der Reparatur schinden sie mich noch <ref target="gb:note#GB03_2_BR143_0_note_004_85_19-20" xml:id="start_com_1343"/>was 
+<anchor xml:id="GB03_1_BR143_0_085_020"/>ehrlichs<ref xml:id="end_com_1343"/>. Da hat der <ref target="gb:note#GB03_2_BR143_0_note_005_85_20" xml:id="start_com_1344"/>Gottskasten<ref xml:id="end_com_1344"/> kein Geld, da sollen die Alten<ptr n="1" target="#a001_85.20"/> Fenster 
+<anchor xml:id="GB03_1_BR143_0_085_021"/>bleiben, da ist der ein Schlingel und iener ein <ref target="gb:note#GB03_2_BR143_0_note_006_85_21" xml:id="start_com_1345"/>Maz<ref xml:id="end_com_1345"/>. Und so gehts 
+<anchor xml:id="GB03_1_BR143_0_085_022"/>durch – der <ref target="gb:note#GB03_2_BR143_0_note_007_85_22" xml:id="start_com_1346"/>Präs<ref xml:id="end_com_1346"/> hat den besten Willen – Gestern <ref target="gb:note#GB03_2_BR143_0_note_008_85_22" xml:id="start_com_1347"/>hat<ref xml:id="end_com_1347"/> ich alles dort 
+<anchor xml:id="GB03_1_BR143_0_085_023"/>und wird schon gehn. – Und Bruder war auch zum erstenmal in der 
+<anchor xml:id="GB03_1_BR143_0_085_024"/>Kirche. Ich dacht schon dir wirds doch wohl werden Alter <ref target="gb:note#GB03_2_BR143_0_note_009_85_24" xml:id="start_com_1348"/>wen<ref xml:id="end_com_1348"/> du <ref target="gb:note#GB03_2_BR143_0_note_010_85_24-25" xml:id="start_com_1349"/>da 
+<anchor xml:id="GB03_1_BR143_0_085_025"/>oben<ref xml:id="end_com_1349"/> stehst, und <ref target="gb:note#GB03_2_BR143_0_note_011_85_25-26" xml:id="start_com_1350"/>rechts in<ptr n="2" target="#a002_85.25"/> dem Chor des<ptr n="3" target="#a003_85.25"/> unglücklichen Joh Friedr. 
+<anchor xml:id="GB03_1_BR143_0_085_026"/>Grab<ref xml:id="end_com_1350"/>, und <ref target="gb:note#GB03_2_BR143_0_note_012_85_26-28" xml:id="start_com_1351"/>seinen Nachkommen den besten iungen</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR143_0_085_027"/>d<g ref="#typoSuspension"/>. 10 Jul 76. </p>
+      <pb n="2" facs="gb:digitalisate#9885/18398"/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR143_0_085_028"/>gegen dir über<ref xml:id="end_com_1351"/>, der wohl <ref target="gb:note#GB03_2_BR143_0_note_013_85_28" xml:id="start_com_1352"/>die Chur<ref xml:id="end_com_1352"/> werth wäre, werth dass das schicksaal 
+<anchor xml:id="GB03_1_BR143_0_085_029"/>dem wieder gäb was es ienem nahm. und <ref target="gb:note#GB03_2_BR143_0_note_014_85_29-30" xml:id="start_com_1353"/>Herzog Bernhards Grab 
+<anchor xml:id="GB03_1_BR143_0_085_030"/>in der Ecke<ref xml:id="end_com_1353"/> und <ref target="gb:note#GB03_2_BR143_0_note_015_85_30" xml:id="start_com_1354"/>all der braven Sachsen Gräber<ref xml:id="end_com_1354"/> herum und <ref target="gb:note#GB03_2_BR143_0_note_016_85_30-86_2" xml:id="start_com_1355"/>auf<ptr n="4" target="#a004_85.30"/> des 
+<anchor xml:id="GB03_1_BR143_0_086_001"/>Altarblats Flügel den Johan Friedrich wieder in Andacht und die seinen 
+<anchor xml:id="GB03_1_BR143_0_086_002"/>von<ptr n="5" target="#a005_86.2"/> seinem Cranach<ref xml:id="end_com_1355"/> und in der Sacristey <ref target="gb:note#GB03_2_BR143_0_note_017_86_2-4" xml:id="start_com_1356"/>Luther in drey Perioden 
+<anchor xml:id="GB03_1_BR143_0_086_003"/>von Cranach, immer ganz Luther und ein ganzer Kerl. ganz Mönch, 
+<anchor xml:id="GB03_1_BR143_0_086_004"/>ganz Ritter und ganz Lehrer<ref xml:id="end_com_1356"/> – – Das wusch mich wieder von allem 
+<anchor xml:id="GB03_1_BR143_0_086_005"/>Staub und so reinige uns der Heilige Geist von allem <ref target="gb:note#GB03_2_BR143_0_note_018_86_5" xml:id="start_com_1357"/>Skwal<ref xml:id="end_com_1357"/> eh er fingers 
+<anchor xml:id="GB03_1_BR143_0_086_006"/>dick auf uns sizt wie auf den Gräbern der Helden. Addio.</p>
+    <pb n="3" facs="gb:digitalisate#9885/18399" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9885/18400" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9885_comment">
+<body>
+<div type="metadata" xml:id="gb9885_comment_com920">
+  <ab type="numberAddressee"><label>143.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. Juli 1776 → <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9885_comment_com2964">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – Doppelblatt 13,7(–13,9) × 19,7(–20) cm, 2 S. beschr., egh., Tinte, flüchtig geschrieben; S. 1 oben links von fremder Hd, Bleistift: „13“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „22“, oben rechts von Caroline Herders Hd, Tinte: „1776.“ – Beischluss: möglicherweise Brief eines unbekannten Absenders (vgl. zu <ref target="gb:note#GB03_2_BR143_0_note_001_85_16">85,16</ref>).</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 63 f., Nr 22.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 85 f., Nr 485.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9885_comment_com4760">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Unmittelbarer Anlass des Briefes war, wie schon für <ref target="gb:dokument#10725">Nr 138</ref> vom 5. Juli 1776, die Vorbereitung von Herders Umzug von Bückeburg nach Weimar. Er traf mit seiner Familie am 1. Oktober 1776 in seiner neuen Wirkungsstätte ein.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9885_comment_com7462">
+<label xml:id="GB03_2_BR143_0_note_001_85_16" copyOf="#start_com_1340"><hi rendition="#fett">85,16</hi>Hier ein Brief.</label>
+<p>Möglicherweise legte Goethe den Brief eines unbekannten Absenders bei; wahrscheinlich ist jedoch, dass er seinen eigenen Brief meinte.</p>
+
+</note>
+<note xml:id="gb9885_comment_com16801">
+<label xml:id="GB03_2_BR143_0_note_002_85_17" copyOf="#start_com_1341"><hi rendition="#fett">85,17</hi>ein leer Haus</label>
+<p>Das Haus mit der Amtswohnung des Generalsuperintendenten befand sich am Töpfenmarkt (Topfberg) neben der Stadtkirche (heute Herderplatz 8). Der Vormieter, Johann Wilhelm Seidler, hatte Anfang Juli damit begonnen, die Wohnung ‚nach und nach auszumisten‘ (vgl. <ref target="gb:text#GB03_1_BR138_0_079_009 #GB03_1_BR138_0_079_011">79,9–11</ref>). In seinem letzten Brief vom 5. Juli 1776 (<ref target="gb:dokument#10725">Nr 138</ref>) hatte Goethe Herder eine Zeichnung des Grundrisses der Wohnung geschickt und Vorschläge zur Aufteilung der Zimmer gemacht.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7470">
+<label xml:id="GB03_2_BR143_0_note_003_85_18-19" copyOf="#start_com_1342"><hi rendition="#fett">85,18-19</hi>die Igel brüten</label>
+<p>Hier vermutlich mit biblischem Bezug: Im Alten Testament sind es wiederholt Orte der Verwüstung und Verdammnis, in denen ein Tier haust, das hebr. qippod heißt, welches von Luther und anderen Bibelübersetzern mit ‚Igel‘ übersetzt wurde (vgl. Jesaja 14,23 und 34,11 sowie Zephanja 2,14).</p>
+
+</note>
+<note xml:id="gb9885_comment_com101091">
+<label xml:id="GB03_2_BR143_0_note_004_85_19-20" copyOf="#start_com_1343"><hi rendition="#fett">85,19-20</hi>was ehrlichs</label>
+<p>Im Sinn von ‚ziemlich viel‘ gebraucht (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1395), so auch im Brief an Merck vom 8.? März 1776 (vgl. <ref target="gb:text#GB03_1_BR058_0_041_018">41,18</ref>).</p>
+</note>
+<note xml:id="gb9885_comment_com14657">
+<label xml:id="GB03_2_BR143_0_note_005_85_20" copyOf="#start_com_1344"><hi rendition="#fett">85,20</hi>Gottskasten</label>
+<p>Bezeichnung für die Gesamtheit der finanziellen Mittel, die für den öffentlichen Gottesdienst, für Personalkosten und Gebäudeinstandhaltung vorgesehen waren (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 761): also so viel wie ‚Kirchenkasse‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 400).</p>
+
+</note>
+<note xml:id="gb9885_comment_com7471">
+<label xml:id="GB03_2_BR143_0_note_006_85_21" copyOf="#start_com_1345"><hi rendition="#fett">85,21</hi>Maz</label>
+<p>Matz: in der Umgangssprache ein „dummer Mensch“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 113), ein „thörichter, närrischer Kerl“ (<ref target="sndb:sigle#3152">Zedler</ref> 19, 2141); ursprünglich Koseform des Namens Matthias/Matthes (vgl. <ref target="sndb:sigle#2956">Kluge/Seebold</ref>, 546).</p>
+
+</note>
+<note xml:id="gb9885_comment_com15845">
+<label xml:id="GB03_2_BR143_0_note_007_85_22" copyOf="#start_com_1346"><hi rendition="#fett">85,22</hi>Präs</label>
+<p>Präsident des Weimarer Oberkonsistoriums war Carl Friedrich Ernst von Lyncker.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7472">
+<label xml:id="GB03_2_BR143_0_note_008_85_22" copyOf="#start_com_1347"><hi rendition="#fett">85,22</hi>hat</label>
+<p>Versehentlich für ‚hatt‘.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7473">
+<label xml:id="GB03_2_BR143_0_note_009_85_24" copyOf="#start_com_1348"><hi rendition="#fett">85,24</hi>wen</label>
+<p>Versehentlich für ‚wenn‘.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7485">
+<label xml:id="GB03_2_BR143_0_note_010_85_24-25" copyOf="#start_com_1349"><hi rendition="#fett">85,24-25</hi>da oben</label>
+<p>Auf der Kanzel der Weimarer Stadtkirche St. Peter und Paul.</p>
+
+</note>
+<note xml:id="gb9885_comment_com16884">
+<label xml:id="GB03_2_BR143_0_note_011_85_25-26" copyOf="#start_com_1350"><hi rendition="#fett">85,25-26</hi>rechts in dem Chor <gap quantity="3" reason="editorial"/> Grab</label>
+<p>Von der Kanzel aus gesehen rechts liegen am Ende des Mittelgangs unter dem Triumphbogen die mit Bronzeplatten bedeckten Gräber des 1554 verstorbenen sächsischen Kurfürsten Johann Friedrich I. (des Großmütigen) und seiner Gemahlin Sibylle geb. Prinzessin von Jülich-Cleve-Berg. Johann Friedrich I. hatte während des Schmalkaldischen Kriegs gegen den habsburgischen Kaiser Karl V. nach der Niederlage in der Schlacht bei Mühlberg 1547 die Kurwürde verloren. – Die Beschreibung seines künftigen Arbeitsplatzes scheint auf Herder Eindruck gemacht zu haben. Indem er sich der Mitteilungen Goethes im vorliegenden Brief bediente, schrieb er am 20. Juli 1776 an Johann Georg Hamann: „Der unglückl[iche] Joh[ann] Friedr[ich] liegt in meiner Kirche begraben u. liegt auf dem Altarblatt kniend: Luther von Kranach 3.mal gemahlt in der Sakristei: er hat bekanntermaassen oft in Weimar gepredigt“ (<ref target="sndb:sigle#2904">HB</ref> 3, 281).</p>
+
+</note>
+<note xml:id="gb9885_comment_com7486">
+<label xml:id="GB03_2_BR143_0_note_012_85_26-28" copyOf="#start_com_1351"><hi rendition="#fett">85,26-28</hi>seinen Nachkommen <gap quantity="3" reason="editorial"/> gegen dir über</label>
+<p>Herzog Carl August in der Fürstenloge gegenüber der Kanzel.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7487">
+<label xml:id="GB03_2_BR143_0_note_013_85_28" copyOf="#start_com_1352"><hi rendition="#fett">85,28</hi>die Chur</label>
+<p>Die Kurwürde, die Carl Augusts Vorfahr verloren hatte (vgl. zu <ref target="gb:note#GB03_2_BR143_0_note_011_85_25-26">85,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb9885_comment_com7488">
+<label xml:id="GB03_2_BR143_0_note_014_85_29-30" copyOf="#start_com_1353"><hi rendition="#fett">85,29-30</hi>Herzog Bernhards Grab in der Ecke</label>
+<p>Die in den Boden eingelassene ovale Grabplatte für den 1639 gestorbenen Herzog Bernhard von Sachsen-Weimar befindet sich im Chor links vom Altar. Bernhard, erfolgreicher Feldherr im Dreißigjährigen Krieg, gehörte zu den deutschen Fürsten, die auf Seiten der Schweden kämpften.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7489">
+<label xml:id="GB03_2_BR143_0_note_015_85_30" copyOf="#start_com_1354"><hi rendition="#fett">85,30</hi>all der braven Sachsen Gräber</label>
+<p>Der Chor der Stadtkirche diente nach dem Tod Herzog Johann Friedrichs I. über ein Jahrhundert lang als Grabstätte der ernestinischen Herzogsfamilie. Epitaphien und Grabdenkmale in der Verlängerung des Chorraumes geben darüber Auskunft.</p>
+
+</note>
+<note xml:id="gb9885_comment_com16306">
+<label xml:id="GB03_2_BR143_0_note_016_85_30-86_2" copyOf="#start_com_1355"><hi rendition="#fett">85,30-86,2</hi>auf des Altarblats <gap quantity="3" reason="editorial"/> Cranach</label>
+<p>Die beiden Seitenflügel des Altars zeigen links Kurfürst Johann Friedrich I. und seine Gemahlin, rechts die drei Söhne, den im Mittelteil dargestellten Christus am Kreuz anbetend. Goethe spricht mit Bezug auf Johann Friedrich von <quote type="G">seinem Cranach</quote> und meint damit Lukas Cranach d. Ä. Dieser begann das Altargemälde kurz vor seinem Tod im Jahr 1553; vollendet wurde es vermutlich von seinem Sohn Lukas Cranach d. J. im Jahr 1555.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7501">
+<label xml:id="GB03_2_BR143_0_note_017_86_2-4" copyOf="#start_com_1356"><hi rendition="#fett">86,2-4</hi>Luther in drey Perioden <gap quantity="3" reason="editorial"/> ganz Lehrer</label>
+<p>Gemeint ist das Triptychon, auch ‚Lutherschrein‘ genannt, damals in der Sakristei der Stadtkirche, heute hinter der Kanzel, aus dem Jahr 1572 mit Bildnissen Luthers: links Luther als Mönch, in der Mitte als Magister, rechts als Junker Jörg. Das linke Bild ist von dem Weimarer Maler und Cranach-Schüler Veit Thiem signiert; bei den beiden anderen handelt es sich um Kopien oder Nachschöpfungen Cranachscher Porträts.</p>
+
+</note>
+<note xml:id="gb9885_comment_com7502">
+<label xml:id="GB03_2_BR143_0_note_018_86_5" copyOf="#start_com_1357"><hi rendition="#fett">86,5</hi>Skwal</label>
+<p>Neologismus Goethes, vermutlich unter Verkürzung von lat. squalor: Schmutz (vgl. <ref target="sndb:sigle#2876">Goethe-Wortschatz</ref>, 576).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

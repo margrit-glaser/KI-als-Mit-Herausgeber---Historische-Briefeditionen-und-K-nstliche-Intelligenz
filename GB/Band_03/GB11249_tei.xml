@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3290"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11249" n="GB 3, Nr. 320">
+  <teiHeader xml:id="gb11249_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>320.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 11. Januar 1778. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:20Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11249_tei.xml</idno>
+        <idno type="URI">gb11249</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR320_0</idno>
+        <idno type="KSW-ID">11249</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="189" to="190">189-190</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="645" to="648">645-648</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11249_header_hwit1296" corresp="#gb11249_source_hwit1296" sameAs="#gb11249_comment_hwit1296" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-19086</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11249,,1296/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Die Kupfer sind sehr zur rechten Zeit angekommen und haben    uns grose Freude gemacht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11249_header_acc174" corresp="gb11249_comment_acc174">
+            <objectIdentifier>
+              <objectName>Radierung Goethes </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-01-11">11. Januar 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11249_source_hwit1296" corresp="#gb11249_header_hwit1296" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11249/20217"/>
+      <p>
+        <anchor xml:id="GB03_1_BR320_0_189_015"/>
+        <ref target="gb:note#GB03_2_BR320_0_note_001_189_15" xml:id="start_com_2916"/>Die Kupfer sind sehr zur rechten Zeit angekommen<ref xml:id="end_com_2916"/> und haben uns 
+<anchor xml:id="GB03_1_BR320_0_189_016"/>grose Freude gemacht. Der Herzog hat sich recht dran ergözt, <ref target="gb:note#GB03_2_BR320_0_note_002_189_16-18" xml:id="start_com_2917"/>es ist 
+<anchor xml:id="GB03_1_BR320_0_189_017"/>wunderbaar wie sich sein Gefühl an diesen Sachen geschwind aufschliest<ref xml:id="end_com_2917"/>. 
+<anchor xml:id="GB03_1_BR320_0_189_018"/>Die Abdrucke der <ref target="gb:note#GB03_2_BR320_0_note_003_189_18" xml:id="start_com_2918"/>Ostads<ref xml:id="end_com_2918"/> sind trefflich. Die <ref target="gb:note#GB03_2_BR320_0_note_004_189_18" xml:id="start_com_2919"/>Syderhofs<ref xml:id="end_com_2919"/> hab ich 
+<anchor xml:id="GB03_1_BR320_0_189_019"/>noch gar nicht gekannt und ich bin über die Treue reinheit Rundheit, 
+<anchor xml:id="GB03_1_BR320_0_189_020"/>und über das Krafftige in der bedächtigen Manier erstaunt. Solltest<ptr n="1" target="#a001_189.20"/> du 
+<anchor xml:id="GB03_1_BR320_0_189_021"/>einige von denen <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR320_0_note_005_189_21" xml:id="start_com_2920"/>Goudts</hi> nach Elsheimer<ref xml:id="end_com_2920"/> erwischen können, so kauf 
+<anchor xml:id="GB03_1_BR320_0_190_001"/>sie. Ubrigens aber nichts als dezidirte Meisterstücke. In der Folge einmal 
+<anchor xml:id="GB03_1_BR320_0_190_002"/>die <ref target="gb:note#GB03_2_BR320_0_note_006_190_2" xml:id="start_com_2921"/>Callo<supplied>ts.</supplied><ref xml:id="end_com_2921"/>
+        <ref target="gb:note#GB03_2_BR320_0_note_007_190_2" xml:id="start_com_2922"/>Der Mutter hab ich selbst geschrieben<ref xml:id="end_com_2922"/>. hier ein <ref target="gb:note#GB03_2_BR320_0_note_008_190_2-3" xml:id="start_com_2923"/>Abdruck 
+<anchor xml:id="GB03_1_BR320_0_190_003"/>von der<ptr n="2" target="#a002_190.3"/> Platte<ref xml:id="end_com_2923"/> ein wenig <ref target="gb:note#GB03_2_BR320_0_note_009_190_3" xml:id="start_com_2924"/>du<supplied>rch</supplied>gegangen<ref xml:id="end_com_2924"/>. <ref target="gb:note#GB03_2_BR320_0_note_010_190_3-4" xml:id="start_com_2925"/>Die Götter haben 
+<anchor xml:id="GB03_1_BR320_0_190_004"/>mir im Zeichnen neuerdings grose Eröfnungen gethan.<ref xml:id="end_com_2925"/> Adieu. Schreib 
+<anchor xml:id="GB03_1_BR320_0_190_005"/>manchmal. <ref target="gb:note#GB03_2_BR320_0_note_011_190_5-6" xml:id="start_com_2926"/>Die Gegend um meinen Garten wird aufs Frühiahr unendlig 
+<anchor xml:id="GB03_1_BR320_0_190_006"/>schön<ref xml:id="end_com_2926"/>, ich hab einige seltsam Romantische Fleckgen ge und erfunden. 
+<anchor xml:id="GB03_1_BR320_0_190_007"/>
+        <ref target="gb:note#GB03_2_BR320_0_note_012_190_7" xml:id="start_com_2927"/>Möchtest du kommen können.<ref xml:id="end_com_2927"/>
+        <ref target="gb:note#GB03_2_BR320_0_note_013_190_7-9" xml:id="start_com_2928"/>Der Hezog hatte etlichemal grose 
+<anchor xml:id="GB03_1_BR320_0_190_008"/>Lust dich als Cammerrath nach Eisenach zu haben, aber ich sagt ihm<ptr n="3" target="#a003_190.8"/>, 
+<anchor xml:id="GB03_1_BR320_0_190_009"/>alte Bäume verpflanzten sich nicht gut.<ref xml:id="end_com_2928"/> Leb wohl.     d<g ref="#typoSuspension"/>. 11 Jan 78 …</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR320_0_190_010"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11249/20218"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11249_comment">
+<body>
+<div type="metadata" xml:id="gb11249_comment_com669">
+  <ab type="numberAddressee"><label>320.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 11. Januar 1778 → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11249_comment_com2713">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: Hs-19086. – 1 Bl. 19,5 × 27,5 cm, &#xBE; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">An Herrn / Kriegsrath Merck / nach / Darmstadt / fr.</quote>, Reste eines roten Initialsiegels: „G“; Blatt am rechten Rand in der Mitte ausgerissen durch Öffnen des Siegels, geringer Textverlust (vgl. <ref target="gb:text#GB03_1_BR320_0_190_002">190,2</ref> und <ref target="gb:text#GB03_1_BR320_0_190_003">190,3</ref>). – Faksimile: <ref target="sndb:sigle#491">JbFDH</ref> 1974, S. 408.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2993">Merck, Briefe<hi rendition="#sup">2</hi></ref> (1838), 119 f., Nr 53 (ohne den Satz <ref target="gb:text#GB03_1_BR320_0_189_018">189,18</ref> <quote type="G">Die Abdrucke der Ostads sind trefflich.</quote>).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2 (2007), 38, Nr 263 (erster vollständiger Druck).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 206, Nr 664 (nach E<hi rendition="#sup">1</hi>).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11249_comment_com3633">
+  <p>Radierung Goethes (vgl. zu <ref target="gb:note#GB03_2_BR320_0_note_008_190_2-3">190,2-3</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11249_comment_com4509">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11249_comment_com17939">
+<label xml:id="GB03_2_BR320_0_note_001_189_15" copyOf="#start_com_2916"><hi rendition="#fett">189,15</hi>Die Kupfer sind <gap quantity="3" reason="editorial"/> angekommen</label>
+<p>Die Lieferung war über Friedrich Justin Bertuch, den Schatullverwalter Herzog Carl Augusts, gegangen; an diesen hatte Merck am 3. Januar 1778 geschrieben: „Hier habe ich die Ehre Ihnen abermalen einen beträchtlichen Transport Kupferstiche für des Herrn Herzogs Hochf. Durchlaucht zu übersenden. Es sind fürtreffliche Stüke darunter, was besonders den Sammt des Syderhofs, u. den kühnen Grabstichel Fischers anbelangt. Die Abdrüke sind mir nie so gut unter Händen gekommen.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 28 f. – Die genannten Kupferstecher sind Jonas Suyderhoff und vermutlich Cornelis Visscher.) Um welche Kupferstiche es sich im Einzelnen handelte und welche für Goethe, welche für den Herzog bestimmt waren, ist nicht mit Sicherheit festzustellen. Die im vorliegenden Brief genannten Künstler sind alle in Goethes graphischer Sammlung vertreten, besonders Stiche <quote type="G"><hi rendition="#hervor1">Goudts</hi> nach Elsheimer </quote> (<ref target="gb:text#GB03_1_BR320_0_189_021">189,21</ref>) und Radierungen van Ostades (vgl. <ref target="sndb:sigle#3083">Schuchardt</ref> 1, 121, Nr 177, 179, 182–184; 174 f., Nr 272–296; 181, Nr 361; 198 f., Nr 44–50; 205, Nr 113; 227, Nr 141).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10857">
+<label xml:id="GB03_2_BR320_0_note_002_189_16-18" copyOf="#start_com_2917"><hi rendition="#fett">189,16-18</hi>es ist wunderbaar <gap quantity="3" reason="editorial"/> aufschliest</label>
+<p>Dass Goethe eine ‚kunstpädagogische‘ Absicht damit verband, Herzog Carl August bei der Sammlung und Begutachtung von Kunstwerken anzuleiten, klingt auch in seinem Brief an Merck vom 22. Oktober 1777 an (vgl. <ref target="gb:text#GB03_1_BR292_0_171_002 #GB03_1_BR292_0_171_003">171,2–3</ref>).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10858">
+<label xml:id="GB03_2_BR320_0_note_003_189_18" copyOf="#start_com_2918"><hi rendition="#fett">189,18</hi>Ostads</label>
+<p>Adriaen van Ostade, niederländischer Maler und Radierer des 17. Jahrhunderts, Schöpfer humoristischer Genrebilder aus bürgerlichem und bäuerlichem Alltagsleben. – In der eingetroffenen Lieferung befand sich offenbar ein Stich nach Ostades Bild „Joueurs de Vielle“ (franz.: Drehorgelspieler), das Merck in seinem Brief an Friedrich Justin Bertuch vom 3. Januar 1778 erwähnt (vgl. <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 29), ebenso in seinem Beitrag „Aus einem Schreiben an den H. über die Frage: wie eine Kupferstichsammlung anzulegen sey?“ im Mai-Heft des „Teutschen Merkur“ von 1778 (S. 174).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10859">
+<label xml:id="GB03_2_BR320_0_note_004_189_18" copyOf="#start_com_2919"><hi rendition="#fett">189,18</hi>Syderhofs</label>
+<p>Jonas Suyderhoff, Reproduktionsstecher des 17. Jahrhunderts in Haarlem, vor allem als Hersteller von Porträtstichen tätig. In Goethes Kunstsammlungen ist ein Porträtstich von Suyderhoff verzeichnet, der Karl den Kühnen zeigt (vgl. <ref target="sndb:sigle#3083">Schuchardt</ref> 1, 227, Nr 141; <ref target="sndb:sigle#2155">Grave</ref>, 35, Anm. 45).</p>
+
+</note>
+<note xml:id="gb11249_comment_com18765">
+<label xml:id="GB03_2_BR320_0_note_005_189_21" copyOf="#start_com_2920"><hi rendition="#fett">189,21</hi><hi rendition="#hervor1">Goudts</hi> nach Elsheimer</label>
+<p>Hendrik Goudt, Maler und Kupferstecher des 16./17. Jahrhunderts in Utrecht. Während eines Aufenthalts in Rom lernte er den Frankfurter Maler Adam Elsheimer kennen, der einige Jahre ausschließlich für ihn arbeitete, angeblich, um Schulden zu begleichen. Goudt stellte eine Reihe von Kupferstichen nach Gemälden Elsheimers her. Zehn Blätter von Goudt sandte Merck schon mit einem Brief an Friedrich Justin Bertuch vom 4. Februar 1778 nach Weimar: „Ich habe hier die Ehre, <gap quantity="3" reason="editorial"/> das Œuvre von Chev. Goudt für Ihro Durchlaucht den Herrn Herzog zu übersenden. Es sind ausser den 7 Originalien 3 Copien dabey befindlich.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 49.) Weiter heißt es: „Ich weis nicht, ob es nöthig seyn wird, die Originalien von den Copien zu unterscheiden. Bey dem kleinen Oval dürfte es etwas schwer seyn zu unterscheiden, und deswegen bemerke ich noch, daß das auf grau Papier geleimte das Original ist.“ (Ebd.) Damit ist Goudts Kupferstich „Enthauptung Johannes des Täufers“ nach einer Vorlage Elsheimers gemeint, die in Goethes Besitz verblieb (vgl. <ref target="sndb:sigle#3083">Schuchardt</ref> 1, 121, Nr 182; Abb. in <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 51). Goethe erwarb 1820 weitere Stiche Goudts nach Elsheimer auf einer Auktion in Leipzig (vgl. <ref target="sndb:sigle#2155">Grave</ref>, 182).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10871">
+<label xml:id="GB03_2_BR320_0_note_006_190_2" copyOf="#start_com_2921"><hi rendition="#fett">190,2</hi>Callo<supplied>ts.</supplied></label>
+<p>Jacques Callot, französischer Zeichner und Radierer des 16./17. Jahrhunderts in Florenz und Nancy, Schöpfer von Landschaftszeichnungen, vor allem aber graphischen Werken mit oft grotesk-realistischer Motivik, darunter die Serien „Les petites misères“ und „Les grandes misères“ mit Darstellungen der Gräuel des Dreißigjährigen Krieges. Goethe gelang es im Jahr 1818, einige von Callots Radierungen zu erwerben (vgl. <ref target="sndb:sigle#3083">Schuchardt</ref> 1, 198 f.; <ref target="sndb:sigle#2155">Grave</ref>, 171, Anm. 630).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10872">
+<label xml:id="GB03_2_BR320_0_note_007_190_2" copyOf="#start_com_2922"><hi rendition="#fett">190,2</hi>Der Mutter hab ich selbst geschrieben.</label>
+<p>Möglicherweise ist Goethes nicht überlieferter Brief an Catharina Elisabeth Goethe vom 13. Dezember 1777 gemeint (<ref target="gb:dokument#15853">EB 175</ref>). Ein weiterer Brief an die Mutter ist in dem in Frage kommenden Zeitraum um den Jahreswechsel 1777/78 in Goethes Rechnungen nicht verzeichnet.</p>
+
+</note>
+<note xml:id="gb11249_comment_com17886">
+<label xml:id="GB03_2_BR320_0_note_008_190_2-3" copyOf="#start_com_2923"><hi rendition="#fett">190,2-3</hi>Abdruck von der Platte</label>
+<p>Zwei Radierungen Goethes sind überliefert, von denen mehrere Abdrucke hergestellt wurden: „Brandstätte“ und „Thüringisches Bauerngehöft“ (<ref target="sndb:sigle#1248">Corpus</ref> I, 66 f., Nr 161 und 163). Beide können auf Juni 1777 datiert werden (vgl. ebd.). Von der Arbeit an einer Zeichnung und von der Herstellung einer Druckplatte ist in Goethes Tagebuch unter dem <ref target="gt:dokument#365">31.</ref> Mai und unter dem <ref target="gt:dokument#366">1.</ref> und <ref target="gt:dokument#367">2.</ref> Juni 1777 die Rede (vgl. GT I 1, 42). Mit seinem Brief vom 3. Juni 1777 schickte er <quote type="G">Abdrücke</quote> (<ref target="gb:text#GB03_1_BR270_0_148_010">148,10</ref>) an Charlotte von Stein. Möglicherweise handelte es sich im vorliegenden Fall um eine der beiden Radierungen.</p>
+
+</note>
+<note xml:id="gb11249_comment_com10880">
+<label xml:id="GB03_2_BR320_0_note_009_190_3" copyOf="#start_com_2924"><hi rendition="#fett">190,3</hi>du<supplied>rch</supplied>gegangen</label>
+<p>Bezieht sich vermutlich auf den Zustand des Abdrucks: Die Druckerfarbe war ‚durchgeschlagen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1319).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10881">
+<label xml:id="GB03_2_BR320_0_note_010_190_3-4" copyOf="#start_com_2925"><hi rendition="#fett">190,3-4</hi>Die Götter haben <gap quantity="3" reason="editorial"/> Eröfnungen gethan.</label>
+<p>In den Briefen an Charlotte von Stein vom 29. Oktober sowie vom 2., 6. und 30. Dezember 1777 (<ref target="gb:dokument#11775">Nr 293</ref>, <ref target="gb:dokument#11798">309</ref>, <ref target="gb:dokument#11800">310</ref>, <ref target="gb:dokument#11784">315</ref>) berichtete Goethe wiederholt, dass er zeichne, offenbar aber ohne befriedigende Resultate (vgl. <ref target="gb:text#GB03_1_BR293_0_171_008 #GB03_1_BR293_0_171_009">171,8–9</ref>, <ref target="gb:text#GB03_1_BR309_0_178_013 #GB03_1_BR309_0_178_015">178,13–15</ref>, <ref target="gb:text#GB03_1_BR310_0_180_029 #GB03_1_BR310_0_180_030">180,29–30</ref>, <ref target="gb:text#GB03_1_BR315_0_188_003">188,3</ref>). Auch im Tagebuch heißt es unter dem 6. Dezember 1777: <quote type="G">vergeblich gezeichnet.</quote> (<ref target="gt:dokument#490">GT I 1, 53</ref>.) Auf der Harzreise entstand immerhin die Zeichnung „Brocken im Mondlicht“ (vgl. <ref target="gb:digitalisate#10661/64259">Abb. 5</ref> im Kommentarband, S. 616; <ref target="sndb:sigle#1248">Corpus</ref> I, 74, Nr 190), die zu den ‚Höhepunkten‘ von Goethes zeichnerischer Arbeit gerechnet wird (vgl. ebd.).</p>
+
+</note>
+<note xml:id="gb11249_comment_com17951">
+<label xml:id="GB03_2_BR320_0_note_011_190_5-6" copyOf="#start_com_2926"><hi rendition="#fett">190,5-6</hi>Die Gegend um meinen Garten wird <gap quantity="3" reason="editorial"/> schön</label>
+<p>Mit der Umgestaltung der Außenanlagen seines Gartenhauses an der Ilm war Goethe beschäftigt, seit er es im April 1776 von Herzog Carl August zum Geschenk erhalten hatte (vgl. zu <ref target="gb:note#GB03_2_BR183_0_note_003_115_12-13">115,12-13</ref>; zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>). Hinter dem Haus entstand ein englischer Garten mit geschlungenen Wegen und Sitzgelegenheiten. Am 5. April 1777 hatte Goethe eine nach einem Entwurf von Adam Friedrich Oeser gefertigte Skulptur (eine Kugel auf einem Kubus) der αγαϑη τυχη <supplied>Agathe Tyche</supplied> (griech.: dem guten Geschick) eingeweiht (vgl. Tagebuch vom 25. Dezember 1776 und 5. April 1777; <ref target="gt:dokument#243">GT I 1, 31</ref> und <ref target="gt:dokument#328">40</ref>; vgl. zu <ref target="gb:note#GB03_2_BR208_0_note_011_125_12">125,12</ref>; zu <ref target="gb:note#GB03_2_BR311_0_note_040_184_10">184,10</ref>). Wenige Tage nachdem er den vorliegenden Brief geschrieben hatte, begann Goethe auch mit der Gestaltung der Umgebung außerhalb seines Gartens. Zuerst entstand aus Anlass des Freitods der Christiane von Laßberg am 16. Januar die so genannte Felsentreppe (vgl. zu <ref target="gb:note#GB03_2_BR324_0_note_003_191_6-7">191,6-7</ref>). – Merck selbst war auch an Fragen der Gartengestaltung interessiert; so lieferte er für Christian Cajus Laurenz Hirschfelds „Theorie der Gartenkunst“ (5 Bde. Leipzig 1779–1785) die „Beschreibung der vorzüglichsten Gärten um Darmstadt“ (Bd 2. 1780, S. 157–160).</p>
+
+</note>
+<note xml:id="gb11249_comment_com10882">
+<label xml:id="GB03_2_BR320_0_note_012_190_7" copyOf="#start_com_2927"><hi rendition="#fett">190,7</hi>Möchtest du kommen können.</label>
+<p>Merck kam erst am 31. Mai 1779 zu einem sechswöchigen Besuch nach Weimar; dabei hielt er sich meist in Ettersburg auf.</p>
+
+</note>
+<note xml:id="gb11249_comment_com17962">
+<label xml:id="GB03_2_BR320_0_note_013_190_7-9" copyOf="#start_com_2928"><hi rendition="#fett">190,7-9</hi>Der Hezog hatte <gap quantity="3" reason="editorial"/> nicht gut.</label>
+<p>Es ist möglich, dass Herzog Carl August mit seinem Angebot, Merck zum weimarischen Kammerherrn zu machen, Erfolg gehabt hätte. Nachdem Merck den Herzog im September 1777 auf der Wartburg kennen gelernt hatte, schrieb er am 3. November an Friedrich Nicolai: „Ich würde aus Liebe zu ihm eben das thun, was Goethe thut.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 9.) Über die Gründe, die Goethe dazu veranlassten, von diesem Plan des Herzogs abzuraten, lässt sich nur spekulieren. Vielleicht wollte er nach den schlechten Erfahrungen mit seinen früheren Freunden Jacob Michael Reinhold Lenz und Friedrich Maximilian Klinger, die ihn in Weimar in Verlegenheit gesetzt hatten und gescheitert waren, keine Wiederholung riskieren (vgl. Hermann Bräuning-Oktavio: Goethe und Johann Heinrich Merck. Johann Heinrich Merck und die Französische Revolution. Darmstadt 1970, S. 78 f.). Das Argument, Merck sei zu alt für einen Wechsel, erscheint wenig plausibel; Merck war 37 Jahre alt. – ‚Hezog‘: versehentlich für ‚Herzog‘.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

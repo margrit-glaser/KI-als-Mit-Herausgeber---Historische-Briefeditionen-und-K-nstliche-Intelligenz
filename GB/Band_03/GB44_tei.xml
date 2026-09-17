@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4660"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb44" n="GB 3, Nr. 457">
+  <teiHeader xml:id="gb44_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>457.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Januar 1779</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:35Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb44_tei.xml</idno>
+        <idno type="URI">gb44</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR457_0</idno>
+        <idno type="KSW-ID">44</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="256" to="256">256</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="844" to="845">844-845</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb44_header_hwit1433" corresp="#gb44_source_hwit1433" sameAs="#gb44_comment_hwit1433" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Fürstenhaus A 1082</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/44,,1433/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Die Nachbarinn die ihren Garten abgetreten hat, wird bey dir    mit Ihrem Gesuch</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1779-01-01" to="1779-01-31"><supplied>Januar 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43118">Bertuch, Friedrich Justin</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb44_source_hwit1433" corresp="#gb44_header_hwit1433" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#44/26462"/>
+      <p>
+        <anchor xml:id="GB03_1_BR457_0_256_004"/>Die Nachbarinn die ihren Garten abgetreten hat, wird bey dir mit 
+<anchor xml:id="GB03_1_BR457_0_256_005"/>Ihrem Gesuch dass ihr das Capital <ref target="gb:note#GB03_2_BR457_0_note_001_256_5-6" xml:id="start_com_3725"/>entweder in Groschen oder mit 
+<anchor xml:id="GB03_1_BR457_0_256_006"/>Vergütung des Agio<ptr n="1" target="#a001_256.6"/>
+        <ref xml:id="end_com_3725"/> bezahlt werde angekommen seyn. Da es eine 
+<anchor xml:id="GB03_1_BR457_0_256_007"/>Kleinigkeit beträgt, und dem <ref target="gb:note#GB03_2_BR457_0_note_002_256_7" xml:id="start_com_3726"/>H<g ref="#typoSuspension"/>.<ref xml:id="end_com_3726"/> nichts bedeutet, auch gut ist dieses 
+<anchor xml:id="GB03_1_BR457_0_256_008"/>Weib zufrieden zu stellen, so überlass ich dir die Sache zu berichtigen, 
+<anchor xml:id="GB03_1_BR457_0_256_009"/>allenfalls bey dem H<g ref="#typoSuspension"/>. darüber anzufragen     G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb44_comment">
+<body>
+<div type="metadata" xml:id="gb44_comment_com1094">
+  <ab type="numberAddressee"><label>457.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Januar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb44_comment_com1885">
+  <p>Die Datierung des vorliegenden Briefes geht aus seinem Inhalt hervor.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb44_comment_com3138">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 70. – 1 Bl. 20,2 &#xD7; 14,7 cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben; Rs. roter Oblatenrest und Adresse: <quote type="G">H<g ref="#typoSuspension"/> R. Bertuch.</quote> – In einem gebundenen Konvolut mit grauem Pappeinband (22,2 × 36,4 cm), enthält 254 Bl.; auf dem vorderen Deckel mit Tinte: „Belege 430 – 619. / zur / Haupt-Rechnung v. 1 Oct 1778–1779“.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> N. F. 10 (1947), 289 (Wolfgang Huschke).</p>
+  <p><ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 50, Nr 776a.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb44_comment_com4934">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p>Susanna Sophia Lehmann, die Witwe des Konsistorialdieners Johann Heinrich Lehmann in Weimar, war Besitzerin eines Gartens, der nördlich an Goethes Garten im Park am Stern angrenzte. Diesen hatte sie am 19. Juni 1778 an den Herzog verkauft, der zwei weitere benachbarte Gärten erwarb. Über die Gründe, die Carl August zu dem Kauf veranlassten, ist nichts bekannt. Der Kaufpreis betrug 250 Reichstaler. Den Empfang dieser Summe „hiesiges Courrant als die Kauf Summa für meinen am Sterne gelegenen Garten“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 58) samt 5 Reichstalern Zinsen hatte Susanna Sophia Lehmann am 31. Dezember 1778 quittiert. Weil das Geld nicht in Conventionsmünze, sondern in der geringeren Weimarischen Courant-Währung ausgezahlt worden war, verlangte sie eine Nachzahlung. Deren Erhalt bescheinigte sie am 1. Februar 1779:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56462_source" corresp="#gb56462_comment">
+  <body>
+    <div>
+      <p>Sechs Thlr. 16 g<g ref="#typoSuspension"/>. gnädigst gewährtes Agio auf die HauptSumme 250 r<g ref="#typoSuspension"/>. meines Gartens, um sie aus Courrant in Convent<g ref="#typoSuspension"/>. Münze zu verwandeln, sind mir aus Hochfurstℓ. Scatol richtig nachgezahlt worden. Weimar d<g ref="#typoSuspension"/>. 1 Febr<g ref="#typoSuspension"/>. 1779.</p>
+      <p rendition="#einrueck20">Susanna Sophie</p>
+      <p rendition="#einrueck21">Lehmanin</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56462_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56462_comment_com84747">
+  <p>(H: ThHStA Weimar, Fürstenhaus A 1082, Bl. 71.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Genau berechnet, betrug der zu gewährende Wertausgleich (Agio) jedoch 7 Reichstaler 13 9&#x2044;11 Groschen Conventionsmünze, da die Währung (Weimarisch) Courant 1&#x2044;33 geringer war als Conventionsmünze. Auch wenn die nachgezahlten 6 Reichstaler 16 Groschen wohl in Conventionsmünze zu verstehen sind, weil dieser Betrag in klingender Münze gerade 5 Conventionstalern entsprach, so fehlten hier noch rund 22 Groschen.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb44_comment_com15493">
+<label xml:id="GB03_2_BR457_0_note_001_256_5-6" copyOf="#start_com_3725"><hi rendition="#fett">256,5-6</hi>entweder in Groschen oder mit Vergütung des Agio</label>
+<p>Die Zahlung sollte entweder in der damals in Weimar wie in Kur-Sachsen vollwertig ausgebrachten Groschenmünze (24 auf einen Taler) erfolgen oder aber in minderwertiger (Pfennig-)Münze mit einem entsprechenden Aufgeld (Agio). Die Zahlung größerer Geldbeträge mit abgepackten Groschen war nicht ungewöhnlich; es gab Geldpäckchen zu 10, 20, 25, 50, 100 und 200 Talern. (Nach freundlicher Auskunft von Diedrich Deseniss, Hamburg.)</p>
+
+</note>
+<note xml:id="gb44_comment_com5316">
+<label xml:id="GB03_2_BR457_0_note_002_256_7" copyOf="#start_com_3726"><hi rendition="#fett">256,7</hi>H.</label>
+<g ref="#typoSuspension"/><p>Herzog.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

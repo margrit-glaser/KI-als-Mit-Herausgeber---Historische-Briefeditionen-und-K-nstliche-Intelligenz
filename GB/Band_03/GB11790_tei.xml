@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3090"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11790" n="GB 3, Nr. 303">
+  <teiHeader xml:id="gb11790_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>303.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 11. November 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:11Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11790_tei.xml</idno>
+        <idno type="URI">gb11790</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR303_0</idno>
+        <idno type="KSW-ID">11790</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="175" to="175">175</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="595" to="597">595-597</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11790_header_hwit1267" corresp="#gb11790_source_hwit1267" sameAs="#gb11790_comment_hwit1267" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 62</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11790,,1267/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Gestern war ich in Ettersburg. Herzoginn Louise war da und die Waldner. Wie ists Ihnen bey</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-11">11. November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11790_source_hwit1267" corresp="#gb11790_header_hwit1267" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11790/22727"/>
+      <p>
+        <anchor xml:id="GB03_1_BR303_0_175_012"/>Gestern war ich in <ref target="gb:note#GB03_2_BR303_0_note_001_175_12" xml:id="start_com_2634"/>Ettersb.<ref xml:id="end_com_2634"/>
+        <ref target="gb:note#GB03_2_BR303_0_note_002_175_12" xml:id="start_com_2635"/>Herz Louise war da und die Waldn.<ref xml:id="end_com_2635"/> Wie 
+<anchor xml:id="GB03_1_BR303_0_175_013"/>ists Ihnen bey der <ref target="gb:note#GB03_2_BR303_0_note_003_175_13" xml:id="start_com_2636"/>Martins Gans<ref xml:id="end_com_2636"/> gangen? Sind Sie <ref target="gb:note#GB03_2_BR303_0_note_004_175_13" xml:id="start_com_2637"/>heute zu Haus<ref xml:id="end_com_2637"/>? 
+<anchor xml:id="GB03_1_BR303_0_175_014"/>
+        <ref target="gb:note#GB03_2_BR303_0_note_005_175_14" xml:id="start_com_2638"/>Schicken Sie mir<ref xml:id="end_com_2638"/>: <ref target="gb:note#GB03_2_BR303_0_note_006_175_14" xml:id="start_com_2639"/>Jägers Nachtlied<ref xml:id="end_com_2639"/>, und <ref target="gb:note#GB03_2_BR303_0_note_007_175_14" xml:id="start_com_2640"/>Süser Todt<ref xml:id="end_com_2640"/>, und <ref target="gb:note#GB03_2_BR303_0_note_008_175_14-15" xml:id="start_com_2641"/>die gedruckten, 
+<anchor xml:id="GB03_1_BR303_0_175_015"/>wo: Grabet in die iunge Linde, dabey ist<ref xml:id="end_com_2641"/>. Ich bring auch wieder 
+<anchor xml:id="GB03_1_BR303_0_175_016"/>
+        <ref target="gb:note#GB03_2_BR303_0_note_009_175_16" xml:id="start_com_2642"/>ein lieblich Lied von ihm<ref xml:id="end_com_2642"/> mit.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR303_0_175_017"/>d<g ref="#typoSuspension"/> 11 Nov. 77.     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11790_comment">
+<body>
+<div type="metadata" xml:id="gb11790_comment_com61">
+  <ab type="numberAddressee"><label>303.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 11. November 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11790_comment_com2105">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 62. – 1 Bl. 20(–20,3) × 9,8(–10) cm, &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. oben rechts von fremder Hd, Tinte: „54“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 57), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 124.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 185, Nr 644.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11790_comment_com3901">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11790_comment_com11335">
+<label xml:id="GB03_2_BR303_0_note_001_175_12" copyOf="#start_com_2634"><hi rendition="#fett">175,12</hi>Ettersb.</label>
+<p>Schloss Ettersburg (vgl. zu <ref target="gb:note#GB03_2_BR054_0_note_001_39_16">39,16</ref>).</p>
+
+</note>
+<note xml:id="gb11790_comment_com15455">
+<label xml:id="GB03_2_BR303_0_note_002_175_12" copyOf="#start_com_2635"><hi rendition="#fett">175,12</hi>Herz Louise war da und die Waldn.</label>
+<p>Laut Tagebuch vom 10. November traf Goethe in Ettersburg neben der Herzogin Louise und deren Hofdame Louise Adelaide Waldner auch den Kammerherrn Sigmund von Seckendorff (vgl. <ref target="gt:dokument#473">GT I 1, 51</ref>).</p>
+
+</note>
+<note xml:id="gb11790_comment_com11336">
+<label xml:id="GB03_2_BR303_0_note_003_175_13" copyOf="#start_com_2636"><hi rendition="#fett">175,13</hi>Martins Gans</label>
+<p>Der 11. November, der Tag des heiligen Martin von Tours, wurde im 18. Jahrhundert auch in evangelischen Gegenden mit verschiedenen Bräuchen begangen, darunter dem Martinsgansessen. Der Legende nach versteckte sich Martin, als er gegen seinen Willen zum Bischof geweiht werden sollte, in einem Gänsestall, wo ihn die schnatternden Tiere verrieten.</p>
+
+</note>
+<note xml:id="gb11790_comment_com15213">
+<label xml:id="GB03_2_BR303_0_note_004_175_13" copyOf="#start_com_2637"><hi rendition="#fett">175,13</hi>heute zu Haus</label>
+<p>Am 11. November tagte vormittags das Geheime Consilium, danach war Goethe bei Charlotte von Stein zu einem <quote type="G">guten Mittag</quote> (<ref target="gt:dokument#474">GT I 1, 51</ref>).</p>
+
+</note>
+<note xml:id="gb11790_comment_com11337">
+<label xml:id="GB03_2_BR303_0_note_005_175_14" copyOf="#start_com_2638"><hi rendition="#fett">175,14</hi>Schicken Sie mir</label>
+<p>Wie die im Folgenden aufgeführten Titel belegen, steht die Bitte im Zusammenhang mit Goethes Vorhaben, ein handschriftliches Liederbuch mit Vertonungen eigener und fremder Gedichte anlegen zu lassen. Mit dem Kopieren von Lied-Handschriften und -Drucken hatte er Johann Michael Wiener, Oboist bei der Weimarer Hofkapelle, beauftragt. Eine Rechnung Wieners für das Schreiben „verschiedener Musicalischer Stücke“ vom 15. Dezember 1777 beglich Goethe am 11. Januar (<ref target="sndb:sigle#2572">GR/Belege 1776–1778</ref>, Bl. 27), eine weitere am 9. März 1778 (<ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 20). Es ist anzunehmen, dass sich beide Belege auf das handschriftliche Liederbuch beziehen. Wie Goethes Rechnungsführung zeigt, lagen in der Regel zwischen der Fertigstellung von Auftragsarbeiten und dem Ausstellen der Rechnung sowie dem Begleichen derselben einige Wochen, nicht selten sogar Monate. Die Arbeit am Liederbuch ist daher wohl nicht erst im März 1778 beendet worden, wie häufig auch noch in neueren Publikationen angegeben wird (vgl. <ref target="sndb:sigle#2787/1143">Busch-Salmen/Salmen, Goethes Liederbuch</ref>, 197; <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 1, 180). Sie dürfte schon einige Wochen zuvor, wahrscheinlich Anfang Februar 1778, abgeschlossen worden sein. Das Liederbuch ist in Goethes Notensammlung überliefert (<ref target="archivdb:dokument#64900">GSA 32/1477</ref>) und enthält auf 142 Seiten insgesamt 85 zum Teil zweistimmig gesetzte Lieder mit Klavierbegleitung. Die Foliierung und die Nummerierung der Lieder wurde später von fremder Hand mit Bleistift ergänzt (zum Inhalt vgl. <ref target="sndb:sigle#2787/1143">Busch-Salmen/Salmen, Goethes Liederbuch</ref>, 200–205). Der größte Teil der Kompositionen stammt von Philipp Christoph Kayser, allerdings ohne dass dies im Buch vermerkt wäre. Vor den Kompositionen des letzten Teils (Nr 72–85), dessen Vorlagen wahrscheinlich erst Anfang 1778 kopiert wurden, finden sich von der Hand Wieners die Hinweise „von S. Fh<g ref="#typoSuspension"/>. von Seckendorff“ sowie „aus den Volksliedern“, gemeint ist der erste Teil von Herders 1778 erschienener Sammlung. Auch die Verfasser der Gedichte wurden von Wiener nicht angegeben, sondern in einigen Fällen mit Bleistift von späterer Hand ergänzt. 13 Gedichte stammen von Goethe, die übrigen von zeitgenössischen Dichtern, darunter Johann Martin Miller, Friedrich Maximilian Klinger, Ludwig Christoph Heinrich Hölty, Johann Georg Jacobi, Jacob Michael Reinhold Lenz und Heinrich Christian Boie, sowie von Weimarer Bekannten wie Sigmund von Seckendorff, Friedrich Hildebrand von Einsiedel, Friedrich Justin Bertuch und Louise von Göchhausen. Verfasserin des an erster Stelle aufgenommenen Liedes „Auf das erste Veilchen“ („Sei mir gegrüßt! Der Frühlingskinder erstes <gap quantity="3" reason="editorial"/>“) war Charlotte von Stein.</p>
+
+</note>
+<note xml:id="gb11790_comment_com18046">
+<label xml:id="GB03_2_BR303_0_note_006_175_14" copyOf="#start_com_2639"><hi rendition="#fett">175,14</hi>Jägers Nachtlied</label>
+<p>Unter diesem Titel (mit dem Anfangsvers „Im Felde schleich ich still und wild <gap quantity="3" reason="editorial"/>“) war das Gedicht 1776 im „Teutschen Merkur“ (Januar-Heft 1776, S. 8 f.) erschienen; 1789 wurde es in veränderter Fassung als „Jägers Abendlied“ in Band 8 der Göschen-Ausgabe von „Goethe’s Schriften“ (S. 151) aufgenommen (zuvor in der nicht autorisierten Himburg-Ausgabe der „Schriften“ [Bd 4. 1779, S. 239 f.]). – Die Vertonung Kaysers ist in einer Einzelhandschrift von unbekannter Hand in Goethes Notensammlung erhalten, bei der es sich aber wahrscheinlich nicht um die hier erbetene, sondern um eine spätere Abschrift handelt (<ref target="archivdb:dokument#60411">GSA 32/237</ref>). In das Liederbuch wurde „Jägers Nachtlied“ mit der Komposition Kaysers als 34. Lied aufgenommen.</p>
+
+</note>
+<note xml:id="gb11790_comment_com11338">
+<label xml:id="GB03_2_BR303_0_note_007_175_14" copyOf="#start_com_2640"><hi rendition="#fett">175,14</hi>Süser Todt</label>
+<p>Übersetzung Herders aus Shakespeares „Twelfth Night, or What you will“ (II 4); gedruckt zuerst 1778 im ersten Teil der anonym herausgebenen „Volkslieder“ (Leipzig; 3. Buch, Nr 22, S. 298–300). „Süßer Tod“ („Süßer Tod, süßer Tod komm <gap quantity="3" reason="editorial"/>“) wurde zweimal in Goethes Liederbuch aufgenommen, und zwar als 32. Stück in der Vertonung von Kayser sowie im letzten Teil unter den Kompositionen Seckendorffs (Nr 72). – Die im vorliegenden Brief von Charlotte von Stein erbetene Vorlage war offenbar eine Einzelhandschrift der Kayserschen Vertonung.</p>
+
+</note>
+<note xml:id="gb11790_comment_com11350">
+<label xml:id="GB03_2_BR303_0_note_008_175_14-15" copyOf="#start_com_2641"><hi rendition="#fett">175,14-15</hi>die gedruckten, wo: Grabet in die iunge Linde, dabey ist</label>
+<p>Philipp Christoph Kaysers erste gedruckte Sammlung „Vermischte Lieder mit Melodien aufs Clavier“ (Winterthur 1775), deren Vertrieb durch Breitkopf in Leipzig erfolgte (vgl. Busch-Salmen/Salmen, Goethes Liederbuch, 199). – In der Sammlung enthalten war u. a. auch die Vertonung von Heinrich Christian Boies Gedicht „Der verschwiegene Schäfer“ mit dem Anfangsvers „Grabet in die iunge Rinde <supplied>sic!</supplied>“, das an 48. Stelle in das handschriftliche Liederbuch aufgenommen wurde. Insgesamt gingen 21 Lieder aus der gedruckten Sammlung in das Liederbuch ein (Nr 35–55). – Außerdem finden sich 18 Kompositionen Kaysers, die er 1777 selbst drucken ließ (vgl. zu <ref target="gb:note#GB03_2_BR326_0_note_001_194_13-14">194,13-14</ref>).</p>
+
+</note>
+<note xml:id="gb11790_comment_com13637">
+<label xml:id="GB03_2_BR303_0_note_009_175_16" copyOf="#start_com_2642"><hi rendition="#fett">175,16</hi>ein lieblich Lied von ihm</label>
+<p>Eine weitere Komposition Kaysers; nicht auszuschließen ist, dass es sich dabei um die Vertonung von Goethes Gedicht „An den Mond“ handelt (vgl. Datierung zu <ref target="gb:note#gb11675_comment_com1647">Nr 326</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

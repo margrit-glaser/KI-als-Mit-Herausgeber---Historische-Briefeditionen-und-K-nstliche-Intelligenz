@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4280"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb42" n="GB 3, Nr. 419">
+  <teiHeader xml:id="gb42_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>419.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 11. Dezember <supplied>1778.  Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:09Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb42_tei.xml</idno>
+        <idno type="URI">gb42</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR419_0</idno>
+        <idno type="KSW-ID">42</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="239" to="241">239-241</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="802" to="804">802-804</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb42_header_hwit1418" corresp="#gb42_source_hwit1418" sameAs="#gb42_comment_hwit1418" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 5-6</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/42,,1418/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ihren Brief vom 7. Dezember erhalte heut Freitags den 11ten früh</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-12-11">11. Dezember <supplied>1778</supplied></date>
+            <note>
+              <date type="WA" when="1778-12-14"><supplied>14.</supplied> Dezember <supplied>1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb42_source_hwit1418" corresp="#gb42_header_hwit1418" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#42/28225"/>
+      <p>
+        <anchor xml:id="GB03_1_BR419_0_239_010"/>Ihren Brief vom 7 Dez erhalte heut Freytags d<g ref="#typoSuspension"/>. 11 früh.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR419_0_239_011"/>Und zuerst zu Ihrer Beruhigung sie sollen in nichts gezwungen 
+<anchor xml:id="GB03_1_BR419_0_239_012"/>seyn sie sollen die <ref target="gb:note#GB03_2_BR419_0_note_001_239_12" xml:id="start_com_3608"/>hundert Thaler<ref xml:id="end_com_3608"/> haben <ref target="gb:note#GB03_2_BR419_0_note_002_239_12" xml:id="start_com_3609"/>wo Sie sich aufhalten<ref xml:id="end_com_3609"/> nun 
+<anchor xml:id="GB03_1_BR419_0_239_013"/>aber hören Sie mich.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR419_0_239_014"/>Ich weis dass dem Menschen seine Vorstellungen Würcklichkeiten 
+<anchor xml:id="GB03_1_BR419_0_239_015"/>sind, und obgleich <ref target="gb:note#GB03_2_BR419_0_note_003_239_15" xml:id="start_com_3610"/>das Bild das Sie sich von Jena machen<ref xml:id="end_com_3610"/> falsch ist, so 
+<anchor xml:id="GB03_1_BR419_0_239_016"/>weis ich doch dass sich nichts weniger als solch eine hypochondrische 
+<anchor xml:id="GB03_1_BR419_0_239_017"/>Angstlichkeit wegraisonniren lässt. Jena hielt ich aus viel Ursachen für 
+<anchor xml:id="GB03_1_BR419_0_239_018"/>den besten Aufenthalt für Sie.     Die Akademie und Stadt hat lang ihre 
+<anchor xml:id="GB03_1_BR419_0_239_019"/>alte Herrlichkeit<ptr n="1" target="#a001_239.19"/> und Wildheit verlohren, die Studenten sind nicht 
+<anchor xml:id="GB03_1_BR419_0_239_020"/>schlimmer wie überall und viele darunter recht <ref target="gb:note#GB03_2_BR419_0_note_004_239_20" xml:id="start_com_7410"/>hübsche Leute<ref xml:id="end_com_7410"/>. Man 
+<anchor xml:id="GB03_1_BR419_0_239_021"/>ist das Auf und Abgehen so mancher Menschen<ptr n="2" target="#a002_239.21"/> gewohnt dass ein einzelner 
+<anchor xml:id="GB03_1_BR419_0_239_022"/>nicht <ref target="gb:note#GB03_2_BR419_0_note_005_239_22" xml:id="start_com_3611"/>merckwürdig <ref xml:id="end_com_3611"/>ist. Es leben viele Leute kümmerlich daselbst 
+<anchor xml:id="GB03_1_BR419_0_239_023"/>dass Armuth kein Merckzeichen und Verachtung ist. Es ist doch 
+<anchor xml:id="GB03_1_BR419_0_239_024"/>immer <pb n="2" facs="gb:digitalisate#42/28226"/> eine Stadt wo das nothwendige eh zu haben ist, wer auf dem 
+<anchor xml:id="GB03_1_BR419_0_240_001"/>Lande im Winter kranck würde ohne Wartung wie elend wäre das. 
+<anchor xml:id="GB03_1_BR419_0_240_002"/>Ferner <ref target="gb:note#GB03_2_BR419_0_note_006_240_2" xml:id="start_com_3612"/>die Leute zu denen ich sie wies<ref xml:id="end_com_3612"/>, sind gute Hausleute die auch 
+<anchor xml:id="GB03_1_BR419_0_240_003"/>um meintwillen Ihnen gut würden begegnet seyn. bey allem was Ihnen 
+<anchor xml:id="GB03_1_BR419_0_240_004"/>vorkommen konnte, war ich im Stand Ihnen durch diesen oder ienen 
+<anchor xml:id="GB03_1_BR419_0_240_005"/>zu helfen. Sodann sasen Sie gewiss fest. Ich konnte Ihnen bey Ihrer 
+<anchor xml:id="GB03_1_BR419_0_240_006"/>Einrichtung behülflich seyn, brauchte iezt nur für Wohnung und Tisch 
+<anchor xml:id="GB03_1_BR419_0_240_007"/>gut zu sagen, und erst nachher zu<ptr n="3" target="#a003_240.7"/> bezahlen. Ich hätte Ihnen auf Neujahr 
+<anchor xml:id="GB03_1_BR419_0_240_008"/>ein weniges gegeben, das übrige mit Credit gemacht. Sie wären 
+<anchor xml:id="GB03_1_BR419_0_240_009"/>mir näher gewesen. Jeden <ref target="gb:note#GB03_2_BR419_0_note_007_240_9" xml:id="start_com_3613"/>Marcktag<ref xml:id="end_com_3613"/> konnt ich Ihnen was schicken, 
+<anchor xml:id="GB03_1_BR419_0_240_010"/>manchmal an Wein, <ref target="gb:note#GB03_2_BR419_0_note_008_240_10" xml:id="start_com_3614"/>Vicktualien<ref xml:id="end_com_3614"/>, <ref target="gb:note#GB03_2_BR419_0_note_009_240_10" xml:id="start_com_3615"/>Geräthe<ref xml:id="end_com_3615"/>, das mich nicht mehr kostete, 
+<anchor xml:id="GB03_1_BR419_0_240_011"/>und Ihnen <ref target="gb:note#GB03_2_BR419_0_note_010_240_11" xml:id="start_com_3616"/>leidlicheres<ptr n="4" target="#a004_240.11"/>
+        <ref xml:id="end_com_3616"/> Leben machte, ich hätte Sie an meine Haushaltung 
+<anchor xml:id="GB03_1_BR419_0_240_012"/>näher anknüpfen können. Wie <ref target="gb:note#GB03_2_BR419_0_note_011_240_12" xml:id="start_com_3617"/>fatal<ref xml:id="end_com_3617"/> ist die Communication 
+<anchor xml:id="GB03_1_BR419_0_240_013"/>mit Gera, nie kommt was zur rechten Zeit <pb n="3" facs="gb:digitalisate#42/28227"/> an und kostet Geld das 
+<anchor xml:id="GB03_1_BR419_0_240_014"/>niemand <ref target="gb:note#GB03_2_BR419_0_note_012_240_14" xml:id="start_com_3618"/>geniest<ref xml:id="end_com_3618"/>. Sie wären vielleicht ein halb iahr in Jena gewesen 
+<anchor xml:id="GB03_1_BR419_0_240_015"/>ohne dass Sie iemand bemerckt hätte. Dies ist die Lage die mir Jena vor 
+<anchor xml:id="GB03_1_BR419_0_240_016"/>allem vorziehen lies, sie würden eben das thun wenn Sie das Verhältniss 
+<anchor xml:id="GB03_1_BR419_0_240_017"/>mit ungetrübten Augen sähen. Wie wärs wenn Sie eine Probe machten? 
+<anchor xml:id="GB03_1_BR419_0_240_018"/>Doch ich weis dass den Menschen von zitternder <ref target="gb:note#GB03_2_BR419_0_note_013_240_18" xml:id="start_com_3619"/>Nerve<ref xml:id="end_com_3619"/> eine 
+<anchor xml:id="GB03_1_BR419_0_240_019"/>Mücke irren kan, und dass dagegen kein Reden hilft.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR419_0_240_020"/>Uberlegen Sie’s, sie würden Sich s und mir erleichtern, ich verspreche 
+<anchor xml:id="GB03_1_BR419_0_240_021"/>dass Sie in Jena gut aufgehoben seyn sollen. Können Sie’s aber 
+<anchor xml:id="GB03_1_BR419_0_240_022"/>nicht über sich gewinnen so bleiben Sie in Gera. Auf Neujahr sollen 
+<anchor xml:id="GB03_1_BR419_0_240_023"/>Sie 25 rh haben und so die vierteljahre iederzeit <ref target="gb:note#GB03_2_BR419_0_note_014_240_23" xml:id="start_com_3620"/>pränumerirt<ref xml:id="end_com_3620"/>, Ostern 
+<anchor xml:id="GB03_1_BR419_0_240_024"/>
+        <ref target="gb:note#GB03_2_BR419_0_note_015_240_24" xml:id="start_com_3621"/>Johanni und Michäl<ref xml:id="end_com_3621"/>. Anders kan ich meine Einrichtung<ptr n="5" target="#a005_240.24"/> nicht machen. 
+<anchor xml:id="GB03_1_BR419_0_240_025"/>Da es mir an meinem Plaz so leicht ist Geld zu haben, muss ich desto 
+<anchor xml:id="GB03_1_BR419_0_240_026"/>strenger in meiner Wirthschafft seyn. Auch das was<ptr n="6" target="#a006_240.26"/> ich Ihnen <pb n="4" facs="gb:digitalisate#42/28228"/> bisher 
+<anchor xml:id="GB03_1_BR419_0_240_027"/>gegeben habe, da es am Ende des Jahrs und ganz unerwartet kam, hat 
+<anchor xml:id="GB03_1_BR419_0_240_028"/>mir eine Lücke gemacht die ich wieder flicken muss. Schreiben Sie 
+<anchor xml:id="GB03_1_BR419_0_240_029"/>mir doch wie viels war? ich habe einen Posten nicht aufgeschrieben 
+<anchor xml:id="GB03_1_BR419_0_240_030"/>und finde einen Verstos in meiner Rechnung.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR419_0_240_031"/>Wenn Sie in<ptr n="7" target="#a007_240.31"/> Jena wären, könnt ich auch eher einigen Auftrag und 
+<anchor xml:id="GB03_1_BR419_0_240_032"/>vielleicht <ref target="gb:note#GB03_2_BR419_0_note_016_240_32" xml:id="start_com_3622"/>einiges Geschäffte<ref xml:id="end_com_3622"/> Ihnen geben, Sie persönlich kennen lernen 
+<anchor xml:id="GB03_1_BR419_0_240_033"/>und so weiter.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR419_0_241_001"/>Handeln Sie aber ganz nach Ihrem Herzen, und wenn meine Gründe 
+<anchor xml:id="GB03_1_BR419_0_241_002"/>nicht in Ihr Herz übergehn, Ihnen mit der Uberzeugung nicht 
+<anchor xml:id="GB03_1_BR419_0_241_003"/>auch<ptr n="8" target="#a008_241.3"/> Ruhe und getrosten Muth in Jena versprechen, so bleiben Sie in 
+<anchor xml:id="GB03_1_BR419_0_241_004"/>Ihrer<ptr n="9" target="#a009_241.4"/> iezzigen Stille. Fangen Sie bald an <ref target="gb:note#GB03_2_BR419_0_note_017_241_4-5" xml:id="start_com_3623"/>Ihr Leben zu beschreiben und 
+<anchor xml:id="GB03_1_BR419_0_241_005"/>schicken mir’s stückweise<ref xml:id="end_com_3623"/>, und seyn Sie überzeugt dass mir alles recht 
+<anchor xml:id="GB03_1_BR419_0_241_006"/>ist was Sie beruhigen und zufrieden stellen kan, und dass ich Jena blos 
+<anchor xml:id="GB03_1_BR419_0_241_007"/>wählte, weil ich auf die bequemste und leichteste<ptr n="10" target="#a010_241.7"/> Art für mich, Ihnen 
+<anchor xml:id="GB03_1_BR419_0_241_008"/>das leidlichste Leben zu verschaffen hoffte. </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR419_0_241_009"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb42_comment">
+<body>
+<div type="metadata" xml:id="gb42_comment_com978">
+  <ab type="numberAddressee"><label>419.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 11. Dezember <supplied>1778</supplied> → <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb42_comment_com1839">
+  <p>Die fehlende Jahreszahl ergibt sich aus dem Inhalt des Briefes.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb42_comment_com3022">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 5–6. – Doppelblatt 17,2 × 20,7 cm, nachträglich mit Falz an unbeschriebenem Bl. befestigt, 4 S. beschr., egh., Tinte; S. 1 oben Mitte von fremder Hd, Tinte: „78. Dec. 14<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd, Bleistift: „3“; S. 4 am rechten Rand von fremder Hd, Tinte: „Hillkenhacke“.</p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 170–172, Nr 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 262–265, Nr 766 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb42_comment_com4818">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Kraffts vom 7. Dezember 1778 (vgl. <ref target="gb:text#GB03_1_BR419_0_239_010">239,10</ref>). – Der Antwortbrief, auf den sich Goethes Brief vom 3. Januar 1779 (<ref target="gb:dokument#43">Nr 452</ref>) bezieht (vgl. zu <ref target="gb:text#GB03_1_BR452_0_255_003">255,3</ref>), ist ebenfalls nicht überliefert.</p>
+  <p rendition="#einrueck1">Im Bezugsbrief hatte Krafft Goethes Vorschlag, eine Zeitlang in Jena zu leben, den er ihm in seinen Briefen vom 11. und vom 23. November 1778 (<ref target="gb:dokument#39">Nr 413</ref> und <ref target="gb:dokument#40">416</ref>) gemacht hatte, abgelehnt. Ursache war seine <quote type="G">hypochondrische Angstlichkeit</quote> (<ref target="gb:text#GB03_1_BR419_0_239_016 #GB03_1_BR419_0_239_017">239,16–17</ref>), die Goethe veranlasste, im vorliegenden Brief beschwichtigend auf den Adressaten einzuwirken und in aller Behutsamkeit – etwa im gezielten Gebrauch des Konjunktivs – den Versuch zu unternehmen, ihn umzustimmen. Eine detaillierte Analyse des Brieftextes und der verwendeten stilistischen Mittel hat Albrecht Schöne vorgelegt: Versuch über Goethesche Humanität. Oder: Zum Gebrauch des Konjunktivs Plusquamperfekt in einem Brief an Johann Friedrich Krafft. In: Herkommen und Erneuerung. Essays für Oskar Seidlin. Hrsg. von Gerald Gillespie und Edgar Lohner †. Tübingen 1976, S. 103–126.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb42_comment_com5336">
+<label xml:id="GB03_2_BR419_0_note_001_239_12" copyOf="#start_com_3608"><hi rendition="#fett">239,12</hi>hundert Thaler</label>
+<p>Goethe unterstützte Krafft von Januar 1779 an mit 100 Reichstalern, von 1781 an mit 200 Reichstalern jährlich.</p>
+
+</note>
+<note xml:id="gb42_comment_com5337">
+<label xml:id="GB03_2_BR419_0_note_002_239_12" copyOf="#start_com_3609"><hi rendition="#fett">239,12</hi>wo Sie sich aufhalten</label>
+<p>Krafft siedelte im Mai 1779 nach Ilmenau über, wo er bis 1785 blieb.</p>
+
+</note>
+<note xml:id="gb42_comment_com15485">
+<label xml:id="GB03_2_BR419_0_note_003_239_15" copyOf="#start_com_3610"><hi rendition="#fett">239,15</hi>das Bild das Sie sich von Jena machen</label>
+<p>Im 18. Jahrhundert galten die Studenten der Universität Jena als besonders disziplin- und sittenlos. Raufereien, Tumulte, Duelle waren an der Tagesordnung, verschärft durch die Rivalität verschiedener studentischer Landsmannschaften (vgl. Richard und Robert Keil: Geschichte des Jenaischen Studentenlebens von der Gründung der Universität bis zur Gegenwart. [1548–1858.] Leipzig 1858, S. 135–213).</p>
+
+</note>
+<note xml:id="gb42_comment_com5306">
+<label xml:id="GB03_2_BR419_0_note_004_239_20" copyOf="#start_com_7410"><hi rendition="#fett">239,20</hi>hübsche Leute</label>
+<p>‚Hübsch‘ hier ‚wohlgesittet‘, ‚gut‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 1299).</p>
+
+</note>
+<note xml:id="gb42_comment_com5307">
+<label xml:id="GB03_2_BR419_0_note_005_239_22" copyOf="#start_com_3611"><hi rendition="#fett">239,22</hi>merckwürdig</label>
+<p>Im 18. Jahrhundert noch im Wortsinn: ‚wert, bemerkt oder beachtet zu werden‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 183).</p>
+
+</note>
+<note xml:id="gb42_comment_com5308">
+<label xml:id="GB03_2_BR419_0_note_006_240_2" copyOf="#start_com_3612"><hi rendition="#fett">240,2</hi>die Leute zu denen ich sie wies</label>
+<p>Wen Goethe dabei im Auge hatte, ist nicht ermittelt worden.</p>
+
+</note>
+<note xml:id="gb42_comment_com5309">
+<label xml:id="GB03_2_BR419_0_note_007_240_9" copyOf="#start_com_3613"><hi rendition="#fett">240,9</hi>Marcktag</label>
+<p>Markttag (Schreibversehen).</p>
+
+</note>
+<note xml:id="gb42_comment_com5310">
+<label xml:id="GB03_2_BR419_0_note_008_240_10" copyOf="#start_com_3614"><hi rendition="#fett">240,10</hi>Vicktualien</label>
+<p>Lebensmittel (nach franz. victuailles).</p>
+
+</note>
+<note xml:id="gb42_comment_com5305">
+<label xml:id="GB03_2_BR419_0_note_009_240_10" copyOf="#start_com_3615"><hi rendition="#fett">240,10</hi>Geräthe</label>
+<p>Einrichtungsgegenstände, Hausrat (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1506).</p>
+
+</note>
+<note xml:id="gb42_comment_com5311">
+<label xml:id="GB03_2_BR419_0_note_010_240_11" copyOf="#start_com_3616"><hi rendition="#fett">240,11</hi>leidlicheres</label>
+<p>Leidlich: erträglich (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 2011).</p>
+
+</note>
+<note xml:id="gb42_comment_com7288">
+<label xml:id="GB03_2_BR419_0_note_011_240_12" copyOf="#start_com_3617"><hi rendition="#fett">240,12</hi>fatal</label>
+<p>Hier: unangenehm, unerfreulich; von Goethe vorwiegend in der voritalienischen Zeit verwendet (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 610).</p>
+
+</note>
+<note xml:id="gb42_comment_com13979">
+<label xml:id="GB03_2_BR419_0_note_012_240_14" copyOf="#start_com_3618"><hi rendition="#fett">240,14</hi>geniest</label>
+<p>‚Etwas genießen‘ hier: ‚Nutzen von etwas haben‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 566).</p>
+
+</note>
+<note xml:id="gb42_comment_com5312">
+<label xml:id="GB03_2_BR419_0_note_013_240_18" copyOf="#start_com_3619"><hi rendition="#fett">240,18</hi>Nerve</label>
+<p>Im 18. Jahrhundert wurde gelegentlich das Femininum ‚die Nerve‘ neben dem Maskulinum ‚der Nerve‘ gebraucht (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 468).</p>
+
+</note>
+<note xml:id="gb42_comment_com5313">
+<label xml:id="GB03_2_BR419_0_note_014_240_23" copyOf="#start_com_3620"><hi rendition="#fett">240,23</hi>pränumerirt</label>
+<p>Vorausbezahlt (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 2069).</p>
+
+</note>
+<note xml:id="gb42_comment_com5314">
+<label xml:id="GB03_2_BR419_0_note_015_240_24" copyOf="#start_com_3621"><hi rendition="#fett">240,24</hi>Johanni und Michäl</label>
+<p>Die Tage des heiligen Johannes und des heiligen Michael am 24. Juni bzw. 29. September; an diesen Tagen wurden üblicherweise feststehende Zahlungen geleistet.</p>
+
+</note>
+<note xml:id="gb42_comment_com5315">
+<label xml:id="GB03_2_BR419_0_note_016_240_32" copyOf="#start_com_3622"><hi rendition="#fett">240,32</hi>einiges Geschäffte</label>
+<p>Über die Dienste, die Krafft Goethe in Ilmenau leistete, vgl. die einleitende Erläuterung zu <ref target="gb:note#gb38_comment_com4808">Nr 410</ref>.</p>
+
+</note>
+<note xml:id="gb42_comment_com15486">
+<label xml:id="GB03_2_BR419_0_note_017_241_4-5" copyOf="#start_com_3623"><hi rendition="#fett">241,4-5</hi>Ihr Leben zu beschreiben <gap quantity="3" reason="editorial"/> stückweise</label>
+<p>Krafft ist dieser Aufforderung gefolgt. In seinem Brief vom 3. Januar 1779 dankt Goethe für Kraffts Vertrauen und erwartet die <quote type="G">Fortsezzung Ihres Lebens</quote> (<ref target="gb:text#GB03_1_BR452_0_255_003">255,3</ref>). Diese autobiographischen Aufzeichnungen sind nicht überliefert.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

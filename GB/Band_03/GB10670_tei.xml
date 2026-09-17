@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1300"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10670" n="GB 3, Nr. 129">
+  <teiHeader xml:id="gb10670_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>129.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, erste Hälfte Juni? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:56Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10670_tei.xml</idno>
+        <idno type="URI">gb10670</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR129_0</idno>
+        <idno type="KSW-ID">10670</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="75" to="76">75-76</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="294" to="295">294-295</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10670_header_hwit1014" corresp="#gb10670_source_hwit1014" sameAs="#gb10670_comment_hwit1014" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 8</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10670,,1014/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich dancke Ihnen dass Sie soviel besser gegen mich sind als ich's verdiene, ich hoffte nichts</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10670_header_acc336" corresp="gb10670_comment_acc336">
+            <objectIdentifier>
+              <objectName>Wahrscheinlich der 2. Band von Lavaters „Physiognomischen Fragmenten“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-06-01" to="1776-06-15"><supplied>erste Hälfte Juni? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-06-01" to="1776-06-30"><supplied>Juni 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10670_source_hwit1014" corresp="#gb10670_header_hwit1014" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10670/22378"/>
+      <p>
+        <anchor xml:id="GB03_1_BR129_0_075_015"/>Ich dancke Ihnen <ref target="gb:note#GB03_2_BR129_0_note_001_75_15-16" xml:id="start_com_1189"/>dass Sie soviel besser gegen mich sind als ich’s verdiene<ref xml:id="end_com_1189"/>, 
+<anchor xml:id="GB03_1_BR129_0_075_016"/>ich hoffte nichts von Ihnen zu sehen. Wenn ich mein Herz 
+<anchor xml:id="GB03_1_BR129_0_075_017"/>gegen Sie zuschliesen will, wird mir’s nie wohl dabey! Hier <ref target="gb:note#GB03_2_BR129_0_note_002_75_17" xml:id="start_com_1190"/>die Phis.<ref xml:id="end_com_1190"/>
+        <anchor xml:id="GB03_1_BR129_0_076_001"/> Gestern Nacht hab ich noch gebadet aber nicht <ref target="gb:note#GB03_2_BR129_0_note_003_76_1" xml:id="start_com_1191"/>am Wehre<ref xml:id="end_com_1191"/>, und herrliche 
+<anchor xml:id="GB03_1_BR129_0_076_002"/>
+        <ref target="gb:note#GB03_2_BR129_0_note_004_76_2" xml:id="start_com_1192"/>Wahrzeichen<ref xml:id="end_com_1192"/> gesehen.    Addio <ref target="gb:note#GB03_2_BR129_0_note_005_76_2" xml:id="start_com_1193"/>Gold<ref xml:id="end_com_1193"/>.    G.     d<g ref="#typoSuspension"/>.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10670_comment">
+<body>
+<div type="metadata" xml:id="gb10670_comment_com373">
+  <ab type="numberAddressee"><label>129.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>erste Hälfte Juni? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10670_comment_com1561">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief Anfang März 1776 eingeordnet. Der Inhalt spricht gegen diese Einordnung (vgl. <ref target="gb:text#GB03_1_BR129_0_076_001">76,1</ref> und <ref target="gb:note#gb10670_comment_com3528">Beilage</ref>). Im Erstdruck datiert Schöll den Brief ohne Begründung in die erste Oktoberhälfte 1776. Seit Fielitz wird der Brief in die Zeit zwischen dem 7. und 13. Juni 1776 gesetzt (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 38, Nr 63). Für eine Datierung in die erste Hälfte Juni 1776 spricht neben dem Tonfall, der zu dem der datierten Briefe dieses Zeitraums passt, vor allem die Beilage (vgl. <ref target="gb:text#GB03_1_BR129_0_075_017 #GB03_1_BR129_0_076_001">75,17–76,1</ref>), bei der es sich um den Mitte Mai 1776 erschienenen 2. Band von Lavaters „Physiognomischen Fragmenten“ handeln könnte. Nachdem Goethe ein erstes Exemplar erhalten hatte, bat er am 16. Mai 1776 den Verleger Philipp Erasmus Reich in Leipzig um <quote type="G">2 komplete Exemplare</quote> (<ref target="gb:text#GB03_1_BR105_0_063_003">63,3</ref>). Es ist anzunehmen, dass diese spätestens in der ersten Hälfte Juni nach Weimar gelangten; eines davon könnte Goethe mit dem vorliegenden Brief an Charlotte von Stein geschickt haben. Auch die Erwähnung des Bades im Freien (vgl. <ref target="gb:text#GB03_1_BR129_0_076_001">76,1</ref>) legt nahe, dass der Brief aus der wärmeren Jahreszeit stammt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10670_comment_com2417">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 8. – 1 Bl. 19,2 × 5,6(–6,3) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „19.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 19), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 65 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 74, Nr 473.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10670_comment_com3528">
+  <p>Wahrscheinlich der 2. Band von Lavaters „Physiognomischen Fragmenten“ (vgl. zu <ref target="gb:note#GB03_2_BR129_0_note_002_75_17">75,17</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10670_comment_com4213">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10670_comment_com17522">
+<label xml:id="GB03_2_BR129_0_note_001_75_15-16" copyOf="#start_com_1189"><hi rendition="#fett">75,15-16</hi>dass Sie so viel besser <gap quantity="3" reason="editorial"/> verdiene</label>
+<p>Wenn der Brief, wie angenommen, aus der ersten Hälfte Juni 1776 stammt, dann ist die Äußerung wohl auf Goethes Erleichterung über das wiederhergestellte innige Verhältnis zur Adressatin zu beziehen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10899_comment_com4810">Nr 115</ref>).</p>
+
+</note>
+<note xml:id="gb10670_comment_com9790">
+<label xml:id="GB03_2_BR129_0_note_002_75_17" copyOf="#start_com_1190"><hi rendition="#fett">75,17</hi>die Phis.</label>
+<p>Wahrscheinlich der im Mai erschienene 2. Band von Johann Caspar Lavaters „Physiognomischen Fragmenten, zur Beförderung der Menschenkenntniß und Menschenliebe“ (vgl. <ref target="gb:note#gb10670_comment_com1561">Datierung</ref>). Goethe hatte die Manuskripte redigiert und sie weiter zum Druck nach Leipzig befördert (zu seinem Anteil am 2. Band vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_004_7_5">7,5</ref>).</p>
+
+</note>
+<note xml:id="gb10670_comment_com14926">
+<label xml:id="GB03_2_BR129_0_note_003_76_1" copyOf="#start_com_1191"><hi rendition="#fett">76,1</hi>am Wehre</label>
+<p>Das Wehr in der Nähe der Kegelbrücke unmittelbar unterhalb der Ruine des Schlosses und nicht weit von Goethes Garten am „Stern“ (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>). Die Stelle am Wehr, wo der Floßgraben in die Ilm geleitet wurde, scheint die gewöhnliche Badestelle Goethes gewesen zu sein.</p>
+
+</note>
+<note xml:id="gb10670_comment_com13597">
+<label xml:id="GB03_2_BR129_0_note_004_76_2" copyOf="#start_com_1192"><hi rendition="#fett">76,2</hi>Wahrzeichen</label>
+<p>Hier: Vorzeichen, Omen, Anzeichen künftiger Geschehnisse, Signum (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 1030).</p>
+
+</note>
+<note xml:id="gb10670_comment_com9791">
+<label xml:id="GB03_2_BR129_0_note_005_76_2" copyOf="#start_com_1193"><hi rendition="#fett">76,2</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

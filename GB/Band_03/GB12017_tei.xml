@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5430"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12017" n="GB 3, Nr. 533">
+  <teiHeader xml:id="gb12017_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>533.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>, 20. September 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12017_tei.xml</idno>
+        <idno type="URI">gb12017</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR533_0</idno>
+        <idno type="KSW-ID">12017</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="298" to="298">298</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="985" to="986">985-986</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12017_header_hwit1521" corresp="#gb12017_source_hwit1521" sameAs="#gb12017_comment_hwit1521" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 28</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12017,,1521/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Nur einen guten Morgen vorm Angesicht der Väterlichen Sonne.    Schreiben kan ich nicht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>
+            <date when="1779-09-20">20. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12017_source_hwit1521" corresp="#gb12017_header_hwit1521" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12017/23122"/>
+      <p>
+        <anchor xml:id="GB03_1_BR533_0_298_008"/>Nur einen guten Morgen <ref target="gb:note#GB03_2_BR533_0_note_001_298_8" xml:id="start_com_4310"/>vorm<ptr n="1" target="#a001_298.8"/> Angesicht der Väterlichen Sonne<ref xml:id="end_com_4310"/>. 
+<anchor xml:id="GB03_1_BR533_0_298_009"/>Schreiben kan ich nicht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR533_0_298_010"/>Wir sind am schönsten Abend hier angelangt und <ref target="gb:note#GB03_2_BR533_0_note_002_298_10-11" xml:id="start_com_4311"/>mit viel freundlichen<ptr n="2" target="#a002_298.11"/>
+        <anchor xml:id="GB03_1_BR533_0_298_011"/>Gesichtern empfangen<ref xml:id="end_com_4311"/> worden. <ref target="gb:note#GB03_2_BR533_0_note_003_298_11-12" xml:id="start_com_4312"/>Meine alten Freunde und bekannte 
+<anchor xml:id="GB03_1_BR533_0_298_012"/>haben sich sehr gefreut.<ref xml:id="end_com_4312"/> Den Abend unsrer Ankunft wurden 
+<anchor xml:id="GB03_1_BR533_0_298_013"/>wir von einem <ref target="gb:note#GB03_2_BR533_0_note_004_298_13" xml:id="start_com_4313"/>Feuerzeichen<ref xml:id="end_com_4313"/> empfangen das wir uns zum allerbessten 
+<anchor xml:id="GB03_1_BR533_0_298_014"/>deuteten. <ref target="gb:note#GB03_2_BR533_0_note_005_298_14" xml:id="start_com_4314"/>Meinen Vater hab ich verändert angetroffen<ref xml:id="end_com_4314"/>, er ist stiller 
+<anchor xml:id="GB03_1_BR533_0_298_015"/>und sein Gedächtniss nimmt ab, meine Mutter ist noch in ihrer alten 
+<anchor xml:id="GB03_1_BR533_0_298_016"/>Krafft und Liebe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR533_0_298_017"/>Adieu. beste! heut erwart ich <ref target="gb:note#GB03_2_BR533_0_note_006_298_17" xml:id="start_com_4315"/>ein Briefgen von Ihnen<ref xml:id="end_com_4315"/>. bald <ref target="gb:note#GB03_2_BR533_0_note_007_298_17-18" xml:id="start_com_4316"/>rücken 
+<anchor xml:id="GB03_1_BR533_0_298_018"/>wir weiter<ref xml:id="end_com_4316"/> von Ihnen weg, doch nicht mit Herzen. Adieu, grüsen Sie 
+<anchor xml:id="GB03_1_BR533_0_298_019"/>alles.       d<g ref="#typoSuspension"/>. 20 ter Sept. Frfurt. 79</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR533_0_298_020"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12017_comment">
+<body>
+<div type="metadata" xml:id="gb12017_comment_com759">
+  <ab type="numberAddressee"><label>533.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>, 20. September 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12017_comment_com2803">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 28. – 1 Bl. 18,6(–19) × 23,4 cm, &#x2154; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">An Fr. v. Stein / nach / Kochberg</quote>, rotes Siegel: „CA“, linker Rand Mitte Siegelausriss; Vs. oben rechts von fremder Hd, Tinte: „3.<hi rendition="#sup #uu">a</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 50), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischluss: <ref target="gb:dokument#9066">Nr 532</ref>, der wiederum <ref target="gb:dokument#52702">EB 267</ref> (vgl. <ref target="gb:text#GB03_1_BR532_0_298_002">298,2</ref>) als Beischluss enthielt.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 240.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 62, Nr 848.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12017_comment_com4599">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Möglicherweise handelt es sich bei dem in <ref target="gb:dokument#12029">Nr 538</ref> erwähnten Brief Charlotte von Steins vom 25. September 1779, den Goethe am 15. Oktober erhielt (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>), um den Antwortbrief, zugleich auf <ref target="gb:dokument#12015">Nr 530</ref>; der Brief ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12017_comment_com12071">
+<label xml:id="GB03_2_BR533_0_note_001_298_8" copyOf="#start_com_4310"><hi rendition="#fett">298,8</hi>vorm Angesicht der Väterlichen Sonne</label>
+<p>Goethe hielt sich vom 18. bis 22. September 1779 in Frankfurt auf. Es war der erste Besuch in seiner Heimatstadt, seit er im November 1775 nach Weimar gegangen war.</p>
+
+</note>
+<note xml:id="gb12017_comment_com18101">
+<label xml:id="GB03_2_BR533_0_note_002_298_10-11" copyOf="#start_com_4311"><hi rendition="#fett">298,10-11</hi>mit viel freundlichen Gesichtern empfangen</label>
+<p>Catharina Elisabeth Goethe schildert den Empfang der Reisegesellschaft in Goethes Elternhaus ausführlich in ihrem Brief an Herzogin Anna Amalia vom 24. September 1779: „Nun stellen Sich Ihro Durchlaucht vor, wie Frau Aja am runden Tisch sitzt, wie die Stubenthüre aufgeht, wie in dem Augenblick der Häschelhanß ihr um den Hals fält, wie der Herzog in einiger Entfernung der Mütterlichen Freude eine weile zusieht, wie Frau Aja endlich wie betruncken auf den besten Fürsten zuläuft halb greint halb lacht gar nicht weiß was sie thun soll wie der schöne Cammerherr von Wedel auch allen antheil an der erstaunlichen Freude nimbt – Endlich der Auftrit mit dem Vater, das läßt sich nun gar nicht beschreiben – mir war Angst er stürbe auf der stelle“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 455).</p>
+
+</note>
+<note xml:id="gb12017_comment_com11827">
+<label xml:id="GB03_2_BR533_0_note_003_298_11-12" copyOf="#start_com_4312"><hi rendition="#fett">298,11-12</hi>Meine alten Freunde <gap quantity="3" reason="editorial"/> gefreut.</label>
+<p>In Catharina Elisabeth Goethes Brief an Herzogin Anna Amalia vom 8. Oktober 1779 heißt es über Goethe: „seyn Moralischer Carackter hat sich aber zu großer Freude seiner alten Bekandten nicht im geringsten verschoben – alle fanden in Ihm den alten Freund wieder – mich hats in der Seele gefreut wie lieb Ihn alles gleich wieder hatte“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 458). Vgl. weiter zu <ref target="gb:note#GB03_2_BR520_0_note_007_289_28">289,28</ref>.</p>
+
+</note>
+<note xml:id="gb12017_comment_com11828">
+<label xml:id="GB03_2_BR533_0_note_004_298_13" copyOf="#start_com_4313"><hi rendition="#fett">298,13</hi>Feuerzeichen</label>
+<p>Herzog Carl August schrieb am 19. September 1779 an seine Mutter: „Ein erstaunliches Nordlicht war gestern abend.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 24.) Ebenso an seine Frau Louise: „Hast Du gestern Abend, als Sonnabend, daß wunderbare Nordlicht gesehen?“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 112.)</p>
+
+</note>
+<note xml:id="gb12017_comment_com11829">
+<label xml:id="GB03_2_BR533_0_note_005_298_14" copyOf="#start_com_4314"><hi rendition="#fett">298,14</hi>Meinen Vater hab ich verändert angetroffen</label>
+<p>Im Herbst 1779, nach dem Besuch seines Sohnes, erlitt Johann Caspar Goethe einen ersten Schlaganfall (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_013_288_24-26">288,24-26</ref>).</p>
+
+</note>
+<note xml:id="gb12017_comment_com18102">
+<label xml:id="GB03_2_BR533_0_note_006_298_17" copyOf="#start_com_4315"><hi rendition="#fett">298,17</hi>ein Briefgen von Ihnen</label>
+<p>Im nächsten Brief heißt es im Briefteil vom 28. September 1779: <quote type="G">Von Ihnen hab ich noch nichts.</quote> (<ref target="gb:text#GB03_1_BR534_0_304_009">304,9</ref>.) Vgl. auch die Angaben zu Bezugs- und Antwortbrief des vorliegenden Briefes.</p>
+
+</note>
+<note xml:id="gb12017_comment_com11840">
+<label xml:id="GB03_2_BR533_0_note_007_298_17-18" copyOf="#start_com_4316"><hi rendition="#fett">298,17-18</hi>rücken wir weiter</label>
+<p>Nächste Station war Eberbach; von dort ging es südwärts an den Rhein (vgl. die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4630"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11958" n="GB 3, Nr. 454">
+  <teiHeader xml:id="gb11958_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>454.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 9. Januar 1779. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:27Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11958_tei.xml</idno>
+        <idno type="URI">gb11958</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR454_0</idno>
+        <idno type="KSW-ID">11958</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="255" to="255">255</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="842" to="842">842</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11958_header_hwit1430" corresp="#gb11958_source_hwit1430" sameAs="#gb11958_comment_hwit1430" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11958,,1430/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Einen guten Morgen von Ihrem stummen Nachbaar. Das Schweigen    ist so schön</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11958_header_acc291" corresp="gb11958_comment_acc291">
+            <objectIdentifier>
+              <objectName>Geflügel?</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-01-09">9. Januar 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11958_source_hwit1430" corresp="#gb11958_header_hwit1430" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11958/22989"/>
+      <p>
+        <anchor xml:id="GB03_1_BR454_0_255_010"/>Einen guten Morgen <ref target="gb:note#GB03_2_BR454_0_note_001_255_10" xml:id="start_com_3714"/>von Ihrem stummen Nachbaar<ref xml:id="end_com_3714"/>. Das Schweigen 
+<anchor xml:id="GB03_1_BR454_0_255_011"/>ist so schön dass ich wünschte es Jahre lang halten zu dürfen. Etwas 
+<anchor xml:id="GB03_1_BR454_0_255_012"/>von <ref target="gb:note#GB03_2_BR454_0_note_002_255_12" xml:id="start_com_3715"/>meiner Jagd<ref xml:id="end_com_3715"/> kommt mit, und ich heute Mittag <ref target="gb:note#GB03_2_BR454_0_note_003_255_12-13" xml:id="start_com_3716"/>wenn Sie mich 
+<anchor xml:id="GB03_1_BR454_0_255_013"/>wollen<ref xml:id="end_com_3716"/>.   d<g ref="#typoSuspension"/>. 9 Jan 79    G</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11958_comment">
+<body>
+<div type="metadata" xml:id="gb11958_comment_com746">
+  <ab type="numberAddressee"><label>454.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 9. Januar 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11958_comment_com2790">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 2. – 1 Bl. 16,5 &#xD7; 9,4(–9,6) cm, &#xBD; S. beschr., egh., Bleistift, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „4“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 4), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 212.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 2, Nr 774.</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11958_comment_com3660">
+  <p>Geflügel? (Vgl. zu <ref target="gb:note#GB03_2_BR454_0_note_002_255_12">255,12</ref>.)</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11958_comment_com4586">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11958_comment_com11788">
+<label xml:id="GB03_2_BR454_0_note_001_255_10" copyOf="#start_com_3714"><hi rendition="#fett">255,10</hi>von Ihrem stummen Nachbaar</label>
+<p>Wahrscheinlich vom 8. Januar 1779 stammt Goethes Tagebucherwähnung Charlotte von Steins, die <quote type="G">sehr lieb</quote> war (<ref target="gt:dokument#663">GT I 1, 73</ref>). Darauf folgt die Bemerkung: <quote type="G">War ich sehr in mir.</quote> Die Eintragung vom 9. Januar endet mit dem Ein-Wort-Satz: <quote type="G">Schweigen.</quote> (<ref target="gt:dokument#664">Ebd.</ref>) – Am 5. Januar war Goethe zum Mitglied der Kriegskommission ernannt worden (vgl. zu <ref target="gb:note#GB03_2_BR408_0_note_007_232_14-15">232,14-15</ref>), was ihn in den folgenden Wochen beschäftigte und veranlasste, sich zum Aktenstudium stärker als zuvor zurückzuziehen.</p>
+
+</note>
+<note xml:id="gb11958_comment_com11789">
+<label xml:id="GB03_2_BR454_0_note_002_255_12" copyOf="#start_com_3715"><hi rendition="#fett">255,12</hi>meiner Jagd</label>
+<p>Möglicherweise hatte Goethe Geflügel in unmittelbarer Umgebung seines Grundstücks in der Nähe der Ilmauen erlegt, da in diesen Tagen ein Jagdausflug weder im Tagebuch noch im Fourierbuch erwähnt wird.</p>
+
+</note>
+<note xml:id="gb11958_comment_com18066">
+<label xml:id="GB03_2_BR454_0_note_003_255_12-13" copyOf="#start_com_3716"><hi rendition="#fett">255,12-13</hi>wenn Sie mich wollen</label>
+<p>Wahrscheinlich erhielt Goethe an diesem Tag nicht die erwartete Einladung zum Mittagessen; in seinem Tagebuch ist am 9. Januar 1779 nur vermerkt: <quote type="G">Abends bey Seckend. Musick. Schweigen.</quote> (<ref target="gt:dokument#664">GT I 1, 73</ref>.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

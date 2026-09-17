@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="610"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10692" n="GB 3, Nr. 61">
+  <teiHeader xml:id="gb10692_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>61.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 17. März 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:25Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10692_tei.xml</idno>
+        <idno type="URI">gb10692</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR061_0</idno>
+        <idno type="KSW-ID">10692</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="42" to="42">42</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="174" to="177">174-177</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10692_header_hwit901" corresp="#gb10692_source_hwit901" sameAs="#gb10692_comment_hwit901" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 17</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10692,,901/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wenn's Ihnen so ums Herz wäre wie mir, und sonst nichts entgegenstünde; so käm ich heut</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-03-17">17. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10692_source_hwit901" corresp="#gb10692_header_hwit901" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10692/22277"/>
+      <p>
+        <anchor xml:id="GB03_1_BR061_0_042_012"/>Wenn’s <ref target="gb:note#GB03_2_BR061_0_note_001_42_12" xml:id="start_com_0661"/>Ihnen<ref xml:id="end_com_0661"/> so ums Herz wäre wie mir, und sonst nichts entgegenstünde
+<anchor xml:id="GB03_1_BR061_0_042_013"/>; so <ref target="gb:note#GB03_2_BR061_0_note_002_42_13" xml:id="start_com_0662"/>käm ich heut<ref xml:id="end_com_0662"/> mit Ihnen zu essen. Ich hab <ref target="gb:note#GB03_2_BR061_0_note_003_42_13-14" xml:id="start_com_0663"/>bey Hofe abgesagt<ref xml:id="end_com_0663"/>
+        <anchor xml:id="GB03_1_BR061_0_042_014"/>denn <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15" xml:id="start_com_0664"/>auf’s gute Leben das ich wieder gestern im Wasser getrieben 
+<anchor xml:id="GB03_1_BR061_0_042_015"/>habe mag ich daoben nicht im Sande herumdursten<ref xml:id="end_com_0664"/>. Wie stehts sonst. 
+<anchor xml:id="GB03_1_BR061_0_042_016"/>Ein Wort Antwort, liebe theure Frau. <ref target="gb:note#GB03_2_BR061_0_note_005_42_16" xml:id="start_com_0665"/>Die paar Tage<ref xml:id="end_com_0665"/> die wir noch beysammen 
+<anchor xml:id="GB03_1_BR061_0_042_017"/>sind wollen wir wenigstens geniessen.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR061_0_042_018"/>d<g ref="#typoSuspension"/> 17 Merz 76.               </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10692_comment">
+<body>
+<div type="metadata" xml:id="gb10692_comment_com636">
+  <ab type="numberAddressee"><label>61.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 17. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10692_comment_com2680">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 17. – 1 Bl. 16,7 × 10,8 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „43.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 43), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 15.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 39, Nr 416.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10692_comment_com4476">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist offenbar der erste, den Goethe nach einer Pause von fast 14 Tagen an Charlotte von Stein schreibt, was auf eine zeitweise Verstimmung schließen lässt. Ein Grund hierfür könnte eine Aussprache gewesen sein, die einem Brief Charlottes an Zimmermann zufolge am 6. März 1776 stattgefunden hatte. Goethe habe die Freundin dabei „im Vertrauen seines Hertzens Du“ genannt, was sie ihm „mit den sanfftesten Ton von der Welt“ verwiesen habe: „Sehen Sie lieber Zimmermann so wars heute mit unßern Freund. Schon einigemahl habe ich bittern Verdruß um ihn gehabt das weis er nicht und sols nie wißen.“ (Weiter vgl. den Abdruck des Briefes in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>.) Nicht nur der briefliche Kontakt scheint danach für einige Zeit abgebrochen zu sein, auch die gegenseitigen Besuche wurden offenbar vorübergehend eingestellt (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_002_42_13">42,13</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10692_comment_com9707">
+<label xml:id="GB03_2_BR061_0_note_001_42_12" copyOf="#start_com_0661"><hi rendition="#fett">42,12</hi>Ihnen</label>
+<p>Im Brief vom 4. März (<ref target="gb:dokument#10663">Nr 54</ref>) hatte Goethe die Freundin noch geduzt. In den ersten Briefen, die nach dem 6. März 1776 geschrieben wurden, hält sich Goethe noch an die Ermahnung der Freundin und wählt wieder das förmlichere ‚Sie‘ als Anrede, um es bereits im Brief vom 24. März (<ref target="gb:dokument#10652">Nr 67</ref>) wieder zugunsten des ‚Du‘ aufzugeben (zum Problem der wechselnden Anrede in den ersten Jahren der Bekanntschaft mit Charlotte von Stein vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>).</p>
+
+</note>
+<note xml:id="gb10692_comment_com14134">
+<label xml:id="GB03_2_BR061_0_note_002_42_13" copyOf="#start_com_0662"><hi rendition="#fett">42,13</hi>käm ich heut</label>
+<p>Möglicherweise der erste Besuch Goethes nach einer Pause von etwa acht Tagen, wie Charlotte von Steins Brief an Zimmermann vom 10. Mai 1776 vermuten lässt: „Mir gehts mit Goethen wunderbar, nach acht Tagen, wie er mich so hefftig verlaßen hat, komt er mit einen Ubermaas von Liebe wieder.“ (Vollständig mitgeteilt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10880_comment_com84492">Nr 102</ref>.)</p>
+
+</note>
+<note xml:id="gb10692_comment_com9708">
+<label xml:id="GB03_2_BR061_0_note_003_42_13-14" copyOf="#start_com_0663"><hi rendition="#fett">42,13-14</hi>bey Hofe abgesagt</label>
+<p>An diesem Abend speisten ungewöhnlich viele Personen an der Marschallstafel (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_004_26_10">26,10</ref>), im Fourierbuch sind 34 Namen verzeichnet, Goethes Name wird nicht unter den Gästen aufgeführt (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 87).</p>
+
+</note>
+<note xml:id="gb10692_comment_com9720">
+<label xml:id="GB03_2_BR061_0_note_004_42_14-15" copyOf="#start_com_0664"><hi rendition="#fett">42,14-15</hi>auf’s gute Leben <gap quantity="3" reason="editorial"/> herumdursten</label>
+<p>Worauf genau sich die Anspielung bezieht, konnte nicht ermittelt werden. – Damals muss jedoch die Entscheidung Goethes, dauerhaft in Weimar zu bleiben, gefallen sein (vgl. auch zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>). Im Thüringischen Hauptstaatsarchiv Weimar ist ein eigenhändiges Testament des Herzogs Carl August überliefert, das nach den Angaben Friedrich Justin Bertuchs, damals herzoglicher Geheimsekretär, vom 16. März 1776 stammt. Die erste Festlegung darin betrifft Goethe: „In fall daß ich sterben sollte so schreibe ich meinen nachfolger weiter nichts vor, ausgenommen diesen einigen Artickel. / 1) behält der D. J. W. Göthe die Besoldung von 1200 Rth. sollte er aber nicht länger dienen wollen so soll er lebenslänglich 800 Rth als Pension erhalten, u. wo ihm beliebig verzehren.“ (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A XIX, Nr 187; gedruckt bei <ref target="sndb:sigle#1266/812">Wahl, Goethe und Karl August</ref>, 34 f.; zur Datierung des Testaments vgl. ebd., 35–37.) Weitere Bestimmungen betreffen u. a. Bertuch, Einsiedel, Corona Schröter (vgl. zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>), Wieland und Knebel. Wenn auch die offizielle Ernennung Goethes zum Geheimen Legationsrat mit Sitz und Stimme im Geheimen Consilium, der höchsten Behörde des Herzogtums, erst am 11. Juni 1776 erfolgte (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 193 f., Nr 1), so stand doch mit dem Testament vom 16. März für den Herzog wie auch für Goethe selbst dessen Eintritt in den Weimarer Staatsdienst fest. Ein weiterer Beleg dafür, dass die Entscheidung tatsächlich spätestens am 16. März 1776 gefallen war, ist der Brief Johann August von Kalbs an Goethes Eltern, abgedruckt im Anschluss an die Erläuterungen zum vorliegenden Brief. Mit dem Entschluss, dauerhaft in Weimar zu bleiben, hing auch zusammen, dass sich Goethe eine eigene Wohnung mietete. Am 18. März zog er aus seiner bisherigen Unterkunft beim Kammerpräsidenten Carl Alexander von Kalb aus (vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_009_43_6">43,6</ref>).</p>
+
+</note>
+<note xml:id="gb10692_comment_com17441">
+<label xml:id="GB03_2_BR061_0_note_005_42_16" copyOf="#start_com_0665"><hi rendition="#fett">42,16</hi>Die paar Tage</label>
+<p>Für den 20. März 1776 war eine Reise nach Dessau und Leipzig geplant, offenbar zunächst noch gemeinsam mit dem Herzog (vgl. <ref target="gb:text#GB03_1_BR062_0_043_001 #GB03_1_BR062_0_043_002">43,1–2</ref>). Goethe brach schließlich aber allein nach Leipzig auf, und zwar erst am 24. März 1776 (vgl. zu <ref target="gb:note#GB03_2_BR063_0_note_001_43_15-16">43,15-16</ref>).</p>
+
+</note>
+</div>
+<div xml:id="gb10692_comment_com84473">
+  <p>Johann August von Kalb an Catharina Elisabeth und Johann Caspar Goethe in Frankfurt:</p>
+  <floatingText type="foreignDocument">
+  <group>
+<text type="source" xml:id="gb56427_source" corresp="#gb56427_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck19">
+        <anchor xml:id="GB03_2_FB004_0_175_001"/>Weimar am 16<hi rendition="#sup #u">
+          ten</hi> Merz</p>
+      <p rendition="#einrueck22">
+        <anchor xml:id="GB03_2_FB004_0_175_002"/>1776.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_175_003"/>Bis diesen Augenblick habe ich angestanden Ihnen <ref target="gb:note#GB03_2_FB004_0_note_026_175_3" xml:id="start_com_7025"/>meine Liebsten Eltern<ref xml:id="end_com_7025"/> über 
+<anchor xml:id="GB03_2_FB004_0_175_004"/>einen Gegenstand zu schreiben in dem sich alle meine Wünsche vereinigen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_175_005"/>Die wechselseitige Neigung des Herzogs gegen Ihren vortreflichen Sohn, das 
+<anchor xml:id="GB03_2_FB004_0_175_006"/>ohnumschränckte Vertrauen so er in ihm setzt, macht es beyden ohnmöglich sich 
+<anchor xml:id="GB03_2_FB004_0_175_007"/>von einander zu trennen.</p>
+       <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_008"/>Nie würde Er darauf verfallen seyn meinen Göthe eine andere Stelle einem 
+<anchor xml:id="GB03_2_FB004_0_176_009"/>andern Charackter alß denn von Seinem Freunde anzutragen, der Herzog weiß 
+<anchor xml:id="GB03_2_FB004_0_176_010"/>zu gut daß alle andern unter seinem Werthe sind, wenn nicht die hergebrachte 
+<anchor xml:id="GB03_2_FB004_0_176_011"/>Formen solches nöthig machten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_012"/>Mit Beybehaltung Seiner gänzlichen Freyheit der Freyheit Urlaub zu nehmen, 
+<anchor xml:id="GB03_2_FB004_0_176_013"/>die Dienste ganz zu verlaßen wann Er will, wird unser junger edler Fürst in der 
+<anchor xml:id="GB03_2_FB004_0_176_014"/>Voraussetzung / daß Sie unfähig sind Ihre Einwilligung dazu zu versagen, Ihren 
+<anchor xml:id="GB03_2_FB004_0_176_015"/>Sohn unter dem Titul eines Geheimden LegationsRaths und mit einem <ref target="gb:note#GB03_2_FB004_0_note_027_176_15-16" xml:id="start_com_7026"/>Gehalt 
+<anchor xml:id="GB03_2_FB004_0_176_016"/>von 1200 rthlr:<ref xml:id="end_com_7026"/> in Sein Ministerium ziehen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_017"/>Stellen Sie die Sie mein Herz kennen in welchen meine Freundschafft zu Ihren 
+<anchor xml:id="GB03_2_FB004_0_176_018"/>treflichen Sohne zur Leidenschafft geworden, die Glückseligkeit vor in Zukunfft 
+<anchor xml:id="GB03_2_FB004_0_176_019"/>mein Schicksal mit dem Seinigen vereinigt zu sehen!</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_020"/>Wann etwas solche hat erhohen können so ist’s dadurch geschehen daß mich 
+<anchor xml:id="GB03_2_FB004_0_176_021"/>daß Schiksal zur Mittels Person bey diesen allen von Anfang an bis zur Entwickelung 
+<anchor xml:id="GB03_2_FB004_0_176_022"/>ausersehen gehabt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_023"/>Wie gern werden Sie nicht Ihren Sohn, Ihren ältesten Sohn, bey seinem Bruder 
+<anchor xml:id="GB03_2_FB004_0_176_024"/>wißen einen Theil des Vergnügens Ihm mehr um Sich / zu haben aufopfern, 
+<anchor xml:id="GB03_2_FB004_0_176_025"/>wenn Sie daran dencken, von wie viel Tausenden, die Glückseligkeit durch diese 
+<anchor xml:id="GB03_2_FB004_0_176_026"/>Aufopferung erhalten wird.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_027"/>Ihr jüngster Sohn verkennt Seine Eltern nicht so sehr, um nur einen Augenblick 
+<anchor xml:id="GB03_2_FB004_0_176_028"/>zu zweifeln, daß diese Betrachtung alle Selbst Gefühle bey Ihnen überwieget, und 
+<anchor xml:id="GB03_2_FB004_0_176_029"/>mehr alß alle andern Rücksichten Ihre Einwilligung zu einem Schritte vergewißert, 
+<anchor xml:id="GB03_2_FB004_0_176_030"/>der in den Edelsten Zwecken, und auf die edelste Art geschiehet. Nehmen 
+<anchor xml:id="GB03_2_FB004_0_176_031"/>Sie hingegen von Ihren Söhnen die Versicherung an, machen Sie es ihnen zur 
+<anchor xml:id="GB03_2_FB004_0_176_032"/>süßen Pflicht, Sie zu besuchen, die glücklichsten Stunden ihres Lebens bey Ihnen 
+<anchor xml:id="GB03_2_FB004_0_176_033"/>zuzubringen. Gern unternähm ich Ihnen die Verhältniße meines Bruders zu bezeichnen, 
+<anchor xml:id="GB03_2_FB004_0_176_034"/>wenn ich mich dazu vermögend fühlte. Dencken Sie Sich Ihm / alß 
+<anchor xml:id="GB03_2_FB004_0_176_035"/>dem vertrautesten Freund unsers lieben Herzogs ohne welchen er keinen Tag existiren 
+<anchor xml:id="GB03_2_FB004_0_176_036"/>kann, von allen prafen Jungen bis zur Schwermerey geliebt, alles was wieder 
+<anchor xml:id="GB03_2_FB004_0_176_037"/>uns war vernichtet, und Sie werden Sich noch immer zu wenig dencken.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_038"/>Machen Sie ich beschwöre Sie darum, daß Glück Ihrer Söhne dadurch vollkommen, 
+<anchor xml:id="GB03_2_FB004_0_176_039"/>daß Sie Ihren Handlungen Ihrem Beyfall geben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_040"/>Wieland und <ref target="gb:note#GB03_2_FB004_0_note_028_176_39" xml:id="start_com_7027"/>mein Vater<ref xml:id="end_com_7027"/> nehmen an allen den wärmsten Antheil, und haben 
+<anchor xml:id="GB03_2_FB004_0_176_041"/>mir aufgetragen Sie davon, und von ihrer treuen Freundschafft zu versichern. Noch 
+<anchor xml:id="GB03_2_FB004_0_176_042"/>einige Wochen bleibt diese Sache Geheimniß.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB004_0_176_043"/>Schreiben Sie mir bald bester Vater über eine Sache die mich so ganz anfüllt, 
+<anchor xml:id="GB03_2_FB004_0_176_044"/>und seyn Sie versichert daß ich bis an das Ende meines Lebens seyn werde</p>
+      <p>
+        <anchor xml:id="GB03_2_FB004_0_176_045"/>meiner lieben Eltern    Ihr</p>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB004_0_176_046"/>treuer Sohn.</p>
+      <p rendition="#einrueck13">
+        <anchor xml:id="GB03_2_FB004_0_176_047"/>
+        <hi rendition="#hervor1">Kalb.</hi>
+      </p>
+       <p>
+        <anchor xml:id="GB03_2_FB004_0_177_048"/>N. S.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB004_0_177_049"/>Der Kasten mit der Wäsche und denen Manschetten ist richtig ankommen  Kalb</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56427_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56427_comment_com84469">
+  <p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#229159">GSA 37/I,9,5</ref>.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56427_comment_com84470">
+<label xml:id="GB03_2_FB004_0_note_026_175_3" copyOf="#start_com_7025"><hi rendition="#normal">175,3</hi>meine Liebsten Eltern</label>
+<p>Der auffallend vertrauliche Tonfall des Briefes knüpft an die Bekanntschaft von Kalbs mit Goethes Eltern in Frankfurt im September und Oktober 1775 an. Er hatte Herzog Carl August zu dessen Hochzeit am 3. September in Karlsruhe begleitet und sollte Goethe auf dem Rückweg in Frankfurt abholen. Da der angekündigte Wagen Ende Oktober noch nicht eingetroffen war und den Wartenden auch keine Nachricht des Herzogs erreichte, brach Goethe kurz entschlossen am 30. Oktober in Richtung Heidelberg auf, um von dort über die Schweiz nach Italien zu reisen. Schließlich holte ihn aber der Weimarer Kammerherr noch ein, in dessen Begleitung Goethe mit dem verspätet eingetroffenen Wagen nach Weimar fuhr. (Vgl. Goethes ausführliche Schilderung im 20. Buch von „Dichtung und Wahrheit“; <ref target="sndb:sigle#2747">AA DuW</ref> 1, 643–649.)</p>
+</note>
+<note xml:id="gb56427_comment_com84471">
+<label xml:id="GB03_2_FB004_0_note_027_176_15-16" copyOf="#start_com_7026"><hi rendition="#normal">176,15-16</hi>Gehalt von 1200 rthlr:</label>
+<p>Zusätzlich erhielt Goethe am 30. September 1776 aus der Privatschatulle des Herzogs „als Ergänzung seiner Besoldungen vom 1 Jan. bis 1 Julius“ 1776 „auf Serenℓ. Befehl“ 600 Reichstaler ausgezahlt (ThHStA Weimar, Fürstenhaus A 1059, Bl. 66).</p>
+</note>
+<note xml:id="gb56427_comment_com84472">
+<label xml:id="GB03_2_FB004_0_note_028_176_39" copyOf="#start_com_7027"><hi rendition="#normal">176,40</hi>mein Vater</label>
+<p>Carl Alexander von Kalb (vgl. zu <ref target="gb:note#GB03_2_BR052_0_note_012_38_36">38,36</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

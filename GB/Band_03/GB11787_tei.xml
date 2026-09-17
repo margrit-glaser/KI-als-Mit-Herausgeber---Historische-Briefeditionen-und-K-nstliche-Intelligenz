@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3070"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11787" n="GB 3, Nr. 301">
+  <teiHeader xml:id="gb11787_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>301.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 8. November 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:10Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11787_tei.xml</idno>
+        <idno type="URI">gb11787</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR301_0</idno>
+        <idno type="KSW-ID">11787</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="174" to="175">174-175</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="593" to="593">593</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11787_header_hwit1265" corresp="#gb11787_source_hwit1265" sameAs="#gb11787_comment_hwit1265" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 62</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11787,,1265/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Die Bäume sind alle für Sie, ein Karrn wird wohl nötig seyn. Machen Sies doch mit Hauptmann</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-08">8. November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11787_source_hwit1265" corresp="#gb11787_header_hwit1265" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11787/22724"/>
+      <p>
+        <anchor xml:id="GB03_1_BR301_0_174_021"/>
+        <ref target="gb:note#GB03_2_BR301_0_note_001_174_21" xml:id="start_com_2626"/>Die Bäume sind alle für Sie<ref xml:id="end_com_2626"/>, ein<ptr n="1" target="#a001_174.21"/> Karrn wird wohl nötig seyn. Machen 
+<anchor xml:id="GB03_1_BR301_0_174_022"/>Sie s doch mit <ref target="gb:note#GB03_2_BR301_0_note_002_174_22" xml:id="start_com_2627"/>Hauptmann<ref xml:id="end_com_2627"/>. Wenns nur Montag ist. Darnach<ptr n="2" target="#a002_174.22"/> will ich 
+<anchor xml:id="GB03_1_BR301_0_174_023"/>ihn anweisen wo sie liegen. <ref target="gb:note#GB03_2_BR301_0_note_003_174_23" xml:id="start_com_2628"/>Die Fortsezzung des Vergleichs<ref xml:id="end_com_2628"/> hat mich 
+<anchor xml:id="GB03_1_BR301_0_174_024"/>sehr gedemütigt. Was doch<ptr n="3" target="#a003_174.24"/> der Mensch mit sich vortheilhafft steht!! 
+<anchor xml:id="GB03_1_BR301_0_175_001"/>Ich redete vom Vergangnen<ptr n="4" target="#a004_175.1"/> verlohrnen, und glaubte die 
+<anchor xml:id="GB03_1_BR301_0_175_002"/>Zweige sprossten schon wieder. Oh! und sie finden dass sie neuerdings abgehauen, 
+<anchor xml:id="GB03_1_BR301_0_175_003"/>dass neuerdings kein Schatten und kein Hort drunter ist O 
+<anchor xml:id="GB03_1_BR301_0_175_004"/>weh!.   d<g ref="#typoSuspension"/>. 8 N.</p>
+      <closer>
+        <dateline rendition="#einrueck8">
+          <anchor xml:id="GB03_1_BR301_0_175_005"/>77</dateline>
+          <lb/><dateline rendition="#einrueck22">
+          <anchor xml:id="GB03_1_BR301_0_175_006"/>
+          <graphic url="gb:digitalisate#11787/70171" width="60px"/>
+        </dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11787_comment">
+<body>
+<div type="metadata" xml:id="gb11787_comment_com1296">
+  <ab type="numberAddressee"><label>301.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 8. November 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11787_comment_com3340">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 62. – 1 Bl. 20,4 × 10,9(–11,5) cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben; oben rechts von fremder Hd, Tinte: „52.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 55), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 123 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 184 f., Nr 642.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11787_comment_com5136">
+  <p>Der Bezugsbrief vom 8. November 1777 (vgl. zu <ref target="gb:note#GB03_2_BR301_0_note_001_174_21">174,21</ref>; zu <ref target="gb:note#GB03_2_BR301_0_note_003_174_23">174,23</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Wie die überlieferten Briefe Goethes seit Anfang November 1777 (<ref target="gb:dokument#11677">Nr 297</ref>, <ref target="gb:dokument#11785">Nr 299</ref>, <ref target="gb:dokument#11786">Nr 300</ref>) belegen, war er bemüht, das alte Vertrauensverhältnis zu Charlotte von Stein, das seit dem Eisenacher Aufenthalt gestört gewesen zu sein scheint, wiederherzustellen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11795_comment_com4935">Nr 291</ref>). Die Äußerungen vor allem im vorliegenden Brief lassen vermuten, dass ihm die Freundin dabei nur wenig entgegenkam, weshalb sich Goethe verletzt fühlte (vgl. <ref target="gb:text#GB03_1_BR301_0_174_023 #GB03_1_BR301_0_175_004">174,23–175,4</ref>). Wahrscheinlich als Reaktion auch auf den vorliegenden Brief fand am 9. November ein <quote type="G">ernstl. Gespräch über die Verhältniss</quote> (<ref target="gt:dokument#472">GT I 1, 51</ref>) statt, das offenbar zu einer Klärung führte. Nach dem 9. November werden im Tagebuch wieder täglich Besuche bei Charlotte von Stein vermerkt (vgl. GT I 1, 51 f.). Dennoch muss sich Goethe auch in der zweiten Hälfte des November noch immer in Unruhe und in einer innerlich angespannten Situation befunden haben. Am Morgen des 29. November schließlich brach er in <quote type="G">wunderbaar dunckler Verwirung</quote> seiner <quote type="G">Gedancken</quote> (<ref target="gb:text#GB03_1_BR308_0_178_006">178,6</ref>) zu einer Reise in den Harz auf, über deren Ziel er Charlotte von Stein zunächst noch im Unklaren ließ (vgl. <ref target="gb:text#GB03_1_BR309_0_179_008">179,8</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11787_comment_com11324">
+<label xml:id="GB03_2_BR301_0_note_001_174_21" copyOf="#start_com_2626"><hi rendition="#fett">174,21</hi>Die Bäume sind alle für Sie</label>
+<p>Offenbar als Antwort auf eine Nachfrage Charlotte von Steins wegen der im vorangehenden Brief vom selben Tag angekündigten Obstbäume (vgl. <ref target="gb:text#GB03_1_BR300_0_174_006 #GB03_1_BR300_0_174_008">174,6–8</ref>).</p>
+
+</note>
+<note xml:id="gb11787_comment_com11325">
+<label xml:id="GB03_2_BR301_0_note_002_174_22" copyOf="#start_com_2627"><hi rendition="#fett">174,22</hi>Hauptmann</label>
+<p>Der herzogliche Hofjäger und Bauunternehmer Anton Georg Hauptmann (vgl. zu <ref target="gb:note#GB03_2_BR028_0_note_004_24_3">24,3</ref>), der auch als Postmeister und Fuhrunternehmer tätig war.</p>
+
+</note>
+<note xml:id="gb11787_comment_com11326">
+<label xml:id="GB03_2_BR301_0_note_003_174_23" copyOf="#start_com_2628"><hi rendition="#fett">174,23</hi>Die Fortsezzung des Vergleichs</label>
+<p>Mit der Linde im nicht überlieferten Bezugsbrief (vgl. zu <ref target="gb:note#GB03_2_BR300_0_note_004_174_15-18">174,15-18</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

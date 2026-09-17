@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="170"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10962" n="GB 3, Nr. 17">
+  <teiHeader xml:id="gb10962_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>17.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, kurz vor dem oder am 7. Januar 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10962_tei.xml</idno>
+        <idno type="URI">gb10962</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR017_0</idno>
+        <idno type="KSW-ID">10962</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="18" to="18">18</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="61" to="63">61-63</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10962_header_hwit843" corresp="#gb10962_source_hwit843" sameAs="#gb10962_comment_hwit843" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10962,,843/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder. nenne mir nur einen einzigen Theologen, der rechtgläubigen Nahmen hat und gut für dich ist</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" notBefore="1776-01-05" notAfter="1776-01-06"><supplied>kurz vor dem 7. Januar 1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-01-07"><supplied>am 7. Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10962_source_hwit843" corresp="#gb10962_header_hwit843" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10962/18427"/>
+      <p>
+        <anchor xml:id="GB03_1_BR017_0_018_007"/>Lieber Bruder. <ref target="gb:note#GB03_2_BR017_0_note_001_18_7-8" xml:id="start_com_0278"/>nenne<ptr n="1" target="#a001_18.7"/> mir nur <hi rendition="#hervor1">einen</hi> einzigen<ptr n="2" target="#a002_18.7"/> Theologen, der 
+<anchor xml:id="GB03_1_BR017_0_018_008"/>
+        <hi rendition="#hervor1">rechtgläubigen</hi> Nahmen hat und <hi rendition="#hervor1">gut</hi> für dich ist.<ref xml:id="end_com_0278"/> der wenn man 
+<anchor xml:id="GB03_1_BR017_0_018_009"/>ihn fragte. <hi rendition="#hervor2">guts</hi> von dir sagte. <ref target="gb:note#GB03_2_BR017_0_note_002_18_9-10" xml:id="start_com_0279"/>denn in meiner politischen Chrie gilts<ptr n="3" target="#a003_18.9"/>
+        <anchor xml:id="GB03_1_BR017_0_018_010"/>hir <emph rendition="#latin">§ um a testimonio</emph>
+        <ref xml:id="end_com_0279"/> befolge was ich dir schreibe <ref target="gb:note#GB03_2_BR017_0_note_003_18_10" xml:id="start_com_0280"/>pünckt<g ref="#typoSuspension"/>.<ref xml:id="end_com_0280"/> als <emph rendition="#latin">
+          <hi rendition="#hervor1">Commando
+<anchor xml:id="GB03_1_BR017_0_018_011"/>
+          </hi>
+        </emph> und glaub dass alles durchgedacht – und durchempfunden 
+<anchor xml:id="GB03_1_BR017_0_018_012"/>ist.</p>
+      <p rendition="#einrueck2_voll">
+        <anchor xml:id="GB03_1_BR017_0_018_013"/>ich hab mir bey der Schlittenfahrt <ref target="gb:note#GB03_2_BR017_0_note_004_18_13-14" xml:id="start_com_0281"/>mit der Peitsche hollisch 
+<anchor xml:id="GB03_1_BR017_0_018_014"/>Ubers Aug gehauen<ref xml:id="end_com_0281"/> drum schreib ich so <ref target="gb:note#GB03_2_BR017_0_note_005_18_14" xml:id="start_com_0282"/>quir.<ref xml:id="end_com_0282"/>
+      </p>
+    <pb n="2" facs="gb:digitalisate#10962/18428" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10962_comment">
+<body>
+<div type="metadata" xml:id="gb10962_comment_com1317">
+  <ab type="numberAddressee"><label>17.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>kurz vor dem 7. Januar 1776</supplied> oder <supplied>am 7. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10962_comment_com1984">
+  <p>Die Datierung des vorliegenden Briefes kann in Zusammenhang mit den Briefen <ref target="gb:dokument#10912">Nr 20</ref> und <ref target="gb:dokument#10682">29</ref> vorgenommen werden. Alle drei Briefe stammen von Januar 1776, und zwar aus der Zeit, bevor Herder den offiziellen Ruf nach Weimar mit Carl Friedrich Ernst von Lynckers Brief vom 24. Januar 1776 (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 74) erhielt. In Goethes Rechnungsbüchern sind unter dem 7., 15. und 24. Januar 1776 Briefe an Herder verzeichnet. Die genannten drei Briefe lassen sich nach inhaltlichen Gesichtspunkten in eine Reihenfolge bringen und den drei Absendedaten zuordnen: Im vorliegenden Brief erwähnt Goethe erstmals die Notwendigkeit empfehlender Zeugnisse, in <ref target="gb:dokument#10912">Nr 20</ref> schlägt er Johann Friedrich Wilhelm Jerusalem als Gewährsmann vor, in <ref target="gb:dokument#10682">Nr 29</ref> schließlich kann er mitteilen, es brauche der Zeugnisse nicht. Der vorliegende Brief wurde demnach am 7. Januar 1776 oder kurz davor geschrieben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10962_comment_com3361">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – 1 Bl. 19 × 23,7 cm, &#xBD; S. beschr., egh., Tinte, mit unsicherer Hd geschrieben; Vs. am oberen Rand links von fremder Hd, Bleistift: „9.“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(17)“, oben rechts von Caroline Herders Hd, Tinte: „1776.“</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 56 f., Nr 17 (ohne den Schluss <ref target="gb:text#GB03_1_BR017_0_018_011 #GB03_1_BR017_0_018_014">18,11–14</ref> <quote type="G">– und durchempfunden <gap quantity="3" reason="editorial"/> so quir.</quote>; dieser zuerst von Bernhard Suphan mitgeteilt in: Preußische Jahrbücher 43 [1879], S. 416, Anm.; mit einer Paraphe).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 16, Nr 381 (Friedrich Strehlke).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10962_comment_com5157">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 7. Januar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4r).</p>
+  <p rendition="#einrueck1">Gegen Herders Berufung als Generalsuperintendent in Weimar (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref>) gab es Widerstand von Seiten des Stadtrats, der für das Amt des Oberpfarrers zuständig war, und des Oberkonsistoriums, weil – wie im Zusammenhang mit der Bewerbung um die Stelle eines Professors der Theologie in Göttingen (vgl. ebd.) – Herders Rechtgläubigkeit in Zweifel gezogen wurde: „Es erhoben sich <gap quantity="3" reason="editorial"/> Gerüchte in der Stadt: ‚der neue General-Superintendent sei kein Geistlicher, könne nicht predigen, glaube nicht an Christum‘ u. dgl.“, berichtet Caroline Herder in ihren „Erinnerungen“ (1, 251). Aus diesem Grund verlangte das Oberkonsistorium in einem (nicht überlieferten) Schreiben vom 22. Februar 1776, Herder müsse eine Gast- oder Probepredigt absolvieren. Der Präsident des Oberkonsistoriums, Carl Friedrich Ernst von Lyncker, bat Herder daraufhin in einem Brief vom 6. März 1776 (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 80), eine solche Predigt auf Ostern zu halten. Nachdem Herder diesen Termin wegen amtlicher Verpflichtungen in Bückeburg absagen musste (vgl. seinen Brief an Lyncker vom 16. März 1776; <ref target="sndb:sigle#2904">HB</ref> 3, 257 f.), schlug das Oberkonsistorium am 28. März 1776 neue Termine vor (vgl. <ref target="sndb:sigle#2397/618">Peucer</ref>, 60). Mit einem Reskript vom 2. Mai jedoch machte der Herzog weiteren Verzögerungen ein Ende, indem er bestimmte, „die Vocation sofort begreifen zu lassen und solche zur höchsten Vollziehung einzuschicken.“ (Ebd.) Unter dem 15. Mai 1776 wurde die Vokationsurkunde ausgefertigt (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 82); Herder erhielt sie am 12. Juni 1776 (vgl. seinen Brief an Lyncker vom 15. Juni 1776; <ref target="sndb:sigle#2904">HB</ref> 3, 270). – Der Widerstand gegen Herders Berufung hatte bei einigen seiner Kritiker auch persönliche Gründe, so bei dem Mieter der Amtswohnung des Generalsuperintendenten, Johann Wilhelm Seidler (vgl. zu <ref target="gb:note#GB03_2_BR138_0_note_002_79_9-11">79,9-11</ref>), und bei den drei interimistischen Verwaltern der Stelle, Johann Sebastian Gottschalg, Wilhelm Heinrich Schulze und Christian Wilhelm Schneider, die materielle Nachteile befürchteten (vgl. zu <ref target="gb:note#GB03_2_BR108_0_note_003_64_2-3">64,2-3</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10962_comment_com10244">
+<label xml:id="GB03_2_BR017_0_note_001_18_7-8" copyOf="#start_com_0278"><hi rendition="#fett">18,7-8</hi>nenne mir <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">gut</hi> für dich ist.</label>
+<p>Eines Leumundszeugnisses für Herder bedurfte es schließlich nicht (vgl. <ref target="gb:text#GB03_1_BR029_0_024_006">24,6</ref>).</p>
+
+</note>
+<note xml:id="gb10962_comment_com17248">
+<label xml:id="GB03_2_BR017_0_note_002_18_9-10" copyOf="#start_com_0279"><hi rendition="#fett">18,9-10</hi>denn in meiner politischen Chrie <gap quantity="3" reason="editorial"/> <emph rendition="#latin">testimonio</emph></label>
+<p>Vermutlich ist etwa Folgendes gemeint: ‚denn nach dem, was ich in meinem politischen Lehrbuch finde, kommt es hier auf den Paragraphen an, der sich auf ein Beglaubigungszeugnis bezieht‘. – <quote type="G">Chrie</quote> (von griech. χρεῖα: Gebrauch, Anwendung): Begriff aus der Rhetorik: Sinnspruch, der eine praktische oder ethische Lebensweisheit zum Ausdruck bringt, samt dessen Erläuterung, hier im Sinn von ‚Gebrauchsanweisung‘, „Denkschema“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1004). – <quote type="G">gilts</quote>: ‚Gelten‘ hier im Sinn von „maßgebend“ oder „allgemein üblich“ sein (<ref target="sndb:sigle#397">GWb</ref> 3, 1399). – <quote type="G"><emph rendition="#latin">§ um a testimonio</emph></quote>: lat. paragraphum a testimonio: Paragraph betreffend ein Beglaubigungszeugnis.</p>
+
+</note>
+<note xml:id="gb10962_comment_com10253">
+<label xml:id="GB03_2_BR017_0_note_003_18_10" copyOf="#start_com_0280"><hi rendition="#fett">18,10</hi>püncktl<g ref="#typoSuspension"/>.</label>
+<p>Im zeitgenössischen Sprachgebrauch bedeutete ‚pünktlich‘ nicht nur in zeitlicher, sondern in jeder Hinsicht ‚sorgfältig‘, ‚genau‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 2240).</p>
+</note>
+<note xml:id="gb10962_comment_com13651">
+<label xml:id="GB03_2_BR017_0_note_004_18_13-14" copyOf="#start_com_0281"><hi rendition="#fett">18,13-14</hi>mit der Peitsche hollisch Ubers Aug gehauen</label>
+<p>Darüber berichtet Goethe auch Charlotte von Stein (vgl. <ref target="gb:dokument#10706">Nr 18</ref>).</p>
+
+</note>
+<note xml:id="gb10962_comment_com10254">
+<label xml:id="GB03_2_BR017_0_note_005_18_14" copyOf="#start_com_0282"><hi rendition="#fett">18,14</hi>quir</label>
+<p>Das Wort ist weder bei Goethe noch sonst ein weiteres Mal belegt, wohl aber der Wechsel des Stammvokals ‚e‘ zu ‚i‘ in Wörtern, die auf ‚quer‘ zurückgehen (z. B. ‚queren‘/‚quieren‘; vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 898; ähnlich <ref target="sndb:sigle#2890">Grimm</ref> 13, 2370). Demnach dürfte hier ‚quer‘ gemeint sein, und zwar im Sinn von „schief, verkehrt, verdreht“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 2356).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

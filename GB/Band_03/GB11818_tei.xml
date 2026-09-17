@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="390"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11818" n="GB 3, Nr. 39">
+  <teiHeader xml:id="gb11818_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>39.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 3. Februar? 1776. Samstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11818_tei.xml</idno>
+        <idno type="URI">gb11818</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR039_0</idno>
+        <idno type="KSW-ID">11818</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="29" to="29">29</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="130" to="131">130-131</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11818_header_hwit891" corresp="#gb11818_source_hwit891" sameAs="#gb11818_comment_hwit891" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 116</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11818,,891/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie leben Sie liebste Frau! Ich sehe Sie noch. Hier indessen was -</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11818_header_acc196" corresp="gb11818_comment_acc196">
+            <objectIdentifier>
+              <objectName>Lebensmittel oder Manuskript</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-03"><supplied>3. Februar? 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-03-02"><supplied>2. März 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11818_source_hwit891" corresp="#gb11818_header_hwit891" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11818/22269"/>
+      <p>
+        <anchor xml:id="GB03_1_BR039_0_029_022"/>Wie leben Sie liebste Frau! Ich sehe sie noch. Hier indessen <ref target="gb:note#GB03_2_BR039_0_note_001_29_22" xml:id="start_com_0475"/>was<ref xml:id="end_com_0475"/> —</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR039_0_029_023"/>Jezt gehts nach <ref target="gb:note#GB03_2_BR039_0_note_002_29_23" xml:id="start_com_0476"/>Erfurt<ref xml:id="end_com_0476"/>.</p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_1_BR039_0_029_024"/><graphic url="gb:digitalisate#11818/67411" width="60px"/></p>
+      <p>
+        <anchor xml:id="GB03_1_BR039_0_029_025"/>Antworten Sie nicht ich bin schon weg wenn Sie das kriegen</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11818_comment">
+<body>
+<div type="metadata" xml:id="gb11818_comment_com573">
+  <ab type="numberAddressee"><label>39.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>3. Februar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11818_comment_com1672">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) befindet sich der vorliegende Brief unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Dass der Brief in diesem Zeitraum geschrieben sein muss, belegt auch das Briefpapier (vgl. Überlieferung), das Goethe von 1774 bis 1779 verwendete, besonders häufig jedoch im Jahr 1776. In dieses Jahr gehört wahrscheinlich auch der vorliegende Brief, in dem Goethe ankündigt: <quote type="G">Jezt gehts nach Erfurt.</quote> (<ref target="gb:text#GB03_1_BR039_0_029_023">29,23</ref>.) Für die beiden außerdem im ersten Band des Konvoluts enthaltenen Jahrgänge 1777 und 1778 sind keine Reisen Goethes nach Erfurt belegt, wohl aber für 1776, und zwar für den 3. bis 6. Februar (vgl. zu <ref target="gb:note#GB03_2_BR039_0_note_002_29_23">29,23</ref>) sowie den 2. bis 5. März 1776 (vgl. zu <ref target="gb:note#GB03_2_BR054_0_note_001_39_16">39,16</ref>). Schöll setzt den Brief im Erstdruck vor die am 2. März 1776 beginnende Reise, ihm folgen die Ausgaben bis zur WA. Seit Fränkels erster Ausgabe von 1908 wird der Brief auf den 3. Februar 1776 datiert (vgl. <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 6 f., Nr 15). Für diese frühere Datierung spricht vor allem die Anrede ‚Sie‘ im vorliegenden Brief, da in den datierten Briefen von Ende Februar/Anfang März 1776 durchgehend das ‚Du‘ verwendet wird (vgl. <ref target="gb:dokument#10688">Nr 51</ref> und <ref target="gb:dokument#10663">54</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11818_comment_com2617">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 116. – 1 Bl. 16,8 &#xD7; 10,8 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#x2154; S. beschr., egh., Tinte: <quote type="G">Wie leben <gap quantity="3" reason="editorial"/> <graphic url="gb:digitalisate#11818/67411" width="60px"/></quote> (<ref target="gb:text#GB03_1_BR039_0_029_022 #GB03_1_BR039_0_029_024">29,22–24</ref>), Bleistift: <quote type="G">Antworten <gap quantity="3" reason="editorial"/> kriegen</quote> (<ref target="gb:text#GB03_1_BR039_0_029_025">29,25</ref>); Vs. oben rechts von fremder Hd, Tinte: „90.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 93), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile: <ref target="gb:digitalisate#11818/22269">Abb. 1</ref> im Textband (S. 28).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 13.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 35, Nr 408.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11818_comment_com3599">
+  <p>Lebensmittel oder Manuskript (vgl. zu <ref target="gb:note#GB03_2_BR039_0_note_001_29_22">29,22</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11818_comment_com4413">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11818_comment_com11367">
+<label xml:id="GB03_2_BR039_0_note_001_29_22" copyOf="#start_com_0475"><hi rendition="#fett">29,22</hi>was</label>
+<p>Es könnten Lebensmittel, aber auch ein Manuskript beigelegen haben.</p>
+
+</note>
+<note xml:id="gb11818_comment_com18173">
+<label xml:id="GB03_2_BR039_0_note_002_29_23" copyOf="#start_com_0476"><hi rendition="#fett">29,23</hi>Erfurt</label>
+<p>Goethe begleitete den Herzog auf einer seiner Reisen in das benachbarte Erfurt (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_001_29_8">29,8</ref>). Die zwischen den ernestinischen Herzogtümern Sachsen-Weimar und Sachsen-Gotha etwa 25 km westlich von Weimar gelegene Stadt gehörte mit dem umliegenden Gebiet seit dem Mittelalter zum Erzbistum Mainz, von 1664 bis 1802 zum Kurfürstentum Mainz. Das Gebiet wurde von einem Kurmainzer Statthalter regiert. Seit 1771 übte der hochgebildete, den Künsten und Wissenschaften gegenüber aufgeschlossene Carl Theodor von Dalberg dieses Amt aus, der in freundschaftlichem Verkehr mit dem Weimarer Hof stand. Goethe hatte schon vor diesem Besuch Gelegenheit, ihn kennen zu lernen, so z. B. bei seiner Reise nach Erfurt mit Herzog Carl August zum Jahreswechsel 1775/76 (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10678_comment_com4489">Nr 10</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

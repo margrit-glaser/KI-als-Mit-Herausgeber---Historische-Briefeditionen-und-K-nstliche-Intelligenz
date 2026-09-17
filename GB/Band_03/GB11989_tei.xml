@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5080"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11989" n="GB 3, Nr. 498">
+  <teiHeader xml:id="gb11989_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>498.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Mitte Mai 1779</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:21Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11989_tei.xml</idno>
+        <idno type="URI">gb11989</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR498_0</idno>
+        <idno type="KSW-ID">11989</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="278" to="278">278</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="913" to="915">913-915</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11989_header_hwit1486" corresp="#gb11989_source_hwit1486" sameAs="#gb11989_comment_hwit1486" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 18</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11989,,1486/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>-- Langverdorrte halbverweste Blätter vorger Jahre</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1779-05-11" to="1779-05-20"><supplied>Mitte Mai 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11989_source_hwit1486" corresp="#gb11989_header_hwit1486" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11989/23061"/>
+      <lg type="poem">
+      
+        <anchor xml:id="GB03_1_BR498_0_278_001"/><head rendition="#einrueck6">
+        <ref target="gb:note#GB03_2_BR498_0_note_001_278_1-2" xml:id="start_com_4009"/>Der vierte Theil meiner Schrifften</head><lb/>
+              <anchor xml:id="GB03_1_BR498_0_278_002"/><head rendition="#einrueck8">Berlin. 1779 bey Himburg.<ref xml:id="end_com_4009"/></head>
+      <space quantity="1" unit="lines"/>
+      <anchor xml:id="GB03_1_BR498_0_278_003"/>
+                    <l rendition="#einrueck2">
+          <ref target="gb:note#GB03_2_BR498_0_note_002_278_3" xml:id="start_com_4010"/>Langverdorrte halbverweste<ptr n="1" target="#a001_278.3"/> Blätter vorger Jahre<ref xml:id="end_com_4010"/>,</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_004"/>Ausgekämmte, auch geweiht und abgeschnittne Haare,</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_005"/>Alte Wämser ausgetrettne Schuh und schwarzes Linnen,</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_006"/>Was sie nicht ums leidge Geld beginnen!</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_007"/>Haben sie für baar und gut</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_008"/>Neuerdings dem Publikum gegeben.</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_009"/>Was man andern nach dem Todte thut,</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_010"/>Thut man mir bey meinem Leben.</l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_011"/><ref target="gb:note#GB03_2_BR498_0_note_003_278_11" xml:id="start_com_4011"/>Doch ich schreibe nicht um Porzellan noch Brod<ref xml:id="end_com_4011"/>
+        </l>
+        <l rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR498_0_278_012"/>Für <ref target="gb:note#GB03_2_BR498_0_note_004_278_12" xml:id="start_com_4012"/>die Himburgs<ref xml:id="end_com_4012"/> bin ich todt.</l>
+      </lg>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11989_comment">
+<body>
+<div type="metadata" xml:id="gb11989_comment_com1113">
+  <ab type="numberAddressee"><label>498.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Mitte Mai 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11989_comment_com1894">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd II) ist das vorliegende Gedicht in die erste Hälfte des August 1779 eingeordnet. Seit dem Erstdruck wurde es in Beziehung zu Brief <ref target="gb:dokument#12001">Nr 512</ref> vom 4. Juli 1779 gebracht und unmittelbar nach diesem gedruckt. Nur Fränkel ordnete es nach Brief <ref target="gb:dokument#11991">Nr 497</ref> vom 14. Mai 1779 ein (vgl. <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 144, Nr 330; <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 1, 139, Nr 330). Für diese Datierung spricht der inhaltliche Bezug zum Brief vom 14. Mai, mit dem Goethe zwei Exemplare des 4. Bandes der Himburg-Ausgabe seiner „Schriften“ überschickte.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11989_comment_com3157">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 18. – 1 Bl. 16,8 × 12,9(–13,2) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „38.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 39), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 229 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 5 (1893), 161 (Gedicht).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11989_comment_com4953">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Möglicherweise ist das vorliegende Gedicht eine ironische Widmung für das Charlotte von Stein zugedachte Exemplar des 4. Bandes der Himburg-Ausgabe von Goethes „Schriften“. Es könnte daher auch Brief <ref target="gb:dokument#11991">Nr 497</ref> beigelegen haben, mit dem Goethe zwei Exemplare des Supplementbandes seiner „Schriften“ in der nicht autorisierten Ausgabe von Himburg übersandte. In veränderter Fassung nahm Goethe die Verse ins 16. Buch von „Dichtung und Wahrheit“ auf (vgl. zu <ref target="gb:note#GB03_2_BR498_0_note_003_278_11">278,11</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11989_comment_com18140">
+<label xml:id="GB03_2_BR498_0_note_001_278_1-2" copyOf="#start_com_4009"><hi rendition="#fett">278,1-2</hi>Der vierte Theil <gap quantity="3" reason="editorial"/> bey Himburg.</label>
+<p>Im Mai 1779 brachte der Berliner Verleger und Nachdrucker Christian Friedrich Himburg eine 3. Auflage der dreibändigen Ausgabe von „J. W. Goethens Schriften“ heraus, erweitert um einen Supplementband. Sämtliche Auflagen der Himburgschen Goethe-Ausgabe waren ohne Zustimmung des Autors und der rechtmäßigen Verleger erschienen.</p>
+
+</note>
+<note xml:id="gb11989_comment_com18216">
+<label xml:id="GB03_2_BR498_0_note_002_278_3" copyOf="#start_com_4010"><hi rendition="#fett">278,3</hi>Langverdorrte <gap quantity="3" reason="editorial"/> Blätter vorger Jahre</label>
+<p>Der Supplementband enthält folgende frühe Werke Goethes: „Brief des Pastors zu *** an den neuen Pastor zu ***“ (1773), „Zwo wichtige bisher unerörterte Biblische Fragen“ (1773), „Von Deutscher Baukunst“ (1773), „Prolog zu den neusten Offenbarungen Gottes“ (1774), allesamt zuerst anonym im Selbstverlag Mercks erschienen; außerdem „Götter Helden und Wieland“, auf Betreiben von Jacob Michael Reinhold Lenz 1774 in Kehl (mit der Angabe Leipzig) erschienen; „Hans Sachsens poetische Sendung“, zuerst in Wielands „Teutschem Merkur“ (April-Heft 1776, S. 75–82) gedruckt; „Fragmente“, als Anhang zu Heinrich Leopold Wagners Mercier-Übersetzung „Neuer Versuch über die Schauspielkunst“, 1776 im Schwickertschen Verlag in Leipzig erschienen; zuvor in Zeitschriften gedruckte „Vermischte Gedichte“ sowie das von Herder stammende „Denkmal Ulrichs von Hutten“ (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 5 f., Nr 4 [s<hi rendition="#sup">3</hi>]).</p>
+
+</note>
+<note xml:id="gb11989_comment_com11936">
+<label xml:id="GB03_2_BR498_0_note_003_278_11" copyOf="#start_com_4011"><hi rendition="#fett">278,11</hi>Doch ich schreibe nicht um Porzellan noch Brod</label>
+<p>Die erste Auflage der dreibändigen „Schriften“ Goethes hatte Himburg bereits 1775/76 herausgebracht (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 1 f., Nr 2 [s<hi rendition="#sup">1</hi>]). Er hoffte wohl, trotz des unberechtigten Nachdrucks mit dem Autor ins Geschäft zu kommen, wie sich Goethe in „Dichtung und Wahrheit“ erinnert: <quote type="G"><gap quantity="3" reason="editorial"/> ich erhielt unerwartet einige Exemplare meiner zusammengedruckten Werke. Mit großer Frechheit wußte sich dieser unberufene Verlege</quote>r <supplied>Himburg</supplied> <quote type="G">dieses dem Publicum erzeigten Dienstes gegen mich zu rühmen und erbot sich mir dagegen, wenn ich es verlangte, etwas Berliner Porcelan zu senden. Bey dieser Gelegenheit mußte mir einfallen, daß die Berliner Juden, wenn sie sich verheuratheten, eine gewisse Parthie Porzellan nehmen mußten, damit die königliche Fabrik einen sichern Absatz hätte. Die Verachtung welche daraus gegen den unverschämten Nachdrucker entstand, ließ mich den Verdruß übertragen, den ich bey diesem Raub empfinden mußte. Ich antwortete ihm nicht, und indessen er sich, an meinem Eigenthum gar wohl behaben mochte, rächte ich mich im Stillen mit folgenden Versen:</quote></p>
+ <space unit="lines" quantity="1"/>
+ <lg>
+  <l rendition="#einrueck4"><quote type="G">Holde Zeugen süß verträumter Jahre</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Falbe Blumen, abgeweihte Haare,</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Schleyer, leicht geknickt, verblichne Bänder,</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Abgeklungener Liebe Trauerpfänder,</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Schon gewidmet meines Heerdes Flammen,</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Rafft der freche Sosias zusammen,</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Eben als wenn Dichterwerk und Ehre</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Ihm durch Erbschaft zugefallen wäre;</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Und mir Lebenden soll sein Betragen</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Wohl am Thee- und Kaffeetisch behagen?</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Weg das Porzellan, das Zuckerbrod!</quote></l>
+  <l rendition="#einrueck4"><quote type="G">Für die Himburgs bin ich todt.</quote></l>
+ </lg>
+<p>(<ref target="sndb:sigle#2747">AA DuW</ref> 1, 557 f. [16. Buch].)</p>
+
+</note>
+<note xml:id="gb11989_comment_com11937">
+<label xml:id="GB03_2_BR498_0_note_004_278_12" copyOf="#start_com_4012"><hi rendition="#fett">278,12</hi>die Himburgs</label>
+<p>Als Synonym für ‚Raubdrucker‘, die sich auf Kosten der rechtmäßigen Verleger und der Autoren bereichern. – Die Praxis, Werke unerlaubt und ohne Vergütung nachzudrucken, war im ausgehenden 18. Jahrhundert allgemein verbreitet, da es im Vergleich etwa zu England oder Frankreich auf dem Gebiet der deutschen Territorialstaaten kein einheitlich geltendes Privilegiensystem gab und sich die Idee vom geistigen oder literarischen Eigentum erst allmählich entwickelte. Dennoch wurden etwa seit dem 16. Jahrhundert neue Werke in aller Regel nur mit Zustimmung des Autors erstmals gedruckt. Nach längerer Unterbrechung lebte um 1770 die öffentliche Auseinandersetzung um geistiges Eigentum und Nachdruck wieder auf. Der Grund dafür war eine Veränderung der Verhältnisse im deutschen Buchhandel und die Verlagerung des Buchhandels-Zentrums von Frankfurt nach Leipzig. Die Reformbemühungen der Leipziger Buchhändler, namentlich Philipp Erasmus Reichs und Immanuel Breitkopfs, führten immerhin dazu, dass in Kursachsen mit Leipzig als dem wichtigsten deutschen Buchhandelsplatz 1773 ein vergleichsweise fortschrittliches und vereinfachtes Privilegiensystem durchgesetzt wurde, das die hier gedruckten Bücher schützte. Da die Preise der sächsischen Originalausgaben relativ hoch waren, nahm nach 1773 vor allem in Süddeutschland, Österreich und der Schweiz die Zahl der Nachdrucke sehr stark zu (vgl. Ludwig Gieseke: Vom Privileg zum Urheberrecht. Göttingen 1995, S. 115 f., 150 f., 158–161).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

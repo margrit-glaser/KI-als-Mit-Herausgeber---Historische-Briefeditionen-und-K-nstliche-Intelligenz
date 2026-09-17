@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1340"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10965" n="GB 3, Nr. 133">
+  <teiHeader xml:id="gb10965_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>133.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 22. Juni 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:38Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10965_tei.xml</idno>
+        <idno type="URI">gb10965</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR133_0</idno>
+        <idno type="KSW-ID">10965</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="77" to="77">77</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="298" to="300">298-300</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10965_header_hwit1009" corresp="#gb10965_source_hwit1009" sameAs="#gb10965_comment_hwit1009" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 22</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10965,,1009/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Du hast gestern Steinen lahm nach Hause kriegt, sonst wär ich noch einen Augenblick</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10965_header_acc511" corresp="gb10965_comment_acc511">
+            <objectIdentifier>
+              <objectName>Rosen </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-22">22. Juni 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10965_source_hwit1009" corresp="#gb10965_header_hwit1009" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10965/22389"/>
+      <p>
+        <anchor xml:id="GB03_1_BR133_0_077_004"/>Du hast <ref target="gb:note#GB03_2_BR133_0_note_001_77_4" xml:id="start_com_1209"/>gestern Steinen lahm nach Hause kriegt<ref xml:id="end_com_1209"/>, sonst wär ich noch 
+<anchor xml:id="GB03_1_BR133_0_077_005"/>einen Augenblick kommen, denn <ref target="gb:note#GB03_2_BR133_0_note_002_77_5" xml:id="start_com_1210"/>ich bedarf auch einiger Pflege<ref xml:id="end_com_1210"/>. Da 
+<anchor xml:id="GB03_1_BR133_0_077_006"/>ging ich zu <ref target="gb:note#GB03_2_BR133_0_note_003_77_6" xml:id="start_com_1211"/>Wiel.<ref xml:id="end_com_1211"/> und ward mir wieder freyer. Liebste Frau ich darf 
+<anchor xml:id="GB03_1_BR133_0_077_007"/>nicht dran dencken <ref target="gb:note#GB03_2_BR133_0_note_004_77_7" xml:id="start_com_1212"/>dass Sie Dienstag weggehn<ref xml:id="end_com_1212"/>, dass Sie <ref target="gb:note#GB03_2_BR133_0_note_005_77_7-8" xml:id="start_com_1213"/>auf ein halb 
+<anchor xml:id="GB03_1_BR133_0_077_008"/>Jahr<ref xml:id="end_com_1213"/> hinaus von mir ab sind. Denn was hilft alles! <ref target="gb:note#GB03_2_BR133_0_note_006_77_8-9" xml:id="start_com_1214"/>die Gegenwart ists 
+<anchor xml:id="GB03_1_BR133_0_077_009"/>allein die würckt, tröstet und erbaut!<ref xml:id="end_com_1214"/> – Wenn sie auch wohl manchmal 
+<anchor xml:id="GB03_1_BR133_0_077_010"/>plagt – und das Plagen<ptr n="1" target="#a001_77.10"/> ist der Sommerregen<ptr n="2" target="#a002_77.10"/> der Liebe. Ich hab Sie viel 
+<anchor xml:id="GB03_1_BR133_0_077_011"/>lieber <ref target="gb:note#GB03_2_BR133_0_note_007_77_11" xml:id="start_com_1215"/>seit neulich<ref xml:id="end_com_1215"/>, viel theurer und viel werther ist mir deine <ref target="gb:note#GB03_2_BR133_0_note_008_77_11" xml:id="start_com_1216"/>Gutheit<ref xml:id="end_com_1216"/>
+        <anchor xml:id="GB03_1_BR133_0_077_012"/>zu mir. Aber freylich auch klarer und tiefer ein Verhältniss, über das 
+<anchor xml:id="GB03_1_BR133_0_077_013"/>man so gerne wegschlüpft, über das man sich so gerne verblendet. Der 
+<anchor xml:id="GB03_1_BR133_0_077_014"/>
+        <ref target="gb:note#GB03_2_BR133_0_note_009_77_14" xml:id="start_com_1217"/>Herz. M.<ref xml:id="end_com_1217"/> entging nicht dass ich mich auf einmal veränderte. Adieu! 
+<anchor xml:id="GB03_1_BR133_0_077_015"/>Hier eine Rose aus meinem Garten, hier ein Paar halbwelcke, die ich 
+<anchor xml:id="GB03_1_BR133_0_077_016"/>an einer Hecke, gestern zurückreitend dir abbrach. Leb wohl bestes. 
+<anchor xml:id="GB03_1_BR133_0_077_017"/>der <ref target="gb:note#GB03_2_BR133_0_note_010_77_17" xml:id="start_com_1218"/>Schwester<ref xml:id="end_com_1218"/> einen guten Morgen.    Addio.  d<g ref="#typoSuspension"/>. 22 Jun. 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR133_0_077_018"/>
+        <signed rend="paraph" rendition="#einrueck16">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10965_comment">
+<body>
+<div type="metadata" xml:id="gb10965_comment_com633">
+  <ab type="numberAddressee"><label>133.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 22. Juni 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10965_comment_com2677">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 22. – 1 Bl. 18,8 × 11,6 cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „60“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 60), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 40.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 77, Nr 479.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10965_comment_com3619">
+  <p>Rosen (vgl. <ref target="gb:text#GB03_1_BR133_0_077_015">77,15</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10965_comment_com4473">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10965_comment_com15665">
+<label xml:id="GB03_2_BR133_0_note_001_77_4" copyOf="#start_com_1209"><hi rendition="#fett">77,4</hi>gestern Steinen lahm nach Hause kriegt</label>
+<p>Laut Tagebuch war Goethe am 21. Juni 1776 <quote type="G">Nachmittags</quote> bei einem <quote type="G">Brand in Zimmern</quote> <supplied>Niederzimmern</supplied> (<ref target="gt:dokument#76">GT I 1, 19</ref>), einem Ort knapp 15 km nordwestlich von Weimar. Wie die Erwähnung nahelegt, war auch Charlottes Mann, der Oberstallmeister Josias von Stein, am Brandort gewesen, wo er sich möglicherweise verletzt hatte.</p>
+
+</note>
+<note xml:id="gb10965_comment_com17712">
+<label xml:id="GB03_2_BR133_0_note_002_77_5" copyOf="#start_com_1210"><hi rendition="#fett">77,5</hi>ich bedarf auch einiger Pflege</label>
+<p>Auf ein Unwohlsein Goethes verweist auch der Tagebucheintrag von diesem Tag: <quote type="G">Rhabarber</quote> (<ref target="gt:dokument#77">GT I 1, 19</ref>). Rhabarberextrakt war ein verbreitetes Abführ- und Heilmittel, das insbesondere bei Gallen- und Magenerkrankungen Verwendung fand (vgl. <ref target="sndb:sigle#3152">Zedler</ref> 31, 1049–1052).</p>
+
+</note>
+<note xml:id="gb10965_comment_com14052">
+<label xml:id="GB03_2_BR133_0_note_003_77_6" copyOf="#start_com_1211"><hi rendition="#fett">77,6</hi>Wiel.</label>
+<p>Wieland.</p>
+
+</note>
+<note xml:id="gb10965_comment_com10292">
+<label xml:id="GB03_2_BR133_0_note_004_77_7" copyOf="#start_com_1212"><hi rendition="#fett">77,7</hi>dass Sie Dienstag weggehn</label>
+<p>Wie Goethes Tagebuch (vgl. <ref target="gt:dokument#80">GT I 1, 21</ref>) und der im Anschluss an die folgenden Erläuterungen mitgeteilte Brief Charlotte von Steins an Zimmermann vom 17. Juni 1776 belegen, brach sie am Morgen des 25. Juni 1776 zur Kur nach Pyrmont auf. Entgegen ihrer ursprünglichen Absicht, einen Umweg über Hannover zu machen, reiste sie auf direktem Weg in das etwa 250 km entfernte Pyrmont (vgl. ihren <ref target="gb:note#gb10965_comment_com84526">Brief</ref> an Zimmermann).</p>
+
+</note>
+<note xml:id="gb10965_comment_com17713">
+<label xml:id="GB03_2_BR133_0_note_005_77_7-8" copyOf="#start_com_1213"><hi rendition="#fett">77,7-8</hi>auf ein halb Jahr</label>
+<p>Möglicherweise plante Charlotte von Stein zu dieser Zeit noch eine längere Abwesenheit von Weimar. Sie blieb aber nur etwa sechs Wochen in Pyrmont (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_001_92_7">92,7</ref>). Anfang September ging sie für etwa zwei Monate nach Kochberg und kam nur im Oktober für einige Tage nach Weimar (vgl. zu <ref target="gb:note#GB03_2_BR166_0_note_003_102_18">102,18</ref>).</p>
+
+</note>
+<note xml:id="gb10965_comment_com10293">
+<label xml:id="GB03_2_BR133_0_note_006_77_8-9" copyOf="#start_com_1214"><hi rendition="#fett">77,8-9</hi>die Gegenwart <gap quantity="3" reason="editorial"/> erbaut!</label>
+<p>Ähnlich äußert sich Goethe kurz vor und nach Charlotte von Steins Abreise nach Pyrmont (vgl. <ref target="gb:text#GB03_1_BR115_0_070_015 #GB03_1_BR115_0_070_016">70,15–16</ref>; <ref target="gb:text#GB03_1_BR140_0_082_001">82,1</ref>).</p>
+
+</note>
+<note xml:id="gb10965_comment_com10294">
+<label xml:id="GB03_2_BR133_0_note_007_77_11" copyOf="#start_com_1215"><hi rendition="#fett">77,11</hi>seit neulich</label>
+<p>Möglicherweise mit Bezug auf die Wiederherstellung des innigen Verhältnisses zwischen Goethe und der Adressatin nach einer ernsthaften ‚Störung‘ in der zweiten Maihälfte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10899_comment_com4810">Nr 115</ref>).</p>
+
+</note>
+<note xml:id="gb10965_comment_com10287">
+<label xml:id="GB03_2_BR133_0_note_008_77_11" copyOf="#start_com_1216"><hi rendition="#fett">77,11</hi>Gutheit</label>
+<p>Herzliche Zuneigung, freundliches Wohlwollen (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 592); nur äußerst selten bei Goethe belegt, im ausgehenden 18. Jahrhundert als Synonym zu ‚Güte‘ weitgehend auf die Umgangssprache begrenzt (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 861).</p>
+
+</note>
+<note xml:id="gb10965_comment_com10111">
+<label xml:id="GB03_2_BR133_0_note_009_77_14" copyOf="#start_com_1217"><hi rendition="#fett">77,14</hi>Herz. M.</label>
+<p>Herzoginmutter Anna Amalia. – Wahrscheinlich war Goethe mit ihr in den vorangegangenen Tagen in Tiefurt zusammengetroffen, zuletzt am 20. Juni (vgl. <ref target="gt:dokument#75">GT I 1, 19</ref>); ein gemeinsames Essen mit der Herzoginmutter wird unter dem 8. Juni erwähnt (vgl. <ref target="gt:dokument#65">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb10965_comment_com10112">
+<label xml:id="GB03_2_BR133_0_note_010_77_17" copyOf="#start_com_1218"><hi rendition="#fett">77,17</hi>Schwester</label>
+<p>Louise von Imhoff (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>).</p>
+</note>
+</div>
+<div xml:id="gb10965_comment_com84526">
+  <p>Charlotte von Stein an Johann Georg Zimmermann in Hannover:</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56433_source" corresp="#gb56433_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck20">
+        <anchor xml:id="GB03_2_FB012_0_299_001"/>17<hi rendition="#sup">ten</hi> Juni 1776.</p>
+      <lb/>
+      <p>
+        <anchor xml:id="GB03_2_FB012_0_299_002"/>Ich muß Ihnen durch ein Wort sagen daß ich nicht nach <ref target="gb:note#GB03_2_FB012_0_note_062_299_2" xml:id="start_com_7061"/>Hanovre<ref xml:id="end_com_7061"/> komme indem 
+<anchor xml:id="GB03_2_FB012_0_299_003"/>ich durch <ref target="gb:note#GB03_2_FB012_0_note_063_299_3" xml:id="start_com_7062"/>die Ankunfft meiner Schwester<ref xml:id="end_com_7062"/> meine Reise um einige Tage verschieben <anchor xml:id="GB03_2_FB012_0_300_004"/>muß. Ich hatte auch bloß die Absicht Sie nur da zu sehen, und da Sie nunmehr 
+<anchor xml:id="GB03_2_FB012_0_300_005"/>nach <ref target="gb:note#GB03_2_FB012_0_note_064_300_5" xml:id="start_com_7063"/>Pyrmont<ref xml:id="end_com_7063"/> kommen wird also mein Wunsch ohne Umweg erfüllt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB012_0_300_006"/>Um Ihnen, lieber Zimmermann, etwas neues zu erzehlen so wißen Sie <ref target="gb:note#GB03_2_FB012_0_note_065_300_6-8" xml:id="start_com_7064"/>daß 
+<anchor xml:id="GB03_2_FB012_0_300_007"/>Goethe endlich hier fest ist; vor einigen Tagen ist er zum Geheimen Legations 
+<anchor xml:id="GB03_2_FB012_0_300_008"/>Rath ernent worden, und sitz im conseil<ref xml:id="end_com_7064"/>, ich habe aber doch noch einen <ref target="gb:note#GB03_2_FB012_0_note_066_300_8-9" xml:id="start_com_7065"/>Unglauben 
+<anchor xml:id="GB03_2_FB012_0_300_009"/>an seinen unstäten Sinn<ref xml:id="end_com_7065"/>, wenn ich ihm gleich hertzlich wünsche an irgend 
+<anchor xml:id="GB03_2_FB012_0_300_010"/>einen Eckgen der Welt Ruhe zu finden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB012_0_300_011"/>Den 25<hi rendition="#sup">ten</hi> Reiße ich von hier ab, bin also noch einige Tage vor Sie in Pyrmont 
+<anchor xml:id="GB03_2_FB012_0_300_012"/>bereite Ihnen den Weg und bin <ref target="gb:note#GB03_2_FB012_0_note_067_300_12" xml:id="start_com_7413"/>nicht würdig Ihnen die Schurimen aufzulesen<ref xml:id="end_com_7413"/>. 
+<anchor xml:id="GB03_2_FB012_0_300_013"/>Leben Sie wohl – – – –</p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB012_0_300_014"/>Charlotte Von Stein /</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56433_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56433_comment_com84519">
+  <p>(H: FGH/FDH Frankfurt a. M., Sign. 7184. – E: Goethe/Stein-Zimmermann [1904], 175 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56433_comment_com84520">
+<label xml:id="GB03_2_FB012_0_note_062_299_2" copyOf="#start_com_7061"><hi rendition="#normal">299,2</hi>Hanovre</label>
+<p>Zimmermann war seit 1768 königlich britischer Leibarzt in Hannover.</p>
+</note>
+<note xml:id="gb56433_comment_com84521">
+<label xml:id="GB03_2_FB012_0_note_063_299_3" copyOf="#start_com_7062"><hi rendition="#normal">299,3</hi>die Ankunfft meiner Schwester</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>.</p>
+</note>
+<note xml:id="gb56433_comment_com84522">
+<label xml:id="GB03_2_FB012_0_note_064_300_5" copyOf="#start_com_7063"><hi rendition="#normal">300,5</hi>Pyrmont</label>
+<p>Im Weserbergland, zum Fürstentum Waldeck-Pyrmont gehörend; im 18. Jahrhundert ein beliebter Kur- und Erholungsort des europäischen Adels.</p>
+</note>
+<note xml:id="gb56433_comment_com84523">
+<label xml:id="GB03_2_FB012_0_note_065_300_6-8" copyOf="#start_com_7064"><hi rendition="#normal">300,6-8</hi>daß Goethe <gap quantity="3" reason="editorial"/> im conseil</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR132_0_note_001_76_13">76,13</ref>.</p>
+</note>
+<note xml:id="gb56433_comment_com84524">
+<label xml:id="GB03_2_FB012_0_note_066_300_8-9" copyOf="#start_com_7065"><hi rendition="#normal">300,8-9</hi>Unglauben an seinen unstäten Sinn</label>
+<p>Missverständlich, gemeint ist ‚Unglaube an seine Beständigkeit‘. – Den ‚Unglauben‘ Charlotte von Steins beklagt Goethe häufig in seinen Briefen an die Freundin (vgl. <ref target="gb:text#GB03_1_BR172_0_109_017">109,17–18</ref>; zu <ref target="gb:note#GB03_2_BR296_0_note_001_172_5-6">172,5-6</ref>). </p>
+</note>
+<note xml:id="gb56433_comment_com84525">
+<label xml:id="GB03_2_FB012_0_note_067_300_12" copyOf="#start_com_7413"><hi rendition="#normal">300,12</hi>nicht würdig Ihnen die Schurimen aufzulesen</label>
+<p>Fast wörtlich Johannes 1,27.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

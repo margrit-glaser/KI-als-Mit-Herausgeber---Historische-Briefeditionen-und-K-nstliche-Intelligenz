@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="630"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10694" n="GB 3, Nr. 63">
+  <teiHeader xml:id="gb10694_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>63.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 19. März 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:26Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10694_tei.xml</idno>
+        <idno type="URI">gb10694</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR063_0</idno>
+        <idno type="KSW-ID">10694</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="43" to="43">43</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="179" to="180">179-180</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10694_header_hwit903" corresp="#gb10694_source_hwit903" sameAs="#gb10694_comment_hwit903" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 11</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10694,,903/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich muss Ihnen noch ein Wort sagen liebe Frau. ich bin heute Nacht kranck worden und zwar toll</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-03-19">19. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10694_source_hwit903" corresp="#gb10694_header_hwit903" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10694/22279"/>
+      <p>
+        <anchor xml:id="GB03_1_BR063_0_043_015"/>Ich muss Ihnen noch ein Wort sagen liebe Frau. ich <ref target="gb:note#GB03_2_BR063_0_note_001_43_15-16" xml:id="start_com_0678"/>bin heute Nacht 
+<anchor xml:id="GB03_1_BR063_0_043_016"/>kranck worden<ref xml:id="end_com_0678"/> und zwar toll, habe mich wieder zusammen genommen 
+<anchor xml:id="GB03_1_BR063_0_043_017"/>Muss aber noch hier bleiben. bin <ref target="gb:note#GB03_2_BR063_0_note_002_43_17" xml:id="start_com_0679"/>zu Wielanden geflüchtet<ref xml:id="end_com_0679"/> weil 
+<anchor xml:id="GB03_1_BR063_0_043_018"/>ich <ref target="gb:note#GB03_2_BR063_0_note_003_43_18" xml:id="start_com_0680"/>ganz allein zu Hause<ref xml:id="end_com_0680"/> wär. Wollte heut zu Ihnen <ref target="gb:note#GB03_2_BR063_0_note_004_43_18" xml:id="start_com_0681"/>Hufland<ref xml:id="end_com_0681"/><ptr n="1" target="#a001_43.18"/> verbietet 
+<anchor xml:id="GB03_1_BR063_0_043_019"/>mir auszugehn. Ade. Nur eine Zeile von Ihrer Hand Gute Nacht 
+<anchor xml:id="GB03_1_BR063_0_043_020"/>Engel. <ref target="gb:note#GB03_2_BR063_0_note_005_43_20" xml:id="start_com_0682"/>Friz war bey uns<ref xml:id="end_com_0682"/> den hab ich viel geküsst.   Ade.   d<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR063_0_043_021"/>19 Merz 1776.      G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10694_comment">
+<body>
+<div type="metadata" xml:id="gb10694_comment_com1284">
+  <ab type="numberAddressee"><label>63.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 19. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10694_comment_com3328">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 11. – 1 Bl. 18 × 11 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Adresse: <quote type="G">Fr v. Stein</quote>, rotes Gemmensiegel: bartloser Männerkopf im Profil (wie <ref target="gb:dokument#10696">Nr 65</ref>); oben rechts von fremder Hd, Tinte: „29.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 29), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 16.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 40, Nr 418.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10694_comment_com5124">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief wahrscheinlich vom 19. oder 20. März 1776 ist nicht überliefert (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR064_0_note_001_44_1">44,1</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10694_comment_com17554">
+<label xml:id="GB03_2_BR063_0_note_001_43_15-16" copyOf="#start_com_0678"><hi rendition="#fett">43,15-16</hi>bin heute Nacht kranck worden</label>
+<p>Goethe litt in den ersten Weimarer Jahren gelegentlich unter Erkältungs- und Bronchialkrankheiten, Anginen, so genannten rheumatischen Gelenk- und Muskelschmerzen sowie Wetterfühligkeit, seit 1777 wiederholt auch an Zahnschmerzen. Im Vergleich zu seinem Leipziger ‚Blutsturz‘ vom Sommer 1768 und den schweren Rückfällen Anfang Dezember 1768 und im Januar 1769 in Frankfurt waren dies aber weit weniger bedenkliche Erkrankungen (vgl. <ref target="sndb:sigle#2986">Matouschek</ref>, 62–65; <ref target="gb:note#GB01_2_BR048_0_note_003_138_25">GB 1 II, zu 138,25</ref>; zu <ref target="gb:note#GB01_2_BR053_0_note_002_152_18-19">152,18–19</ref>). – Für den folgenden Tag war eine Reise mit Herzog Carl August nach Dessau und Leipzig geplant (vgl. <ref target="gb:text#GB03_1_BR062_0_043_001 #GB03_1_BR062_0_043_002">43,1–2</ref>), die sich durch die Krankheit verzögerte. Goethe brach schließlich erst am 24. März auf, und zwar reiste er auf direktem Weg nach Leipzig (vgl. <ref target="gb:dokument#10652">Nr 67</ref>, <ref target="gb:dokument#11922">68</ref>, <ref target="gb:dokument#11883">69</ref>, <ref target="gb:dokument#10700">70</ref> und <ref target="gb:dokument#11923">71</ref>) und ohne Begleitung des Herzogs, der selbst erkrankt war und bis Mitte April 1776 sein Zimmer nicht verlassen durfte (vgl. Goethes Tagebuch vom 17. April 1776; <ref target="gt:dokument#21">GT I 1, 17</ref>; zu <ref target="gb:note#GB03_2_BR070_0_note_016_48_1-2">48,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb10694_comment_com9754">
+<label xml:id="GB03_2_BR063_0_note_002_43_17" copyOf="#start_com_0679"><hi rendition="#fett">43,17</hi>zu Wielanden</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR036_0_note_002_27_13">27,13</ref>.</p>
+
+</note>
+<note xml:id="gb10694_comment_com9755">
+<label xml:id="GB03_2_BR063_0_note_003_43_18" copyOf="#start_com_0680"><hi rendition="#fett">43,18</hi>ganz allein zu Hause</label>
+<p>Am Tag zuvor hatte Goethe seine bisherige Unterkunft im Stadthaus des Kammerpräsidenten Carl Alexander von Kalb, den damaligen Schwarzburger Hof am Töpfen-Markt (heute Sächsischer Hof am Herderplatz), verlassen. Nach Burkhardt ist Goethe zunächst in einer „Zwischenwohnung“ untergekommen, bevor er dann gegen Ende Juni 1776 in das Haus des Hofkassierers Heinrich Carl König am heutigen Burgplatz gegenüber dem Gelben Schloss (heute Herzogin Anna Amalia Bibliothek) zog (<ref target="sndb:sigle#1266/761">Burkhardt, Goethes Stadtwohnungen in Weimar</ref>, 244 f.). Diese erste Weimarer Stadtwohnung am Burgplatz hatte er aber im März bereits gemietet, wie auch aus einem Brief von Wieland an Merck vom 23. März 1776 hervorgeht: „<hi rendition="#hervor1">Göthe</hi> bleibt nun wohl hier, so lange C[arl] A[ugust] lebt <gap quantity="3" reason="editorial"/>! Er hat sich ein Haus gemiethet, das wie eine kleine Burg aussieht, und es macht ihm großen Spaß, daß er mit seinem Philipp <supplied>Seidel</supplied> ganz allein sich im Nothfall etliche Tage gegen ein ganzes Corps darinn wehren könnte, insofern sie ihm das Nest nicht überm Kopf ganz anzündeten. Er ist auch im Begriff einen Garten zu kauffen, welches ich auch gethan habe, also und dergestalt, daß wir beyde, NB. ohne vorgängige Abrede, uns beynahe in ein und ebendemselben Augenblick in den Weimarischen Philister-Orden begeben haben – welches dann mit alle dem lustig genug ist.“ (<ref target="sndb:sigle#141">WB</ref> 5, 488.)</p>
+
+</note>
+<note xml:id="gb10694_comment_com9677">
+<label xml:id="GB03_2_BR063_0_note_004_43_18" copyOf="#start_com_0681"><hi rendition="#fett">43,18</hi>Hufland</label>
+<p>Johann Friedrich Hufeland, herzoglicher Leibarzt und Geheimer Hofrat in Weimar. – Dessen berühmterer Sohn Christoph Wilhelm, seit 1785 sein Amtsnachfolger, wurde Goethes Hausarzt und zählte in den 1780er und 1790er Jahren zum engeren Freundeskreis des Dichters.</p>
+
+</note>
+<note xml:id="gb10694_comment_com9676">
+<label xml:id="GB03_2_BR063_0_note_005_43_20" copyOf="#start_com_0682"><hi rendition="#fett">43,20</hi>Friz war bey uns</label>
+<p>Friedrich von Stein, der jüngste, damals erst dreijährige Sohn Charlottes, der offenbar ebenfalls bei der Familie Wieland zu Besuch war.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

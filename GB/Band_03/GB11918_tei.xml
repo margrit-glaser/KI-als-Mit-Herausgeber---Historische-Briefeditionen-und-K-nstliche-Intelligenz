@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3430"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11918" n="GB 3, Nr. 334">
+  <teiHeader xml:id="gb11918_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>334.</label> An <persName key="sndb:person#37776" cert="low">Joachim Christoph von Haffner</persName> oder <persName key="sndb:person#50114" cert="low">Christian Bernhard von Isenflamm?</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. Februar 1778. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:07Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11918_tei.xml</idno>
+        <idno type="URI">gb11918</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR334_0</idno>
+        <idno type="KSW-ID">11918</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="198" to="198">198</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="667" to="672">667-672</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11918_header_hwit1322" corresp="#gb11918_source_hwit1322" sameAs="#gb11918_comment_hwit1322" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Coburg</placeName>
+            </settlement>
+            <institution key="sndb:standort#70">Kunstsammlungen der Veste Coburg</institution>
+            <idno type="shelfmark">A. IV, 708, (1), 18</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11918,,1322/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ich befinde mich in dem Fall Sie für einige unbekannte    Personen um eine Gefälligkeit</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11918_header_acc210" corresp="gb11918_comment_acc210">
+            <objectIdentifier>
+              <objectName>Anzeige im „Anhang zur Erlangischen Real-Zeitung Num. 11“ vom 6. Februar 1778 (S. 89 f.).</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1778-02-28">28. Februar 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#37776" exclude="#xpath(self::*/following-sibling::persName|preceding-sibling::persName)" cert="low">? Haffner, Joachim Christoph von</persName> oder
+            <persName key="sndb:person#50114" exclude="#xpath(self::*/following-sibling::persName|preceding-sibling::persName)" cert="low">? Isenflamm, Christian Bernhard von</persName>
+            <placeName key="sndb:ort#87359">Graz</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11918_source_hwit1322" corresp="#gb11918_header_hwit1322" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11918/13053"/>
+      <opener>
+        <salute><hi rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR334_0_198_006"/>Hochwohlgebohrner</hi><lb/>
+        
+          <anchor xml:id="GB03_1_BR334_0_198_007"/><hi rendition="#einrueck2">Hochgeehrtester Herr,</hi></salute>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR334_0_198_008"/>Ich befinde mich in dem Fall Sie für <ref target="gb:note#GB03_2_BR334_0_note_001_198_8" xml:id="start_com_3008"/>einige unbekannte Personen<ref xml:id="end_com_3008"/> um 
+<anchor xml:id="GB03_1_BR334_0_198_009"/>eine Gefälligkeit zu ersuchen. Aus <ref target="gb:note#GB03_2_BR334_0_note_002_198_9" xml:id="start_com_3009"/>beyliegender Zeitung<ref xml:id="end_com_3009"/> werden Sie 
+<anchor xml:id="GB03_1_BR334_0_198_010"/>sehen können wie ein <ref target="gb:note#GB03_2_BR334_0_note_003_198_10" xml:id="start_com_3010"/>Freyherr <hi rendition="#hervor1">von Tost</hi>
+        <ref xml:id="end_com_3010"/> in Gräz gestorben, <ref target="gb:note#GB03_2_BR334_0_note_004_198_10-11" xml:id="start_com_3011"/>einen 
+<anchor xml:id="GB03_1_BR334_0_198_011"/>seiner Verwandten Nahmens<ptr n="1" target="#a001_198.11"/>
+        <hi rendition="#hervor1">Träger</hi>
+        <ref xml:id="end_com_3011"/> zum Erben eingesezt und diesem 
+<anchor xml:id="GB03_1_BR334_0_198_012"/>3 Geschwistern <hi rendition="#hervor1">von Lampen</hi> substituirt. Diese leztern <ref target="gb:note#GB03_2_BR334_0_note_005_198_12-13" xml:id="start_com_3012"/>haben 
+<anchor xml:id="GB03_1_BR334_0_198_013"/>sich an mich gewendet<ref xml:id="end_com_3012"/> um durch Vermittlung Ew Hochwohlgeb<g ref="#typoSuspension"/> nähere 
+<anchor xml:id="GB03_1_BR334_0_198_014"/>Nachricht von der Erbschafft, <ref target="gb:note#GB03_2_BR334_0_note_006_198_14" xml:id="start_com_3013"/>wie hoch sie sich belaufe<ref xml:id="end_com_3013"/>, etwa 
+<anchor xml:id="GB03_1_BR334_0_198_015"/>eine Abschrifft des Testaments, sonstige Umstände, auch wohl eine <ref target="gb:note#GB03_2_BR334_0_note_007_198_15-16" xml:id="start_com_3014"/>sichere 
+<anchor xml:id="GB03_1_BR334_0_198_016"/>Adresse in Gräz<ref xml:id="end_com_3014"/> zu erhalten. <pb n="2" facs="gb:digitalisate#11918/13054"/> Sie wissen zwar selbst nicht ob 
+<anchor xml:id="GB03_1_BR334_0_198_017"/>ihr Vorgesezter <hi rendition="#hervor1">Träger</hi> noch am Leben, wünschen aber doch sehr 
+<anchor xml:id="GB03_1_BR334_0_198_018"/>nähere <ref target="gb:note#GB03_2_BR334_0_note_008_198_18" xml:id="start_com_3015"/>Wissenschafft<ref xml:id="end_com_3015"/>, die ihnen unmittelbaar zu erlangen schweer zu 
+<anchor xml:id="GB03_1_BR334_0_198_019"/>seyn scheint.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR334_0_198_020"/>Verzeihen Sie meine Freyheit und versichern Sich dass ich mit aller 
+<anchor xml:id="GB03_1_BR334_0_198_021"/>Hochachtung sey</p>
+      <closer>
+        <salute rendition="#einrueck15">
+          <anchor xml:id="GB03_1_BR334_0_198_022"/>Ew Hochwohlgeb<g ref="#typoSuspension"/></salute>
+       
+        <space quantity="1" unit="lines"/>
+        <dateline>
+         <lb xml:id="gb11918_source_lin1938"/><anchor xml:id="GB03_1_BR334_0_198_023"/>Weimar                                                                     
+          <lb xml:id="gb11918_source_lin1939"/><anchor xml:id="GB03_1_BR334_0_198_024"/>d<g ref="#typoSuspension"/>. 28 Febr 78.</dateline>                 <lb sameAs="#gb11918_source_lin1938"/><salute>gehorsamster <ref target="gb:note#GB03_2_BR334_0_note_009_198_22" xml:id="start_com_3016"/>Dr<ref xml:id="end_com_3016"/></salute>                                        
+        <lb sameAs="#gb11918_source_lin1939"/><signed rend="signature" rendition="#right">Goethe</signed>
+        <anchor xml:id="GB03_1_BR334_0_198_025"/>       <graphic url="gb:digitalisate#11918/70172" width="60px"/>
+      </closer>
+    <pb n="3" facs="gb:digitalisate#11918/13059" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11918/13060" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11918_comment">
+<body>
+<div type="metadata" xml:id="gb11918_comment_com789">
+  <ab type="numberAddressee"><label>334.</label> An <persName key="sndb:person#37776" cert="low">? Joachim Christoph von Haffner</persName> oder <persName key="sndb:person#50114" cert="low">? Christian Bernhard von Isenflamm</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. Februar 1778 → <placeName key="sndb:ort#87359">Graz</placeName></ab>
+</div>
+
+<div type="addressee" xml:id="gb11918_comment_com2032">
+  <p>Bisher wurde als Adressat des vorliegenden Briefes der steiermärkische Beamte Anton von Catharin vermutet (vgl. über ihn die einleitende <ref target="gb:note#gb11918_comment_com4629">Erläuterung</ref>). Da dieser aber Verfasser eben der Zeitungsannonce ist, die Goethe zur Kenntnisnahme übersendet (abgedruckt als <ref target="gb:note#gb11918_comment_com3671">Beilage</ref>), kommt er als Empfänger des Briefes nicht in Frage. Zwar hat Goethe am 18. April und am 30. Mai 1778 Briefe an Catharin geschrieben, die nicht überliefert sind (vgl. <ref target="gb:dokument#52623">EB 206</ref>, <ref target="gb:dokument#52627">208</ref>), aber er hat sich offenbar zunächst nicht direkt an ihn, sondern an einen Mittelsmann gewandt. Dabei könnte es sich um Christian Bernhard von Isenflamm, den sachsen-weimarischen Residenten am kaiserlichen Hof in Wien, handeln oder um Joachim Christoph von Haffner, den weimarischen Agenten in Wien. Für Isenflamm spricht erstens, dass es weitere Briefe Goethes an ihn gibt (vgl. die einleitende Erläuterung), und zweitens, dass Goethe in ihnen die gleiche Anrede benutzt wie im vorliegenden Brief (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 6, 113) oder nahezu die gleiche (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 6, 313; <ref target="sndb:sigle#1157">WA</ref> IV 50, 129).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11918_comment_com2833">
+  <p>H: Veste Coburg, Kunstsammlungen, Sign.: A. IV, 708, 18. – Doppelblatt 17 × 20,9 cm, 1 &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> XXII (1901), 85 f. (Ludwig Geiger).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 30 (1905), 12, Nr 678a (nach einer Abschrift).</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11918_comment_com3671">
+  <p>Anzeige im „Anhang zur Erlangischen Real-Zeitung Num. 11“ vom 6. Februar 1778 (S. 89 f.):</p>
+  <floatingText type="foreignDocument">
+  <group>
+<text type="source" xml:id="gb56454_source" corresp="#gb56454_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB027_0_668_001"/>Wir <ref target="gb:note#GB03_2_FB027_0_note_174_669_1" xml:id="start_com_7190"/>N.<ref xml:id="end_com_7190"/> das von ihrer röm. kaiserl. in Germanien zu Hungarn, und Böheim kön. 
+<anchor xml:id="GB03_2_FB027_0_668_002"/>apost. Majest. <ref target="gb:note#GB03_2_FB027_0_note_175_669_2" xml:id="start_com_7191"/>Erzherzogin<ref xml:id="end_com_7191"/> zu Oesterreich allergnädigst angeordnet K. K. Landesfürstliche 
+<anchor xml:id="GB03_2_FB027_0_668_003"/>Landesrecht in Steyer: geben hiemit jedermänniglichen, sonderheitlich 
+<anchor xml:id="GB03_2_FB027_0_668_004"/>aber denen daran gelegen ist, zu vernehmen, daß bey Uns <ref target="gb:note#GB03_2_FB027_0_note_176_669_4" xml:id="start_com_7192"/>Franz Anton Köhrer<ref xml:id="end_com_7192"/>
+        <anchor xml:id="GB03_2_FB027_0_668_005"/>als nach Ableben des Herrn <ref target="gb:note#GB03_2_FB027_0_note_177_669_5" xml:id="start_com_7193"/>Friderich Wilhelm Freyherrn von Tost<ref xml:id="end_com_7193"/> verordneten 
+<anchor xml:id="GB03_2_FB027_0_668_006"/>
+        <ref target="gb:note#GB03_2_FB027_0_note_178_669_6" xml:id="start_com_7194"/>Curator haereditatis jacentis<ref xml:id="end_com_7194"/> angebracht habe, wie daß ersagter Freyherr in seinem 
+<anchor xml:id="GB03_2_FB027_0_668_007"/>
+        <ref target="gb:note#GB03_2_FB027_0_note_179_669_7" xml:id="start_com_7195"/>Testament <ref target="gb:note#GB03_2_FB027_0_note_180_669_7" xml:id="start_com_7196"/>dd.<ref xml:id="end_com_7196"/> 20 May 1776<ref xml:id="end_com_7195"/>. <ref target="gb:note#GB03_2_FB027_0_note_181_669_7" xml:id="start_com_7197"/>praesentato<ref xml:id="end_com_7197"/> 5 Octobris <ref target="gb:note#GB03_2_FB027_0_note_182_669_7" xml:id="start_com_7198"/>ejusdem<ref xml:id="end_com_7198"/>
+        <ref target="gb:note#GB03_2_FB027_0_note_183_669_7" xml:id="start_com_7199"/>eines Bruders Sohn<ref xml:id="end_com_7199"/>, 
+<anchor xml:id="GB03_2_FB027_0_668_008"/>seinen Erblaßers Namen Träger, der in Münsterischen Diensten vielleicht damalen 
+<anchor xml:id="GB03_2_FB027_0_668_009"/>als <ref target="gb:note#GB03_2_FB027_0_note_184_669_9" xml:id="start_com_7200"/>Kapitän<ref xml:id="end_com_7200"/> stehen möchte, zum Universalerben eingesetzet habe, mit der ferneren 
+<anchor xml:id="GB03_2_FB027_0_668_010"/>
+        <ref target="gb:note#GB03_2_FB027_0_note_185_669_10" xml:id="start_com_7201"/>Vorsehung<ref xml:id="end_com_7201"/>, daß, wenn dieser ohne Erben verschiede, die 3 Freyherrliche <ref target="gb:note#GB03_2_FB027_0_note_186_669_10-11" xml:id="start_com_7202"/>Geschwisterte<ref xml:id="end_com_7202"/>
+        <anchor xml:id="GB03_2_FB027_0_668_011"/>
+        <ref target="gb:note#GB03_2_FB027_0_note_187_669_11" xml:id="start_com_7203"/>von Lampen<ref xml:id="end_com_7203"/> als seiner des Baron v. Tost Schwester Kinder <ref target="gb:note#GB03_2_FB027_0_note_188_669_11" xml:id="start_com_7204"/>succediren<ref xml:id="end_com_7204"/>
+        <anchor xml:id="GB03_2_FB027_0_668_012"/>sollten, anbey wäre angemerket, daß einer von diesen Baron Lampischen Söhnen 
+<anchor xml:id="GB03_2_FB027_0_668_013"/>sich in fürstl. Anhalt-Köthischen Diensten befinden wurde, und eine von seinen 
+<anchor xml:id="GB03_2_FB027_0_668_014"/>Schwestern Hof- oder Stiftdame wäre, ferners habe Curator angedeutet, daß der 
+<anchor xml:id="GB03_2_FB027_0_668_015"/>Erblaßer einen <ref target="gb:note#GB03_2_FB027_0_note_189_669_15" xml:id="start_com_7205"/>andern Sohn<ref xml:id="end_com_7205"/> seines Bruders, der Lieutenant unter den K. K. <ref target="gb:note#GB03_2_FB027_0_note_190_669_15-16" xml:id="start_com_7206"/>Lacyschen 
+<anchor xml:id="GB03_2_FB027_0_668_016"/>Infanterie-Regiment<ref xml:id="end_com_7206"/> seye, verschiedene <ref target="gb:note#GB03_2_FB027_0_note_191_669_16" xml:id="start_com_7207"/>Effecten<ref xml:id="end_com_7207"/>, und obgedachter Stiftdame 
+<anchor xml:id="GB03_2_FB027_0_668_017"/>einen Ring zugedacht habe; <ref target="gb:note#GB03_2_FB027_0_note_192_669_17" xml:id="start_com_7208"/>Zumahlen<ref xml:id="end_com_7208"/> sich aber bisanhero Niemand weder zur 
+<anchor xml:id="GB03_2_FB027_0_668_018"/>Universalerbschaft, noch zu denen <ref target="gb:note#GB03_2_FB027_0_note_193_669_18" xml:id="start_com_7210"/>Legatis<ref xml:id="end_com_7210"/> gemeldet, und zu diesen Erbsprüchen 
+<anchor xml:id="GB03_2_FB027_0_668_019"/>rechtgefertiget hätte, <ref target="gb:note#GB03_2_FB027_0_note_194_669_19" xml:id="start_com_7209"/>als<ref xml:id="end_com_7209"/> hat derselbige um diese <ref target="gb:note#GB03_2_FB027_0_note_195_669_19" xml:id="start_com_7211"/>erledigte<ref xml:id="end_com_7211"/> Verlassenschaft <ref target="gb:note#GB03_2_FB027_0_note_196_669_19-20" xml:id="start_com_7212"/>per patentes<ref xml:id="end_com_7212"/>
+        <anchor xml:id="GB03_2_FB027_0_668_020"/>kund zu machen gehorsamst gebetten; Gleichwie nun dieses Gesuch für billig 
+        <anchor xml:id="GB03_2_FB027_0_669_021"/>aufgenommen worden ist. Als wird obgedachten Erben und <ref target="gb:note#GB03_2_FB027_0_note_197_670_21" xml:id="start_com_7213"/>Legatariis<ref xml:id="end_com_7213"/> aufgetragen, 
+<anchor xml:id="GB03_2_FB027_0_669_022"/>daß sie sich inner einem Jahr, 6 Wochen, 3 Tägen bey diesen K. K. Landesfürstl. 
+<anchor xml:id="GB03_2_FB027_0_669_023"/>Landesrechten in Steyer so gewiß gebührend melden lassen, und sich zu diesen 
+<anchor xml:id="GB03_2_FB027_0_669_024"/>Forderungen durch glaubwürdige Documenten, daß sie diejenigen seyen, welche 
+<anchor xml:id="GB03_2_FB027_0_669_025"/>im Testament <ref target="gb:note#GB03_2_FB027_0_note_198_670_25" xml:id="start_com_7214"/>benennter<ref xml:id="end_com_7214"/> einkommen, und denen ein oder das andere gebühre, legitimiren 
+<anchor xml:id="GB03_2_FB027_0_669_026"/>sollen, als wiedrigens mit dieser unbesuchten Verlassenschaft dasjenige, 
+<anchor xml:id="GB03_2_FB027_0_669_027"/>was von Rechts wegen zustehet, nach dieser Frist veranlasset werden würde, wornach 
+<anchor xml:id="GB03_2_FB027_0_669_028"/>sich also zu achten, und zu richten seyn wird. Grätz, den 10 December 
+<anchor xml:id="GB03_2_FB027_0_669_029"/>1777.</p>
+      <p rendition="#einrueck3">
+        <anchor xml:id="GB03_2_FB027_0_669_030"/>(<ref target="gb:note#GB03_2_FB027_0_note_199_670_29" xml:id="start_com_7215"/>L. S.<ref xml:id="end_com_7215"/>)                      <ref target="gb:note#GB03_2_FB027_0_note_200_670_29" xml:id="start_com_7216"/>Ex Cæs. Reg. Cons. Trib. Statuum</p>
+      <p rendition="#einrueck14">
+        <anchor xml:id="GB03_2_FB027_0_669_031"/>Ducatus Styriæ<ref xml:id="end_com_7216"/>.</p>
+      <p rendition="#einrueck14">
+        <anchor xml:id="GB03_2_FB027_0_669_032"/>Anton v. Catharin.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56454_comment">
+<body>
+<div type="singleExplanations">
+<note xml:id="gb56454_comment_com84692">
+<label xml:id="GB03_2_FB027_0_note_174_669_1" copyOf="#start_com_7190"><hi rendition="#normal">668,1</hi>N.</label>
+<p>Abkürzung für lat. nomen: Namen, an „Stelle eines eigenthümlichen Nahmens“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 355).</p>
+</note>
+<note xml:id="gb56454_comment_com84693">
+<label xml:id="GB03_2_FB027_0_note_175_669_2" copyOf="#start_com_7191"><hi rendition="#normal">668,2</hi>Erzherzogin</label>
+<p>Maria Theresia, Erzherzogin von Österreich, Königin von Böhmen, römisch-deutsche Kaiserin.</p>
+</note>
+<note xml:id="gb56454_comment_com84694">
+<label xml:id="GB03_2_FB027_0_note_176_669_4" copyOf="#start_com_7192"><hi rendition="#normal">668,4</hi>Franz Anton Köhrer</label>
+<p>Über ihn konnte nichts Näheres ermittelt werden.</p>
+</note>
+<note xml:id="gb56454_comment_com84695">
+<label xml:id="GB03_2_FB027_0_note_177_669_5" copyOf="#start_com_7193"><hi rendition="#normal">668,5</hi>Friderich Wilhelm Freyherrn von Tost</label>
+<p>Friedrich Wilhelm von Thoß (Thos, Tost), preußischer Offizier, 1739 als Kapitän (Hauptmann) im 20. magdeburg-halberstädtischen Infanterieregiment des Generalmajors David Georg von Graevenitz, Empfänger des Ordens Pour le mérite (vgl. Gustaf Lehmann: Die Ritter des Ordens pour le mérite. Bd 1. Berlin 1913, S. 17, Nr 103).</p>
+</note>
+<note xml:id="gb56454_comment_com84696">
+<label xml:id="GB03_2_FB027_0_note_178_669_6" copyOf="#start_com_7194"><hi rendition="#normal">668,6</hi>Curator haereditatis jacentis</label>
+<p>Lat.: Verwalter des ruhenden Erbes (zwischen dem Tod des Erblassers und dem Erwerb durch die Erben).</p>
+</note>
+<note xml:id="gb56454_comment_com84697">
+<label xml:id="GB03_2_FB027_0_note_179_669_7" copyOf="#start_com_7195"><hi rendition="#normal">668,7</hi>Testament dd. 20 May 1776</label>
+<p>Um eine Kopie dieses Testaments bat Goethe in einem nicht überlieferten Brief vom 18. April 1778 den Grazer Beamten Anton von Catharin (<ref target="gb:dokument#52623">EB 206</ref>), der sie mit seinem Brief vom 23. April 1778 überschickte (vgl. <ref target="ra:dokument#92">RA 1, 70, Nr 84</ref>); die Abschrift befindet sich in den Kunstsammlungen der Veste Coburg (A. IV, 708, 18).</p>
+</note>
+<note xml:id="gb56454_comment_com84698">
+<label xml:id="GB03_2_FB027_0_note_180_669_7" copyOf="#start_com_7196"><hi rendition="#normal">668,7</hi>dd.</label>
+<p>Lat. de dato: vom Datum.</p>
+</note>
+<note xml:id="gb56454_comment_com84699">
+<label xml:id="GB03_2_FB027_0_note_181_669_7" copyOf="#start_com_7197"><hi rendition="#normal">668,7</hi>praesentato</label>
+<p>Lat.: (amtlich) vorgelegt.</p>
+</note>
+<note xml:id="gb56454_comment_com84700">
+<label xml:id="GB03_2_FB027_0_note_182_669_7" copyOf="#start_com_7198"><hi rendition="#normal">668,7</hi>ejusdem</label>
+<p>Lat.: desselben (Jahres).</p>
+</note>
+<note xml:id="gb56454_comment_com84701">
+<label xml:id="GB03_2_FB027_0_note_183_669_7" copyOf="#start_com_7199"><hi rendition="#normal">668,7</hi>eines Bruders Sohn</label>
+<p>Nicht ermittelt.</p>
+</note>
+<note xml:id="gb56454_comment_com84702">
+<label xml:id="GB03_2_FB027_0_note_184_669_9" copyOf="#start_com_7200"><hi rendition="#normal">668,9</hi>Kapitän</label>
+<p>Hauptmann; Rittmeister.</p>
+</note>
+<note xml:id="gb56454_comment_com84703">
+<label xml:id="GB03_2_FB027_0_note_185_669_10" copyOf="#start_com_7201"><hi rendition="#normal">668,10</hi>Vorsehung</label>
+<p>Kanzleisprachlich: Vorkehrung (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1297).</p>
+</note>
+<note xml:id="gb56454_comment_com84704">
+<label xml:id="GB03_2_FB027_0_note_186_669_10-11" copyOf="#start_com_7202"><hi rendition="#normal">668,10-11</hi>Geschwisterte</label>
+<p>Verschwisterte; Geschwister (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 5, 4008).</p>
+</note>
+<note xml:id="gb56454_comment_com84705">
+<label xml:id="GB03_2_FB027_0_note_187_669_11" copyOf="#start_com_7203"><hi rendition="#normal">668,11</hi>von Lampen</label>
+<p>Gemeint sind die Kinder von Friedrich Wilhelm von Thoß’ Schwester Johanna Rosina Eleonore von Lampen geb. von Thoß, die seit 1748 mit Karl Gottfried von Lampen, Leutnant der Schlossgarde in Köthen, später Schlosshauptmann, verheiratet war: Friedrich Victor Leberecht (in anhalt-köthischem Dienst), Eleonore Wilhelmine Sophie (Stiftsdame im adligen Fräuleinstift in Köthen) und Christiana Juliana Maria verh. Plessing.</p>
+</note>
+<note xml:id="gb56454_comment_com84706">
+<label xml:id="GB03_2_FB027_0_note_188_669_11" copyOf="#start_com_7204"><hi rendition="#normal">668,11</hi>succediren</label>
+<p>Lat. succedere: nachfolgen.</p>
+</note>
+<note xml:id="gb56454_comment_com84707">
+<label xml:id="GB03_2_FB027_0_note_189_669_15" copyOf="#start_com_7205"><hi rendition="#normal">668,15</hi>andern Sohn</label>
+<p>Nicht ermittelt.</p>
+</note>
+<note xml:id="gb56454_comment_com84708">
+<label xml:id="GB03_2_FB027_0_note_190_669_15-16" copyOf="#start_com_7206"><hi rendition="#normal">668,15-16</hi>Lacyschen Infanterie-Regiment</label>
+<p>Österreichisches Infanterieregiment des Grafen Franz Moritz von Lacy.</p>
+</note>
+<note xml:id="gb56454_comment_com84709">
+<label xml:id="GB03_2_FB027_0_note_191_669_16" copyOf="#start_com_7207"><hi rendition="#normal">668,16</hi>Effecten</label>
+<p>Nach franz. effets: Habseligkeiten, Sachen. – Laut Testament handelte es sich um „eine mit Silber beschlagene Flinten, ein paar Pistolen, einen Degen mit einem silbernen Gefeß, einen Stock mit einem silbernen Knopf, zwey Halsbindelschnallen von Silber, ein paar silberne Schuhschnallen, ein paar in Gold gefaßte Rubinsteinerne HemetKnöpf, und zwölf Hemeter“ (H: Veste Coburg, Kunstsammlungen A. IV, 708, (1), 18 b 1).</p>
+</note>
+<note xml:id="gb56454_comment_com84710">
+<label xml:id="GB03_2_FB027_0_note_192_669_17" copyOf="#start_com_7208"><hi rendition="#normal">668,17</hi>Zumahlen</label>
+<p>Kausale Konjunktion (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 32, 533 f.).</p>
+</note>
+<note xml:id="gb56454_comment_com84711">
+<label xml:id="GB03_2_FB027_0_note_193_669_18" copyOf="#start_com_7210"><hi rendition="#normal">668,18</hi>Legatis</label>
+<p>Dativ Plural von lat. legatum: Zuwendung aus einem Vermächtnis.</p>
+</note>
+<note xml:id="gb56454_comment_com84712">
+<label xml:id="GB03_2_FB027_0_note_194_669_19" copyOf="#start_com_7209"><hi rendition="#normal">668,19</hi>als</label>
+<p>Konjunktion zur bloßen Fortsetzung der Rede (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 230); im vorliegenden Fall mit Bezug auf ‚zumalen‘: ‚weil …, so‘.</p>
+</note>
+<note xml:id="gb56454_comment_com84713">
+<label xml:id="GB03_2_FB027_0_note_195_669_19" copyOf="#start_com_7211"><hi rendition="#normal">668,19</hi>erledigte</label>
+<p>‚Erledigt‘ hier im Sinn von ‚offen‘, ‚frei‘, ‚ohne Besitzer‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 1915 f.).</p>
+</note>
+<note xml:id="gb56454_comment_com84714">
+<label xml:id="GB03_2_FB027_0_note_196_669_19-20" copyOf="#start_com_7212"><hi rendition="#normal">668,19-20</hi>per patentes</label>
+<p>Lat. per litteras patentes: durch offene Briefe, Bekanntmachungen.</p>
+</note>
+<note xml:id="gb56454_comment_com84715">
+<label xml:id="GB03_2_FB027_0_note_197_670_21" copyOf="#start_com_7213"><hi rendition="#normal">669,21</hi>Legatariis</label>
+<p>Dativ Plural von lat. legatarius: Vermächtnisnehmer.</p>
+</note>
+<note xml:id="gb56454_comment_com84716">
+<label xml:id="GB03_2_FB027_0_note_198_670_25" copyOf="#start_com_7214"><hi rendition="#normal">669,25</hi>benennter</label>
+<p>Benannt; gemeint ist etwa: ‚welche als im Testament Genannte vorstellig werden‘. </p>
+</note>
+<note xml:id="gb56454_comment_com84717">
+<label xml:id="GB03_2_FB027_0_note_199_670_29" copyOf="#start_com_7215"><hi rendition="#normal">669,30</hi>L. S.</label>
+<p>Lat. locus sigilli: Ort des Siegels.</p>
+</note>
+<note xml:id="gb56454_comment_com84718">
+<label xml:id="GB03_2_FB027_0_note_200_670_29" copyOf="#start_com_7216"><hi rendition="#normal">669,30-31</hi>Ex Cæs. Reg. Cons. Trib. Statuum Ducatus Styriæ</label>
+<p>Lat.: Ehemaliger Kaiserlich-königlicher landständischer Consiliarius des Herzogtums Steiermark.</p>
+</note>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11918_comment_com4629">
+  <p>Einen Bezugsbrief gibt es nicht. – Der Antwortbrief ist nicht überliefert (vgl. die einleitende Erläuterung).</p>
+  <p rendition="#einrueck1">Joachim Christoph von Haffner (gest. 1795) war sachsen-weimarischer Rat und Reichshofagent am kaiserlichen Hof in Wien („welcher gewisse bestimmte Angelegenheiten seines Hofes, oder eines ansehnlichen Dicasterii besorget“ [<ref target="sndb:sigle#2753">Adelung</ref>, 2, 1235 f.]). Über seine Person ließ sich weiter nichts ermitteln. Sollte der vorliegende Brief an Haffner gerichtet sein, wäre er der einzige, den Goethe an diesen Adressaten geschrieben hat. Briefe Haffners an Goethe sind nicht bekannt. – Christian Bernhard von Isenflamm (gest. 1786) war sachsen-weimarischer Geheimer Legationsrat und seit 1770 Geschäftsträger, seit 1775 Resident (Interessenvertreter) des Herzogtums Sachsen-Weimar und Eisenach in Wien. Goethe lernte den Diplomaten im August 1782 kennen, als dieser sich zu einem Besuch in Weimar aufhielt (vgl. seinen Brief an Charlotte von Stein, 28. August–1. September 1782; <ref target="gb:dokument#13313">GB 5, Nr 229</ref>). Vom vorliegenden Brief abgesehen, gibt es drei überlieferte Briefe Goethes an diesen Adressaten aus den Jahren 1784/85 (vgl. <ref target="gb:dokument#10143">GB 5, Nr 633</ref>; <ref target="gb:dokument#3652">GB 6, Nr 134</ref>; <ref target="gb:dokument#11103">GB 6, Nr 173</ref>). Darin bittet Goethe um Opernpartituren für Weimar, um Informationen über das Musikleben in Wien, um Unterstützung für seinen Schützling Philipp Christoph Kayser und um die Zusendung von Mineralien. Briefe von Isenflamm an Goethe sind nicht überliefert.</p>
+  <p>Was Goethe veranlasste, den vorliegenden Brief zu schreiben, ist nur zu vermuten. Christiana Juliana Maria Plessing in Wernigerode, eines der drei in der Anzeige genannten Geschwister von Lampen, war die Mutter von Friedrich Victor Leberecht Plessing, der sich 1777 mit zwei nicht überlieferten Briefen an Goethe gewandt hatte, ohne darauf eine Antwort zu erhalten. Auf seiner Harzreise hatte Goethe den Theologiestudenten, dessen <quote type="G">finstere Laune</quote> (Campagne in Frankreich 1792; <ref target="sndb:sigle#1157">WA</ref> I 33, 218) einem Hang zur Melancholie entsprang, am 3. Dezember 1777 in seinem Elternhaus besucht, ohne seine Identität preiszugeben (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>), und hatte sich über sich selbst ausfragen lassen: <quote type="G">Dieser Mann, wie Sie mir ihn beschreiben, hätte mir doch antworten sollen; ich habe ihm einen ausführlichen herzlichen Brief geschickt, ihm meine Zustände, meine Leiden geschildert, ihn gebeten sich meiner anzunehmen, mir zu rathen, mir zu helfen, und nun sind schon Monate verstrichen, ich vernehme nichts von ihm; wenigstens hätte ich ein ablehnendes Wort auf ein so unbegränztes Vertrauen wohl verdient.</quote> (Ebd.; <ref target="sndb:sigle#1157">WA</ref> I 33, 221.) Am Morgen des 4. Dezember 1777 reiste Goethe ab, ohne <quote type="G">eine Einladung <gap quantity="3" reason="editorial"/> zu Tische im Namen der Seinigen</quote> (ebd.; <ref target="sndb:sigle#1157">WA</ref> I 33, 225) anzunehmen. Ob er also Plessings Mutter persönlich kennen gelernt hat, ist nicht sicher. Vermutlich aber war sie es, um derentwillen sich Goethe für die Geschwister von Lampen einsetzte. In der nicht überlieferten Antwort auf den vorliegenden Brief dürfte der Adressat geraten haben, sich an den steiermärkischen Beamten Anton von Catharin zu wenden. Am 18. April und am 30. Mai 1778 schrieb Goethe an ihn; beide Briefe sind nicht überliefert (vgl. <ref target="gb:dokument#52623">EB 206</ref> und <ref target="gb:dokument#52627">208</ref>). Die Daten gehen aus Catharins Antwortbriefen vom 23. April (H: Veste Coburg, Kunstsammlungen A. IV, 708, 18; vgl. <ref target="ra:dokument#92">RA 1, 70, Nr 84</ref>) und vom 1. Juni 1778 (H: ebd.; vgl. <ref target="ra:dokument#98">RA 1, 71, Nr 89</ref>) hervor. Mit dem ersten Brief erhielt Goethe auf seine Bitte eine Kopie des Testaments von Friedrich Wilhelm von Thoß, ferner die Mitteilung, dass der in münsterischen Diensten stehende Neffe vermutlich nicht mehr lebe und den Geschwistern von Lampen die Erbschaft in Höhe von etwas mehr als 1443 Gulden offenstehe. Als Mandatarius schlug Catharin den Grazer Advokaten Joseph Edlen von Griendl vor.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11918_comment_com15249">
+<label xml:id="GB03_2_BR334_0_note_001_198_8" copyOf="#start_com_3008"><hi rendition="#fett">198,8</hi>einige unbekannte Personen</label>
+<p>Gemeint sind die Geschwister von Lampen (vgl. die Erläuterungen zur <ref target="gb:note#gb11918_comment_com3671">Beilage</ref>). Hiernach scheint Goethe diese nicht persönlich gekannt zu haben.</p>
+
+</note>
+<note xml:id="gb11918_comment_com14128">
+<label xml:id="GB03_2_BR334_0_note_002_198_9" copyOf="#start_com_3009"><hi rendition="#fett">198,9</hi>beyliegender Zeitung</label>
+<p>Vgl. die <ref target="gb:note#gb11918_comment_com3671">Beilage</ref> zum vorliegenden Brief.</p>
+
+</note>
+<note xml:id="gb11918_comment_com15709">
+<label xml:id="GB03_2_BR334_0_note_003_198_10" copyOf="#start_com_3010"><hi rendition="#fett">198,10</hi>Freyherr <hi rendition="#hervor1">von Tost</hi></label>
+<p>Friedrich Wilhelm Freiherr von Thoß (vgl. die Erläuterungen zur <ref target="gb:note#gb11918_comment_com3671">Beilage</ref>).</p>
+
+</note>
+<note xml:id="gb11918_comment_com18074">
+<label xml:id="GB03_2_BR334_0_note_004_198_10-11" copyOf="#start_com_3011"><hi rendition="#fett">198,10-11</hi>einen seiner Verwandten Nahmens <hi rendition="#hervor1">Träger</hi></label>
+<p>Missverständnis: In der „Erlangischen Real-Zeitung“ heißt es, von Thoß habe „eines Bruders Sohn, seinen Erblaßers Namen Träger“, zum Erben eingesetzt (vgl. <ref target="gb:note#gb11918_comment_com3671">Beilage</ref>). Damit ist der Kapitän (Hauptmann) in münsterischen Diensten gemeint, über den nichts weiter ermittelt werden konnte.</p>
+
+</note>
+<note xml:id="gb11918_comment_com11795">
+<label xml:id="GB03_2_BR334_0_note_005_198_12-13" copyOf="#start_com_3012"><hi rendition="#fett">198,12-13</hi>haben sich an mich gewendet</label>
+<p>Auf welchem Wege dies geschah, ist nicht bekannt. Möglicherweise ging die Initiative von Christiana Juliana Maria Plessing geb. von Lampen aus (vgl. die einleitende <ref target="gb:note#gb11918_comment_com4629">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb11918_comment_com11796">
+<label xml:id="GB03_2_BR334_0_note_006_198_14" copyOf="#start_com_3013"><hi rendition="#fett">198,14</hi>wie hoch sie sich belaufe</label>
+<p>Vgl. die einleitende <ref target="gb:note#gb11918_comment_com4629">Erläuterung</ref>.</p>
+
+</note>
+<note xml:id="gb11918_comment_com14139">
+<label xml:id="GB03_2_BR334_0_note_007_198_15-16" copyOf="#start_com_3014"><hi rendition="#fett">198,15-16</hi>sichere Adresse in Gräz</label>
+<p>Vgl. die einleitende <ref target="gb:note#gb11918_comment_com4629">Erläuterung</ref>.</p>
+
+</note>
+<note xml:id="gb11918_comment_com15720">
+<label xml:id="GB03_2_BR334_0_note_008_198_18" copyOf="#start_com_3015"><hi rendition="#fett">198,18</hi>Wissenschaft</label>
+<p>Kenntnis (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1582).</p>
+
+</note>
+<note xml:id="gb11918_comment_com13730">
+<label xml:id="GB03_2_BR334_0_note_009_198_22" copyOf="#start_com_3016"><hi rendition="#fett">198,23</hi>Dr</label>
+<p>Diener.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

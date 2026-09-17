@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="900"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11393" n="GB 3, Nr. 90">
+  <teiHeader xml:id="gb11393_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>90.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 25. April 1776. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:54Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11393_tei.xml</idno>
+        <idno type="URI">gb11393</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR090_0</idno>
+        <idno type="KSW-ID">11393</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="57" to="57">57</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="220" to="221">220-221</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11393_header_hwit944" corresp="#gb11393_source_hwit944" sameAs="#gb11393_comment_hwit944" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 71</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11393,,944/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier schick ich Titelblat, Dedikation, Beschluss und Innhalt, und wünsche Glück</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11393_header_acc250" corresp="gb11393_comment_acc250">
+            <objectIdentifier>
+              <objectName>Manuskript zum 2. Band von Lavaters „Physiognomischen Fragmenten“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-04-25">25. April 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11393_source_hwit944" corresp="#gb11393_header_hwit944" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11393/13785"/>
+      <p>
+        <anchor xml:id="GB03_1_BR090_0_057_005"/>Hier schick ich <ref target="gb:note#GB03_2_BR090_0_note_001_57_5" xml:id="start_com_0875"/>Titelblat<ref xml:id="end_com_0875"/>,<ptr n="1" target="#a001_57.5"/>
+        <ref target="gb:note#GB03_2_BR090_0_note_002_57_5" xml:id="start_com_0876"/>Dedikation<ref xml:id="end_com_0876"/>, <ref target="gb:note#GB03_2_BR090_0_note_003_57_5" xml:id="start_com_0877"/>Beschluss<ref xml:id="end_com_0877"/> und <ref target="gb:note#GB03_2_BR090_0_note_004_57_5" xml:id="start_com_0878"/>Innhalt<ref xml:id="end_com_0878"/>, und 
+<anchor xml:id="GB03_1_BR090_0_057_006"/>wünsche Glück, zu dem nun auch vollendeten zweyten Theil. Viel 
+<anchor xml:id="GB03_1_BR090_0_057_007"/>Glück zur <ref target="gb:note#GB03_2_BR090_0_note_005_57_7" xml:id="start_com_0879"/>Reise<ref xml:id="end_com_0879"/>! – <ref target="gb:note#GB03_2_BR090_0_note_006_57_7" xml:id="start_com_0880"/>Sehen wir sie nicht vorher.<ref xml:id="end_com_0880"/>     W. d<g ref="#typoSuspension"/>. 25. Apr 76</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR090_0_057_008"/>
+        <signed rend="paraph" rendition="#einrueck24">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11393/13786" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11393_comment">
+<body>
+<div type="metadata" xml:id="gb11393_comment_com603">
+  <ab type="numberAddressee"><label>90.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 25. April 1776 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11393_comment_com2647">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 71. – 1 Bl. 18 × 11 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), &#x2153; S. beschr., egh., Tinte; Vs. oben links von fremder Hd, Bleistift: „14<hi rendition="#sup">a</hi>“.</p>
+  <p>E: <ref target="sndb:sigle#2879">Goethes Briefe an Leipziger Freunde</ref> (1849), 227, Nr 15.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 54, Nr 443.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11393_comment_com3606">
+  <p>Manuskript zum 2. Band von Lavaters „Physiognomischen Fragmenten“ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR090_0_note_001_57_5">57,5</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11393_comment_com4443">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 25. April 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 5r).</p>
+  <p rendition="#einrueck1">Der Brief bezieht sich wie <ref target="gb:dokument#11387">Nr 13</ref>, <ref target="gb:dokument#11390">21</ref> und <ref target="gb:dokument#11203">59</ref> auf den Druck des 2. Bandes von Lavaters „Physiognomischen Fragmenten“, der Anfang Januar 1776 begonnen hatte (weiter vgl. zu <ref target="gb:note#GB03_2_BR013_0_note_001_14_8">14,8</ref>). Mitte Mai erhielt Goethe ein Exemplar des fertigen Bandes (vgl. <ref target="gb:dokument#10773">Nr 105</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11393_comment_com10863">
+<label xml:id="GB03_2_BR090_0_note_001_57_5" copyOf="#start_com_0875"><hi rendition="#fett">57,5</hi>Titelblat</label>
+<p>Physiognomische Fragmente, zur Beförderung der Menschenkenntniß und Menschenliebe, von Johann Caspar Lavater. Zweyter Versuch. Leipzig und Winterthur 1776. Bey Weidmanns Erben und Reich, und Heinrich Steiner und Compagnie.</p>
+
+</note>
+<note xml:id="gb11393_comment_com15057">
+<label xml:id="GB03_2_BR090_0_note_002_57_5" copyOf="#start_com_0876"><hi rendition="#fett">57,5</hi>Dedikation</label>
+<p>Die Widmung „An Louisen Prinzessinn von Hessen-Darmstadt regierende Herzoginn von Weimar“ lautet:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56428_source" corresp="#gb56428_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB005_0_221_001"/>
+        <hi rendition="#hervor1">Vortreffliche Fürstinn,</hi>
+      </p>
+      <lb/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB005_0_221_002"/>Den zweyten Theil dieser, <ref target="gb:note#GB03_2_GB03_2_FB005_0_note_001_221_2" xml:id="start_com_7028"/>unter mancherley Drang<ref xml:id="end_com_7028"/> bearbeiteten Fragmente, lege 
+  <anchor xml:id="GB03_2_FB005_0_221_003"/>ich mit dem Wunsche und mit der beruhigenden Hoffnung Ew. Durchl. zu Fü<anchor xml:id="GB03_2_FB005_0_221_004"/>ßen: daß Sie Wahrheit, Nutzen und Vergnügen daraus schöpfen, Sich aufs neue 
+  <anchor xml:id="GB03_2_FB005_0_221_005"/>Ihrer <ref target="gb:note#GB03_2_GB03_2_FB005_0_note_002_221_5" xml:id="start_com_7029"/>Menschheit<ref xml:id="end_com_7029"/>, und des Vaters der Menschheit, und des <ref target="gb:note#GB03_2_GB03_2_FB005_0_note_003_221_5-6" xml:id="start_com_7030"/>Urbildes der Mensch<anchor xml:id="GB03_2_FB005_0_221_006"/>heit<ref xml:id="end_com_7030"/> freuen werden. –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB005_0_221_007"/>Mehr sag’ ich nicht, denn ich weis, daß Ihr Herz, zu der wahresten Empfin<anchor xml:id="GB03_2_FB005_0_221_008"/>dung rein gestimmt, das beste Gefühl schon entweiht achtet, wenn es in Worte 
+    <anchor xml:id="GB03_2_FB005_0_221_009"/>übergeht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB005_0_221_010"/>Zürich, den 24. Jänner 1776.</p>
+      <lb/>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB005_0_221_011"/>
+        <hi rendition="#hervor1">Johann Caspar Lavater,</hi>
+      </p>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_2_FB005_0_221_012"/>Pfarrer am Waisenhause.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56428_comment">
+<body>
+<div type="singleExplanations">
+<note xml:id="gb56428_comment_com84478">
+<label xml:id="GB03_2_GB03_2_FB005_0_note_001_221_2" copyOf="#start_com_7028"><hi rendition="#normal">221,2</hi>unter mancherley Drang</label>
+<p>Lavater hatte wiederholt seine Überlastung mit Arbeit beklagt (vgl. zu <ref target="gb:note#GB03_2_BR056_0_note_001_40_18">40,18</ref>). </p>
+</note>
+<note xml:id="gb56428_comment_com84479">
+<label xml:id="GB03_2_GB03_2_FB005_0_note_002_221_5" copyOf="#start_com_7029"><hi rendition="#normal">221,5</hi>Menschheit</label>
+<p>Im 18. Jahrhundert noch oft im Sinn von „menschliche Natur“ und „Menschlichkeit“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 180). </p>
+</note>
+<note xml:id="gb56428_comment_com84480">
+<label xml:id="GB03_2_GB03_2_FB005_0_note_003_221_5-6" copyOf="#start_com_7030"><hi rendition="#normal">221,5-6</hi>Urbildes der Menschheit</label>
+<p>Nach dem biblischen Bericht von der Erschaffung des Menschen schuf Gott den Menschen als sein Abbild (vgl. 1 Mose 1,26). Lavater glaubte, dass in jedem Individuum ein Kern des Göttlichen enthalten sei, so dass Menschenkenntnis zur Erkenntnis Gottes führen könne. Dies war das leitende Interesse, mit dem er seine Physiognomik betrieb (vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb11685_comment_com4378">GB 2 II, Nr 67</ref>).</p>
+</note>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb11393_comment_com84474">
+<label xml:id="GB03_2_BR090_0_note_003_57_5" copyOf="#start_com_0877"><hi rendition="#fett">57,5</hi>Beschluss</label>
+<p>Nach dem 36. und letzten Fragment „Religiöse, Schwärmer, Theosophen, Seher“ (S. 281–288) folgt als „Beschluß“ Lavaters Gedicht „Erreicht, erreicht also den zweyten Ruhpunkt! <gap quantity="3" reason="editorial"/>“ (S. 289–291) mit der Unterschrift „H. den 8. Febr. 1776.“</p>
+
+</note>
+<note xml:id="gb11393_comment_com84475">
+<label xml:id="GB03_2_BR090_0_note_004_57_5" copyOf="#start_com_0878"><hi rendition="#fett">57,5</hi>Innhalt</label>
+<p>Innhalt des zweyten Versuchs (4 nicht paginierte Seiten vor S. 1).</p>
+
+</note>
+<note xml:id="gb11393_comment_com84476">
+<label xml:id="GB03_2_BR090_0_note_005_57_7" copyOf="#start_com_0879"><hi rendition="#fett">57,7</hi>Reise</label>
+<p>Wohin Reich reiste, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11393_comment_com84477">
+<label xml:id="GB03_2_BR090_0_note_006_57_7" copyOf="#start_com_0880"><hi rendition="#fett">57,7</hi>Sehen wir sie nicht vorher.</label>
+<p>Von einem Besuch Reichs in Weimar im Frühjahr 1776 ist nichts bekannt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

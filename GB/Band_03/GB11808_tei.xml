@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3210"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11808" n="GB 3, Nr. 312">
+  <teiHeader xml:id="gb11808_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>312.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#78157" evidence="conjecture">Ilfeld</placeName>, 30. November</supplied>&#x2012;<placeName key="sndb:ort#77740">Eisenach</placeName>, 15. Dezember <supplied>1777. Sonntag&#x2012;Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:53Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11808_tei.xml</idno>
+        <idno type="URI">gb11808</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR312_0</idno>
+        <idno type="KSW-ID">11808</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="185" to="187">185-187</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="627" to="636">627-636</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11808_header_hwit1282" corresp="#gb11808_source_hwit1282" sameAs="#gb11808_comment_hwit1282" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 105</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11808,,1282/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>ganzen Tag in unendlich gleicher Reinheit + schöne Aussicht    die goldene Aue vom Kyffhäusser</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#78157">Ilfeld</placeName></supplied> und
+            <placeName key="sndb:ort#77740">Eisenach</placeName>
+            <date from="1777-11-30" to="1777-12-15"><supplied>30. November</supplied>-15. Dezember <supplied>1777</supplied></date>
+            <note>
+              <date type="WA" from="1777-12-01" to="1777-12-09">1.-9. Dezember <supplied>1777</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11808_source_hwit1282" corresp="#gb11808_header_hwit1282" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11808/22750"/>
+      <p>
+        <anchor xml:id="GB03_1_BR312_0_185_027"/><ref target="gb:note#GB03_2_BR312_0_note_001_185_27" xml:id="start_com_2799"/>ganzen Tag in unendlich gleicher Reinheit.<ref xml:id="end_com_2799"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_185_028"/><ref target="gb:note#GB03_2_BR312_0_note_002_185_28-29" xml:id="start_com_2800"/>+ Schöne Aussicht, die goldene Aue, vom<ptr n="1" target="#a001_185.28"/> Kyffhaüser bis Northausen<ref xml:id="end_com_2800"/>
+        <anchor xml:id="GB03_1_BR312_0_185_029"/>herauf.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_001"/><ref target="gb:note#GB03_2_BR312_0_note_003_186_1-3" xml:id="start_com_2801"/>d<g ref="#typoSuspension"/> 1 Dez. Mont. früh 7 <ref target="gb:note#GB03_2_BR312_0_note_004_186_1-2" xml:id="start_com_2802"/>von Ilefeldt ab mit einem Boten gegen Mittag 
+<anchor xml:id="GB03_1_BR312_0_186_002"/>in Elbingerode<ref xml:id="end_com_2802"/>. <ref target="gb:note#GB03_2_BR312_0_note_005_186_2" xml:id="start_com_2803"/>Felsen und Berg weeg.<ref xml:id="end_com_2803"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_006_186_2" xml:id="start_com_2804"/>Gelindes Wetter.<ref xml:id="end_com_2804"/> Leiser Regen</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_003"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_007_186_3" xml:id="start_com_2805"/>═ Dem Geyer gleich pp<ref xml:id="end_com_2805"/><ref xml:id="end_com_2801"/><ptr n="2" target="#a002_186.3"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_004"/>══</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_005"/><ref target="gb:note#GB03_2_BR312_0_note_008_186_5-6" xml:id="start_com_2806"/>1. Dez. früh nach Elbingerode.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_006"/>herrlicher Eintritt in Harz.<ref xml:id="end_com_2806"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_009_186_6" xml:id="start_com_2807"/>Nachmittag in die Baum. Höle.<ref xml:id="end_com_2807"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_007"/>2.) Den ganzen Tag in der Baumannshöle Abends nach <ref target="gb:note#GB03_2_BR312_0_note_010_186_7" xml:id="start_com_2808"/>Elb.<ref xml:id="end_com_2808"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_008"/>3.) auf <ref target="gb:note#GB03_2_BR312_0_note_011_186_8" xml:id="start_com_2809"/>Wernigerode<ref xml:id="end_com_2809"/>. Mit <ref target="gb:note#GB03_2_BR312_0_note_012_186_8" xml:id="start_com_2810"/>P.<ref xml:id="end_com_2810"/> spazieren auf die Berge pppp.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_009"/>4. Uber Ilsenburg, auf <ref target="gb:note#GB03_2_BR312_0_note_013_186_9" xml:id="start_com_2811"/>Goslar<ref xml:id="end_com_2811"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_014_186_9" xml:id="start_com_2812"/>bey Scheff<g ref="#typoSuspension"/>. eingekehrt<ref xml:id="end_com_2812"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_015_186_9-10" xml:id="start_com_2813"/>grimmig Wetter<ref xml:id="end_com_2813"/>.
+<anchor xml:id="GB03_1_BR312_0_186_010"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_011"/>5.) früh in <ref target="gb:note#GB03_2_BR312_0_note_016_186_11" xml:id="start_com_2814"/>Rammelsb.<ref xml:id="end_com_2814"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_017_186_11" xml:id="start_com_2815"/>bis auf den Sumpf<ref xml:id="end_com_2815"/>, durchaus. <pb n="2" facs="gb:digitalisate#11808/22751"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_012"/>d<g ref="#typoSuspension"/>. 6. Nach den <ref target="gb:note#GB03_2_BR312_0_note_018_186_12" xml:id="start_com_2816"/>Hütten an der Ocker<ref xml:id="end_com_2816"/>. Gesehn die <ref target="gb:note#GB03_2_BR312_0_note_019_186_12" xml:id="start_com_2817"/>Messing Arbeit<ref xml:id="end_com_2817"/>
+        <anchor xml:id="GB03_1_BR312_0_186_013"/>und das <ref target="gb:note#GB03_2_BR312_0_note_020_186_13" xml:id="start_com_2818"/>Hüttenw.<ref xml:id="end_com_2818"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_021_186_13" xml:id="start_com_2819"/>Zurück.<ref xml:id="end_com_2819"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_022_186_13" xml:id="start_com_2820"/>Gessen.<ref xml:id="end_com_2820"/> Spazier vergeb<g ref="#typoSuspension"/>. gezeichn. Zu <ref target="gb:note#GB03_2_BR312_0_note_023_186_13-14" xml:id="start_com_2821"/>Zeh. 
+<anchor xml:id="GB03_1_BR312_0_186_014"/>Geg Schreiber<ref xml:id="end_com_2821"/>, geschwäzt. Zurück.    d<g ref="#typoSuspension"/> 7. <ref target="gb:note#GB03_2_BR312_0_note_024_186_14" xml:id="start_com_2822"/>Heimweh.<ref xml:id="end_com_2822"/> nach <ref target="gb:note#GB03_2_BR312_0_note_025_186_14" xml:id="start_com_2823"/>Clausth.<ref xml:id="end_com_2823"/><ptr n="3" target="#a003_186.13"/>
+        <anchor xml:id="GB03_1_BR312_0_186_015"/>Seltsame Empfindung aus der <ref target="gb:note#GB03_2_BR312_0_note_026_186_15" xml:id="start_com_2824"/>Reichsstadt<ref xml:id="end_com_2824"/>, die, in und mit ihren Privilegien, 
+<anchor xml:id="GB03_1_BR312_0_186_016"/>vermodert, hierherauf zukommen <ref target="gb:note#GB03_2_BR312_0_note_027_186_16-17" xml:id="start_com_2825"/>wo vom unterirdischen Seegen 
+<anchor xml:id="GB03_1_BR312_0_186_017"/>die Bergstadte fröhlig nachwachsen<ref xml:id="end_com_2825"/>. <ref target="gb:note#GB03_2_BR312_0_note_028_186_17-18" xml:id="start_com_2826"/>Geburtstag meiner abgeschiednen 
+<anchor xml:id="GB03_1_BR312_0_186_018"/>Schwester.<ref xml:id="end_com_2826"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_186_019"/>d<g ref="#typoSuspension"/>. 8. früh <ref target="gb:note#GB03_2_BR312_0_note_029_186_19" xml:id="start_com_2827"/>eingefahren in der Carolin u Dorothee<ref xml:id="end_com_2827"/>. <ref target="gb:note#GB03_2_BR312_0_note_030_186_19-20" xml:id="start_com_2828"/>Schlug ein Stück 
+<anchor xml:id="GB03_1_BR312_0_186_020"/>Wacken vor mir den Geschwornen<ref xml:id="end_com_2828"/> nieder, ohne Schaden als die <ref target="gb:note#GB03_2_BR312_0_note_031_186_20-21" xml:id="start_com_2829"/>Streifrizze<ref xml:id="end_com_2829"/>. 
+<anchor xml:id="GB03_1_BR312_0_186_021"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_032_186_21" xml:id="start_com_2830"/>Nachmittag durchgelogen.<ref xml:id="end_com_2830"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_033_186_21-22" xml:id="start_com_2831"/>Spazieren und Spas mit den Fremden.<ref xml:id="end_com_2831"/>
+<anchor xml:id="GB03_1_BR312_0_186_022"/><ref target="gb:note#GB03_2_BR312_0_note_034_186_22" xml:id="start_com_2832"/>d<g ref="#typoSuspension"/> 9 früh auf die Hütten.<ref xml:id="end_com_2832"/> Nach Tische bey <ref target="gb:note#GB03_2_BR312_0_note_035_186_22" xml:id="start_com_2833"/>Ilseman<ref xml:id="end_com_2833"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_036_186_22" xml:id="start_com_2834"/>sein Kabinet<ref xml:id="end_com_2834"/>
+        <anchor xml:id="GB03_1_BR312_0_186_023"/>zu sehen. Abends nach <ref target="gb:note#GB03_2_BR312_0_note_037_186_23" xml:id="start_com_2835"/>Altenau<ref xml:id="end_com_2835"/>. unendlich geschlafen.<pb n="3" facs="gb:digitalisate#11808/22752"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR312_0_186_024"/>d<g ref="#typoSuspension"/>. 10 <ref target="gb:note#GB03_2_BR312_0_note_038_186_24" xml:id="start_com_2836"/>früh nach dem Torf hause<ref xml:id="end_com_2836"/>. <ref target="gb:note#GB03_2_BR312_0_note_039_186_24-25" xml:id="start_com_2837"/>1 viertel nach Zehn auf den Brocken. 
+<anchor xml:id="GB03_1_BR312_0_186_025"/>ein viertel nach eins droben<ref xml:id="end_com_2837"/>, heitrer herrlicher Tag, <ref target="gb:note#GB03_2_BR312_0_note_040_186_25-27" xml:id="start_com_2838"/>rings die ganze 
+<anchor xml:id="GB03_1_BR312_0_186_026"/>Welt in Wolcken und Nebel, oben alles heiter. <hi rendition="#hervor1">Was</hi> ist der Mensch 
+<anchor xml:id="GB03_1_BR312_0_186_027"/>dass du sein <hi rendition="#hervor1">gedenckest</hi>.<ref xml:id="end_com_2838"/> Um Vieren wieder zurück. bey dem <ref target="gb:note#GB03_2_BR312_0_note_041_186_27-28" xml:id="start_com_2839"/>Förster 
+<anchor xml:id="GB03_1_BR312_0_186_028"/>auf dem Torfhause<ref xml:id="end_com_2839"/> in Herberge. <ref target="gb:note#GB03_2_BR312_0_note_042_186_28-29" xml:id="start_com_2840"/>d<g ref="#typoSuspension"/>. 11. früh 7 vom Torfh. ab. über 
+<anchor xml:id="GB03_1_BR312_0_186_029"/>die Altenau. halb eilf wieder in Clausth.<ref xml:id="end_com_2840"/> Erhohlt, getruncken, gessen, 
+<anchor xml:id="GB03_1_BR312_0_186_030"/>die Zeit <ref target="gb:note#GB03_2_BR312_0_note_043_186_30" xml:id="start_com_2841"/>vergängelt<ref xml:id="end_com_2841"/> abends <ref target="gb:note#GB03_2_BR312_0_note_044_186_30" xml:id="start_com_2842"/>Briefe<ref xml:id="end_com_2842"/> und eingepackt. Vom Torfh. geht <ref target="gb:note#GB03_2_BR312_0_note_045_186_30-31" xml:id="start_com_2843"/>der 
+<anchor xml:id="GB03_1_BR312_0_186_031"/>Weeg zurück<ref xml:id="end_com_2843"/> die <ref target="gb:note#GB03_2_BR312_0_note_046_186_31" xml:id="start_com_2844"/>Lerchen köpfe<ref xml:id="end_com_2844"/> herunter, an der <ref target="gb:note#GB03_2_BR312_0_note_047_186_31" xml:id="start_com_2845"/>steilen Wand<ref xml:id="end_com_2845"/> her. 
+<anchor xml:id="GB03_1_BR312_0_186_032"/>Uber die <ref target="gb:note#GB03_2_BR312_0_note_048_186_32" xml:id="start_com_2846"/>Engels Krone<ref xml:id="end_com_2846"/>, <ref target="gb:note#GB03_2_BR312_0_note_049_186_32" xml:id="start_com_2847"/>Altenauer Glück<ref xml:id="end_com_2847"/>, <ref target="gb:note#GB03_2_BR312_0_note_050_186_32" xml:id="start_com_2848"/>Lilien Kuppe<ref xml:id="end_com_2848"/>. d<g ref="#typoSuspension"/>. 12 früh 
+<anchor xml:id="GB03_1_BR312_0_186_033"/>halb sieben im Nebel aufgebrochen. übers <ref target="gb:note#GB03_2_BR312_0_note_051_186_33" xml:id="start_com_2849"/>Damm haus<ref xml:id="end_com_2849"/>, den <ref target="gb:note#GB03_2_BR312_0_note_052_186_33-187_1" xml:id="start_com_2850"/>Bruchberg<ref xml:id="end_com_2850"/>, 
+<anchor xml:id="GB03_1_BR312_0_187_001"/>die <ref target="gb:note#GB03_2_BR312_0_note_053_187_1" xml:id="start_com_2851"/>Schlufft<ref xml:id="end_com_2851"/> auf <ref target="gb:note#GB03_2_BR312_0_note_054_187_1" xml:id="start_com_2852"/>Andreasberg<ref xml:id="end_com_2852"/> angekommen um 11 Uhr. <ref target="gb:note#GB03_2_BR312_0_note_055_187_1-2" xml:id="start_com_2853"/>meist zu 
+<anchor xml:id="GB03_1_BR312_0_187_002"/>Fus<ref xml:id="end_com_2853"/>. <pb n="4" facs="gb:digitalisate#11808/22753"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_187_003"/>starcker Dufft auf den Höhen und Flächen durchdringende Kälte. 
+<anchor xml:id="GB03_1_BR312_0_187_004"/><ref target="gb:note#GB03_2_BR312_0_note_056_187_4" xml:id="start_com_2854"/>Im Rathhaus<ref xml:id="end_com_2854"/> eingekehrt. Abends eingefahren <ref target="gb:note#GB03_2_BR312_0_note_057_187_4-5" xml:id="start_com_2855"/>in <hi rendition="#hervor1">Samson</hi> durch 
+<anchor xml:id="GB03_1_BR312_0_187_005"/>Neufang<ptr n="4" target="#a004_187.5"/> auf Gottesgnade<ref xml:id="end_com_2855"/> heraus. <ref target="gb:note#GB03_2_BR312_0_note_058_187_5" xml:id="start_com_2856"/>Ward mir sauer.<ref xml:id="end_com_2856"/> nachher<ptr n="5" target="#a005_187.5"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_059_187_5-6" xml:id="start_com_2857"/>geschrieben<ref xml:id="end_com_2857"/>. 
+<anchor xml:id="GB03_1_BR312_0_187_006"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_060_187_6" xml:id="start_com_2858"/>Kalte schale<ref xml:id="end_com_2858"/> gemacht. d<g ref="#typoSuspension"/>. 13 früh 6 in Nacht und glättendem 
+<anchor xml:id="GB03_1_BR312_0_187_007"/>Nebel herab <ref target="gb:note#GB03_2_BR312_0_note_061_187_7" xml:id="start_com_2859"/>durchs Thal<ref xml:id="end_com_2859"/> nach <ref target="gb:note#GB03_2_BR312_0_note_062_187_7" xml:id="start_com_2860"/>Lauterberg<ref xml:id="end_com_2860"/> war schon feuchter doch 
+<anchor xml:id="GB03_1_BR312_0_187_008"/>noch<ptr n="6" target="#a006_187.8"/> Schnee. Auf die <ref target="gb:note#GB03_2_BR312_0_note_063_187_8" xml:id="start_com_2861"/>Königshütte<ref xml:id="end_com_2861"/>, während fütterns mich umgesehn. 
+<anchor xml:id="GB03_1_BR312_0_187_009"/>Fuhr mir was ins lincke Aug. Uber <ref target="gb:note#GB03_2_BR312_0_note_064_187_9" xml:id="start_com_2862"/>Silckerode<ref xml:id="end_com_2862"/> nach <ref target="gb:note#GB03_2_BR312_0_note_065_187_9" xml:id="start_com_2863"/>Duderstadt<ref xml:id="end_com_2863"/>, Nebel, 
+<anchor xml:id="GB03_1_BR312_0_187_010"/><ref target="gb:note#GB03_2_BR312_0_note_066_187_10" xml:id="start_com_2864"/>Koth<ref xml:id="end_com_2864"/>, und <ref target="gb:note#GB03_2_BR312_0_note_067_187_10" xml:id="start_com_2865"/>unwissenden Boten. Abends 4 in Duderstadt<ref xml:id="end_com_2865"/> muste 
+<anchor xml:id="GB03_1_BR312_0_187_011"/>das Auge verbinden legte mich vor langerweile schlafen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR312_0_187_012"/>d<g ref="#typoSuspension"/> 14<ptr n="7" target="#a007_187.12"/> um 8 Uhr weg, in tiefem Nebel und Koth<ptr n="8" target="#a008_187.12"/> nach <ref target="gb:note#GB03_2_BR312_0_note_068_187_12" xml:id="start_com_2866"/>Mühlhausen<ref xml:id="end_com_2866"/>. 
+<anchor xml:id="GB03_1_BR312_0_187_013"/>angek. um 2. blieb da die Nacht. d<g ref="#typoSuspension"/>.<ptr n="9" target="#a009_187.13"/> 15 <ref target="gb:note#GB03_2_BR312_0_note_069_187_13-14" xml:id="start_com_2867"/>früh mit einem Postillon vor 
+<anchor xml:id="GB03_1_BR312_0_187_014"/>sechs weg. War wieder kälter in Eisenach gegen 11.<ref xml:id="end_com_2867"/>
+        <ref target="gb:note#GB03_2_BR312_0_note_070_187_14-15" xml:id="start_com_2868"/>Fand den Herzog 
+<anchor xml:id="GB03_1_BR312_0_187_015"/>da. Englischer Reuter<ref xml:id="end_com_2868"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11808_comment">
+<body>
+<div type="metadata" xml:id="gb11808_comment_com1096">
+  <ab type="numberAddressee"><label>312.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#78157">Ilfeld</placeName></supplied> und <placeName key="sndb:ort#77740">Eisenach</placeName>, <supplied>30. November</supplied>-15. Dezember <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11808_comment_com1887">
+  <p>Die beiden Blätter mit Tagebuchaufzeichnungen sind im Konvolut der Briefe an Charlotte von Stein (Bd I) in das Jahr 1778 eingeordnet. Die Tages-, Monats- und Ortsangaben (vgl. u. a. <ref target="gb:text#GB03_1_BR312_0_186_001">186,1</ref>; <ref target="gb:text#GB03_1_BR312_0_186_005 #GB03_1_BR312_0_186_006">186,5–6</ref>; <ref target="gb:text#GB03_1_BR312_0_186_023">186,23</ref>) sowie die Übereinstimmungen mit dem Tagebuch Goethes belegen, dass sie auf der am 29. November 1777 angetretenen Harzreise geschrieben wurden und ins Jahr 1777 gehören. Für den Beginn der Aufzeichnungen lässt sich nach dem Tagebuch der 30. November erschließen (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_001_185_27">185,27</ref>; zu <ref target="gb:note#GB03_2_BR312_0_note_002_185_28-29">185,28-29</ref>). So wurden sie seit dem Erstdruck auch eingeordnet, allerdings druckt Schöll den Text nicht im Zusammenhang, sondern fügt die einzelnen Einträge in chronologischer Anordnung zwischen die Briefe <ref target="gb:dokument#11798">Nr 309</ref>, <ref target="gb:dokument#11800">310</ref> und <ref target="gb:dokument#10661">311</ref> ein. Seit Fielitz wurden sie zwar zusammenhängend, doch unter zwei separaten Nummern mitgeteilt (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 99, Nr 195; 100, Nr 196; ebenso in der <ref target="sndb:sigle#1157">WA</ref>). Da anzunehmen ist, dass Goethe die Aufzeichnungen Charlotte von Stein insgesamt anstelle eines Briefes entweder am 15. Dezember von Eisenach aus schickte oder ihr erst nach seiner Rückkehr am 16. Dezember in Weimar zukommen ließ, werden sie hier unter einer Nummer im Zusammenhang wiedergegeben (ebenso bei <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 95 f., Nr 203 und <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 102–104, Nr 206; bei Fränkel durch Passagen aus Goethes Tagebuch vom 29. November bis 16. Dezember 1777 ergänzt; vgl. <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 95–97, Nr 206; <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 1, 96–98, Nr 206).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11808_comment_com3140">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 105. – 2 Bl. 9,8 × 16,5 cm, 4 S. beschr., egh., Tinte und Bleistift (+ <quote type="G">Schöne Aussicht <gap quantity="3" reason="editorial"/> gleich pp</quote> [<ref target="gb:text#GB03_1_BR312_0_185_028 #GB03_1_BR312_0_186_003">185,28–186,3</ref>]; <quote type="G">d<g ref="#typoSuspension"/> 9 früh auf die Hütten.</quote> [<ref target="gb:text#GB03_1_BR312_0_186_022">186,22</ref>]), flüchtig geschrieben; S. 2 oben rechts von fremder Hd, Tinte: „65“, rechts von fremder Hd, Bleistift: „Gehört ins Jahr 1777“; S. 3 oben rechts von fremder Hd, Tinte: „66.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 67 und 68), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 127 f., 129 f., 132, 134, 135, 136, 138, 140, 142.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 197 f., Nr 654; 202 f., Nr 656.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11808_comment_com4936">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p>Die Aufzeichnungen für Charlotte von Stein weichen nur geringfügig von Goethes Tagebucheinträgen vom 30. November bis 15. Dezember im vorgedruckten „Sachsen-Weimarischen Calender“ für das Jahr 1777 ab (vgl. GT I 1, 53 f.). Allerdings ist der Eintrag vom 30. November im Vergleich zum Tagebuch nur bruchstückhaft, wie überhaupt der Beginn der Reise ausgespart bleibt (vgl. zu <ref target="gb:note#GB03_2_BR308_0_note_005_178_7">178,7</ref>; zu <ref target="gb:note#GB03_2_BR312_0_note_009_186_6">186,6</ref>). Es ist daher anzunehmen, dass es sich bei den Aufzeichnungen um eine leicht veränderte Abschrift des Tagebuchs handelt, die Goethe für Charlotte von Stein angefertigt hat (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_008_186_5-6">186,5-6</ref>). Da die beiden Blätter unter den Briefen an die Weimarer Freundin überliefert sind, wahrscheinlich also die Funktion eines Briefes erfüllten, werden sie in der vorliegenden Ausgabe mitgeteilt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11808_comment_com18098">
+<label xml:id="GB03_2_BR312_0_note_001_185_27" copyOf="#start_com_2799"><hi rendition="#fett">185,27</hi>ganzen Tag in unendlich gleicher Reinheit.</label>
+<p>Fast gleichlautend endet der Tagebucheintrag vom 30. November 1777: <quote type="G">War den ganzen Tag in gleicher Reinheit.</quote> (<ref target="gt:dokument#484">GT I 1, 53</ref>.) – An diesem Tag hatte Goethe laut Tagebuch etwa 50 km zurückgelegt: Früh gegen sechs Uhr war er von Greußen aus in Begleitung eines einheimischen Führers aufgebrochen und am Abend in Ilfeld im Südharz angekommen, wo er Schwierigkeiten hatte, eine Unterkunft zu finden, und schließlich in einem <quote type="G">Kämmergen neben der Wirthsstube</quote> übernachten musste (ebd.). Sein Erlebnis im Ilfelder Gasthof verarbeitete Goethe literarisch mehr als vierzig Jahre später in der „Campagne in Frankreich 1792“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 33, 215 f.). Nach dieser Erzählung wurde Goethes Herberge in Ilfeld als der Stiftsgasthof, später das Gasthaus zur „Goldenen Krone“, identifiziert (vgl. <ref target="sndb:sigle#2800">Denecke</ref>, 32).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11381">
+<label xml:id="GB03_2_BR312_0_note_002_185_28-29" copyOf="#start_com_2800"><hi rendition="#fett">185,28-29</hi>+ Schöne Aussicht, die goldene Aue, vom Kyffhaüser bis Northausen</label>
+<p>Ebenso im Tagebuch vom 30. November 1777, wo Goethe zuvor u. a. erwähnt, den Inselsberg und sogar die <quote type="G">Spizze des Brockens</quote> gesehen zu haben  (<ref target="gt:dokument#484">GT I 1, 53</ref>). – Goldene Aue: Landschaft zwischen Kyffhäusergebirge und Harz.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15245">
+<label xml:id="GB03_2_BR312_0_note_003_186_1-3" copyOf="#start_com_2801"><hi rendition="#fett">186,1-3</hi>d<g ref="#typoSuspension"/> 1 Dez. <gap quantity="3" reason="editorial"/> Dem Geyer gleich pp</label>
+<p>Auch dieser Eintrag entspricht bis auf geringfügige orthographische Abweichungen dem Tagebucheintrag vom 1. Dezember 1777 (vgl. <ref target="gt:dokument#485">GT I 1, 53</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18728">
+<label xml:id="GB03_2_BR312_0_note_004_186_1-2" copyOf="#start_com_2802"><hi rendition="#fett">186,1-2</hi>von Ilefeldt ab mit einem Boten <gap quantity="3" reason="editorial"/> in Elbingerode</label>
+<p>Der Weg, den Goethe von Ilfeld nach dem nördlich je nach gewählter Strecke 35 bis 40 km entfernt liegenden Elbingerode einschlug, lässt sich aufgrund seiner Aufzeichnungen nicht bestimmen. Er könnte durch das Behre- und Brandesbachtal auf der vergleichsweise sicheren Poststraße und weiter über das Birkenmoor ans Ziel gelangt sein. Da Goethe in Begleitung eines ‚Boten‛, d. h. eines einheimischen Wegführers, war, ist nicht auszuschließen, dass er den vorwiegend von Bergleuten benutzten Weg über Sophienhof, Trautenstein und die Trogfurther Bode-Brücke wählte (vgl. <ref target="sndb:sigle#2800">Denecke</ref>, 32). – Ohne einen kundigen Wegführer war vor allem in Gebirgsgegenden die Gefahr groß, in unwegsames, unsicheres Gelände zu geraten und sich zu verirren. Daher nahm Goethe laut Tagebuch fast auf der gesamten Harzreise die Dienste eines ‚Boten‛ in Anspruch.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11393">
+<label xml:id="GB03_2_BR312_0_note_005_186_2" copyOf="#start_com_2803"><hi rendition="#fett">186,2</hi>Felsen und Berg weeg.</label>
+<p>Der Weg von Elbingerode nach Rübeland durch das Mühlental.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11394">
+<label xml:id="GB03_2_BR312_0_note_006_186_2" copyOf="#start_com_2804"><hi rendition="#fett">186,2</hi>Gelindes Wetter.</label>
+<p>‚Gelinde‛ eigentlich: „Sanft, glatt, dem Gefühle nach, im Gegensatze dessen, was rauh ist“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 536); hier: mild, lau.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15499">
+<label xml:id="GB03_2_BR312_0_note_007_186_3" copyOf="#start_com_2805"><hi rendition="#fett">186,3</hi>= Dem Geyer gleich pp</label>
+<p>Ebenso im Tagebuch (vgl. <ref target="gt:dokument#485">GT I 1, 53</ref>). – Die waagerechten Doppelstriche möglicherweise als zeitgenössische Entsprechung für Anführungszeichen gesetzt, die das Folgende als Zitat des ersten Verses von „Auf dem Harz im Dezember. 1778 <supplied>recte 1777</supplied>“ (später „Harzreise im Winter“) kenntlich machen. Die Abkürzung ‚pp‛ verweist darauf, dass am 1. Dezember bereits mehr als der erste Vers der Hymne vorlag (vgl. <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 32). Noch in der „Campagne in Frankreich 1792“ erinnert sich Goethe an die Entstehung der ersten Verse im Zusammenhang mit der Beschreibung seines Aufbruchs in den Harz, als im <quote type="G">düstern und von Norden her sich heranwälzenden Schneegewölk</quote> hoch über ihm <quote type="G">ein Geier</quote> schwebte (<ref target="sndb:sigle#1157">WA</ref> I 33, 215). –  ‚Geier‛ war im 18. Jahrhundert „im gemeinen Leben <supplied>eine</supplied> übliche Benennung verschiedener großer Raubvögel“, so wurden u. a. „der Mäusefalk, der Wannenweher, der Taubenfalk, der Baumfalk <gap quantity="3" reason="editorial"/> selbst bey den Jägern und Vogelstellern sehr häufig mit dem Nahmen der <hi rendition="#hervor1">Geyer</hi> belegt.“ (<ref target="sndb:sigle#2965">Krünitz</ref> 18, 371.) In Zückerts „Naturgeschichte und Bergwercksverfassung des Ober-Hartzes“ (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_031_183_22">183,22</ref>) wird unter „denen Thieren auf dem Ober-Hartz“ (S. 267) nach einer Reihe von Raubvögeln am Schluss des Kapitels auch „Vultur, der Geyer“ genannt (ebd., S. 278).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18110">
+<label xml:id="GB03_2_BR312_0_note_008_186_5-6" copyOf="#start_com_2806"><hi rendition="#fett">186,5-6</hi>1. Dez. <gap quantity="3" reason="editorial"/> Eintritt in Harz.</label>
+<p>Hierzu findet sich keine Entsprechung im Tagebuch. Der Handschriftenbefund lässt vermuten, dass Goethe nach dem Eingangssatz vom 30. November (<ref target="gb:text#GB03_1_BR312_0_185_027">185,27</ref>) einen Teil des Blattes (etwa 7 cm) für detailliertere Eintragungen frei ließ, die er dann – wahrscheinlich nach dem Text des Tagebuchs – mit Bleistift ergänzt hat (vgl. <ref target="gb:note#gb11808_comment_com3140">Überlieferung</ref>). Der vorliegende Eintrag wäre demnach vor der Bleistiftpassage geschrieben worden.</p>
+
+</note>
+<note xml:id="gb11808_comment_com13707">
+<label xml:id="GB03_2_BR312_0_note_009_186_6" copyOf="#start_com_2807"><hi rendition="#fett">186,6</hi>Nachmittag in die Baum. Höle.</label>
+<p>Dies und das Folgende bis zum Ende der Aufzeichnungen für Charlotte von Stein entspricht bis auf wenige Abweichungen dem Tagebuchtext vom 1. bis 15. Dezember (vgl. GT I 1, 53 f.). – Die Baumannshöhle in Rübeland war zu Fuß von Elbingerode aus in weniger als einer Stunde zu erreichen. Die Tropfsteinhöhle ist benannt nach dem Bergmann Friedrich Baumann, der sie auf der Suche nach Eisenerz um 1670 entdeckt haben soll. Der Sage nach verirrte sich der Bergmann im Labyrinth der Höhle; er brauchte mehrere Tage, um wieder ans Tageslicht zu finden, und konnte nur noch von seiner Entdeckung berichten, bevor er an Erschöpfung starb. Die Baumannshöhle war auch im 18. Jahrhundert neben dem Brocken „fast regelmäßg das gemeinsame Ziel der Harzreisenden“ (<ref target="sndb:sigle#4237/1186">Bürger</ref>, 46). Zeitgenössischen Reiseführern zufolge durfte die Höhle nur in Begleitung eines Führers besichtigt werden. Zur „vollkommenen Besichtigung“ sei „eine Stunde hinreichend“ gewesen. „Gefahr ist nicht damit verknüpft, wenn man sich nicht zu weit vom Führer entfernt, seinen Vorschriften überall folgt, und wenn nicht mehr als sechs Personen zugleich einfahren.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 108.) Feste Öffnungszeiten gab es nicht, entweder meldete man sich beim Höhlenführer selbst oder bei dem Gastwirt in Rübeland. Goethe hat bei seinem ersten Besuch also wahrscheinlich die übliche einstündige Besichtigung absolviert. Am 2. Dezember muss er den Führer für den ganzen Tag bezahlt haben, was leicht möglich und gewiss nicht kostspielig war, wird er zu dieser winterlichen Jahreszeit doch vermutlich der einzige Besucher gewesen sein. Das nach einer herzoglichen Verordnung angelegte Fremdenbuch, in das sich Goethe wie alle Besucher eingetragen haben wird, ist nicht überliefert (vgl. <ref target="sndb:sigle#4237/1186">Bürger</ref>, 48, Anm. 6). – Zu Goethes Eindrücken von der Baumannshöhle vgl. weiter zu <ref target="gb:note#GB03_2_BR309_0_note_002_178_10-12">178,10-12</ref>. – Auch wenn Goethe dies nicht wie am folgenden Tag ausdrücklich vermerkt, wird er die Nacht vom 1. zum 2. Dezember in der Stadt Elbingerode verbracht haben, die „‚für Reisende ganz gut eingerichtet und mit mehreren Bequemlichkeiten versehene Wirtshäuser‛ bot“ (<ref target="sndb:sigle#4237/1186">Bürger</ref>, 47). Rübeland dagegen war im ausgehenden 18. Jahrhundert ein Dorf von etwa 270 Einwohnern, wo es lediglich eine so genannte Schenke, aber keine Gasthäuser gab (vgl. ebd.). In Elbingerode soll Goethe im Gasthof „Der blaue Engel“ übernachtet haben (vgl. <ref target="sndb:sigle#2800">Denecke</ref>, 33).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11409">
+<label xml:id="GB03_2_BR312_0_note_010_186_7" copyOf="#start_com_2808"><hi rendition="#fett">186,7</hi>Elb.</label>
+<p>Elbingerode.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11410">
+<label xml:id="GB03_2_BR312_0_note_011_186_8" copyOf="#start_com_2809"><hi rendition="#fett">186,8</hi>Wernigerode</label>
+<p>Hier soll Goethe im Gasthof „Zur Goldenen Forelle“ auf dem Markt gewohnt haben (vgl. <ref target="sndb:sigle#2803">Dennert</ref>, 13, Anm. 1; <ref target="sndb:sigle#2800">Denecke</ref>, 36).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11411">
+<label xml:id="GB03_2_BR312_0_note_012_186_8" copyOf="#start_com_2810"><hi rendition="#fett">186,8</hi>P.</label>
+<p>Friedrich Victor Leberecht Plessing, den Goethe in Wernigerode besuchte (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com15655">
+<label xml:id="GB03_2_BR312_0_note_013_186_9" copyOf="#start_com_2811"><hi rendition="#fett">186,9</hi>Goslar</label>
+<p>Zu Goethes Eindrücken von der Stadt vgl. <ref target="gb:text#GB03_1_BR312_0_186_015 #GB03_1_BR312_0_186_016">186,15–16</ref>.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11412">
+<label xml:id="GB03_2_BR312_0_note_014_186_9" copyOf="#start_com_2812"><hi rendition="#fett">186,9</hi>bey Scheff<g ref="#typoSuspension"/>. eingekehrt</label>
+<p>Johann Nicolaus Scheffler (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_027_179_22">179,22</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11413">
+<label xml:id="GB03_2_BR312_0_note_015_186_9-10" copyOf="#start_com_2813"><hi rendition="#fett">186,9-10</hi>grimmig Wetter</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR309_0_179_010 #GB03_1_BR309_0_179_011">179,10–11</ref>. – In leichter Abwandlung hierzu heißt es im Tagebuch: <quote type="G">ingrimmig Wetter</quote> (<ref target="gt:dokument#488">GT I 1, 53</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18116">
+<label xml:id="GB03_2_BR312_0_note_016_186_11" copyOf="#start_com_2814"><hi rendition="#fett">186,11</hi>Rammelsb.</label>
+<p>Rammelsberg, südlich von Goslar in einer Höhe von 635 m am Nordrand des Harzes gelegen, das älteste Bergbaugebiet des Harzes, etwa eine Viertelstunde von Goslar entfernt. Das Rammelsberger Revier, wo schon seit dem Mittelalter Erz abgebaut wurde, war wegen seiner Ergiebigkeit und Vielfalt berühmt: „Gold, Silber, Kupfer, Bley, Schwefel, O<supplied>c</supplied>ker, grünen und weißen Vitriol, Arsenik, alles das liefert der Rammelsberg.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 196 f.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com18123">
+<label xml:id="GB03_2_BR312_0_note_017_186_11" copyOf="#start_com_2815"><hi rendition="#fett">186,11</hi>bis auf den Sumpf</label>
+<p>Im Tagebuch vom 5. Dezember trägt Goethe ein: <quote type="G">früh in Rammelsberg den ganzen Berg bis ins tiefste befahren</quote> (<ref target="gt:dokument#489">GT I 1, 53</ref>). – ‚Sumpf‘: „Eine Sammlung Wassers. So wird im Bergbaue das Wasser, welches sich in der Grube sammelt, wenn es nicht abgeführet werden kann, ein Sumpf genannt.“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 501.) – Die Bergwerke des Rammelsberger Reviers waren nach zeitgenössischen Berichten „sehr bequem zu befahren, und selbst Frauenzimmer können beträchtliche Theile davon besuchen, ohne eine Fahrt oder Leiter steigen zu müssen.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 196.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com11423">
+<label xml:id="GB03_2_BR312_0_note_018_186_12" copyOf="#start_com_2816"><hi rendition="#fett">186,12</hi>Hütten an der Ocker</label>
+<p>Oker: Fluss und Marktflecken etwa 6 km östlich von Goslar (heute Stadtteil); im 18. Jahrhundert ein weitläufiger Hüttenort, der, getrennt durch die Oker, teils zum ‚Communion-Harz‛, teils zum ‚Einseitigen Harz‛ gehörte (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15">181,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11424">
+<label xml:id="GB03_2_BR312_0_note_019_186_12" copyOf="#start_com_2817"><hi rendition="#fett">186,12</hi>Messing Arbeit</label>
+<p>Wahrscheinlich mit Bezug auf das 1576 gegründete Messingwerk mit den Drahthütten sowie dem Hammer- und Walzwerk.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11425">
+<label xml:id="GB03_2_BR312_0_note_020_186_13" copyOf="#start_com_2818"><hi rendition="#fett">186,13</hi>Hüttenw.</label>
+<p>Hüttenwerk: die „Frau Marien Seigerhütte“, auch Okerhütte, das größte Silberhüttenwerk im Harz.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11426">
+<label xml:id="GB03_2_BR312_0_note_021_186_13" copyOf="#start_com_2819"><hi rendition="#fett">186,13</hi>Zurück.</label>
+<p>Nach Goslar.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11427">
+<label xml:id="GB03_2_BR312_0_note_022_186_13" copyOf="#start_com_2820"><hi rendition="#fett">186,13</hi>Gessen.</label>
+<p>Oberdt. Form des Partizips Perfekt (vgl. zu <ref target="gb:note#GB03_2_BR023_0_note_004_21_12">21,12</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18029">
+<label xml:id="GB03_2_BR312_0_note_023_186_13-14" copyOf="#start_com_2821"><hi rendition="#fett">186,13-14</hi>Zeh. Geg Schreiber</label>
+<p>Zehntgegenschreiber: höherer Verwaltungsbeamter im Bergwesen, verantwortlich für das ‚Zehntgegenbuch‛ zur Kontrolle der Abrechnung des Bergzehnts, des an den oder die Landesherren zu entrichtenden Förderzinses. – Bis zum Januar 1779 versah Philipp Christoph Volkmar im „Unterharzischen Communion-Bergamt“ in Goslar dieses Amt (nach Auskunft des Niedersächsischen Landesarchivs/Staatsarchiv Wolfenbüttel).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11437">
+<label xml:id="GB03_2_BR312_0_note_024_186_14" copyOf="#start_com_2822"><hi rendition="#fett">186,14</hi>Heimweh.</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR310_0_note_011_181_5">181,5</ref>.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11438">
+<label xml:id="GB03_2_BR312_0_note_025_186_14" copyOf="#start_com_2823"><hi rendition="#fett">186,14</hi>Clausth.</label>
+<p>Clausthal (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15">181,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11439">
+<label xml:id="GB03_2_BR312_0_note_026_186_15" copyOf="#start_com_2824"><hi rendition="#fett">186,15</hi>Reichsstadt</label>
+<p>Goslar, wo Goethe sich vom 4. bis 7. Dezember aufgehalten hatte, um von dort aus die Bergwerke des Rammelsberger Reviers und die Hütten an der Oker zu besichtigen (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_026_179_21">179,21</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18036">
+<label xml:id="GB03_2_BR312_0_note_027_186_16-17" copyOf="#start_com_2825"><hi rendition="#fett">186,16-17</hi>wo vom unterirdischen Seegen <gap quantity="3" reason="editorial"/> nachwachsen</label>
+<p>Zu den Clausthaler Revieren gehörten „die wichtigsten und an Reichthum unerschöpflichen Gruben“ des Harzes (<ref target="sndb:sigle#2887">Gottschalck</ref>, 150). „Nach einer Angabe des Jahres 1776 wurden damals jährlich aus den Clausthaler Gruben 8 bis 900000 Centner Erz gefördert, welche sich durch das Scheiden, Pochen und Waschen bis auf 124000 Centner Schlich verminderten. <gap quantity="3" reason="editorial"/> Sie lieferten 120 Centner Silber, 80 Centner Kupfer 48000 Centner Bley und Glätte <gap quantity="3" reason="editorial"/>.“ (Ebd., 154 f.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com11440">
+<label xml:id="GB03_2_BR312_0_note_028_186_17-18" copyOf="#start_com_2826"><hi rendition="#fett">186,17-18</hi>Geburtstag meiner abgeschiednen Schwester.</label>
+<p>Am 7. Dezember 1777 wäre Cornelia Goethe, seit November 1773 verheiratete Schlosser, 27 Jahre alt geworden. Am 16. Juni hatte Goethe die Nachricht von ihrem Tod am 8. Juni 1777 erhalten (vgl. zu <ref target="gb:note#GB03_2_BR274_0_note_002_151_3">151,3</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18167">
+<label xml:id="GB03_2_BR312_0_note_029_186_19" copyOf="#start_com_2827"><hi rendition="#fett">186,19</hi>eingefahren in der Carolin u Dorothee</label>
+<p>Wie aus dem Tagebucheintrag vom 8. Dezember hervorgeht, besichtigte Goethe neben der „Caroline“ und „Dorothee“ auch die „Benedikte“ (vgl. <ref target="gt:dokument#492">GT I 1, 53</ref>). Alle drei gehörten zum Burgstädter Zug (Revier), auf dem die wichtigsten und reichsten Gruben lagen. Aus diesem Grund und weil sie „bequem zu befahren“ waren, wurden sie den Reisenden zur Besichtigung empfohlen: „In der Caroline ist für den Mineralogen das darin zu findende sogenannte Zundererz, blätteriges Silbererz, merkwürdig. Die Gestänge ihrer Wasserkunst sind 169 &#x215B; Lachter <supplied>etwa 325 m</supplied> im Felde und 191 Lachter <supplied>etwa 367 m</supplied> im Schachte lang. Die Dorothee hat wegen ihrer reichlichen Ausbeute ihres gleichen nicht auf dem Harze. Bey ihr ist der Mechanismus bemerkenswerth, durch welche jede Tonne mit Erz, die aus der Grube heraus kommt, von einem Stifte selbst angeschrieben wird, um Betrug zu vermeiden und die Arbeiter dadurch zu kontrolliren, welche Maschine der stumme Nachzähler heißt. Die Wasserkunst dieser Grube schiebt 295 Lachter <supplied>etwa 567,5 m</supplied> im Felde und 186 <supplied>etwa 358 m</supplied> im Schachte, und hebt die Grundwasser 76 Lachter <supplied>etwa 146 m</supplied> hoch aus derselben.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 151.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com16010">
+<label xml:id="GB03_2_BR312_0_note_030_186_19-20" copyOf="#start_com_2828"><hi rendition="#fett">186,19-20</hi>Schlug ein Stück Wacken <gap quantity="3" reason="editorial"/> den Geschwornen</label>
+<p>Zur Sache vgl. <ref target="gb:text#GB03_1_BR311_0_183_024 #GB03_1_BR311_0_183_033">183,24–33</ref> und GT I 1, 53 f. – Geschworener: Zechenaufseher. – Waken: Bezeichnung für verschiedene Arten von Felsgestein, das „gemeiniglich aus Quarz, Sand und Glimmer bestehet, und so wohl ganze Ganggebirge ausmacht“; hier wahrscheinlich im engeren Sinne: „eine Art kalkartiger Steine, welche bey dem Eisenschmelzen als Zuschlag gebraucht wird <gap quantity="3" reason="editorial"/>. Die Schreibart Wacke, welche bey vielen angetroffen wird, ist wider die gewöhnlichste Aussprache, indem das a gedehnt ist.“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1352.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com11454">
+<label xml:id="GB03_2_BR312_0_note_031_186_20-21" copyOf="#start_com_2829"><hi rendition="#fett">186,20-21</hi>Streifrizze</label>
+<p>Streifritze, auch Streifrinne, Streif: hier aus der Bergmannssprache „bezeichnung von teilen des gesteins, die der festigkeit <gap quantity="3" reason="editorial"/> des grubenbaues wegen in ihrem natürlichen verband belassen wurden <gap quantity="3" reason="editorial"/>, die zugleich aber auch als barriere gegen grubenwasser dienen können“ (<ref target="sndb:sigle#2890">Grimm</ref> 10 III, 1247).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11455">
+<label xml:id="GB03_2_BR312_0_note_032_186_21" copyOf="#start_com_2830"><hi rendition="#fett">186,21</hi>Nachmittag durchgelogen.</label>
+<p>In das Gästebuch der Grube „Dorothee“ trug sich Goethe unter falschem Namen ein: <quote type="G">Johann Wilhelm Weber aus Darmstadt / d<g ref="#typoSuspension"/>. 8 Dez 1777</quote> (H: Oberbergamt Clausthal-Zellerfeld: IV B 1b 25; vgl. zu <ref target="gb:note#GB03_2_BR310_0_note_004_180_21">180,21</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11467">
+<label xml:id="GB03_2_BR312_0_note_033_186_21-22" copyOf="#start_com_2831"><hi rendition="#fett">186,21-22</hi>Spazieren und Spas mit den Fremden.</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR311_0_182_001 #GB03_1_BR311_0_182_004">182,1–4</ref>.</p>
+
+</note>
+<note xml:id="gb11808_comment_com18049">
+<label xml:id="GB03_2_BR312_0_note_034_186_22" copyOf="#start_com_2832"><hi rendition="#fett">186,22</hi>d<g ref="#typoSuspension"/> 9 früh auf die Hütten.</label>
+<p>Bleistifteintrag wahrscheinlich später nach dem Tagebuch ergänzt (vgl. <ref target="gt:dokument#493">GT I 1, 54</ref>). – Die Frankenscharner Silberhütte („Hütte zu den Frankenscharren“) im Pochtale in der Nähe von Clausthal: „Diese, vortrefflich eingerichtete, 1554 erbaute, große Silberhütte an dem Pochthals-Wasser und der Innerste, welche, wie alle übrige Hütten, der Herrschaft gehört, und gegen 200 Menschen ernährt, besteht aus 14 Gebäuden, und gleicht daher einem Dorfe. Rings um sie her ist von den Bley- und Arsenikal-Dämpfen alle Vegetation zerstört worden.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 152 f.) – Bei Goethes Besuch könnten noch um die 15 Hochöfen im Betrieb gewesen sein, die sich je nach dem angewandten Verfahren in Brenn-, Schmelz- oder Treibhütten befanden.</p>
+
+</note>
+<note xml:id="gb11808_comment_com16049">
+<label xml:id="GB03_2_BR312_0_note_035_186_22" copyOf="#start_com_2833"><hi rendition="#fett">186,22</hi>Ilseman</label>
+<p>Johann Christoph Ilsemann, Ratsapotheker in Clausthal (mit dem Titel eines Bergkommissars). – Seit dem frühen 18. Jahrhundert versorgten Bergapotheken die Bergleute unentgeltlich mit Arzneimitteln (vgl. Wilfried Liessmann: Historischer Bergbau im Harz. Berlin, Heidelberg 2010, S. 37).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11468">
+<label xml:id="GB03_2_BR312_0_note_036_186_22" copyOf="#start_com_2834"><hi rendition="#fett">186,22</hi>sein Kabinet</label>
+<p>Die umfangreiche Mineraliensammlung galt als eine der Sehenswürdigkeiten Clausthals, deren Besichtigung in zeitgenössischen Reiseführern empfohlen wurde: „Die Mineraliensammlung des als Chemiker verdienten Herrn Bergkommissärs Ilsemann, welche sehr zahlreich und belehrend ist. Unter andern sehenswerthen und seltenen Stücken enthält sie eine überaus schöne und große Sammlung von weißen krystallisirten Bleyerzen, aus der verlassenen Zellerfelder Grube Glücksrad; so wie auch eine sehr reichhaltige Sammlung beynahe aller Fossilien, die auf dem Harze gebrochen haben.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 148.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com11469">
+<label xml:id="GB03_2_BR312_0_note_037_186_23" copyOf="#start_com_2835"><hi rendition="#fett">186,23</hi>Altenau</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR311_0_note_015_182_19">182,19</ref>.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11470">
+<label xml:id="GB03_2_BR312_0_note_038_186_24" copyOf="#start_com_2836"><hi rendition="#fett">186,24</hi>früh nach dem Torf hause</label>
+<p>Torfhaus, etwa 8 km östlich von Altenau gelegen; im dortigen Forsthaus „Borkenkrug“ wohnte Johann Christoph Degen, der Goethe auf den Brocken begleitete (vgl. die Erläuterungen zu <ref target="gb:note#GB03_2_BR311_0_note_052_184_28">184,28</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18064">
+<label xml:id="GB03_2_BR312_0_note_039_186_24-25" copyOf="#start_com_2837"><hi rendition="#fett">186,24-25</hi>1 viertel nach Zehn <gap quantity="3" reason="editorial"/> nach eins droben</label>
+<p>Demnach haben Goethe und sein Begleiter für den etwa 6 km langen Aufstieg zum Brockengipfel, auf dem etwa 340 m Höhenunterschied zu überwinden waren, drei Stunden gebraucht. Dies erklärt sich einmal durch die winterliche Witterung. Zudem gab es damals noch keine feste Wanderstrecke wie zu Beginn des 19. Jahrhunderts, als ein „mühsamer, 2 St. langer, Fußsteig <gap quantity="3" reason="editorial"/> von hier <supplied>Torfhaus</supplied> den Brocken hinan“ existierte (<ref target="sndb:sigle#2887">Gottschalck</ref>, 140). – Der heute nach dem Dichter benannte Weg südlich des Torfhausmoores und Quitschenberges gilt als die wahrscheinlichste Route, die Goethe 1777 genommen hat.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11483">
+<label xml:id="GB03_2_BR312_0_note_040_186_25-27" copyOf="#start_com_2838"><hi rendition="#fett">186,25-27</hi>rings die ganze Welt <gap quantity="3" reason="editorial"/> dass du sein <hi rendition="#hervor1">gedenckest</hi></label>
+<p>Während Goethe im Tagebuch vom 7. November 1776 (vgl. <ref target="gt:dokument#198">GT I 1, 29</ref>) und im Brief an Charlotte von Stein vom 8. November 1777 jeweils nur Psalm 8,5 zitiert (vgl. zu <ref target="gb:note#GB03_2_BR300_0_note_007_174_19-20">174,19-20</ref>), paraphrasiert er in der vorliegenden Erwähnung auch den vorangehenden Vers: „Denn ich werde sehen die himmel, deiner finger werck, den mond und die sterne, die du bereitest. / Was ist der mensch, daß du sein gedenckest, und des menschen kind, daß du dich sein annimmest?“ (Luther-Bibel 1772 AT, 467.) – Den Abstieg vom Brocken beschrieb Goethe in der 1805/06 entstandenen ersten Abteilung der „Farbenlehre“, beim Phänomen der „Farbigen Schatten“: <quote type="G">Auf einer Harzreise im Winter stieg ich gegen Abend vom Brocken herunter, die weiten Flächen auf- und abwärts waren beschneit, die Heide von Schnee bedeckt, alle zerstreut stehenden Bäume und vorragenden Klippen, auch alle Baum- und Felsenmassen völlig bereift, die Sonne senkte sich eben gegen die Oderteiche hinunter. / Waren den Tag über, bei dem gelblichen Ton des Schnees, schon leise violette Schatten bemerklich gewesen, so mußte man sie nun für hochblau ansprechen, als ein gesteigertes Gelb von den beleuchteten Teilen widerschien. / Als aber die Sonne sich endlich ihrem Niedergang näherte, und ihr durch die stärkeren Dünste höchst gemäßigter Strahl die ganze mich umgebende Welt mit der schönsten Purpurfarbe überzog, da verwandelte sich die Schattenfarbe in ein Grün, das nach seiner Klarheit einem Meergrün, nach seiner Schönheit einem Smaragdgrün verglichen werden konnte. Die Erscheinung ward immer lebhafter, man glaubte sich in einer Feenwelt zu befinden, denn alles hatte sich in die zwei lebhaften und so schön übereinstimmenden Farben gekleidet, bis endlich mit dem Sonnenuntergang die Prachterscheinung sich in eine graue Dämmerung, und nach und nach in eine mond- und sternhelle Nacht verlor.</quote> (<ref target="sndb:sigle#1321">LA</ref> I 4, 46 f.)</p>
+
+</note>
+<note xml:id="gb11808_comment_com11484">
+<label xml:id="GB03_2_BR312_0_note_041_186_27-28" copyOf="#start_com_2839"><hi rendition="#fett">186,27-28</hi>Förster auf dem Torfhause</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR311_0_note_053_184_28">184,28</ref>.</p>
+
+</note>
+<note xml:id="gb11808_comment_com14089">
+<label xml:id="GB03_2_BR312_0_note_042_186_28-29" copyOf="#start_com_2840"><hi rendition="#fett">186,28-29</hi>d<g ref="#typoSuspension"/>. 11. früh 7 vom Torfh. <gap quantity="3" reason="editorial"/> in Clausth.</label>
+<p>Für die etwa 23 km lange Strecke von Torfhaus nach Clausthal benötigte Goethe 3 &#xBD; Stunden, demnach wird er zumindest einen Teil der Strecke zu Pferd zurückgelegt haben.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11485">
+<label xml:id="GB03_2_BR312_0_note_043_186_30" copyOf="#start_com_2841"><hi rendition="#fett">186,30</hi>vergängelt</label>
+<p>Vergängeln: vergehen machen, tändelnd die Zeit vertreiben; wahrscheinlich Wortbildung Goethes (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 12 I, 374), zuerst im Brief an Augusta zu Stolberg vom 14. bis 19. September 1775 gebraucht (vgl. <ref target="gb:text#GB02_1_BR263_0_215_027">GB 2 I, 215,27</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11486">
+<label xml:id="GB03_2_BR312_0_note_044_186_30" copyOf="#start_com_2842"><hi rendition="#fett">186,30</hi>Briefe</label>
+<p>Erhalten hat sich der aus zwei Teilen bestehende Brief an Charlotte von Stein vom 7. bis 9. sowie vom 10. und 11. Dezember 1777 (<ref target="gb:dokument#10661">Nr 311</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com15669">
+<label xml:id="GB03_2_BR312_0_note_045_186_30-31" copyOf="#start_com_2843"><hi rendition="#fett">186,30-31</hi>der Weeg zurück</label>
+<p>Gemeint ist der im Folgenden beschriebene Weg von Torfhaus nach Clausthal, wahrscheinlich nach dem Tagebuch vom 11. Dezember nachgetragen (vgl. <ref target="gt:dokument#495">GT I 1, 54</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11487">
+<label xml:id="GB03_2_BR312_0_note_046_186_31" copyOf="#start_com_2844"><hi rendition="#fett">186,31</hi>Lerchen köpfe</label>
+<p>Hügelgruppe etwa 5 km nördlich von Torfhaus; Goethe nahm also nicht den direkten Weg in Richtung Altenau.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15348">
+<label xml:id="GB03_2_BR312_0_note_047_186_31" copyOf="#start_com_2845"><hi rendition="#fett">186,31</hi>steilen Wand</label>
+<p>Heute ein etwa 520 m hoher bewaldeter Bergrücken am Südwestrand des Harzes, eigentlich nicht auf der Reiseroute Goethes gelegen.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11499">
+<label xml:id="GB03_2_BR312_0_note_048_186_32" copyOf="#start_com_2846"><hi rendition="#fett">186,32</hi>Engels Krone</label>
+<p>Auch „Englische Krone“, Grube im ‚Communion-Harz‛.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11500">
+<label xml:id="GB03_2_BR312_0_note_049_186_32" copyOf="#start_com_2847"><hi rendition="#fett">186,32</hi>Altenauer Glück</label>
+<p>Grube bei Altenau im ‚Einseitigen Harz‛.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11501">
+<label xml:id="GB03_2_BR312_0_note_050_186_32" copyOf="#start_com_2848"><hi rendition="#fett">186,32</hi>Lilien Kuppe</label>
+<p>Vielleicht die Grube „Lilienberg“ bei Sankt Andreasberg.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15363">
+<label xml:id="GB03_2_BR312_0_note_051_186_33" copyOf="#start_com_2849"><hi rendition="#fett">186,33</hi>Damm haus</label>
+<p>Das so genannte Sperberhaier Dammhaus etwa 5 km südwestlich von Altenau, von 1732 bis 1734 mit dem Sperberhaier Damm errichtet, ursprünglich als Umkleide- und Gebetshaus für die Bergarbeiter.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11502">
+<label xml:id="GB03_2_BR312_0_note_052_186_33-187_1" copyOf="#start_com_2850"><hi rendition="#fett">186,33-187,1</hi>Bruchberg</label>
+<p>Zwischen Torfhaus und Altenau, mit 927 m der dritthöchste Berg des Harzes.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11503">
+<label xml:id="GB03_2_BR312_0_note_053_187_1" copyOf="#start_com_2851"><hi rendition="#fett">187,1</hi>Schlufft</label>
+<p>Im Siebertal.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11504">
+<label xml:id="GB03_2_BR312_0_note_054_187_1" copyOf="#start_com_2852"><hi rendition="#fett">187,1</hi>Andreasberg</label>
+<p>Eine der sieben ehemals Freien Bergstädte, etwa 650 m hoch gelegen; gehörte wie Clausthal und Altenau zum kur-hannoverschen ‚Einseitigen Harz‛; berühmt für die zahlreichen Silbergruben, von denen es nach dem Siebenjährigen Krieg (1756–1763) noch immer mehr als 200 gab (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15">181,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com15364">
+<label xml:id="GB03_2_BR312_0_note_055_187_1-2" copyOf="#start_com_2853"><hi rendition="#fett">187,1-2</hi>meist zu Fus</label>
+<p>Das heißt, einen Teil der etwa 21 km langen Strecke von Clausthal nach Sankt Andreasberg legte Goethe wie am Vortag mit dem Pferd zurück.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11518">
+<label xml:id="GB03_2_BR312_0_note_056_187_4" copyOf="#start_com_2854"><hi rendition="#fett">187,4</hi>Im Rathhaus</label>
+<p>Das wie in anderen Städten auch zugleich als Gasthof diente.</p>
+
+</note>
+<note xml:id="gb11808_comment_com14094">
+<label xml:id="GB03_2_BR312_0_note_057_187_4-5" copyOf="#start_com_2855"><hi rendition="#fett">187,4-5</hi>in <hi rendition="#hervor1">Samson</hi> durch Neufang auf Gottesgnade</label>
+<p>Die wichtigsten Silbergruben des Andreasberger Reviers.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11519">
+<label xml:id="GB03_2_BR312_0_note_058_187_5" copyOf="#start_com_2856"><hi rendition="#fett">187,5</hi>Ward mir sauer.</label>
+<p>„Samson“, die berühmteste und ertragreichste Silbergrube bei Andreasberg, war mit mehr als 800 m eine der tiefsten Gruben überhaupt (heute historisches Schaubergwerk).</p>
+
+</note>
+<note xml:id="gb11808_comment_com18087">
+<label xml:id="GB03_2_BR312_0_note_059_187_5-6" copyOf="#start_com_2857"><hi rendition="#fett">187,5-6</hi>geschrieben</label>
+<p>Woran Goethe arbeitete, kann nur vermutet werden. Das Gedicht „Auf dem Harz im Dezember. 1778 <supplied>recte 1777</supplied>“ (später „Harzreise im Winter“) ist wahrscheinlich ganz oder zu Teilen auf der Harzreise entstanden; Ende Dezember abgeschlossen wurden außerdem die „Empfindsamen“ (später „Triumph der Empfindsamkeit“; vgl. zu <ref target="gb:note#GB03_2_BR314_0_note_003_187_23">187,23</ref>).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11520">
+<label xml:id="GB03_2_BR312_0_note_060_187_6" copyOf="#start_com_2858"><hi rendition="#fett">187,6</hi>Kalte schale</label>
+<p>Kalte Suppe aus Bier, geriebenem Brot und Zucker, oft mit Zitronen(schalen) und Rosinen.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11521">
+<label xml:id="GB03_2_BR312_0_note_061_187_7" copyOf="#start_com_2859"><hi rendition="#fett">187,7</hi>durchs Thal</label>
+<p>Goethes Weg führte durch das Sperrluttertal und das Odertal.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11522">
+<label xml:id="GB03_2_BR312_0_note_062_187_7" copyOf="#start_com_2860"><hi rendition="#fett">187,7</hi>Lauterberg</label>
+<p>Zu Kur-Hannover (Kurfürstentum Braunschweig-Lüneburg) gehörender Ort an der Oder im Südharz; bei Lauterberg wurde Kupfer- und Eisenerz abgebaut.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15380">
+<label xml:id="GB03_2_BR312_0_note_063_187_8" copyOf="#start_com_2861"><hi rendition="#fett">187,8</hi>Königshütte</label>
+<p>Eisenhütte bei Lauterberg, eine der größten und wichtigsten des gesamten Harzes. 1738 errichtet, bildete sie „ein in Lauterberg eingepfarrtes bergamtliches Dörfchen“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 265).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11523">
+<label xml:id="GB03_2_BR312_0_note_064_187_9" copyOf="#start_com_2862"><hi rendition="#fett">187,9</hi>Silckerode</label>
+<p>Dorf im Südharz (heute Thüringen) etwa 14 km südwestlich von Lauterberg.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11539">
+<label xml:id="GB03_2_BR312_0_note_065_187_9" copyOf="#start_com_2863"><hi rendition="#fett">187,9</hi>Duderstadt</label>
+<p>Ehemals wohlhabende Handelsstadt im südlichen Harzvorland, seit dem 14. Jahrhundert zum Erzbistum Mainz gehörend (heute Niedersachsen), etwa 14 km südwestlich von Silkerode.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11540">
+<label xml:id="GB03_2_BR312_0_note_066_187_10" copyOf="#start_com_2864"><hi rendition="#fett">187,10</hi>Koth</label>
+<p>Schmutz, Dreck, besonders der Schmutz auf den oft unbefestigten Straßen; auch verkürzt für „kothiges, nasses wetter“ (<ref target="sndb:sigle#2890">Grimm</ref> 5, 1893).</p>
+
+</note>
+<note xml:id="gb11808_comment_com11541">
+<label xml:id="GB03_2_BR312_0_note_067_187_10" copyOf="#start_com_2865"><hi rendition="#fett">187,10</hi>unwissenden Boten. Abends 4 in Duderstadt</label>
+<p>Goethe und der Bote hatten demnach für die etwa 40 km lange Strecke von Sankt Andreasberg nach Duderstadt fast 10 Stunden gebraucht, etwa drei Stunden länger, als es zu Pferde gedauert hätte selbst in Anbetracht des Aufenthalts in der Königshütte, der winterlichen Witterung und der gebirgigen Strecke. Offenbar waren sie einen Umweg geritten und später als geplant angekommen.</p>
+
+</note>
+<note xml:id="gb11808_comment_com11542">
+<label xml:id="GB03_2_BR312_0_note_068_187_12" copyOf="#start_com_2866"><hi rendition="#fett">187,12</hi>Mühlhausen</label>
+<p>Freie Reichsstadt (bis 1803), knapp 50 km südöstlich von Duderstadt gelegen.</p>
+
+</note>
+<note xml:id="gb11808_comment_com15382">
+<label xml:id="GB03_2_BR312_0_note_069_187_13-14" copyOf="#start_com_2867"><hi rendition="#fett">187,13-14</hi>früh mit einem Postillon <gap quantity="3" reason="editorial"/> in Eisenach gegen 11.</label>
+<p>Die Strecke von Mühlhausen nach Eisenach von etwa 40 km war die einzige, die Goethe während der gesamten Reise mit der Postkutsche zurücklegte.</p>
+
+</note>
+<note xml:id="gb11808_comment_com18192">
+<label xml:id="GB03_2_BR312_0_note_070_187_14-15" copyOf="#start_com_2868"><hi rendition="#fett">187,14-15</hi>Fand den Herzog da. Englischer Reuter</label>
+<p>Carl August war schon seit dem 27. November zur Jagd in Marksuhl bei Eisenach (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>). Zur herzoglichen Gesellschaft gehörten u. a. der Oberforstmeister Moritz von Wedel, Prinz Constantin und dessen Hofmeister Carl Ludwig von Knebel. – Über Goethes Ankunft in Eisenach hielt Knebel in seinem Tagebuch vom 15. Dezember 1777 fest: „Goethe kam an. Gut. Ist im Harz gewesen. Mr. Simson, der auf 2. – 3. 4. Pferden stehend reitet. Auf dem Kopf steht, gallopirend. Mittags bey Bechtolsheim. Nach dem Essen zu Hause. Goethe erzählt. Wunderbare Auflösung des Herzens, bewirkt durch Abgeschiedenheit. <gap quantity="3" reason="editorial"/> Um 10 Uhr zu Bette. Goethe schlief in der Kammer.“ (<ref target="bug:dokument#5429">BuG 2, 54</ref>.) Am 16. Dezember <quote type="G">Nachts 2</quote> fuhr Goethe gemeinsam mit dem Prinzen Constantin und dessen Erzieher Carl Ludwig von Knebel aus Eisenach ab und traf <quote type="G">gegen mittag in Weimar</quote> ein (<ref target="gt:dokument#500">GT I 1, 54</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

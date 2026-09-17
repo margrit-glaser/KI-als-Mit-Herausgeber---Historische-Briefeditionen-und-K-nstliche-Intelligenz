@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2200"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11725" n="GB 3, Nr. 218">
+  <teiHeader xml:id="gb11725_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>218.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 15. und 16. Februar 1777. Samstag und Sonntag</supplied> </title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11725_tei.xml</idno>
+        <idno type="URI">gb11725</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR218_0</idno>
+        <idno type="KSW-ID">11725</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="129" to="129">129</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="474" to="477">474-477</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11725_header_hwit1147" corresp="#gb11725_source_hwit1147" sameAs="#gb11725_comment_hwit1147" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 70 und Bl. 72</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11725,,1147/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ich lief um 12 von der Redoute, schlief ziemlich ruhig, stand aber nicht mit ganz freyem</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-02-15"><supplied>15. Februar 1777</supplied></date> und
+            <date when="1777-02-16"><supplied>16. Februar 1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290" cert="low">? Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11725_source_hwit1147" corresp="#gb11725_header_hwit1147" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11725/22528"/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR218_0_129_001"/>Sonnabend früh. 9 Uhr.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR218_0_129_002"/>Ich lief um 12 von der <ref target="gb:note#GB03_2_BR218_0_note_001_129_2" xml:id="start_com_1985"/>Redoute<ref xml:id="end_com_1985"/>, schlief ziemlich ruhig, stand aber 
+<anchor xml:id="GB03_1_BR218_0_129_003"/>nicht mit ganz freyem Herzen auf. <ref target="gb:note#GB03_2_BR218_0_note_002_129_3" xml:id="start_com_1986"/>Ein Zettel von Thusnelda<ref xml:id="end_com_1986"/> machte 
+<anchor xml:id="GB03_1_BR218_0_129_004"/>mich lachen, es wollte noch nicht recht. Da fand ich <ref target="gb:note#GB03_2_BR218_0_note_003_129_4-5" xml:id="start_com_1987"/>ein alte Schottische 
+<anchor xml:id="GB03_1_BR218_0_129_005"/>Ballade<ref xml:id="end_com_1987"/> die hat mich auf einmal munter gemacht als ich seit drey 
+<anchor xml:id="GB03_1_BR218_0_129_006"/>Tagen nit<ptr n="1" target="#a001_129.6"/> was. Ich musst Ihnen schreiben, gönn Ihnen nun<ptr n="2" target="#a002_129.6"/>
+        <ref target="gb:note#GB03_2_BR218_0_note_004_129_6-7" xml:id="start_com_1988"/>die Freud 
+<anchor xml:id="GB03_1_BR218_0_129_007"/>auf’m Land<ref xml:id="end_com_1988"/> über die ich vor einer halben Stunde noch murrt. Adieu 
+<anchor xml:id="GB03_1_BR218_0_129_008"/>liebe liebe Frau!    <hi rendition="#hervor1">Sontag früh</hi>
+        <hi rendition="#hervor1">.</hi> da ist doch noch das <ref target="gb:note#GB03_2_BR218_0_note_005_129_8" xml:id="start_com_1989"/>Zettelgen<ref xml:id="end_com_1989"/>
+        <anchor xml:id="GB03_1_BR218_0_129_009"/>wenn Sie wiederkommen <ref target="gb:note#GB03_2_BR218_0_note_006_129_9" xml:id="start_com_1990"/>versprech ich Ihnen was zu lesen<ref xml:id="end_com_1990"/> denn ich 
+<anchor xml:id="GB03_1_BR218_0_129_010"/>fürchte nicht dass ihre Liebe auf dem Lande Launen kriegen wird, 
+<anchor xml:id="GB03_1_BR218_0_129_011"/>wie <ref target="gb:note#GB03_2_BR218_0_note_007_129_11" xml:id="start_com_1991"/>Louisens Spielgeist<ref xml:id="end_com_1991"/>. /</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck3">
+        <anchor xml:id="GB03_1_BR218_0_129_012"/>Sonntag.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR218_0_129_013"/>So haben Sie auch <ref target="gb:note#GB03_2_BR218_0_note_008_129_13" xml:id="start_com_1992"/>auf dem Lande<ref xml:id="end_com_1992"/> keine Ruh vor unsrer Lieb und 
+<anchor xml:id="GB03_1_BR218_0_129_014"/>Thorheit, wie aber wenn einer statt <ref target="gb:note#GB03_2_BR218_0_note_009_129_14" xml:id="start_com_1993"/>des Zettelgens<ref xml:id="end_com_1993"/> selbst gekommen 
+<anchor xml:id="GB03_1_BR218_0_129_015"/>wäre. Hätts auch vielleicht gethan, wenn ich nicht einen <ref target="gb:note#GB03_2_BR218_0_note_010_129_15" xml:id="start_com_1994"/>Pick<ref xml:id="end_com_1994"/> auf 
+<anchor xml:id="GB03_1_BR218_0_129_016"/>mich hatte dass ich Sie so lieb habe. Es werden hier im Stillen sehr 
+<anchor xml:id="GB03_1_BR218_0_129_017"/>
+        <ref target="gb:note#GB03_2_BR218_0_note_011_129_17" xml:id="start_com_1995"/>politische Lieder<ref xml:id="end_com_1995"/> gesungen. Gestern schrieb ich <ref target="gb:note#GB03_2_BR218_0_note_012_129_17-18" xml:id="start_com_1996"/>ein Zettelgen an Sie 
+<anchor xml:id="GB03_1_BR218_0_129_018"/>das hab ich verlegt<ref xml:id="end_com_1996"/> – Es ergeben sich allerley <ref target="gb:note#GB03_2_BR218_0_note_013_129_18-19" xml:id="start_com_1997"/>Luft, und noch mehr 
+<anchor xml:id="GB03_1_BR218_0_129_019"/>Erderscheinungen<ref xml:id="end_com_1997"/>, die mögen verschwinden wie sie entstanden sind. 
+<anchor xml:id="GB03_1_BR218_0_129_020"/>Aber ich weis was <ref target="gb:note#GB03_2_BR218_0_note_014_129_20" xml:id="start_com_1998"/>das keine Erscheinung ist<ref xml:id="end_com_1998"/>.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11725_comment">
+<body>
+<div type="metadata" xml:id="gb11725_comment_com580">
+  <ab type="numberAddressee"><label>218.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>15. Februar 1777</supplied> und <supplied>16. Februar 1777</supplied> → <supplied><placeName key="sndb:ort#78290" cert="low">? Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11725_comment_com1676">
+  <p>Der Brief besteht aus zwei Teilen, die im Konvolut der Briefe an Charlotte von Stein (Bd I) unter die undatierten Briefe am Ende des Jahrgangs 1777 eingeordnet sind, jedoch nicht unmittelbar nacheinander (vgl. <ref target="gb:note#gb11725_comment_com2624">Überlieferung</ref>). Beide Briefteile setzen die Abwesenheit Charlotte von Steins von Weimar voraus, die sich <quote type="G">auf dem Lande</quote> (<ref target="gb:text#GB03_1_BR218_0_129_010">129,10</ref>) befand. Zudem muss Goethe am Tag vor der Niederschrift des an einem <quote type="G">Sonnabend früh</quote> (<ref target="gb:text#GB03_1_BR218_0_129_001">129,1</ref>) begonnenen ersten Teils auf der <quote type="G">Redoute</quote> (<ref target="gb:text#GB03_1_BR218_0_129_002">129,2</ref>) gewesen sein. In dem zweiten, am <quote type="G">Sonntag</quote> (<ref target="gb:text#GB03_1_BR218_0_129_012">129,12</ref>) auf einem separaten Blättchen geschriebenen Brief erwähnt er ein tags zuvor verfasstes <quote type="G">Zettelgen</quote> (<ref target="gb:text#GB03_1_BR218_0_129_017">129,17</ref>), das er verlegt habe (vgl. <ref target="gb:text#GB03_1_BR218_0_129_017 #GB03_1_BR218_0_129_018">129,17–18</ref>). In der Fortsetzung des Briefteils vom Sonnabend meldet er <quote type="G"><hi rendition="#hervor1">Sontag Früh</hi></quote> (<ref target="gb:text#GB03_1_BR218_0_129_008">129,8</ref>) das Wiederauffinden des <quote type="G">Zettelgens</quote> (<ref target="gb:text#GB03_1_BR218_0_129_008">129,8</ref>), bei dem es sich sehr wahrscheinlich um das im zweiten Briefteil vom <quote type="G">Sonntag</quote> (<ref target="gb:text#GB03_1_BR218_0_129_012">129,12</ref>) erwähnte <quote type="G">Zettelgen an Sie</quote> (<ref target="gb:text#GB03_1_BR218_0_129_017">129,17</ref>) handelt (vgl. zu <ref target="gb:note#GB03_2_BR218_0_note_012_129_17-18">129,17-18</ref>). Aufgrund dieser inhaltlichen Parallelen ist es naheliegend, anzunehmen, dass sich beide Briefe aufeinander beziehen und gemeinsam versandt wurden, weshalb sie hier als ein Brief in zwei Teilen mitgeteilt werden. – Schon im Erstdruck von Schöll erschienen sie als ein Brief, allerdings wurde der Text strikt chronologisch angeordnet, so dass in den am <quote type="G">Sonnabend</quote> (<ref target="gb:text#GB03_1_BR218_0_129_001">129,1</ref>) und <quote type="G"><hi rendition="#hervor1">Sontag früh</hi></quote> (<ref target="gb:text#GB03_1_BR218_0_129_008">129,8</ref>) geschriebenen Briefteil der Text des Briefes vom <quote type="G">Sonntag</quote> (<ref target="gb:text#GB03_1_BR218_0_129_012">129,12</ref>), der auf dem anderen Blättchen steht, eingeschoben ist. Schöll datiert den Brief auf den 6. und 7. April 1776, wofür sich weder im Tagebuch noch in den Umfeldbriefen Belege finden. Seit Fielitz setzen alle Herausgeber die Briefe auf den 15. und 16. Februar 1777, drucken sie jedoch als zwei separate Briefe ab (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 72, Nr 121 und 122). Für diese spätere Datierung sprechen inhaltliche Parallelen zu Tagebucheinträgen: Am 14. Februar 1777, einem Freitag, vermerkt Goethe, dass er die Redoute besucht habe (vgl. <ref target="gt:dokument#287">GT I 1, 38</ref>); auf die Abwesenheit Charlotte von Steins am 15. und 16. Februar von Weimar verweist der Umstand, dass sie seit dem 12. im Tagebuch nicht erwähnt wird, vor allem aber der Eintrag vom 17. Februar: <quote type="G">Abends &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">Wiederkehr</quote> (<ref target="gt:dokument#290">ebd.</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11725_comment_com2624">
+  <p>1) Briefteil vom 15. und 16. Februar 1777 (<ref target="gb:text#GB03_1_BR218_0_129_001 #GB03_1_BR218_0_129_011">129,1–11</ref> <quote type="G">Sonnabend früh. 9 Uhr. <gap quantity="3" reason="editorial"/> Louisens Spielgeist.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 70. – 1 Bl. 17 × 11 cm, Bordüre mit gereihtem Dreiblatt auf drei Balken (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 4), 1 S. beschr., egh., Tinte; oben rechts neben Tages- und Zeitangabe (vgl. <ref target="gb:text#GB03_1_BR218_0_129_001">129,1</ref>) von Charlotte von Steins Hd, Bleistift: „77“, oben rechts von fremder Hd, Tinte: „69“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 73), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 22.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 134, Nr 558.</p>
+  <p>2) Briefteil vom 16. Februar 1777 (<ref target="gb:text#GB03_1_BR218_0_129_012 #GB03_1_BR218_0_129_020">129,12–20</ref> <quote type="G">Sonntag. <gap quantity="3" reason="editorial"/> Erscheinung ist.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 72. – 1 Bl. 16,9 × 11 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „73“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 77), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 22.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 135, Nr 559.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11725_comment_com4420">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11725_comment_com10721">
+<label xml:id="GB03_2_BR218_0_note_001_129_2" copyOf="#start_com_1985"><hi rendition="#fett">129,2</hi>Redoute</label>
+<p>Maskenball, der in den Wintermonaten oft mehrmals in der Woche stattfand, regelmäßig aber am Freitag (vgl. <ref target="gb:note#gb11725_comment_com1676">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com10722">
+<label xml:id="GB03_2_BR218_0_note_002_129_3" copyOf="#start_com_1986"><hi rendition="#fett">129,3</hi>Ein Zettel von Thusnelda</label>
+<p>Nicht überliefert. – ‚Thusnelda‘ war einer der Spitznamen Louise von Göchhausens (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_004_29_10-11">29,10-11</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com14259">
+<label xml:id="GB03_2_BR218_0_note_003_129_4-5" copyOf="#start_com_1987"><hi rendition="#fett">129,4-5</hi>ein alte Schottische Ballade</label>
+<p>‚Ein‘ flüchtig für ‚eine‘. – Möglicherweise aus Thomas Percys „Reliques of Ancient English Poetry“ (3 Bde. London 1765), einer Sammlung alter englischer und schottischer Lieder und Balladen, die Goethe spätestens seit seiner Straßburger Zeit kannte (vgl. GB 1 I, 221). Sein zeitweise starkes Interesse an Volksliedern, darunter auch an schottischen Balladen, war 1771 ebenso wie die Beschäftigung mit Ossian durch Herder angeregt worden (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10223_comment_com22663">GB 1 II, Nr 90</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com10723">
+<label xml:id="GB03_2_BR218_0_note_004_129_6-7" copyOf="#start_com_1988"><hi rendition="#fett">129,6-7</hi>die Freud auf’m Land</label>
+<p>Wahrscheinlich auf dem Landgut der Steins in Kochberg (vgl. <ref target="gb:note#gb11725_comment_com1676">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com15198">
+<label xml:id="GB03_2_BR218_0_note_005_129_8" copyOf="#start_com_1989"><hi rendition="#fett">129,8</hi>Zettelgen</label>
+<p>Wie die inhaltlichen Bezüge nahelegen, das vorliegende, am Samstag begonnene Billett, das Goethe verlegt hatte (vgl. <ref target="gb:text#GB03_1_BR218_0_129_017 #GB03_1_BR218_0_129_018">129,17–18</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com17890">
+<label xml:id="GB03_2_BR218_0_note_006_129_9" copyOf="#start_com_1990"><hi rendition="#fett">129,9</hi>versprech ich Ihnen was zu lesen</label>
+<p>Aus dem ersten Buch von „Wilhelm Meisters theatralischer Sendung“. Am 16. Februar 1777 findet sich im Tagebuch der erste Hinweis auf die Arbeit am Wilhelm Meister-Roman überhaupt (vgl. <ref target="gt:dokument#289">GT I 1, 38</ref>), am 2. Januar 1778 beendete Goethe das erste Buch (vgl. <ref target="gt:dokument#504">ebd, 59</ref>). Diese bis 1786 entstandene erste Fassung ging verloren, ein Fragment davon hat sich in einer Abschrift von Barbara Schultheß und ihrer Tochter erhalten, die erst 1910 in einer Zürcher Privatsammlung wiederentdeckt und 1911 in Band 51 und 52 der WA I gedruckt wurde (vgl. <ref target="sndb:sigle#1157">WA</ref> I 51, 284–288). Der Titel ist durch einen Brief Knebels belegt, der am 10. Juli 1777 an Herder schrieb: „Er <supplied>Goethe</supplied> hat uns seine neue Composition von Wilhelm Meisters theatralischer Sendung vorgelesen, welches ein sehr fein Werk ist.“ (<ref target="bug:dokument#5239">BuG 2, 25</ref>.)</p>
+
+</note>
+<note xml:id="gb11725_comment_com17787">
+<label xml:id="GB03_2_BR218_0_note_007_129_11" copyOf="#start_com_1991"><hi rendition="#fett">129,11</hi>Louisens Spielgeist</label>
+<p>Möglicherweise Anspielung auf die in Goethes Briefen an Charlotte von Stein oft thematisierten wechselnden Stimmungen der Herzogin Louise (vgl. <ref target="gb:text#GB03_1_BR030_0_025_009 #GB03_1_BR030_0_025_012">25,9–12</ref>; zu <ref target="gb:note#GB03_2_BR035_0_note_005_27_4-5">27,4-5</ref>). – Nicht ganz auszuschließen ist, dass es sich um eine (nicht ermittelte) literarische Reminiszenz handelt. Dass damit auf Louise von Göchhausen angespielt wird, wie deren Rufname nahelegen könnte, ist unwahrscheinlich, da Goethe die Hofdame der Herzoginmutter im Tagebuch oder in seinen Briefen entweder mit ihrem Familiennamen, und zwar meist in der Form ‚Jöchhaus<supplied>en</supplied>‘, oder mit dem Spitznamen ‚Thusnelda‘ erwähnt.</p>
+
+</note>
+<note xml:id="gb11725_comment_com10732">
+<label xml:id="GB03_2_BR218_0_note_008_129_13" copyOf="#start_com_1992"><hi rendition="#fett">129,13</hi>auf dem Lande</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR218_0_note_004_129_6-7">129,6-7</ref>.</p>
+
+</note>
+<note xml:id="gb11725_comment_com10733">
+<label xml:id="GB03_2_BR218_0_note_009_129_14" copyOf="#start_com_1993"><hi rendition="#fett">129,14</hi>des Zettelgens</label>
+<p>Hier ist offensichtlich der vorliegende Briefteil gemeint, an dem Goethe gerade schreibt.</p>
+
+</note>
+<note xml:id="gb11725_comment_com10734">
+<label xml:id="GB03_2_BR218_0_note_010_129_15" copyOf="#start_com_1994"><hi rendition="#fett">129,15</hi>Pick</label>
+<p>Hier im übertragenen Sinn von ‚Groll‘ (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_039_83_18-19">83,18-19</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com15579">
+<label xml:id="GB03_2_BR218_0_note_011_129_17" copyOf="#start_com_1995"><hi rendition="#fett">129,17</hi>politische Lieder</label>
+<p>Anklang an Brandners Ausruf: <quote type="G">Pfuy ein garstig Lied! Ein politisch Lied, ein leidig Lied.</quote> als Entgegnung auf Froschs Lied vom <quote type="G">lieben heilgen römschen Reich</quote> (Frühe Fassung des Faust; <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 288; vgl. Faust I, 2090–2092; <ref target="sndb:sigle#1240">FA/Goethe</ref> I 7/1, 90). – ‚Politisch‘ hier möglicherweise noch im weiteren Sinn: „der gesellschaftlichen Klugheit gemäß, und in noch weiterem Verstande, oft für listig, verschlagen, schlau überhaupt. Ein politischer Streich, ein feiner, listiger, kluger Streich.“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 803.)</p>
+
+</note>
+<note xml:id="gb11725_comment_com10735">
+<label xml:id="GB03_2_BR218_0_note_012_129_17-18" copyOf="#start_com_1996"><hi rendition="#fett">129,17-18</hi>ein Zettelgen <gap quantity="3" reason="editorial"/> hab ich verlegt</label>
+<p>Der auf einem separaten Blättchen stehende erste Teil des Briefes von <quote type="G">Sonnabend früh</quote> (<ref target="gb:text#GB03_1_BR218_0_129_001">129,1</ref>).</p>
+
+</note>
+<note xml:id="gb11725_comment_com17950">
+<label xml:id="GB03_2_BR218_0_note_013_129_18-19" copyOf="#start_com_1997"><hi rendition="#fett">129,18-19</hi>Luft, und noch mehr Erderscheinungen</label>
+<p>Mit ‚Lufterscheinungen‘ könnten Wetterphänomene gemeint sein, wie eine wörtliche Parallele in einem späteren Brief an Charlotte von Stein nahelegt (vgl. <ref target="gb:text#GB03_1_BR534_0_302_016">302,16</ref>; vgl. auch <ref target="gb:text#GB03_1_BR220_0_130_018 #GB03_1_BR220_0_130_019">130,18–19</ref>). – ‚Erderscheinungen‘ spielt wohl, wie der Kontext vermuten lässt, auf Gäste des Weimarer Hofes an, darunter den von Lavater geschätzten Schweizer ‚Genieapostel‘, religiösen Schwärmer und Wunderarzt Johann Christoph Kaufmann. Er hatte sich schon im Herbst 1776 in Weimar aufgehalten und besuchte Ende 1776/Anfang 1777 auf einer Reise durch Süd- und Mitteldeutschland Weimar erneut (vgl. zu <ref target="gb:note#GB03_2_BR220_0_note_007_130_10-11">130,10-11</ref>). Wieland schreibt über ihn an Catharina Elisabeth Goethe: „Ohnezweifel habt Ihr <gap quantity="3" reason="editorial"/> eine Erscheinung von Kaufmann gehabt. Möchte wohl hören, was <hi rendition="#hervor1">der</hi> von uns die wir hier so beysammen sind sagt. Er ist ein edler, starker und guter Mensch; hat aber noch nöthig, sich in der Welt herum zu wälzen in 10 Jahren a dato wird erst recht erscheinen was er ist.“ (Brief vom 31. Dezember 1776; <ref target="sndb:sigle#141">WB</ref> 5, 579.)</p>
+
+</note>
+<note xml:id="gb11725_comment_com10742">
+<label xml:id="GB03_2_BR218_0_note_014_129_20" copyOf="#start_com_1998"><hi rendition="#fett">129,20</hi>das keine Erscheinung ist</label>
+<p>Anspielung auf die Beständigkeit von Goethes Liebe zur Adressatin.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

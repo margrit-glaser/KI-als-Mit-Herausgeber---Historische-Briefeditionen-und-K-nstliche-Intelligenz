@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5340"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11970" n="GB 3, Nr. 524">
+  <teiHeader xml:id="gb11970_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>524.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 21. und 28. August 1779. Samstag und Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11970_tei.xml</idno>
+        <idno type="URI">gb11970</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR524_0</idno>
+        <idno type="KSW-ID">11970</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="292" to="293">292-293</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="956" to="958">956-958</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11970_header_hwit1512" corresp="#gb11970_source_hwit1512" sameAs="#gb11970_comment_hwit1512" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 22</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11970,,1512/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich muss wohl aushalten, merck ich, es ist nicht anders. Heut    Abend hofft ich</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11970_header_acc406" corresp="gb11970_comment_acc406">
+            <objectIdentifier>
+              <objectName>Bücher </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-08-21">21. August 1779</date> und
+            <date when="1779-08-28">28. August 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#78290">Kochberg</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11970_source_hwit1512" corresp="#gb11970_header_hwit1512" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11970/23098"/>
+      <p>
+        <anchor xml:id="GB03_1_BR524_0_292_014"/>Ich muss wohl aushalten, merck ich, es ist nicht anders. <ref target="gb:note#GB03_2_BR524_0_note_001_292_14-15" xml:id="start_com_4210"/>Heut Abend 
+<anchor xml:id="GB03_1_BR524_0_292_015"/>hofft ich bey Ihnen zu seyn<ref xml:id="end_com_4210"/>, der Mond scheint recht schön und hätte 
+<anchor xml:id="GB03_1_BR524_0_292_016"/>mich gut bis in Ihre Berge gebracht, den Montag<ptr n="1" target="#a001_292.16"/> wollt ich zurück, 
+<anchor xml:id="GB03_1_BR524_0_292_017"/>das soll mir auch nicht werden. Denn <ref target="gb:note#GB03_2_BR524_0_note_002_292_17" xml:id="start_com_4211"/>der Herzog ist seit gestern weg<ref xml:id="end_com_4211"/>, 
+<anchor xml:id="GB03_1_BR524_0_292_018"/>und kommt erst Morgen, und da sind <ref target="gb:note#GB03_2_BR524_0_note_003_292_18" xml:id="start_com_4212"/>Sachen<ref xml:id="end_com_4212"/><ptr n="2" target="#a002_292.18"/> wenn sie nicht Montags 
+<anchor xml:id="GB03_1_BR524_0_292_019"/>früh in Bewegung gehn, geschehn sie die ganze Woche nicht. Dem 
+<anchor xml:id="GB03_1_BR524_0_292_020"/>Fürsten wird eine Stunde nach der andern gestohlen, und dagegen ist 
+<anchor xml:id="GB03_1_BR524_0_292_021"/>er offt in der Noth uns ganze Tage zu rauben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR524_0_292_022"/>Diese Woche hat <ref target="gb:note#GB03_2_BR524_0_note_004_292_22" xml:id="start_com_4213"/>die Last die ich trage wieder stärcker gedrückt<ref xml:id="end_com_4213"/>. 
+<anchor xml:id="GB03_1_BR524_0_292_023"/>An Orten wo die Weiber <ref target="gb:note#GB03_2_BR524_0_note_005_292_23" xml:id="start_com_4214"/>Vicktualien<ref xml:id="end_com_4214"/> und andres in Körben auf dem 
+<anchor xml:id="GB03_1_BR524_0_292_024"/>Kopfe tragen, haben sie <ref target="gb:note#GB03_2_BR524_0_note_006_292_24" xml:id="start_com_4215"/>Kringen<ref xml:id="end_com_4215"/> wie sie s nennen von Tuch mit Pferdehaar 
+<anchor xml:id="GB03_1_BR524_0_293_001"/>ausgestopft dass der harte Korb nicht auf den Scheitel drückt, 
+<anchor xml:id="GB03_1_BR524_0_293_002"/>manchmal wird mirs als wenn mir eins das<ptr n="3" target="#a003_293.2"/>
+        <ref target="gb:note#GB03_2_BR524_0_note_007_293_2" xml:id="start_com_4216"/>Küssen<ref xml:id="end_com_4216"/> wegnähme und 
+<anchor xml:id="GB03_1_BR524_0_293_003"/>manchmal wieder unterschöbe. <ref target="gb:note#GB03_2_BR524_0_note_008_293_3-4" xml:id="start_com_4217"/>Steinen seh ich wenig, er ist nie zu 
+<anchor xml:id="GB03_1_BR524_0_293_004"/>hause<ref xml:id="end_com_4217"/> wenn ich nach ihm frage. <ref target="gb:note#GB03_2_BR524_0_note_009_293_4" xml:id="start_com_4218"/>Ihre Tauben<ref xml:id="end_com_4218"/> wissen gar nicht wie 
+<anchor xml:id="GB03_1_BR524_0_293_005"/>ihnen geschieht dass das Fenster sich nicht öffnen will. <ref target="gb:note#GB03_2_BR524_0_note_010_293_5-6" xml:id="start_com_4219"/>Das Eichhörngen 
+<anchor xml:id="GB03_1_BR524_0_293_006"/>ist wohl.<ref xml:id="end_com_4219"/> In mein Haus kommt nun gar kein Mensch, ausser dem 
+<anchor xml:id="GB03_1_BR524_0_293_007"/>
+        <ref target="gb:note#GB03_2_BR524_0_note_011_293_7" xml:id="start_com_4220"/>schönen Misel<ref xml:id="end_com_4220"/>, wir sind gar artig zusammen, denn wir sind in gleichem 
+<anchor xml:id="GB03_1_BR524_0_293_008"/>Falle, mir ist mein liebstes verreist, und <ref target="gb:note#GB03_2_BR524_0_note_012_293_8-9" xml:id="start_com_4221"/>ihr fürstlicher Freund 
+<anchor xml:id="GB03_1_BR524_0_293_009"/>hat andre Weege gefunden<ref xml:id="end_com_4221"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR524_0_293_010"/>Sonst seh ich recht wie ich von allen Menschen, und alle Menschen 
+<anchor xml:id="GB03_1_BR524_0_293_011"/>von mir fallen. <ref target="gb:note#GB03_2_BR524_0_note_013_293_11" xml:id="start_com_4222"/>Knebeln besuch ich manchmal<ref xml:id="end_com_4222"/>, <ref target="gb:note#GB03_2_BR524_0_note_014_293_11-12" xml:id="start_com_4223"/>von Herdern hör ich 
+<anchor xml:id="GB03_1_BR524_0_293_012"/>gar nichts<ref xml:id="end_com_4223"/>. Indess ist <ref target="gb:note#GB03_2_BR524_0_note_015_293_12" xml:id="start_com_4224"/>ein neu Drama<ref xml:id="end_com_4224"/> unterweegs, und Sie werden ia 
+<anchor xml:id="GB03_1_BR524_0_293_013"/>auch wieder kommen. Gute Nacht wenigstens schrifftlich. d<g ref="#typoSuspension"/>. 21 Aug 
+<anchor xml:id="GB03_1_BR524_0_293_014"/>Sonnab</p>
+      <closer>
+        <dateline rendition="#einrueck18">
+          <anchor xml:id="GB03_1_BR524_0_293_015"/>1779.   </dateline>
+        <signed rend="paraph">G. </signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <pb n="2" facs="gb:digitalisate#11970/23099" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11970/23100"/>
+    <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR524_0_293_016"/>d<g ref="#typoSuspension"/>. 28. Nur mit Einem Worte kan ich für <ref target="gb:note#GB03_2_BR524_0_note_016_293_16-17" xml:id="start_com_4225"/>den Beutel und die Manschetten<ref xml:id="end_com_4225"/>
+          <anchor xml:id="GB03_1_BR524_0_293_017"/>dancken. <ref target="gb:note#GB03_2_BR524_0_note_017_293_17" xml:id="start_com_4226"/>Es ist heute ein schöner Tag.<ref xml:id="end_com_4226"/> Möge er Ihnen auch 
+<anchor xml:id="GB03_1_BR524_0_293_018"/>sehr<ptr n="4" target="#a004_293.18"/> hold seyn. Von <ref target="gb:note#GB03_2_BR524_0_note_018_293_18" xml:id="start_com_4227"/>Büchern<ref xml:id="end_com_4227"/> was ich habe folgt hier! grüsen Sie alles.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR524_0_293_019"/>
+          <signed rend="paraph" rendition="#einrueck19">G</signed>
+        </closer>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11970_comment">
+<body>
+<div type="metadata" xml:id="gb11970_comment_com1272">
+  <ab type="numberAddressee"><label>524.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 21. August 1779 und 28. August 1779 → <placeName key="sndb:ort#78290">Kochberg</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11970_comment_com3316">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 22. – Doppelblatt 20 × 27,5 cm, 1 &#xBC; S. (S. 1 und 3) beschr., egh., Tinte, S. 3 (<ref target="gb:text#GB03_1_BR524_0_293_016 #GB03_1_BR524_0_293_019">293,16–19</ref>) flüchtig geschrieben; S. 4 Adresse: <quote type="G">Fr. v. Stein / nach / Kochberg.</quote>, rotes Initialsiegel: „G“; S. 1 oben rechts von fremder Hd, Tinte: „42.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 44), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 233 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 54 f., Nr 839.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11970_comment_com3809">
+  <p>Bücher (vgl. zu <ref target="gb:note#GB03_2_BR524_0_note_018_293_18">293,18</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11970_comment_com5112">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der vorliegende Brief wurde vor Goethes Besuch in Kochberg vom 22. bis 25. August begonnen, jedoch nicht abgesandt. Auch nach der Rückkehr blieb er noch einige Tage liegen. In der Zwischenzeit schrieb Goethe den undatierten Brief vom 25. August (<ref target="gb:dokument#12518">Nr 523</ref>), der seine Ankunft in Weimar meldete und dem die Pfirsiche für Charlotte von Stein beilagen.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11970_comment_com11995">
+<label xml:id="GB03_2_BR524_0_note_001_292_14-15" copyOf="#start_com_4210"><hi rendition="#fett">292,14-15</hi>Heut Abend hofft ich bey Ihnen zu seyn</label>
+<p>Demnach wollte Goethe schon einen Tag früher nach Kochberg gehen (vgl. zu <ref target="gb:note#GB03_2_BR523_0_note_001_292_8">292,8</ref>). Insgesamt habe Goethe, heißt es im Tagebuch, <quote type="G">die ganze Woche mehr gewatet als geschwommen.</quote> (<ref target="gt:dokument#757">GT I 1, 87</ref>; weiter vgl. zu <ref target="gb:note#GB03_2_BR521_0_note_002_291_2">291,2</ref>.)</p>
+
+</note>
+<note xml:id="gb11970_comment_com18251">
+<label xml:id="GB03_2_BR524_0_note_002_292_17" copyOf="#start_com_4211"><hi rendition="#fett">292,17</hi>der Herzog ist seit gestern weg</label>
+<p>Im Fourierbuch ist keine Reise des Herzogs vermerkt. Er nahm am 20. und 22. jeweils an der fürstlichen Mittagstafel teil, könnte also am Abend des 20. abgereist und am 22. vormittags zurückgekommen sein (vgl. <ref target="sndb:sigle#3945">FB 1779</ref>, S. 147–149). Dass die Abwesenheit des Herzogs nicht direkt im Fourierbuch vermerkt wurde, lässt auf deren privaten Charakter schließen; möglicherweise stand sie im Zusammenhang mit dessen erwachendem Interesse an Johanna Louise Gräfin von Werthern-Beichlingen auf Neunheiligen bei Langensalza. Offener thematisiert wird das Verhältnis erst in Goethes Tagebuch von Anfang März 1780 (vgl. GT I 1, 106). Am 12. März 1781 schreibt Goethe an Charlotte von Stein aus Neunheiligen, wo er sich seit dem 7. März gemeinsam mit dem Herzog aufhält: <quote type="G">Unsre arme schöne Wirthinn</quote> <supplied>Louise Gräfin von Werthern-Beichlingen</supplied> <quote type="G">ist kranck, und trägts wie Frauen zu tragen gewohnt sind. Heute früh hatten wir einen langen politischen Diskurs; auch diese Dinge sieht sie gar schön, natürlich und wie ihres gleichen. Sie liebt den Herzog schöner als er sie. und in diesem Spiegel hab ich mich beschaut und erkannt daß auch Sie mich schöner lieben als wir gewöhnlich können.</quote> (<ref target="gb:text#GB04_1_BR322_0_228_010 #GB04_1_BR322_0_228_015">GB 4 I, 228,10-15</ref>.)</p>
+
+</note>
+<note xml:id="gb11970_comment_com11996">
+<label xml:id="GB03_2_BR524_0_note_003_292_18" copyOf="#start_com_4212"><hi rendition="#fett">292,18</hi>Sachen</label>
+<p>Wie das Tagebuch belegt, erwartete Goethe in der Woche vom 15. bis zum 21. August 1779 einen Bericht des Landkommissars George Batty, und zwar mit der Befürchtung, dass ihm dieser <quote type="G">mancherley Sauereyen denen nicht gleich abzuhelfen ist lebendig machte.</quote> (<ref target="gt:dokument#757">GT I 1, 87</ref>; zur Tätigkeit Battys vgl. zu <ref target="gb:note#GB03_2_BR522_0_note_002_291_19">291,19</ref>.)</p>
+
+</note>
+<note xml:id="gb11970_comment_com18162">
+<label xml:id="GB03_2_BR524_0_note_004_292_22" copyOf="#start_com_4213"><hi rendition="#fett">292,22</hi>die Last <gap quantity="3" reason="editorial"/> stärcker gedrückt</label>
+<p>Analog dazu vermerkt Goethe im Tagebuch vom 27. August: <quote type="G">Es Geht, nur muss frisch gewirthschafftet werden. Die Pesanteur</quote> <supplied>Schwerfälligkeit</supplied> <quote type="G">der Leute, drückt einen gleich nieder. Ich wills auf de<unclear reason="illegible">m</unclear> Weeg eine weile fort treiben.</quote> (<ref target="gt:dokument#762">GT I 1, 88</ref>; zu Goethes Befindlichkeit in der Zeit vor der zweiten Schweizer Reise vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12004_comment_com5121">Nr 518</ref>.)</p>
+
+</note>
+<note xml:id="gb11970_comment_com12011">
+<label xml:id="GB03_2_BR524_0_note_005_292_23" copyOf="#start_com_4214"><hi rendition="#fett">292,23</hi>Vicktualien</label>
+<p>Viktualien: Lebensmittel (von franz. victuailles), heute veraltet, noch gelegentlich im regionalen Sprachgebrauch verwendet.</p>
+
+</note>
+<note xml:id="gb11970_comment_com18163">
+<label xml:id="GB03_2_BR524_0_note_006_292_24" copyOf="#start_com_4215"><hi rendition="#fett">292,24</hi>Kringen</label>
+<p>Kring, Kringe: Ring, Kreis; „der Ring von Stroh, welchen man auf den Kopf legt, wenn man Lasten auf demselben tragen will.“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1790; vgl. auch <ref target="sndb:sigle#397">GWb</ref> 5, 747.) – In dieser Bedeutung nur noch einmal bei Goethe belegt, und zwar im ‚Brunnenabenteuer‘ in den „Leiden des jungen Werthers“ (1774): <quote type="G">Soll ich ihr helfen, Jungfer? sagt ich. Sie ward roth über und über. O nein Herr! sagte sie. – Ohne Umstände – Sie legte ihren Kringen zurechte, und ich half ihr.</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 4, 108 [Brief vom 15. Mai <supplied>1771</supplied>].)</p>
+
+</note>
+<note xml:id="gb11970_comment_com12012">
+<label xml:id="GB03_2_BR524_0_note_007_293_2" copyOf="#start_com_4216"><hi rendition="#fett">293,2</hi>Küssen</label>
+<p>Im 18. Jahrhundert noch allgemein gebräuchlich für ‚Kissen‘. – ‚Küssen‘ oder ‚Küsslein‘ nach <ref target="sndb:sigle#2753">Adelung</ref> „ein mit einem weichen Körper ausgestopfter Beutel oder Sack von mittlerer Größe“ (2, 1849).</p>
+
+</note>
+<note xml:id="gb11970_comment_com12013">
+<label xml:id="GB03_2_BR524_0_note_008_293_3-4" copyOf="#start_com_4217"><hi rendition="#fett">293,3-4</hi>Steinen <gap quantity="3" reason="editorial"/> nie zu hause</label>
+<p>In der Zeit vom 15. bis 21. August muss sich Josias von Stein nahezu ständig in Weimar aufgehalten haben, zumindest wird er mit Ausnahme des 16. August täglich unter den Gästen der fürstlichen Mittagstafel aufgeführt (vgl. <ref target="sndb:sigle#3945">FB 1779</ref>, S. 145–148).</p>
+
+</note>
+<note xml:id="gb11970_comment_com12026">
+<label xml:id="GB03_2_BR524_0_note_009_293_4" copyOf="#start_com_4218"><hi rendition="#fett">293,4</hi>Ihre Tauben</label>
+<p>Wahrscheinlich frei lebende Tauben, die Charlotte von Stein fütterte. Dafür, dass sie selbst welche hielt, findet sich kein Hinweis.</p>
+
+</note>
+<note xml:id="gb11970_comment_com15444">
+<label xml:id="GB03_2_BR524_0_note_010_293_5-6" copyOf="#start_com_4219"><hi rendition="#fett">293,5-6</hi>Das Eichhörngen ist wohl.</label>
+<p>Der Kontext spricht dafür, dass Charlotte von Stein ein krankes Eichhörnchen in Pflege genommen hatte, ähnlich wie sich auch Goethe zeitweilig um einen jungen Fuchs kümmerte (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_058_69_10">69,10</ref>).</p>
+
+</note>
+<note xml:id="gb11970_comment_com12027">
+<label xml:id="GB03_2_BR524_0_note_011_293_7" copyOf="#start_com_4220"><hi rendition="#fett">293,7</hi>schönen Misel</label>
+<p>Wahrscheinlich Corona Schröter, die in dieser Zeit häufig in Goethes Tagebuch erwähnt wird (vgl. zu <ref target="gb:note#GB03_2_BR521_0_note_002_291_2">291,2</ref>).</p>
+
+</note>
+<note xml:id="gb11970_comment_com12028">
+<label xml:id="GB03_2_BR524_0_note_012_293_8-9" copyOf="#start_com_4221"><hi rendition="#fett">293,8-9</hi>ihr fürstlicher Freund <gap quantity="3" reason="editorial"/> Weege gefunden</label>
+<p>Wohl mit Bezug auf Herzog Carl August, der sich in dieser Zeit für Johanna Louise Gräfin von Werthern zu interessieren begann.</p>
+
+</note>
+<note xml:id="gb11970_comment_com14173">
+<label xml:id="GB03_2_BR524_0_note_013_293_11" copyOf="#start_com_4222"><hi rendition="#fett">293,11</hi>Knebeln besuch ich machmal</label>
+<p>Vgl. GT I 1, 88.</p>
+
+</note>
+<note xml:id="gb11970_comment_com12029">
+<label xml:id="GB03_2_BR524_0_note_014_293_11-12" copyOf="#start_com_4223"><hi rendition="#fett">293,11-12</hi>von Herdern hör ich gar nichts</label>
+<p>Am 25. August war Herders vierter Sohn Adelbert geboren worden; ein Besuch Goethes bei Herder ist für den 27. belegt (vgl. <ref target="gt:dokument#762">GT I 1, 88</ref>).</p>
+
+</note>
+<note xml:id="gb11970_comment_com18172">
+<label xml:id="GB03_2_BR524_0_note_015_293_12" copyOf="#start_com_4224"><hi rendition="#fett">293,12</hi>ein neu Drama</label>
+<p>Möglicherweise mit Bezug auf das am 6. September in Ettersburg aufgeführte Lustspiel Friedrich Hildebrand von Einsiedels „Orpheus und Eurydike“ (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_011_295_11">295,11</ref>); am 2. September fand außerdem auch die Aufführung eines Stückes mit dem Titel „Der verlorene Sohn“ statt (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 158), vielleicht eine Übersetzung aus dem Englischen. – Dass sich die Ankündigung auf den „Egmont“ bezieht, von dem Goethe am 7. September Teile nach Kochberg schickte (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_003_295_1">295,1</ref>), ist nicht ganz auszuschließen, allerdings wenig wahrscheinlich, da er das Drama Charlotte von Stein gegenüber schon früher unter seinem Titel erwähnt hatte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR501_0_note_003_279_16">279,16</ref>).</p>
+
+</note>
+<note xml:id="gb11970_comment_com12043">
+<label xml:id="GB03_2_BR524_0_note_016_293_16-17" copyOf="#start_com_4225"><hi rendition="#fett">293,16-17</hi>den Beutel und die Manschetten</label>
+<p>Wohl Geburtstagsgeschenke Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb11970_comment_com15460">
+<label xml:id="GB03_2_BR524_0_note_017_293_17" copyOf="#start_com_4226"><hi rendition="#fett">293,17</hi>Es ist heute ein schöner Tag.</label>
+<p>Goethes 30. Geburtstag, an dem ihm Herzog Carl August die bevorstehende Ernennung zum Geheimen Rat ankündigte: <quote type="G">zum Geburtstage frey und froh, Nachmittag sagte mir d. Herz. seine Gedan<unclear reason="illegible">c</unclear>ken über Schn.</quote> <supplied>Schnauß</supplied> <quote type="G">und meinen Tittel.</quote> (<ref target="gt:dokument#763">GT I 1, 88</ref>; zur Sache vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_017_295_16-17">295,16-17</ref>.)</p>
+
+</note>
+<note xml:id="gb11970_comment_com12044">
+<label xml:id="GB03_2_BR524_0_note_018_293_18" copyOf="#start_com_4227"><hi rendition="#fett">293,18</hi>Büchern</label>
+<p>Näheres dazu nicht ermittelt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

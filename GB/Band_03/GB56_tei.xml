@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5200"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb56" n="GB 3, Nr. 510">
+  <teiHeader xml:id="gb56_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>510.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 23. Juni 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:46Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb56_tei.xml</idno>
+        <idno type="URI">gb56</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR510_0</idno>
+        <idno type="KSW-ID">56</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="283" to="283">283</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="930" to="931">930-931</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb56_header_hwit1498" corresp="#gb56_source_hwit1498" sameAs="#gb56_comment_hwit1498" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 11</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/56,,1498/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ihren Brief mit den Ilmenauer Nachrichten habe wohl und    unverletzt erhalten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb56_header_acc245" corresp="gb56_comment_acc245">
+            <objectIdentifier>
+              <objectName><quote type="G">Papier und Sieglack</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-06-23">23. Juni 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb56_source_hwit1498" corresp="#gb56_header_hwit1498" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#56/10983"/>
+      <p>
+        <anchor xml:id="GB03_1_BR510_0_283_001"/>
+        <ref target="gb:note#GB03_2_BR510_0_note_001_283_1" xml:id="start_com_4074"/>Ihren Brief mit den Ilm. Nachri<unclear reason="illegible">c</unclear>h<unclear reason="illegible">ten</unclear><ptr n="1" target="#a001_283.1"/>
+        <ref xml:id="end_com_4074"/> habe wohl und unverlezt erhalten, 
+<anchor xml:id="GB03_1_BR510_0_283_002"/>und dancke recht sehr. Fahren Sie fort mir alles zu melden ist 
+<anchor xml:id="GB03_1_BR510_0_283_003"/>gleich nicht sobald und durchaus zu helfen so giebts einem doch mancherley 
+<anchor xml:id="GB03_1_BR510_0_283_004"/>Ideen. Morgen wird <ref target="gb:note#GB03_2_BR510_0_note_002_283_4" xml:id="start_com_4075"/>Hptm Castr.<ref xml:id="end_com_4075"/> von hier abgehen ich gebe 
+<anchor xml:id="GB03_1_BR510_0_283_005"/>ihm <ref target="gb:note#GB03_2_BR510_0_note_003_283_5" xml:id="start_com_4076"/>Geld an Sie<ref xml:id="end_com_4076"/> mit denn <ref target="gb:note#GB03_2_BR510_0_note_004_283_5-6" xml:id="start_com_4077"/>ich habe ihm schon ehmals gesagt dass Sie 
+<anchor xml:id="GB03_1_BR510_0_283_006"/>Ihr Geld durch mich empfingen<ref xml:id="end_com_4077"/>. Er soll erst Rechnung mit <ref target="gb:note#GB03_2_BR510_0_note_005_283_6-7" xml:id="start_com_4078"/>Ihren 
+<anchor xml:id="GB03_1_BR510_0_283_007"/>Wirthen<ref xml:id="end_com_4078"/> machen, eine Art von Contrackt schliesen, und ich will mich 
+<anchor xml:id="GB03_1_BR510_0_283_008"/>alsdenn verbinden alle Viertel iahr die Leute zu bezahlen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR510_0_283_009"/>Hier etwas Papier und Sieglack.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR510_0_283_010"/>W. 23 Jun 79                                                          </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#56/10984" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb56_comment">
+<body>
+<div type="metadata" xml:id="gb56_comment_com116">
+  <ab type="numberAddressee"><label>510.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 23. Juni 1779 → <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb56_comment_com2160">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 11. – 1 Bl. 19,8 × 27,8 cm, &#xBE; S. beschr., egh., Tinte; Vs. oben Mitte von fremder Hd, Tinte: „79. Juni 23<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd (Schöll?, vgl. E), Bleistift: „9“; Bl. nachträglich auf ein unbeschriebenes Bl. geklebt.</p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 176 f., Nr 9.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 42 f., Nr 827 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb56_comment_com3464">
+  <p><quote type="G">Papier und Sieglack</quote> (<ref target="gb:text#GB03_1_BR510_0_283_009">283,9</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb56_comment_com3956">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Kraffts (vgl. <ref target="gb:text#GB03_1_BR510_0_283_001">283,1</ref>). – Der Antwortbrief, auf den sich vermutlich Goethes Brief vom 13. und 17. Juli 1779 (<ref target="gb:dokument#57">Nr 515</ref>) bezieht (vgl. <ref target="gb:text#GB03_1_BR515_0_285_001 #GB03_1_BR515_0_285_002">285,1–2</ref>), ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56_comment_com16340">
+<label xml:id="GB03_2_BR510_0_note_001_283_1" copyOf="#start_com_4074"><hi rendition="#fett">283,1</hi>Ihren Brief mit den Ilm. Nachri<unclear reason="illegible">ch</unclear>t<unclear reason="illegible">en</unclear></label>
+<p>Krafft fertigte Berichte über die wirtschaftlichen und sozialen Missstände in Ilmenau an. Die im Konzept erhaltenen Aufzeichnungen beginnen mit folgender Schilderung: „Die Stadt besteht mehr aus armen als bemittelten Einwohnern. Denen Armen fehlt es an hinlänglichen NahrungsZweigen. Jetzo treibt der eine Theil Ackerbau, aber nur so viel, als er selbst zu seinem Unterhalt nöthig hat. Das Erdreich hier herum ist nicht sehr ergiebig. Ein Theil nährt sich mit kleiner Handelschafft, und dieser ist der kleinste. Nach hiesiger Beschaffenheit giebt es darunter etwas bemittelte, als einen Korn Händler, und etliche Krämer. Der gröste Theil lebt von Holtzmachen zur Flöße oder zum eigenen Verkauff. Würde das Bergwerck wieder angerichtet, so würde die Nahrung bey dem unbemittelten Theil der Einwohner wachsen. <gap quantity="3" reason="editorial"/> Dies aber alles wird die Stadt doch nicht aus ihrer Ohnmacht und gänzlichem Verderben retten, wenn ihr FinanzZustand, ihr Caßen und CämmereyWesen, nicht verbeßert wird. <gap quantity="3" reason="editorial"/> Jeder, der hier einen Griff, Amts wegen in die Caße thun können, hat <gap quantity="3" reason="editorial"/> für sich gesorgt, ohne an das gemeine Wohl zu dencken.“ (H: <ref target="archivdb:dokument#76032">GSA 62/37</ref>, Bl. 1r, 2r, 3r.) – Diese einleitende Analyse unter dem Titel „Kurtzer Begriff von der Beschaffenheit von <hi rendition="#hervor1">Ilmenau</hi>“ findet sich vor dem Konzept des Berichts vom 28. Oktober 1779 (vgl. <ref target="ra:dokument#115">RA 1, 75, Nr 103</ref>). Weitere Berichte stammen vom 1. und vom 29. November 1779 (vgl. <ref target="ra:dokument#116">RA 1, 75 f., Nr 104</ref> und <ref target="ra:dokument#117">105</ref>.).</p>
+
+</note>
+<note xml:id="gb56_comment_com14274">
+<label xml:id="GB03_2_BR510_0_note_002_283_4" copyOf="#start_com_4075"><hi rendition="#fett">283,4</hi>Hptm Castr.</label>
+<p>Jean Antoine Joseph de Castrop, weimarischer Artilleriehauptmann, seit 1764 Ingenieurhauptmann und Mitarbeiter in der Wegebaudirektion (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb46_comment_com3939">Nr 458</ref>).</p>
+
+</note>
+<note xml:id="gb56_comment_com5370">
+<label xml:id="GB03_2_BR510_0_note_003_283_5" copyOf="#start_com_4076"><hi rendition="#fett">283,5</hi>Geld an Sie</label>
+<p>Der 24. Juni, der Johannistag, war von Goethe als Termin für seine Quartalszahlung von 25 Reichstalern an Krafft vorgesehen (vgl. <ref target="gb:text#GB03_1_BR419_0_240_022 #GB03_1_BR419_0_240_024">240,22–24</ref>).</p>
+
+</note>
+<note xml:id="gb56_comment_com5371">
+<label xml:id="GB03_2_BR510_0_note_004_283_5-6" copyOf="#start_com_4077"><hi rendition="#fett">283,5-6</hi>ich habe ihm <gap quantity="3" reason="editorial"/> empfingen</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR499_0_278_020 #GB03_1_BR499_0_278_023">278,20–23</ref>.</p>
+
+</note>
+<note xml:id="gb56_comment_com5372">
+<label xml:id="GB03_2_BR510_0_note_005_283_6-7" copyOf="#start_com_4078"><hi rendition="#fett">283,6-7</hi>Ihren Wirthen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3">268,1-3</ref> und zu <ref target="gb:note#GB03_2_BR508_0_note_002_282_8">282,8</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

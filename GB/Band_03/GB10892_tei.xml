@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5260"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10892" n="GB 3, Nr. 516">
+  <teiHeader xml:id="gb10892_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>516.</label> An <persName key="sndb:person#43419">Carl Theodor von Dalberg</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. Juli 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:28Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10892_tei.xml</idno>
+        <idno type="URI">gb10892</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR516_0</idno>
+        <idno type="KSW-ID">10892</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="286" to="287">286-287</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="937" to="943">937-943</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10892_header_hwit1504" corresp="#gb10892_source_hwit1504" sameAs="#gb10892_comment_hwit1504" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>München</placeName>
+            </settlement>
+            <institution key="sndb:standort#462">BSB</institution>
+            <idno type="shelfmark">Cgm 4830, Nr. 10</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10892,,1504/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ew. Excell. dancke nochmals aufs beste für den Mercken    überschickten Kopf</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10892_header_acc497" corresp="gb10892_comment_acc497">
+            <objectIdentifier>
+              <objectName>Brief Wolfgang Heribert von Dalbergs an Carl Theodor von Dalberg </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-07-21">21. Juli 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43419">Dalberg, Carl Theodor von</persName>
+            <supplied><placeName key="sndb:ort#77775">Erfurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10892_source_hwit1504" corresp="#gb10892_header_hwit1504" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10892/33278"/>
+      <p>
+        <anchor xml:id="GB03_1_BR516_0_286_010"/>Ew Exzel<g ref="#typoSuspension"/> <ref target="gb:note#GB03_2_BR516_0_note_001_286_10" xml:id="start_com_4116"/>dancke nochmals<ref xml:id="end_com_4116"/> aufs beste für <ref target="gb:note#GB03_2_BR516_0_note_002_286_10-11" xml:id="start_com_4117"/>den Mercken überschickten 
+<anchor xml:id="GB03_1_BR516_0_286_011"/>Kopf<ref xml:id="end_com_4117"/>, seine Freude wird sehr gros seyn.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR516_0_286_012"/>Was die <ref target="gb:note#GB03_2_BR516_0_note_003_286_12" xml:id="start_com_4118"/>Mittheilung meiner Iphigenie<ref xml:id="end_com_4118"/> betrifft halt ich mir vor <ref target="gb:note#GB03_2_BR516_0_note_004_286_12" xml:id="start_com_4119"/>Ex.<ref xml:id="end_com_4119"/>
+        <anchor xml:id="GB03_1_BR516_0_286_013"/>Exzel<g ref="#typoSuspension"/> mündlich meine Bedencklichkeiten zu sagen. Ein Drama ist 
+<anchor xml:id="GB03_1_BR516_0_286_014"/>wie ein Brennglas wenn der Ackteur unsicher ist, und<ptr n="1" target="#a001_286.14"/> den <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR516_0_note_005_286_14" xml:id="start_com_4120"/>focum</emph>
+        <ref xml:id="end_com_4120"/> nicht 
+<anchor xml:id="GB03_1_BR516_0_286_015"/>treffend findet<ptr n="2" target="#a002_286.15"/>, weis kein Mensch was er aus dem kalten und vagen 
+<anchor xml:id="GB03_1_BR516_0_286_016"/>Scheine machen soll. Auch ist es viel zu nachlässig geschrieben als dass 
+<anchor xml:id="GB03_1_BR516_0_286_017"/>es von <ref target="gb:note#GB03_2_BR516_0_note_006_286_17" xml:id="start_com_4121"/>dem gesellschafftlich<unclear reason="illegible">en</unclear> Theater<ref xml:id="end_com_4121"/> sich sobald in die freyere Welt 
+<anchor xml:id="GB03_1_BR516_0_286_018"/>wagen dürfte. Ich wünsche bald Gelegenheit zu haben es Ew Exzel<g ref="#typoSuspension"/> 
+<anchor xml:id="GB03_1_BR516_0_286_019"/>selbst <ref target="gb:note#GB03_2_BR516_0_note_007_286_19" xml:id="start_com_4122"/>vorzulesen<ref xml:id="end_com_4122"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR516_0_286_020"/><ref target="gb:note#GB03_2_BR516_0_note_008_286_20" xml:id="start_com_4123"/>Den Brief<ref xml:id="end_com_4123"/> leg ich hier wieder bey, und bitte mich<ptr n="3" target="#a003_286.20"/> dero H<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR516_0_note_009_286_20" xml:id="start_com_4124"/>Bruder<ref xml:id="end_com_4124"/>
+        <anchor xml:id="GB03_1_BR516_0_286_021"/>bestens zu empfehlen und für sein Zutraun <pb n="2" facs="gb:digitalisate#10892/33279"/> zu dancken. Wäre ich in<ptr n="4" target="#a004_286.21"/>
+        <anchor xml:id="GB03_1_BR516_0_286_022"/>Mannheim und kennte Truppe und Publikum mit Vergnügen wollt 
+<anchor xml:id="GB03_1_BR516_0_286_023"/>ich was man verlangte versuchen, aber ohne diese data, halt ich für 
+<anchor xml:id="GB03_1_BR516_0_286_024"/>mein geringes<ptr n="5" target="#a005_286.24"/> Talent unmöglich etwas treffendes hervorzubringen, 
+<anchor xml:id="GB03_1_BR516_0_286_025"/>wie ein Dekorations Mahler<ptr n="6" target="#a006_286.25"/> schweerlich einen <ref target="gb:note#GB03_2_BR516_0_note_010_286_25" xml:id="start_com_4125"/>Platfond<ref xml:id="end_com_4125"/> würde anzugeben 
+<anchor xml:id="GB03_1_BR516_0_286_026"/>wagen, wenn er nicht die Form des Gewölbes und die Weite 
+<anchor xml:id="GB03_1_BR516_0_286_027"/>des Standpuncktes und andre Lokale Umstände bestimmt wüsste und 
+<anchor xml:id="GB03_1_BR516_0_286_028"/>beherzigt hätte.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR516_0_287_001"/>Behalten mir Ew Exzel<g ref="#typoSuspension"/>. dero Gewogenheit.     Weimar d<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR516_0_287_002"/>21 Jul 1779.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR516_0_287_003"/>
+        <signed rend="signature" rendition="#einrueck18">Goethe</signed>
+      </closer>
+    <pb n="3" facs="gb:digitalisate#10892/33280" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10892/33281" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10892_comment">
+<body>
+<div type="metadata" xml:id="gb10892_comment_com692">
+  <ab type="numberAddressee"><label>516.</label> An <persName key="sndb:person#43419">Carl Theodor von Dalberg</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. Juli 1779 → <supplied><placeName key="sndb:ort#77775">Erfurt</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10892_comment_com2736">
+  <p>H: Bayerische Staatsbibliothek München, Sign.: Cod. germ. 4830, Nr 10. – 1 Bl. 19,8 × 24 cm, 1 &#xBE; S. beschr., egh., Tinte. – Faksimile: Goethe an Karl Theodor von Dalberg. Bayerische Staatsbibliothek München Cgm 4830 Nr 10. Umschrift und Text: Karl Dachs. 4 Bl. Wiesbaden 1971.</p>
+  <p>E: Briefe an W. H. Freiherrn von Dalberg. In: Weimarisches Jahrbuch für deutsche Sprache, Litteratur und Kunst. Hrsg. von Hoffmann von Fallersleben und Oskar Schade. Bd 5. Hannover 1856, S. 21 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 47, Nr 833.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10892_comment_com3641">
+  <p>Brief Wolfgang Heribert von Dalbergs an Carl Theodor von Dalberg (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR516_0_note_003_286_12">286,12</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10892_comment_com4532">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Carl Theodor von Dalbergs (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR516_0_note_003_286_12">286,12</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Carl Theodor Anton Maria Freiherr von Dalberg (1744–1817) stammt aus einem in der Nähe von Worms ansässigen Reichsadelsgeschlecht, das seit dem frühen Mittelalter Bischöfe, Kurfürsten, Kämmerer und Hofräte hervorgebracht hat. Er war der Sohn des kurmainzischen Geheimen Rats Franz Heinrich von Dalberg und seiner Frau Maria Sophia Anna geb. Gräfin von Eltz-Kempenich. Der Vater wirkte als Kämmerer von Worms, kaiserlicher Kammerherr, weltlicher Statthalter in Worms, Burggraf zu Friedberg und Oberamtmann in Oppenheim. Von seinen zehn Geschwistern wurden die beiden jüngeren Brüder Wolfgang Heribert, von 1778 bis 1803 Intendant des Mannheimer Theaters, und Johann Friedrich Hugo, Komponist und Musiktheoretiker, bekannt. Nach der Unterrichtung durch Hauslehrer bezog Dalberg 1759 als 15-Jähriger die Universität Heidelberg, um Jura zu studieren. Das Studium schloss er bereits Ende 1761 mit einer Promotion oder dem Erwerb des Lizentiats ab und unternahm im Jahr darauf eine Bildungsreise, die ihn nach Rom und Mailand sowie durch Frankreich, die Niederlande und an einige deutsche Fürstenhöfe führte. Nach seiner Rückkehr trat er 1763 mit 19 Jahren in die mainzische Regierung unter Kurfürst Emmerich Joseph Freiherrn von und zu Breidbach-Bürresheim ein. 1768 wurde er Domkapitular in Mainz, 1770 Domherr von Worms. Im Jahr darauf ernannte ihn der Kurfürst zum Geheimen Rat und zum kurmainzischen Statthalter in Erfurt. Das seit dem frühen Mittelalter mit dem Erzbistum Mainz vereinigte Bistum Erfurt hatte immer wieder versucht, selbstständig zu werden, war aber seit der gewaltsamen Wiederinbesitznahme durch Mainz im Jahr 1664 eine mainzische Landstadt. Das Amt des Statthalters trat Dalberg Anfang Oktober 1772 an. Er verwaltete es im Sinne des aufgeklärten Absolutismus und trug viel zu Ausgleich und Toleranz zwischen Katholiken und Protestanten bei, wobei er von 1774 an vom neuen Kurfürsten und Erzbischof von Mainz Friedrich Carl Joseph von und zu Erthal unterstützt wurde. Er galt nach Goethes Wort (in einem Paralipomenon zu „Dichtung und Wahrheit“) als <quote type="G">Hoffnungsstern der damaligen catholischen Welt </quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 2, 481). Bis  Erfurt 1802 in preußischen Besitz überging, übte er drei Jahrzehnte lang eine erfolgreiche Regierungstätigkeit aus, indem er Handel und Industrie förderte sowie das Gesundheits- und Schulwesen verbesserte. 1776 belebte er die 1754 gegründete Erfurter Akademie nützlicher Wissenschaften neu. Weniger erfolgreich verlief sein Versuch, der Erfurter Universität zu neuer Bedeutung zu verhelfen, als deren Präsidenten er Wieland vergeblich zu gewinnen suchte. 1779 wurde Dalberg Domherr in Würzburg und Rektor der dortigen Universität.</p>
+  <p rendition="#einrueck1">Seiner liberalen Gesinnung und seinem Interesse am kulturellen Leben entsprach die Einrichtung einer ‚Assemblée‘, die von 1786 an jeden Dienstag in der Erfurter Statthalterei stattfand: ein geselliges Treffen, an dem Mitglieder aller Stände, vom Adligen bis zum Handwerker, teilnahmen (vgl. den Bericht des Erfurter Buchhändlers Constantin Beyer über die Gesellschaft vom 1. Dezember 1789, die auch von Goethe und Herzog Carl August besucht wurde; <ref target="sndb:sigle#103">Bode</ref> 1, 407 f., Nr 695). Dalbergs Amtsführung, seine Menschenfreundlichkeit und Liebenswürdigkeit brachten ihm Anerkennung ein; der (republikanisch gesinnte) Schriftsteller Georg Friedrich Rebmann, der 1794/95 in Erfurt lebte, nannte ihn einen der „wenigen Regenten in Deutschland, welche edel genug denken, um es zu verschmähen, über Sklaven zu herrschen, und welche die Liebe und Achtung freyer Menschen zu verdienen wissen.“ (Wanderungen und Kreuzzüge durch einen Theil Deutschlands. 2. Aufl. Altona 1796, S. 47.) Nach Rebmann lautete das Urteil der Erfurter Bürger über den Statthalter: „Er ist ein rechtschaffener Mann, der das Gute will, und nach möglichsten Kräften, selbst mit eigner Aufopferung, dazu beiträgt, es zu bewirken.“ (Ebd., S. 47 f.) Dalbergs persönliche Interessen waren vielfältig; er schrieb über Rechtswissenschaft, Geschichte, Ethik, Ästhetik, Baukunst, Chemie und Physiognomie. Er unterhielt enge Beziehungen zum Hof in Gotha, wo der Mathematik und Astronomie treibende Herzog Ernst II., der wie Dalberg selbst Mitglied des Illuminatenordens war, die Wissenschaften förderte, vor allem aber zum Hof in Weimar, den er bereits 1763, von seiner Bildungsreise zurückkehrend, besucht hatte. Herzogin Anna Amalia stand er bei der Planung der Bildungsreise und beim Regierungsantritt ihres Sohnes Carl August beratend zur Seite. Am 24. September 1775 schrieb sie an Jacob Friedrich von Fritsch, Dalberg sei „un homme respectable tant par Son caractère que par Son habilité“ (<ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 251. – <gap quantity="3" reason="editorial"/> ein ehrwürdiger Mann, sowohl durch seinen Charakter als auch durch seine Fähigkeit). 1785 wurde gegen die Einflussnahme Österreichs und zum Schutz der Reichsverfassung der Deutsche Fürstenbund gegründet, vor allem auf Initiative des Weimarer Herzogs Carl August, der Dalberg für dieses politische Bündnis gewann. Zu den Kurfürsten, die sich dem Fürstenbund anschlossen, gehörte auch der Mainzer Erzbischof Friedrich Carl Joseph von und zu Erthal, der zugleich bestrebt war, seinen späteren Nachfolger auf diese Politik zu verpflichten. Als solcher setzte sich unter mehreren Bewerbern Dalberg durch; mit Hilfe Preußens und Herzog Carl Augusts wurde er 1787 zum Koadjutor des Kurfürsten von Mainz und Worms gewählt. 1788 übernahm er auch das Amt des Koadjutors des Fürstbischofs Maximilian von Rodt in Konstanz. Nach dessen Tod im Januar 1800 erhielt Dalberg die Würde des Fürstbischofs von Konstanz, 1802 nach dem Tode Erthals zugleich die des Erzbischofs und Kurfürsten von Mainz und Worms; damit war er der (letzte) Erzkanzler des Heiligen Römischen Reiches Deutscher Nation. 1805 wurde der Mainzer Erzstuhl nach Regensburg, 1806 nach Aschaffenburg verlegt.</p>
+  <p rendition="#einrueck1">Dalbergs politischer Spielraum blieb durch die Vormachtstellung des napoleonischen Frankreich beschränkt. Seine Abneigung gegen die Französische Revolution und die Bewunderung Napoleons als deren Überwinder, was ihn mit Goethe verband, veranlassten ihn, eine von ‚patriotischer‘ Seite heftig kritisierte Politik der Annäherung an Frankreich zu betreiben, wodurch es ihm immerhin gelang, das Kurfürstentum Mainz vor der Säkularisation zu bewahren. Das Ende des Alten Reichs konnte er jedoch nicht verhindern. Nachdem 1806 der Rheinbund, eine Konföderation von zunächst sechzehn deutschen Fürsten unter dem Protektorat Napoleons, an dessen Stelle getreten war, wurde Dalberg als Präsident der Bundesversammlung und Kanzler des Rheinbundes der Titel eines Fürstprimas verliehen, 1810 auch der eines Großherzogs von Frankfurt. 1813, nach dem Sturz Napoleons und dem Zerfall des Rheinbundes und des Großherzogtums Frankfurt, zog sich Dalberg nach Konstanz zurück und widmete sich als Erzbischof ohne Territorium nur noch geistlichen Aufgaben. In der Stadt am Bodensee starb er am 10. Februar 1817, zwei Tage vor seinem 73. Geburtstag.</p>
+  <p rendition="#einrueck1">Die Einschätzung seiner Person und Leistung ist bis heute ambivalent. Während seine aufgeklärt-liberale Weltanschauung und die Fortschrittlichkeit seiner politisch-sozialen Zielsetzungen Anerkennung finden, erhebt sich Kritik an politischen Fehleinschätzungen und die Verurteilung seines Schwankens zwischen Treue zum Reich und Verehrung Napoleons. Wenige Tage nach Dalbergs Tod schrieb Carl Ludwig von Knebel an Charlotte von Schiller: „Sein empfängliches Gemüth hat ihn in die bösen Schlingen des schlauesten Bösewichts gerathen lassen, und dieß hat leider seinem Charakter eine <supplied>sic</supplied> große Makel gebracht. <gap quantity="3" reason="editorial"/> ein Staatsmann, ein Weiser, für den er so lange gegolten hat, und in der That alle Lehren und Grundsätze seines Berufes von früher Jugend eingesaugt, der darf, ohne Verlust seines Namens, an keiner solchen Klippe hangen bleiben.“ (Charlotte von Schiller und ihre Freunde. [Hrsg. von Ludwig Urlichs.] Bd 3. Stuttgart 1865, S. 374.) Knebel fügt hinzu: „Er war ein guter Mann, aber aus Gutmüthigkeit zuweilen etwas schwach und eitel. Auch hatte in seinem Geiste nicht alles <hi rendition="#hervor1">festen Grund</hi>, sondern schwebte und zerfloß in ungewissen und allzuweiten Räumen.“ (Ebd., S. 374 f.)</p>
+  <p rendition="#einrueck1">Dass <quote type="G">der für alles Gute so thätige <hi rendition="#hervor1">Karl von Dalberg</hi></quote> (Zu brüderlichem Andenken Wielands; <ref target="sndb:sigle#1157">WA</ref> I 36, 317), wie er seinen Erfurter <quote type="G">Nachbarn und Lebensgenossen</quote> (Brief an Zelter, 10. April 1827; Goethe-Zelter 1, 989) noch 1813 apostrophierte, beste Absichten verfolgte, davon war Goethe von Anfang an überzeugt; aber schon in einem Brief an Charlotte von Stein vom 5. Mai 1780 gab er zu bedenken: <quote type="G">Der Stadthalter ist doch eigentlich auch kein rechtes Kind dieser Welt, und so klug und brav seine Plane sind, fürcht ich doch es geht einer nach dem andern zu scheitern.</quote> (<ref target="gb:text#GB04_1_BR080_0_052_001 #GB04_1_BR080_0_052_003">GB 4 I, 52,1-3</ref>.) Goethe hat Dalberg vermutlich unmittelbar nach seiner Ankunft in Weimar persönlich kennen gelernt; am 8. November 1775 wird im Fourierbuch verzeichnet, „der H<g ref="#typoSuspension"/>. Stadthalter“ sei in der Stadt eingetroffen (<ref target="sndb:sigle#3941">FB 1775</ref>, S. 263). In seinem Tagebuch erwähnt Goethe ihn zum ersten Mal, als er am 31. Juli/1. August 1776 in Ilmenau mit ihm zusammentraf: <quote type="G">Viel guts mit Dalberg</quote> (<ref target="gt:dokument#107">GT I 1, 22</ref>), heißt es unter dem 1. August. Dieser nahm gelegentlich auch am jugendlichen Treiben um Goethe und Carl August teil; am 3. August 1776 schrieb Goethe an Jacob Friedrich von Fritsch, Dalberg sei <quote type="G">nicht ohne Erdgeruch</quote> (<ref target="gb:text#GB03_1_BR148_0_091_013">91,13</ref>) aus dem Thüringer Wald verabschiedet worden. Im Jahr darauf war Dalberg mit von der Partie, als Goethe, Carl August, Einsiedel und andere am 4./5. Juli 1777 in Dornburg <quote type="G">Nachts auf der Streue</quote> (<ref target="gt:dokument#385">GT I 1, 44</ref>) schliefen und den nächsten Morgen mit Böllergeschützen begrüßten (vgl. <ref target="gt:dokument#386">ebd.</ref>). Goethe schätzte Umgang und Gespräch mit dem Statthalter: <quote type="G">Wir haben schon was rechts geschwäzzt, für mich ist sein Umgang von viel Nuzzen. Durch die Erzählungen aus seinem manigfaltigen politischen Treiben, hebt er meinen Geist aus dem einfachen Gewebe in das ich mich einspinne</quote> (Brief an Charlotte von Stein, 5. Mai 1780; <ref target="gb:text#GB04_1_BR080_0_051_022 #GB04_1_BR080_0_051_025">GB 4 I, 51,22-25</ref>). Er bewunderte <quote type="G">eine treffliche Gewandtheit in bürgerlichen und Politischen Dingen, und eine beneidenswerthe Leichtigkeit</quote> (<ref target="gb:text#GB04_1_BR080_0_052_003 #GB04_1_BR080_0_052_004">GB 4 I, 52,3-4</ref>) an ihm. Dass er <quote type="G">voller Kenntnisse und Interesse für tausend Dinge</quote> (Brief an Charlotte von Stein, 7. Dezember 1781; <ref target="gb:text#GB04_1_BR543_0_356_011 #GB04_1_BR543_0_356_012">GB 4 I, 356,11-12</ref>) stecke, wertete Goethe nicht als bedenkliche Vielseitigkeit, sondern empfand es als anregend: <quote type="G">Der Stadthalter hat schon wieder mit mir ein unendliches Gespräch angefangen. Das eigne Wesen eines Menschen das ganz fremde Würckungen aus sich hervorbringt ist mir sehr merckwürdig</quote> (<ref target="gb:text#GB04_1_BR486_0_321_006 #GB04_1_BR486_0_321_009">GB 4 I, 321,6-9</ref>), schreibt er am 15. September 1781 an Charlotte von Stein, und am 12. Juni 1783 heißt es: <quote type="G">Man trifft immer etwas neues bey ihm an.</quote> (<ref target="gb:text#GB05_1_BR418_0_248_006">GB 5 I, 248,6</ref>.) Dalberg seinerseits interessierte sich für Goethes poetische Werke – aus dem vorliegenden Brief geht hervor, dass er die „Iphigenie“ für das Mannheimer Theater zu gewinnen versucht hatte –, besonders aber für seine naturwissenschaftlichen Arbeiten. So drückte Goethe Dalberg wiederholt seinen Dank für dessen Anteilnahme an seiner „Farbenlehre“ aus, etwa in seinem Brief vom 19. März 1794 (vgl. <ref target="gb:dokument#4091">GB 10, Nr 9</ref>); später heißt es im „Historischen Theil“ der „Farbenlehre“ unter der Überschrift „Konfession des Verfassers“: <quote type="G">Der Fürst Primas, damals in Erfurt, schenkte meinen ersten und allen folgenden Versuchen eine ununterbrochene Aufmerksamkeit, ja er begnadigte einen umständlichen Aufsatz mit durchgehenden Randbemerkungen von eigner Hand, den ich noch als eine höchst schätzbare Erinnerung unter meinen Papieren verwahre.</quote> (<ref target="sndb:sigle#1321">LA</ref> I 6, 423.) Ähnlich bekannte Goethe in den Schriften zur Morphologie: <quote type="G">Bei aller wissenschaftlichen Arbeit bin ich ihm</quote> <supplied>Dalberg</supplied> <quote type="G">viel schuldig geworden, weil er das mir eigentümliche Hinstarren auf die Natur zu bewegen, zu beleben wußte.</quote> (<ref target="sndb:sigle#1321">LA</ref> I 9, 70.) Auch amtlich kam es zu gelegentlicher Zusammenarbeit. Dalberg wirkte ausgleichend, als im Sommer 1776 Goethes Eintritt ins Geheime Consilium für Unruhe unter den etablierten Beamten sorgte. Er untersützte die von Goethe betriebene Berufung Herders nach Weimar. Gemeinsam besorgten sie 1778 dem Maler Friedrich Müller ein Stipendium für einen Rom-Aufenthalt (vgl. Dalbergs Brief an Goethe vom 4. Mai 1778; <ref target="ra:dokument#93">RA 1, 70, Nr 85</ref>). Als im Sommer 1792 die Stadt Erfurt nach den Unruhen an der Jenaer Universität die dortigen Studenten für sich zu gewinnen suchte, verhinderte dies ein Briefwechsel zwischen Goethe und Dalberg (vgl. Goethes Brief vom 19. Juli 1792 [<ref target="gb:dokument#4009">GB 9, Nr 98</ref>] und Dalbergs Antwort vom selben Tag [abgedruckt in: Die Grenzboten 37 (1878). Nr 41, S. 42). Die Beziehung lockerte sich erst nach Beendigung von Dalbergs Erfurter Statthalterschaft, als dieser 1802 Fürstbischof von Mainz wurde. Dabei mag die geographische Entfernung von größerer Bedeutung gewesen sein als die in politischen Auffassungen. Anders als Herzog Carl August, der Dalberg als Gefolgsmann Napoleons verachtete, setzte sich Goethe dafür ein, dem <quote type="G">unschätzbaren Manne</quote> <supplied>Dalberg</supplied> <gap quantity="3" reason="editorial"/><quote type="G">, wegen eigner Bildung und Förderung, ein Denkmal zu setzen</quote> (Brief an Ferdinand von Lamezan, 12. Januar 1804; <ref target="sndb:sigle#1157">WA</ref> IV 17, 10). Eine der letzten persönlichen Begegnungen fand am 7. Oktober 1808 bei Caroline von Wolzogen in Erfurt statt (vgl. <ref target="gt:dokument#4786">GT III 1, 489</ref>). Als Goethe 1812 nach Erhalt eines (nicht überlieferten) Briefes von Dalberg auf die lange Bekanntschaft mit diesem zurückblickte, schrieb er am 28. Januar an Caroline von Wolzogen: <quote type="G">Wie sehr erkenne ich darin die Dauer jener Gesinnungen, die mich früher so glücklich machten. Je mehr ich dankbar empfinde, wie viel ich diesem außerordentlichen Manne in meiner Jugend schuldig geworden, desto mehr freut es mich, daß Zeit und Entfernung, ja so mancher Wechsel der Dinge nichts an einem Verhältniß ändern konnten, das auf wahren Grund gebaut war.</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 22, 247.) An dieser Einschätzung änderte sich offenbar auch nichts nach dem Sturz Napoleons und dem Rückzug Dalbergs aus der politischen Öffentlichkeit. Dies geht aus einem Brief Dalbergs an Caroline von Wolzogen vom 24. November 1814 hervor; darin äußert er seine Genugtuung über einen (nicht überlieferten) Brief Goethes: „Unser genialischer herrlicher Goethe und der biedere Senator Steitz sind bis jetzt die einzigen Frankfurter, deren Antheil an meinem Schicksal mir bekannt geworden ist.“ (Literarischer Nachlaß der Frau Caroline von Wolzogen. Bd 1. Leipzig 1848, S. 86.)</p>
+  <p rendition="#einrueck1">Trotz der langjährigen Bekanntschaft sind nur sieben Briefe Goethes an Dalberg überliefert, und zwar aus dem Zeitraum 1779–1794; der Briefwechsel dürfte jedoch bereits bald nach Goethes Eintreffen in Weimar Ende 1775 eingesetzt haben. Von den Briefen Dalbergs an Goethe hat sich rund ein Dutzend erhalten, aus den Jahren 1778 bis 1797. – Literaturhinweise: Karl von Dalberg und seine Zeit. Zur Biographie und Charakteristik des Fürsten Primas von Karl Freiherrn von Beaulieu-Marconnay. 2 Bde. Weimar 1879; Wolfgang Vulpius: Goethe und Karl Theodor von Dalberg. In: <ref target="sndb:sigle#1266">GJb</ref> 90 (1973), 212–232; Hans Tümmler: Goethe und Erfurt, mit besonderer Berücksichtigung seiner Beziehung zu dem kurmainzischen Statthalter von Dalberg. In: Thüringische Forschungen 1993, S. 273–293; Herbert Hömig: Carl Theodor von Dalberg. Staatsmann und Kirchenfürst im Schatten Napoleons. Paderborn, München, Wien, Zürich 2011.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10892_comment_com10037">
+<label xml:id="GB03_2_BR516_0_note_001_286_10" copyOf="#start_com_4116"><hi rendition="#fett">286,10</hi>dancke nochmals</label>
+<p>Der vorangegangene Brief Goethes an Dalberg aus der Zeit von Johann Heinrich Mercks Aufenthalt in Weimar vom 31. Mai bis zum 13. Juli 1779 ist nicht überliefert (vgl. <ref target="gb:dokument#52690">EB 255</ref>).</p>
+
+</note>
+<note xml:id="gb10892_comment_com17653">
+<label xml:id="GB03_2_BR516_0_note_002_286_10-11" copyOf="#start_com_4117"><hi rendition="#fett">286,10-11</hi>den Mercken überschickten Kopf</label>
+<p>Johann Heinrich Merck war am 30. Mai 1779 in Erfurt eingetroffen und abends mit Goethe <quote type="G">beym Stadthalter</quote> (<ref target="gt:dokument#723">GT I 1, 79</ref>) gewesen: <quote type="G">Viel geschwäzzt.</quote> (Ebd.) Während des sich anschließenden Aufenthalts von Merck in Weimar hatte ihm, möglicherweise angeregt durch die Unterhaltungen, Dalberg ein (Porträt?-)Bild geschickt. Auf einen nicht überlieferten Dankbrief Mercks antwortete Dalberg diesem am 3. August 1779: „Das Bildchen schickte ich Ihnen ohne alle Prätension. Mein Herz gab mir ein, es würde Ihnen mehr Freude machen, als mir, weil Sie des Mannes Freund waren.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 262.) Um wessen Bildnis es sich handelte, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10892_comment_com17578">
+<label xml:id="GB03_2_BR516_0_note_003_286_12" copyOf="#start_com_4118"><hi rendition="#fett">286,12</hi>Mittheilung meiner Iphigenie</label>
+<p>Goethes Drama „Iphigenie auf Tauris“ war im Februar/März 1779 in einer 1. (Prosa-)Fassung entstanden und am 6. April vom Weimarer Liebhabertheater uraufgeführt worden. Wolfgang Heribert von Dalberg, der Intendant des Mannheimer Nationaltheaters, hatte offenbar in einem (nicht überlieferten) Brief bei seinem Bruder, dem Statthalter, angefragt, ob das Stück für die Mannheimer Bühne zu gewinnen sei. Diesen Brief hatte Carl Theodor von Dalberg wohl mit dem Bezugsbrief an Goethe weitergeleitet, der ihn in der Beilage zum vorliegenden Brief wieder zurückschickte. Der Statthalter wiederum schickte Goethes Brief an seinen Bruder weiter, in dessen Nachlass er sich fand (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 4, 349).</p>
+
+</note>
+<note xml:id="gb10892_comment_com10051">
+<label xml:id="GB03_2_BR516_0_note_004_286_12" copyOf="#start_com_4119"><hi rendition="#fett">286,12</hi>Ex.</label>
+<p>Versehentlich für ‚Ew.‘</p>
+
+</note>
+<note xml:id="gb10892_comment_com10052">
+<label xml:id="GB03_2_BR516_0_note_005_286_14" copyOf="#start_com_4120"><hi rendition="#fett">286,14</hi><emph rendition="#latin">focum</emph></label>
+<p>Akkusativ von lat. focus.</p>
+
+</note>
+<note xml:id="gb10892_comment_com10053">
+<label xml:id="GB03_2_BR516_0_note_006_286_17" copyOf="#start_com_4121"><hi rendition="#fett">286,17</hi>dem gesellschafftlich<unclear reason="illegible">en</unclear> Theater</label>
+<p>Gemeint ist das Liebhabertheater in Weimar.</p>
+
+</note>
+<note xml:id="gb10892_comment_com10054">
+<label xml:id="GB03_2_BR516_0_note_007_286_19" copyOf="#start_com_4122"><hi rendition="#fett">286,19</hi>vorzulesen</label>
+<p>Ob dies geschah, ist nicht bekannt.</p>
+
+</note>
+<note xml:id="gb10892_comment_com10055">
+<label xml:id="GB03_2_BR516_0_note_008_286_20" copyOf="#start_com_4123"><hi rendition="#fett">286,20</hi>Den Brief</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR516_0_note_003_286_12">286,12</ref>.</p>
+
+</note>
+<note xml:id="gb10892_comment_com10056">
+<label xml:id="GB03_2_BR516_0_note_009_286_20" copyOf="#start_com_4124"><hi rendition="#fett">286,20</hi>Bruder</label>
+<p>Wolfgang Heribert von Dalberg.</p>
+
+</note>
+<note xml:id="gb10892_comment_com10057">
+<label xml:id="GB03_2_BR516_0_note_010_286_25" copyOf="#start_com_4125"><hi rendition="#fett">286,25</hi>Platfond</label>
+<p>Franz. plafond: Zimmerdecke.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

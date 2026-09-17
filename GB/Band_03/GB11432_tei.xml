@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1320"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11432" n="GB 3, Nr. 131">
+  <teiHeader xml:id="gb11432_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>131.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Mitte Juni? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11432_tei.xml</idno>
+        <idno type="URI">gb11432</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR131_0</idno>
+        <idno type="KSW-ID">11432</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="76" to="76">76</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="296" to="297">296-297</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11432_header_hwit1109" corresp="#gb11432_source_hwit1109" sameAs="#gb11432_comment_hwit1109" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/159,I</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:341056</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11432,,1109/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Einsiedel, ich bitte dich, strecke deinen Stumpfsinn an die Rolle! Die Andern machen's brav</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-06-11" to="1776-06-20"><supplied>Mitte Juni? 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-11-28"><supplied>28.? November 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#46103">Einsiedel, Friedrich Hildebrand von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11432_source_hwit1109" corresp="#gb11432_header_hwit1109" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11432/11136"/>
+      <p>
+        <anchor xml:id="GB03_1_BR131_0_076_009"/>Einsiedel ich bitte dich strecke deinen stumpfsinn an die Rolle. Die 
+<anchor xml:id="GB03_1_BR131_0_076_010"/>Andern machens brav, mit dir möchte ich’s unter uns morgen probiren 
+<anchor xml:id="GB03_1_BR131_0_076_011"/>auf den Sonnabend zusammen Montags auf dem Theater, Dienstag 
+<anchor xml:id="GB03_1_BR131_0_076_012"/>oder Mittwoch spielen.      G.</p>
+    <pb n="2" facs="gb:digitalisate#11432/11137"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11432_comment">
+<body>
+<div type="metadata" xml:id="gb11432_comment_com1168">
+  <ab type="numberAddressee"><label>131.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Mitte Juni? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11432_comment_com1913">
+  <p>Vgl. Datierung zu <ref target="gb:note#gb11427_comment_com1692">Nr 124</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11432_comment_com3212">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#341056">GSA 29/159,I</ref>. – 1 Bl. 20,3 × 16,5 cm, &#x2153; S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Adresse: <quote type="G">H<g ref="#typoSuspension"/> v. Einsiedel</quote>, rotes Bildsiegel: Halbporträt mit erhobenem Arm, unten links Siegelausriss; untere rechte Ecke des Blattes ausgerissen.</p>
+  <p>E: Die Grenzboten 32 (1873). Nr 27, S. 5 (Carl August Hugo Burkhardt). – Faksimile in: Manuskripte 4. Hrsg. von der Freundesgesellschaft des Goethe- und Schiller-Archivs Weimar. Weimar 2011, S. 79.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 122, Nr 531 (mit Textkorrekturen in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 30, 254).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11432_comment_com5008">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11428_comment_com5153">Nr 130</ref>.</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

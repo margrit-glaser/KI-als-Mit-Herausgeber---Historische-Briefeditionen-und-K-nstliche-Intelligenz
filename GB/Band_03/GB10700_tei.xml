@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="700"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10700" n="GB 3, Nr. 70">
+  <teiHeader xml:id="gb10700_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>70.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78408">Leipzig</placeName>, 25. März 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:28Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10700_tei.xml</idno>
+        <idno type="URI">gb10700</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR070_0</idno>
+        <idno type="KSW-ID">10700</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="47" to="48">47-48</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="187" to="190">187-190</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10700_header_hwit909" corresp="#gb10700_source_hwit909" sameAs="#gb10700_comment_hwit909" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Großherzogliches Hausarchiv A XIX, Nr. 42</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10700,,909/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Herre, da bin ich nun. in Leipzig, ist mir sonderlich worden beym Nähern, davon</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+            <date when="1776-03-25">25. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10700_source_hwit909" corresp="#gb10700_header_hwit909" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10700/25889"/>
+      <p>
+        <anchor xml:id="GB03_1_BR070_0_047_014"/>Lieber <ref target="gb:note#GB03_2_BR070_0_note_001_47_14" xml:id="start_com_0723"/>Herre<ref xml:id="end_com_0723"/>, da <ref target="gb:note#GB03_2_BR070_0_note_002_47_14" xml:id="start_com_0724"/>bin ich nun in<ptr n="1" target="#a001_47.14"/> Leipzig<ref xml:id="end_com_0724"/>, ist mir<ptr n="2" target="#a002_47.14"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_003_47_14" xml:id="start_com_0725"/>sonderlich worden<ref xml:id="end_com_0725"/>
+        <anchor xml:id="GB03_1_BR070_0_047_015"/>beym Nähern, davon mündlich mehr, und kann nicht genug sagen 
+<anchor xml:id="GB03_1_BR070_0_047_016"/>wie sich mein Erdgeruch und Erdgefühl gegen die schwarz, grau, steifröckigen, 
+<anchor xml:id="GB03_1_BR070_0_047_017"/>krumbeinigen Perrückengeklebten, Degenschwänzlichen 
+<anchor xml:id="GB03_1_BR070_0_047_018"/>Magisters, gegen die Feyertags berockte, <ref target="gb:note#GB03_2_BR070_0_note_004_47_18" xml:id="start_com_0726"/>Allmodische<ref xml:id="end_com_0726"/>, schlanckliche; 
+<anchor xml:id="GB03_1_BR070_0_047_019"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_005_47_19" xml:id="start_com_0727"/>vieldünckliche<ref xml:id="end_com_0727"/> Studenten<ptr n="3" target="#a003_47.19"/> Buben, gegen die <ref target="gb:note#GB03_2_BR070_0_note_006_47_19" xml:id="start_com_0728"/>Zuckende<ref xml:id="end_com_0728"/>, krinsende, 
+<anchor xml:id="GB03_1_BR070_0_047_020"/>schnäbelnde, und <ref target="gb:note#GB03_2_BR070_0_note_007_47_20" xml:id="start_com_0729"/>schwumelende<ref xml:id="end_com_0729"/> Mägdlein, und gegen die Hurenhaffte, 
+<anchor xml:id="GB03_1_BR070_0_047_021"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_008_47_21" xml:id="start_com_0730"/>strozzliche<ref xml:id="end_com_0730"/>, <ref target="gb:note#GB03_2_BR070_0_note_009_47_21" xml:id="start_com_0731"/>schwänzliche<ref xml:id="end_com_0731"/> und <ref target="gb:note#GB03_2_BR070_0_note_010_47_21" xml:id="start_com_0732"/>finzliche<ref xml:id="end_com_0732"/> Junge Mägde ausnimmt, 
+<anchor xml:id="GB03_1_BR070_0_047_022"/>welcher Greuel mir alle heut <ref target="gb:note#GB03_2_BR070_0_note_011_47_22" xml:id="start_com_0733"/>um die Thoren<ref xml:id="end_com_0733"/> als an <ref target="gb:note#GB03_2_BR070_0_note_012_47_22" xml:id="start_com_0734"/>Marien-Tags Feste<ref xml:id="end_com_0734"/>
+        <anchor xml:id="GB03_1_BR070_0_047_023"/>entgegnet sind. Dagegen <ref target="gb:note#GB03_2_BR070_0_note_013_47_23" xml:id="start_com_0735"/>preservirt<ref xml:id="end_com_0735"/> mein äuseres und inneres, der Engel 
+<anchor xml:id="GB03_1_BR070_0_047_024"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_014_47_24" xml:id="start_com_0736"/>die Schrödern<ref xml:id="end_com_0736"/> von der mich Gott bewahre was zu sagen. Sie grüsst 
+<anchor xml:id="GB03_1_BR070_0_048_001"/>und <ref target="gb:note#GB03_2_BR070_0_note_015_48_1" xml:id="start_com_0737"/>Steinauer<ref xml:id="end_com_0737"/> nach Maasgabe ihres Beyleyds über <ref target="gb:note#GB03_2_BR070_0_note_016_48_1-2" xml:id="start_com_0738"/>Hochdero Ausenbleiben<ref xml:id="end_com_0738"/>
+        <anchor xml:id="GB03_1_BR070_0_048_002"/>und so weiter. Ich bin <ref target="gb:note#GB03_2_BR070_0_note_017_48_2" xml:id="start_com_0739"/>seit vier und zwanzig Stunden<ref xml:id="end_com_0739"/> |:denn 
+<anchor xml:id="GB03_1_BR070_0_048_003"/>es ist <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR070_0_note_018_48_3" xml:id="start_com_0740"/>netto</emph>
+        <ref xml:id="end_com_0740"/> Abends Achte:| nicht bey Sinnen, das heisst bey zu vielen 
+<anchor xml:id="GB03_1_BR070_0_048_004"/>Sinnen, über und unsinnlich. Habe die Nacht durch manches Knäulgen 
+<anchor xml:id="GB03_1_BR070_0_048_005"/>Gedancken Zwirn auf und abgewickelt, diesen Morgen stieg mir 
+<anchor xml:id="GB03_1_BR070_0_048_006"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_019_48_6" xml:id="start_com_0741"/>die göttliche Sonne hinter Naumburg<ref xml:id="end_com_0741"/> auf. Ade <ref target="gb:note#GB03_2_BR070_0_note_020_48_6" xml:id="start_com_0742"/>l. gn.<ref xml:id="end_com_0742"/> Herr! – Und 
+   <anchor xml:id="GB03_1_BR070_0_048_007"/>
+        <ref target="gb:note#GB03_2_BR070_0_note_021_48_7" xml:id="start_com_0743"/>sömit konnen<ref xml:id="end_com_0743"/> Sie nie aufhören zu fühlen, dass ich Sie liebhabe. <g ref="#NB"/>. 
+<anchor xml:id="GB03_1_BR070_0_048_008"/>Bleibe das wahre Detail zur Rückkunft schuldig, als da sind pp. Leipzig 
+<anchor xml:id="GB03_1_BR070_0_048_009"/>d<g ref="#typoSuspension"/>. 25. Merz 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR070_0_048_010"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10700_comment">
+<body>
+<div type="metadata" xml:id="gb10700_comment_com637">
+  <ab type="numberAddressee"><label>70.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78408">Leipzig</placeName>, 25. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10700_comment_com2681">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX Nr 42, Bl. 1. – 1 Bl. 19,8 × 23 cm, 1 S. beschr., egh., Tinte. – Faksimile: <ref target="gb:digitalisate#10700/25889">Abb. 2</ref> im Textband (S. 46).</p>
+  <p>E: <ref target="sndb:sigle#2793">Carl August-Goethe<hi rendition="#sup">1</hi></ref> 1 (1863), 1 f., Nr 2.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 46 f., Nr 427.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10700_comment_com4477">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10700_comment_com9697">
+<label xml:id="GB03_2_BR070_0_note_001_47_14" copyOf="#start_com_0723"><hi rendition="#fett">47,14</hi>Herre</label>
+<p>Altertümelnd (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 977).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9698">
+<label xml:id="GB03_2_BR070_0_note_002_47_14" copyOf="#start_com_0724"><hi rendition="#fett">47,14</hi>bin ich nun in Leipzig</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_002_43_1-2">43,1-2</ref>.</p>
+
+</note>
+<note xml:id="gb10700_comment_com17436">
+<label xml:id="GB03_2_BR070_0_note_003_47_14" copyOf="#start_com_0725"><hi rendition="#fett">47,14</hi>sonderlich worden</label>
+<p>Nach fast acht Jahren wieder mit der Lebenswelt seiner Leipziger Studentenzeit konfrontiert, die er am 28. August 1768 ohne Studienabschluss hinter sich gelassen hatte, lösten die Erinnerungen bei Goethe Beklommenheit aus. Möglicherweise führte diese zu der im Folgenden ausgesprochenen scharfen Distanzierung von der einst auch von ihm gelebten übertriebenen Galanterie des für Leipzig charakteristischen Stutzers. – Zu den Umständen von Goethes Weggang aus Leipzig vgl. <ref target="gb:note#GB01_2_BR044_0_note_003_132_12">GB 1 II, zu 132,12</ref>.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9709">
+<label xml:id="GB03_2_BR070_0_note_004_47_18" copyOf="#start_com_0726"><hi rendition="#fett">47,18</hi>Allmodische</label>
+<p>‚Allmodisch‘ hier im Sinn von ‚übertrieben modisch‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 390).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9710">
+<label xml:id="GB03_2_BR070_0_note_005_47_19" copyOf="#start_com_0727"><hi rendition="#fett">47,19</hi>vieldünckliche</label>
+<p>‚Vieldünklich‘ hier im Sinn von ‚überaus eingebildet‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 2, 1551; 26, 207).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9685">
+<label xml:id="GB03_2_BR070_0_note_006_47_19" copyOf="#start_com_0728"><hi rendition="#fett">47,19</hi>Zuckende</label>
+<p>‚Zuckend‘ hier wohl im Sinn von ‚krampfhaft unruhig‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 32, 293).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9711">
+<label xml:id="GB03_2_BR070_0_note_007_47_20" copyOf="#start_com_0729"><hi rendition="#fett">47,20</hi>schwumelnde</label>
+<p>Vermutlich nach ‚schwummeln‘, was mundartlich soviel wie ‚flimmern‘ bedeutet (vgl. Frankfurter Wörterbuch <gap quantity="3" reason="editorial"/>. Bd 5. Frankfurt a. M. 1971, S. 2888).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9712">
+<label xml:id="GB03_2_BR070_0_note_008_47_21" copyOf="#start_com_0730"><hi rendition="#fett">47,21</hi>strozzliche</label>
+<p>Vermutlich wie ‚strotzig‘ hier im Sinn von ‚aufgeblasen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 20, 89).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9649">
+<label xml:id="GB03_2_BR070_0_note_009_47_21" copyOf="#start_com_0731"><hi rendition="#fett">47,21</hi>schwänzliche</label>
+<p>‚Schwänzlich‘ entspricht wohl ‚schwänzelnd‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 15, 2274), von ‚schwänzeln‘: ‚geziert einhergehen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 15, 2266).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9713">
+<label xml:id="GB03_2_BR070_0_note_010_47_21" copyOf="#start_com_0732"><hi rendition="#fett">47,21</hi>finzliche</label>
+<p>Finzlich: möglicherweise „verschmitzt grinsend“ (<ref target="sndb:sigle#397">GWb</ref> 3, 727) oder ‚überfein‘, ‚geziert‘ (vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> II 2, 728).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9701">
+<label xml:id="GB03_2_BR070_0_note_011_47_22" copyOf="#start_com_0733"><hi rendition="#fett">47,22</hi>um die Thoren</label>
+<p>In der Nähe der Stadttore.</p>
+
+</note>
+<note xml:id="gb10700_comment_com17459">
+<label xml:id="GB03_2_BR070_0_note_012_47_22" copyOf="#start_com_0734"><hi rendition="#fett">47,22</hi>Marien-Tags Feste</label>
+<p>Verkündigung des Herrn (Annuntiatio Domini), auch Mariä Verkündigung, Hochfest der katholischen Kirche, aber auch in der evangelisch-lutherischen Kirche begangenes Fest am 25. März. Nach dem Lukas-Evangelium verkündete der Erzengel Gabriel der Jungfrau Maria an diesem Tag, dass sie den Sohn Gottes gebären werde. Das Ereignis gilt als der Zeitpunkt, an dem das Mysterium der unbefleckten Empfängnis stattfand.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9725">
+<label xml:id="GB03_2_BR070_0_note_013_47_23" copyOf="#start_com_0735"><hi rendition="#fett">47,23</hi>preservirt</label>
+<p>Präservieren (von franz. préserver): schützen, vor einem Übel bewahren.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9726">
+<label xml:id="GB03_2_BR070_0_note_014_47_24" copyOf="#start_com_0736"><hi rendition="#fett">47,24</hi>die Schrödern</label>
+<p>Goethe war laut Tagebuch am selben Tag, dem 25. März 1776, nachmittags um drei Uhr in Leipzig eingetroffen (vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_002_43_1-2">43,1-2</ref>). Mit Bezug auf einen Vortrag Corona Schröters notierte Goethe unter demselben Datum: <quote type="G">Stellas Monolog.</quote> (<ref target="gt:dokument#18">GT I 1, 17</ref>; vgl. weiter GT I 2, 386, zu 17,5.) – Die damals knapp 25 Jahre alte Schauspielerin und Sängerin Corona Schröter war die Tochter des königlich polnischen und kurfürstlich sächsischen Hofmusikers, Oboisten und Komponisten Johann Friedrich Schröter. 1751 in Guben (südlich von Eisenhüttenstadt an der polnischen Grenze) geboren, verbrachte sie seit 1756 ihre Kindheit in Warschau, bevor sie mit dem Vater auf Vermittlung des Leipziger Komponisten, Kapellmeisters und Gesangsschulleiters Johann Adam Hiller im Winter 1763/64 nach Leipzig kam. Dort trat sie noch 13-jährig als Sängerin im traditionsreichen ‚Großen Konzert‘ auf, das, 1743 gegründet, während des Siebenjährigen Kriegs 1756–1763 eingestellt, von Hiller gerade wieder neu belebt worden war. Zusammen mit der zwei Jahre älteren Sängerin Elisabeth Schmeling feierte sie große Erfolge auf der Konzertbühne. Goethe hat sie während seiner Leipziger Studentenzeit 1765–1768 selbst erlebt; in einem Paralipomenon zu „Dichtung und Wahrheit“ schreibt er rückblickend über die beiden gefeierten Sängerinnen: <quote type="G">Dagegen hatte Corona Schröder, ob sie gleich mit jener</quote> <supplied>Elisabeth Schmeling</supplied> <quote type="G">es nicht an Stimme und Talent aufnehmen konnte, wegen ihrer schönen Gestalt, ihres vollkommen sittlichen Betragens und ihres ernsten anmuthigen Vortrags, eine allgemeine Empfindung erregt, welche sich, je nachdem die Personen waren, mehr oder weniger als Neigung Liebe Achtung oder Verehrung zu äußern pflegte. Verschiedene ihrer Anbether machten mich zum Vertrauten und erbaten sich meine Dienste, wenn sie irgend ein Gedicht zu Ehren ihrer Angebeteten heimlich wollten drucken und ausstreuen lassen. Beyde, die Schröder und Smäling, habe ich oft in Hasseschen Oratorien neben einander singen hören; u[nd] die Wagschalen des Beyfalls standen für beyde immer gleich, indem bey der einen die Kunstliebe, bey der andern das Gemüth in Betrachtung kam.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 2, 522 f. [Paralipomenon 52].) – Persönlich kennen gelernt hat Goethe Corona Schröter durch die Familie des Leipziger Buch- und Musikaliendruckers und Verlegers Johann Gottlob Immanuel Breitkopf, in dessen Hause der Student verkehrte (vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb11470_comment_com22596">GB 1 I, Nr 61</ref>), musizierte und Theater spielte, u. a. mit Corona Schröter (vgl. <ref target="sndb:sigle#125">Braun</ref>, 25 und 34). Auch beim Maler und Direktor der Kunstakademie Adam Friedrich Oeser, bei dem beide Zeichenunterricht erhielten, dürften sie sich begegnet sein; Corona Schröter war mit Oesers Töchtern Friederike und Wilhelmine befreundet (vgl. <ref target="sndb:sigle#125">Braun</ref>, 25). Darüber hinaus war Goethe mit dem Leipziger Kaufmann Christian Wilhelm Steinauer bekannt, der mit der Sängerin befreundet war (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10726_comment_com3878">Nr 83</ref>). Goethe scheint nicht zu den in „Dichtung und Wahrheit“ erwähnten <quote type="G">Anbetern</quote> gehört zu haben, denn es fällt auf, dass Corona Schröter in seinen Leipziger Briefen – im Unterschied zu anderen Schauspielerinnen und Sängerinnen – nicht erwähnt wird. Zu dem Zeitpunkt, da Goethe der Sängerin das Angebot, nach Weimar zu kommen, unterbreiten sollte, hatte sie bereits unter dem Nachlassen ihrer Stimmkraft zu leiden; Friederike Oeser berichtet bereits im Jahr 1775: „Allein ungeachtet sie nur selbst einige zwanzig ist, hat sie doch fast gänzlich ihre Stimme verloren.“ (Brief an eine Tante; zitiert nach: Heinrich Stümcke: Corona Schröter. Bielefeld und Leipzig 1904, S. 30.) Vermutlich – so wird angenommen – hatten die allzu intensive Ausbildung durch den Vater und die übermäßige Beanspruchung durch Konzertreisen – 1772–1774 trat sie jedes Jahr in London auf – dazu beigetragen, ihre Stimme in Mitleidenschaft zu ziehen. Die in Weimar gebotene Möglichkeit eines Engagements außerhalb eines aufreibenden Konzert- und Theaterlebens musste ihr willkommen sein. Die Einladung sah vor, der Sängerin als Hofvokalistin und Kammersängerin „eine jährliche Pension von 300 Rth. lebenslänglich“ zu gewähren, „welche sie verzehren kann wo sie will“ (<ref target="sndb:sigle#2008/809">Wahl</ref>, Goethe und Karl August, 34); so hatte es Carl August in seinem Testament vom 16. März 1776 festgelegt. Dass Corona Schröter erst Ende des Jahres nach Weimar kam, hatte vermutlich mehrere Ursachen. Zunächst berichtet Johann Daniel Falk von einer fast verhängnisvollen Affäre; Corona stand „in Gefahr, das Opfer eines Lovelace zu werden, eines gewissen Grafen …, der ein Roué von der ersten Art war, und sie unter nichtigen Heirathsversprechungen nach <hi rendition="#hervor1">Dresden</hi> zu locken suchte: aber noch gerade zur rechten Zeit kam sie hinter den Betrug, und sie entging diesen, so wie andern ihr gelegten Schlingen der Verführung.“ (Erinnerung an Corona Schröter aus Weimar. [Ein Todtenopfer.] In: Stephan Schütze [Hrsg.]: Taschenbuch für das Jahr 1807. Der Liebe und Freundschaft gewidmet, S. 243.) Es ist gar von einer geplanten Entführung (mit ihrem oder gegen ihr Einverständnis) die Rede, welche von Freunden verhindert worden sei. Möglicherweise bezieht sich Goethes Brief an Christian Wilhelm Steinauer vom 13.? Mai 1776, in welchem er den Adressaten bittet: <quote type="G">Trösten Sie den Engel</quote> (<ref target="gb:text#GB03_1_BR101_0_061_014">61,14</ref>), auf diese Vorgänge. Erst danach wird sich die Sängerin endgültig entschieden haben, nach Weimar zu gehen. Zuvor hatte sie ihren Vertrag beim ‚Großen Konzert‘ zu erfüllen, der vermutlich zu Michaelis (am 29. September) 1776 auslief (vgl. <ref target="sndb:sigle#125">Braun</ref>, 52). An ihrer neuen Wirkungsstätte traf sie spätestens am 16. November 1776 ein; unter diesem Datum notierte Goethe in sein Tagebuch: <quote type="G">Nachts Coronen!</quote> (<ref target="gt:dokument#204">GT I 1, 29</ref>); unter dem 24. November heißt es: <quote type="G">Sang Cor. das erste mal</quote> (<ref target="gt:dokument#212">ebd.</ref>). Sie war die einzige professionelle Künstlerin des höfischen Liebhabertheaters, in dessen Aufführungen sie als Sängerin und Schauspielerin die weiblichen Hauptrollen übernahm; so wurde sie u. a. die erste Iphigenie an Goethes Seite als Orest in der Uraufführung (der ersten Prosafassung) am 6. April  1779. Auch als Komponistin betätigte sie sich; so komponierte sie, neben vielen Texten von Schiller, Herder, Klopstock und Matthisson, 1782 die Lieder für Goethes Singspiel „Die Fischerin“. Corona Schröter blieb in Weimar; von Goethe verehrt, von Herzog Carl August so heftig umworben, dass Goethe ihm ins Gewissen reden musste (vgl. Tagebucheintrag vom 10. Januar 1779; <ref target="gt:dokument#665">GT I 1, 73</ref>), galt ihre eigene Zuneigung in späteren Jahren Friedrich Hildebrand von Einsiedel, ohne dass es zu einer glücklichen Beziehung gekommen wäre (vgl. die Ende der 1780er und Anfang der 1790er Jahre gewechselten Briefe, in: <ref target="sndb:sigle#125">Braun</ref>, S. 152–166). Über ihr weiteres Schicksal vgl. zu <ref target="gb:note#GB03_2_BR087_0_note_011_56_11-12">56,11-12</ref> und die einleitende Erläuterung zu <ref target="gb:note#gb52737_comment_com5211">Nr 435</ref>.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9728">
+<label xml:id="GB03_2_BR070_0_note_015_48_1" copyOf="#start_com_0737"><hi rendition="#fett">48,1</hi>Steinauer</label>
+<p>Christian Wilhelm Steinauer; der Leipziger Kaufmann gehörte zum engeren Freundeskreis Corona Schröters (vgl. über ihn die einleitende Erläuterung zu <ref target="gb:note#gb10726_comment_com3878">Nr 83</ref>).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9729">
+<label xml:id="GB03_2_BR070_0_note_016_48_1-2" copyOf="#start_com_0738"><hi rendition="#fett">48,1-2</hi>Hochdero Ausenbleiben</label>
+<p>Herzog Carl August, der ursprünglich nach Leipzig mitreisen wollte, war durch eine Erkrankung daran gehindert worden.</p>
+
+</note>
+<note xml:id="gb10700_comment_com17504">
+<label xml:id="GB03_2_BR070_0_note_017_48_2" copyOf="#start_com_0739"><hi rendition="#fett">48,2</hi>seit vier und zwanzig Stunden</label>
+<p>Goethe war am Abend des 24. März 1776 von Weimar aufgebrochen (vgl. zu <ref target="gb:note#GB03_2_BR066_0_note_001_45_1">45,1</ref>) und während der Nacht über Auerstädt, Naumburg und Rippach (vgl. <ref target="gb:dokument#10652">Nr 67</ref>, <ref target="gb:dokument#11922">68</ref>, <ref target="gb:dokument#11883">69</ref>) nach Leipzig gefahren.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9742">
+<label xml:id="GB03_2_BR070_0_note_018_48_3" copyOf="#start_com_0740"><hi rendition="#fett">48,3</hi><emph rendition="#latin">netto</emph></label>
+<p>Wie ‚nett‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 635) hier vermutlich im Sinn von „genau, gerade, just“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 634).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9743">
+<label xml:id="GB03_2_BR070_0_note_019_48_6" copyOf="#start_com_0741"><hi rendition="#fett">48,6</hi>die göttliche Sonne hinter Naumburg</label>
+<p>Von diesem Sonnenaufgang hatte Goethe auch Charlotte von Stein berichtet (vgl. <ref target="gb:text#GB03_1_BR069_0_047_005 #GB03_1_BR069_0_047_006">47,5–6</ref>; zu <ref target="gb:note#GB03_2_BR069_0_note_004_47_7-8">47,7-8</ref>; zu <ref target="gb:note#GB03_2_BR069_0_note_006_47_10-11">47,10-11</ref>).</p>
+
+</note>
+<note xml:id="gb10700_comment_com9744">
+<label xml:id="GB03_2_BR070_0_note_020_48_6" copyOf="#start_com_0742"><hi rendition="#fett">48,6</hi>l. gn.</label>
+<p>Lieber gnädiger.</p>
+
+</note>
+<note xml:id="gb10700_comment_com9745">
+<label xml:id="GB03_2_BR070_0_note_021_48_7" copyOf="#start_com_0743"><hi rendition="#fett">48,7</hi>sömit konnen</label>
+<p>Vermutlich wurden die ö-Striche versehentlich auf ‚somit‘ statt auf ‚können‘ gesetzt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5390"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12012" n="GB 3, Nr. 529">
+  <teiHeader xml:id="gb12012_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>529.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. September 1779. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:04Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12012_tei.xml</idno>
+        <idno type="URI">gb12012</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR529_0</idno>
+        <idno type="KSW-ID">12012</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="296" to="296">296</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="965" to="966">965-966</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12012_header_hwit1518" corresp="#gb12012_source_hwit1518" sameAs="#gb12012_comment_hwit1518" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 25</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12012,,1518/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Noch einmal Adieu, und Danck für den Talisman. Nach Franckfurt    gehen wir</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-09-10">10. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12012_source_hwit1518" corresp="#gb12012_header_hwit1518" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12012/23116"/>
+      <p>
+        <anchor xml:id="GB03_1_BR529_0_296_019"/>
+        <ref target="gb:note#GB03_2_BR529_0_note_001_296_19" xml:id="start_com_4274"/>Noch einmal Adieu<ref xml:id="end_com_4274"/>, und Danck für den <ref target="gb:note#GB03_2_BR529_0_note_002_296_19" xml:id="start_com_4275"/>Talisman<ref xml:id="end_com_4275"/>. <ref target="gb:note#GB03_2_BR529_0_note_003_296_19-20" xml:id="start_com_4276"/>Nach Franckfurt 
+<anchor xml:id="GB03_1_BR529_0_296_020"/>gehen wir<ref xml:id="end_com_4276"/>, ich weis Sie freuen sich mit in der <ref target="gb:note#GB03_2_BR529_0_note_004_296_20" xml:id="start_com_4277"/>Freude meiner Alten<ref xml:id="end_com_4277"/>. 
+<anchor xml:id="GB03_1_BR529_0_296_021"/>Schreiben Sie mir grad dorthin unter meiner Adresse. Adieu Liebst. 
+<anchor xml:id="GB03_1_BR529_0_296_022"/>
+        <ref target="gb:note#GB03_2_BR529_0_note_005_296_22" xml:id="start_com_4278"/>Die Schule der Liebhaber<ref xml:id="end_com_4278"/> ist beym <ref target="gb:note#GB03_2_BR529_0_note_006_296_22" xml:id="start_com_4279"/>Buchbinder<ref xml:id="end_com_4279"/>. W. d<g ref="#typoSuspension"/>. 10 Sept. 1779.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR529_0_296_023"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12012_comment">
+<body>
+<div type="metadata" xml:id="gb12012_comment_com784">
+  <ab type="numberAddressee"><label>529.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. September 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12012_comment_com2828">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 25. – 1 Bl. 16,5 × 10(–10,4) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „45.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 47), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 238.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 60, Nr 845.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12012_comment_com4624">
+  <p>Der Brief beantwortet möglicherweise einen nicht überlieferten Brief Charlotte von Steins etwa vom 8. oder 9. September 1779 (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR529_0_note_002_296_19">296,19</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12012_comment_com12002">
+<label xml:id="GB03_2_BR529_0_note_001_296_19" copyOf="#start_com_4274"><hi rendition="#fett">296,19</hi>Noch einmal Adieu</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_021_295_23">295,23</ref>.</p>
+
+</note>
+<note xml:id="gb12012_comment_com12003">
+<label xml:id="GB03_2_BR529_0_note_002_296_19" copyOf="#start_com_4275"><hi rendition="#fett">296,19</hi>Talisman</label>
+<p>Vielleicht die schon mehrfach erwähnte Weste (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_001_294_24">294,24</ref>; zu <ref target="gb:note#GB03_2_BR467_0_note_004_260_2">260,2</ref>).</p>
+
+</note>
+<note xml:id="gb12012_comment_com18158">
+<label xml:id="GB03_2_BR529_0_note_003_296_19-20" copyOf="#start_com_4276"><hi rendition="#fett">296,19-20</hi>Nach Franckfurt gehen wir</label>
+<p>Nachdem Goethe seine Reisepläne lange vor der Freundin geheim gehalten hatte, teilte er ihr am 7. September lediglich mit, dass er verreisen werde (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_005_295_4">295,4</ref>). Frankfurt als Reiseziel wird hier zum ersten Mal erwähnt, obwohl Goethe schon am 9. August an seine Mutter nach Frankfurt geschrieben und ihr den Besuch der Weimarer Reisegesellschaft angekündigt hatte (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_002_288_8-9">288,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb12012_comment_com12004">
+<label xml:id="GB03_2_BR529_0_note_004_296_20" copyOf="#start_com_4277"><hi rendition="#fett">296,20</hi>Freude meiner Alten</label>
+<p>Catharina Elisabeth und Johann Caspar Goethe; zum Empfang im Frankfurter Elternhaus vgl. zu <ref target="gb:note#GB03_2_BR533_0_note_002_298_10-11">298,10-11</ref>.</p>
+
+</note>
+<note xml:id="gb12012_comment_com12005">
+<label xml:id="GB03_2_BR529_0_note_005_296_22" copyOf="#start_com_4278"><hi rendition="#fett">296,22</hi>Die Schule der Liebhaber</label>
+<p>Die Schule der Liebhaber. Ein Lustspiel in fünf Handlungen, aus dem Englischen des Herrn Whitehead <supplied>übersetzt von Johann Joachim Christoph Bode</supplied>. Hamburg 1771. – Der Titel ist in Goethes Bibliothek nicht mehr nachzuweisen, daher könnte hier auch eine andere Ausgabe gemeint sein, z. B. der Wiener Nachdruck von 1776.</p>
+
+</note>
+<note xml:id="gb12012_comment_com13999">
+<label xml:id="GB03_2_BR529_0_note_006_296_22" copyOf="#start_com_4279"><hi rendition="#fett">296,22</hi>Buchbinder</label>
+<p>In Goethes Rechnungen findet sich kein konkreter Hinweis auf diesen Auftrag; Buchbinderarbeiten führte in dieser Zeit noch Johann Christoph Große aus, der aber schon im Januar oder Februar 1780 verstarb, danach führte seine Witwe Anna Margarethe Große das Geschäft allein weiter.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

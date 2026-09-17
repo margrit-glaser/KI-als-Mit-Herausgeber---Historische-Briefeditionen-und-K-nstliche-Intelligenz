@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1730"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11179" n="GB 3, Nr. 171">
+  <teiHeader xml:id="gb11179_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>171.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 16. September 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:24Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11179_tei.xml</idno>
+        <idno type="URI">gb11179</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR171_0</idno>
+        <idno type="KSW-ID">11179</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="108" to="108">108</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="397" to="400">397-400</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11179_header_hwit1070" corresp="#gb11179_source_hwit1070" sameAs="#gb11179_comment_hwit1070" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>Berkeley/CA</placeName>
+            </settlement>
+            <institution key="sndb:standort#3133">University of California</institution>
+            <idno type="shelfmark">The Bancroft Library, BANC MSS 92/791 z</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11179,,1070/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Daß die Weine glücklich angelangt sind, wird Dir Frau Aja geschrieben haben, ich will Dir</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-09-16">16. September 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11179_source_hwit1070" corresp="#gb11179_header_hwit1070" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11179/54760"/>
+      <p>
+        <anchor xml:id="GB03_1_BR171_0_108_001"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_001_108_1" xml:id="start_com_1650"/>Dass die Weine glücklich angelangt sind<ref xml:id="end_com_1650"/> wird dir <ref target="gb:note#GB03_2_BR171_0_note_002_108_1" xml:id="start_com_1651"/>Fr Aya<ref xml:id="end_com_1651"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_003_108_1" xml:id="start_com_1652"/>geschrieben<ref xml:id="end_com_1652"/>
+        <anchor xml:id="GB03_1_BR171_0_108_002"/>haben, ich will dir nun auch <ref target="gb:note#GB03_2_BR171_0_note_004_108_2" xml:id="start_com_1653"/>für’s Geld sorgen<ref xml:id="end_com_1653"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR171_0_108_003"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_005_108_3" xml:id="start_com_1654"/>Dein Erbprinz kommt nun bald zu euch<ref xml:id="end_com_1654"/> den empfehl ich dir sehr, 
+<anchor xml:id="GB03_1_BR171_0_108_004"/>es ist eine grose, feste, treue Natur aber gewaltsam, verschlossen, mit 
+<anchor xml:id="GB03_1_BR171_0_108_005"/>einer ungeheuern Immagination, und einer graden tüchtigen Existenz. 
+<anchor xml:id="GB03_1_BR171_0_108_006"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_006_108_6" xml:id="start_com_1655"/>Wir sind die besten Freunde<ref xml:id="end_com_1655"/>, zu dir hat er schon viel Zutrauen, 
+<anchor xml:id="GB03_1_BR171_0_108_007"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_007_108_7-8" xml:id="start_com_1656"/>sey nur ganz wie du bist gegen ihn, er bedarf sehr Menschen<ptr n="1" target="#a001_108.7"/> zu finden<ref xml:id="end_com_1656"/>. 
+<anchor xml:id="GB03_1_BR171_0_108_008"/>Seine<ptr n="2" target="#a002_108.8"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_008_108_8" xml:id="start_com_1657"/>Einbildungskr.<ref xml:id="end_com_1657"/> trommelt noch sehr auf den <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR171_0_note_009_108_8" xml:id="start_com_1658"/>pudendis</emph>
+        <ref xml:id="end_com_1658"/> herum 
+<anchor xml:id="GB03_1_BR171_0_108_009"/>— Ich wünschte gar sehr um<ptr n="3" target="#a003_108.9"/> beyder Willen dass ihr gut zusammen 
+<anchor xml:id="GB03_1_BR171_0_108_010"/>stehn möchtet, <ref target="gb:note#GB03_2_BR171_0_note_010_108_10-11" xml:id="start_com_1659"/>er hat, so er nicht Menschen findet und behält die er 
+<anchor xml:id="GB03_1_BR171_0_108_011"/>lieben und schäzzen kann, Tyrannische Anlagen genug<ref xml:id="end_com_1659"/>. Trag dies Blat 
+<anchor xml:id="GB03_1_BR171_0_108_012"/>nicht auf s Scheishaus sondern <ref target="gb:note#GB03_2_BR171_0_note_011_108_12" xml:id="start_com_1660"/>bewahrs in einem feinen Herzen<ref xml:id="end_com_1660"/>. 
+<anchor xml:id="GB03_1_BR171_0_108_013"/>Grüse <ref target="gb:note#GB03_2_BR171_0_note_012_108_13" xml:id="start_com_1661"/>Frau und Kinder<ref xml:id="end_com_1661"/>, Verlass <ref target="gb:note#GB03_2_BR171_0_note_013_108_13" xml:id="start_com_1662"/>meine Alten<ref xml:id="end_com_1662"/> nicht. <ref target="gb:note#GB03_2_BR171_0_note_014_108_13-14" xml:id="start_com_1663"/>Lenz ist unter uns 
+<anchor xml:id="GB03_1_BR171_0_108_014"/>wie ein kranckes Kind<ref xml:id="end_com_1663"/>, wir wiegen und tänzeln ihn, und geben und 
+<anchor xml:id="GB03_1_BR171_0_108_015"/>lassen ihm von Spielzeug was er will. Er hat <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR171_0_note_015_108_15" xml:id="start_com_1664"/>Sublimiora</emph>
+        <ref xml:id="end_com_1664"/> gefertigt. 
+<anchor xml:id="GB03_1_BR171_0_108_016"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_016_108_16" xml:id="start_com_1665"/>Kleine Schnizzel die du auch haben sollst.<ref xml:id="end_com_1665"/>
+        <ref target="gb:note#GB03_2_BR171_0_note_017_108_16" xml:id="start_com_1666"/>Klinger<ref xml:id="end_com_1666"/> ist uns ein <ref target="gb:note#GB03_2_BR171_0_note_018_108_16-17" xml:id="start_com_1667"/>Splitter 
+<anchor xml:id="GB03_1_BR171_0_108_017"/>im Fleisch<ref xml:id="end_com_1667"/>, seine harte Heterogeneität schwürt mit uns, und er wird 
+<anchor xml:id="GB03_1_BR171_0_108_018"/>sich herausschwüren. Ich hab über die beyden<ptr n="4" target="#a004_108.18"/> Kerls nichts treffenders 
+<anchor xml:id="GB03_1_BR171_0_108_019"/>zu sagen. Ade. Schreib uns du machst uns wohl. <ref target="gb:note#GB03_2_BR171_0_note_019_108_19" xml:id="start_com_1668"/>Wiel.<ref xml:id="end_com_1668"/> hat Dich seelig 
+<anchor xml:id="GB03_1_BR171_0_108_020"/>lieb und ist ein ganz unendlich guter Mensch. d<g ref="#typoSuspension"/>. 16. S.</p>
+      <closer>
+        <dateline rendition="#einrueck8">
+          <anchor xml:id="GB03_1_BR171_0_108_021"/>76.                </dateline>
+        <signed rend="signature">Goethe.</signed> <pb n="2" facs="gb:digitalisate#11179/54761"/>
+        <lb/><dateline rendition="#einrueck15">
+          <anchor xml:id="GB03_1_BR171_0_108_022"/>
+          <graphic url="gb:digitalisate#11179/70164"/>
+        </dateline>
+      </closer>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR171_0_108_023"/>Wenn du von einer Canaille hörst die sich <ref target="gb:note#GB03_2_BR171_0_note_020_108_23" xml:id="start_com_1669"/>Gerstenberg<ref xml:id="end_com_1669"/> nennt, und 
+<anchor xml:id="GB03_1_BR171_0_108_024"/>sagt sie sey hier gewesen, kenne mich u. s. w. so sage öffentlich er sey 
+<anchor xml:id="GB03_1_BR171_0_108_025"/>ein Spizbube denn wir haben ihn nicht mit Augen gesehn,<ptr n="5" target="#a005_108.25"/> wissen 
+<anchor xml:id="GB03_1_BR171_0_108_026"/>auch nichts von ihm.</p>
+      </postscript>
+    <pb n="3" facs="gb:digitalisate#11179/54762" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11179/54763"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11179_comment">
+<body>
+<div type="metadata" xml:id="gb11179_comment_com620">
+  <ab type="numberAddressee"><label>171.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 16. September 1776 → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11179_comment_com2664">
+  <p>H: University of California, Berkeley/USA, The Bancroft Library, Sign.: BANC MSS 92/791 z. – Doppelblatt 17,1 × 20,8 cm, 1 S. und 5 Zeilen (Nachschrift) beschr., egh., Tinte, Nachschrift auf S. 2 quer zur Schreibrichtung; S. 4 Adresse: <quote type="G">Herrn Kriegsrath / Merck / nach / Darmstadt / frank</quote>, Rest eines roten Siegels.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 97 f., Nr 39 (ohne den Text <quote type="G">aber gewaltsam, verschlossen</quote> [<ref target="gb:text#GB03_1_BR171_0_108_004">108,4</ref>]; <quote type="G">Seine Einbildungskr. <gap quantity="3" reason="editorial"/> <emph rendition="#latin">pudendis</emph> herum –</quote> [<ref target="gb:text#GB03_1_BR171_0_108_008 #GB03_1_BR171_0_108_009">108,8–9</ref>]; <quote type="G">er hat <gap quantity="3" reason="editorial"/> in einem feinen Herzen</quote> [<ref target="gb:text#GB03_1_BR171_0_108_010 #GB03_1_BR171_0_108_012">108,10–12</ref>]).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1 (2007), 686, Nr 216 (Ulrike Leuschner; nach H, erster vollständiger Druck).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 111 f., Nr 514 (nach E<hi rendition="#sup">1</hi>).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11179_comment_com4460">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11179_comment_com15155">
+<label xml:id="GB03_2_BR171_0_note_001_108_1" copyOf="#start_com_1650"><hi rendition="#fett">108,1</hi>Dass die Weine glücklich angelangt sind</label>
+<p>Aus Goethes Brief an Merck vom 24. Juli 1776 geht hervor, dass in Weimar eine Weinlieferung erwartet wurde (vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_005_90_5-6">90,5-6</ref>).</p>
+
+</note>
+<note xml:id="gb11179_comment_com17050">
+<label xml:id="GB03_2_BR171_0_note_002_108_1" copyOf="#start_com_1651"><hi rendition="#fett">108,1</hi>Fr Aya</label>
+<p>Scherzname für Goethes Mutter (vgl. zu <ref target="gb:note#GB03_2_BR043_0_note_002_31_2">31,2</ref> sowie <ref target="gb:note#GB02_2_BR253_0_note_023_205_22-23">GB 2 II, zu 205,22–23</ref>).</p>
+
+</note>
+<note xml:id="gb11179_comment_com14258">
+<label xml:id="GB03_2_BR171_0_note_003_108_1" copyOf="#start_com_1652"><hi rendition="#fett">108,1</hi>geschrieben</label>
+<p>Ein entsprechender Brief von Catharina Elisabeth Goethe an Merck ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11179_comment_com15156">
+<label xml:id="GB03_2_BR171_0_note_004_108_2" copyOf="#start_com_1653"><hi rendition="#fett">108,2</hi>für’s Geld sorgen</label>
+<p>Im Brief vom 22. November 1776 schrieb Goethe dem Freund, er habe eine Auszahlung von 400 Gulden veranlasst (vgl. <ref target="gb:text#GB03_1_BR188_0_118_012">118,12</ref>), die wohl entweder ganz oder teilweise zur Bezahlung der Weinsendung dienten.</p>
+
+</note>
+<note xml:id="gb11179_comment_com10649">
+<label xml:id="GB03_2_BR171_0_note_005_108_3" copyOf="#start_com_1654"><hi rendition="#fett">108,3</hi>Dein Erbprinz kommt nun bald zu euch</label>
+<p>Ludwig von Hessen-Darmstadt, 1790 Landgraf in der Nachfolge seines Vaters Ludwig IX. Er war nach der Hochzeit seiner Schwester Wilhelmine mit Großfürst Paul von Russland, dem Sohn der Zarin Katharina II., im Jahr 1773 in russische Dienste getreten. Am 10. Dezember 1775 war er als Generalleutnant nach Hause zurückgekehrt. Von Darmstadt aus hatte er sich am 20. April 1776 auf den Weg nach Potsdam gemacht, um vom preußischen König Friedrich II. das Einverständnis zu seiner geplanten Vermählung mit Prinzessin Sophie Dorothea von Württemberg-Mömpelgard zu erwirken, mit der er sich im selben Monat verlobt hatte. Auf dieser Reise machte er in Weimar Station, um seine Schwester Louise von Sachsen-Weimar und Eisenach zu besuchen. Im Fourierbuch des Weimarer Hofes ist unter dem 23. April 1776 vermerkt: „Heute Abends gegen 5. Uhr traffen Ihro HochFürst<g ref="#typoSuspension"/>: Durch<g ref="#typoSuspension"/>: der Herr ErbPrinz von Heßen Darmstadt <gap quantity="3" reason="editorial"/> aus Rußland hierein.“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 123.) Am 1. Mai reiste Ludwig über Leipzig nach Berlin weiter (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 133), wo er am 4. Mai ankam. Während seines dortigen Aufenthalts traf am 16. Mai die Nachricht vom Tod seiner Schwester, der Großfürstin Natalja Alexejewna, ein. Auf Wunsch des preußischen Königs sollte Großfürst Paul nun mit Prinzessin Sophie Dorothea vermählt werden, der Verlobten Ludwigs. Dieser verzichtete und verließ Berlin. Die Heimreise führte ihn am 5. Juni 1776 erneut über Weimar, wo er sich über dreieinhalb Monate aufhielt (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 166). Während dieser Zeit nahm er u. a. an Goethes und Herzog Carl Augusts Ilmenau-Reise im Juli/August 1776 teil (vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_001_90_1-2">90,1-2</ref>). Seine Abreise ist am 22. September 1776 im Fourierbuch festgehalten: „Heute Abend beuhrlaubten sich Durch<g ref="#typoSuspension"/>. ErbPrintz von Heßendarmstadt, und gingen Morgen früh um 6. Uhr. über Frfurth nacher Heßendarmstadt Zu rücke.“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 251.) Goethe notierte bereits unter dem 21. September 1776: <quote type="G">Pr v. D. verreist.</quote> (<ref target="gt:dokument#152">GT I 1, 26</ref>.)</p>
+
+</note>
+<note xml:id="gb11179_comment_com10650">
+<label xml:id="GB03_2_BR171_0_note_006_108_6" copyOf="#start_com_1655"><hi rendition="#fett">108,6</hi>Wir sind die besten Freunde</label>
+<p>Dass auch Erbprinz Ludwig Goethe schätzen gelernt hatte, belegt Wielands Brief an Merck vom 9. September 1776: „Von Eurem Erbprinzen kann und soll ich viel Gutes melden. Er ist vom Herzog und allen seinen kleinen parties de plaisir <hi rendition="#hervor1">unzertrennlich</hi> gewesen, hat <hi rendition="#hervor1">Göthen</hi> liebgewonnen, und Göthe ist auch ihm gut.“ (<ref target="sndb:sigle#141">WB</ref> 5, 548.)</p>
+
+</note>
+<note xml:id="gb11179_comment_com17766">
+<label xml:id="GB03_2_BR171_0_note_007_108_7-8" copyOf="#start_com_1656"><hi rendition="#fett">108,7-8</hi>sey nur <gap quantity="3" reason="editorial"/> Menschen zu finden</label>
+<p>Was Goethe anzudeuten versucht, geht aus Wielands zitiertem Brief deutlicher hervor: „<hi rendition="#hervor1">Göthe</hi> bittet Sie nur, etwas von Ihrer gewöhnlichen Reserve mit den Fürsten bei ihm nachzulassen, und so offen und natürlich mit ihm zu seyn, als er seines Orts Sie durch sein Betragen dazu einladen wird. Er hat starke Eindrücke bekommen, was ein Mann, wie Ihr, werth ist.“ (<ref target="sndb:sigle#141">WB</ref> 5, 548 f.)</p>
+
+</note>
+<note xml:id="gb11179_comment_com10651">
+<label xml:id="GB03_2_BR171_0_note_008_108_8" copyOf="#start_com_1657"><hi rendition="#fett">108,8</hi>Einbildungskr.</label>
+<p>Einbildungskraft.</p>
+
+</note>
+<note xml:id="gb11179_comment_com10652">
+<label xml:id="GB03_2_BR171_0_note_009_108_8" copyOf="#start_com_1658"><hi rendition="#fett">108,8</hi><emph rendition="#latin">pudendis</emph></label>
+<p>Lat. pudenda: Schamteile (von lat. pudere: sich schämen); hier wohl in Bezug auf das noch unreife Gebaren des immerhin 23-jährigen Erbprinzen.</p>
+
+</note>
+<note xml:id="gb11179_comment_com16024">
+<label xml:id="GB03_2_BR171_0_note_010_108_10-11" copyOf="#start_com_1659"><hi rendition="#fett">108,10-11</hi>er hat <gap quantity="3" reason="editorial"/> Tyrannische Anlagen genug</label>
+<p>In Wielands Brief an Merck vom 7. Oktober 1776 heißt es bestätigend über Erbprinz Ludwig: „Gnade Gott jedem in seinem Lande, der unterm Hut und unterm Brustlaz nicht fest ist, wenn er einmal zur Regierung kömmt. Il vous fera voir païs à tous tant que vous etes.“ (<ref target="sndb:sigle#141">WB</ref> 5, 561. – Er wird euch alle, wie ihr da seid, umhertreiben.)</p>
+
+</note>
+<note xml:id="gb11179_comment_com10662">
+<label xml:id="GB03_2_BR171_0_note_011_108_12" copyOf="#start_com_1660"><hi rendition="#fett">108,12</hi>bewahrs in einem feinen Herzen</label>
+<p>In Anspielung auf die lutherische Übersetzung des biblischen Gleichnisses vom Sämann im Lukas-Evangelium. Er brachte Samen aus, welcher teils auf unfruchtbare Erde, teils aber auf guten Boden fiel. Nach Jesus’ eigener Auslegung ist der Samen das Wort Gottes; bei einigen Menschen wird es keine Frucht tragen: „Das <supplied>Wort</supplied> aber auf dem guten lande, sind die das wort hören und behalten in einem feinen guten hertzen, und bringen frucht in gedult.“ (Lukas 8,15; Luther-Bibel 1772 NT, 69.)</p>
+
+</note>
+<note xml:id="gb11179_comment_com10663">
+<label xml:id="GB03_2_BR171_0_note_012_108_13" copyOf="#start_com_1661"><hi rendition="#fett">108,13</hi>Frau und Kinder</label>
+<p>Louise Françoise Merck, der fast zehnjährige Heinrich Emanuel, die fünfjährige Adelheid und die gut einjährige Franziska Charlotte.</p>
+
+</note>
+<note xml:id="gb11179_comment_com15170">
+<label xml:id="GB03_2_BR171_0_note_013_108_13" copyOf="#start_com_1662"><hi rendition="#fett">108,13</hi>meine Alten</label>
+<p>Johann Caspar und Catharina Elisabeth Goethe. Vor allem mit Goethes Mutter verband Merck ein freundschaftliches Verhältnis.</p>
+
+</note>
+<note xml:id="gb11179_comment_com17831">
+<label xml:id="GB03_2_BR171_0_note_014_108_13-14" copyOf="#start_com_1663"><hi rendition="#fett">108,13-14</hi>Lenz ist unter uns wie ein kranckes Kind</label>
+<p>Wörtlich so auch im vorhergehenden Brief an Johann Caspar Lavater vom selben Datum (vgl. <ref target="gb:text#GB03_1_BR170_0_106_007">106,7</ref>). Über Jacob Michael Reinhold Lenz’ Aufenthalt in Weimar und die <quote type="G">Spannungen</quote> zwischen ihm und Goethe vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>.</p>
+
+</note>
+<note xml:id="gb11179_comment_com10664">
+<label xml:id="GB03_2_BR171_0_note_015_108_15" copyOf="#start_com_1664"><hi rendition="#fett">108,15</hi><emph rendition="#latin">Sublimiora</emph></label>
+<p>Erhabene Werke. – ‚Sublim‘ im 18. Jahrhundert aus lat. sublimis (in der Höhe schwebend) entlehnt mit der Bedeutung ‚erhaben‘, ‚außerordentlich‘ zur Charakterisierung hohen sprachlichen Stils (‚Genus sublime‘) und geistiger Größe überhaupt; nach Grimm erhielt der Begriff umgangssprachlich damals aber auch schon den Sinn von ‚erheiternd‘, ‚belustigend‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 20, 815).</p>
+
+</note>
+<note xml:id="gb11179_comment_com17853">
+<label xml:id="GB03_2_BR171_0_note_016_108_16" copyOf="#start_com_1665"><hi rendition="#fett">108,16</hi>Kleine Schnizzel die du auch haben sollst.</label>
+<p>Lenz arbeitete in Berka und Weimar u. a. an dem Dramolett „Tantalus“ (erschienen in Schillers „Musen-Almanach für das Jahr 1798“, S. 224–236) sowie an einigen (Fragmente gebliebenen) Dramen: „Henriette von Waldeck“ (auch „Die Laube“ genannt, zu Lebzeiten nicht gedruckt), „Catharina von Siena“ (Manuskript von Lenz nach Berka erbeten; vgl. Lenz’ Brief an Goethe und Philipp Seidel vom 27. Juni 1776 [<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 3 f.], zu Lebzeiten nicht gedruckt), „Der tugendhafte Taugenichts“ (zu Lebzeiten nicht gedruckt). Ferner entstand die Prosaschrift „Der Waldbruder ein Pendant zu Werthers Leiden“ (erschienen 1797 im 4. und 5. Stück von Schillers Zeitschrift „Die Horen“). Dass Goethe Manuskripte von Lenz an Merck geschickt habe, ist nicht bekannt.</p>
+
+</note>
+<note xml:id="gb11179_comment_com10676">
+<label xml:id="GB03_2_BR171_0_note_017_108_16" copyOf="#start_com_1666"><hi rendition="#fett">108,16</hi>Klinger</label>
+<p>Friedrich Maximilian Klinger; über seinen Aufenthalt in Weimar vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>.</p>
+
+</note>
+<note xml:id="gb11179_comment_com10677">
+<label xml:id="GB03_2_BR171_0_note_018_108_16-17" copyOf="#start_com_1667"><hi rendition="#fett">108,16-17</hi>Splitter im Fleisch</label>
+<p>Die Metapher benutzte Goethe auch im Brief an Johann Caspar Lavater vom selben Tag (vgl. zu <ref target="gb:note#GB03_2_BR170_0_note_012_106_7-8">106,7-8</ref>).</p>
+
+</note>
+<note xml:id="gb11179_comment_com10678">
+<label xml:id="GB03_2_BR171_0_note_019_108_19" copyOf="#start_com_1668"><hi rendition="#fett">108,19</hi>Wiel.</label>
+<p>Wieland, dessen „Teutschen Merkur“ Merck seit Ende 1775 als Literaturkritiker unterstützte.</p>
+
+</note>
+<note xml:id="gb11179_comment_com17965">
+<label xml:id="GB03_2_BR171_0_note_020_108_23" copyOf="#start_com_1669"><hi rendition="#fett">108,23</hi>Gerstenberg</label>
+<p>Ob es sich bei dem Genannten um Heinrich Wilhelm von Gerstenberg, seit 1775 dänischer Gesandter in Lübeck, handelt, erscheint unsicher. Ein am 16. Oktober 1773 begonnener Briefwechsel mit dem von Goethe geschätzten Verfasser des Trauerspiels „Ugolino“ (1768) war nach Gerstenbergs Antwort vom 5. Januar 1774 nicht fortgesetzt worden, die Briefpartner hatten sich auch nicht persönlich kennen gelernt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10410_comment_com4732">GB 2 II, Nr 58</ref>). Denkbar wäre allenfalls, dass Gerstenberg als Freund Klopstocks abfällige Äußerungen über die ‚Weimarer Verhältnisse‘ (vgl. im Einzelnen die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>) getan hätte, die Goethe zu Ohren gekommen waren. Trotzdem wäre die Heftigkeit von Goethes Ausfall nicht recht zu erklären. In <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 687 wird vermutet, es sei der sächsische Offizier Friedrich Wilhelm von Gerstenberg gemeint; nähere Angaben über ihn werden nicht gemacht.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

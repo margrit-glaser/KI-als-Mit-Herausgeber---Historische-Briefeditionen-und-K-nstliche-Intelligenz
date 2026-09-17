@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2650"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11665" n="GB 3, Nr. 261">
+  <teiHeader xml:id="gb11665_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>261.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 6. Mai 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11665_tei.xml</idno>
+        <idno type="URI">gb11665</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR261_0</idno>
+        <idno type="KSW-ID">11665</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="145" to="146">145-146</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="520" to="521">520-521</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11665_header_hwit1201" corresp="#gb11665_source_hwit1201" sameAs="#gb11665_comment_hwit1201" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 49</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11665,,1201/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Noch eine Erinnerung auf den Weeg, ich hoffe sie sollen bis Kalbsrieth nicht verriechen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11665_header_acc462" corresp="gb11665_comment_acc462">
+            <objectIdentifier>
+              <objectName>Blumen </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-05-06">6. Mai 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11665_source_hwit1201" corresp="#gb11665_header_hwit1201" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11665/22601"/>
+      <p>
+        <anchor xml:id="GB03_1_BR261_0_145_015"/>Noch eine <ref target="gb:note#GB03_2_BR261_0_note_001_145_15" xml:id="start_com_2247"/>Erinnerung<ref xml:id="end_com_2247"/> auf den Weeg, ich hoffe sie sollen bis <ref target="gb:note#GB03_2_BR261_0_note_002_145_15" xml:id="start_com_2248"/>Kalbsrieth<ref xml:id="end_com_2248"/>
+        <anchor xml:id="GB03_1_BR261_0_145_016"/>nicht verriechen. Ein schöner Morgen ists mich freuts recht sehr. 
+<anchor xml:id="GB03_1_BR261_0_146_001"/>Wenn Sie doch gehn so muss Sie auch der Himmel so begleiten. Leben 
+<anchor xml:id="GB03_1_BR261_0_146_002"/>Sie wohl Adieu beste    G   d<g ref="#typoSuspension"/>. 6 May 77.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11665_comment">
+<body>
+<div type="metadata" xml:id="gb11665_comment_com1061">
+  <ab type="numberAddressee"><label>261.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 6. Mai 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11665_comment_com3105">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 49. – 1 Bl. 19,7 × 6,4(–6,6) cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. und Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „27.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 27), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 99.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 155, Nr 602.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11665_comment_com3758">
+  <p>Blumen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR261_0_note_001_145_15">145,15</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11665_comment_com4901">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11665_comment_com15114">
+<label xml:id="GB03_2_BR261_0_note_001_145_15" copyOf="#start_com_2247"><hi rendition="#fett">145,15</hi>Erinnerung</label>
+<p>Hier: Zeichen persönlichen Andenkens; wie der Kontext belegt, Blumen aus Goethes Garten.</p>
+
+</note>
+<note xml:id="gb11665_comment_com10942">
+<label xml:id="GB03_2_BR261_0_note_002_145_15" copyOf="#start_com_2248"><hi rendition="#fett">145,15</hi>Kalbsrieth</label>
+<p>Etwa 50 km nördlich von Weimar, Stammsitz der Familie von Kalb (vgl. zu <ref target="gb:note#GB03_2_BR107_0_note_002_63_13">63,13</ref>). Charlotte von Stein kehrte am Abend des 9. Mai nach Weimar zurück (vgl. <ref target="gt:dokument#351">GT I 1, 41</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

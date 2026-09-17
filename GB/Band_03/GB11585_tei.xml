@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2300"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11585" n="GB 3, Nr. 227">
+  <teiHeader xml:id="gb11585_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>227.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. März 1777. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:08Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11585_tei.xml</idno>
+        <idno type="URI">gb11585</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR227_0</idno>
+        <idno type="KSW-ID">11585</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="133" to="133">133</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="486" to="486">486</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11585_header_hwit1158" corresp="#gb11585_source_hwit1158" sameAs="#gb11585_comment_hwit1158" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 7</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11585,,1158/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier bester Engel schick ich was, da ich nicht selbst kommen kann. Zu Tische gehts nach Tiefurt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11585_header_acc488" corresp="gb11585_comment_acc488">
+            <objectIdentifier>
+              <objectName>Geschenk für Charlotte von Stein </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-03-10">10. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11585_source_hwit1158" corresp="#gb11585_header_hwit1158" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11585/22542"/>
+      <p>
+        <anchor xml:id="GB03_1_BR227_0_133_001"/>Hier bester Engel <ref target="gb:note#GB03_2_BR227_0_note_001_133_1" xml:id="start_com_2057"/>schick ich was<ref xml:id="end_com_2057"/>, da ich nicht selbst kommen kann. 
+<anchor xml:id="GB03_1_BR227_0_133_002"/>Zu Tische gehts <ref target="gb:note#GB03_2_BR227_0_note_002_133_2" xml:id="start_com_2058"/>nach Tiefurt<ref xml:id="end_com_2058"/>, <ref target="gb:note#GB03_2_BR227_0_note_003_133_2" xml:id="start_com_2059"/>heute Abend komm ich<ref xml:id="end_com_2059"/> wenns auch 
+<anchor xml:id="GB03_1_BR227_0_133_003"/>spät wäre. <ref target="gb:note#GB03_2_BR227_0_note_004_133_3" xml:id="start_com_2060"/>Das Glück des Lebens liegt dunckel auf mir.<ref xml:id="end_com_2060"/> Addio.    d<g ref="#typoSuspension"/> 
+<anchor xml:id="GB03_1_BR227_0_133_004"/>10 Ma<unclear reason="illegible">rz</unclear> 77    G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11585_comment">
+<body>
+<div type="metadata" xml:id="gb11585_comment_com551">
+  <ab type="numberAddressee"><label>227.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. März 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11585_comment_com1662">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd II) ist der vorliegende Brief irrtümlich in den Jahrgang 1779 eingeordnet. Die beiden letzten Buchstaben des Monatsnamens stehen eng am Seitenrand, so dass auch die Lesung ‚May‘ nicht ganz auszuschließen ist. Sowohl der graphische Befund als auch der Inhalt und die Übereinstimmung mit dem Tagebuch sprechen aber für den 10. März 1777 (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR227_0_note_003_133_2">133,2</ref>). Seit dem Erstdruck wird der Brief auch so datiert. – Dem Inhalt nach wurde der Brief vormittags, wahrscheinlich als Morgengruß, auf jeden Fall aber ‚vor Tisch‘ (vgl. <ref target="gb:text#GB03_1_BR227_0_133_002">133,2</ref>) geschrieben, weshalb er vor Brief <ref target="gb:dokument#11583">Nr 228</ref> vom selben Tag angeordnet wird.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11585_comment_com2595">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 7 – 1 Bl. 12,4(–13,2) &#xD7; 9,4 cm, &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Rest eines roten Siegels; Vs. linker Rand ausgerissen, untere rechte Ecke Siegelausriss; Vs. oben rechts von fremder Hd, Tinte: „13“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 14), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 88.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 140, Nr 569.</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11585_comment_com3591">
+  <p>Geschenk für Charlotte von Stein (vgl. zu <ref target="gb:note#GB03_2_BR227_0_note_001_133_1">133,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11585_comment_com4391">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11585_comment_com11023">
+<label xml:id="GB03_2_BR227_0_note_001_133_1" copyOf="#start_com_2057"><hi rendition="#fett">133,1</hi>schick ich was</label>
+<p>Wahrscheinlich Lebensmittel (vgl. <ref target="gb:text#GB03_1_BR232_0_135_001 #GB03_1_BR232_0_135_003">135,1–3</ref>).</p>
+
+</note>
+<note xml:id="gb11585_comment_com11024">
+<label xml:id="GB03_2_BR227_0_note_002_133_2" copyOf="#start_com_2058"><hi rendition="#fett">133,2</hi>nach Tiefurt</label>
+<p>Auf das kleine Landgut, das Prinz Constantin und sein Erzieher Carl Ludwig von Knebel als Wohnung nutzten (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_050_68_22-23">68,22-23</ref>).</p>
+
+</note>
+<note xml:id="gb11585_comment_com15024">
+<label xml:id="GB03_2_BR227_0_note_003_133_2" copyOf="#start_com_2059"><hi rendition="#fett">133,2</hi>heute Abend komme ich</label>
+<p>Im Tagebuch vom 10. Februar 1777 ist vermerkt: <quote type="G">war &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">kranck Abends bey Ihr, zeichnend und schwäzzend</quote> (<ref target="gt:dokument#307">GT I 1, 39</ref>); vgl. <ref target="gb:text#GB03_1_BR229_0_134_002">134,2</ref>.</p>
+
+</note>
+<note xml:id="gb11585_comment_com11025">
+<label xml:id="GB03_2_BR227_0_note_004_133_3" copyOf="#start_com_2060"><hi rendition="#fett">133,3</hi>Das Glück des Lebens <gap quantity="3" reason="editorial"/> auf mir.</label>
+<p>Vgl. Goethes Formulierung im Brief an Lavater vom selben Tag (<ref target="gb:text#GB03_1_BR228_0_133_020 #GB03_1_BR228_0_133_021">133,20–21</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

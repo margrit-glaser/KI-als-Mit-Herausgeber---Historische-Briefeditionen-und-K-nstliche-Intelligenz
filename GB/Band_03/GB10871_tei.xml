@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="980"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10871" n="GB 3, Nr. 98">
+  <teiHeader xml:id="gb10871_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>98.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78160">Ilmenau</placeName>, <supplied>4. Mai 1776. Samstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:37Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10871_tei.xml</idno>
+        <idno type="URI">gb10871</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR098_0</idno>
+        <idno type="KSW-ID">10871</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="59" to="61">59-61</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="230" to="232">230-232</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10871_header_hwit956" corresp="#gb10871_source_hwit956" sameAs="#gb10871_comment_hwit956" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Großherzogliches Hausarchiv A XIX Nr. 42</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10871,,956/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie mir 's gangen ist müssen Sie gleich wissen, Sonnabend früh 11 Uhr schreib ich dies Ilmenau</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78160">Ilmenau</placeName>
+            <date when="1776-05-04"><supplied>4. Mai 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10871_source_hwit956" corresp="#gb10871_header_hwit956" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10871/25875"/>
+      <p>
+        <anchor xml:id="GB03_1_BR098_0_059_019"/>Wie mir’s gangen ist müssen Sie gleich wissen, Sonnabend früh 
+<anchor xml:id="GB03_1_BR098_0_059_020"/>11 Uhr schreib ich dies <ref target="gb:note#GB03_2_BR098_0_note_001_59_20" xml:id="start_com_0920"/>Ilmenau im Amthause<ref xml:id="end_com_0920"/>. Ich bin <ref target="gb:note#GB03_2_BR098_0_note_002_59_20-60_1" xml:id="start_com_0921"/>keine sechs 
+<anchor xml:id="GB03_1_BR098_0_060_001"/>Stunden geritten<ref xml:id="end_com_0921"/>, also wie sich’s gehort, des <ref target="gb:note#GB03_2_BR098_0_note_003_60_1" xml:id="start_com_0922"/>Husars Pferd<ref xml:id="end_com_0922"/> wollte nicht 
+<anchor xml:id="GB03_1_BR098_0_060_002"/>mehr fort gegen das Ende, und hinter <ref target="gb:note#GB03_2_BR098_0_note_004_60_2" xml:id="start_com_0923"/>Büchenloh<ref xml:id="end_com_0923"/> auch mein’s nicht 
+<anchor xml:id="GB03_1_BR098_0_060_003"/>mehr. Da kam ich in ein sehr <ref target="gb:note#GB03_2_BR098_0_note_005_60_3" xml:id="start_com_0924"/>spizzigs Nachtrieseln<ref xml:id="end_com_0924"/> das grad vom Wald 
+<anchor xml:id="GB03_1_BR098_0_060_004"/>kam, und traf endlich glücklich <ref target="gb:note#GB03_2_BR098_0_note_006_60_4" xml:id="start_com_0925"/>betreckt<ref xml:id="end_com_0925"/> ein.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR098_0_060_005"/><ref target="gb:note#GB03_2_BR098_0_note_007_60_5" xml:id="start_com_0926"/>Der Brand war lange nieder<ref xml:id="end_com_0926"/>, <ref target="gb:note#GB03_2_BR098_0_note_008_60_5-6" xml:id="start_com_0927"/>wie Sie einen Boten müssen gegen 
+<anchor xml:id="GB03_1_BR098_0_060_006"/>7 Uhr gehabt haben.<ref xml:id="end_com_0927"/> Ich muss <ref target="gb:note#GB03_2_BR098_0_note_009_60_6" xml:id="start_com_0928"/>die Anstalten<ref xml:id="end_com_0928"/> die dabey vorgekehrt 
+<anchor xml:id="GB03_1_BR098_0_060_007"/>wurden rühmen, wie <ref target="gb:note#GB03_2_BR098_0_note_010_60_7" xml:id="start_com_0929"/>die Obern<ref xml:id="end_com_0929"/> die <ref target="gb:note#GB03_2_BR098_0_note_011_60_7" xml:id="start_com_0930"/>Bereitwillkeigt<ref xml:id="end_com_0930"/> und Ausdauer der 
+<anchor xml:id="GB03_1_BR098_0_060_008"/><ref target="gb:note#GB03_2_BR098_0_note_012_60_8" xml:id="start_com_0931"/>Subalternen<ref xml:id="end_com_0931"/> loben, eine Gasse mit dürren Schindeldächern wurde mit 
+<anchor xml:id="GB03_1_BR098_0_060_009"/>groser Arbeit gerettet, woran die Erhaltung <ref target="gb:note#GB03_2_BR098_0_note_013_60_9" xml:id="start_com_0932"/>des Oberntheils der Stadt<ref xml:id="end_com_0932"/>, 
+<anchor xml:id="GB03_1_BR098_0_060_010"/><ref target="gb:note#GB03_2_BR098_0_note_014_60_10" xml:id="start_com_0933"/>des Amt und Rathhauses<ref xml:id="end_com_0933"/> hing, es sind<ptr n="1" target="#a001_60.10"/> <hi rendition="#hervor1">nur<ptr n="2" target="#a002_60.10"/> <ref target="gb:note#GB03_2_BR098_0_note_015_60_10" xml:id="start_com_0934"/>gerige Häu</hi>ser<ref xml:id="end_com_0934"/> und 
+<anchor xml:id="GB03_1_BR098_0_060_011"/><hi rendition="#hervor1">arme Leute</hi> verunglückt, die doch <pb n="2" facs="gb:digitalisate#10871/25876"/> wenig gerettet haben, Bergleute 
+<anchor xml:id="GB03_1_BR098_0_060_012"/>Leineweber, Taglöhner.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR098_0_060_013"/>Von dem<ptr n="3" target="#a003_60.13"/>
+        <ref target="gb:note#GB03_2_BR098_0_note_016_60_13" xml:id="start_com_0935"/>Raub<ref xml:id="end_com_0935"/> haben Sie nun den <ref target="gb:note#GB03_2_BR098_0_note_017_60_13" xml:id="start_com_0936"/>Bericht<ref xml:id="end_com_0936"/> wohl gesehn. Man hat 
+<anchor xml:id="GB03_1_BR098_0_060_014"/><ref target="gb:note#GB03_2_BR098_0_note_018_60_14" xml:id="start_com_0937"/>gestreift<ref xml:id="end_com_0937"/>, nichts gefunden – die <ref target="gb:note#GB03_2_BR098_0_note_019_60_14" xml:id="start_com_0938"/>6 Husaren<ref xml:id="end_com_0938"/> sind heut eilfe hergekommen, 
+<anchor xml:id="GB03_1_BR098_0_060_015"/>durchs <ref target="gb:note#GB03_2_BR098_0_note_020_60_15" xml:id="start_com_0939"/>Arnstädtische<ref xml:id="end_com_0939"/>
+        <ref target="gb:note#GB03_2_BR098_0_note_021_60_15" xml:id="start_com_0940"/>visitirend<ref xml:id="end_com_0940"/>. Und wollen morgen auf <ref target="gb:note#GB03_2_BR098_0_note_022_60_15-16" xml:id="start_com_0941"/>Frauenwalde<ref xml:id="end_com_0941"/>
+        <anchor xml:id="GB03_1_BR098_0_060_016"/>ich will mit. Man trägt sich mit <ref target="gb:note#GB03_2_BR098_0_note_023_60_16" xml:id="start_com_0942"/>Historien<ref xml:id="end_com_0942"/> vom Teufel, entkleideten 
+<anchor xml:id="GB03_1_BR098_0_060_017"/>Weibern, Drohungen, auf die Frauenwalder, es sollen vier 
+<anchor xml:id="GB03_1_BR098_0_060_018"/>hagere Kerls seyn, einer im rothen Rocke, und <ref target="gb:note#GB03_2_BR098_0_note_024_60_18-19" xml:id="start_com_0943"/>ein Schüler von 
+<anchor xml:id="GB03_1_BR098_0_060_019"/>Schleusingen<ref xml:id="end_com_0943"/> soll da bey seyn, im<ptr n="4" target="#a004_60.19"/>
+        <ref target="gb:note#GB03_2_BR098_0_note_025_60_19" xml:id="start_com_0944"/>Eisfeld<ref xml:id="end_com_0944"/> haben sie einen erwischt sagt 
+<anchor xml:id="GB03_1_BR098_0_060_020"/>man – das mag denn nun seyn, wie die Gerüchte gewöhnlich.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR098_0_060_021"/>Hernach hab ich noch eine Lecktion für Sie! – da ich so auf dem 
+<anchor xml:id="GB03_1_BR098_0_060_022"/>Weeg über <ref target="gb:note#GB03_2_BR098_0_note_026_60_22" xml:id="start_com_0945"/>Ihre allzugrose Hizze bey solchen Gelegenheiten<ref xml:id="end_com_0945"/> dachte, 
+<anchor xml:id="GB03_1_BR098_0_060_023"/>dadurch Sie immer im Fall sind, wo nicht was unrechtes <pb n="3" facs="gb:digitalisate#10871/25877"/> doch was 
+<anchor xml:id="GB03_1_BR098_0_060_024"/>unnötigs zu thun und Ihre eignen Kräffte und die Kräffte der Ihrigen 
+<anchor xml:id="GB03_1_BR098_0_060_025"/>vergebens anzuspannen, drum hab ich auch <ref target="gb:note#GB03_2_BR098_0_note_027_60_25" xml:id="start_com_0946"/>Staffen<ref xml:id="end_com_0946"/> und <ref target="gb:note#GB03_2_BR098_0_note_028_60_25" xml:id="start_com_0947"/>Wedeln<ref xml:id="end_com_0947"/> gebeten 
+<anchor xml:id="GB03_1_BR098_0_060_026"/>zurück zu bleiben, da ich selbst mehr da bin<ptr n="5" target="#a005_60.26"/> um Ihnen vom Ganzen 
+<anchor xml:id="GB03_1_BR098_0_060_027"/>Nachricht zu geben;<ptr n="6" target="#a006_60.27"/> und mich zu unterrichten als etwas zu nuzzen. 
+<anchor xml:id="GB03_1_BR098_0_060_028"/>Bey der Gelegenheit, zieh ich von manchem Erkundigung ein, 
+<anchor xml:id="GB03_1_BR098_0_060_029"/>habe traurig <ref target="gb:note#GB03_2_BR098_0_note_029_60_29" xml:id="start_com_0948"/>die alten Ofen<ref xml:id="end_com_0948"/> gesehen. Aber die Gegend ist herrlich! 
+   <anchor xml:id="GB03_1_BR098_0_060_030"/>herrlich! —— <g ref="#NB"/>&#xA0;. Es waren 19 <ref target="gb:note#GB03_2_BR098_0_note_030_60_30" xml:id="start_com_0949"/>Sprüzen<ref xml:id="end_com_0949"/> und sehr treue Hülfe der Benachbaarten 
+<anchor xml:id="GB03_1_BR098_0_060_031"/>hie. Seyn Sie hübsch ruhig so viel’s seyn kann, leben Sie 
+<anchor xml:id="GB03_1_BR098_0_060_032"/>als <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR098_0_note_031_60_32" xml:id="start_com_0950"/>homme de lettre</emph>
+        <ref xml:id="end_com_0950"/> und Privat mann, <ref target="gb:note#GB03_2_BR098_0_note_032_60_32" xml:id="start_com_0951"/>schonen Sie<ptr n="7" target="#a007_60.32"/> die Hüffte<ref xml:id="end_com_0951"/> bey dem 
+<anchor xml:id="GB03_1_BR098_0_061_001"/>Wetter, hier ist schon den ganzen Morgen Schnee. Addio. Mein Andencken 
+<anchor xml:id="GB03_1_BR098_0_061_002"/>der <ref target="gb:note#GB03_2_BR098_0_note_033_61_2" xml:id="start_com_0952"/><emph rendition="#latin">Cher Mama</emph><ref xml:id="end_com_0952"/>. Seyn Sie mir lieb.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR098_0_061_003"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10871_comment">
+<body>
+<div type="metadata" xml:id="gb10871_comment_com659">
+  <ab type="numberAddressee"><label>98.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78160">Ilmenau</placeName>, <supplied>4. Mai 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10871_comment_com1705">
+  <p>Der Brief wurde, wie aus dem Inhalt hervorgeht, am selben <quote type="G">Sonnabend</quote> (<ref target="gb:text#GB03_1_BR098_0_059_019">59,19</ref>) geschrieben wie <ref target="gb:dokument#10608">Nr 97</ref>, am 4. Mai 1776.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10871_comment_com2703">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX Nr 42, Bl. 2–3. – Doppelblatt 16,1 × 19,5 cm, 3 S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2793">Carl August-Goethe<hi rendition="#sup">1</hi></ref> 1 (1863), 2–4, Nr 3.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 56–58, Nr 448.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10871_comment_com4499">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10871_comment_com17588">
+<label xml:id="GB03_2_BR098_0_note_001_59_20" copyOf="#start_com_0920"><hi rendition="#fett">59,20</hi>Ilmenau im Amthause</label>
+<p>Das Amtshaus in Ilmenau, im Stadtzentrum direkt neben dem Rathaus gelegen, wurde als Witwensitz der Gräfin Sophie von Henneberg 1616 erbaut. Nach einem Stadtbrand im Jahr 1752 von dem Baumeister Heinrich Krohne neu errichtet, blieb es bis 1918 herzogliches und großherzogliches Wohn- und Amtshaus. Goethe nutzte es bei seinen Aufenthalten in Ilmenau als Dienstwohnung. Das ursprünglich zum Territorium der gefürsteten Grafschaft Henneberg gehörende, isoliert gelegene Amt Ilmenau war nach dem Aussterben der Grafen von Henneberg 1584 als Teil der hennebergischen Erbschaft an das Gesamthaus Sachsen, 1660 an die Herzöge von Sachsen-Weimar gekommen, behielt aber seine eigenständige Steuerverfassung. – Nach umfangreicher Bausanierung beherbergt das Gebäude heute das Ilmenauer Stadtmuseum.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10065">
+<label xml:id="GB03_2_BR098_0_note_002_59_20-60_1" copyOf="#start_com_0921"><hi rendition="#fett">59,20-60,1</hi>keine sechs Stunden geritten</label>
+<p>Goethe war am 3. Mai 1776 in Ilmenau eingetroffen. Da der Stadtbrand in Ilmenau (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR097_0_note_004_59_10">59,10</ref>) den Anlass des Eilritts bildete, ist anzunehmen, dass er unmittelbar nach Eingang der Nachricht in der Weimarer Residenz von dort aufbrach. Die Entfernung beträgt gut 50 km.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10066">
+<label xml:id="GB03_2_BR098_0_note_003_60_1" copyOf="#start_com_0922"><hi rendition="#fett">60,1</hi>Husars Pferd</label>
+<p>Die Husaren waren eine berittene Mannschaft zur persönlichen Verfügung des Herzogs, die für den persönlichen Schutz der fürstlichen Personen, Eskorten bei Amtshandlungen, Kurierdienste usw. eingesetzt wurde, aber auch von den örtlichen Behörden zu Polizeiaufgaben angefordert werden konnte.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10067">
+<label xml:id="GB03_2_BR098_0_note_004_60_2" copyOf="#start_com_0923"><hi rendition="#fett">60,2</hi>Büchenloh</label>
+<p>Bücheloh, an der Landstraße von Weimar nach Ilmenau gelegene Dorfgemeinde 5 km nordöstlich von Ilmenau, zum Fürstentum Schwarzburg-Rudolstadt gehörig.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15033">
+<label xml:id="GB03_2_BR098_0_note_005_60_3" copyOf="#start_com_0924"><hi rendition="#fett">60,3</hi>spizzigs Nachtrieseln</label>
+<p>‚Riesel‘ nach Grimm (14, 935) Regen oder Hagel; wegen des Attributs <quote type="G">spizzigs</quote> und des Hinweises auf Schnee am Ende des vorliegenden Briefes (vgl. <ref target="gb:text#GB03_1_BR098_0_061_001">61,1</ref>) dürfte hier Schneegriesel gemeint sein.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10068">
+<label xml:id="GB03_2_BR098_0_note_006_60_4" copyOf="#start_com_0925"><hi rendition="#fett">60,4</hi>betreckt</label>
+<p>Bedreckt, verdreckt.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10081">
+<label xml:id="GB03_2_BR098_0_note_007_60_5" copyOf="#start_com_0926"><hi rendition="#fett">60,5</hi>Der Brand war lange nieder</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR097_0_note_004_59_10">59,10</ref>.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15700">
+<label xml:id="GB03_2_BR098_0_note_008_60_5-6" copyOf="#start_com_0927"><hi rendition="#fett">60,5-6</hi>wie Sie <gap quantity="3" reason="editorial"/> gehabt haben</label>
+<p>Verkürzt, als Ausdruck einer Vermutung; hier temporal im Sinn von ‚als …‘.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15046">
+<label xml:id="GB03_2_BR098_0_note_009_60_6" copyOf="#start_com_0928"><hi rendition="#fett">60,6</hi>die Anstalten</label>
+<p>Veranstaltungen, Maßnahmen, hier: die zur Brandbekämpfung angeordneten Maßnahmen.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10082">
+<label xml:id="GB03_2_BR098_0_note_010_60_7" copyOf="#start_com_0929"><hi rendition="#fett">60,7</hi>die Obern</label>
+<p>Der Stadtrat und andere städtische Amtspersonen wie z. B. Viertelsmeister.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10083">
+<label xml:id="GB03_2_BR098_0_note_011_60_7" copyOf="#start_com_0930"><hi rendition="#fett">60,7</hi>Bereitwillkeigt</label>
+<p>Vermutlich verschrieben für ‚Bereitwilligkeit‘.</p>
+
+</note>
+<note xml:id="gb10871_comment_com17599">
+<label xml:id="GB03_2_BR098_0_note_012_60_8" copyOf="#start_com_0931"><hi rendition="#fett">60,8</hi>Subalternen</label>
+<p>Militärisch, dienstlich oder sonst im Rang ‚Untergeordnete‘. – Hier sind die Anführer der Löschtrupps gemeint, die aus der Bürgerschaft ausgewählt wurden. Die Organisation des Feuerlöschwesens oblag der Stadtgemeinde. In der Stadtgemeinde waren alle Bürger gemäß den von der Stadtobrigkeit für die einzelnen Stadtviertel aufgestellten Einsatzplänen zur Dienstleistung bei Nacht- und Feuerwachen sowie zum Einsatz bei Feuerlöschaktionen, z. B. zum Bedienen der Feuerspritzen, verpflichtet.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10084">
+<label xml:id="GB03_2_BR098_0_note_013_60_9" copyOf="#start_com_0932"><hi rendition="#fett">60,9</hi>des Oberntheils der Stadt</label>
+<p>Der oberhalb der Ilm gelegene Altstadtkern Ilmenaus, der nach dem großen Stadtbrand von 1752 wieder aufgebaut worden war.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10085">
+<label xml:id="GB03_2_BR098_0_note_014_60_10" copyOf="#start_com_0933"><hi rendition="#fett">60,10</hi>des Amt und Rathhauses</label>
+<p>Das herzogliche Amtshaus und das Rathaus liegen in unmittelbarer Nachbarschaft zueinander in der Altstadt von Ilmenau.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15801">
+<label xml:id="GB03_2_BR098_0_note_015_60_10" copyOf="#start_com_0934"><hi rendition="#fett">60,10</hi><hi rendition="#hervor1">gerige Häuser</hi></label>
+<p>‚Gerige‘ verschrieben für ‚geringe‘: ärmliche (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1521). – Häuser von Handwerkern, Bergleuten und anderen ärmeren Bürgern Ilmenaus.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15047">
+<label xml:id="GB03_2_BR098_0_note_016_60_13" copyOf="#start_com_0935"><hi rendition="#fett">60,13</hi>Raub</label>
+<p>Ein Postwagenüberfall bei Ilmenau am 28. April 1776; Näheres dazu konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10097">
+<label xml:id="GB03_2_BR098_0_note_017_60_13" copyOf="#start_com_0936"><hi rendition="#fett">60,13</hi>Bericht</label>
+<p>Näheres dazu nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10098">
+<label xml:id="GB03_2_BR098_0_note_018_60_14" copyOf="#start_com_0937"><hi rendition="#fett">60,14</hi>gestreift</label>
+<p>‚Streifen‘ im Sinn von ‚durchsuchen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 439). – Hier ist die Aussendung von berittenen Husarenkommandos zur Überwachung der Wege in der Umgebung des Tatorts gemeint.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10099">
+<label xml:id="GB03_2_BR098_0_note_019_60_14" copyOf="#start_com_0938"><hi rendition="#fett">60,14</hi>6 Husaren</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR098_0_note_003_60_1">60,1</ref>.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15048">
+<label xml:id="GB03_2_BR098_0_note_020_60_15" copyOf="#start_com_0939"><hi rendition="#fett">60,15</hi>Arnstädtische</label>
+<p>Der an das Amt Ilmenau angrenzende Amtsbezirk Arnstadt der Oberherrschaft des Fürstentums Schwarzburg-Sondershausen.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10100">
+<label xml:id="GB03_2_BR098_0_note_021_60_15" copyOf="#start_com_0940"><hi rendition="#fett">60,15</hi>visitirend</label>
+<p>‚Visitieren‘ nach franz. visiter, hier: durchsuchen.</p>
+
+</note>
+<note xml:id="gb10871_comment_com10101">
+<label xml:id="GB03_2_BR098_0_note_022_60_15-16" copyOf="#start_com_0941"><hi rendition="#fett">60,15-16</hi>Frauenwalde</label>
+<p>Frauenwald, Dorf südlich des Rennsteigs im Thüringer Wald, etwa 15 km südsüdwestlich von Ilmenau, zum kursächsischen Teil der ehemaligen gefürsteten Grafschaft Henneberg gehörend.</p>
+
+</note>
+<note xml:id="gb10871_comment_com17605">
+<label xml:id="GB03_2_BR098_0_note_023_60_16" copyOf="#start_com_0942"><hi rendition="#fett">60,16</hi>Historien</label>
+<p>Die im Folgenden angedeuteten Gerüchte dürften im Nachklang auf eine Geschichte entstanden sein, die sich zehn Jahre zuvor abgespielt hatte: „Bereits im Jahre 1766 hatte sich ein unangenehmer Vorfall zugetragen, bei dem ein Gymnasiast mit Namen Gleichmann, der mit drei Ilmenauer Jägerburschen gemeinsame Sache gemacht hatte, von einem Feldwebel in seinem Dienst verwundet worden war.“ (<ref target="sndb:sigle#958">Voigt</ref>, 369). – Bei den Verdächtigen handelte es sich um die „Jäger-Purschen Sommer, Städter und Freytag“ (Brief des Ilmenauer Amtmanns Christian Gottlieb Etzdorff an den Oberforstmeister Wilhelm von Staff, 12. November 1766; <ref target="archivdb:dokument#76038">GSA 62/41</ref>, Bl. 2).</p>
+
+</note>
+<note xml:id="gb10871_comment_com9882">
+<label xml:id="GB03_2_BR098_0_note_024_60_18-19" copyOf="#start_com_0943"><hi rendition="#fett">60,18-19</hi>ein Schüler von Schleusingen</label>
+<p>Ein Schüler des Gymnasiums zu Schleusingen, das 1545 von Graf Georg Ernst von Henneberg gegründet worden war; es war im ehemaligen, seit der Reformation leerstehenden Barfüßerkloster untergebracht und hatte zeitweise über 400 Schüler (heute Hennebergisches Gymnasium „Georg Ernst“).</p>
+
+</note>
+<note xml:id="gb10871_comment_com9883">
+<label xml:id="GB03_2_BR098_0_note_025_60_19" copyOf="#start_com_0944"><hi rendition="#fett">60,19</hi>Eisfeld</label>
+<p>Stadt südlich des Thüringer Waldes an der Werra, zum Herzogtum Sachsen-Hildburghausen gehörend.</p>
+
+</note>
+<note xml:id="gb10871_comment_com14418">
+<label xml:id="GB03_2_BR098_0_note_026_60_22" copyOf="#start_com_0945"><hi rendition="#fett">60,22</hi>Ihre allzugrose Hizze <gap quantity="3" reason="editorial"/> Gelegenheiten</label>
+<p>Herzog Carl August war dafür bekannt, auf ihn empörende Vorkommnisse unbeherrscht zu reagieren. Goethe stellt in seinem Carl August gewidmeten Gedicht „Ilmenau“ (1783) des Herzogs <quote type="G">schmerzlich überspannte Regung</quote> (Vers 144) einem gereiften Regenten gegenüber, <quote type="G">Der kalt sich selbst und seinem Willen lebt</quote> (Vers 181; <ref target="sndb:sigle#1157">WA</ref> I 2, 146 und 147).</p>
+
+</note>
+<note xml:id="gb10871_comment_com9884">
+<label xml:id="GB03_2_BR098_0_note_027_60_25" copyOf="#start_com_0946"><hi rendition="#fett">60,25</hi>Staffen</label>
+<p>Christian Friedrich August von Staff, Hof- und Jagdjunker in Weimar.</p>
+
+</note>
+<note xml:id="gb10871_comment_com9885">
+<label xml:id="GB03_2_BR098_0_note_028_60_25" copyOf="#start_com_0947"><hi rendition="#fett">60,25</hi>Wedeln</label>
+<p>Otto Joachim Moritz von Wedel, Weimarer Kammerherr.</p>
+
+</note>
+<note xml:id="gb10871_comment_com9650">
+<label xml:id="GB03_2_BR098_0_note_029_60_29" copyOf="#start_com_0948"><hi rendition="#fett">60,29</hi>die alten Ofen</label>
+<p>Nicht mehr genutzte Brennöfen des 1739 stillgelegten Kupfer- und Silberbergwerks zu Ilmenau.</p>
+
+</note>
+<note xml:id="gb10871_comment_com15898">
+<label xml:id="GB03_2_BR098_0_note_030_60_30" copyOf="#start_com_0949"><hi rendition="#fett">60,30</hi>Sprüzen</label>
+<p>Sprütze: ältere regional gefärbte Form für ‚Spritze‘, hier ‚Feuerspritze‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 17, 129).</p>
+
+</note>
+<note xml:id="gb10871_comment_com9886">
+<label xml:id="GB03_2_BR098_0_note_031_60_32" copyOf="#start_com_0950"><hi rendition="#fett">60,32</hi><emph rendition="#latin">homme de lettre</emph></label>
+<p>Franz. homme de lettres: Literat, Schriftsteller.</p>
+
+</note>
+<note xml:id="gb10871_comment_com14853">
+<label xml:id="GB03_2_BR098_0_note_032_60_32" copyOf="#start_com_0951"><hi rendition="#fett">60,32</hi>schonen Sie die Hüffte</label>
+<p>Carl August war um den 20. März 1776 erkrankt; nach Aussage des Weimarer Kammerherrn Carl Friedrich Sigmund von Seckendorff litt er an Rheumatismus und Schwindelanfällen (vgl. zu <ref target="gb:note#GB03_2_BR080_0_note_001_52_1-2">52,1-2</ref>). Mitte April ging es ihm wieder besser.</p>
+
+</note>
+<note xml:id="gb10871_comment_com9896">
+<label xml:id="GB03_2_BR098_0_note_033_61_2" copyOf="#start_com_0952"><hi rendition="#fett">61,2</hi><emph rendition="#latin">Cher Mama</emph></label>
+<p>Franz.: Liebe Mama; gemeint ist die Herzoginmutter Anna Amalia von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

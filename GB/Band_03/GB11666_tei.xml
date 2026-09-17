@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5000"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11666" n="GB 3, Nr. 490">
+  <teiHeader xml:id="gb11666_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>490.</label> An <persName key="sndb:person#35544">Wilhelmine von Beaulieu-Marconnay</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 26. April 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:18Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11666_tei.xml</idno>
+        <idno type="URI">gb11666</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR490_0</idno>
+        <idno type="KSW-ID">11666</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="274" to="274">274</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="902" to="903">902-903</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11666_header_hwit1471" corresp="#gb11666_source_hwit1471" sameAs="#gb11666_comment_hwit1471" type="draft">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>30 Goethe, Johann Wolfgang von / Akten</collection>
+            <idno type="shelfmark">GSA 30/82,2 Bl. 19</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:431532</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11666,,1471/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Aus den Beilagen werden Ew. Gnaden ersehen was Herr v. Scholley wegen Peters</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <msDesc xml:id="gb11666_header_hwit1473" corresp="#gb11666_source_hwit1473" sameAs="#gb11666_comment_hwit1473" type="notAuthorisedCopyOfAuthorisedLetter">
+          <msIdentifier>
+            <country>CH</country>
+            <settlement>
+              <placeName>Chur</placeName>
+            </settlement>
+            <institution key="sndb:standort#74">StA Graubünden</institution>
+            <idno type="shelfmark">D VI Ma III. V. E 6</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11666,,1473/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Aus den Beilagen werden Ew. Gnaden ersehen was Herr v. Scholley wegen Peters</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11666_header_acc465" corresp="gb11666_comment_acc465">
+            <objectIdentifier>
+              <objectName>Abschrift von Carl Ludwig August von Scholleys Brief an Goethe vom 6. April 1779 </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11666_header_acc602" corresp="gb11666_comment_acc602">
+            <objectIdentifier>
+              <objectName>Abschrift von Goethes Brief an Scholley vom 26. April 1779</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11666_header_acc603" corresp="gb11666_comment_acc603">
+            <objectIdentifier>
+              <objectName>Abschrift des „Promemoria“ Johann Ludwig Eckardts, die Vormundschaft Goethes über Peter im Baumgarten betreffend </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-04-26">26. April 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#35544">Beaulieu-Marconnay, Wilhelmine von</persName>
+            <placeName key="sndb:ort#87365">Celle</placeName>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#105">RA 1, Nr. 94</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#107">RA 1, Nr. 95</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text type="source" xml:id="gb11666_source">
+<group>
+<text xml:space="preserve"  xml:id="gb11666_source_hwit1473" corresp="#gb11666_header_hwit1473" type="letter" rend="notAuthorisedCopyOfAuthorisedLetter">
+  <body>
+    <div>
+      <head><supplied>Abschrift</supplied></head>
+      <pb n="1" facs="gb:digitalisate#11666/70573"/>
+      <opener>
+        <dateline rendition="#c">
+          <anchor xml:id="GB03_1_BR490_0_274_010"/><emph rendition="#latin">Copia.</emph>
+        </dateline>
+        <dateline rendition="#c">
+          <anchor xml:id="GB03_1_BR490_0_274_011"/>des Briefs des Geh. Leg. Rath Goethe an <emph rendition="#latin">Madame Baulieu Marconnai</emph>
+        </dateline>
+        <dateline rendition="#c">
+          <anchor xml:id="GB03_1_BR490_0_274_012"/>
+          <emph rendition="#latin">née Lindau à Zelle. d. d.</emph> 26 Ap<g ref="#typoSuspension"/>. 1779.</dateline>
+        <dateline rendition="#c">
+          <anchor xml:id="GB03_1_BR490_0_274_013"/>
+          <emph rendition="#latin">P. P.</emph>
+        </dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR490_0_274_014"/>Aus den Beilagen werden Ew. Gnad<g ref="#typoSuspension"/>. ersehen <ref target="gb:note#GB03_2_BR490_0_note_001_274_14-17" xml:id="start_com_3972"/>was H<g ref="#typoSuspension"/>. von Schollei 
+<anchor xml:id="GB03_1_BR490_0_274_015"/>wegen Peters im Baumgarten, das zu dessen Erziehung von Dero see<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR490_0_274_016"/>Herrn Bruder meinem Freund ausgesezte <emph rendition="#latin">Legat</emph> betreffend neuerdings 
+<anchor xml:id="GB03_1_BR490_0_274_017"/>an mich geschrieben<ref xml:id="end_com_3972"/>, <ref target="gb:note#GB03_2_BR490_0_note_002_274_17" xml:id="start_com_3973"/>was ich demselbigen geantwortet<ref xml:id="end_com_3973"/> und wie ich 
+<anchor xml:id="GB03_1_BR490_0_274_018"/><ref target="gb:note#GB03_2_BR490_0_note_003_274_18" xml:id="start_com_3974"/>die Meinung eines Rechtsgelehrten<ref xml:id="end_com_3974"/> über diesen Fall hinzugefügt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR490_0_274_019"/>In gedachten Papieren ist die Sache so weitläufig aus einander gesezt<ptr n="1" target="#a001_274.20"/>, 
+<anchor xml:id="GB03_1_BR490_0_274_020"/>dass ich hochdieselben mit keiner weitern Ausführung zu beschweren 
+<anchor xml:id="GB03_1_BR490_0_274_021"/>habe, nur die Bitte füge ich hinzu, dass es Ew. Gnaden gefällig 
+<anchor xml:id="GB03_1_BR490_0_274_022"/>sein möge das ihrige zu endlicher Berichtigung dieses Geschäfts 
+<anchor xml:id="GB03_1_BR490_0_274_023"/>gütigst beizutragen, und so den angelegentlichsten Wunsch Dero verstorbenen 
+<anchor xml:id="GB03_1_BR490_0_274_024"/>H<g ref="#typoSuspension"/>. Bruders meines werthen Freundes wirklich zu erfüllen, 
+<anchor xml:id="GB03_1_BR490_0_274_025"/>und die edeln Gesinnungen die sie in Annahme seines lezten Willens 
+<anchor xml:id="GB03_1_BR490_0_274_026"/>gezeigt auch nunmehr zum Werk zu bringen, der ich mit aller Hochachtung 
+<anchor xml:id="GB03_1_BR490_0_274_027"/>mich unterzeichne Ew pp</p>
+    </div>
+    
+  </body>
+</text>
+
+<text xml:space="preserve"  xml:id="gb11666_source_hwit1471" corresp="#gb11666_header_hwit1471" type="letter" rend="draft">
+  <body>
+    <head><supplied>Konzept</supplied></head>
+    <div>
+    <pb n="2" facs="gb:digitalisate#11666/27266"/>
+      <opener>
+        <salute rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR490K_0_373_022"/>Hochwohlgeb<g ref="#typoSuspension"/>.
+              <anchor xml:id="GB03_1_BR490K_0_373_023"/>gnädige Frau</salute>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR490K_0_373_024"/>Aus den Beilagen werden Ew. Gnad<g ref="#typoSuspension"/> ersehen was <add place="#ueber_zeile">H<g ref="#typoSuspension"/> v Scholley</add> we
+                <anchor xml:id="GB03_1_BR490K_0_373_025"/>gen <del rendition="#durchgestrichen">des</del> Peter<add place="#in_zeile">s</add> im Baumgartens <subst>
+          <del rendition="#durchgestrichen">und dem</del>
+          <add place="#ueber_zeile">das</add>
+        </subst> zu dessen Erziehung 
+                <anchor xml:id="GB03_1_BR490K_0_373_026"/>
+        <add place="#ueber_zeile">von dero se<subst>
+            <del rendition="#ueberschriebenes"><g ref="#typoSuspension"/></del>
+            <add rendition="#ueberschreibung">e<g ref="#typoSuspension"/></add>
+          </subst> H<g ref="#typoSuspension"/>. Bruder meinem</add>
+        <add place="linker_rand">Freund</add> ausgesezte<del rendition="#durchgestrichen">n</del>
+        <emph rendition="#latin">Legat<del rendition="#durchgestrichen">s</del>
+        </emph>
+        <del rendition="#durchgestrichen">dero 
+                  <anchor xml:id="GB03_1_BR490K_0_373_027"/>seeligen H<g ref="#typoSuspension"/>. Bruders meines Freundes der H<g ref="#typoSuspension"/> v. Scholle<subst>
+            <del rendition="#ueberschriebenes">i</del>
+            <add rendition="#ueberschreibung">y</add>
+          </subst>
+        </del>
+        <add place="#ueber_zeile">betreff<g ref="#typoSuspension"/>.</add>
+        <note type="editor">〈alle 
+                    <anchor xml:id="GB03_1_BR490K_0_373_028"/>Korr. vermutlich G〉</note> neuerdings an mich geschrieben, was ich demselbigen 
+                  <anchor xml:id="GB03_1_BR490K_0_373_029"/>geantwortet und wie ich die Meinung eines <subst>
+          <del rendition="#ueberschriebenes">r</del>
+          <add rendition="#ueberschreibung">R</add>
+        </subst>echtsgelehrten über die
+                <anchor xml:id="GB03_1_BR490K_0_373_030"/>sen Fall hinzugefügt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR490K_0_373_031"/>
+        <subst>
+          <del rendition="#ueberschriebenes">D</del>
+          <add rendition="#ueberschreibung">I</add>
+        </subst>n gedachten Papieren ist die Sache so <ptr n="1" target="#a001_373.31"/>k weitläufig aus ein ander ge
+                  <anchor xml:id="GB03_1_BR490K_0_373_032"/>sezt dass ich Hochdieselben mit keiner weitern Ausführung zu beschwee
+                  <anchor xml:id="GB03_1_BR490K_0_374_001"/>ren habe nur die Bitte füge ich hinzu dass es Ew. Gnad<g ref="#typoSuspension"/>. gefällig sein möge 
+                  <anchor xml:id="GB03_1_BR490K_0_374_002"/>das <del rendition="#durchgestrichen">ubrige</del> Ihrige zu endlicher Berichtigung dieses Gehäfts gü<pb n="3" facs="gb:digitalisate#11666/27267"/>tigst beizu
+                  <anchor xml:id="GB03_1_BR490K_0_374_003"/>tragen und so den angelegentlichsten Wunsch Dero verstorbenen H<g ref="#typoSuspension"/>. 
+                  <anchor xml:id="GB03_1_BR490K_0_374_004"/>Bruders meines werthen Freundes wirklich zu erfüllen und die edeln Ge
+                  <anchor xml:id="GB03_1_BR490K_0_374_005"/>sinnungen die Sie in Annahme seines lezten Willens gezeigt auch numeh
+                  <anchor xml:id="GB03_1_BR490K_0_374_006"/>ro zum Werk zu bringen der ich mit aller Hochachtung mich unter
+                  <anchor xml:id="GB03_1_BR490K_0_374_007"/>zeichne</p>
+      <closer>
+        <salute rendition="#einrueck21">
+          <anchor xml:id="GB03_1_BR490K_0_374_008"/>Ew. Hochwohlg<g ref="#typoSuspension"/></salute>
+        <dateline>
+          <anchor xml:id="GB03_1_BR490K_0_374_009"/>Weimar d<g ref="#typoSuspension"/> <add place="in_zeile">26</add> Ap<g ref="#typoSuspension"/></dateline>
+        <dateline rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR490K_0_374_010"/>1779.                                               ganz gehorsamster Dr.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+</group>
+</text>
+
+<text xml:space="preserve" type="comment" xml:id="gb11666_comment">
+<body>
+<div type="metadata" xml:id="gb11666_comment_com1129">
+  <ab type="numberAddressee"><label>490.</label> An <persName key="sndb:person#35544">Wilhelmine von Beaulieu-Marconnay</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 26. April 1779 → <placeName key="sndb:ort#87365">Celle</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11666_comment_com3173">
+  <p>H: Verbleib unbekannt.</p>
+  <p>K: GSA Weimar, Sign.: <ref target="archivdb:dokument#431532">GSA 30/82,2</ref>, Bl. 19. – Doppelblatt 21(–21,2) × 34,5(–34,7) cm, &#xBD; S. zweispaltig (S. 1) und &#xBC; S. (S. 2) einspaltig rechts beschr., Schreiberhd (Seidel), mit egh. Korrekturen, Tinte; S. 1 linke Spalte Adresse: <quote type="G"><emph rendition="#latin">An /Madame Baulieu <del rendition="#s">nee</del> Marconnai / née Lindau / a / Zell / dans l. Electorat / d’Hannovre</emph></quote>, rechte Spalte Brieftext, darüber Schluss des Konzeptes von <ref target="gb:dokument#11696">Nr 489</ref>; S. 2 rechte Spalte Text, darunter Beginn des Konzeptes von <ref target="gb:dokument#53">Nr 491</ref>. In einem gebundenen Faszikel (vgl. weiter Überlieferung zu <ref target="gb:note#gb11696_comment_com2614">Nr 489</ref>).</p>
+  <p>h: Staatsarchiv Graubünden, Chur, Familienarchiv Salis-Marschlins, Sign.: D VI Ma III. V. E 6, S. 32. – In einem 42 Seiten umfassenden Heft (vgl. weiter Überlieferung zu <ref target="gb:note#gb11696_comment_com2614">Nr 489</ref>); links über dem Text bezeichnet mit <quote type="G">D)</quote>.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 33 f., Nr 810 (nach K).</p>
+  <p>Textgrundlage: h. – Die Abschrift erfolgte vermutlich nach der Ausfertigung; sie wird daher statt des Konzepts als Textgrundlage herangezogen. Das Konzept wird im Anhang zum Textband abgedruckt (Nr 490K).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11666_comment_com3774">
+  <p>1) Abschrift von Carl Ludwig August von Scholleys Brief an Goethe vom 6. April 1779 (vgl. zu <ref target="gb:note#GB03_2_BR490_0_note_001_274_14-17">274,14-17</ref>).</p>
+  <p>2) Abschrift von Goethes Brief an Scholley vom 26. April 1779 (<ref target="gb:dokument#11696">Nr 489</ref>; vgl. zu <ref target="gb:note#GB03_2_BR490_0_note_002_274_17">274,17</ref>).</p>
+  <p>3) Abschrift des „Promemoria“ Johann Ludwig Eckardts, die Vormundschaft Goethes über Peter im Baumgarten betreffend (vgl. zu <ref target="gb:note#GB03_2_BR490_0_note_003_274_18">274,18</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11666_comment_com4969">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Wilhelmine Baldine Sophie Eleonore Elisabeth von Beaulieu-Marconnay geb. von Lindau (1757–1795) war die älteste Schwester von Heinrich Julius von Lindau (vgl. über ihn die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>). Sie hatte wie ihre Schwestern Caroline Luise (später verh. von Marschalck) und Marie Ulrike Friederike (seit Juni 1779 verh. von Düring) nach dem frühen Tod ihrer Eltern, des hessen-kasselischen Kammerherrn und Kriegsrats Philipp Heinrich Julius von Lindau (gest. 1762) und dessen Frau Henriette Baldine Marie geb. Henry de Cheusses (gest. 1763), unter der Obhut ihres Vormundes Carl Ludwig August von Scholley gestanden. 1774 heiratete sie den hannoverschen Oberjägermeister Friedrich Georg Christian von Beaulieu-Marconnay in Celle. Sie wurde Mutter von fünf Söhnen und einer Tochter. Ihre Schwester Marie Ulrike schildert sie in ihren Erinnerungen: „Diese älteste Schwester war schön, oft reizend, sie schien die Sanftmut eines Engels zu haben, war aber manchmal von einer grenzenlosen Heftigkeit. Sehr unglücklich verheiratet, war ihr Leben ein trauriges, aber sie gestaltete es auch denen, die mit ihr lebten, nicht freundlicher. Nichtsdestoweniger schwebte ein so großer Reiz um ihre Person – in ihren guten Augenblicken war sie so überaus liebenswürdig – sie bat mit so viel Anmut um Verzeihung – sie war so zu beklagen wegen ihrer wenig passenden Verbindung mit einem um 20 Jahre älteren Manne, der zum ewigen Kummer seiner Frau närrisch in sie verliebt war, – daß meine Schwester Caroline und ich sie trotz ihrer Launen und ihrer allzugroßen Lebhaftigkeit anbeteten und alles taten, was sie wollte, zugleich aber seufzten wir darüber, so von ihr gequält zu werden.“ (Lebensbilder und Lebenserinnerungen von Marie Ulrike von Düring geb. von Lindau. Bielefeld 1916, S. 61.) Wilhelmine von Beaulieu-Marconnay zogen, so ihre Schwester Marie Ulrike, „der Gram und die Heftigkeit ihrer Gemütsstimmung“ eine „galoppierende Schwindsucht“ (ebd., S. 21) zu, an welcher sie am 7. September 1795 starb.</p>
+  <p rendition="#einrueck1">Im vorliegenden Brief geht es um ein Legat von 2000 Reichstalern, die Heinrich Julius von Lindau seinem Pflegesohn Peter im Baumgarten (vgl. über ihn die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>) hinterlassen hatte. Die Auszahlung dieses Geldes durch den Vormund der Erben, Carl Ludwig August von Scholley, verzögerte sich (vgl. Goethes Brief an Scholley vom 26. April 1779 [<ref target="gb:dokument#11696">Nr 489</ref>] und die Erläuterungen dazu). Vermutlich sah sich Goethe deswegen veranlasst, sich an Wilhelmine von Beaulieu-Marconnay zu wenden, weil diese durch Ulysses von Salis in die Erbschaftsangelegenheit einbezogen worden war; Salis hatte Goethe mit seinem Brief vom 20. Oktober 1778 darüber unterrichtet, dass er auch „des sel. Lindau älteste Fr Schwester Madame Baulieu Marconnai“ (H: <ref target="archivdb:dokument#431532">GSA 30/82,2</ref>, Bl. 4r; vgl. auch <ref target="ra:dokument#100">RA 1, 72, Nr 91</ref>) über die Probleme informiert habe. Goethe konnte auf Unterstützung hoffen, weil Wilhelmine und ihre beiden Schwestern das Legat ihres Bruders für Peter im Baumgarten längst anerkannt hatten.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11666_comment_com10943">
+<label xml:id="GB03_2_BR490_0_note_001_274_14-17" copyOf="#start_com_3972"><hi rendition="#fett">274,14-17</hi>was H<g ref="#typoSuspension"/>. von Schollei <gap quantity="3" reason="editorial"/> geschrieben</label>
+<p>Beilage 1 (nicht überliefert), nach der Ausfertigung gedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb11696_comment_com4410">Nr 489</ref>.</p>
+
+</note>
+<note xml:id="gb11666_comment_com15115">
+<label xml:id="GB03_2_BR490_0_note_002_274_17" copyOf="#start_com_3973"><hi rendition="#fett">274,17</hi>was ich demselbigen geantwortet</label>
+<p>Beilage 2, Abschrift von <ref target="gb:dokument#11696">Nr 489</ref> (nicht überliefert).</p>
+
+</note>
+<note xml:id="gb11666_comment_com10944">
+<label xml:id="GB03_2_BR490_0_note_003_274_18" copyOf="#start_com_3974"><hi rendition="#fett">274,18</hi>Meinung eines Rechtsgelehrten</label>
+<p>Beilage 3 (nicht überliefert), h: <ref target="archivdb:dokument#431532">GSA 30/82,2</ref>, Bl. 13r–15v, teilweise abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb11696_comment_com4410">Nr 489</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

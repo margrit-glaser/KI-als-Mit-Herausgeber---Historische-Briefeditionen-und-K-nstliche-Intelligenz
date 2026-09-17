@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1000"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10878" n="GB 3, Nr. 100">
+  <teiHeader xml:id="gb10878_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>100.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 11. Mai? 1776. Samstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10878_tei.xml</idno>
+        <idno type="URI">gb10878</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR100_0</idno>
+        <idno type="KSW-ID">10878</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="61" to="61">61</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="234" to="236">234-236</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10878_header_hwit990" corresp="#gb10878_source_hwit990" sameAs="#gb10878_comment_hwit990" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 10</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10878,,990/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ein Ragia und ein Brame die von den Dews verfolgt werden, bitten um ein Mittagsmahl</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-11"><supplied>11. Mai? 1776</supplied> </date>
+            <note>
+              <date type="WA" from="1776-05-01" to="1776-05-31"><supplied>Mai 1776?</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10878_source_hwit990" corresp="#gb10878_header_hwit990" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10878/22329"/>
+      <p>
+        <anchor xml:id="GB03_1_BR100_0_061_009"/>Ein <ref target="gb:note#GB03_2_BR100_0_note_001_61_9" xml:id="start_com_0959"/>Ragia<ref xml:id="end_com_0959"/> und ein <ref target="gb:note#GB03_2_BR100_0_note_002_61_9" xml:id="start_com_0960"/>Brame<ref xml:id="end_com_0960"/> die von den <ref target="gb:note#GB03_2_BR100_0_note_003_61_9" xml:id="start_com_0961"/>Dews<ref xml:id="end_com_0961"/> verfolgt werden, <ref target="gb:note#GB03_2_BR100_0_note_004_61_9-10" xml:id="start_com_0962"/>bitten 
+<anchor xml:id="GB03_1_BR100_0_061_010"/>um ein Mittagsmahl<ref xml:id="end_com_0962"/> heute <ref target="gb:note#GB03_2_BR100_0_note_005_61_10" xml:id="start_com_0963"/>in dem Quell Ihres reinen Lichtes<ref xml:id="end_com_0963"/>. Wenns 
+<anchor xml:id="GB03_1_BR100_0_061_011"/>ia ist antworten Sie nicht, denn schon führt uns die Begier auf <ref target="gb:note#GB03_2_BR100_0_note_006_61_11-12" xml:id="start_com_0964"/>die 
+<anchor xml:id="GB03_1_BR100_0_061_012"/>Jagd der zweyfüsigen Schlange und des vierfüsigen Wolfs<ref xml:id="end_com_0964"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR100_0_061_013"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10878_comment">
+<body>
+<div type="metadata" xml:id="gb10878_comment_com1300">
+  <ab type="numberAddressee"><label>100.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>11. Mai? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10878_comment_com1973">
+  <p>Entgegen seiner Einordnung im Konvolut der Briefe an Charlotte von Stein (Bd I) in den März 1776 verweist der Inhalt des Briefes auf eine etwas spätere Datierung. Die mutmaßliche Erwähnung des Herzogs (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR100_0_note_001_61_9">61,9</ref>) und die Bitte, zum <quote type="G">Mittagsmahl</quote> (<ref target="gb:text#GB03_1_BR100_0_061_010">61,10</ref>) zu Charlotte von Stein kommen zu dürfen, korrespondieren mit dem Tagebucheintrag vom 11. Mai 1776 (vgl. zu <ref target="gb:note#GB03_2_BR100_0_note_004_61_9-10">61,9-10</ref>). Nicht auszuschließen ist jedoch auch eine spätere Datierung, z. B. in den Juni 1776 (vgl. Tagebucheintrag vom 15. Juni 1776; <ref target="gt:dokument#70">GT I 1, 19</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10878_comment_com3344">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 10. – 1 Bl. 17,6 × 11,1(–11,3) cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „25.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 25), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 31.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 58, Nr 450.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10878_comment_com5140">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Einem Teil der indisch-persischen Anspielungen im vorliegenden Brief liegt offenbar Goethes Lektüre der „Zend-Avesta“-Übersetzung von Johann Friedrich Kleuker zugrunde, auch wenn diese weder im vorliegenden Brief noch später direkt genannt wird (Quelle zuerst nachgewiesen von K. Rhode: Zur Bildersprache Goethes. Die zweifüßige Schlange und der vierfüßige Wolf. In: Jenaische Zeitung. 2. August 1921). Der erste Teil von Kleukers Übersetzung war zur Ostermesse 1776 bei Johann Friedrich Hartknoch in Riga erschienen (Zend-Avesta, Zoroasters Lebendiges Wort, worin die Lehren und Meinungen dieses Gesetzgebers von Gott, Welt, Natur, Menschen; ingleichen die Ceremonien des heiligen Dienstes der Parsen u. s. f. aufbehalten sind). Auf Anregung Herders (vgl. zu <ref target="gb:note#GB03_2_BR108_0_note_002_64_1">64,1</ref>) hatte Kleuker, ein Schüler Christian Gottlob Heynes in Göttingen, die 1771 in Paris erschienene französische „Zend-Avesta“-Übersetzung von Abraham Hyacinthe Anquetil-Duperron ins Deutsche übertragen (Zend-Avesta, Ouvrage de Zoroastre, Contenant les Idées Théologiques, Physiques &amp; Morales de ce Législateur, les Cérémonies du Culte Religieux qu‘il a établi, &amp; plusieurs traits importans relatifs à l’ancienne Histoire des Perses. <gap quantity="3" reason="editorial"/>. 2 Bde). Durch das Werk Anquetil-Duperrons, der zu Beginn der 1760er Jahre Indien bereist und die „Zend“-Bücher nach Paris gebracht hatte, war die erste Kunde des Parsismus nach Europa gelangt und hatte das latente Interesse am Orient neu aufleben lassen. Kleukers Übersetzung, der 1777 ein 2. und 3. Band folgten, enthält jeweils Vorberichte zu jedem Kapitel der „Zend“-Bücher sowie im 1. Band erläuternde „Vorläufige Nachrichten“ zum Parsismus. Sie blieb für etwa 80 Jahre die einzige deutschsprachige Ausgabe überhaupt (eine 2. Auflage der Kleukerschen Übersetzung erschien 1786; im Einzelnen vgl. Mohammad-Hossein Azodanlou: Die Rezeption des Parsismus in der deutschen Literatur zwischen 1772 und 1886. Kleuker, Herder, Goethe, Spiegel, Nietzsche. Würzburg 2001, bes. S. 6 f.). – Weitere Anspielungen oder Hinweise, die auf eine Lektüre Kleukers deuten, finden sich nicht. Eine intensivere Auseinandersetzung Goethes mit der persischen Dichtung, Kultur und Religion ist erst wieder für die Entstehungszeit des „West-östlichen Divans“ etwa ab 1814 nachzuweisen.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10878_comment_com9940">
+<label xml:id="GB03_2_BR100_0_note_001_61_9" copyOf="#start_com_0959"><hi rendition="#fett">61,9</hi>Ragia</label>
+<p>In Abwandlung zu ‚Radscha‘ (Sanskrit: raja): Fürst. Hier offenbar mit Bezug auf Herzog Carl August.</p>
+
+</note>
+<note xml:id="gb10878_comment_com9941">
+<label xml:id="GB03_2_BR100_0_note_002_61_9" copyOf="#start_com_0960"><hi rendition="#fett">61,9</hi>Brame</label>
+<p>In Abwandlung zu ‚Brahmane‘ (Sanskrit: brahmana): Angehöriger der obersten hinduistischen Priesterkaste, zu der auch Gelehrte und Dichter gehörten.</p>
+
+</note>
+<note xml:id="gb10878_comment_com9942">
+<label xml:id="GB03_2_BR100_0_note_003_61_9" copyOf="#start_com_0961"><hi rendition="#fett">61,9</hi>Dews</label>
+<p>Dew (avestisch: Daêva, mittelpersisch: Dev, neupersisch: Div, Sanskrit: deva); ursprünglich altiranische, auch indische Gottheiten; in der avestischen-zoroastrischen Tradition ‚dämonische Wesen‘, Anhänger Ahrimans, des Herrn der Finsternis, des Bösen und Unreinen, Gegenspieler des Lichtgottes Ahura Mazda (mittelpers. Ormuzd). – Hier vielleicht symbolisch für die Widerstände, mit denen Goethe und der Herzog damals zu kämpfen hatten (vgl. zu <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref>).</p>
+
+</note>
+<note xml:id="gb10878_comment_com17524">
+<label xml:id="GB03_2_BR100_0_note_004_61_9-10" copyOf="#start_com_0962"><hi rendition="#fett">61,9-10</hi>bitten um ein Mittagsmahl</label>
+<p>Am 10. Mai war Goethe von seiner Reise nach Ilmenau zurückgekehrt (vgl. <ref target="gt:dokument#36">GT I 1, 18</ref>); am 11. Mai 1776 vermerkte er im Tagebuch: <quote type="G">Im Gart. M.<supplied>Mittag</supplied> bey St.<supplied>Stein</supplied> |:Mit dem Herrn<supplied>Herzog Carl August</supplied>:|</quote> (<ref target="gt:dokument#37">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb10878_comment_com13636">
+<label xml:id="GB03_2_BR100_0_note_005_61_10" copyOf="#start_com_0963"><hi rendition="#fett">61,10</hi>in dem Quell Ihres reinen Lichtes</label>
+<p>In Anspielung auf die dualistische Vorstellungswelt der „Avesta“, in der das ‚reinste Licht‘, das Reich Ahura Mazdas, des Schöpfergottes, der Ursprung alles Lebendigen ist, Inbegriff alles Guten und Edlen.</p>
+
+</note>
+<note xml:id="gb10878_comment_com17561">
+<label xml:id="GB03_2_BR100_0_note_006_61_11-12" copyOf="#start_com_0964"><hi rendition="#fett">61,11-12</hi>die Jagd der zweyfüsigen Schlange <gap quantity="3" reason="editorial"/> Wolfs</label>
+<p>‚Zweifüßige Schlangen‘ und ‚vierfüßige Wölfe‘ sind nach dem „Zend-Avesta“ verschiedene Arten von Dews. – Im Teil „Izeschne“ (Gebete und Lobpreisungen) findet sich ein Gebet Zoroasters (Zarathustras) zum Gott Hom: „Gieb der Welt auf ihr Verlangen beständig einen König, der das Böse zerstört, den Darndj <supplied>Produkt der Dews</supplied> zerstäube, du der du immer zerschmeissest alle Uebelthäter, und plagest die Menschen, welche Dews sind, Zauberer und Paris, welche ohnmächtig, blind und taub machen, die zweifüßigen Schlangen und <hi rendition="#hervor1">Aschmoghs</hi> mit zwei Füßen und Wölfe mit vier Füßen, die unabsehbare unreine Schaaren der Dews, denen Uebel und Uebel und Unterdrückung auf dem Fusse folgt.“ (Kleuker: Zend-Avesta. 1. Bd [1776], S. 94.) – Auf wen sich diese Anspielung bezieht, konnte nicht ermittelt werden.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

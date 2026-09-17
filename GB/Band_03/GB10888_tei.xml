@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1110"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10888" n="GB 3, Nr. 111">
+  <teiHeader xml:id="gb10888_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>111.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 21. Mai 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:27Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10888_tei.xml</idno>
+        <idno type="URI">gb10888</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR111_0</idno>
+        <idno type="KSW-ID">10888</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="65" to="65">65</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="253" to="253">253</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10888_header_hwit978" corresp="#gb10888_source_hwit978" sameAs="#gb10888_comment_hwit978" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 17</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10888,,978/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Da liebe Frau wieder Spargel ich esse heut mit Ihnen. Gestern als ich zu Bette gehn wollt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10888_header_acc230" corresp="gb10888_comment_acc230">
+            <objectIdentifier>
+              <objectName><quote type="G">Spargel</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-21">21. Mai 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10888_source_hwit978" corresp="#gb10888_header_hwit978" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10888/22341"/>
+      <p>
+        <anchor xml:id="GB03_1_BR111_0_065_003"/>Da liebe Frau <ref target="gb:note#GB03_2_BR111_0_note_001_65_3" xml:id="start_com_1019"/>wieder Spargel<ref xml:id="end_com_1019"/>
+        <ref target="gb:note#GB03_2_BR111_0_note_002_65_3" xml:id="start_com_1020"/>ich esse heut mit Ihnen<ref xml:id="end_com_1020"/>. Gestern als ich 
+<anchor xml:id="GB03_1_BR111_0_065_004"/>zu Bette gehn wollt und <ref target="gb:note#GB03_2_BR111_0_note_003_65_4" xml:id="start_com_1021"/>ihr Armband<ref xml:id="end_com_1021"/> mir in die Hände kam macht 
+<anchor xml:id="GB03_1_BR111_0_065_005"/>ich mir Vorwürfe<ptr n="1" target="#a001_65.5"/>.    Guten Morgen beste.    d<g ref="#typoSuspension"/>. 21. May. 76.     G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10888_comment">
+<body>
+<div type="metadata" xml:id="gb10888_comment_com687">
+  <ab type="numberAddressee"><label>111.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 21. Mai 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10888_comment_com2731">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 17. – 1 Bl. 18(–18,2) × 6,4(–7,4) cm, &#xBD; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Fr. v. Stein</quote>; Vs. oben rechts von fremder Hd, Tinte: „45.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 45), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 33.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 63, Nr 461.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10888_comment_com3639">
+  <p><quote type="G">Spargel</quote> (<ref target="gb:text#GB03_1_BR111_0_065_003">65,3</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10888_comment_com4527">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10888_comment_com15002">
+<label xml:id="GB03_2_BR111_0_note_001_65_3" copyOf="#start_com_1019"><hi rendition="#fett">65,3</hi>wieder Spargel</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR107_0_063_012 #GB03_1_BR107_0_063_013">63,12–13</ref>; <ref target="gb:text#GB03_1_BR109_0_064_011">64,11</ref>.</p>
+
+</note>
+<note xml:id="gb10888_comment_com10006">
+<label xml:id="GB03_2_BR111_0_note_002_65_3" copyOf="#start_com_1020"><hi rendition="#fett">65,3</hi>ich esse heut mit Ihnen</label>
+<p>Vermutlich blieb es bei der Ankündigung. Laut Tagebucheintrag vom 21. Mai 1776 war Goethe an diesem Tag in <quote type="G">Tiefurt</quote> und hat <quote type="G">draus geschlafen</quote> (<ref target="gt:dokument#47">GT I 1, 18</ref>; vgl. auch <ref target="gb:text#GB03_1_BR114_0_069_011 #GB03_1_BR114_0_069_013">69,11–13</ref>).</p>
+
+</note>
+<note xml:id="gb10888_comment_com17557">
+<label xml:id="GB03_2_BR111_0_note_003_65_4" copyOf="#start_com_1021"><hi rendition="#fett">65,4</hi>ihr Armband</label>
+<p>Wahrscheinlich hatte es Goethe bei Gelegenheit eines ländlichen Festes in Tiefurt an sich genommen (vgl. <ref target="gb:text#GB03_1_BR114_0_068_022 #GB03_1_BR114_0_068_026">68,22–26</ref>). Offenbar mit Bezug auf das hier erwähnte Schmuckstück vermerkte Goethe unter dem 20. Juni 1776 in seinem Tagebuch: <quote type="G">Wiedergeforderts Armband.</quote> (<ref target="gt:dokument#75">GT I 1, 19</ref>.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

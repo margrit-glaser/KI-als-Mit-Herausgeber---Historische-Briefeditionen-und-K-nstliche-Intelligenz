@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8540"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb51" n="GB 3, Nr. A 2">
+  <teiHeader xml:id="gb51_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>A 2.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>25. April 1779. Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb51_tei.xml</idno>
+        <idno type="URI">gb51</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_AB002_0</idno>
+        <idno type="KSW-ID">51</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="436" to="438">436-438</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1089" to="1093">1089-1093</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb51_header_hwit1470" corresp="#gb51_source_hwit1470" sameAs="#gb51_comment_hwit1470" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Bausachen B 9261</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/51,,1470/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ew. pp. haben mittelst gnädigsten Rescripts vom 19. Januar    des jetztlaufenden Jahres</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+            <accMat>
+              <bibl type="attachment" xml:id="gb51_header_hwit56142" corresp="#gb51_source_hwit56142" sameAs="#gb51_comment_hwit56142" subtype="authorisedLetter">
+                <msIdentifier>
+                  <country>D</country>
+                  <settlement>
+                    <placeName>Weimar</placeName>
+                  </settlement>
+                  <institution key="sndb:standort#17">LATh - HStA</institution>
+                  <idno type="shelfmark">Bausachen B 9261</idno>
+                  <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/51,,56142/manifest</idno>
+                </msIdentifier>
+              </bibl>
+            </accMat>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb51_header_acc733" corresp="gb51_comment_acc733">
+            <objectIdentifier>
+              <objectName>Disposition</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-04-25"><supplied>25. April 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text type="source" xml:id="gb51_source">
+<group>
+<text xml:space="preserve"  xml:id="gb51_source_hwit1470" corresp="#gb51_header_hwit1470" type="letter" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#51/58382"/>
+      <opener>
+        <salute rendition="#einrueck1">
+          <anchor xml:id="GB03_1_AB002_0_436_029"/>
+          <emph rendition="#latin">Durchlauchtigster Herzog,</emph><lb/>
+          <anchor xml:id="GB03_1_AB002_0_436_030"/>Gnädigst regierender <emph rendition="#latin">Fürst</emph> und <emph rendition="#latin">Herr</emph>!</salute>
+      </opener>
+      <space quantity="2" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_AB002_0_436_031"/><emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/>. Durch<g ref="#typoSuspension"/>.</emph> haben mittelst gnädigsten <emph rendition="#latin"><ref target="gb:note#GB03_2_AB002_0_note_001_436_31-32" xml:id="start_com_5209"/>Rescripts</emph> vom 
+<anchor xml:id="GB03_1_AB002_0_436_032"/>19<hi rendition="#sup #uu">d</hi> <emph rendition="#latin">Januar:</emph><ref xml:id="end_com_5209"/> des jeztlaufenden Jahres mir <ref target="gb:note#GB03_2_AB002_0_note_002_436_32-437_1" xml:id="start_com_5210"/>die <emph rendition="#latin">Direction</emph> des hiesigen 
+<anchor xml:id="GB03_1_AB002_0_437_001"/>Land-Straßen-Baues<ref xml:id="end_com_5210"/>, so wie solche in vorigen Zeiten <emph rendition="#latin">HoechstDero</emph>
+        <anchor xml:id="GB03_1_AB002_0_437_002"/><ref target="gb:note#GB03_2_AB002_0_note_003_437_2" xml:id="start_com_5211"/>Cammer-<emph rendition="#latin">Praesident von Kalb</emph><ref xml:id="end_com_5211"/> über sich gehabt und nachhero <ref target="gb:note#GB03_2_AB002_0_note_004_437_2-4" xml:id="start_com_5212"/>die Aufsicht 
+<anchor xml:id="GB03_1_AB002_0_437_003"/>über das hiesige Stadt-Pfla<pb n="2" facs="gb:digitalisate#51/58383"/>ster Bau-Wesen und der um die Stadt 
+<anchor xml:id="GB03_1_AB002_0_437_004"/>gehenden <emph rendition="#latin">Promenaden</emph><ref xml:id="end_com_5212"/> zu übertragen, huldreichst geruhet.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB002_0_437_005"/>Durch dieses in mich gesezte gnädigste Vertrauen von dem ohnbegrenztesten 
+<anchor xml:id="GB03_1_AB002_0_437_006"/>Eifer belebet, habe ich um den Befehlen <emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_AB002_0_437_007"/>Durch<g ref="#typoSuspension"/>.</emph> überall die schuldigste Folge leisten zu können von dem dermaligen 
+<anchor xml:id="GB03_1_AB002_0_437_008"/>Bestand der <ref target="gb:note#GB03_2_AB002_0_note_005_437_8" xml:id="start_com_5213"/>Straßen-Bau-<emph rendition="#latin">Casse</emph><ref xml:id="end_com_5213"/> erforderliche Erkundigung eingezogen, 
+<anchor xml:id="GB03_1_AB002_0_437_009"/>solchen aber, der aus dieser, wegen im vorigen Jahre geschehenen 
+<anchor xml:id="GB03_1_AB002_0_437_010"/>Bau- und Beßerungen, gegangenen <ref target="gb:note#GB03_2_AB002_0_note_006_437_10" xml:id="start_com_5214"/>Vorschüße<ref xml:id="end_com_5214"/> halber, für dieses Jahr 
+<anchor xml:id="GB03_1_AB002_0_437_011"/><ref target="gb:note#GB03_2_AB002_0_note_007_437_11" xml:id="start_com_5215"/>von sehr geringer Erheblichkeit<ref xml:id="end_com_5215"/> befunden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB002_0_437_012"/>Wegen zweckmäßiger Verwendung nur be<pb n="3" facs="gb:digitalisate#51/58384"/>merckter <emph rendition="#latin">Casse</emph> bleibenden 
+<anchor xml:id="GB03_1_AB002_0_437_013"/>Gelder habe ich nun, mit Zuziehung des <emph rendition="#latin"><ref target="gb:note#GB03_2_AB002_0_note_008_437_13-14" xml:id="start_com_5216"/>Ingenieur</emph>- und <emph rendition="#latin">Artillerie</emph>-<anchor xml:id="GB03_1_AB002_0_437_014"/>Hauptmanns <emph rendition="#latin">de Castrop</emph><ref xml:id="end_com_5216"/>, <ref target="gb:note#GB03_2_AB002_0_note_009_437_14" xml:id="start_com_5217"/>diejenige <emph rendition="#latin">Disposition</emph><ref xml:id="end_com_5217"/>, welche <emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_AB002_0_437_015"/>Durch<g ref="#typoSuspension"/>.</emph> ich hier im Anschluß unterthänigst überreiche, getroffen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB002_0_437_016"/>Aus solchen wird <emph rendition="#latin">HoechstDenenselben</emph> gehorsamst vorgetragen werden 
+<anchor xml:id="GB03_1_AB002_0_437_017"/>können, wie daß die Haupt- und allzusehr ins Geld gehende <emph rendition="#latin">Reparatur</emph><anchor xml:id="GB03_1_AB002_0_437_018"/>en vorerst noch ausgesezt zu laßen und in diesem Jahre nur die geringere, 
+<anchor xml:id="GB03_1_AB002_0_437_019"/>nicht allzuviel betragende höchstnöthige Beßerungen um 
+<anchor xml:id="GB03_1_AB002_0_437_020"/>deswillen vorzunehmen seyn werden, weil nach Abzug des gedachten 
+<anchor xml:id="GB03_1_AB002_0_437_021"/><ref target="gb:note#GB03_2_AB002_0_note_010_437_21" xml:id="start_com_5218"/>Vorschusses<ref xml:id="end_com_5218"/> und der jährlichen <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_AB002_0_note_011_437_21" xml:id="start_com_5219"/>ordinair</emph>en Posten<ref xml:id="end_com_5219"/> das sehr <pb n="4" facs="gb:digitalisate#51/58385"/> mäßige 
+<anchor xml:id="GB03_1_AB002_0_437_022"/><emph rendition="#latin">Quantum</emph> von</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#c">
+        <anchor xml:id="GB03_1_AB002_0_437_023"/>1555. rthlr. 9 g<g ref="#typoSuspension"/>. 11 &#x3D1;<g ref="#typoSuspension"/>.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_AB002_0_437_024"/>zu Unterhaltung sämtlicher <ref target="gb:note#GB03_2_AB002_0_note_012_437_24" xml:id="start_com_5220"/>Heer- und Geleits-Straßen<ref xml:id="end_com_5220"/> übrig bleibt, mithin 
+<anchor xml:id="GB03_1_AB002_0_437_025"/>auf jede einzelne Straße nur ein sehr geringes verwendet werden 
+<anchor xml:id="GB03_1_AB002_0_437_026"/>kan.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB002_0_437_027"/><emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/>. Durch<g ref="#typoSuspension"/>.</emph> höchsten Entschliessung und huldreichster 
+<anchor xml:id="GB03_1_AB002_0_437_028"/>Genehmigung unterwerfe ich jedoch alles dieses in demjenigen Gehorsam, 
+<anchor xml:id="GB03_1_AB002_0_437_029"/>in deßen Gefolg ich nach Ablauf des Jahres schuldigst nicht verfehlen 
+<anchor xml:id="GB03_1_AB002_0_437_030"/>werde, <ref target="gb:note#GB03_2_AB002_0_note_013_437_30" xml:id="start_com_5221"/>eine <emph rendition="#latin">Bilance</emph><ref xml:id="end_com_5221"/> von dem vorgenommenen Straßen-Bau- und 
+<anchor xml:id="GB03_1_AB002_0_437_031"/><emph rendition="#latin">Reparaturen</emph>, nebst einer <emph rendition="#latin"><ref target="gb:note#GB03_2_AB002_0_note_014_437_31-32" xml:id="start_com_5222"/>Specification</emph> dererjenigen Stücke, wohin die 
+<anchor xml:id="GB03_1_AB002_0_437_032"/>aufgegangenen Kosten verwendet <pb n="5" facs="gb:digitalisate#51/58386"/> worden<ref xml:id="end_com_5222"/>, nicht minder <ref target="gb:note#GB03_2_AB002_0_note_015_437_32-33" xml:id="start_com_5223"/>anderweites 
+<anchor xml:id="GB03_1_AB002_0_437_033"/>Verzeichniß<ref xml:id="end_com_5223"/> von denen Land-Straßen und Brücken, die in folgenden 
+<anchor xml:id="GB03_1_AB002_0_437_034"/>Jahre durch neue Beßerung in Stand zu sezen, und was nach Beschaffenheit 
+<anchor xml:id="GB03_1_AB002_0_437_035"/>der Umstände und des <emph rendition="#latin">Cass</emph>en <emph rendition="#latin">Etats</emph> neu zu bauen seyn möchte, in 
+<anchor xml:id="GB03_1_AB002_0_437_036"/>tiefster Ehrfurcht vorzulegen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB002_0_437_037"/>Geruhen doch übrigens <emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/>. Durch<g ref="#typoSuspension"/>.</emph> die devoteste Versicherung 
+<anchor xml:id="GB03_1_AB002_0_437_038"/>von mir anzunehmen, daß auch bei dieser mir gnädigst übertragenen 
+<anchor xml:id="GB03_1_AB002_0_437_039"/><emph rendition="#latin"><ref target="gb:note#GB03_2_AB002_0_note_016_437_39" xml:id="start_com_5224"/>Incumbenz</emph><ref xml:id="end_com_5224"/> <emph rendition="#latin">HoechstDeroselben</emph> höchstes <emph rendition="#latin">Interesse</emph> ich überall 
+<anchor xml:id="GB03_1_AB002_0_437_040"/>nach allen meinen Kräfften zu befördern, und dadurch diejenige ohnverbrüchlichste 
+<anchor xml:id="GB03_1_AB002_0_438_001"/>Treue zu bewähren, suchen <pb n="6" facs="gb:digitalisate#51/58387"/> werde, mit welcher ich zu 
+<anchor xml:id="GB03_1_AB002_0_438_002"/>ersterben die Gnade habe.</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <salute rendition="#right">
+          <anchor xml:id="GB03_1_AB002_0_438_003"/><emph rendition="#latin">Ew: HochFürst<g ref="#typoSuspension"/> Durch<g ref="#typoSuspension"/>.</emph>
+        </salute>
+        <space quantity="2" unit="lines"/>
+        <dateline><lb xml:id="gb51_source_lin1946"/><anchor xml:id="GB03_1_AB002_0_438_004"/>Weimar d<g ref="#typoSuspension"/>. 25. April<g ref="#typoSuspension"/>.
+        <lb xml:id="gb51_source_lin1947"/><hi rendition="#einrueck3">
+          <anchor xml:id="GB03_1_AB002_0_438_005"/>1779.</hi> </dateline>
+        <lb sameAs="#gb51_source_lin1946"/><salute><hi rendition="#right">unterthänigst gehorsamster</hi></salute>
+        <lb sameAs="#gb51_source_lin1947"/><signed rend="signature"><hi rendition="#right">Joh. Wolfg. Goethe</hi></signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+<text xml:space="preserve"  xml:id="gb51_source_hwit56142" corresp="#gb51_header_hwit56142" type="attachment" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="7" facs="gb:digitalisate#51/58388"/>
+    <pb n="8" facs="gb:digitalisate#51/58389"/>
+      <head><supplied>Beilage</supplied></head>
+      <pb n="9" facs="gb:digitalisate#51/58390"/>
+      <p rendition="#c">
+        <anchor xml:id="GB03_1_AB002_0_438_006"/><emph rendition="#latin">Disposition</emph>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_AB002_0_438_007"/>In welcher <ref target="gb:note#GB03_2_AB002_0_note_017_438_7" xml:id="start_com_5225"/>Maaße<ref xml:id="end_com_5225"/> der diesjährige Land-Straßen-Bau-<emph rendition="#latin">Casse</emph>-Bestand, so 
+<anchor xml:id="GB03_1_AB002_0_438_008"/>nach Abzug des Vorschußes <emph rendition="#latin">à</emph> 1441. rthlr. 22 g<g ref="#typoSuspension"/>. 1 &#x3D1;<g ref="#typoSuspension"/>. und der jährlichen 
+<anchor xml:id="GB03_1_AB002_0_438_009"/><emph rendition="#latin">ordinai</emph>ren Posten <emph rendition="#latin">à</emph> 1610. rthlr. in 1555. r<g ref="#typoSuspension"/>. 9 g<g ref="#typoSuspension"/>. 11 &#x3D1;<g ref="#typoSuspension"/>. bestehet, zu 
+<anchor xml:id="GB03_1_AB002_0_438_010"/>Unterhaltung der sämtlichen Heer-und Geleits-Straßen, welche sich in 
+<anchor xml:id="GB03_1_AB002_0_438_011"/>dem Fürstenthume Weimar, <ref target="gb:note#GB03_2_AB002_0_note_018_438_11" xml:id="start_com_5226"/>Fürstenthume Jena<ref xml:id="end_com_5226"/>, <ref target="gb:note#GB03_2_AB002_0_note_019_438_11" xml:id="start_com_5227"/>Erfurthischen <emph rendition="#latin">Territorio</emph><ref xml:id="end_com_5227"/>, 
+<anchor xml:id="GB03_1_AB002_0_438_012"/>Fürst<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_AB002_0_note_020_438_12" xml:id="start_com_5228"/>Amts-Bezircke Allstedt, und Ilmenau<ref xml:id="end_com_5228"/>, befinden, <emph rendition="#latin">exclusive</emph> der 
+<anchor xml:id="GB03_1_AB002_0_438_013"/><ref target="gb:note#GB03_2_AB002_0_note_021_438_13" xml:id="start_com_5229"/>Burgauischen<ref xml:id="end_com_5229"/> Geleits-Straßen, zu <emph rendition="#latin">distribui</emph>ren und festzusezen seyn 
+<anchor xml:id="GB03_1_AB002_0_438_014"/>möchte; Als</p>
+      <space quantity="1" unit="lines"/>
+      <table><!-- GB 3, A 2-->
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_015"/>1.)</cell>
+               <cell>&#xA0;&#xA0;&#xA0;500 r<g ref="#typoSuspension"/>.</cell> 
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Auf die Weimarischen <emph rendition="#latin">inc</emph><g ref="#typoSuspension"/>. der <emph rendition="#latin"><ref target="gb:note#GB03_2_AB002_0_note_022_438_15-16" xml:id="start_com_5230"/>Belvederi</emph>schen <anchor xml:id="GB03_1_AB002_0_438_016"/>
+                     <emph rendition="#latin">Chausé</emph><ref xml:id="end_com_5230"/>, <ref target="gb:note#GB03_2_AB002_0_note_023_438_16" xml:id="start_com_5231"/>Herrn Wegs nach Ettersburg<ref xml:id="end_com_5231"/>, <emph rendition="#latin">Alléen</emph>
+                     <anchor xml:id="GB03_1_AB002_0_438_017"/>im <ref target="gb:note#GB03_2_AB002_0_note_024_438_17" xml:id="start_com_5232"/>Hölzchen<ref xml:id="end_com_5232"/>, und in- und um <ref target="gb:note#GB03_2_AB002_0_note_025_438_17-18" xml:id="start_com_5233"/>die Brahne des 
+                     <anchor xml:id="GB03_1_AB002_0_438_018"/>Webichts<ref xml:id="end_com_5233"/></cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_019"/>2.)</cell>
+               <cell>&#xA0;&#xA0;&#xA0;200 r<g ref="#typoSuspension"/>.</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Auf die Jenaischen, <emph rendition="#latin">exclus:</emph> der Burgauischen</cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_020"/>3.)</cell>
+               <cell>&#xA0;&#xA0;&#xA0;350. r<g ref="#typoSuspension"/>.</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Auf <ref target="gb:note#GB03_2_AB002_0_note_026_438_20" xml:id="start_com_5234"/>die Erfurthischen Ober-Geleits-Straßen<ref xml:id="end_com_5234"/>, <anchor xml:id="GB03_1_AB002_0_438_021"/><emph rendition="#latin">inc</emph><g ref="#typoSuspension"/>. der <emph rendition="#latin">Chaussé</emph><ref target="gb:note#GB03_2_AB002_0_note_027_438_21-22" xml:id="start_com_5235"/>vom äusersten Weimarischen <anchor xml:id="GB03_1_AB002_0_438_022"/>Gerichte an, <ref xml:id="end_com_5235"/> bis Erfurth.</cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_023"/>4.)</cell>
+               <cell>&#xA0;&#xA0;&#xA0;200 r<g ref="#typoSuspension"/>.</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Auf die in dem Fürst<g ref="#typoSuspension"/>. Amts-Bezirck Allstädt </cell>
+            </row>
+            <pb n="10" facs="gb:digitalisate#51/58391"/>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_024"/>5).</cell>
+               <cell>&#xA0;&#xA0;&#xA0;280. r<g ref="#typoSuspension"/>.</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Auf die in dem Fürst<g ref="#typoSuspension"/>. Amts Bezirck Ilmenau.</cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_025"/>6.)</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;16. r<g ref="#typoSuspension"/>.</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#x2013;&#8220;&#xA0;&#xA0;</cell>
+               <cell>Beytrag zu Unterhaltung ein Schreibers.</cell>
+            </row>
+            <row>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_026"/>7.)</cell>
+               <cell><hi rendition="#u">&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;9. r<g ref="#typoSuspension"/>.</hi></cell>
+               <cell><hi rendition="#u">9 g<g ref="#typoSuspension"/>.</hi></cell>
+               <cell><hi rendition="#u">11 &#x3D1;<g ref="#typoSuspension"/>.</hi></cell>
+               <cell><hi rendition="#u">Ingemein</hi></cell>
+            </row>
+            
+            <row>
+               <cell></cell>
+               <cell><anchor xml:id="GB03_1_AB002_0_438_028"/>1555. r<g ref="#typoSuspension"/>.</cell>
+               <cell>9 g<g ref="#typoSuspension"/>.</cell>
+               <cell>11 &#x3D1;<g ref="#typoSuspension"/>.</cell>
+               <cell><emph rendition="#latin">Summa <ref target="gb:note#GB03_2_AB002_0_note_028_438_28" xml:id="start_com_5236"/>uts</emph>.<ref xml:id="end_com_5236"/></cell>
+            </row>
+         </table>
+            
+      
+      <space quantity="2" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_AB002_0_438_029"/>Weimar, d<g ref="#typoSuspension"/>. 25. April<g ref="#typoSuspension"/>.</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_AB002_0_438_030"/>1779.</p>
+        
+         
+       
+    </div>
+  </body>
+</text>
+
+</group>
+</text>
+
+<text xml:space="preserve" type="comment" xml:id="gb51_comment">
+<body>
+<div type="metadata" xml:id="gb51_comment_com93">
+  <ab type="numberAddressee"><label>A 2.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>25. April 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb51_comment_com2137">
+  <p>1) Brief:</p>
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bausachen B 9261, Bl. 107–110. – 2 ineinandergelegte Doppelblätter 20,4 × 33,3 cm, 5 S. und 5 Zeilen beschr., Schreiberhd, Tinte, Schlussformel (<quote type="G">unterthänigst gehorsamster</quote>) und Unterschrift egh., Tinte; S. 1 oben links von fremder Hd, Tinte: „C. 109.“ sowie Präsentatsvermerk: „prs. d. 27. April. 1779.“, S. 8 Adresse: <quote type="G">Dem Durchlauchtigsten Fürsten und / Herrn, Herrn Carl August, Herzog zu Sachsen, / Jülich, Cleve und Berg, auch Engern und Westphalen, / Landgrafen in Thüringen, Marckgrafen zu Meißen, ge- / fürsteten Grafen zu Henneberg, Grafen zu der / Marck und Ravensberg, von und zu Ravenstein p. / Meinem gnädigsten Fürsten und Herrn / Weimar.</quote>; S. 3 Anlagestrich vor der Zeile <quote type="G">ich hier im Anschluß unterthänigst überrei-</quote> (<ref target="gb:text#GB03_1_AB002_0_437_015">437,15</ref>); beide Doppelblätter zum Brief gefaltet, so dass das 4. Blatt den Umschlag mit der Adresse darstellt.</p>
+  <p>K: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bausachen B 9262 c, Bl. 1–2. – Doppelblatt, 3 &#xBD; Spalten beschr., Schreiberhd, Tinte; S. 1 Paraphe Goethes und Adresse: <quote type="G"><emph rendition="#latin">Ad / Serenissimum</emph></quote> sowie ein Anlagestrich vor der Zeile <quote type="G">Ew: p. ich hierdurch im Anschluß un-</quote> (<ref target="gb:text#GB03_1_AB002_0_437_014 #GB03_1_AB002_0_437_015">437,14–15</ref>.)</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 7 (1891), 356 f., Nr 808a (nach K; Eduard von der Hellen).</p>
+  <space unit="lines" quantity="1"/>
+  <p>2) Beilage (Disposition):</p>
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bausachen B 9261, Bl. 111. – 1 Bl. 20 × 32,8 cm, 1 &#xBD; S. beschr., Schreiberhd, Tinte; gleiche Faltung der Blätter wie im Brief.</p>
+  <p>E: <ref target="sndb:sigle#1240">FA/Goethe</ref> I 26 (1998), 710 f.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb51_comment_com3933">
+  <p>Der Brief bezieht sich auf das von Herzog Carl August an die weimarische Kammer gerichtete Reskript, durch welches er die Direktion des Straßenbaus an Goethe übertrug (vgl. zu <ref target="gb:note#GB03_2_AB002_0_note_001_436_31-32">436,31-32</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb51_comment_com15509">
+<label xml:id="GB03_2_AB002_0_note_001_436_31-32" copyOf="#start_com_5209"><hi rendition="#fett">436,31-32</hi><emph rendition="#latin">Rescripts</emph> vom 19<hi rendition="#sup #uu">d</hi> <emph rendition="#latin">Januar:</emph></label>
+<p>Reskript an die Kammer zu Weimar über den Beschluss des Herzogs Carl August, Goethe die Direktion des Landstraßenbauwesens im Fürstentum Weimar und der Jenaischen Landesportion zu übertragen; die Ausfertigung (mit Präsentatsvermerk vom 1. Februar 1779) befindet sich im GSA Weimar (<ref target="archivdb:dokument#7614">GSA 28/769</ref>; gedruckt in: <ref target="sndb:sigle#1205">Bradish</ref>, 205–207), das von Carl August, Jacob Friedrich von Fritsch und Christian Friedrich Schnauß paraphierte Konzept im <ref target="sndb:sigle#1324">ThHStA Weimar</ref> (Bausachen B 9261, Bl. 100). Eine für Jean Antoine Joseph de Castrop bestimmte Abschrift (ebd., Bl. 101) ist abgedruckt in: <ref target="sndb:sigle#1205">Bradish</ref>, 203–205.</p>
+
+</note>
+<note xml:id="gb51_comment_com5344">
+<label xml:id="GB03_2_AB002_0_note_002_436_32-437_1" copyOf="#start_com_5210"><hi rendition="#fett">436,32-437,1</hi>die <emph rendition="#latin">Direction</emph> des hiesigen Land-Straßen-Baues</label>
+<p>Mit Goethes Ernennung zum Direktor des Landstraßenbaus im Fürstentum Weimar und der Jenaischen Landesportion verband sich die Zuständigkeit für die Instandhaltung und den weiteren Ausbau der von der herzoglichen Kammer zu Weimar zu unterhaltenden Post- und Geleitsstraßen. Die Wegebaudirektion war keine kollegialische Behörde, sondern wurde von Goethe allein geleitet.</p>
+
+</note>
+<note xml:id="gb51_comment_com15516">
+<label xml:id="GB03_2_AB002_0_note_003_437_2" copyOf="#start_com_5211"><hi rendition="#fett">437,2</hi>Cammer-<emph rendition="#latin">Praesident von Kalb</emph></label>
+<p>Bereits am 1. August 1776 war die Direktion des Landstraßenbauwesens aus dem Behördenapparat der Kammer herausgelöst und ihre Leitung kommissarisch an den zuständigen Ingenieur, Jean Antoine Joseph de Castrop (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb46_comment_com3939">Nr 458</ref>), übergeben worden. Da Castrops Tätigkeit aber durch den zuständigen Kammerpräsidenten Johann August Alexander von Kalb, der den mit der Herauslösung verbundenen Kompetenzverlust nicht hinnehmen wollte, blockiert wurde und lediglich die notwendigsten Reparaturarbeiten an den Landstraßen durchgeführt werden konnten, wurde die Landstraßenbaudirektion mit Goethes Ernennung zu einer Immediatbehörde umgewandelt und dem Einfluss des Kammerpräsidenten ganz entzogen.</p>
+
+</note>
+<note xml:id="gb51_comment_com5345">
+<label xml:id="GB03_2_AB002_0_note_004_437_2-4" copyOf="#start_com_5212"><hi rendition="#fett">437,2-4</hi>die Aufsicht <gap quantity="3" reason="editorial"/><emph rendition="#latin">Promenaden</emph></label>
+<p>Die Übertragung der Aufsicht über das Straßenpflasterbauwesen an Goethe erfolgte durch herzogliches Reskript vom 23. Februar 1779. Das von Herzog Carl August, Jacob Friedrich von Fritsch und Christian Friedrich Schnauß paraphierte Konzept befindet sich im <ref target="sndb:sigle#1324">ThHStA Weimar</ref> (Bausachen B 9261, Bl. 106r; Ausfertigung nicht überliefert; gedruckt in: <ref target="sndb:sigle#1205">Bradish</ref>, 212). Das Stadtpflasterwesen war bereits vor der Übernahme durch Goethe mit der Direktion des Landstraßenbaus verbunden gewesen. Nach der Ernennung Goethes zum Direktor des Landstraßenbauwesens hatten sowohl die Kammer als auch der für den Wegebau zuständige Ingenieur-Hauptmann de Castrop  angeregt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb46_comment_com3939">Nr 458</ref>), das Weimarer Stadtpflasterwesen und die Aufsicht über die Promenadenwege ebenfalls Goethe zu unterstellen.</p>
+
+</note>
+<note xml:id="gb51_comment_com15523">
+<label xml:id="GB03_2_AB002_0_note_005_437_8" copyOf="#start_com_5213"><hi rendition="#fett">437,8</hi>Straßen-Bau-<emph rendition="#latin">Casse</emph></label>
+<p>Die Straßenbaukasse war eine separate herrschaftliche Kasse, die von der herzoglichen Kammer verwaltet wurde. Sie war mit einem Etat von 3000 Reichstalern ausgestattet. Die Verwaltung der Kasse war bei der Ernennung Goethes zum Direktor des Landstraßenbauwesens ausdrücklich weiterhin der Kammer vorbehalten worden; im Reskript vom 19. Januar 1779 heißt es: „Dahingegen ist Unser Wille, daß das Oeconomicum noch fernerhin bey Euerm Collegio verbleiben <gap quantity="3" reason="editorial"/> solle.“ (<ref target="sndb:sigle#1205">Bradish</ref>, 206.) Goethe konnte jedoch als Direktor des Landstraßenbauwesens eigenständig über die zur Verfügung stehenden Mittel disponieren.</p>
+
+</note>
+<note xml:id="gb51_comment_com5346">
+<label xml:id="GB03_2_AB002_0_note_006_437_10" copyOf="#start_com_5214"><hi rendition="#fett">437,10</hi>Vorschüße</label>
+<p>Die chronische Unterfinanzierung des Landstraßenbauwesens zwang immer wieder dazu, bei Überschreitung des laufenden Etats in Form von Anleihen bei anderen Kassen auf die Mittel des Etats für das Folgejahr zuzugreifen.</p>
+
+</note>
+<note xml:id="gb51_comment_com15524">
+<label xml:id="GB03_2_AB002_0_note_007_437_11" copyOf="#start_com_5215"><hi rendition="#fett">437,11</hi>von sehr geringer Erheblichkeit</label>
+<p>Von den 3000 Reichstalern des Etats, über die Goethe disponieren konnte, stand nur ein Bruchteil zur Verfügung, weil die für die Bestreitung der laufenden Zahlungen des Vorjahres bei anderen herrschaftlichen Kassen getätigten Anleihen aus den Mitteln des neuen Etats getilgt werden mussten (vgl. die Erläuterungen zu <ref target="gb:note#GB03_2_AB002_0_note_010_437_21">437,21</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com5347">
+<label xml:id="GB03_2_AB002_0_note_008_437_13-14" copyOf="#start_com_5216"><hi rendition="#fett">437,13-14</hi><emph rendition="#latin">Ingenieur</emph>- und <emph rendition="#latin">Artillerie</emph>-Hauptmanns <emph rendition="#latin">de Castrop</emph></label>
+<p>Jean Antoine Joseph de Castrop, Hauptmann der Artillerie, für den Wegebau zuständiger Ingenieur im herrschaftlichen Bauwesen des Fürstentums Weimar, wurde Goethe bei der Übernahme der Straßenbaudirektion unterstellt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb46_comment_com3939">Nr 458</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com5348">
+<label xml:id="GB03_2_AB002_0_note_009_437_14" copyOf="#start_com_5217"><hi rendition="#fett">437,14</hi>diejenige <emph rendition="#latin">Disposition</emph></label>
+<p>Goethes Brief lag ein Plan für die Straßenbau- und Reparaturmaßnahmen des laufenden Jahres bei (vgl. <ref target="gb:dokument#51">Beilage</ref>), der die Verwendung der genannten 1555 Reichstaler 9 Groschen und 11 Pfennige (vgl. <ref target="gb:text#GB03_1_AB002_0_437_023">437,23</ref>) auf insgesamt sieben Maßnahmen aufschlüsselt (vgl. <ref target="gb:text#GB03_1_AB002_0_438_015 #GB03_1_AB002_0_438_026">438,15–26</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com15531">
+<label xml:id="GB03_2_AB002_0_note_010_437_21" copyOf="#start_com_5218"><hi rendition="#fett">437,21</hi>Vorschusses</label>
+<p>Der zur Deckung der Kosten der Baumaßnahmen des Vorjahres vom laufenden Etat abzuziehende Vorschuss betrug 1441 Reichstaler, 22 Groschen und 1 Pfennig; vgl. Goethes beigefügte <quote type="G"><emph rendition="#latin">Disposition</emph></quote> (<ref target="gb:text#GB03_1_AB002_0_438_006">438,6</ref>)</p>
+
+</note>
+<note xml:id="gb51_comment_com5367">
+<label xml:id="GB03_2_AB002_0_note_011_437_21" copyOf="#start_com_5219"><hi rendition="#fett">437,21</hi><emph rendition="#latin">ordinair</emph>en Posten</label>
+<p>Feststehende Etatpositionen, Pflichtaufgaben; diese betrugen 1610 Reichstaler; vgl. Goethes beigefügte <quote type="G"><emph rendition="#latin">Disposition</emph></quote> (<ref target="gb:text#GB03_1_AB002_0_438_006">438,6</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com15653">
+<label xml:id="GB03_2_AB002_0_note_012_437_24" copyOf="#start_com_5220"><hi rendition="#fett">437,24</hi>Heer- und Geleits-Straßen</label>
+<p>Die Post- und Geleitsstraßen im Fürstentum Weimar, in der Jenaischen Landesportion einschließlich der Exklave Allstedt und im Amt Ilmenau. Als ‚Heerstraße‘ wurde im Allgemeinen „eine breite Straße durch ein Land“ bezeichnet, „auf welcher ein Kriegesheer bequem fortkommen kann“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1055); sie wurde „gemeiniglich auf Kosten des Landes unterhalten“ und auch ‚Geleitsstraße‘ genannt, „weil sie immer sicheres Geleit hat“ (ebd., 1896), das heißt eine „strasze auf der das geleitsrecht galt (nur auf solcher war der schutz des geleitsherrn gewährt)“ (<ref target="sndb:sigle#2890">Grimm</ref> 5, 3004). Der Herzog von Sachsen-Weimar war der Geleitsherr auf thüringischen Straßen, das heißt, er hatte das so genannte Geleitregal inne: das Recht, Abgaben für die Straßenbenutzung zu erheben.</p>
+
+</note>
+<note xml:id="gb51_comment_com5360">
+<label xml:id="GB03_2_AB002_0_note_013_437_30" copyOf="#start_com_5221"><hi rendition="#fett">437,30</hi>eine <emph rendition="#latin">Bilance</emph></label>
+<p>Goethe erstattete seinen Jahresbericht über die Tätigkeit der Landstraßenbaudirektion für 1779 am 31. Mai 1780 (abgedruckt in: <ref target="sndb:sigle#1240">FA/Goethe</ref> I 26, 716–722).</p>
+
+</note>
+<note xml:id="gb51_comment_com5361">
+<label xml:id="GB03_2_AB002_0_note_014_437_31-32" copyOf="#start_com_5222"><hi rendition="#fett">437,31-32</hi><emph rendition="#latin">Specification</emph><gap quantity="3" reason="editorial"/> verwendet worden</label>
+<p>Diese Aufstellung findet sich auch im genannten Jahresbericht (vgl. die vorhergehende <ref target="gb:note#GB03_2_AB002_0_note_013_437_30">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com13972">
+<label xml:id="GB03_2_AB002_0_note_015_437_32-33" copyOf="#start_com_5223"><hi rendition="#fett">437,32-33</hi>anderweites Verzeichniß</label>
+<p>Disposition in der Anlage zum Bericht vom 31. Mai 1780 (abgedruckt in: <ref target="sndb:sigle#1240">FA/Goethe</ref> I 26, 722 f.).</p>
+
+</note>
+<note xml:id="gb51_comment_com5362">
+<label xml:id="GB03_2_AB002_0_note_016_437_39" copyOf="#start_com_5224"><hi rendition="#fett">437,39</hi><emph rendition="#latin">Incumbenz</emph></label>
+<p>Last, Pflicht, Aufgabe, Zuständigkeit (von lat. incumbere: sich befleißigen).</p>
+
+</note>
+<note xml:id="gb51_comment_com5363">
+<label xml:id="GB03_2_AB002_0_note_017_438_7" copyOf="#start_com_5225"><hi rendition="#fett">438,7</hi>Maaße</label>
+<p>Die Maße: „angemessene und abgemessene art“ (<ref target="sndb:sigle#2890">Grimm</ref> 12, 1731); in kanzleisprachlichen Wendungen.</p>
+
+</note>
+<note xml:id="gb51_comment_com5382">
+<label xml:id="GB03_2_AB002_0_note_018_438_11" copyOf="#start_com_5226"><hi rendition="#fett">438,11</hi>Fürstenthume Jena</label>
+<p>Sachsen-Jena war für kurze Zeit ein wettinisches Fürstentum, das 1672 aus einer Landesteilung innerhalb des Herzogtums Sachsen-Weimar entstanden war; bereits 1690 fiel ein Teil wieder an Sachsen-Weimar zurück, ein anderer Teil an Sachsen-Eisenach.</p>
+
+</note>
+<note xml:id="gb51_comment_com13983">
+<label xml:id="GB03_2_AB002_0_note_019_438_11" copyOf="#start_com_5227"><hi rendition="#fett">438,11</hi>Erfurthischen <emph rendition="#latin">Territorio</emph></label>
+<p>Erfurt und das umliegende Gebiet gehörten nicht zum Herzogtum Sachsen-Weimar, sondern war (seit 1664) kurmainzisches Territorium und Sitz einer kurmainzischen Statthalterei (vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb10892_comment_com4532">Nr 516</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com5375">
+<label xml:id="GB03_2_AB002_0_note_020_438_12" copyOf="#start_com_5228"><hi rendition="#fett">438,12</hi>Amts-Bezircke Allstedt, und Ilmenau</label>
+<p>Beide Bezirke gehörten als Exklaven zum sachsen-weimarischen Herzogtum. – Allstedt: nördlich von Weimar im südlichen Harz (vgl. zu <ref target="gb:note#GB03_2_BR472_0_note_007_263_22">263,22</ref>).</p>
+
+</note>
+<note xml:id="gb51_comment_com5376">
+<label xml:id="GB03_2_AB002_0_note_021_438_13" copyOf="#start_com_5229"><hi rendition="#fett">438,13</hi>Burgauischen</label>
+<p>Burgau: Dorf in der Nähe von Jena (heute Stadtteil) am linken Ufer der Saale, gegenüber von Lobeda.</p>
+
+</note>
+<note xml:id="gb51_comment_com14288">
+<label xml:id="GB03_2_AB002_0_note_022_438_15-16" copyOf="#start_com_5230"><hi rendition="#fett">438,15-16</hi><emph rendition="#latin">Belvederi</emph>schen <emph rendition="#latin">Chausé</emph></label>
+<p>Chaussee: eine mit Steinschotter o. Ä. befestigte, erhöhte Landstraße mit seitlichen Gräben (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 993). – Belvedere: das 3 km südlich von Weimar gelegene Schloss, Sommerresidenz des Hofes.</p>
+
+</note>
+<note xml:id="gb51_comment_com5377">
+<label xml:id="GB03_2_AB002_0_note_023_438_16" copyOf="#start_com_5231"><hi rendition="#fett">438,16</hi>Herrn Wegs nach Ettersburg</label>
+<p>Nach Schloss Ettersburg am Nordrand des Ettersberges von Weimar aus führender Weg.</p>
+
+</note>
+<note xml:id="gb51_comment_com5378">
+<label xml:id="GB03_2_AB002_0_note_024_438_17" copyOf="#start_com_5232"><hi rendition="#fett">438,17</hi>Hölzchen</label>
+<p>Waldgebiet im Norden Weimars (um das Schießhaus).</p>
+
+</note>
+<note xml:id="gb51_comment_com5379">
+<label xml:id="GB03_2_AB002_0_note_025_438_17-18" copyOf="#start_com_5233"><hi rendition="#fett">438,17-18</hi>die Brahne des Webichts</label>
+<p>Brahne (Brane): dicht wachsendes Unterholz am Rande eines Waldes. – Webicht: Waldgebiet im Osten Weimars an der nach Umpferstedt und Jena führenden Allee.</p>
+
+</note>
+<note xml:id="gb51_comment_com14289">
+<label xml:id="GB03_2_AB002_0_note_026_438_20" copyOf="#start_com_5234"><hi rendition="#fett">438,20</hi>die Erfurthischen Ober-Geleits-Straßen</label>
+<p>In Erfurt, wo sich zwei bedeutende Handelswege kreuzten (die Nürnberger Straße von Nürnberg nach Danzig und die Hohe Straße von Schlesien nach Eisenach), befand sich das thüringische Obergeleitsamt, dessen Vorgesetzter Goethe durch seine Ernennung wurde.</p>
+
+</note>
+<note xml:id="gb51_comment_com14290">
+<label xml:id="GB03_2_AB002_0_note_027_438_21-22" copyOf="#start_com_5235"><hi rendition="#fett">438,21-22</hi>vom äusersten Weimarischen Gerichte an</label>
+<p>‚Gericht‘ hier im Sinn von ‚Gerichtsbezirk‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 586).</p>
+
+</note>
+<note xml:id="gb51_comment_com5380">
+<label xml:id="GB03_2_AB002_0_note_028_438_28" copyOf="#start_com_5236"><hi rendition="#fett">438,28</hi><emph rendition="#latin">uts</emph>.</label>
+<p>Lat. ut supra: wie oben.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

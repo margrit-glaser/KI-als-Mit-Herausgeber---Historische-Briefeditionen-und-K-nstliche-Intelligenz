@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5400"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12015" n="GB 3, Nr. 530">
+  <teiHeader xml:id="gb12015_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>530.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78244">Kassel</placeName>, 15. September 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:04Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12015_tei.xml</idno>
+        <idno type="URI">gb12015</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR530_0</idno>
+        <idno type="KSW-ID">12015</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="296" to="297">296-297</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="966" to="982">966-982</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12015_header_hwit1519" corresp="#gb12015_source_hwit1519" sameAs="#gb12015_comment_hwit1519" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 26</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12015,,1519/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wir gehen unter denen Cassler Herrlichkeiten herum und sehen    eine Menge in uns hinein</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78244">Kassel</placeName>
+            <date when="1779-09-15">15. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12015_source_hwit1519" corresp="#gb12015_header_hwit1519" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12015/23118"/>
+      <p>
+        <anchor xml:id="GB03_1_BR530_0_296_024"/>Wir gehen unter denen <ref target="gb:note#GB03_2_BR530_0_note_001_296_24" xml:id="start_com_4281"/>Cassler Herrlichkeiten<ref xml:id="end_com_4281"/> herum und sehen eine 
+<anchor xml:id="GB03_1_BR530_0_296_025"/>Menge<ptr n="1" target="#a001_296.25"/> in uns hinein. Die <ref target="gb:note#GB03_2_BR530_0_note_002_296_25" xml:id="start_com_4282"/>Gemählde Gallerie<ref xml:id="end_com_4282"/> hat mich sehr gelabt, 
+<anchor xml:id="GB03_1_BR530_0_297_001"/>wir sind<ptr n="2" target="#a002_297.1"/> wohl und lustig, es war <ref target="gb:note#GB03_2_BR530_0_note_003_297_1" xml:id="start_com_4283"/>Zeit dass<ptr n="3" target="#a003_297.1"/> wir in’s Wasser kamen<ref xml:id="end_com_4283"/>. 
+<anchor xml:id="GB03_1_BR530_0_297_002"/>Schön Wetter haben wir bisher, und <ref target="gb:note#GB03_2_BR530_0_note_004_297_2" xml:id="start_com_4284"/>klare Augen<ref xml:id="end_com_4284"/>. Schreiben Sie mir 
+<anchor xml:id="GB03_1_BR530_0_297_003"/>ia <ref target="gb:note#GB03_2_BR530_0_note_005_297_3" xml:id="start_com_4285"/>nach Franckfurt<ref xml:id="end_com_4285"/>. Ich kan nichts sagen in der Zerstreuung in der wir 
+<anchor xml:id="GB03_1_BR530_0_297_004"/>iezt schweben. Die <ref target="gb:note#GB03_2_BR530_0_note_006_297_4" xml:id="start_com_4286"/>Gr. Wartensleben<ref xml:id="end_com_4286"/> will ich besuchen.   Adieu.   Cassel 
+<anchor xml:id="GB03_1_BR530_0_297_005"/>d<g ref="#typoSuspension"/>. 15. Sept. 1779.<ptr n="4" target="#a004_297.5"/>    G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12015_comment">
+<body>
+<div type="metadata" xml:id="gb12015_comment_com785">
+  <ab type="numberAddressee"><label>530.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78244">Kassel</placeName>, 15. September 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12015_comment_com2829">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 26. – 1 Bl. 19,4 × 23 cm, &#xBD; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">An Fr. v. Stein / nach / Kochberg</quote>, Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „1<hi rendition="#sup #uu">a</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 48), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischluss zu <ref target="gb:dokument#12016">Nr 531</ref> (vgl. zu <ref target="gb:note#GB03_2_BR531_0_note_010_297_17">297,17</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 238 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 60 f., Nr 846.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12015_comment_com4625">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Möglicherweise handelt es sich bei dem in <ref target="gb:dokument#12029">Nr 538</ref> (Briefteil vom 16. Oktober 1779) erwähnten Brief Charlotte von Steins vom 25. September 1779, den Goethe am 15. Oktober erhielt (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>), um den Antwortbrief, zugleich auf <ref target="gb:dokument#12017">Nr 533</ref>; der Brief ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Mit dem vorliegenden Brief beginnt eine Reihe von gut einem Dutzend Briefen, die Goethe während seiner zweiten Reise in die Schweiz vom 12. September 1779 bis zum 14. Januar 1780 an Charlotte von Stein schrieb. Bis auf den letzten, den Brief vom 1. und 3. Januar 1780 (<ref target="gb:dokument#12065">GB 4, Nr 1</ref>), sind alle anderen im vorliegenden Band abgedruckt. Da Goethe einige Briefe – etwa solche mit Reisebeschreibungen, die er Philipp Seidel diktiert hat – anderen Briefen hinzugefügt und gemeinsam abgeschickt hat, werden diese nicht wie bisher als separate Einzelbriefe verstanden, sondern unter eine einzige Briefnummer gestellt; so besteht <ref target="gb:dokument#12029">Nr 538</ref> aus drei Teilbriefen, <ref target="gb:dokument#12038">Nr 543</ref> und <ref target="gb:dokument#12043">550</ref> weisen zwei Teilbriefe auf (vgl. jeweils die Überlieferung). Daher finden sich im vorliegenden Band nicht wie z. B. in der <ref target="sndb:sigle#1157">WA</ref> 17, sondern nur 13 Reisebriefe an Charlotte von Stein bis Ende 1779.</p>
+  <p rendition="#einrueck1">Die Beweggründe zu der Reise, die zunächst an den Rhein, nach späterem Entschluss jedoch in die Schweiz führte, waren ganz unterschiedlicher Natur. Sie betrafen Goethe ebenso wie den Herzog. Wenn Goethe in seinem Brief vom 3. bis 5. Dezember 1779 an Johann Caspar Lavater schreibt, er verfolge mit der Reise <quote type="G">Neben-Absichten</quote> (<ref target="gb:text#GB03_1_BR557_0_360_023">360,23</ref>), so bezog er sich damit zunächst auf sich selbst. Es ging darum, wie schon im Fall seiner ersten Schweizer Reise 1775, einen Prozess der inneren Klärung und Selbstvergewisserung in Gang zu setzen (vgl. zu <ref target="gb:note#GB03_2_BR554_0_note_005_357_11-13">357,11–12</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb12004_comment_com5121">Nr 518</ref>). Wenige Wochen vor dem Aufbruch, am 7. August 1779, hatte Goethe in sein Tagebuch geschrieben: <quote type="G">Stiller Rückblick aufs Leben auf die Verworrenheit, Betriebsamkeit Wissbegierde der Jugend, wie sie überall herumschweift um etwas befriedigendes zu finden. <gap quantity="3" reason="editorial"/> Wie des Thuns, auch des Zweckmäsigen Denkens und Dichtens so wenig, wie in zeitverderbender Empfindung und Schatten Leidenschafft gar viel Tage verthan, wie wenig mir davon zu Nuz kommen und da die Hälfte des Lebens nun vorüber ist, wie nun kein Weeg zurückgelegt sondern vielmehr ich nur dastehe wie einer der sich aus dem Wasser rettet und den die Sonne anfängt wohlthätig abzutrocknen. Die Zeit dass ich im Treiben der Welt bin seit 75 Oktbr. getrau ich noch nicht zu übersehen. Gott helfe weiter.</quote> (<ref target="gt:dokument#752">GT I 1, 85 und 87</ref>; zur Wassermetaphorik vgl. auch zu <ref target="gb:note#GB03_2_BR530_0_note_003_297_1">297,1</ref>.)</p>
+  <p rendition="#einrueck1">Die Aufgabe, zu einer eigenen Identität zu finden, stellte sich in Goethes Augen jedoch auch für Herzog Carl August. Ihr gegenseitiges Verhältnis war im vergangenen Jahr nicht ohne Spannung geblieben, nicht zuletzt wegen der Schauspielerin Corona Schröter, für die sich sowohl Goethe wie der Herzog interessierten. Ganz sicher trug das damals enge Verhältnis Goethes zu Corona Schröter auch zur zeitweiligen Entfremdung von Charlotte von Stein bei (vgl. zu <ref target="gb:note#GB03_2_BR521_0_note_002_291_2">291,2</ref>). Auch für den Herzog sollte die durch eine Reise geschaffene Distanz zu den Verhältnissen in Weimar Spielraum zu einer Klärung bieten (vgl. zu <ref target="gb:note#GB03_2_BR554_0_note_005_357_11-13">357,11-12</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>; ferner den <ref target="gb:dokument#56486">Brief</ref> Carl Augusts an Jacob Friedrich von Fritsch, 8. Oktober 1779 [abgedruckt im Anhang „Dokumente“, S. 1124 f.], vgl. <ref target="gb:note#gb56486_comment_com84900">S. 1126, zu Zeile 11</ref>). Im Brief an Charlotte von Stein vom 30. November 1779 vergleicht Goethe den Aufenthalt in Zürich <quote type="G">mit einer Brunnen Cur alle Ubel im Menschen tiefe und flache kommen in Bewegung, und das ganze Eingeweide arbeitet durch einander</quote> (<ref target="gb:text#GB03_1_BR555_0_359_004 #GB03_1_BR555_0_359_006">359,4–6</ref>). Er erhoffte sich für seinen herzoglichen Freund aber auch förderliche Erfahrungen und Begegnungen politischer, sozialer und persönlicher Art (vgl. zu <ref target="gb:note#GB03_2_BR557_0_note_002_360_23">360,23</ref>). Als die Schweiz vor ihm lag (vgl. <ref target="gb:text#GB03_1_BR534_0_299_009">299,9</ref>), schrieb Goethe im Brief an Charlotte von Stein vom 24. bis 28. September 1779, dass er sich vor allem von dem Zusammentreffen mit Johann Caspar Lavater viel Gutes verspreche (vgl. <ref target="gb:text#GB03_1_BR534_0_304_014 #GB03_1_BR534_0_304_015">304,14–15</ref>).</p>
+  <p rendition="#einrueck1">Am Ende wertete Goethe das Unternehmen als Erfolg; auf der Rückreise schrieb er im Brief vom 3. bis 5. Dezember 1779 an Lavater, es beginne nun <quote type="G">gewiss eine neue Epoche seines und unsres Lebens</quote> (<ref target="gb:text#GB03_1_BR557_0_360_018 #GB03_1_BR557_0_360_019">360,18–19</ref>). Nach Weimar zurückgekehrt, stellte Goethe am 17. Januar 1780 im Tagebuch fest: <quote type="G">Jederman ist mit &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">sehr zufrieden preist uns nun und die Reise ist ein Meisterstück!</quote> (<ref target="gt:dokument#789">GT I 1, 103</ref>.) Mitte April 1780 heißt es: <quote type="G">Der &#x2643; wird taglich besser</quote> (<ref target="gt:dokument#848">ebd., 110</ref>). Dieser Eindruck wurde von anderen bestätigt. Wieland rühmte Carl Augusts „herzgewinnendes Betragen gegen alle seine Leute cujuscunque generis, ordinis, furfuris et farinae <supplied>jederlei Geschlechts, Standes, Kleie und Mehls</supplied>“, und Goethe betreffend bemerkte er, dass „auch Er multum mutatus ab illo <supplied>Vergil, Aeneis 2,274; – sehr veschieden von jenem</supplied> zurükgekommen und in einem Ton zu musicieren angefangen hat, in den wir übrigen mit Freuden <gap quantity="3" reason="editorial"/> einzustimmen nicht ermangeln werden.“ (Brief an Johann Heinrich Merck, 17. Januar 1780; <ref target="sndb:sigle#141">WB</ref> 7 I, 253.) Ähnlich lobend äußerte sich Wieland auch später noch: Er sei mit Goethes „Art zu seyn, zufrieden <gap quantity="3" reason="editorial"/>. Das nehmliche gilt auch vom Herzog.“ (Brief an Johann Heinrich Merck, 16. April 1780; ebd., 276.) Er zeigte sich erfreut, dass er „in Göthens öffentlichem Benehmen eine σωφροσυνην <supplied>Besonnenheit</supplied> wahrnehme, welche die Gemüther nach und nach beruhigt, und mir Bürge ist, daß noch alles so gut bey uns gehen wird als man’s rationabiliter verlangen kann.“ (Ebd., 277.)</p>
+  <p rendition="#einrueck1">Über die Reisegesellschaft heißt es im Fourierbuch unter dem 11. September 1779: „Heute Abend Verreiseten Durch<g ref="#typoSuspension"/>. Herzog auf einige Zeit, nahmen niemanden mit als H<g ref="#typoSuspension"/>. Kammerh<g ref="#typoSuspension"/>. v. Wedel, H<g ref="#typoSuspension"/>. Geh. Rath Gehde, den Kammerdiener Wagner, und den Reitknecht Blochberg“ (<ref target="sndb:sigle#3945">FB 1779</ref>, S. 161). Außer den Genannten gehörte auch Goethes Sekretär Philipp Seidel zu den Reisenden. Ferner ist in den Briefen <ref target="gb:dokument#12020">Nr 546</ref> vom 13. November 1779 und <ref target="gb:dokument#12043">Nr 550</ref>, Briefteil aus der Zeit zwischen dem 22. und 24. November 1779, die vom Aufstieg zum Sankt Gotthard berichten, von einem <quote type="G">Jäger</quote> die Rede (<ref target="gb:text#GB03_1_BR546_0_341_021">341,21</ref>; <ref target="gb:text#GB03_1_BR550_0_345_024">345,24</ref>), der in (der 2. Abteilung von) Goethes „Briefen aus der Schweiz“  als <quote type="G">Jäger Hermann</quote> (<ref target="sndb:sigle#1157">WA</ref> I 19, 292) begegnet; auch Herzog Carl August erwähnt in seinem Tagebuch unter dem 9. und 11. November 1779 einen Begleiter namens „Hermann“ („Herrmann“) (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX 134<hi rendition="#sup #u">c</hi>, Bl. 8v; vgl. auch Wahl, Carl Augusts Tagebuch, 185 f.). Dass damit der Reitknecht Johann Friedrich Blochberg gemeint ist, scheint der unterschiedlichen Vornamen wegen fraglich. Vermutlich handelte es sich um den in Wedels Diensten stehenden Jäger Johann Hermann Becker (vgl. Briefe des Herzogs Karl August von Sachsen-Weimar-Eisenach an Knebel und Herder. Hrsg. von Heinrich Düntzer. Leipzig 1883, S. 4, Anm. 1). Dabei fällt auf, dass Becker längere Zeit dem Herzog gefolgt ist statt seinem Dienstherrn von Wedel, der am Gotthardaufstieg nicht teilnahm, sondern <quote type="G">mit den Pferden durch’s <emph rendition="#latin">paï de vaud</emph> in’s Wallis</quote> (<ref target="gb:text#GB03_1_BR550_0_345_025">345,25</ref>) ging. Bei diesem Unternehmen aber war möglicherweise Blochberg als Reitknecht der geeignetere Begleiter (nach freundlicher Mitteilung von Sebastian Mangold, München).</p>
+  <p rendition="#einrueck1">Allerdings schienen zu Beginn weder die Daheimgebliebenen noch die Reisenden genau zu wissen, welchen Verlauf die am 12. September 1779 angetretene Reise nehmen würde. Ob Goethe selbst nach den Erfahrungen seiner ersten Schweizer Reise im Sommer 1775 im Stillen bereits vor Antritt der Reise Pläne hegte, sich noch einmal dorthin zu wenden, ist nicht belegt. Als er seine Mutter mit seinem Brief vom 9. August 1779 auf den Besuch vorbereitete, hatte er lediglich geschrieben, der Herzog habe <quote type="G">Lust den schönen Herbst am Rein zu geniesen</quote> (<ref target="gb:text#GB03_1_BR519_0_288_009">288,9</ref>), u. a. in Düsseldorf, wie aus dem Brief des Herzogs an seine Mutter Anna Amalia vom 21. <supplied>recte 22.</supplied> September hervorgeht (vgl. <ref target="sndb:sigle#76">Bergmann</ref>, 25). Die Rheingegend hatte Herzog Carl August auch in einem <ref target="gb:dokument#56477">Brief</ref> vom 5. September 1779 dem Geheimen Rat Jacob Friedrich von Fritsch als Reiseziel angekündigt: „Ich habe mich entschloßen Herr Geheimde Rath heute über acht tage eine Reise anzutreten, um wieder einmahl etwas fremde Luft zu schöpfen. Ich dencke auf Franckfurth am M. den Rhein Strom, u. die umliegenden Gegenden zu gehen u. zu besuchen, u. meine dortigen Verwandte, u. alten bekante zu sehen.“ (Vollständig abgedruckt im Anhang „Dokumente“, S. 1119 f.) In eben diesem Sinn teilte Goethe Charlotte von Stein am 10. September 1779 in seinem letzten Brief vor dem Aufbruch lediglich mit, es gehe nach Frankfurt (vgl. <ref target="gb:text#GB03_1_BR529_0_296_019 #GB03_1_BR529_0_296_020">296,19–20</ref>).</p>
+  <p rendition="#einrueck1">Der endgültige Entschluss, in die Schweiz zu gehen, wurde erst unterwegs gefällt, und zwar am 18. September 1779. Dies geht aus Carl Augusts Brief an Herzogin Anna Amalia vom 16. Oktober 1779 hervor, in dem er sich für die – offenbar als überraschend empfundene – Änderung der Route zu rechtfertigen sucht: „Es tut mir leid, dass Sie mir nicht aufs Wort glauben und meinen, ich hätte Ihnen ein Geheimnis aus der grossen Reise gemacht; ich muss es also wiederholen, nur zwischen Friedberg und Frankfurt, just halben Wegs wurde es resolviert; da erfuhr ichs und die andern, durch Eingebung des Engels Gabriel.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 28.) Zwischen Friedberg und Frankfurt waren die Reisenden am 18. September unterwegs (vgl. die Angaben zur Reiseroute in der vorliegenden Erläuterung). Nach Johann Heinrich Mercks Zeugnis verhielt es sich so: „Die Reise nach der Schweiz ward auch erst in Frankfurt projettirt, u. also hatten Sie leicht ein Geheimniß von etwas zu machen, das Sie selbst nicht wußten.“ (Brief an Wieland, etwa 7. Oktober 1779; <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 300.) Seinen Geheimrat Fritsch informierte Carl August in einem Brief aus Frankfurt vom 21. <supplied>recte 22.</supplied> September 1779: „Mein Plan Herr Geheimde Rath, hat sich geändert. Ich gehe in diesen Augenblick nach der Schweitz statt nach Düßeldorf.“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX 38, Bl. 21r.) Charlotte von Stein wurde erst im Brief vom 24. bis 28. September 1779 (im Briefteil vom 24. September) über den geänderten Reiseplan unterrichtet: Die Schweiz liegt vor uns (<ref target="gb:text#GB03_1_BR534_0_299_009">299,9</ref>).</p>
+  <p rendition="#einrueck1">Bei der Änderung des Reiseziels könnten von anderen abgesehen auch finanzpolitische Überlegungen eine Rolle gespielt haben. So hatte der Kammerpräsident Johann August von Kalb im Sommer 1779 den Kanton Bern um eine Staatsanleihe von 50 000 Reichstalern gebeten, um die Finanznot der Fürstlichen Kammer zu lindern. In Bern wurde daraufhin am 20. August 1779 ein entgegenkommendes Gutachten vorgelegt, in dem es heißt: „Dieser Hof ist weder von den mächtigsten, noch von den gar kleinen Reichs-Fürsten, also daß die gegen beyde dieser Claßen oft angebrachte Bedenken hier nicht gelten.   Der Herr Herzog ist annebens in dem Flor seiner Tagen, also daß weniger ein unerwarteter Todes-Fall zu besorgen, als bey vielen andern, welcher Casus zuweilen Unbeliebigkeiten und Inconvenienz nach sich ziehen kann. Insonderheit aber wird ganz zuverläßig versichert, daß derselbe mit ganz keinen Schulden beladen seye, welches in Deutschland etwas ziemlich seltenes ist, und dieser Schuldsache ein vorzüg<g ref="#typoSuspension"/><hi rendition="#sup #uu">es</hi> Gewicht giebt.“ (Staatsarchiv des Kantons Bern, B VII 2465, Nr 9; vgl. auch Julius Landmann: Die auswärtigen Kapitalanlagen aus dem Berner Staatsschatz im XVIII. Jahrhundert. Eine finanzhistorische Studie. T. 1. In: Jahrbuch für Schweizerische Geschichte 28 [1903], S. 80*.) </p>
+  <p rendition="#einrueck1">Bereits am 27. August 1779 fasste der Große Rat der Stadt und Republik Bern den Beschluss, dem Herzog das Darlehen über die gewünschte Summe zu gewähren: </p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56472_source" corresp="#gb56472_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB040_0_970_001"/>Nachdem nun <ref target="gb:note#GB03_2_FB040_0_note_279_970_1" xml:id="start_com_7295"/>MeGhℓ.<ref xml:id="end_com_7295"/> und Obere über dieses anbegehrte Geld Darlehn Hoch
+  <anchor xml:id="GB03_2_FB040_0_970_002"/>dero Gedanken walten laßen, und dabey auf hier vorkommende in ihrem tit: Gut
+  <anchor xml:id="GB03_2_FB040_0_970_003"/>achten ausführℓ. enthaltene vorteilhafte Umstände Rücksicht genommen, haben 
+  <anchor xml:id="GB03_2_FB040_0_970_004"/>Hochdieselbe die Anwendung des anverlangten Capitals von Fünfzig Tausend 
+  <anchor xml:id="GB03_2_FB040_0_970_005"/>ReichsThaler und deßen Ausleihung an Sachsen Weymar unter obgedachten Be
+  <anchor xml:id="GB03_2_FB040_0_970_006"/>dingen einmütig beliebet, und diesemnach Sie <ref target="gb:note#GB03_2_FB040_0_note_280_970_6" xml:id="start_com_7296"/>MeHGhℓ.<ref xml:id="end_com_7296"/> anmit <ref target="gb:note#GB03_2_FB040_0_note_281_970_6" xml:id="start_com_7297"/>begwältigen<ref xml:id="end_com_7297"/> wol
+    <anchor xml:id="GB03_2_FB040_0_970_007"/>len, die daherige Negotiation sowohl in Ansehung der Daur des Capitals, der 
+    <anchor xml:id="GB03_2_FB040_0_970_008"/>Geld Sorten, und übriger einschlagender Artikel zu beschließen, und deßhalb mit 
+  <anchor xml:id="GB03_2_FB040_0_970_009"/>obvermeldtem <ref target="gb:note#GB03_2_FB040_0_note_282_970_9" xml:id="start_com_7298"/>HandelsHaus<ref xml:id="end_com_7298"/> übereinzukommen.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56472_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56472_comment_com84819">
+  <p>(Staatsarchiv des Kantons Bern, Sign.: A II 935, S. 217.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56472_comment_com84820">
+<label xml:id="GB03_2_FB040_0_note_279_970_1" copyOf="#start_com_7295"><hi rendition="#normal">970,1</hi>MeGh<g ref="#typoSuspension"/>.</label>
+<p>Meine geehrten Herren.</p>
+</note>
+<note xml:id="gb56472_comment_com84821">
+<label xml:id="GB03_2_FB040_0_note_280_970_6" copyOf="#start_com_7296"><hi rendition="#normal">970,6</hi>MeHGh<g ref="#typoSuspension"/>.</label>
+<p>Meine hochgeehrten gnädigen Herren.</p>
+</note>
+<note xml:id="gb56472_comment_com84822">
+<label xml:id="GB03_2_FB040_0_note_281_970_6" copyOf="#start_com_7297"><hi rendition="#normal">970,6</hi>begwältigen</label>
+<p>Bewältigen im Sinne von ‚ermächtigen‘, ‚befugen‘ (vgl. Schweizerisches Idiotikon. Wörterbuch der schweizerdeutschen Sprache. <gap quantity="3" reason="editorial"/> Bd 15. Frauenfeld 1999, S. 1657).</p>
+</note>
+<note xml:id="gb56472_comment_com84823">
+<label xml:id="GB03_2_FB040_0_note_282_970_9" copyOf="#start_com_7298"><hi rendition="#normal">970,9</hi>HandelsHaus</label>
+<p>Zuvor wurde im vorliegenden Schreiben mitgeteilt, der Darlehensantrag sei „durch den Canal der H.<hi rendition="#sup">rn</hi> Gebrüdern Bettmann in Frankfort“ gelaufen (ebd., S. 216).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Das Geschäft sollte also über die Gebrüder Johann Philipp und Simon Moritz Bethmann, Inhaber des Bethmannschen Bankhauses in Frankfurt, abgewickelt werden (vgl. auch Johann August von Kalbs Brief an Carl August vom 8. März 1780 sowie das Votum Johann Jacob von Fritschs vom 13. März 1780; H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Behörden B 1722<hi rendition="#sup #uu">a</hi>, Bl. 12 und 20).</p>
+  <p rendition="#einrueck1">Aus Kalbs Schreiben an Carl August vom 8. März 1780 geht hervor, dass der Herzog durch „kurz vor Antritt Hoechst Dero in vorigen Jahre unternommenen Reise Hoechst Denenselben mündlich gethanen unterthänigsten Vortrag“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Behörden B 1722<hi rendition="#sup #uu">a</hi>, Bl. 12r) über die Angelegenheit informiert worden war. Wenn Carl August schreibt, die Entscheidung, in die Schweiz zu gehen, sei „zwischen Friedberg und Frankfurt“ gefallen, so könnte dies darauf hindeuten, dass ein Gespräch mit den Brüdern Bethmann den Anlass dazu gab. Die Begegnung mit den Bankiers könnte entweder auf dem Bethmannschen Landgut stattgefunden haben, das nordöstlich von Frankfurt außerhalb der Stadt in der Nähe des Friedberger Tors an der Straße nach Friedberg und Kassel lag, oder auch an der etwa 8 km vom Friedberger Tor entfernten Zollstation zwischen Hessen-Kassel und Frankfurt (heute Restaurant „Altes Zollhaus“ an der Friedberger Landstraße). Möglicherweise ließ sich der Herzog durch die Bethmanns davon überzeugen, dass es von Nutzen sei, mit den Kreditgebern in Bern persönlich zusammenzutreffen, um die Verhandlungen im gewünschten Sinn zu befördern.</p>
+  <p rendition="#einrueck1">Goethes Briefe aus der Schweiz enthalten hier und da Andeutungen, welche die Vermutung stützen, es sei in Bern tatsächlich nicht zuletzt um das Kreditgeschäft gegangen. Dass er am 8. Oktober 1779, beim ersten Besuch in Bern, einen <quote type="G">Perükenmacher</quote> aufsuchte (<ref target="gb:text#GB03_1_BR536_0_306_022">306,22</ref>), wie er Charlotte von Stein mitteilte, weist darauf hin, dass offizielle Begegnungen mit Honoratioren der Stadt bevorstanden. Während des zweiten Aufenthalts in Bern berichtet Goethe in seinem Brief an Christian Friedrich Schnauß vom 16. Oktober 1779: <quote type="G">Wir schwäzzen hier den ganzen Tag mit den Bernern von ihrer Regimentsform. Der Herzog fragt brav aus und ist auf alles aufmercksam.</quote> (<ref target="gb:text#GB03_1_BR537_0_310_001 #GB03_1_BR537_0_310_003">310,1–3</ref>.) Es ist gut möglich, dass solche Gespräche nicht nur die politische Neugier des Herzogs befriedigen, sondern auch als vertrauensbildende Maßnahmen dienen sollten, ebenso wie der Besuch auf dem Landgut des Berner Ökonomen Niklaus Emanuel Tscharner am 16. Oktober 1779 (vgl. zu <ref target="gb:note#GB03_2_BR538_0_note_027_311_17">311,17</ref>), der Mitglied des Großen Rates war, welcher den Kredit zu gewähren hatte. Als Begleiter stand Carl Ferdinand von Sinner zur Verfügung, Sohn des Berner Stadtschultheißen Friedrich Sinner (vgl. zu <ref target="gb:note#GB03_2_BR538_0_note_026_311_17">311,17</ref>), auch dies vermutlich zu dem Zweck, die Weimarer Gäste näher kennen zu lernen. Umgekehrt war Herzog Carl August alles daran gelegen, den Eindruck der Kreditwürdigkeit, welche ihm das zitierte Gutachten bereits bescheinigt hatte, nicht in Gefahr zu bringen; so beschwor er schon in einem Brief aus Bern vom 8. Oktober 1779 den Präsidenten des Geheimen Consiliums Jacob Friedrich von Fritsch: „Wenn es irgend einige Möglichkeit ist wünschte ich sehr daß sich die Cammer die schande ersparte mit unrichtigkeit der besoldungs Auszahlungen den Anfang zu machen.“ (<ref target="gb:dokument#56486">Brief</ref> abgedruckt im Anhang „Dokumente“, S. 1124 f.)</p>
+  <p rendition="#einrueck1">Die Anleihe kam schließlich zustande. Weimar erhielt 50 000 Reichstaler zu 4 % Zinsen bei einer Laufzeit von 10 Jahren und unter „Verpfändung der Revenüen von denen Scatoull-Gütern Tannroda und Thangelstedt“ (Votum von Jacob Friedrich von Fritsch, 13. März 1780; <ref target="sndb:sigle#32">AS</ref> 1, 97), beginnend von Ostern 1780; auch Goethe gab dazu sein Accedo (ebd., 98). Doch schon 1781 konnte die Zinszahlung nur verspätet, 1782 gar nicht geleistet werden: ein Grund für die Entlassung des Kammerpräsidenten Johann August von Kalb. Am Ende gelang es, den Kredit bis 1790 zurückzuzahlen. – Über die Weimarer Staatsfinanzen unterrichtet ausführlich Marcus Ventzke: Das Herzogtum Sachsen-Weimar-Eisenach 1775–1783 (Veröffentlichungen der Historischen Kommission für Thüringen. Kleine Reihe. Bd 10). Köln, Weimar, Wien 2004, S. 48–128.</p>
+  <p rendition="#einrueck1">Die Briefe, die Goethe während der Reise schrieb, vor allem die an Charlotte von Stein (beginnend mit den von Philipp Seidel abgeschriebenen Reiseaufzeichnungen vom 3. Oktober 1779 in <ref target="gb:dokument#12029">Nr 538</ref>), sollten ihm als Grundlage für die Ausarbeitung einer Reisebeschreibung dienen; sie kam aber erst zustande, als Schiller Jahre später Goethe um einen Beitrag für seine Zeitschrift „Die Horen“ bat: „Briefe auf einer Reise nach dem Gotthardt“ (1796. 8. Stück, S. 29–94); sie wurden später unter dem Titel „Briefe aus der Schweiz“ – mit dem Zusatz „Zweyte Abtheilung“ – in den 11. Band der Cottaschen Ausgabe von „Goethe’s Werken“ (Tübingen 1808) aufgenommen (vgl. <ref target="sndb:sigle#1157">WA</ref> I 19, 221–306). – Zum Reiseverlauf vgl. den folgenden Überblick:</p>
+  <space unit="lines" quantity="1"/>
+  <p rendition="#c">Goethes zweite Reise in die Schweiz</p>
+  <p rendition="#c">12. September 1779–14. Januar 1780</p>
+  <space unit="lines" quantity="1"/>
+  <p>Die im folgenden Überblick verzeichneten Entfernungen sind ungefähre Angaben nach heutigen Verhältnissen; sie sollen lediglich zur groben Orientierung über die Distanzen zwischen den Stationen der Reise dienen.</p>
+  <table>
+    <row>
+      <cell><p>12. September</p></cell>
+      <cell><p>Weimar, Gotha, Eisenach</p></cell>
+      <cell><p>80 km</p></cell>
+    </row>
+    <row>
+      <cell><p>13. September</p></cell>
+      <cell><p>Eisenach, Creuzburg, Kassel (Ankunft: 14. September, 1 Uhr)</p></cell>
+      <cell><p>86 km</p></cell>
+    </row>
+    <row>
+      <cell><p>14. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>15. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>16. September</p></cell>
+      <cell><p>Kassel, Wabern, Jesberg</p></cell>
+      <cell><p>54 km</p></cell>
+    </row>
+    <row>
+      <cell><p>17./18. September</p></cell>
+      <cell>
+        <p>Jesberg, Frankfurt mit unbekannter Zwischenstation</p>
+        <p rendition="#einrueck2">a) östlich am Vogelsberg vorbei, Fulda, Friedberg, Frankfurt oder</p>
+        <p rendition="#einrueck2">b) westlich am Vogelsberg vorbei, Friedberg, Frankfurt</p>
+      </cell>
+      <cell>
+        <p>190 km</p>
+        <p>125 km</p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>19. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>20. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>21. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>22. September</p></cell>
+      <cell><p>Frankfurt, Eberstadt</p></cell>
+      <cell><p>38 km</p></cell>
+    </row>
+    <row>
+      <cell><p>23. September </p></cell>
+      <cell><p>Eberstadt, Heidelberg</p></cell>
+      <cell><p>51 km</p></cell>
+    </row>
+    <row>
+      <cell><p>24. September</p></cell>
+      <cell><p>Heidelberg, Schwetzingen, Speyer, Rheinzabern</p></cell>
+      <cell><p>61 km</p></cell>
+    </row>
+    <row>
+      <cell><p>25. September</p></cell>
+      <cell><p>Rheinzabern, Seltz, Sessenheim</p></cell>
+      <cell><p>49 km</p></cell>
+    </row>
+    <row>
+      <cell><p>26. September</p></cell>
+      <cell><p>Sessenheim, Drusenheim, Straßburg</p></cell>
+      <cell><p>35 km</p></cell>
+    </row>
+    <row>
+      <cell><p>27. September</p></cell>
+      <cell><p>Straßburg, Kehl, Dinglingen, Emmendingen</p></cell>
+      <cell><p>74 km</p></cell>
+    </row>
+    <row>
+      <cell><p>28. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>29. September</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell>
+        <p>30. September/</p>
+        <p>1. Oktober</p>
+      </cell>
+      <cell>
+        <p>Emmendingen, Freiburg, Basel</p>
+        <p rendition="#einrueck2">a) durch das Höllen- und Wiesental</p>
+        <p rendition="#einrueck2">b) über Schallstadt, Müllheim, Schliengen</p>
+      </cell>
+      <cell>
+        <p>115 km</p>
+        <p>90 km</p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>2. Oktober</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>3. Oktober</p></cell>
+      <cell><p>Basel, Birstal, Saugern (Soyhières), Rennendorf (Courrendlin), Münster (Moutier)</p></cell>
+      <cell><p>60 km</p></cell>
+    </row>
+    <row>
+      <cell><p>4. Oktober</p></cell>
+      <cell><p>Münster, Biel</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>5. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug zur St. Petersinsel</p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>6. Oktober</p></cell>
+      <cell>
+        <p>Biel, Erlach, Anet (Ins)</p>
+        <p rendition="#einrueck2">Ausflug von Anet nach Saint Blaise</p>
+      </cell>
+      <cell>
+        <p>26 km</p>
+        <p>20 km</p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>7. Oktober</p></cell>
+      <cell><p>Anet, Murten, Bern</p></cell>
+      <cell><p>37 km</p></cell>
+    </row>
+    <row>
+      <cell><p>8. Oktober</p></cell>
+      <cell><p>Bern, Thun</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>9. Oktober</p></cell>
+      <cell><p>Thun, Unterseen, Lütschinental, Lauterbrunnen</p></cell>
+      <cell><p>38 km</p></cell>
+    </row>
+    <row>
+      <cell><p>10. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Gebirgswanderung: Lauterbrunnen, Stechelberg, Trachsellauenen, Oberer Steinberg, Tschingelgletscher, Oberhorn (zwischen Tschingel- und Breithorngletscher) und zurück nach Lauterbrunnen</p></cell>
+      <cell><p>30–35 km</p></cell>
+    </row>
+    <row>
+      <cell><p>11. Oktober</p></cell>
+      <cell><p>Lauterbrunnen, Zweilütschinen, Grindelwald</p></cell>
+      <cell><p>16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>12. Oktober</p></cell>
+      <cell><p>Grindelwald, Oberer Grindelwaldgletscher, Große Scheidegg, Reichenbachtal, Schwarzwaldalp, Rosenlaui, Reichenbachfall, Hof bei Innertkirchen, Guttannen</p></cell>
+      <cell><p>38 km</p></cell>
+    </row>
+    <row>
+      <cell><p>13. Oktober</p></cell>
+      <cell><p>Guttannen, Meiringen, Brienz (Tracht; heute Kienholz)</p></cell>
+      <cell><p>28 km</p></cell>
+    </row>
+    <row>
+      <cell><p>14. Oktober</p></cell>
+      <cell><p>Brienz, Brienzer See, Interlaken, Unterseen, Thuner See, Sundlauenen, Ausflug zur Beatushöhle, Thun</p></cell>
+      <cell><p>37 km</p></cell>
+    </row>
+    <row>
+      <cell><p>15. Oktober</p></cell>
+      <cell><p>Thun, Bern</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>16. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Kehrsatz</p></cell>
+      <cell><p>10 km</p></cell>
+    </row>
+    <row>
+      <cell><p>17. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Langnau</p></cell>
+      <cell><p>54 km</p></cell>
+    </row>
+    <row>
+      <cell><p>18. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Hindelbank</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>19. Oktober</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>20. Oktober</p></cell>
+      <cell><p>Bern, Murten, Avenches (Wiflisburg), Payerne (Peterlingen)</p></cell>
+      <cell><p>47 km</p></cell>
+    </row>
+    <row>
+      <cell><p>21. Oktober</p></cell>
+      <cell><p>Payerne, Cheyres, Moudon</p></cell>
+      <cell><p>40 km</p></cell>
+    </row>
+    <row>
+      <cell><p>22. Oktober</p></cell>
+      <cell><p>Moudon, Lausanne</p></cell>
+      <cell><p>24 km</p></cell>
+    </row>
+    <row>
+      <cell><p>23. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Vevey</p></cell>
+      <cell><p>40 km</p></cell>
+    </row>
+    <row>
+      <cell><p>24. Oktober</p></cell>
+      <cell><p>Lausanne, Rolle, Mont-sur-Rolle, Col du Marchairuz, Le Brassus</p></cell>
+      <cell><p>52 km</p></cell>
+    </row>
+    <row>
+      <cell><p>25. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ritt von Le Brassus durchs Vallée de Joux über Le Sentier, Le Lieu, Lac Ter, Lac Brenet, Pont, Aufstieg zur Dent de Vaulion, zurück nach Pont, von dort Ritt über L’Abbaye zurück nach Le Brassus</p></cell>
+      <cell><p>55 km</p></cell>
+    </row>
+    <row>
+      <cell><p>26. Oktober</p></cell>
+      <cell><p>Le Brassus, Bois d’Amont, Les Rousses, vermutlich La Cure, von dort Richtung Saint Cergue, auf dem Weg dorthin (von La Givrine oder Les Pralies?) Aufstieg zur La Dôle, Saint-Cergue, Nyon</p></cell>
+      <cell><p>57 km</p></cell>
+    </row>
+    <row>
+      <cell><p>27. Oktober</p></cell>
+      <cell><p>Nyon, Genf</p></cell>
+      <cell><p>24 km</p></cell>
+    </row>
+    <row>
+      <cell><p>28. Oktober</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>29. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Genthod</p></cell>
+      <cell><p>16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>30. Oktober</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>31. Oktober</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Ferney</p></cell>
+      <cell><p>18 km</p></cell>
+    </row>
+    <row>
+      <cell><p>1. November</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Ferney</p></cell>
+      <cell><p>18 km</p></cell>
+    </row>
+    <row>
+      <cell><p>2. November</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Ferney und Chambésy</p></cell>
+      <cell><p>19 km</p></cell>
+    </row>
+    <row>
+      <cell><p>3. November</p></cell>
+      <cell><p>Genf, Bonneville (Frankreich), Cluses</p></cell>
+      <cell><p>42 km</p></cell>
+    </row>
+    <row>
+      <cell><p>4. November</p></cell>
+      <cell><p>Cluses, Balme, Sallanches, Servoz, Chamonix (Le Prieuré)</p></cell>
+      <cell><p>47 km</p></cell>
+    </row>
+    <row>
+      <cell><p>5. November</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug zum Montenvers und ins Mer de Glace</p></cell>
+      <cell><p>12 km</p></cell>
+    </row>
+    <row>
+      <cell><p>6. November</p></cell>
+      <cell><p>Chamonix, Les Bois (Glacier de Bois), Argentière (Glacier d’Argentière), Le Tour (Glacier du Tour), Col de Balme, Trient, Martigny</p></cell>
+      <cell><p>33 km</p></cell>
+    </row>
+    <row>
+      <cell><p>7. November</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug zum Pissevache-Wasserfall und nach Sankt Moritz</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>8. November</p></cell>
+      <cell><p>Martigny, Sion, Sierre (Siders)</p></cell>
+      <cell><p>44 km</p></cell>
+    </row>
+    <row>
+      <cell><p>9. November</p></cell>
+      <cell><p>Sierre, Inden, Leukerbad</p></cell>
+      <cell><p>19 km</p></cell>
+    </row>
+    <row>
+      <cell><p>10. November</p></cell>
+      <cell><p>Leukerbad, zurück nach Inden, Leuk, Brig</p></cell>
+      <cell><p>62 km</p></cell>
+    </row>
+    <row>
+      <cell><p>11. November</p></cell>
+      <cell><p>Brig, Münster (Rhône)</p></cell>
+      <cell><p>33 km</p></cell>
+    </row>
+    <row>
+      <cell><p>12. November</p> </cell>
+      <cell><p>Münster, Furka-Pass, Realp</p></cell>
+      <cell><p>40 km</p></cell>
+    </row>
+    <row>
+      <cell><p>13. November</p></cell>
+      <cell><p>Realp, Hospental, Sankt Gotthard (Kapuziner)</p></cell>
+      <cell><p>18 km</p></cell>
+    </row>
+    <row>
+      <cell><p>14. November</p></cell>
+      <cell><p>Sankt Gotthard, zurück nach Hospental, Andermatt, Urner Loch, Göschenen, Amsteg</p></cell>
+      <cell><p>35 km</p></cell>
+    </row>
+    <row>
+      <cell><p>15. November</p></cell>
+      <cell><p>Amsteg, Altdorf, Flüelen, per Schiff nach Brunnen, Schwyz</p></cell>
+      <cell><p>33 km</p></cell>
+    </row>
+    <row>
+      <cell><p>16. November</p></cell>
+      <cell><p>Schwyz, zurück nach Brunnen, per Schiff nach Luzern</p></cell>
+      <cell><p>26 km</p></cell>
+    </row>
+    <row>
+      <cell><p>17. November</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>18. November</p></cell>
+      <cell><p>Luzern, Zürich</p></cell>
+      <cell><p>49 km</p></cell>
+    </row>
+    <row>
+      <cell><p>19. November–1. Dezember</p></cell>
+      <cell><p>Zürich</p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>2. Dezember</p></cell>
+      <cell><p>Zürich, Kloten, Winterthur</p></cell>
+      <cell><p>27 km</p></cell>
+    </row>
+    <row>
+      <cell><p>3. Dezember</p></cell>
+      <cell><p>Winterthur, Frauenfeld, Konstanz</p></cell>
+      <cell><p>42 km</p></cell>
+    </row>
+    <row>
+      <cell><p>4. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>5. Dezember</p></cell>
+      <cell><p>Konstanz, Stein am Rhein, Schaffhausen</p></cell>
+      <cell><p>47 km</p></cell>
+    </row>
+    <row>
+      <cell><p>6. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>7. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>8.–10. Dezember</p></cell>
+      <cell><p>Schaffhausen, Schwäbische Alb, Hechingen, Tübingen</p></cell>
+      <cell><p>120 km</p></cell>
+    </row>
+    <row>
+      <cell><p>11. Dezember</p></cell>
+      <cell><p>Tübingen, Stuttgart</p></cell>
+      <cell><p>37 km</p></cell>
+    </row>
+    <row>
+      <cell><p>12. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>13. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>14. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>15. Dezember</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Kornwestheim und Ludwigsburg</p></cell>
+      <cell><p>30 km</p></cell>
+    </row>
+    <row>
+      <cell><p>16. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>17. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>18. Dezember</p></cell>
+      <cell><p>Stuttgart, Karlsruhe</p></cell>
+      <cell><p>71 km</p></cell>
+    </row>
+    <row>
+      <cell><p>19. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>20. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>21. Dezember</p></cell>
+      <cell><p>Karlsruhe, Mannheim</p></cell>
+      <cell><p>63 km</p></cell>
+    </row>
+    <row>
+      <cell><p>22. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>23. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>24. Dezember</p></cell>
+      <cell>
+        <p>Mannheim, Frankfurt</p>
+        <p>oder</p>
+        <p>Mannheim, Weinheim, Frankfurt</p>
+      </cell>
+      <cell>
+        <p>80 km</p>
+        <p>87 km</p>
+      </cell>
+    </row>
+    <row>
+      <cell><p>25. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>26. Dezember</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Offenbach</p></cell>
+      <cell><p>13 km</p></cell>
+    </row>
+    <row>
+      <cell><p>27. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>28. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>29. Dezember</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>30. Dezember</p></cell>
+      <cell><p>Frankfurt, Darmstadt</p></cell>
+      <cell><p>28 km</p></cell>
+    </row>
+    <row>
+      <cell><p>31. Dezember</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Dieburg</p></cell>
+      <cell><p>16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>1. Januar</p></cell>
+      <cell><p rendition="#einrueck2">Rückkehr nach Darmstadt</p></cell>
+      <cell><p>16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>2. Januar</p></cell>
+      <cell><p rendition="#einrueck2">Ausflug nach Homburg v. d. H.</p></cell>
+      <cell><p>44 km</p></cell>
+    </row>
+    <row>
+      <cell><p>3. Januar</p></cell>
+      <cell><p rendition="#einrueck2">Rückkehr bis Frankfurt</p></cell>
+      <cell><p>16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>4. Januar</p></cell>
+      <cell><p rendition="#einrueck2">Rückkehr nach Darmstadt</p></cell>
+      <cell><p>28 km</p></cell>
+    </row>
+    <row>
+      <cell><p>5. Januar</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>6. Januar</p></cell>
+      <cell><p>Darmstadt, Frankfurt</p></cell>
+      <cell><p>28 km</p></cell>
+    </row>
+    <row>
+      <cell><p>7. Januar</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>8. Januar</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>9. Januar</p></cell>
+      <cell><p> </p></cell>
+      <cell><p> </p></cell>
+    </row>
+    <row>
+      <cell><p>10.?–14. Januar</p></cell>
+      <cell><p>Frankfurt, Eisenach, Weimar</p></cell>
+      <cell><p>255 km</p></cell>
+    </row>
+  </table>
+  <space unit="lines" quantity="1"/>
+  <p rendition="#c">Anmerkungen</p>
+  <space unit="lines" quantity="1"/>
+  <p>13. September:</p>
+  <p rendition="#einrueck1">Nach Goethes Tagebuch war die Reisegesellschaft in der Nacht vom 13. auf den 14. September 1779 Nachts 1 Uhr (<ref target="gt:dokument#774">GT I 1, 93</ref>) von Erfurt kommend in Kassel eingetroffen.</p>
+  <space unit="lines" quantity="1"/>
+  <p>16. September:</p>
+  <p rendition="#einrueck1">In Goethes Tagebuch heißt es unter dem 16. September: <quote type="G">Weggefahren um 12 Uhr. nach Wabern von da geritten auf Jesberg. angek. um 8 Uhr.</quote> (<ref target="gt:dokument#777">GT I 1, 93</ref>.) Daraus scheint hervorzugehen, dass die Reisenden vom 16. auf den 17. September Station im von Kassel etwa 54 km entfernten Jesberg machten. Dass sie an diesem Tage noch bis Fulda gelangt seien, wie gelegentlich, jedoch ohne Beleg angenommen wird (vgl. <ref target="sndb:sigle#2859">Goethe-Handbuch<hi rendition="#sup">2</hi></ref> 4, Karte 1; <ref target="gt:dokument#777">GT I 1, 93</ref> und GT I 2, 492, zu 93,21), ist unwahrscheinlich. Die Stadt liegt von Jesberg weitere 80 km entfernt, so dass die Reisegesellschaft in acht Stunden eine Distanz von 134 km hätte bewältigen müssen. (Nach Mitteilung des Instituts für Geschichtliche Landeskunde an der Universität Mainz legte ein Reiter an einem Tag etwa 60–80 km zurück.) Hinzu kommt, dass die Route über Wabern und Jesberg nicht (jedenfalls nicht direkt) in Richtung Fulda führt, sondern westlich am Vogelsberg vorbei in Richtung Friedberg. Diesen Ort passierten die Reisenden auf ihrem Weg nach Frankfurt nachweislich, wie sich den Briefen von Herzog Carl August an seine Mutter vom 19. September und vom 16. Oktober entnehmen lässt (vgl. <ref target="sndb:sigle#76">Bergmann</ref>, 24 und 28).</p>
+  <space unit="lines" quantity="1"/>
+  <p>17./18. September:</p>
+  <p rendition="#einrueck1">Über die Reiseroute am 17. und 18. September nach Friedberg liegen keine zuverlässigen Zeugnisse vor. Sollte sie von Jesberg aus östlich am Vogelsberg vorbei über Fulda nach Friedberg und schließlich nach Frankfurt geführt haben, wären etwa 190 km zu bewältigen gewesen; die Route von Jesberg westlich am Vogelsberg vorbei über Friedberg nach Frankfurt wäre etwa 125 km lang gewesen. In beiden Fällen mussten die Reisenden Zwischenstation machen. Selbst wenn sie am 16. September bis Fulda gekommen wären, dürfte die Strecke von Fulda über Friedberg nach Frankfurt mit etwa 110 km zu viel für einen einzigen Reisetag gewesen sein. Dabei führt die übliche Route von Fulda nach Frankfurt gar nicht über Friedberg, sondern über Schlüchtern, Gelnhausen und Hanau (vgl. Willi Beils: Goethes Beziehungen zum Fuldaer Lande. In: Fuldaer Geschichtsblätter 24 [1931], S. 81); diesen Weg nahm Goethe vom 1. bis 3. August 1797, als er zum dritten Mal in die Schweiz reiste (vgl. GT II 1, 124 f.). Wo die Reisenden vom 17. auf den 18. September 1779 übernachteten, konnte nicht ermittelt werden. In Goethes Vaterstadt trafen sie am Abend des 18. September ein (vgl. <ref target="gb:text#GB03_1_BR533_0_298_010">298,10</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>22. September:</p>
+  <p rendition="#einrueck1">Das Datum des Aufbruchs aus Frankfurt geht aus Catharina Elisabeth Goethes Brief an Herzogin Anna Amalia vom 24. September 1779 hervor: „Am Sontag gingen Sie in ein großes Concert das im Rothen Hauß gehalten wurde, <gap quantity="3" reason="editorial"/> Montags und Dinstags gingen Sie <supplied>die Reisenden</supplied> in die Commedie, Mittwochs um 12 Uhr Mittags ritten Sie in bestem wohlseyn der Bergstraße zu“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 456). Bei den genannten Tagen handelt es sich um den 19., 20., 21. und 22. September 1779; Goethes Mutter spricht, indem sie den 18. September dazurechnet, davon, dass sie „5 tage“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 455) mit ihrem Sohn zusammen gewesen sei. Dass Herzog Carl August in einem auf den 21. September datierten Brief aus Frankfurt an seine Mutter schreibt: „Diesen Mittag geht es fort“ (<ref target="sndb:sigle#76">Bergmann</ref>, 25), und unter demselben Datum an Jacob Friedrich von Fritsch, er sei gerade im Aufbruch begriffen, muss auf einem Irrtum beruhen (<ref target="gb:dokument#56484">Brief</ref> abgedruckt im Anhang „Dokumente“, S. 1122).</p>
+  <space unit="lines" quantity="1"/>
+  <p>25. September:</p>
+  <p rendition="#einrueck1">Nach Sessenheim ritt Goethe allein; am folgenden Tag traf er in Drusenheim wieder mit der übrigen Reisegesellschaft zusammen.</p>
+  <space unit="lines" quantity="1"/>
+  <p>30. September/1. Oktober:</p>
+  <p rendition="#einrueck1">Die Route von Emmendingen über Freiburg nach Basel führte entweder durch das Höllen- und Wiesental östlich am Feldberg vorbei oder westlich an Belchen und am Feldberg vorbei auf direktem Weg nach Süden (vgl. weiter zu <ref target="gb:note#GB03_2_BR540_0_note_004_320_13-14">320,13-14</ref>). Der Übernachtungsort ist in beiden Fällen nicht bekannt.</p>
+  <space unit="lines" quantity="1"/>
+  <p>7. November:</p>
+  <p rendition="#einrueck1">Den Ausflug nach Sankt Moritz schildert Herzog Carl August in seinem Tagebuch (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX 134<hi rendition="#sup #u">c</hi>, Bl. 6v; vgl. auch Wahl, Carl Augusts Tagebuch, 182 f.).</p>
+  <space unit="lines" quantity="1"/>
+  <p>8.–10. Dezember:</p>
+  <p rendition="#einrueck1">Über die Reise von Schaffhausen nach Tübingen heißt es im Brief des Herzogs Carl August an seine Frau Louise vom 12. Dezember 1779: „Den dritten Tag <supplied>8. Dezember</supplied> ritten wir großmüthig <supplied>von Schaffhausen</supplied> weiter, brachten 3 zieml. böse Wettertage unterwegs, u. in unbeträgtichen Stationen zu, u. kamen vorgestern <supplied>10. Dezember</supplied> nach Tübingen. Wir haben Hechingen paßirt“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 126). In <ref target="sndb:sigle#2796">Chronik</ref> 2, 262 wird (in Übereinstimmung mit Teilkarte 2 im <ref target="sndb:sigle#2859">Goethe-Handbuch<hi rendition="#sup">2</hi></ref>) folgende Route genannt: Herblingen, Thayngen, Ebringen, Hilzingen, Weiterdingen, Welschingen, Neuhausen, Engen, Hattingen, Tuttlingen, Wurmlingen, Horningen, Rietheim, Balgheim, Spaichingen, Hofen, Aldingen, Frittlingen, Wellendingen, Schömberg, Dotternhausen, Erzingen, Endingen, Balingen, Engstlatt, Steinofen, Wessingen, Hechingen und Dusslingen. Diese Wegstrecke beträgt, wie in der Tabelle angegeben, 120 km. Wo die Reisegesellschaft übernachtete, konnte nicht ermittelt werden.</p>
+  <space unit="lines" quantity="1"/>
+  <p>11. Dezember:</p>
+  <p rendition="#einrueck1">Sollte die Route über Lustnau, Dettenhausen, Waldenbach, Echterdingen und Hohenheim geführt haben (so <ref target="sndb:sigle#2796">Chronik</ref> 2, 262; ohne Quellenangabe), wird die Wegstrecke von Tübingen nach Stuttgart etwa 40 km betragen haben.</p>
+  <space unit="lines" quantity="1"/>
+  <p>12. und 14. Dezember: </p>
+  <p rendition="#einrueck1">An beiden Tagen besuchte Goethe mit Herzog Carl August die Militär-Akademie, zu deren Zöglingen damals Schiller gehörte (vgl. zu <ref target="gb:note#GB03_2_BR559_0_note_004_366_4">366,4</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>21. Dezember:</p>
+  <p rendition="#einrueck1">Sollte die Route über Bruchsal, Wiesloch und Schwetzingen geführt haben (so <ref target="sndb:sigle#2796">Chronik</ref> 2, 265; ohne Quellenangabe), wird die Wegstrecke von Stuttgart nach Karlsruhe etwa 77 km betragen haben.</p>
+  <space unit="lines" quantity="1"/>
+  <p>24. Dezember:</p>
+  <p rendition="#einrueck1">Das Datum des Aufbruchs aus Mannheim ergibt sich aus dem Umstand, dass Goethe und Carl August am 23. Dezember das Mannheimer Theater besuchten, und zwar eine Aufführung von Richard Brinsley Sheridans Lustspiel „Die Nebenbuhler“ mit Iffland in der Rolle des Barons Abslut (vgl. August Wilhelm Iffland an seinen Bruder Christian Philipp Iffland, 29. Dezember 1779; <ref target="bug:dokument#6300">BuG 2, 214</ref>; ferner: Friedrich Walter [Hrsg.]: Archiv und Bibliothek des Grossh. Hof- und Nationaltheaters in Mannheim 1779–1839. Bd 2. Leipzig 1899, S. 266 und 402), und am Abend des 25. Dezember ein Konzert in Frankfurt (vgl. Herzog Carl August an seine Mutter, 26. Dezember 1779; <ref target="sndb:sigle#76">Bergmann</ref>, 34). Dem widerspricht ein <ref target="gb:dokument#56490">Brief</ref> des Herzogs an Jacob Friedrich von Fritsch vom 25. Dezember 1779 aus Frankfurt, in dem es heißt: „Vorgestern bin ich hier eingetroffen“ (abgedruckt im Anhang „Dokumente“, S. 1133). Dies würde bedeuten, dass Goethe und seine Begleiter noch nach dem Besuch des Theaters am 23. Dezember nach Frankfurt gereist wären, was nicht ausgeschlossen, aber nicht wahrscheinlich ist. Sollte die Route über Weinheim geführt haben (so <ref target="sndb:sigle#2796">Chronik</ref> 2, 266; ohne Quellenangabe), so wird die Wegstrecke von Mannheim nach Frankfurt etwa 87 km betragen haben.</p>
+  <space unit="lines" quantity="1"/>
+  <p>30. Dezember:</p>
+  <p rendition="#einrueck1">Die Ankunft in Darmstadt verzeichnet das Fourierbuch des Darmstädter Hofes unter dem 30. Dezember 1779 (vgl. <ref target="bug:dokument#6312">BuG 2, 216</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>31. Dezember:</p>
+  <p rendition="#einrueck1">Die Daten des Ausflugs nach Dieburg nach Goethes Brief an Charlotte von Stein vom 1. und 3. Januar 1780 (<ref target="gb:dokument#12065">GB 4, Nr 1</ref>) und dem Darmstädter Fourierbuch (vgl. <ref target="bug:dokument#6312">BuG 2, 216</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>2. Januar:</p>
+  <p rendition="#einrueck1">Der Ausflug nach Homburg nach Goethes Brief an Charlotte von Stein vom 1. und 3. Januar 1780 (<ref target="gb:dokument#12065">GB 4, Nr 1</ref>) und dem Darmstädter Fourierbuch (vgl. <ref target="bug:dokument#6312">BuG 2, 216</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>3. Januar:</p>
+  <p rendition="#einrueck1">Die Rückkehr zunächst bis Frankfurt nach dem Brief des Herzogs Carl August an seine Frau Louise vom 4. Januar 1780 aus Frankfurt (vgl. <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 128).</p>
+  <space unit="lines" quantity="1"/>
+  <p>4. Januar:</p>
+  <p rendition="#einrueck1">Die endgültige Rückkehr nach Darmstadt nach dem Brief des Herzogs Carl August an seine Frau Louise vom 4. Januar 1780 aus Frankfurt (vgl. <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 128) und dem Darmstädter Fourierbuch (vgl. <ref target="bug:dokument#6312">BuG 2, 216</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>6. Januar:</p>
+  <p rendition="#einrueck1">Datum des Aufbruchs von Darmstadt nach dem Darmstädter Fourierbuch (vgl. <ref target="bug:dokument#6312">BuG 2, 216</ref>).</p>
+  <space unit="lines" quantity="1"/>
+  <p>10.?–14. Januar:</p>
+  <p rendition="#einrueck1">Der Aufbruch aus Frankfurt fand vermutlich um den 10. Januar 1780 statt. In Johann Heinrich Mercks Brief an Herzogin Anna Amalia vom 14. Januar 1780 heißt es: „Bey der grossen Dumpfheit, worin mich der Abschied von den Herrn Reisenden diese paar Tage gelassen hat <gap quantity="3" reason="editorial"/>.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 353.) Die zurückzulegende Entfernung von etwa 255 km spricht für eine Reisezeit von drei oder vier Tagen. – Dass die Route über Eisenach führte, geht aus Goethes Brief an Charlotte von Stein vom 3. Januar 1780 hervor: <quote type="G"><gap quantity="3" reason="editorial"/> schreiben Sie mir nun ich bitte nach Eisenach bey <hi rendition="#hervor1">Streibern</hi> abzugeben</quote> (<ref target="gb:text#GB04_1_BR001_0_004_002 #GB04_1_BR001_0_004_003">GB 4 I, 4,2-3</ref>). – In <ref target="sndb:sigle#2796">Chronik</ref> 2, 269 wird (ohne Quellenangabe) folgende Route genannt: Frankfurt, Hanau, Gelnhausen, Salmünster, Steinau, Schlüchtern, Neuhof, Fulda, Hünfeld, Buttlar, Vacha, Eisenach, Schönau, Mechterstädt, Gotha, Erfurt, Weimar. Die Wegstrecke entspricht derjenigen, die Goethe vom 30. Juli bis zum 3. August 1797 auf der dritten Reise in die Schweiz von Weimar nach Frankfurt genommen hat (vgl. GT II 1, 121–125). Die Distanz beträgt etwa 255 km. Wo die Reisegesellschaft übernachtete, konnte nicht ermittelt werden. – Im Weimarer Fourierbuch heißt es unter dem 14. Januar 1780: „Heüte Mittag kahmen unser Durch<g ref="#typoSuspension"/>. Herzog unvermuthet von Ihrer 18. Wöchent<g ref="#typoSuspension"/>. Reise, zur ausnehmender Freüde des ganzen Hofes wiederum gesund und wohl hier an, wofür wier Gott annoch Tausendmahl Dank sagen.“ (<ref target="sndb:sigle#3946">FB 1780</ref>, S. 10.) – Dass Carl August einen Brief an Carl Ferdinand von Sinner geschrieben haben soll, der auf „Weymar den 10 Jan. 1780“ datiert ist (Ludwig Hirzel: Briefe des Herzogs Carl August an Karl Ferdinand von Sinner in Bern. In: Vierteljahrschrift für Litteraturgeschichte 3 [1890], S. 123), kann nur auf einem Lese- oder Schreibfehler beruhen.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12015_comment_com5369">
+<label xml:id="GB03_2_BR530_0_note_001_296_24" copyOf="#start_com_4281"><hi rendition="#fett">296,24</hi>Cassler Herrlichkeiten</label>
+<p>Laut Goethes Tagebuch war die Reisegesellschaft in der Nacht vom 13. auf den 14. September 1779 Nachts 1 Uhr (<ref target="gt:dokument#774">GT I 1, 93</ref>) von Erfurt kommend in Kassel eingetroffen. Unter dem 14. September heißt es: <quote type="G">Früh die Parade, Orangerie, Auggarten, Menagerie, Modelhaus pp. Nachm. die Galerie.</quote> (<ref target="gt:dokument#775">Ebd.</ref>) Unter dem 15. September: <quote type="G">Auf Weissenstein, den Winterkasten erstiegen, die übrigen Anlagen besehen.</quote> (<ref target="gt:dokument#776">Ebd.</ref>) – Die <quote type="G">Orangerie</quote> war die Sommerresidenz des Landgrafen von Hessen-Kassel im heutigen Park Karlsaue. Mit <quote type="G">Auggarten</quote> ist ‚Augarten‘ gemeint, heute Park Karlsaue, mit <quote type="G">Menagerie</quote> der Tierpark (mit dem indischen Elephanten, an dessen Schädel Goethe später Untersuchungen zum Zwischenkieferknochen vornahm), mit <quote type="G">Modelhaus</quote> das Modell- oder Messhaus, mit dem <quote type="G">Weissenstein</quote> das ehemalige, später zu Schloss Wilhelmstein umgebaute Augustinerkloster und mit dem <quote type="G">Winterkasten</quote> eines der Wahrzeichen der Stadt Kassel, das Oktogon oder Riesenschloss im (heutigen) Bergpark Wilhelmshöhe mit der Statue des Herakles auf der Spitze einer Pyramide.</p>
+
+</note>
+<note xml:id="gb12015_comment_com12018">
+<label xml:id="GB03_2_BR530_0_note_002_296_25" copyOf="#start_com_4282"><hi rendition="#fett">296,25</hi>Gemählde Gallerie</label>
+<p>Sie befand sich im Ottoneum (in der Nähe des Friedrichplatzes), wo die landgräfliche Kunst- und Naturaliensammlung untergebracht war. Goethe begegnete dort Johann Heinrich Wilhelm Tischbein (vgl. Herzog Carl August an seine Mutter Anna Amalia, 15. September 1779; <ref target="sndb:sigle#76">Bergmann</ref>, 24).</p>
+
+</note>
+<note xml:id="gb12015_comment_com12019">
+<label xml:id="GB03_2_BR530_0_note_003_297_1" copyOf="#start_com_4283"><hi rendition="#fett">297,1</hi>Zeit dass wir in’s Wasser kamen</label>
+<p>Zum Zweck der Reise vgl. die einleitende Erläuterung. In der dort zitierten Tagebuchaufzeichnung benutzt Goethe wie auch hier die Wassermetaphorik; mit Bezug auf diese Eintragung steht das Bild vom Ins-Wasser-Kommen für Aufhebung von Stagnation, für Bewegung und Fortschritt. An anderer Stelle findet sich in Goethes Briefen auch die Metapher der Schiffsfahrt (vgl. zu <ref target="gb:note#GB03_2_BR011_0_note_007_13_7-8">13,7-8</ref>).</p>
+
+</note>
+<note xml:id="gb12015_comment_com12020">
+<label xml:id="GB03_2_BR530_0_note_004_297_2" copyOf="#start_com_4284"><hi rendition="#fett">297,2</hi>klare Augen</label>
+<p>Zur Bedeutung des Auges für das Wahrnehmen und Erkennen der Welt bei Goethe vgl. <ref target="gb:note#GB01_2_BR098_0_note_022_231_9">GB 1 II, zu 231,9</ref>.</p>
+
+</note>
+<note xml:id="gb12015_comment_com15431">
+<label xml:id="GB03_2_BR530_0_note_005_297_3" copyOf="#start_com_4285"><hi rendition="#fett">297,3</hi>nach Franckfurt</label>
+<p>In Frankfurt kam die Reisegesellschaft am 18. September 1779 an und blieb dort zunächst bis zum 22. September.</p>
+
+</note>
+<note xml:id="gb12015_comment_com18264">
+<label xml:id="GB03_2_BR530_0_note_006_297_4" copyOf="#start_com_4286"><hi rendition="#fett">297,4</hi>Gr. Wartensleben</label>
+<p>Charlotte Wilhelmine Isabella Gräfin von Wartensleben geb. Gräfin zu Lynar, eine Freundin Charlotte von Steins, seit 1770 verwitwet, Schriftstellerin; vgl. über sie auch zu <ref target="gb:note#GB03_2_BR160_0_note_015_99_33-100_1">99,33-100,1</ref>. Der angekündigte Besuch fand, zumindest bei dieser Gelegenheit, nicht statt. Aus der Schweiz schrieb Goethe am 16. Oktober 1779, die Gräfin sei nicht in Kassel gewesen (vgl. <ref target="gb:text#GB03_1_BR538_0_311_021">311,21</ref>). Dass er sie von Kassel aus an ihrem Wohnsitz in Exten besucht hat, ist wegen der großen Entfernung (etwa 120 km) unmöglich. (Die gelegentlich geäußerte Vermutung, Goethes in Leipzig überlieferte Tuschzeichnung, eine „Landschaft mit Bäumen“ darstellend [Museum der Bildenden Künste, Graphische Sammlung, Inv.-Nr I. 8199], sei im September 1779 in Exten bei einem Besuch der Gräfin von Wartensleben entstanden, ist unzutreffend.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

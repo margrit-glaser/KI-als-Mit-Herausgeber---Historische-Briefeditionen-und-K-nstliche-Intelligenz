@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1030"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10779" n="GB 3, Nr. 103">
+  <teiHeader xml:id="gb10779_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>103.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 16. Mai 1776. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:25Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10779_tei.xml</idno>
+        <idno type="URI">gb10779</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR103_0</idno>
+        <idno type="KSW-ID">10779</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="62" to="62">62</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="241" to="242">241-242</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10779_header_hwit965" corresp="#gb10779_source_hwit965" sameAs="#gb10779_comment_hwit965" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 72</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10779,,965/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich hab Ihre Rechnungen verlegt. Hier sind 20 Louisdor, was restirt schreiben Sie fürs Neue an</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10779_header_acc519" corresp="gb10779_comment_acc519">
+            <objectIdentifier>
+              <objectName>20 Louisdor </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-16">16. Mai 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#59746">Steinauer, Christian Wilhelm</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10779_source_hwit965" corresp="#gb10779_header_hwit965" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10779/13793"/>
+      <p>
+        <anchor xml:id="GB03_1_BR103_0_062_008"/>Ich hab ihre <ref target="gb:note#GB03_2_BR103_0_note_001_62_8" xml:id="start_com_0975"/>Rechnungen<ref xml:id="end_com_0975"/> verlegt. Hier sind <ref target="gb:note#GB03_2_BR103_0_note_002_62_8" xml:id="start_com_7405"/>20 Louis dor<ref xml:id="end_com_7405"/>, was <ref target="gb:note#GB03_2_BR103_0_note_003_62_8" xml:id="start_com_0976"/>restirt <ref xml:id="end_com_0976"/>
+        <anchor xml:id="GB03_1_BR103_0_062_009"/>schreiben Sie fürs neue an, <ref target="gb:note#GB03_2_BR103_0_note_004_62_9" xml:id="start_com_0977"/>melden mir’s aber<ptr n="1" target="#a001_62.9"/>
+        <ref xml:id="end_com_0977"/>. Dancke dass Sie <ref target="gb:note#GB03_2_BR103_0_note_005_62_9-10" xml:id="start_com_0978"/>Cröngen<ref xml:id="end_com_0978"/>
+        <anchor xml:id="GB03_1_BR103_0_062_010"/>so <ref target="gb:note#GB03_2_BR103_0_note_006_62_10" xml:id="start_com_0979"/>erwischt<ref xml:id="end_com_0979"/> haben, Sie sind ein ganzer Mann. Leben Sie recht 
+<anchor xml:id="GB03_1_BR103_0_062_011"/>wohl d<g ref="#typoSuspension"/>. 16 May. 76.         G.</p>
+    <pb n="2" facs="gb:digitalisate#10779/13794" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10779/13795" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10779/13796" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10779_comment">
+<body>
+<div type="metadata" xml:id="gb10779_comment_com963">
+  <ab type="numberAddressee"><label>103.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 16. Mai 1776 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10779_comment_com3007">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 72. – Doppelblatt 18(–18,2) &#xD7; 25,8 cm, &#xBC; S. beschr., egh., Tinte; am Mittelfalz aufgeklebt auf Trägerblatt (Pappe).</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 184 (Teildruck unter dem falschen Datum des 16. März 1776: <ref target="gb:text#GB03_1_BR103_0_062_008">62,8</ref> <quote type="G">Ich hab ihre Rechnungen verlegt</quote>; <ref target="gb:text#GB03_1_BR103_0_062_009 #GB03_1_BR103_0_062_010">62,9–10</ref> <quote type="G">Dancke  <gap quantity="3" reason="editorial"/> ganzer Mann</quote>).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 60, Nr 454 (Friedrich Strehlke).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10779_comment_com3727">
+  <p>20 Louisdor (vgl. zu <ref target="gb:note#GB03_2_BR103_0_note_002_62_8">62,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10779_comment_com4803">
+  <p>In Goethes Rechnungsbüchern sind unter dem 16. Mai 1776, allerdings erst nach der Eintragung des vorliegenden Briefes, ein <quote type="G">B u P.</quote> <supplied>Brief und Paket</supplied> <quote type="G">von Leipzig </quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 6v) verzeichnet und unter dem 20. Mai 1776 erneut ein <quote type="G">B. u P. von Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 7r). Bei den Briefen handelt es sich möglicherweise um Bezugs- und Antwortbrief zum vorliegenden.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. Mai 1776 (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR103_0_note_002_62_8">62,8</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10779_comment_com10076">
+<label xml:id="GB03_2_BR103_0_note_001_62_8" copyOf="#start_com_0975"><hi rendition="#fett">62,8</hi>Rechnungen</label>
+<p>Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10779_comment_com15045">
+<label xml:id="GB03_2_BR103_0_note_002_62_8" copyOf="#start_com_7405"><hi rendition="#fett">62,8</hi>20 Louis dor</label>
+<p>In Goethes Rechnungsbüchern heißt es unter dem 16. Mai 1776: <quote type="G">20 <emph rendition="#latin">Louis&#8217;dors</emph> an H<g ref="#typoSuspension"/> Steinauer fr. Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 6v).</p>
+
+</note>
+<note xml:id="gb10779_comment_com10077">
+<label xml:id="GB03_2_BR103_0_note_003_62_8" copyOf="#start_com_0976"><hi rendition="#fett">62,8</hi>restirt</label>
+<p>Franz. rester: übrig bleiben.</p>
+
+</note>
+<note xml:id="gb10779_comment_com10078">
+<label xml:id="GB03_2_BR103_0_note_004_62_9" copyOf="#start_com_0977"><hi rendition="#fett">62,9</hi>melden mir’s aber</label>
+<p>Briefe Steinauers an Goethe sind nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10779_comment_com10079">
+<label xml:id="GB03_2_BR103_0_note_005_62_9-10" copyOf="#start_com_0978"><hi rendition="#fett">62,9-10</hi>Cröngen</label>
+<p>Corona Schröter, die ihre eigenen Briefe im Familien- und Freundeskreis auf ähnliche Weise zu unterschreiben pflegte, so etwa den Brief an Friedrich Justin Bertuch vom 23. August 1774 mit <quote>Ihre Schwester Cronhe</quote> (H: <ref target="archivdb:dokument#215166">GSA 6/1721</ref>) oder den Brief an denselben vom 13. Dezember 1774 mit <quote>Ihr ergebenstes Schwesterchen Krönchen</quote> (ebd.).</p>
+
+</note>
+<note xml:id="gb10779_comment_com17674">
+<label xml:id="GB03_2_BR103_0_note_006_62_10" copyOf="#start_com_0979"><hi rendition="#fett">62,10</hi>erwischt</label>
+<p>‚Erwischen‘ möglicherweise im Sinn von ‚zu fassen bekommen‘: Dies könnte sich dem Kontext nach (<quote type="G">Sie sind ein ganzer Mann</quote> [<ref target="gb:text#GB03_1_BR103_0_062_010">62,10</ref>]) darauf beziehen, dass Steinauer einer von Corona Schröters Freunden war, die deren Entführung durch einen in sie verliebten Grafen verhindert hatten (vgl. weiter zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>). Nicht auszuschließen ist, dass ‚erwischen‘ in  ähnlichem Sinn wie in Goethes Brief an Johann Daniel Salzmann vom 29. Mai? 1771 zu verstehen ist: <quote type="G">Getanzt hab ich <gap quantity="3" reason="editorial"/> an einem fort, <gap quantity="3" reason="editorial"/> wir hatten brave Schnurranten erwischt</quote> (<ref target="gb:text#GB01_1_BR082_0_211_004 #GB01_1_BR082_0_211_007">GB 1 I, 211,4-7</ref>), also etwa: ‚verpflichtet‘, ‚engagiert‘ (nach freundlicher Mitteilung von Michael Niedermeier, Goethe Wörterbuch).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

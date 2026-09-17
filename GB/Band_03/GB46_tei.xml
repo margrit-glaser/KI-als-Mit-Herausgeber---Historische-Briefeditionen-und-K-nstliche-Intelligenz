@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4670"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb46" n="GB 3, Nr. 458">
+  <teiHeader xml:id="gb46_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>458.</label> An <persName key="sndb:person#36300">Jean Antoine de Castrop</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Februar 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb46_tei.xml</idno>
+        <idno type="URI">gb46</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR458_0</idno>
+        <idno type="KSW-ID">46</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="256" to="256">256</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="845" to="850">845-850</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <bibl xml:id="gb46_header_pwit2089" corresp="#gb46_source_pwit2089" sameAs="#gb46_comment_pwit2089"/>
+        <listObject type="attachments">
+          <object xml:id="gb46_header_acc239" corresp="gb46_comment_acc239">
+            <objectIdentifier>
+              <objectName>Kopie des herzoglichen Reskripts zur Ernennung Goethes zum Direktor der Wegebaukommission vom 19. Januar 1779.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-02-01">1. Februar 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#36300">Castrop, Jean Antoine de</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#103">RA 1, Nr. 93a+</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb46_source_pwit2089" corresp="#gb46_header_pwit2089" type="source" rend="print">
+  <body>
+    <div>
+      <head><supplied>Druck</supplied></head>
+      <opener>
+        <dateline rendition="#einrueck13">
+          <anchor xml:id="GB03_1_BR458_0_256_010"/>
+          <ref target="gb:note#GB03_2_BR458_0_note_001_256_10" xml:id="start_com_3728"/>P. P.<ref xml:id="end_com_3728"/>
+        </dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR458_0_256_011"/>Aus beygehender Copia gnädigsten <ref target="gb:note#GB03_2_BR458_0_note_002_256_11" xml:id="start_com_3729"/>Rescr.<ref xml:id="end_com_3729"/> werden der Herr Hauptmann 
+<anchor xml:id="GB03_1_BR458_0_256_012"/>ersehen, was für eine Einrichtung beym Wegbau <ref target="gb:note#GB03_2_BR458_0_note_003_256_12" xml:id="start_com_3730"/>Serenissimus<ref xml:id="end_com_3730"/>
+        <anchor xml:id="GB03_1_BR458_0_256_013"/>für die Zukunft zu treffen geruhet. Ich erwarte also die vorläufig mir 
+<anchor xml:id="GB03_1_BR458_0_256_014"/>ausgebetene <ref target="gb:note#GB03_2_BR458_0_note_004_256_14" xml:id="start_com_3731"/>Verzeichnisse<ref xml:id="end_com_3731"/> mit Verlangen und wünsche Sie Morgen 
+<anchor xml:id="GB03_1_BR458_0_256_015"/>Früh bey mir zu sehn, um über das nothwendigste uns besprechen zu 
+<anchor xml:id="GB03_1_BR458_0_256_016"/>können.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR458_0_256_017"/>Weimar den 1. Februar. 1779.</dateline>
+        <anchor xml:id="GB03_1_BR458_0_256_018"/>
+        <signed rend="signature" rendition="#einrueck23">Goethe.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb46_comment">
+<body>
+<div type="metadata" xml:id="gb46_comment_com99">
+  <ab type="numberAddressee"><label>458.</label> An <persName key="sndb:person#36300">Jean Antoine de Castrop</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Februar 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb46_comment_com2143">
+  <p>H: Verbleib unbekannt. – Bis 1945 im <ref target="sndb:sigle#1324">ThHStA Weimar</ref>; vermutlich Kriegsverlust.</p>
+  <p>E: Die Grenzboten 33 (1874). 2. Semester. 1. Bd, S. 185 (Carl August Hugo Burkhardt; nach H).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 9 f., Nr 778 (nach E; Hinweis auf Erwähnung des Briefes in: Der Wiener antiquarische Büchermarkt 8 [1891]. Autographen und historische Urkunden, Nr 436, in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 30, 254).</p>
+  <p>Textgrundlage: E.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb46_comment_com3458">
+  <p>Kopie des herzoglichen Reskripts zur Ernennung Goethes zum Direktor der Wegebaukommission vom 19. Januar 1779 (abgedruckt in der Erläuterung zu <ref target="gb:note#GB03_2_BR458_0_note_002_256_11">256,11</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb46_comment_com3939">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der <ref target="gb:note#gb46_comment_com84765">Antwortbrief</ref> Castrops stammt vom selben Tag (abgedruckt im Anschluss an die folgenden Erläuterungen; vgl. <ref target="ra:dokument#102">RA 1, 72, Nr 93</ref>; vgl. RA Erg.-Bd zu den Bänden 1–5, 542, <ref target="ra:dokument#103">Nr 1/93a<hi rendition="#sup">+</hi></ref>).</p>
+  <p rendition="#einrueck1">Jean Antoine Joseph de Castrop (1731–1785) hatte sich in Kassel zum Ingenieur ausgebildet, worunter vor allem der Beruf eines militärischen Baumeisters verstanden wurde. Eine Arbeit über „La construction des chaußées“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bausachen B 9257) dürfte dafür gesorgt haben, dass er in Eisenach als Ingenieur oder Aufseher im Straßenbauwesen eingestellt wurde. Vermutlich veranlasste eine weitere Schrift, „Remarques des qualités et du scavoir d’un ingénieur des chaußées“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bausachen B 9258) aus dem Jahr 1755, Herzog Ernst August II. Constantin, ihn im Januar 1756 nach Weimar zu berufen. Dort wurde er 1764 zum Ingenieur-Hauptmann und 1768 zum Artillerie-Hauptmann ernannt. In der Praxis hatte das Artilleriewesen viel mit dem Straßenbau zu tun: „Wenn diese Artillerie marchiren soll, so gehet der Major von der Artillerie mit einigen Pionniers, Zimmer-Leuthen und dazu gehörigen Wagen mit Bretern und Werckzeug voraus, lässet die Wege bessern und sticht den Platz ab, wo die Artillerie übernachten soll.“ (<ref target="sndb:sigle#2965">Krünitz</ref> 2, 1727.) Als Artillerie-Hauptmann gehörte Castrop der Wegebaukommission an, die vom Kammerpräsidenten Carl Alexander von Kalb und danach von dessen Sohn Johann August geleitet wurde. Von Letzterem übernahm Castrop 1776 kommissarisch die Leitung der Behörde, die er als Direktor der Kommission bis zu Goethes Eintritt im Januar 1779 führte. Schon im Februar/März desselben Jahres unternahm Goethe in Begleitung des Hauptmanns eine Reise zur Straßeninspektion und Rekrutenauslesung. Zwischen beiden entwickelte sich eine vertrauensvolle Zusammenarbeit. Castrop wurde Goethes rechte Hand; er führte aus, was Goethe anordnete; dieser beteiligte ihn auch an der Planung der Projekte, so wie es das herzogliche Reskript vorsah (vgl. zu <ref target="gb:note#GB03_2_BR458_0_note_002_256_11">256,11</ref>). Goethe schätzte den Adressaten als einen <quote type="G">fleisigen und braven</quote> Mitarbeiter (<ref target="gb:text#GB03_1_BR499_0_278_026 #GB03_1_BR499_0_279_001">278,26–279,1</ref>); er sei <quote type="G">ein gefälliger dienstfertiger Mann</quote> (<ref target="gb:text#GB03_1_BR499_0_278_023 #GB03_1_BR499_0_278_024">278,23–24</ref>). Im Tagebuch ist unter dem 22. Januar 1780 eine Unterredung mit Castrop verzeichnet, nach der Goethe folgendes Resümee zieht: <quote type="G">Die Weegeb. Sachen in Ordn.</quote> (<ref target="gt:dokument#794">GT I 1, 104</ref>.) Es spricht für Goethes Zutrauen in Castrops Integrität und Verlässlichkeit, dass er ihn in die Unterstützung seines Schützlings Johann Friedrich Krafft einbezog. Castrop überbrachte diesem Geld (vgl. <ref target="gb:text#GB03_1_BR499_0_278_020 #GB03_1_BR499_0_278_024">278,20–24</ref>; <ref target="gb:text#GB03_1_BR510_0_283_004 #GB03_1_BR510_0_283_006">283,4–6</ref>), verhandelte mit dessen Wirtsleuten (vgl. <ref target="gb:text#GB03_1_BR510_0_283_006 #GB03_1_BR510_0_283_008">283,6–8</ref>) und bezahlte die Miete (vgl. <ref target="gb:text#GB03_1_BR528_0_296_015">296,15</ref>). Castrop scheint in Gesellschaft ein unterhaltsamer Gesprächspartner gewesen zu sein: <quote type="G">Beym Mittagsessen erzählten die Stadtvögte, und besonders Castrop, alte Geschichten wie sie sich im Kriege aus allerley Verlegenheit geholfen. Es ist mir auch im Kleinen interessant zu sehen wie der Mensch sich wendet und dreht und sein Geschick gelten macht.</quote> (Brief an Charlotte von Stein, 20. März 1782; <ref target="gb:text#GB05_1_BR079_0_042_007 #GB05_1_BR079_0_042_010">GB 5 I, 42,7-10</ref>.) Ein anderes Mal berichtet Goethe: <quote type="G">Castrop hat mir eine köstliche Scene gegeben über die ich im innersten noch lache. Schade daß sie sich nicht wiedererzählen lässt das beste davon ist pantomimisch.</quote> (Brief an Charlotte von Stein, <ref target="gb:text#GB05_1_BR563_0_313_015 #GB05_1_BR563_0_313_017">GB 5 I, 313,15-17</ref>.) Dass Goethe seinen Mitarbeiter schätzte, beweist auch die Hilfe, die er ihm wiederholt angedeihen ließ, als Castrop im letzten Jahrzehnt seines Lebens in Schulden geriet (vgl. darüber weiter <ref target="sndb:sigle#135">Bürgin</ref>, 41–46).</p>
+  <p rendition="#einrueck1">Die Ernennung Goethes zum Wegebaudirektor nahm Castrop mit Freude auf und sandte ihm mit seinem Antwortbrief noch am selben Tag die gewünschten <quote type="G">Verzeichnisse</quote> (<ref target="gb:text#GB03_1_BR458_0_256_014">256,14</ref>). Wenige Tage später machte er den über das Reskript vom 19. Januar 1779 hinausgehenden Vorschlag, Goethe auch mit der Verantwortung für den Stadtpflasterbau zu betrauen (vgl. Brief an Goethe, 5. Februar 1779; RA Erg.-Bd zu den Bänden 1–5, 542, <ref target="ra:dokument#103">Nr 1/93a<hi rendition="#sup">+</hi></ref>), für den er, Castrop, bisher ebenfalls zuständig war. In einem weiteren herzoglichen Reskript vom 23. Februar 1779 wurde Goethe auch dieses Ressort übertragen (abgedruckt in: <ref target="sndb:sigle#1205">Bradish</ref>, 213 f.; das Schriftstück trägt den Vermerk: „Praes<supplied>entiert</supplied>, den 26. Febr. 1779“ [ebd., S. 213, Anm. 1]). Am 27. Februar 1779 fertigte die Fürstliche Kammer ein Reskript für den Adressaten aus; darin „wird der Fürstliche Ingenieur- und Artillerie-Hauptmann Castrop hiermit an selbigen <supplied>Goethe</supplied> angewiesen mit dem Bedeuten, von nun an hinfüro sothanen höchsten Rescript gemäß an besagten Herrn Geheimden Legationsrath in Ansehung dieser Angelegenheiten <supplied>Landstraßen- und Stadtpflasterbau</supplied> sich zu wenden und von selbigem desfallsige Verhaltungsbefehle zu gewärtigen.“ (Ebd., S. 214 f.) Der Tod seines Mitarbeiters 1785 war neben der Knappheit der Mittel ein Grund dafür, dass Goethe die Arbeit in der Straßenbaudirektion verleidet wurde. In einem kritischen Bericht an Herzog Carl August vom 9. Juni 1786 verlangte Goethe mehr Geld und bemerkte dazu: <quote type="G">Ew. HochFürstlichen Durchlaucht werden dieses um so mehr entschuldigen, als die Disproportion der Wege-Bau-Kassen-Einnahme zu dem, was solche zu leisten hat, schon oft genug zur Sprache gekommen.</quote> (<ref target="sndb:sigle#1240">FA/Goethe</ref> I 26, 759.)</p>
+  <p>Es sind nur zwei Briefe Goethes an Jean Antoine de Castrop überliefert, außer dem vorliegenden noch <ref target="gb:dokument#52">Nr 492</ref> von April 1779. Von den Briefen Castrops an Goethe haben sich drei erhalten, vom Antwortbrief auf den vorliegenden abgesehen noch Briefe vom 5. und vom 19. Februar 1779 (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 210 f.; vgl. auch RA Erg.-Bd zu den Bänden 1–5, 542, <ref target="ra:dokument#103">Nr 1/93a<hi rendition="#sup">+</hi></ref> und <ref target="ra:dokument#104">Nr 1/93b<hi rendition="#sup">+</hi></ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb46_comment_com5320">
+<label xml:id="GB03_2_BR458_0_note_001_256_10" copyOf="#start_com_3728"><hi rendition="#fett">256,10</hi>P. P.</label>
+<p>Lat. praemissis praemittendis: unter Vorausschickung des Vorauszuschickenden, d. h. unter Verzicht auf Anrede und Titel.</p>
+
+</note>
+<note xml:id="gb46_comment_com13968">
+<label xml:id="GB03_2_BR458_0_note_002_256_11" copyOf="#start_com_3729"><hi rendition="#fett">256,11</hi>Rescr.</label>
+<p>Rescripts. – Die für Castrop bestimmte Abschrift des an die Kammer gerichteten Schreibens lautet:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56463_source" corresp="#gb56463_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck7">
+        <anchor xml:id="GB03_2_FB032_0_849_001"/>Von Gottes Gnaden Carl August, Her-</p>
+      <p rendition="#einrueck6">
+        <anchor xml:id="GB03_2_FB032_0_849_002"/>zog zu Sachsen, Jülich, Cleve und Berg,</p>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB032_0_849_003"/>auch Engern und Westphalen p.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB032_0_849_004"/>
+        <ref target="gb:note#GB03_2_FB032_0_note_221_849_1" xml:id="start_com_7237"/>Vester<ref xml:id="end_com_7237"/> Rath, lieber Getreuer! Wir haben in Ansehung der Direction des hiesigen 
+<anchor xml:id="GB03_2_FB032_0_849_005"/>Landstraßen-Baues eine neue Einrichtung zu treffen und solche euch zu übertragen 
+<anchor xml:id="GB03_2_FB032_0_849_006"/>uns aus <ref target="gb:note#GB03_2_FB032_0_note_222_849_6" xml:id="start_com_7238"/>bewegenden<ref xml:id="end_com_7238"/> Ursachen <ref target="gb:note#GB03_2_FB032_0_note_223_849_6" xml:id="start_com_7239"/>resolviret<ref xml:id="end_com_7239"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB032_0_849_007"/>Unsere Absicht bei dieser neuen Einrichtung gehet dahin, dass Ihr so wie in 
+<anchor xml:id="GB03_2_FB032_0_849_008"/>vorigen Zeiten der <ref target="gb:note#GB03_2_FB032_0_note_224_849_8" xml:id="start_com_7240"/>Kammer-Praesident v. Kalb<ref xml:id="end_com_7240"/>, sothane Direction über sich gehabt, 
+<anchor xml:id="GB03_2_FB032_0_849_009"/>solche <ref target="gb:note#GB03_2_FB032_0_note_225_849_9" xml:id="start_com_7241"/>in der Maße<ref xml:id="end_com_7241"/> führen sollet, dass ihr allemal zu Anfang des Jahres mit 
+<anchor xml:id="GB03_2_FB032_0_849_010"/>dem bei dem Bauwesen selbst angestellten Artillerie-Hauptmann Castrop, an welchen 
+<anchor xml:id="GB03_2_FB032_0_849_011"/>Orten und in welcher Maße in dem folgenden Sommer die Arbeit vorgenommen 
+<anchor xml:id="GB03_2_FB032_0_849_012"/>werden solle, überlegen und eine Disposition wegen Zweckmassiger und nüzlicher 
+<anchor xml:id="GB03_2_FB032_0_849_013"/>Verwendung des darauf in dem Kammer-etat ausgesezten Quanti, treffen, 
+<anchor xml:id="GB03_2_FB032_0_849_014"/>nachhero aber darauf, dass die Arbeit wirklich dieser Disposition und Plan gemäss 
+<anchor xml:id="GB03_2_FB032_0_849_015"/>vorgenommen werde, Aufsicht führen, zu solchem Ende die in Arbeit genommene 
+<anchor xml:id="GB03_2_FB032_0_849_016"/>Stüken Strasse von Zeit zu Zeit visitiren und ob allenthalben Ordnung gehalten 
+<anchor xml:id="GB03_2_FB032_0_849_017"/>werde, nachsehen, bei Schliessung der <ref target="gb:note#GB03_2_FB032_0_note_226_849_17" xml:id="start_com_7242"/>Accorde<ref xml:id="end_com_7242"/> von einiger Beträchtlichkeit und bei 
+<anchor xml:id="GB03_2_FB032_0_849_018"/>Bestimmung der an die Grundstüks-Besizer, vor die zu denen zu erweiternden 
+<anchor xml:id="GB03_2_FB032_0_849_019"/>oder neu anzulegenden Strassen hergebende Stüke zu <ref target="gb:note#GB03_2_FB032_0_note_227_849_19" xml:id="start_com_7243"/>praestirenden<ref xml:id="end_com_7243"/> Entschädigungen, 
+<anchor xml:id="GB03_2_FB032_0_849_020"/>
+        <ref target="gb:note#GB03_2_FB032_0_note_228_849_20" xml:id="start_com_7244"/>concurriren<ref xml:id="end_com_7244"/>, zu Ende des Jahrs aber das, was wirklich geschehen, mit dem 
+<anchor xml:id="GB03_2_FB032_0_849_021"/>was geschehen sollen, vergleichen, und über das, sich bei dieser Zusammenhaltung 
+<anchor xml:id="GB03_2_FB032_0_849_022"/>ergebende eine Art von Bilance mit Bemerkung der sich etwa ereigneten Abweichungen, 
+<anchor xml:id="GB03_2_FB032_0_849_023"/>fertigen sollet. Dahingegen ist unser Wille, dass das Oeconomicum noch 
+<anchor xml:id="GB03_2_FB032_0_849_024"/>fernerhin bei dem Cammer-Collegio verbleiben, das auf den Landstrassenbau ausgeworfene 
+<anchor xml:id="GB03_2_FB032_0_849_025"/>Quantum dazu von derselben <ref target="gb:note#GB03_2_FB032_0_note_229_849_25" xml:id="start_com_7245"/>fourniret<ref xml:id="end_com_7245"/>, die <ref target="gb:note#GB03_2_FB032_0_note_230_849_25" xml:id="start_com_7246"/>behorig<ref xml:id="end_com_7246"/> attestirten <ref target="gb:note#GB03_2_FB032_0_note_231_849_25" xml:id="start_com_7247"/>Zeddel<ref xml:id="end_com_7247"/>
+        <anchor xml:id="GB03_2_FB032_0_849_026"/>bei der KammerCasse bezahlet, darauf dass das nur erwehnte Quantum ohne 
+<anchor xml:id="GB03_2_FB032_0_849_027"/>Noth und ohne ausdrüklichen Befehl von Uns, nicht überschritten werde, gesehen, 
+<anchor xml:id="GB03_2_FB032_0_849_028"/>und bei dergleichen erfordernden Fällen mit Euch Rüksprache gehalten werden solle.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB032_0_849_029"/>Wie Wir, dass auf diese Art, und bei <ref target="gb:note#GB03_2_FB032_0_note_232_849_28" xml:id="start_com_7248"/>unterhaltenden<ref xml:id="end_com_7248"/> guten Einverständniss, 
+<anchor xml:id="GB03_2_FB032_0_849_030"/>das Geschäft wohl und unserer Intention gemäss zu behandeln seyn werde, gewiss 
+<anchor xml:id="GB03_2_FB032_0_849_031"/>versichert sind; Als begehren wir hiermit gnädigst, Ihr wollet Euch nachdem was
+        <anchor xml:id="GB03_2_FB032_0_850_032"/>vorstehet, zu Erreichung iener Absicht, auf das genauste achten, auch den hierunter 
+<anchor xml:id="GB03_2_FB032_0_850_033"/>an Euch gewiesenen Hauptmann Castrop überall mit erforderlicher Anweissung 
+<anchor xml:id="GB03_2_FB032_0_850_034"/>versehen</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB032_0_850_035"/>An dem geschiehet unser Wille und wir sind euch mit Gnaden gewogen.     Geben 
+<anchor xml:id="GB03_2_FB032_0_850_036"/>Weimar den 19 ten Januari 1779.</p>
+      <p rendition="#einrueck13">
+        <anchor xml:id="GB03_2_FB032_0_850_037"/>Carl August, H<supplied>erzog</supplied>z<supplied>u</supplied>S<supplied>achsen</supplied>.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56463_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56463_comment_com84748">
+  <p>(H: ThHStA Weimar, Bausachen B 9266<hi rendition="#sup">B</hi>, Bl. 2–3. – Vgl. auch <ref target="sndb:sigle#1205">Bradish</ref>, 203–205.)
+</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56463_comment_com84749">
+<label xml:id="GB03_2_FB032_0_note_221_849_1" copyOf="#start_com_7237"><hi rendition="#normal">849,1</hi>Vester</label>
+<p>Standhafter, treuer; ‚vest‘ statt ‚fest‘ war kanzleisprachlich (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 26, 17).</p>
+</note>
+<note xml:id="gb56463_comment_com84750">
+<label xml:id="GB03_2_FB032_0_note_222_849_6" copyOf="#start_com_7238"><hi rendition="#normal">849,6</hi>bewegenden</label>
+<p>Amtssprachlich im Sinn des Nomens ‚Bewegnis‘: „Beweggrund“ (<ref target="sndb:sigle#2890">Grimm</ref> 1, 1774); auch im Sinn des Adjektivs ‚beweglich‘: schwerwiegend (vgl. ebd.).</p>
+</note>
+<note xml:id="gb56463_comment_com84751">
+<label xml:id="GB03_2_FB032_0_note_223_849_6" copyOf="#start_com_7239"><hi rendition="#normal">849,6</hi>resolviret</label>
+<p>Resolvieren: kanzleisprachlich für ‚entschließen‘.</p>
+</note>
+<note xml:id="gb56463_comment_com84752">
+<label xml:id="GB03_2_FB032_0_note_224_849_8" copyOf="#start_com_7240"><hi rendition="#normal">849,8</hi>Kammer-Praesident v. Kalb</label>
+<p>Johann August Alexander von Kalb, von 1776 bis 1782 weimarischer Kammerpräsident (vgl. die einleitende <ref target="gb:note#gb46_comment_com3939">Erläuterung</ref>).</p>
+</note>
+<note xml:id="gb56463_comment_com84753">
+<label xml:id="GB03_2_FB032_0_note_225_849_9" copyOf="#start_com_7241"><hi rendition="#normal">849,9</hi>in der Maße</label>
+<p>Die Maße: „angemessene und abgemessene art“ (<ref target="sndb:sigle#2890">Grimm</ref> 12, 1731); in kanzleisprachlichen Wendungen.</p>
+</note>
+<note xml:id="gb56463_comment_com84754">
+<label xml:id="GB03_2_FB032_0_note_226_849_17" copyOf="#start_com_7242"><hi rendition="#normal">849,17</hi>Accorde</label>
+<p>Franz.: Abkommen, Verträge.</p>
+</note>
+<note xml:id="gb56463_comment_com84755">
+<label xml:id="GB03_2_FB032_0_note_227_849_19" copyOf="#start_com_7243"><hi rendition="#normal">849,19</hi>praestirenden</label>
+<p>Von lat. praestare: leisten, zur Verfügung stellen.</p>
+</note>
+<note xml:id="gb56463_comment_com84756">
+<label xml:id="GB03_2_FB032_0_note_228_849_20" copyOf="#start_com_7244"><hi rendition="#normal">849,20</hi>concurriren</label>
+<p>Nach franz. concourir, hier: mitwirken. </p>
+</note>
+<note xml:id="gb56463_comment_com84757">
+<label xml:id="GB03_2_FB032_0_note_229_849_25" copyOf="#start_com_7245"><hi rendition="#normal">849,25</hi>fourniret</label>
+<p>Nach franz. fournir: beliefern, besorgen; in der Sprache des Handels auch: vorstrecken, an die Hand geben.</p>
+</note>
+<note xml:id="gb56463_comment_com84758">
+<label xml:id="GB03_2_FB032_0_note_230_849_25" copyOf="#start_com_7246"><hi rendition="#normal">849,25</hi>behorig</label>
+<p>Behörig: Amtssprachlich für ‚gehörig‘.</p>
+</note>
+<note xml:id="gb56463_comment_com84759">
+<label xml:id="GB03_2_FB032_0_note_231_849_25" copyOf="#start_com_7247"><hi rendition="#normal">849,25</hi>Zeddel</label>
+<p>Hier: Abrechnung, Schriftstück; Schreibung nach franz. cédule.</p>
+</note>
+<note xml:id="gb56463_comment_com84760">
+<label xml:id="GB03_2_FB032_0_note_232_849_28" copyOf="#start_com_7248"><hi rendition="#normal">849,28</hi>unterhaltenden</label>
+<p>Fortdauernden (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 910).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb46_comment_com84763">
+<label xml:id="GB03_2_BR458_0_note_003_256_12" copyOf="#start_com_3730"><hi rendition="#fett">256,12</hi>Serenissimus</label>
+<p>Durchlauchtigster Herr, Titulierung regierender Fürsten; gemeint ist Herzog Carl August.</p>
+</note>
+<note xml:id="gb46_comment_com84764">
+<label xml:id="GB03_2_BR458_0_note_004_256_14" copyOf="#start_com_3731"><hi rendition="#fett">256,14</hi>Verzeichnisse</label>
+<p>Goethe erhielt sie umgehend (vgl. die einleitende <ref target="gb:note#gb46_comment_com3939">Erläuterung</ref>).</p>
+</note>
+</div>
+<div xml:id="gb46_comment_com84765">
+  <p>Castrops Antwortbrief (Konzept):</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56464_source" corresp="#gb56464_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB033_0_849_001"/>ganz gehorsamstes Pro Memoria.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB033_0_849_002"/>
+        <ref target="gb:note#GB03_2_FB033_0_note_233_849_2" xml:id="start_com_7249"/>Tandem bona causa triumphat<ref xml:id="end_com_7249"/>, was ich längstens sehnlichst gewünscht geschiehet. 
+<anchor xml:id="GB03_2_FB033_0_849_003"/>Den Herrn Geheimden LegationsRath, stätte ich hierdurch mit lebhafter Freude 
+<anchor xml:id="GB03_2_FB033_0_849_004"/>den allergehorsamsten Danck ab, für die mir gütigst ertheilte fröliche Nachricht. 
+<anchor xml:id="GB03_2_FB033_0_849_005"/>Hier anschließig habe die Ehre die anverlangten Verzeichniße und resp: Specificationes 
+<anchor xml:id="GB03_2_FB033_0_849_006"/>das Wegebau-Geschäffte betrℓ: so erst diesen Nachmittag fertig worden, zu 
+<anchor xml:id="GB03_2_FB033_0_849_007"/>übersenden. Morgen Frühe werde aufzuwarten nicht ermangeln.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB033_0_XXX_008"/>Weimar d<g ref="#typoSuspension"/>. 1. Febr: 1779.</p>
+      <p rendition="#einrueck21">
+        <anchor xml:id="GB03_2_FB033_0_XXX_009"/>d<supplied>e</supplied>C<supplied>astrop</supplied>.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56464_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56464_comment_com84761">
+  <p>(H: <ref target="sndb:sigle#3163">LATh - HStA</ref> Weimar, Bausachen B 9266<hi rendition="#sup">B</hi>, Bl. 4r. – Vgl. auch <ref target="sndb:sigle#1205">Bradish</ref>, 207 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56464_comment_com84762">
+<label xml:id="GB03_2_FB033_0_note_233_849_2" copyOf="#start_com_7249"><hi rendition="#normal">849,2</hi>Tandem bona causa triumphat</label>
+<p>Lat.: Endlich triumphiert die gute Sache. (Vgl. Proverbia sententiaeque Latinitatis medii ac recentioris aevi. Nova series. Lateinische Sprichwörter und Sentenzen des Mittelalters und der frühen Neuzeit in alphabetischer Anordnung. Neue Reihe. T. 9. Aus dem Nachlaß von Hans Walther hrsg. von Paul Gerhard Schmidt. Göttingen 1986, S. 709, Nr 43612a.) – Die Freude, mit der Castrop Goethes Ernennung zu seinem Vorgesetzten aufnahm, hat ihren Grund u. a. darin, dass er in der Zeit, in welcher er allein für die Wegebauarbeiten verantwortlich war, Anfeindungen und Intrigen von Seiten des Kammerpräsidenten Johann August von Kalb (vgl. zu <ref target="gb:note#GB03_2_AB002_0_note_003_437_2">437,2</ref>) und des Kammerrats Lorenz Heinrich Wetken ausgesetzt war. Diese veranlassten Castrop, im Jahr 1777 um seine Entlassung zu bitten. Das Gesuch wurde jedoch abgelehnt. Es zeugt von Vertrauen, dass er sich damals schon an Goethe gewandt hatte; in dessen Tagebuch heißt es unter dem 29. August 1777: <quote type="G">Castrops Beschweerden, mit ihm den neuen Weeg nach Martinrode</quote> (<ref target="gt:dokument#420">GT I 1, 46</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

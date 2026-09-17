@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2020"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11439" n="GB 3, Nr. 200">
+  <teiHeader xml:id="gb11439_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>200.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#84878" evidence="conjecture">Wörlitz</placeName></supplied>, 11. Dezember 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:09Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11439_tei.xml</idno>
+        <idno type="URI">gb11439</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR200_0</idno>
+        <idno type="KSW-ID">11439</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="122" to="122">122</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="446" to="450">446-450</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11439_header_hwit1125" corresp="#gb11439_source_hwit1125" sameAs="#gb11439_comment_hwit1125" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>6 Bertuch</collection>
+            <idno type="shelfmark">GSA 6/628</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:220965</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11439,,1125/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mach doch das Geld zusammen und schicks an Bölling mit dem Postwagen. Ich hab iezo keine</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#84878">Wörlitz</placeName></supplied>
+            <date when="1776-12-11">11. Dezember 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43118">Bertuch, Friedrich Justin</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11439_source_hwit1125" corresp="#gb11439_header_hwit1125" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11439/25693"/>
+      <p>
+        <anchor xml:id="GB03_1_BR200_0_122_012"/>Mach doch das Geld zusammen und schicks an Bolling mit dem <ref target="gb:note#GB03_2_BR200_0_note_001_122_12-13" xml:id="start_com_1871"/>Postwagen<ref xml:id="end_com_1871"/>. 
+<anchor xml:id="GB03_1_BR200_0_122_013"/>Ich hab iezo keine andre Art. 400 f <ref target="gb:note#GB03_2_BR200_0_note_002_122_13" xml:id="start_com_1872"/>die Carolin<ref xml:id="end_com_1872"/>
+        <ref target="gb:note#GB03_2_BR200_0_note_003_122_13" xml:id="start_com_1873"/>zu 11 f<ref xml:id="end_com_1873"/>
+        <ref target="gb:note#GB03_2_BR200_0_note_004_122_13-14" xml:id="start_com_1874"/>wie 
+<anchor xml:id="GB03_1_BR200_0_122_014"/>schon gesagt<ref xml:id="end_com_1874"/> wir sind wohl.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR200_0_122_015"/>
+        <signed rend="paraph" rendition="#einrueck12">G.</signed>
+        <dateline>                       d<g ref="#typoSuspension"/>. 11 Dez. 76.</dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11439/25694" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11439/25695"/>
+    <pb n="4" facs="gb:digitalisate#11439/25696" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11439_comment">
+<body>
+<div type="metadata" xml:id="gb11439_comment_com1175">
+  <ab type="numberAddressee"><label>200.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#84878">Wörlitz</placeName></supplied>, 11. Dezember 1776 → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11439_comment_com3219">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#220965">GSA 6/628</ref>. – 2 Bl. (ursprünglich Doppelblatt) 16,5 × 20 cm, (Bl. 1) 1 S. mit 6 Zeilen (etwa &#x2155; S.) beschr., egh., Tinte; (Bl. 2) Adresse: <quote type="G">Herrn Rath / Bertuch / nach / Weimar. / franck</quote>, Siegel: herzogliches Wappen.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> IV (1883), 197, Nr 1 (Ludwig Geiger).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 126, Nr 541 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11439_comment_com5015">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Friedrich Johann Justin Bertuch (1747–1822), in Weimar geboren und gestorben, fast fünfzig Jahre in Goethes Umkreis tätig, gehörte zu dessen langjährigen Bekannten und zu den wohlhabendsten Bürgern der Stadt. Er war der Sohn des weimarischen Garnisonsarztes Justinus Bertuch und dessen Frau Christina Rosina Maria verw. Slevoigt geb. Bürger. Nach dem frühen Tod der Eltern 1752 bzw. 1762 wuchs Bertuch als mittellose Waise bei seinem Oheim Gottfried Matthias Ludwig Schrön, Sektretär an der Fürstlich Sächsischen Landschaftskasse, auf; er besuchte das Gymnasium und bezog 1765 die Universität Jena. Dort studierte er zunächst Theologie, dann Jura. Als Bertuch, den es zu Literatur und Naturkunde hinzog, von Ludwig Heinrich Bachoff von Echt eine Hauslehrerstelle angeboten wurde, brach er sein Studium ab und ging als Hofmeister der drei ältesten Kinder des Freiherrn nach Gut Romschütz bei Altenburg. In dessen Haus lernte Bertuch nicht nur, sich korrekt und gewandt in Gesellschaft zu bewegen, sondern machte sich auch, angeregt durch den Freiherrn und dessen umfangreiche Bibliothek, mit der spanischen Sprache und Literatur vertraut. Schon in dieser Zeit arbeitete er an Übersetzungen aus dem Spanischen und dem Französischen. Zu seinen bedeutendsten Leistungen zählt die sechsbändige Cervantes-Übersetzung „Leben und Thaten des weisen Junkers Don Quixote von La Mancha“ (Weimar und Leipzig 1775–1777), die auch beim Publikum Erfolg hatte. Im Frühjahr 1773 kehrte Bertuch als freier Schriftsteller in seine Vaterstadt zurück, nicht zuletzt veranlasst durch die Ankunft Wielands einige Monate zuvor, dessen Bekanntschaft er schon lange gesucht hatte. Im gleichen Jahr wurde sein Trauerspiel „Elfriede“ in Weimar uraufgeführt. Bertuch wurde Mitarbeiter an Wielands „Teutschem Merkur“ und führte bis 1776 mit Erfolg und im Wesentlichen allein die Geschäfte der Zeitschrift, an der er auch später mitarbeitete. Daneben wandte sich Bertuch auch als Unternehmer und Organisator der Kunst und Literatur zu, deren ökonomische Seite ihn anzog. In seinen 1774 entstandenen, damals jedoch unveröffentlichten „Gedanken über den Buchhandel“ entwarf er den Plan eines industriellen Buchhandels, der von Papiermühlen und Druckereien bis zu Buchbindereien und Kupferstechereien alle Zweige der Produktion umfassen und Weimar zu neuer Prosperität verhelfen sollte (gedruckt in: Archiv für Geschichte des Buchwesens 7 [1967], Sp. 1797–1810). Mit seiner (zu Lebzeiten ebenfalls nicht gedruckten) Denkschrift an Herzogin Anna Amalia über den „Entwurf einer mit wenigen Mitteln hier zu errichtenden freien Zeichenschule“ verfolgte Bertuch ähnliche Zwecke. Die Einrichtung sollte Voraussetzungen dafür schaffen helfen, das heimatliche Kunstgewerbe zu fördern und einen eigenen Handel mit Luxusgütern aufzubauen, statt sie zu importieren – ein Vorhaben, das er später mit seinem „Industrie-Comptoir“ selbst in die Tat umzusetzen suchte. Bertuchs ökonomische und organisatorische Fähigkeiten machte sich Herzog Carl August zunutze, indem er ihn unmittelbar nach seinem Regierungsantritt am 3. September 1775 zum Geheimen Sekretär und zum Verwalter der herzoglichen Privatschatulle berief. Über zwei Jahrzehnte versah Bertuch diese Ämter. Während dieser Zeit ging er indes weiterhin – mit ausgeprägtem Sinn für die Bedürfnisse des Markts und des Publikums – seinen vielfältigen kaufmännischen, literarischen und verlegerischen Interessen nach. Erfolg brachte ihm das erwähnte „Industrie-Comptoir“; das seit 1791 existierende Unternehmen war zunächst als Handelshaus von landeseigenen Waren und Produkten geplant, trat schließlich aber im Wesentlichen als Verlagsgeschäft in Erscheinung mit Werkstätten für Herstellung und Druck von Kupferstichen und Steindrucken, einer Kolorieranstalt u. a. m. 1796 zog sich Bertuch aus seinen Ämtern ins Privatleben zurück und widmete sich ganz seinen Geschäften.</p>
+  <p rendition="#einrueck1">Als Goethe im November 1775 nach Weimar kam, begegnete Bertuch dem vermeintlichen Kritiker seines Mentors Wieland zunächst zurückhaltend; im Jahr zuvor war Goethes Farce „Götter Helden und Wieland“ erschienen. Nach einiger Zeit aber lernten sich beide im Umkreis von Herzog Carl August besser kennen. Bertuch gehörte mit Goethe, Friedrich Hildebrand von Einsiedel und Johann August von Kalb zu der Gruppe junger Leute, die Weihnachten 1775 im Forsthaus Waldeck bei Bürgel (östlich von Jena) verbrachten. Dort schloss er mit Goethe Freundschaft und tauschte das ‚Du‘ aus (vgl. Datierung zu <ref target="gb:note#gb9849_comment_com1516">Nr 561</ref>). Goethes vertrautes Verhältnis zu Wieland dürfte zur freundschaftlichen Beziehung zu Bertuch mehr beigetragen haben als das jugendliche Treiben um Carl August (vgl. darüber die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">112</ref>), dem Bertuch distanziert gegenüberstand. Aus Goethes Tagebuch lässt sich entnehmen, dass Goethes Verhältnis zu dem herzoglichen Kabinettssekretär, dessen naturkundliche und literarische Interessen ebenso Anknüpfungspunkte boten wie seine Mitgliedschaft im Weimarer Liebhabertheater, zunächst recht eng war; am 13. Juni 1776 heißt es: <quote type="G">Mit Bertuch gessen</quote> (<ref target="gt:dokument#68">GT I 1, 19</ref>), am 22. Juni: <quote type="G">Belvedere Bertuch</quote> (<ref target="gt:dokument#77">ebd.</ref>), am 1. Dezember: <quote type="G">Nachts bey Bertuch.</quote> (<ref target="gt:dokument#219">GT I 1, 30</ref>.) Danach allerdings ist von ihm nicht mehr die Rede. Erst 1780 findet sich Bertuch wieder erwähnt, am 19. Januar: <quote type="G">Kam Bertuch. Entsezlich behaglicher Laps.</quote> (<ref target="gt:dokument#791">GT I 1, 103</ref>.) In diesem Ausdruck – der mit ihm Bezeichnete ist nach Auskunft des <ref target="sndb:sigle#397">GWb</ref> ein „schlaff-weichlicher, törichter Mensch“ (GT I 2, 506, zu 103,23) – wird die Entfremdung deutlich, die Ende der 1770er Jahre zwischen den Freunden eingetreten war. Da sich über die Gründe weder bei Goethe noch bei Bertuch Aufschluss gewinnen lässt, kann nur spekuliert werden. Denkbar ist, dass Bertuch als Schatullier des Herzogs das aufwändige Leben und die kostspieligen Reisen kritisch betrachtete, zuletzt die Reise in die Schweiz von September 1779 bis Januar 1780, die nach Carl August Böttiger zu den „kostbarsten Geniestreichen“ gehörte (<ref target="sndb:sigle#2773">Böttiger, Literarische Zustände<hi rendition="#sup">2</hi></ref>, 75). Bertuch selbst sprach (in einem Brief an Johann Wilhelm Ludwig Gleim vom 22. Juni 1776) von wiederkehrendem „schrecklichen Aerger“ in seinen Amtsgeschäften (Heinrich Pröhle: Bertuchs Briefe an Gleim. In: Die Grenzboten 40 [1881]. Nr 11, S. 481) und davon, dass er keine Lust habe, „die Genies zu füttern und zu kleiden“ (<ref target="sndb:sigle#2773">Böttiger, Literarische Zustände<hi rendition="#sup">2</hi></ref>, 35). Aus eben diesem Grund wurde Bertuch von Seiten des Herzogs und seines Kreises als Philister und Spießbürger angesehen. Goethe seinerseits hielt Bertuch für eine – wie auch Schiller fand –„mercantilische Seele“ (Brief an Christian Gottfried Körner, 23. Februar 1788; <ref target="sndb:sigle#860">NA</ref> 25, 19), der auch Literatur und Kunst nur unter kaufmännischem Gesichtspunkt von Interesse schien. Bertuchs Verfahren, die Bedürfnisse des Marktes und des Publikums zu erkennen und zu bedienen, empfand Goethe als Kommerzialisierung und Trivialisierung des Literaturbetriebs; dies etwa dürfte mit der Wortschöpfung von der ‚Verbertuchung‘ der Literatur im Brief an Charlotte von Stein vom 20. bis 27. Oktober 1779 gemeint sein (Briefteil vom 20. Oktober; <ref target="gb:text#GB03_1_BR541_0_326_019 #GB03_1_BR541_0_326_020">326,19–20</ref>). Ende Januar 1780 soll sich zugetragen haben, was Daniel Falk später berichtete: „Als Göthe von der Schweizer Reise zurückkehrte und Geheimer Rath geworden war ging Bertuch zu ihm im Garten, da er sah, dass ihm das Du genirte <gap quantity="3" reason="editorial"/> und sagte ihm: Lieber Göthe da ich sehe, dass unser bisheriges verhältniss dich auf der Stufe, die du betreten hast geniren könnte: so gebe Ich dir das <hi rendition="#hervor1">Du</hi> zurücke. Er reichte nur die Hand und sagte: Ich danke Ihnen herzlich und nehme es an.“ (<ref target="bug:dokument#6342">BuG 2, 222</ref>.)</p>
+  <p>Was den Briefwechsel angeht, so findet sich die Rückkehr zum ‚Sie‘ erstmals in Goethes Brief vom 8. März 1781 (vgl. <ref target="gb:dokument#11456">GB 4, Nr 318</ref>). In den Jahren danach blieb die Distanz; als weimarische Beamte und Angehörige der Gesellschaft pflegten sie einen höflich-geschäftsmäßigen Umgang. Um die Jahrhundertwende kam es dennoch zu einigen Auseinandersetzungen. So unterdrückte Goethe eine kritische Rezension Böttigers über die von ihm inszenierte Aufführung von August Wilhelm Schlegels „Ion“ im Januar 1802; in einem Brief an Bertuch vom 12. Januar 1802 drohte er damit, dass er „sogleich an Durchl. den Herzog gehe und Alles auf die Spitze setze“ (<ref target="sndb:sigle#1157">WA</ref> IV 16, 3), wenn er, Bertuch, die Veröffentlichung in der „Allgemeinen Literatur-Zeitung“ nicht verhindere. Im Jahr darauf nahm Bertuch Gelegenheit, seinerseits eine Rezension Goethes zugunsten des Jenaer Botanikers Franz Joseph Schelver in der „Allgemeinen Literatur-Zeitung“ zurückzuweisen (vgl. Bertuch an Goethe, 2. Juni 1803 [<ref target="ra:dokument#5489">RA 4, 230 f., Nr 752</ref>]; Goethe an Bertuch, 7. Juni 1803 [<ref target="sndb:sigle#1157">WA</ref> IV 16, Nr 4664]). Als diese Zeitung Ende 1803 von Jena nach Halle verlegt wurde, geriet ihr Mitherausgeber Bertuch, wie Christian Gottlob Voigt an Goethe schrieb, „ganz unter die literarischen Widersacher“ (Brief vom 30. November 1803; Goethe-Voigt 2, 372). Mangelnde persönliche Sympathie hinderte Goethe nicht, Bertuchs vielfältige geschäftliche Beziehungen in Anspruch zu nehmen. So vermittelte dieser die erste Edition von Goethes gesammelten „Schriften“, die 1787–1790 in 8 Bänden bei Georg Joachim Göschen in Leipzig verlegt wurden; 1790 erschien im Januar-Heft von Bertuchs „Journal des Luxus und der Moden“ ein Nachdruck (des im Jahr zuvor als Einzeldruck publizierten) Goetheschen Aufsatzes „Das Römische Carneval“; 1791/92 gab Bertuch Goethes „Beyträge zur Optik“ (1./2. Stück) im „Industrie-Comptoir“ heraus. Auch später kam es hin und wieder zur Zusammenarbeit; so veröffentlichte Bertuch 1813 in den „Allgemeinen Geographischen Ephemeriden“ und als Einzeldruck Goethes von Alexander von Humboldt angeregte Karte „Höhen der Alten und Neuen Welt bildlich verglichen“, die <quote type="G">auswärts so viel Gunst erwarb, daß ein Nachstich davon in Paris erschien.</quote> (Tag- und Jahres-Hefte 1807; <ref target="sndb:sigle#1157">WA</ref> I 36, 9.) Als Goethe zwei Jahre später mit seinen Lebenserinnerungen beschäftigt war, wandte er sich an Bertuch als Zeugen seiner ersten Jahre in Weimar und bat ihn, <quote type="G">sich jener Ihrer eigenen Blüthenzeit wieder zu erinnern und mir einen Aufsatz darüber mitzutheilen, von dem ich alsdann <gap quantity="3" reason="editorial"/> den heitersten Gebrauch machen wollte.</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 27, 274.) Zu einer persönlichen Wiederannäherung kam es jedoch nicht, auch nicht, nachdem Goethe 1808 Bertuchs Wahl zum Meister vom Stuhl in der Weimarer Freimaurerloge „Anna Amalia zu den drei Rosen“ unterstützt hatte. Sein Verhältnis zu dem Verleger war und blieb ambivalent. Auf der einen Seite anerkannte Goethe dessen unternehmerischen Leistungen und geschäftlichen Erfolge; wiederholt sprach er vom <quote type="G">Legationsrath Bertuch und dessen unermüdeter Thätigkeit</quote> (Campagne in Frankreich [1822]; <ref target="sndb:sigle#1157">WA</ref> I 33, 219) und nannte ihn (in einem Paralipomenon zu „Über Kunst und Alterthum“ [ebenfalls 1822]) ein <quote type="G">Beyspiel im Literarischen, Merkantilischen und Technischen</quote> (<ref target="sndb:sigle#1157">WA</ref> I 41.2, 400). Auf der anderen Seite äußerte er (fast zur gleichen Zeit) in einem Gespräch mit Kanzler Friedrich von Müller vom 18. Mai 1821: <quote type="G">Der größte Virtuos im Aneignen fremder Federn war Bertuch</quote>, der doch selbst <quote type="G">nie eine Idee gehabt</quote> habe (Müller, Unterhaltungen mit Goethe, 57). – Literaturhinweise: Albrecht von Heinemann: Ein Kaufmann der Goethezeit. Friedrich Justin Bertuchs Leben und Werk. Weimar 1955; Siglinde Hohenstein: Friedrich Justin Bertuch (1747–1822) – bewundert, beneidet, umstritten. Berlin, New York 1989; Gerhard R. Kaiser und Siegfried Seifert (Hrsg.): Friedrich Justin Bertuch (1747–1822). Verleger, Schriftsteller und Unternehmer. Tübingen 2000.</p>
+  <p>Da beide in Weimar lebten, ist die Korrespondenz zwischen Goethe und Bertuch trotz ihrer langen Bekanntschaft sehr sporadisch. Von Goethe sind (zur Zeit) insgesamt über 60 Briefe überliefert, von denen in einigen Fällen Bertuch als Adressat unsicher ist. Von Bertuchs Briefen an Goethe haben sich nicht ganz 50 erhalten, davon keiner aus dem Zeitraum des vorliegenden Bandes. Die in diesem enthaltenen fünf Briefe Goethes an Bertuch handeln allesamt von Geldangelegenheiten.</p>
+  <p>Laut Tagebuch hielt sich Goethe als Begleiter des Herzogs Carl August vom 3. bis 6. und vom 9. bis 19. Dezember 1776 zur Jagd in Wörlitz auf (vgl. GT I 1, 30). Die 400 Gulden, die Bertuch an den Frankfurter Kaufmann Johann Caspar Bölling schicken sollte, waren vermutlich zur Bezahlung einer Weinrechnung Johann Heinrich Mercks bestimmt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR188_0_note_002_118_12">118,12</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11439_comment_com10809">
+<label xml:id="GB03_2_BR200_0_note_001_122_12-13" copyOf="#start_com_1871"><hi rendition="#fett">122,12-13</hi>Postwagen</label>
+<p>Die ‚fahrende‘ Post war zwar langsamer als der ‚reitende‘ Postbote, konnte aber Pakete und Wertsachen transportieren.</p>
+
+</note>
+<note xml:id="gb11439_comment_com10819">
+<label xml:id="GB03_2_BR200_0_note_002_122_13" copyOf="#start_com_1872"><hi rendition="#fett">122,13</hi>die Carolin</label>
+<p>Der Münzname wurde gewöhnlich im Maskulinum gebraucht, gelegentlich aber auch als Femininum (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11, 221 f.).</p>
+
+</note>
+<note xml:id="gb11439_comment_com10820">
+<label xml:id="GB03_2_BR200_0_note_003_122_13" copyOf="#start_com_1873"><hi rendition="#fett">122,13</hi>zu 11 f</label>
+<p>Nach der Tabelle „Münze und Geldrechnung in Goethes Briefen 1775–1779“ im vorliegenden Band hatte der Carolin den Wert von etwa 6 &#xBD; Reichstalern, was knapp 8 Gulden entspricht (vgl. <ref target="gb:dokument#56921">S. LIII</ref>). Nach <ref target="sndb:sigle#2753">Adelung</ref> betrug sein Wert „im Reiche“ 12 Gulden (1, 1310).</p>
+
+</note>
+<note xml:id="gb11439_comment_com15042">
+<label xml:id="GB03_2_BR200_0_note_004_122_13-14" copyOf="#start_com_1874"><hi rendition="#fett">122,13-14</hi>wie schon gesagt</label>
+<p>Ein entsprechender Brief Goethes an Bertuch von der am 2. Dezember 1776 angetretenen Reise nach Dessau, Wörlitz und Leipzig ist nicht überliefert (vgl. <ref target="gb:dokument#52582">EB 125</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

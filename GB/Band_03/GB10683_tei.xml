@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="400"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10683" n="GB 3, Nr. 40">
+  <teiHeader xml:id="gb10683_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>40.</label> An <persName key="sndb:person#48315">Auguste Louisa Gräfin zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 11. Februar 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10683_tei.xml</idno>
+        <idno type="URI">gb10683</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR040_0</idno>
+        <idno type="KSW-ID">10683</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="30" to="30">30</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="131" to="132">131-132</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <bibl xml:id="gb10683_header_pwit1002" corresp="#gb10683_source_pwit1002" sameAs="#gb10683_comment_pwit1002"/>
+        <listObject type="attachments">
+          <object xml:id="gb10683_header_acc354" corresp="gb10683_comment_acc354">
+            <objectIdentifier>
+              <objectName>Vermutlich ein Exemplar von „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776)</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-02-11">11. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Auguste Louisa Gräfin zu</persName>
+            <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#60">RA 1, Nr. 56</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10683_source_pwit1002" corresp="#gb10683_header_pwit1002" type="source" rend="print">
+  <body>
+    <div>
+      <head><supplied>Druck</supplied></head>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR040_0_030_001"/>Könntest du <ref target="gb:note#GB03_2_BR040_0_note_001_30_1" xml:id="start_com_0478"/>mein Schweigen<ref xml:id="end_com_0478"/> verstehen! Liebstes Gustgen! – Ich 
+<anchor xml:id="GB03_1_BR040_0_030_002"/>kann, ich kann nichts sagen!</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <anchor xml:id="GB03_1_BR040_0_030_003"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR040_0_030_004"/>Weimar d. 11. Febr. 76</dateline>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10683_comment">
+<body>
+<div type="metadata" xml:id="gb10683_comment_com1022">
+  <ab type="numberAddressee"><label>40.</label> An <persName key="sndb:person#48315">Auguste Louisa Gräfin zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 11. Februar 1776 → <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10683_comment_com3066">
+  <p>H: Verbleib unbekannt; vor 1881 im Besitz Emilie von Binzers, München. – Auf „einem kleinen Blättchen mit zierlich gedruckter Einfassung“ (<ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref>, 115), egh. (vgl. <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref>, 70).</p>
+  <p>E: <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> (1839), 115 f., Nr 11.</p>
+  <p>D: <ref target="sndb:sigle#2869">Goethe-Stolberg<hi rendition="#sup">2</hi></ref> (1881), 45, Nr 11.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 27, Nr 400 (nach D).</p>
+  <p>Textgrundlage: D. – Sämtliche Handschriften der im vorliegenden Band gedruckten Briefe Goethes an Augusta zu Stolberg wurden für <ref target="sndb:sigle#2869">Goethe-Stolberg<hi rendition="#sup">2</hi></ref> (1881) neu verglichen. Die Handschriften der Briefe, deren Verbleib heute unbekannt ist (<ref target="gb:dokument#10683">Nr 40</ref> und <ref target="gb:dokument#10876">104</ref>), befanden sich 1881 noch im Besitz Emilie von Binzers in München und wurden dort im Auftrag des Herausgebers von Moritz Carriere autopsiert (vgl. <ref target="sndb:sigle#2869">Goethe-Stolberg<hi rendition="#sup">2</hi></ref>, V f.). Wie ein Vergleich von E und D bei Briefen Goethes an Augusta zu Stolberg, deren Handschriften überliefert sind, zeigt, bietet D einen genaueren Text als E, wo orthographische und grammatische Unregelmäßigkeiten, hauptsächlich die Kommasetzung, ss- und ß-Schreibung, vereinheitlicht wurden.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10683_comment_com3747">
+  <p>Vermutlich ein Exemplar von „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776) (vgl. die einleitende <ref target="gb:note#gb10683_comment_com4862">Erläuterung</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10683_comment_com4862">
+  <p>Der Brief beantwortet möglicherweise einen nicht überlieferten Brief Augusta zu Stolbergs von Ende 1775/Anfang 1776 (vgl. zu <ref target="gb:note#GB03_2_BR040_0_note_001_30_1">30,1</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Da Goethe sich am 10. April 1776 bei Augusta erkundigte, <quote type="G">hat ihr Stella nicht gezeugt dass ich ihr Alter bin</quote> (<ref target="gb:text#GB03_1_BR078_0_051_003 #GB03_1_BR078_0_051_004">51,3–4</ref>), ist anzunehmen, dass mit dem vorliegenden ausnehmend kurzen Brief das gerade im Druck erschienene Schauspiel übersandt wurde.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10683_comment_com9795">
+<label xml:id="GB03_2_BR040_0_note_001_30_1" copyOf="#start_com_0478"><hi rendition="#fett">30,1</hi>mein Schweigen</label>
+<p>Wahrscheinlich mit Bezug auf einen nicht überlieferten Brief Augusta zu Stolbergs, in dem sie sich über ausbleibende Post aus Weimar beklagte, nachdem sie im Dezember 1775 vergeblich auf ein Treffen mit Goethe in Hamburg gehofft hatte (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_024_4_12">4,12</ref>). – Das Motiv des Schweigens taucht in den Briefen an Augusta mehrfach auf (vgl. <ref target="gb:text#GB02_1_BR188_0_160_013">GB 2 I, 160,13</ref> [etwa 18.–30. Januar 1775]; <ref target="gb:text#GB02_1_BR207_0_170_008 #GB02_1_BR207_0_170_010">170,8–10</ref> [7. März 1775]; <ref target="gb:text#GB02_1_BR250_0_202_008">202,8</ref> [25. und 31. Juli 1775]; <ref target="gb:text#GB03_1_BR371_0_213_019 #GB03_1_BR371_0_213_020">213,19-20</ref>, <ref target="gb:text#GB02_1_BR263_0_214_003 #GB02_1_BR263_0_214_004">214,3-4</ref>, <ref target="gb:text#GB02_1_BR263_0_214_028 #GB02_1_BR263_0_214_029">214,28-29</ref>, <ref target="gb:text#GB02_1_BR263_0_216_006">216,6</ref> [14.–19. September 1775]). Am 7. März 1775 schrieb Goethe aus Offenbach: <quote type="G">Was soll ich Ihnen sagen, da ich Ihnen meinen gegenwärtigen Zustand nicht ganz sagen kann, da sie mich nicht kennen.</quote> (<ref target="gb:text#GB02_1_BR207_0_170_008 #GB02_1_BR207_0_170_010">GB 2 I, 170,8–10</ref>.) Vgl. auch zu <ref target="gb:note#GB03_2_BR078_0_note_004_51_4-5">51,4-5</ref>; zu <ref target="gb:note#GB03_2_BR114_0_note_003_66_10">66,10</ref>. Drei Tage, nachdem der vorliegende Brief geschrieben wurde, berichtete Goethe Johanna Fahlmer ausführlich von seinem Weimarer Leben (vgl. <ref target="gb:dokument#10607">Nr 43</ref>). – Fast wie eine Rechtfertigung seiner ‚Schweigsamkeit‘ gerade Augusta zu Stolberg gegenüber erscheint Goethes Sentenz über das Briefeschreiben im Brief an Lavater vom 20. Februar 1776: <quote type="G">Wie man auch <hi rendition="#hervor1">dem</hi> nie <hi rendition="#hervor1">schreiben</hi> soll als <hi rendition="#hervor1">dem</hi> mit <hi rendition="#hervor1">dem</hi> man <hi rendition="#hervor1">gelebt</hi> hat und nur im Maas als man mit ihm <hi rendition="#hervor1">gelebt</hi> hat.</quote> (<ref target="gb:text#GB03_1_BR048_0_035_014 #GB03_1_BR048_0_035_016">35,14–16</ref>.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

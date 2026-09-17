@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2270"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10850" n="GB 3, Nr. 224">
+  <teiHeader xml:id="gb10850_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>224.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 4. März 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:06Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10850_tei.xml</idno>
+        <idno type="URI">gb10850</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR224_0</idno>
+        <idno type="KSW-ID">10850</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="131" to="132">131-132</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="483" to="484">483-484</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10850_header_hwit1154" corresp="#gb10850_source_hwit1154" sameAs="#gb10850_comment_hwit1154" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 86</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10850,,1154/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mir ists leid dass ich dir über das Scheisgesicht Verdruss mache. Dein Brief kam zu spät</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-03-04">4. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10850_source_hwit1154" corresp="#gb10850_header_hwit1154" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10850/13880"/>
+      <p>
+        <anchor xml:id="GB03_1_BR224_0_131_014"/>Mir ists leid dass ich dir über <ref target="gb:note#GB03_2_BR224_0_note_001_131_14" xml:id="start_com_2034"/>das Scheisgesicht<ref xml:id="end_com_2034"/> Verdruss mache. <ref target="gb:note#GB03_2_BR224_0_note_002_131_14-15" xml:id="start_com_2035"/>Dein 
+<anchor xml:id="GB03_1_BR224_0_131_015"/>Brief kam zu spät.<ref xml:id="end_com_2035"/>     Indess denck ich ist<ptr n="1" target="#a001_131.15"/> nichts verlohren. <ref target="gb:note#GB03_2_BR224_0_note_003_131_15-16" xml:id="start_com_2036"/>Du lässts 
+<anchor xml:id="GB03_1_BR224_0_131_016"/>unter den Kupfer Tafeln<ref xml:id="end_com_2036"/>, man sagt hinten Beym <ref target="gb:note#GB03_2_BR224_0_note_004_131_16" xml:id="start_com_2037"/>Avis au <emph rendition="#latin">Relieur</emph>
+        <ref xml:id="end_com_2037"/>, es 
+<anchor xml:id="GB03_1_BR224_0_131_017"/>solle <ref target="gb:note#GB03_2_BR224_0_note_005_131_17" xml:id="start_com_2038"/>nach Bachen<ref xml:id="end_com_2038"/> gebunden werden und im folgenden Theil sagt 
+<anchor xml:id="GB03_1_BR224_0_131_018"/>man ein Wort drüber. Lass mich’s nur <ref target="gb:note#GB03_2_BR224_0_note_006_131_18" xml:id="start_com_2039"/>mit Reichen abmachen<ref xml:id="end_com_2039"/>, die 
+<anchor xml:id="GB03_1_BR224_0_131_019"/>etwa zu entstehende Irrung wieder einzuleiten. Ich lebe in groser Verwirrung, 
+<anchor xml:id="GB03_1_BR224_0_131_020"/>indess giebt mir der Himmel dass ich <ref target="gb:note#GB03_2_BR224_0_note_007_131_20" xml:id="start_com_2040"/>pflanzen und bauen<ref xml:id="end_com_2040"/>
+        <anchor xml:id="GB03_1_BR224_0_131_021"/>kann.     d<g ref="#typoSuspension"/>. 4 Merz 77. Weimar.     G.</p>
+      <p rendition="#einrueck1_voll">
+        <anchor xml:id="GB03_1_BR224_0_132_001"/>
+        <ref target="gb:note#GB03_2_BR224_0_note_008_132_1-2" xml:id="start_com_2041"/>Was du künftig schnell von Briefen an Reich haben willst, schick 
+<anchor xml:id="GB03_1_BR224_0_132_002"/>gerade an ihn.<ref xml:id="end_com_2041"/>
+      </p>
+    <pb n="2" facs="gb:digitalisate#10850/13881"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10850_comment">
+<body>
+<div type="metadata" xml:id="gb10850_comment_com960">
+  <ab type="numberAddressee"><label>224.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 4. März 1777 → <placeName key="sndb:ort#79740">Zürich</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10850_comment_com3004">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 86. – 1 Bl. 19,5 × 27,6 cm, &#xBD; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Herrn Prediger / Lavater /in / Zürch / fr. Schafh.</quote>, rotes Initialsiegel: „G“.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 186 f. (ohne Datum, Paraphe und Nachschrift).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 138, Nr 565 (Friedrich Strehlke).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10850_comment_com4800">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Lavaters (vgl. <ref target="gb:text#GB03_1_BR224_0_131_014 #GB03_1_BR224_0_131_015">131,14–15</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10850_comment_com17553">
+<label xml:id="GB03_2_BR224_0_note_001_131_14" copyOf="#start_com_2034"><hi rendition="#fett">131,14</hi>das Scheisgesicht</label>
+<p>Mit Bezug auf ein Porträt des Weimarer Kapellmeisters Ernst Wilhelm Wolf. Im folgenden Brief an Lavater vom 10. März 1777 geht Goethe noch einmal darauf ein (vgl. <ref target="gb:text#GB03_1_BR228_0_133_006 #GB03_1_BR228_0_133_013">133,6–13</ref>). Die entsprechende Druckplatte war offenbar bereits bei Reich in Leipzig, wo der 3. Band von Lavaters „Physiognomischen Fragmenten“ gedruckt wurde.</p>
+
+</note>
+<note xml:id="gb10850_comment_com9988">
+<label xml:id="GB03_2_BR224_0_note_002_131_14-15" copyOf="#start_com_2035"><hi rendition="#fett">131,14-15</hi>Dein Brief kam zu spät.</label>
+<p>Lavaters nicht überlieferter Brief enthielt wohl den kommentierenden Text zu Wolfs Porträt.</p>
+
+</note>
+<note xml:id="gb10850_comment_com9989">
+<label xml:id="GB03_2_BR224_0_note_003_131_15-16" copyOf="#start_com_2036"><hi rendition="#fett">131,15-16</hi>Du lässts unter den Kupfer Tafeln</label>
+<p>Goethes Vorschlag, die Tafel mit dem Bildnis Ernst Wolfs ohne das kommentierende Fragment abzudrucken, den er auch in <ref target="gb:dokument#11643">Nr 247</ref> machte, wurde nicht befolgt. Die Tafel wurde vielmehr ebenfalls weggelassen und die Nummerierung der Tafeln entsprechend geändert. Tafel LX, die für Wolf vorgesehen war, stellt im Druck Philipp Christoph Kayser dar (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, zu S. 202).</p>
+
+</note>
+<note xml:id="gb10850_comment_com13649">
+<label xml:id="GB03_2_BR224_0_note_004_131_16" copyOf="#start_com_2037"><hi rendition="#fett">131,16</hi>Avis au <emph rendition="#latin">Relieur</emph></label>
+<p>Franz.: Nachricht für den Buchbinder.</p>
+
+</note>
+<note xml:id="gb10850_comment_com10002">
+<label xml:id="GB03_2_BR224_0_note_005_131_17" copyOf="#start_com_2038"><hi rendition="#fett">131,17</hi>nach Bachen</label>
+<p>Gemeint ist der Artikel, der Philipp Emanuel Bach behandelt (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 200).</p>
+
+</note>
+<note xml:id="gb10850_comment_com10003">
+<label xml:id="GB03_2_BR224_0_note_006_131_18" copyOf="#start_com_2039"><hi rendition="#fett">131,18</hi>mit Reichen abmachen</label>
+<p>Vgl. Goethes Brief an Philipp Erasmus Reich vom 6. April 1777 (<ref target="gb:dokument#11643">Nr 247</ref>).</p>
+
+</note>
+<note xml:id="gb10850_comment_com17636">
+<label xml:id="GB03_2_BR224_0_note_007_131_20" copyOf="#start_com_2040"><hi rendition="#fett">131,20</hi>pflanzen und bauen</label>
+<p>Goethe plante die Umgestaltung seines Grundstücks und den Anbau eines Altans an sein Gartenhaus, mit dem am 12. März 1777 begonnen wurde: <quote type="G">Im Garten mit den Arbeitern beschäfftigt.</quote> (<ref target="gt:dokument#309">GT I 1, 39</ref>.) Wieland schrieb am 4. April an Johann Heinrich Merck: „<hi rendition="#hervor1">Göthe</hi> grüßt Sie, und läßt Ihnen wissen, daß er fleißig in seinem Garten arbeite <gap quantity="3" reason="editorial"/>. <hi rendition="#hervor1">Zeichnen</hi> ist ausser’m Pflanzen izt sein Lieblingsgeschäft“ (<ref target="sndb:sigle#141">WB</ref> 5, 606). Von seinem eigenen Haus abgesehen war Goethe auch an den Planungen zum Wiederaufbau des Weimarer Stadtschlosses beteiligt, das 1774 durch einen Brand zerstört worden war. Ebenfalls unter dem 12. März 1777 heißt es in seinem Tagebuch: <quote type="G">Visitation im alten Schloss.</quote> (<ref target="gt:dokument#309">GT I 1, 39</ref>.)</p>
+
+</note>
+<note xml:id="gb10850_comment_com10004">
+<label xml:id="GB03_2_BR224_0_note_008_132_1-2" copyOf="#start_com_2041"><hi rendition="#fett">132,1-2</hi>Was du künftig <gap quantity="3" reason="editorial"/> schick gerade an ihn.</label>
+<p>Gewöhnlich liefen Lavaters Briefe an Philipp Erasmus Reich, den Leipziger Verleger seiner „Physiognomischen Fragmente“, über Goethe, der den Druck des Werkes vermittelte.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

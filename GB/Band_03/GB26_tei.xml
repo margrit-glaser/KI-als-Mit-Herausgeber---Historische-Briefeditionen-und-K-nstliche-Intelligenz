@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb26" n="GB 3, Nr. 306">
+  <teiHeader xml:id="gb26_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>306.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 16.</supplied> November 1777. <supplied>Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb26_tei.xml</idno>
+        <idno type="URI">gb26</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR306_0</idno>
+        <idno type="KSW-ID">26</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="176" to="177">176-177</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="600" to="602">600-602</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb26_header_hwit1273" corresp="#gb26_source_hwit1273" sameAs="#gb26_comment_hwit1273" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>37 Goethe Familie</collection>
+            <idno type="shelfmark">GSA 37/I,9,3 Bl. 2-3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:229157</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/26,,1273/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sagen kann ich über die seltsame Nachricht Ihres Briefs gar nichts. Mein Herz und Sinn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-16"><supplied>16.</supplied> November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43781">Goethe, Catharina Elisabeth</persName>
+            <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb26_source_hwit1273" corresp="#gb26_header_hwit1273" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#26/12350"/>
+      <p>
+        <anchor xml:id="GB03_1_BR306_0_176_024"/>Sagen kann ich über <ref target="gb:note#GB03_2_BR306_0_note_001_176_24" xml:id="start_com_2657"/>die seltsame Nachricht Ihres Briefes<ref xml:id="end_com_2657"/> gar nichts. 
+<anchor xml:id="GB03_1_BR306_0_176_025"/>Mein Herz und Sinn ist zeither so gewohnt <ref target="gb:note#GB03_2_BR306_0_note_002_176_25-177_1" xml:id="start_com_2658"/>dass das Schicksaal Ball 
+<anchor xml:id="GB03_1_BR306_0_177_001"/>mit ihm spielt<ref xml:id="end_com_2658"/><ptr n="1" target="#a001_177.1"/> dass es für’s <hi rendition="#hervor1">neue</hi> es sey Glück oder Unglück fast gar 
+<anchor xml:id="GB03_1_BR306_0_177_002"/>kein Gefühl mehr hat. Mir ists als wenn in der Herbstzeit ein Baum 
+<anchor xml:id="GB03_1_BR306_0_177_003"/>gepflanzt würde, Gott gebe seinen Seegen dazu, dass wir dereinst 
+<anchor xml:id="GB03_1_BR306_0_177_004"/>drunter sizzen Schatten und Früchte haben mögen. Mit meiner 
+<anchor xml:id="GB03_1_BR306_0_177_005"/>
+        <ref target="gb:note#GB03_2_BR306_0_note_003_177_5" xml:id="start_com_2659"/>Schwester<ref xml:id="end_com_2659"/> ist mir so eine starcke Wurzel die mich an der Erde hielt 
+<anchor xml:id="GB03_1_BR306_0_177_006"/>abgehauen worden, dass die Aeste, von oben, die davon Nahrung hatten, 
+<anchor xml:id="GB03_1_BR306_0_177_007"/>auch absterben müssen. Will sich in der lieben <ref target="gb:note#GB03_2_BR306_0_note_004_177_7" xml:id="start_com_2660"/>Falmer<ref xml:id="end_com_2660"/> wieder 
+<anchor xml:id="GB03_1_BR306_0_177_008"/>eine<ptr n="2" target="#a002_177.8"/> neue Wurzel, Theilnehmung und befestigung erzeugen, so will 
+<anchor xml:id="GB03_1_BR306_0_177_009"/>ich auch von meiner Seite mit euch den Göttern dancken. Ich bin zu 
+<anchor xml:id="GB03_1_BR306_0_177_010"/>gewohnt <ref target="gb:note#GB03_2_BR306_0_note_005_177_10-11" xml:id="start_com_2661"/>von dem um mich iezzo zu sagen: das ist meine Mutter<ptr n="3" target="#a003_177.10"/> und 
+<anchor xml:id="GB03_1_BR306_0_177_011"/>meine Geschwister<ref xml:id="end_com_2661"/> pppppp. Was euch betrifft so seegnet Gott, denn<ptr n="4" target="#a004_177.11"/>
+        <anchor xml:id="GB03_1_BR306_0_177_012"/>ihr werdet auf’s neue erbaut in der Nähe und der Riss ausgebessert.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR306_0_177_013"/>Schlosser soll mir das Buch <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR306_0_note_006_177_13" xml:id="start_com_2662"/>Stuarts Finanz</emph> System von Lenzen<ref xml:id="end_com_2662"/>, auch 
+<anchor xml:id="GB03_1_BR306_0_177_014"/>
+        <ref target="gb:note#GB03_2_BR306_0_note_007_177_14" xml:id="start_com_2663"/>seine Schrifft über <pb n="2" facs="gb:digitalisate#26/12351"/> die Gesezgebung<ref xml:id="end_com_2663"/> schicken<ptr n="5" target="#a005_177.14"/>. Der <ref target="gb:note#GB03_2_BR306_0_note_008_177_14" xml:id="start_com_2664"/>Vater<ref xml:id="end_com_2664"/> kann ihm 
+<anchor xml:id="GB03_1_BR306_0_177_015"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR306_0_note_009_177_15" xml:id="start_com_2665"/>Poetas Graecos minores</emph>
+        <ref xml:id="end_com_2665"/> schicken sie stehen noch zu Hause <ref target="gb:note#GB03_2_BR306_0_note_010_177_15" xml:id="start_com_2666"/>in <emph rendition="#latin">folio</emph>
+        <ref xml:id="end_com_2666"/>
+        <anchor xml:id="GB03_1_BR306_0_177_016"/>denck ich.    <ref target="gb:note#GB03_2_BR306_0_note_011_177_16" xml:id="start_com_2667"/>Den Sophokles<ref xml:id="end_com_2667"/> soll er mir schencken, ich hab ihn verlohren, 
+<anchor xml:id="GB03_1_BR306_0_177_017"/>oder soll ihn zu Geld anschlagen ich will ihn mit dem <ref target="gb:note#GB03_2_BR306_0_note_012_177_17-18" xml:id="start_com_2668"/>was ich 
+<anchor xml:id="GB03_1_BR306_0_177_018"/>für Petern restire<ref xml:id="end_com_2668"/> bezahlen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR306_0_177_019"/>
+        <ref target="gb:note#GB03_2_BR306_0_note_013_177_19" xml:id="start_com_2669"/>Meine Zahn und Backenwirthschafft<ref xml:id="end_com_2669"/> will nichts bedeuten es hat 
+<anchor xml:id="GB03_1_BR306_0_177_020"/>sich ein Knötgen in der Kinlade gesezzt gehabt das aber nicht 
+<anchor xml:id="GB03_1_BR306_0_177_021"/>schmerzte und iezt vergeht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR306_0_177_022"/>
+        <ref target="gb:note#GB03_2_BR306_0_note_014_177_22" xml:id="start_com_2670"/>Mein Haushalt fängt an sich zu ordnen<ref xml:id="end_com_2670"/>, es ist einem in dem Gartenhüttgen, 
+<anchor xml:id="GB03_1_BR306_0_177_023"/>bald <ref target="gb:note#GB03_2_BR306_0_note_015_177_23" xml:id="start_com_2671"/>wie in einem Schiff auf dem Meere<ref xml:id="end_com_2671"/>.    Adieu 
+<anchor xml:id="GB03_1_BR306_0_177_024"/>Nov. 77</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR306_0_177_025"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    <pb n="3" facs="gb:digitalisate#26/12352" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#26/12353"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb26_comment">
+<body>
+<div type="metadata" xml:id="gb26_comment_com1037">
+  <ab type="numberAddressee"><label>306.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>16.</supplied> November 1777 → <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb26_comment_com1868">
+  <p>Der Tag wurde nach Goethes Rechnungsbuch ergänzt, in dem am 16. November 1777 eine Briefsendung an Catharina Elisabeth Goethe verzeichnet ist (vgl. <ref target="sndb:sigle#4228">GR/RB 1777,4</ref>, Bl. 4).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb26_comment_com3081">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#229157">GSA 37/I,9,3</ref>, Bl. 2–3. – Doppelblatt: 1. Bl. 18,9 × 23 cm; 2. Bl. 18,9 × 18,9(–19,2) cm, am unteren Rand beschnitten, rechter Seitenrand Mitte Siegelausriss, 1 &#xBD; S. (S. 1–2) beschr., egh., Tinte, flüchtig geschrieben; S. 4 Adresse: <quote type="G">An Frau Rath / Goethe / nach / Franckfurt / am Mayn / fr.</quote>, rotes Initialsiegel: „G“. – Beischluss: <ref target="gb:dokument#11770">Nr 305</ref>.</p>
+  <p>E: <ref target="sndb:sigle#517">Frau Rath</ref> (1871), 86.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 186 f., Nr 646.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb26_comment_com4877">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Catharina Elisabeth Goethes (vgl. zu <ref target="gb:text#GB03_1_BR306_0_176_024">176,24</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. November 1777 (vgl. <ref target="gb:note#gb26_comment_com1868">Datierung</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb26_comment_com5268">
+<label xml:id="GB03_2_BR306_0_note_001_176_24" copyOf="#start_com_2657"><hi rendition="#fett">176,24</hi>die seltsame Nachricht Ihres Briefes</label>
+<p>Dem zeitlichen Kontext zufolge muss es sich um die Nachricht von der Verlobung Johann Georg Schlossers mit Johanna Fahlmer handeln. Goethes Schwester Cornelia Schlosser war am 8. Juni 1777, vier Wochen nach der Geburt ihrer zweiten Tochter, gestorben (vgl. zu <ref target="gb:note#GB03_2_BR276_0_note_001_151_12">151,12</ref>). Zur selben Zeit, in der Goethe durch seine Mutter von der Verlobung seines Schwagers erfuhr, hat ihm dies auch Johanna Fahlmer mitgeteilt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11770_comment_com4989">Nr 305</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com8005">
+<label xml:id="GB03_2_BR306_0_note_002_176_25-177_1" copyOf="#start_com_2658"><hi rendition="#fett">176,25-177,1</hi>dass das Schicksaal Ball mit ihm spielt</label>
+<p>Ganz ähnlich hatte sich Goethe nach dem Tod der Schwester geäußert (vgl. <ref target="gb:text#GB03_1_BR276_0_151_011 #GB03_1_BR276_0_151_015">151,11–15</ref>; <ref target="gb:text#GB03_1_BR279_0_154_019 #GB03_1_BR279_0_154_022">154,19–22</ref>; <ref target="gb:text#GB03_1_BR279_0_154_025 #GB03_1_BR279_0_155_003">154,25–155,3</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com5269">
+<label xml:id="GB03_2_BR306_0_note_003_177_5" copyOf="#start_com_2659"><hi rendition="#fett">177,5</hi>Schwester</label>
+<p>Cornelia Schlosser (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>; zu <ref target="gb:note#GB03_2_BR274_0_note_002_151_3">151,3</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com5270">
+<label xml:id="GB03_2_BR306_0_note_004_177_7" copyOf="#start_com_2660"><hi rendition="#fett">177,7</hi>Falmer</label>
+<p>Johanna Fahlmer; über Goethes Verhältnis zu ihr vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10586_comment_com4208">GB 2 II, Nr 19</ref>.</p>
+
+</note>
+<note xml:id="gb26_comment_com5271">
+<label xml:id="GB03_2_BR306_0_note_005_177_10-11" copyOf="#start_com_2661"><hi rendition="#fett">177,10-11</hi>von dem um mich <gap quantity="3" reason="editorial"/> meine Geschwister</label>
+<p>In Anlehnung an Matthäus 12,46–50: „Da er <supplied>Jesus</supplied> noch also zu dem volck redete, siehe, da stunden seine mutter und seine brüder draussen, die wollten mit ihm reden. Da sprach einer zu ihm: Siehe, deine mutter und deine brüder stehen draussen, und wollen mit dir reden. Er antwortete aber, und sprach <gap quantity="3" reason="editorial"/>: Wer ist meine mutter? Und wer sind meine brüder? Und reckete die hand aus über seine jünger, und sprach: Siehe da, das ist meine mutter, und meine brüder. Denn wer den willen thut meines Vatters im himmel, derselbige ist mein bruder, schwester und mutter.“ (Luther-Bibel 1772 NT, 15.)</p>
+
+</note>
+<note xml:id="gb26_comment_com18770">
+<label xml:id="GB03_2_BR306_0_note_006_177_13" copyOf="#start_com_2662"><hi rendition="#fett">177,13</hi><emph rendition="#latin">Stuarts Finanz</emph> System von Lenzen</label>
+<p>Gemeint ist die „Untersuchung der Grund-Säze von der Staats-Wirthschaft als ein Versuch über die Wissenschaft von der Innerlichen Politik bey freyen Nationen“ des schottischen Nationalökonomen James Denham-Steuart (5 Bde. Tübingen 1769–1772). Jacob Michael Reinhold Lenz hatte sich die deutsche Übersetzung des 1767 in London erschienenen Hauptwerks von Denham-Steuart vor seiner Abreise von Weimar nach Berka am 27. Juni 1776 von Goethe erbeten (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 3). Ende November 1776, nachdem Lenz Weimar verlassen musste, ging er zunächst nach Emmendingen zu Johann Georg Schlosser, weshalb sich das Buch vermutlich im November 1777 noch dort befand (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>). Es muss aber wieder nach Weimar gelangt sein, da es 1788 noch in Goethes Bibliothek nachzuweisen war (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, Ältestes Verzeichnis, 270, Nr 140). – Goethes Interesse an Denham-Steuarts „Grund-Säzen von der Staats-Wirthschaft“ stand im Zusammenhang mit seiner amtlichen Tätigkeit. Als Mitglied des Geheimen Consiliums gehörte er einer Kommission an, die sich mit den Problemen der weimarischen Kammer (Finanzbehörde) befasste (vgl. zu <ref target="gb:note#GB03_2_BR251_0_note_002_141_16-18">141,16-18</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com14232">
+<label xml:id="GB03_2_BR306_0_note_007_177_14" copyOf="#start_com_2663"><hi rendition="#fett">177,14</hi>seine Schrifft über die Gesezgebung</label>
+<p>Johann Georg Schlossers „Vorschlag und Versuch einer Verbesserung des deutschen bürgerlichen Rechts ohne Abschaffung des römischen Gesetzbuchs“ (Leipzig 1777). – Der Titel ist in Goethes Bibliothek nicht nachzuweisen.</p>
+
+</note>
+<note xml:id="gb26_comment_com5248">
+<label xml:id="GB03_2_BR306_0_note_008_177_14" copyOf="#start_com_2664"><hi rendition="#fett">177,14</hi>Vater</label>
+<p>Johann Caspar Goethe.</p>
+
+</note>
+<note xml:id="gb26_comment_com5249">
+<label xml:id="GB03_2_BR306_0_note_009_177_15" copyOf="#start_com_2665"><hi rendition="#fett">177,15</hi><emph rendition="#latin">Poetas Graecos minores</emph></label>
+<p>Lat.: unbedeutendere griechische Dichter. – Wahrscheinlich handelte es sich um die Sammlung „Poetae Minores Graeci“, herausgegeben von dem englischen Mediziner und Übersetzer Ralph Winterton, die in lateinischer und griechischer Sprache von 1635 bis 1712 in mehreren Auflagen in Cambridge erschienen war .</p>
+
+</note>
+<note xml:id="gb26_comment_com5250">
+<label xml:id="GB03_2_BR306_0_note_010_177_15" copyOf="#start_com_2666"><hi rendition="#fett">177,15</hi>in <emph rendition="#latin">folio</emph></label>
+<p>Hier: historisches Buchformat, Großformat, etwa 32–35 cm Rückenhöhe.</p>
+
+</note>
+<note xml:id="gb26_comment_com15627">
+<label xml:id="GB03_2_BR306_0_note_011_177_16" copyOf="#start_com_2667"><hi rendition="#fett">177,16</hi>Den Sophokles</label>
+<p>In Goethes Bibliothek ist eine Ausgabe mit Tragödien des Sophokles im Original mit lateinischen Übersetzungen überliefert (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 187, Nr 1337): Αι του Σοϕοκλεους τραγωδιαι σωζομεναι επτα. Sophoclis tragoediae quae extant septem; cum versione latina. Additae sunt lectiones variantes; et notae viri doctissimi T. Johnson in quatuor tragoedias. 2 Bde. Glasgow 1745 (griech./lat.: Die sieben erhaltenen Tragödien des Sophokles. Des Sophokles Tragödien, von denen sieben erhalten sind; mit lateinischer Übersetzung. Hinzugefügt sind unterschiedliche Lesungen und Anmerkungen des hochgelehrten T. Johnson zu vier Tragödien [vgl. <ref target="gb:note#GB06_2_BR368_0_note_002_229_20">GB 6 II, zu 229,20</ref>]).</p>
+
+</note>
+<note xml:id="gb26_comment_com5251">
+<label xml:id="GB03_2_BR306_0_note_012_177_17-18" copyOf="#start_com_2668"><hi rendition="#fett">177,17-18</hi>was ich für Petern restire</label>
+<p>Restieren (lat.: restare): übrig sein; (von Zahlungen) noch ausstehen, schulden, (mit einer Zahlung) im Rückstand sein (vgl. auch <ref target="sndb:sigle#2890">Grimm</ref> 8, 824). – Für Peter im Baumgarten, der seit dem 12. August 1777 bei Goethe in Weimar lebte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). Nach fast sechswöchiger Abwesenheit war Goethe am 10. Oktober 1777 von Eisenach nach Weimar zurückgekehrt (vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_005_160_16-17">160,16-17</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com14078">
+<label xml:id="GB03_2_BR306_0_note_013_177_19" copyOf="#start_com_2669"><hi rendition="#fett">177,19</hi>Meine Zahn und Backenwirthschafft</label>
+<p>Schon während seines Aufenthalts in Eisenach hatte Goethe am 6. und am 12. September in Briefen an Charlotte von Stein von Zahnproblemen berichtet (vgl. <ref target="gb:text#GB03_1_BR286_0_164_001 #GB03_1_BR286_0_164_002">164,1–2</ref>; <ref target="gb:text#GB03_1_BR288_0_165_008 #GB03_1_BR288_0_165_009">165,8–9</ref>).</p>
+
+</note>
+<note xml:id="gb26_comment_com16314">
+<label xml:id="GB03_2_BR306_0_note_014_177_22" copyOf="#start_com_2670"><hi rendition="#fett">177,22</hi>Mein Haushalt fängt an sich zu ordnen</label>
+<p>Mit Bezug auf die Umgestaltung seines Gartenhauses, mit der Goethe seit etwa März 1777 beschäftigt war (vgl. zu <ref target="gb:note#GB03_2_BR224_0_note_007_131_20">131,20</ref>). Kurz vor seiner Reise nach Eisenach (vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_005_160_16-17">160,16-17</ref>) hatte Goethe zudem Peter im Baumgarten bei sich aufgenommen, der während seiner Abwesenheit bei Charlotte von Stein in Kochberg Betreuung fand (vgl. <ref target="gb:text#GB03_1_BR282_0_159_018">159,18</ref>). Nach seiner Rückkehr aus Eisenach am 10. Oktober 1777 schrieb Goethe an die Freundin, dass sie <quote type="G">Petern <gap quantity="3" reason="editorial"/> wohl noch behalten</quote> <supplied>möge</supplied> <quote type="G">bis ich eingerichtet bin</quote> (<ref target="gb:text#GB03_1_BR291_0_170_009 #GB03_1_BR291_0_170_010">170,9–10</ref>). Noch am 16. November 1777 notierte er in sein Tagebuch: <quote type="G">In’s Herrschafftshaus gezogen weil ich mit dem wieder anstreichen die Plackerey im Garten hatte.</quote> (<ref target="gt:dokument#480">GT I 1, 52</ref>.)</p>
+
+</note>
+<note xml:id="gb26_comment_com5252">
+<label xml:id="GB03_2_BR306_0_note_015_177_23" copyOf="#start_com_2671"><hi rendition="#fett">177,23</hi>wie in einem Schiff auf dem Meere</label>
+<p>Das Bild der Seefahrt verwendete Goethe wiederholt für sein Leben (vgl. zu <ref target="gb:note#GB03_2_BR011_0_note_007_13_7-8">13,7-8</ref>; <ref target="gb:text#GB03_1_BR170_0_106_017 #GB03_1_BR170_0_107_029">106,17–107,29</ref>; vgl. auch <ref target="gb:text#GB01_1_BR098_0_230_006">GB 1 I, 230,6</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

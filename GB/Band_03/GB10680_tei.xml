@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="330"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10680" n="GB 3, Nr. 33">
+  <teiHeader xml:id="gb10680_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>33.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 29. Januar 1776. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:48Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10680_tei.xml</idno>
+        <idno type="URI">gb10680</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR033_0</idno>
+        <idno type="KSW-ID">10680</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="26" to="26">26</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="117" to="119">117-119</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10680_header_hwit866" corresp="#gb10680_source_hwit866" sameAs="#gb10680_comment_hwit866" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 5</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10680,,866/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mit Ihnen unter Einem Dache! Ich fange wieder an zu schreiben, es wird einen Billets Kranckheit</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-29"><supplied>29. Januar 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-01-01" to="1776-01-31"><supplied>Januar? 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10680_source_hwit866" corresp="#gb10680_header_hwit866" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10680/22245"/>
+      <p>
+        <anchor xml:id="GB03_1_BR033_0_026_008"/>Mit Ihnen <ref target="gb:note#GB03_2_BR033_0_note_001_26_8" xml:id="start_com_0428"/>unter Einem Dache<ref xml:id="end_com_0428"/>! Ich fange wieder an zu schreiben, es 
+<anchor xml:id="GB03_1_BR033_0_026_009"/>wird eine <ref target="gb:note#GB03_2_BR033_0_note_002_26_9" xml:id="start_com_0429"/>Billets Kranckheit<ref xml:id="end_com_0429"/> unter uns geben, wenn’s so von morgen 
+<anchor xml:id="GB03_1_BR033_0_026_010"/>zu Nacht fortgeht. Der Herzog lässt mich und <ref target="gb:note#GB03_2_BR033_0_note_003_26_10" xml:id="start_com_0430"/>Wedeln<ref xml:id="end_com_0430"/>
+        <ref target="gb:note#GB03_2_BR033_0_note_004_26_10" xml:id="start_com_0431"/>hier oben<ref xml:id="end_com_0431"/> sizzen, 
+<anchor xml:id="GB03_1_BR033_0_026_011"/>und steht <ref target="gb:note#GB03_2_BR033_0_note_005_26_11" xml:id="start_com_0432"/>hinter Ihrem Stuhle<ref xml:id="end_com_0432"/> schwör ich —— – Er kommt – 
+<anchor xml:id="GB03_1_BR033_0_026_012"/>Wir haben heute <ref target="gb:note#GB03_2_BR033_0_note_006_26_12-13" xml:id="start_com_0433"/>viel guts gehandelt über der Vergangenheit und Zukunft<ref xml:id="end_com_0433"/>
+        <anchor xml:id="GB03_1_BR033_0_026_013"/>– Geht mir auch wie <ref target="gb:note#GB03_2_BR033_0_note_007_26_13-14" xml:id="start_com_0434"/>Margreten v. Parma: ich sehe viel voraus 
+<anchor xml:id="GB03_1_BR033_0_026_014"/>das ich nicht ändern kann<ref xml:id="end_com_0434"/>. Gute Nacht, <ref target="gb:note#GB03_2_BR033_0_note_008_26_14" xml:id="start_com_0435"/>goldne Frau<ref xml:id="end_com_0435"/>
+      </p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10680_comment">
+<body>
+<div type="metadata" xml:id="gb10680_comment_com217">
+  <ab type="numberAddressee"><label>33.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>29. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10680_comment_com1497">
+  <p>Entgegen seiner Einordnung im Konvolut der Briefe an Charlotte von Stein (Bd I) in die zweite Hälfte Februar 1776 verweist der Inhalt des Briefes auf eine frühere Datierung: Laut Fourierbuch war Goethe am 29. Januar 1776 abends mit dem Oberforstmeister Moritz von Wedel allein bei Herzog Carl August, während Charlotte von Stein am selben Abend an der Hoftafel teilnahm (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 34). Im Brief erwähnt Goethe sowohl das Zusammensein mit dem Herzog und Wedel (vgl. <ref target="gb:text#GB03_1_BR033_0_026_010 #GB03_1_BR033_0_026_011">26,10–11</ref>) wie auch die Tatsache, dass sich die Adressatin zur gleichen Zeit im selben Haus mit ihm befand (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_001_26_8">26,8</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10680_comment_com2261">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 5. – 1 Bl. 19,1(–19,3) × 8(–8,2) cm, starkes grünes Papier, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „12“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 12), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 9 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 21 f., Nr 390.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10680_comment_com4057">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der Brief wurde in zwei Etappen geschrieben. Begonnen wurde er in der Abwesenheit des Herzogs Carl August, als dieser kurzzeitig die Hoftafel im Erdgeschoss des Fürstenhauses aufgesucht hatte (vgl. <ref target="gb:text#GB03_1_BR033_0_026_008 #GB03_1_BR033_0_026_011">26,8–11</ref>). Der Schluss (<ref target="gb:text#GB03_1_BR033_0_026_012 #GB03_1_BR033_0_026_014">26,12–14</ref>) wurde offenbar bereits zu vorgerückter Stunde nach dem Gespräch mit Carl August und Wedel verfasst (vgl. <ref target="gb:text#GB03_1_BR033_0_026_012 #GB03_1_BR033_0_026_013">26,12–13</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10680_comment_com9853">
+<label xml:id="GB03_2_BR033_0_note_001_26_8" copyOf="#start_com_0428"><hi rendition="#fett">26,8</hi>unter Einem Dache</label>
+<p>Gemeint ist das Landschafts- oder Fürstenhaus, wo sich Goethe in den Privaträumen des Herzogs aufhielt und wo zur gleichen Zeit die abendliche Hoftafel stattfand, an der die Adressatin teilnahm (vgl. <ref target="gb:note#gb10680_comment_com1497">Datierung</ref>). – Der ursprünglich für die Landstände, die so genannte Landschaft, errichtete schmucklose Zweckbau, diente kurz nach seiner Fertigstellung seit 1774 nach dem Brand des Residenzschlosses 28 Jahre lang als Residenz und Wohnung der fürstlichen Familie. Im Erdgeschoss befanden sich Unterkünfte für Hofbeamte und Gäste sowie Gesellschaftsräume, im ersten Stock Amtsräume der Regierung sowie die Wohnräume der Herzogin Louise und im zweiten Stock die Wohnräume des Herzogs Carl August. Die Pläne für das Landschaftshaus stammten von dem fürstlichen Landbaumeister Johann Gottfried Schlegel, den Bau ausgeführt hatte der herzogliche Hofjäger und Bauunternehmer Anton Georg Hauptmann, der wenig später auch das Redoutenhaus errichtete. Im 19. Jahrhundert wurde das Gebäude baulich stark verändert, es beherbergt heute die Hochschule für Musik „Franz Liszt“ (am Platz der Demokratie).</p>
+
+</note>
+<note xml:id="gb10680_comment_com9854">
+<label xml:id="GB03_2_BR033_0_note_002_26_9" copyOf="#start_com_0429"><hi rendition="#fett">26,9</hi>Billets Kranckheit</label>
+<p>Das vorliegende Billett ist sehr wahrscheinlich das zweite, das Goethe an diesem Tag Charlotte von Stein schickte (vgl. <ref target="gb:note#gb10680_comment_com1497">Datierung</ref> und <ref target="gb:dokument#10343">Nr 32</ref>). Etwa seit dem 7. Januar 1776 (vgl. <ref target="gb:dokument#10706">Nr 18</ref>) hatte er der Freundin in immer kürzer werdenden zeitlichen Abständen geschrieben, seit dem 27. Januar täglich.</p>
+
+</note>
+<note xml:id="gb10680_comment_com17585">
+<label xml:id="GB03_2_BR033_0_note_003_26_10" copyOf="#start_com_0430"><hi rendition="#fett">26,10</hi>Wedeln</label>
+<p>Der damals etwa 23-jährige Moritz von Wedel, ehemaliger Hof- und Jagdjunker, war ein enger Jugendfreund des Herzogs Carl August, der ihn am 9. Januar 1776 zum „OberForstmeister“ befördert hatte (<ref target="sndb:sigle#3147">WWA</ref>, 20. Januar 1776, Nr 6, S. 21) und am 9. Februar zu seinem Kammerherrn ernannte (ebd., 17. Februar 1776, Nr 14, S. 53). Wedel, der ein angenehmer Gesellschafter gewesen sein muss und sich auch als Schauspieler des Liebhabertheaters betätigte (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_012_295_13">295,13</ref>), gehörte zu den frühesten Weimarer Freunden Goethes und wird von diesem 1776 wiederholt in seinen Tagebüchern erwähnt (vgl. GT I 1, 22 f.; vgl. auch zu <ref target="gb:note#GB03_2_BR044_0_note_004_32_4">32,4</ref>). 1779/80 begleitete Wedel Goethe und den Herzog auf der Schweizer Reise. Zeitgenössischen Erinnerungen zufolge sei der Oberforstmeister „bekanntlich der liebenswürdigste Mann seiner Zeit“ gewesen, „schön von Gestalt, sehr unterrichtet, doch anspruchslos, heitern Geistes und emsig in seinem Dienste. <gap quantity="3" reason="editorial"/> Serenissimus liebten ihn außerordentlich.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 62, Anm. 1.)</p>
+
+</note>
+<note xml:id="gb10680_comment_com9866">
+<label xml:id="GB03_2_BR033_0_note_004_26_10" copyOf="#start_com_0431"><hi rendition="#fett">26,10</hi>hier oben</label>
+<p>In den Wohnräumen des Herzogs Carl August im zweiten Stock des Fürstenhauses. Da Goethe als Bürgerlicher nicht ‚hoffähig‘ war (bis zu seiner Nobilitierung 1782), durfte er zunächst an der fürstlichen Tafel nicht teilnehmen und wurde separat in den Privaträumen des Herzogs empfangen. – Nachzuweisen ist außerdem seine Teilnahme an der so genannten Marschallstafel für die jüngeren Hofleute und Adligen niederen Ranges (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_003_27_3">27,3</ref>): „Wenn Goethe an die Hoftafel eingeladen war, ordnete der Hofmarschall immer zwei Tafeln an, so daß der Herzog an der fürstlichen Tafel saß u. Goethe an der Marschallstafel u. zwar stets immer am untersten Platze.“ (Zeissche Collectanea, Bl. 39v.)</p>
+
+</note>
+<note xml:id="gb10680_comment_com9867">
+<label xml:id="GB03_2_BR033_0_note_005_26_11" copyOf="#start_com_0432"><hi rendition="#fett">26,11</hi>hinter Ihrem Stuhle</label>
+<p>An der Hoftafel im Erdgeschoss des Fürstenhauses. – Über Carl Augusts Auftreten bei ähnlichen Anlässen berichtet Carl von Lyncker, seit 1779 Hofpage in Weimar: „Bei solchen großen Abendtafeln setzte sich unser durchlauchtigster Herr niemals, sondern pflegte um sie herum zu wandeln, und mit Diesem oder Jenem einen Diskurs zu beginnen. Zuweilen ging er auch in Begleitung des Herrn von Wedel auf sein Zimmer, rauchte eine halbe Pfeife Taback oder überschaute die Tafelgesellschaft von der obern Gallerie des Saales aus.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 62.)</p>
+
+</note>
+<note xml:id="gb10680_comment_com14834">
+<label xml:id="GB03_2_BR033_0_note_006_26_12-13" copyOf="#start_com_0433"><hi rendition="#fett">26,12-13</hi>viel guts gehandelt über der Vergangenheit und Zukunft</label>
+<p>Es ist anzunehmen, dass auch über die Verlängerung von Goethes Weimarer Aufenthalt, an dem Carl August sehr gelegen war, gesprochen wurde (vgl. zu <ref target="gb:note#GB03_2_BR032_0_note_008_26_6">26,6</ref>).</p>
+
+</note>
+<note xml:id="gb10680_comment_com17365">
+<label xml:id="GB03_2_BR033_0_note_007_26_13-14" copyOf="#start_com_0434"><hi rendition="#fett">26,13-14</hi>Margreten v. Parma: <gap quantity="3" reason="editorial"/> das ich nicht ändern kann</label>
+<p>Leicht abgewandeltes Selbstzitat aus „Egmont“ (I 2): <quote type="G">Ich sehe auch viel voraus, ohne es ändern zu können.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 8, 186.) – Nach Goethes späterer Erinnerung in „Dichtung und Wahrheit“ hatte er <quote type="G">Hauptscenen</quote> des „Egmont“ bereits 1775 in Frankfurt geschrieben (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 636 [19. Buch]; vgl. insgesamt <ref target="sndb:sigle#1338">EGW</ref> 3, 183–188).</p>
+
+</note>
+<note xml:id="gb10680_comment_com9658">
+<label xml:id="GB03_2_BR033_0_note_008_26_14" copyOf="#start_com_0435"><hi rendition="#fett">26,14</hi>goldne Frau</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

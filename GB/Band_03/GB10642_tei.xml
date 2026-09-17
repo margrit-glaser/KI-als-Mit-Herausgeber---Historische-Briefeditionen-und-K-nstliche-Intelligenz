@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="70"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10642" n="GB 3, Nr. 7">
+  <teiHeader xml:id="gb10642_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>7.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName> mit <persName key="sndb:person#45732">Christoph Martin Wieland</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. <supplied>oder 22.</supplied> Dezember <supplied>1775. Donnerstag oder Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10642_tei.xml</idno>
+        <idno type="URI">gb10642</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR007_0</idno>
+        <idno type="KSW-ID">10642</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="7" to="8">7-8</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="24" to="28">24-28</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10642_header_hwit830" corresp="#gb10642_source_hwit830" sameAs="#gb10642_comment_hwit830" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 60</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10642,,830/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Freytag d. 21. Dez. Nach einem herrlichen Wintertag, den ich meist in freyer Luft Morgens mit dem Herzog</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#45732">Wieland, Christoph Martin</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-12-21">21. Dezember <supplied>1775</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-12-22"><supplied>22.</supplied> Dezember <supplied>1775</supplied></date>
+            <note>
+              <date type="WA" when="1775-12-22">22. Dezember <supplied>1775</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10642_source_hwit830" corresp="#gb10642_header_hwit830" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10642/13746"/>
+      <p>
+        <anchor xml:id="GB03_1_BR007_0_007_001"/>Freytag d<g ref="#typoSuspension"/>. 21. Dez. Nach einem herrlichen Wintertag, den ich meist 
+<anchor xml:id="GB03_1_BR007_0_007_002"/>in freyer Luft Morgens mit dem <ref target="gb:note#GB03_2_BR007_0_note_001_7_2" xml:id="start_com_0085"/>Herzog<ref xml:id="end_com_0085"/>, Nach Mittag mit Wielanden 
+<anchor xml:id="GB03_1_BR007_0_007_003"/>zugebracht habe, ziemlich müd und ausgelüfftet von der Eisfahrt siz 
+<anchor xml:id="GB03_1_BR007_0_007_004"/>ich bey <ref target="gb:note#GB03_2_BR007_0_note_002_7_4" xml:id="start_com_0086"/>W.<ref xml:id="end_com_0086"/> und will sehn was ich an dich zusammenstopple.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR007_0_007_005"/>
+        <ref target="gb:note#GB03_2_BR007_0_note_003_7_5" xml:id="start_com_0087"/>Deine Phis.<ref xml:id="end_com_0087"/> liegt mir am Herzen. <ref target="gb:note#GB03_2_BR007_0_note_004_7_5" xml:id="start_com_0088"/>Die mir beschiednen Cap.<ref xml:id="end_com_0088"/> will 
+<anchor xml:id="GB03_1_BR007_0_007_006"/>machen. Kurz genug und wills Gott bündig und treffend, das ist alles. 
+<anchor xml:id="GB03_1_BR007_0_007_007"/>Denn Ausspinnens<ptr n="1" target="#a001_7.7"/> ist iezt nicht Zeit, der ich in verbreiteter <ref target="gb:note#GB03_2_BR007_0_note_005_7_7-8" xml:id="start_com_0089"/>Wirthschafft<ref xml:id="end_com_0089"/>, 
+<anchor xml:id="GB03_1_BR007_0_007_008"/>und Zerstreuung <ref target="gb:note#GB03_2_BR007_0_note_006_7_8" xml:id="start_com_0090"/>von Morgens zu Nacht umgetrieben<ref xml:id="end_com_0090"/> werde. 
+<anchor xml:id="GB03_1_BR007_0_007_009"/>Ich seh auch fleisig <ref target="gb:note#GB03_2_BR007_0_note_007_7_9" xml:id="start_com_0091"/>die übrigen Kupfer<ref xml:id="end_com_0091"/> an, rede mit allerley Leuten 
+<anchor xml:id="GB03_1_BR007_0_007_010"/>drüber, Wieland hat mir seine Gefühle gegeben und so wird alles gut 
+<anchor xml:id="GB03_1_BR007_0_007_011"/>werden. <ref target="gb:note#GB03_2_BR007_0_note_008_7_11" xml:id="start_com_0092"/>Ich geh auch wohl nach Leipzig<ref xml:id="end_com_0092"/>, hast du nun da was so 
+<anchor xml:id="GB03_1_BR007_0_007_012"/>schreibs bey Zeiten und lass mich s ausrichten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR007_0_007_013"/>Weiter braucht der Herzog einen General Superintendenten. Er 
+<anchor xml:id="GB03_1_BR007_0_007_014"/>fragte mich drum <ref target="gb:note#GB03_2_BR007_0_note_009_7_14" xml:id="start_com_0093"/>ich nannt ihm Herdern<ref xml:id="end_com_0093"/>. Der wie du vielleicht weisst 
+<anchor xml:id="GB03_1_BR007_0_007_015"/>noch nicht <hi rendition="#hervor1">ganz gewiss</hi>
+        <ref target="gb:note#GB03_2_BR007_0_note_010_7_15" xml:id="start_com_0094"/>nach Göttingen geht<ref xml:id="end_com_0094"/>. Der Herzog<ptr n="2" target="#a002_7.15"/> trug 
+<anchor xml:id="GB03_1_BR007_0_007_016"/>mir auf dich zu fragen wen du vorschlügst?<ptr n="3" target="#a003_7.16"/>
+        <ref target="gb:note#GB03_2_BR007_0_note_011_7_16-17" xml:id="start_com_0095"/>sag mir also schnell ein 
+<anchor xml:id="GB03_1_BR007_0_007_017"/>Wort hierüber<ref xml:id="end_com_0095"/>, und wen<ptr n="4" target="#a004_7.17"/> du sonst in Ermanglung Herders vorschlagen 
+<anchor xml:id="GB03_1_BR007_0_007_018"/>könntest.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR007_0_007_019"/>Ich bin hier wie unter den meinigen, und der Herzog wird mir 
+<anchor xml:id="GB03_1_BR007_0_007_020"/>täglich werther, und wir einander täglich<ptr n="5" target="#a005_7.20"/> verbundner. <pb n="2" facs="gb:digitalisate#10642/13747"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR007_0_007_021"/>Grüs mir alles! Von <ref target="gb:note#GB03_2_BR007_0_note_012_7_21" xml:id="start_com_0096"/>Pssvt.<ref xml:id="end_com_0096"/> hab ich <ref target="gb:note#GB03_2_BR007_0_note_013_7_21" xml:id="start_com_0097"/>liebe Briefe<ref xml:id="end_com_0097"/>. Auch von <ref target="gb:note#GB03_2_BR007_0_note_014_7_21-22" xml:id="start_com_0098"/>Zimmerm.
+<anchor xml:id="GB03_1_BR007_0_007_022"/>
+        <ref xml:id="end_com_0098"/> der mir deinen guten Muth und frischen Weeg über die 
+<anchor xml:id="GB03_1_BR007_0_007_023"/>
+        <ref target="gb:note#GB03_2_BR007_0_note_015_7_23" xml:id="start_com_0099"/>Schurcken von Landsleuten<ref xml:id="end_com_0099"/> meldet.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR007_0_007_024"/>Morgen geh ich über Jena <ref target="gb:note#GB03_2_BR007_0_note_016_7_24" xml:id="start_com_0100"/>nach Waldeck<ref xml:id="end_com_0100"/>, wilde Gegenden und einfache 
+<anchor xml:id="GB03_1_BR007_0_007_025"/>Menschen aufzusuchen. Addio. Mir geht alles nach Herzenswunsch 
+<anchor xml:id="GB03_1_BR007_0_007_026"/>so auch dir.    Weimar. –</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR007_0_007_027"/>
+        <signed rend="paraph" rendition="#einrueck16">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR007_0_007_028"/>
+          <ref target="gb:note#GB03_2_BR007_0_note_017_7_28" xml:id="start_com_0101"/>Bäbe<ref xml:id="end_com_0101"/> kann sich auch wieder einmal erheben <ref target="gb:note#GB03_2_BR007_0_note_018_7_28" xml:id="start_com_0102"/>mir zu schreiben<ref xml:id="end_com_0102"/>. Grüs 
+<anchor xml:id="GB03_1_BR007_0_007_029"/>
+          <ref target="gb:note#GB03_2_BR007_0_note_019_7_29" xml:id="start_com_0103"/>dein Weib<ref xml:id="end_com_0103"/>. <ref target="gb:note#GB03_2_BR007_0_note_020_7_29" xml:id="start_com_0104"/>Sey mir nicht gar zu Lakonisch.<ref xml:id="end_com_0104"/>
+        </p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR007_0_008_001"/>In dem mir zugeschickten <ref target="gb:note#GB03_2_BR007_0_note_021_8_1" xml:id="start_com_0105"/>Plan der Phis.<ref xml:id="end_com_0105"/> sind die hintersten Zahlen 
+<anchor xml:id="GB03_1_BR007_0_008_002"/>falsch, dass es nur in den Tafeln keine Unordnung giebt, du hast 
+<anchor xml:id="GB03_1_BR007_0_008_003"/>Nummern doppelt gesezt.</p>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR007_0_008_004"/>Liebster Lavater, ich bin in schrecklichen Ängsten, <ref target="gb:note#GB03_2_BR007_0_note_022_8_4" xml:id="start_com_0106"/>mein lezter Brief <ref xml:id="end_com_0106"/>mit dem gezeichneten 
+<anchor xml:id="GB03_1_BR007_0_008_005"/>
+          <ref target="gb:note#GB03_2_BR007_0_note_023_8_5" xml:id="start_com_0107"/>Kopfe Sebast. Brands<ref xml:id="end_com_0107"/> und einer deh und wehmüthigen Bitte möchte 
+<anchor xml:id="GB03_1_BR007_0_008_006"/>auf der Post irre gangen, oder gar verlohren seyn. Reissen Sie mich sobald als 
+<anchor xml:id="GB03_1_BR007_0_008_007"/>möglich aus der Ungewisheit.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10642_comment">
+<body>
+<div type="metadata" xml:id="gb10642_comment_com903">
+  <ab type="numberAddressee"><label>7.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName> mit <persName key="sndb:person#45732">Christoph Martin Wieland</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. Dezember <supplied>1775</supplied> oder <supplied>22.</supplied> Dezember <supplied>1775</supplied> → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10642_comment_com1801">
+  <p>Die fehlende Jahreszahl ergibt sich aus dem Inhalt des Briefes. Bei der Angabe <quote type="G">Freytag d<g ref="#typoSuspension"/>. 21. Dez.</quote> hat sich Goethe entweder im Wochentag oder im Datum geirrt, denn der 21. Dezember 1775 war ein Donnerstag. Der Brief dürfte wohl am 22. Dezember 1775 geschrieben worden sein, denn Goethe trat seine für <quote type="G">Morgen</quote> (<ref target="gb:text#GB03_1_BR007_0_007_024">7,24</ref>) angekündigte Reise nach Waldeck am Samstag, dem 23. Dezember, an. Das geht aus dem ersten, von Samstag, dem 23. Dezember 1775, stammenden Teil von Brief <ref target="gb:dokument#10609">Nr 8</ref> hervor. Überdies heißt es in Wielands Brief an Lavater vom 25. Dezember 1775: „Göthe ist vorgestern aufs Land gegangen und wird erst Donnerstag abends wieder zurük seyn.“ (<ref target="sndb:sigle#141">WB</ref> 5, 458.)</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10642_comment_com2947">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 60. – 1 Bl. 19 × 23 cm, 1 &#x2154; S. beschr., egh., Tinte; Nachschrift von Wielands Hd, Tinte (Petitdruck); Bl. am linken Rand in der Mitte ausgerissen.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 15–17, Nr 5 (ohne die Nachschrift Wielands).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 5 f., Nr 373.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10642_comment_com4743">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Mit Johann Caspar Lavater (1741–1801), dem Zürcher Prediger und Schriftsteller, korrespondierte Goethe seit 1773; im Juni 1774 hatte er ihn in Frankfurt persönlich kennen gelernt und war, wie viele Zeitgenossen, von seiner Persönlichkeit beeindruckt. Obwohl er sich Lavaters religiöser Schwärmerei gegenüber distanziert verhielt, entwickelte sich ein freundschaftliches Verhältnis zwischen beiden, das auch in den ersten Weimarer Jahren fortbestand. Dass Herzog Carl August von Sachsen-Weimar und Eisenach mit Lavater in Zürich einige Zeit Umgang hatte, war eines von Goethes Anliegen, die er mit der zweiten Schweizer Reise 1779/80 verband. – Vgl. über die Beziehung Goethes zu Lavater insgesamt die einleitende Erläuterung zum Brief von Mitte November 1773 (<ref target="gb:note#gb11685_comment_com4378">GB 2 II, Nr 67</ref>).</p>
+  <p rendition="#einrueck1">In den 19 Briefen an Lavater, die im vorliegenden Band wiedergegeben werden, geht es im Wesentlichen, wie schon in den Jahren 1774/75, um den Druck von Lavaters „Physiognomischen Fragmenten“, darüber hinaus um Goethes Schützling Peter im Baumgarten und um Goethes zweite Schweizer Reise.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10642_comment_com9601">
+<label xml:id="GB03_2_BR007_0_note_001_7_2" copyOf="#start_com_0085"><hi rendition="#fett">7,2</hi>Herzog</label>
+<p>Carl August von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10642_comment_com9602">
+<label xml:id="GB03_2_BR007_0_note_002_7_4" copyOf="#start_com_0086"><hi rendition="#fett">7,4</hi>W.</label>
+<p>Wieland.</p>
+
+</note>
+<note xml:id="gb10642_comment_com9603">
+<label xml:id="GB03_2_BR007_0_note_003_7_5" copyOf="#start_com_0087"><hi rendition="#fett">7,5</hi>Deine Phis.</label>
+<p>Gemeint ist der 2. Band der „Physiognomischen Fragmente“, deren Druck bei Philipp Erasmus Reich in Leipzig im Januar 1776 begann und in der ersten Hälfte des Mai beendet war (vgl. zu <ref target="gb:note#GB03_2_BR013_0_note_001_14_8">14,8</ref>). Goethe redigierte die Manuskripte, die Lavater ihm nach und nach schickte, und ließ sie weiter nach Leipzig befördern.</p>
+
+</note>
+<note xml:id="gb10642_comment_com14132">
+<label xml:id="GB03_2_BR007_0_note_004_7_5" copyOf="#start_com_0088"><hi rendition="#fett">7,5</hi>Die mir beschiednen Cap.</label>
+<p>Goethes Mitarbeit am 2. Band von Lavaters „Physiognomischen Fragmenten“ beschränkte sich auf die Interpretation einiger Silhouetten, darunter die der römischen Staatsleute und Feldherren Scipio (Africanus), Titus, Tiberius, Brutus und Caesar sowie des englischen Physikers Isaac Newton, und einer Anmerkung zu einer Abbildung von Tierschädeln (vgl. <ref target="sndb:sigle#1157">WA</ref> I 37, 342–359; vgl. im Einzelnen <ref target="sndb:sigle#3122">von der Hellen</ref>, 123–226).</p>
+
+</note>
+<note xml:id="gb10642_comment_com9600">
+<label xml:id="GB03_2_BR007_0_note_005_7_7-8" copyOf="#start_com_0089"><hi rendition="#fett">7,7-8</hi>Wirthschafft</label>
+<p>Hier Bezeichnung für die „Handhabung eines jeden Geschäftes“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb10642_comment_com17301">
+<label xml:id="GB03_2_BR007_0_note_006_7_8" copyOf="#start_com_0090"><hi rendition="#fett">7,8</hi>von Morgens zu Nacht umgetrieben</label>
+<p>Goethe war am 9. November 1775 in Weimar eingetroffen und damit beschäftigt, sich Menschen und Verhältnisse vertraut zu machen. In Wielands Brief an Lavater vom 25. Dezember 1775 heißt es dazu kommentierend: „Der Herzog (dem er <supplied>Goethe</supplied> fast unentbehrl. worden ist) das Schrittschuh-Fahren, die Jagd und Reitparthien, die Assembleen, kurz der Hof nimmt ihm fast alle seine Zeit.“ (<ref target="sndb:sigle#141">WB</ref> 5, 458.) Schon im Brief an Johanna Fahlmer vom 22. November 1775 (<ref target="gb:dokument#10565">Nr 4</ref>) hatte Goethe sein Weimarer Leben als <quote type="G">Schlittenfahrt</quote> beschrieben, <quote type="G">rasch weg und klingelnd und promenirend auf und ab</quote> (<ref target="gb:text#GB03_1_BR004_0_005_013 #GB03_1_BR004_0_005_014">5,13–14</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com9604">
+<label xml:id="GB03_2_BR007_0_note_007_7_9" copyOf="#start_com_0091"><hi rendition="#fett">7,9</hi>die übrigen Kupfer</label>
+<p>Gemeint sind Kupferstiche, die für die „Physiognomischen Fragmente“ bestimmt waren.</p>
+
+</note>
+<note xml:id="gb10642_comment_com14783">
+<label xml:id="GB03_2_BR007_0_note_008_7_11" copyOf="#start_com_0092"><hi rendition="#fett">7,11</hi>Ich geh auch wohl nach Leipzig</label>
+<p>Goethe reiste erst vom 24. März bis zum 4. April 1776 nach Leipzig. Er traf u. a. auch mit Reich zusammen (vgl. zu <ref target="gb:note#GB03_2_BR013_0_note_003_14_10">14,10</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com9616">
+<label xml:id="GB03_2_BR007_0_note_009_7_14" copyOf="#start_com_0093"><hi rendition="#fett">7,14</hi>ich nannt ihm Herdern</label>
+<p>Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref>.</p>
+
+</note>
+<note xml:id="gb10642_comment_com9617">
+<label xml:id="GB03_2_BR007_0_note_010_7_15" copyOf="#start_com_0094"><hi rendition="#fett">7,15</hi>nach Göttingen geht</label>
+<p>Herder bemühte sich um eine Göttinger Professur.</p>
+
+</note>
+<note xml:id="gb10642_comment_com17316">
+<label xml:id="GB03_2_BR007_0_note_011_7_16-17" copyOf="#start_com_0095"><hi rendition="#fett">7,16-17</hi>sag mir also schnell ein Wort hierüber</label>
+<p>Da Goethe verreiste, richtete Lavater die gewünschte Antwort auf die Frage des Herzogs nach einem geeigneten Kandidaten für das Amt eines Generalsuperintendenten – zu Goethes Verärgerung (vgl. <ref target="gb:text#GB03_1_BR026_0_022_018 #GB03_1_BR026_0_022_019">22,18–19</ref>) – an Herzogin Louise, welcher er den 2. Band seiner „Physiognomischen Fragmente“ zu widmen wünschte (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR090_0_note_002_57_5">57,5</ref>):</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56422_source" corresp="#gb56422_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB002_0_026_001"/>[Zürich] den 3. Jenn. 1776.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB002_0_026_002"/>… <hi rendition="#hervor1">Herder</hi> ist noch nicht auf Göttingen sicher. Es wird aber stark für ihn gearbeitet. 
+<anchor xml:id="GB03_2_FB002_0_026_003"/>Ich kenn’ ihn nicht persönlich. Aber alles, was ich von ihm gelesen, gedrucktes 
+<anchor xml:id="GB03_2_FB002_0_026_004"/>und geschriebenes, zeigt mir eine unbeschreibliche Größe, deren ich nichts 
+<anchor xml:id="GB03_2_FB002_0_026_005"/>an die Seite zu sezen weiß. Einer der mißkanntesten, festesten, würksamsten 
+<anchor xml:id="GB03_2_FB002_0_026_006"/>Menschen, der keine matte <ref target="gb:note#GB03_2_FB002_0_note_001_26_6" xml:id="start_com_7005"/>Nerve<ref xml:id="end_com_7005"/>, keine unbestimmte Kraft hat. Übrigens <ref target="gb:note#GB03_2_FB002_0_note_002_26_6-7" xml:id="start_com_7006"/>sprech 
+<anchor xml:id="GB03_2_FB002_0_026_007"/>ich über keinen Menschen ab<ref xml:id="end_com_7006"/>, bis ich ihn gesehen. Nach <ref target="gb:note#GB03_2_FB002_0_note_003_26_7" xml:id="start_com_7007"/>Zimmermanns<ref xml:id="end_com_7007"/> Beschreibung 
+<anchor xml:id="GB03_2_FB002_0_026_008"/>würde er eher gewinnen, als verlieren, beym Sehen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB002_0_026_009"/>Außer Herdern kenn’ ich, lutherscher Confeßion, niemand, den ich mit einigem 
+<anchor xml:id="GB03_2_FB002_0_026_010"/>Zutrauen vorschlagen dürfte, als einen gewißen <ref target="gb:note#GB03_2_FB002_0_note_004_26_10" xml:id="start_com_7008"/>Pfarrer Stuber<ref xml:id="end_com_7008"/> in Strasburg. Ein 
+<anchor xml:id="GB03_2_FB002_0_026_011"/><ref xml:id="start_com_7009" target="gb:note#GB03_2_FB002_0_note_005_26_11"/>Nathanael<ref xml:id="end_com_7009"/> voll Verstand, ohne Genie, voll Kraft, ohne Gewaltsamkeit; bescheiden, 
+<anchor xml:id="GB03_2_FB002_0_026_012"/>thatschnell, sanft. Fromm und heiter; gerad und einfach. Alles, was ich izt 
+<anchor xml:id="GB03_2_FB002_0_026_013"/>sagen konnte. –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB002_0_026_014"/>Ein Wink, und mehr …</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56422_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56422_comment_com84440">
+  <p>(<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 61.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56422_comment_com84441">
+<label xml:id="GB03_2_FB002_0_note_001_26_6" copyOf="#start_com_7005"><hi rendition="#normal">26,6</hi>Nerve</label>
+<p>Das Femininum ‚die Nerve‘ bedeutet hier ‚Band‘, ‚Sehne‘, ‚Muskel‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 7, 610). </p>
+</note>
+<note xml:id="gb56422_comment_com84442">
+<label xml:id="GB03_2_FB002_0_note_002_26_6-7" copyOf="#start_com_7006"><hi rendition="#normal">26,6-7</hi>sprech ich <gap quantity="3" reason="editorial"/> ab</label>
+<p>Absprechen: hier im Sinn von ‚urteilen‘; in dieser Verwendung findet sich das Wort auch bei Goethe (vgl. z. B. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 229,27 [7. Buch]).</p>
+</note>
+<note xml:id="gb56422_comment_com84443">
+<label xml:id="GB03_2_FB002_0_note_003_26_7" copyOf="#start_com_7007"><hi rendition="#normal">26,7</hi>Zimmermanns</label>
+<p>Der aus der Schweiz stammende, mit Lavater befreundete Arzt Johann Georg Zimmermann, königlicher Leibarzt in Hannover. Weiter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10677_comment_com4488">GB 2 II, Nr 236</ref>.</p>
+</note>
+<note xml:id="gb56422_comment_com84444">
+<label xml:id="GB03_2_FB002_0_note_004_26_10" copyOf="#start_com_7008"><hi rendition="#normal">26,10</hi>Pfarrer Stuber</label>
+<p>Johann Georg Stuber, Pietist, Diakon an der Thomaskirche in Straßburg; mit Lavater befreundeter Verfasser von Schul- und Erbauungsbüchern: „Sein Streben <gap quantity="3" reason="editorial"/> war: in den herrlichsten und bis in’s Mark dringenden Aussprüchen der heiligen Schrift, dahin zu wirken, daß wenn von Gott und von Religion die Rede wäre, sowohl Junge als Alte nicht mehr allein an die vergriffenen Blätter eines mühsam auswendig gelernten Formelbuches oder an einen Pfarrer auf der Canzel vielleicht nicht ohne merklichen Beigeschmack des Ekels oder der Langenweile dächten, sondern an das Höchste, Mächtigste, Herrlichste und Lebendigste, das die Phantasie ergreifen, den Geist erregen und demüthigen, das Herz erfüllen und erfreuen und zur Anbetung stimmen kann.“ (Johann Wilhelm Baum: Johann Georg Stuber, der Vorgänger Oberlin’s im Steinthale und Vorkämpfer einer neuen Zeit in Straßburg. Straßburg 1846, S. 40 f.)</p>
+</note>
+<note xml:id="gb56422_comment_com84445">
+<label xml:id="GB03_2_FB002_0_note_005_26_11" copyOf="#start_com_7009"><hi rendition="#normal">26,11</hi>Nathanael</label>
+<p>Jünger Jesu aus Kana in Galiläa; Jesus sagte über ihn: „Siehe, ein rechter Israeliter, in welchem kein falsch ist!“ (Johannes 1,47; Luther-Bibel 1772 NT, 95.) In der Widmung seines Epos’ „Nathanaél“ (Basel 1786) bezeichnete Lavater auch Goethe (ohne ihn namentlich zu nennen) als einen Nathanael; damit meinte er, wie es im Untertitel seines Werkes heißt, Menschen „mit geradem, gesundem, ruhigem, Truglosem Wahrheitssinne“ (weiter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11685_comment_com4378">GB 2 II, Nr 67</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb10642_comment_com84428">
+<label xml:id="GB03_2_BR007_0_note_012_7_21" copyOf="#start_com_0096"><hi rendition="#fett">7,21</hi>Pssvt.</label>
+<p>Jacob Ludwig Passavant, Jugendfreund Goethes, bis Oktober 1775 Lavaters Amtsgehilfe in Zürich, seit November in Hamburg angestellt. Weiter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb15318_comment_com4855">GB 2 II, Nr 131</ref>.</p>
+
+</note>
+<note xml:id="gb10642_comment_com84429">
+<label xml:id="GB03_2_BR007_0_note_013_7_21" copyOf="#start_com_0097"><hi rendition="#fett">7,21</hi>liebe Briefe</label>
+<p>Keiner der Briefe Passavants an Goethe ist überliefert.</p>
+
+</note>
+<note xml:id="gb10642_comment_com84430">
+<label xml:id="GB03_2_BR007_0_note_014_7_21-22" copyOf="#start_com_0098"><hi rendition="#fett">7,21-22</hi>Zimmerm.</label>
+<p>Johann Georg Zimmermann; von ihm sind keine Briefe an Goethe überliefert. Den hier erwähnten Brief beantwortete Goethe mit seinem Brief aus dem Zeitraum kurz vor dem oder vom 22. Dezember 1775 und 5. Januar 1776 (<ref target="gb:dokument#10643">Nr 14</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84431">
+<label xml:id="GB03_2_BR007_0_note_015_7_23" copyOf="#start_com_0099"><hi rendition="#fett">7,23</hi>Schurcken von Landsleuten</label>
+<p>Möglicherweise sind damit u. a. die Zürcher Theologen und Philologen Johann Jakob Hottinger und Johann Jakob Steinbrüchel gemeint, mit denen Lavater im Lauf des Jahres 1775 in eine literarische Auseinandersetzung geraten war. In deren Verlauf waren Lavaters religiöse Schwärmerei und Wundergläubigkeit satirisch angegriffen und seine „Physiognomischen Fragmente“ als Unsinn kritisiert worden. Im Einzelnen vgl. <ref target="gb:note#GB02_2_BR234_0_note_001_188_13">GB 2 II, zu 188,13</ref>.</p>
+
+</note>
+<note xml:id="gb10642_comment_com84432">
+<label xml:id="GB03_2_BR007_0_note_016_7_24" copyOf="#start_com_0100"><hi rendition="#fett">7,24</hi>nach Waldeck</label>
+<p>Goethe reiste am 23. Dezember nach Waldeck bei Bürgel in der Nähe von Jena. Im dortigen Forsthaus verbrachte er beim Wildmeister Traugott Friedemann Slevoigt die Weihnachtstage. In seiner Gesellschaft befanden sich Friedrich Hildebrand von Einsiedel, Johann August Alexander von Kalb, Friedrich Johann Justin Bertuch und Georg Melchior Kraus. Am 27. Dezember kehrte Goethe nach Weimar zurück. Über den Aufenthalt in Waldeck berichtet er in Briefen an Herzog Carl August von Sachsen-Weimar und Eisenach vom 23. bis 26. Dezember 1775 (<ref target="gb:dokument#10609">Nr 8</ref> und <ref target="gb:dokument#52762">9</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84433">
+<label xml:id="GB03_2_BR007_0_note_017_7_28" copyOf="#start_com_0101"><hi rendition="#fett">7,28</hi>Bäbe</label>
+<p>Barbara (Bäbe) Schultheß, eine Freundin Goethes und Lavaters in Zürich.</p>
+
+</note>
+<note xml:id="gb10642_comment_com84434">
+<label xml:id="GB03_2_BR007_0_note_018_7_28" copyOf="#start_com_0102"><hi rendition="#fett">7,28</hi>mir zu schreiben</label>
+<p>Ob Schultheß der Bitte nachkam, muss offenbleiben. Der erste überlieferte Brief von ihr an Goethe stammt vom 1. März 1781 (vgl. <ref target="ra:dokument#148">RA 1, 85, Nr 135</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84435">
+<label xml:id="GB03_2_BR007_0_note_019_7_29" copyOf="#start_com_0103"><hi rendition="#fett">7,29</hi>dein Weib</label>
+<p>Anna geb. Schinz.</p>
+</note>
+<note xml:id="gb10642_comment_com84436">
+<label xml:id="GB03_2_BR007_0_note_020_7_29" copyOf="#start_com_0104"><hi rendition="#fett">7,29</hi>Sey mir nicht gar zu Lakonisch.</label>
+<p>Dem ‚stilus laconicus‘ ist die ‚brevitas‘ (lat.: Kürze) zu eigen. Diese Ausdrucksweise wurde dem militärisch geprägten Rede-Habitus der Spartaner im griechischen Lakonien zugeschrieben. – Der Austausch von Nachrichten zwischen Goethe und Lavater war zur damaligen Zeit nicht sehr ausführlich. Der letzte überlieferte Brief Goethes an Lavater stammt vom 27. September 1775 (<ref target="gb:dokument#10414">GB 2 I, Nr 265</ref>), der letzte erschlossene vom 18. Oktober 1775 (<ref target="gb:dokument#51215">GB 2 I, EB 241</ref>). Lavater hatte zuletzt am 1. September 1775 einen (überlieferten) Brief an Goethe geschrieben (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 51–54).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84437">
+<label xml:id="GB03_2_BR007_0_note_021_8_1" copyOf="#start_com_0105"><hi rendition="#fett">8,1</hi>Plan der Phis.</label>
+<p>Der Plan zum 2. Band der „Physiognomischen Fragmente“ ist nicht überliefert. – Im Brief vom 20. Februar 1776 (<ref target="gb:dokument#10577">Nr 48</ref>) beschwerte sich Goethe über Unordnung in Lavaters <quote type="G">Plans Wirthschafft</quote> (<ref target="gb:text#GB03_1_BR048_0_035_001">35,1</ref>).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84438">
+<label xml:id="GB03_2_BR007_0_note_022_8_4" copyOf="#start_com_0106"><hi rendition="#fett">8,4</hi>mein lezter Brief</label>
+<p>Wielands Brief an Lavater vom 1. Dezember 1775 (<ref target="sndb:sigle#141">WB</ref> 5, 448–450).</p>
+
+</note>
+<note xml:id="gb10642_comment_com84439">
+<label xml:id="GB03_2_BR007_0_note_023_8_5" copyOf="#start_com_0107"><hi rendition="#fett">8,5</hi>Kopfe Sebast. Brands</label>
+<p>Der Weimarer Maler Georg Melchior Kraus hatte einen Kopf des Dichters Sebastian Brant aus dem 15. Jahrhundert gezeichnet, der als Vorlage für einen Kupferstich im Januar-Heft 1776 von Wielands „Teutschem Merkur“ dienen sollte. Da der dafür vorgesehene Kupferstecher abgesagt hatte, befand sich Wieland in zeitlicher Bedrängnis und hatte im Brief an Lavater vom 1. Dezember auf Rat Goethes angefragt, ob der Zürcher Kupferstecher Johann Heinrich Lips den Auftrag übernehmen könne. Lavaters Brief an Wieland vom 12. Dezember mit einem positiven Bescheid (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 454 f.) traf erst Weihnachten in Weimar ein (vgl. Wielands Dankbrief an Lavater, 25. Dezember 1775; <ref target="sndb:sigle#141">WB</ref> 5, 457 f.), ebenso ein zweiter, nicht überlieferter Brief vom 16. Dezember (vgl. <ref target="sndb:sigle#141">WB</ref> 6 III, 1485). Am 11. Januar 1776 berichtete Wieland im Brief an Lavater vom glücklichen Eintreffen der Kupferplatte (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 464). Der Stich erschien als Titelkupfer des Januar-Heftes im „Teutschen Merkur“.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

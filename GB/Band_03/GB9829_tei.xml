@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1500"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9829" n="GB 3, Nr. 148">
+  <teiHeader xml:id="gb9829_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>148.</label> An <persName key="sndb:person#37228">Jacob Friedrich von Fritsch</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84874">Stützerbach</placeName>, 3. August 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:10Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9829_tei.xml</idno>
+        <idno type="URI">gb9829</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR148_0</idno>
+        <idno type="KSW-ID">9829</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="91" to="91">91</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="347" to="351">347-351</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9829_header_hwit1028" corresp="#gb9829_source_hwit1028" sameAs="#gb9829_comment_hwit1028" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/184,I Bl. 1-2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8153</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9829,,1028/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Aus dem geliebten Stüzzerbach schick ich Ihnen bester Herr Geheimder Rath die unterschriebnen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84874">Stützerbach</placeName>
+            <date when="1776-08-03">3. August 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#37228">Fritsch, Jacob Friedrich von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9829_source_hwit1028" corresp="#gb9829_header_hwit1028" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9829/12507"/>
+      <p>
+        <anchor xml:id="GB03_1_BR148_0_091_006"/>Aus dem geliebten <ref target="gb:note#GB03_2_BR148_0_note_001_91_6" xml:id="start_com_1421"/>Stüzzerbach<ref xml:id="end_com_1421"/> schick ich Ihnen bester H<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR148_0_note_002_91_6-7" xml:id="start_com_1422"/>GeheimderR.
+<anchor xml:id="GB03_1_BR148_0_091_007"/>
+        <ref xml:id="end_com_1422"/> die unterschriebnen und <ref target="gb:note#GB03_2_BR148_0_note_003_91_7" xml:id="start_com_1423"/>vollzognen Papiere<ref xml:id="end_com_1423"/> zurück, fahren Sie 
+<anchor xml:id="GB03_1_BR148_0_091_008"/>fort mir das nötige zuzufertigen, und ich will meine <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR148_0_note_004_91_8-9" xml:id="start_com_1424"/>Expedition ambulante
+<anchor xml:id="GB03_1_BR148_0_091_009"/>
+        </emph>
+        <ref xml:id="end_com_1424"/> bestmöglichst besorgen. Ich hab einen freundlich herzlichen 
+<anchor xml:id="GB03_1_BR148_0_091_010"/>Grus von Ihr. Durch<g ref="#typoSuspension"/>. an Sie; <ref target="gb:note#GB03_2_BR148_0_note_005_91_10" xml:id="start_com_1425"/>wann wir zurückkommen ist ungewiss<ref xml:id="end_com_1425"/>, 
+<anchor xml:id="GB03_1_BR148_0_091_011"/>wir sind ziemlich <ref target="gb:note#GB03_2_BR148_0_note_006_91_11" xml:id="start_com_1426"/>eingewildert<ref xml:id="end_com_1426"/>. <ref target="gb:note#GB03_2_BR148_0_note_007_91_11" xml:id="start_com_1427"/>Trebra<ref xml:id="end_com_1427"/> wird bey Ihnen seyn, es ist ein 
+<anchor xml:id="GB03_1_BR148_0_091_012"/>ganz herrlicher Mann; <ref target="gb:note#GB03_2_BR148_0_note_008_91_12" xml:id="start_com_1428"/>der Stadthalter von Erfurt<ref xml:id="end_com_1428"/> war einige Tage bey 
+<anchor xml:id="GB03_1_BR148_0_091_013"/>uns und ist auch <ref target="gb:note#GB03_2_BR148_0_note_009_91_13" xml:id="start_com_1429"/>nicht ohne Erdgeruch<ref xml:id="end_com_1429"/> entlassen worden<ptr n="1" target="#a001_91.13"/>. Unser <ref target="gb:note#GB03_2_BR148_0_note_010_91_13-14" xml:id="start_com_1430"/>College 
+<anchor xml:id="GB03_1_BR148_0_091_014"/>Schnaus<ref xml:id="end_com_1430"/> wird auch von Ihro Durch<g ref="#typoSuspension"/>. gegrüsst und mich empfehlen 
+<anchor xml:id="GB03_1_BR148_0_091_015"/>Sie ihm vielmals. Seyn <ref target="gb:note#GB03_2_BR148_0_note_011_91_15" xml:id="start_com_1431"/>Ihr. Exell<g ref="#typoSuspension"/>.<ref xml:id="end_com_1431"/> so gütig bey künftigen Sendungen 
+<anchor xml:id="GB03_1_BR148_0_091_016"/>sich <ref target="gb:note#GB03_2_BR148_0_note_012_91_16" xml:id="start_com_1432"/>des ledernen Sacks mit dem Riemen<ref xml:id="end_com_1432"/> des bequemeren 
+<anchor xml:id="GB03_1_BR148_0_091_017"/>Transports wegen zu bedienen. Behalten Sie mich lieb, seyn Sie meiner 
+<anchor xml:id="GB03_1_BR148_0_091_018"/>versichert. Empfehlen Sie mich Ihrer <ref target="gb:note#GB03_2_BR148_0_note_013_91_18" xml:id="start_com_1433"/>Frau Gemahlinn<ref xml:id="end_com_1433"/>. Stüzzerbach. 
+<anchor xml:id="GB03_1_BR148_0_091_019"/>d<g ref="#typoSuspension"/>. 3 Aug 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR148_0_091_020"/>
+        <signed rend="signature" rendition="#einrueck19">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9829/12508" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#9829/12509" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9829/12510"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9829_comment">
+<body>
+<div type="metadata" xml:id="gb9829_comment_com237">
+  <ab type="numberAddressee"><label>148.</label> An <persName key="sndb:person#37228">Jacob Friedrich von Fritsch</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84874">Stützerbach</placeName>, 3. August 1776 → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9829_comment_com2281">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8153">GSA 29/184,I</ref>, Bl. 1–2. – Doppelblatt 16,6(–16,8)  × 20,2 cm, 1 S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An des Herrn / Geheimderath v. Fritsch / Exzell<g ref="#typoSuspension"/>. / nach / Weimar / durch Husar / mit einer / ledernen Brief- / tasche.</quote>, Siegel (Wappen); unter dem Brieftext Präsentats- und Antwortvermerk, Tinte: „ps. d. 4. Aug<g ref="#typoSuspension"/>. 1776. resp. eodem“.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 92, Nr 491 (Friedrich Strehlke).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9829_comment_com4077">
+  <p>Der Bezugsbrief, mit dem Fritsch die Übersendung amtlicher <quote type="G">Papiere</quote> (<ref target="gb:text#GB03_1_BR148_0_091_007">91,7</ref>) begleitet haben wird, ist nicht überliefert. – Der Antwortbrief (vgl. <ref target="gb:note#gb9829_comment_com2281">Überlieferung</ref>) ist nicht bekannt.</p>
+  <p>Jacob Friedrich von Fritsch (1731–1814) wuchs als Sohn des kursächsischen Geheimen Rats und Ministers Thomas von Fritsch und dessen Frau Johanna Sophie geb. Winkler auf dem Familiengut Seerhausen bei Riesa auf. Nach abgebrochenem Jurastudium in Göttingen trat Fritsch zur Vorbereitung auf den Staatsdienst als Sekretär in die Kanzlei des kursächsischen Statthalters in Eisenach und späteren weimarischen Premierministers Graf Heinrich von Bünau ein. Seine weitere Karriere führte ihn 1754 als Legationsrat und Wirklichen Assessor bei der Regierung nach Eisenach und zusammen mit Bünau 1756 nach Weimar als Wirklichen Hofrat und Referendar im Geheimen Consilium, in welchem er 1762 als Geheimer Legationsrat Sitz und Stimme erhielt. 1766 schließlich wurde er zum Geheimen Rat ernannt und 1772 zum Wirklichen Geheimen Rat mit dem Ehrentitel ‚Exzellenz‘. Fritsch war ein Vertrauter der verwitweten Herzogin Anna Amalia und unterstützte diese in ihrem Versuch, den Einfluss des Grafen Johann Eustach von Schlitz gen. von Goertz, des Erziehers des Prinzen Carl August, auf seinen Zögling zurückzudrängen. Daher rührt das gespannte Verhältnis zwischen dem späteren Herzog und seinem Spitzenbeamten. Fritsch opponierte heftig gegen Goethes Berufung ins Geheime Consilium im Frühjahr 1776; in einem Brief an Carl August vom 24. April 1776 drohte er mit Niederlegung seiner Ämter, da er – „ohne allen Widerwillen oder Abneigung gegen diesen Mann“ (<ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 156) – „in einem Collegio dessen Mitglied gedachter D. Goethe anjetzt werden soll, länger nicht sizen“ könne (<ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 157), weil – so erklärt er in einem weiteren Brief vom 11. Mai 1776 – dieses „durch die Placirung des D. Goethe in selbigem in den Augen des Publici gar sehr herunter gesetzt werden muß.“ (<ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 168.) Mit Hilfe seiner Mutter gelang es Carl August, Fritsch umzustimmen (vgl. ihre Briefe an diesen vom 10. Mai 1776 bzw. 13. Mai 1776; <ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 159–163 und 170–173); auf deren Bitte, im Amt zu bleiben, und nach Rücksprache mit seinen beiden Kollegen im Geheimen Consilium, Johann Christoph Schmidt und Christian Friedrich Schnauß (der dringend wünschte, „daß Ew. Exc. bey uns bleiben möchten“ [Brief an Fritsch vom 14. Mai 1776; <ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 176]), antwortete Fritsch am 15. Mai 1776, er habe sich die „Ueberzeugung“ verschafft, „daß ich gewissenhafter Weise ihn <supplied>Herzog Carl August</supplied> in dem gegenwärtigen Augenblick nicht verlassen darf.“ (<ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 179.) In den Jahren danach entwickelte sich zwischen Fritsch und Goethe eine professionelle Zusammenarbeit, geprägt von gegenseitiger Anerkennung und Toleranz, zu welcher sie im Übrigen auch durch die gemeinsame Mitgliedschaft in der Weimarer Freimaurer-Loge verpflichtet waren. Unter dem 23. Mai 1776 notierte Goethe in seinem Tagebuch: <quote type="G">Gut anlassen von Fr.</quote> (<ref target="gt:dokument#49">GT I 1, 18</ref>.) Später, unter dem 1. Februar 1779, heißt es dagegen: <quote type="G">Conseil. Dumme Luft drinne. fataler Humor von Fr.</quote> (<ref target="gt:dokument#669">GT I 1, 74</ref>.) Näheres ist nicht bekannt, wohl aber, dass Fritsch überhaupt ein schwieriger Mensch war, der von sich selbst sagte, dass er „zu viel Rauhes in meinen Sitten, zu viel öfters an das Mürrische gränzende Ernsthaftigkeit, zu viel Unbiegsamkeit und zu wenig Nachsicht gegen das was herrschender Geschmack ist, an mir habe.“ (Brief an Carl August, 9. Dezember 1775; Woldemar von Biedermann: Goethe und die von Fritsch. In: Goethe-Forschungen. Frankfurt a. M. 1879, S. 221.)</p>
+  <p>Dass das Verhältnis zu Goethe auch Jahre nach dessen Berufung kein entspanntes war, zeigt ein Vorfall aus dem Jahr 1783: In einem  von Goethe übersandten Votum hatte Fritsch an der Formulierung <quote type="G"> <hi rendition="#hervor1">Meine</hi> Herrn Cameralen</quote> (Brief an Fritsch, 6. Mai 1783; <ref target="gb:text#GB05_1_BR394_0_235_005 #GB05_1_BR394_0_235_006">GB 5 I, 235,5-6</ref>) Anstoß genommen; daraufhin fühlte Goethe sich veranlasst, <quote type="G">Ew. Exc. zu entdecken wie empfindlich und schmerzlich, und auch wie unerklärlich mir die Art und Weise gewesen, mit welcher mir Ew. Exc. in dem gestrigen Voto ein unschuldiges Wort unterstrichen haben </quote> (ebd.; <ref target="gb:text#GB05_1_BR394_0_234_019 #GB05_1_BR394_0_234_022">GB 5 I, 234,19-22</ref>), und darauf hinzuweisen, dass er mit dem Possessivpronomen keineswegs <quote type="G">Herrschaft oder Eigenthum</quote> (ebd.; <ref target="gb:text#GB05_1_BR394_0_235_003">GB 5 I, 235,3</ref>) zum Ausdruck habe bringen wollen. Als Fritsch im März 1800 aus dem Dienst entlassen wurde, war nicht in erster Linie eine Augenerkrankung der Grund, von der er sich nach einer Operation wieder erholte, sondern wiederum sein schroffer Charakter: Er hatte Schulden gemacht, um seine Geschwister zu unterstützen. Klagen seiner Gläubiger über säumige Zahlungen gelangten bis zu Herzog Carl August, der Fritsch wiederholt aufforderte, seine Verhältnisse in Ordnung zu bringen, im Jahr 1798 schließlich ultimativ, woraufhin Fritsch Weimar und sein Amt empört verließ und sich auf sein Gut Seerhausen (südlich von Riesa) zurückzog. Das Vertrauensverhältnis zum Herzog stellte sich nicht wieder her. Im Rückblick entwirft Goethe in einem Gespräch mit Friedrich Theodor Adam Heinrich von Müller vom 31. März 1824 ein differenziertes Bild seines Kollegen Fritsch: „Goethe rühmte, daß er <supplied>Fritsch</supplied> stets redlich gegen ihn gewesen, obgleich sein, Goethes, Treiben und Wesen ihm nicht habe zusagen können. Aber er habe doch Goethes reinen Willen, uneigennütziges Streben und tüchtige Leistungen anerkannt. Seine Gegenwart, seine Äußerlichkeit sei nie erfreulich gewesen, vielmehr starr, ja hart, bouffu <supplied>aufgeblasen</supplied>; er habe nichts Behagliches oder Feines in seinen Formen gehabt, aber viel Energie des Willens, viel Verstand“ (Müller, Unterhaltungen mit Goethe, 120). – Literaturhinweise: Beaulieu-Marconnay; Karl-Heinz Hahn: Jakob Friedrich v. Fritsch. Minister im klassischen Weimar. Weimar 1953.</p>
+  <p>Im vorliegenden Band sind neun der über 50 überlieferten Briefe Goethes an Jacob Friedrich von Fritsch abgedruckt; keiner von allen Briefen hat vornehmlich privaten Charakter, selbst der Brief nicht, der von April 1800 stammt: Goethe stattet Fritsch nach dessen Demission <quote type="G">mit gerührtem Herzen denjenigen Dank ab, welchen ich für so manche Theilnahme und Gewogenheit schuldig bin</quote> (<ref target="gb:text#GB14_1_BR254_0_220_017 #GB14_1_BR254_0_220_018">GB 14 I, 220,17-18</ref>). Nach Fritschs Ausscheiden aus dem Amt hat es offensichtlich keine Korrespondenz mehr gegeben. Die vier überlieferten Briefe Fritschs an Goethe stammen aus den Jahren 1783 und 1793.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9829_comment_com7595">
+<label xml:id="GB03_2_BR148_0_note_001_91_6" copyOf="#start_com_1421"><hi rendition="#fett">91,6</hi>Stüzzerbach</label>
+<p>Amtsdorf am Nordosthang des Thüringer Waldes (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR147_0_note_007_91_1">91,1</ref>). – Goethe war am Abend des 2. August 1776 mit Herzog Carl August und Carl Theodor von Dalberg von Ilmenau zur Jagd nach Stützerbach gekommen (vgl. <ref target="gt:dokument#108">GT I 1, 23</ref>).</p>
+
+</note>
+<note xml:id="gb9829_comment_com7596">
+<label xml:id="GB03_2_BR148_0_note_002_91_6-7" copyOf="#start_com_1422"><hi rendition="#fett">91,6-7</hi>GeheimderR.</label>
+<p>Jacob Friedrich Freiherr von Fritsch war (seit 1772) Wirklicher Geheimer Rat mit dem Titel ‚Exzellenz‘ und Vorsitzender des Geheimen Consiliums.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7607">
+<label xml:id="GB03_2_BR148_0_note_003_91_7" copyOf="#start_com_1423"><hi rendition="#fett">91,7</hi>vollzognen Papiere</label>
+<p>Ausfertigungen amtlicher Schriftstücke, die von Herzog Carl August unterzeichnet und gesiegelt waren und damit Rechtskraft erlangt hatten.</p>
+
+</note>
+<note xml:id="gb9829_comment_com14717">
+<label xml:id="GB03_2_BR148_0_note_004_91_8-9" copyOf="#start_com_1424"><hi rendition="#fett">91,8-9</hi><emph rendition="#latin">Expedition ambulante</emph></label>
+<p>Franz.: umherziehende Versandstelle. – Hier ist scherzhaft eine ‚transportable Geschäftsstelle‘ gemeint, die Goethe während der Abwesenheit von Weimar versieht (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 499).</p>
+
+</note>
+<note xml:id="gb9829_comment_com13668">
+<label xml:id="GB03_2_BR148_0_note_005_91_10" copyOf="#start_com_1425"><hi rendition="#fett">91,10</hi>wann wir zurückkommen ist ungewiss</label>
+<p>Goethe befand sich als Begleiter des Herzogs Carl August und anderer auf seiner zweiten Reise durch den Thüringer Wald; sie dauerte vom 18. Juli bis zum 14. August 1776 (vgl. weiter die Erläuterungen zu <ref target="gb:note#GB03_2_BR144_0_note_002_86_8">86,8</ref> und zu <ref target="gb:note#GB03_2_BR146_0_note_001_90_1-2">90,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb9829_comment_com16803">
+<label xml:id="GB03_2_BR148_0_note_006_91_11" copyOf="#start_com_1426"><hi rendition="#fett">91,11</hi>eingewildert</label>
+<p>Anspielung auf die im Kreis der herzoglichen Reisegesellschaft herrschende <quote type="G">liederliche Wirthschafft</quote> (<ref target="gb:text#GB03_1_BR286_0_164_004">164,4</ref>) und die naturnahen Verhältnisse mit häufigen Nachtlagern im Freien, bei denen der gewohnte Komfort fehlte und die Hofetikette gänzlich dispensiert war. Da es vor dem Bau des Jagdhauses Gabelbach 1783 an einer standesgemäßen Unterkunft für die herzogliche Jagdgesellschaft fehlte, logierte sie während der Aufenthalte in Stützerbach in dem heute nicht mehr vorhandenen Gasthaus „Zum weißen Roß“ sowie in Privathäusern wohlhabender Bürger.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7608">
+<label xml:id="GB03_2_BR148_0_note_007_91_11" copyOf="#start_com_1427"><hi rendition="#fett">91,11</hi>Trebra</label>
+<p>Friedrich Wilhelm Heinrich von Trebra, Mineraloge und Bergbauexperte (vgl. auch zu <ref target="gb:note#GB03_2_AB003_0_note_001_439_2-3">439,2–3</ref>); er fertigte ein Gutachten über die Verhältnisse des Ilmenauer Kupferschieferbergwerks an, das zu der Entscheidung führte, den Bergbau in Ilmenau wieder aufzunehmen.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7609">
+<label xml:id="GB03_2_BR148_0_note_008_91_12" copyOf="#start_com_1428"><hi rendition="#fett">91,12</hi>der Stadthalter von Erfurt</label>
+<p>Carl Theodor Reichsfreiherr von Dalberg, Statthalter des Kurfürst-Erzbischofs von Mainz in Erfurt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10892_comment_com4532">Nr 516</ref>). Dalberg war am 31. Juli 1776 in Ilmenau zur herzoglichen Gesellschaft gestoßen; unter dem 1. August notierte Goethe in sein Tagebuch: <quote type="G">Viel guts mit Dalberg.  <gap quantity="3" reason="editorial"/> Nachts bis halb eilfe mit Dalberg von Zeichnung, Gefühl der Anfärbung Dichtkunst. Composition.</quote> (<ref target="gt:dokument#107">GT I 1, 22</ref>.)</p>
+
+</note>
+<note xml:id="gb9829_comment_com16818">
+<label xml:id="GB03_2_BR148_0_note_009_91_13" copyOf="#start_com_1429"><hi rendition="#fett">91,13</hi>nicht ohne Erdgeruch</label>
+<p>Dies bezieht sich nicht nur auf das rustikale Leben während der Jagd, sondern auch auf Dalbergs Besuch von Hüttenwerken in Ilmenau: „Er <supplied>Dalberg</supplied> ist sowohl heute früh aufs Kohlen-, als heute Nachmittag aufs Eisenwerk mitjefahren <supplied>sic</supplied>“ (<ref target="sndb:sigle#76">Bergmann</ref>, 22), schrieb Herzog Carl August am 1. August 1776 aus Ilmenau an seine Mutter, Herzogin Anna Amalia.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7623">
+<label xml:id="GB03_2_BR148_0_note_010_91_13-14" copyOf="#start_com_1430"><hi rendition="#fett">91,13-14</hi>College Schnaus</label>
+<p>Christian Friedrich Schnauß, Geheimer Assistenzrat, Kollege Goethes im Geheimen Consilium.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7624">
+<label xml:id="GB03_2_BR148_0_note_011_91_15" copyOf="#start_com_1431"><hi rendition="#fett">91,15</hi>Ihr. Exell<g ref="#typoSuspension"/>.</label>
+<p>Exzellenz: der Ausgezeichnete, Hervorragende (von lat. excellere: sich auszeichnen, hervorragen), Titel von Ministern, Diplomaten und hohen Beamten. Jacob Friedrich Freiherr von Fritsch führte den Titel seit 1772.</p>
+
+</note>
+<note xml:id="gb9829_comment_com7625">
+<label xml:id="GB03_2_BR148_0_note_012_91_16" copyOf="#start_com_1432"><hi rendition="#fett">91,16</hi>des ledernen Sacks mit dem Riemen</label>
+<p>Spezieller Postsack zum sicheren Transport der zu versendenden amtlichen Schriftstücke, auch als Felleisen (von mlat. valisia: Satteltasche) bezeichnet (vgl. auch <ref target="gb:note#gb9829_comment_com2281">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb9829_comment_com14487">
+<label xml:id="GB03_2_BR148_0_note_013_91_18" copyOf="#start_com_1433"><hi rendition="#fett">91,18</hi>Frau Gemahlinn</label>
+<p>Johanna Sophia von Fritsch geb. von Haeseler.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

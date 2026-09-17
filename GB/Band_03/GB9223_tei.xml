@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1430"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9223" n="GB 3, Nr. 142">
+  <teiHeader xml:id="gb9223_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>142.</label> An <persName key="sndb:person#38559">Johann Christian Kestner</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 9. Juli 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:57Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9223_tei.xml</idno>
+        <idno type="URI">gb9223</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR142_0</idno>
+        <idno type="KSW-ID">9223</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="84" to="85">84-85</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="332" to="334">332-334</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9223_header_hwit1019" corresp="#gb9223_source_hwit1019" sameAs="#gb9223_comment_hwit1019" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/264,I,4 Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8285</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9223,,1019/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Kinder. Ich hab so vielerley von Stund zu Stund das mich herumwirft, ehmals</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-07-09">9. Juli 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38559">Kestner, Johann Christian</persName>
+            <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9223_source_hwit1019" corresp="#gb9223_header_hwit1019" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9223/11909"/>
+      <p>
+        <anchor xml:id="GB03_1_BR142_0_084_020"/>Liebe Kinder. Ich hab so vielerley von Stund zu Stund das mich herumwirft, 
+<anchor xml:id="GB03_1_BR142_0_084_021"/>ehmahls warens meine eigne Gefühle, iezt sind<ptr n="1" target="#a001_84.21"/> neben denen, 
+<anchor xml:id="GB03_1_BR142_0_084_022"/>noch die Verworrenheiten<ptr n="2" target="#a002_84.22"/> andrer Menschen die ich tragen und zurecht 
+<anchor xml:id="GB03_1_BR142_0_085_001"/>legen muss. So viel nur: <ref target="gb:note#GB03_2_BR142_0_note_001_85_1" xml:id="start_com_1332"/>ich bleibe hier<ref xml:id="end_com_1332"/>, und kann da wo ich, 
+<anchor xml:id="GB03_1_BR142_0_085_002"/>und wie ich bin meines Lebens geniessen, und <ref target="gb:note#GB03_2_BR142_0_note_002_85_2-3" xml:id="start_com_1333"/>einem der edelsten 
+<anchor xml:id="GB03_1_BR142_0_085_003"/>Menschen<ref xml:id="end_com_1333"/>, in mancherley zuständen förderlich und dienstlich seyn. 
+<anchor xml:id="GB03_1_BR142_0_085_004"/>Der Herzog mit dem ich nun schon <ref target="gb:note#GB03_2_BR142_0_note_003_85_4" xml:id="start_com_1334"/>an die 9 Monate<ref xml:id="end_com_1334"/> in der wahrsten 
+<anchor xml:id="GB03_1_BR142_0_085_005"/>und innigsten Seelen Verbindung stehe, hat mich endlich auch <ref target="gb:note#GB03_2_BR142_0_note_004_85_5-6" xml:id="start_com_1335"/>an 
+<anchor xml:id="GB03_1_BR142_0_085_006"/>seine Geschäffte gebunden<ref xml:id="end_com_1335"/>, aus unsrer Liebschafft ist eine Ehe entstanden 
+<anchor xml:id="GB03_1_BR142_0_085_007"/>die Gott seegne. <pb n="2" facs="gb:digitalisate#9223/11910"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR142_0_085_008"/>Er hat mir Siz<ptr n="3" target="#a003_85.8"/> und Stimme in seinem Geheimen Rath; und den 
+<anchor xml:id="GB03_1_BR142_0_085_009"/>Titel als Geheimer Legationsrath geben, und wir hoffen das beste.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR142_0_085_010"/>Viel gute liebe Menschen giebts noch hier mit deren Allgemeiner 
+<anchor xml:id="GB03_1_BR142_0_085_011"/>Zufriedenheit ich da bleibe, <ref target="gb:note#GB03_2_BR142_0_note_005_85_11-12" xml:id="start_com_1336"/>ob ich gleich manchem nicht so recht 
+<anchor xml:id="GB03_1_BR142_0_085_012"/>anstehe<ref xml:id="end_com_1336"/>.    Addio behaltet mich lieb.    d<g ref="#typoSuspension"/>. 9 Jul. 76. Weimar</p>
+      <p rendition="#einrueck2_voll">
+        <anchor xml:id="GB03_1_BR142_0_085_013"/>Schreibt mir was von <ref target="gb:note#GB03_2_BR142_0_note_006_85_13" xml:id="start_com_1337"/>euern Kindern<ref xml:id="end_com_1337"/>. <ref target="gb:note#GB03_2_BR142_0_note_007_85_13-14" xml:id="start_com_1338"/>Matthai hat mir einen 
+<anchor xml:id="GB03_1_BR142_0_085_014"/>Brief bracht.<ref xml:id="end_com_1338"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR142_0_085_015"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9223_comment">
+<body>
+<div type="metadata" xml:id="gb9223_comment_com1201">
+  <ab type="numberAddressee"><label>142.</label> An <persName key="sndb:person#38559">Johann Christian Kestner</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 9. Juli 1776 → <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9223_comment_com3245">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8285">GSA 29/264,I,4</ref>, Bl. 1. – 1 Bl. 13,4(–13,8) × 18,8(–19,4) cm, linker Rand abgerissen (Hälfte eines Folioblattes), 1 &#x2154; S. beschr., egh., Tinte, flüchtig geschrieben.</p>
+  <p>E: <ref target="sndb:sigle#2874">Goethe und Werther<hi rendition="#sup">1</hi></ref> (1854), 246 f., Nr 115.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 81 f., Nr 483.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9223_comment_com5041">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Goethe hatte Johann Christian Kestner (1741–1800) und dessen Braut Charlotte Buff (1753–1828) während seiner Zeit als Praktikant am Reichskammergericht in Wetzlar kennen gelernt, wo er sich von Ende Mai bis zum 11. September 1772 aufhielt. Sowohl mit Kestner als auch mit Charlotte, in deren Elternhaus er häufig zu Gast war, pflegte Goethe freundschaftlichen Umgang. Ohne persönlichen Abschied reiste Goethe am 11. September von Wetzlar ab, sah das Paar aber während seines zweiten Besuchs vom 6. bis 10. November 1772 wieder. Ein intensiver Briefwechsel setzte nach Goethes Weggang aus Wetzlar ein. Nach Goethes Übersiedlung nach Weimar entstand in der überlieferten Korrespondenz, die seit Mitte 1773 ohnehin nicht mehr so eng war und sich nach dem Erscheinen von Goethes Roman „Die Leiden des jungen Werthers“ (1774) noch stärker abgeschwächt hatte, eine Pause von fast zwei Jahren. Der vorliegende Brief ist der erste überlieferte Brief Goethes aus Weimar an Johann Christian und Charlotte Kestner, die am 4. April 1773 geheiratet hatten und in Kestners Heimatstadt Hannover gezogen waren. Dort wurde Kestner Registrator am Calenberger Archiv, 1775 Archivsekretär des vereinigten cellischen und calenbergischen Archivs und Lehnsfiskal. Aus dem Zeitraum von November 1775 bis Ende 1779 sind noch zwei weitere Briefe Goethes an Kestner überliefert. Von Kestner und dessen Frau haben sich aus diesem Zeitraum keine Briefe erhalten. Goethes Briefe vom 28. September 1777 (vgl. <ref target="gb:text#GB03_1_BR290_0_169_009">169,9</ref>) und vom 23. Januar 1778 (vgl. <ref target="gb:text#GB03_1_BR325_0_194_001">194,1</ref>) setzen jedoch Briefe Kestners voraus. Über das Verhältnis Goethes zu Johann Christian und Charlotte Kestner und den Briefwechsel vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10505_comment_com22674">GB 1 II, Nr 99</ref> und <ref target="gb:note#gb10474_comment_com22566">101</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9223_comment_com17979">
+<label xml:id="GB03_2_BR142_0_note_001_85_1" copyOf="#start_com_1332"><hi rendition="#fett">85,1</hi>ich bleibe hier</label>
+<p>Goethes Entscheidung, dauerhaft in Weimar zu bleiben, war schon im März 1776 gefallen, nachdem feststand, dass er in den Weimarer Staatsdienst treten werde (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>). Am 18. März 1776 hatte sich Goethe eine eigene Wohnung gemietet und nach dem Erwerb des Gartens im Park am 26. April 1776 das Weimarer Bürgerrecht erhalten (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>). An Johanna Fahlmer hatte Goethe schon am 19. Februar 1776 geschrieben: <quote type="G">ich bleibe hier</quote> (<ref target="gb:text#GB03_1_BR046_0_032_013">32,13</ref>).</p>
+
+</note>
+<note xml:id="gb9223_comment_com7350">
+<label xml:id="GB03_2_BR142_0_note_002_85_2-3" copyOf="#start_com_1333"><hi rendition="#fett">85,2-3</hi>einem der edelsten Menschen</label>
+<p>Herzog Carl August von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb9223_comment_com7351">
+<label xml:id="GB03_2_BR142_0_note_003_85_4" copyOf="#start_com_1334"><hi rendition="#fett">85,4</hi>an die 9 Monate</label>
+<p>Goethe war, nachdem Carl August ihn im September 1775 in Frankfurt dazu eingeladen hatte, am 7. November 1775 in Weimar angekommen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR184_0_note_001_116_10">116,10</ref>).</p>
+
+</note>
+<note xml:id="gb9223_comment_com7352">
+<label xml:id="GB03_2_BR142_0_note_004_85_5-6" copyOf="#start_com_1335"><hi rendition="#fett">85,5-6</hi>an seine Geschäffte gebunden</label>
+<p>Seit dem 11. Juni 1776 war Goethe Geheimer Legationsrat mit Sitz und Stimme im Geheimen Consilium; am 25. Juni war er in sein Amt eingeführt worden (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_002_81_23">81,23</ref>).</p>
+
+</note>
+<note xml:id="gb9223_comment_com16813">
+<label xml:id="GB03_2_BR142_0_note_005_85_11-12" copyOf="#start_com_1336"><hi rendition="#fett">85,11-12</hi>ob ich gleich manchem nicht so recht anstehe</label>
+<p>Anstehen: (jemandem) zusagen; hier: den „gesellschaftlichen Konventionen gemäß“ erscheinen (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 704). – Anspielung auf den Widerstand von verschiedenen Seiten der Weimarer Beamtenschaft und des Hofs gegen Goethes Eintritt in den Weimarer Staatsdienst. Vor allem der Vorsitzende des Geheimen Consiliums Jacob Friedrich von Fritsch lehnte Goethes Berufung ab und drohte mit Demission (vgl. zu  <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref>). Das ‚kraftgenialische‘ Treiben und Goethes Nähe zum Herzog stießen auf Unverständnis und Ablehnung in Weimarer Hofkreisen (vgl. zu <ref target="gb:note#GB03_2_BR004_0_note_005_5_18">5,18</ref>).</p>
+
+</note>
+<note xml:id="gb9223_comment_com7353">
+<label xml:id="GB03_2_BR142_0_note_006_85_13" copyOf="#start_com_1337"><hi rendition="#fett">85,13</hi>euern Kindern</label>
+<p>Das Ehepaar Kestner hatte damals zwei Söhne, Georg (geb. 1774), der Goethe zum Paten hatte, und Wilhelm (geb. 1775). Am 23. Oktober 1776 wurde der dritte Sohn Carl geboren.</p>
+
+</note>
+<note xml:id="gb9223_comment_com16844">
+<label xml:id="GB03_2_BR142_0_note_007_85_13-14" copyOf="#start_com_1338"><hi rendition="#fett">85,13-14</hi>Matthai hat mir einen Brief bracht.</label>
+<p>Carl Johann Conrad Michael Matthaei, geboren in Nürnberg, hatte zunächst in Altdorf Theologie studiert, bevor er im Sommersemester 1765 nach Leipzig wechselte, wo er sich den schönen Künsten und Wissenschaften widmete und u. a. mit Christian Fürchtegott Gellert und Adam Friedrich Oeser bekannt war. Ob Matthaei während dieser Zeit Goethe kennen gelernt hat, ist nicht bekannt. Seit Frühjahr 1768 bekleidete Matthaei verschiedene Hofmeisterstellen und im Frühjahr 1776 reiste er zusammen mit zwei reichen Nürnbergern, „die die ‚Kunst und Litteratur‘ des Landes kennen lernen“ wollten (Carl Scherer: Carl Matthaei. In: <ref target="sndb:sigle#1266">GJb</ref> XV [1894], 235). Danach war er als Privatsekretär bei Maria Antonia von Branconi und als Erzieher ihres Sohnes Karl Anton Ferdinand von Forstenburg angestellt. Während seiner Reise in die Schweiz 1779 sah Goethe Matthaei am 22. Oktober in Lausanne wieder (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_025_323_26">323,26</ref>), in den folgenden Jahren kam es zu weiteren Begegnungen (vgl. ebd., 216–244). – Wann Matthaei sich in Weimar aufhielt und von wem der überbrachte  <quote type="G">Brief</quote> war, konnte nicht ermittelt werden.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

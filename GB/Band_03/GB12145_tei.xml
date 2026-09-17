@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3230"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12145" n="GB 3, Nr. 314">
+  <teiHeader xml:id="gb12145_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>314.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 27. Dezember 1777. Samstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:19Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12145_tei.xml</idno>
+        <idno type="URI">gb12145</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR314_0</idno>
+        <idno type="KSW-ID">12145</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="187" to="187">187</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="637" to="638">637-638</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12145_header_hwit1290" corresp="#gb12145_source_hwit1290" sameAs="#gb12145_comment_hwit1290" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 86</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12145,,1290/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Heut früh ahndet ich so was, also adieu für heute. Ich bleibe    zu Haus, um mit dem</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb12145_header_acc205" corresp="gb12145_comment_acc205">
+            <objectIdentifier>
+              <objectName>Manuskripte von Plessing </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-12-27"><supplied>27. Dezember 1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12145_source_hwit1290" corresp="#gb12145_header_hwit1290" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12145/22763"/>
+      <p>
+        <anchor xml:id="GB03_1_BR314_0_187_022"/>
+        <ref target="gb:note#GB03_2_BR314_0_note_001_187_22" xml:id="start_com_2875"/>Heut früh ahndet ich so was<ref xml:id="end_com_2875"/>, <ref target="gb:note#GB03_2_BR314_0_note_002_187_22" xml:id="start_com_2876"/>also adieu für heute<ref xml:id="end_com_2876"/>. Ich bleibe<ptr n="1" target="#a001_187.22"/> zu haus, 
+<anchor xml:id="GB03_1_BR314_0_187_023"/>um mit dem <ref target="gb:note#GB03_2_BR314_0_note_003_187_23" xml:id="start_com_2877"/>sechsten Ackt<ref xml:id="end_com_2877"/> fertig zu werden und geh nicht auf die 
+<anchor xml:id="GB03_1_BR314_0_187_024"/>
+        <ref target="gb:note#GB03_2_BR314_0_note_004_187_24" xml:id="start_com_2878"/>Redoute<ref xml:id="end_com_2878"/>. Hir sind <ref target="gb:note#GB03_2_BR314_0_note_005_187_24" xml:id="start_com_2879"/>Pl. Papiere<ref xml:id="end_com_2879"/>.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12145_comment">
+<body>
+<div type="metadata" xml:id="gb12145_comment_com769">
+  <ab type="numberAddressee"><label>314.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>27. Dezember 1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb12145_comment_com1745">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd II) wurde der vorliegende Brief in den Oktober/November des Jahrgangs 1780 eingeordnet. Sein Inhalt verweist auf eine frühere Datierung in den Dezember 1777 nach der Rückkehr von der Harzreise (vgl. zu <ref target="gb:note#GB03_2_BR314_0_note_003_187_23">187,23</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR314_0_note_005_187_24">187,24</ref>). Nach der Erwähnung der <quote type="G">Redoute </quote> (<ref target="gb:text#GB03_1_BR314_0_187_024">187,24</ref>) lässt sich als Tag der 27. Dezember erschließen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR314_0_note_004_187_24">187,24</ref>). Im Erstdruck wurde der Brief auf Ende Dezember 1777 datiert, seit Fielitz auf den 27. Dezember 1777 (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 108).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12145_comment_com2813">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 86. – 1 Bl. 16,5 × 10,4 cm, &#x2153; S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „76.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1780, Nr 83), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 143.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 203, Nr 658.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb12145_comment_com3666">
+  <p>Manuskripte von Plessing (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR314_0_note_005_187_24">187,24</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb12145_comment_com4609">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12145_comment_com12582">
+<label xml:id="GB03_2_BR314_0_note_001_187_22" copyOf="#start_com_2875"><hi rendition="#fett">187,22</hi>Heut früh ahndet ich so was</label>
+<p>Möglicherweise mit Bezug auf die im Folgenden erwähnte Arbeit zum Abschluss der „Empfindsamen“, zu der Goethe von dem Kammerherrn und Komponisten Carl Friedrich Sigmund von Seckendorff aufgefordert worden sein könnte (vgl. die folgende <ref target="gb:note#GB03_2_BR314_0_note_002_187_22">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb12145_comment_com18390">
+<label xml:id="GB03_2_BR314_0_note_002_187_22" copyOf="#start_com_2876"><hi rendition="#fett">187,22</hi>also adieu für heute</label>
+<p>Möglicherweise hatten sich Goethe und Charlotte von Stein kurz zuvor gesehen. Auch dieser Umstand spricht dafür, dass der Brief vom 27. Dezember 1777 stammt. Laut Fourierbuch fand an diesem Tag die fürstliche Tafel „auf den Schwansee“ (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 241) statt, dem zugefrorenen Teich im so genannten Baumgarten (heute Schwanseepark hinter dem Bertuchhaus), der im Winter für Schlittenfahrten und Schlittschuhlaufen genutzt wurde (vgl. zu <ref target="gb:note#GB03_2_BR198_0_note_007_122_1">122,1</ref>). Offenbar war in dieser Umgebung auch die Hofetikette lockerer als üblich. Auf der Gästeliste steht neben dem Ehepaar von Stein und dem „Cammerh<g ref="#typoSuspension"/>. v. Seckendorff“ auch der „Geh. Leg<g ref="#typoSuspension"/>. Gehde“ (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 241).</p>
+
+</note>
+<note xml:id="gb12145_comment_com12593">
+<label xml:id="GB03_2_BR314_0_note_003_187_23" copyOf="#start_com_2877"><hi rendition="#fett">187,23</hi>sechsten Ackt</label>
+<p>Der sechste und letzte Akt der „Empfindsamen“, die mit der Musik Sigmund von Seckendorffs am 30. Januar 1778 anlässlich des 21. Geburtstages der Herzogin Louise vom Weimarer Liebhabertheater uraufgeführt wurden (vgl. zu <ref target="gb:note#GB03_2_BR288_0_note_016_165_21-22">165,21-22</ref>). Dass Goethe im Dezember 1777 daran arbeitete, belegt u. a. ein Brief Herders vom 22. Dezember an Gleim: „Göthe arbeitet an einem neuen Stück zum Geburtstag der Herzogin, wo von aber kein Mensch noch nichts weiß.“ (<ref target="sndb:sigle#2904">HB</ref> 4, 50.)</p>
+
+</note>
+<note xml:id="gb12145_comment_com12594">
+<label xml:id="GB03_2_BR314_0_note_004_187_24" copyOf="#start_com_2878"><hi rendition="#fett">187,24</hi>Redoute</label>
+<p>Maskenball (zu den Weimarer Redouten vgl. zu <ref target="gb:note#GB03_2_BR030_0_note_001_24_18">24,18</ref>); laut Fourierbuch fand am 27. Dezember 1777 „die Erste Redoute“ des Winters statt (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 241).</p>
+
+</note>
+<note xml:id="gb12145_comment_com18308">
+<label xml:id="GB03_2_BR314_0_note_005_187_24" copyOf="#start_com_2879"><hi rendition="#fett">187,24</hi>Pl. Papiere</label>
+<p>Nicht überlieferte Aufzeichnungen oder Briefe Friedrich Victor Leberecht Plessings, den Goethe am 3. Dezember 1777 in Wernigerode besucht hatte (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>). Plessings Name wird auch im Tagebuch vom 22. bis 25. Februar 1778 mit <quote type="G">Pl.</quote> abgekürzt (<ref target="gt:dokument#530">GT I 1, 61</ref>). Wahrscheinlich hatte Goethe nach seiner Rückkehr aus dem Harz Charlotte von Stein, wie im Brief vom 4. Dezember angekündigt, von seinem ‚Abenteuer‛ mit Plessing erzählt (vgl. <ref target="gb:text#GB03_1_BR309_0_179_016 #GB03_1_BR309_0_179_017">179,16–17</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

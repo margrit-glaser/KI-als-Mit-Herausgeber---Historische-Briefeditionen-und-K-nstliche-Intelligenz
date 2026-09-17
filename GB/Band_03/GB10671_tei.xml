@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="240"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10671" n="GB 3, Nr. 24">
+  <teiHeader xml:id="gb10671_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>24.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 18. Januar? 1776. Donnerstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10671_tei.xml</idno>
+        <idno type="URI">gb10671</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR024_0</idno>
+        <idno type="KSW-ID">10671</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="21" to="22">21-22</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="98" to="99">98-99</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10671_header_hwit918" corresp="#gb10671_source_hwit918" sameAs="#gb10671_comment_hwit918" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 8</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10671,,918/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier durch Schnee und Frost eine Blume. Wie durch das Eis und Sturmwetter des Lebens meine Liebe</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10671_header_acc198" corresp="gb10671_comment_acc198">
+            <objectIdentifier>
+              <objectName><quote type="G">Blume</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-18"><supplied>18. Januar? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-03-01" to="1776-03-31"><supplied>März 1776?</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10671_source_hwit918" corresp="#gb10671_header_hwit918" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10671/22273"/>
+      <p>
+        <anchor xml:id="GB03_1_BR024_0_021_020"/>Hier <ref target="gb:note#GB03_2_BR024_0_note_001_21_20" xml:id="start_com_0334"/>durch Schnee und Frost<ref xml:id="end_com_0334"/>
+        <ref target="gb:note#GB03_2_BR024_0_note_002_21_20" xml:id="start_com_0335"/>eine Blume<ref xml:id="end_com_0335"/>. Wie durch das Eis und 
+<anchor xml:id="GB03_1_BR024_0_021_021"/>Sturmwetter des Lebens meine Liebe. Vielleicht komm ich heute. Ich 
+<anchor xml:id="GB03_1_BR024_0_022_001"/>bin wohl und ruhig. und meyne ich hätte <ref target="gb:note#GB03_2_BR024_0_note_003_22_1" xml:id="start_com_0336"/>sie<ref xml:id="end_com_0336"/> um viel lieber als sonst, 
+<anchor xml:id="GB03_1_BR024_0_022_002"/>das doch immer nur ieden Tag meist so vorkommt</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR024_0_022_003"/>
+        <signed rend="paraph" rendition="#einrueck22">G</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10671_comment">
+<body>
+<div type="metadata" xml:id="gb10671_comment_com7">
+  <ab type="numberAddressee"><label>24.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>18. Januar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10671_comment_com1392">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach dem datierten Brief vom 4. März 1776 (<ref target="gb:dokument#10663">Nr 54</ref>) eingeordnet. Der Inhalt verweist auf ein etwas früheres Datum: Die Wendung <quote type="G">durch Schnee und Frost</quote> (<ref target="gb:text#GB03_1_BR024_0_021_020">21,20</ref>) nimmt wörtlich die Formulierung <quote type="G">durch Frost und Schnee</quote> (<ref target="gb:text#GB03_1_BR023_0_021_007">21,7</ref>) im Brief vom 16. Januar 1776 auf, die sich sonst nicht wieder in Goethes Briefen findet. Auch inhaltlich scheint der Brief damit eher in den Januar als in den März zu gehören. Ein weiteres Argument für die Datierung in den Januar ist die Anrede ‚Sie‘ (vgl. <ref target="gb:text#GB03_1_BR024_0_022_001">22,1</ref>). Etwa seit Ende Januar 1776 geht Goethe in seinen Briefen an die Weimarer Freundin mehr und mehr zum ‚Du‘ über (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>); in den datierten Briefen vom 23. Februar (<ref target="gb:dokument#10386">Nr 50</ref>) bis zum 4. März 1776 (<ref target="gb:dokument#10663">Nr 54</ref>) verwendet er durchgängig die Anrede ‚Du‘, die er erst nach einer Aussprache mit Charlotte von Stein am 6. März 1776 vorübergehend wieder aufgibt (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_001_42_12">42,12</ref>). Der vorliegende Brief ist demnach wahrscheinlich nicht lange nach Brief <ref target="gb:dokument#10621">Nr 23</ref> geschrieben worden, und zwar am 18. Januar nach der Rückkehr vom Jagdausflug mit dem Herzog (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 19).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10671_comment_com2051">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 8. – 1 Bl. 19,6 × 10(–10,2) cm, 1 S. beschr., egh., Bleistift, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „20“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 20), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 14.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 36, Nr 410.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10671_comment_com3435">
+  <p><quote type="G">Blume</quote> (vgl. zu <ref target="gb:note#GB03_2_BR024_0_note_002_21_20">21,20</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10671_comment_com3847">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10671_comment_com9776">
+<label xml:id="GB03_2_BR024_0_note_001_21_20" copyOf="#start_com_0334"><hi rendition="#fett">21,20</hi>durch Schnee und Frost</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR023_0_021_007">21,7</ref>.</p>
+
+</note>
+<note xml:id="gb10671_comment_com9792">
+<label xml:id="GB03_2_BR024_0_note_002_21_20" copyOf="#start_com_0335"><hi rendition="#fett">21,20</hi>eine Blume</label>
+<p>Wahrscheinlich eine im Topf gezogene Pflanze; möglicherweise auch eine getrocknete oder eine gezeichnete Blume.</p>
+
+</note>
+<note xml:id="gb10671_comment_com9793">
+<label xml:id="GB03_2_BR024_0_note_003_22_1" copyOf="#start_com_0336"><hi rendition="#fett">22,1</hi>sie</label>
+<p>Vgl. <ref target="gb:note#gb10671_comment_com1392">Datierung</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

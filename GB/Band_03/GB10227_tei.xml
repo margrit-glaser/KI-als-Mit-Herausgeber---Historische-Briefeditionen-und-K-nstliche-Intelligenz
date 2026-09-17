@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5130"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10227" n="GB 3, Nr. 503">
+  <teiHeader xml:id="gb10227_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>503.</label> An <persName key="sndb:person#45398" cert="low">Josias von Stein?</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 31. Mai 1779. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:44Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10227_tei.xml</idno>
+        <idno type="URI">gb10227</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR503_0</idno>
+        <idno type="KSW-ID">10227</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="280" to="280">280</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="920" to="923">920-923</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10227_header_hwit1491" corresp="#gb10227_source_hwit1491" sameAs="#gb10227_comment_hwit1491" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 105 b</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10227,,1491/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Heute muss ich nothwendig reiten. Ist mein Schimmel wieder in leidlichen Umständen?</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-05-31"><supplied>31. Mai 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45398" cert="low">? Stein, Josias von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10227_source_hwit1491" corresp="#gb10227_header_hwit1491" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10227/13934"/>
+      <p>
+        <anchor xml:id="GB03_1_BR503_0_280_008"/>Heute muss ich nothwendig reiten. Ist <ref target="gb:note#GB03_2_BR503_0_note_001_280_8" xml:id="start_com_4038"/>mein Schimmel<ref xml:id="end_com_4038"/> wieder in leidlichen 
+<anchor xml:id="GB03_1_BR503_0_280_009"/>Umständen?<ptr n="1" target="#a001_280.9"/> sonst soll mein <ref target="gb:note#GB03_2_BR503_0_note_002_280_9" xml:id="start_com_4039"/>Philipp<ref xml:id="end_com_4039"/> zu <ref target="gb:note#GB03_2_BR503_0_note_003_280_9" xml:id="start_com_4040"/>Razemann<ref xml:id="end_com_4040"/> gehn. Wollten 
+<anchor xml:id="GB03_1_BR503_0_280_010"/>Sie mich etwa abholen?<ptr n="2" target="#a002_280.10"/> und die tour mit machen? so mich sehr 
+<anchor xml:id="GB03_1_BR503_0_280_011"/>erfreuen würde.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR503_0_280_012"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR503_0_280_013"/>Allenfalls <ref target="gb:note#GB03_2_BR503_0_note_004_280_13" xml:id="start_com_4041"/>nähmen wir Herdern mit<ref xml:id="end_com_4041"/> und ritten auf die <ref target="gb:note#GB03_2_BR503_0_note_005_280_13-14" xml:id="start_com_4042"/>Hottelstädter 
+<anchor xml:id="GB03_1_BR503_0_280_014"/>Ecke<ref xml:id="end_com_4042"/> und <ref target="gb:note#GB03_2_BR503_0_note_006_280_14" xml:id="start_com_4043"/>nach Ettersburg<ref xml:id="end_com_4043"/>.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR503_0_280_015"/>Befehlen Sie nur Philipen wegen des Pferds und was er thun soll.</p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#10227/13935" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10227_comment">
+<body>
+<div type="metadata" xml:id="gb10227_comment_com941">
+  <ab type="numberAddressee"><label>503.</label> An <persName key="sndb:person#45398" cert="low">? Josias von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>31. Mai 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10227_comment_com1818">
+  <p>Das Datum lässt sich aus dem Inhalt des Briefes und der Übereinstimmung mit Goethes Tagebuch vom 31. Mai 1779 erschließen (vgl. zu <ref target="gb:note#GB03_2_BR503_0_note_005_280_13-14">280,13-14</ref>).</p>
+</div>
+
+<div type="addressee" xml:id="gb10227_comment_com2036">
+  <p>Dass es sich bei dem Adressaten um Gottlob Ernst Josias Friedrich von Stein handelt, legt der Inhalt des Briefes nahe: Stein war als Oberstallmeister zuständig für den herzoglichen Marstall. Aus Goethes Brief an Charlotte von Stein vom 3. Mai 1777 (<ref target="gb:dokument#11659">Nr 257</ref>) geht hervor, dass er Pferde aus dem herzoglichen Stall ritt und sich diese von Stein satteln und bringen ließ (vgl. auch Brief an Charlotte von Stein vom 4. Juni 1780; <ref target="gb:dokument#12100">GB 4, Nr 105</ref>). Briefen an dieselbe vom 5. und vom 15. März 1779 (<ref target="gb:dokument#11967">Nr 469</ref> und <ref target="gb:dokument#11697">482</ref>) ist zu entnehmen, dass Goethe bevorzugt einen Schimmel ritt. Schließlich ist durch die Briefe an Charlotte vom 22. Juni 1776 (<ref target="gb:dokument#10965">Nr 133</ref>) und vom 3. Mai 1777 (<ref target="gb:dokument#11659">Nr 257</ref>) auch belegt, dass Goethe gelegentlich in Begleitung Steins ausritt. Vermutlich ist daher die Anfrage im vorliegenden Brief an Josias von Stein gerichtet.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10227_comment_com2985">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 105<hi rendition="#sup">b</hi>. – 1 Bl. 18,6(–18,8) × 11,3(–11,5) cm, von größerem Bl. abgerissen, &#xBE; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 234.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 39, Nr 821.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10227_comment_com4781">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Gottlob Ernst Josias Friedrich Freiherr von Stein (1735–1793) wurde als Sohn des kaiserlichen Reichshofrats Friedrich Christian Ludwig Freiherrn von Stein und dessen Frau Charlotte geb. von Rotenhan in Regensburg geboren, wo der Vater als Gesandter an der Reichsversammlung teilnahm. Der früh (1739) verstorbene Vater war Herr von Gut und Schloss Kochberg. Stein besuchte das Gymnasium in Coburg und trat bereits mit 20 Jahren als Kammerassessor in weimarische Dienste. Vor Antritt seines Amtes fiel ihm jedoch die Aufgabe zu, den schwarzburg-rudolstädtischen Erbprinzen Friedrich Carl auf einer Bildungsreise nach Frankreich und durch die Niederlande zu begleiten. Nach seiner Rückkehr wurde er von Herzog Ernst August II. Constantin von Sachsen-Weimar und Eisenach zum Kammerjunker ernannt; nach dessen Tod 1758 machte ihn seine Witwe, Herzogin Anna Amalia, im Jahr 1760 zum herzoglich-weimarischen Stallmeister. Als Ende 1775 Herzog Carl August seine Regierung antrat, beförderte er ihn zu seinem Oberstallmeister, der 130 Zug- und Reitpferde zu betreuen sowie das Gestüt von Allstedt zu verwalten hatte (vgl. <ref target="sndb:sigle#4540">Andreas, Carl August</ref>, 337). Wie sehr Carl August ihn schon als Erbprinz schätzte, zeigt ein Widmungsblatt für Josias von Stein zu dessen 32. Geburtstag am 14. März 1767. Mit Bezug auf eine Zeichnung in der oberen Hälfte des Blattes, die Stein als Neugeborenen mit einem „Lapis pretiotissimus“ (äußerst wertvollen Stein) zeigt, schreibt der neunjährige Erbprinz folgende Widmung darunter: „De quelque côté qu’on me tourne, je serois solidement posé. / Charles Auguste, Votre constant / ami.“ (H: <ref target="archivdb:dokument#422558">GSA 122/15d</ref>. – Auf welche Seite man mich auch dreht, ich werde standhaft bleiben. Carl August, Ihr beständiger Freund.) – Stein wird als gut aussehender Mann, weltgewandter Hofmann, zuverlässiger Beamter, angenehmer Gesellschafter, guter Tänzer und hervorragender Reiter beschrieben, der sogar gelegentlich im Reithaus als Kunstreiter auftrat; in seinem Brief vom 17. Juli 1776 (<ref target="gb:dokument#11093">Nr 144</ref>) berichtete Goethe etwa Charlotte von Stein: <quote type="G">Dein Mann hat heut Reuter Künste getrieben</quote> (<ref target="gb:text#GB03_1_BR144_0_087_010 #GB03_1_BR144_0_087_011">87,10–11</ref>). Persönlich galt er als gutherzig, aufrichtig, heiter und gottesfürchtig. Als Gutsbesitzer konnte er jedoch seine Interessen auch kühl berechnend und eigennützig durchsetzen. Statt wissenschaftlicher oder künstlerischer Ambitionen besaß Stein eine Neigung fürs Praktische. Er hatte eine Vorliebe für Handwerkliches und Landwirtschaftliches. So befasste er sich mit Wagenbau und experimentierte in diesem Zusammenhang mit der Vervollkommnung von Lacken; ebenso unternahm er Versuche mit neuen Methoden zur Bodenverbesserung in Kochberg und errichtete eine Branntweinbrennerei, wobei nicht alle Unternehmungen den gewünschten Erfolg mit sich brachten. Fritz von Stein lieferte in einer autobiographischen Skizze folgende Charakterisierung seines Vaters: „Er besaß sehr strenge Rechtschaffenheit und fast ängstliche Frömmigkeit, er verstand vollkommen die Landwirtschaft, und hatte eine Liebhaberei für alles Technische, hatte den Ton der feinen Welt bei angenehmem Äußeren, wie ihn keiner seiner Söhne in gleichem Maaße erreicht hat.“ (<ref target="sndb:sigle#1116">Briefe an Fritz von Stein</ref>, 3.)</p>
+  <p rendition="#einrueck1">Im Mai 1764 heiratete Josias von Stein, 29 Jahre alt, die 21-jährige Charlotte von Schardt. Das Ehepaar lebte abwechselnd auf dem zum Gut Kochberg gehörenden Wasserschloss und in der Weimarer Stadtwohnung, zunächst in der Nähe des Erfurter Tores. Einen großen Teil seiner Zeit verbrachte Stein auf dienstlichen Reisen, etwa zum Pferdekauf. Den größten Teil des Tages hielt er sich bei Hofe auf. Im Sommer 1777 erkrankte Stein plötzlich während eines Badeaufenthalts in Pyrmont. Von da an litt er an einem nicht näher zu bestimmenden Kopfleiden, das mit Kopfschmerzen und Zuständen von Niedergeschlagenheit verbunden war. Goethe verzeichnete die <quote type="G">fatale Nachricht von Steinen</quote> (<ref target="gt:dokument#384">GT I 1, 44</ref>) unter dem 3. Juli 1777 im Tagebuch. Die Symptome dieser Erkrankung kehrten in den folgenden Jahren immer wieder und verstärkten sich. Schiller, der Stein allerdings erst lange nach dessen Erkrankung kennen lernte, charakterisierte diesen in einem Brief an Christian Gottfried Körner vom 5. Juli 1788 mit drastischen Worten: „Er ist ein leeres Geschöpf, ein Kopfhänger dabey und sein Verstand ist in täglicher Gefahr.“ (<ref target="sndb:sigle#860">NA</ref> 25, 76.) Im Oktober 1789 wurde Stein von einem ersten Schlaganfall getroffen, der ihn teilweise lähmte und seiner Gemütskrankheit vollends zum Durchbruch verhalf. Weitere Schlaganfälle folgten im Februar 1790, im Februar 1791 und im Sommer 1793. Am Weihnachtstag 1793 brach er ein letztes Mal zusammen und starb am 28. Dezember. Es wurde eine Obduktion vorgenommen, über die Charlotte von Stein am 15. Januar 1794 an Charlotte Schiller schrieb: „<gap quantity="3" reason="editorial"/> wie man seinen Kopff öffnete fand man einen Knochen der ihm ins Gehirn gewachsen war“ (H: <ref target="archivdb:dokument#264335">GSA 83/1856,2</ref>). Carl von Stein erklärte dies „durch einen Fall in seiner Jugend“ (Brief an Fritz von Stein, 30. Dezember 1793; <ref target="sndb:sigle#1116">Briefe an Fritz von Stein</ref>, 41).</p>
+  <p rendition="#einrueck1">Stein gehörte anfangs zu denjenigen, die Goethes Protektion durch Herzog Carl August kritisierten und ihm einen schlechten Einfluss auf den jungen Regenten nachsagten. Im Laufe der Zeit jedoch erkannte er Goethes Fähigkeiten und Verdienste durchaus an. Beide trafen häufig bei Hofe zusammen. Goethe ließ sich von Stein Pferde besorgen (vgl. den vorliegenden Brief); sein Tagebuch zeugt (bis zur Italienreise) von Begegnungen im Garten am „Stern“ und in Steins Wohnung, von gemeinsamen Essen und Ausritten. Gemeinsam begleiteten sie Herzog Carl August im September/Oktober 1780 auf seiner mehrwöchigen Reise in den Thüringer Wald und bis zur Rhön. Stein tolerierte die Beziehung zwischen Goethe und seiner Frau, in der er offenbar nichts Ehrenrühriges sah. Er überbrachte sogar hin und wieder Briefe von Goethe an seine Frau und umgekehrt (vgl. <ref target="gb:text#GB03_1_BR531_0_297_017 #GB03_1_BR531_0_297_018">297,17–18</ref>). Stein begegnete Goethe mit Wohlwollen; im Tagebuch vermerkte Goethe nach dem 15. Dezember 1778 etwa: <quote type="G">Gutheit von Steinen</quote> (<ref target="gt:dokument#656">GT I 1, 69</ref>), was offenbar mit einer <quote type="G">Warnung</quote> (ebd.) zu tun hatte, die Stein ausgesprochen hatte. Goethe seinerseits äußerte sich selten anders als mit Respekt und Freundlichkeit über Stein. Am 10. Dezember 1781 schrieb er an Charlotte von Stein, wohl mit Bezug auf Steins Gesundheitszustand: <quote type="G">Es wird mir recht natürlich Steinen gefällig zu seyn und ihm leben zu helfen. Ich bin es dir schuldig </quote> (<ref target="gb:text#GB04_1_BR546_0_359_013 #GB04_1_BR546_0_359_014">GB 4 I, 359,13-14</ref>). Dass es zwischen beiden wenig gemeinsame Interessen gab, scheint das gute Verhältnis nicht beeinträchtigt zu haben: <quote type="G">Stein spricht viel von Oekonomie und da fast nichts weiter vorkommt ists ihm wohl</quote> (Brief an Charlotte von Stein, 12.–14. September 1780; <ref target="gb:text#GB04_1_BR172_0_129_015 #GB04_1_BR172_0_129_016">GB 4 I, 129,15-16</ref>).</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist der erste von nur drei überlieferten Briefen Goethes an Josias von Stein, die alle aus dem Jahr 1779 stammen; außerdem hat sich noch ein Bergwerkskux mit Goethes und Christian Gottlob Voigts Unterschrift vom 24. Februar 1784 erhalten (bislang nur in einem Autographenkatalog gedruckt [Kotte Autographs 31 (2009), S. 25 f.]). Briefe von Josias von Stein an Goethe sind nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10227_comment_com7510">
+<label xml:id="GB03_2_BR503_0_note_001_280_8" copyOf="#start_com_4038"><hi rendition="#fett">280,8</hi>mein Schimmel</label>
+<p>Vgl. <ref target="gb:note#gb10227_comment_com2036">Zum Adressaten</ref>.</p>
+
+</note>
+<note xml:id="gb10227_comment_com7511">
+<label xml:id="GB03_2_BR503_0_note_002_280_9" copyOf="#start_com_4039"><hi rendition="#fett">280,9</hi>Philipp</label>
+<p>Philipp Seidel, Goethes Sekretär und Diener.</p>
+
+</note>
+<note xml:id="gb10227_comment_com7512">
+<label xml:id="GB03_2_BR503_0_note_003_280_9" copyOf="#start_com_4040"><hi rendition="#fett">280,9</hi>Razemann</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10227_comment_com7513">
+<label xml:id="GB03_2_BR503_0_note_004_280_13" copyOf="#start_com_4041"><hi rendition="#fett">280,13</hi>nähmen wir Herdern mit</label>
+<p>Ob dies geschah, geht weder aus Goethes noch Herders Briefen und Tagebucheintragungen hervor.</p>
+
+</note>
+<note xml:id="gb10227_comment_com16732">
+<label xml:id="GB03_2_BR503_0_note_005_280_13-14" copyOf="#start_com_4042"><hi rendition="#fett">280,13-14</hi>Hottelstädter Ecke</label>
+<p>Hottelstedter Eck, Aussichtspunkt auf dem Ettersberg nordwestlich von Weimar; dort wurde der am Vortag eingetroffene Johann Heinrich Merck mit Goethe, Wieland und anderen im Pavillon Anna Amalias empfangen. – Am 31. Mai 1779 vermerkte Goethe im Tagebuch: <quote type="G">früh auf die Hottelstädter Ecke. <gap quantity="3" reason="editorial"/> Abends zurück.</quote> (<ref target="gt:dokument#724">GT I 1, 79</ref>.)</p>
+
+</note>
+<note xml:id="gb10227_comment_com7523">
+<label xml:id="GB03_2_BR503_0_note_006_280_14" copyOf="#start_com_4043"><hi rendition="#fett">280,14</hi>nach Ettersburg</label>
+<p>Hier wohnte Merck während seines Aufenthalts in Weimar vom 30. Mai bis zum 13. Juli 1779 als Gast Anna Amalias.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

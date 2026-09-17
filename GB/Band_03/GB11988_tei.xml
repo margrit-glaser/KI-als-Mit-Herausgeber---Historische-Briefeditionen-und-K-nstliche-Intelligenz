@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5040"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11988" n="GB 3, Nr. 494">
+  <teiHeader xml:id="gb11988_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>494.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79469">Tiefurt</placeName>, 12. Mai 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:20Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11988_tei.xml</idno>
+        <idno type="URI">gb11988</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR494_0</idno>
+        <idno type="KSW-ID">11988</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="276" to="276">276</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="909" to="910">909-910</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11988_header_hwit1482" corresp="#gb11988_source_hwit1482" sameAs="#gb11988_comment_hwit1482" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 12</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11988,,1482/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Von Ihnen kan ich doch nicht wegbleiben. Vergebens dass ich    dencke das Wasser</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11988_header_acc221" corresp="gb11988_comment_acc221">
+            <objectIdentifier>
+              <objectName><quote type="G">Blumen</quote> und <quote type="G">Früchte</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79469">Tiefurt</placeName>
+            <date when="1779-05-12">12. Mai 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11988_source_hwit1482" corresp="#gb11988_header_hwit1482" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11988/23054"/>
+      <p>
+        <anchor xml:id="GB03_1_BR494_0_276_010"/>
+        <ref target="gb:note#GB03_2_BR494_0_note_001_276_10" xml:id="start_com_3987"/>Von Ihnen kan ich doch nicht wegbleiben.<ref xml:id="end_com_3987"/> Vergebens dass ich dencke 
+<anchor xml:id="GB03_1_BR494_0_276_011"/>das Wasser soll einen Fall irgend wohin nehmen, werd ich immer wie 
+<anchor xml:id="GB03_1_BR494_0_276_012"/>ein Kloz auf dem See auf einem Fleck herumgespült.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR494_0_276_013"/>
+        <ref target="gb:note#GB03_2_BR494_0_note_002_276_13" xml:id="start_com_3988"/>Blumen schick ich Ihnen und einige Früchte<ptr n="1" target="#a001_276.13"/>.<ref xml:id="end_com_3988"/>
+        <ref target="gb:note#GB03_2_BR494_0_note_003_276_13-14" xml:id="start_com_3989"/>Knebel liest im Pindar<ref xml:id="end_com_3989"/>, 
+<anchor xml:id="GB03_1_BR494_0_276_014"/>der <ref target="gb:note#GB03_2_BR494_0_note_004_276_14" xml:id="start_com_3990"/>Herzog<ref xml:id="end_com_3990"/> wird <ref target="gb:note#GB03_2_BR494_0_note_005_276_14" xml:id="start_com_3991"/>wegreiten<ref xml:id="end_com_3991"/> und <ref target="gb:note#GB03_2_BR494_0_note_006_276_14" xml:id="start_com_3992"/>ich bleiben<ref xml:id="end_com_3992"/>. Essen Sie meine 
+<anchor xml:id="GB03_1_BR494_0_276_015"/>
+        <ref target="gb:note#GB03_2_BR494_0_note_007_276_15" xml:id="start_com_3993"/>Spargel<ref xml:id="end_com_3993"/> und dencken an mich. Adieu.     Tiefurt d<g ref="#typoSuspension"/>. 12 May 1779</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR494_0_276_016"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11988_comment">
+<body>
+<div type="metadata" xml:id="gb11988_comment_com73">
+  <ab type="numberAddressee"><label>494.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79469">Tiefurt</placeName>, 12. Mai 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11988_comment_com2117">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 12. – 1 Bl. 11,5 × 10,8(–11) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „23“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 24), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 224.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 36, Nr 814.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11988_comment_com3451">
+  <p><quote type="G">Blumen</quote> und <quote type="G">Früchte</quote> (<ref target="gb:text#GB03_1_BR494_0_276_013">276,13</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11988_comment_com3913">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11988_comment_com11908">
+<label xml:id="GB03_2_BR494_0_note_001_276_10" copyOf="#start_com_3987"><hi rendition="#fett">276,10</hi>Von Ihnen <gap quantity="3" reason="editorial"/> nicht wegbleiben.</label>
+<p>Nachdem Goethe seine Verärgerung über die unangekündigte Reise der Freundin nach Gotha (vgl. <ref target="gb:text#GB03_1_BR493_0_276_001 #GB03_1_BR493_0_276_002">276,1–2</ref>) überwunden hatte, fand offenbar wieder eine Annäherung statt. Doch erst um den 20. Mai 1779 vermerkt Goethe im Tagebuch: <quote type="G">Nähe zu &#x2609;</quote> <supplied>Charlotte von Stein</supplied> (<ref target="gt:dokument#719">GT I 1, 79</ref>).</p>
+
+</note>
+<note xml:id="gb11988_comment_com15369">
+<label xml:id="GB03_2_BR494_0_note_002_276_13" copyOf="#start_com_3988"><hi rendition="#fett">276,13</hi>Blumen <gap quantity="3" reason="editorial"/> einige Früchte</label>
+<p>Offenbar als ‚Gegengabe‘ schickte Charlotte von Stein noch am selben Tag Lebensmittel nach Tiefurt (vgl. <ref target="gb:text#GB03_1_BR495_0_276_017">276,17</ref>).</p>
+
+</note>
+<note xml:id="gb11988_comment_com18201">
+<label xml:id="GB03_2_BR494_0_note_003_276_13-14" copyOf="#start_com_3989"><hi rendition="#fett">276,13-14</hi>Knebel liest im Pindar</label>
+<p>Wahrscheinlich „Pindars Pythische Siegeshymnen“ in der Übersetzung von Friedrich Gedike, die, versehen mit „erklärenden und kritischen Anmerkungen“, 1779 bei Dekker in Berlin und Leipzig erschienen waren. Zuvor hatte Gedike bereits „Pindars Olympische Siegeshymnen“ übersetzt (Berlin und Leipzig 1777). Gedikes Übertragungen, die sich von ihren Vorgängern durch besondere sprachlich-stilistische Nähe zum Original auszeichneten, scheinen für Knebels Pindar-Rezeption von besonderer Bedeutung gewesen zu sein. Kurz nach Erscheinen der „Olympischen Siegeshymnen“ im Dezember 1777 hatte Knebel nachweislich zum ersten Mal „Aus dem Pindar übersezt“ (Constantin Prinz von Sachsen-Weimar und Eisenach / Knebel: Tagebuch einer Reise ins Oberland [1777–1778]; H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XXI Nr 3, Constantin). Vermutlich hatte er damals bereits mit seiner Übertragung der „Fünften Olympischen Ode“ begonnen. Veröffentlicht wurde diese aber erst 1783, und zwar im „Journal von Tiefurt“ (37. Stück [13. Mai], S. 290 f.; nach freundlichen Hinweisen von Annette Mönnich, Wien). – Während im 18. Jahrhundert die „Fünfte Olympische Ode“ noch allgemein zu Pindars Werken zählte, überwiegen spätestens seit Mitte des 19. Jahrhunderts in der Fachwelt die Zweifel an seiner Autorschaft (vgl. Ernst von Leutsch: Ist die fünfte Olympische Ode von Pindar? In: Philologus 1 [1846], S. 116–127). Zu Goethes früher Pindar-Rezeption und seiner eigenen, zu Lebzeiten nicht im Druck erschienenen Übersetzung der „Fünften Olympischen Ode“ vgl. <ref target="gb:note#GB01_2_BR098_0_note_003_230_11">GB 1 II, zu 230,11</ref>.</p>
+
+</note>
+<note xml:id="gb11988_comment_com11919">
+<label xml:id="GB03_2_BR494_0_note_004_276_14" copyOf="#start_com_3990"><hi rendition="#fett">276,14</hi>Herzog</label>
+<p>Carl August.</p>
+
+</note>
+<note xml:id="gb11988_comment_com11920">
+<label xml:id="GB03_2_BR494_0_note_005_276_14" copyOf="#start_com_3991"><hi rendition="#fett">276,14</hi>wegreiten</label>
+<p>Nach Weimar.</p>
+
+</note>
+<note xml:id="gb11988_comment_com11921">
+<label xml:id="GB03_2_BR494_0_note_006_276_14" copyOf="#start_com_3992"><hi rendition="#fett">276,14</hi>ich bleiben</label>
+<p>Goethe kam erst am nächsten Tag nach Weimar zurück (vgl. <ref target="gb:dokument#11986">Nr 495</ref>).</p>
+
+</note>
+<note xml:id="gb11988_comment_com11922">
+<label xml:id="GB03_2_BR494_0_note_007_276_15" copyOf="#start_com_3993"><hi rendition="#fett">276,15</hi>Spargel</label>
+<p>Den Goethe in seinem Garten selbst zog (vgl. zu <ref target="gb:note#GB03_2_BR109_0_note_003_64_11">64,11</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

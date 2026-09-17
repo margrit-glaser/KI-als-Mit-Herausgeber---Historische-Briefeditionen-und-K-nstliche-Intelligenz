@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1220"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10909" n="GB 3, Nr. 121">
+  <teiHeader xml:id="gb10909_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>121.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 1. Juni 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:06Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10909_tei.xml</idno>
+        <idno type="URI">gb10909</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR121_0</idno>
+        <idno type="KSW-ID">10909</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="72" to="72">72</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="283" to="284">283-284</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10909_header_hwit991" corresp="#gb10909_source_hwit991" sameAs="#gb10909_comment_hwit991" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 19</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10909,,991/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich bin wieder da, wär so gern gekommen als ich lebe - aber es soll nicht seyn - meine Abwesenheit</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10909_header_acc661" corresp="gb10909_comment_acc661">
+            <objectIdentifier>
+              <objectName>Bleistiftzeichnung (Blick auf den Gutshof in Frohndorf)</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-01">1. Juni 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text type="source" xml:id="gb10909_source">
+<group>
+<text xml:space="preserve"  xml:id="gb10909_source_hwit991" corresp="#gb10909_header_hwit991" type="letter" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10909/22355"/>
+      <p>
+        <anchor xml:id="GB03_1_BR121_0_072_005"/><ref target="gb:note#GB03_2_BR121_0_note_001_72_5" xml:id="start_com_1141"/>Ich bin wieder da<ref xml:id="end_com_1141"/>, wär so gern<ptr n="1" target="#a001_72.5"/> gekommen als ich lebe – aber es soll 
+<anchor xml:id="GB03_1_BR121_0_072_006"/>nicht seyn – <ref target="gb:note#GB03_2_BR121_0_note_002_72_6-7" xml:id="start_com_1142"/>meine Abwesenheit wird die <hi rendition="#hervor1">Welt</hi> einigermaßen konsolirt 
+<anchor xml:id="GB03_1_BR121_0_072_007"/>haben<ref xml:id="end_com_1142"/>. Ich bring Grüsse von <ref target="gb:note#GB03_2_BR121_0_note_003_72_7" xml:id="start_com_1143"/>der Guten Werthern<ref xml:id="end_com_1143"/>. Auch das 
+<anchor xml:id="GB03_1_BR121_0_072_008"/><ref target="gb:note#GB03_2_BR121_0_note_004_72_8" xml:id="start_com_1144"/>Zettelgen<ref xml:id="end_com_1144"/> u. s. w.</p>
+      <closer>
+        <dateline rendition="#einrueck8">
+          <anchor xml:id="GB03_1_BR121_0_072_009"/>d<g ref="#typoSuspension"/>. 1 Jun. 76</dateline><ptr n="2" target="#a002_72.9"/>
+        <signed rend="paraph">G</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10909/22356" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+<text xml:space="preserve"  xml:id="gb10909_source_hwit56009" corresp="#gb10909_header_hwit56009" type="attachment" rend="authorisedLetter">
+  <body>
+    <div>
+      <head><supplied>Beilage</supplied></head>
+      <space unit="lines" quantity="1"/>
+      <p>
+        <figure rendition="#c">
+          <graphic url="gb:digitalisate#10909/22358" width="450px"/>
+          <p><note type="editorial">Blick auf den Gutshof in Frohndorf</note></p>
+        </figure>
+      </p>
+      <space unit="lines" quantity="1"/>
+      <closer>
+        <anchor xml:id="GB03_1_BR121_0_072_010"/>
+        <signed rend="paraph" rendition="#einrueck12">G.</signed>
+        <dateline>   d<g ref="#typoSuspension"/>. 31 May 76. <ref target="gb:note#GB03_2_BR121_0_note_005_72_9" xml:id="start_com_1145"/>Frond.<ref xml:id="end_com_1145"/>
+        </dateline>
+      </closer>
+    </div>
+  </body>
+</text>
+
+</group>
+</text>
+
+<text xml:space="preserve" type="comment" xml:id="gb10909_comment">
+<body>
+<div type="metadata" xml:id="gb10909_comment_com549">
+  <ab type="numberAddressee"><label>121.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 1. Juni 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10909_comment_com2593">
+  <p>1) Brief:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 19. – 1 Bl. 10 × 8,7 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Bleistift; oben rechts von fremder Hd, Tinte: „52“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 52), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 35.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 72, Nr 469.</p>
+  <p>2) Beilage:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 53. –1 Bl. 18 × 11 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), egh. Bleistiftzeichnung (Blick auf den Gutshof in Frohndorf), unten rechts Paraphe, Datum und Ort, egh., Bleistift; unten links neben der Paraphe von fremder Hd, Bleistift: „Amalie Louise“, oben rechts von fremder Hd, Tinte: „37.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 37), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile: <ref target="gb:digitalisate#10909/22358">Abb. 3</ref> im Textband (S. 73); <ref target="sndb:sigle#1248">Corpus</ref> VIa, 57, Nr 197. </p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 284, in den „Lesarten“ zu Nr 468 (ohne Faksimile).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1 (1899), 489, Anm. 3 (zu S. 36); Faksimile: zwischen S. 36/37.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10909_comment_com4389">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10909_comment_com15073">
+<label xml:id="GB03_2_BR121_0_note_001_72_5" copyOf="#start_com_1141"><hi rendition="#fett">72,5</hi>Ich bin wieder da</label>
+<p>Laut Tagebuch war Goethe von seiner viertägigen Reise mit dem Herzog (vgl. zu <ref target="gb:note#GB03_2_BR119_0_note_004_71_14-15">71,14-15</ref>) am 31. Mai zurückgekehrt (vgl. <ref target="gt:dokument#57">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10909_comment_com10128">
+<label xml:id="GB03_2_BR121_0_note_002_72_6-7" copyOf="#start_com_1142"><hi rendition="#fett">72,6-7</hi>meine Abwesenheit <gap quantity="3" reason="editorial"/> konsolirt haben</label>
+<p>Konsolieren: lat. consolari: trösten, beruhigen. – Zur Sache vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10899_comment_com4810">Nr 115</ref>.</p>
+
+</note>
+<note xml:id="gb10909_comment_com10129">
+<label xml:id="GB03_2_BR121_0_note_003_72_7" copyOf="#start_com_1143"><hi rendition="#fett">72,7</hi>der Guten Werthern</label>
+<p>Emilie von Werthern-Beichlingen geb. von Münchhausen-Steinburg, die damals erst 19-jährige Frau des fast zwanzig Jahre älteren Weimarer Kammerherrn und Stallmeisters Christian Ferdinand Georg Freiherr von Werthern-Beichlingen, die Goethe in Frohndorf besucht hatte.</p>
+
+</note>
+<note xml:id="gb10909_comment_com15074">
+<label xml:id="GB03_2_BR121_0_note_004_72_8" copyOf="#start_com_1144"><hi rendition="#fett">72,8</hi>Zettelgen</label>
+<p>Wahrscheinlich die Beilage.</p>
+
+</note>
+<note xml:id="gb10909_comment_com17577">
+<label xml:id="GB03_2_BR121_0_note_005_72_9" copyOf="#start_com_1145"><hi rendition="#fett">72,10</hi>Frond.</label>
+<p>Frohndorf bei Kölleda, etwa 30 km nordwestlich von Weimar, wo sich das Rittergut des Freiherrn von Werthern-Beichlingen befand. – Die Zeichnung, die Goethe allem Anschein nach mit dem vorliegenden Brief überschickt hat, war während seines kurzen Aufenthaltes in Frohndorf am 31. Mai 1776 entstanden (vgl. <ref target="gt:dokument#57">GT I 1, 18</ref>) und stellt einen Teil des Hofes und der Wirtschaftsgebäude des Gutes dar.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

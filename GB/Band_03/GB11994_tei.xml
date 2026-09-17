@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11994" n="GB 3, Nr. 502">
+  <teiHeader xml:id="gb11994_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>502.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77775" evidence="conjecture">Erfurt</placeName></supplied>, 30. Mai 1779. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11994_tei.xml</idno>
+        <idno type="URI">gb11994</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR502_0</idno>
+        <idno type="KSW-ID">11994</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="279" to="280">279-280</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="918" to="920">918-920</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11994_header_hwit1490" corresp="#gb11994_source_hwit1490" sameAs="#gb11994_comment_hwit1490" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 13</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11994,,1490/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sie wissen was Sie mir für eine Freude gemacht haben, drum    danck ich Ihnen nicht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#77775">Erfurt</placeName></supplied>
+            <date when="1779-05-30">30. Mai 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11994_source_hwit1490" corresp="#gb11994_header_hwit1490" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11994/23069"/>
+      <p>
+        <anchor xml:id="GB03_1_BR502_0_279_017"/>Sie wissen was Sie mir für eine Freude gemacht haben, drum danck 
+<anchor xml:id="GB03_1_BR502_0_279_018"/>ich Ihnen nicht. <ref target="gb:note#GB03_2_BR502_0_note_001_279_18" xml:id="start_com_4033"/>So ein süses Gericht hofft ich nicht zum Desert.<ref xml:id="end_com_4033"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR502_0_279_019"/>
+        <ref target="gb:note#GB03_2_BR502_0_note_002_279_19" xml:id="start_com_4034"/>Wir schwazzen viel<ref xml:id="end_com_4034"/>, und <ref target="gb:note#GB03_2_BR502_0_note_003_279_19" xml:id="start_com_4035"/>heut bey Tisch war eine Menge Menschen<ref xml:id="end_com_4035"/>
+        <anchor xml:id="GB03_1_BR502_0_279_020"/>die Kreuz und Queer schwazzten und mir viel zu dencken gaben. 
+<anchor xml:id="GB03_1_BR502_0_280_001"/>Morgen Abend seh ich Sie wieder Adieu liebste.     Sie auf unsern 
+<anchor xml:id="GB03_1_BR502_0_280_002"/>Weegen vergnügt zu wissen ist mein ganzer Wunsch. und dass Sie mich 
+<anchor xml:id="GB03_1_BR502_0_280_003"/>lieben mögen und mögen mirs gerne zeigen. Denn der Glaube lebt 
+<anchor xml:id="GB03_1_BR502_0_280_004"/>von dem<ptr n="1" target="#a001_280.4"/> himmlischen Manna der Sakramente Adieu liebste. .  <ref target="gb:note#GB03_2_BR502_0_note_004_280_4-5" xml:id="start_com_4036"/>Merck 
+<anchor xml:id="GB03_1_BR502_0_280_005"/>ist noch nicht da.<ref xml:id="end_com_4036"/>
+      </p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR502_0_280_006"/>d<g ref="#typoSuspension"/>. 30 May 1779. Nachm. 3 Uhr.</dateline>
+        <anchor xml:id="GB03_1_BR502_0_280_007"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11994/23070" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11994/23071" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11994/23072"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11994_comment">
+<body>
+<div type="metadata" xml:id="gb11994_comment_com1114">
+  <ab type="numberAddressee"><label>502.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77775">Erfurt</placeName></supplied>, 30. Mai 1779 → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11994_comment_com3158">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 13. – Doppelblatt 15,7(–16) × 20 cm, &#xBE; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Fr. Oberstallm. / v. Stein / nach / Weimar</quote>, Reste eines roten Wappensiegels: fünfzackige Krone über Initialen?; S. 1 oben rechts von fremder Hd, Tinte: „26.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 27), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 226 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 39, Nr 820.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11994_comment_com4954">
+  <p>Der Brief beantwortet wahrscheinlich einen nicht überlieferten Brief Charlotte von Steins vom selben Tag (vgl. zu <ref target="gb:note#GB03_2_BR502_0_note_001_279_18">279,18</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11994_comment_com16183">
+<label xml:id="GB03_2_BR502_0_note_001_279_18" copyOf="#start_com_4033"><hi rendition="#fett">279,18</hi>So eine süses Gericht <gap quantity="3" reason="editorial"/> zum Desert.</label>
+<p>Möglicherweise übertragen in Anspielung auf einen nicht überlieferten Brief Charlotte von Steins, ein ‚süßes Briefchen‘ (nach franz. billet doux: Liebesbrief). Für diese Annahme spricht der einleitende Satz, der sich nicht auf ein Dessert im wörtlichen Sinne zu beziehen scheint.</p>
+
+</note>
+<note xml:id="gb11994_comment_com11969">
+<label xml:id="GB03_2_BR502_0_note_002_279_19" copyOf="#start_com_4034"><hi rendition="#fett">279,19</hi>Wir schwazzen viel</label>
+<p>Goethe war am 29. Mai <quote type="G">nach Erfurt</quote> gereist (<ref target="gt:dokument#722">GT I 1, 79</ref>), wo er Mercks Ankunft erwartete.</p>
+
+</note>
+<note xml:id="gb11994_comment_com11970">
+<label xml:id="GB03_2_BR502_0_note_003_279_19" copyOf="#start_com_4035"><hi rendition="#fett">279,19</hi>heut bey Tisch war eine Menge Menschen</label>
+<p>An der Mittagstafel des Kurmainzer Statthalters Carl Theodor von Dalberg.</p>
+
+</note>
+<note xml:id="gb11994_comment_com11981">
+<label xml:id="GB03_2_BR502_0_note_004_280_4-5" copyOf="#start_com_4036"><hi rendition="#fett">280,4-5</hi>Merck ist noch nicht da.</label>
+<p>Goethe war nach Erfurt gereist, um seinen Darmstädter Freund Johann Heinrich Merck abzuholen. Laut Tagebuch kam dieser <quote type="G">Abends <gap quantity="3" reason="editorial"/> d. 30</quote> Mai (<ref target="gt:dokument#723">GT I 1, 79</ref>) in Erfurt an und reiste in Begleitung Goethes schon am nächsten Morgen nach Ettersburg weiter, der Sommerresidenz der Herzoginmutter Anna Amalia (vgl. zu <ref target="gb:note#GB03_2_BR503_0_note_005_280_13-14">280,13-14</ref>; zu <ref target="gb:note#GB03_2_BR503_0_note_006_280_14">280,14</ref>). Sie hatte Merck, ihren Begleiter auf einer Rhein-Reise im Juni und Juli 1778, nach Weimar eingeladen. Der Besuch war jedoch immer wieder verschoben worden. Noch am 7. Mai 1779 hatte Merck an Anna Amalia geschrieben: „Ew. Durchlaucht können nicht glauben, was ich bißher gelitten habe, weil ich immer in der Ungewißheit lebte, so wenig ichs äusserlich durfte merken lassen, ob mir meine äussere Umstände und Verhältnisse erlauben würden nach Weimar zu kommen. Ich kan mich jezo darüber nicht erklären, was unschuldige Trätschereyen vermögen, zumal wenn ein armer Teufel wie ich noch am Ende darüber geängstigt und angefeindet wird, daß ihn irgend jemand seiner Freundschafft u. Liebe werth hält.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 228.) Offenbar kursierten Gerüchte über eine mögliche Anstellung Mercks in Weimar. Zu den Vorbehalten gegenüber dem Darmstädter Kriegsrat könnte auch Herder beigetragen haben, dessen schlechte Meinung über Merck u. a. durch eine Äußerung in einem Brief an Johann Georg Hamann vom 9. April 1779 belegt ist: „<gap quantity="3" reason="editorial"/> es ist der falsche, vertrakte Mer[c]k in Darmstadt, der nicht aufhört, da er sich mehr als einmal durch Briefe wieder hat einschleichen wollen, mich auf seine Art d[as] i[st] hämisch und Kennerisch im Dunkeln und Hellen anzuzapfen, wo er kann. <gap quantity="3" reason="editorial"/> übrigens gilt er hier, da er Göthens Aufwärter, Kupferstichsammler für den Herzog ist u. vorigen Sommer mit der verwittw[eten] Herzogin, einer großen Liebhaberin Alles Schönen, den Rhein herab gereist ist, für einen großen <hi rendition="#hervor1">Kenner</hi> u. in Wielands Merkur ist er Censeur eternel u. perpetuirlicher Kunstrichter. <gap quantity="3" reason="editorial"/> Im Sommer wird er hier erwartet u. alles Kennerische wapnet sich ihn zu empfangen; ich werde mich, sobald ichs weiß, wenn der böse Geist kommt, wegschleichen u. übrigens darauf bei Gelegenheit antragen, daß man ihn hier zum HofKenner u. Kunstrichter bestelle. Ich wünschte, ihn nie gesehen zu haben.“ (<ref target="sndb:sigle#2904">HB</ref> 9, 272 f.) Merck blieb bis zum 13. Juli in Ettersburg. Wahrscheinlich noch an diesem Tag schrieb Goethe resümierend über den Besuch des Freundes: <quote type="G">Gute Würckung auf mich von Mercks Gegenwart, sie hat mir <gap quantity="3" reason="editorial"/> nur wenige dürre Schaalen abgestreifft und im alten Guten mich befestigt. Durch Erinnerung des Vergangnen und seine Vorstellungs Art, mir meine Handlungen in einem wunderbaaren Spiegel gezeigt. da er der einzige Mensch ist der ganz erkennt was ich thu und wie ich’s thu, und es doch wieder anders sieht wie ich <gap quantity="3" reason="editorial"/></quote>. (<ref target="gt:dokument#736">GT I 1, 81 f.</ref>) – Zu Goethes zunächst zumindest zwiespältigen Gefühlen, die er 1778 bei Bekanntwerden der Reisepläne Mercks hegte, wie auch den „Trätschereyen“ in der Weimarer Gesellschaft vgl. zu <ref target="gb:note#GB03_2_BR388_0_note_003_219_21-220_2">219,21-220,2</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

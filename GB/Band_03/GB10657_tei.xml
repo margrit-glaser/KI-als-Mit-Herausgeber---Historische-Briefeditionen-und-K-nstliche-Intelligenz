@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="360"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10657" n="GB 3, Nr. 36">
+  <teiHeader xml:id="gb10657_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>36.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende Januar? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10657_tei.xml</idno>
+        <idno type="URI">gb10657</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR036_0</idno>
+        <idno type="KSW-ID">10657</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="27" to="27">27</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="123" to="124">123-124</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10657_header_hwit863" corresp="#gb10657_source_hwit863" sameAs="#gb10657_comment_hwit863" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10657,,863/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Frau, ich werde wieder weggerissen und hab dir so viel zu sagen. Heut hab ich</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-01-21" to="1776-01-31"><supplied>Ende Januar? 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10657_source_hwit863" corresp="#gb10657_header_hwit863" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10657/22259"/>
+      <p>
+        <anchor xml:id="GB03_1_BR036_0_027_012"/>Liebe Frau <ref target="gb:note#GB03_2_BR036_0_note_001_27_12" xml:id="start_com_0453"/>ich werde wieder weggerissen<ref xml:id="end_com_0453"/> und hab dir so viel zu sagen. 
+<anchor xml:id="GB03_1_BR036_0_027_013"/>
+        <ref target="gb:note#GB03_2_BR036_0_note_002_27_13" xml:id="start_com_0454"/>Heut hab ich wieder W. viel meiner lezten Jahrs Geshchicht<ptr n="1" target="#a001_27.13"/> erzählt<ref xml:id="end_com_0454"/>
+        <anchor xml:id="GB03_1_BR036_0_027_014"/>und wenn ihr mich warm haltet; <ref target="gb:note#GB03_2_BR036_0_note_003_27_14-15" xml:id="start_com_0455"/>so schreib ich s wohl für euch ganz 
+<anchor xml:id="GB03_1_BR036_0_027_015"/>allein<ref xml:id="end_com_0455"/>. Denn es ist mehr als <hi rendition="#hervor1">Beichte</hi> wenn man auch das bekennt 
+<anchor xml:id="GB03_1_BR036_0_027_016"/>worüber man nicht <hi rendition="#hervor1">Absolution</hi> bedarf. Adieu <ref target="gb:note#GB03_2_BR036_0_note_004_27_16" xml:id="start_com_0456"/>Engel<ref xml:id="end_com_0456"/>, ich werde 
+<anchor xml:id="GB03_1_BR036_0_027_017"/>eben nie klüger, und muss Gott dancken dafür. Adieu. Und <ref target="gb:note#GB03_2_BR036_0_note_005_27_17-18" xml:id="start_com_0457"/>mich verdriessts 
+<anchor xml:id="GB03_1_BR036_0_027_018"/>doch auch dass ich dich so lieb habe<ref xml:id="end_com_0457"/> und iust <hi rendition="#hervor1">dich</hi>!</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10657_comment">
+<body>
+<div type="metadata" xml:id="gb10657_comment_com347">
+  <ab type="numberAddressee"><label>36.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende Januar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10657_comment_com1543">
+  <p>Datierung nach der Einordnung im Konvolut der Briefe an Charlotte von Stein (Bd I). Das Jahr 1776 wird durch den Vermerk der Empfängerin auf der Handschrift bestätigt (vgl. <ref target="gb:note#gb10657_comment_com2391">Überlieferung</ref>). Auch die vertrauliche Anrede ‚Du‘ (vgl. <ref target="gb:text#GB03_1_BR036_0_027_012">27,12</ref>), zu der Goethe zum ersten Mal im Brief vom 27. Januar 1776 überging (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>), um sie dann in den folgenden Tagen durchgehend zu verwenden (vgl. <ref target="gb:dokument#10606">Nr 31</ref> und <ref target="gb:dokument#10343">32</ref>), verweist darauf, dass der vorliegende Brief vermutlich in die Zeit von Ende Januar 1776 gehört.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10657_comment_com2391">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 2. – 1 Bl. 17,4(–17,6) × 10,9(–11,2) cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Reste einer roten Verschlussoblate, untere rechte Ecke abgeschnitten; Vs. unten Mitte von Charlotte von Steins Hd, Bleistift: „76“, oben rechts von fremder Hd, Tinte: „5.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 5), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 8 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 26 f., Nr 398.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10657_comment_com4187">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10657_comment_com9657">
+<label xml:id="GB03_2_BR036_0_note_001_27_12" copyOf="#start_com_0453"><hi rendition="#fett">27,12</hi>ich werde wieder weggerissen</label>
+<p>Möglicherweise durch Herzog Carl August oder in dessen Auftrag. Wie Briefe Wielands belegen, muss Goethe damals einen Großteil seiner Zeit in Gesellschaft des Herzogs verbracht haben: „Der Herzog (dem er <supplied>Goethe</supplied> fast unentbehrl. worden ist) das Schrittschuh-Fahren, die Jagd und Reitparthien, die Assembleen, kurz der Hof nimmt ihm fast alle seine Zeit. Er kan sich nun aus Erfahrung vorstellen wie mirs in den lezten 3 Jahren gieng.“ (Wieland an Lavater, 25. Dezember 1775; <ref target="sndb:sigle#141">WB</ref> 5, 458.) „Göthe hat Ihnen vor kurzem selbst geschrieben. Er grüßt Sie. Der Hof oder vielmehr seine Liaison mit dem H[erzog] verderbt ihm viel Zeit, um dies herzlich Schad ist. Und doch bey diesem herrlichen Gottes Menschen geht nichts verlohren.“ (Wieland an Merck, 26. Januar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 467.)</p>
+
+</note>
+<note xml:id="gb10657_comment_com17422">
+<label xml:id="GB03_2_BR036_0_note_002_27_13" copyOf="#start_com_0454"><hi rendition="#fett">27,13</hi>Heut hab ich wieder W. <gap quantity="3" reason="editorial"/> Jahrs Geshchicht erzählt</label>
+<p>‚W.‘ für ‚Wieland‘; ‚Geshchicht‘ versehentlich für ‚Geschicht‘. – Bereits kurz nach Goethes Ankunft in Weimar am 7. November 1775 muss sich zu Wieland ein freundschaftliches Verhältnis hergestellt haben, so dass alle vorausgegangenen Verstimmungen, z. B. über Goethes 1774 erschienene Farce „Götter Helden und Wieland“, vergessen waren (vgl. <ref target="gb:note#GB02_2_BR097_0_note_001_76_12">GB 2 II, zu 76,12</ref>; zu <ref target="gb:note#GB02_2_BR097_0_note_002_76_14-15">76,14–15</ref>; zu <ref target="gb:note#GB02_2_BR114_0_note_001_89_21">89,21</ref>). Schon am 10. November 1775 hatte Wieland begeistert an Lavater geschrieben, er habe „den herrlichen Menschen <supplied>Goethe</supplied> binnen dieser 3 Tage so herzlich liebgewonnen“ und sei „so ganz voll von ihm“ (<ref target="sndb:sigle#141">WB</ref> 5, 438). Wieland wurde in den Folgemonaten zu einem der engsten Vertrauten Goethes, das Verhältnis zwischen Goethe und Wieland scheint sich erst Ende 1776/Anfang 1777, nachdem Lenz Weimar verlassen musste (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR196_0_note_001_121_1">121,1</ref>), abgekühlt zu haben (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10882_comment_com4512">Nr 84</ref>).</p>
+
+</note>
+<note xml:id="gb10657_comment_com17279">
+<label xml:id="GB03_2_BR036_0_note_003_27_14-15" copyOf="#start_com_0455"><hi rendition="#fett">27,14-15</hi>so schreib ich s wohl <gap quantity="3" reason="editorial"/> ganz allein</label>
+<p>Ob Goethe tatsächlich die ‚Geschichte‘ seines letzten Frankfurter Jahres etwa von Sommer 1774 bis Oktober 1775, auf die er hier anspielt, für Charlotte von Stein und andere Freunde niederschrieb, erscheint zweifelhaft. Nachweislich bearbeitete er diese Epoche seines Lebens erst sehr viel später, nämlich im 16. bis 20. Buch von „Dichtung und Wahrheit“, die erst 1813 und dann mit Unterbrechungen bis in Goethes letzte Lebensjahre hinein entstanden sind (vgl. <ref target="sndb:sigle#1338">EGW</ref> 2, 355–358).</p>
+
+</note>
+<note xml:id="gb10657_comment_com9444">
+<label xml:id="GB03_2_BR036_0_note_004_27_16" copyOf="#start_com_0456"><hi rendition="#fett">27,16</hi>Engel</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_001_25_14">25,14</ref>.</p>
+
+</note>
+<note xml:id="gb10657_comment_com9445">
+<label xml:id="GB03_2_BR036_0_note_005_27_17-18" copyOf="#start_com_0457"><hi rendition="#fett">27,17-18</hi>mich verdriessts <gap quantity="3" reason="editorial"/> dass ich dich so lieb habe</label>
+<p>Wahrscheinlich als Entgegnung auf Charlotte von Steins Abwehr, mit der sie auf Goethes allzu heftiges und offenes Werben reagiert haben muss. – Der zweite Teil des Satzes scheint direkt an den Schluss des Briefes vom 28. Januar anzuknüpfen (vgl. <ref target="gb:text#GB03_1_BR031_0_025_019 #GB03_1_BR031_0_025_020">25,19–20</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5510"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9584" n="GB 3, Nr. 539">
+  <teiHeader xml:id="gb9584_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>539.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77387">Bern</placeName>, <supplied>19.</supplied> Oktober 1779. <supplied>Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9584_tei.xml</idno>
+        <idno type="URI">gb9584</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR539_0</idno>
+        <idno type="KSW-ID">9584</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="319" to="320">319-320</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1013" to="1016">1013-1016</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9584_header_hwit1530" corresp="#gb9584_source_hwit1530" sameAs="#gb9584_comment_hwit1530" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 107</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9584,,1530/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder, deine Leute hier hab ich meist gesehen,    Kirchbergern</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77387">Bern</placeName>
+            <date when="1779-10-19"><supplied>19.</supplied> Oktober 1779</date>
+            <note>
+              <date type="WA" when="1779-10-17">17. Oktober 1779</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#112">RA 1, Nr. 100</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#114">RA 1, Nr. 102</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9584_source_hwit1530" corresp="#gb9584_header_hwit1530" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9584/13946"/>
+      <p>
+        <anchor xml:id="GB03_1_BR539_0_319_011"/>Lieber Bruder, <ref target="gb:note#GB03_2_BR539_0_note_001_319_11" xml:id="start_com_4562"/>deine Leute hier hab ich meist gesehen<ref xml:id="end_com_4562"/>, <ref target="gb:note#GB03_2_BR539_0_note_002_319_11" xml:id="start_com_4563"/>Kirchbergern<ref xml:id="end_com_4563"/>
+        <anchor xml:id="GB03_1_BR539_0_319_012"/>noch heut Abend spät anderthalb Stunden auf seinem Landhaus gesprochen. 
+<anchor xml:id="GB03_1_BR539_0_319_013"/>Es ist ein Mann mit dem sich gut reden lässt und ich habe 
+<anchor xml:id="GB03_1_BR539_0_319_014"/>die Zapfen meiner Gefäse, wie er angeklopft hat,<ptr n="1" target="#a001_319.14"/> gar freundlich ausgezogen, 
+<anchor xml:id="GB03_1_BR539_0_319_015"/>und mir auch dagegen von dem seinigen reichen lassen. Auf 
+<anchor xml:id="GB03_1_BR539_0_319_016"/>alles was er gefragt hat, hab ich ihm in meiner Art geantwortet, und 
+<anchor xml:id="GB03_1_BR539_0_319_017"/>durch Gleichnisse und anschlagen wurden wir bald bekannt. Auch hab 
+<anchor xml:id="GB03_1_BR539_0_319_018"/>ich ihm hie und da mehr gesagt als er gefragt hat, denn es hängt alles 
+<anchor xml:id="GB03_1_BR539_0_319_019"/>gar hübsch bey ihm zusammen, und er hat für sein Alter, und dass er 
+<anchor xml:id="GB03_1_BR539_0_319_020"/>viel für sich durchdacht hat, eine schöne Gelencksamkeit der Gedancken.
+<anchor xml:id="GB03_1_BR539_0_319_021"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR539_0_319_022"/>
+        <ref target="gb:note#GB03_2_BR539_0_note_003_319_22" xml:id="start_com_4564"/>Nun wirds weiter gehen.<ref xml:id="end_com_4564"/> Verschiedne Packete sollen an dich geschickt 
+<anchor xml:id="GB03_1_BR539_0_319_023"/>werden hebe mir sie auf. Wir gehen auf <ref target="gb:note#GB03_2_BR539_0_note_004_319_23" xml:id="start_com_4565"/>Lausanne und Genv<ref xml:id="end_com_4565"/>. 
+<anchor xml:id="GB03_1_BR539_0_319_024"/>
+        <ref target="gb:note#GB03_2_BR539_0_note_005_319_24" xml:id="start_com_4566"/>Bey Neuburg sind wir schon gewesen<ref xml:id="end_com_4566"/>, es thut mir leid <ref target="gb:note#GB03_2_BR539_0_note_006_319_24" xml:id="start_com_4567"/>die Gener.<ref xml:id="end_com_4567"/>
+        <anchor xml:id="GB03_1_BR539_0_319_025"/>nicht zu sehen, <ref target="gb:note#GB03_2_BR539_0_note_007_319_25" xml:id="start_com_4568"/>ich schick ihr deinen Brief<ref xml:id="end_com_4568"/>. Wenn du mir was noch zu 
+<anchor xml:id="GB03_1_BR539_0_319_026"/>sagen hast, so schicks an <ref target="gb:note#GB03_2_BR539_0_note_008_319_26" xml:id="start_com_4569"/>Toblern<ref xml:id="end_com_4569"/> den ich gewiss aufsuche. <ref target="gb:note#GB03_2_BR539_0_note_009_319_26-27" xml:id="start_com_4570"/>Von Genv 
+<anchor xml:id="GB03_1_BR539_0_319_027"/>hörst du weiter von mir.<ref xml:id="end_com_4570"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR539_0_319_028"/>Was der treue <ref target="gb:note#GB03_2_BR539_0_note_010_319_28" xml:id="start_com_4571"/>Cameralische Okulist<ref xml:id="end_com_4571"/> mit dem <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR539_0_note_011_319_28" xml:id="start_com_4572"/>Br. Herzog</hi>
+        <ref xml:id="end_com_4572"/>will, 
+<anchor xml:id="GB03_1_BR539_0_319_029"/>versteh ich ausser dem Zusammenhang nicht. Wenn’s so ist wie ich 
+<anchor xml:id="GB03_1_BR539_0_320_001"/>vermuthe, mag er’s immer noch ein Paar Jahrhunderte aufschieben, 
+<anchor xml:id="GB03_1_BR539_0_320_002"/>und es soll auch dann, wills Gott nicht passen. Es ist nur seit man die 
+<anchor xml:id="GB03_1_BR539_0_320_003"/>Kazzen weis gemacht hat,<ptr n="2" target="#a002_320.3"/> die<ptr n="3" target="#a003_320.3"/> Lowen gehören in ihr Geschlecht, dass 
+<anchor xml:id="GB03_1_BR539_0_320_004"/>sich ieder ehrliche Hauskater zutraut er könne und dürfe Lowen und 
+<anchor xml:id="GB03_1_BR539_0_320_005"/>
+        <ref target="gb:note#GB03_2_BR539_0_note_012_320_5" xml:id="start_com_4573"/>Pardeln<ref xml:id="end_com_4573"/> die Tazze reichen und sich brüderlich mit ihnen <ref target="gb:note#GB03_2_BR539_0_note_013_320_5" xml:id="start_com_4574"/>herumsielen<ref xml:id="end_com_4574"/>, 
+<anchor xml:id="GB03_1_BR539_0_320_006"/>die doch ein vor allemal von Gott zu einer andern Art Thiere gebildet 
+<anchor xml:id="GB03_1_BR539_0_320_007"/>sind. Adieu. <ref target="gb:note#GB03_2_BR539_0_note_014_320_7" xml:id="start_com_4575"/>Eh wir Zürch nahen hörst du mehr von mir.<ref xml:id="end_com_4575"/> Bern 
+<anchor xml:id="GB03_1_BR539_0_320_008"/>
+        <ref target="gb:note#GB03_2_BR539_0_note_015_320_8" xml:id="start_com_4576"/>d<g ref="#typoSuspension"/>. 17 Okbr. 79<ref xml:id="end_com_4576"/>.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck2_voll">
+        <anchor xml:id="GB03_1_BR539_0_320_009"/>Grüs <ref target="gb:note#GB03_2_BR539_0_note_016_320_9" xml:id="start_com_4577"/>dein Weib<ref xml:id="end_com_4577"/> und <ref target="gb:note#GB03_2_BR539_0_note_017_320_9" xml:id="start_com_4578"/>die kleine<ref xml:id="end_com_4578"/>, es soll mich wundern ob und 
+<anchor xml:id="GB03_1_BR539_0_320_010"/>wie wir uns verändert finden.</p>
+    <pb n="2" facs="gb:digitalisate#9584/13947" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#9584/13948" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9584/13949" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9584_comment">
+<body>
+<div type="metadata" xml:id="gb9584_comment_com226">
+  <ab type="numberAddressee"><label>539.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77387">Bern</placeName>, <supplied>19.</supplied> Oktober 1779 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb9584_comment_com1503">
+  <p>Goethes Angabe <quote type="G">d<g ref="#typoSuspension"/>. 17 Okbr. 79</quote> (<ref target="gb:text#GB03_1_BR539_0_320_008">320,8</ref>) beruht auf einem Versehen. Der abendliche Besuch bei <quote type="G">Kirchbergern</quote> (<ref target="gb:text#GB03_1_BR539_0_319_011">319,11</ref>) kann nicht am 17. Oktober stattgefunden haben, weil sich Goethe am Abend dieses Tages in Langnau bei Michael Schüppach aufhielt und dort übernachtete. Das geht aus dem Brief von Herzog Carl August an seine Frau Louise vom 18. Oktober 1779 hervor, in dem er über einen „zieml. lustigen Abend“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 117) in Langnau und die Übernachtung berichtet. Dass der vorliegende Brief am 19. Oktober geschrieben wurde, lässt auch Goethes Bemerkung <quote type="G">Nun wirds weiter gehn</quote> (<ref target="gb:text#GB03_1_BR539_0_319_022">319,22</ref>) erkennen. Sie bezieht sich auf die unmittelbar bevorstehende Abreise aus Bern, die am nächsten Tag, am 20. Oktober 1779, erfolgte. Auch im Fall von Brief <ref target="gb:dokument#63">Nr 540</ref> an Johann Heinrich Merck, den Goethe ebenfalls mit dem Datum des 17. Oktober versah, liegt ein Versehen vor (vgl. Datierung zu <ref target="gb:note#gb63_comment_com1438">Nr 540</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9584_comment_com2270">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 107. – 1 Bl. 19,3 × 24,3 cm, ursprünglich Doppelblatt, vom zweiten Blatt noch ein 2,6–3,3 cm breiter Streifen vorhanden, 1 S. beschr., egh., Tinte; von <quote type="G">Adieu</quote> (<ref target="gb:text#GB03_1_BR539_0_320_007">320,7</ref>) an lassen Tinte und Schriftduktus einen Neuanfang der Niederschrift erkennen.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 41–43, Nr 15.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 88–90, Nr 856.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9584_comment_com4066">
+  <p>Der Brief beantwortet Lavaters Brief vom 10. Oktober 1779 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 80, Nr 61; vgl. <ref target="ra:dokument#112">RA 1, 74, Nr 100</ref>). (Die Datierung dieses nur fragmentarisch überlieferten Briefes ist umstritten; in der RA wird er auf „1779 Oktober vor 16“ datiert.) – Lavater antwortete am 22. Oktober 1779 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 81–83, Nr 63; vgl. <ref target="ra:dokument#114">RA 1, 75, Nr 102</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9584_comment_com16765">
+<label xml:id="GB03_2_BR539_0_note_001_319_11" copyOf="#start_com_4562"><hi rendition="#fett">319,11</hi>deine Leute hier hab ich meist gesehen</label>
+<p>Goethe hatte in seinem Brief vom 8. Oktober 1779 Lavater gebeten, ihm einige Personen zu nennen, die er empfehle zu besuchen (vgl. <ref target="gb:text#GB03_1_BR535_0_304_022 #GB03_1_BR535_0_304_025">304,22–25</ref>). Über Goethes Begegnungen in Bern vgl. zu <ref target="gb:note#GB03_2_BR535_0_note_009_304_23-25">304,23-25</ref>.</p>
+
+</note>
+<note xml:id="gb9584_comment_com16877">
+<label xml:id="GB03_2_BR539_0_note_002_319_11" copyOf="#start_com_4563"><hi rendition="#fett">319,11</hi>Kirchbergern</label>
+<p>Nikolaus Anton Kirchberger, Landvogt zu Gottstadt bei Biel, Besitzer des Landguts Schlosshalde bei Bern. Er schreibt in seinem Brief an Johann Caspar Lavater vom 20. Oktober 1779: „Mit Goethe habe eine interessante unterredung von 1&#xBD; stunden auf dem lande gantz allein gehabt. Ich berührte einige von seinen saiten die mit den meinigen übereinstimmten, hierauf blitzte er mit eigenen begriffen um sich her, die auf einander folgten wie wetterleuchten an einem sommerabend. Ich konnte ihm mein Herz über die wichtigsten Gegenstände öffnen – er ist aber nur Goethe wenn man ihn allein hat. bey seinem Fürsten ist er ein ganz anderer Mann.“ (<ref target="bug:dokument#6141">BuG 2, 158</ref>.) In einem weiteren Brief an Lavater vom 27. Oktober 1779 berichtet Kirchberger ausführlich, er habe sich mit Goethe über „Religion“ unterredet und die „macht der menschlichen Seelen“; auch habe Goethe über die „art“ gesprochen, „wie er an einem Gegenstand arbeitet – wie außerordentlich lang er solchen in seinem Busen wärmt biß er ihn der Welt darstellt“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 353 f.; vgl. auch <ref target="bug:dokument#6142">BuG 2, 158</ref>).</p>
+
+</note>
+<note xml:id="gb9584_comment_com7558">
+<label xml:id="GB03_2_BR539_0_note_003_319_22" copyOf="#start_com_4564"><hi rendition="#fett">319,22</hi>Nun wirds weiter gehn.</label>
+<p>Von Bern führte die Reise mit vielen Zwischenstationen über Genf und Luzern nach Zürich, wo Goethe am 18. November 1779 eintraf.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7559">
+<label xml:id="GB03_2_BR539_0_note_004_319_23" copyOf="#start_com_4565"><hi rendition="#fett">319,23</hi>Lausanne und Genv</label>
+<p>In diesen Städten hielt sich Goethe vom 22. bis 24. Oktober bzw. vom 27. Oktober bis 3. November 1779 auf. – ‚Genv‘: Nach franz. Genève.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7560">
+<label xml:id="GB03_2_BR539_0_note_005_319_24" copyOf="#start_com_4566"><hi rendition="#fett">319,24</hi>Bey Neuburg sind wir schon gewesen</label>
+<p>Gemeint ist Neuenburg (Neuchâtel). Zum Neuenburger See (Lac de Neuchâtel) hatte Goethe von Biel aus am 6. Oktober 1779 bereits einen Ausflug unternommen. Am 21. Oktober 1779 besuchte er den See erneut, um in Cheyres einen römischen Mosaikfußboden zu besichtigen (vgl. <ref target="gb:text#GB03_1_BR541_0_322_024 #GB03_1_BR541_0_322_025">322,24–25</ref>).</p>
+
+</note>
+<note xml:id="gb9584_comment_com16773">
+<label xml:id="GB03_2_BR539_0_note_006_319_24" copyOf="#start_com_4567"><hi rendition="#fett">319,24</hi>die Gener.</label>
+<p>Die Generalin; Näheres nicht ermittelt. – Lavater hatte Goethe offensichtlich einen Brief geschickt und ihn gebeten, diesen bei einem Besuch (vermutlich in Neuchâtel) persönlich auszuhändigen. – Im Brief an Lavater vom 26. November 1781 heißt es: <quote type="G">Du hattest l. Br. eine Abschrifft meiner <hi rendition="#hervor1">Iphigenie</hi> für den Gen. Koch verlangt</quote> (<ref target="gb:text#GB04_1_BR532_0_351_001 #GB04_1_BR532_0_351_002">GB 4 I, 351,1-2</ref>). Wer der hier Genannte war und ob er mit der im vorliegenden Brief erwähnten Generalin in Beziehung steht, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7573">
+<label xml:id="GB03_2_BR539_0_note_007_319_25" copyOf="#start_com_4568"><hi rendition="#fett">319,25</hi>ich schick ihr deinen Brief</label>
+<p>Ob dies geschah, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7574">
+<label xml:id="GB03_2_BR539_0_note_008_319_26" copyOf="#start_com_4569"><hi rendition="#fett">319,26</hi>Toblern</label>
+<p>Johann Georg Christoph Tobler, Lavaters Schüler und Freund in Genf; er übergab Goethe nach dessen Ankunft in Genf am 27. Oktober 1779 einen Brief von Lavater (vgl. <ref target="gb:text#GB03_1_BR542_0_327_001">327,1</ref>).</p>
+
+</note>
+<note xml:id="gb9584_comment_com7575">
+<label xml:id="GB03_2_BR539_0_note_009_319_26-27" copyOf="#start_com_4570"><hi rendition="#fett">319,26-27</hi>Von Genv hörst du weiter von mir.</label>
+<p>Vgl. Goethes Briefe an Lavater vom 28. und 29. Oktober sowie vom 2. November 1779 (<ref target="gb:dokument#11749">Nr 542</ref> und <ref target="gb:dokument#9360">545</ref>).</p>
+
+</note>
+<note xml:id="gb9584_comment_com7576">
+<label xml:id="GB03_2_BR539_0_note_010_319_28" copyOf="#start_com_4571"><hi rendition="#fett">319,28</hi>Cameralische Okulist</label>
+<p>Etwa: ‚Staatswirtschaftswissenschaftlicher Augenarzt‘. – Johann Heinrich Jung, Augenarzt in Elberfeld und bekannter Staroperateur, war 1778 als Professor der Kameralistik (Staatswirtschaftslehre) nach Kaiserslautern berufen worden.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7564">
+<label xml:id="GB03_2_BR539_0_note_011_319_28" copyOf="#start_com_4572"><hi rendition="#fett">319,28</hi><hi rendition="#hervor1">Br. Herzog</hi></label>
+<p>Goethe kommentiert hier und im Folgenden ein – offenbar weitgehend wörtliches – Zitat aus Johann Heinrich Jungs Brief an Lavater vom 7. Oktober 1779, das dieser ihm in seinem nur fragmentarisch überlieferten Bezugsbrief mitgeteilt hatte. In Jungs Brief heißt es: „Grüße Goethen von mir; ich denk, er liebt mich noch. Den Herzog – nun freylich – den grüsestu nicht von mir, wiewohl ich doch gern Bruder Herzog sagen möchte, weilen er Lavater besucht. Das ist immer so ein Zug in seinem Carakter, um welchen man ihm an den Hals springen, ihn herzen und küssen möchte. Das <hi rendition="#hervor1">Bruder Herzog</hi> will ich also noch ein Jahrhundert aufschieben, vielleicht schickt sich’s dann besser.“ (Johann Heinrich Jung-Stilling: Briefe. Ausgewählt und hrsg. von Gerhard Schwinge. Gießen, Basel 2002, S. 96.) – Der Hinweis ist Wolfgang Vulpius zu verdanken („Späne“, 147 f.). Offenbar mit Bezug auf diese Stelle schrieb Lavater im Antwortbrief:
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56473_source" corresp="#gb56473_comment">
+  <body>
+    <div>
+      <p>Du darfst mir alles sagen, aber glaube mir Lieber, <hi rendition="#hervor1">mir</hi> kömmt kein Sinn daran – „dem Löwen die Tatze zu bieten! Ich bin mit meiner Hauskaterschaft ganz wol zufrieden, und wenn ich werth wär’ etwas zu wünschen, so wär’s – nur, daß – <hi rendition="#hervor1">Einer</hi> sich nicht schämte mich <hi rendition="#hervor1">Bruder</hi> zu nennen!“ Sonst hast Du in gewißem Sinn völlig recht; und als ich Deinen lieben Brief erhielt – corrigirt’ ich eben ein Liedchen über’s V. Gebott, wo eine Strophe sagt –</p>
+      <lg>
+        <lb/>
+        <l rendition="#einrueck7">„Du seegnest jeden, der sich gern</l>
+        <l rendition="#einrueck7">Der Herrschaft unterziehet;</l>
+        <l rendition="#einrueck7">Dem Lehrer folgt; <hi rendition="#hervor1">in jedem Herrn</hi>
+        </l>
+        <l rendition="#einrueck7">
+          <hi rendition="#hervor1">Den Herrn der Herren siehet</hi>.</l>
+        <l rendition="#einrueck7">Dein Wille, Gott, verhüllet sich</l>
+        <l rendition="#einrueck7">In Menschenwillen! Dich, nur Dich</l>
+        <l rendition="#einrueck7">Ehrt wer die Höhern ehret.“</l>
+        <lb/>
+      </lg>
+      <p>Nichtachtung der wahren ewigen Verhältniße von Menschen zu Menschen ist mir ein entscheidend Zeichen eines dummen und unleidlichen Stolzes. Das war’s doch aber, denk’ ich, an dem <hi rendition="#hervor1">enfantilen Jung</hi> nicht?“</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56473_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56473_comment_com84824">
+  <p>(<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 82 f.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</p>
+
+</note>
+<note xml:id="gb9584_comment_com14701">
+<label xml:id="GB03_2_BR539_0_note_012_320_5" copyOf="#start_com_4573"><hi rendition="#fett">320,5</hi>Pardeln</label>
+<p>Nach lat. pardalis (Pantherweibchen) gebildetes Wort für Panther (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 645) und allgemein ‚große Raubkatzen‘.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7577">
+<label xml:id="GB03_2_BR539_0_note_013_320_5" copyOf="#start_com_4574"><hi rendition="#fett">320,5</hi>herumsielen</label>
+<p>‚Sich sielen‘ im Sinne von ‚sich suhlen‘, ‚sich sühlen‘, „sich im Kothe <supplied>Schmutz</supplied> wälzen“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 499).</p>
+
+</note>
+<note xml:id="gb9584_comment_com7589">
+<label xml:id="GB03_2_BR539_0_note_014_320_7" copyOf="#start_com_4575"><hi rendition="#fett">320,7</hi>Eh wir Zürch nahen hörst du mehr von mir.</label>
+<p>Außer den beiden Briefen aus Genf (vgl. zu <ref target="gb:note#GB03_2_BR539_0_note_009_319_26-27">319,26-27</ref>) schrieb Goethe am 14. November 1779 einen weiteren Brief an Lavater (<ref target="gb:dokument#11750">Nr 547</ref>), bevor er am 18. November in Zürich eintraf.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7590">
+<label xml:id="GB03_2_BR539_0_note_015_320_8" copyOf="#start_com_4576"><hi rendition="#fett">320,8</hi>d<g ref="#typoSuspension"/>. 17 Okbr. 79</label>
+<p>Vgl. <ref target="gb:note#gb9584_comment_com1503">Datierung</ref>.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7584">
+<label xml:id="GB03_2_BR539_0_note_016_320_9" copyOf="#start_com_4577"><hi rendition="#fett">320,9</hi>dein Weib</label>
+<p>Anna Lavater geb. Schinz.</p>
+
+</note>
+<note xml:id="gb9584_comment_com7591">
+<label xml:id="GB03_2_BR539_0_note_017_320_9" copyOf="#start_com_4578"><hi rendition="#fett">320,9</hi>die kleine</label>
+<p>Wohl nicht, wie vermutet, Lavaters Freundin Barbara Schultheß (vgl. Heinrich Düntzer: Freundesbilder aus Goethe’s Leben. Leipzig 1853, S. 56), die Goethe sonst stets ‚Bäbe‘ nennt, sondern mit Bezug auf Lavaters Kinder; vielleicht ist die achtjährige Tochter Anna gemeint.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

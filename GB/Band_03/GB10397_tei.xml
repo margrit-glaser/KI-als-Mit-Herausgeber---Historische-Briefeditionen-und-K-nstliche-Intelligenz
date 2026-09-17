@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="720"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10397" n="GB 3, Nr. 72">
+  <teiHeader xml:id="gb10397_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>72.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78408">Leipzig</placeName>, 26. März 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:29Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10397_tei.xml</idno>
+        <idno type="URI">gb10397</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR072_0</idno>
+        <idno type="KSW-ID">10397</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="48" to="49">48-49</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="192" to="192">192</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10397_header_hwit914" corresp="#gb10397_source_hwit914" sameAs="#gb10397_comment_hwit914" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 69</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10397,,914/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Herr ich mag nicht viel schreiben. dass ich alles erzählen kann! gelitten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+            <date when="1776-03-26">26. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10397_source_hwit914" corresp="#gb10397_header_hwit914" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10397/13774"/>
+      <p>
+        <anchor xml:id="GB03_1_BR072_0_048_019"/>Lieber Herr, ich mag nicht viel schreiben dass ich alles erzählen kann!<ptr n="1" target="#a001_48.19"/>
+        <anchor xml:id="GB03_1_BR072_0_048_020"/>
+        <ref target="gb:note#GB03_2_BR072_0_note_001_48_20" xml:id="start_com_0752"/>gelitten hab ich doch heute viel von Erinnerungen<ref xml:id="end_com_0752"/>. Glückliche Augenblicke 
+<anchor xml:id="GB03_1_BR072_0_048_021"/>aber auch gehabt. <ref target="gb:note#GB03_2_BR072_0_note_002_48_21" xml:id="start_com_0753"/>Die Schrödern<ref xml:id="end_com_0753"/> ist gar lieb und gut. Ihr 
+<anchor xml:id="GB03_1_BR072_0_048_022"/>
+        <ref target="gb:note#GB03_2_BR072_0_note_003_48_22" xml:id="start_com_0754"/>Pick<ref xml:id="end_com_0754"/> wider<ptr n="2" target="#a002_48.22"/>
+        <ref target="gb:note#GB03_2_BR072_0_note_004_48_22" xml:id="start_com_0755"/>Oesern<ref xml:id="end_com_0755"/> thut mir iezo doppelt leid da ich wieder ganz den 
+<anchor xml:id="GB03_1_BR072_0_049_001"/>alten, lieben, guten Menschen<ptr n="3" target="#a003_49.1"/>, und wahrhafften Künstler wiedergefunden 
+<anchor xml:id="GB03_1_BR072_0_049_002"/>haben.     Gute Nacht bester Herr.     L. d<g ref="#typoSuspension"/>. 26. Merz. 76.     G.</p>
+    <pb n="2" facs="gb:digitalisate#10397/13775" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10397/13776" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10397/13777"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10397_comment">
+<body>
+<div type="metadata" xml:id="gb10397_comment_com887">
+  <ab type="numberAddressee"><label>72.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78408">Leipzig</placeName>, 26. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10397_comment_com2931">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 69. – Doppelblatt 18,2 × 22,7 cm, &#x2153; S. beschr., egh., Tinte; S. 4 zerbrochenes rotes Siegel und Adresse: <quote type="G">Des Herzogs / zu Sachsen Weimar / Durch<g ref="#typoSuspension"/>.</quote></p>
+  <p>E: Zur Hausandacht für die stille Gemeinde am 28. August 1871. <supplied>Hrsg. von Salomon Hirzel</supplied>, S. 9, Nr 2.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 47, Nr 428.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10397_comment_com4727">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Goethe hielt sich seit dem Vortag, dem 25. März 1776, in Leipzig auf (vgl. weiter zu <ref target="gb:note#GB03_2_BR062_0_note_002_43_1-2">43,1-2</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10397_comment_com18013">
+<label xml:id="GB03_2_BR072_0_note_001_48_20" copyOf="#start_com_0752"><hi rendition="#fett">48,20</hi>gelitten <gap quantity="3" reason="editorial"/> von Erinnerungen</label>
+<p>Über seine Erinnerungen, die ihn in seine Studentenzeit in Leipzig zurückführten, berichtet Goethe auch in den Briefen an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR067_0_045_006 #GB03_1_BR067_0_045_007">45,6–7</ref>; <ref target="gb:text#GB03_1_BR068_0_045_021 #GB03_1_BR068_0_045_022">45,21–22</ref>; <ref target="gb:text#GB03_1_BR071_0_048_013 #GB03_1_BR071_0_048_014">48,13–14</ref>) sowie im vorhergehenden Brief an Herzog Carl August (<ref target="gb:dokument#10700">Nr 70</ref>).</p>
+
+</note>
+<note xml:id="gb10397_comment_com8447">
+<label xml:id="GB03_2_BR072_0_note_002_48_21" copyOf="#start_com_0753"><hi rendition="#fett">48,21</hi>Die Schrödern</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>.</p>
+
+</note>
+<note xml:id="gb10397_comment_com8448">
+<label xml:id="GB03_2_BR072_0_note_003_48_22" copyOf="#start_com_0754"><hi rendition="#fett">48,22</hi>Pick</label>
+<p>Hier im übertragenen Sinn von ‚Groll‘ (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_039_83_18-19">83,18-19</ref>).</p>
+
+</note>
+<note xml:id="gb10397_comment_com13818">
+<label xml:id="GB03_2_BR072_0_note_004_48_22" copyOf="#start_com_0755"><hi rendition="#fett">48,22</hi>Oesern</label>
+<p>Adam Friedrich Oeser; was Corona Schröter gegen ihn hatte, konnte nicht ermittelt werden. Über seine Beziehung zu Goethe vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10273_comment_com22599">GB 1 II, Nr 44</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

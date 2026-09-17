@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8550"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb55" n="GB 3, Nr. A 3">
+  <teiHeader xml:id="gb55_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>A 3.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Juni 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:44Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb55_tei.xml</idno>
+        <idno type="URI">gb55</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_AB003_0</idno>
+        <idno type="KSW-ID">55</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="439" to="439">439</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1093" to="1095">1093-1095</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb55_header_hwit1493" corresp="#gb55_source_hwit1493" sameAs="#gb55_comment_hwit1493" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Bergwerke B 15513</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/55,,1493/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Den gnädigsten Befehl Ew. Durchl. mich bei dem Vizeberghauptmann von Treba</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb55_header_acc244" corresp="gb55_comment_acc244">
+            <objectIdentifier>
+              <objectName>Brief Friedrich Wilhelm Heinrich von Trebras an Goethe vom 2. Juni 1779.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-06-08">8. Juni 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb55_source_hwit1493" corresp="#gb55_header_hwit1493" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#55/26029"/>
+      <opener>
+        <salute rendition="#einrueck8">
+          <anchor xml:id="GB03_1_AB003_0_439_001"/>
+          <emph rendition="#latin">Unterthänigstes Pro Memoria.</emph>
+        </salute>
+      </opener>
+      <space quantity="2" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_AB003_0_439_002"/>Den gnädigsten Befehl <emph rendition="#latin">Ew. Durch<g ref="#typoSuspension"/>.</emph> mich bei dem <ref target="gb:note#GB03_2_AB003_0_note_001_439_2-3" xml:id="start_com_5238"/>Vizeberghauptmann 
+<anchor xml:id="GB03_1_AB003_0_439_003"/>
+        <emph rendition="#latin">von Trebra</emph>
+        <ref xml:id="end_com_5238"/> um die Fähigkeiten und den bisher bezeigten Fleiss <ref target="gb:note#GB03_2_AB003_0_note_002_439_3-4" xml:id="start_com_5239"/>des iungen 
+<anchor xml:id="GB03_1_AB003_0_439_004"/>Voigts gegenwärtig in Freiberg<ref xml:id="end_com_5239"/> zu erkundigen <ref target="gb:note#GB03_2_AB003_0_note_003_439_4-5" xml:id="start_com_5240"/>habe sogleich unterthänigst 
+<anchor xml:id="GB03_1_AB003_0_439_005"/>befolget<ref xml:id="end_com_5240"/>, die <ref target="gb:note#GB03_2_AB003_0_note_004_439_5" xml:id="start_com_5241"/>Antwort<ref xml:id="end_com_5241"/> des <emph rendition="#latin">von Trebra</emph> liegt hier bei, und 
+<anchor xml:id="GB03_1_AB003_0_439_006"/>
+        <emph rendition="#latin">Ew. Durch<g ref="#typoSuspension"/>.</emph> werden das weitere gnädigst zu verfügen geruhen.</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_AB003_0_439_007"/>Weimar den 8 Juni 1779.</dateline>
+        <salute rendition="#einrueck12">
+          <anchor xml:id="GB03_1_AB003_0_439_008"/>Ew Hochfurst<g ref="#typoSuspension"/> Durch<g ref="#typoSuspension"/></salute>
+        <space quantity="2" unit="lines"/>
+        <dateline rendition="#einrueck20">
+          <anchor xml:id="GB03_1_AB003_0_439_009"/>unterthänigst treu</dateline>
+        <dateline rendition="#einrueck21">
+          <anchor xml:id="GB03_1_AB003_0_439_010"/>gehorsamster</dateline>
+        <anchor xml:id="GB03_1_AB003_0_439_011"/>
+        <lb/><signed rend="signature" rendition="#einrueck22">JWGoethe</signed>
+        <lb/><dateline rendition="#einrueck23">
+          <anchor xml:id="GB03_1_AB003_0_439_012"/>
+          <graphic url="gb:digitalisate#55/70175" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#55/26030"/>
+    <pb n="3" facs="gb:digitalisate#55/26033"/>
+    <pb n="4" facs="gb:digitalisate#55/26034"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb55_comment">
+<body>
+<div type="metadata" xml:id="gb55_comment_com115">
+  <ab type="numberAddressee"><label>A 3.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Juni 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb55_comment_com2159">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bergwerke B 15513, Bl. 15 und 25. – Doppelblatt 20,5 × 33,2 cm, 1 S. beschr., Schreiberhd, Tinte, Schlussformel und Unterschrift (<quote type="G">Ew Hochfurst<g ref="#typoSuspension"/> Durch<g ref="#typoSuspension"/> <gap quantity="3" reason="editorial"/> JWGoethe</quote>) egh., Tinte; über dem Brieftext links von fremder Hd, Tinte: „C 141.“ sowie über dem Brieftext rechts Präsentatsvermerk: „ps. d. 9 Juny 1779.“; unter dem Brieftext links neben der Schlussformel Bearbeitungsvermerk Johann Christoph Schmidts, Tinte: „beyzulegen / resol<g ref="#typoSuspension"/>. den 11<hi rendition="#sup #u">ten</hi> Jun: / 1779 / JCSchmidt“; links am Rand Anlagestrich vor der Zeile <quote type="G">hier bei <gap quantity="3" reason="editorial"/> das wei-</quote> (<ref target="gb:text#GB03_1_AB003_0_439_005 #GB03_1_AB003_0_439_006">439,5–6</ref>); S. 4 Adresse: <quote type="G"><emph rendition="#latin">Serenissimo</emph></quote>.</p>
+  <p>E: <ref target="sndb:sigle#1159">Carl August-Goethe<hi rendition="#sup">2</hi></ref> 1 (1915), 19, Nr 13.</p>
+  <p><ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 51, Nr 822a.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb55_comment_com3463">
+  <p>Brief Friedrich Wilhelm Heinrich von Trebras an Goethe vom 2. Juni 1779 (abgedruckt in der Erläuterung zu <ref target="gb:note#GB03_2_AB003_0_note_004_439_5">439,5</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb55_comment_com3955">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb55_comment_com5365">
+<label xml:id="GB03_2_AB003_0_note_001_439_2-3" copyOf="#start_com_5238"><hi rendition="#fett">439,2-3</hi>Vizeberghauptmann von Trebra</label>
+<p>Friedrich Wilhelm Heinrich von Trebra, Mineraloge und Bergbauexperte, seit 1773 kursächsischer Vizeberghauptmann, später Leiter des Bergwesens im Kurfürstentum Sachsen.</p>
+
+</note>
+<note xml:id="gb55_comment_com16337">
+<label xml:id="GB03_2_AB003_0_note_002_439_3-4" copyOf="#start_com_5239"><hi rendition="#fett">439,3-4</hi>des iungen Voigts gegenwärtig in Freiberg</label>
+<p>Johann Carl Wilhelm Voigt, Geologe und Mineraloge, Bruder des damaligen Regierungsrats und späteren Ministerkollegen Goethes Christian Gottlob Voigt, war bei seinem dreijährigen Studium der Bergwissenschaften an der Bergakademie in Freiberg von Herzog Carl August finanziell unterstützt worden, um ihn danach als Fachmann für die geplante Wiederaufnahme des Ilmenauer Bergbaus heranzuziehen. Voigt hatte am 8. Mai 1779 ein Gesuch an Herzog Carl August gerichtet (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bergwerke B 15513, Bl. 1), in dem er unter Beilegung eines „Probestücks“ – „Grubenbericht von den Berggebäude: Neuer Morgenstern, Erbstolln am Muldenberge. Freyberg im April, 1779“ (ebd., Bl. 3–12) – um „einige nothdürftige Versorgung in meinem Vaterlande“ (ebd., Bl. 1v) bat. Bei der Beratung des Gesuchs im Geheimen Consilium am 21. Mai 1779 wurde folgender am Rand des Gesuchs protokollierter Beschluss gefasst: „Haben der Herr Geh. Legat: Rath, Goethe, übernommen, an den Herrn Vice-Berg-Hauptmann von Trebra zu schreiben. reso<g ref="#typoSuspension"/>. den 21<hi rendition="#sup">sten</hi> May 1779. JCSchmidt“ (ebd., Bl. 1r; vgl. auch <ref target="sndb:sigle#32">AS</ref> 1, 70). Goethe vermerkte darunter in einer eigenhändigen Notiz: <quote type="G">Ist d<g ref="#typoSuspension"/>. 27 May geschehen Goethe</quote> (ebd.). Der junge Voigt wurde 1783 Bergsekretär in Weimar, 1789 Bergrat in Ilmenau.</p>
+
+</note>
+<note xml:id="gb55_comment_com5366">
+<label xml:id="GB03_2_AB003_0_note_003_439_4-5" copyOf="#start_com_5240"><hi rendition="#fett">439,4-5</hi>habe sogleich unterthänigst befolget</label>
+<p>Ein entsprechender Brief Goethes an Trebra ist nicht überliefert (vgl. <ref target="gb:dokument#52685">EB 250</ref>).</p>
+
+</note>
+<note xml:id="gb55_comment_com14261">
+<label xml:id="GB03_2_AB003_0_note_004_439_5" copyOf="#start_com_5241"><hi rendition="#fett">439,5</hi>Antwort</label>
+<p>Friedrich Wilhelm Heinrich von Trebras Brief an Goethe vom 2. Juni 1779 aus Marienberg:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56476_source" corresp="#gb56476_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB042_0_1095_001"/>Doppelte Freude, von dem fortdaurenden Zutrauen Ihro Durchℓ., und von Ihrer 
+<anchor xml:id="GB03_2_FB042_0_1095_002"/>Freundschaft aufs neue überzeugt zu werden. Künftigen Sonntag werden wir <ref target="gb:note#GB03_2_FB042_0_note_005_1095_2-3" xml:id="start_com_7300"/>das 
+<anchor xml:id="GB03_2_FB042_0_1095_003"/>Friedensfest<ref xml:id="end_com_7300"/> feyern, das ist von der Seite des Krieges her, hören unsere Unfälle nun 
+<anchor xml:id="GB03_2_FB042_0_1095_004"/>auf, und wir können immer froh seyn, daß wir nicht noch mehr gelitten haben. 
+<anchor xml:id="GB03_2_FB042_0_1095_005"/>Eben der Antheil, welchen meine Freunde an meinem Schicksale, während dem 
+<anchor xml:id="GB03_2_FB042_0_1095_006"/>Kriege nahmen, ist oft eine meiner ersten Stützen gewesen, woranne ich mich habe 
+<anchor xml:id="GB03_2_FB042_0_1095_007"/>aufrechterhalten können, nun soll ihnen allen mein Hertz auch den vorbildlichsten 
+<anchor xml:id="GB03_2_FB042_0_1095_008"/>Dank feyern.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB042_0_1095_009"/>Der junge Voigt ist nicht ohne gutes Talent für den Bergbau. Er hat eine Zeit 
+<anchor xml:id="GB03_2_FB042_0_1095_010"/>in Freiberg besonders der Mineralogie und dem praktischen Bergbau gewidmet, 
+<anchor xml:id="GB03_2_FB042_0_1095_011"/>und kann in Ilmenau dereinst einmal, wenn dasiges Kupferstück wieder erhoben 
+<anchor xml:id="GB03_2_FB042_0_1095_012"/>wird, wohl Nutzen schaffen, und wünschte ich, daß er noch einige Zeit zu Eisleben 
+<anchor xml:id="GB03_2_FB042_0_1095_013"/>sich aufhalten möchte, dort den eigentlichen <ref target="gb:note#GB03_2_FB042_0_note_006_1095_13" xml:id="start_com_7301"/>Flötzbergbau<ref xml:id="end_com_7301"/>, den er hier nicht <pb n="1095"/>
+        <anchor xml:id="GB03_2_FB042_0_1096_014"/>hat sehen können, zu sehen und zu studieren. Vielleicht gäben Ihro Durchℓ. für 
+<anchor xml:id="GB03_2_FB042_0_1096_015"/>einen Aufenthalt daselbst ein 60 rℓ:, oder wie viel ihnen gefällig wäre Zuschuß, 
+<anchor xml:id="GB03_2_FB042_0_1096_016"/>und wendeten ihn nachher dazu an, in Ilmenau den <ref target="gb:note#GB03_2_FB042_0_note_007_1096_16" xml:id="start_com_7302"/>Bergschreiber<ref xml:id="end_com_7302"/>, <ref target="gb:note#GB03_2_FB042_0_note_008_1096_16" xml:id="start_com_7303"/>Gegenschreiber<ref xml:id="end_com_7303"/>, 
+<anchor xml:id="GB03_2_FB042_0_1096_017"/>und vielleicht auch den <ref target="gb:note#GB03_2_FB042_0_note_009_1096_17" xml:id="start_com_7304"/>Zehender<ref xml:id="end_com_7304"/> zu machen. In der Zwischenzeit, da er Eisleben 
+<anchor xml:id="GB03_2_FB042_0_1096_018"/>besieht, die längstens ein halbes Jahr dauren kann, käme dann die Zeit des Angriffs 
+<anchor xml:id="GB03_2_FB042_0_1096_019"/>beim Ilmenauer Bergbau heran, und Voigt könnte dann ebenso bequem dabey versorgt 
+<anchor xml:id="GB03_2_FB042_0_1096_020"/>werden, als ein Fremder, den man dazu erst anderswoher fordern müßte. Das 
+<anchor xml:id="GB03_2_FB042_0_1096_021"/>wäre es wenigstens, was ich an meinem Theile über diese Sache zu sagen im Stande 
+<anchor xml:id="GB03_2_FB042_0_1096_022"/>bin.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB042_0_1096_023"/>Empfehlen Sie mich zu fernerer Gnade Ihro Durchℓ. dem Hertzoge, und erhalten 
+<anchor xml:id="GB03_2_FB042_0_1096_024"/>Sie mir immer fort einen Theil Ihres Hertzens</p>
+      <p>
+        <anchor xml:id="GB03_2_FB042_0_1096_025"/>Marienberg dℓ: 2<hi rendition="#sup #u">ten</hi> Jun. 1779.</p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB042_0_1096_026"/>Ihrem</p>
+      <p rendition="#einrueck19">
+        <anchor xml:id="GB03_2_FB042_0_1096_027"/>unveränderlichen Freunde</p>
+      <p rendition="#einrueck22">
+        <anchor xml:id="GB03_2_FB042_0_1096_028"/>F. WH. von Trebra</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56476_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56476_comment_com84837">
+  <p>(H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Geheime Canzley-Acta / Die Unterstützung des den Berg-Wissenschafften beflißenen Johann Carl Wilhelm Voigt, betr<g ref="#typoSuspension"/>, Bergwerke B 15513, Bl. 16).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56476_comment_com84838">
+<label xml:id="GB03_2_FB042_0_note_005_1095_2-3" copyOf="#start_com_7300"><hi rendition="#normal">1095,2-3</hi>das Friedensfest</label>
+<p>Mit Bezug auf den Bayerischen Erbfolgekrieg, der am 13. Mai 1779 mit dem Frieden zu Teschen beendet worden war.</p>
+</note>
+<note xml:id="gb56476_comment_com84839">
+<label xml:id="GB03_2_FB042_0_note_006_1095_13" copyOf="#start_com_7301"><hi rendition="#normal">1095,13</hi>Flötzbergbau</label>
+<p>Flöz: eine durch Sedimentablagerung entstandene, waagerecht verlaufende Gesteinsschicht.</p>
+</note>
+<note xml:id="gb56476_comment_com84840">
+<label xml:id="GB03_2_FB042_0_note_007_1096_16" copyOf="#start_com_7302"><hi rendition="#normal">1096,16</hi>Bergschreiber</label>
+<p>Beamter des Bergamtes, Protokollführer des Berggerichts.</p>
+</note>
+<note xml:id="gb56476_comment_com84841">
+<label xml:id="GB03_2_FB042_0_note_008_1096_16" copyOf="#start_com_7303"><hi rendition="#normal">1096,16</hi>Gegenschreiber</label>
+<p>Beamter des Bergamtes; er führte das Gegenbuch, welches die Eigentumsverhältnisse eines Bergwerks und dessen Gewinne und Verluste dokumentierte.</p>
+</note>
+<note xml:id="gb56476_comment_com84842">
+<label xml:id="GB03_2_FB042_0_note_009_1096_17" copyOf="#start_com_7304"><hi rendition="#normal">1096,17</hi>Zehender</label>
+<p>Auch Zehntner, Decimator: Beamter des Bergamtes, der für die Finanzen zuständig war, insbesondere für die korrekte Abführung von Steuern an den Landesherrn; er hatte das Recht, den Gegenschreiber und das Gegenbuch zu kontrollieren.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+<p>Der Empfehlung Trebras gemäß wurden Voigt für den Studienaufenthalt in Eisleben 90 Reichstaler, verteilt auf drei Quartale, bewilligt (vgl. Reskript an die Kammer zu Weimar, Konzept vom 9. September 1779, paraphiert von Herzog Carl August, Jacob Friedrich von Fritsch, Christian Friedrich Schnauß und Johann Wolfgang Goethe; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Bergwerke B 15513, Bl. 18r).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1980"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11252" n="GB 3, Nr. 196">
+  <teiHeader xml:id="gb11252_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>196.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 1. Dezember? 1776. Sonntag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:39Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11252_tei.xml</idno>
+        <idno type="URI">gb11252</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR196_0</idno>
+        <idno type="KSW-ID">11252</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="121" to="121">121</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="440" to="441">440-441</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11252_header_hwit1121" corresp="#gb11252_source_hwit1121" sameAs="#gb11252_comment_hwit1121" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 118</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11252,,1121/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lenz hat mir weggehend noch diesen Brief an Herzogin Louise offen zugeschickt, übergeben Sie ihn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11252_header_acc227" corresp="gb11252_comment_acc227">
+            <objectIdentifier>
+              <objectName>Brief von Lenz an Louise Herzogin von Sachsen-Weimar und Eisenach </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-12-01"><supplied>1. Dezember? 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11252_source_hwit1121" corresp="#gb11252_header_hwit1121" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11252/22489"/>
+      <p>
+        <anchor xml:id="GB03_1_BR196_0_121_001"/>
+        <ref target="gb:note#GB03_2_BR196_0_note_001_121_1" xml:id="start_com_1847"/>Lenz hat mir weggehend<ref xml:id="end_com_1847"/> noch diesen <ref target="gb:note#GB03_2_BR196_0_note_002_121_1" xml:id="start_com_1848"/>Brief an H. Louise<ref xml:id="end_com_1848"/> offen zugeschickt, 
+<anchor xml:id="GB03_1_BR196_0_121_002"/>übergeben Sie ihn liebe Frau. Die ganze Sache reisst<ptr n="1" target="#a001_121.2"/> so an 
+<anchor xml:id="GB03_1_BR196_0_121_003"/>meinem innersten, dass ich erst dadran wieder spüre dass es tüchtig ist 
+<anchor xml:id="GB03_1_BR196_0_121_004"/>und was aushalten kann.      G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11252_comment">
+<body>
+<div type="metadata" xml:id="gb11252_comment_com675">
+  <ab type="numberAddressee"><label>196.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>1. Dezember? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11252_comment_com1714">
+  <p>Der vorliegende Brief, im Konvolut der Briefe an Charlotte von Stein (Bd I) den undatierten Briefen am Ende des Jahrgangs 1778 zugeordnet, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen, wurde seit seiner ersten Veröffentlichung bei Schöll entweder auf den 30. November oder den 1. Dezember 1776 datiert. Aus dem Beginn des Briefes geht hervor, dass Lenz bereits ‚weggegangen‘ war (vgl. <ref target="gb:text#GB03_1_BR196_0_121_001">121,1</ref>). Die folgende Anspielung (vgl. <ref target="gb:text#GB03_1_BR196_0_121_002 #GB03_1_BR196_0_121_003">121,2–3</ref>) bezieht sich offensichtlich auf dessen endgültige Abreise aus Weimar infolge seiner <quote type="G">Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>) vom 26. November. Wie Goethes Tagebuch vom 30. November 1776 vermuten lässt, reiste Lenz am folgenden Tag ab (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR196_0_note_001_121_1">121,1</ref>), an dem wahrscheinlich auch der vorliegende Brief geschrieben wurde.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11252_comment_com2719">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 118. – 1 Bl. 18,5(–18,9) × 9,7(–10,2) cm, &#x2154; S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „98“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 101), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 72.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 124, Nr 535.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11252_comment_com3636">
+  <p>Brief von Lenz an Louise Herzogin von Sachsen-Weimar und Eisenach (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR196_0_note_002_121_1">121,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11252_comment_com4515">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11252_comment_com10893">
+<label xml:id="GB03_2_BR196_0_note_001_121_1" copyOf="#start_com_1847"><hi rendition="#fett">121,1</hi>Lenz hat mir weggehend</label>
+<p>Infolge einer <quote type="G">Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>), laut Goethes Tagebuch begangen am 26. November 1776, musste Lenz Weimar verlassen. Über den Charakter des Vorfalls konnten bis heute nur Vermutungen angestellt werden. Er muss Goethe aber tief verletzt haben, wie auch der vorliegende Brief belegt (vgl. insgesamt die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>). Am 29. oder 30. November hatte Lenz in seinem Abschiedsbrief an Herder geschrieben: „Wolltest Du ihn <supplied>Herzog Carl August</supplied> mündlich bitten, mir huldreichst zu verzeihen, daß ich seine Bücher solange gehabt und gebraucht und daß ich die Dreistigkeit habe ihn unterthänigst nur um einen Aufschub von einem Tage zu bitten <gap quantity="3" reason="editorial"/>.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 57.) Offenbar mit Bezug auf diese Bitte vermerkte Goethe am 30. November im Tagebuch: <quote type="G">L.</quote> <supplied>Lenz’</supplied> <quote type="G">Letzte Bitte um noch eine Tag stillscheigend</quote> <supplied>sic!</supplied> <quote type="G">accordirt.</quote> (<ref target="gt:dokument#218">GT I 1, 30</ref>.) Demzufolge verließ Lenz Weimar sehr wahrscheinlich am 1. Dezember 1776. Am 31. Dezember schreibt Wieland an Catharina Elisabeth Goethe in Frankfurt: „Daß Lenzchen bey Euch gewesen, und viel Liebs und Guts von uns gesagt hat, wie er denn auch mit gutem Gewissen thun konnte, war mir lieb zu vernehmen. Der wunderliche träumerische Mensch ist von hier verschwunden, wie er erschienen war – ich wußte eben so wenig, wohin er gieng, als woher er kam.“ (<ref target="sndb:sigle#141">WB</ref> 5, 578 f.)</p>
+
+</note>
+<note xml:id="gb11252_comment_com17806">
+<label xml:id="GB03_2_BR196_0_note_002_121_1" copyOf="#start_com_1848"><hi rendition="#fett">121,1</hi>Brief an H. Louise</label>
+<p>Nicht überliefert. – Das Fragment eines französischen Briefes wahrscheinlich vom 29. November 1776 wurde zuerst 1901 als Brief von Lenz an die Herzogin Louise gedruckt (vgl. Erich Schmidt: Lenziana. In: Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften in Berlin. Bd 41, S. 1017). Seit der Veröffentlichung durch Karl Freye und Wolfgang Stammler gilt Herzog Carl August als Adressat (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 56, Nr 249).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

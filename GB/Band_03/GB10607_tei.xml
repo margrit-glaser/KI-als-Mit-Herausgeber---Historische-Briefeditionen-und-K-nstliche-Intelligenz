@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="430"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10607" n="GB 3, Nr. 43">
+  <teiHeader xml:id="gb10607_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>43.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 14. Februar 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:23Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10607_tei.xml</idno>
+        <idno type="URI">gb10607</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR043_0</idno>
+        <idno type="KSW-ID">10607</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="31" to="31">31</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="135" to="138">135-138</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10607_header_hwit874" corresp="#gb10607_source_hwit874" sameAs="#gb10607_comment_hwit874" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10607,,874/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante, ich höre nichts von Ihnen, wie Sie nichts von uns, doch Sie müssen bey der Frau Aya</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-14">14. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10607_source_hwit874" corresp="#gb10607_header_hwit874" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10607/62335"/>
+      <p>
+        <anchor xml:id="GB03_1_BR043_0_031_001"/>Liebe Tante, <ref target="gb:note#GB03_2_BR043_0_note_001_31_1" xml:id="start_com_0492"/>ich höre nichts von Ihnen<ref xml:id="end_com_0492"/>, Wie Sie nichts von uns, doch 
+<anchor xml:id="GB03_1_BR043_0_031_002"/>sie müssen bey der <ref target="gb:note#GB03_2_BR043_0_note_002_31_2" xml:id="start_com_0493"/>Fr. Aya<ref xml:id="end_com_0493"/> manches vernehmen, und ich dächte, Sie 
+<anchor xml:id="GB03_1_BR043_0_031_003"/>schrieben mir manchmal aus Ihrem Herzen, dass ich nicht so ganz 
+<anchor xml:id="GB03_1_BR043_0_031_004"/>fremd würde mit euch. Ich richte mich hier in’s Leben, und das Leben 
+<anchor xml:id="GB03_1_BR043_0_031_005"/>in mich. Ich wollt ich könnt Ihnen so vom innersten schreiben 
+<anchor xml:id="GB03_1_BR043_0_031_006"/>das geht aber nicht, es laufen so viel Fäden durch einander, so viel 
+<anchor xml:id="GB03_1_BR043_0_031_007"/>Zweige aus dem Stamme die sich kreuzen, dass ohne <ref target="gb:note#GB03_2_BR043_0_note_003_31_7" xml:id="start_com_0494"/>Diarium<ref xml:id="end_com_0494"/>, das ich 
+<anchor xml:id="GB03_1_BR043_0_031_008"/>doch nicht geschrieben habe, nichts anschaulichs zu sagen ist. <ref target="gb:note#GB03_2_BR043_0_note_004_31_8-9" xml:id="start_com_0495"/>Herder 
+<anchor xml:id="GB03_1_BR043_0_031_009"/>hat den Ruf als Generalsuperintendent angenommen.<ref xml:id="end_com_0495"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR043_0_031_010"/>
+        <ref target="gb:note#GB03_2_BR043_0_note_005_31_10" xml:id="start_com_0496"/>Ich werd auch wohl dableiben<ref xml:id="end_com_0496"/> und <ref target="gb:note#GB03_2_BR043_0_note_006_31_10" xml:id="start_com_0497"/>meine Rolle<ref xml:id="end_com_0497"/> so gut spielen als 
+<anchor xml:id="GB03_1_BR043_0_031_011"/>ich kann und solang als mir’s und dem Schicksaal beliebt. Wär’s auch 
+<anchor xml:id="GB03_1_BR043_0_031_012"/>nur auf <ref target="gb:note#GB03_2_BR043_0_note_007_31_12" xml:id="start_com_0498"/>ein paar Jahre<ref xml:id="end_com_0498"/>, ist doch immer besser als <ref target="gb:note#GB03_2_BR043_0_note_008_31_12-13" xml:id="start_com_0499"/>das untätige Leben zu 
+<anchor xml:id="GB03_1_BR043_0_031_013"/>Hause<ptr n="1" target="#a001_31.13"/>
+        <ref xml:id="end_com_0499"/> wo ich mit <ref target="gb:note#GB03_2_BR043_0_note_009_31_13" xml:id="start_com_0500"/>dem<ref xml:id="end_com_0500"/> grössten Lust nichts thun kann. Hier hab ich 
+<anchor xml:id="GB03_1_BR043_0_031_014"/>doch <ref target="gb:note#GB03_2_BR043_0_note_010_31_14" xml:id="start_com_0501"/>ein paar Herzogthümer<ref xml:id="end_com_0501"/> vor mir. Jetzt bin ich dran <ref target="gb:note#GB03_2_BR043_0_note_011_31_14-15" xml:id="start_com_0502"/>das Land nur 
+<anchor xml:id="GB03_1_BR043_0_031_015"/>kennen zu lernen<ref xml:id="end_com_0502"/>, das macht mir schon viel spaas. Und der Herzog <pb n="2" facs="gb:digitalisate#10607/62336"/> 
+<anchor xml:id="GB03_1_BR043_0_031_016"/>kriegt auch dadurch Liebe zur Arbeit, und weil ich ihn ganz kenne 
+<anchor xml:id="GB03_1_BR043_0_031_017"/>
+        <ref target="gb:note#GB03_2_BR043_0_note_012_31_17" xml:id="start_com_0503"/>bin ich über viel Sachen ganz und gar ruhig<ref xml:id="end_com_0503"/>. <ref target="gb:note#GB03_2_BR043_0_note_013_31_17-18" xml:id="start_com_0504"/>Mit Wieland führ<ptr n="2" target="#a002_31.17"/> ich 
+<anchor xml:id="GB03_1_BR043_0_031_018"/>ein liebes häusliches Leben<ref xml:id="end_com_0504"/>, esse Mittags und Abends mit ihm wenn 
+<anchor xml:id="GB03_1_BR043_0_031_019"/>ich nicht bey Hofe bin. Die Mägdlein sind hier gar hübsch und <ref target="gb:note#GB03_2_BR043_0_note_014_31_19" xml:id="start_com_0505"/>artig<ref xml:id="end_com_0505"/>, 
+<anchor xml:id="GB03_1_BR043_0_031_020"/>ich bin gut mit allen. Eine herrliche Seele ist die <ref target="gb:note#GB03_2_BR043_0_note_015_31_20" xml:id="start_com_0506"/>Fr. von Stein<ref xml:id="end_com_0506"/>, an die 
+<anchor xml:id="GB03_1_BR043_0_031_021"/>ich so was man sagen mögte geheftet und <ref target="gb:note#GB03_2_BR043_0_note_016_31_21" xml:id="start_com_0507"/>genistelt<ref xml:id="end_com_0507"/> bin. <ref target="gb:note#GB03_2_BR043_0_note_017_31_21" xml:id="start_com_0508"/>Louise<ref xml:id="end_com_0508"/> und 
+<anchor xml:id="GB03_1_BR043_0_031_022"/>ich Leben nur in Blicken und Sylben zusammen <ref target="gb:note#GB03_2_BR043_0_note_018_31_22-23" xml:id="start_com_0509"/>sie ist und bleibt ein 
+<anchor xml:id="GB03_1_BR043_0_031_023"/>Engel<ref xml:id="end_com_0509"/>. Mit der <ref target="gb:note#GB03_2_BR043_0_note_019_31_23" xml:id="start_com_0510"/>Herz. Mutter<ref xml:id="end_com_0510"/> hab ich sehr gute Zeiten, treiben auch 
+<anchor xml:id="GB03_1_BR043_0_031_024"/>wohl <ref target="gb:note#GB03_2_BR043_0_note_020_31_24" xml:id="start_com_0511"/>allerley Schwänck und Schabernack<ref xml:id="end_com_0511"/>. Sie sollten nicht glauben 
+<anchor xml:id="GB03_1_BR043_0_031_025"/>wie <ref target="gb:note#GB03_2_BR043_0_note_021_31_25" xml:id="start_com_0512"/>viel gute Jungens<ref xml:id="end_com_0512"/> und gute Köpfe beysammen sind, wir halten<ptr n="3" target="#a003_31.25"/>
+        <anchor xml:id="GB03_1_BR043_0_031_026"/>zusammen, <ref target="gb:note#GB03_2_BR043_0_note_022_31_26" xml:id="start_com_0513"/>sind herrlich unter<ptr n="4" target="#a004_31.26"/> und dramatisiren einander<ref xml:id="end_com_0513"/>, und halten 
+<anchor xml:id="GB03_1_BR043_0_031_027"/>den Hof uns vom Leibe. Schicken Sie mir doch bald möglichst von 
+<anchor xml:id="GB03_1_BR043_0_031_028"/>den grosen <ref target="gb:note#GB03_2_BR043_0_note_023_31_28" xml:id="start_com_0514"/>Dames Federn<ref xml:id="end_com_0514"/>, Sie wissen ia solche Hahnen kämme 2 Rosenrothe. 
+<anchor xml:id="GB03_1_BR043_0_031_029"/>3 Weise so schön sie sie haben können, und den Preis Sie 
+<anchor xml:id="GB03_1_BR043_0_031_030"/>sollen das Geld gleich haben. <ref target="gb:note#GB03_2_BR043_0_note_024_31_30" xml:id="start_com_0515"/>Friz<ref xml:id="end_com_0515"/> u. alle meine Freunde klagen über 
+<anchor xml:id="GB03_1_BR043_0_031_031"/>mich.     d<g ref="#typoSuspension"/>. 14 Feb  76.</p>
+    <pb n="3" facs="gb:digitalisate#10607/62337" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10607/62338" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10607_comment">
+<body>
+<div type="metadata" xml:id="gb10607_comment_com1245">
+  <ab type="numberAddressee"><label>43.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 14. Februar 1776 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10607_comment_com3289">
+  <p>H: Privatbesitz, Deutschland. – Doppelblatt 11,5 × 18,6 cm, Briefpapier mit Goldschnitt, 2 S. beschr., egh., Tinte; S. 1 oben links von Johanna Fahlmers Hd, Tinte: „Nr 3“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), in der Mitte von fremder Hd, Bleistift: „40“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 104–106, Nr 40.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 28 f., Nr 402 (nach E; Textkorrektur nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50 [1912], 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10607_comment_com5085">
+  <p>Einen Bezugsbrief gibt es offenbar nicht (vgl. <ref target="gb:text#GB03_1_BR043_0_031_001">31,1</ref>). – Ein Antwortbrief ist nicht bekannt. Goethe schrieb wenig später, am 19. Februar 1776, einen weiteren Brief an Johanna Fahlmer (<ref target="gb:dokument#10685">Nr 46</ref>).</p>
+  <p rendition="#einrueck1">Postsendungen: 14. Februar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 5v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10607_comment_com14909">
+<label xml:id="GB03_2_BR043_0_note_001_31_1" copyOf="#start_com_0492"><hi rendition="#fett">31,1</hi>ich höre nichts von Ihnen</label>
+<p>Goethes letzter überlieferter Brief an Johanna Fahlmer stammt vom 5. Januar 1776 (<ref target="gb:dokument#10636">Nr 15</ref>). Vermutlich hatte die Adressatin darauf nicht geantwortet.</p>
+
+</note>
+<note xml:id="gb10607_comment_com17391">
+<label xml:id="GB03_2_BR043_0_note_002_31_2" copyOf="#start_com_0493"><hi rendition="#fett">31,2</hi>Fr. Aya</label>
+<p>Frau Aya (auch: Aja): scherzhafter Name für Goethes Mutter Catharina Elisabeth. Er bezieht sich auf die Mutter der vier Haymonskinder im gleichnamigen mittelalterlichen Volksbuch, welches auf das fragmentarisch überlieferte mittelniederländische Epos „De vier Heemskinderen“ zurückgeht, das zwischen 1100 und 1300 in Flandern oder Brabant entstanden ist. Der Name soll aufgekommen sein, als die Brüder Friedrich Leopold und Christian zu Stolberg in Gesellschaft von Christian von Haugwitz im Mai 1775 Goethe in dessen Elternhaus in Frankfurt aufgesucht hatten, um mit ihm in die Schweiz zu reisen. Die vier jungen Männer verstanden sich als die Haimonskinder und nannten Catharina Elisabeth Frau Aja. Goethe berichtet in seinen Lebenserinnerungen: <quote type="G">Zu meiner Mutter machte sich ein eigenes Verhältniß <gap quantity="3" reason="editorial"/>. Nicht anders als Frau Aja ward sie genannt und sie gefiel sich in dem Scherze</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 597 f. [18. Buch]). Diesen Namen, variiert mit Aia, verwendete allerdings auch schon Johann Caspar Goethe in seinem Ausgabenbuch von 1774 (vgl. den Eintrag unter dem 20. Juli; <ref target="sndb:sigle#2979">Liber domesticus<hi rendition="#sup">2</hi></ref>, 225). Im Italienischen, Johann Caspar Goethes Lieblingssprache, heißt das Wort soviel wie ‚Kinderfrau‘ oder ‚Hofmeisterin‘. Catharina Elisabeth Goethe identifizierte sich mit dieser Bezeichnung und nannte sich selbst mit diesem Namen, erstmals im Brief an Johann Caspar Lavater vom 28. Juni 1775 (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 399).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9365">
+<label xml:id="GB03_2_BR043_0_note_003_31_7" copyOf="#start_com_0494"><hi rendition="#fett">31,7</hi>Diarium</label>
+<p>Goethes Tagebücher setzen erst – vom fragmentarischen Tagebuch der Schweizer Reise 1775 und den Aufzeichnungen vom 30. Oktober 1775 (vgl. GT I 1, 1–9; 13 f.) abgesehen – am 11. März 1776 ein (vgl. <ref target="gt:dokument#15">GT I 1, 17</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9366">
+<label xml:id="GB03_2_BR043_0_note_004_31_8-9" copyOf="#start_com_0495"><hi rendition="#fett">31,8-9</hi>Herder hat den Ruf <gap quantity="3" reason="editorial"/> angenommen.</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR029_0_note_010_24_17">24,17</ref>.</p>
+
+</note>
+<note xml:id="gb10607_comment_com9367">
+<label xml:id="GB03_2_BR043_0_note_005_31_10" copyOf="#start_com_0496"><hi rendition="#fett">31,10</hi>Ich werd auch wohl dableiben</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR011_0_note_003_13_5">13,5</ref>.</p>
+
+</note>
+<note xml:id="gb10607_comment_com10317">
+<label xml:id="GB03_2_BR043_0_note_006_31_10" copyOf="#start_com_0497"><hi rendition="#fett">31,10</hi>meine Rolle</label>
+<p>Im Brief an Johann Heinrich Merck vom 22. Januar 1776 hatte Goethe <quote type="G">die Herzogthümer Weimar und Eisenach</quote> als <quote type="G">Schauplaz</quote> (<ref target="gb:text#GB03_1_BR027_0_023_015 #GB03_1_BR027_0_023_016">23,15–16</ref>) bezeichnet, <quote type="G">um zu versuchen wie einem die Weltrolle zu Gesicht stünde</quote> (<ref target="gb:text#GB03_1_BR027_0_023_016">23,16</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9379">
+<label xml:id="GB03_2_BR043_0_note_007_31_12" copyOf="#start_com_0498"><hi rendition="#fett">31,12</hi>auf ein paar Jahre</label>
+<p>Goethe blieb – mit Unterbrechungen – bis zu seinem Lebensende in Weimar, also über 56 Jahre.</p>
+
+</note>
+<note xml:id="gb10607_comment_com17345">
+<label xml:id="GB03_2_BR043_0_note_008_31_12-13" copyOf="#start_com_0499"><hi rendition="#fett">31,12-13</hi>das untätige Leben zu Hause</label>
+<p>Nach dem Abschluss seines Jura-Studiums im Sommer 1771 hatte Goethe, im Hause seiner Eltern lebend, als Rechtsanwalt in Frankfurt gearbeitet, allerdings ohne innere Anteilnahme an diesem <quote type="G">verdrüslichen Geschäfft</quote> (<ref target="gb:text#GB02_1_BR213_0_178_017 #GB02_1_BR213_0_178_018">GB 2 I, 178,17-18</ref>). Die Unzufriedenheit mit seiner beruflichen Tätigkeit und seine Unentschiedenheit in der Beziehung zu Anna Elisabeth Schönemann seit Anfang 1775 hatten ihn in eine „Hauptkrisis“ seines Lebens geführt (Gespräch mit Friedrich von Müller, 8. Juni 1830; vgl. <ref target="sndb:sigle#43">Gespräche<hi rendition="#sup">3</hi></ref> 3.3, 639, Nr 6582).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9380">
+<label xml:id="GB03_2_BR043_0_note_009_31_13" copyOf="#start_com_0500"><hi rendition="#fett">31,13</hi>dem</label>
+<p>Vermutlich hatte Goethe zunächst ein anderes Nomen (‚Vergnügen‘ oder ein ähnliches) im Sinn.</p>
+
+</note>
+<note xml:id="gb10607_comment_com9381">
+<label xml:id="GB03_2_BR043_0_note_010_31_14" copyOf="#start_com_0501"><hi rendition="#fett">31,14</hi>ein paar Herzogthümer</label>
+<p>Die Herzogtümer Sachsen-Weimar und Sachsen-Eisenach waren nach dem Erlöschen des Hauses Sachsen-Eisenach seit 1741 durch Personalunion vereinigt, aber verwaltungstechnisch getrennt. Eisenach blieb Sitz der Zentralbehörden des Eisenacher Landesteils mit eigenen Landständen. – Auch im Brief an Johann Heinrich Merck vom 22. Januar 1776 spricht Goethe im Plural von zwei Herzogtümern (vgl. <ref target="gb:text#GB03_1_BR027_0_023_015">23,15</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com17407">
+<label xml:id="GB03_2_BR043_0_note_011_31_14-15" copyOf="#start_com_0502"><hi rendition="#fett">31,14-15</hi>das Land nur kennen zu lernen</label>
+<p>In den ersten Wochen nach seiner Ankunft in Weimar war Goethe auf Schloss Kochberg bei Charlotte von Stein gewesen (6.–9. Dezember 1775), hatte Weihnachten im Forsthaus Waldeck (bei Bürgel) verbracht (23.–26. Dezember 1775), hatte im Gefolge des Herzogs den Hof in Gotha kennen gelernt (27.–29. Dezember 1775) und in Erfurt den erzbischöflich-kurmainzischen Statthalter Carl Theodor von Dalberg aufgesucht (29.–31. Dezember 1775), wobei u. a. über die Berufung Herders beraten wurde. Danach folgte ein Aufenthalt auf dem Gut der Familie von Keller in Stedten (1.–3. Januar 1776). Zuletzt hatte er den Herzog vom 3. bis zum 7. Februar 1776 noch einmal nach Erfurt begleitet, wo Carl August mit dem kurmainzischen Statthalter Carl Theodor von Dalberg konferierte, u. a. wohl über die personelle Umgestaltung des Geheimen Consiliums, dessen Mitglied Goethe im Juni 1776 wurde. – Dass er schon ein <quote type="G">brav Fleck</quote> (<ref target="gb:text#GB03_1_BR058_0_041_019">41,19</ref>) von Thüringen kennen gelernt habe und es ihm <quote type="G">spaas</quote> mache, <quote type="G">ein Land so auswendig zu kennen</quote> (<ref target="gb:text#GB03_1_BR058_0_041_020">41,20</ref>), schrieb Goethe auch am 8. März an Johann Heinrich Merck.</p>
+
+</note>
+<note xml:id="gb10607_comment_com9395">
+<label xml:id="GB03_2_BR043_0_note_012_31_17" copyOf="#start_com_0503"><hi rendition="#fett">31,17</hi>bin ich über viel Sachen ganz und gar ruhig</label>
+<p>Gemeint ist möglicherweise das in Hofkreisen als unhöfisch empfundene Leben des jugendlichen Herzogs, das seine Eignung zum verantwortungsvollen Fürsten in den Augen mancher in Frage stellte. Vgl. <ref target="gb:text#GB03_1_BR046_0_032_018 #GB03_1_BR046_0_032_020">32,18–20</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>.</p>
+
+</note>
+<note xml:id="gb10607_comment_com14103">
+<label xml:id="GB03_2_BR043_0_note_013_31_17-18" copyOf="#start_com_0504"><hi rendition="#fett">31,17-18</hi>Mit Wieland führ ich ein liebes häusliches Leben</label>
+<p>Sein gutes Verhältnis zu Wieland, das nicht ohne Weiteres vorauszusehen war, hatte Goethe schon im Brief an Johanna Fahlmer vom 22. November 1775 (<ref target="gb:dokument#10565">Nr 4</ref>) betont (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR004_0_note_007_5_19">5,19</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9396">
+<label xml:id="GB03_2_BR043_0_note_014_31_19" copyOf="#start_com_0505"><hi rendition="#fett">31,19</hi>artig</label>
+<p>Modewort des 18. Jahrhunderts; hier etwa: liebenswürdig, auch von der äußeren Gestalt her (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 839 f.).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9397">
+<label xml:id="GB03_2_BR043_0_note_015_31_20" copyOf="#start_com_0506"><hi rendition="#fett">31,20</hi>Fr. von Stein</label>
+<p>Über Goethes Beziehung zu Charlotte von Stein vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>.</p>
+
+</note>
+<note xml:id="gb10607_comment_com17353">
+<label xml:id="GB03_2_BR043_0_note_016_31_21" copyOf="#start_com_0507"><hi rendition="#fett">31,21</hi>genistelt</label>
+<p>Sich an einen nisteln: „sich dicht an ihn machen“, „sich wo eindringend festsetzen“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 857). – Im Schauspiel „Götz von Berlichingen“ (1773) berichtet im 1. Akt in der Szene „Jaxthaussen. Götzens Burg“ einer von Götz’ Reitern: <quote type="G">Ich und mein Kamerad, wie’s der Herr befohlen hatte, nistelten uns an ihn</quote> <supplied>Weislingen</supplied> <quote type="G">als wären wir zusammen gewachsen</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 3, 190).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9409">
+<label xml:id="GB03_2_BR043_0_note_017_31_21" copyOf="#start_com_0508"><hi rendition="#fett">31,21</hi>Louise</label>
+<p>Herzogin Louise von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10607_comment_com9410">
+<label xml:id="GB03_2_BR043_0_note_018_31_22-23" copyOf="#start_com_0509"><hi rendition="#fett">31,22-23</hi>sie ist und bleibt ein Engel</label>
+<p>Als Engel hatte Goethe Louise schon im Brief an Johanna Fahlmer vom 24. und 26. Mai 1775 bezeichnet (vgl. <ref target="gb:text#GB02_1_BR241_0_192_003">GB 2 I, 192,3</ref>). Auch Anna Elisabeth Schönemann, Augusta zu Stolberg und Charlotte von Stein pflegte Goethe so zu nennen (vgl. auch zu <ref target="gb:note#GB03_2_BR031_0_note_001_25_14">25,14</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com9411">
+<label xml:id="GB03_2_BR043_0_note_019_31_23" copyOf="#start_com_0510"><hi rendition="#fett">31,23</hi>Herz. Mutter</label>
+<p>Herzoginmutter Anna Amalia von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10607_comment_com17360">
+<label xml:id="GB03_2_BR043_0_note_020_31_24" copyOf="#start_com_0511"><hi rendition="#fett">31,24</hi>allerley Schwänck und Schabernack</label>
+<p>Anna Amalia hatte eine Vorliebe für Musik, Theater und Kartenspiel. Mit Goethe verband sie ein freundschaftliches Verhältnis. Wieland soll berichtet haben: „Als der Doctor und Exadvocat Göthe als Favorit des Herzogs hier <supplied>in Weimar</supplied> eintrat, fand ihn auch die verwitwete Herzogin äuserst liebenswürdig und witzig. Seine Geniestreiche u. Feuerwerke spielte er nirgends ungescheuter, als bei ihr.“ (Böttiger, Literarische Zustände, 217.)</p>
+
+</note>
+<note xml:id="gb10607_comment_com9412">
+<label xml:id="GB03_2_BR043_0_note_021_31_25" copyOf="#start_com_0512"><hi rendition="#fett">31,25</hi>viel gute Jungens</label>
+<p>Zum engeren Kreis um Goethe und Herzog Carl August gehörten u. a. Carl Ludwig von Knebel, Friedrich Hildebrand von Einsiedel, Johann August Alexander von Kalb, Otto Joachim Moritz von Wedel und Friedrich Justin Bertuch.</p>
+
+</note>
+<note xml:id="gb10607_comment_com17424">
+<label xml:id="GB03_2_BR043_0_note_022_31_26" copyOf="#start_com_0513"><hi rendition="#fett">31,26</hi>sind herrlich unter und dramatisiren einander</label>
+<p>Möglicherweise ist gemeint: ‚sind herrlich unter-(einander) und dramatisieren einander‘. – ‚Herrlich‘ hier – selten bei Goethe – im Sinn von „fröhlich, glücklich“ (<ref target="sndb:sigle#397">GWb</ref> 4, 995), ebenso wie Olympia in „Erwin und Elmire“: <quote type="G">Wir liefen in unsern Hauskleidern zusammen, und spielten um Nüsse und Stecknadeln, und waren herrlich dabey</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 38). – Gemeint sind wohl die <quote type="G">Matinees</quote> (<ref target="gb:text#GB03_1_BR044_0_032_004">32,4</ref>) genannten Scherz- und Spottgedichte in Knittelversen in der Manier des Hans Sachs, in denen sich die Mitglieder der Weimarer Hofgesellschaft gegenseitig zu karikieren suchten. Vgl. weiter die erste Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>.</p>
+
+</note>
+<note xml:id="gb10607_comment_com9426">
+<label xml:id="GB03_2_BR043_0_note_023_31_28" copyOf="#start_com_0514"><hi rendition="#fett">31,28</hi>Dames Federn</label>
+<p>Schmuckfedern für den Kopfputz (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1050). Johanna Fahlmer besorgte sie offenbar umgehend; im Brief vom 6. März kündigte Goethe die Bezahlung an (vgl. <ref target="gb:text#GB03_1_BR055_0_040_017">40,17</ref>).</p>
+
+</note>
+<note xml:id="gb10607_comment_com13714">
+<label xml:id="GB03_2_BR043_0_note_024_31_30" copyOf="#start_com_0515"><hi rendition="#fett">31,30</hi>Friz</label>
+<p>Friedrich Heinrich Jacobi; soweit bekannt ist, hatte Goethe zuletzt am 3. Oktober 1775 an ihn geschrieben (vgl. <ref target="gb:dokument#15690">GB 2 I, EB 227</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

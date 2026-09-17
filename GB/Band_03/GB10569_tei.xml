@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="160"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10569" n="GB 3, Nr. 16">
+  <teiHeader xml:id="gb10569_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>16.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName> mit <persName key="sndb:person#2475">Johann Wolfgang Goethe</persName> und <persName key="sndb:person#45732">Christoph Martin Wieland</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 5. Januar 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:05Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10569_tei.xml</idno>
+        <idno type="URI">gb10569</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR016_0</idno>
+        <idno type="KSW-ID">10569</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="16" to="18">16-18</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="52" to="60">52-60</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10569_header_hwit840" corresp="#gb10569_source_hwit840" sameAs="#gb10569_comment_hwit840" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 420/1960</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10569,,840/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ist mir auch Säu wohl geworden dich in dem frey weg Humor zu sehn.</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+            <accMat>
+              <bibl type="attachment" xml:id="gb10569_header_hwit56129" corresp="#gb10569_source_hwit56129" sameAs="#gb10569_comment_hwit56129" subtype="authorisedLetter">
+                <msIdentifier>
+                  <country>D</country>
+                  <settlement>
+                    <placeName>Darmstadt</placeName>
+                  </settlement>
+                  <institution key="sndb:standort#41">Merck Corporate History/Merck-Archiv</institution>
+                  <idno type="shelfmark">A/122</idno>
+                  <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10569,,56129/manifest</idno>
+                </msIdentifier>
+              </bibl>
+            </accMat>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#45732">Wieland, Christoph Martin</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-01-05">5. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text type="source" xml:id="gb10569_source">
+<group>
+<text xml:space="preserve"  xml:id="gb10569_source_hwit840" corresp="#gb10569_header_hwit840" type="letter" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10569/28565"/>
+      <div type="relatedLetter">
+        <opener>
+          <dateline rendition="#einrueck8">
+            <anchor xml:id="GB03_1_BR016_0_016_008"/>Weimar den 5<hi rendition="#sup">tn</hi> Jenner 1776.</dateline>
+        </opener>
+        <p>
+          <anchor xml:id="GB03_1_BR016_0_016_009"/>Herzlichen Danck für die ganz reine Freude, die mir Ihr brief vom 29. <emph rendition="#latin">Dec.</emph> diesen 
+<anchor xml:id="GB03_1_BR016_0_016_010"/>Morgen nach einer fast ganz schlaflosen <ref target="gb:note#GB03_2_BR016_0_note_001_16_10" xml:id="start_com_0231"/>hypochondrischen<ref xml:id="end_com_0231"/> Nacht gemacht 
+<anchor xml:id="GB03_1_BR016_0_016_011"/>hat.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_012"/>Ich bin izt – durch <ref target="gb:note#GB03_2_BR016_0_note_002_16_12" xml:id="start_com_0232"/>eine Scene<ref xml:id="end_com_0232"/> die mein Herz zu gewaltig angegriffen hat – 
+<anchor xml:id="GB03_1_BR016_0_016_013"/>ganz ausser Fassung einem solchen Brief zu antworten. Aber ich muß schreiben 
+<anchor xml:id="GB03_1_BR016_0_016_014"/>weil ich keinen Posttag verliehren darf.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_015"/>Ich verstehe Sie völlig, bin mit allem zufrieden und gebe Ihnen nicht nur 
+<anchor xml:id="GB03_1_BR016_0_016_016"/>Macht und Gewalt das Kritische Amt im Merkur, von mir und <ref target="gb:note#GB03_2_BR016_0_note_003_16_16" xml:id="start_com_0233"/>Männiglichen<ref xml:id="end_com_0233"/>
+          <ref target="gb:note#GB03_2_BR016_0_note_004_16_16-17" xml:id="start_com_0234"/>ungehudelt<ref xml:id="end_com_0234"/>
+          <anchor xml:id="GB03_1_BR016_0_016_017"/>und ungehindert, nach eignem besten Wissen und Gewissen zu verwalten
+<anchor xml:id="GB03_1_BR016_0_016_018"/>; sondern wünschte noch daß Sie das ganze Kritische Fach / nicht als Gesell, 
+<anchor xml:id="GB03_1_BR016_0_016_019"/>sondern als <ref target="gb:note#GB03_2_BR016_0_note_005_16_19" xml:id="start_com_0235"/>Obermeister/<ref xml:id="end_com_0235"/> übernehmen, und für gewiße Arbeiten, die Sie Selbst 
+<anchor xml:id="GB03_1_BR016_0_016_020"/>zu machen keine Zeit haben, eignes Gutdünckens hübsche<ptr n="1" target="#a001_16.20"/> Gesellen, die unter 
+<anchor xml:id="GB03_1_BR016_0_016_021"/>Ihrer Aufsicht arbeiteten, anstellen möchten. Können Sie sich <hi rendition="#hervor1">dazu</hi> entschließen, 
+<anchor xml:id="GB03_1_BR016_0_016_022"/>so seh ich mich von dieser Seite für einen geborgnen Mann an. <pb n="2" facs="gb:digitalisate#10569/28562"/></p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_023"/>Von den Autoren fällt mir izt keiner ein, dem ich Lehnherrlichen Schuz und 
+<anchor xml:id="GB03_1_BR016_0_016_024"/>Schirm schuldig bin als <ref target="gb:note#GB03_2_BR016_0_note_006_16_24" xml:id="start_com_0236"/><hi rendition="#hervor1">Gebler</hi><ref xml:id="end_com_0236"/> in Wien, und <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_007_16_24" xml:id="start_com_0237"/>Wezel</hi><ref xml:id="end_com_0237"/> dermalen in Berlin<ptr n="2" target="#a002_16.24"/>
+        </p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_025"/>Die Orte, die ich überhaupt glimpflich und <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_008_16_25" xml:id="start_com_0238"/>prudenter</emph><ref xml:id="end_com_0238"/> behandeln muß, sind 
+<anchor xml:id="GB03_1_BR016_0_016_026"/>
+          <ref target="gb:note#GB03_2_BR016_0_note_009_16_26" xml:id="start_com_0239"/>Wien u. Berlin<ref xml:id="end_com_0239"/>. Alle Universitäten geb ich Preiß.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_027"/>Mit einer tiefen Reverenz nehm ich Ihr herrliches Anerbieten <ref target="gb:note#GB03_2_BR016_0_note_010_16_27-28" xml:id="start_com_0240"/>von den<ptr n="3" target="#a003_16.27"/> benannten 
+<anchor xml:id="GB03_1_BR016_0_016_028"/>Beyträgen in das <hi rendition="#hervor1">KunstFach</hi><ref xml:id="end_com_0240"/> an. Ich freue mich drauf wie ein Kind.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_029"/>Sollen’s auch – was das in dieser Zeitlichkeit doch immer in seinem Werth 
+<anchor xml:id="GB03_1_BR016_0_016_030"/>bleibende <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_011_16_30" xml:id="start_com_0241"/>utile</emph><ref xml:id="end_com_0241"/> betrift – gewiß mit keinem undankbaren zuthun haben.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_016_031"/><ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32" xml:id="start_com_0242"/>Für den Monat <hi rendition="#hervor1">Jenner</hi> schicken Sie mir binnen 14 Tagen längstens soviel Sie 
+<anchor xml:id="GB03_1_BR016_0_016_032"/>können.<ref xml:id="end_com_0242"/> Beyliegend eine unmaßgebliche <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_013_16_32" xml:id="start_com_0243"/>nota pour le moment</emph><ref xml:id="end_com_0243"/>; doch (wie sich 
+<anchor xml:id="GB03_1_BR016_0_016_033"/>unter uns immer versteht) <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_014_16_33" xml:id="start_com_0244"/>sub<ptr n="4" target="#a004_16.33"/> clausula</emph><ref xml:id="end_com_0244"/>, zu thun was Ihnen beliebt.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_017_001"/>Weil ich den Raum in den zu jedem Stück bestimmten <ref target="gb:note#GB03_2_BR016_0_note_015_17_1" xml:id="start_com_0245"/>6 Bogen<ref xml:id="end_com_0245"/> so ängstlich 
+<anchor xml:id="GB03_1_BR016_0_017_002"/>zu rathe halten muß, so kan ich zu <hi rendition="#hervor1">Recensionen</hi> mehr nicht als <ref target="gb:note#GB03_2_BR016_0_note_016_17_2" xml:id="start_com_0246"/>5 bis<ptr n="5" target="#a005_17.2"/> 6 Blätter<ref xml:id="end_com_0246"/><ptr n="6" target="#a006_17.2"/> <anchor xml:id="GB03_1_BR016_0_017_003"/><ref target="gb:note#GB03_2_BR016_0_note_017_17_2-3" xml:id="start_com_0247"/><emph rendition="#latin">i. e.</emph>
+          <ref xml:id="end_com_0247"/> 10, 12 höchstens 13 <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_018_17_3" xml:id="start_com_0248"/>Columnen</emph>, mit kleiner Schrift<ref xml:id="end_com_0248"/> gedruckt, in jedem Stücke 
+<anchor xml:id="GB03_1_BR016_0_017_004"/>widmen. Manchmal <pb n="3" facs="gb:digitalisate#10569/28563"/> weniger, manchmal mehr, wie’s die Umstände geben.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_017_005"/>Vor das 1. Stück dieses Jahres kommt <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_019_17_5" xml:id="start_com_0249"/>Sebastian Brands</emph> bildnis<ref xml:id="end_com_0249"/>. Hätten Sie etwan 
+<anchor xml:id="GB03_1_BR016_0_017_006"/>über den Geist dieses Mannes, besonders über sein Poetisches Verdienst und 
+<anchor xml:id="GB03_1_BR016_0_017_007"/>uber sein <ref target="gb:note#GB03_2_BR016_0_note_020_17_7" xml:id="start_com_0250"/>Narrenschiff<ref xml:id="end_com_0250"/> was zu der kurzen <ref target="gb:note#GB03_2_BR016_0_note_021_17_7" xml:id="start_com_0251"/>Biographie<ref xml:id="end_com_0251"/>, die ich armer Unwissender 
+<anchor xml:id="GB03_1_BR016_0_017_008"/>von ihm liefern soll, beyzutragen<ptr n="7" target="#a007_17.8"/>, so wäre ein <ref target="gb:note#GB03_2_BR016_0_note_022_17_8" xml:id="start_com_0252"/>Gotts Lohn<ref xml:id="end_com_0252"/> damit zu verdienen.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_017_009"/>Auf branden soll im Februar <ref target="gb:note#GB03_2_BR016_0_note_023_17_9" xml:id="start_com_0253"/>Ulrich von Hutten<ref xml:id="end_com_0253"/> folgen, <ref target="gb:note#GB03_2_BR016_0_note_024_17_9-10" xml:id="start_com_0254"/>dessen Abschilderung 
+<anchor xml:id="GB03_1_BR016_0_017_010"/>ich Ihnen gerne ganz überlassen möchte<ref xml:id="end_com_0254"/>, da ich vermuthe daß Sie, während Ihrer 
+<anchor xml:id="GB03_1_BR016_0_017_011"/>Wanderungen auf diesem Erdenrunde, wohl selbst<ptr n="8" target="#a008_17.11"/> Ulrich von Hutten gewesen 
+<anchor xml:id="GB03_1_BR016_0_017_012"/>seyn könnten.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR016_0_017_013"/>Nun <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR016_0_note_025_17_13" xml:id="start_com_0255"/>cede majori</emph>
+          <ref xml:id="end_com_0255"/>. Göthe, <ref target="gb:note#GB03_2_BR016_0_note_026_17_13" xml:id="start_com_0256"/>&#x1F41; πανυ<ref xml:id="end_com_0256"/>, will auch<ptr n="9" target="#a009_17.13"/> ein paar Worte mit <ref target="gb:note#GB03_2_BR016_0_note_027_17_13" xml:id="start_com_0257"/>Ev. Lbd<g ref="#typoSuspension"/><ref xml:id="end_com_0257"/> sprechen.
+<anchor xml:id="GB03_1_BR016_0_017_014"/>
+        </p>
+      </div>
+      <div type="brief">
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR016_0_017_015"/>Ist mir auch Säu wohl geworden dich in dem frey weg <ref target="gb:note#GB03_2_BR016_0_note_028_17_15" xml:id="start_com_0258"/>Humor<ref xml:id="end_com_0258"/> zu 
+<anchor xml:id="GB03_1_BR016_0_017_016"/>sehn. Ihr werdet <ref target="gb:note#GB03_2_BR016_0_note_029_17_16" xml:id="start_com_0259"/>wohl zusammen fahren<ref xml:id="end_com_0259"/>, und so auch <ref target="gb:note#GB03_2_BR016_0_note_030_17_16-17" xml:id="start_com_0260"/>was singen dass 
+<anchor xml:id="GB03_1_BR016_0_017_017"/>der Konig und die Königin pp.<ref xml:id="end_com_0260"/> <pb n="4" facs="gb:digitalisate#10569/28564"/></p>
+        <p>
+          <anchor xml:id="GB03_1_BR016_0_017_018"/>Ich treibs hier freylich toll genug, und denck offt an dich, will dir 
+<anchor xml:id="GB03_1_BR016_0_017_019"/>auch nun <ref target="gb:note#GB03_2_BR016_0_note_031_17_19" xml:id="start_com_0261"/>deine Bücher<ref xml:id="end_com_0261"/> schicken und Bitte dich <ref target="gb:note#GB03_2_BR016_0_note_032_17_19-20" xml:id="start_com_0262"/>Vater und Mutter ein 
+<anchor xml:id="GB03_1_BR016_0_017_020"/>bissel zu laben<ref xml:id="end_com_0262"/>. Habe dich auch herzlich lieb.</p>
+        <p>
+          <anchor xml:id="GB03_1_BR016_0_017_021"/>Wirst hoffentlich bald vernehmen dass ich auch auf dem <ref target="gb:note#GB03_2_BR016_0_note_033_17_21-22" xml:id="start_com_0263"/>Theatro 
+<anchor xml:id="GB03_1_BR016_0_017_022"/><emph rendition="#latin">Mundi</emph><ref xml:id="end_com_0263"/>
+          <ref target="gb:note#GB03_2_BR016_0_note_034_17_22" xml:id="start_com_0264"/>was zu tragiren weis<ref xml:id="end_com_0264"/>. und mich in allen Tragi komischen Far<anchor xml:id="GB03_1_BR016_0_017_023"/>cen leid<g ref="#typoSuspension"/>. betrage.    Addio. Ich hab meiner Mutter <ref target="gb:note#GB03_2_BR016_0_note_035_17_23-24" xml:id="start_com_0265"/>ein Geschäfft an 
+<anchor xml:id="GB03_1_BR016_0_017_024"/>dich<ref xml:id="end_com_0265"/> aufgetragen. Ich höre ihr seyd leid<g ref="#typoSuspension"/>. zu Rande<ptr n="10" target="#a010_17.24"/>. Verlass dich dass 
+<anchor xml:id="GB03_1_BR016_0_017_025"/>ich <ref target="gb:note#GB03_2_BR016_0_note_036_17_25" xml:id="start_com_0266"/>dir<ptr n="11" target="#a011_17.25"/> nicht <hi rendition="#hervor1">fehle</hi>
+          <ref xml:id="end_com_0266"/>
+        </p>
+      </div>
+    </div>  
+    
+  </body>
+</text>
+
+<text xml:space="preserve"  xml:id="gb10569_source_hwit56129" corresp="#gb10569_header_hwit56129" type="attachment" rend="authorisedLetter">
+  <body>
+    <div type="relatedText">
+    <pb n="5" facs="gb:digitalisate#10569/34583"/>
+      <head><supplied>Beilage</supplied></head>
+      
+        <list>
+            <anchor xml:id="GB03_1_BR016_0_017_026"/><item><label>1.</label> Etwas über <emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_037_17_26" xml:id="start_com_0267"/>präsentem statum</emph><ref xml:id="end_com_0267"/> unsres Theaters.</item>
+            <anchor xml:id="GB03_1_BR016_0_017_027"/><item><label>2.</label>  Über <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_038_17_27" xml:id="start_com_0268"/>Müllers</hi> Pfälzer Idylle<ref xml:id="end_com_0268"/>; um ihm einen Winck zu geben, was<ptr n="12" target="#a012_17.27"/> ihm <anchor xml:id="GB03_1_BR016_0_017_028"/>eigent<g ref="#typoSuspension"/>. zu<ptr n="13" target="#a013_17.28"/> e. Pfalzischen <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_039_17_28" xml:id="start_com_0269"/>Theokrit</hi><ref xml:id="end_com_0269"/> fehlt.</item>
+            <anchor xml:id="GB03_1_BR016_0_017_029"/><item><label>3.</label> Über den Roman: <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_040_17_29-30" xml:id="start_com_0270"/>beyträge zur Geschichte Teutschen Reichs und <anchor xml:id="GB03_1_BR016_0_017_030"/>Teutscher Sitten</hi>.<ref xml:id="end_com_0270"/>
+                  <p rendition="#einrueck2"><anchor xml:id="GB03_1_BR016_0_017_031"/><ref target="gb:note#GB03_2_BR016_0_note_041_17_31" xml:id="start_com_0271"/>So frey Ihr wollt, nur nicht gar zu <hi rendition="#hervor1">beissend</hi><ref xml:id="end_com_0271"/> weil der Verfasser ein Preußi<anchor xml:id="GB03_1_BR016_0_017_032"/>scher Offizier ist, und eine Menge Freunde in blauem Rocke hat, die ich <anchor xml:id="GB03_1_BR016_0_017_033"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR016_0_note_042_17_33" xml:id="start_com_0272"/>menagiren</emph><ref xml:id="end_com_0272"/> möchte.</p></item>
+            <anchor xml:id="GB03_1_BR016_0_018_001"/><item><label>4.</label> <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_043_18_1" xml:id="start_com_0273"/>Meiners</hi> in Göttingen <emph rendition="#latin">opera novissima</emph>.<ref xml:id="end_com_0273"/></item>
+            <anchor xml:id="GB03_1_BR016_0_018_002"/><item><label>5.</label>  <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_044_18_2" xml:id="start_com_0274"/>Göthens</hi> in berlin gedruckte <emph rendition="#latin">opera omnia</emph>.<ref xml:id="end_com_0274"/></item>
+            <anchor xml:id="GB03_1_BR016_0_018_003"/><item><label>6.</label> <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR016_0_note_045_18_3" xml:id="start_com_0275"/>Herders</hi> neueste seit der<ptr n="14" target="#a014_18.3"/> ältesten Urkunde herausgekomne Schriften.<ref xml:id="end_com_0275"/></item>
+            <anchor xml:id="GB03_1_BR016_0_018_004"/><item><label>7.</label>  Alles<ptr n="15" target="#a015_18.4"/> was von neuen Schriften<ptr n="16" target="#a016_18.4"/> im <ref target="gb:note#GB03_2_BR016_0_note_046_18_4" xml:id="start_com_0276"/>Polizey- u: Cameral-Fach<ref xml:id="end_com_0276"/> Ev. Lbden würdig <anchor xml:id="GB03_1_BR016_0_018_005"/>scheint bemerkt<ptr n="17" target="#a017_18.5"/> zu werden, falls Ihr euch auch (wie ich freylich wünschte) <anchor xml:id="GB03_1_BR016_0_018_006"/>mit solchen Dingen behelligen wolltet.
+            </item>
+                          </list>
+    </div>
+  </body>
+</text>
+
+</group>
+</text>
+
+<text xml:space="preserve" type="comment" xml:id="gb10569_comment">
+<body>
+<div type="metadata" xml:id="gb10569_comment_com386">
+  <ab type="numberAddressee"><label>16.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName> mit <persName key="sndb:person#45732">Christoph Martin Wieland</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 5. Januar 1776 → <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10569_comment_com2430">
+  <p>1) Brief:</p>
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 420/1960. – 2 Bl. (ursprünglich Doppelblatt) 11,5 × 18,9 cm, 2 &#xBE; S. (S. 1–3) beschr., Wielands Hd, Tinte (Petitdruck), &#xBC; S. (S. 4) beschr., egh., Tinte; S. 1 oben links von fremder Hd, Bleistift: „6“, daneben von fremder Hd, Rötel: „1“. – Teilfaksimile: Stargardt-Katalog 548, Auktion vom 15. Mai 1960, S. 17, Nr 68 (<ref target="gb:text#GB03_1_BR016_0_017_013 #GB03_1_BR016_0_017_017">17,13–17</ref> <quote type="G">Nun <emph rendition="#latin">cede majori</emph>. <gap quantity="3" reason="editorial"/> Königin pp.</quote>).</p>
+  <p>2) Beilage:</p>
+  <p>H: Merck-Archiv Darmstadt, Sign.: A/122 (als Beilage zu Wielands Brief an Merck vom 13. Juni 1777 [<ref target="sndb:sigle#141">WB</ref> 5, 626–628; <ref target="sndb:sigle#141">WB</ref> 6 I, 152–155]). – 1 Bl. 11,5 × 18,9 cm, 1 S. beschr., Wielands Hd, Tinte (Petitdruck); oben links von fremder Hd, Tinte: „wahrscheinlich zu 6 b“ (vgl. die Handschriftenbeschreibung des Briefes zu S. 1); linker Rand drei Spiegelstriche (Erledigungsvermerke?) vor den Ziffern 1., 2. und 3. von fremder Hd, Bleistift.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 81–84, Nr 30 (nur Brief).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 104 f. (nur Beilage; als Beilage zu Wielands Brief an Merck vom 13. Juni 1777 [<ref target="sndb:sigle#141">WB</ref> 5, 626–628]), von Wagner auf Februar 1777 datiert).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 15 f., Nr 380 (nur Goethes Nachschrift; nach E<hi rendition="#sup">1</hi>).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10569_comment_com4226">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Johann Heinrich Mercks an Wieland vom 29. Dezember 1775 (vgl. <ref target="gb:text#GB03_1_BR016_0_016_009">16,9</ref>). – Merck antwortete mit einem nicht überlieferten Brief vom 19. Januar 1776 an Wieland (vgl. den Beginn von Wielands Brief an Merck vom 26. Januar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 464). Ein Antwortbrief an Goethe ist nicht bekannt; vgl. aber zu <ref target="gb:note#GB03_2_BR016_0_note_035_17_23-24">17,23-24</ref>.</p>
+  <p rendition="#einrueck1">Johann Heinrich Merck (1741–1791), hessisch-darmstädtischen Kriegsrat, Verleger, Herausgeber der „Frankfurter gelehrten Anzeigen“ und Literaturkritiker, hatte Goethe Ende 1771 kennen gelernt und sich dem acht Jahre Älteren zunächst wie einem Mentor angeschlossen. Die freundschaftliche Beziehung zwischen beiden kühlte jedoch nach der Übersiedlung Goethes nach Weimar nach und nach ab. Merck stand einer Hofkarriere Goethes, wie dessen Vater auch, zunächst ablehnend gegenüber. Nach der persönlichen Begegnung mit Herzog Carl August im September 1777 auf der Wartburg gewann Merck jedoch Sympathie für den jungen Fürsten, der seinerseits den Darmstädter Kriegsrat schätzen lernte. Goethe aber riet dem Herzog davon ab, Merck in seine Dienste zu nehmen (vgl. Goethe an Merck, 11. Januar 1778 [<ref target="gb:dokument#11249">Nr 320</ref>] sowie zu <ref target="gb:note#GB03_2_BR320_0_note_013_190_7-9">190,7-9</ref>). – Vgl. zur Beziehung zwischen Goethe und Merck insgesamt die einleitende Erläuterung zum Brief aus der ersten Hälfte Februar 1774 (<ref target="gb:note#gb10501_comment_com4276">GB 2 II, Nr 94</ref>).</p>
+  <p rendition="#einrueck1">Im vorliegenden Brief geht es um Wielands Zeitschrift „Der Teutsche Merkur“. Schon zur Gründungszeit des „Merkur“, der seit Anfang 1773 erschien (1. Bd. 1.–3. Stück. Januar–März 1773 unter dem Titel „Der Deutsche Merkur“), war Merck, der sich Ende 1772 von den „Frankfurter gelehrten Anzeigen“ zurückgezogen hatte, als Mitarbeiter im Gespräch gewesen. Friedrich Heinrich Jacobi, der Mitbegründer des Journals, hatte die Vermittlung übernommen und dabei die Unterstützung durch Sophie La Roche gesucht, die mit Merck befreundet war. In einem Brief vom 29. November 1772 bat er sie, einen von ihm verfassten Brief an Merck mit der Bitte um Teilnahme am „Teutschen Merkur“ mit einem Empfehlungsschreiben zu versehen und weiterzuleiten (vgl. <ref target="sndb:sigle#2941">JB</ref> I 1, 177 f.). Sophie La Roche kam der Bitte nach. Weder Jacobis Brief an Merck noch La Roches Beilage sind überliefert. Merck kündigte in einem Brief an Jacobi vom 25. Dezember 1772 Manuskripte an und stellte eine Liste mit Rezensionsvorschlägen zusammen (vgl. <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 348 f.). Wieland selbst rechnete Mitte Januar 1773 mit der Mitarbeit Mercks (vgl. seinen Brief an Jacobi vom 14. Januar 1773; <ref target="sndb:sigle#141">WB</ref> 5, 53), der das Angebot in seinem Brief an Wieland vom 1. März 1773 annahm: „<gap quantity="3" reason="editorial"/> weil Sie mich auf den Fuß eines treuen ehrlichen Kerls <supplied>Jacobi</supplied> in Ihre Freundschaft u. Dienste nehmen wollen, so muß ich mirs wol gefallen lassen.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 362.) Jacobi allerdings, der inzwischen einige Rezensionen von Merck erhalten hatte, fällte in einem Brief an Wieland vom 18. Februar 1773 kein günstiges Urteil darüber. Er fand, „daß die Ideen mit dem Tone nicht harmoniren“ (<ref target="sndb:sigle#2941">JB</ref> I 1, 185), und schickte lediglich drei Besprechungen an Wieland weiter, von denen 1773 nur eine einzige erschien: die Rezension von John Coakley Lettsoms „The natural history of the tea-tree“ (London 1772) im 2. Band des „Teutschen Merkur“ (S. 92–95), einem Werk aus Mercks Liste im Brief an Jacobi vom 25. Dezember 1772. Dass es zu keiner weiteren Teilnahme Mercks am „Merkur“ kam, lag vermutlich zum einen daran, dass Jacobi von Mercks Manuskripten nur zurückhaltend Gebrauch machte, zum anderen, dass Merck von Mai bis Dezember 1773 die Landgräfin Karoline von Hessen-Darmstadt als Rechnungsführer nach St. Petersburg begleitete. Das kritische Fach im „Teutschen Merkur“ wurde mit dem Gießener Professor Christian Heinrich Schmid besetzt. Merck arbeitete indessen von 1773 bis 1775 als Rezensent für Friedrich Nicolais „Allgemeine Deutsche Bibliothek“. Mit Schmids Besprechungstätigkeit war Wieland alsbald jedoch unzufrieden. Schmids Rezension von Goethes „Götz von Berlichingen“ z. B. wurde vom Herausgeber selbst in einer Gegenrezension öffentlich zurückgewiesen (vgl. weiter <ref target="gb:note#GB02_2_BR059_0_note_024_47_6">GB 2 II, zu 47,6</ref>). Aus diesem Grund erging Ende 1775 eine erneute Einladung an Merck, diesmal von Wieland selbst und mit Unterstützung Goethes. Am 25. Dezember 1775 schrieb Wieland an Johann Caspar Lavater: „Ich kan dem Unwesen nicht länger zusehen, der Merkur soll seine auream virgam wieder ergreiffen, und die levem turbam Respect lehren. <hi rendition="#hervor1">Merck</hi> hat dies Amt, durch Göthens Vermittlung übernommen. Sie kennen ihn! – Von Schmidten in Gießen hab ich mich, durch einen herzhaften Riß loßgemacht.“ (<ref target="sndb:sigle#141">WB</ref> 5, 458.) – Für die Übernahme der Literaturkritik im „Teutschen Merkur“ stellte Merck, wie aus dem vorliegenden Brief hervorgeht, Forderungen und Bedingungen, die weitgehend akzeptiert wurden. Er blieb Wielands Zeitschrift bis zu seinem Tod verbunden. – Vgl. Hermann Bräuning-Oktavio: Johann Heinrich Merck als Mitarbeiter an Wielands „Teutschem Merkur“ in den Jahren 1773–1791. In: Archiv für das Studium der neueren Sprachen und Literaturen. 67. Jg. Bd 131. N. F. 31 (1913), S. 24–39; <ref target="sndb:sigle#2994">Merck, Schriften</ref> 3, bes. 181–183.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10569_comment_com17078">
+<label xml:id="GB03_2_BR016_0_note_001_16_10" copyOf="#start_com_0231"><hi rendition="#fett">16,10</hi>hypochondrischen</label>
+<p>Hier: schwermütigen, trübsinnigen. – Hypochondrie (von griech. &#8017;ποχόνδριον: das unter dem Brustkorb Befindliche, die Organe des Unterleibs), ein Modewort des 18. Jahrhunderts, war im zeitgenössischen Verständnis „eine der beschwerlichsten Krankheiten, welche ihren Sitz vornehmlich in dem Unterleibe hat, von einer reitzenden auf die Nerven wirkenden Schärfe herrühret, Personen, welche viel sitzen, am meisten und heftigsten anfällt, und oft in Schwermuth und Melancholie ausartet“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1345).</p>
+
+</note>
+<note xml:id="gb10569_comment_com17302">
+<label xml:id="GB03_2_BR016_0_note_002_16_12" copyOf="#start_com_0232"><hi rendition="#fett">16,12</hi>eine Scene</label>
+<p>Möglicherweise bezieht sich Wieland auf seine Reise mit Goethe, die er vom 1. bis zum 3. Januar 1776 nach Stedten auf das Gut der Familie Auguste von Kellers unternommen hatte. Dort war er auch mit deren Tochter und Schwiegersohn Julie und Johann Ludwig von Mauchenheim gen. Bechtolsheim zusammengetroffen. Aus diesem Anlass entstand Wielands Julie von Bechtolsheim gewidmetes Gedicht „An Psyche“ (erschienen 1776 im Januar-Heft des „Teutschen Merkur“, S. 12–18).</p>
+
+</note>
+<note xml:id="gb10569_comment_com9179">
+<label xml:id="GB03_2_BR016_0_note_003_16_16" copyOf="#start_com_0233"><hi rendition="#fett">16,16</hi>Männiglichen</label>
+<p>Männiglich: jeder, jeglicher (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 12, 1591).</p>
+
+</note>
+<note xml:id="gb10569_comment_com9180">
+<label xml:id="GB03_2_BR016_0_note_004_16_16-17" copyOf="#start_com_0234"><hi rendition="#fett">16,16-17</hi>ungehudelt</label>
+<p>‚Hudeln‘ hier im Sinne von ‚zanken‘, ‚plagen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 10, 1863).</p>
+
+</note>
+<note xml:id="gb10569_comment_com17310">
+<label xml:id="GB03_2_BR016_0_note_005_16_19" copyOf="#start_com_0235"><hi rendition="#fett">16,19</hi>Obermeister</label>
+<p>Merck lieferte nicht nur eigene Rezensionen, sondern beauftragte seinerseits Mitarbeiter, Beiträge zu schreiben, die er Wieland zur Verfügung stellte. Er machte diesem sogar – im nicht überlieferten Antwortbrief – den Vorschlag, den Druck des „Teutschen Merkur“ in Darmstadt ausführen zu lassen, vermutlich, um auch als Verleger ins Geschäft zu kommen (vgl. Hermann Bräuning-Oktavio: Johann Heinrich Merck als Drucker, Verleger, Kupferstecher und Mäzen. In: Philobiblon 13 [1969]. H. 2, S. 107). Diesem Vorschlag folgte Wieland, wie aus seinem Brief an Merck vom 26. Januar 1776 hervorgeht, „aus einer Menge Ursachen“ (<ref target="sndb:sigle#141">WB</ref> 5, 466) nicht.</p>
+
+</note>
+<note xml:id="gb10569_comment_com16028">
+<label xml:id="GB03_2_BR016_0_note_006_16_24" copyOf="#start_com_0236"><hi rendition="#fett">16,24</hi><hi rendition="#hervor1">Gebler</hi></label>
+<p>Tobias Philipp von Gebler, Vizekanzler der Hofkanzlei in Wien, Verfasser zahlreicher Theaterstücke. Wieland stand mit ihm seit Jahren in Briefwechsel, in welchem er u. a. aus einer „Pflicht der Freundschaft“ (<ref target="sndb:sigle#141">WB</ref> 5, 410) heraus behutsame Kritik an Geblers Dramen übte (vgl. Wielands Brief an Gebler vom 5. September 1775; <ref target="sndb:sigle#141">WB</ref> 5, 409–411).</p>
+
+</note>
+<note xml:id="gb10569_comment_com9181">
+<label xml:id="GB03_2_BR016_0_note_007_16_24" copyOf="#start_com_0237"><hi rendition="#fett">16,24</hi><hi rendition="#hervor1">Wezel</hi></label>
+<p>Johann Karl Wezel, Verfasser von Lustspielen und satirischen Romanen. 1776/77 war er Hofmeister eines Sohnes des preußischen Staats- und Justizministers Ernst Friedemann von Münchhausen in Berlin, hielt sich jedoch als dessen Reisebegleiter inzwischen in Leipzig auf (vgl. Wieland an Wezel, 15. Februar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 472). Mitarbeiter am „Teutschen Merkur“ wollte Wieland schonend behandelt sehen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9182">
+<label xml:id="GB03_2_BR016_0_note_008_16_25" copyOf="#start_com_0238"><hi rendition="#fett">16,25</hi><emph rendition="#latin">prudenter</emph></label>
+<p>Lat.: umsichtig, klug.</p>
+
+</note>
+<note xml:id="gb10569_comment_com17325">
+<label xml:id="GB03_2_BR016_0_note_009_16_26" copyOf="#start_com_0239"><hi rendition="#fett">16,26</hi>Wien u. Berlin</label>
+<p>In Bezug auf Wien war Zurückhaltung in religiösen Fragen angebracht. Kritik an Werken aus Berlin, jedenfalls solchen aus dem Verlag von Friedrich Nicolai, erforderten Behutsamkeit, weil sich Wieland, der Herausgeber des „Teutschen Merkur“, in gespanntem Verhältnis zu Nicolai als dem Herausgeber der „Allgemeinen Deutschen Bibliothek“ befand (vgl. etwa Nicolais Brief an Wieland vom 5. Mai 1775, dessen Antwortbrief vom 8. Mai sowie Nicolais Erwiderung vom 16. Mai; <ref target="sndb:sigle#141">WB</ref> 5, 366 f., 368 f., 370 f.).</p>
+
+</note>
+<note xml:id="gb10569_comment_com9197">
+<label xml:id="GB03_2_BR016_0_note_010_16_27-28" copyOf="#start_com_0240"><hi rendition="#fett">16,27-28</hi>von den benannten Beyträgen in das <hi rendition="#hervor1">KunstFach</hi></label>
+<p>Merck hatte im Bezugsbrief offenbar über Beiträge zur Literaturkritik hinaus solche zur bildenden Kunst angekündigt. So erschienen 1776 im „Teutschen Merkur“ Mercks Aufsätze „Ueber die Schönheit. Ein Gespräch zwischen Burke und Hogarth“ (Februar-Heft, S. 131–141) sowie „Raisonnirendes Verzeichniß einiger der besten Schmidtischen radierten Blätter“ (September-Heft, S. 248–250).</p>
+
+</note>
+<note xml:id="gb10569_comment_com9198">
+<label xml:id="GB03_2_BR016_0_note_011_16_30" copyOf="#start_com_0241"><hi rendition="#fett">16,30</hi><emph rendition="#latin">utile</emph></label>
+<p>Lat.: das Nützliche. – Hier ist das Honorar gemeint.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9199">
+<label xml:id="GB03_2_BR016_0_note_012_16_31-32" copyOf="#start_com_0242"><hi rendition="#fett">16,31-32</hi>Für den Monat <hi rendition="#hervor1">Jenner</hi> <gap quantity="3" reason="editorial"/> soviel Sie können.</label>
+<p>Am 26. Januar 1776 bedankte sich Wieland bei Merck für dessen „Brief vom 19. h<supplied>uius</supplied> und die Beylage von 6. Recensionen nebst dem Beytrag zu dem was ich erst im Februar von Brands Narrenschiff im M. <supplied>Merkur</supplied> sagen will.“ (<ref target="sndb:sigle#141">WB</ref> 5, 464.) Vermutlich handelte es sich um die vier im Januar-Heft des „Teutschen Merkur“ 1776 veröffentlichten Rezensionen über folgende Werke: <supplied>Johann Gottfried Herder:</supplied> Auch eine Philosophie der Geschichte zur Bildung der Menschheit. Beytrag zu vielen Beyträgen des Jahrhunderts. Ohne Druckort <supplied>Riga 1774</supplied> (S. 83–85); Musenalmanach für das Jahr 1776. von den Verfassern des bisherigen Göttingischen Musenalmanachs, herausgegeben von J<supplied>ohann</supplied> H<supplied>einrich</supplied> Voß. Lauenburg (S. 85–89); Poetische Blumenlese auf das Jahr 1776. Göttingen (S. 90); Leipziger Musenalmanach aufs Jahr 1776 <supplied>Almanach der deutschen Musen, auf das Jahr 1776</supplied>. <supplied>Leipzig</supplied> (S. 90 f.). Ferner gehörten zu Mercks Sendung die in Wielands Brief erwähnten Rezensionen folgender Titel: <supplied>Christoph Martin</supplied> Meiners Vermischte Schriften. Leipzig bey Weygands. 1775 (Februar-Heft 1776, S. 186–188); J<supplied>ohann Friedrich Karl Grimm:</supplied> Bemerkungen eines Reisenden durch Teutschland, Frankreich, England und Holland in Briefen an seine Freunde, 1. 2. 3ter Theil. Altenburg in der Richterischen Buchhandlung 1775 (März-Heft 1776, S. 264–266); <supplied>Christian Friedrich von Blankenburg:</supplied> Beyträge zur Geschichte teutschen Reichs und teutscher Sitten. Ein Roman. Erster Theil <supplied>mehr nicht erschienen</supplied>. Leipzig und Liegnitz, bei David Siegents Wittwe. 1775 (März-Heft 1776, S. 270–272). Im 1. Band des „Teutschen Merkur“ von 1776, der die Hefte für Januar bis März umfasst, erschienen außerdem folgende Besprechungen (vgl. Thomas C. Starnes: Der Teutsche Merkur. Ein Repertorium. Sigmaringen 1994, S. 388 f.): Ueber die Schwärmerey. Eine Vorlesung von <supplied>Leonhard</supplied> Meister. Prof. in Zürich. Bern bey der Typogr. Gesellschaft (Februar-Heft, S. 190); <supplied>Johann Karl Wezel:</supplied> Lebensgeschichte Tobias Knaut, des Stammlers, 4ter Theil. Leipzig bey Crusius. 1775 (März-Heft, S. 272 f.); Zwanzig Komponisten, eine Skizze von Carl Ludewig Junker. Bern, bey der Typographischen Gesellschaft. 1776 (März-Heft, S. 276–281). Der von Wieland zuletzt genannte Beitrag stammt von ihm selbst: „Ueber Sebastian Brands Narrenschiff und D. Johann Gaylers v. Kaysersberg Weltspiegel“; er erschien im Februar-Heft des „Teutschen Merkur“ 1776 (S. 168–174). Welchen Anteil Merck daran nahm, ist nicht geklärt; vermutet wird, dass „auf Mercks Einwirken <gap quantity="3" reason="editorial"/> die Forderung nach einer gerechten Bewertung der Brantschen Verskunst aus dem historischen Kontext und die kritische Beurteilung der Gaylerschen Zusätze zurückgehen“ könnten (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 619, Anm. 4). – Eine Übersicht über Mercks Rezensionen im „Teutschen Merkur“ insgesamt bietet <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 5, 150–163.</p>
+
+</note>
+<note xml:id="gb10569_comment_com15713">
+<label xml:id="GB03_2_BR016_0_note_013_16_32" copyOf="#start_com_0243"><hi rendition="#fett">16,32</hi><emph rendition="#latin">nota pour le moment</emph></label>
+<p>Lat./franz.: einstweilige Anmerkung. – Vgl. Beilage.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9200">
+<label xml:id="GB03_2_BR016_0_note_014_16_33" copyOf="#start_com_0244"><hi rendition="#fett">16,33</hi><emph rendition="#latin">sub clausula</emph></label>
+<p>Lat.: unter dem Schlusssatz (der einen Vorbehalt enthält).</p>
+
+</note>
+<note xml:id="gb10569_comment_com14815">
+<label xml:id="GB03_2_BR016_0_note_015_17_1" copyOf="#start_com_0245"><hi rendition="#fett">17,1</hi>6 Bogen</label>
+<p>Ein Bogen des im Oktav-Format erschienenen „Teutschen Merkur“ umfasst 16 Seiten. Die Hefte von Januar, Februar und März 1776 enthalten 98, 105 bzw. 87 Seiten; ein Heft ist im Durchschnitt demnach 96 &#x2154; Seiten, also ziemlich genau 6 Bogen stark.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9201">
+<label xml:id="GB03_2_BR016_0_note_016_17_2" copyOf="#start_com_0246"><hi rendition="#fett">17,2</hi>5 bis 6 Blätter</label>
+<p>Die ersten drei Hefte des „Teutschen Merkur“ 1776 bieten, wie von Wieland angekündigt, im Durchschnitt 12 Seiten „Kritische Anzeigen“.</p>
+
+</note>
+<note xml:id="gb10569_comment_com15649">
+<label xml:id="GB03_2_BR016_0_note_017_17_2-3" copyOf="#start_com_0247"><hi rendition="#fett">17,3</hi><emph rendition="#latin">i. e.</emph></label>
+<p>Lat. id est: das heißt.</p>
+
+</note>
+<note xml:id="gb10569_comment_com14916">
+<label xml:id="GB03_2_BR016_0_note_018_17_3" copyOf="#start_com_0248"><hi rendition="#fett">17,3</hi><emph rendition="#latin">Columnen</emph>, mit kleiner Schrift</label>
+<p>Die Rezensionen wurden nicht in Spalten, aber in kleinerer Schrift gedruckt.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8946">
+<label xml:id="GB03_2_BR016_0_note_019_17_5" copyOf="#start_com_0249"><hi rendition="#fett">17,5</hi><emph rendition="#latin">Sebastian Brands</emph> bildnis</label>
+<p>Die Vorlage zum Titelkupfer des Januar-Hefts, einem Profilporträt des humanistischen Dichters Sebastian Brant, wurde von Georg Melchior Kraus gezeichnet und von Johann Heinrich Lips gestochen (vgl. auch zu <ref target="gb:note#GB03_2_BR007_0_note_023_8_5">8,5</ref>).</p>
+
+</note>
+<note xml:id="gb10569_comment_com17111">
+<label xml:id="GB03_2_BR016_0_note_020_17_7" copyOf="#start_com_0250"><hi rendition="#fett">17,7</hi>Narrenschiff</label>
+<p>Das Narrenschyff Ad Narragoniam. Basel 1494. – Sebastian Brants in meist vierhebigen, meist männlich schließenden und paarweise reimenden Versen abgefasste und mit Holzschnitten illustrierte Moralsatire verstand sich selbst, wie es in der Vorrede heißt, als ‚Narrenspiegel‘, in dem die zeitgenössische Gesellschaft sich selbst erkennen sollte mit all ihren sittlichen, religiösen und politischen Deformationen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8947">
+<label xml:id="GB03_2_BR016_0_note_021_17_7" copyOf="#start_com_0251"><hi rendition="#fett">17,7</hi>Biographie</label>
+<p>Die von Wieland stammende „Nachricht von Sebastian Brand“ erschien im Januar-Heft des „Teutschen Merkur“ 1776 (S. 71–76). Merck hatte keinen Anteil daran, vermutlich aber an der Fortsetzung im Februar-Heft: „Ueber Sebastian Brands Narrenschiff und D. Johann Gaylers v. Kaysersberg Weltspiegel“ (vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32">16,31-32</ref>).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8948">
+<label xml:id="GB03_2_BR016_0_note_022_17_8" copyOf="#start_com_0252"><hi rendition="#fett">17,8</hi>Gotts Lohn</label>
+<p>Ein nicht materieller Lohn (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 12, 1134; <ref target="sndb:sigle#397">GWb</ref> 4, 400).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8949">
+<label xml:id="GB03_2_BR016_0_note_023_17_9" copyOf="#start_com_0253"><hi rendition="#fett">17,9</hi>Ulrich von Hutten</label>
+<p>Das Februar-Heft trägt als Titelkupfer ein Bildnis des humanistischen Schriftstellers und Publizisten Ulrich von Hutten, ebenfalls von Georg Melchior Kraus gezeichnet und von Johann Heinrich Lips gestochen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8961">
+<label xml:id="GB03_2_BR016_0_note_024_17_9-10" copyOf="#start_com_0254"><hi rendition="#fett">17,9-10</hi>dessen Abschilderung <gap quantity="3" reason="editorial"/> überlassen möchte</label>
+<p>Die „Nachricht von Ulrich von Hutten“ (Februar-Heft, S. 174–185) stammt nicht von Merck, sondern von Wieland selbst.</p>
+
+</note>
+<note xml:id="gb10569_comment_com17126">
+<label xml:id="GB03_2_BR016_0_note_025_17_13" copyOf="#start_com_0255"><hi rendition="#fett">17,13</hi><emph rendition="#latin">cede majori</emph></label>
+<p>Ein mittellateinisches Sprichwort lautet: „Maiori cede, sed non contemne minorem!“ (Proverbia sententiaeque Latinitatis medii. Lateinische Sprichwörter und Sentenzen des Mittelalters in alphabetischer Anordnung. Gesammelt und hrsg. von Hans Walther. T. 2. Göttingen 1964, S. 87, Nr 14287. – Weiche dem Stärkeren, doch verachte den Schwächeren nicht!)</p>
+
+</note>
+<note xml:id="gb10569_comment_com8962">
+<label xml:id="GB03_2_BR016_0_note_026_17_13" copyOf="#start_com_0256"><hi rendition="#fett">17,13</hi>&#x1F41; πανυ</label>
+<p>Griech.: der Ausgezeichnete (Große, Berühmte).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8963">
+<label xml:id="GB03_2_BR016_0_note_027_17_13" copyOf="#start_com_0257"><hi rendition="#fett">17,13</hi>Ev. Lbd<g ref="#typoSuspension"/></label>
+<p>Euer Liebden: Anrede unter fürstlichen Personen gleichen Standes (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 2057).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8964">
+<label xml:id="GB03_2_BR016_0_note_028_17_15" copyOf="#start_com_0258"><hi rendition="#fett">17,15</hi>Humor</label>
+<p>Im 18. Jahrhundert noch im Sinne von franz. humeur: Laune, Stimmung.</p>
+
+</note>
+<note xml:id="gb10569_comment_com14071">
+<label xml:id="GB03_2_BR016_0_note_029_17_16" copyOf="#start_com_0259"><hi rendition="#fett">17,16</hi>wohl zusammen fahren</label>
+<p>Im Sinn von ‚zusammen zum Erfolg gelangen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 529).</p>
+
+</note>
+<note xml:id="gb10569_comment_com17229">
+<label xml:id="GB03_2_BR016_0_note_030_17_16-17" copyOf="#start_com_0260"><hi rendition="#fett">17,16-17</hi>was singen dass der Konig und die Königin pp.</label>
+<p>In Goethes Brief an Carl Ludwig von Knebel vom 5. März 1779 (<ref target="gb:dokument#11703">Nr 470</ref>) heißt es: <quote type="G">Dafür bring ich euch auch was mit dass der Konig und die Koniginn sagen sollen mein liebes Lowgen brülle noch einmal.</quote> (<ref target="gb:text#GB03_1_BR470_0_262_026 #GB03_1_BR470_0_262_028">262,26–28</ref>.) In beiden Fällen zitiert Goethe den Weber Zettel in Shakespeares „Ein Sommernachtstraum“ (I 2); der Weber bewirbt sich mit diesen Worten um die Rolle des Löwen in dem Theaterstück um den Tod von Pyramus und Thisbe, das aus Anlass des Hochzeitstags der fürstlichen Herrschaften von den Handwerkern geplant wird. Die gängige Anspielung findet sich auch in Wielands Brief an Johann Heinrich Merck vom 8. November 1777 (<ref target="sndb:sigle#141">WB</ref> 5, 678 f.).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8978">
+<label xml:id="GB03_2_BR016_0_note_031_17_19" copyOf="#start_com_0261"><hi rendition="#fett">17,19</hi>deine Bücher</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10569_comment_com13616">
+<label xml:id="GB03_2_BR016_0_note_032_17_19-20" copyOf="#start_com_0262"><hi rendition="#fett">17,19-20</hi>Vater und Mutter ein bissel zu laben</label>
+<p>Vor allem Goethes Vater machte sich um die Zukunft seines Sohnes im Dienst eines Fürsten Sorgen (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb10569_comment_com14932">
+<label xml:id="GB03_2_BR016_0_note_033_17_21-22" copyOf="#start_com_0263"><hi rendition="#fett">17,21-22</hi>Theatro <emph rendition="#latin">Mundi</emph></label>
+<p>Lat. Theatrum mundi: Welttheater, Welt als Bühne; im Barock Metapher für die Eitelkeit und Nichtigkeit der Welt, im 17. und 18. Jahrhundert aber auch Titel von Weltgeschichten.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8979">
+<label xml:id="GB03_2_BR016_0_note_034_17_22" copyOf="#start_com_0264"><hi rendition="#fett">17,22</hi>was zu tragiren weis</label>
+<p>Tragieren: eine Tragödie, ein Drama spielen (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11 I 1, 1141). – Anspielung auf die von Herzog Carl August geplante Aufnahme Goethes in seine Regierung.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8980">
+<label xml:id="GB03_2_BR016_0_note_035_17_23-24" copyOf="#start_com_0265"><hi rendition="#fett">17,23-24</hi>ein Geschäfft an dich</label>
+<p>Goethes Mutter sollte Merck bitten, ihrem Sohn Geld zu borgen (vgl. <ref target="gb:text#GB03_1_BR015_0_015_025 #GB03_1_BR015_0_015_026">15,25–26</ref>). Am 19. Januar 1777 erhielt Goethe das Geld (vgl. <ref target="gb:text#GB03_1_BR027_0_023_010">23,10</ref>).</p>
+
+</note>
+<note xml:id="gb10569_comment_com85129">
+<label xml:id="GB03_2_BR016_0_note_036_17_25" copyOf="#start_com_0266"><hi rendition="#fett">17,25</hi>dir nicht <hi rendition="#hervor1">fehle</hi></label>
+<p>Im Sinn von ‚dir untreu werde‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 624), hier: ‚meine Schulden zurückzahle‘. – Über die Rückzahlung von Schulden an Merck vgl. zu <ref target="gb:note#GB03_2_BR207_0_note_003_124_15">124,15</ref>.</p>
+</note>
+<note xml:id="gb10569_comment_com8981">
+<label xml:id="GB03_2_BR016_0_note_037_17_26" copyOf="#start_com_0267"><hi rendition="#fett">17,26</hi><emph rendition="#latin">präsentem statum</emph></label>
+<p>Lat.: gegenwärtigen Zustand. – Merck lieferte weder den gewünschten Aufsatz noch einzelne Theaterrezensionen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8811">
+<label xml:id="GB03_2_BR016_0_note_038_17_27" copyOf="#start_com_0268"><hi rendition="#fett">17,27</hi><hi rendition="#hervor1">Müllers</hi> Pfälzer Idylle</label>
+<p>Die Schaaf-Schur, eine Pfälzische Idylle / Vom Mahler Müller. Mannheim 1775. – Außer dieser waren im selben Jahr weitere Idyllen Friedrich Müllers erschienen: Der Satyr Mopsus eine Idylle in drey Gesängen. Frankfurt und Leipzig [recte: Mannheim] 1775; Bacchidon und Milon, eine Idylle; nebst einem Gesang auf die Geburt des Bacchus. Frankfurt und Leipzig [recte: Mannheim] 1775. – Im „Teutschen Merkur“ erschien keine Rezension.</p>
+
+</note>
+<note xml:id="gb10569_comment_com17237">
+<label xml:id="GB03_2_BR016_0_note_039_17_28" copyOf="#start_com_0269"><hi rendition="#fett">17,28</hi><hi rendition="#hervor1">Theokrit</hi></label>
+<p>Theokritos, aus Syrakus in Sizilien stammender bukolischer Dichter des Hellenismus, gilt als Begründer der Idyllen-Gattung, kleiner epischer Einheiten mit Liedeinlagen und Dialogen, die einen Raum friedlicher Ländlichkeit entwerfen, zugleich aber bereits das Bewusstsein des Verlusts der Einheit von Mensch und Natur reflektieren. Von Theokrits 30 Idyllen gelten nur 22 als echt. Über die Nachfolger des griechischen Idyllendichters im 18. Jahrhundert äußerte sich Goethe ebenso kritisch wie Wieland: <quote type="G">Die idyllische Tendenz verbreitete sich unendlich. <gap quantity="3" reason="editorial"/> Das Anakreontische Gegängel ließ gleichfalls unzählige mittelmäßige Köpfe im Breiten herumschwanken. <gap quantity="3" reason="editorial"/> an Theokriten war kein Mangel</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 228 [7. Buch]).</p>
+
+</note>
+<note xml:id="gb10569_comment_com8993">
+<label xml:id="GB03_2_BR016_0_note_040_17_29-30" copyOf="#start_com_0270"><hi rendition="#fett">17,29-30</hi><hi rendition="#hervor1">beyträge</hi><gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">Teutscher Sitten</hi></label>
+<p>Verfasser des Werks (Leipzig und Liegnitz 1775) ist Christian Friedrich von Blankenburg. Über Mercks Rezension vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32">16,31-32</ref>.</p>
+
+</note>
+<note xml:id="gb10569_comment_com16109">
+<label xml:id="GB03_2_BR016_0_note_041_17_31" copyOf="#start_com_0271"><hi rendition="#fett">17,31</hi>So frey Ihr wollt <gap quantity="3" reason="editorial"/> zu <hi rendition="#hervor1">beissend</hi></label>
+<p>Merck hielt sich an Wielands Wunsch, indem er die Kritik an Blankenburgs Roman in die allgemeine Anerkennung der sonstigen Verdienste des Autors einkleidete; am Anfang der Rezension heißt es: „Wir Recensenten sind vielleicht alsdenn am meisten zu bedauren, wenn wir einem Mann, dessen wahre Talente wir von ganzem Herzen schätzen, aus Wahrheits-Liebe und Achtung fürs Publikum dem wir vorlesen, sagen müssen, daß er bey einem Werk seine Absicht nach unserm Urtheile verfehlt habe. <gap quantity="3" reason="editorial"/> Hr. v. B. ist aus seinem Versuch über den Roman als ein philosophischer Kopf, als ein Mann von Einsicht und Belesenheit bekannt. Hier erscheint er nun nicht bloß als Kenner, sondern als Künstler selbst, und stellt sein Werk zur Beschauung aus.“ (Teutscher Merkur 1776. März-Heft, S. 270.) Der Roman sei, so Mercks These, eine misslungene Nachahmung von Lawrence Sternes „Tristram Shandy“.</p>
+
+</note>
+<note xml:id="gb10569_comment_com8994">
+<label xml:id="GB03_2_BR016_0_note_042_17_33" copyOf="#start_com_0272"><hi rendition="#fett">17,33</hi><emph rendition="#latin">menagiren</emph></label>
+<p>Franz. ménager: schonen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9008">
+<label xml:id="GB03_2_BR016_0_note_043_18_1" copyOf="#start_com_0273"><hi rendition="#fett">18,1</hi><hi rendition="#hervor1">Meiners</hi> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">opera novissima</emph>.</label>
+<p>Christoph Martin Meiners’ „Vermischte Schriften“ (Leipzig 1775). Über Mercks Rezension vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32">16,31-32</ref>.</p>
+
+</note>
+<note xml:id="gb10569_comment_com17244">
+<label xml:id="GB03_2_BR016_0_note_044_18_2" copyOf="#start_com_0274"><hi rendition="#fett">18,2</hi><hi rendition="#hervor1">Göthens</hi> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">opera omnia</emph>.</label>
+<p>Die unrechtmäßige Ausgabe des Berliner Buchhändlers Christian Friedrich Himburg: „Goethens Schriften“ (3 Tle. Berlin 1775–1776; mit Kupferstichen von Johann Wilhelm Meil und Johann Daniel Berger nach Daniel Nikolaus Chodowiecki u. a.), die es bis 1779 auf insgesamt drei Auflagen brachte (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 3–6, Nr 2–4; vgl. zu <ref target="gb:note#GB03_2_BR498_0_note_003_278_11">278,11</ref>). – Neben dieser am stärksten verbreiteten ‚Himburgischen Ausgabe‘ existierten weitere Nachdrucke, darunter zwei in der Schweiz: „Des Herrn Göthe sämtliche Wercke“ (3 Tle. Biel 1775–1776), erschienen in der von Johann Christoph Heilmann gegründeten Buchdruckerei (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 3, Nr 1), und die „Bibliothek für den guten Geschmack“ (3 Bde. Bern 1775–1776), die Einzelausgaben von sechs Goetheschen Werken enthält, erschienen bei Beat Ludwig Walthard (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 6, Nr 5). Die erste autorisierte Gesamtausgabe von Goethes Werken – „Goethe’s Schriften“ in 8 Bänden – erschien erst 1787 bis 1790 bei Georg Joachim Göschen in Leipzig. Keine der genannten Ausgaben wurde im „Teutschen Merkur“ besprochen.</p>
+
+</note>
+<note xml:id="gb10569_comment_com9009">
+<label xml:id="GB03_2_BR016_0_note_045_18_3" copyOf="#start_com_0275"><hi rendition="#fett">18,3</hi><hi rendition="#hervor1">Herders</hi> <gap quantity="3" reason="editorial"/> Schriften.</label>
+<p>Von Herders „Aeltester Urkunde des Menschengeschlechts“ war lediglich der 1. Band erschienen (Riga 1774); der 2. Band folgte im Mai 1776. – Merck rezensierte (anonym) folgende Schriften Herders: Auch eine Philosophie der Geschichte zur Bildung der Menschheit. Beytrag zu vielen Beyträgen des Jahrhunderts. [Riga 1774] (vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32">16,31-32</ref>), sowie: Ursachen des gesunkenen Geschmacks bey den verschiedenen Völkern, da er geblüht. Eine Abhandlung, welche den von der königl. Akademie der Wissenschaften für das Jahr 1773 gesezten Preis erhalten hat. Von Herrn Herder. Berlin, bey Voß, 1775 (Teutscher Merkur 1776. Mai-Heft, S. 205–208).</p>
+
+</note>
+<note xml:id="gb10569_comment_com17252">
+<label xml:id="GB03_2_BR016_0_note_046_18_4" copyOf="#start_com_0276"><hi rendition="#fett">18,4</hi>Polizey- u: Cameral-Fach</label>
+<p>Der Begriff ‚Polizei‘ (von mittellat. policia) bezeichnete im 18. Jahrhundert allgemein die ‚Staatsverwaltung‘, nach Adelung „die Handhabung guter Ordnung und Verfassung so wohl in Ansehung der Personen als Sachen eines Staates“ (3, 804). Ins ‚Kameralfach‘ (von lat. camera: Raum mit gewölbter Decke; mhd. kamer: Schatzkammer, öffentliche Kasse) fielen alle Angelegenheiten, „welche die Kammer, d. i. die Verwaltung der Einnahme und Ausgabe eines Fürsten, betreffen“ (<ref target="sndb:sigle#2753">Adelung</ref> 1, 1295), also Angelegenheiten der ‚Staatswirtschaft‘ und des ‚Finanzwesens‘. – Im Mai-Heft des „Teutschen Merkur“ 1776 (S. 209 f.) erschien anonym eine Rezension über den „Plan der hohen Kameralschule, welche mit Kurf. gnäd. Erlaubniß den 30 Octobr. 1774 in Lautern ist eröfnet worden. Von der Kurpfälz. ökonomischen Gesellschaft in Lautern herausgegeben. 2te Auflage. Lautern, auf Kosten der Gesellsch. 1776“; sie stammt möglicherweise von Merck (vgl. <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 646).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

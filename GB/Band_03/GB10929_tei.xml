@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3900"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10929" n="GB 3, Nr. 381">
+  <teiHeader xml:id="gb10929_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>381.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Anfang Juli 1778?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10929_tei.xml</idno>
+        <idno type="URI">gb10929</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR381_0</idno>
+        <idno type="KSW-ID">10929</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="217" to="217">217</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="743" to="743">743</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10929_header_hwit1375" corresp="#gb10929_source_hwit1375" sameAs="#gb10929_comment_hwit1375" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 9</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10929,,1375/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wenn Sie Seckendorfen diesen Nachmittag mögen, so lassen Sie's    ihm</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1778-07-01" to="1778-07-10"><supplied>Anfang Juli 1778?</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10929_source_hwit1375" corresp="#gb10929_header_hwit1375" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10929/22891"/>
+      <p>
+        <anchor xml:id="GB03_1_BR381_0_217_011"/>Wenn Sie <ref target="gb:note#GB03_2_BR381_0_note_001_217_11" xml:id="start_com_3295"/>Seckendorfen<ref xml:id="end_com_3295"/> diesen Nachmittag mögen, so lassen Sie’s ihm 
+<anchor xml:id="GB03_1_BR381_0_217_012"/>zur <ref target="gb:note#GB03_2_BR381_0_note_002_217_12" xml:id="start_com_3296"/>Tafel<ref xml:id="end_com_3296"/> sagen.</p>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_1_BR381_0_217_013"/>
+        <ref target="gb:note#GB03_2_BR381_0_note_003_217_13" xml:id="start_com_3297"/>Aus den Hölen<ref xml:id="end_com_3297"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR381_0_217_014"/>
+        <signed rend="paraph" rendition="#einrueck16">G</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10929/22892"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10929_comment">
+<body>
+<div type="metadata" xml:id="gb10929_comment_com376">
+  <ab type="numberAddressee"><label>381.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Anfang Juli 1778?</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10929_comment_com1564">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach <ref target="gb:dokument#10663">Nr 54</ref> vom 4. März 1776 eingeordnet. Seit dem Erstdruck wird er auf Anfang Juli 1778 in die Zeit der Vorbereitung des Namenstags der Herzogin Louise datiert, wofür die Angabe des Ortes (vgl. zu <ref target="gb:note#GB03_2_BR381_0_note_003_217_13">217,13</ref>) wie auch die Erwähnung Seckendorffs sprechen könnten (vgl. zu <ref target="gb:note#GB03_2_BR381_0_note_001_217_11">217,11</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10929_comment_com2420">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 9. – 1 Bl. 18,2(–19) × 3,9(–5) cm, von einem größeren Blatt (Brief von Lavater an Goethe) abgerissen, 3 Zeilen beschr., egh., Bleistift; Rs. von Lavaters Hd, Tinte: „Citissime <supplied>lat.: schnellstens</supplied> an Reich.“ (zur Sache vgl. z. B. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR337_0_note_001_200_1">200,1</ref>), darunter Bleistiftschraffuren (Reste einer Zeichnung?); Vs. oben rechts von fremder Hd, Tinte: „22.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 22), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 176.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 234, Nr 723.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10929_comment_com4216">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10929_comment_com10240">
+<label xml:id="GB03_2_BR381_0_note_001_217_11" copyOf="#start_com_3295"><hi rendition="#fett">217,11</hi>Seckendorfen</label>
+<p>Carl Friedrich Sigmund von Seckendorff, der für den Namenstag der Herzogin Louise ein Dramolett verfasste (vgl. <ref target="sndb:sigle#1157">WA</ref> I 36, 236–241).</p>
+
+</note>
+<note xml:id="gb10929_comment_com15151">
+<label xml:id="GB03_2_BR381_0_note_002_217_12" copyOf="#start_com_3296"><hi rendition="#fett">217,12</hi>Tafel</label>
+<p>An der Hoftafel, an der Charlotte von Stein laut Fourierbuch allerdings Anfang Juli 1778 nicht teilgenommen hat.</p>
+
+</note>
+<note xml:id="gb10929_comment_com17689">
+<label xml:id="GB03_2_BR381_0_note_003_217_13" copyOf="#start_com_3297"><hi rendition="#fett">217,13</hi>Aus den Hölen</label>
+<p>Wahrscheinlich die Felsenhöhlen am linken Ilmufer oberhalb des „Sterns“. – Nach den Überschwemmungen der tiefer liegenden Teile des Parks (vgl. zu <ref target="gb:note#GB03_2_BR375_0_note_002_215_17">215,17</ref>) wurde für die Feier des Namenstags der Herzogin Louise am 9. Juli ein höher gelegener Platz hergerichtet, auf dem sich ein altes Pulvertürmchen an einer Mauer befand. Hier war Anfang Juli 1778 auch Goethe selbst mit Arbeiten an <quote type="G">Kloster und Einsiedele<unclear reason="illegible">y</unclear> zur Herzoginn Nahmenstag</quote> beschäftigt (<ref target="gt:dokument#593">GT I 1, 64</ref>), einer strohgedeckten Mooshütte, auch „Louisenkloster“ genannt (heute „Borkenhäuschen“; vgl. „Das Louisenfest gefeiert Weimar am 9. Juli 1778“; <ref target="sndb:sigle#1157">WA</ref> I 36, 233–242).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

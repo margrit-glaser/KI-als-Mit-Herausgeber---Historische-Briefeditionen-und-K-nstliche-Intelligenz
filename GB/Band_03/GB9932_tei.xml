@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5450"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9932" n="GB 3, Nr. 535">
+  <teiHeader xml:id="gb9932_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>535.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79462">Thun</placeName>, 8. Oktober 1779. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9932_tei.xml</idno>
+        <idno type="URI">gb9932</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR535_0</idno>
+        <idno type="KSW-ID">9932</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="304" to="305">304-305</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="992" to="993">992-993</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9932_header_hwit1525" corresp="#gb9932_source_hwit1525" sameAs="#gb9932_comment_hwit1525" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 106</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9932,,1525/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- So nah bin ich bey dir lieber Bruder wie dir der Ruf schon wird gemeldet haben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79462">Thun</placeName>
+            <date when="1779-10-08">8. Oktober 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#112">RA 1, Nr. 100</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9932_source_hwit1525" corresp="#gb9932_header_hwit1525" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9932/13941"/>
+      <opener>
+        <dateline>
+          <anchor xml:id="GB03_1_BR535_0_304_017"/>Thun d<g ref="#typoSuspension"/>. 8 Oktbr 79.</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR535_0_304_018"/>
+        <ref target="gb:note#GB03_2_BR535_0_note_001_304_18" xml:id="start_com_4374"/>So nah bin ich bey dir<ref xml:id="end_com_4374"/>
+        <ref target="gb:note#GB03_2_BR535_0_note_002_304_18" xml:id="start_com_4375"/>l. Br.<ref xml:id="end_com_4375"/> wie dir der <ref target="gb:note#GB03_2_BR535_0_note_003_304_18" xml:id="start_com_4376"/>Ruf<ref xml:id="end_com_4376"/> schon wird gemeldet<ptr n="1" target="#a001_304.18"/>
+        <anchor xml:id="GB03_1_BR535_0_304_019"/>haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR535_0_304_020"/>Wir sind im Begriff <ref target="gb:note#GB03_2_BR535_0_note_004_304_20" xml:id="start_com_4377"/>auf die Gletscher<ref xml:id="end_com_4377"/> so weit es die Jahrszeit erlaubt 
+<anchor xml:id="GB03_1_BR535_0_304_021"/>zu gehen. <ref target="gb:note#GB03_2_BR535_0_note_005_304_21" xml:id="start_com_4378"/>Dann solls noch durch einen Umweeg, zu dir.<ref xml:id="end_com_4378"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR535_0_304_022"/>Schreibe mir doch mit umlaufender<ptr n="2" target="#a002_304.22"/> Post <ref target="gb:note#GB03_2_BR535_0_note_006_304_22" xml:id="start_com_4379"/>nach Bern<ref xml:id="end_com_4379"/> in den <ref target="gb:note#GB03_2_BR535_0_note_007_304_22" xml:id="start_com_4380"/>Falcken<ref xml:id="end_com_4380"/>
+        <anchor xml:id="GB03_1_BR535_0_304_023"/>ein Wort ob etwa in <ref target="gb:note#GB03_2_BR535_0_note_008_304_23" xml:id="start_com_4381"/>Bern Lausanne Genf Luzern Zug<ref xml:id="end_com_4381"/> pp <ref target="gb:note#GB03_2_BR535_0_note_009_304_23-25" xml:id="start_com_4382"/>einige 
+<anchor xml:id="GB03_1_BR535_0_304_024"/>Menschen sind die du kennst und die zu kennen mir auch Freude<ptr n="3" target="#a003_304.24"/> machte, 
+<anchor xml:id="GB03_1_BR535_0_304_025"/>ich will sie besuchen<ref xml:id="end_com_4382"/> und von dir grüsen, und dir ihre Grüse <ref target="gb:note#GB03_2_BR535_0_note_010_304_25" xml:id="start_com_4383"/>bringe<ref xml:id="end_com_4383"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR535_0_304_026"/>Ja lieber Bruder <ref target="gb:note#GB03_2_BR535_0_note_011_304_26" xml:id="start_com_4384"/>dich wieder zu sehen<ref xml:id="end_com_4384"/>, ist einer meiner bestandigsten 
+<anchor xml:id="GB03_1_BR535_0_304_027"/>Wünsche diese vier Jahre her und wird nun auch bald erfüllt. <pb n="2" facs="gb:digitalisate#9932/13942"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR535_0_305_001"/>Ich habe dir viel zu sagen, und viel von dir zu hören, wir wollen 
+<anchor xml:id="GB03_1_BR535_0_305_002"/>wechselsweis Rechnung von unserm Haushalten ablegen, einander 
+<anchor xml:id="GB03_1_BR535_0_305_003"/>seegnen, und für die Zukunft stärcken, wieder ganz nah zusammenrücken, 
+<anchor xml:id="GB03_1_BR535_0_305_004"/>und uns freuen dass wir noch in einer Lufft athemholen. Von 
+<anchor xml:id="GB03_1_BR535_0_305_005"/>dem<ptr n="4" target="#a004_305.5"/> was ich mitbringe unterhalt ich dich nicht im Voraus.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR535_0_305_006"/>Mein Gott dem ich immer treu geblieben bin <ref target="gb:note#GB03_2_BR535_0_note_012_305_6-8" xml:id="start_com_4385"/>hat mich reichlich 
+<anchor xml:id="GB03_1_BR535_0_305_007"/>geseegnet im Geheimen, denn mein Schicksaal ist den Menschen ganz 
+<anchor xml:id="GB03_1_BR535_0_305_008"/>verborgen, sie können nichts davon sehen noch horen<ref xml:id="end_com_4385"/>. Was sich davon 
+<anchor xml:id="GB03_1_BR535_0_305_009"/>offenbaaren lässt, freu ich mich in dein Herz zu legen. Adieu Bruder. 
+<anchor xml:id="GB03_1_BR535_0_305_010"/>Bisher sind wir glücklich gereist, bete auch dass <pb n="3" facs="gb:digitalisate#9932/13943"/> uns die himmlischen 
+<anchor xml:id="GB03_1_BR535_0_305_011"/>Wolcken günstig bleiben, und wir an allen Gefahren vorüber 
+<anchor xml:id="GB03_1_BR535_0_305_012"/>gehn.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR535_0_305_013"/>
+        <signed rend="paraph" rendition="#einrueck24">G</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR535_0_305_014"/>Sonntag d<g ref="#typoSuspension"/>. 10ten denck ich sollst du<ptr n="5" target="#a005_305.14"/> diesen Brief haben und Dienstag 
+<anchor xml:id="GB03_1_BR535_0_305_015"/>d<g ref="#typoSuspension"/>. 12 könnte nach der Postrechnung <ref target="gb:note#GB03_2_BR535_0_note_013_305_15" xml:id="start_com_4386"/>ein Brief von dir<ref xml:id="end_com_4386"/> wieder in 
+<anchor xml:id="GB03_1_BR535_0_305_016"/>Bern seyn. Auf alle Fälle schreibe sobald du kannst.</p>
+      </postscript>
+    <pb n="4" facs="gb:digitalisate#9932/13944"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9932_comment">
+<body>
+<div type="metadata" xml:id="gb9932_comment_com220">
+  <ab type="numberAddressee"><label>535.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79462">Thun</placeName>, 8. Oktober 1779 → <placeName key="sndb:ort#79740">Zürich</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9932_comment_com2264">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 106. – Doppelblatt 15,8(–16) × 19,5(–19,9) cm, 2 &#xBD; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Herrn / Caspar Lavater / nach / Zürch / <emph rendition="#latin"><hi rendition="#hervor1">franco</hi></emph></quote>, rotes Siegel: Vogel? Wappentier?</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 73 f., Nr 851 (Friedrich Strehlke). – Incipit zuvor schon in: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 189.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 73 f., Nr 851.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9932_comment_com4060">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Lavater antwortete am 10. Oktober 1779 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 80, Nr 61; vgl. <ref target="ra:dokument#112">RA 1, 74, Nr 100</ref>). (Die Datierung des nur fragmentarisch überlieferten Briefes ist unsicher; in der RA wird er auf „1779 Oktober vor 16“ datiert.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9932_comment_com16898">
+<label xml:id="GB03_2_BR535_0_note_001_304_18" copyOf="#start_com_4374"><hi rendition="#fett">304,18</hi>So nah bin ich bey dir</label>
+<p>Während seiner zweiten Schweizer Reise traf Goethe am 8. Oktober, von Bern kommend, in Thun ein, <quote type="G">wo wir beizeiten anlangten</quote> (<ref target="gb:text#GB03_1_BR536_0_306_032">306,32</ref>), wie er am folgenden Tag Charlotte von Stein berichtete. Am 9. Oktober begann er eine <quote type="G">merckwürdige Tour durch die Bernischen Glätscher</quote> (<ref target="gb:text#GB03_1_BR536_0_308_010">308,10</ref>), die er in Briefen an Charlotte von Stein vom 9. und 14. Oktober sowie vom 15. und 16. Oktober (<ref target="gb:dokument#12030">Nr 536</ref> und <ref target="gb:dokument#12029">538</ref>) sowie in seinem Tagebuch (vgl. GT I 1, 93–98) schildert. Nach Abschluss der Gletschertour übernachtete er am 14./15. Oktober noch einmal in Thun.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7516">
+<label xml:id="GB03_2_BR535_0_note_002_304_18" copyOf="#start_com_4375"><hi rendition="#fett">304,18</hi>l. Br.</label>
+<p>Lieber Bruder.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7517">
+<label xml:id="GB03_2_BR535_0_note_003_304_18" copyOf="#start_com_4376"><hi rendition="#fett">304,18</hi>Ruf</label>
+<p>Hier im Sinn von ‚Gerücht‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1195).</p>
+
+</note>
+<note xml:id="gb9932_comment_com13834">
+<label xml:id="GB03_2_BR535_0_note_004_304_20" copyOf="#start_com_4377"><hi rendition="#fett">304,20</hi>auf die Gletscher</label>
+<p>Der Tschingelgletscher und der Grindelwaldgletscher.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7518">
+<label xml:id="GB03_2_BR535_0_note_005_304_21" copyOf="#start_com_4378"><hi rendition="#fett">304,21</hi>Dann solls <gap quantity="3" reason="editorial"/> zu dir.</label>
+<p>Goethe besuchte Lavater zum Ende seiner Reise vom 18. November bis 2. Dezember 1779 in Zürich.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7519">
+<label xml:id="GB03_2_BR535_0_note_006_304_22" copyOf="#start_com_4379"><hi rendition="#fett">304,22</hi>nach Bern</label>
+<p>In Bern hielt sich Goethe vom 15. bis 20. Oktober 1779 auf.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7520">
+<label xml:id="GB03_2_BR535_0_note_007_304_22" copyOf="#start_com_4380"><hi rendition="#fett">304,22</hi>Falcken</label>
+<p>Der Gasthof „Zum Falken“ („Au Faucon“) galt vor dem Gasthof „Zur Krone“ als der beste in Bern. 1777 logierte dort u. a. Kaiser Joseph II. von Österreich auf dem Weg nach Frankreich. Der Gasthof, der zwischen der heutigen Amtshausgasse und der Marktgasse lag, existierte bis 1904.</p>
+
+</note>
+<note xml:id="gb9932_comment_com15859">
+<label xml:id="GB03_2_BR535_0_note_008_304_23" copyOf="#start_com_4381"><hi rendition="#fett">304,23</hi>Bern Lausanne Genf Luzern Zug</label>
+<p>Mit Ausnahme von Zug kam Goethe auf dem Weg von Bern nach Zürich durch diese Orte. In Zürich traf er am 18. November ein.</p>
+
+</note>
+<note xml:id="gb9932_comment_com16845">
+<label xml:id="GB03_2_BR535_0_note_009_304_23-25" copyOf="#start_com_4382"><hi rendition="#fett">304,23-25</hi>einige Menschen <gap quantity="3" reason="editorial"/> besuchen</label>
+<p>Aus <ref target="gb:dokument#9584">Nr 539</ref> geht hervor, dass Lavater Goethe wie gewünscht die Namen einiger Personen nannte, die er besuchen sollte (vgl. <ref target="gb:text#GB03_1_BR539_0_319_011">319,11</ref>). In Bern (15. bis 20. Oktober) begegnete Goethe u. a. Carl Ferdinand von Sinner, Johann Ludwig Aberli, Nikolaus Anton Kirchberger, Samuel Wilhelmi, in Lausanne (22./23. Oktober) Maria Antonia von Branconi, in Genf (27. Oktober bis 3. November) Johann Georg Christoph Tobler, Anton Josua Diodati, Jens Juel, Charles Bonnet, Michel de Chateauvieux, Horace Bénédict de Saussure, Jean Huber, Madame van der Borch. In Luzern (16./17. November) wollte Goethe den General und Topographen Franz Ludwig Pfyffer von Wyer besuchen, um dessen Relief der Urschweiz zu sehen, fand ihn aber nicht vor (vgl. Brief an Carl Ludwig von Knebel vom 4. Juni 1780; <ref target="gb:dokument#91">GB 4, Nr 106</ref>).</p>
+
+</note>
+<note xml:id="gb9932_comment_com7529">
+<label xml:id="GB03_2_BR535_0_note_010_304_25" copyOf="#start_com_4383"><hi rendition="#fett">304,25</hi>bringe</label>
+<p>Wort versehentlich nicht zu Ende geführt.</p>
+
+</note>
+<note xml:id="gb9932_comment_com7530">
+<label xml:id="GB03_2_BR535_0_note_011_304_26" copyOf="#start_com_4384"><hi rendition="#fett">304,26</hi>dich wieder zu sehen</label>
+<p>Goethe und Lavater hatten sich zuletzt im Juli/August 1775 in Zürich gesehen, als Goethe seine erste Schweizer Reise unternahm.</p>
+
+</note>
+<note xml:id="gb9932_comment_com16849">
+<label xml:id="GB03_2_BR535_0_note_012_305_6-8" copyOf="#start_com_4385"><hi rendition="#fett">305,6-8</hi>hat mich <gap quantity="3" reason="editorial"/> sehen noch horen</label>
+<p>Die Vorstellung der Trennung zwischen einer ‚äußeren‘ und ‚inneren‘ Existenz findet sich auch in Goethes Tagebuch; unter dem 13. Mai 1780 heißt es: <quote type="G">Was ich trage an mir und andern sieht kein Mensch. Das beste ist die tiefe Stille in der ich gegen die Welt lebe und wachse, und gewinne was sie mir mit Feuer und Schwert nicht nehmen können.</quote> (<ref target="gt:dokument#855">GT I 1, 112</ref>.) Ausführlich thematisiert Goethe den Gedanken im Brief an Carl Ludwig von Knebel vom 21. November 1782: <quote type="G">Ich sehe fast niemand, <gap quantity="3" reason="editorial"/> ich habe mein politisches und gesellschafftliches Leben ganz von meinem moralischen und poetischen getrennt <gap quantity="3" reason="editorial"/> und so befinde ich mich am besten.</quote> (<ref target="gb:text#GB05_1_BR290_0_176_004 #GB05_1_BR290_0_176_007">GB 5 I, 176,4-7</ref>.)</p>
+
+</note>
+<note xml:id="gb9932_comment_com7531">
+<label xml:id="GB03_2_BR535_0_note_013_305_15" copyOf="#start_com_4386"><hi rendition="#fett">305,15</hi>ein Brief von dir</label>
+<p>Vermutlich fand Goethe am 15. Oktober Lavaters Brief vom 10. Oktober 1779 vor (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 80, Nr 61).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

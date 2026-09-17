@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="830"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10726" n="GB 3, Nr. 83">
+  <teiHeader xml:id="gb10726_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>83.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 15. April <supplied>1776. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:51Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10726_tei.xml</idno>
+        <idno type="URI">gb10726</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR083_0</idno>
+        <idno type="KSW-ID">10726</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="54" to="54">54</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="207" to="209">207-209</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10726_header_hwit934" corresp="#gb10726_source_hwit934" sameAs="#gb10726_comment_hwit934" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, K. K. 32</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10726,,934/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich paße auf die Post auf, indeß muss ich das schreiben. Ich bitte Sie mir nächstens zu schicken</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-15">15. April <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#59746">Steinauer, Christian Wilhelm</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10726_source_hwit934" corresp="#gb10726_header_hwit934" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10726/28781"/>
+      <p>
+        <anchor xml:id="GB03_1_BR083_0_054_016"/>Ich passe auf die Post, indess muss ich das schreiben. Ich bitte Sie mir 
+<anchor xml:id="GB03_1_BR083_0_054_017"/>nächstens zu schicken.</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR083_0_054_018"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR083_0_note_001_54_18" xml:id="start_com_0835"/>Guibert Tactique</emph>
+        <ref xml:id="end_com_0835"/>
+      </p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR083_0_054_019"/>
+        <ref target="gb:note#GB03_2_BR083_0_note_002_54_19" xml:id="start_com_0836"/>Lamberts Organon.<ref xml:id="end_com_0836"/>
+      </p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR083_0_054_020"/>Ein paar gute Papiere.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR083_0_054_021"/>Welches zusammen ein schön Ragout macht. Grüssen Sie<ptr n="1" target="#a001_54.21"/> den <ref target="gb:note#GB03_2_BR083_0_note_003_54_21-22" xml:id="start_com_0837"/>Engelskopf<ref xml:id="end_com_0837"/>
+        <anchor xml:id="GB03_1_BR083_0_054_022"/>und <ref target="gb:note#GB03_2_BR083_0_note_004_54_22" xml:id="start_com_0838"/>die dicke und den Alten<ref xml:id="end_com_0838"/>, und bewahrt mein Andencken unter 
+<anchor xml:id="GB03_1_BR083_0_054_023"/>euch.    d<g ref="#typoSuspension"/>. 15 Apr. früh</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR083_0_054_024"/>
+        <signed rend="paraph" rendition="#einrueck11">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10726/28782" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10726_comment">
+<body>
+<div type="metadata" xml:id="gb10726_comment_com38">
+  <ab type="numberAddressee"><label>83.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 15. April <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10726_comment_com1404">
+  <p>Das fehlende Jahr ergibt sich aus dem Inhalt des Briefes. So geht aus Goethes Brief an Augusta zu Stolberg vom 17. bis 24. Mai 1776 (<ref target="gb:dokument#10896">Nr 114</ref>) hervor, dass er Guiberts „Essai“, den er bei Steinauer bestellte (vgl. <ref target="gb:text#GB03_1_BR083_0_054_018">54,18</ref>), am 19. Mai 1776 las. In Goethes Rechnungsbüchern ist der vorliegende Brief unter dem 16. April 1776 verzeichnet (vgl. Postsendungen).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10726_comment_com2082">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: 32. – 1 Bl. 18 &#xD7; 11 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), &#x2154; S. beschr., egh., Tinte. – Faksimile: Jahrbuch der Sammlung Kippenberg 10 (1935), nach S. 156.</p>
+  <p>E: <ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 49, Nr 436a.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10726_comment_com3878">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt. Goethes Brief vom 18.? April 1776 (<ref target="gb:dokument#10877">Nr 87</ref>) erwidert offensichtlich nicht den Antwortbrief zum vorliegenden Brief, sondern einen anderen Brief Steinauers, der nicht überliefert ist; in Goethes Rechnungsbüchern sind unter dem 18. April 1776 <quote type="G">Briefe und Paquete von Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 4v) verzeichnet.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. April 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 4r).</p>
+  <p rendition="#einrueck1">Christian Wilhelm Steinauer (1741–1826), Sohn des Leipziger Kaufmanns Johann Christian Steinauer, war dem Leipziger Adressbuch von 1774 zufolge selbst „Kaufmann und Cramer, in Auerbachs Hofe“ (zitiert nach: Alfred Bergmann: Christian Wilhelm Steinauer. Eine Skizze seiner Persönlichkeit. In: Jahrbuch der Sammlung Kippenberg 10 [1935], S. 159). Neben seiner Handelstätigkeit beschäftigte er sich u. a. mit Chemie, Mathematik und Architektur, aber auch mit Literatur, Theater und Zeichnen. So fertigte er z. B. die Zeichnung für das Titelkupfer von Wielands „Alceste“ (Leipzig 1774) an und engagierte sich für die Wiedererrichtung eines Theaters in Weimar nach dem Schlossbrand vom 6. Mai 1774, Letzteres u. a. in Briefen an Friedrich Justin Bertuch, mit dem er befreundet war und mit dem er in den Jahren 1774–1776 einen regen Briefwechsel führte. Insgesamt sind mehr als 50 Briefe von ihm an Bertuch im GSA (<ref target="archivdb:dokument#215343">6/1872</ref>) überliefert, der letzte aus dem Jahr 1817. Ende 1779 ging Steinauer als Oberkontrolleur an die Porzellanmanufaktur nach Meißen. 1795 wurde er zu deren Drittem Kommissar ernannt. Diese Funktionen übte er bis ins fortgeschrittene Alter aus. Wann er sich ins Privatleben zurückzog, ist nicht genau bekannt. Seinen Lebensabend verbrachte er in Naumburg. – Goethe kannte Steinauer, der mit der von ihm verehrten Schauspielerin und Sängerin Corona Schröter befreundet war, vermutlich seit seiner Studienzeit in Leipzig (1765–1768). Ob Steinauer bei seinem Besuch in Weimar im Februar 1776, von dem in seinem Brief an Bertuch vom 17. Februar 1776 die Rede ist, auch Goethe traf, ist nicht belegt, wohl aber, dass Goethe den Kaufmann und Kunstliebhaber während seiner Leipzig-Reise im März/April 1776 gesehen hat, die dazu diente, Corona Schröter für das Weimarer Liebhabertheater zu gewinnen: Im Brief an Herzog Carl August aus Leipzig vom 25. März 1776 richtet Goethe Grüße von Steinauer aus (vgl. <ref target="gb:text#GB03_1_BR070_0_047_024 #GB03_1_BR070_0_048_001">47,24–48,1</ref>). Goethes Tagebuch verzeichnet zwei weitere Begegnungen, am 20. Dezember 1776 in Leipzig (vgl. <ref target="gt:dokument#238">GT I 1, 31</ref>) und am 18. Mai 1777 bei Herzog Carl August in Weimar (vgl. <ref target="gt:dokument#355">GT I 1, 41</ref>). Von besonderer Intensität scheint die beiderseitige Beziehung nicht gewesen zu sein, zumindest erwähnt Steinauer in seinen Briefen an Bertuch Goethe mit keinem Wort. Goethe seinerseits übertrug Steinauer verschiedene Besorgungen, zumeist Buchbestellungen u. Ä. Dies geht aus den sieben überlieferten Briefen hervor, von denen sechs aus dem Jahr 1776 stammen. Die elf Briefe, die darüber hinaus in Goethes Rechnungsbüchern verzeichnet sind, allesamt ebenfalls von 1776, dürften ähnlichen Inhalts gewesen sein (vgl. auch <ref target="gb:dokument#52569">EB 71</ref>, <ref target="gb:dokument#15775">76</ref>, <ref target="gb:dokument#15779">80</ref>, <ref target="gb:dokument#15780">81</ref>, <ref target="gb:dokument#52571">88</ref>, <ref target="gb:dokument#15787">90</ref>, <ref target="gb:dokument#15793">98</ref>, <ref target="gb:dokument#15797">101</ref>, <ref target="gb:dokument#15805">109</ref>, <ref target="gb:dokument#52578">113</ref>, <ref target="gb:dokument#15812">119</ref>). Briefe von Steinauer an Goethe haben sich nicht erhalten; vermutlich hat dieser sie wie alle seit 1772 empfangenen Briefe 1797 vernichtet (vgl. Tag- und Jahres-Hefte 1797; <ref target="sndb:sigle#1157">WA</ref> I 35, 73).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10726_comment_com14023">
+<label xml:id="GB03_2_BR083_0_note_001_54_18" copyOf="#start_com_0835"><hi rendition="#fett">54,18</hi><emph rendition="#latin">Guibert Tactique</emph></label>
+<p>Jacques Antoine Hippolyte de Guiberts „Essai général de tactique“ (2 Bde. Paris [u. a.] 1772; vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 234, Nr 1650). Goethe las das Werk am 19. Mai 1776 (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_043_68_11">68,11</ref>). Es gehörte zu den von Jacob Michael Reinhold Lenz erbetenen Büchern; Goethe schickte es ihm mit seinem Brief von Anfang Juli 1776 (<ref target="gb:dokument#10966">Nr 136</ref>).</p>
+
+</note>
+<note xml:id="gb10726_comment_com17623">
+<label xml:id="GB03_2_BR083_0_note_002_54_19" copyOf="#start_com_0836"><hi rendition="#fett">54,19</hi>Lamberts Organon.</label>
+<p>Johann Heinrich Lamberts „Neues Organon oder Gedanken über die Erforschung und Bezeichnung des Wahren und dessen Unterscheidung vom Irrthum und Schein“ (2 Bde. Leipzig 1764). Das Werk des Philosophen, Mathematikers und Physikers befasst sich u. a. mit der erkenntnistheoretischen Frage nach den Bedingungen, unter welchen die Gesetze des menschlichen Denkens zu Erkenntnis führen. Mit dieser Fragestellung ist Lambert ein Vorläufer Kants. – Als Physiker wurde Lambert zum Begründer der Fotometrie (Photometria sive de mensura et gradibus luminis, colorum et umbrae <supplied>Fotometrie oder über die Messung und Abstufung des Lichts, der Farben und des Schattens</supplied>. Augsburg 1760); als solcher erhielt er später auch für Goethes Farbenlehre Bedeutung (vgl. Goethes Brief an Schiller, 21. und 25. Februar 1798; <ref target="gb:dokument#4695">GB 13, Nr 41</ref>).</p>
+
+</note>
+<note xml:id="gb10726_comment_com9995">
+<label xml:id="GB03_2_BR083_0_note_003_54_21-22" copyOf="#start_com_0837"><hi rendition="#fett">54,21-22</hi>Engelskopf</label>
+<p>Corona Schröter. Am 25. März 1776 hatte Goethe an Charlotte von Stein geschrieben: <quote type="G">Die Schrötern ist ein Engel</quote> (<ref target="gb:text#GB03_1_BR071_0_048_016">48,16</ref>).</p>
+
+</note>
+<note xml:id="gb10726_comment_com9996">
+<label xml:id="GB03_2_BR083_0_note_004_54_22" copyOf="#start_com_0838"><hi rendition="#fett">54,22</hi>die dicke und den Alten</label>
+<p>Personen vermutlich aus dem Umkreis Corona Schröters; Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

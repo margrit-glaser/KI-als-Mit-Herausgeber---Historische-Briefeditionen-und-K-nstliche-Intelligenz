@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2420"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11630" n="GB 3, Nr. 239">
+  <teiHeader xml:id="gb11630_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>239.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 22. März 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11630_tei.xml</idno>
+        <idno type="URI">gb11630</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR239_0</idno>
+        <idno type="KSW-ID">11630</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="137" to="137">137</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="498" to="498">498</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11630_header_hwit1171" corresp="#gb11630_source_hwit1171" sameAs="#gb11630_comment_hwit1171" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 44</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11630,,1171/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>In dem Augenblick da ich das schreibe bin ich noch unschlüssig ob ich nicht zu Ihnen kommen soll</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-03-22">22. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11630_source_hwit1171" corresp="#gb11630_header_hwit1171" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11630/22564"/>
+      <p>
+        <anchor xml:id="GB03_1_BR239_0_137_014"/>In dem Augenblick da ich das schreibe bin ich noch unschlüssig ob 
+<anchor xml:id="GB03_1_BR239_0_137_015"/>ich nicht zu Ihnen kommen soll. Doch ich will nach <ref target="gb:note#GB03_2_BR239_0_note_001_137_15" xml:id="start_com_2126"/>Ettersburg<ref xml:id="end_com_2126"/>. 
+<anchor xml:id="GB03_1_BR239_0_137_016"/>Adieu. <ref target="gb:note#GB03_2_BR239_0_note_002_137_16-17" xml:id="start_com_2127"/>Lassen<ptr n="1" target="#a001_137.16"/> Sie Steinen sagen er mögte morgen gegen 9 Uhr in 
+<anchor xml:id="GB03_1_BR239_0_137_017"/>meinem Garten seyn ich hab ihm nothwendigs zu sagen.<ref xml:id="end_com_2127"/>
+        <ref target="gb:note#GB03_2_BR239_0_note_003_137_17-18" xml:id="start_com_2128"/>Gezeichnet 
+<anchor xml:id="GB03_1_BR239_0_137_018"/>hab ich wieder heut früh am alten Plaz<ref xml:id="end_com_2128"/> wenn mein Geist nicht um’s 
+<anchor xml:id="GB03_1_BR239_0_137_019"/>bild und um den Plaz schwebt; so giebts weder <ref target="gb:note#GB03_2_BR239_0_note_004_137_19" xml:id="start_com_2129"/>Ahndungen<ref xml:id="end_com_2129"/> noch 
+<anchor xml:id="GB03_1_BR239_0_137_020"/>
+        <ref target="gb:note#GB03_2_BR239_0_note_005_137_20" xml:id="start_com_2130"/>Rückkehrende<ref xml:id="end_com_2130"/>. Er ist um Sie mit leidlicher <ref target="gb:note#GB03_2_BR239_0_note_006_137_20" xml:id="start_com_2131"/>Drolligkeit<ref xml:id="end_com_2131"/>
+      </p>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_1_BR239_0_137_021"/>heute   d<g ref="#typoSuspension"/>. 22 Merz 77</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR239_0_137_022"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11630_comment">
+<body>
+<div type="metadata" xml:id="gb11630_comment_com576">
+  <ab type="numberAddressee"><label>239.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 22. März 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11630_comment_com2620">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 44. – 1 Bl. 10,3(–10,5) × 8,6 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. und Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „13“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 13), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 91.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 146, Nr 582.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11630_comment_com4416">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11630_comment_com11029">
+<label xml:id="GB03_2_BR239_0_note_001_137_15" copyOf="#start_com_2126"><hi rendition="#fett">137,15</hi>Ettersburg</label>
+<p>Dorf und Schloss in der Nähe Weimars (vgl. zu <ref target="gb:note#GB03_2_BR054_0_note_001_39_16">39,16</ref>); Goethe ritt erst am nächsten Tag dorthin (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR240_0_note_001_138_1">138,1</ref>).</p>
+
+</note>
+<note xml:id="gb11630_comment_com17797">
+<label xml:id="GB03_2_BR239_0_note_002_137_16-17" copyOf="#start_com_2127"><hi rendition="#fett">137,16-17</hi>Lassen sie Steinen <gap quantity="3" reason="editorial"/> zu sagen.</label>
+<p>Näheres nicht ermittelt. Laut Tagebuch war Josias von Stein am 23. März 1777 nicht in Goethes Garten, vielmehr ritten Goethe und wahrscheinlich auch der Herzog nach Ettersburg und kamen erst <quote type="G">Abends zurück</quote> (<ref target="gt:dokument#316">GT I 1, 39</ref>).</p>
+
+</note>
+<note xml:id="gb11630_comment_com17808">
+<label xml:id="GB03_2_BR239_0_note_003_137_17-18" copyOf="#start_com_2128"><hi rendition="#fett">137,17-18</hi>Gezeichnet hab ich <gap quantity="3" reason="editorial"/> am alten Plaz</label>
+<p>Dem Kontext nach könnte die Stelle unter dem Wacholderbaum in Goethes Garten gemeint sein (vgl. zu <ref target="gb:note#GB03_2_BR187_0_note_002_117_19-20">117,19-20</ref>). – Am 4. April 1777 schreibt Wieland an Merck über Goethes Hauptbeschäftigungen in dieser Zeit: „<hi rendition="#hervor1">Göthe</hi> grüßt Sie, und läßt Ihnen wissen, daß er fleißig in seinem Garten arbeite, und hoffe, daß Sie einst zu ihm kommen und mit Augen sehen und Freude dran haben werden. <hi rendition="#hervor1">Zeichnen</hi> ist ausser’m Pflanzen izt sein Lieblingsgeschäft; Sie werden auch hierin über die Wunder seines Genies erstaunen. Er zeichnet völlig wie er dichtet und schreibt. Nur sollen Sie seinen Pflanzungen Zeit lassen recht einzuwachsen, ehe Sie kommen.“ (<ref target="sndb:sigle#141">WB</ref> 5, 606.)</p>
+
+</note>
+<note xml:id="gb11630_comment_com13916">
+<label xml:id="GB03_2_BR239_0_note_004_137_19" copyOf="#start_com_2129"><hi rendition="#fett">137,19</hi>Ahndungen</label>
+<p>Hier: übersinnliche Wahrnehmungen, Visionen (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 298).</p>
+
+</note>
+<note xml:id="gb11630_comment_com11042">
+<label xml:id="GB03_2_BR239_0_note_005_137_20" copyOf="#start_com_2130"><hi rendition="#fett">137,20</hi>Rückkehrende</label>
+<p>Gespenster; nach franz. revenant(s).</p>
+
+</note>
+<note xml:id="gb11630_comment_com11043">
+<label xml:id="GB03_2_BR239_0_note_006_137_20" copyOf="#start_com_2131"><hi rendition="#fett">137,20</hi>Drolligkeit</label>
+<p>Hier: leidliches Behagen, Heiterkeit (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1274).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

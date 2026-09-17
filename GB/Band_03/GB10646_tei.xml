@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="300"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10646" n="GB 3, Nr. 30">
+  <teiHeader xml:id="gb10646_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>30.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 27. Januar 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10646_tei.xml</idno>
+        <idno type="URI">gb10646</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR030_0</idno>
+        <idno type="KSW-ID">10646</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="24" to="25">24-25</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="111" to="114">111-114</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10646_header_hwit859" corresp="#gb10646_source_hwit859" sameAs="#gb10646_comment_hwit859" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10646,,859/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Frau ich war heut Nacht von einem Teufels Humor zu Anfange. Es drückte mich und Louisen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-27">27. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10646_source_hwit859" corresp="#gb10646_header_hwit859" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10646/22249"/>
+      <p>
+        <anchor xml:id="GB03_1_BR030_0_024_018"/>Liebe Frau ich war <ref target="gb:note#GB03_2_BR030_0_note_001_24_18" xml:id="start_com_0393"/>heut Nacht<ref xml:id="end_com_0393"/> von einem <ref target="gb:note#GB03_2_BR030_0_note_002_24_18" xml:id="start_com_0394"/>Teufels Humor<ref xml:id="end_com_0394"/> zu Anfange. 
+<anchor xml:id="GB03_1_BR030_0_024_019"/>Es drückte mich und <ref target="gb:note#GB03_2_BR030_0_note_003_24_19" xml:id="start_com_0395"/>Louisen<ref xml:id="end_com_0395"/> dass sie fehlten. <ref target="gb:note#GB03_2_BR030_0_note_004_24_19" xml:id="start_com_0396"/>Die Keller<ref xml:id="end_com_0396"/> und <ref target="gb:note#GB03_2_BR030_0_note_005_24_19-20" xml:id="start_com_0397"/>die 
+<anchor xml:id="GB03_1_BR030_0_024_020"/>niedliche Bechtolsheim<ref xml:id="end_com_0397"/><ptr n="1" target="#a001_24.20"/> konnten mich nicht in Schwung bringen. 
+<anchor xml:id="GB03_1_BR030_0_024_021"/>
+        <ref target="gb:note#GB03_2_BR030_0_note_006_24_21" xml:id="start_com_0398"/>Carl<ref xml:id="end_com_0398"/> gab mir <ref target="gb:note#GB03_2_BR030_0_note_007_24_21" xml:id="start_com_0399"/>das Zettelgen<ref xml:id="end_com_0399"/>, das machte die Sache ärger, mich brannt 
+<anchor xml:id="GB03_1_BR030_0_025_001"/>es unter den Sohlen zu Ihnen<ptr n="2" target="#a002_25.1"/> zu laufen. End<g ref="#typoSuspension"/>. fing ich an zu <ref target="gb:note#GB03_2_BR030_0_note_008_25_1" xml:id="start_com_0400"/>miseln<ref xml:id="end_com_0400"/>,<ptr n="3" target="#a003_25.1"/>
+        <anchor xml:id="GB03_1_BR030_0_025_002"/>und da gings besser. Die Liebeley ist doch das probatste Palliativ in 
+<anchor xml:id="GB03_1_BR030_0_025_003"/>solchen Umständen<ptr n="4" target="#a004_25.3"/>. Ich log und trog mich bey allen hübschen Gesichtern 
+<anchor xml:id="GB03_1_BR030_0_025_004"/>herum, und hatte den Vorteil, immer im Augenblick zu glauben 
+<anchor xml:id="GB03_1_BR030_0_025_005"/>was ich sagte. Das <ref target="gb:note#GB03_2_BR030_0_note_009_25_5" xml:id="start_com_0401"/>Milchmädgen<ref xml:id="end_com_0401"/> gefiel mir wohl, mit etwas mehr 
+<anchor xml:id="GB03_1_BR030_0_025_006"/>Jugend und Gesundheit wäre sie mir gefährlich. Die Niedlichkeit der 
+<anchor xml:id="GB03_1_BR030_0_025_007"/>
+        <ref target="gb:note#GB03_2_BR030_0_note_010_25_7" xml:id="start_com_0402"/>Italiänischen Blumenkränze<ref xml:id="end_com_0402"/><ptr n="5" target="#a005_25.7"/> stand der <ref target="gb:note#GB03_2_BR030_0_note_011_25_7" xml:id="start_com_0403"/>Gräfin G.<ref xml:id="end_com_0403"/> nicht besser zu Gesicht 
+<anchor xml:id="GB03_1_BR030_0_025_008"/>und <ref target="gb:note#GB03_2_BR030_0_note_012_25_8" xml:id="start_com_0404"/>Taille<ref xml:id="end_com_0404"/><ptr n="6" target="#a006_25.8"/>, als <ref target="gb:note#GB03_2_BR030_0_note_013_25_8" xml:id="start_com_0405"/>die Festigkeit u. Treue Coucis<ref xml:id="end_com_0405"/>
+        <ref target="gb:note#GB03_2_BR030_0_note_014_25_8" xml:id="start_com_0406"/>ihrem Manne<ref xml:id="end_com_0406"/>. Die 
+<anchor xml:id="GB03_1_BR030_0_025_009"/>
+        <ref target="gb:note#GB03_2_BR030_0_note_015_25_9" xml:id="start_com_0407"/>Herz<ptr n="7" target="#a007_25.9"/> M.<ref xml:id="end_com_0407"/> war lieb und gut. Louise ein Engel, ich hätte mich ihr etlichemal 
+<anchor xml:id="GB03_1_BR030_0_025_010"/>zu Füssen werfen müssen! Aber ich blieb in Fassung und 
+<anchor xml:id="GB03_1_BR030_0_025_011"/>krämte läppisches Zeug aus. <ref target="gb:note#GB03_2_BR030_0_note_016_25_11-12" xml:id="start_com_0408"/>Sie widersprach über eine Kleinigkeit 
+<anchor xml:id="GB03_1_BR030_0_025_012"/>dem Herzog<ref xml:id="end_com_0408"/> hefftig – doch macht ich sie nachher lachen. Wir dachten 
+<anchor xml:id="GB03_1_BR030_0_025_013"/>an <ref target="gb:note#GB03_2_BR030_0_note_017_25_13" xml:id="start_com_0409"/>dich<ref xml:id="end_com_0409"/> liebe liebe Frau. <ref target="gb:note#GB03_2_BR030_0_note_018_25_13" xml:id="start_com_0410"/>Kommst doch heut Abend.<ref xml:id="end_com_0410"/>    G.   27 Jan. 76.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10646_comment">
+<body>
+<div type="metadata" xml:id="gb10646_comment_com403">
+  <ab type="numberAddressee"><label>30.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 27. Januar 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10646_comment_com2447">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 1. – 1 Bl. 14,1(–14,3) × 20,2(–20,5) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „2.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 2), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 4 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 23 f., Nr 393.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10646_comment_com4243">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Charlotte von Steins vom 27. Januar 1776 (vgl. <ref target="gb:text#GB03_1_BR030_0_024_021">24,21</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10646_comment_com17329">
+<label xml:id="GB03_2_BR030_0_note_001_24_18" copyOf="#start_com_0393"><hi rendition="#fett">24,18</hi>heut Nacht</label>
+<p>Laut Fourierbuch war am Freitag, dem 26. Januar, „Redoute“, d. h. Maskenball (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 31). – Zu Redouten, an denen die Hofgesellschaft und auch das bürgerliche Publikum teilnahmen, traf man sich im Herbst und Winter. Seit November 1775 wurden sie im Redoutenhaus an der Esplanade (heute Schillerstraße) abgehalten (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR028_0_note_004_24_3">24,3</ref>). Sie begannen abends gegen 19 Uhr und dauerten bis in die Morgenstunden, wobei die Hofgesellschaft erst später hinzukam (vgl. <ref target="sndb:sigle#3081">Schrickel, Weimarer Theater</ref>, 59).</p>
+
+</note>
+<note xml:id="gb10646_comment_com9507">
+<label xml:id="GB03_2_BR030_0_note_002_24_18" copyOf="#start_com_0394"><hi rendition="#fett">24,18</hi>Teufels Humor</label>
+<p>Hapaxlegomenon Goethes; das Grundwort ‚Humor‘ hier figürlich und noch in der älteren Wortbedeutung und in Anlehung an franz. humeur: üble Stimmung, Verstimmtheit.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9508">
+<label xml:id="GB03_2_BR030_0_note_003_24_19" copyOf="#start_com_0395"><hi rendition="#fett">24,19</hi>Louisen</label>
+<p>Herzogin Louise von Sachsen-Weimar und Eisenach, die mit der Adressatin befreundet war (vgl. zu <ref target="gb:note#GB03_2_BR028_0_note_001_24_1">24,1</ref>).</p>
+
+</note>
+<note xml:id="gb10646_comment_com17334">
+<label xml:id="GB03_2_BR030_0_note_004_24_19" copyOf="#start_com_0396"><hi rendition="#fett">24,19</hi>Die Keller</label>
+<p>Auguste von Keller, Schlossherrin in Stedten bei Erfurt, wo Goethe in den ersten Januartagen 1776 gemeinsam mit Wieland zu Besuch gewesen war (vgl. zu <ref target="gb:note#GB03_2_BR012_0_note_005_13_14">13,14</ref>). – Dass hier die 1766 verwitwete Frau des gothaischen Geheimrats und Ministers Christoph Dietrich von Keller gemeint ist und nicht etwa eine ihrer beiden jüngeren noch unverheirateten Töchter, die 16-jährige Wilhelmine Caroline oder die damals etwa 14-jährige Luise, legt die Art der Erwähnung nahe.</p>
+
+</note>
+<note xml:id="gb10646_comment_com16122">
+<label xml:id="GB03_2_BR030_0_note_005_24_19-20" copyOf="#start_com_0397"><hi rendition="#fett">24,19-20</hi>die niedliche Bechtolsheim</label>
+<p>Juliane (Julie) von Mauchenheim, die älteste Tochter Auguste von Kellers, seit April 1774 mit Johann Ludwig von Mauchenheim gen. Bechtolsheim verheiratet, einem Bruder ihrer Mutter und sachsen-gothaischen Oberamtmann in Georgenthal im Thüringer Wald. Die damals knapp 24-Jährige, der Wieland mit besonderer Freundschaft zugetan war, hatte Goethe bei seinem Besuch in Stedten ebenfalls kennen gelernt. Julie von Bechtolsheim lebte Anfang 1776 noch in Georgenthal und nicht in Eisenach, wie seit dem Erstdruck des Briefes immer wieder angegeben wurde (vgl. <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1, 5, Anm. 1). Erst im Juli 1776 siedelte sie nach Eisenach über, wohin ihr Mann, nunmehr in sachsen-weimarischen Diensten, zum Vizekanzler der Regierung berufen worden war. – Auch die zweitälteste Tochter Auguste hatte 1774 einen Bruder ihrer Mutter, Ludwig Friedrich von Mauchenheim gen. Bechtolsheim, geheiratet. Sie lebte seither in Dänemark, wo ihr Mann als Offizier in königlichen Diensten stand.</p>
+
+</note>
+<note xml:id="gb10646_comment_com14737">
+<label xml:id="GB03_2_BR030_0_note_006_24_21" copyOf="#start_com_0398"><hi rendition="#fett">24,21</hi>Carl</label>
+<p>Carl von Stein, der älteste, damals knapp 11-jährige Sohn der Adressatin.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9517">
+<label xml:id="GB03_2_BR030_0_note_007_24_21" copyOf="#start_com_0399"><hi rendition="#fett">24,21</hi>das Zettelgen</label>
+<p>Der Bezugsbrief; nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9518">
+<label xml:id="GB03_2_BR030_0_note_008_25_1" copyOf="#start_com_0400"><hi rendition="#fett">25,1</hi>miseln</label>
+<p>Miseln: liebeln, tändeln, mit jungen Mädchen flirten (vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>).</p>
+
+</note>
+<note xml:id="gb10646_comment_com17404">
+<label xml:id="GB03_2_BR030_0_note_009_25_5" copyOf="#start_com_0401"><hi rendition="#fett">25,5</hi>Milchmädgen</label>
+<p>Eine Teilnehmerin des Balles in der Kostümierung der Titelheldin des Singspiels „Das Milchmädchen und die beiden Jäger“. Das Stück war am 25. Januar 1776 vom Liebhabertheater in Weimar aufgeführt worden, hatte aber schon zuvor zum Repertoire des Hoftheaters gehört. Die französische Vorlage des Librettos „Les deux chasseurs, et la laitiere“ (Paris 1763) stammt von Louis Anseaume, die Musik von dem italienischen Komponisten Egidio Romoaldo Duni. In deutscher Übersetzung von Christian Friedrich Schwan war das Stück 1772 in Schwans Mannheimer Verlag erschienen. In der Aufführung vom 25. Januar hatte die Sängerin Maria Salome Philippine Neuhaus die Titelpartie ge­sungen (vgl. Figuren aus der Operette Das Milchmädchen. / aufgeführt auf dem Liebhaber Theater zu Weimar den 24sten Jänner 1776. Im Geschmack bunter Zeichnungen ausgeführt und hrsg. von G<supplied>eorg</supplied> M<supplied>elchior</supplied> Kraus. Weimar 1776; vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 132). Ob Philippine Neuhaus hier, wie bislang angenommen, gemeint ist, erscheint zweifelhaft, war sie damals doch erst 20 Jahre alt, was zu der Anspielung auf die mangelnde Jugendlichkeit des ‚Milchmädchens‘ nicht zu passen scheint.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9519">
+<label xml:id="GB03_2_BR030_0_note_010_25_7" copyOf="#start_com_0402"><hi rendition="#fett">25,7</hi>Italiänischen Blumenkränze</label>
+<p>Künstliche Blumen („Putzblumen“), vorwiegend aus Seide, Leinen und Federn, die bis ins 18. Jahrhundert fast ausschließlich in Italien und Frankreich hergestellt wurden (vgl. <ref target="sndb:sigle#3124">Waaren-Lexikon</ref> 1, 125).</p>
+
+</note>
+<note xml:id="gb10646_comment_com9520">
+<label xml:id="GB03_2_BR030_0_note_011_25_7" copyOf="#start_com_0403"><hi rendition="#fett">25,7</hi>Gräfin G.</label>
+<p>Friedrike Caroline Gräfin von Goertz.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9521">
+<label xml:id="GB03_2_BR030_0_note_012_25_8" copyOf="#start_com_0404"><hi rendition="#fett">25,8</hi>Taille</label>
+<p>Im zeitgenössischen Verständnis „Leibes Gestalt, Schönheit des menschlichen Leibes, Gestalt und Ansehen des Leibes“ (<ref target="sndb:sigle#3152">Zedler</ref> 41, 1516).</p>
+
+</note>
+<note xml:id="gb10646_comment_com17348">
+<label xml:id="GB03_2_BR030_0_note_013_25_8" copyOf="#start_com_0405"><hi rendition="#fett">25,8</hi>die Festigkeit u. Treue Coucis</label>
+<p>Anspielung auf die sagenhafte Treue Renauds, des Kastellans von Coucy, eines altfranzösischen Minnedichters, Titelheld eines Romans vom Ende des 13./Anfang des 14. Jahrhunderts. Nach anderen Überlieferungen soll Raoul de Coucy, ein Kreuzritter und Dichter aus dem 12. Jahrhundert, das historische Vorbild des Romanhelden sein, der, schwer verwundet, befohlen hatte, sein Herz in einer silbernen Kapsel seiner Geliebten zu überbringen. Das Herz fiel jedoch in die Hände ihres Gemahls, der es seiner Frau als Speise vorsetzen ließ. Nachdem sie erfuhr, was sie gegessen hatte, starb sie einen freiwilligen Hungertod. Der Romanschluss ist als Sage in unterschiedlichen Fassungen überliefert. – Möglicherweise war der nachfolgend erwähnte Graf von Goertz als Kreuzritter oder Kastellan von Coucy kostümiert.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9533">
+<label xml:id="GB03_2_BR030_0_note_014_25_8" copyOf="#start_com_0406"><hi rendition="#fett">25,8</hi>ihrem Manne</label>
+<p>Johann Eustach Graf von Schlitz gen. von Goertz, von 1762 bis 1775 Erzieher des Erbprinzen Carl August und des Prinzen Constantin. Goertz gehörte 1774 zu deren Gefolge auf der Kavaliersreise nach Paris und war in Frankfurt am 12. Dezember 1774 Zeuge des ersten Zusammentreffens Goethes mit Carl August (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10396_comment_com3886">GB 2 II, Nr 169</ref>). Nach dem Regierungsantritt Herzog Carl Augusts im September 1775 hatten sich die Hoffnungen des ehemaligen Prinzenerziehers auf ein höheres Regierungsamt nicht erfüllt; am 30. Oktober 1775 wurde er stattdessen zum Oberhofmeister der Herzogin Louise berufen.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9534">
+<label xml:id="GB03_2_BR030_0_note_015_25_9" copyOf="#start_com_0407"><hi rendition="#fett">25,9</hi>Herz M.</label>
+<p>Herzoginmutter Anna Amalia.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9535">
+<label xml:id="GB03_2_BR030_0_note_016_25_11-12" copyOf="#start_com_0408"><hi rendition="#fett">25,11-12</hi>Sie widersprach <gap quantity="3" reason="editorial"/> dem Herzog</label>
+<p>Über Missstimmungen zwischen den jungen Eheleuten berichtet Goethe wiederholt in seinen Briefen an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR035_0_027_004 #GB03_1_BR035_0_027_010">27,4–10</ref>).</p>
+
+</note>
+<note xml:id="gb10646_comment_com17421">
+<label xml:id="GB03_2_BR030_0_note_017_25_13" copyOf="#start_com_0409"><hi rendition="#fett">25,13</hi>dich</label>
+<p>Hier wechselt Goethe zum ersten Mal innerhalb eines Briefes in der Anrede vom ‚Sie‘ zum vertraulichen ‚Du‘. Am folgenden Tag gebrauchte er bereits durchgängig das ‚Du‘ (vgl. <ref target="gb:dokument#10606">Nr 31</ref>), verwendete jedoch am darauffolgenden Tag wieder das ‚Sie‘ (vgl. <ref target="gb:dokument#10343">Nr 32</ref>). Wie ein Brief Charlotte von Steins an Zimmermann vom 6. bis 8. März 1776 nahelegt, gebrauchte Goethe die vertrauliche Anrede wahrscheinlich vor allem in den Briefen, während er im persönlichen Gespräch noch vorsichtiger damit umging. Am 6. März 1776 scheint ihm Charlotte von Stein das ‚Du‘ verwiesen zu haben, was offenbar zu einer vorübergehenden Verstimmung Goethes geführt hat, der daraufhin in den Briefen wieder zum ‚Sie‘ überging (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_001_42_12">42,12</ref>). In den ersten Jahren der Bekanntschaft kommt es noch häufiger zu diesem auffallenden Anrede-Wechsel. Durchgängig gebraucht Goethe das ‚Du‘ erst ab September 1781.</p>
+
+</note>
+<note xml:id="gb10646_comment_com9550">
+<label xml:id="GB03_2_BR030_0_note_018_25_13" copyOf="#start_com_0410"><hi rendition="#fett">25,13</hi>Kommst doch heut Abend.</label>
+<p>Offenbar eine Abendeinladung im privaten Kreis (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR031_0_note_003_25_14">25,14</ref>). Laut Fourierbuch „soupirten“ die „Durch<g ref="#typoSuspension"/>. Herrschafften“ am Abend des 27. Januar 1776 bei der Herzoginmutter Anna Amalia (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 32). Es fand also keine Hoftafel statt, an der die Adressatin hätte teilnehmen müssen.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1720"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11180" n="GB 3, Nr. 170">
+  <teiHeader xml:id="gb11180_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>170.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 16. September 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:24Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11180_tei.xml</idno>
+        <idno type="URI">gb11180</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR170_0</idno>
+        <idno type="KSW-ID">11180</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="105" to="107">105-107</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="394" to="397">394-397</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11180_header_hwit1069" corresp="#gb11180_source_hwit1069" sameAs="#gb11180_comment_hwit1069" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 75</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11180,,1069/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Weil ihr lieb wart und habt mir gleich geschrieben, so auch von mir hier eine Ejakulation</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-09-16">16. September 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#77">RA 1, Nr. 72</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#84">RA 1, Nr. 77</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11180_source_hwit1069" corresp="#gb11180_header_hwit1069" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11180/13804"/>
+      <p>
+        <anchor xml:id="GB03_1_BR170_0_105_022"/>Weil ihr lieb wart und habt mir gleich geschrieben, so auch von mir 
+<anchor xml:id="GB03_1_BR170_0_105_023"/>hier eine <ref target="gb:note#GB03_2_BR170_0_note_001_105_23" xml:id="start_com_1632"/>Ejakulation<ref xml:id="end_com_1632"/> die ihr freundlich mögt aufnehmen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR170_0_105_024"/>Liebr Bruder dass du nicht willst <ref target="gb:note#GB03_2_BR170_0_note_002_105_24" xml:id="start_com_1633"/>Ständigkeit<ref xml:id="end_com_1633"/> kriegen, nicht kannst 
+<anchor xml:id="GB03_1_BR170_0_105_025"/>kriegen, ängstigt mich manchmal wenn ich <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR170_0_note_003_105_25" xml:id="start_com_1634"/>peccata mundi</emph>
+        <ref xml:id="end_com_1634"/> im Stillen 
+<anchor xml:id="GB03_1_BR170_0_105_026"/>trage. Ich bin nun <ref target="gb:note#GB03_2_BR170_0_note_004_105_26" xml:id="start_com_1635"/>seit einem Jahr<ref xml:id="end_com_1635"/> in ganz dezidirten <ref target="gb:note#GB03_2_BR170_0_note_005_105_26" xml:id="start_com_1636"/>moralisch<ref xml:id="end_com_1636"/> politischen 
+<anchor xml:id="GB03_1_BR170_0_105_027"/>augenblicksVerhältnissen<ptr n="1" target="#a001_105.27"/> und mein Herz ist mir so treu und du 
+<anchor xml:id="GB03_1_BR170_0_105_028"/>—— Nun es soll so seyn – <ref target="gb:note#GB03_2_BR170_0_note_006_105_28" xml:id="start_com_1637"/>über Carl und Luisen sey ruhig<ref xml:id="end_com_1637"/>, wo die 
+<anchor xml:id="GB03_1_BR170_0_105_029"/>Götter nicht ihr Possenspiel mit den Menschen treiben, sollen sie 
+<anchor xml:id="GB03_1_BR170_0_106_001"/>noch eins der Glücklichsten Paare werden wie sie eins der besten sind, 
+<anchor xml:id="GB03_1_BR170_0_106_002"/>nichts menschliches steht dazwischen nur des unbegreifflichen Schicksaals 
+<anchor xml:id="GB03_1_BR170_0_106_003"/>
+        <ref target="gb:note#GB03_2_BR170_0_note_007_106_3" xml:id="start_com_1638"/>verehrliche Gerichte<ref xml:id="end_com_1638"/>. <ref target="gb:note#GB03_2_BR170_0_note_008_106_3-5" xml:id="start_com_1639"/>Wenn ich dir erscheinen und dir erzählen 
+<anchor xml:id="GB03_1_BR170_0_106_004"/>könnte, was unschreibbaar ist, du würdest auf dein Angesicht fallen 
+<anchor xml:id="GB03_1_BR170_0_106_005"/>und anbeten den der da ist da war und seyn wird.<ref xml:id="end_com_1639"/> Aber glaub an mich, 
+<anchor xml:id="GB03_1_BR170_0_106_006"/>der ich an den Ewigen glaube. Grüs <ref target="gb:note#GB03_2_BR170_0_note_009_106_6" xml:id="start_com_1640"/>Bäben<ref xml:id="end_com_1640"/>, und alles und <ref target="gb:note#GB03_2_BR170_0_note_010_106_6" xml:id="start_com_1641"/>Kaysern<ref xml:id="end_com_1641"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR170_0_106_007"/>
+        <ref target="gb:note#GB03_2_BR170_0_note_011_106_7" xml:id="start_com_1642"/>Lenz ist unter uns wie ein kranckes Kind<ref xml:id="end_com_1642"/>, und <ref target="gb:note#GB03_2_BR170_0_note_012_106_7-8" xml:id="start_com_1643"/>Klinger wie ein 
+<anchor xml:id="GB03_1_BR170_0_106_008"/>Splitter im Fleisch, er schwürt, und wird sich heraus schwüren<ref xml:id="end_com_1643"/>
+        <anchor xml:id="GB03_1_BR170_0_106_009"/>leider.   d<g ref="#typoSuspension"/>. 16 Sept 76.</p>
+      <p rendition="#einrueck22">
+        <anchor xml:id="GB03_1_BR170_0_106_010"/>G. </p>
+      <space quantity="1" unit="lines"/>
+      <pb n="2" facs="gb:digitalisate#11180/13805"/>
+      <p>
+        <anchor xml:id="GB03_1_BR170_0_106_011"/>
+        <ref target="gb:note#GB03_2_BR170_0_note_013_106_11" xml:id="start_com_1644"/>Schick mir zeitig was<ref xml:id="end_com_1644"/> zum dritten Theil. Gern sollst du haben was 
+<anchor xml:id="GB03_1_BR170_0_106_012"/>ich geben kann in der unendlich beweglichen Welt in der ich lebe 
+<anchor xml:id="GB03_1_BR170_0_106_013"/>tausend beobachtungen! und in einem guten Augenblick schöpf ich 
+<anchor xml:id="GB03_1_BR170_0_106_014"/>dir die Butter ab! – pp – Vielleicht auch nicht! – Genug was ich 
+<anchor xml:id="GB03_1_BR170_0_106_015"/>kann! – –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR170_0_106_016"/>
+        <ref target="gb:note#GB03_2_BR170_0_note_014_106_16" xml:id="start_com_1645"/>Allwills Briefe sind von Friz Jakobi – nicht von mir!<ref xml:id="end_com_1645"/> – <pb n="3" facs="gb:digitalisate#11180/13806"/></p>
+      <space quantity="1" unit="lines"/>
+      <lg type="poem">        
+        <lg n="1"><anchor xml:id="GB03_1_BR170_0_106_017"/><l rendition="#einrueck4">
+          <ref target="gb:note#GB03_2_BR170_0_note_015_106_17" xml:id="start_com_1646"/>Taglang Nachtlang stand mein Schiff befrachtet.<ref xml:id="end_com_1646"/>
+        </l>
+        <anchor xml:id="GB03_1_BR170_0_106_018"/>
+        <l rendition="#einrueck4">Günstger Winde harrend sas mit treuen Freunden</l>
+        <anchor xml:id="GB03_1_BR170_0_106_019"/>
+        <l rendition="#einrueck4">Mir Geduld und guten Muth erzechend</l>
+        <anchor xml:id="GB03_1_BR170_0_106_020"/>
+        <l rendition="#einrueck4">Ich im Hafen.</l></lg>
+        
+<space quantity="1" unit="lines"/>
+          <lg n="2">
+          <anchor xml:id="GB03_1_BR170_0_106_021"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>Und sie wurden mit mir ungeduldig:</l>
+        <anchor xml:id="GB03_1_BR170_0_106_022"/>
+        <l rendition="#einrueck4">Gerne gönnen wir die schnellste Reise</l>
+        <anchor xml:id="GB03_1_BR170_0_106_023"/>
+        <l rendition="#einrueck4">Gern die hohe Fahrt dir. Güter-Fülle</l>
+        <anchor xml:id="GB03_1_BR170_0_106_024"/>
+        <l rendition="#einrueck4">Wartet drüben in den Welten deiner,</l>
+        <anchor xml:id="GB03_1_BR170_0_106_025"/>
+        <l rendition="#einrueck4">Wird rükkehrendem in unsern Armen</l>
+        <anchor xml:id="GB03_1_BR170_0_106_026"/>
+        <l rendition="#einrueck4">Lieb und Preis dir.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3">
+                  <anchor xml:id="GB03_1_BR170_0_106_027"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>Und am frühen Morgen wards Getümmel</l>
+        <anchor xml:id="GB03_1_BR170_0_106_028"/>
+        <l rendition="#einrueck4">Und dem Schlaf entiauchzt uns der Matrose;</l>
+        <anchor xml:id="GB03_1_BR170_0_106_029"/>
+        <l rendition="#einrueck4">Alles wimmelt alles lebet webet,</l>
+        <anchor xml:id="GB03_1_BR170_0_106_030"/>
+        <l rendition="#einrueck4">Mit dem ersten Seegenshauch zu schiffen.</l>
+        <anchor xml:id="GB03_1_BR170_0_106_031"/>
+        <l rendition="#einrueck4">Und die Segel blühen in dem Hauche.</l>
+        <anchor xml:id="GB03_1_BR170_0_106_032"/>
+        <l rendition="#einrueck4">Und die Sonne lokt mit Feuerliebe.</l>
+        <anchor xml:id="GB03_1_BR170_0_106_033"/>
+        <l rendition="#einrueck4">Ziehn die Segel, ziehn die hohen Wolken.</l>
+        <anchor xml:id="GB03_1_BR170_0_107_001"/>
+        <l rendition="#einrueck4">Jauchzen an dem Ufer alle Freunde</l>
+        <anchor xml:id="GB03_1_BR170_0_107_002"/>
+        <l rendition="#einrueck4">Hofnungslieder nach im Freudetaumel<ptr n="2" target="#a002_107.2"/>,</l>
+        <anchor xml:id="GB03_1_BR170_0_107_003"/>
+        <l rendition="#einrueck4">Reisefreude wähnend wie des Einschiffmorgens<ptr n="3" target="#a003_107.3"/>
+        </l>
+        <anchor xml:id="GB03_1_BR170_0_107_004"/>
+        <l rendition="#einrueck4">Wie der ersten hohen Sternennächte. <pb n="4" facs="gb:digitalisate#11180/13807"/></l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="4">
+                  <anchor xml:id="GB03_1_BR170_0_107_005"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>
+          <ref target="gb:note#GB03_2_BR170_0_note_016_107_5-9" xml:id="start_com_1647"/>Aber Gottgesanndte Wechselwinde treiben</l>
+        <anchor xml:id="GB03_1_BR170_0_107_006"/>
+        <l rendition="#einrueck4">Seitwärts ihn der vorgestekten fahrt ab,</l>
+        <anchor xml:id="GB03_1_BR170_0_107_007"/>
+        <l rendition="#einrueck4">Und er scheint sich ihnen hinzugeben,</l>
+        <anchor xml:id="GB03_1_BR170_0_107_008"/>
+        <l rendition="#einrueck4">Strebet leise sie zu überlisten</l>
+        <anchor xml:id="GB03_1_BR170_0_107_009"/>
+        <l rendition="#einrueck4">Treu dem Zwek, auch auf dem schiefen Weege.<ref xml:id="end_com_1647"/>
+        </l></lg><space quantity="1" unit="lines"/>
+<lg n="5">
+          <anchor xml:id="GB03_1_BR170_0_107_010"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>
+          <ref target="gb:note#GB03_2_BR170_0_note_017_107_10-17" xml:id="start_com_1648"/>Aber aus der dumpfen grauen Ferne</l>
+        <anchor xml:id="GB03_1_BR170_0_107_011"/>
+        <l rendition="#einrueck4">Kündet leisewandelnd sich der Sturm an,</l>
+        <anchor xml:id="GB03_1_BR170_0_107_012"/>
+        <l rendition="#einrueck4">Drükt die Vögel nieder aufs Gewäßer</l>
+        <anchor xml:id="GB03_1_BR170_0_107_013"/>
+        <l rendition="#einrueck4">Drükt der Menschen schwellend Herze nieder.</l>
+        <anchor xml:id="GB03_1_BR170_0_107_014"/>
+        <l rendition="#einrueck4">Und er kommt. Vor seinem starren Wüthen</l>
+        <anchor xml:id="GB03_1_BR170_0_107_015"/>
+        <l rendition="#einrueck4">Streicht der Schiffer weis die Segel nieder.</l>
+        <anchor xml:id="GB03_1_BR170_0_107_016"/>
+        <l rendition="#einrueck4">Mit dem angsterfüllten Balle<ptr n="4" target="#a004_107.16"/> spielen</l>
+        <anchor xml:id="GB03_1_BR170_0_107_017"/>
+        <l rendition="#einrueck4">Wind und Wellen.<ref xml:id="end_com_1648"/></l></lg>
+        <space quantity="1" unit="lines"/>
+<lg n="6">
+          <anchor xml:id="GB03_1_BR170_0_107_018"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>Und an ienem Ufer drüben stehen</l>
+        <anchor xml:id="GB03_1_BR170_0_107_019"/>
+        <l rendition="#einrueck4">Freund und Lieben, beben auf dem Festen:</l>
+        <anchor xml:id="GB03_1_BR170_0_107_020"/>
+        <l rendition="#einrueck4">Ach warum ist er nicht hier geblieben!</l>
+        <anchor xml:id="GB03_1_BR170_0_107_021"/>
+        <l rendition="#einrueck4">Ach der Sturm! Verschlagen weg vom Glüke!</l>
+        <anchor xml:id="GB03_1_BR170_0_107_022"/>
+        <l rendition="#einrueck4">Soll der Gute so zu Grunde gehen!</l>
+        <anchor xml:id="GB03_1_BR170_0_107_023"/>
+        <l rendition="#einrueck4">Ach er sollte! Ach er könnte! Götter!</l></lg>
+        <space quantity="1" unit="lines"/>
+        
+        <lg n="7">
+        <anchor xml:id="GB03_1_BR170_0_107_024"/><l rendition="#einrueck4"><space dim="horizontal" unit="chars" quantity="2"/>Doch er stehet mannlich an dem Steuer.</l>
+        <anchor xml:id="GB03_1_BR170_0_107_025"/>
+        <l rendition="#einrueck4">Mit dem Schiffe spielen Wind und Wellen;</l>
+        <anchor xml:id="GB03_1_BR170_0_107_026"/>
+        <l rendition="#einrueck4">Wind und Wellen nicht mit seinem Herzen.</l>
+        <anchor xml:id="GB03_1_BR170_0_107_027"/>
+        <l rendition="#einrueck4">Herrschend blikt er in die grimme Tiefe</l>
+        <anchor xml:id="GB03_1_BR170_0_107_028"/>
+        <l rendition="#einrueck4">Und vertrauet landend oder scheiternd</l>
+        <anchor xml:id="GB03_1_BR170_0_107_029"/>
+        <l rendition="#einrueck4">Seinen Göttern.</l>
+      </lg></lg>
+      <closer>
+        <dateline rendition="#einrueck4">
+          <anchor xml:id="GB03_1_BR170_0_107_030"/>den<ptr n="5" target="#a005_107.30"/> 11 Sept. 76.                                     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11180_comment">
+<body>
+<div type="metadata" xml:id="gb11180_comment_com1275">
+  <ab type="numberAddressee"><label>170.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 16. September 1776 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11180_comment_com3319">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 75. – Doppelblatt 16,6 × 20,5 cm, 1 &#xBD; S. beschr., egh., Tinte; S. 3 und 4 Gedicht samt Paraphe von Seidels Hd, Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 20 f., Nr 8.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 109 f., Nr 513 (ohne das Gedicht; dieses in <ref target="sndb:sigle#1157">WA</ref> I 2, 72 f.).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11180_comment_com5115">
+  <p>Der Brief beantwortet Lavaters Brief vom 7. oder 8. August 1776, von dem sich nur ein Zitat in Goethes (erstem) Brief an Charlotte von Stein vom 16. September 1776 erhalten hat (vgl. <ref target="gb:text#GB03_1_BR172_0_109_013 #GB03_1_BR172_0_109_015">109,13–15</ref>; vgl. auch <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 70, Nr 49). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. September 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 16v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11180_comment_com10679">
+<label xml:id="GB03_2_BR170_0_note_001_105_23" copyOf="#start_com_1632"><hi rendition="#fett">105,23</hi>Ejakulation</label>
+<p>Einzige Belegstelle für diesen (auch im 18. Jahrhundert schon weitgehend fachsprachlichen) Begriff bei Goethe, hier gebraucht für das „rasch hervorgebrachte“ Gedicht auf S. 3 und 4 des Briefes. – Lat. eiaculatio: Auswurf, Erguss.</p>
+
+</note>
+<note xml:id="gb11180_comment_com17900">
+<label xml:id="GB03_2_BR170_0_note_002_105_24" copyOf="#start_com_1633"><hi rendition="#fett">105,24</hi>Ständigkeit</label>
+<p>Beständigkeit, Bestimmtheit (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 10 II 1, 774). – Diese Eigenschaft, die sich Goethe selbst in der Figur des Steuermanns im Gedicht am Ende des vorliegenden Briefes zuschreibt, hatte er stets bei Lavater vermisst. In seinem Brief an Gottlob Friedrich Ernst Schönborn vom 1. Juni bis 4. Juli 1774 heißt es (im Briefteil vom 8. Juni): <quote type="G">Lavater, der mich recht liebt, kommt in einigen Wochen her, wenn ich ihm nur einige Tropfen Selbstständigen Gefühls einflösen kann, soll mich s hoch freuen. Die beste Seele wird von dem Menschenschicksaal so innig gepeinigt, weil ein krancker Körper und ein schweiffender Geist ihm die kollecktive Krafft entzogen, und so der besten Freude, des Wohnens in sich selbst beraubt hat. Es ist unglaublich wie schwach er ist, und wie man ihm, der doch den schönsten schlichtesten Menschenverstand hat, den ich ie gefunden habe, wie man ihm gleich Rätsel und Mysterion spricht, wenn man aus dem in sich, und durch sich lebend und würckenden Herzen redet.</quote> (<ref target="gb:text#GB02_1_BR123_0_097_022 #GB02_1_BR123_0_097_031">GB 2 I, 97,22-31</ref>.)</p>
+
+</note>
+<note xml:id="gb11180_comment_com10689">
+<label xml:id="GB03_2_BR170_0_note_003_105_25" copyOf="#start_com_1634"><hi rendition="#fett">105,25</hi><emph rendition="#latin">peccata mundi</emph></label>
+<p>Lat.: die Sünden der Welt. – Im Evangelium des Johannes (1,29) heißt es: „<gap quantity="3" reason="editorial"/> ecce agnus Dei, qui tollit peccatum mundi“ („Siehe, das ist Gottes lamm, welches der welt Sünde träget“; Luther-Bibel 1772 NT, 94). Das Wort hat Eingang in die Liturgie der römisch-katholischen Kirche gefunden; im „Agnus dei“, dem Begleitgebet zur Brotbrechung, heißt es: „Agnus Dei, qui tollis peccata mundi, miserere nobis.“ (Lamm Gottes, das du trägst die Sünden der Welt, erbarme dich unser.) Eine ähnliche Formel findet sich auch im „Gloria“.</p>
+
+</note>
+<note xml:id="gb11180_comment_com10690">
+<label xml:id="GB03_2_BR170_0_note_004_105_26" copyOf="#start_com_1635"><hi rendition="#fett">105,26</hi>seit einem Jahr</label>
+<p>Goethe war am 7. November 1775 auf Einladung von Herzog Carl August in Weimar eingetroffen. Zunächst hatte er nur einen Besuch machen wollen, trat dann jedoch in die Dienste des Herzogs. Am 14. Februar 1776 hatte er an Johanna Fahlmer geschrieben: <quote type="G">Ich werd auch wohl dableiben und meine Rolle so gut spielen als ich kann und solang als mir’s und dem Schicksaal beliebt.</quote> (<ref target="gb:text#GB03_1_BR043_0_031_010 #GB03_1_BR043_0_031_011">31,10–11</ref>.)</p>
+
+</note>
+<note xml:id="gb11180_comment_com15185">
+<label xml:id="GB03_2_BR170_0_note_005_105_26" copyOf="#start_com_1636"><hi rendition="#fett">105,26</hi>moralisch</label>
+<p>Der Begriff wurde im 18. Jahrhundert nicht nur im Sinn von ‚ethisch‘ gebraucht, sondern u. a. auch wie hier in weiterer Bedeutung: „gesellschaftlich“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 280).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10698">
+<label xml:id="GB03_2_BR170_0_note_006_105_28" copyOf="#start_com_1637"><hi rendition="#fett">105,28</hi>über Carl und Luisen sey ruhig</label>
+<p>Offenbar hatte sich Lavater erneut besorgt über die Beziehung zwischen Herzog Carl August und seiner Frau Louise geäußert. Mit dieser verband ihn seit ihren Begegnungen am 7. August 1774 in Karlsruhe und im September 1774 in Zürich eine freundschaftliche Beziehung. – Als Herzogin Louise Lavater ihre Zustimmung dazu gab, ihr den 2. Band der „Physiognomischen Fragmente“ zu widmen (vgl. zu <ref target="gb:note#GB03_2_BR090_0_note_002_57_5">57,5</ref>), hatte sie in einem Brief vom 2. Februar 1776 geschrieben: „Ich hätte Ihnen soviel zu sagen und kann nichts herausbringen, als daß ich Sie so gern wieder sähe <gap quantity="3" reason="editorial"/>. O, wenn ich Sie jemals wieder sähe! Was das für ein Trost für mich wäre!“ (Eleonore von Bojanowski: Louise Grossherzogin von Sachsen-Weimar und ihre Beziehungen zu den Zeitgenossen. Nach grösstenteils unveröffentlichten Briefen und Niederschriften. Stuttgart und Berlin 1903, S. 83.) Schon damals war Lavater beunruhigt gewesen und hatte am 13. Februar 1776 im Brief an Wieland um Nachricht über das Befinden der Herzogin gebeten (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 471). In dessen Antwortbrief vom 4. März heißt es: „Und doch ist sie nicht glükl. und macht nicht glüklich! Ein trauriges Räthsel! <gap quantity="3" reason="editorial"/> Warum kan C[arl] A[ugust] den Engel nicht aus <hi rendition="#hervor1">meinen</hi> Augen sehen? Warum kan Louise den edlen, guten, biderherzigen, wiewohl auf halbem Weg verunglückten Heros C. A. nicht mit <hi rendition="#hervor1">meinen</hi> Augen sehen? – Warum? – Warum? – Was helfen alle die Wenn’s und Warum’s. ’S  <hi rendition="#hervor1">ist</hi> nun so, und <hi rendition="#hervor1">soll</hi> so seyn – wie alles übrige.“ (<ref target="sndb:sigle#141">WB</ref> 5, 481 f.) Dies und andere Mitteilungen dürften Lavater zu seiner Ode „An Theona“ angeregt haben, die im Untertitel auf „Den Dreyzehnten März. 1776“ datiert ist:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck6">Daß dein erhabnes Herz verborgne Leiden</l>
+    <l rendition="#einrueck6">Umschleichen; Stille Thränen du vergießest,</l>
+    <l rendition="#einrueck6">Vielleicht du keiner schwesterlichen Seele</l>
+    <l rendition="#einrueck6">Den edeln Kummer nur im Blicke</l>
+    <l rendition="#einrueck6">Darfst ahnden lassen, o Theona –</l>
+    <l rendition="#einrueck6">Dieß überschauert meine Seele</l>
+    <l rendition="#einrueck6">Mit kaltem Todesschrecken <gap quantity="3" reason="editorial"/></l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+ (Poesieen von Johann Caspar Lavater. Bd 2. Leipzig 1781, S. 97). Aus dem gleichen Jahr stammen zwei weitere Gedichte desselben Titels; sie tragen die Daten „Den ein und dreyßigsten Julius 1776“ und „Den achten November 1776“ (vgl. ebd., S. 98 und 99).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10699">
+<label xml:id="GB03_2_BR170_0_note_007_106_3" copyOf="#start_com_1638"><hi rendition="#fett">106,3</hi>verehrliche Gerichte</label>
+<p>Amtssprachliche Formulierung, hier ironisierend; vgl. Goethes Briefe an Carl Ludwig August Graf von Hohenthal vom 18. März 1799 (<ref target="gb:dokument#4932">GB 14, Nr A 14</ref>) sowie an die medizinische und die philosophische Fakultät der Universität Jena vom 7. Dezember 1825 (<ref target="sndb:sigle#1157">WA</ref> IV 40, 158,15 und 160,6) u. ö.</p>
+
+</note>
+<note xml:id="gb11180_comment_com17876">
+<label xml:id="GB03_2_BR170_0_note_008_106_3-5" copyOf="#start_com_1639"><hi rendition="#fett">106,3-5</hi>Wenn ich dir erscheinen <gap quantity="3" reason="editorial"/> und seyn wird.</label>
+<p>In Anlehnung an die Sprache der Bibel: „Und also würde das verborgene seines hertzens offenbar; und er würde also fallen auf sein angesicht, Gott anbeten“ (1 Korinther 14,25; Luther-Bibel 1772 NT, 180); ferner: „Ich bin das A und das O, der anfang und das ende, spricht der Herr, der da ist, und der da war, und der da kommt“ (Offenbarung 1,8; Luther-Bibel 1772 NT, 249).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10700">
+<label xml:id="GB03_2_BR170_0_note_009_106_6" copyOf="#start_com_1640"><hi rendition="#fett">106,6</hi>Bäben</label>
+<p>Barbara (Bäbe) Schultheß (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR155_0_note_006_97_9">97,9</ref>).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10701">
+<label xml:id="GB03_2_BR170_0_note_010_106_6" copyOf="#start_com_1641"><hi rendition="#fett">106,6</hi>Kaysern</label>
+<p>Philipp Christoph Kayser, Goethes Jugendfreund, der seit 1775 in Zürich lebte (über ihn vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11146_comment_com5174">Nr 155</ref>).</p>
+
+</note>
+<note xml:id="gb11180_comment_com5961">
+<label xml:id="GB03_2_BR170_0_note_011_106_7" copyOf="#start_com_1642"><hi rendition="#fett">106,7</hi>Lenz ist unter uns wie ein kranckes Kind</label>
+<p>Über Jacob Michael Reinhold Lenz und seinen konfliktreichen Aufenthalt in Weimar vgl. die einleitende Erläuterung zu <ref target="gb:dokument#10966">Nr 136</ref>. Im September/Oktober 1776 lebte er auf Schloss Kochberg als Charlotte von Steins Englischlehrer (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_001_104_4">104,4</ref>). Als <quote type="G">kranckes Kind</quote> charaktersiert Goethe den Freund auch im Brief an Johann Heinrich Merck vom selben Tag (<ref target="gb:text#GB03_1_BR171_0_108_014">108,14</ref>).</p>
+
+</note>
+<note xml:id="gb11180_comment_com17924">
+<label xml:id="GB03_2_BR170_0_note_012_106_7-8" copyOf="#start_com_1643"><hi rendition="#fett">106,7-8</hi>Klinger wie ein Splitter im Fleisch <gap quantity="3" reason="editorial"/> sich heraus schwüren</label>
+<p>Über Friedrich Maximilian Klingers Aufenthalt in Weimar von Juni bis September 1776 vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>. – Das Wort vom ‚Splitter im Fleisch‘ in Anlehnung an die stehende Wendung vom ‚Pfahl im Fleisch‘ im 2. Brief des Paulus an die Korinther (12,7): „Und auf daß ich mich nicht der hohen offenbarung überhebe, ist mir gegeben ein pfahl ins fleisch, nemlich des satans engel, der mich mit fäusten schlage, auf daß ich mich nicht überhebe.“ (Luther-Bibel 1772 NT, 191.) Die Metapher benutzt Goethe auch im Brief an Johann Heinrich Merck vom selben Tag (vgl. <ref target="gb:text#GB03_1_BR171_0_108_016 #GB03_1_BR171_0_108_017">108,16–17</ref>), ferner im Brief an Charlotte von Stein vom 9. und 14. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR536_0_308_022">308,22</ref>). – ‚Herausschwüren‘ hier im Sinn von ‚herauseitern‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 9, 2282 und 2782).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10712">
+<label xml:id="GB03_2_BR170_0_note_013_106_11" copyOf="#start_com_1644"><hi rendition="#fett">106,11</hi>Schick mir zeitig was</label>
+<p>Gemeint ist Manuskript zum 3. Band der „Physiognomischen Fragmente“. Im Brief an Herder und Goethe vom 7. Dezember 1776 kündigte Lavater „in 8. Tagen die erste Mißion der Physiognomik“ an (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 72).</p>
+
+</note>
+<note xml:id="gb11180_comment_com10713">
+<label xml:id="GB03_2_BR170_0_note_014_106_16" copyOf="#start_com_1645"><hi rendition="#fett">106,16</hi>Allwills Briefe <gap quantity="3" reason="editorial"/> nicht von mir!</label>
+<p>Seit 1775 hatte Friedrich Heinrich Jacobi  unter dem Titel „Eduard Allwills Papiere“ anonym Fragmente seines Briefromans „Eduard Allwills Briefsammlung“ veröffentlicht, zuerst in der von seinem Bruder Johann Georg Jacobi herausgegebenen Zeitschrift „Iris“ (4. Bd. 3. Stück. September 1775, S. 193–236), dann im „Teutschen Merkur“ 1776 (April-Heft, S. 14–75; Juli-Heft, S. 57–71; Dezember-Heft, S. 229–262). Die endgültige Fassung des Romans erschien erst 1792 in Königsberg. Der Titelheld repräsentiert den Typus des freien ‚Genies‘ und weist Bezüge zur Person Goethes auf. Dieser hatte die Veröffentlichung des Romans, wie aus seinem Brief an Johanna Fahlmer von Ende August? 1775 hervorgeht, nicht gewünscht (vgl. <ref target="gb:note#GB02_2_BR259_0_note_001_210_8">GB 2 II, zu 210,8</ref>). Dennoch wurde er nicht nur von Lavater für den Urheber des Werks gehalten. So hatte schon Wieland am 2. November 1775 an Friedrich Heinrich Jacobi über die Frage nach dem Verfasser geschrieben: „Meine vis divinatoria <supplied>Ahnungsvermögen</supplied> schwebte wie ein Wagzünglein zwischen Göthe und Georg Jacobi“ (<ref target="sndb:sigle#141">WB</ref> 5, 433).</p>
+
+</note>
+<note xml:id="gb11180_comment_com17641">
+<label xml:id="GB03_2_BR170_0_note_015_106_17" copyOf="#start_com_1646"><hi rendition="#fett">106,17</hi>Taglang Nachtlang stand mein Schiff befrachtet.</label>
+<p>Das folgende Gedicht erschien, jeweils verändert, mit der Überschrift „G. den 11. September 1776“ im September 1777 in der von Heinrich Christian Boie herausgegebenen Zeitschrift „Deutsches Museum“ (2. Bd. 1777, S. 267–269). Im 8. Band von „Goethe’s Schriften“ (Leipzig 1789, S. 201–203) erhielt es den Titel „Die Seefahrt“: ein Bild für die menschliche Existenz im Allgemeinen und für Goethes Leben vor und nach dem Eintritt in Weimar im Besonderen. Vgl. auch zu <ref target="gb:note#GB03_2_BR011_0_note_007_13_7-8">13,7-8</ref>.</p>
+
+</note>
+<note xml:id="gb11180_comment_com10518">
+<label xml:id="GB03_2_BR170_0_note_016_107_5-9" copyOf="#start_com_1647"><hi rendition="#fett">107,5-9</hi>Aber Gottgesanndte <gap quantity="3" reason="editorial"/> schiefen Weege.</label>
+<p>Wohl weil sich die Verse auf Goethes Teilnahme am ‚wilden Treiben‘ im Kreis um Herzog Carl August beziehen, wurden sie im Erstdruck im „Deutschen Museum“ (2. Bd. 1777, S. 268) unterdrückt.</p>
+
+</note>
+<note xml:id="gb11180_comment_com10519">
+<label xml:id="GB03_2_BR170_0_note_017_107_10-17" copyOf="#start_com_1648"><hi rendition="#fett">107,10-17</hi>Aber <gap quantity="3" reason="editorial"/> Wind und Wellen.</label>
+<p>Mit Bezug auf den heftigen Widerstand gegen Goethes Berufung ins Geheime Consilium (vgl. u. a. zu <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="60"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10610" n="GB 3, Nr. 6">
+  <teiHeader xml:id="gb10610_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>6.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>etwa 12. Dezember 1775</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:21Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10610_tei.xml</idno>
+        <idno type="URI">gb10610</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR006_0</idno>
+        <idno type="KSW-ID">10610</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="6" to="6">6</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="21" to="24">21-24</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10610_header_hwit827" corresp="#gb10610_source_hwit827" sameAs="#gb10610_comment_hwit827" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10610,,827/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder der Herzog bedarf eines General Superintendenten, hättest du die Zeit</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date notBefore="1775-12-09" notAfter="1775-12-15"><supplied>etwa 12. Dezember 1775</supplied></date>
+            <note>
+              <date type="WA" when="1775-12-12">12. Dezember 1775</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <placeName key="sndb:ort#87434">Bückeburg</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10610_source_hwit827" corresp="#gb10610_header_hwit827" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10610/18409"/>
+      <p>
+        <anchor xml:id="GB03_1_BR006_0_006_012"/>Lieber Bruder <ref target="gb:note#GB03_2_BR006_0_note_001_6_12" xml:id="start_com_0077"/>der Herzog bedarf eines General Superintendenten<ref xml:id="end_com_0077"/>, 
+<anchor xml:id="GB03_1_BR006_0_006_013"/>hättest du <ref target="gb:note#GB03_2_BR006_0_note_002_6_13" xml:id="start_com_0078"/>die Zeit<ref xml:id="end_com_0078"/> deinen <ref target="gb:note#GB03_2_BR006_0_note_003_6_13" xml:id="start_com_0079"/>Plan auf Göttingen<ref xml:id="end_com_0079"/> geändert, wäre hier 
+<anchor xml:id="GB03_1_BR006_0_006_014"/>wohl was zu thun. <ref target="gb:note#GB03_2_BR006_0_note_004_6_14" xml:id="start_com_0080"/>Schreib mir ein Wort.<ref xml:id="end_com_0080"/>
+        <ref target="gb:note#GB03_2_BR006_0_note_005_6_14" xml:id="start_com_0081"/>Allenfalls<ref xml:id="end_com_0081"/> ist auf die Veränderlichkeit 
+<anchor xml:id="GB03_1_BR006_0_006_015"/>der Zukunft ein Blick hierher. Leb wohl. Grüs das <ref target="gb:note#GB03_2_BR006_0_note_006_6_15" xml:id="start_com_0082"/>Wibele<ref xml:id="end_com_0082"/>. 
+<anchor xml:id="GB03_1_BR006_0_006_016"/>Mir ists wohl hier, in aller Art. Wieland ist eine brave Seele und <ref target="gb:note#GB03_2_BR006_0_note_007_6_16-17" xml:id="start_com_0083"/>die 
+<anchor xml:id="GB03_1_BR006_0_006_017"/>Fürstenkinder<ref xml:id="end_com_0083"/> edel lieb und hold. Weimar etwa d<g ref="#typoSuspension"/>. 12 Dezember 
+<anchor xml:id="GB03_1_BR006_0_006_018"/>1775.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR006_0_006_019"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10610/18410"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10610_comment">
+<body>
+<div type="metadata" xml:id="gb10610_comment_com406">
+  <ab type="numberAddressee"><label>6.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>etwa 12. Dezember 1775</supplied> → <placeName key="sndb:ort#87434">Bückeburg</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb10610_comment_com1581">
+  <p>Dem Schluss des Briefes nach zu urteilen (vgl. <ref target="gb:text#GB03_1_BR006_0_006_017 #GB03_1_BR006_0_006_018">6,17–18</ref>), war Goethe bei der Niederschrift das aktuelle Datum nicht gegenwärtig. In Caroline Herders „Erinnerungen“ heißt es: <quote>Unterm 12<hi rendition="#sup">ten</hi> December 1775 erhielt er durch Göthe eine vorläufige Anfrage: ‚ob er die Stelle als Generalsuperintendent zu Weimar annehmen wolle‘.</quote> (<ref target="sndb:sigle#2794">Caroline Herder, Erinnerungen</ref> 1, 251.) Vermutlich hat sie das von Goethe angegebene Datum der Niederschrift des Briefes aus der zeitlichen Distanz ohne das relativierende <quote type="G">etwa</quote> (<ref target="gb:text#GB03_1_BR006_0_006_017">6,17</ref>) genannt. Nicht auszuschließen ist allerdings, dass Caroline Herder vom Empfangsdatum sprach; in diesem Fall wäre der Brief vermutlich kurz vor oder nach Goethes Aufenthalt in Kochberg vom 6. bis 9. Dezember 1775 geschrieben worden. Die Beförderungsdauer von Post von Weimar nach Bückeburg scheint in der Regel etwa vier Tage betragen zu haben. So weist Herders Brief aus Weimar an Philipp II. Ernst zu Schaumburg-Lippe vom 19. Februar 1781 ein Präsentatum vom 23. Februar auf (vgl. <ref target="sndb:sigle#2904">HB</ref> 4, 337).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10610_comment_com2450">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – 1 Bl. 19 × 23,7(–23,9) cm, &#x2153; S. beschr., egh, Tinte; Rs. Adresse: <quote type="G">Herrn / Consistorialrath Herder / nach / Bückeburg</quote>; Bl. am linken und rechten Rand in der Mitte beschnitten, vermutlich zum Herauslösen des Siegels; Vs. am oberen Rand links von fremder Hd, Bleistift: „6.“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(13)“.</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 54, Nr 13.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 4, Nr 372.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10610_comment_com4246">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR006_0_note_004_6_14">6,14</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Über die Beziehung zwischen Goethe und Johann Gottfried Herder vgl. die einleitende Erläuterung zum Brief aus der Zeit zwischen Ende April und Mitte Mai 1771 (<ref target="gb:note#gb10778_comment_com22659">GB 1 II, Nr 80</ref>). – Der vorliegende Brief ist der erste einer Reihe von Briefen Goethes an Herder, in denen es um dessen Berufung als sachsen-weimarischer Generalsuperintendent geht. Diese Stelle war seit dem Tod Siegmund Baschs vakant, der sie bis 1771 innegehabt hatte. Der erste Anstoß zu dem Vorhaben, Herder nach Weimar zu holen, ging nach Goethes eigenem Bekunden von Wieland aus, der hoffte, in Herder einen Mitarbeiter des „Teutschen Merkur“ gewinnen zu können (vgl. <ref target="gb:text#GB03_1_BR012_0_013_016 #GB03_1_BR012_0_013_017">13,16–17</ref>). Wieland seinerseits hatte von Friedrich Heinrich Jacobi in einem Brief vom 23. November 1775 den Rat erhalten: „Sorgen Sie nur, daß wir gute Mitarbeiter im kritischen Fache bekommen. Göthe selbst und Herder wären eigentlich die Leute, welche der Herr zu uns senden müßte.“ (<ref target="sndb:sigle#141">WB</ref> 5, 445.) Herder war seit 1771 Oberprediger und Konsistorialrat in Bückeburg, seit April 1775 auch Superintendent. Die Gelegenheit, ihn zur Annahme des Angebots zu bewegen, war günstig. Denn von Anfang an hatte er sich in schaumburg-lippischen Diensten unglücklich gefühlt. So litt er unter sozialer und wissenschaftlicher Isolation: „Hier ist Nichts!“, schrieb er am 17. August 1771 an Caroline Flachsland. „Nicht Herr, nicht Freund, nicht Mensch, nicht Leben!“ (<ref target="sndb:sigle#2904">HB</ref> 2, 59.) Und etwa am 23. November 1771 an dieselbe: „Arbeiten kann ich hier nichts! Alle Glieder sind mir erfroren! Es muß erst, ich weiß nicht, woher, Frühlingswind wehen u. mich heben!“ (<ref target="sndb:sigle#2904">HB</ref> 2, 109.) An diesem Missbehagen änderten auch die guten Beziehungen nichts, die Herder zur Gräfin Marie zu Schaumburg-Lippe unterhielt und zu den neu gewonnenen Freunden, dem Altphilologen und Professor der Beredsamkeit in Göttingen Christian Gottlob Heyne und dessen Frau Therese. Seinem Dienstherrn, dem Grafen Wilhelm zu Schaumburg-Lippe, und dessen vorwiegend militärischen Interessen und Fähigkeiten stand er umso distanzierter gegenüber. Herder machte den Grafen für die Verhältnisse im Lande verantwortlich, die er in seinem Brief an Caroline Flachsland vom 22. Juni 1771 beschrieb: „U[e]brigens herrscht hier in dem kleinen Ländchen ein solcher Despotismus, eine solche kriechende u. garstige Kleinheit, als ich selbst in den Despotischten [sic] Orten nicht gefunden“ (<ref target="sndb:sigle#2904">HB</ref> 2, 36). Schon früh erwog Herder deshalb Möglichkeiten der Veränderung. Bereits ein Jahr nach seinem Amtsantritt schrieb er, nach Gesprächen mit Heyne, in einem Brief an Caroline Flachsland vom 23. Mai 1772: „Man hat mich in Gött[ingen] auf alle Weise dahin bereden wollen.“ (<ref target="sndb:sigle#2904">HB</ref> 2, 173.) Einen förmlichen Ruf „zum 4ten Prof[essor] Ordinar[ius] der Theol[ogie] und Universitätspred[iger]“ (Brief an Johann Georg Hamann, 25. August 1775; <ref target="sndb:sigle#2904">HB</ref> 3, 202) in Göttingen erhielt Herder erst im August 1775. Allerdings gab es Widerstand gegen Herders Berufung, der dazu führte, dass er auf Anordnung des Königs von Großbritannien (zugleich Kurfürst von Hannover) zunächst bei einem Kolloquium der theologischen Fakultät seine Rechtgläubigkeit unter Beweis stellen sollte, was er vehement ablehnte. Dies war die Situation, in der Herder den vorliegenden Brief erhielt: „Den Tag, da die zweite Antwort aus London <supplied>mit der Aufforderung zum Kolloquium</supplied> kam (mich ging die Sache von Anfang nicht an u. ich wünschte, daß sie zurückginge) kam mir Göthens Brief aus Weimar zur dortigen Gener[al]Superint[endentur].“ (Brief an Jacob Michael Reinhold Lenz, 9. März 1776; <ref target="sndb:sigle#2904">HB</ref> 3, 256.) Das Weimarer Angebot erleichterte es Herder, auf die Göttinger Stelle Verzicht zu tun, auch wenn er die Verhandlungen darüber nicht sogleich förmlich abbrach. Noch im Januar 1776 erklärte sich Herder unter bestimmten Bedingungen bereit, in Göttingen ein Promotionsverfahren zu absolvieren und in Hannover eine Probepredigt zu halten. Erst als er am 1. Februar das Schreiben des Präsidenten des Weimarer Oberkonsistoriums Carl Friedrich Ernst von Lyncker vom 24. Januar 1776 (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 74) in Händen hatte, in dem Herzog Carl August ihm offiziell den Antrag machen ließ, das Amt eines sachsen-weimarischen Oberhofpredigers, Oberkonsistorial- und Kirchenrats sowie Generalsuperintendenten zu übernehmen, beendete Herder die Göttinger Bewerbung. Mit seinem Antwortbrief an Lyncker vom 3. Februar 1776 (vgl. <ref target="sndb:sigle#2904">HB</ref> 3, 253) nahm er den Antrag an und trat – nach Überwindung einiger Widerstände von Seiten des konservativ-orthodoxen Weimarer Oberkonsistoriums – sein Amt am 1. Oktober 1776 an. – Vgl. für den gesamten Zusammenhang Peucer; Haym 1, 709–748; <ref target="sndb:sigle#2949">Keßler</ref> 1, 11–52.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10610_comment_com17380">
+<label xml:id="GB03_2_BR006_0_note_001_6_12" copyOf="#start_com_0077"><hi rendition="#fett">6,12</hi>der Herzog bedarf eines General Superintendenten</label>
+<p>In der evangelisch-lutherischen Kirche war der Superintendent ein „Geistlicher, welcher die Aufsicht über die Geistlichen und Pfarrherren eines gewissen Kreises oder Bezirkes hat, für diese die erste Instanz ist, selbst aber unter dem General-Superintendenten der Provinz, oder auch unter einem Ober-Consistorio stehet. Er ist in der evangelischen Kirche ungefähr das, was ein Bischof in der Römischen ist“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 506).</p>
+
+</note>
+<note xml:id="gb10610_comment_com9283">
+<label xml:id="GB03_2_BR006_0_note_002_6_13" copyOf="#start_com_0078"><hi rendition="#fett">6,13</hi>die Zeit</label>
+<p>Verkürzt für ‚die Zeit her‘, im Sinne von ‚seither‘.</p>
+
+</note>
+<note xml:id="gb10610_comment_com9284">
+<label xml:id="GB03_2_BR006_0_note_003_6_13" copyOf="#start_com_0079"><hi rendition="#fett">6,13</hi>Plan auf Göttingen</label>
+<p>Vgl. die einleitende <ref target="gb:note#gb10610_comment_com4246">Erläuterung</ref>. Was den Ruf nach Göttingen anging und die dafür zur Bedingung gemachte Prüfung, so teilte Herder am 28. Dezember 1775 Christian Gottlob Heyne mit, dass er für ein mündliches Kolloquium nicht zur Verfügung stehe, lediglich zu einer öffentlichen, schriftlichen Stellungnahme bereit sei (vgl. <ref target="sndb:sigle#2904">HB</ref> 3, 234 f.). Nach Erhalt des vorliegenden Briefes konnte er hinzufügen: „Vielleicht küssen wir Sie bald in Göttingen <gap quantity="3" reason="editorial"/>. Vielleicht wirds Durchreise; noch aber wissen wir nichts. Dies sub rosa.“ (<ref target="sndb:sigle#2904">HB</ref> 3, 236.)</p>
+
+</note>
+<note xml:id="gb10610_comment_com9285">
+<label xml:id="GB03_2_BR006_0_note_004_6_14" copyOf="#start_com_0080"><hi rendition="#fett">6,14</hi>Schreib mir ein Wort.</label>
+<p>Ein entsprechender Brief Herders an Goethe ist nicht überliefert. Caroline Herder berichtet jedoch in den <q>Erinnerungen</q>, ihr Mann habe <quote>mit frohem Herzen Ja!</quote> gesagt (<ref target="sndb:sigle#2794">Caroline Herder, Erinnerungen</ref> 1, 251).</p>
+
+</note>
+<note xml:id="gb10610_comment_com9286">
+<label xml:id="GB03_2_BR006_0_note_005_6_14" copyOf="#start_com_0081"><hi rendition="#fett">6,14</hi>Allenfalls</label>
+<p>Im Kontext wohl im Sinne von ‚auf alle Fälle lohnt sich <gap quantity="3" reason="editorial"/> ein Blick hierher‘.</p>
+
+</note>
+<note xml:id="gb10610_comment_com14877">
+<label xml:id="GB03_2_BR006_0_note_006_6_15" copyOf="#start_com_0082"><hi rendition="#fett">6,15</hi>Wibele</label>
+<p>Weiblein, schweizerische Diminutivform wie <ref target="gb:text#GB03_1_BR160_0_099_033">99,33</ref>; vgl. auch <quote type="G">Wibli</quote> (<ref target="gb:text#GB02_1_BR124_0_101_004">GB 2 I, 101,4</ref>).</p>
+
+</note>
+<note xml:id="gb10610_comment_com9293">
+<label xml:id="GB03_2_BR006_0_note_007_6_16-17" copyOf="#start_com_0083"><hi rendition="#fett">6,16-17</hi>die Fürstenkinder</label>
+<p>Gemeint sind der junge Herzog Carl August, seine Frau Louise und sein Bruder Prinz Constantin.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

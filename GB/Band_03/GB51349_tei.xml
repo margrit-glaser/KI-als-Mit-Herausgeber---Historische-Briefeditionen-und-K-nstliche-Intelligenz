@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8560"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb51349" n="GB 3, Nr. Z 1">
+  <teiHeader xml:id="gb51349_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>Z 1.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#84872" cert="low" evidence="conjecture">Stedten bei Erfurt?</placeName>, 17. Januar 1776? Mittwoch?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:23:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb51349_tei.xml</idno>
+        <idno type="URI">gb51349</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_ZB001_0</idno>
+        <idno type="KSW-ID">51349</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="443" to="444">443-444</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1099" to="1101">1099-1101</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb51349_header_hwit51480" corresp="#gb51349_source_hwit51480" sameAs="#gb51349_comment_hwit51480" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 402</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349706</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/51349,,51480/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Es nahet sich/ Ein Bäuerlein demütiglich/ Da ihr mit Eurem Ross und Herr</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#84872" cert="low">? Stedten bei Erfurt</placeName></supplied>
+            <date when="1776-01-17"><supplied>17. Januar 1776?</supplied></date>
+            <note>
+              <date type="WA">undatiert</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#84872" cert="low">? Stedten bei Erfurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb51349_source_hwit51480" corresp="#gb51349_header_hwit51480" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#51349/12422"/>
+      <opener>
+        <salute rendition="#c">
+          <anchor xml:id="GB03_1_ZB001_0_443_001"/>
+          <emph rendition="#latin">Dem Durchlauchtigsten Fürsten und Herrn Herrn</emph>
+        </salute>
+        <salute rendition="#c">
+          <anchor xml:id="GB03_1_ZB001_0_443_002"/>
+          <emph rendition="#latin">Carl August</emph>
+        </salute>
+      </opener>
+      <p rendition="#c">
+        <anchor xml:id="GB03_1_ZB001_0_443_003"/>Herzog zu Sachßen, Jülich, Cleve und Berg, auch Engern                 <anchor xml:id="GB03_1_ZB001_0_443_004"/>und Westphalen, Landgrafen in Thüringen, Marggra<anchor xml:id="GB03_1_ZB001_0_443_005"/>fen zu Meißen, Gefürsteter Graf zu Henneberg <anchor xml:id="GB03_1_ZB001_0_443_006"/>Graf zu der Marck und Ravensberg, Herrn zu <anchor xml:id="GB03_1_ZB001_0_443_007"/>Ravenstein p</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_ZB001_0_443_008"/>Meinem gnädigst regierenden Fürsten und Herrn. /</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_ZB001_0_443_009"/>Durchlauchtigster</p>
+      <space quantity="1" unit="lines"/>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_ZB001_0_443_010"/>
+        <l rendition="#einrueck12">Es nahet sich</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_011"/>
+        <l rendition="#einrueck4">Ein Bäuerlein demütiglich</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_012"/>
+        <l rendition="#einrueck4">Da ihr mit Eurem<ptr n="1" target="#a001_443.12"/> Ross und Heer</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_013"/>
+        <l rendition="#einrueck4">Zum <ref target="gb:note#GB03_2_ZB001_0_note_001_443_13" xml:id="start_com_5243"/>Schlosse<ref xml:id="end_com_5243"/> thut stolziren sehr.</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_014"/>
+        <l rendition="#einrueck4">Gebt auch mir<ptr n="2" target="#a002_443.14"/> einen gnädgen Blick</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_015"/>
+        <l rendition="#einrueck4">Das ist schon Unterthanen Glück</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_016"/>
+        <l rendition="#einrueck4">Denn Haus und Hof und Freud und Leid</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_017"/>
+        <l rendition="#einrueck4">Hab ich schon seit<ptr n="3" target="#a003_443.17"/> geraumer Zeit.</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_018"/>
+        <l rendition="#einrueck4">Haben euch sofern auch lieb und gern</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_019"/>
+        <l rendition="#einrueck4">Wie man eben lieb hat seinen Herrn</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_020"/>
+        <l rendition="#einrueck4">Den man wie unsern Herr Gott nennt<ptr n="4" target="#a004_443.20"/>
+        </l>
+        <anchor xml:id="GB03_1_ZB001_0_443_021"/>
+        <l rendition="#einrueck4">Und auch meistens nicht besser kennt.</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_022"/>
+        <l rendition="#einrueck4">Geb Euch<ptr n="5" target="#a005_443.22"/> Gott allen guten Seegen,</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_023"/>
+        <l rendition="#einrueck4">Nur lasst euch uns seyn angelegen</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_024"/>
+        <l rendition="#einrueck4">Denn wir Bäurisch treues Blut</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_025"/>
+        <l rendition="#einrueck4">Sind doch immer euer Bestes Gut</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_026"/>
+        <l rendition="#einrueck4">Und konnt euch mehr an uns erfreun</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_027"/>
+        <l rendition="#einrueck4">Als am <ref target="gb:note#GB03_2_ZB001_0_note_002_443_27" xml:id="start_com_5244"/><hi rendition="#hervor1">Parck</hi><ref xml:id="end_com_5244"/> und an Stutereyen.</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_028"/>
+        <l rendition="#einrueck4">Dies reich ich Euch <ref target="gb:note#GB03_2_ZB001_0_note_003_443_28" xml:id="start_com_5245"/>im fremden Land<ref xml:id="end_com_5245"/>
+        </l>
+        <anchor xml:id="GB03_1_ZB001_0_443_029"/>
+        <l rendition="#einrueck4">Bliebe euch übrigens gern unbekanndt</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_030"/>
+        <l rendition="#einrueck4">Zieht<ptr n="6" target="#a006_443.30"/> ein und nehmet Speiss und Krafft</l>
+        <anchor xml:id="GB03_1_ZB001_0_443_031"/>
+        <l rendition="#einrueck4">Im Zauberschloss in der Nachbaarschafft</l>
+        <anchor xml:id="GB03_1_ZB001_0_444_001"/>
+        <l rendition="#einrueck4">Wo <ref target="gb:note#GB03_2_ZB001_0_note_004_444_1" xml:id="start_com_5246"/>eine gute Fee<ref xml:id="end_com_5246"/> regiert</l>
+        <anchor xml:id="GB03_1_ZB001_0_444_002"/>
+        <l rendition="#einrueck4">Die einen goldnen Scepter führt<ptr n="7" target="#a007_444.2"/>
+        </l>
+        <anchor xml:id="GB03_1_ZB001_0_444_003"/>
+        <l rendition="#einrueck4">Und<ptr n="8" target="#a008_444.3"/> um sich eine kleine  Welt</l>
+        <anchor xml:id="GB03_1_ZB001_0_444_004"/>
+        <l rendition="#einrueck4">Mit holdem Blick beysammen Hält.</l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck14">
+        <anchor xml:id="GB03_1_ZB001_0_444_005"/>Seb Simpel</p>
+      <p rendition="#einrueck16">
+        <anchor xml:id="GB03_1_ZB001_0_444_006"/>
+        <graphic url="gb:digitalisate#51349/70176" width="60px"/>
+      </p>
+    <pb n="2" facs="gb:digitalisate#51349/12423" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#51349/12424" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#51349/12425"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb51349_comment">
+<body>
+<div type="metadata" xml:id="gb51349_comment_com1100">
+  <ab type="numberAddressee"><label>Z 1.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#84872" cert="low">? Stedten bei Erfurt</placeName></supplied>, <supplied>17. Januar 1776?</supplied> → <supplied><placeName key="sndb:ort#84872" cert="low">? Stedten bei Erfurt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb51349_comment_com1889">
+  <p>Vgl. die einleitende <ref target="gb:note#gb51349_comment_com4940">Erläuterung</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb51349_comment_com3144">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#349706">GSA 25/W 402</ref>. – 1 Bl. 19,2(–20,2) × 30(–33,3) cm, Rand ungleichmäßig abgeschnitten, 1 S. beschr., egh., Tinte; Rs. Siegelrest und Adresse von Goethes Hd, der „versucht, seine Handschrift zu verstellen“ (Hans Wahl: Sebastian Simpel. In: <ref target="sndb:sigle#1266">GJb</ref> 11 [1949], 62–77; hier 69).</p>
+  <p>E: Goethe’s poetische und prosaische Werke in Zwei Bänden. <supplied>Hrsg. von Friedrich Wilhelm Riemer und Johann Peter Eckermann.</supplied> Erster Band. Stuttgart und Tübingen 1836, S. 174 (nach h [<ref target="archivdb:dokument#349324">GSA 25/W 16,7</ref>]). – Nach H erstmals in: <ref target="sndb:sigle#1159">Carl August-Goethe<hi rendition="#sup">2</hi></ref> 1 (1915), 6 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 4, 205 (nach h; Textkorrekturen nach H in den „Lesarten zu Band 4“, <ref target="sndb:sigle#1157">WA</ref> I 5.2, 127; Beschreibung von H in <ref target="sndb:sigle#1157">WA</ref> I 53, 559).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb51349_comment_com4940">
+  <p>Einen Bezugs- und einen Antwortbrief hat es offensichtlich nicht gegeben (vgl. die folgenden Erläuterungen).</p>
+  <p rendition="#einrueck1">Die vorliegenden Knittelverse wurden in der <ref target="sndb:sigle#1157">WA</ref> nicht als Brief, sondern als Gedicht abgedruckt. Der Entstehungszusammenhang des Textes jedoch lässt die Frage zu, ob es sich nicht doch um einen ‚Gedichtbrief‘ handelt, also um einen Brief in Gedichtform. Anlass dazu bietet nicht zuletzt die Provenienz der Verse: Sie wurden im Nachlass Friedrich Justin Bertuchs gefunden, „unter den Briefmassen von rund viertausend Korrespondenten unter dem Buchstaben ‚S‘“ (Wahl: Sebastian Simpel, 69).</p>
+  <p rendition="#einrueck1">Es gibt verschiedene Thesen zur Datierung des Briefes, ebenso zu der Örtlichkeit, an welcher sich die ihm zugrunde liegende Szene abgespielt haben soll. In E gaben die Herausgeber dem Text folgende Überschrift: „Dem Herzog Carl August / bei dessen Besuch auf dem v. Steinischen Ritter- / gute Kochberg überreicht von Goethe, in der / Verkleidung eines Landmanns. / (Etwa um 1778.)“ Heinrich Düntzer vermutete, das Ereignis habe sich am 9. Oktober 1780 im Schloss Großkochberg, dem Besitz der Frau von Stein, zugetragen. Goethe befand sich als Begleiter des Herzogs Carl August auf der Rückkehr von einer Reise in den Thüringer Wald und die Rhön, die sie am 8. September 1780 angetreten hatten (vgl. <ref target="sndb:sigle#3946">FB 1780</ref>, S. 187). Goethe, der bereits am 4. Oktober bei Charlotte von Stein angekommen war, empfing den am 9. Oktober eintreffenden Herzog, indem er, als Bauer verkleidet, diesem die gereimte Petition überreichte. Mit der als <quote type="G">gute Fee</quote> (<ref target="gb:text#GB03_1_ZB001_0_444_001">444,1</ref>) Angesprochenen sei demnach Frau von Stein gemeint (vgl. <ref target="sndb:sigle#1227">Düntzer, Charlotte von Stein</ref> 1, 136). Auch Wilhelm Fielitz nahm Kochberg als Ort der Handlung an, verlegte jedoch den Zeitpunkt auf den 7. Dezember 1775: Goethe, der am Vortag zum ersten Mal in das Schloss gekommen war, habe den Herzog, der sich auf dem Weg von Rudolstadt zurück nach Weimar befand (vgl. <ref target="sndb:sigle#3941">FB 1775</ref>, S. 294), auf die beschriebene Weise empfangen. Als Indiz für die frühere Datierung wertete Fielitz eine Äußerung Johann Wilhelm Ludwig Gleims in einem Brief an Friedrich Justin Bertuch, der aus der Zeit vom 15. Januar bis 14. Februar 1776 stammt: „Mags nicht wissen, warum Sie keine Sylbe von Goethe sagen, daß er noch dort ist, vielleicht dort bleibt, daß er dem Herzog in einen Bauer sich verstellt und ihn in Knittelversen regieren gelehrt hat“ (Ludwig Geiger: Mitteilungen von Zeitgenossen über Goethe. In: <ref target="sndb:sigle#1266">GJb</ref> II [1881], 386). Möglicherweise hatte Gleim die Informationen über den mit ihm befreundeten Weimarer Bibliothekar und Schriftsteller Gottlob Ephraim Heermann erhalten. Am plausibelsten erscheint die Datierung, die Hans Wahl vorgenommen hat (vgl. Wahl: Sebastian Simpel, 65–69); er bleibt bei einem frühen Zeitpunkt, verlegt jedoch den Schauplatz: Dass die Verse ein <quote type="G">Zauberschloss</quote> (<ref target="gb:text#GB03_1_ZB001_0_443_031">443,31</ref>) und eine <quote type="G">gute Fee</quote> (<ref target="gb:text#GB03_1_ZB001_0_444_001">444,1</ref>) erwähnen, erinnert ihn an Wielands Gedicht „An Psyche“, das 1776 im Januar-Heft des „Teutschen Merkur“ erschienen und aus Anlass eines Besuches von Goethe und Wieland auf dem Gut der Familie Auguste von Kellers in Stedten bei Erfurt (heute Bischleben-Stedten, südwestlicher Stadtteil von Erfurt) vom 1. bis 3. Januar 1776 entstanden war (vgl. zu <ref target="gb:note#GB03_2_BR012_0_note_005_13_14">13,14</ref>); dort heißt es:</p>
+  <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck6">Wir schwammen daher; der Nebel zerfloß;</l>
+    <l rendition="#einrueck6">Da stund auf einmal ein Feenschloß</l>
+    <l rendition="#einrueck6">Vor meinen Augen. <gap quantity="3" reason="editorial"/></l>
+    <l rendition="#einrueck6">Und rathe, wen ich zum ersten sah</l>
+    <l rendition="#einrueck6">An diesem zauberischen Orte?</l>
+    <l rendition="#einrueck6">O Freude! Psyche, auch Du warst da!</l>
+    <l rendition="#einrueck6"><gap quantity="3" reason="editorial"/></l>
+    <l rendition="#einrueck6">Von der Fee des Orts sag ich dir nichts.</l>
+    <l rendition="#einrueck6">Die ist und bleibt ein Engel des Lichts!</l>
+  </lg>
+  <space unit="lines" quantity="1"/>
+  <p>(S. 13 f.) Da die Verse <quote type="G">Und konnt euch mehr an uns erfreun / Als am <hi rendition="#hervor1">Parck</hi> und an Stutereyen</quote> (<ref target="gb:text#GB03_1_ZB001_0_443_026 #GB03_1_ZB001_0_443_027">443,26–27</ref>) sich auf Carl Augusts Jagdleidenschaft beziehen lassen (vgl. zu <ref target="gb:note#GB03_2_ZB001_0_note_002_443_27">443,27</ref>), scheint der Herzog von einer Jagd zu kommen, als ihm der Bauer das Schreiben überreicht. So liegt die Beziehung zur Hasenjagd nahe, die vom 16. bis zum 18. Januar 1776 von Schwansee aus (13 km nördlich von Erfurt, 25 km nordwestlich von Weimar) stattfand. Demnach entstand möglicherweise der vorliegende Gedichtbrief in Stedten, wo Goethe, der vorausgeritten war, die Jagdgesellschaft erwartete, die einen Besuch auf dem Schloss machte, und zwar am 17. Januar 1776. Der Umstand, dass der Brief in Bertuchs Nachlass vorgefunden wurde, könnte darauf hindeuten, dass Carl August ihn an Bertuch als seinen Sekretär, der Mitglied der damaligen Jagdgesellschaft war, weitergegeben hat. Dazu passt ein Brief von Johann Georg Jacobi, welcher im Übrigen die Datierung auf Anfang 1776 weiter stützt. Am 6. März 1776 schrieb er an seine Cousine Caroline Jacobi, was er von Johanna Fahlmer erfahren hatte: „Goethe habe als verkleideter Bauer dem Herzog eine Schrift in Knittelversen <gap quantity="3" reason="editorial"/> überreicht; er habe sich dann eine Weile ganz als Bauer bei den herzoglichen Reitknechten aufgeführt und sei erst nachträglich vom Herzoge erkannt worden.“ (<ref target="sndb:sigle#43">Gespräche<hi rendition="#sup">3</hi></ref> 1, 187, Nr 360.) Bevor Carl August Goethe erkannt hatte – so lässt sich mutmaßen –, hatte er den Brief bereits als ‚echt‘ an Bertuch übergeben.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb51349_comment_com13775">
+<label xml:id="GB03_2_ZB001_0_note_001_443_13" copyOf="#start_com_5243"><hi rendition="#fett">443,13</hi>Schlosse</label>
+<p>Möglicherweise Schloss Stedten (vgl. die einleitende <ref target="gb:note#gb51349_comment_com4940">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb51349_comment_com13776">
+<label xml:id="GB03_2_ZB001_0_note_002_443_27" copyOf="#start_com_5244"><hi rendition="#fett">443,27</hi><hi rendition="#hervor1">Parck</hi></label>
+<p>Hier vermutlich im Sinn von „eingehegtes gehölz für wild, thiergarten“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 1462).</p>
+
+</note>
+<note xml:id="gb51349_comment_com13790">
+<label xml:id="GB03_2_ZB001_0_note_003_443_28" copyOf="#start_com_5245"><hi rendition="#fett">443,28</hi>im fremden Land</label>
+<p>Gemeint ist: außerhalb des Gebiets des Herzogtums Sachsen-Weimar.</p>
+
+</note>
+<note xml:id="gb51349_comment_com13777">
+<label xml:id="GB03_2_ZB001_0_note_004_444_1" copyOf="#start_com_5246"><hi rendition="#fett">444,1</hi>eine gute Fee</label>
+<p>Vermutlich Auguste von Keller (vgl. die einleitende <ref target="gb:note#gb51349_comment_com4940">Erläuterung</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

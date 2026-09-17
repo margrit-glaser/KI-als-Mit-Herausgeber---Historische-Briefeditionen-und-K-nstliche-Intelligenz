@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2090"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11443" n="GB 3, Nr. 207">
+  <teiHeader xml:id="gb11443_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>207.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 5. Januar 1777. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:11Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11443_tei.xml</idno>
+        <idno type="URI">gb11443</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR207_0</idno>
+        <idno type="KSW-ID">11443</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="124" to="124">124</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="457" to="458">457-458</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11443_header_hwit1134" corresp="#gb11443_source_hwit1134" sameAs="#gb11443_comment_hwit1134" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Darmstadt</placeName>
+            </settlement>
+            <institution key="sndb:standort#41">Merck Corporate History/Merck-Archiv</institution>
+            <idno type="shelfmark">A/129</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11443,,1134/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Schicke dir abermal zwanzig Carolin benachrichtige mich doch von der Ankunft des ersten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11443_header_acc194" corresp="gb11443_comment_acc194">
+            <objectIdentifier>
+              <objectName>20 <quote type="G">Carolin</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-01-05">5. Januar 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#7280">RA 5, Nr. 739</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11443_source_hwit1134" corresp="#gb11443_header_hwit1134" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11443/34161"/>
+    <pb n="2" facs="gb:digitalisate#11443/34162"/>
+      <p>
+        <anchor xml:id="GB03_1_BR207_0_124_013"/>
+        <ref target="gb:note#GB03_2_BR207_0_note_001_124_13" xml:id="start_com_1911"/>Schicke dir abermal zwanzig Carolin<ref xml:id="end_com_1911"/>
+        <ref target="gb:note#GB03_2_BR207_0_note_002_124_13-14" xml:id="start_com_1912"/>benachrichtige mich doch von<ptr n="1" target="#a001_124.13"/>
+        <anchor xml:id="GB03_1_BR207_0_124_014"/>der richtigen Ankunft des ersten Transports<ref xml:id="end_com_1912"/>
+        <hi rendition="#sup">+</hi> und schick mir eine 
+<anchor xml:id="GB03_1_BR207_0_124_015"/>Rechnung <ref target="gb:note#GB03_2_BR207_0_note_003_124_15" xml:id="start_com_1913"/>was ich dir überhaupt noch schuldig bin<ref xml:id="end_com_1913"/>, ich mögte nach 
+<anchor xml:id="GB03_1_BR207_0_124_016"/>und nach Richtigkeit pflegen. Ich lebe immer in der tollen Welt und 
+<anchor xml:id="GB03_1_BR207_0_124_017"/>
+        <ref target="gb:note#GB03_2_BR207_0_note_004_124_17" xml:id="start_com_1914"/>bin sehr in mich zurückgezogen<ref xml:id="end_com_1914"/>. Es ist ein wunderbaar Ding ums Regiment 
+<anchor xml:id="GB03_1_BR207_0_124_018"/>dieser Welt, so <ref target="gb:note#GB03_2_BR207_0_note_005_124_18" xml:id="start_com_1915"/>einen politisch moralischen Grindkopf<ref xml:id="end_com_1915"/> nur halbwege 
+<anchor xml:id="GB03_1_BR207_0_124_019"/>zu säubern und in Ordnung zu halten. Leb wohl grüs <ref target="gb:note#GB03_2_BR207_0_note_006_124_19" xml:id="start_com_1916"/>deine Frau<ref xml:id="end_com_1916"/>.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR207_0_124_020"/>d<g ref="#typoSuspension"/>. 5. Jan 77  </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR207_0_124_021"/>+ er <ref target="gb:note#GB03_2_BR207_0_note_007_124_21" xml:id="start_com_1917"/>ging hier d<g ref="#typoSuspension"/>. 9 Dez. 76 ab<ref xml:id="end_com_1917"/>. mit <ref target="gb:note#GB03_2_BR207_0_note_008_124_21-22" xml:id="start_com_1918"/>44 St Louisdor. und etwas Silbergeld<ref xml:id="end_com_1918"/>.
+<anchor xml:id="GB03_1_BR207_0_124_022"/>
+        </p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11443_comment">
+<body>
+<div type="metadata" xml:id="gb11443_comment_com571">
+  <ab type="numberAddressee"><label>207.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 5. Januar 1777 → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11443_comment_com2615">
+  <p>H: Merck-Archiv Darmstadt, Sign.: A/129. – 1 Bl. 17 × 19,9 cm, &#xBD; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Herrn / Kriegsrath Merck / nach / Darmstadt / mit einem / Packet 20 <emph rendition="#latin">Carol.</emph> / <emph rendition="#latin">C. B.</emph></quote>, rotes Initialsiegel: „G“. – Faksimile: Darmstadt zur Goethezeit. Ausstellung der Darmstädter Goethe-Gesellschaft in der Kunsthalle vom 28. August bis 6. Okt. 1963 <supplied>kuratiert von Fritz Ebner und Ulrich Hallerstede</supplied>, zwischen S. 16 und 17.</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 98 f., Nr 40.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 128 f., Nr 547.</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11443_comment_com3597">
+  <p>20 <quote type="G">Carolin</quote> (vgl. zu <ref target="gb:note#GB03_2_BR207_0_note_001_124_13">124,13</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11443_comment_com4411">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11443_comment_com17910">
+<label xml:id="GB03_2_BR207_0_note_001_124_13" copyOf="#start_com_1911"><hi rendition="#fett">124,13</hi>Schicke dir abermal zwanzig Carolin</label>
+<p>In seinem Brief vom 22. November 1776 (<ref target="gb:dokument#11199">Nr 188</ref>) hatte Goethe Merck die Überweisung von 400 Gulden angekündigt, die er über Johann Caspar Bölling erhalten sollte (zum Verhältnis der Münzen vgl. zu <ref target="gb:note#GB03_2_BR207_0_note_008_124_21-22">124,21-22</ref>). Das Geld war die erste Rate der Bezahlung einer Weinlieferung gewesen (vgl. zu <ref target="gb:note#GB03_2_BR188_0_note_002_118_12">118,12</ref>). Mit dem Rest, so hatte Goethe den Freund gebeten, möge dieser bis <quote type="G">neuJahr</quote> (<ref target="gb:text#GB03_1_BR188_0_118_013">118,13</ref>) warten. Die im vorliegenden Brief angekündigte Summe erhielt Merck wiederum von Bölling; dieser schrieb ihm am 17. Januar 1777: „Hiebey folgt das von Göthe für Sie erhaltene Paquet mit 20 etc. Carolin“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 710).</p>
+
+</note>
+<note xml:id="gb11443_comment_com10821">
+<label xml:id="GB03_2_BR207_0_note_002_124_13-14" copyOf="#start_com_1912"><hi rendition="#fett">124,13-14</hi>benachrichtige mich <gap quantity="3" reason="editorial"/> ersten Transports</label>
+<p>Ein entsprechender Brief Mercks an Goethe ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11443_comment_com17472">
+<label xml:id="GB03_2_BR207_0_note_003_124_15" copyOf="#start_com_1913"><hi rendition="#fett">124,15</hi>was ich dir überhaupt noch schuldig bin</label>
+<p>Merck hatte Goethe nicht nur Wein geliefert, sondern ihm auch einen Kredit gewährt (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR058_0_note_001_41_12">41,12</ref>), der möglicherweise noch nicht vollständig zurückgezahlt worden war. Näheres darüber und über weitere Geschäfte zwischen Merck und Goethe ist nicht bekannt.</p>
+
+</note>
+<note xml:id="gb11443_comment_com17849">
+<label xml:id="GB03_2_BR207_0_note_004_124_17" copyOf="#start_com_1914"><hi rendition="#fett">124,17</hi>bin sehr in mich zurückgezogen</label>
+<p>Dem widersprechen die Eintragungen in Goethes Tagebuch für den Jahreswechsel 1776/77, die Amtsgeschäfte, Besuche, Redouten und Schlittenfahrten verzeichnen (vgl. GT I 1, 31–35). Vermutlich ist gemeint, was Goethe wenig später an Johann Caspar Lavater schrieb: <quote type="G">mich kümmert ausser meinem Kreis nun gar nichts</quote> (<ref target="gb:text#GB03_1_BR220_0_130_009">130,9</ref>). D. h., der Rückzug betraf vor allem die Korrespondenz mit auswärtigen Freunden und Bekannten. Aber auch Wieland beschwerte sich, Goethe sei ganz von seiner politischen Arbeit absorbiert (vgl. zu <ref target="gb:note#GB03_2_BR220_0_note_006_130_8-9">130,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb11443_comment_com10836">
+<label xml:id="GB03_2_BR207_0_note_005_124_18" copyOf="#start_com_1915"><hi rendition="#fett">124,18</hi>einen politisch moralischen Grindkopf</label>
+<p>Unter ‚Grind‘ ist jede Art von Ausschlag, Schorf, Kruste zu verstehen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 805; <ref target="sndb:sigle#2890">Grimm</ref> 9, 368 f.). ‚Grindkopf‘ steht für einen „unausgegorenen, unreifen Menschen“ (<ref target="sndb:sigle#397">GWb</ref> 4, 480). – Dies könnte sowohl auf Herzog Carl August von Sachsen-Weimar und Eisenach als auch auf das Herzogtum insgesamt (als ein unterentwickeltes, verkrustetes Staatswesen) bezogen werden. In beiden Fällen wäre die Anspielung auf Goethes pädagogische und politische Funktion geeignet, seinen Eintritt in fürstliche Dienste, die Merck nicht guthieß (vgl. aber die einleitende Erläuterung zu <ref target="gb:note#gb10969_comment_com5152">Nr 292</ref>), in den Augen des Freundes als gerechtfertigt erscheinen zu lassen.</p>
+
+</note>
+<note xml:id="gb11443_comment_com10837">
+<label xml:id="GB03_2_BR207_0_note_006_124_19" copyOf="#start_com_1916"><hi rendition="#fett">124,19</hi>deine Frau</label>
+<p>Louise Françoise geb. Charbonnier.</p>
+
+</note>
+<note xml:id="gb11443_comment_com10838">
+<label xml:id="GB03_2_BR207_0_note_007_124_21" copyOf="#start_com_1917"><hi rendition="#fett">124,21</hi>ging hier d<g ref="#typoSuspension"/>. 9 Dez. 76 ab</label>
+<p>Das Datum beruht möglicherweise auf einem Irrtum. Goethes Brief an Friedrich Justin Bertuch mit der Bitte um Übersendung des Betrags stammt erst vom 11. Dezember 1776 (<ref target="gb:dokument#11439">Nr 200</ref>).</p>
+
+</note>
+<note xml:id="gb11443_comment_com17854">
+<label xml:id="GB03_2_BR207_0_note_008_124_21-22" copyOf="#start_com_1918"><hi rendition="#fett">124,21-22</hi>44 St Louisdor. und etwas Silbergeld</label>
+<p>400 Gulden hatte Goethe am 22. November 1776 angekündigt (vgl. <ref target="gb:text#GB03_1_BR188_0_118_012">118,12</ref>). 44 Louisdor (in Goldmünze) entsprachen etwa 268 Gulden (vgl. Münze und Geldrechnung in Goethes Briefen 1775–1779, <ref target="gb:dokument#56921">S. LIII</ref>]); der Rest lag demnach in Silbermünze bei (Laubtaler oder Reichstaler).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

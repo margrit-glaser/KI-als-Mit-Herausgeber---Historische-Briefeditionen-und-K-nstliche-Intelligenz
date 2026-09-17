@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2510"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11627" n="GB 3, Nr. 248">
+  <teiHeader xml:id="gb11627_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>248.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zwischen 3. und 12. April 1777. Zwischen Donnerstag und Samstag</supplied> </title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:04Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11627_tei.xml</idno>
+        <idno type="URI">gb11627</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR248_0</idno>
+        <idno type="KSW-ID">11627</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="140" to="140">140</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="507" to="508">507-508</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11627_header_hwit1175" corresp="#gb11627_source_hwit1175" sameAs="#gb11627_comment_hwit1175" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 71</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11627,,1175/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie die Götter mit mir stehen weis ich nicht, so viel weis ich: dass sie Geistern Macht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1777-04-03" to="1777-04-12"><supplied>zwischen 3. und 12. April 1777</supplied></date>
+            <note>
+              <date type="WA" from="1777-03-01" to="1777-03-31"><supplied>März 1777</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11627_source_hwit1175" corresp="#gb11627_header_hwit1175" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11627/22558"/>
+      <p>
+        <anchor xml:id="GB03_1_BR248_0_140_011"/>
+        <ref target="gb:note#GB03_2_BR248_0_note_001_140_11" xml:id="start_com_2171"/>Wie die Götter mit mir stehen<ref xml:id="end_com_2171"/> weis ich nicht, so viel weis ich: dass sie 
+<anchor xml:id="GB03_1_BR248_0_140_012"/>Geistern Macht über mich gegeben haben, die denn in ihrem Streit 
+<anchor xml:id="GB03_1_BR248_0_140_013"/>mich treten und treiben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR248_0_140_014"/>
+        <ref target="gb:note#GB03_2_BR248_0_note_002_140_14" xml:id="start_com_2172"/>Heissen Sie die S. wegen der Schuld ruhig seyn.<ref xml:id="end_com_2172"/> Ich wollt heut zu 
+<anchor xml:id="GB03_1_BR248_0_140_015"/>Ihnen essen, und hätte den Herzog mitgebracht. Musste aber <ref target="gb:note#GB03_2_BR248_0_note_003_140_15-16" xml:id="start_com_2173"/>bauen 
+<anchor xml:id="GB03_1_BR248_0_140_016"/>und pflanzen<ref xml:id="end_com_2173"/>. Heut abend komm ich noch, wenn ich für Sie, leider 
+<anchor xml:id="GB03_1_BR248_0_140_017"/>nicht gebaut und gepflanzt<ptr n="1" target="#a001_140.17"/> nur <ref target="gb:note#GB03_2_BR248_0_note_004_140_17" xml:id="start_com_2174"/>gegrundrisst<ref xml:id="end_com_2174"/> habe.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR248_0_140_018"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11627_comment">
+<body>
+<div type="metadata" xml:id="gb11627_comment_com1188">
+  <ab type="numberAddressee"><label>248.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zwischen 3. und 12. April 1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11627_comment_com1918">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief unter die undatierten Briefe am Ende des Jahrgangs 1777 eingeordnet. Nach dem Inhalt (vgl. zu <ref target="gb:note#GB03_2_BR248_0_note_003_140_15-16">140,15-16</ref>) wird er seit dem Erstdruck in die Zeit nach dem 17. März, in der <ref target="sndb:sigle#1157">WA</ref> nach dem 19. März 1777 gesetzt. Fränkel datiert ihn zwischen den 6. und 13. April (zuletzt bei <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref>, 1, 76, Nr 150). Inhalt und Parallelen zum Tagebuch sprechen für eine Datierung  zwischen den 3. und 12. April 1777 (vgl. zu <ref target="gb:note#GB03_2_BR248_0_note_001_140_11">140,11</ref>; zu <ref target="gb:note#GB03_2_BR248_0_note_003_140_15-16">140,15-16</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11627_comment_com3232">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 71. – 1 Bl. 20,1(–20,3) × 10,1(–10,4) cm, &#x2154; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „71“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 75), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 91.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 145, Nr 579.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11627_comment_com5028">
+  <p>Der Brief beantwortet möglicherweise einen nicht überlieferten Brief Charlotte von Steins vom selben Tag (vgl. zu <ref target="gb:note#GB03_2_BR248_0_note_002_140_14">140,14</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11627_comment_com16289">
+<label xml:id="GB03_2_BR248_0_note_001_140_11" copyOf="#start_com_2171"><hi rendition="#fett">140,11</hi>Wie die Götter mit mir stehen</label>
+<p>Im Tagebuch vom 4. bis etwa zum 6. April 1777 wird mehrfach in unterschiedlichem Kontext auf die ‚Götter‘ oder ‚Göttliches‘ angespielt; so heißt es am 4. April über Herzog Carl August: <quote type="G">Er war Θεωτατος</quote> <supplied>griech. θειότατος: Göttlichster</supplied> (<ref target="gt:dokument#327">GT I 1, 40</ref>). Am 5. April wird in Goethes Garten das Denkmal αγαθη τυχη <supplied>griech.: dem guten Geschick</supplied> <quote type="G">gegründet</quote> (<ref target="gt:dokument#328">ebd.</ref>); ‚Tyche‘ ist zugleich auch der Name der griechischen Schicksals- oder Glücksgöttin, der römischen Fortuna. Wahrscheinlich am 6. April findet sich im Zusammenhang mit dem Eintrag <quote type="G">Tanröder Brand</quote> (<ref target="gt:dokument#329">ebd.</ref>) der Kommentar <quote type="G">= Schwere Hand der Götter</quote> (<ref target="gt:dokument#330">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb11627_comment_com11016">
+<label xml:id="GB03_2_BR248_0_note_002_140_14" copyOf="#start_com_2172"><hi rendition="#fett">140,14</hi>Heissen Sie die S. <gap quantity="3" reason="editorial"/> ruhig seyn.</label>
+<p>Möglicherweise als Antwort auf einen nicht überlieferten Bezugsbrief. – Seit Fielitz wird vermutet, dass mit ‚S.‘ Corona Schröter gemeint sein könnte, die seit November 1776 Kammersängerin in Weimar war (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 422, Anm. 4 [zu S. 75]). Belege dafür finden sich nicht. Im Tagebuch verwendet Goethe die Abkürzungen ‚Schr.‘, ‚C.‘, ‚Cor.‘, ‚Cr.‘, ‚Crone‘ oder ‚Krone‘ für Corona Schröter, nicht jedoch ‚S.‘.</p>
+
+</note>
+<note xml:id="gb11627_comment_com15476">
+<label xml:id="GB03_2_BR248_0_note_003_140_15-16" copyOf="#start_com_2173"><hi rendition="#fett">140,15-16</hi>bauen und pflanzen</label>
+<p>Wohl mit Bezug auf den am 17. März 1777 begonnenen Anbau an das Gartenhaus (vgl. zu <ref target="gb:note#GB03_2_BR236_0_note_001_136_5">136,5</ref>) und die damit einhergehenden Arbeiten im Garten. Am 3. April heißt es im Tagebuch: <quote type="G">Die Hecken gepflanzt. Den ganzen Tag mit Bau und Garten Arbeit zu gebr.. Abends zu &#x2609;</quote> <supplied>Charlotte von Stein</supplied>. (<ref target="gt:dokument#326">GT I 1, 40</ref>.) Ein undatierter Eintrag aus den Tagen nach dem 6. und vor dem 13. April lautet: <quote type="G">Gebaut und gepflanzt.</quote> (<ref target="gt:dokument#330">ebd.</ref>) – Vgl. auch zu <ref target="gb:note#GB03_2_BR239_0_note_003_137_17-18">137,17-18</ref>. – Eine sprachliche Parallele findet sich auch im Brief von Catharina Elisabeth Goethe an Johann Bernhard Crespel vom 16. April 1777: „Der Bruder <supplied>Goethe</supplied> in Weimar ist Gott sey Danck Gesundt, Baut pflantz, gräbt in seinem Garten, daß es Art und schick hat.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 411.)</p>
+
+</note>
+<note xml:id="gb11627_comment_com17791">
+<label xml:id="GB03_2_BR248_0_note_004_140_17" copyOf="#start_com_2174"><hi rendition="#fett">140,17</hi>gegrundrisst</label>
+<p>Grundrissen: einen Grundriss zeichnen; Gelegenheitsbildung, sonst nicht belegt (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4 I 6, 888). – Wahrscheinlich mit Bezug auf die neue Stadtwohnung Charlotte von Steins und ihrer Familie im so genannten ‚Vorwerk auf der Stiede‘ am Welschen Garten (heute Ackerwand); vgl. zu <ref target="gb:note#GB03_2_BR212_0_note_001_127_3-4">127,3-4</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

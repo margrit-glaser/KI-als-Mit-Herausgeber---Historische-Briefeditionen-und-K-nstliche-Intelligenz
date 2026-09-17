@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5300"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb60" n="GB 3, Nr. 520">
+  <teiHeader xml:id="gb60_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>520.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Mitte August 1779</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb60_tei.xml</idno>
+        <idno type="URI">gb60</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR520_0</idno>
+        <idno type="KSW-ID">60</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="289" to="290">289-290</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="949" to="951">949-951</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb60_header_hwit1508" corresp="#gb60_source_hwit1508" sameAs="#gb60_comment_hwit1508" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>37 Goethe Familie</collection>
+            <idno type="shelfmark">GSA 37/I,9,3 Bl. 6-8</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:229157</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/60,,1508/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>So eine Antwort wünscht ich von Ihr liebe Mutter, ich hoffe es    soll recht schön</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1779-08-11" to="1779-08-20"><supplied>Mitte August 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43781">Goethe, Catharina Elisabeth</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb60_source_hwit1508" corresp="#gb60_header_hwit1508" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#60/12358"/>
+      <p>
+        <anchor xml:id="GB03_1_BR520_0_289_020"/>So eine <ref target="gb:note#GB03_2_BR520_0_note_001_289_20" xml:id="start_com_4165"/>Antwort<ref xml:id="end_com_4165"/> wünscht ich von Ihr liebe Mutter, ich hoffe es soll 
+<anchor xml:id="GB03_1_BR520_0_289_021"/>recht schön und herrlich werden. Also eine nähere Nachricht von 
+<anchor xml:id="GB03_1_BR520_0_289_022"/>unsrer Ankunft. <ref target="gb:note#GB03_2_BR520_0_note_002_289_22" xml:id="start_com_4166"/>Ohngefähr in der Hälfte September treffen wir ein<ref xml:id="end_com_4166"/>
+        <anchor xml:id="GB03_1_BR520_0_289_023"/>und bleiben ganz still einige Tage bey Euch. Denn weil <ref target="gb:note#GB03_2_BR520_0_note_003_289_23-24" xml:id="start_com_4167"/>der Herzog 
+<anchor xml:id="GB03_1_BR520_0_289_024"/>seine Tanten und Vettern<ref xml:id="end_com_4167"/> die auf der <ref target="gb:note#GB03_2_BR520_0_note_004_289_24" xml:id="start_com_4168"/>Messe<ref xml:id="end_com_4168"/> seyn werden nicht eben 
+<anchor xml:id="GB03_1_BR520_0_289_025"/>sehen möchte wollen wir <ref target="gb:note#GB03_2_BR520_0_note_005_289_25-26" xml:id="start_com_4169"/>gleich weiter und auf dem Mayn und Rhein 
+<anchor xml:id="GB03_1_BR520_0_289_026"/>hinab<ref xml:id="end_com_4169"/> schwimmen. Haben wir unsre Tour vollendet; <ref target="gb:note#GB03_2_BR520_0_note_006_289_26-27" xml:id="start_com_4170"/>so kommen wir 
+<anchor xml:id="GB03_1_BR520_0_289_027"/>zurück<ref xml:id="end_com_4170"/> und schlagen <emph rendition="#latin">in forma</emph> unser Quartier bey Ihr auf, ich werde 
+<anchor xml:id="GB03_1_BR520_0_289_028"/>alsdenn alle <ref target="gb:note#GB03_2_BR520_0_note_007_289_28" xml:id="start_com_4171"/>meine Freunde und Bekannte<ref xml:id="end_com_4171"/> beherzigen, und <ref target="gb:note#GB03_2_BR520_0_note_008_289_28-29" xml:id="start_com_4172"/>der Herzog 
+<anchor xml:id="GB03_1_BR520_0_289_029"/>wird nach Darmstadt gehen<ref xml:id="end_com_4172"/> und in der Nachbaarschafft einigen 
+<anchor xml:id="GB03_1_BR520_0_289_030"/>Adel besuchen.      Unser Quartier wird bestellt wie folgt. Für den 
+<anchor xml:id="GB03_1_BR520_0_290_001"/>Herzog wird im <ref target="gb:note#GB03_2_BR520_0_note_009_290_1" xml:id="start_com_4173"/>kleinen Stübgen<ref xml:id="end_com_4173"/> ein Bette gemacht, und <ref target="gb:note#GB03_2_BR520_0_note_010_290_1" xml:id="start_com_4174"/>die Orgel<ref xml:id="end_com_4174"/>
+        <anchor xml:id="GB03_1_BR520_0_290_002"/>wenn sie noch da stünde hinausgeschafft. <ref target="gb:note#GB03_2_BR520_0_note_011_290_2" xml:id="start_com_4175"/>Das grose Zimmer<ref xml:id="end_com_4175"/> bleibt <ref target="gb:note#GB03_2_BR520_0_note_012_290_2-3" xml:id="start_com_4176"/>für 
+<anchor xml:id="GB03_1_BR520_0_290_003"/>Zuspruch<ref xml:id="end_com_4176"/>, und das <ref target="gb:note#GB03_2_BR520_0_note_013_290_3" xml:id="start_com_4177"/>Peckin<ref xml:id="end_com_4177"/> zu seiner Wohnung. Er schlafft auf einem 
+<anchor xml:id="GB03_1_BR520_0_290_004"/>saubern Strohsacke, worüber ein schön Leintuch gebreitet ist unter 
+<anchor xml:id="GB03_1_BR520_0_290_005"/>einer leichten Decke. <pb n="2" facs="gb:digitalisate#60/12359" type="empty"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_006"/>
+        <pb n="3" facs="gb:digitalisate#60/12360"/>
+        <ref target="gb:note#GB03_2_BR520_0_note_014_290_6" xml:id="start_com_4178"/>Das Papier schlägt durch drum fahr ich hier fort:|<ref xml:id="end_com_4178"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_007"/>
+        <ref target="gb:note#GB03_2_BR520_0_note_015_290_7" xml:id="start_com_4179"/>Das Camin stübgen<ref xml:id="end_com_4179"/> wird für seine Bedienung zurecht gemacht ein 
+<anchor xml:id="GB03_1_BR520_0_290_008"/>Matraze Bette hinein gestellt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_009"/>Für <ref target="gb:note#GB03_2_BR520_0_note_016_290_9" xml:id="start_com_4180"/>H<g ref="#typoSuspension"/>. v. Wedel<ref xml:id="end_com_4180"/> wird <ref target="gb:note#GB03_2_BR520_0_note_017_290_9" xml:id="start_com_4181"/>das hintere Graue Zimmer<ref xml:id="end_com_4181"/> bereitet auch ein 
+<anchor xml:id="GB03_1_BR520_0_290_010"/>Matrazze Bette pp.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_011"/>Für mich oben in <ref target="gb:note#GB03_2_BR520_0_note_018_290_11" xml:id="start_com_4182"/>meiner alten Wohnung<ref xml:id="end_com_4182"/> auch ein Strohsack pp 
+<anchor xml:id="GB03_1_BR520_0_290_012"/>wie dem Herzog.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_013"/>Essen macht ihr Mittags vier Essen nicht mehr noch weniger, kein 
+<anchor xml:id="GB03_1_BR520_0_290_014"/>
+        <ref target="gb:note#GB03_2_BR520_0_note_019_290_14" xml:id="start_com_4183"/>Geköch<ref xml:id="end_com_4183"/>, sondern eure bürgerlichen Kunststück aufs beste, was ihr 
+<anchor xml:id="GB03_1_BR520_0_290_015"/>frühmorgens von Obst schaffen konnt wird gut<ptr n="1" target="#a001_290.15"/> seyn.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_016"/>Darauf reduzirt sichs also dass wir das erstemal wenn wir ankommen 
+<anchor xml:id="GB03_1_BR520_0_290_017"/>iederman überraschen, und ein<ptr n="2" target="#a002_290.17"/> paar Tage vorbeygehn eh man uns gewahr 
+<anchor xml:id="GB03_1_BR520_0_290_018"/>wird, in der Messe ist das leicht. In des<ptr n="3" target="#a003_290.18"/> Herzogs Zimmern thu 
+<anchor xml:id="GB03_1_BR520_0_290_019"/>sie alle <ref target="gb:note#GB03_2_BR520_0_note_020_290_19" xml:id="start_com_4184"/>Lustres<ref xml:id="end_com_4184"/> heraus, es würde ihm lächerlich vorkommen. Die 
+<anchor xml:id="GB03_1_BR520_0_290_020"/>Wandleuchter mag sie lassen. Sonst alles sauber wie gewohnlich und 
+<anchor xml:id="GB03_1_BR520_0_290_021"/>ieweniger anscheinende <pb n="4" facs="gb:digitalisate#60/12361" type="empty"/><pb n="5" facs="gb:digitalisate#60/12362"/> Umstände ie besser.      Es muss ihr seyn als 
+<anchor xml:id="GB03_1_BR520_0_290_022"/>wenn wir 10 iahr so bey ihr wohnten. Für Bedienten oben <ref target="gb:note#GB03_2_BR520_0_note_021_290_22-23" xml:id="start_com_4185"/>im Gebrochnen 
+<anchor xml:id="GB03_1_BR520_0_290_023"/>Dach<ref xml:id="end_com_4185"/><ptr n="4" target="#a004_290.23"/> bey unsren Leuten sorgt sie für ein oder ein Par Lager. 
+<anchor xml:id="GB03_1_BR520_0_290_024"/>Ihre Silbersachen stellt sie dem Herzog zum Gebrauch hin.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_025"/>
+        <ref target="gb:note#GB03_2_BR520_0_note_022_290_25" xml:id="start_com_4186"/>Lavor<ref xml:id="end_com_4186"/>, Leuchter pp. keinen Caffe und derg<g ref="#typoSuspension"/>. trinckt er nicht. Wedel 
+<anchor xml:id="GB03_1_BR520_0_290_026"/>wird ihr sehr behagen, der ist noch besser als alles was sie von uns 
+<anchor xml:id="GB03_1_BR520_0_290_027"/>Mannsvolck gesehen hat.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_028"/>Also <ref target="gb:note#GB03_2_BR520_0_note_023_290_28" xml:id="start_com_4187"/>immer ein tiefes Stillschweigen<ref xml:id="end_com_4187"/>, denn noch weis kein Mensch 
+<anchor xml:id="GB03_1_BR520_0_290_029"/>hier ein Wort. Was ihr noch einkommt schreibe sie mir. Ich will auf 
+<anchor xml:id="GB03_1_BR520_0_290_030"/>alles antworten, damit alles recht gut vorbereitet werde.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR520_0_290_031"/>
+        <ref target="gb:note#GB03_2_BR520_0_note_024_290_31" xml:id="start_com_4188"/>Merck darf noch nichts wissen.<ref xml:id="end_com_4188"/>
+      </p>
+    <pb n="6" facs="gb:digitalisate#60/12363" type="empty"/>
+    <pb n="7" facs="gb:digitalisate#60/12364" type="empty"/>
+    <pb n="8" facs="gb:digitalisate#60/12365" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb60_comment">
+<body>
+<div type="metadata" xml:id="gb60_comment_com118">
+  <ab type="numberAddressee"><label>520.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Mitte August 1779</supplied> → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb60_comment_com1437">
+  <p>Das Jahr und der Monat ergeben sich aus dem Inhalt des Briefes (vgl. zu <ref target="gb:note#GB03_2_BR520_0_note_002_289_22">289,22</ref>). Goethe hatte schon am 9. August 1779 wegen der geplanten Reise, die auch nach Frankfurt führen sollte, an seine Mutter geschrieben und um unverzügliche Antwort gebeten (vgl. <ref target="gb:text#GB03_1_BR519_0_289_010">289,10</ref>). Der vorliegende Brief bezieht sich auf die Antwort Catharina Elisabeth Goethes (vgl. <ref target="gb:text#GB03_1_BR520_0_289_020">289,20</ref>). Goethe wird auf diese schnell reagiert haben, um sicher sein zu können, dass seine Anweisungen bis zur Ankunft <quote type="G">Ohngefähr in der Hälfte September</quote> (<ref target="gb:text#GB03_1_BR520_0_289_022">289,22</ref>) auch ausgeführt werden konnten, so dass der vorliegende Brief auf Mitte August zu datieren ist.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb60_comment_com2162">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#229157">GSA 37/I,9,3</ref>, Bl. 6–8. – 2 Doppelblätter: 1. Doppelblatt 18,9 × 23 cm (1. Bl.), 18,5 × 23 cm (2. Bl.), 2 S. (S. 1 und 3) beschr., egh., Tinte; Schrift auf den Rs. durchgeschlagen; 2. Doppelblatt 18,7 × 23 cm, &#xBE; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#517">Frau Rath</ref> (1871), 146.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 51–53, Nr 837 (Textkorrektur in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 30, 254).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb60_comment_com3958">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Catharina Elisabeth Goethes (vgl. zu <ref target="gb:note#GB03_2_BR520_0_note_001_289_20">289,20</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb60_comment_com14481">
+<label xml:id="GB03_2_BR520_0_note_001_289_20" copyOf="#start_com_4165"><hi rendition="#fett">289,20</hi>Antwort</label>
+<p>Die Antwort Catharina Elisabeth Goethes auf Goethes Brief vom 9. August 1779 (<ref target="gb:dokument#59">Nr 519</ref>), in dem er die Reise nach Frankfurt (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_002_288_8-9">288,8-9</ref>) angekündigt hatte, ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb60_comment_com5399">
+<label xml:id="GB03_2_BR520_0_note_002_289_22" copyOf="#start_com_4166"><hi rendition="#fett">289,22</hi>Ohngefähr in der Hälfte September treffen wir ein</label>
+<p>Goethe, Herzog Carl August und deren Begleiter trafen am 18. September 1779 in Frankfurt ein und blieben zunächst bis zum 22. September (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_002_288_8-9">288,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com15869">
+<label xml:id="GB03_2_BR520_0_note_003_289_23-24" copyOf="#start_com_4167"><hi rendition="#fett">289,23-24</hi>der Herzog seine Tanten und Vettern</label>
+<p>Herzog Carl August besaß mütterlicherseits Tanten und Vettern; ob von ihnen jemand die Frankfurter Messe besuchte, konnte nicht ermittelt werden. Naheliegender erscheint die Annahme, dass sich die Verwandten der Herzogin Louise, die in Darmstadt und Homburg lebten, in Frankfurt aufhielten (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_008_288_13">288,13</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com5400">
+<label xml:id="GB03_2_BR520_0_note_004_289_24" copyOf="#start_com_4168"><hi rendition="#fett">289,24</hi>Messe</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_004_288_11">288,11</ref>.</p>
+
+</note>
+<note xml:id="gb60_comment_com5401">
+<label xml:id="GB03_2_BR520_0_note_005_289_25-26" copyOf="#start_com_4169"><hi rendition="#fett">289,25-26</hi>gleich weiter und auf dem Mayn und Rhein hinab</label>
+<p>Goethe und Carl August entschieden sich, stattdessen in die Schweiz zu reisen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com13802">
+<label xml:id="GB03_2_BR520_0_note_006_289_26-27" copyOf="#start_com_4170"><hi rendition="#fett">289,26-27</hi>so kommen wir zurück</label>
+<p>Bei der Rückkehr aus der Schweiz blieben Goethe und Carl August (mit Unterbrechungen) vom 25. Dezember 1779 bis zum 12. Januar 1780 in Frankfurt (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_006_288_12">288,12</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com15880">
+<label xml:id="GB03_2_BR520_0_note_007_289_28" copyOf="#start_com_4171"><hi rendition="#fett">289,28</hi>meine Freunde und Bekannte</label>
+<p>Zu den Freunden und Bekannten gehörten die „Samstags Mädel“ (Catharina Elisabeth Goethe an Herzogin Anna Amalia, 8. Oktober 1779; <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 458), vermutlich aus dem Kreis von Goethes Jugendfreundinnen Anna und Antoinette Gerock, Anna Sybilla und Susanne Magdalene Münch sowie Catharina und Franciska Crespel, ferner vor allem Johann Heinrich Merck, der für drei Tage von Darmstadt herüberkam und die Reisenden am 22. September noch bis Eberstadt begleitete, wo er sie am Morgen des 23. September verließ. Vgl. auch zu <ref target="gb:note#GB03_2_BR533_0_note_003_298_11-12">298,11-12</ref>.</p>
+
+</note>
+<note xml:id="gb60_comment_com5414">
+<label xml:id="GB03_2_BR520_0_note_008_289_28-29" copyOf="#start_com_4172"><hi rendition="#fett">289,28-29</hi>der Herzog wird nach Darmstadt gehen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_008_288_13">288,13</ref>.</p>
+
+</note>
+<note xml:id="gb60_comment_com16369">
+<label xml:id="GB03_2_BR520_0_note_009_290_1" copyOf="#start_com_4173"><hi rendition="#fett">290,1</hi>kleinen Stübgen</label>
+<p>In der ersten Etage des Hauses am Großen Hirschgraben befinden sich auf der Vorderseite neben dem Salon (Mittelzimmer) und durch diesen erreichbar ein kleineres südliches und ein größeres nördliches Seitenkabinett. In „Dichtung und Wahrheit“ werden diese drei Räume von Goethe als die <quote type="G">wohlaufgeputzten und meist verschlossenen Staatszimmer</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 74 [3. Buch]) bezeichnet. Für den Herzog sollte im südlichen Seitenkabinett das Bett aufgestellt, der Salon zu dessen Wohnung bestimmt und das nördliche Seitenkabinett zum Empfang von Gästen genutzt werden (über die Aufteilung und Funktion der Räume in Goethes Elternhaus vgl. Petra Maisak und Hans-Georg Dewitz: Das Goethe-Haus in Frankfurt am Main. Frankfurt a. M. und Leipzig 1999).</p>
+
+</note>
+<note xml:id="gb60_comment_com5415">
+<label xml:id="GB03_2_BR520_0_note_010_290_1" copyOf="#start_com_4174"><hi rendition="#fett">290,1</hi>die Orgel</label>
+<p>Im südlichen Seitenkabinett war vermutlich ein Orgelpositiv aufgestellt, das für die pietistischen Versammlungen, die in den Räumen stattfanden, genutzt wurde. Catharina Elisabeth Goethe gehörte dem Kreis der Frankfurter Pietisten an, die jeweils an den Sonntagen in einem der Privathäuser ihrer Mitglieder zusammenkamen, wobei das gemeinschaftliche Singen geistlicher Lieder eine wichtige Rolle spielte (vgl. <ref target="gb:note#GB01_2_BR043_0_note_015_131_20">GB 1 II, zu 131,20</ref>; <ref target="gb:note#GB01_2_BR043_0_note_022_131_26">131,26</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com5416">
+<label xml:id="GB03_2_BR520_0_note_011_290_2" copyOf="#start_com_4175"><hi rendition="#fett">290,2</hi>Das grose Zimmer</label>
+<p>Das nördliche Seitenkabinett (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR520_0_note_009_290_1">290,1</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com5434">
+<label xml:id="GB03_2_BR520_0_note_012_290_2-3" copyOf="#start_com_4176"><hi rendition="#fett">290,2-3</hi>für Zuspruch</label>
+<p>Hier: „für einen kurzen förmlichen besuch“ (<ref target="sndb:sigle#2890">Grimm</ref> 16, 837).</p>
+
+</note>
+<note xml:id="gb60_comment_com5435">
+<label xml:id="GB03_2_BR520_0_note_013_290_3" copyOf="#start_com_4177"><hi rendition="#fett">290,3</hi>Peckin</label>
+<p>Der repräsentative Salon in der ersten Etage, der wegen seiner Ausstattung mit karmesinroten Seidenstoffen und den Chinoiserie-Motiven auf den Tapeten „Rote Stube“ oder „Peking“ genannt wurde.</p>
+
+</note>
+<note xml:id="gb60_comment_com14385">
+<label xml:id="GB03_2_BR520_0_note_014_290_6" copyOf="#start_com_4178"><hi rendition="#fett">290,6</hi>Das Papier schlägt durch drum fahre ich hier fort:</label>
+<p>Goethe schrieb auf der dritten Seite des Doppelblatts weiter (vgl. <ref target="gb:note#gb60_comment_com2162">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com5436">
+<label xml:id="GB03_2_BR520_0_note_015_290_7" copyOf="#start_com_4179"><hi rendition="#fett">290,7</hi>Das Camin stübgen</label>
+<p>Das Kaminzimmer, über dessen Nutzung wenig bekannt ist, befindet sich in der ersten Etage mit einem Zugang zum südlichen Seitenkabinett.</p>
+
+</note>
+<note xml:id="gb60_comment_com5437">
+<label xml:id="GB03_2_BR520_0_note_016_290_9" copyOf="#start_com_4180"><hi rendition="#fett">290,9</hi>H<g ref="#typoSuspension"/>. v. Wedel</label>
+<p>Moritz von Wedel (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_003_26_10">26,10</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com13986">
+<label xml:id="GB03_2_BR520_0_note_017_290_9" copyOf="#start_com_4181"><hi rendition="#fett">290,9</hi>das hintere Graue Zimmer</label>
+<p>Die „Graue Stube“ in der ersten Etage war das Musikzimmer der Familie, was auch im Stuck der Zimmerdecke angedeutet ist.</p>
+
+</note>
+<note xml:id="gb60_comment_com14407">
+<label xml:id="GB03_2_BR520_0_note_018_290_11" copyOf="#start_com_4182"><hi rendition="#fett">290,11</hi>meiner alten Wohnung</label>
+<p>Das Mansardenzimmer mit den Fenstern zum Großen Hirschgraben im Frankfurter Elternhaus (vgl. das <ref target="gb:digitalisate#10591/21009">Faksimile</ref> von Goethes Zeichnung im Brief an Auguste Louise Gräfin zu Stolberg-Stolberg vom 7.–10. März 1775; <ref target="gb:dokument#10591">GB 2 I, Nr 207</ref>).</p>
+
+</note>
+<note xml:id="gb60_comment_com5438">
+<label xml:id="GB03_2_BR520_0_note_019_290_14" copyOf="#start_com_4183"><hi rendition="#fett">290,14</hi>Geköch</label>
+<p>Hier für ein aufwendig zubereitetes Mahl; „kunstkocherei“ (<ref target="sndb:sigle#2890">Grimm</ref> 4 I 2, 2834).</p>
+
+</note>
+<note xml:id="gb60_comment_com5439">
+<label xml:id="GB03_2_BR520_0_note_020_290_19" copyOf="#start_com_4184"><hi rendition="#fett">290,19</hi>Lustres</label>
+<p>Von franz. lustre: äußerlicher Glanz, Pracht; hier: Prunk, Zierde.</p>
+
+</note>
+<note xml:id="gb60_comment_com14419">
+<label xml:id="GB03_2_BR520_0_note_021_290_22-23" copyOf="#start_com_4185"><hi rendition="#fett">290,22-23</hi>im Gebrochnen Dach</label>
+<p>Nach dem Umbau des Hauses 1755 war das alte Satteldach durch ein französisches Mansarddach ersetzt worden, dessen Dachflächen im unteren Bereich abgeknickt sind, so dass sie steiler nach oben verlaufen und größeren Raum bieten. Wahrscheinlich handelt es sich um Kammern im oberen Dachbereich.</p>
+
+</note>
+<note xml:id="gb60_comment_com5440">
+<label xml:id="GB03_2_BR520_0_note_022_290_25" copyOf="#start_com_4186"><hi rendition="#fett">290,25</hi>Lavor</label>
+<p>Von franz. lavabo: Waschbecken; nur „im gemeinen Leben einiger Gegenden“ verwendet (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1952).</p>
+
+</note>
+<note xml:id="gb60_comment_com5441">
+<label xml:id="GB03_2_BR520_0_note_023_290_28" copyOf="#start_com_4187"><hi rendition="#fett">290,28</hi>immer ein tiefes Stillschweigen</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR519_0_289_012 #GB03_1_BR519_0_289_015">289,12–15</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR519_0_note_018_289_13">289,13</ref>.</p>
+
+</note>
+<note xml:id="gb60_comment_com5442">
+<label xml:id="GB03_2_BR520_0_note_024_290_31" copyOf="#start_com_4188"><hi rendition="#fett">290,31</hi>Merck darf noch nichts wissen.</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR519_0_289_012 #GB03_1_BR519_0_289_015">289,12–15</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

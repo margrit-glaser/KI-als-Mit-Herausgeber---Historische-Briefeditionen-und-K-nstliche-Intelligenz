@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="580"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10243" n="GB 3, Nr. 58">
+  <teiHeader xml:id="gb10243_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>58.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 8.? März 1776. Freitag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:52Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10243_tei.xml</idno>
+        <idno type="URI">gb10243</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR058_0</idno>
+        <idno type="KSW-ID">10243</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="41" to="41">41</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="169" to="171">169-171</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10243_header_hwit897" corresp="#gb10243_source_hwit897" sameAs="#gb10243_comment_hwit897" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 66</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10243,,897/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder hast du das Geld so gieb der Mutter einen Schein. Schick mir die Matinees</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-03-08"><supplied>8.? März 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10243_source_hwit897" corresp="#gb10243_header_hwit897" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10243/13761"/>
+      <p>
+        <anchor xml:id="GB03_1_BR058_0_041_012"/>Lieber Br. <ref target="gb:note#GB03_2_BR058_0_note_001_41_12" xml:id="start_com_0639"/>hast du das Geld so gieb der Mutter einen <ref target="gb:note#GB03_2_BR058_0_note_002_41_12" xml:id="start_com_0640"/>Schein<ref xml:id="end_com_0639"/>
+        <ref xml:id="end_com_0640"/>. Schick 
+<anchor xml:id="GB03_1_BR058_0_041_013"/>mir die <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR058_0_note_003_41_13" xml:id="start_com_0641"/>Matinees</emph>
+        <ref xml:id="end_com_0641"/> wieder; so kriegst du mehr wir machen des Teufels 
+<anchor xml:id="GB03_1_BR058_0_041_014"/>zeug, doch ich weniger als <ref target="gb:note#GB03_2_BR058_0_note_004_41_14-15" xml:id="start_com_0642"/>der Bursche der nun ein herrlich Dram 
+<anchor xml:id="GB03_1_BR058_0_041_015"/>auf unsern Leib schreibt<ref xml:id="end_com_0642"/>. Es geht mit uns allen gut. Den was schlimm 
+<anchor xml:id="GB03_1_BR058_0_041_016"/>geht lass ich mich nicht anfechten. <ref target="gb:note#GB03_2_BR058_0_note_005_41_16" xml:id="start_com_0643"/>Den<ref xml:id="end_com_0643"/> Hof hab ich nun probirt nun 
+<anchor xml:id="GB03_1_BR058_0_041_017"/>will ich auch <ref target="gb:note#GB03_2_BR058_0_note_006_41_17" xml:id="start_com_0644"/>das Regiment probiren<ref xml:id="end_com_0644"/>, und so immer fort. Ich bin gesund. 
+<anchor xml:id="GB03_1_BR058_0_041_018"/>biss aufn Einfluss des <ref target="gb:note#GB03_2_BR058_0_note_007_41_18" xml:id="start_com_0645"/>fatalen<ref xml:id="end_com_0645"/> Wetters <ref target="gb:note#GB03_2_BR058_0_note_008_41_18-19" xml:id="start_com_0646"/>streiche<ptr n="1" target="#a001_41.18"/> was ehrlichs in 
+<anchor xml:id="GB03_1_BR058_0_041_019"/>Thüringen herum<ref xml:id="end_com_0646"/> und kenne schon ein <ref target="gb:note#GB03_2_BR058_0_note_009_41_19" xml:id="start_com_0647"/>brav<ref xml:id="end_com_0647"/>
+        <ref target="gb:note#GB03_2_BR058_0_note_010_41_19" xml:id="start_com_0648"/>Fleck-<ref xml:id="end_com_0648"/> davon. Das macht 
+<anchor xml:id="GB03_1_BR058_0_041_020"/>mir auch spaas ein Land so auswendig zu kennen<ptr n="2" target="#a002_41.20"/>. Ade grüs alles. 
+<anchor xml:id="GB03_1_BR058_0_041_021"/>
+        <ref target="gb:note#GB03_2_BR058_0_note_011_41_21" xml:id="start_com_0649"/>Wieland ist in<ptr n="3" target="#a003_41.21"/> deiner Gemeinschafft höchst glücklich.<ref xml:id="end_com_0649"/>
+      </p>
+    <pb n="2" facs="gb:digitalisate#10243/13762"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10243_comment">
+<body>
+<div type="metadata" xml:id="gb10243_comment_com178">
+  <ab type="numberAddressee"><label>58.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>8.? März 1776</supplied> → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb10243_comment_com1473">
+  <p>Der Brief wurde bisher stets mit dem Datum des 8. März 1776 gedruckt. Dabei bezogen sich die Herausgeber auf das mit Bleistift geschriebene Datum am Ende des Briefes (vgl. <ref target="gb:note#gb10243_comment_com2222">Überlieferung</ref>), das vermutlich nicht von Goethe stammt. Dass der Brief im März 1776 geschrieben wurde, ist dem Inhalt nach dennoch möglich: 1) Bei der erwähnten Geldangelegenheit könnte es sich um die Rückzahlung eines Kredits von Merck handeln, die für März 1776 vorgesehen war (vgl. zu <ref target="gb:note#GB03_2_BR058_0_note_001_41_12">41,12</ref>). – 2) Im März 1776 wurde die Entscheidung getroffen, Goethe zum Mitglied des Geheimen Consiliums zu machen (vgl. zu <ref target="gb:note#GB03_2_BR058_0_note_006_41_17">41,17</ref>). – 3) Goethes Hinweis, er habe inzwischen viel von Thüringen kennen gelernt, passt zu Anfang März 1776; gerade kehrte er am 5. März von einem dreitägigen Aufenthalt in Erfurt zurück (vgl. weiter zu <ref target="gb:note#GB03_2_BR058_0_note_008_41_18-19">41,18-19</ref>). – 4) Dass Wieland mit Merck <quote type="G">höchst glücklich</quote> (<ref target="gb:text#GB03_1_BR058_0_041_021">41,21</ref>) war, hängt damit zusammen, dass im Januar- und Februar-Heft des „Teutschen Merkur“ 1776 die ersten Rezensionen Mercks erschienen waren (vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_012_16_31-32">16,31-32</ref>). Mit einem Brief vom 11. März schickte Wieland das Februar-Heft an Merck (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 483), und am 23. März schrieb er ihm enthusiastisch, er fühle, „daß Sie unter den Recensenten just eben das sind, was <hi rendition="#hervor1">Klopstock</hi> unter den Dichtern, <hi rendition="#hervor1">Herder</hi> unter den Gelehrten, <hi rendition="#hervor1">Lavater</hi> unter den Christen und <hi rendition="#hervor1">Göthe</hi> unter allen menschlichen Menschen, d. i. ich bin ganz anschaulich überzeugt, daß es nur von Ihnen abhienge, die herrlichsten <hi rendition="#hervor1">Compositionen</hi> zu machen und über die meisten Schriftsteller unsrer Zeit in Prosa und Versen empor zu glänzen“ (<ref target="sndb:sigle#141">WB</ref> 5, 486 f.). – All dies stützt die bisherige Datierung des vorliegenden Briefes auf März 1776. Ein Anhaltspunkt dafür, dass er genau am 8. März geschrieben wurde, konnte nicht gefunden werden.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10243_comment_com2222">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 66. – 1 Bl. 18,7(–18,9) &#xD7; 23 cm, &#x2154; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Herrn Kriegsrath / Merck / nach / Darmstadt</quote>, rotes Initialsiegel: „G“; oberer Rand Mitte und linker Rand Mitte Siegelausschnitte. – Am Schluss des Briefes finden sich jeweils in stark verblasster oder radierter Bleistiftschrift nach <quote type="G">glücklich.</quote> das Datum „d<g ref="#typoSuspension"/>. 8. Marz 76“ sowie rechts unter dem Brieftext die Paraphe „G“. Beide Ergänzungen stammen mit großer Wahrscheinlichkeit nicht von Goethe, sondern von fremder Hd. Ob es sich um Mercks Hd handelt, ist nicht sicher zu entscheiden.</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 93, Nr 36.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 38, Nr 414.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10243_comment_com4018">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10243_comment_com16971">
+<label xml:id="GB03_2_BR058_0_note_001_41_12" copyOf="#start_com_0639"><hi rendition="#fett">41,12</hi>hast du das Geld <gap quantity="3" reason="editorial"/> einen Schein</label>
+<p>Goethe hatte seine Mutter gebeten, ihm – falls sein Vater keine weitere Unterstützung gewähren würde – bei Merck einen Kredit zu verschaffen. Das Geld war am 19. Januar 1776 in Weimar eingetroffen (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>; zu <ref target="gb:note#GB03_2_BR016_0_note_035_17_23-24">17,23-24</ref>; zu <ref target="gb:note#GB03_2_BR027_0_note_001_23_10">23,10</ref>). Die Rückzahlung der Schuld oder eines Teils davon war für März 1776 vorgesehen (vgl. <ref target="gb:text#GB03_1_BR027_0_023_010 #GB03_1_BR027_0_023_012">23,10–12</ref>). Vermutlich hatte Goethes Mutter den Kredit zurückgezahlt und sollte dafür eine Quittung erhalten.</p>
+
+</note>
+<note xml:id="gb10243_comment_com7900">
+<label xml:id="GB03_2_BR058_0_note_002_41_12" copyOf="#start_com_0640"><hi rendition="#fett">41,12</hi>Schein</label>
+<p>Hier im Sinn von ‚Quittung‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1400).</p>
+
+</note>
+<note xml:id="gb10243_comment_com7901">
+<label xml:id="GB03_2_BR058_0_note_003_41_13" copyOf="#start_com_0641"><hi rendition="#fett">41,13</hi><emph rendition="#latin">Matinees</emph></label>
+<p>Scherzhaft-satirische Gelegenheitsdichtungen von Mitgliedern der Weimarer Hofgesellschaft (vgl. des Näheren die erste Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>).</p>
+
+</note>
+<note xml:id="gb10243_comment_com14130">
+<label xml:id="GB03_2_BR058_0_note_004_41_14-15" copyOf="#start_com_0642"><hi rendition="#fett">41,14-15</hi>der Bursche der <gap quantity="3" reason="editorial"/> schreibt</label>
+<p>Friedrich Hildebrand von Einsiedel; sein <quote type="G">Dram</quote> ist nicht überliefert. Einen Eindruck von seinen Matineen mag seine Knittelverssatire „Schreiben eines Politikers an die Gesellschafft am 6 Jan. 76.“ vermitteln, die in der zweiten Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_004_32_4">32,4</ref> abgedruckt ist.</p>
+
+</note>
+<note xml:id="gb10243_comment_com7691">
+<label xml:id="GB03_2_BR058_0_note_005_41_16" copyOf="#start_com_0643"><hi rendition="#fett">41,16</hi>Den</label>
+<p>Versehentlich für ‚denn‘.</p>
+
+</note>
+<note xml:id="gb10243_comment_com7692">
+<label xml:id="GB03_2_BR058_0_note_006_41_17" copyOf="#start_com_0644"><hi rendition="#fett">41,17</hi>das Regiment probiren</label>
+<p>Goethe sollte Geheimer Legationsrat und Mitglied des Geheimen Consiliums werden. Die Entscheidung darüber fiel im März 1776; Johann August von Kalb teilte sie in einem Brief vom 16. Mai 1776 Goethes Eltern mit (vgl. zu <ref target="gb:note#GB03_2_BR079_0_note_011_51_21-22">51,21-22</ref>). Die Ernennung erfolgte am 11. Juni 1776.</p>
+
+</note>
+<note xml:id="gb10243_comment_com7693">
+<label xml:id="GB03_2_BR058_0_note_007_41_18" copyOf="#start_com_0645"><hi rendition="#fett">41,18</hi>fatalen</label>
+<p>‚Fatal‘ hier: unangenehm, unerfreulich; von Goethe vorwiegend in der voritalienischen Zeit verwendet (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 610).</p>
+
+</note>
+<note xml:id="gb10243_comment_com16956">
+<label xml:id="GB03_2_BR058_0_note_008_41_18-19" copyOf="#start_com_0646"><hi rendition="#fett">41,18-19</hi>streiche <gap quantity="3" reason="editorial"/> in Thüringen herum</label>
+<p>Seit seiner Ankunft in Weimar am 7. November 1775 hatte Goethe mehrere Reisen unternommen: nach Erfurt zu Carl Theodor von Dalberg (27./28. November 1775, 29.–31. Dezember 1775, 3.–7. Februar 1776, 2.–5 März 1776, meist mit Herzog Carl August), nach Kochberg zu Charlotte von Stein (6.–9. Dezember 1775), nach Waldeck bei Bürgel (23.–26. Dezember 1775), nach Gotha zu Herzog Ernst II. von Sachsen-Gotha (27.–29. Dezember 1775) und nach Stedten zwischen Erfurt und Gotha zur Familie von Keller (1.–3. Januar 1776). – ‚Was Ehrlichs‘ von Goethe im Sinn von ‚ziemlich viel‘ gebraucht (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1395), so auch im Brief an Herder vom 10. Juli 1776 (vgl. <ref target="gb:text#GB03_1_BR143_0_085_019 #GB03_1_BR143_0_085_020">85,19–20</ref>).</p>
+
+</note>
+<note xml:id="gb10243_comment_com7694">
+<label xml:id="GB03_2_BR058_0_note_009_41_19" copyOf="#start_com_0647"><hi rendition="#fett">41,19</hi>brav</label>
+<p>Hier für ‚beträchtlich‘, ‚groß‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 871).</p>
+
+</note>
+<note xml:id="gb10243_comment_com7695">
+<label xml:id="GB03_2_BR058_0_note_010_41_19" copyOf="#start_com_0648"><hi rendition="#fett">41,19</hi>Fleck-</label>
+<p>Nach Trennstrich am Zeilenende nicht fortgeführt; vermutlich sollte es ‚Fleckchen‘ heißen.</p>
+
+</note>
+<note xml:id="gb10243_comment_com16962">
+<label xml:id="GB03_2_BR058_0_note_011_41_21" copyOf="#start_com_0649"><hi rendition="#fett">41,21</hi>Wieland ist <gap quantity="3" reason="editorial"/> glücklich.</label>
+<p>Seit Ende 1775 war es durch Goethes Vermittlung zu einer engen Verbindung zwischen Wieland und Merck gekommen, der als Mitarbeiter des „Teutschen Merkur“ gewonnen werden konnte (vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb10569_comment_com4226">Nr 16</ref> sowie die Datierung des vorliegenden Briefes).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

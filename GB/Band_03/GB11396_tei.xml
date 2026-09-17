@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1920"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11396" n="GB 3, Nr. 190">
+  <teiHeader xml:id="gb11396_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>190.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 29. November 1776. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:38Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11396_tei.xml</idno>
+        <idno type="URI">gb11396</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR190_0</idno>
+        <idno type="KSW-ID">11396</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="119" to="119">119</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="432" to="434">432-434</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11396_header_hwit1119" corresp="#gb11396_source_hwit1119" sameAs="#gb11396_comment_hwit1119" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 81</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11396,,1119/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Herr Lenz lies mir gegenwärtiges bey seiner Abreise zurück, und glaubte ich würde die innen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11396_header_acc414" corresp="gb11396_comment_acc414">
+            <objectIdentifier>
+              <objectName>Brief von Jacob Michael Reinhold Lenz an Philipp Erasmus Reich vom 23. November 1776</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-11-29"><supplied>29. November 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-12-01"><supplied>ca. 1. Dezember 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11396_source_hwit1119" corresp="#gb11396_header_hwit1119" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11396/13865"/>
+      <p>
+        <anchor xml:id="GB03_1_BR190_0_119_008"/>Herr Lenz lies mir <ref target="gb:note#GB03_2_BR190_0_note_001_119_8" xml:id="start_com_1823"/>gegenwärtiges<ref xml:id="end_com_1823"/>
+        <ref target="gb:note#GB03_2_BR190_0_note_002_119_8" xml:id="start_com_1824"/>bey seiner Abreise<ref xml:id="end_com_1824"/> zurück, und 
+<anchor xml:id="GB03_1_BR190_0_119_009"/>glaubte ich würde <ref target="gb:note#GB03_2_BR190_0_note_003_119_9" xml:id="start_com_1825"/>die innen benandte Manusscripte<ref xml:id="end_com_1825"/> beylegen können, 
+<anchor xml:id="GB03_1_BR190_0_119_010"/>
+        <ref target="gb:note#GB03_2_BR190_0_note_004_119_10" xml:id="start_com_1826"/>ich finde sie aber nicht<ref xml:id="end_com_1826"/> unter meinen Papieren. Seyn Sie also nur so 
+<anchor xml:id="GB03_1_BR190_0_119_011"/>gütig <ref target="gb:note#GB03_2_BR190_0_note_005_119_11" xml:id="start_com_1827"/>mit dem Drucke des Stücks<ref xml:id="end_com_1827"/> bis auf <ref target="gb:note#GB03_2_BR190_0_note_006_119_11" xml:id="start_com_1828"/>weitere Nachricht von ihm<ref xml:id="end_com_1828"/>
+        <anchor xml:id="GB03_1_BR190_0_119_012"/>nicht vorzuschreiten.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR190_0_119_013"/>
+        <signed rend="signature" rendition="#einrueck12">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11396/13866"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11396_comment">
+<body>
+<div type="metadata" xml:id="gb11396_comment_com1295">
+  <ab type="numberAddressee"><label>190.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>29. November 1776</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11396_comment_com1971">
+  <p>Reich notierte als Empfangsdatum den 1. Dezember 1776 (vgl. <ref target="gb:note#gb11396_comment_com3339">Überlieferung</ref>). Dazu passt der 29. November 1776 in Goethes Rechnungsbuch als Absendedatum (vgl. Postsendungen). Briefe von Weimar nach Leipzig benötigten gelegentlich nur zwei Tage, wie der Brief vom 19. September 1776, den Reich am 21. September erhielt (vgl. Überlieferung zu <ref target="gb:note#gb11182_comment_com3324">Nr 175</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11396_comment_com3339">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 81. – 1 Bl. 21,3 × 17,9 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), &#xBD; S. beschr., egh., Tinte; Rs. Empfangs- und Antwortvermerk, Tinte: „1776. 1. Xbl Weimar / Goethe / Bl“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2879">Goethes Briefe an Leipziger Freunde</ref> (1849), 228, Nr 16.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 124, Nr 537.</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11396_comment_com3818">
+  <p>Brief von Jacob Michael Reinhold Lenz an Philipp Erasmus Reich vom 23. November 1776 (abgedruckt in der ersten Erläuterung zu <ref target="gb:note#GB03_2_BR190_0_note_001_119_8">119,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11396_comment_com5135">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. <ref target="gb:note#gb11396_comment_com3339">Überlieferung</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 29. November 1776 (vgl. <ref target="sndb:sigle#4224">GR/RB 1776,3</ref>, Bl. 6v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11396_comment_com10885">
+<label xml:id="GB03_2_BR190_0_note_001_119_8" copyOf="#start_com_1823"><hi rendition="#fett">119,8</hi>gegenwärtiges</label>
+<p>Brief von Jacob Michael Reinhold Lenz an Philipp Erasmus Reich:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56441_source" corresp="#gb56441_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB020_0_433_001"/>Ich habe mich vergriffen wertester Herr als ich unter andern Geschäften und Zer
+  <anchor xml:id="GB03_2_FB020_0_433_002"/>streuungen unter meinen Pappieren etwas für Sie suchte. Es war nicht <ref target="gb:note#GB03_2_FB020_0_note_001_433_2-3" xml:id="start_com_7138"/>der Eng<anchor xml:id="GB03_2_FB020_0_433_003"/>länder<ref xml:id="end_com_7138"/>, eine unvollendete Skizze, sondern <ref target="gb:note#GB03_2_FB020_0_note_002_433_3" xml:id="start_com_7139"/>gegenwärtiges Manuscript<ref xml:id="end_com_7139"/> das ich für 
+  <anchor xml:id="GB03_2_FB020_0_433_004"/>Sie bestimmt hatte. Sollte es Ihnen <ref target="gb:note#GB03_2_FB020_0_note_003_433_4" xml:id="start_com_7141"/>zu dem Preise<ref xml:id="end_com_7141"/> nicht gefallen, so lege hier <ref target="gb:note#GB03_2_FB020_0_note_004_433_4-5" xml:id="start_com_7140"/>noch 
+    <anchor xml:id="GB03_2_FB020_0_433_005"/>ein anderes<ref xml:id="end_com_7140"/> bey: sollten aber beyde Ihnen kein Aequivalent scheinen, so bitte es 
+  <anchor xml:id="GB03_2_FB020_0_433_006"/>mir zu melden und der Zurücksendung Ihrer <ref target="gb:note#GB03_2_FB020_0_note_005_433_6" xml:id="start_com_7142"/>Remesse<ref xml:id="end_com_7142"/> versichert zu seyn. Vor der 
+  <anchor xml:id="GB03_2_FB020_0_433_007"/>Hand bitte also noch <ref target="gb:note#GB03_2_FB020_0_note_006_433_7" xml:id="start_com_7143"/>mit dem Druck inne zu halten.<ref xml:id="end_com_7143"/>
+      </p>
+      <p rendition="#einrueck19">
+        <anchor xml:id="GB03_2_FB020_0_433_008"/>Ihr ergebenster</p>
+      <p rendition="#einrueck24">
+        <anchor xml:id="GB03_2_FB020_0_433_009"/>Lenz.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB020_0_433_010"/>Berka, d. 23sten 9br 1776.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56441_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56441_comment_com84616">
+  <p>(<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 52 f.).</p>
+  <p>Lenz nimmt Bezug auf seinen Brief an Reich von Mitte November 1776, den Reich am 23. November erhielt (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 51).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56441_comment_com84617">
+<label xml:id="GB03_2_FB020_0_note_001_433_2-3" copyOf="#start_com_7138"><hi rendition="#normal">433,2-3</hi>der Engländer</label>
+<p>Lenz hatte Reich versehentlich das Manuskript seines Dramas „Der Engländer“ gesandt.</p>
+</note>
+<note xml:id="gb56441_comment_com84618">
+<label xml:id="GB03_2_FB020_0_note_002_433_3" copyOf="#start_com_7139"><hi rendition="#normal">433,3</hi>gegenwärtiges Manuscript</label>
+<p>Darunter befand sich wahrscheinlich das Dramenfragment „Henriette von Waldeck“ (auch „Die Laube“ genannt), das im Sommer 1776 entstanden war, vielleicht „in den ersten Wochen des neuen Lebens“ (Dramatischer Nachlass von J. M. R. Lenz. Zum ersten Male hrsg. und eingeleitet von Karl Weinhold. Frankfurt a. M. 1884, S. 108) in Berka, wohin sich Lenz am 27. Juni zurückgezogen hatte. Das Stück blieb zu Lenz’ Lebenszeit ungedruckt; es erschien erst unter dem Titel „Henriette von Waldeck, eine Scene“ in Lenz’ Nachlass (vgl. ebd., S. 113–132). </p>
+</note>
+<note xml:id="gb56441_comment_com84619">
+<label xml:id="GB03_2_FB020_0_note_003_433_4" copyOf="#start_com_7141"><hi rendition="#normal">433,4</hi>zu dem Preise</label>
+<p>Lenz hatte fünf neue Louisdor verlangt.</p>
+</note>
+<note xml:id="gb56441_comment_com84620">
+<label xml:id="GB03_2_FB020_0_note_004_433_4-5" copyOf="#start_com_7140"><hi rendition="#normal">433,4-5</hi>noch ein anderes</label>
+<p>Möglicherweise die Prosaschrift „Der Waldbruder“. Sie erschien erst nach Lenz’ Tod unter dem Titel „Der Waldbruder, ein Pendant zu Werthers Leiden, von dem verstorbenen Dichter Lenz“ in Schillers Zeitschrift „Die Horen“ (1797. 4. Stück, S. 85–102; 5. Stück, S. 1–30).</p>
+</note>
+<note xml:id="gb56441_comment_com84621">
+<label xml:id="GB03_2_FB020_0_note_005_433_6" copyOf="#start_com_7142"><hi rendition="#normal">433,6</hi>Remesse</label>
+<p>Auch ‚Rimesse‘: Geldsendung (von ital. rimessa: Übersendung).</p>
+</note>
+<note xml:id="gb56441_comment_com84622">
+<label xml:id="GB03_2_FB020_0_note_006_433_7" copyOf="#start_com_7143"><hi rendition="#normal">433,7</hi>mit dem Drucke inne zu halten</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR190_0_note_005_119_11">119,11</ref>.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb11396_comment_com84623">
+<label xml:id="GB03_2_BR190_0_note_002_119_8" copyOf="#start_com_1824"><hi rendition="#fett">119,8</hi>bey seiner Abreise</label>
+<p>Nach einem nicht näher bekannten Vorfall, den Goethe in seinem Tagebuch unter dem 26. November 1776 als <quote type="G">Lenzens Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>) bezeichnete, wurde dieser von Herzog Carl August aus Weimar ausgewiesen. Vermutlich am 1. Dezember verließ Lenz die Stadt. Vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>.</p>
+
+</note>
+<note xml:id="gb11396_comment_com84624">
+<label xml:id="GB03_2_BR190_0_note_003_119_9" copyOf="#start_com_1825"><hi rendition="#fett">119,9</hi>die innen benandte Manusscripte</label>
+<p>Die Manuskripte der „Henriette von Waldeck“ und möglicherweise des „Waldbruders“ (vgl. die Erläuterungen zu Lenz’ Brief an Reich vom 23. November 1776, abgedruckt in der ersten Erläuterung zu <ref target="gb:note#GB03_2_BR190_0_note_001_119_8">119,8</ref>).</p>
+</note>
+<note xml:id="gb11396_comment_com84625">
+<label xml:id="GB03_2_BR190_0_note_004_119_10" copyOf="#start_com_1826"><hi rendition="#fett">119,10</hi>ich finde sie aber nicht</label>
+<p>Lenz hatte die Manuskripte, jedenfalls das der „Henriette von Waldeck“ (auch „Die Laube“ genannt), schon früher Goethe übergeben. Später bat er von Berka aus Philipp Seidel, seinen Geschäftsträger in Weimar, der ihn mit Wäsche, Lebensmitteln und Büchern versorgte, ihm für die weitere Arbeit an dem Stück eine Abschrift zu schicken. Er erhielt aber das Original (vgl. Dramatischer Nachlass von J. M. R. Lenz, S. 108 f.). Lenz hatte dies offensichtlich vergessen, Goethe ebenso, denn er erkundigte sich bei Seidel nach dem Verbleib des Manuskripts. In Seidels Brief an Lenz vom 30. November 1776 heißt es: „Und dann hat letzhin der Hr. Geh. Leg. Rath nach der Laube gefragt ich weis nicht warum, wollts ihnen aber doch sagen.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 57.) Das Manuskript befand sich unter den Papieren, die Lenz mitnahm, als er Weimar verlassen musste.</p>
+</note>
+<note xml:id="gb11396_comment_com84626">
+<label xml:id="GB03_2_BR190_0_note_005_119_11" copyOf="#start_com_1827"><hi rendition="#fett">119,11</hi>mit dem Drucke des Stücks</label>
+<p>Gemeint ist das Drama „Der Engländer“ (vgl. die Erläuterungen zu Lenz’ Brief an Reich vom 23. November 1776, abgedruckt in der ersten Erläuterung zu <ref target="gb:note#GB03_2_BR190_0_note_001_119_8">119,8</ref>). Da kein anderes Manuskript nach Leipzig geschickt wurde, setzte Reich den Druck fort. Im Jahr darauf erschien: Der Engländer eine dramatische Phantasey. Leipzig, bey Weidmanns Erben und Reich. 1777.</p>
+</note>
+<note xml:id="gb11396_comment_com84627">
+<label xml:id="GB03_2_BR190_0_note_006_119_11" copyOf="#start_com_1828"><hi rendition="#fett">119,11</hi>weitere Nachricht von ihm</label>
+<p>Ein entsprechender Brief von Lenz an Reich ist nicht bekannt.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

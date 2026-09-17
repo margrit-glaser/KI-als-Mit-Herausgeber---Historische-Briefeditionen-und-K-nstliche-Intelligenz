@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11171" n="GB 3, Nr. 180">
+  <teiHeader xml:id="gb11171_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>180.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName> mit <persName key="sndb:person#39093">Jacob Michael Reinhold Lenz</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#78290" evidence="conjecture">Kochberg</placeName>, 30.? Oktober und <placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>,  1.? November 1776.  Mittwoch? und Freitag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:29Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11171_tei.xml</idno>
+        <idno type="URI">gb11171</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR180_0</idno>
+        <idno type="KSW-ID">11171</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="112" to="113">112-113</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="412" to="414">412-414</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11171_header_hwit1091" corresp="#gb11171_source_hwit1091" sameAs="#gb11171_comment_hwit1091" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 1647/1979</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11171,,1091/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Es ist so ein schöner Tag</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#39093">Lenz, Jacob Michael Reinhold</persName> und
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-10-30"><supplied>30.? Oktober 1776</supplied></date> und
+            <date when="1776-11-01"><supplied>1.? November 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11171_source_hwit1091" corresp="#gb11171_header_hwit1091" type="source" rend="authorisedLetter">
+  <body>
+    <div type="relatedText">
+      <lg type="poem">
+        <lg n="1"><anchor xml:id="GB03_1_BR180_0_112_016"/>
+        <l rendition="#einrueck2">So soll ich dich <ref target="gb:note#GB03_2_BR180_0_note_001_112_16" xml:id="start_com_1732"/>verlassen liebes Zimmer<ref xml:id="end_com_1732"/>
+        </l>
+        <anchor xml:id="GB03_1_BR180_0_112_017"/>
+        <l rendition="#einrueck2">Wo in mein Herz der Himmel niedersank</l>
+        <anchor xml:id="GB03_1_BR180_0_112_018"/>
+        <l rendition="#einrueck2">Den ich aus ihrem Blick, wie seelig, aus dem Schimmer</l>
+        <anchor xml:id="GB03_1_BR180_0_112_019"/>
+        <l rendition="#einrueck2">Der Gottheit auf der Wange trank,</l>
+        <anchor xml:id="GB03_1_BR180_0_112_020"/>
+        <l rendition="#einrueck2">Wenn sich ihr Herz nach ihm nach ihm empörte</l>
+        <anchor xml:id="GB03_1_BR180_0_112_021"/>
+        <l rendition="#einrueck2">Und ihr entzücktes Ohr der Sphären Wohllaut hörte.</l>
+        <anchor xml:id="GB03_1_BR180_0_112_022"/>
+        <l rendition="#einrueck2">Wenn sie mit <ref target="gb:note#GB03_2_BR180_0_note_002_112_22" xml:id="start_com_1733"/>Shakespear<ref xml:id="end_com_1733"/> der ihren Geist umfieng</l>
+        <anchor xml:id="GB03_1_BR180_0_112_023"/>
+        <l rendition="#einrueck2">Ha zitternd oft für Furcht und Freude</l>
+        <anchor xml:id="GB03_1_BR180_0_112_024"/>
+        <l rendition="#einrueck2">Der Engel Lust im süssen Unschuldskleide</l>
+        <anchor xml:id="GB03_1_BR180_0_112_025"/>
+        <l rendition="#einrueck2">In die Mysterien des hohen Schicksals gieng.</l>
+        <anchor xml:id="GB03_1_BR180_0_112_026"/>
+        <l rendition="#einrueck2">Auch ich sah ihren Pfad, auch mir</l>
+        <anchor xml:id="GB03_1_BR180_0_112_027"/>
+        <l rendition="#einrueck2">War es vergönnt ein Röschen drauf zu streuen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_001"/>
+        <l rendition="#einrueck2">Zur Priesterin <hi rendition="#hervor1">des Gottes</hi> – sie zu weyhen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_002"/>
+        <l rendition="#einrueck2">Und hinzuknien vor ihm und ihr /</l></lg>
+        <lg n="2">
+        <anchor xml:id="GB03_1_BR180_0_113_003"/>
+        <l rendition="#einrueck3"><space dim="horizontal" unit="chars" quantity="2"/>Ach wär ich nur so rein gewesen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_004"/>
+        <l rendition="#einrueck2">Als die Erscheinung dieses Glücks</l>
+        <anchor xml:id="GB03_1_BR180_0_113_005"/>
+        <l rendition="#einrueck2">Vorausgesetzt! Ihr höhern Wesen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_006"/>
+        <l rendition="#einrueck2">Verzeyht dem Strauchelnden, euch waren sie erlesen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_007"/>
+        <l rendition="#einrueck2">Doch Ewigkeiten Lust sind Kranken die genesen</l>
+        <anchor xml:id="GB03_1_BR180_0_113_008"/>
+        <l rendition="#einrueck2">Nur Freuden eines Augenblicks.</l>
+        <anchor xml:id="GB03_1_BR180_0_113_009"/>
+        <l rendition="#einrueck2">Ja es erwarten dich du Himmelskind! der Freuden</l>
+        <anchor xml:id="GB03_1_BR180_0_113_010"/>
+        <l rendition="#einrueck2">Unzählige, durch selbstgemachte Leiden</l>
+        <anchor xml:id="GB03_1_BR180_0_113_011"/>
+        <l rendition="#einrueck2">Dir unbegreiflich, längst erkauft</l>
+        <anchor xml:id="GB03_1_BR180_0_113_012"/>
+        <l rendition="#einrueck2">Mit Tränen ingeheim, getauft.</l></lg>
+        <lg n="3">
+        <anchor xml:id="GB03_1_BR180_0_113_013"/>
+        <l rendition="#einrueck2"><space dim="horizontal" unit="chars" quantity="2"/>Ja es erwartet dich was du nicht lösen könntest</l>
+        <anchor xml:id="GB03_1_BR180_0_113_014"/>
+        <l rendition="#einrueck2">Der Rätzel Allentwickelung</l>
+        <anchor xml:id="GB03_1_BR180_0_113_015"/>
+        <l rendition="#einrueck2">Und höherer Gefühle Schwung</l>
+        <anchor xml:id="GB03_1_BR180_0_113_016"/>
+        <l rendition="#einrueck2">Wovor Dir schwindelte, die du dir selbst nicht gönntest. /</l>
+        <anchor xml:id="GB03_1_BR180_0_113_017"/>
+        <l rendition="#einrueck2">Indessen wird die weisse Hand</l>
+        <anchor xml:id="GB03_1_BR180_0_113_018"/>
+        <l rendition="#einrueck2">Des Jünglings Ungestüm beschränken</l>
+        <anchor xml:id="GB03_1_BR180_0_113_019"/>
+        <l rendition="#einrueck2">Und wem die Seele schon auf blassen Lippen stand</l>
+        <anchor xml:id="GB03_1_BR180_0_113_020"/>
+        <l rendition="#einrueck2">Die Lust zum Leben wiederschenken</l>
+        <anchor xml:id="GB03_1_BR180_0_113_021"/>
+        <l rendition="#einrueck2">Ich aber werde dunkel seyn</l>
+        <anchor xml:id="GB03_1_BR180_0_113_022"/>
+        <l rendition="#einrueck2">Und gehe meinen Weg allein /</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="4">
+        <anchor xml:id="GB03_1_BR180_0_113_023"/>
+        <l rendition="#einrueck4">Den letzten Tag in Kochberg</l>
+        <anchor xml:id="GB03_1_BR180_0_113_024"/>
+        <l rendition="#einrueck4">in dem Zimmer der Frau</l>
+        <anchor xml:id="GB03_1_BR180_0_113_025"/>
+        <l rendition="#einrueck4">v. Stein gemacht; niemand</l>
+        <anchor xml:id="GB03_1_BR180_0_113_026"/>
+        <l rendition="#einrueck4">als ihr<ptr n="1" target="#a001_113.26"/> selber vorzulesen.</l>
+      </lg>
+      </lg>
+      </div>
+      <space quantity="1" unit="lines"/>
+      <div>
+        <lg type="poem">
+        <anchor xml:id="GB03_1_BR180_0_113_027"/><head rendition="#c">
+        <ref target="gb:note#GB03_2_BR180_0_note_003_113_27" xml:id="start_com_1734"/>Aus meiner Hütte<ref xml:id="end_com_1734"/>.</head>
+           <lg n="1">
+        <anchor xml:id="GB03_1_BR180_0_113_028"/><l rendition="#einrueck7">Es ist so ein schöner Tag</l>
+      
+        <anchor xml:id="GB03_1_BR180_0_113_029"/><l rendition="#einrueck7">Und habe Arbeit</l>
+     
+        <anchor xml:id="GB03_1_BR180_0_113_030"/><l rendition="#einrueck7">Und bin still</l>
+      
+        <anchor xml:id="GB03_1_BR180_0_113_031"/><l rendition="#einrueck7">Allen Seegen!</l>
+        </lg>
+       </lg>
+      <closer>
+        <anchor xml:id="GB03_1_BR180_0_113_032"/>
+        <signed rend="paraph" rendition="#einrueck12">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11171_comment">
+<body>
+<div type="metadata" xml:id="gb11171_comment_com602">
+  <ab type="numberAddressee"><label>180.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName> mit <persName key="sndb:person#39093">Jacob Michael Reinhold Lenz</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied> und <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>30.? Oktober 1776</supplied> und <supplied>1.? November 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11171_comment_com1687">
+  <p>Lenz hatte sich vom 12. September bis Ende Oktober 1776 auf dem Landgut der Familie von Stein in Kochberg aufgehalten und war mit seiner Gastgeberin am 31. Oktober nach Weimar zurückgekehrt (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_012_104_21">104,21</ref>). Nach der Angabe unter seinem Gedicht für Charlotte von Stein war dieses am <quote type="G">letzten Tag in Kochberg</quote> (<ref target="gb:text#GB03_1_BR180_0_113_023">113,23</ref>) entstanden, also vermutlich am 30. Oktober, dem Tag vor der Abreise. Goethe traf Lenz bereits am 31. Oktober und auch am 1. November (vgl. <ref target="gt:dokument#191">GT I 1, 28</ref>). Schon an diesem Tag reiste Lenz nach Berka weiter (vgl. ebd. sowie Lenz’ Brief an Charlotte von Stein, 3. November 1776; vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR185_0_note_001_116_23">116,23</ref>). Es ist anzunehmen, dass er zuvor sein Gedicht für Charlotte von Stein, das laut Nachschrift <quote type="G">niemand als ihr selber vorzulesen</quote> (<ref target="gb:text#GB03_1_BR180_0_113_025 #GB03_1_BR180_0_113_026">113,25–26</ref>) war, Goethe überlassen hat. Am selben Tag könnte Goethe seinen Gedichtbrief auf der 4. Seite des Doppelblatts niedergeschrieben haben. Nicht ganz auszuschließen ist eine etwas spätere Datierung der Goetheschen Verse.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11171_comment_com2646">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 1647/1979. – Doppelblatt 18,5 × 22 cm, &#x215B; S. (S. 4) beschr., egh., Bleistift; 3 &#xBC; S. (S. 1–4) beschr., Lenz’ Hd, Tinte (Petitdruck); S. 4 (unter dem Text von Lenz) von fremder Hd, Bleistift: „von Lenz“; am unteren Rand in umgekehrter Schreibrichtung von Charlotte von Steins Hd, Bleistift: „que le jour me dure / celui plus je ne suis / deux bergers <del rendition="#s">po</del>“ (vgl. die einleitende <ref target="gb:note#gb11171_comment_com4442">Erläuterung</ref>).</p>
+  <p>E<hi rendition="#sup">1</hi> (Teildruck: Gedicht von Lenz): Gesammelte Schriften von J<supplied>acob</supplied> M<supplied>ichael</supplied> R<supplied>einhold</supplied> Lenz. Hrsg. von Ludwig Tieck. Bd 3. Berlin 1828, S. 252 (nach h: <ref target="sndb:sigle#3166">SBB/PK</ref>, Nachlass Lenz 2, Nr 206, Bl. 28).</p>
+  <p>E<hi rendition="#sup">2</hi> (Teildruck): <ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 49, Nr 517a (Gedichtbrief Goethes); <ref target="sndb:sigle#1158">WAN</ref> 2 (<ref target="sndb:sigle#1157">WA</ref> IV 52 [1990]), 91, zu Nr 517a (Nachschrift Lenz’ [<ref target="gb:text#GB03_1_BR180_0_113_023 #GB03_1_BR180_0_113_026">113,23–26</ref>]).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11171_comment_com4442">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Jacob Michael Reinhold Lenz hatte sich vom 12. September bis zum 31. Oktober 1776 bei Charlotte von Stein in Kochberg aufgehalten (vgl. <ref target="gb:note#gb11171_comment_com1687">Datierung</ref>; über Lenz vgl. insgesamt die einleitenden Erläuterungen zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref> und <ref target="gb:note#gb11175_comment_com5114">169</ref>). Dort gab er Charlotte von Stein Unterricht in englischer Sprache und las mit ihr Shakespeare (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_006_104_10">104,10</ref>; zu <ref target="gb:note#GB03_2_BR169_0_note_007_104_15">104,15</ref>), worauf auch das Gedicht anspielt. „Ich bin in Kochberg bei der liebenswürdigsten und geistreichsten Dame, die ich kenne, mit der ich seit vier, fünf Wochen den englischen Shakespeare lese“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 42), schrieb er am 23. Oktober 1776 an Johann Daniel Salzmann. Nach der Rückkehr nach Weimar reiste er schon am 1. November nach Berka (vgl. <ref target="gt:dokument#191">GT I 1, 28</ref>), ohne sich von Charlotte von Stein zu verabschieden (vgl. Lenz an Charlotte von Stein, 
+  3. November 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 47 f.). Dies erklärt, weshalb das Gedicht über Goethe an Charlotte von Stein gelangte.</p>
+  <p rendition="#einrueck1">Die Bleistiftnotizen Charlotte von Steins auf der letzten Seite des Doppelblattes stammen aus späterer Zeit. Es handelt sich um Anfänge von drei Liedkompositionen Jean-Jacques Rousseaus, die 1781 ohne Angabe des Autors erschienen waren: Les Consolations des Misères de ma Vie, ou Recueil d’Airs Romances et Duos par J. J. Rousseau (Paris. – Die Tröstungen über das Elend meines Lebens, oder Sammlung von Melodien, Lieder und Duette von J<supplied>ean</supplied> J<supplied>acques</supplied> Rousseau). Zwei der Lieder, „Que le jour me dure <gap quantity="3" reason="editorial"/>“ (Air de trois Notea, Nr 53, S. 97. – Wie der Tag mir schleichet <gap quantity="3" reason="editorial"/>; Melodie aus drei Noten) und „Deux bergeres pour faire usage <supplied>De l’amusement des beaux jours …</supplied>“ (Pastorelle, Nr 19, S. 40 f. – Zwei Schäferinnen, die sich der Freuden der schönen Tage bedienen <gap quantity="3" reason="editorial"/>), könnten Gedichte Rousseaus sein. „Celui plus je ne suis que j’ai jadis été <gap quantity="3" reason="editorial"/>“ (Nr 13, S. 28–30. – Ich bin noch der, der ich früher gewesen bin <gap quantity="3" reason="editorial"/>) stammt von dem französischen Lyriker Clément Marot. Rousseaus Lieder gehören thematisch ins Umfeld des „Journals von Tiefurt“, das, von der Herzoginmutter Anna Amalia initiiert, zwischen 1781 und 1784 in wenigen handschriftlichen Exemplaren erschien. Schon im Sommer 1781 wurden die Lieder von Corona Schröter in Weimar vorgetragen (vgl. <ref target="gt:dokument#953">GT I 1, 123</ref>; vgl. auch die Briefe Goethes an Philipp Christoph Kayser vom 13. August 1781 und vom 10. September 1781; <ref target="gb:dokument#11423">GB 4, Nr 467</ref> und <ref target="gb:dokument#3557">481</ref>). Goethe schrieb an ihn über Rousseaus Kompositionen: <quote type="G">Man wird sie nicht satt und ich bewundere bei der Einfalt die große Mannigfaltigkeit und das reine Gefühl wo alles an seinem Platz ist.</quote> (<ref target="gb:text#GB04_1_BR481_0_319_009 #GB04_1_BR481_0_319_011">GB 4 I, 319,9-11</ref>.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11171_comment_com10609">
+<label xml:id="GB03_2_BR180_0_note_001_112_16" copyOf="#start_com_1732"><hi rendition="#fett">112,16</hi>verlassen liebes Zimmer</label>
+<p>Anspielung auf den Aufenthalt von Lenz auf Schloss Kochberg (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_012_104_21">104,21</ref> und die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>).</p>
+
+</note>
+<note xml:id="gb11171_comment_com10610">
+<label xml:id="GB03_2_BR180_0_note_002_112_22" copyOf="#start_com_1733"><hi rendition="#fett">112,22</hi>mit Shakespear</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR174_0_note_005_110_9">110,9</ref>.</p>
+
+</note>
+<note xml:id="gb11171_comment_com17709">
+<label xml:id="GB03_2_BR180_0_note_003_113_27" copyOf="#start_com_1734"><hi rendition="#fett">113,27</hi>Aus meiner Hütte</label>
+<p>Mit Bezug auf sein Gartenhaus, das Goethe im April 1776 von Herzog Carl August geschenkt bekommen und am 21. April 1776 bezogen hatte (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>; vgl. <ref target="gb:text#GB03_1_BR315_0_188_005">188,5</ref>; <ref target="gb:text#GB03_1_BR526_0_294_022">294,22</ref>). – Selbstzitat aus der „Prometheus“-Ode, deren älteste erhaltene Handschrift Goethe vermutlich am 7. März 1775 an Merck schickte: <quote type="G">Und meine Hütte / Die du nicht gebaut <gap quantity="3" reason="editorial"/>.</quote> (GB 2 II, 428 [Beilage zu <ref target="gb:note#gb10553_comment_com3541">Nr 205</ref>].)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

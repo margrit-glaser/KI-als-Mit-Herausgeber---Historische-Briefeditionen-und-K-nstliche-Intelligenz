@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11694" n="GB 3, Nr. 278">
+  <teiHeader xml:id="gb11694_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>278.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78290">Kochberg</placeName> und <placeName key="sndb:ort#84967">Weißenburg</placeName>,  12./13. und <placeName key="sndb:ort#79627">Weimar</placeName>, 17. Juli <supplied>1777. Samstag, Sonntag und Donnerstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11694_tei.xml</idno>
+        <idno type="URI">gb11694</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR278_0</idno>
+        <idno type="KSW-ID">11694</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="153" to="154">153-154</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="542" to="544">542-544</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11694_header_hwit1226" corresp="#gb11694_source_hwit1226" sameAs="#gb11694_comment_hwit1226" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 90 und Bl. 114</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11694,,1226/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Kochberg Sonnabend d. 12. Jul. früh 8 Uhr. Mir ists diese Woche in der Stadt wieder sehr</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78290">Kochberg</placeName> und
+            <placeName key="sndb:ort#84967">Weißenburg</placeName> und
+            <placeName>Weimar</placeName>
+            <date from="1777-07-12" to="1777-07-13">12./13. Juli <supplied>1777</supplied></date> und
+            <date when="1777-07-17">17. Juli <supplied>1777</supplied></date>
+            <note>
+              <date type="WA" from="1777-07-12" to="1777-07-17">12.-17. Juli <supplied>1777</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11694_source_hwit1226" corresp="#gb11694_header_hwit1226" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11694/22642"/>
+      <p>
+        <anchor xml:id="GB03_1_BR278_0_153_001"/>
+        <ref target="gb:note#GB03_2_BR278_0_note_001_153_1" xml:id="start_com_2346"/>Kochberg Sonnabend d<g ref="#typoSuspension"/> 12. Jul. früh 8 Uhr<ref xml:id="end_com_2346"/><ptr n="1" target="#a001_153.1"/>
+        <ref target="gb:note#GB03_2_BR278_0_note_002_153_1-2" xml:id="start_com_2347"/>Mir ists diese Woche in 
+<anchor xml:id="GB03_1_BR278_0_153_002"/>der Stadt wieder sehr wunderlich gangen<ref xml:id="end_com_2347"/> ich habe mich gestern herausgeflüchtet, 
+<anchor xml:id="GB03_1_BR278_0_153_003"/>bin <ref target="gb:note#GB03_2_BR278_0_note_003_153_3-4" xml:id="start_com_2348"/>um halb sechs zu fuß von Weimar abmarschirt und 
+<anchor xml:id="GB03_1_BR278_0_153_004"/>war halb 10 hier<ref xml:id="end_com_2348"/>, da<ptr n="2" target="#a002_153.4"/> alles schon verschlossen war und sich zum Bett 
+<anchor xml:id="GB03_1_BR278_0_153_005"/>gehn bereitete. Da ich rief ward ich von der alten <ref target="gb:note#GB03_2_BR278_0_note_004_153_5" xml:id="start_com_2349"/>Dorthee<ref xml:id="end_com_2349"/> zu erst erkannt 
+<anchor xml:id="GB03_1_BR278_0_153_006"/>und mit grosem Geschrey von ihr und der <ref target="gb:note#GB03_2_BR278_0_note_005_153_6" xml:id="start_com_2350"/>Köchinn<ref xml:id="end_com_2350"/> bewillkommt. 
+<anchor xml:id="GB03_1_BR278_0_153_007"/>Kästner kam auch mit seinem Pfeifgen herab und <ref target="gb:note#GB03_2_BR278_0_note_006_153_7" xml:id="start_com_2351"/>Carl<ref xml:id="end_com_2351"/> der 
+<anchor xml:id="GB03_1_BR278_0_153_008"/>den ganzen Tag behauptet hatte ich würde kommen, <ref target="gb:note#GB03_2_BR278_0_note_007_153_8" xml:id="start_com_2352"/>Ernst<ref xml:id="end_com_2352"/> der schon 
+<anchor xml:id="GB03_1_BR278_0_153_009"/>im Hemde stand zog sich wieder an, <ref target="gb:note#GB03_2_BR278_0_note_008_153_9" xml:id="start_com_2353"/>Friz<ref xml:id="end_com_2353"/><ptr n="3" target="#a003_153.9"/> lag schon im Schlafe. Ich 
+<anchor xml:id="GB03_1_BR278_0_153_010"/>tranck noch viel <ref target="gb:note#GB03_2_BR278_0_note_009_153_10" xml:id="start_com_2354"/>Selzer Wasser<ref xml:id="end_com_2354"/> wir erzählten einander unsre <ref target="gb:note#GB03_2_BR278_0_note_010_153_10-11" xml:id="start_com_2355"/>Wochen 
+<anchor xml:id="GB03_1_BR278_0_153_011"/>Fata<ref xml:id="end_com_2355"/>, <ref target="gb:note#GB03_2_BR278_0_note_011_153_11" xml:id="start_com_2356"/>die Zeichnungen wurden produzirt<ref xml:id="end_com_2356"/>, und iezzo solls weiter dran<ptr n="4" target="#a004_153.11"/>
+        <anchor xml:id="GB03_1_BR278_0_153_012"/>adieu beste.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR278_0_153_013"/>Abends 9. <ref target="gb:note#GB03_2_BR278_0_note_012_153_13" xml:id="start_com_2357"/>Weissenburg<ref xml:id="end_com_2357"/> wir sind wieder <ref target="gb:note#GB03_2_BR278_0_note_013_153_13" xml:id="start_com_2358"/>herüber marschirt<ref xml:id="end_com_2358"/> und 
+<anchor xml:id="GB03_1_BR278_0_153_014"/>werden beym <ref target="gb:note#GB03_2_BR278_0_note_014_153_14" xml:id="start_com_2359"/>Pachter<ref xml:id="end_com_2359"/> schlafen<ptr n="5" target="#a005_153.14"/>! nun ich habe heut den Göttern sey 
+<anchor xml:id="GB03_1_BR278_0_153_015"/>danck von 8 Uhr früh bis Abends 8 <ref target="gb:note#GB03_2_BR278_0_note_015_153_15" xml:id="start_com_2360"/>gezeichnet, in Kochberg und hier<ref xml:id="end_com_2360"/>
+        <anchor xml:id="GB03_1_BR278_0_153_016"/>immer mit gleicher Freude, und gleicher Hoffnung dass es Ihnen auch 
+<anchor xml:id="GB03_1_BR278_0_153_017"/>Freude<ptr n="6" target="#a006_153.17"/> machen soll, sowenig Hoffnung dazu ist! denn <ref target="gb:note#GB03_2_BR278_0_note_016_153_17-18" xml:id="start_com_2361"/>wenn die Natur 
+<anchor xml:id="GB03_1_BR278_0_153_018"/>Sie nicht mehr freut<ref xml:id="end_com_2361"/> wie soll Sie<ptr n="7" target="#a007_153.18"/> mein stammeln dran vergnügen<ptr n="8" target="#a008_153.18"/>. 
+<anchor xml:id="GB03_1_BR278_0_153_019"/>Gnug auf dem Papier sind allerley treue gute Augenblicke befestigt, 
+<anchor xml:id="GB03_1_BR278_0_153_020"/>Augenblicke in denen immer der Gedancke an Sie über der schönen<ptr n="9" target="#a009_153.20"/>
+        <anchor xml:id="GB03_1_BR278_0_153_021"/>gegend schwebte. Die Nacht ist ganz herrlich durch <ref target="gb:note#GB03_2_BR278_0_note_017_153_21" xml:id="start_com_2362"/>das weite Thal.<ref xml:id="end_com_2362"/>
+        <anchor xml:id="GB03_1_BR278_0_153_022"/>Die Jungens sehr lustig und vergnügt ihrer Wandrung, sie wickeln sich 
+<anchor xml:id="GB03_1_BR278_0_153_023"/>auf und bereiten sich zu Bette. Gute Nacht Beste.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR278_0_153_024"/>
+        <ref target="gb:note#GB03_2_BR278_0_note_018_153_24" xml:id="start_com_2363"/>Sonntag früh 10. In der Hohle von Weissenburg.<ref xml:id="end_com_2363"/> Wir haben uns 
+<anchor xml:id="GB03_1_BR278_0_153_025"/>herausgesezt und gezeichnet, es fängt ein Regen an und ich sezze 
+<anchor xml:id="GB03_1_BR278_0_153_026"/>mich unter einen Busch Ihnen guten Morgen zu sagen. Der Tag ist 
+<anchor xml:id="GB03_1_BR278_0_153_027"/>grau aber schön! wie schon die Nacht war und der Mond auf der 
+<anchor xml:id="GB03_1_BR278_0_153_028"/>Saale im Thal lässt sich nicht sagen <pb n="2" facs="gb:digitalisate#11694/22643"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR278_0_154_001"/>
+        <ref target="gb:note#GB03_2_BR278_0_note_019_154_1" xml:id="start_com_2364"/>Weimar Donnerstag d<g ref="#typoSuspension"/>. 17 Jul.<ref xml:id="end_com_2364"/> Der erste schöne Tag seit ich von 
+<anchor xml:id="GB03_1_BR278_0_154_002"/>Kochberg zurück bin. Hier sind ein Paar <ref target="gb:note#GB03_2_BR278_0_note_020_154_2" xml:id="start_com_2365"/>Briefe von den Affen<ref xml:id="end_com_2365"/>. Ich 
+<anchor xml:id="GB03_1_BR278_0_154_003"/>höre <ref target="gb:note#GB03_2_BR278_0_note_021_154_3" xml:id="start_com_2366"/>dass es mit Steinen besser geht<ref xml:id="end_com_2366"/>, das ist mir sehr lieb. Von mir ist 
+<anchor xml:id="GB03_1_BR278_0_154_004"/>nichts zu sagen, das Wetter hält uns alle gefangen in Catharren, Zahnweh 
+<anchor xml:id="GB03_1_BR278_0_154_005"/>und Unbehaglichkeit<ptr n="10" target="#a010_154.5"/>. Dieses schreib ich unter den Baümen in 
+<anchor xml:id="GB03_1_BR278_0_154_006"/>meinem Garten, es ist schön, doch feuchtlich warm. Der Herzog ist 
+<anchor xml:id="GB03_1_BR278_0_154_007"/>wohl <ref target="gb:note#GB03_2_BR278_0_note_022_154_7" xml:id="start_com_2367"/>sonst seh ich niemanden. Hier kan ich auch nicht zeichnen.<ref xml:id="end_com_2367"/>
+        <anchor xml:id="GB03_1_BR278_0_154_008"/>Neulich dacht ich so auf der Weissenburg da ich mir’s so angelegen 
+<anchor xml:id="GB03_1_BR278_0_154_009"/>seyn lies und so viel Freude dran hatte: Wen sie nun wiederkommt 
+<anchor xml:id="GB03_1_BR278_0_154_010"/>und sie nichts freut wozu solls alles! – Adieu.</p>
+    </div>
+    <space quantity="1" unit="lines"/>
+    <div type="relatedText">
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_1_BR278_0_154_011"/><gap reason="damage" unit="chars" quantity="3"/>Ernst vom Stein.</p></div>
+      <div><p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR278_0_154_012"/>Ernst war sehr übel gestimmt und weinte fast <ref target="gb:note#GB03_2_BR278_0_note_023_154_12" xml:id="start_com_2368"/>als ich fort wollte<ref xml:id="end_com_2368"/>
+        <anchor xml:id="GB03_1_BR278_0_154_013"/>und er <ref target="gb:note#GB03_2_BR278_0_note_024_154_13" xml:id="start_com_2369"/>mit seiner Beschreibung<ref xml:id="end_com_2369"/><ptr n="11" target="#a011_154.13"/> nicht weiter konnte. Ich nahm auf 
+<anchor xml:id="GB03_1_BR278_0_154_014"/>mich das übrige zu melden. Es würde mir aber auch gehn wie Ernsten 
+<anchor xml:id="GB03_1_BR278_0_154_015"/>drum <ref target="gb:note#GB03_2_BR278_0_note_025_154_15" xml:id="start_com_2370"/>beruf ich mich wie er auf Carlen<ref xml:id="end_com_2370"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR278_0_154_016"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11694_comment">
+<body>
+<div type="metadata" xml:id="gb11694_comment_com1271">
+  <ab type="numberAddressee"><label>278.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78290">Kochberg</placeName>, <placeName key="sndb:ort#84967">Weißenburg</placeName> und <placeName>Weimar</placeName>, 12./13. Juli <supplied>1777</supplied> und 17. Juli <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11694_comment_com1964">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) wurde der vorliegende Brief in den Juli 1778 eingeordnet. Seit dem Erstdruck wird er nach den Tag- und Monatsangaben und den inhaltlichen Übereinstimmungen mit dem Tagebuch (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_001_153_1">153,1</ref>; zu <ref target="gb:note#GB03_2_BR278_0_note_003_153_3-4">153,3-4</ref>) auf den 12. bis 13. und 17. Juli 1777 datiert. – Der separat überlieferte letzte Teil (<quote type="G">Ernst <gap quantity="3" reason="editorial"/> G.</quote> [<ref target="gb:text#GB03_1_BR278_0_154_012 #GB03_1_BR278_0_154_016">154,12–16</ref>]) befindet sich im Konvolut (Bd I) unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Wie an dem ungleichmäßigen oberen Rand des Briefpapiers zu erkennen ist, wurde es von einem größeren Blatt abgerissen. Die Buchstabenfragmente und die Unterschrift (<ref target="gb:text#GB03_1_BR278_0_154_011">154,11</ref>) lassen vermuten, dass Goethe seine Mitteilung unter einen Brief Ernst von Steins geschrieben hat. Es könnte sich um einen der Briefe handeln, die Goethe mit dem vorliegenden Brief an Charlotte von Stein geschickt hat (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_020_154_2">154,2</ref>). Dazu passt auch der Inhalt der später von dem Brief Ernst von Steins abgetrennten Nachschrift Goethes, die wahrscheinlich in Weimar vor Absendung des Briefes, also spätestens am 17. Juli 1777, geschrieben wurde. Bis auf den Erstdruck, in dem dieser Teil ohne Begründung zwischen den 2. und 12. Mai 1778 gesetzt wird, datieren ihn alle Herausgeber seit Fielitz auf die Zeit zwischen dem 14. und 17. Juli 1777, drucken ihn aber unter einer separaten Nummer (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 87, Nr 173).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11694_comment_com3315">
+  <p>1) Brief:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 90. – 1 Bl. 17,1(–17,4) × 20,4(–21) cm, Büttenrand, 1 &#xBD; S. beschr., egh., Tinte und Bleistift (<quote type="G">Sonntag früh 10. <gap quantity="3" reason="editorial"/> nicht sagen</quote> [<ref target="gb:text#GB03_1_BR278_0_153_024 #GB03_1_BR278_0_153_028">153,24–28</ref>]); Vs. oben rechts von fremder Hd, Tinte: „38“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 39), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 106–108.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 163–165, Nr 619.</p>
+  <p>2) Nachschrift:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 114. – 1 Bl. 18,5(–19) × 12,1(–13,5) cm, von einem größeren Blatt abgerissen, &#xBD; S. beschr., egh., Tinte; am oberen Rand Buchstabenreste und Unterschrift von Ernst von Stein (Petitdruck); oben rechts von fremder Hd, Tinte: „85.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 88), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischlüsse: Briefe Ernst und Carl von Steins an Charlotte von Stein (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_020_154_2">154,2</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 165.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 165, Nr 620.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11694_comment_com5111">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11694_comment_com11130">
+<label xml:id="GB03_2_BR278_0_note_001_153_1" copyOf="#start_com_2346"><hi rendition="#fett">153,1</hi>Kochberg Sonnabend d<g ref="#typoSuspension"/> 12. Jul. früh 8 Uhr</label>
+<p>Laut Tagebuch vom 12. Juli 1777 hat Goethe <quote type="G">früh im Garten</quote> <supplied>in Kochberg</supplied> <quote type="G">gezeichnet</quote> (<ref target="gt:dokument#393">GT I 1, 45</ref>).</p>
+ 
+</note>
+<note xml:id="gb11694_comment_com11131">
+<label xml:id="GB03_2_BR278_0_note_002_153_1-2" copyOf="#start_com_2347"><hi rendition="#fett">153,1-2</hi>Mir ists <gap quantity="3" reason="editorial"/> wunderlich gangen</label>
+<p>Seit seiner Rückkehr aus Kochberg am 7. Juli (vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_016_152_26-27">152,26-27</ref>) war Goethe von dienstlichen Geschäften in Anspruch genommen worden; so hatte er am 7. Juli in Vorbereitung des Weimarer Landtages (am 1. August) an der Audienz der Landstände teilgenommen (vgl. <ref target="gt:dokument#388">GT I 1, 44</ref>) und am 8. Juli die Sitzung des Geheimen Consiliums besucht (vgl. <ref target="sndb:sigle#3094">Sessionskalender</ref> 1776–1786; <ref target="sndb:sigle#32">AS</ref> 1, LXXI). Die Abende verbrachte er meist in Gesellschaft des Herzogs, den Morgen des 9. Juli hatte er <quote type="G">verschwäzt verlesen verzecht</quote> (<ref target="gt:dokument#390">GT I 1, 45</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com11088">
+<label xml:id="GB03_2_BR278_0_note_003_153_3-4" copyOf="#start_com_2348"><hi rendition="#fett">153,3-4</hi>um halb sechs zu fuß <gap quantity="3" reason="editorial"/> halb 10 hier</label>
+<p>Demnach hätte Goethe die etwa 30 km von Weimar nach Kochberg in nur 4 Stunden zurückgelegt; im Tagebuch heißt es dagegen: <quote type="G">11.</quote> <supplied>Juli</supplied> <quote type="G">Nachmitt. halb 5. zu Fus nach Kochberg kam halb 10 an.</quote> (<ref target="gt:dokument#392">GT I 1, 45</ref>.)</p>
+
+</note>
+<note xml:id="gb11694_comment_com10918">
+<label xml:id="GB03_2_BR278_0_note_004_153_5" copyOf="#start_com_2349"><hi rendition="#fett">153,5</hi>Dorthee</label>
+<p>Dienerin im Hause der Familie von Stein; Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10919">
+<label xml:id="GB03_2_BR278_0_note_005_153_6" copyOf="#start_com_2350"><hi rendition="#fett">153,6</hi>Köchinn</label>
+<p>Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10920">
+<label xml:id="GB03_2_BR278_0_note_006_153_7" copyOf="#start_com_2351"><hi rendition="#fett">153,7</hi>Carl</label>
+<p>Carl von Stein.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10921">
+<label xml:id="GB03_2_BR278_0_note_007_153_8" copyOf="#start_com_2352"><hi rendition="#fett">153,8</hi>Ernst</label>
+<p>Ernst von Stein.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10922">
+<label xml:id="GB03_2_BR278_0_note_008_153_9" copyOf="#start_com_2353"><hi rendition="#fett">153,9</hi>Friz</label>
+<p>Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10923">
+<label xml:id="GB03_2_BR278_0_note_009_153_10" copyOf="#start_com_2354"><hi rendition="#fett">153,10</hi>Selzer Wasser</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR164_0_note_013_102_9">102,9</ref>.</p>
+
+</note>
+<note xml:id="gb11694_comment_com13879">
+<label xml:id="GB03_2_BR278_0_note_010_153_10-11" copyOf="#start_com_2355"><hi rendition="#fett">153,10-11</hi>Wochen Fata</label>
+<p>Lat. fatum: Schicksal; hier: die Erlebnisse seit Goethes Abreise aus Kochberg am 7. Juli.</p>
+
+</note>
+<note xml:id="gb11694_comment_com15084">
+<label xml:id="GB03_2_BR278_0_note_011_153_11" copyOf="#start_com_2356"><hi rendition="#fett">153,11</hi>die Zeichnungen wurden produzirt</label>
+<p>Produzieren: vorführen (von lat. producere).</p>
+
+</note>
+<note xml:id="gb11694_comment_com10924">
+<label xml:id="GB03_2_BR278_0_note_012_153_13" copyOf="#start_com_2357"><hi rendition="#fett">153,13</hi>Weissenburg</label>
+<p>Wo Goethe, der Hauslehrer Kästner und die beiden älteren Söhne Charlottes schon am 6. Juli gewesen waren (vgl. <ref target="gb:text#GB03_1_BR277_0_152_019 #GB03_1_BR277_0_152_020">152,19–20</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com15098">
+<label xml:id="GB03_2_BR278_0_note_013_153_13" copyOf="#start_com_2358"><hi rendition="#fett">153,13</hi>herüber marschirt</label>
+<p>Vom knapp 13 km entfernten Kochberg.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10932">
+<label xml:id="GB03_2_BR278_0_note_014_153_14" copyOf="#start_com_2359"><hi rendition="#fett">153,14</hi>Pachter</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_014_152_20">152,20</ref>.</p>
+
+</note>
+<note xml:id="gb11694_comment_com15099">
+<label xml:id="GB03_2_BR278_0_note_015_153_15" copyOf="#start_com_2360"><hi rendition="#fett">153,15</hi>gezeichnet, in Kochberg und hier</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_010_152_16">152,16</ref>; von der Gegend um die Weißenburg oder dem Gebäude selbst haben sich bis auf eine Zeichnung, die möglicherweise die Weißenburger Höhle darstellt, keine weiteren Zeichnungen erhalten.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10933">
+<label xml:id="GB03_2_BR278_0_note_016_153_17-18" copyOf="#start_com_2361"><hi rendition="#fett">153,17-18</hi>wenn die Natur Sie nicht mehr freut</label>
+<p>Wahrscheinlich noch mit Bezug auf Charlotte von Steins ersten Brief aus Pyrmont (vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_017_152_27">152,27</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com10934">
+<label xml:id="GB03_2_BR278_0_note_017_153_21" copyOf="#start_com_2362"><hi rendition="#fett">153,21</hi>das weite Thal</label>
+<p>Das Saaletal unterhalb der Weißenburg.</p>
+
+</note>
+<note xml:id="gb11694_comment_com10935">
+<label xml:id="GB03_2_BR278_0_note_018_153_24" copyOf="#start_com_2363"><hi rendition="#fett">153,24</hi>Sonntag früh 10. In der Hohle von Weissenburg.</label>
+<p>Im <ref target="sndb:sigle#2147">GNM</ref> hat sich die Zeichnung einer Berghöhle erhalten, bei der es sich möglicherweise um die Weißenburger Höhle handelt (<ref target="sndb:sigle#1248">Corpus</ref> I, 73 f., Nr 188).</p>
+
+</note>
+<note xml:id="gb11694_comment_com10936">
+<label xml:id="GB03_2_BR278_0_note_019_154_1" copyOf="#start_com_2364"><hi rendition="#fett">154,1</hi>Weimar Donnerstag d<g ref="#typoSuspension"/>. 17 Jul.</label>
+<p>Goethe war schon seit Montag, dem 14. Juli, wieder in Weimar (vgl. zu <ref target="gb:note#GB03_2_BR278_0_note_023_154_12">154,12</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com17836">
+<label xml:id="GB03_2_BR278_0_note_020_154_2" copyOf="#start_com_2365"><hi rendition="#fett">154,2</hi>Briefe von den Affen</label>
+<p>Sonst meist ‚Grasaffen‘, die Kinder der Steins (vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>); hier mit Bezug auf Carl und Ernst von Stein, die beiden älteren Söhne; Friedrich von Stein war damals erst vier Jahre alt. Der mitgeschickte Brief Carls ist nicht überliefert, von dem Brief Ernsts hat sich nur die Unterschrift erhalten, darunter hat Goethe seine Nachschrift gesetzt (vgl. <ref target="gb:note#gb11694_comment_com3315">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com17851">
+<label xml:id="GB03_2_BR278_0_note_021_154_3" copyOf="#start_com_2366"><hi rendition="#fett">154,3</hi>dass es mit Steinen besser geht</label>
+<p>Die Nachricht vom schlechten Gesundheitszustand Josias von Steins war am 3. Juli nach Weimar gelangt (vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_006_152_5">152,5</ref>). In einem Brief vom 25. Juli 1777 schreibt Concordia von Schardt an ihre Tochter Charlotte von Stein in Pyrmont: „So wie mir dein Bruder <supplied>Carl von Schardt</supplied> gesagt hatt liebe Tochter geht es immer beßer mit der gesundheit des Steins, ich dancke Gott davor, aber recht froh werde ich nicht eher bis ich Euch wieder sehe.“ (H: <ref target="sndb:sigle#1267">GMD</ref> NW 757/1962.)</p>
+
+</note>
+<note xml:id="gb11694_comment_com15590">
+<label xml:id="GB03_2_BR278_0_note_022_154_7" copyOf="#start_com_2367"><hi rendition="#fett">154,7</hi>sonst seh ich niemanden <gap quantity="3" reason="editorial"/> auch nicht zeichnen</label>
+<p>Einen Tag später, am 18. Juli, hielt Goethe im Tagebuch fest: <quote type="G">War Cr</quote> <supplied>Corona Schröter</supplied> <quote type="G">ppp</quote> <supplied>wohl Wilhelmine Probst und deren Bruder</supplied> <quote type="G">im Garten. Ich zeichnete die Gruppe.</quote> (<ref target="gt:dokument#397">GT I 1, 45</ref>.)</p>
+
+</note>
+<note xml:id="gb11694_comment_com10945">
+<label xml:id="GB03_2_BR278_0_note_023_154_12" copyOf="#start_com_2368"><hi rendition="#fett">154,12</hi>als ich fort wollte</label>
+<p>Goethe war am 14. Juli <quote type="G">Um halb 9</quote> <supplied>aus Kochberg</supplied> <quote type="G">weg geritten. in 2 Stunden 8 Minuten nach Weimar.</quote> (<ref target="gt:dokument#395">GT I 1, 45</ref>.)</p>
+
+</note>
+<note xml:id="gb11694_comment_com10946">
+<label xml:id="GB03_2_BR278_0_note_024_154_13" copyOf="#start_com_2369"><hi rendition="#fett">154,13</hi>mit seiner Beschreibung</label>
+<p>Im nicht überlieferten Brief für Charlotte von Stein (vgl. <ref target="gb:note#gb11694_comment_com3315">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb11694_comment_com10947">
+<label xml:id="GB03_2_BR278_0_note_025_154_15" copyOf="#start_com_2370"><hi rendition="#fett">154,15</hi>beruf ich mich wie er auf Carlen</label>
+<p>Mit Bezug auf den nicht überlieferten Brief Carl von Steins (vgl. <ref target="gb:note#gb11694_comment_com3315">Überlieferung</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1360"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10967" n="GB 3, Nr. 135">
+  <teiHeader xml:id="gb10967_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>135.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 24. Juni 1776. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:55Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10967_tei.xml</idno>
+        <idno type="URI">gb10967</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR135_0</idno>
+        <idno type="KSW-ID">10967</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="78" to="78">78</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="302" to="311">302-311</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10967_header_hwit1011" corresp="#gb10967_source_hwit1011" sameAs="#gb10967_comment_hwit1011" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 73</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10967,,1011/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich werde Sie nicht mehr sehen. Adieu. Ich habe kein Adieu zu sagen denn Sie gehn nicht fort</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10967_header_acc720" corresp="gb10967_comment_acc720">
+            <objectIdentifier>
+              <objectName>Brief Cornelia Schlossers an Charlotte von Stein, Juni 1776</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb10967_header_acc166" corresp="gb10967_comment_acc166">
+            <objectIdentifier>
+              <objectName>Schreibmappe.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-24"><supplied>24. Juni 1776</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-06-23"><supplied>23. Juni 1776</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-06-24"><supplied>24. Juni 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10967_source_hwit1011" corresp="#gb10967_header_hwit1011" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10967/22393"/>
+      <p>
+        <anchor xml:id="GB03_1_BR135_0_078_004"/>Ich werde <ref target="gb:note#GB03_2_BR135_0_note_001_78_4" xml:id="start_com_1231"/>Sie nicht mehr sehen<ref xml:id="end_com_1231"/>. Adieu. Ich habe kein Adieu zu sagen 
+   <anchor xml:id="GB03_1_BR135_0_078_005"/><ref target="gb:note#GB03_2_BR135_0_note_002_78_5" xml:id="start_com_1232"/>denn Sie gehn nicht fort<ref xml:id="end_com_1232"/>. Hier <ref target="gb:note#GB03_2_BR135_0_note_003_78_5" xml:id="start_com_1233"/>was von meiner Schwester<ref xml:id="end_com_1233"/>. <g ref="#NB"/><ptr n="1" target="#a001_78.5"/>&#xA0; Für <ref target="gb:note#GB03_2_BR135_0_note_004_78_5-6" xml:id="start_com_1234"/>Ihre 
+<anchor xml:id="GB03_1_BR135_0_078_006"/>Matinees<ref xml:id="end_com_1234"/> danck ich herzlich, ich habe mich herzlich drüber gefreut, 
+<anchor xml:id="GB03_1_BR135_0_078_007"/><ref target="gb:note#GB03_2_BR135_0_note_005_78_7-8" xml:id="start_com_1235"/>ich bin weidlich geschunden, und doch freut mich s dass es nicht so 
+<anchor xml:id="GB03_1_BR135_0_078_008"/>ist<ref xml:id="end_com_1235"/>. Adieu. Schicken Sie mir die <ref target="gb:note#GB03_2_BR135_0_note_006_78_8" xml:id="start_com_1236"/>Grose Silhouette<ref xml:id="end_com_1236"/>. Schicken Sie mir 
+<anchor xml:id="GB03_1_BR135_0_078_009"/>sonst noch was Sie mir gönnen. Adieu – Ich habe keine Idee von 
+<anchor xml:id="GB03_1_BR135_0_078_010"/>dem was das heisst: dass Sie gehn. Grüsen Sie die <ref target="gb:note#GB03_2_BR135_0_note_007_78_10" xml:id="start_com_1237"/>Schwester<ref xml:id="end_com_1237"/>. —</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR135_0_078_011"/><g ref="#NB"/>&#xA0;. Warum Sie das <ref target="gb:note#GB03_2_BR135_0_note_008_78_11" xml:id="start_com_1238"/>Portefeuille<ref xml:id="end_com_1238"/> nicht kriegen. und an dessen Statt<ptr n="2" target="#a002_78.11"/>
+        <anchor xml:id="GB03_1_BR135_0_078_012"/>einen <ref target="gb:note#GB03_2_BR135_0_note_009_78_12" xml:id="start_com_1239"/>schlechten Pappedeckel<ref xml:id="end_com_1239"/>, auf dem ich reisend <ref target="gb:note#GB03_2_BR135_0_note_010_78_12" xml:id="start_com_1240"/>nach Leipzig<ref xml:id="end_com_1240"/> <ref target="gb:note#GB03_2_BR135_0_note_011_78_12-13" xml:id="start_com_1241"/>die 
+<anchor xml:id="GB03_1_BR135_0_078_013"/>Zettelgen<ref xml:id="end_com_1241"/> unterweegs an Sie schrieb, und mit unter <ref target="gb:note#GB03_2_BR135_0_note_012_78_13-14" xml:id="start_com_1242"/>das Gedicht auf 
+<anchor xml:id="GB03_1_BR135_0_078_014"/>Hans Sachsen<ref xml:id="end_com_1242"/> anfing, und dabey allerley <ref target="gb:note#GB03_2_BR135_0_note_013_78_14" xml:id="start_com_1243"/>Zeichnungen<ref xml:id="end_com_1243"/> vergangener 
+<anchor xml:id="GB03_1_BR135_0_078_015"/>Zeiten hiermit erhalten; das ist zu heilig fürs Papier, <ref target="gb:note#GB03_2_BR135_0_note_014_78_15-16" xml:id="start_com_1244"/>da Sie mir nicht 
+<anchor xml:id="GB03_1_BR135_0_078_016"/>einmal geben können, was Sie schreiben konnten<ref xml:id="end_com_1244"/>.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10967_comment">
+<body>
+<div type="metadata" xml:id="gb10967_comment_com644">
+  <ab type="numberAddressee"><label>135.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>24. Juni 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10967_comment_com1701">
+  <p>Dass der vorliegende Brief, im Konvolut der Briefe an Charlotte von Stein (Bd I) unter die undatierten Briefe am Ende des Jahrgangs 1777 eingeordnet, früher geschrieben sein muss, ergibt sich schon aus seiner Beilage: Dem Brief lag <quote type="G">was</quote> (<ref target="gb:text#GB03_1_BR135_0_078_005">78,5</ref>) von Goethes Schwester bei, wahrscheinlich ein Brief an Charlotte von Stein aus dem Juni 1776 (vgl. <ref target="gb:note#gb10967_comment_com3624">Beilage 1</ref>). Cornelia Schlosser starb am 8. Juni 1777. Auch der Gruß an Charlotte von Steins <quote type="G">Schwester</quote> (<ref target="gb:text#GB03_1_BR135_0_078_010">78,10</ref>) verweist auf die Zeit nach Mitte Juni 1776, als sich diese in Weimar aufhielt (vgl. zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>). Der Inhalt legt außerdem nahe, dass der Brief aus den Tagen unmittelbar vor der ersten längeren Trennung Goethes von Charlotte von Stein stammt (vgl. <ref target="gb:text#GB03_1_BR135_0_078_004">78,4</ref>; <ref target="gb:text#GB03_1_BR135_0_078_010">78,10</ref>), die am 25. Juni 1776 für etwa sechs Wochen nach Pyrmont reiste (vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>). Seit dem Erstdruck wird er auch so datiert. Da die Adressatin am Morgen des 25. Juni abreiste (vgl. <ref target="gt:dokument#80">GT I 1, 21</ref>), wurde der Brief wahrscheinlich am Tag zuvor geschrieben (so zuerst bei <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1 [1908], 27 f., Nr 75).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10967_comment_com2688">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 73. – 1 Bl. 19,7(–20,3) × 21,6(–21,8) cm, Papier beschnitten, oben links ausgerissen, &#x2158; S. beschr., egh., Tinte, flüchtig geschrieben, stellenweise Aussetzen des Tintenflusses an den Wortenden: <quote type="G">Schwester</quote> (<ref target="gb:text#GB03_1_BR135_0_078_010">78,10</ref>), <quote type="G">Portefeuille</quote> (<ref target="gb:text#GB03_1_BR135_0_078_011">78,11</ref>), <quote type="G">einen</quote> (<ref target="gb:text#GB03_1_BR135_0_078_012">78,12</ref>); Rs. rotes Siegel; Vs. oben rechts von fremder Hd, Tinte: „75“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 79), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 40 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 78 f., Nr 481.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10967_comment_com3624">
+  <p>1) Brief Cornelia Schlossers an Charlotte von Stein, Juni 1776:</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56434_source" corresp="#gb56434_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB013_0_302_001"/>Wie soll ich Ihnen dancken beste edelste Frau <ref target="gb:note#GB03_2_FB013_0_note_068_302_1-2" xml:id="start_com_7066"/>dass Sie sich in der unendlichen 
+<anchor xml:id="GB03_2_FB013_0_302_002"/>Entfernung meiner annehmen<ref xml:id="end_com_7066"/>, und mir suchen meine <ref target="gb:note#GB03_2_FB013_0_note_069_302_2" xml:id="start_com_7067"/>Einsamkeit zu erleichtern<ref xml:id="end_com_7067"/> o 
+<anchor xml:id="GB03_2_FB013_0_302_003"/>wenn ich nun hoffen dürffte <ref target="gb:note#GB03_2_FB013_0_note_070_302_3" xml:id="start_com_7068"/>Sie ein einziges mahl in diesem Leben zu sehn<ref xml:id="end_com_7068"/> so 
+<anchor xml:id="GB03_2_FB013_0_302_004"/>wollt ich nie schreiben und alles biss auf den Augenblick versparen denn was kann 
+<anchor xml:id="GB03_2_FB013_0_302_005"/>ich sagen das einen einzigen Blick, einen einzigen Händedruck werth wäre.</p>
+      <p>
+        <space quantity="1" unit="lines"/>
+        <anchor xml:id="GB03_2_FB013_0_302_006"/>Umsonst such schon lang eine Seele wie die Ihrige, ich werd sie hierherum nie 
+<anchor xml:id="GB03_2_FB013_0_302_007"/>finden – es ist das das einzige / Gut das mir jezt noch fehlt, sonst besiz ich alles 
+<anchor xml:id="GB03_2_FB013_0_302_008"/>was auf der Welt glücklich machen kann –</p>
+      <p>
+        <anchor xml:id="GB03_2_FB013_0_303_009"/>Und wem meynen Sie meine edelste Freundinn dem ich <ref target="gb:note#GB03_2_FB013_0_note_071_303_9-10" xml:id="start_com_7069"/>diesen jezigen Wohlstand 
+<anchor xml:id="GB03_2_FB013_0_303_010"/>zu dancken habe – niemand anders als unserm Zimmermann<ref xml:id="end_com_7069"/>, der mir in meiner 
+<anchor xml:id="GB03_2_FB013_0_303_011"/>Gesundheit alles Glück des Lebens wiedergeschenckt hat ——</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB013_0_303_012"/>Noch vor kurzer Zeit war ich ganz traurig und melancolisch, das beynah dreyjährige 
+<anchor xml:id="GB03_2_FB013_0_303_013"/>beständige Leiden des Cörpers hatte meine Seelenkräffte erschöpft, ich sah 
+<anchor xml:id="GB03_2_FB013_0_303_014"/>alles unter einer trau/rigen Gestalt an, machte mir tausend närrische, ängstliche 
+<anchor xml:id="GB03_2_FB013_0_303_015"/>Grillen, meine Einbildungs Kraft beschäfftigte sich immer mit den schrecklichsten 
+<anchor xml:id="GB03_2_FB013_0_303_016"/>Ideen so dass kein Tag ohne Herzens Angst u. drückenden Kummer verging ——</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB013_0_303_017"/>Nun aber siehts Gott sey Danck ganz anders aus, ich finde überall Freude wo 
+<anchor xml:id="GB03_2_FB013_0_303_018"/>ich sonst Schmerzen fand und weil ich ganz glücklich binn befürchte ich nichts von 
+<anchor xml:id="GB03_2_FB013_0_303_019"/>der Zukunfft o meine Beste wenn der Zustand dauert so ists der Himmel auf der 
+<anchor xml:id="GB03_2_FB013_0_303_020"/>Welt —— /</p>
+      <p>
+        <space quantity="1" unit="lines"/>
+        <anchor xml:id="GB03_2_FB013_0_303_021"/>Alles Vergnügen das hier in den herrlichen Gegenden die schöne Natur gibt, kann 
+<anchor xml:id="GB03_2_FB013_0_303_022"/>ich jezt mit vollem Herzen geniesen, meine Kräffte haben so wunderbar zugenommen, 
+<anchor xml:id="GB03_2_FB013_0_303_023"/>dass ich gehn, und sogar reiten kann, ich entdecke dadurch alle Tage neue 
+<anchor xml:id="GB03_2_FB013_0_303_024"/>Schäze die ich bisher entbehren musste, weil die schönsten Wege zu gefährlich 
+<anchor xml:id="GB03_2_FB013_0_303_025"/>zum Fahren sind –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB013_0_303_026"/><ref target="gb:note#GB03_2_FB013_0_note_072_303_25" xml:id="start_com_7070"/>Meines Bruders Garten<ref xml:id="end_com_7070"/> hätt ich wohl mögen blühn sehn, nach der <ref target="gb:note#GB03_2_FB013_0_note_073_303_25-27" xml:id="start_com_7071"/>Beschreibung 
+<anchor xml:id="GB03_2_FB013_0_303_027"/>von Lenzen<ref xml:id="end_com_7071"/> muss er ganz vortrefflich seyn, in der Laube unter euch Ihr 
+<anchor xml:id="GB03_2_FB013_0_303_028"/>Lieben zu sizen – welche Seligkeit –</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56434_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56434_comment_com84527">
+  <p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 59. – In einem gebundenen Handschriftenkonvolut [Bd I, Jg 1776, Nr 45], vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56434_comment_com84528">
+<label xml:id="GB03_2_FB013_0_note_068_302_1-2" copyOf="#start_com_7066"><hi rendition="#normal">302,1-2</hi>dass Sie sich <gap quantity="3" reason="editorial"/> meiner annehmen</label>
+<p>Mit dem vorliegenden Brief antwortete Cornelia Schlosser, die seit 1774 im badischen Emmendingen lebte, offenbar auf einen Brief Charlotte von Steins von Ende Mai 1776 (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_004_65_1">65,1</ref>).</p>
+</note>
+<note xml:id="gb56434_comment_com84529">
+<label xml:id="GB03_2_FB013_0_note_069_302_2" copyOf="#start_com_7067"><hi rendition="#normal">302,2</hi>Einsamkeit zu erleichtern</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>.</p>
+</note>
+<note xml:id="gb56434_comment_com84530">
+<label xml:id="GB03_2_FB013_0_note_070_302_3" copyOf="#start_com_7068"><hi rendition="#normal">302,3</hi>Sie ein einziges mahl in diesem Leben zu sehn</label>
+<p>Wie aus dem Brief Cornelia Schlossers an Charlotte von Stein vom 20. Oktober 1776 hervorgeht, kündigte diese offenbar ihren Besuch in Emmendingen an, der allerdings nicht zustande kam (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_023_93_19">93,19</ref>).</p>
+</note>
+<note xml:id="gb56434_comment_com84531">
+<label xml:id="GB03_2_FB013_0_note_071_303_9-10" copyOf="#start_com_7069"><hi rendition="#normal">303,9-10</hi>diesen jezigen Wohlstand zu dancken habe <gap quantity="3" reason="editorial"/> unserm Zimmermann</label>
+<p>‚Wohlstand‘ hier im Sinne von ‚Glück‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1599). – Der aus der Schweiz stammende gemeinsame Freund Johann Georg Zimmermann, seit 1768 königlich britischer Leibarzt in Hannover, hatte auf einer Reise in seine Heimat im September 1775 auch die Schlossers in Emmendingen besucht; vgl. dazu auch den Brief Catharina Elisabeth Goethes an Johann Georg Zimmermann in Hannover: „Gott lob daß die Schlossern sich besser befindet: Wer war aber ihr Helfer? Wem hat sies zu dancken? nechst Gott gewiß niemandt als unserm theuren <hi rendition="#hervor1">Zimmermann</hi>.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 401.) – Dass die Erholung nur eine vorübergehende war und eine grundlegende Besserung nicht eintrat, belegen Goethes wiederholt geäußerte Sorgen um die Schwester. Von der Schwere ihrer Erkrankung zeugt Cornelia Schlossers Brief an Johann Christian Kestner vom 6. Januar 1776 (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>). </p>
+</note>
+<note xml:id="gb56434_comment_com84532">
+<label xml:id="GB03_2_FB013_0_note_072_303_25" copyOf="#start_com_7070"><hi rendition="#normal">303,26</hi>Meines Bruders Garten</label>
+<p>Goethes Garten oberhalb des „Sterns“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+</note>
+<note xml:id="gb56434_comment_com84533">
+<label xml:id="GB03_2_FB013_0_note_073_303_25-27" copyOf="#start_com_7071"><hi rendition="#normal">303,26-27</hi>Beschreibung von Lenzen</label>
+<p>Lenz war vom 27. Mai bis zum 5. Juni 1775 von Straßburg aus gemeinsam mit Goethe zu Gast in Emmendingen gewesen und stand seitdem in brieflicher Verbindung mit Cornelia und Johann Georg Schlosser; der Briefwechsel ist mit wenigen Ausnahmen nicht überliefert.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+  <p>2) Schreibmappe (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR135_0_note_009_78_12">78,12</ref>).</p>
+  <p>3) Zeichnungen (vgl. zu <ref target="gb:note#GB03_2_BR135_0_note_013_78_14">78,14</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10967_comment_com4484">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10967_comment_com17582">
+<label xml:id="GB03_2_BR135_0_note_001_78_4" copyOf="#start_com_1231"><hi rendition="#fett">78,4</hi>Sie nicht mehr sehen</label>
+<p>Das Tagebuch vom 24. Juni 1776 erwähnt Charlotte von Stein nicht (vgl. <ref target="gt:dokument#79">GT I 1, 19</ref>). Dass sie am Abend wie Goethe in <quote type="G">Tiefurth</quote> (ebd.) war, ist wegen ihrer bevorstehenden Abreise am folgenden Morgen unwahrscheinlich.</p>
+
+</note>
+<note xml:id="gb10967_comment_com15086">
+<label xml:id="GB03_2_BR135_0_note_002_78_5" copyOf="#start_com_1232"><hi rendition="#fett">78,5</hi>denn Sie gehn nicht fort</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>.</p>
+
+</note>
+<note xml:id="gb10967_comment_com10139">
+<label xml:id="GB03_2_BR135_0_note_003_78_5" copyOf="#start_com_1233"><hi rendition="#fett">78,5</hi>was von meiner Schwester</label>
+<p>Vgl. <ref target="gb:note#gb10967_comment_com3624">Beilage 1</ref>.</p>
+
+</note>
+<note xml:id="gb10967_comment_com17592">
+<label xml:id="GB03_2_BR135_0_note_004_78_5-6" copyOf="#start_com_1234"><hi rendition="#fett">78,5-6</hi>Ihre Matinees</label>
+<p>Von franz. matinée: Morgenzeit, Morgen; hier Bezeichnung für ‚scherzhafte Verse‘, ‚scherzhafte Versdialoge‘, in dieser besonderen Bedeutung offenbar nur in der Weimarer Hofgesellschaft gebräuchlich (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>). – Goethes Tagebucheintrag vom 23. Juni 1776 (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR134_0_note_006_77_21">77,21</ref>) wie auch die nachfolgende Anspielung legen nahe, dass hier Charlotte von Steins Knittelversdialog „Rino“ gemeint ist, ihre früheste überlieferte literarische Arbeit, im Untertitel als „Schauspiel in drey Abtheilungen“ bezeichnet (abgedruckt im <ref target="gb:note#gb10967_comment_com85700">Anschluss</ref> an die Erläuterungen zum vorliegenden Brief).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10140">
+<label xml:id="GB03_2_BR135_0_note_005_78_7-8" copyOf="#start_com_1235"><hi rendition="#fett">78,7-8</hi>ich bin weidlich geschunden <gap quantity="3" reason="editorial"/> nicht so ist</label>
+<p>Vgl. die Figur des Rino, laut Personenverzeichnis von Goethe zu spielen.</p>
+
+</note>
+<note xml:id="gb10967_comment_com10141">
+<label xml:id="GB03_2_BR135_0_note_006_78_8" copyOf="#start_com_1236"><hi rendition="#fett">78,8</hi>Grose Silhouette</label>
+<p>Eine so genannte Original-Silhouette, ein Profilporträt nach dem Schattenbild in Lebensgröße, d. h. infolge der angewandten Technik eigentlich in leicht vergrößerter Form (vgl. <ref target="gb:note#GB02_2_BR188_0_note_009_160_25">GB 2 II, zu 160,25</ref>). – Bevor Goethe Charlotte von Steins persönliche Bekanntschaft machte, sah er in Straßburg ihre Silhouette, die er im Brief an Johann Caspar Lavater vom 24. Juli 1775 physiognomisch deutete (vgl. <ref target="gb:text#GB02_1_BR247_0_196_011 #GB02_1_BR247_0_196_022">GB 2 I, 196,11-22</ref>).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10092">
+<label xml:id="GB03_2_BR135_0_note_007_78_10" copyOf="#start_com_1237"><hi rendition="#fett">78,10</hi>Schwester</label>
+<p>Louise von Imhoff (vgl. <ref target="gb:note#gb10967_comment_com1701">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10142">
+<label xml:id="GB03_2_BR135_0_note_008_78_11" copyOf="#start_com_1238"><hi rendition="#fett">78,11</hi>Portefeuille</label>
+<p>Franz.: Brieftasche, Mappe. – Offenbar ursprünglich als Geschenk für die bevorstehende Reise Charlotte von Steins gedacht (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR128_0_note_003_75_12">75,12</ref>).</p>
+
+</note>
+<note xml:id="gb10967_comment_com15102">
+<label xml:id="GB03_2_BR135_0_note_009_78_12" copyOf="#start_com_1239"><hi rendition="#fett">78,12</hi>schlechten Pappedeckel</label>
+<p>‚Schlecht‘ hier: schlicht, einfach, ohne Verzierung (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1511); offenbar eine einfache Schreib- oder Zeichenmappe aus Pappe (vgl. Überlieferung zu <ref target="gb:note#gb15367_comment_com3074">GB 2 II, Nr 177</ref>).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10151">
+<label xml:id="GB03_2_BR135_0_note_010_78_12" copyOf="#start_com_1240"><hi rendition="#fett">78,12</hi>nach Leipzig</label>
+<p>Goethe war am 24. und 25. März 1776 nach Leipzig gereist, von wo er am 4. April 1776 zurückkehrte.</p>
+
+</note>
+<note xml:id="gb10967_comment_com10152">
+<label xml:id="GB03_2_BR135_0_note_011_78_12-13" copyOf="#start_com_1241"><hi rendition="#fett">78,12-13</hi>die Zettelgen</label>
+<p>Die Briefe <ref target="gb:dokument#10652">Nr 67</ref>, <ref target="gb:dokument#11922">68</ref>, <ref target="gb:dokument#11883">69</ref> und <ref target="gb:dokument#11923">71</ref> (vgl. Datierung zu <ref target="gb:note#gb10652_comment_com1805">Nr 67</ref>).</p>
+
+</note>
+<note xml:id="gb10967_comment_com15103">
+<label xml:id="GB03_2_BR135_0_note_012_78_13-14" copyOf="#start_com_1242"><hi rendition="#fett">78,13-14</hi>das Gedicht auf Hans Sachsen</label>
+<p>„Erklärung eines alten Holzschnittes vorstellend Hans Sachsens poetische Sendung“ (<ref target="sndb:sigle#1157">WA</ref> I 16, 121–129), das laut Tagebuch am 27. April 1776 abgeschlossen war (vgl. <ref target="gt:dokument#25">GT I 1, 17</ref>). Es erschien zuerst in Wielands „Teutschem Merkur“ (April-Heft 1776, S. 75–82).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10153">
+<label xml:id="GB03_2_BR135_0_note_013_78_14" copyOf="#start_com_1243"><hi rendition="#fett">78,14</hi>Zeichnungen</label>
+<p>Welche Zeichnungen beigelegen haben, lässt sich nicht mehr klären. In Frage kommen verschiedene Zeichnungen Goethes aus der Zeit vor dem Herbst 1775, ursprünglich in einer Mappe „Juvenilia“ überliefert (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, Nr 39, 52–59, 68, 74–76, 79, 88, 93).</p>
+
+</note>
+<note xml:id="gb10967_comment_com10154">
+<label xml:id="GB03_2_BR135_0_note_014_78_15-16" copyOf="#start_com_1244"><hi rendition="#fett">78,15-16</hi>da Sie mir <gap quantity="3" reason="editorial"/> was Sie schreiben konnten</label>
+<p>Wahrscheinlich Tagebuchaufzeichnungen aus dem ersten Jahr ihrer Bekanntschaft mit Goethe; möglicherweise die ‚Zettelchen‘, die Charlotte von Stein dem Freund zum ‚Jahrestag‘ seiner Ankunft in Weimar dann doch übergab (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR184_0_note_007_116_14">116,14</ref>).</p>
+
+</note>
+</div>
+<div xml:id="gb10967_comment_com85700">
+  <floatingText type="foreignDocument">
+  <group>
+<text type="source" xml:id="gb56435_source" corresp="#gb56435_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_305_001"/><ref target="gb:note#GB03_2_FB014_0_note_074_305_1" xml:id="start_com_7072"/><hi rendition="#hervor2">Rino</hi>
+      </p>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_2_FB014_0_305_002"/><hi rendition="#hervor1">Ein Schauspiel</hi>
+      </p>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB014_0_305_003"/><hi rendition="#hervor1">in drey Abtheilungen.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_305_004"/>1776.</p>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_305_005"/><hi rendition="#hervor1">von Frau von Stein</hi>
+        <ref xml:id="end_com_7072"/>
+      </p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_305_006"/>
+        <hi rendition="#hervor1">══ /</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_305_007"/>
+        <hi rendition="#hervor1">Personen</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_008"/>
+        <hi rendition="#hervor1">Rino</hi>  Goethe</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_009"/>
+        <hi rendition="#hervor1">adelhaite</hi>  Herzogin Mutter</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_010"/>
+        <hi rendition="#hervor1">Thusnelde</hi>  <ref target="gb:note#GB03_2_FB014_0_note_075_305_1" xml:id="start_com_7073"/>Fräulein Goechhaus<ref xml:id="end_com_7073"/> ihre Hoffdame</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_011"/>
+        <hi rendition="#hervor1">Kunigun</hi>d  <ref target="gb:note#GB03_2_FB014_0_note_076_305_1" xml:id="start_com_7074"/>Frau von Werther geb. Münchhauß<ref xml:id="end_com_7074"/>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_012"/>
+        <hi rendition="#hervor1">Gerthrude</hi>  Frau von Stein</p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_305_013"/>
+        <hi rendition="#hervor1">══ /</hi>
+      </p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_305_014"/>
+        <hi rendition="#hervor2">I</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_305_015"/>
+        <hi rendition="#kleiner">Rino trit im Saal, wo eben getanzt wird.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+       <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_016"/>
+        <hi rendition="#hervor1">Rino</hi>
+        <hi rendition="#kleiner">bey Seite</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_017"/>Sind da eine Menge Gesichter herrum,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_018"/>Scheinen alle recht adlich gänße dumm.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB014_0_306_019"/>
+        <hi rendition="#kleiner">Verschiedene werden presentirt</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_020"/>
+        <hi rendition="#hervor1">Adelhaite</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_021"/>
+        <ref target="gb:note#GB03_2_FB014_0_note_077_305_1" xml:id="start_com_7075"/>Wir haben dich lang bey uns erwart<ref xml:id="end_com_7075"/>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_022"/>Du einziges Geschöpf in deiner Art.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_306_023"/>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Rino</hi>
+        </hi>
+        <hi rendition="#kleiner">beugt sich.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_024"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_025"/>Ich bin sehr neugierich auf dich gewesen</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_026"/>S’ist nun mahl so in meinem Wesen</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_2_FB014_0_306_027"/>
+        <hi rendition="#hervor1">Rino</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_028"/>Können also jetzt ihre Neugier stillen</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_029"/>Wie’s Ihnen beliebt, nach Ihren Willen.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_030"/>
+        <hi rendition="#hervor1">Gerthruth</hi>
+        <hi rendition="#kleiner">von weiten.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_031"/>Gleichgültig ist er mir eben nicht,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_032"/>Doch weiß ich nicht <ref target="gb:note#GB03_2_FB014_0_note_078_305_1" xml:id="start_com_7076"/>ob er oder Werther <del rendition="#s">mich sticht</del>
+        <hi rendition="#sup">1</hi> mir spricht<ref xml:id="end_com_7076"/> /</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_033"/>
+        <hi rendition="#hervor1">Kunigunde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_034"/>Ja, ja s’ ist Werther ganz und gar.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_035"/>So liebenswerth als er mir immer war.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_2_FB014_0_306_036"/>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Gerthruthe</hi>
+        </hi> und <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Kunigunde</hi>
+        </hi> werden presentirt.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_037"/>
+        <hi rendition="#hervor1">Gerthruth</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_038"/>Ich freue mich Ihre Bekandschafft zu machen.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck16">
+        <anchor xml:id="GB03_2_FB014_0_306_039"/>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Rino</hi>
+        </hi>
+        <hi rendition="#kleiner">verbeugt sich.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_306_040"/>
+        <hi rendition="#hervor1">Gerthruth</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_306_041"/>Apropos des Bals; mögen Sie gern tanzen und lachen?</p>
+      <space quantity="1" unit="lines"/>
+       <p rendition="#einrueck10">
+        <anchor xml:id="GB03_2_FB014_0_307_042"/>
+        <hi rendition="#hervor1">Rino.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_043"/>Manch mal, doch meistens schleicht mit mir</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_044"/>Herrum ein trauriges Gefühl</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_045"/>Ueber das ewge Erden gewühl.</p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB014_0_307_046"/>
+        <hi rendition="#kleiner">geht ab.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_047"/>
+        <hi rendition="#hervor1">Gerthruth.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_048"/>Ist mir doch als wär das Intreße der Gesellschaft vorbey.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_049"/>
+        <hi rendition="#hervor1">Adelheite.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_050"/>Mir ist <del rendition="#s">××××××</del>
+        <hi rendition="#sup">2</hi> hier alles recht <ref target="gb:note#GB03_2_FB014_0_note_079_307_50" xml:id="start_com_7077"/>ennuyant<ref xml:id="end_com_7077"/> einerley /</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_051"/>
+        <hi rendition="#hervor1">Kunigunde</hi>
+        <hi rendition="#kleiner">traurig</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_052"/>Heut mag ich gar nicht gern tanzen.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_053"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_054"/>Nun daß er auch fort ist, über den dummen Hanßen.</p>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_2_FB014_0_307_055"/>
+        <ref target="gb:note#GB03_2_FB014_0_note_080_307_55" xml:id="start_com_7078"/>
+        <hi rendition="#kleiner">streichen sich.</hi>
+        <ref xml:id="end_com_7078"/>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_307_056"/>
+        <hi rendition="#hervor1">══</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_307_057"/>
+        <hi rendition="#hervor2">II</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB014_0_307_058"/>
+        <hi rendition="#kleiner">Die Unterredung ist auf der <ref target="gb:note#GB03_2_FB014_0_note_081_307_58" xml:id="start_com_7079"/>Redute.<ref xml:id="end_com_7079"/>
+        </hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_059"/>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Rino,</hi>
+        </hi>
+        <hi rendition="#kleiner">tanzt,</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Adelheite</hi>
+        </hi>
+        <hi rendition="#kleiner">,</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Gerthrut</hi>
+        </hi>
+        <hi rendition="#kleiner">,</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Kunigunte</hi>
+        </hi>
+        <hi rendition="#kleiner">,</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Thusnelde,</hi>
+        </hi>
+      </p>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_307_060"/>
+        <hi rendition="#kleiner">sitzen in einer Ecke des Saals.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_061"/>
+        <hi rendition="#hervor1">Gerthrut</hi>
+        <hi rendition="#kleiner">auf Rino deutend.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_062"/>Ich bin ihn zwar gut, doch Adelheite glaub mirs nur</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_063"/>Er geht auf aller Frauen Spuhr;</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_064"/>Ist würcklich was man eine <ref target="gb:note#GB03_2_FB014_0_note_082_307_64" xml:id="start_com_7080"/>coquette<ref xml:id="end_com_7080"/> nennt,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_065"/>Gewiß ich hab ihm nicht verkennd.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_066"/>
+        <hi rendition="#hervor1">Adelheite</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_067"/>Du solst mit deiner Lästrung schweigen</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_068"/>Sonst werd’ ich dir noch heut meine Ungenade zeigen,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_069"/>Hat dir gewiß was nicht recht gemacht. /</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_307_070"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_071"/>Und wer hat dich den zu den Gedancken gebracht?</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_307_072"/>Sag doch, da du keine Heilige bist,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_073"/>Warum er dir so gleichgüldig ist?</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_074"/>Wilst gewiß dahinder was verstecken.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_2_FB014_0_308_075"/>
+        <hi rendition="#hervor1">Gerthrut.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_076"/>Nun über das Mädchen ihr Necken;</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_077"/>Für mich ist die Liebe vorbey,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_078"/>Auch schein ich ihm sehr einerley.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_308_079"/>
+        <hi rendition="#hervor1">Kunigunde.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_080"/>Ich ihm leider es bin, doch kann ich wohl fühlen;</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_081"/>Wie könnte denn ich sonst so gut <ref target="gb:note#GB03_2_FB014_0_note_083_308_81" xml:id="start_com_7081"/>Luise<ref xml:id="end_com_7081"/>† spielen,</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_308_082"/>
+        <hi rendition="#hervor1">Thusnelde.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_083"/>Bey mir die Liebe mehr auf der Zunge ist;</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_084"/>Drum mein Herz du nicht zu bedauren bist.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_085"/>Meinen Witz will ich recht an ihn reiben</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_086"/>In Freyheits-Streit mit ihm die Zeit mir vertreiben.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck16">
+        <anchor xml:id="GB03_2_FB014_0_308_087"/>
+        <hi rendition="#kleiner">Sie stehn auf und tanzen</hi>.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_088"/>
+        <hi rendition="#kleiner">† Luise im Westindier.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_308_089"/>
+        <hi rendition="#hervor1">══ /</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB014_0_308_090"/>
+        <hi rendition="#hervor2">III</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_091"/>
+        <hi rendition="#kleiner">Im Zimmer der</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Adelheite</hi>
+        </hi>
+        <hi rendition="#kleiner">.</hi>
+        <hi rendition="#kleiner">
+          <hi rendition="#hervor1">Gerthrut Thusnelde Kunigunde.</hi>
+        </hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_308_092"/>
+        <hi rendition="#hervor1">Adelheite.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_093"/>Heut kommt der Freund zu mir,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_094"/>Und ich laß ihn weder dir, dir, noch dir.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_095"/>Will mich ganz allein an ihn laben</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_096"/>Und ihr sollt nur das Zusehn haben.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_308_097"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_098"/>Wißen daß recht gut zu verstehn</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_099"/>Wird auch wohl nach keiner von uns sehn.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_308_100"/>
+        <hi rendition="#hervor1">Kunigunde</hi>, <hi rendition="#kleiner">mit einem Seufzer</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_101"/>Ja ich muß ihn wohl <ref target="gb:note#GB03_2_FB014_0_note_084_308_101" xml:id="start_com_7082"/>cediren<ref xml:id="end_com_7082"/>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_308_102"/>Denn meine Augen können ihn am wenigsten rühren.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_103"/>
+        <hi rendition="#hervor1">Gerthrut.</hi>
+      </p>
+       <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_104"/>Er hat mir wohl so mancherley gesagt,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_105"/>Daß, hät ich es nicht reiflich überdacht</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_106"/>Ich wäre stoltz auf seinen Beyfall worden.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_107"/>Doch treibt ihn immer Liebe fort</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_108"/>Ein <del rendition="#s">neues Mädchen</del>
+        <hi rendition="#sup">3</hi> neuer Gegenstand an jedem neuen<hi rendition="#sup">4</hi> Ort. /</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_109"/>Die schönern Augen sind <del rendition="#s">str</del>
+        <hi rendition="#sup">5</hi> gleich sein Orden</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_110"/>Vor die muß er manch [zärtlich] treues<hi rendition="#sup">6</hi> Herz ermorden;</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_111"/>So ist er gar nicht herr von sich,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_112"/>Der arme Mensch, er dauert mich.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_113"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_114"/>Wie sie nun wieder ihre Weißheit <ref target="gb:note#GB03_2_FB014_0_note_085_309_114" xml:id="start_com_7083"/>purgirt<ref xml:id="end_com_7083"/>,</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_115"/>Ach Kind, wirst von dir selbst bey der Nase geführt!</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_116"/>Hätst nur billets wie unsereins! –</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_117"/>
+        <hi rendition="#hervor1">Gerthrut.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_118"/>Und glaubst Du den ich hätte keins?</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_119"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_120"/>Nun so weis doch dein <ref target="gb:note#GB03_2_FB014_0_note_086_309_120" xml:id="start_com_7084"/>Portefeuil.<ref xml:id="end_com_7084"/>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_2_FB014_0_309_121"/>
+        <hi rendition="#kleiner">Gerthrut weißts.</hi>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_122"/>
+        <hi rendition="#hervor1">Adelheite.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_123"/>Wahrhaftig so ein dick Paquet wie ich!</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_124"/>
+        <hi rendition="#hervor1">Kunigunde.</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_125"/>Und eben so viel als ihr<hi rendition="#sup">7</hi> schrieb er an mich.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB014_0_309_126"/>
+        <hi rendition="#hervor1">Thusnelde</hi>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB014_0_309_127"/>Und meine dazu, so wirds ein <ref target="gb:note#GB03_2_FB014_0_note_087_309_127" xml:id="start_com_7085"/>recueil<ref xml:id="end_com_7085"/>.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56435_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56435_comment_com84534">
+  <p>(Zitiert nach: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 398–400; H: 2 ineinandergelegte Doppelblätter, 8 S. beschr., Charlotte von Steins Hd, S. 1–2 braune Tinte, S. 2–8 schwarze Tinte, einige Korrekturen und Anm. zu „Luise“ mit brauner Tinte; 1883 auf Schloss Kochberg von Fielitz noch eingesehen, nach Wahle 1899 nicht mehr zugänglich [vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 631 f.]; Handschriftenbeschreibung nach <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 507: 1 <del rendition="#s">mich sticht</del>] Korrektur mit brauner Tinte.    2 <del rendition="#s">××××××</del>] Streichung mit schwarzer Tinte.    3 <del rendition="#s">neues Mädchen</del>] Korrektur mit schwarzer Tinte.    4 neuen] Übergeschrieben mit schwarzer Tinte.    5 <del rendition="#s">str</del>] Korrektur mit schwarzer Tinte.    6 [zärtlich] treues] Korrektur mit brauner Tinte.    7 ihr] Mit brauner Tinte ergänzt.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56435_comment_com84535">
+<label xml:id="GB03_2_FB014_0_note_074_305_1" copyOf="#start_com_7072"><hi rendition="#normal">305,1-5</hi><hi rendition="#hervor2">Rino</hi> <gap quantity="3" reason="editorial"/> Frau von Stein</label>
+<p>Rino: Übernahme des Bardennamens Ryno aus Ossians <supplied>James Macphersons</supplied> „Songs of Selma“, deren Übersetzung aus dem Herbst 1771 Goethe in überarbeiteter Form im 2. Teil des „Werther“ mitteilt (vgl. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 4, 175–179; zu Goethes Ossian-Übersetzungen vgl. die einleitende Erläuterung zu GB 1 II, <ref target="gb:dokument#10223">Nr 90</ref>). Auf diesen Ursprung des Namens der Titelfigur verweist auch die Schreibweise in Goethes Tagebucheintrag vom 23. Juni 1776 (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR134_0_note_006_77_21">77,21</ref>). – Da die beiden ersten Seiten mit hellerer brauner Tinte geschrieben wurden wie auch die Korrekturen und die Anmerkung zu „Luise“, ist zu vermuten, dass Titelei und Personenverzeichnis erst später ergänzt wurden, und zwar nach Dezember 1782, als Louise von Göchhausen, bis dahin Gesellschafterin der Herzoginmutter, zu deren erster Hofdame ernannt worden war (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 507)</p>
+</note>
+<note xml:id="gb56435_comment_com84536">
+<label xml:id="GB03_2_FB014_0_note_075_305_1" copyOf="#start_com_7073"><hi rendition="#normal">305,10</hi>Fräulein Goechhaus</label>
+<p>Louise von Göchhausen (vgl. zu 29,1).</p>
+</note>
+<note xml:id="gb56435_comment_com84537">
+<label xml:id="GB03_2_FB014_0_note_076_305_1" copyOf="#start_com_7074"><hi rendition="#normal">305,11</hi>Frau von Werther geb. Münchhauß</label>
+<p>Emilie von Werthern-Beichlingen (vgl. zu <ref target="gb:note#GB03_2_BR121_0_note_003_72_7">72,7</ref>). </p>
+</note>
+<note xml:id="gb56435_comment_com84538">
+<label xml:id="GB03_2_FB014_0_note_077_305_1" copyOf="#start_com_7075"><hi rendition="#normal">306,21</hi>Wir haben dich <gap quantity="3" reason="editorial"/> erwart</label>
+<p>Infolge der verspätet in Frankfurt ankommenden herzoglichen Kutsche traf Goethe nicht schon wie ursprünglich geplant im Oktober, sondern erst am 7. November 1775 in Weimar ein (vgl. die erste Erläuterung zum Brief Johann August von Kalbs an Catharina Elisabeth und Johann Caspar Goethe vom 16. März 1776, abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>). Wie der Brief von Wieland an Lavater vom 27. Oktober 1775 belegt, waren daher auch in Weimar Zweifel an Goethes Besuchsabsichten aufgekommen: „Auf Göthen warten wir hier sehnlich seit 8–10 Tagen von Tag zu Tag, von Stunde zu Stunde. Noch ist er nicht angelangt, und wir besorgen nun, er komme gar nicht.“ (<ref target="sndb:sigle#141">WB</ref> 5, 430.)</p>
+</note>
+<note xml:id="gb56435_comment_com84539">
+<label xml:id="GB03_2_FB014_0_note_078_305_1" copyOf="#start_com_7076"><hi rendition="#normal">306,32</hi>ob er oder Werther mir spricht</label>
+<p>Als Verfasser der „Leiden des jungen Werthers“ (1774) war Goethe einer breiten, vor allem auch weiblichen Leserschaft in ganz Deutschland und Europa bekannt geworden (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>). Schon kurz nach der Veröffentlichung des Romans hatte er aber auch die negativen Folgen der Identifikation des Autors mit seinem literarischen Helden zu spüren bekommen. Recht bald war er deshalb <quote type="G">das ausgraben, und seziren</quote> seines <quote type="G">armen Werthers so satt</quote>, wie er im Brief vom 7. bis 10. März 1775 an Augusta zu Stolberg klagte (<ref target="gb:text#GB02_1_BR207_0_175_004 #GB02_1_BR207_0_175_005">GB 2 I, 175,4–5</ref>). Dass Goethe sich in Weimar in der so genannten ‚Werther-Tracht‘, also im blauen Rock (Jacke) mit gelber Weste und Hose, gezeigt habe, wie immer wieder kolportiert wird, ist unwahrscheinlich. Dagegen scheint das Porträt von Georg Melchior Kraus, das den Dichter kurz nach seiner Übersiedlung nach Weimar im grauen ‚Biber-Frack‘, weißer Weste, offenem weißen Hemd und schwarzer Hose zeigt, viel Ähnlichkeit mit dem Porträtierten zu besitzen (Original von 1775/76: <ref target="sndb:sigle#3162">KSW</ref>, Museen, Inv.-Nr DGe/00045; vgl. auch <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, Nr 25; vgl. <ref target="gb:note#GB02_2_BR196_0_note_009_164_10-11">GB 2 II, zu 164,10–11</ref>; zu „Rino“ als Zeugnis einer persönlich-kontroversen „Werther“/Goethe-Rezeption vgl. Markus Wallenborn: Frauen. Dichten. Goethe. Die produktive Goethe-Rezeption bei Charlotte von Stein, Marianne von Willemer und Bettina von Arnim. Tübingen 2006, S. 15–48). </p>
+</note>
+<note xml:id="gb56435_comment_com84540">
+<label xml:id="GB03_2_FB014_0_note_079_307_50" copyOf="#start_com_7077"><hi rendition="#normal">307,50</hi>ennuyant</label>
+<p>Franz.: langweilig, lästig.</p>
+</note>
+<note xml:id="gb56435_comment_com84541">
+<label xml:id="GB03_2_FB014_0_note_080_307_55" copyOf="#start_com_7078"><hi rendition="#normal">307,55</hi>streichen sich</label>
+<p>Sich streichen: schnell gehen, laufen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 434); hier: sich davonmachen; offenbar ein damals in der Weimarer Gesellschaft beliebter Ausdruck.</p>
+</note>
+<note xml:id="gb56435_comment_com84542">
+<label xml:id="GB03_2_FB014_0_note_081_307_58" copyOf="#start_com_7079"><hi rendition="#normal">307,58</hi>Redute</label>
+<p>Maskenball; zu den Weimarer Redouten vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_001_24_18">24,18</ref>. </p>
+</note>
+<note xml:id="gb56435_comment_com84543">
+<label xml:id="GB03_2_FB014_0_note_082_307_64" copyOf="#start_com_7080"><hi rendition="#normal">307,64</hi>coquette</label>
+<p>Franz.: gefallsüchtig; hier für franz. cocotte: eigentlich: Huhn, Hühnchen; dann übertragen ‚Kokotte‘. Als ‚coquet‘ charakterisierte Charlotte von Stein Goethe auch in ihrem Brief an Zimmermann vom 6. März 1776 (mitgeteilt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>).</p>
+</note>
+<note xml:id="gb56435_comment_com84544">
+<label xml:id="GB03_2_FB014_0_note_083_308_81" copyOf="#start_com_7081"><hi rendition="#normal">308,81</hi>Luise</label>
+<p>Luise Dudly, die Geliebte des Westindiers, die Emilie von Werthern-Beichlingen (‚Kunigund‘) in der Liebhaberaufführung des Stückes gespielt hatte (vgl. zu 29,1). </p>
+</note>
+<note xml:id="gb56435_comment_com84545">
+<label xml:id="GB03_2_FB014_0_note_084_308_101" copyOf="#start_com_7082"><hi rendition="#normal">308,101</hi>cediren</label>
+<p>zedieren (von lat. cedere): überlassen, abtreten.</p>
+</note>
+<note xml:id="gb56435_comment_com84546">
+<label xml:id="GB03_2_FB014_0_note_085_309_114" copyOf="#start_com_7083"><hi rendition="#normal">309,114</hi>purgirt</label>
+<p>purgieren (von lat. purgare: reinigen, abführen): hier wohl ‚vorführen‘.</p>
+</note>
+<note xml:id="gb56435_comment_com84547">
+<label xml:id="GB03_2_FB014_0_note_086_309_120" copyOf="#start_com_7084"><hi rendition="#normal">309,120</hi>Portefeuil</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR135_0_note_008_78_11">78,11</ref>.</p>
+</note>
+<note xml:id="gb56435_comment_com84548">
+<label xml:id="GB03_2_FB014_0_note_087_309_127" copyOf="#start_com_7085"><hi rendition="#normal">309,127</hi>recueil</label>
+<p>Franz.: Sammelband.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

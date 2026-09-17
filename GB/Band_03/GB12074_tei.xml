@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4730"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12074" n="GB 3, Nr. 464">
+  <teiHeader xml:id="gb12074_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>464.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 22. Februar <supplied>1779. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12074_tei.xml</idno>
+        <idno type="URI">gb12074</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR464_0</idno>
+        <idno type="KSW-ID">12074</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="258" to="259">258-259</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="857" to="858">857-858</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12074_header_hwit1441" corresp="#gb12074_source_hwit1441" sameAs="#gb12074_comment_hwit1441" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 48</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12074,,1441/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Meine Seele löst sich nach und nach durch die lieblichen Töne    aus den Banden</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-02-22">22. Februar <supplied>1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12074_source_hwit1441" corresp="#gb12074_header_hwit1441" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12074/23001"/>
+      <p>
+        <anchor xml:id="GB03_1_BR464_0_258_019"/>
+        <ref target="gb:note#GB03_2_BR464_0_note_001_258_19" xml:id="start_com_3760"/>Meine Seele löst sich nach und nach<ref xml:id="end_com_3760"/> durch die lieblichen Töne <ref target="gb:note#GB03_2_BR464_0_note_002_258_19-20" xml:id="start_com_3761"/>aus 
+<anchor xml:id="GB03_1_BR464_0_258_020"/>den Banden der Protokolle und Ackten<ref xml:id="end_com_3761"/>. <ref target="gb:note#GB03_2_BR464_0_note_003_258_20" xml:id="start_com_3762"/>Ein Quatro neben<ref xml:id="end_com_3762"/>
+        <ref target="gb:note#GB03_2_BR464_0_note_004_258_20-21" xml:id="start_com_3763"/>in der 
+<anchor xml:id="GB03_1_BR464_0_258_021"/>grünen Stube<ref xml:id="end_com_3763"/>, sizz ich und rufe <ref target="gb:note#GB03_2_BR464_0_note_005_258_21" xml:id="start_com_3764"/>die fernen Gestalten<ref xml:id="end_com_3764"/> leise herüber. 
+<anchor xml:id="GB03_1_BR464_0_259_001"/>
+        <ref target="gb:note#GB03_2_BR464_0_note_006_259_1" xml:id="start_com_3765"/>Eine Scene<ref xml:id="end_com_3765"/> soll sich heut absondern denck ich, drum komm ich 
+<anchor xml:id="GB03_1_BR464_0_259_002"/>schwerlich. Gute Nacht. Einen gar <ref target="gb:note#GB03_2_BR464_0_note_007_259_2" xml:id="start_com_3766"/>guten Brief von meiner Mutter<ref xml:id="end_com_3766"/>
+        <anchor xml:id="GB03_1_BR464_0_259_003"/>hab ich kriegt.    d<g ref="#typoSuspension"/> 22. F. Abend    G</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12074_comment">
+<body>
+<div type="metadata" xml:id="gb12074_comment_com71">
+  <ab type="numberAddressee"><label>464.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 22. Februar <supplied>1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb12074_comment_com1417">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd II) wurde der vorliegende Brief in den Februar 1780 eingeordnet. Seit dem Erstdruck wird er nach der eigenhändigen Datumsangabe und dem Inhalt auf den 22. Februar 1779 datiert (vgl. zu <ref target="gb:note#GB03_2_BR464_0_note_002_258_19-20">258,19-20</ref>; zu <ref target="gb:note#GB03_2_BR464_0_note_005_258_21">258,21</ref>; zu <ref target="gb:note#GB03_2_BR464_0_note_006_259_1">259,1</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12074_comment_com2115">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 48. – 1 Bl. 16,4 &#xD7; 8,2(–8,5) cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); an beiden Seitenrändern ausgerissen durch Öffnen der Verschlussoblate oder des Siegels; oben rechts von fremder Hd, Tinte: „10.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1780, Nr 10), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 213.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 12, Nr 783.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12074_comment_com3911">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12074_comment_com12362">
+<label xml:id="GB03_2_BR464_0_note_001_258_19" copyOf="#start_com_3760"><hi rendition="#fett">258,19</hi>Meine Seele löst sich nach und nach</label>
+<p>Mit Bezug auf die kurz zuvor begonnene Arbeit an der „Iphigenie“ und in Anklang an die Schlussverse der ersten Strophe von „An den Mond“: <quote type="G">Lösest endlich auch einmal / Meine Seele ganz</quote> (<ref target="gb:text#GB03_1_BR326_0_194_018 #GB03_1_BR326_0_194_019">194,18–19</ref>). In der frühesten bekannten Fassung, die zu Lebzeiten Goethes nicht veröffentlicht worden ist, findet sich das Gedicht mit den Noten nach Philipp Christoph Kayser unter Goethes Briefen an Charlotte von Stein (<ref target="gb:dokument#11675">Nr 326</ref>).</p>
+
+</note>
+<note xml:id="gb12074_comment_com18242">
+<label xml:id="GB03_2_BR464_0_note_002_258_19-20" copyOf="#start_com_3761"><hi rendition="#fett">258,19-20</hi>aus den Banden der Protokolle und Ackten</label>
+<p>Etwa seit Mitte Januar 1779 hatte die Intensität des Briefwechsels mit Charlotte von Stein etwas nachgelassen, was vor allem an der stark gewachsenen amtlichen Tätigkeit Goethes lag. Seit dem 14. Februar arbeitete Goethe zudem an der „Iphigenie“ (vgl. zu <ref target="gb:note#GB03_2_BR462_0_note_003_258_3">258,3</ref>).</p>
+
+</note>
+<note xml:id="gb12074_comment_com12370">
+<label xml:id="GB03_2_BR464_0_note_003_258_20" copyOf="#start_com_3762"><hi rendition="#fett">258,20</hi>Ein Quatro neben</label>
+<p>Wahrscheinlich von ital. quattro: vier, figürlich: ein paar; hier vielleicht im Sinne von ‚ein paar Schritte (von dir entfernt)‘.</p>
+
+</note>
+<note xml:id="gb12074_comment_com12371">
+<label xml:id="GB03_2_BR464_0_note_004_258_20-21" copyOf="#start_com_3763"><hi rendition="#fett">258,20-21</hi>in der grünen Stube</label>
+<p>Im ersten Stock der Wohnung der Familie von Stein an der Ackerwand (vgl. <ref target="gb:text#GB03_1_BR309_0_178_017">178,17</ref>).</p>
+
+</note>
+<note xml:id="gb12074_comment_com12372">
+<label xml:id="GB03_2_BR464_0_note_005_258_21" copyOf="#start_com_3764"><hi rendition="#fett">258,21</hi>die fernen Gestalten</label>
+<p>Mit Bezug auf die Figuren der „Iphigenie“.</p>
+
+</note>
+<note xml:id="gb12074_comment_com12373">
+<label xml:id="GB03_2_BR464_0_note_006_259_1" copyOf="#start_com_3765"><hi rendition="#fett">259,1</hi>Eine Scene</label>
+<p>Wann genau die einzelnen Szenen der „Iphigenie“ entstanden sind, lässt sich nicht rekonstruieren. Am 13. März müssen zumindest die ersten drei Akte vorgelegen haben (vgl. <ref target="gt:dokument#691">GT I 1, 77</ref>).</p>
+
+</note>
+<note xml:id="gb12074_comment_com18343">
+<label xml:id="GB03_2_BR464_0_note_007_259_2" copyOf="#start_com_3766"><hi rendition="#fett">259,2</hi>guten Brief von meiner Mutter</label>
+<p>Nicht überliefert. – Von der Freude, mit der vor allem Catharina Elisabeth Goethe in dieser Zeit Nachrichten über das Weimarer Leben ihres Sohnes aufnahm, zeugen ihre Briefe an Dritte. Am 28. Januar 1779 begann sie einen Brief an einen unbekannten Empfänger in Weimar, möglicherweise Johann August von Kalb: „Wir haben uns freylich über die neue Ehrenstelle von unserm Sohn gefreut, das könnt Ihr leicht glauben.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 435.) Am 9. Februar schrieb sie in einem Brief an die Herzoginmutter Anna Amalia: „Daß der Herr geheimde Legations Rath Häschelhanß sich wohlbefindet hat uns sehr gefreut, auch daß er brav Schlittschu gelaufen ist. <gap quantity="3" reason="editorial"/> Das überschickte Porträt vom Docter macht uns Tag täglich viele Freude, alle Welt kent ihn beym ersten Anblick – Wir dancken nochmahl davor <gap quantity="3" reason="editorial"/>.“ (Ebd., 437.) Gemeint ist die Kopie des Goethe-Porträts im grauen ‚Biber-Frack‘ von Georg Melchior Kraus, die Anna Amalia im November 1778 Goethes Eltern geschenkt hatte (vgl. <ref target="gb:note#GB02_2_BR196_0_note_009_164_10-11">GB 2 II, zu 164,10–11</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

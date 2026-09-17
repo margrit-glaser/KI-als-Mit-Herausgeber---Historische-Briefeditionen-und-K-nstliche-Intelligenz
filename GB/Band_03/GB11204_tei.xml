@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1850"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11204" n="GB 3, Nr. 183">
+  <teiHeader xml:id="gb11204_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>183.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName>, <persName key="sndb:person#45158">Johanna Fahlmer</persName> und <persName key="sndb:person#53659">Johann Caspar Bölling</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 6. November <supplied>1776. Mittwoch</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:13Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11204_tei.xml</idno>
+        <idno type="URI">gb11204</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR183_0</idno>
+        <idno type="KSW-ID">11204</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="115" to="116">115-116</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="417" to="418">417-418</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11204_header_hwit1096" corresp="#gb11204_source_hwit1096" sameAs="#gb11204_comment_hwit1096" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11204,,1096/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mittwoch d. 6. Nov. Abends 6 Uhr. Ich sizze noch in meinem Garten, es ist das schönste Wetter</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11204_header_acc169" corresp="gb11204_comment_acc169">
+            <objectIdentifier>
+              <objectName>Abschrift des Dramas „Die Geschwister“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-11-06">6. November <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43781">Goethe, Catharina Elisabeth</persName> und
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName> und
+            <persName key="sndb:person#53659">Bölling, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11204_source_hwit1096" corresp="#gb11204_header_hwit1096" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11204/62351"/>
+      <opener>
+        <dateline rendition="#einrueck7">
+          <anchor xml:id="GB03_1_BR183_0_115_009"/>An <ref target="gb:note#GB03_2_BR183_0_note_001_115_9" xml:id="start_com_1749"/>Frau Aya<ref xml:id="end_com_1749"/>, Tante Fahlmer und</dateline>
+        <dateline rendition="#einrueck9">
+          <anchor xml:id="GB03_1_BR183_0_115_010"/>Freund Bölling gesamt,</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR183_0_115_011"/>Mittwoch d<g ref="#typoSuspension"/>. 6. Nov. Abends 6 Uhr. Ich sizze noch <ref target="gb:note#GB03_2_BR183_0_note_002_115_11-12" xml:id="start_com_1750"/>in meinem Garten<ref xml:id="end_com_1750"/>, 
+<anchor xml:id="GB03_1_BR183_0_115_012"/>es ist das schönste Wetter von der Welt, <ref target="gb:note#GB03_2_BR183_0_note_003_115_12-13" xml:id="start_com_1751"/>pflanze und mache allerley 
+<anchor xml:id="GB03_1_BR183_0_115_013"/>Zeugs<ref xml:id="end_com_1751"/> das künftig Jahr soll schön aussehn und uns in guten Augenblicken 
+<anchor xml:id="GB03_1_BR183_0_115_014"/>Freude machen. Heut hab ich einen neuen Gang machen 
+<anchor xml:id="GB03_1_BR183_0_115_015"/>lassen, <ref target="gb:note#GB03_2_BR183_0_note_004_115_15" xml:id="start_com_1752"/>hab auf die Arbeiten getrieben<ref xml:id="end_com_1752"/>, denn ich hatte einmal Ruh, es 
+<anchor xml:id="GB03_1_BR183_0_115_016"/>waren wenig Menschen da,<ptr n="1" target="#a001_115.16"/> nun hab ich <ref target="gb:note#GB03_2_BR183_0_note_005_115_16-17" xml:id="start_com_1753"/>die Expedition der letzten 
+<anchor xml:id="GB03_1_BR183_0_115_017"/>Session signirt<ptr n="2" target="#a002_115.17"/>
+        <ref xml:id="end_com_1753"/>, und will euch nur mit wenig Worten sagen dass ich so 
+<anchor xml:id="GB03_1_BR183_0_115_018"/>vergnügt und glücklich bin, als es ein Mensch seyn kan. Von Geschäfften 
+<anchor xml:id="GB03_1_BR183_0_115_019"/>bin ich eben nicht gedrückt, desto mehr geplagt von dem 
+<anchor xml:id="GB03_1_BR183_0_115_020"/>was den Grund aller Geschäffte macht: <ref target="gb:note#GB03_2_BR183_0_note_006_115_20-22" xml:id="start_com_1754"/>von den Tollen Grillen, Leidenschafften 
+<anchor xml:id="GB03_1_BR183_0_115_021"/>und Thorheiten und Schwächen und Stärcken der Menschen<ref xml:id="end_com_1754"/>, 
+<anchor xml:id="GB03_1_BR183_0_115_022"/>davon hab ich den Vorteil dass ich nicht über alles das Zeit habe 
+<anchor xml:id="GB03_1_BR183_0_115_023"/>an mich selbst zu dencken, und wie sich Frau Aja erinnert: <ref target="gb:note#GB03_2_BR183_0_note_007_115_23-24" xml:id="start_com_1755"/>dass ich 
+<anchor xml:id="GB03_1_BR183_0_115_024"/>unleidlich war da mich nichts plagte<ref xml:id="end_com_1755"/>, so bin ich geborgen da ich geplagt 
+<anchor xml:id="GB03_1_BR183_0_115_025"/>werde. — Ubrigens hab ich alles was ein Mensch sich wünschen kan, 
+<anchor xml:id="GB03_1_BR183_0_116_001"/>und bin freylich doch nicht ruhig, des Menschen Treiben ist unendlich 
+<anchor xml:id="GB03_1_BR183_0_116_002"/>bis er ausgetrieben hat. Lebt wohl und schreibt mir mehr, denn ich 
+<anchor xml:id="GB03_1_BR183_0_116_003"/>kann nicht schreiben. Hier habt ihr <ref target="gb:note#GB03_2_BR183_0_note_008_116_3-4" xml:id="start_com_1756"/>ein klein Blümlein vergiss mein 
+<anchor xml:id="GB03_1_BR183_0_116_004"/>nicht<ref xml:id="end_com_1756"/>. Leßts! lassts den <ref target="gb:note#GB03_2_BR183_0_note_009_116_4" xml:id="start_com_1757"/>Vater<ref xml:id="end_com_1757"/> lesen, schickts der <ref target="gb:note#GB03_2_BR183_0_note_010_116_4" xml:id="start_com_1758"/>Schwester<ref xml:id="end_com_1758"/> und die soll 
+<anchor xml:id="GB03_1_BR183_0_116_005"/>mir’s wiederschicken, niemand solls abschreiben. Und das soll heilig 
+<anchor xml:id="GB03_1_BR183_0_116_006"/>gehalten werden so kriegt ihr auch wieder was.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR183_0_116_007"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p rendition="#c">
+          <anchor xml:id="GB03_1_BR183_0_116_008"/>
+          <ref target="gb:note#GB03_2_BR183_0_note_011_116_8-9" xml:id="start_com_1759"/>Der Treu und Glauben der Tante Fahlmer sind</p>
+        <p rendition="#c">
+          <anchor xml:id="GB03_1_BR183_0_116_009"/>
+          <hi rendition="#hervor1">Die Geschwister</hi> empfohlen<ref xml:id="end_com_1759"/>
+        </p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#11204/62352" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11204/62353" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11204/62354" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11204_comment">
+<body>
+<div type="metadata" xml:id="gb11204_comment_com654">
+  <ab type="numberAddressee"><label>183.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName>, <persName key="sndb:person#45158">Johanna Fahlmer</persName> und <persName key="sndb:person#53659">Johann Kaspar Bölling</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 6. November <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11204_comment_com1703">
+  <p>Das fehlende Jahr ergibt sich aus der Beilage: Das Drama „Die Geschwister“ (vgl. <ref target="gb:text#GB03_1_BR183_0_116_008 #GB03_1_BR183_0_116_009">116,8–9</ref>) entstand laut Tagebuch vom 26. bis 29. Oktober 1776 (vgl. GT I 1, 28).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11204_comment_com2698">
+  <p>H: Privatbesitz, Deutschland. – Doppelblatt 19,9 × 27,7 cm, 1 S. beschr., egh., Tinte; S. 1 oben rechts quer zur Schreibrichtung von Johanna Fahlmers Hd, Tinte: „Nr 8“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), oben in der Mitte von fremder Hd, Bleistift: „45“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 115 f., Nr 45.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 117 f., Nr 524 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11204_comment_com3627">
+  <p>Abschrift des Dramas „Die Geschwister“ (vgl. <ref target="gb:text#GB03_1_BR183_0_116_008 #GB03_1_BR183_0_116_009">116,8–9</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11204_comment_com4494">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 9. November 1776 (vgl. <ref target="sndb:sigle#4224">GR/RB 1776,3</ref>, Bl. 5r).</p>
+  <p rendition="#einrueck1">Über Catharina Elisabeth Goethe vgl. die einleitende Erläuterung zu <ref target="gb:note#gb9356_comment_com5042">Nr 276</ref>.</p>
+  <p rendition="#einrueck1">Über Johanna Fahlmer vgl. die einleitende Erläuterung zum Brief aus der zweiten Hälfte März? 1773 (<ref target="gb:note#gb10586_comment_com4208">GB 2 II, Nr 19</ref>).</p>
+  <p rendition="#einrueck1">Johann Caspar Bölling (1739–1793), geboren in Elberfeld als Sohn des Gastwirts Johann Eberhard Bölling, hatte 1771 das Frankfurter Bürgerrecht erworben. Der mit Goethes Eltern befreundete Kaufmann war Besitzer einer Korn- und Spezerei-Großhandlung in der Buchgasse (später Mainzer Gasse). Für Wieland verwaltete er das Haupt-Comptoir des „Teutschen Merkur“ in Frankfurt. 1778 wurde er zum Mitpfleger für das Armen-, Waisen- und Arbeitshaus gewählt (nach freundlicher Mitteilung von Roman Fischer, Institut für Stadtgeschichte Frankfurt a. M.). Mit Goethe verband Bölling ein offenbar freundschaftliches Verhältnis. Nachdem Goethe im September 1779 auf seiner zweiten Schweizer Reise seine Familie in Frankfurt besucht hatte, schrieb Catharina Elisabeth in einem Brief an die Herzoginmutter Anna Amalia vom 8. Oktober 1779, Bölling habe „an der Erscheinung seines Freundes Goethe sich weidlich gelabet.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 459.) Näheres über die Beziehung beider zueinander konnte allerdings nicht ermittelt werden. Außer dem vorliegenden ist kein weiterer Brief Goethes an Bölling überliefert; ermittelt wurden lediglich zehn nicht überlieferte Briefe für den Zeitraum bis Februar 1778 (<ref target="gb:dokument#15705">EB 2</ref>, <ref target="gb:dokument#15757">58</ref>, <ref target="gb:dokument#15781">83</ref>, <ref target="gb:dokument#11244">121</ref>, <ref target="gb:dokument#52586">134</ref>, <ref target="gb:dokument#52587">138</ref>, <ref target="gb:dokument#52595">152</ref>, <ref target="gb:dokument#15850">169</ref>, <ref target="gb:dokument#15865">191</ref>, <ref target="gb:dokument#52613">195</ref>). Briefe Böllings an Goethe sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11204_comment_com10542">
+<label xml:id="GB03_2_BR183_0_note_001_115_9" copyOf="#start_com_1749"><hi rendition="#fett">115,9</hi>Frau Aya</label>
+<p>Scherzhafter Name für Goethes Mutter (vgl. zu <ref target="gb:note#GB03_2_BR043_0_note_002_31_2">31,2</ref> sowie <ref target="gb:note#GB02_2_BR253_0_note_023_205_22-23">GB 2 II, zu 205,22–23</ref>).</p>
+
+</note>
+<note xml:id="gb11204_comment_com13867">
+<label xml:id="GB03_2_BR183_0_note_002_115_11-12" copyOf="#start_com_1750"><hi rendition="#fett">115,11-12</hi>in meinem Garten</label>
+<p>Goethes Gartengrundstück und Haus am „Stern“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11204_comment_com10556">
+<label xml:id="GB03_2_BR183_0_note_003_115_12-13" copyOf="#start_com_1751"><hi rendition="#fett">115,12-13</hi>pflanze und mache allerley Zeugs</label>
+<p>Im Zusammenhang mit der Umgestaltung der Umgebung seines Gartenhauses, mit der Goethe noch bis weit ins folgende Jahr beschäftigt war (vgl. zu <ref target="gb:note#GB03_2_BR224_0_note_007_131_20">131,20</ref> sowie allgemein zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11204_comment_com14241">
+<label xml:id="GB03_2_BR183_0_note_004_115_15" copyOf="#start_com_1752"><hi rendition="#fett">115,15</hi>hab auf die Arbeiten getrieben</label>
+<p>Im Tagebuch ist unter dem Datum des vorliegenden Briefes vermerkt: <quote type="G">Ganz im Garten auf die Arbeiter gesehen.</quote> (<ref target="gt:dokument#197">GT I 1, 29</ref>.)</p>
+
+</note>
+<note xml:id="gb11204_comment_com17659">
+<label xml:id="GB03_2_BR183_0_note_005_115_16-17" copyOf="#start_com_1753"><hi rendition="#fett">115,16-17</hi>die Expedition der letzten Session signirt</label>
+<p>Mit Bezug auf die Sitzung des Geheimen Consiliums vom 5. November 1776, an der Goethe teilgenommen hatte. Akten, die diese Sitzung betrafen, waren an Goethe geschickt (expediert) worden, der sie durch seine Unterschrift als ‚bearbeitet‘ gekennzeichnet (signiert) und weitergeleitet (expediert) hatte.</p>
+
+</note>
+<note xml:id="gb11204_comment_com10557">
+<label xml:id="GB03_2_BR183_0_note_006_115_20-22" copyOf="#start_com_1754"><hi rendition="#fett">115,20-22</hi>von den Tollen Grillen <gap quantity="3" reason="editorial"/> der Menschen</label>
+<p>Dass ihn die Erfahrung <quote type="G">des bunten Treibens der Welt</quote> (<ref target="gb:text#GB03_1_BR210_0_126_011 #GB03_1_BR210_0_126_012">126,11–12</ref>) glücklich mache, schrieb Goethe am 8. Januar 1777 auch an Johann Caspar Lavater.</p>
+
+</note>
+<note xml:id="gb11204_comment_com10558">
+<label xml:id="GB03_2_BR183_0_note_007_115_23-24" copyOf="#start_com_1755"><hi rendition="#fett">115,23-24</hi>dass ich unleidlich war <gap quantity="3" reason="editorial"/> plagte</label>
+<p>Vermutlich spielt Goethe auf die Zeit an, in der er als Anwalt in Frankfurt praktiziert hatte, eine Tätigkeit, die ihn weder in Anspruch genommen noch erfüllt hatte.</p>
+
+</note>
+<note xml:id="gb11204_comment_com15092">
+<label xml:id="GB03_2_BR183_0_note_008_116_3-4" copyOf="#start_com_1756"><hi rendition="#fett">116,3-4</hi>ein klein Blümlein vergiss mein nicht</label>
+<p>Goethe übersandte eine Abschrift des kurz zuvor entstandenen Einakters „Die Geschwister“ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR198_0_note_004_121_20">121,20</ref>).</p>
+
+</note>
+<note xml:id="gb11204_comment_com10559">
+<label xml:id="GB03_2_BR183_0_note_009_116_4" copyOf="#start_com_1757"><hi rendition="#fett">116,4</hi>Vater</label>
+<p>Johann Caspar Goethe.</p>
+
+</note>
+<note xml:id="gb11204_comment_com13869">
+<label xml:id="GB03_2_BR183_0_note_010_116_4" copyOf="#start_com_1758"><hi rendition="#fett">116,4</hi>Schwester</label>
+<p>Cornelia Schlosser in Emmendingen.</p>
+
+</note>
+<note xml:id="gb11204_comment_com17697">
+<label xml:id="GB03_2_BR183_0_note_011_116_8-9" copyOf="#start_com_1759"><hi rendition="#fett">116,8-9</hi>Der Treu <gap quantity="3" reason="editorial"/> empfohlen</label>
+<p>Johanna Fahlmer sollte der Versuchung widerstehen, das Stück den mit ihr verwandten und befreundeten Brüdern Jacobi mitzuteilen, die es in diesem Fall wohl für die von Johann Georg Jacobi herausgegebene Zeitschrift „Iris“ hätten haben wollen. In dieser ‚Damen‘-Zeitschrift war im Jahr zuvor u. a. Goethes Singspiel „Erwin und Elmire“ erschienen (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR198_0_note_005_121_20">121,20</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

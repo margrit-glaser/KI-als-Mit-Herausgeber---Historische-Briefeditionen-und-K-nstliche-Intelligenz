@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5050"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11986" n="GB 3, Nr. 495">
+  <teiHeader xml:id="gb11986_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>495.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 13. Mai 1779. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:20Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11986_tei.xml</idno>
+        <idno type="URI">gb11986</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR495_0</idno>
+        <idno type="KSW-ID">11986</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="276" to="277">276-277</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="911" to="911">911</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11986_header_hwit1483" corresp="#gb11986_source_hwit1483" sameAs="#gb11986_comment_hwit1483" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 12</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11986,,1483/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ihr Frühstück hab ich noch in Tiefurt genossen. Knebel danckt    fürs Andencken</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11986_header_acc485" corresp="gb11986_comment_acc485">
+            <objectIdentifier>
+              <objectName>Skizze zu Schmuckinitialen </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-05-13">13. Mai 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11986_source_hwit1483" corresp="#gb11986_header_hwit1483" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11986/23056"/>
+      <p>
+        <anchor xml:id="GB03_1_BR495_0_276_017"/>
+        <ref target="gb:note#GB03_2_BR495_0_note_001_276_17" xml:id="start_com_3995"/>Ihr Frühstück<ref xml:id="end_com_3995"/> hab ich noch <ref target="gb:note#GB03_2_BR495_0_note_002_276_17" xml:id="start_com_3996"/>in Tiefurt<ref xml:id="end_com_3996"/> genossen. Knebel danckt fürs 
+<anchor xml:id="GB03_1_BR495_0_276_018"/>
+        <ref target="gb:note#GB03_2_BR495_0_note_003_276_18" xml:id="start_com_3997"/>Andencken<ref xml:id="end_com_3997"/>. Dass Sie’s durch mich gegeben haben war auch freundlich, 
+<anchor xml:id="GB03_1_BR495_0_276_019"/>denn ich hätte doch sonst einige<ptr n="1" target="#a001_276.19"/> Eifersucht gehabt ob ich schon 
+<anchor xml:id="GB03_1_BR495_0_276_020"/>
+        <ref target="gb:note#GB03_2_BR495_0_note_004_276_20" xml:id="start_com_3998"/>das grösere Herz<ref xml:id="end_com_3998"/> gekriegt habe. Zu Tische kom ich bald. Hier schick 
+<anchor xml:id="GB03_1_BR495_0_277_001"/>ich indess ein <ref target="gb:note#GB03_2_BR495_0_note_005_277_1" xml:id="start_com_3999"/>doppelt <emph rendition="#latin">A</emph>
+        <ref xml:id="end_com_3999"/>. Ich mochte Ihnen iede Stunde was zu geben 
+<anchor xml:id="GB03_1_BR495_0_277_002"/>haben.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR495_0_277_003"/>
+        <signed rend="paraph" rendition="#einrueck8">G.</signed>
+        <dateline>       d<g ref="#typoSuspension"/>. 13 May<ptr n="2" target="#a002_277.3"/> 1779.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11986_comment">
+<body>
+<div type="metadata" xml:id="gb11986_comment_com537">
+  <ab type="numberAddressee"><label>495.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 13. Mai 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11986_comment_com2581">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 12. – 1 Bl. 20(–20,4) × 9,8(–10) cm, &#x2154; S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „24“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 26), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 224 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 36, Nr 815.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11986_comment_com3585">
+  <p>Skizze zu Schmuckinitialen (vgl. zu <ref target="gb:note#GB03_2_BR495_0_note_005_277_1">277,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11986_comment_com4377">
+  <p>Der Brief beantwortet vermutlich einen nicht überlieferten Brief Charlotte von Steins vom 12. Mai 1779 (vgl. zu <ref target="gb:note#GB03_2_BR495_0_note_003_276_18">276,18</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11986_comment_com11888">
+<label xml:id="GB03_2_BR495_0_note_001_276_17" copyOf="#start_com_3995"><hi rendition="#fett">276,17</hi>Ihr Frühstück</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR494_0_note_002_276_13">276,13</ref>.</p>
+
+</note>
+<note xml:id="gb11986_comment_com11889">
+<label xml:id="GB03_2_BR495_0_note_002_276_17" copyOf="#start_com_3996"><hi rendition="#fett">276,17</hi>in Tiefurt</label>
+<p>Wo Goethe am 12. Mai Knebel und wahrscheinlich auch Prinz Constantin besucht hatte.</p>
+
+</note>
+<note xml:id="gb11986_comment_com18721">
+<label xml:id="GB03_2_BR495_0_note_003_276_18" copyOf="#start_com_3997"><hi rendition="#fett">276,18</hi>Andencken</label>
+<p>Erinnerungszeichen, -stück (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 490); hier, wie der Kontext belegt, wohl etwas in der Art eines mit Zucker und Spruchzettelchen verzierten Gewürz- oder Honigkuchenherzes. Da Charlotte von Steins Sendung nach Tiefurt auch dieses ausdrücklich für Knebel bestimmte Geschenk beilag, ist anzunehmen, dass sie Goethe in einem Begleitschreiben um die Gefälligkeit der Weitergabe gebeten hatte.</p>
+
+</note>
+<note xml:id="gb11986_comment_com11890">
+<label xml:id="GB03_2_BR495_0_note_004_276_20" copyOf="#start_com_3998"><hi rendition="#fett">276,20</hi>das grösere Herz</label>
+<p>Für das sich Goethe mit einem Gedicht bei der Freundin bedankte (vgl. <ref target="gb:dokument#10655">Nr 496</ref>).</p>
+
+</note>
+<note xml:id="gb11986_comment_com11891">
+<label xml:id="GB03_2_BR495_0_note_005_277_1" copyOf="#start_com_3999"><hi rendition="#fett">277,1</hi>doppelt <emph rendition="#latin">A</emph></label>
+<p>Ein Entwurf zu Schmuckinitialen für die Sommerresidenz der Herzoginmutter Anna Amalia in Schloss Ettersburg, die diese am 14. Mai bezog. Merck soll die Initialen noch gesehen haben, wie die mehrfache Wiedergabe des ‚doppelten A‘ im Brief Wielands an Merck vom 1. August 1779 vermuten lässt (vgl. <ref target="sndb:sigle#141">WB</ref> 7 I, 209).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

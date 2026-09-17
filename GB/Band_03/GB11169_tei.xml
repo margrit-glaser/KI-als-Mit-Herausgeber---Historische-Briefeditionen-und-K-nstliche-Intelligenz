@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1630"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11169" n="GB 3, Nr. 161">
+  <teiHeader xml:id="gb11169_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>161.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 28.&#x2012;30. August <supplied>1776. Mittwoch&#x2012;Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:58Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11169_tei.xml</idno>
+        <idno type="URI">gb11169</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR161_0</idno>
+        <idno type="KSW-ID">11169</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="100" to="101">100-101</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="374" to="376">374-376</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11169_header_hwit1048" corresp="#gb11169_source_hwit1048" sameAs="#gb11169_comment_hwit1048" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-7</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11169,,1048/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>28. Aug. Guten Morgen Gustgen! Wie ich aus dem Bette steige guten Morgen. Ein herrlich schöner Tag aber kühl</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-08-28" to="1776-08-30">28.-30. August <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Augusta Louise Gräfin zu</persName>
+            <placeName key="sndb:ort#87955">Uetersen</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11169_source_hwit1048" corresp="#gb11169_header_hwit1048" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11169/21001"/>
+      <p>
+        <anchor xml:id="GB03_1_BR161_0_100_006"/>d<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR161_0_note_001_100_6" xml:id="start_com_1543"/>28 Aug.<ref xml:id="end_com_1543"/> Guten Morgen Gustgen! Wie ich aus dem Bette steige 
+<anchor xml:id="GB03_1_BR161_0_100_007"/>guten Morgen. Ein herrlich schöner Tag aber kühl. Die Sonne liegt 
+<anchor xml:id="GB03_1_BR161_0_100_008"/>schon auf meinen Wiesen! Der Thau schwebt noch über dem <ref target="gb:note#GB03_2_BR161_0_note_002_100_8" xml:id="start_com_1544"/>Fluss<ref xml:id="end_com_1544"/>. 
+<anchor xml:id="GB03_1_BR161_0_100_009"/>Lieber Engel warum müssen wir so fern von einander seyn. Ich will 
+<anchor xml:id="GB03_1_BR161_0_100_010"/>hinüber ans Wasser gehn und sehn ob ich <ref target="gb:note#GB03_2_BR161_0_note_003_100_10" xml:id="start_com_1545"/>ein Paar Enten schiesen<ref xml:id="end_com_1545"/>
+        <anchor xml:id="GB03_1_BR161_0_100_011"/>kann.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR161_0_100_012"/>Gegen 12. Ich verspätete mich auf der Jagt. Erwischte eine Ente. 
+<anchor xml:id="GB03_1_BR161_0_100_013"/>Kam drauf gleich <ref target="gb:note#GB03_2_BR161_0_note_004_100_13" xml:id="start_com_1546"/>in das Getreibe des Tags<ref xml:id="end_com_1546"/> und bin nun ganz zerstreut. 
+<anchor xml:id="GB03_1_BR161_0_100_014"/>Adieu indess.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR161_0_100_015"/>Nachmittag 4. Ich erwarte <ref target="gb:note#GB03_2_BR161_0_note_005_100_15" xml:id="start_com_1547"/>Wields Frau und Kinder<ref xml:id="end_com_1547"/>. Habe heut viel 
+<anchor xml:id="GB03_1_BR161_0_100_016"/>an dich gedacht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR161_0_100_017"/>Abends 7. Sie gehn eben von mir weg! – <ref target="gb:note#GB03_2_BR161_0_note_006_100_17" xml:id="start_com_1548"/>Und nun nichts mehr.<ref xml:id="end_com_1548"/> – 
+<anchor xml:id="GB03_1_BR161_0_100_018"/>Gott sey Danck ein Tag an dem ich gar nicht<ptr n="1" target="#a001_100.18"/> gedacht, an dem ich 
+<anchor xml:id="GB03_1_BR161_0_100_019"/>mich blos den sinnligen Eindrücken überlassen habe. Nun Adieu für 
+<anchor xml:id="GB03_1_BR161_0_100_020"/>heut bestes.</p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_1_BR161_0_100_021"/>d<g ref="#typoSuspension"/>. 30.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR161_0_100_022"/>
+        <ref target="gb:note#GB03_2_BR161_0_note_007_100_22" xml:id="start_com_1549"/>Es geht mir wie dir Gustgen<ref xml:id="end_com_1549"/>, ich hab auch was auf dem Herzen, also 
+<anchor xml:id="GB03_1_BR161_0_100_023"/>heraus damit.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR161_0_100_024"/>
+        <ref target="gb:note#GB03_2_BR161_0_note_008_100_24" xml:id="start_com_1550"/>Von Friz hab ich noch keinen Brief.<ref xml:id="end_com_1550"/>
+        <ref target="gb:note#GB03_2_BR161_0_note_009_100_24-25" xml:id="start_com_1551"/>Der Herzog glaubt noch er 
+<anchor xml:id="GB03_1_BR161_0_100_025"/>komme<ref xml:id="end_com_1551"/>, und man fragt nach ihm und ich kann nichts sagen. Lieb 
+<anchor xml:id="GB03_1_BR161_0_100_026"/>Gustgen mir ist lieber für Frizzen dass er in ein würckendes Leben 
+<anchor xml:id="GB03_1_BR161_0_100_027"/>kommt, als<ptr n="2" target="#a002_100.27"/> dass er sich hier in <ref target="gb:note#GB03_2_BR161_0_note_010_100_27" xml:id="start_com_1552"/>Cammerherrlichkeit<ref xml:id="end_com_1552"/>
+        <ref target="gb:note#GB03_2_BR161_0_note_011_100_27" xml:id="start_com_1553"/>abgetrieben<ref xml:id="end_com_1553"/> hätte. 
+<anchor xml:id="GB03_1_BR161_0_100_028"/>Aber Gustgen – er nimmt<ptr n="3" target="#a003_100.28"/> im Frühjahr den Antrag des Herzogs an, 
+<anchor xml:id="GB03_1_BR161_0_100_029"/>wird öffentlich erklärt, in allen <ref target="gb:note#GB03_2_BR161_0_note_012_100_29" xml:id="start_com_1554"/>unsern Etats<ref xml:id="end_com_1554"/> steht sein Nahme, er bittet 
+<anchor xml:id="GB03_1_BR161_0_101_001"/>sich noch aus <ref target="gb:note#GB03_2_BR161_0_note_013_101_1" xml:id="start_com_1555"/>den Sommer bey seinen Geschwistern zu seyn<ref xml:id="end_com_1555"/>, <ref target="gb:note#GB03_2_BR161_0_note_014_101_1-2" xml:id="start_com_1556"/>man 
+<anchor xml:id="GB03_1_BR161_0_101_002"/>lässt ihm alles, und nun kommt er nicht<ref xml:id="end_com_1556"/>. Ich weis auch <ref target="gb:note#GB03_2_BR161_0_note_015_101_2-3" xml:id="start_com_1557"/>dass Dinge ein 
+<anchor xml:id="GB03_1_BR161_0_101_003"/>Geheimniss bleiben müssen<ref xml:id="end_com_1557"/> – Aber – Gustgen <ref target="gb:note#GB03_2_BR161_0_note_016_101_3-4" xml:id="start_com_1558"/>ich habe noch was auf 
+<anchor xml:id="GB03_1_BR161_0_101_004"/>dem Herzen<ref xml:id="end_com_1558"/> das ich nicht sagen kann – — — — Und die, die man so 
+<anchor xml:id="GB03_1_BR161_0_101_005"/>behandelt, ist Carl August Herzog zu Sachsen, und dein Goethe Gustgen. 
+<anchor xml:id="GB03_1_BR161_0_101_006"/>Lass mich das iezt begraben, wir wollen dran wegstreichen.      Adieu 
+<anchor xml:id="GB03_1_BR161_0_101_007"/>Engel ich muss den Brief schliessen. <ref target="gb:note#GB03_2_BR161_0_note_017_101_7" xml:id="start_com_1559"/>Ich mach eine kleine Reise<ref xml:id="end_com_1559"/>
+        <ref target="gb:note#GB03_2_BR161_0_note_018_101_7-8" xml:id="start_com_1560"/>sonst 
+<anchor xml:id="GB03_1_BR161_0_101_008"/>kriegst du ihn wieder lang nicht<ref xml:id="end_com_1560"/>.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR161_0_101_009"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11169/21002" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11169_comment">
+<body>
+<div type="metadata" xml:id="gb11169_comment_com554">
+  <ab type="numberAddressee"><label>161.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 28.-30. August <supplied>1776</supplied> → <placeName key="sndb:ort#87955">Uetersen</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb11169_comment_com1665">
+  <p>Das Jahr lässt sich nach dem Inhalt des Briefes ergänzen (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_008_100_24">100,24</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11169_comment_com2598">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 7. – 1 Bl. 18,5(–19,7) × 27,5 cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben; Kuvert 14,1 × 9,9(–10,1) cm, Adresse: <quote type="G">An Augusten / Gräfinn von Stollberg / nach / Utersen.</quote> / <supplied>von fremder Hd</supplied> <hi rendition="#hervor1">„frey Hamburg.“;</hi> Rs. rotes Initialsiegel: „G“.</p>
+  <p>E: <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> (1839), 125 f., Nr 15.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 101 f., Nr 504.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11169_comment_com4394">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Augusta zu Stolbergs (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_007_100_22">100,22</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11169_comment_com10544">
+<label xml:id="GB03_2_BR161_0_note_001_100_6" copyOf="#start_com_1543"><hi rendition="#fett">100,6</hi>28 Aug.</label>
+<p>An diesem Tag wurde Goethe 27 Jahre alt.</p>
+
+</note>
+<note xml:id="gb11169_comment_com10545">
+<label xml:id="GB03_2_BR161_0_note_002_100_8" copyOf="#start_com_1544"><hi rendition="#fett">100,8</hi>Fluss</label>
+<p>Die Ilm, an deren Hängen Goethes Gartengrundstück lag (vgl. <ref target="gb:text#GB03_1_BR365_0_211_009 #GB03_1_BR365_0_211_010">211,9–10</ref>).</p>
+
+</note>
+<note xml:id="gb11169_comment_com15079">
+<label xml:id="GB03_2_BR161_0_note_003_100_10" copyOf="#start_com_1545"><hi rendition="#fett">100,10</hi>ein Paar Enten schiesen</label>
+<p>Im Tagebuch findet sich unter dem 28. August 1776 als erster Eintrag: <quote type="G">Nach Enten.</quote> (<ref target="gt:dokument#130">GT I 1, 24</ref>.)</p>
+
+</note>
+<note xml:id="gb11169_comment_com10546">
+<label xml:id="GB03_2_BR161_0_note_004_100_13" copyOf="#start_com_1546"><hi rendition="#fett">100,13</hi>in das Getreibe des Tags</label>
+<p>Zum weiteren Verlauf des Tages vgl. zu <ref target="gb:note#GB03_2_BR159_0_note_001_98_10">98,10</ref>.</p>
+
+</note>
+<note xml:id="gb11169_comment_com10547">
+<label xml:id="GB03_2_BR161_0_note_005_100_15" copyOf="#start_com_1547"><hi rendition="#fett">100,15</hi>Wields Frau und Kinder</label>
+<p>Laut Tagebuch besuchten <quote type="G">Wielands Frau und Kinder</quote> Goethe in seinem Garten  (<ref target="gt:dokument#130">GT I 1, 24</ref>). – Christoph Martin Wieland und seine Frau Anna Dorothea geb. von Hillenbrand hatten damals fünf Töchter: Sophie Catharina Susanne (geb. 1768), Maria Caroline Friederike (geb. 1770), Regina Dorothea (geb. 1771), Amalia Augusta (geb. 1773) und Charlotte Wilhelmine (geb. am 21. März 1776).</p>
+
+</note>
+<note xml:id="gb11169_comment_com10560">
+<label xml:id="GB03_2_BR161_0_note_006_100_17" copyOf="#start_com_1548"><hi rendition="#fett">100,17</hi>Und nun nichts mehr.</label>
+<p>Wie das Tagebuch belegt, kam am 28. August <quote type="G">Nachts Lenz</quote> (<ref target="gt:dokument#130">GT I 1, 24</ref>) in Goethes Garten.</p>
+
+</note>
+<note xml:id="gb11169_comment_com17666">
+<label xml:id="GB03_2_BR161_0_note_007_100_22" copyOf="#start_com_1549"><hi rendition="#fett">100,22</hi>Es geht mir wie dir Gustgen</label>
+<p>Mit Bezug auf den nicht überlieferten Brief Augusta zu Stolbergs, mit dem sie wahrscheinlich Goethes Tagebuchbrief vom 17. bis 24. Mai 1776 beantwortet hatte. Die Art der Formulierung lässt vermuten, dass sich die Adressatin über das vermeintlich kraftgenialisch-wilde Treiben Goethes und Carl Augusts geäußert hat. Gerüchte darüber hatten sich in ganz Deutschland verbreitet und waren u. a. Anlass für einen ‚Mahnbrief‘ Friedrich Gottlieb Klopstocks an Goethe vom 8. Mai 1776 (abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>). Goethe hatte mit Verärgerung darauf reagiert und gebeten, man möge ihn <quote type="G">nur künftig mit solchen Briefen</quote> verschonen (<ref target="gb:text#GB03_1_BR112_0_065_007">65,7</ref>).</p>
+
+</note>
+<note xml:id="gb11169_comment_com10561">
+<label xml:id="GB03_2_BR161_0_note_008_100_24" copyOf="#start_com_1550"><hi rendition="#fett">100,24</hi>Von Friz hab ich noch keinen Brief.</label>
+<p>Friedrich Leopold zu Stolberg hatte während seines Besuchs in Weimar Ende 1775 von Herzog Carl August eine Kammerherrenstelle angeboten bekommen, diese zunächst auch angenommen, sich Anfang August 1776 aber anders entschieden und das Angebot des Fürstbischofs von Lübeck angenommen, als dessen Gesandter an den dänischen Hof in Kopenhagen zu gehen. Wie die vorliegende Bemerkung belegt, waren bis Ende des Monats weder der Herzog noch Goethe über die neuen Pläne in Kenntnis gesetzt worden.</p>
+
+</note>
+<note xml:id="gb11169_comment_com15921">
+<label xml:id="GB03_2_BR161_0_note_009_100_24-25" copyOf="#start_com_1551"><hi rendition="#fett">100,24-25</hi>Der Herzog glaubt noch er komme</label>
+<p>Demnach hatte Goethe zu diesem Zeitpunkt wohl schon Zweifel, dass Friedrich Leopold zu Stolberg die Weimarer Stelle antreten werde.</p>
+
+</note>
+<note xml:id="gb11169_comment_com10562">
+<label xml:id="GB03_2_BR161_0_note_010_100_27" copyOf="#start_com_1552"><hi rendition="#fett">100,27</hi>Cammerherrlichkeit</label>
+<p>Okkasionelle Wortbildung Goethes für: „Amt, Würde eines Kammerherrn; mit der (hofkritischen) Konnotation einer luxuriösen, müßigen Existenzform“ (<ref target="sndb:sigle#397">GWb</ref> 5, 238).</p>
+
+</note>
+<note xml:id="gb11169_comment_com10574">
+<label xml:id="GB03_2_BR161_0_note_011_100_27" copyOf="#start_com_1553"><hi rendition="#fett">100,27</hi>abgetrieben</label>
+<p>‚Abtreiben‘ im Sinne von „erschöpfen, ermüden“ (<ref target="sndb:sigle#397">GWb</ref> 1, 204).</p>
+
+</note>
+<note xml:id="gb11169_comment_com15123">
+<label xml:id="GB03_2_BR161_0_note_012_100_29" copyOf="#start_com_1554"><hi rendition="#fett">100,29</hi>unsern Etats</label>
+<p>Haushaltspläne des Herzogtums. – Der „Hochfürstl. S. Weimar- und Eisenachischer Hof- und Adress-Calender“ 1777 führt Friedrich Leopold zu Stolberg im „Herzoglich-Sachsen Weimar und Eisenachischen Hof-Etat“ bei den „CammerHerren“ nicht auf.</p>
+
+</note>
+<note xml:id="gb11169_comment_com17756">
+<label xml:id="GB03_2_BR161_0_note_013_101_1" copyOf="#start_com_1555"><hi rendition="#fett">101,1</hi>den Sommer bey seinen Geschwistern zu seyn</label>
+<p>Ein Brief Stolbergs an den Herzog mit einer solchen Bitte ist nicht überliefert (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR114_0_note_054_68_33">68,33</ref>). Am 19. März 1776 noch hatte er an Johann Caspar Lavater in Zürich geschrieben: „Von Weimar hab ich noch keinen nähern Bescheid u: weiß nicht wann ich hin soll, ich wünsche sehnlich den Sommer noch bey meinen Geschwistern sein zu können.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 71; ebenso am selben Tag an Philipp Christoph Kayser [vgl. ebd., 70].) Am 10. Mai schrieb er wiederum an Lavater: „In diesen Tagen gehn wir aufs Land wo wir den ganzen Sommer zubringen. Deß freu ich mich herzlich. Es wird mir ein lieber Sommer sein; mit meinem Bruder u: Schwestern <gap quantity="3" reason="editorial"/>. Von Weimar hab ich noch keinen nähern Bescheid[;] diesen Sommer bleib ich noch gewiß hier“ (ebd., 71). Die Geschwister Stolberg verbrachten den Sommer auf Schloss Bernstorff nördlich von Kopenhagen.</p>
+
+</note>
+<note xml:id="gb11169_comment_com10575">
+<label xml:id="GB03_2_BR161_0_note_014_101_1-2" copyOf="#start_com_1556"><hi rendition="#fett">101,1-2</hi>man lässt ihm alles, und nun kommt er nicht</label>
+<p>Auch Briefe oder Auftragsbriefe Herzog Carl Augusts an Friedrich Leopold zu Stolberg sind nicht überliefert. Am 20. August 1776 war dieser in sein neues Amt als Gesandter des Fürstbischofs von Lübeck in Kopenhagen eingeführt worden.</p>
+
+</note>
+<note xml:id="gb11169_comment_com13868">
+<label xml:id="GB03_2_BR161_0_note_015_101_2-3" copyOf="#start_com_1557"><hi rendition="#fett">101,2-3</hi>dass Dinge ein Geheimniss bleiben müssen</label>
+<p>Wahrscheinlich mit Bezug auf eine Andeutung Augusta zu Stolbergs in ihrem nicht überlieferten Bezugsbrief, die neue Stelle ihres Bruders betreffend.</p>
+
+</note>
+<note xml:id="gb11169_comment_com10576">
+<label xml:id="GB03_2_BR161_0_note_016_101_3-4" copyOf="#start_com_1558"><hi rendition="#fett">101,3-4</hi>ich habe noch was auf dem Herzen</label>
+<p>Der Hintergrund der Bemerkung könnte die Kontroverse mit Friedrich Gottlieb Klopstock sein und Goethes Vermutung, dass die Geschwister zu Stolberg in dieser Angelegenheit auf Klopstocks Seite standen. Wahrscheinlich vermutete Goethe auch, dass die unausgesprochene Ablehnung des Weimarer Angebots durch Friedrich Leopold zu Stolberg damit im Zusammenhang stand (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>).</p>
+
+</note>
+<note xml:id="gb11169_comment_com10584">
+<label xml:id="GB03_2_BR161_0_note_017_101_7" copyOf="#start_com_1559"><hi rendition="#fett">101,7</hi>Ich mach eine kleine Reise</label>
+<p>Am 2. September 1776 brach Goethe im herzoglichen Gefolge zu einem Jagdausflug nach Ernstthal im Thüringer Wald auf (vgl. zu <ref target="gb:note#GB03_2_BR164_0_note_002_101_19-20">101,19-20</ref>). Auf dem Rückweg über Kranichfeld und Berka traf er sich mit Jacob Michael Reinhold Lenz (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_ZB004_0_note_001_447_1">447,1</ref>).</p>
+
+</note>
+<note xml:id="gb11169_comment_com17679">
+<label xml:id="GB03_2_BR161_0_note_018_101_7-8" copyOf="#start_com_1560"><hi rendition="#fett">101,7-8</hi>sonst kriegst du ihn wieder lang nicht</label>
+<p>Der vorliegende Brief, der wie frühere Briefe an Augusta zu Stolberg als eine Art Tagebuch begonnen wurde, endet relativ abrupt schon mit dem zweiten Eintrag. Danach wird von Goethes Seite der Briefwechsel mit Augusta zu Stolberg für lange Zeit unterbrochen; der nächste überlieferte Brief stammt vom 17. Juli 1777 (<ref target="gb:dokument#11712">Nr 279</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

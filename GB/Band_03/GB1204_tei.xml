@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8530"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb1204" n="GB 3, Nr. A 1b">
+  <teiHeader xml:id="gb1204_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>A 1b.</label> An <persName key="sndb:person#37228">Jacob Friedrich von Fritsch</persName> mit <persName key="sndb:person#41270">Christian Friedrich Schnauß</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zwischen 1. und 6. Dezember 1778. Zwischen Dienstag und Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:05Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb1204_tei.xml</idno>
+        <idno type="URI">gb1204</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_AB001_1</idno>
+        <idno type="KSW-ID">1204</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="417" to="417">417</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb1204_header_hwit3279" corresp="#gb1204_source_hwit3279" sameAs="#gb1204_comment_hwit3279" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/184,I Bl. 9</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8153</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/1204,,3279/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>So viel ich mich erinnre war die Intention, dass die Brand assecurations Deputation</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb1204_header_acc1962" corresp="gb1204_comment_acc1962">
+            <objectIdentifier>
+              <objectName>Herzogliches Reskript vom 1. Dezember 1778 an die Brandassekurationsdeputation Eisenach</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <persName key="sndb:person#41270">Schnauß, Christian Friedrich</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1778-12-01" to="1778-12-06"><supplied>zwischen 1. und 6. Dezember 1778</supplied></date>
+            <note>
+              <date type="WA" from="1785-01-01" to="1786-09-03"><supplied>Vor der italienischen Reise</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#37228">Fritsch, Jacob Friedrich von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb1204_source_hwit3279" corresp="#gb1204_header_hwit3279" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#1204/11494"/>
+      <p><anchor xml:id="GB04_1_N002_0_417_008"/>So viel ich mich erinnre war die Intention,
+               dass <ref xml:id="start_com_4484" target="gb:note#GB04_2_N002_0_note_4484_417_8"/>die Brand
+               assecurations <anchor xml:id="GB04_1_N002_0_417_009"/>Dep. zu Eisen.<ref xml:id="end_com_4484"/>
+        <ref xml:id="start_com_4485" target="gb:note#GB04_2_N002_0_note_4485_417_9"/>einen
+                  Auswurf<ref xml:id="end_com_4485"/> machen solle wie viel es etwa im Ganzen
+                  be<anchor xml:id="GB04_1_N002_0_417_010"/>trüge wenn man <ref xml:id="start_com_4486" target="gb:note#GB04_2_N002_0_note_4486_417_10"/>die <emph rendition="#latin">Quanta</emph><ref xml:id="end_com_4486"/> der
+               bedürftigsten Einwohner daselbst etwas <anchor xml:id="GB04_1_N002_0_417_011"/>herunter sezte. Ein solcher Auszug könnte leicht in der Stille aus <ref xml:id="start_com_4487" target="gb:note#GB04_2_N002_0_note_4487_417_11"/>dem <anchor xml:id="GB04_1_N002_0_417_012"/>schon geführten weitläufigen Protokoll<ref xml:id="end_com_4487"/> gemacht und so dann <ref xml:id="start_com_4488" target="gb:note#GB04_2_N002_0_note_4488_417_12"/>mit Bericht <anchor xml:id="GB04_1_N002_0_417_013"/>eingesandt werden<ref xml:id="end_com_4488"/>. Nun
+                  lassen<ptr n="1148" target="#a1148_417.13"/> sich aber die <ref xml:id="start_com_4489" target="gb:note#GB04_2_N002_0_note_4489_417_13"/>Schlussworte
+               gegenwärtigen <anchor xml:id="GB04_1_N002_0_417_014"/>Rescripts<ref xml:id="end_com_4489"/> auch so auslegen als wenn gleich ein Versuch mit einem<ptr n="1149" target="#a1149_417.14"/> Erlass<ptr n="1150" target="#a1150_417.14"/>
+        <anchor xml:id="GB04_1_N002_0_417_015"/>oder Herabsezzung gemacht, und so dann
+               berichtet werden sollte,<ptr n="1151" target="#a1151_417.15"/> die ei<anchor xml:id="GB04_1_N002_0_417_016"/>gentliche Absicht wird also wohl näher zu
+               bestimmen seyn</p>
+      <closer><signed rend="paraph" rendition="#einrueck9"><anchor xml:id="GB04_1_N002_0_417_017"/> G.</signed></closer></div>
+      <space unit="lines" quantity="1"/>
+      <div type="relatedText">
+      <p><anchor xml:id="GB04_1_N002_0_417_018"/>Dieses ist
+                  auch die <emph rendition="#latin">Intention</emph> gewesen u habe ich es
+                  näher bestimmt                          S.</p>
+      
+    <pb n="2" facs="gb:digitalisate#1204/11495" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#1204/11496" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#1204/11497" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb1204_comment">
+<body>
+<div type="metadata" xml:id="gb1204_comment_com84006">
+  <ab type="numberAddressee"><label>A 1b.</label> An <persName key="sndb:person#37228">Jacob Friedrich von Fritsch</persName> mit <persName key="sndb:person#41270">Christian Friedrich Schnauß</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zwischen 1. und 6. Dezember 1778</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+
+
+<div type="date" xml:id="gb1204_comment_com84007"> 
+  <p>In der WA wird das Schreiben „mit Bestimmtheit auf die Zeit vor Frühjahr 1781“ datiert, da bis dahin die „Fürstlich Sächsische zur Direction des Brand-Assecurations-Instituti in dem Fürstenthum Eisenach gnädigst verordnete Deputation“ bestand (<ref target="sndb:sigle#1157">WA</ref> IV 7, 336). Willy Flach datiert das Schreiben zwischen den 1. und den 6. Dezember 1778, ohne jedoch eine Begründung anzuführen (vgl. <ref target="sndb:sigle#32">AS</ref> 1, 43); ihm folgt Reinhard Kluge, ebenfalls ohne Belege für die Datierung (vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> I 26, 39; <ref target="sndb:sigle#1240">FA/Goethe</ref> I 26K, 129 f.). – Am 1. Dezember 1778 war im Geheimen Consilium beschlossen worden, dass die Brandassekurationsdeputation Eisenach über „das erneute Gesuch der Bürgerschaft in Eisenach um Entlassung aus dem Nexus der Brand-Assecurations-Societät“ berichten solle (<ref target="sndb:sigle#3126">Wahl, Consilium</ref>, 424, Nr 5121). An dieser ordentlichen Sitzung des Geheimen Consiliums nahm Fritsch zwar teil (vgl. Kalendarium zur Tätigkeit des geheimen Consiliums 1776 bis 1786; ebd., 100), er zeichnete jedoch das beigelegte Reskript nicht ab (vgl. <ref target="gb:note#gb1204_comment_com84010">Beilage</ref>); demnach war er bei den Beratungen über diese Angelegenheit abwesend. Wahrscheinlich dienten die Voten Goethes und Schnauß’ dazu, Fritsch als Vorsitzenden der Weimarer Brandassekurationsdeputation zu unterrichten. Da das Reskript am 7. Dezember 1778 abgesendet wurde, ist das vorliegende Schreiben zwischen dem 1. und dem 6. Dezember 1778 zu datieren.</p>
+</div>
+<div type="tradition">
+<div type="textual_witness" xml:id="gb1204_comment_com84008"> 
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8153">GSA 29/184,I</ref>, Bl. 9. – Doppelblatt 41(–42) × 23,5(–23,7) cm, 1 S. beschr., egh., Tinte; S. 1 unter dem Brieftext Votum von Christian Friedrich Schnauß (Petitdruck).</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 7 (1891), 257 f., Nr 2350 (Eduard von der Hellen).</p>
+</div>
+</div>
+<div type="attachment" xml:id="gb1204_comment_com84010"> 
+  <p>Herzogliches Reskript vom 1. Dezember 1778 an die Brandassekurationsdeputation Eisenach (vgl. zu <ref target="gb:note#GB04_2_N002_0_note_4489_417_13">417,13–14</ref>).</p>
+</div>                  
+<div type="explanations">
+<div type="explanation" xml:id="gb1204_comment_com84009">
+  <p>Ein Bezugs- und ein Antwortschreiben sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Unter Herzogin Anna Amalia war 1768 eine Versicherung gegen Feuerschäden eingeführt worden, „damit denenjenigen, welche ein Brand-Schade treffen würde, die Wiederherstellung ihrer abgebrannten Gebäude erleichtert und der erleidende Verlust desto erträglicher gemacht werden möge“ (Johannes Schmidt: Aeltere und neuere Gesetze, Ordnungen und Circular-Befehle für das Fürstenthum Weimar und für die Jenaische Landes-Portion bis zum Ende des Jahres 1799. in einen alphabetischen wörtlichen Auszug gebracht. Bd 1. Jena 1800, S. 489). Für das Fürstentum Eisenach wurde 1772 „zwar eine vor sich selbst bestehende und besondere Societät“ geschaffen, die aber mit der Weimarer „in einer Verbindung stehen und combinirt seyn solle.“ (Ebd., S. 511.) Beide Anstalten, deren Geschäfte von je einer Deputation verwaltet wurden, hatten bei Brandfällen einander zu unterstützen und die Versicherungsleistungen, die nur nach größeren Bränden erhoben wurden, anteilig zu übernehmen. Alle Untertanen, „ohne daß hierunter auf deren Vermögens-Umstände einige Rücksicht genommen werden solle, mithin Reiche sowohl als Mittelleute und Arme“ (ebd., S. 512), waren zu Beiträgen verpflichtet. Diese Zwangsversicherung provozierte vor allem den Widerstand der Einwohner des Landesteils Sachsen-Eisenach, deren wirtschaftliche Lage sich verschlechtert hatte. Zudem hatte Eisenach als kleinerer Landesteil mehr Versicherungsleistungen als Weimar aufzubringen. Schon im September 1776 hatten sich die Vierleute der Stadt Eisenach mit der Bitte an das Geheime Consilium gewandt, von weiteren Zahlungen befreit zu werden, da viele Bürger kaum noch ihren Lebensunterhalt aufbringen könnten (vgl. <ref target="sndb:sigle#3126">Wahl, Consilium</ref>, 151, Nr 393; vgl. auch ebd., 373, Nr 4265). Das Geheime Consilium weigerte sich jedoch, Änderungen bei den Beiträgen vorzunehmen. Erst im Juni 1781 wurde die gemeinsame Brandversicherungsgesellschaft wieder aufgehoben (vgl. ebd., Nr 10100). – Vgl. <ref target="sndb:sigle#3116">Ventzke</ref>, 346–348.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb1204_comment_com84011">
+<label xml:id="GB04_2_N002_0_note_4484_417_8" copyOf="#start_com_4484"><hi rendition="#fett">417,8</hi>die Brand assecurations Dep. zu Eisen.</label>
+<p>Der Brandassekurationsdeputation Eisenach gehörten der Eisenacher Geheimrat, Kanzler, Oberkonsistorialpräsident und Landschaftskassendirektor Johann Christian von Göckel, der Eisenacher Kammerpräsident Carl Christian von Herda zu Brandenburg, von Seiten der Landschaft der burggräflich kirchbergische Rat Wilhelm Carl Appelius und der Eisenacher Bürgermeister Wilhelm Esaias Herda an.</p>
+</note>
+<note xml:id="gb1204_comment_com84012">
+<label xml:id="GB04_2_N002_0_note_4485_417_9" copyOf="#start_com_4485"><hi rendition="#fett">417,9</hi>einen Auswurf</label>
+<p>Im Sinne von „Kostenanschlag, Berechnung, (Etat-)Aufstellung“ (<ref target="sndb:sigle#397">GWb</ref> 1, 1288). Hier und im Folgenden fast wortwörtlich aus dem beigelegten Reskript (vgl. zu <ref target="gb:note#GB04_2_N002_0_note_4489_417_13" >417,13–14</ref>).</p>
+</note>
+<note xml:id="gb1204_comment_com84013">
+<label xml:id="GB04_2_N002_0_note_4486_417_10" copyOf="#start_com_4486"><hi rendition="#fett">417,10</hi>die <emph rendition="#latin">Quanta</emph></label>
+<p>Der (Zahlungs-)Anteil, hier die Höhe der Versicherungsbeiträge.</p>
+</note>
+<note xml:id="gb1204_comment_com84014">
+<label xml:id="GB04_2_N002_0_note_4487_417_11" copyOf="#start_com_4487"><hi rendition="#fett">417,11</hi>dem schon geführten weitläufigen Protokoll</label>
+<p>Die bei der Vernehmung der Bürger der Stadt Eisenach gefertigten Protokolle über den Wert der Häuser und die entsprechenden Beiträge zur Brandassekurationskasse (vgl. zu <ref target="gb:note#GB04_2_N002_0_note_4489_417_13">417,13–14</ref>).</p>
+</note>
+<note xml:id="gb1204_comment_com84015">
+<label xml:id="GB04_2_N002_0_note_4488_417_12" copyOf="#start_com_4488"><hi rendition="#fett">417,12</hi>mit Bericht eingesandt werden</label>
+<p>Das Geheime Consilium beriet am 27. Juli 1779 über den angeforderten Bericht der Brandassekurationsdeputation Eisenach, ohne jedoch über die Aufhebung der gemeinsamen Brandversicherungsgesellschaft zu entscheiden (vgl. <ref target="sndb:sigle#3126">Wahl, Consilium</ref>, 498, Nr 6469).</p>
+</note>
+<note xml:id="gb1204_comment_com84016">
+<label xml:id="GB04_2_N002_0_note_4489_417_13" copyOf="#start_com_4489"><hi rendition="#fett">417,13</hi>Schlussworte gegenwärtigen Rescripts</label>
+<p>Im Konvolut „Geheimde Canzley-Acta / Die in denen Weimar- und Eisena/chischen Landen errichtete / Brand Assecurations Socie/taet betrℓ. / Vol: II. 1775. bis 1781.“ ist das als Abschrift zu den Akten gelegte Konzept des Reskripts vom 1. Dezember 1778 überliefert: </p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56533_source" corresp="#gb56533_comment">
+  <body>
+    <div>
+      <p>An die zu Dirigirung des BrandAssecurations-Instituts in dem Fürstenthum Eisenach verordnete Deputation. </p>
+      <p rendition="#einrueck1">Die von der Bürgerschaft zu Eisenach wegen WiederAufhebung dieses Instituts p abermals geschehene Vorstellung betrℓ.</p>
+      <p rendition="#einrueck1"><ref xml:id="start_com_8305" target="gb:note#GB03_2_FB052_0_note_001_1016_5"/>V. G. G. <ref xml:id="end_com_8305"/><hi rendition="#hervor1">Carl August</hi> <ref xml:id="start_com_8306" target="gb:note#GB03_2_FB052_0_note_002_1016_5"/>H. z. S. J. C. u. B. a. E. u. W. p<ref xml:id="end_com_8306"/></p>
+      <p rendition="#einrueck1"><ref xml:id="start_com_8307" target="gb:note#GB03_2_FB052_0_note_003_1016_5"/>p. l. g.<ref xml:id="end_com_8307"/> Wir geben Euch aus der <ref xml:id="start_com_8308" target="gb:note#GB03_2_FB052_0_note_004_1016_6"/>copeylichen Anfuge<ref xml:id="end_com_8308"/> des mehrern zu ersehen, welchergestalt die Stadt-Vormündern und Bürgerschafft zu Eisenach, wegen der ihr angeblich zu lästig fallenden BrandAssecurations-Beyträge abermals <ref xml:id="start_com_8309" target="gb:note#GB03_2_FB052_0_note_005_1016_8-9"/>unterthänigste Vorstellung<ref xml:id="end_com_8309"/> gethan, und wie dieselbe am Ende gebeten, daß sothanes Institut wiederum aufgehoben, oder wenigstens die dasige Stadt gänzlich <ref xml:id="start_com_8310" target="gb:note#GB03_2_FB052_0_note_006_1016_10"/>ex nexu<ref xml:id="end_com_8310"/> gelaßen werden möchte.</p>
+      <p rendition="#einrueck1">Nun tragen Wir zwar Bedencken, dem Gesuch der supplicantischen Bürgerschafft angebrachtermaaßen zu <ref xml:id="start_com_8311" target="gb:note#GB03_2_FB052_0_note_007_1016_13"/>deferiren<ref xml:id="end_com_8311"/>. Da Wir Uns jedoch erinnern, daß Wir bereits bey dem in dem vorigen Jahre gehaltenen Eisenachischen AusschußTage denen versammelten getreuen Ständen per <ref xml:id="start_com_8312" target="gb:note#GB03_2_FB052_0_note_008_1016_15"/>Decretum d.d. 18 Septbr. a. pr.<ref xml:id="end_com_8312"/> wovon Wir Euch / hierbey anschlüßig eine Abschrifft zufertigen laßen, zu erkennen gegeben, wie Wir allenfals geschehen laßen wolten, daß, weilen die Bürgerschafft zu Eisenach vorgegeben, es wären ihre Häußer nach dem wahren Werth derselben allzuhoch angesetzet worden, zum Versuch ein Auswurff gemacht werde, wieviel es betrage, wenn denenjenigen Bürgern, welche ihre quanta nicht bestreiten können, solche in etwas herunter zu setzen erlaubt werden solle: Alß begehren Wir hiermit gnädigst, Ihr wollet, jedoch ohne daß davon etwas bekannt werde, damit eine Probe bey denen Bedürfftigsten der Bürgerschafft nach denen darüber bereits geführten Vernehmungs Protocollen machen, das minus behörig notiren, den Abfall zusammentragen laßen, und darvon, wie starck dadurch das ganze Assecurations u Contributions-Quantum <pb n="1017"/>der Stadt Eisenach verringert werden möchte, zu Faßung weiterer Entschließung berichtliche Anzeige anhero thun. </p>
+      <p rendition="#einrueck1"><ref xml:id="start_com_8313" target="gb:note#GB03_2_FB052_0_note_009_1017_28"/>An dem p und Wir p<ref xml:id="end_com_8313"/> Geben</p>
+      <p rendition="#einrueck1">Weimar, den 1<hi rendition="#sup">n</hi> Dec. 1778.</p>
+      <p rendition="#einrueck1">   Carl August HzS.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56533_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56533_comment_com84843">
+  <p>(H: <ref target="sndb:sigle#1324">LATh – HStA Weimar</ref>, Polizeisachen B 5269, Bl. 156. – Vermerke von Carl August, Goethe und Schnauß; Absendevermerk: „Abgeg. mit drüben bemerckten Abschrifften den 7<hi rendition="#sup #u">ten</hi> Dec 1778.“) </p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56533_comment_com84844">
+<label xml:id="GB03_2_FB052_0_note_001_1016_5" copyOf="#start_com_8305"><hi rendition="#normal">1016,5</hi>V. G. G.</label>
+<p>Von Gottes Gnaden.</p>
+</note>
+<note xml:id="gb56533_comment_com84845">
+<label xml:id="GB03_2_FB052_0_note_002_1016_5" copyOf="#start_com_8306"><hi rendition="#normal">1016,5</hi>H. z. S. J. C. u. B. a. E. u. W. p</label>
+<p>Herzog zu Sachsen, Jülich, Cleve und Berg auch Engern und Westphalen usw.</p>
+</note>
+<note xml:id="gb56533_comment_com84846">
+<label xml:id="GB03_2_FB052_0_note_003_1016_5" copyOf="#start_com_8307"><hi rendition="#normal">1016,6</hi>p. l. g.</label>
+<p>Die herkömmliche Anrede der Reskripte lautete: „Veste und Hochgelehrte Räthe, liebe Getreue“ (<ref target="sndb:sigle#32">AS</ref> 1, 449 f.).</p>
+</note>
+<note xml:id="gb56533_comment_com84847">
+<label xml:id="GB03_2_FB052_0_note_004_1016_6" copyOf="#start_com_8308"><hi rendition="#normal">1016,6</hi>copeylichen Anfuge</label>
+<p>Die beiden dem Reskript beigelegten Abschriften (vgl. die folgenden Erläuterungen) wurden dem Schreiben an Fritsch wahrscheinlich nicht beigelegt.</p>
+</note>
+<note xml:id="gb56533_comment_com84848">
+<label xml:id="GB03_2_FB052_0_note_005_1016_8-9" copyOf="#start_com_8309"><hi rendition="#normal">1016,8-9</hi>unterthänigste Vorstellung</label>
+<p>Anlass des Reskripts war das Gesuch der Bürgerschaft von Eisenach vom 18. November 1778 mit der Bitte um Aufhebung der gemeinsamen Brandversicherungsgesellschaft mit Weimar gewesen (vgl. <ref target="sndb:sigle#1324">LATh – HStA Weimar</ref>, Polizeisachen B 5269, Bl. 152–155).</p>
+</note>
+<note xml:id="gb56533_comment_com84849">
+<label xml:id="GB03_2_FB052_0_note_006_1016_10" copyOf="#start_com_8310"><hi rendition="#normal">1016,10</hi>ex nexu</label>
+<p>Lat.: Aus der Verbindung.</p>
+</note>
+<note xml:id="gb56533_comment_com84850">
+<label xml:id="GB03_2_FB052_0_note_007_1016_13" copyOf="#start_com_8311"><hi rendition="#normal">1016,13</hi>deferiren</label>
+<p>stattgeben.</p>
+</note>
+<note xml:id="gb56533_comment_com84851">
+<label xml:id="GB03_2_FB052_0_note_008_1016_15" copyOf="#start_com_8312"><hi rendition="#normal">1016,15</hi>Decretum d.d. 18. Septbr. a. pr.</label>
+<p>Nicht ermitteltes Reskript vom 18. September 1778 an die Landschaftsdeputation Eisenach. – ‚d.d.‘: von lat. de dato: vom Datum.</p>
+</note>
+<note xml:id="gb56533_comment_com84852">
+<label xml:id="GB03_2_FB052_0_note_009_1017_28" copyOf="#start_com_8313"><hi rendition="#normal">1017,28</hi>An dem p und Wir p</label>
+<p>Der herkömmliche Schluss der Reskripte lautete: „An dem geschiehet Unsero Meynung, und Wir sind Euch mit Gnaden gewogen.“ (<ref target="sndb:sigle#32">AS</ref> 1, 449 f.)</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

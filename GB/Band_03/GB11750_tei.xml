@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5600"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11750" n="GB 3, Nr. 547">
+  <teiHeader xml:id="gb11750_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>547.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84871">Sankt Gotthard</placeName>, 14. November 1779. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11750_tei.xml</idno>
+        <idno type="URI">gb11750</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR547_0</idno>
+        <idno type="KSW-ID">11750</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="342" to="343">342-343</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1049" to="1050">1049-1050</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11750_header_hwit1540" corresp="#gb11750_source_hwit1540" sameAs="#gb11750_comment_hwit1540" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 110</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11750,,1540/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Auf dem Gotthart bey den Capuzinern. Eh wir absteigen dir einen guten Morgen lieber Bruder</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84871">Sankt Gotthard</placeName>
+            <date when="1779-11-14">14. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#114">RA 1, Nr. 102</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11750_source_hwit1540" corresp="#gb11750_header_hwit1540" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11750/13966"/>
+      <opener>
+        <dateline rendition="#einrueck13">
+          <anchor xml:id="GB03_1_BR547_0_342_022"/>d<g ref="#typoSuspension"/>. 14 Nov. 79.</dateline>
+        <dateline rendition="#einrueck5">
+          <anchor xml:id="GB03_1_BR547_0_342_023"/>
+          <ref target="gb:note#GB03_2_BR547_0_note_001_342_22" xml:id="start_com_4919"/>Auf dem Gotthart bey den Capuzinern.<ref xml:id="end_com_4919"/>
+        </dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR547_0_342_024"/>
+        <ref target="gb:note#GB03_2_BR547_0_note_002_342_24" xml:id="start_com_4920"/>Eh wir absteigen<ref xml:id="end_com_4920"/> dir einen guten Morgen <ref target="gb:note#GB03_2_BR547_0_note_003_342_24" xml:id="start_com_4921"/>l. Br.<ref xml:id="end_com_4921"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR547_0_342_025"/>
+        <ref target="gb:note#GB03_2_BR547_0_note_004_342_25-27" xml:id="start_com_4922"/>Seit Genf haben wir das Thal Chamouny<ptr n="1" target="#a001_342.25"/> durchstrichen, sind von da 
+<anchor xml:id="GB03_1_BR547_0_342_026"/>ins Wallis gefallen habens aufwärts ganz durchzogen, und sind endlich 
+<anchor xml:id="GB03_1_BR547_0_342_027"/>über die Furcka hier angekommen.<ref xml:id="end_com_4922"/> Mit dem preiswürdigsten Glücke 
+<anchor xml:id="GB03_1_BR547_0_343_001"/>durch die erhabensten Gegenden. Nun l. Br gehts nach<ptr n="2" target="#a002_343.1"/> dir zu. <ref target="gb:note#GB03_2_BR547_0_note_005_343_1-2" xml:id="start_com_4923"/>Den 
+<anchor xml:id="GB03_1_BR547_0_343_002"/>19 od<g ref="#typoSuspension"/>. 20 bin ich bey dir<ref xml:id="end_com_4923"/>, und so steht mir das Liebste von der ganzen 
+<anchor xml:id="GB03_1_BR547_0_343_003"/>Reise noch vor. mache mir ein Bett zurechte <ref target="gb:note#GB03_2_BR547_0_note_006_343_3-4" xml:id="start_com_4924"/>dass ich allenfalls bey dir 
+<anchor xml:id="GB03_1_BR547_0_343_004"/>übernachte<ref xml:id="end_com_4924"/>. Grüs <ref target="gb:note#GB03_2_BR547_0_note_007_343_4" xml:id="start_com_4925"/>deine Frau<ref xml:id="end_com_4925"/> und theile meine Freude.    G.</p>
+    <pb n="2" facs="gb:digitalisate#11750/13967" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11750/13968" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11750/13969" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11750_comment">
+<body>
+<div type="metadata" xml:id="gb11750_comment_com1138">
+  <ab type="numberAddressee"><label>547.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84871">Sankt Gotthard</placeName>, 14. November 1779 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11750_comment_com3182">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 110. – Doppelblatt 11,7 × 18,6 cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben. – Faksimile: Georg Witkowski: Goethe. Leipzig, Berlin und Wien 1899, nach S. 128.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 55, Nr 18.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 121 f., Nr 864.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11750_comment_com4978">
+  <p>Der Brief beantwortet keinen Brief Lavaters. Goethe hatte diesen in seinem Brief vom 28. und 29. Oktober 1779 (<ref target="gb:dokument#11749">Nr 542</ref>) gebeten, ihm nach Luzern zu schreiben (vgl. <ref target="gb:text#GB03_1_BR542_0_329_004 #GB03_1_BR542_0_329_005">329,4–5</ref>); dort traf Goethe erst am 16. November 1779 ein. – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11750_comment_com17917">
+<label xml:id="GB03_2_BR547_0_note_001_342_22" copyOf="#start_com_4919"><hi rendition="#fett">342,23</hi>Auf dem Gotthart bey den Capuzinern.</label>
+<p>Von den Kapuzinern in Realp, wo er vom 12. auf den 13. November 1779 übernachtet hatte, war Goethe <quote type="G">früh gegen 10</quote> (<ref target="gt:dokument#788">GT I 1, 99</ref>) aufgebrochen und, durch das Urserental wandernd, <quote type="G">gegen 2</quote> (ebd.) auf dem Sankt Gotthard bei den dortigen Kapuzinerpatres angekommen.</p>
+
+</note>
+<note xml:id="gb11750_comment_com11186">
+<label xml:id="GB03_2_BR547_0_note_002_342_24" copyOf="#start_com_4920"><hi rendition="#fett">342,24</hi>Eh wir absteigen</label>
+<p>Nach Carl Augusts Tagebuch verließ die Reisegesellschaft am 14. November 1779 um „9 Uhr zu fuß“ (Bl. 13v; vgl. auch <ref target="bug:dokument#6214">BuG 2, 192</ref>) die Herberge auf dem Sankt Gotthard und wanderte hinab nach Andermatt.</p>
+
+</note>
+<note xml:id="gb11750_comment_com11195">
+<label xml:id="GB03_2_BR547_0_note_003_342_24" copyOf="#start_com_4921"><hi rendition="#fett">342,24</hi>l. Br.</label>
+<p>Lieber Bruder.</p>
+
+</note>
+<note xml:id="gb11750_comment_com17927">
+<label xml:id="GB03_2_BR547_0_note_004_342_25-27" copyOf="#start_com_4922"><hi rendition="#fett">342,25-27</hi>Seit Genf <gap quantity="3" reason="editorial"/> über die Furcka hier angekommen.</label>
+<p>Über Goethes Reiseroute von Genf bis auf den Sankt Gotthard vgl. zu <ref target="gb:note#GB03_2_BR545_0_note_004_340_4-5">340,4-5</ref> sowie die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>. – ‚Chamouny‘: Chamonix.</p>
+
+</note>
+<note xml:id="gb11750_comment_com11196">
+<label xml:id="GB03_2_BR547_0_note_005_343_1-2" copyOf="#start_com_4923"><hi rendition="#fett">343,1-2</hi>Den 19 od<g ref="#typoSuspension"/>. 20 bin ich bey dir</label>
+<p>Goethe traf bereits am 18. November 1779 in Zürich ein.</p>
+
+</note>
+<note xml:id="gb11750_comment_com11197">
+<label xml:id="GB03_2_BR547_0_note_006_343_3-4" copyOf="#start_com_4924"><hi rendition="#fett">343,3-4</hi>dass ich allenfalls bey dir übernachte</label>
+<p>Goethe wohnte bei Lavater, während Herzog Carl August im Gasthof „Zum Schwert“ logierte.</p>
+
+</note>
+<note xml:id="gb11750_comment_com11191">
+<label xml:id="GB03_2_BR547_0_note_007_343_4" copyOf="#start_com_4925"><hi rendition="#fett">343,4</hi>deine Frau</label>
+<p>Anna Lavater geb. Schinz.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

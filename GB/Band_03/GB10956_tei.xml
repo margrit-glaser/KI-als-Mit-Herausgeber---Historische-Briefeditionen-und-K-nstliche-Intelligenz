@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1330"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10956" n="GB 3, Nr. 132">
+  <teiHeader xml:id="gb10956_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>132.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 18. Juni 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:23Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10956_tei.xml</idno>
+        <idno type="URI">gb10956</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR132_0</idno>
+        <idno type="KSW-ID">10956</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="76" to="77">76-77</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="297" to="298">297-298</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10956_header_hwit1005" corresp="#gb10956_source_hwit1005" sameAs="#gb10956_comment_hwit1005" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 22</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10956,,1005/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Also gestern wollte der Himmel nicht. Ich hatte einen übeln Tag. konnte Gestern Nacht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-18">18. Juni 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10956_source_hwit1005" corresp="#gb10956_header_hwit1005" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10956/22382"/>
+      <p>
+        <anchor xml:id="GB03_1_BR132_0_076_013"/>Also gestern wollte der Himmel nicht. Ich hatte <ref target="gb:note#GB03_2_BR132_0_note_001_76_13" xml:id="start_com_1200"/>einen übeln Tag<ref xml:id="end_com_1200"/>. 
+<anchor xml:id="GB03_1_BR132_0_076_014"/>konnte Gestern Nacht für Hoffnung und Furcht nicht schlafen, der 
+<anchor xml:id="GB03_1_BR132_0_076_015"/>anhaltende Regen machte mich toll, und ich war <ref target="gb:note#GB03_2_BR132_0_note_002_76_15" xml:id="start_com_1201"/>dumpf<ref xml:id="end_com_1201"/> biss Nacht. 
+<anchor xml:id="GB03_1_BR132_0_076_016"/>
+        <ref target="gb:note#GB03_2_BR132_0_note_003_76_16" xml:id="start_com_1202"/>Aber heute kommen Sie<ref xml:id="end_com_1202"/> doch mit der <ref target="gb:note#GB03_2_BR132_0_note_004_76_16" xml:id="start_com_1203"/>Schwester<ref xml:id="end_com_1203"/>! Ich hoffe das Wetter 
+<anchor xml:id="GB03_1_BR132_0_076_017"/>soll bleiben. Adieu Beste. Kommt <ref target="gb:note#GB03_2_BR132_0_note_005_76_17" xml:id="start_com_1204"/>Stein<ref xml:id="end_com_1204"/> auch?   d<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR132_0_note_006_76_17" xml:id="start_com_1205"/>18. Jun 76.<ref xml:id="end_com_1205"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR132_0_076_018"/>
+        <signed rend="paraph" rendition="#einrueck14">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR132_0_077_001"/>Wenn’s <ref target="gb:note#GB03_2_BR132_0_note_007_77_1" xml:id="start_com_1206"/>regent<ref xml:id="end_com_1206"/>, wie ich fast fürchte; so wird heute wieder nichts draus<ptr n="1" target="#a001_77.1"/>. 
+<anchor xml:id="GB03_1_BR132_0_077_002"/>Vielleicht lauf ich auf die Nacht alsdenn zu Ihnen. <ref target="gb:note#GB03_2_BR132_0_note_008_77_2-3" xml:id="start_com_1207"/>Sagen Sie mir Ein 
+<anchor xml:id="GB03_1_BR132_0_077_003"/>Wort.<ref xml:id="end_com_1207"/> Grüsen Sie die Schwester.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10956_comment">
+<body>
+<div type="metadata" xml:id="gb10956_comment_com623">
+  <ab type="numberAddressee"><label>132.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 18. Juni 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10956_comment_com2667">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 22. – 1 Bl. 19,4 × 13,2(–13,5) cm, 1 S. beschr., egh., Tinte; Rs. Adresse, teilweise abgeschnitten: <supplied>   </supplied> <quote type="G">v. Stein</quote>; Fragmente einer Adresse von fremder Hd: „Der Herzog <supplied>   </supplied> / Amalie <supplied>   </supplied>“, rotes Gemmensiegel: Sokrates? (vgl. <ref target="sndb:sigle#267">Femmel/Heres</ref>, 10); Vs. oben rechts von fremder Hd, Tinte: „59.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 59), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 39.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 74 f., Nr 475.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10956_comment_com4463">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10956_comment_com16001">
+<label xml:id="GB03_2_BR132_0_note_001_76_13" copyOf="#start_com_1200"><hi rendition="#fett">76,13</hi>einen übeln Tag</label>
+<p>Hierzu und zum Folgenden vgl. den Tagebucheintrag vom 17. Juni: <quote type="G">Vergebne Hoffnung. Regenwetter. Dumpfheit.</quote> (<ref target="gt:dokument#72">GT I 1, 19</ref>.) Wie auch der Kontext der Bemerkung vermuten lässt, stand Goethes trübe Stimmung noch im Zusammenhang mit den Schwierigkeiten bei seiner Berufung ins Geheime Consilium (vgl. zu <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref>). Das vom Herzog gezeichnete Ernennungsdekret stammt zwar vom 11. Juni, allerdings findet sich dessen Erwähnung im Tagebuch erst am 19. Juni (vgl. <ref target="gt:dokument#74">GT I 1, 19</ref>); die feierliche Amtseinführung erfolgte am 25. Juni 1776 (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 39; zu <ref target="gb:note#GB03_2_BR140_0_note_002_81_23">81,23</ref>). – Dass in diesen Tagen auch bei Charlotte von Stein noch nicht alle Zweifel über Goethes Weimarer Zukunft ausgeräumt waren, belegt deren Brief an Johann Georg Zimmermann vom 17. Juni 1776 (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10965_comment_com84526">Nr 133</ref>).</p>
+
+</note>
+<note xml:id="gb10956_comment_com10227">
+<label xml:id="GB03_2_BR132_0_note_002_76_15" copyOf="#start_com_1201"><hi rendition="#fett">76,15</hi>dumpf</label>
+<p>Auf den innern Zustand bezogen, hier mit leicht negativer Konnotation im Sinne von ‚benommen‘, ‚verworren‘, ‚gefühl- und gedankenlos‘; ebenso im Tagebuch vom 18. Juni: <quote type="G">war dumpfsinnig</quote> (<ref target="gt:dokument#73">GT I 1, 19</ref>). – Vgl. zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>.</p>
+
+</note>
+<note xml:id="gb10956_comment_com10228">
+<label xml:id="GB03_2_BR132_0_note_003_76_16" copyOf="#start_com_1202"><hi rendition="#fett">76,16</hi>Aber heute kommen Sie</label>
+<p>Laut Tagebuch besuchte Charlotte von Stein Goethe erst am folgenden Tag <quote type="G">im Garten zum Frühstück</quote> (<ref target="gt:dokument#74">GT I 1, 19</ref>). Wie die Einladung im vorliegenden Brief nahelegt (vgl. aber <ref target="gb:text#GB03_1_BR164_0_102_005">102,5</ref>), handelt es sich bei der im Tagebuch als Begleitung erwähnten <quote type="G">Louise</quote> um Charlottes Schwester Louise von Imhoff.</p>
+
+</note>
+<note xml:id="gb10956_comment_com17758">
+<label xml:id="GB03_2_BR132_0_note_004_76_16" copyOf="#start_com_1203"><hi rendition="#fett">76,16</hi>Schwester</label>
+<p>Louise von Imhoff geb. von Schardt, eine jüngere Schwester Charlotte von Steins, die hier das erste Mal erwähnt wird. Sie war seit Februar 1775 mit Carl von Imhoff verheiratet und lebte auf dessen Familiengut in Mörlach bei Nürnberg. Carl von Imhoff, ein ehemaliger Offizier in württembergischen Diensten, war Ende der 1760er Jahre nach Indien gegangen. 1772 kehrte er als vermögender Mann zurück, nachdem er in die Scheidung von seiner ersten Frau Marianne geb. Chapusset eingewilligt und dafür eine Abfindung erhalten hatte. Diese war die Frau Warren Hastings geworden, des englischen Generalgouverneurs von Ostindien. – Louise von Imhoff war Mitte Juni 1776 nach Weimar gekommen, wo sie die Geburt ihres ersten Kindes erwartete. Ihre Tochter Anna Amalie kam am 16. August 1776 zur Welt. – Seit 1787 lebte das Ehepaar Imhoff getrennt, bevor die Scheidung vollzogen werden konnte, starb Carl von Imhoff im August 1788.</p>
+
+</note>
+<note xml:id="gb10956_comment_com10241">
+<label xml:id="GB03_2_BR132_0_note_005_76_17" copyOf="#start_com_1204"><hi rendition="#fett">76,17</hi>Stein</label>
+<p>Charlottes Mann Josias von Stein.</p>
+
+</note>
+<note xml:id="gb10956_comment_com10242">
+<label xml:id="GB03_2_BR132_0_note_006_76_17" copyOf="#start_com_1205"><hi rendition="#fett">76,17</hi>18. Jun 76.</label>
+<p>Am 18. Juni fand in Goethes Garten ein so genanntes <quote type="G">Vogelschiesen</quote> (<ref target="gt:dokument#73">GT I 1, 19</ref>) statt, bei dem auf einen aufgesteckten hölzernen Vogel geschossen wurde; über die Teilnehmer finden sich keine Angaben.</p>
+
+</note>
+<note xml:id="gb10956_comment_com10243">
+<label xml:id="GB03_2_BR132_0_note_007_77_1" copyOf="#start_com_1206"><hi rendition="#fett">77,1</hi>regent</label>
+<p>Ältere, nach <ref target="sndb:sigle#2753">Adelung</ref> (3, 1028) Ende des 18. Jahrhunderts auf die Umgangssprache begrenzte Form der 3. Person Singular zu ‚regnen‘; abgeleitet von ‚regen‘.</p>
+
+</note>
+<note xml:id="gb10956_comment_com10096">
+<label xml:id="GB03_2_BR132_0_note_008_77_2-3" copyOf="#start_com_1207"><hi rendition="#fett">77,2-3</hi>Sagen Sie mir Ein Wort.</label>
+<p>Mit dieser häufig in Goethes Briefen an Charlotte von Stein gebrauchten Redewendung hatte diese am Vortag ihren Brief an Zimmermann begonnen (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10965_comment_com84526">Nr 133</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

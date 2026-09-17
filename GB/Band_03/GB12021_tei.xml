@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5440"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12021" n="GB 3, Nr. 534">
+  <teiHeader xml:id="gb12021_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>534.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84955">Bei Speyer</placeName>, 24. September, <placeName key="sndb:ort#96829">Rheinzabern</placeName> und <placeName key="sndb:ort#96836">Seltz</placeName>, 25. September, <placeName key="sndb:ort#84812">Emmendingen</placeName>, 28. September 1779. Freitag&#x2012;Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12021_tei.xml</idno>
+        <idno type="URI">gb12021</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR534_0</idno>
+        <idno type="KSW-ID">12021</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="299" to="304">299-304</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="986" to="991">986-991</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12021_header_hwit1523" corresp="#gb12021_source_hwit1523" sameAs="#gb12021_comment_hwit1523" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 29</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12021,,1523/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Wir warten auf die Fähre indess will ich im Schatten Ihnen    einige Worte schreiben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84955">bei Speyer</placeName> und
+            <placeName key="sndb:ort#96829">Rheinzabern</placeName> und
+            <placeName key="sndb:ort#96836">Seltz</placeName> und
+            <placeName key="sndb:ort#84812">Emmendingen</placeName>
+            <date when="1779-09-25">25. September 1779</date> und
+            <date when="1779-09-28">28. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12021_source_hwit1523" corresp="#gb12021_header_hwit1523" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12021/23124"/>
+      <opener>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR534_0_299_001"/>
+          <ref target="gb:note#GB03_2_BR534_0_note_001_299_1" xml:id="start_com_4318"/>Gegen Speyer über<ptr n="1" target="#a001_299.1"/>
+          <ref xml:id="end_com_4318"/> am Rhein.                                d<g ref="#typoSuspension"/>. 24<ptr n="2" target="#a002_299.1"/> Sept 79</dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_299_002"/>Wir warten auf die <ref target="gb:note#GB03_2_BR534_0_note_002_299_2" xml:id="start_com_4319"/>Fähre<ref xml:id="end_com_4319"/> indess will ich im Schatten Ihnen einige 
+<anchor xml:id="GB03_1_BR534_0_299_003"/>Worte schreiben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_299_004"/>Wir streichen wie ein stiller Bach immer weiter gelassen in die Welt 
+<anchor xml:id="GB03_1_BR534_0_299_005"/>hin, haben heute den schonsten Tag, und bisher das gewünschte 
+<anchor xml:id="GB03_1_BR534_0_299_006"/>Glück. Auf diesem Weege rekapitulir ich mein ganz vorig Leben sehe 
+<anchor xml:id="GB03_1_BR534_0_299_007"/>alle alte bekannte wieder, Gott weis was sich am Ende zusammen 
+<anchor xml:id="GB03_1_BR534_0_299_008"/>summiren wird. Dem Herzog thuts sehr wohl, Wedel ist vergnügt. 
+<anchor xml:id="GB03_1_BR534_0_299_009"/><ref target="gb:note#GB03_2_BR534_0_note_003_299_9" xml:id="start_com_4320"/>Die Schweiz liegt vor uns<ref xml:id="end_com_4320"/> und wir hoffen mit Beystand des <ref target="gb:note#GB03_2_BR534_0_note_004_299_9" xml:id="start_com_4321"/>Himm<ref xml:id="end_com_4321"/> in 
+<anchor xml:id="GB03_1_BR534_0_299_010"/>den grosen Gestalten der Welt uns um zutreiben, und <ref target="gb:note#GB03_2_BR534_0_note_005_299_10-11" xml:id="start_com_4322"/>unsre Geister im 
+<anchor xml:id="GB03_1_BR534_0_299_011"/>Erhabnen der Natur zu baden<ref xml:id="end_com_4322"/>. <ref target="gb:note#GB03_2_BR534_0_note_006_299_11-12" xml:id="start_com_4323"/>Lassen Sie immer etwas nach Franckfurt 
+<anchor xml:id="GB03_1_BR534_0_299_012"/>gehen, es wird mir nachgeschickt<ref xml:id="end_com_4323"/> oder erwartet mich. Leben Sie 
+<anchor xml:id="GB03_1_BR534_0_299_013"/>wohl! auf der andern Seite ein <ref target="gb:note#GB03_2_BR534_0_note_007_299_13" xml:id="start_com_4324"/>leichtes Schattenbild der Gegend<ref xml:id="end_com_4324"/>.</p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_1_BR534_0_299_014"/>G. </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#c">
+        <note type="editor"><supplied>Vgl. Faksimile</supplied></note>
+      </p>
+      <!--<figure><graphic url="abb15.tif"/><p rendition="#einrueck1">Abb. 15: Speyer von jenseits des Rheins gesehen
+(Nr 534)</p></figure>-->
+<pb n="2" facs="gb:digitalisate#12021/23125"/>
+      <space quantity="1" unit="lines"/>
+      <anchor xml:id="GB03_1_BR534_0_299_015"/>
+      <p>
+      <pb n="3" facs="gb:digitalisate#12021/23126"/>
+        <ref target="gb:note#GB03_2_BR534_0_note_008_299_15" xml:id="start_com_4325"/>Rheinzabern<ref xml:id="end_com_4325"/>    d<g ref="#typoSuspension"/>. 25<ptr n="3" target="#a003_299.15"/> <hi rendition="#sup">ten</hi> Sept. früh.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_299_016"/>Ich hatte mir vorgenommen ein klein <ref target="gb:note#GB03_2_BR534_0_note_009_299_16" xml:id="start_com_4326"/>Diari<unclear reason="illegible">um</unclear><ref xml:id="end_com_4326"/> zu schreiben, es ging 
+<anchor xml:id="GB03_1_BR534_0_299_017"/>aber nicht weil es mir keinen nahen Zweck hatte, künftig will ich 
+<anchor xml:id="GB03_1_BR534_0_299_018"/>Ihnen <ref target="gb:note#GB03_2_BR534_0_note_010_299_18" xml:id="start_com_4327"/>täglich, einfach aufschreiben<ref xml:id="end_com_4327"/> was uns ges<unclear reason="illegible">c</unclear>hieht. Gestern Mittag 
+<anchor xml:id="GB03_1_BR534_0_299_019"/>kamen wir zu Speyer an, wie Sie aus der <ref target="gb:note#GB03_2_BR534_0_note_011_299_19" xml:id="start_com_4328"/>Bleystifft Beylage<ref xml:id="end_com_4328"/> sehen, und 
+<anchor xml:id="GB03_1_BR534_0_299_020"/>suchten den Domher <ref target="gb:note#GB03_2_BR534_0_note_012_299_20" xml:id="start_com_4329"/>Beroldingen<ref xml:id="end_com_4329"/> auf. Er ist ein lebhafter, grader, 
+<anchor xml:id="GB03_1_BR534_0_299_021"/>und rein theilnehmender Mann. Wir <ref target="gb:note#GB03_2_BR534_0_note_013_299_21" xml:id="start_com_4330"/>fasteten<ref xml:id="end_com_4330"/> mit ihm sehr gut. sahen 
+<anchor xml:id="GB03_1_BR534_0_299_022"/>den <ref target="gb:note#GB03_2_BR534_0_note_014_299_22" xml:id="start_com_4331"/>Dom<ref xml:id="end_com_4331"/> ein halb neues halb aus dem Brand überbliebnes Gebäude 
+<anchor xml:id="GB03_1_BR534_0_299_023"/>dessen erste Anlage wie die alten Kirchen zusammen in dem wahren 
+<anchor xml:id="GB03_1_BR534_0_299_024"/>Gefühl der Andacht gemacht ist. Sie schliesen den Menschen in den 
+<anchor xml:id="GB03_1_BR534_0_299_025"/>einfachen grosen Formen zusammen, und in ihren hohen Gewolben 
+<anchor xml:id="GB03_1_BR534_0_301_001"/>kan sich doch der Geist wieder ausbreiten, und aufsteigen, ohne wies 
+<anchor xml:id="GB03_1_BR534_0_301_002"/>in der grosen Natur ges<unclear reason="illegible">c</unclear>hieht ganz ins unendliche überzuschweifen. 
+<anchor xml:id="GB03_1_BR534_0_301_003"/>Neuerdings haben sie diese Kirche blaulich ausgemahlt und mit 
+<anchor xml:id="GB03_1_BR534_0_301_004"/><ref target="gb:note#GB03_2_BR534_0_note_015_301_4" xml:id="start_com_4332"/>Schniz und Krizpossen<ref xml:id="end_com_4332"/> ausstaffirt dass man gern <pb n="4" facs="gb:digitalisate#12021/23127"/> wieder herausgeht. 
+<anchor xml:id="GB03_1_BR534_0_301_005"/>Wir sahen den Schaz wo alte Messgewande sind, wo ieder Künstler 
+<anchor xml:id="GB03_1_BR534_0_301_006"/>sein Ganz Talent dem Priester auf den Rücken gehängt hat. In allen 
+<anchor xml:id="GB03_1_BR534_0_301_007"/>diesen, wenigstens d<g ref="#typoSuspension"/>. ältsten ist sehr viel<ptr n="4" target="#a004_301.7"/> Herzlichkeit, Manigfaltigkeit 
+<anchor xml:id="GB03_1_BR534_0_301_008"/>in Köpfen und Figuren, ein wunderbaar <ref target="gb:note#GB03_2_BR534_0_note_016_301_8" xml:id="start_com_4333"/>Studium<ref xml:id="end_com_4333"/> mit Perlen ein <ref target="gb:note#GB03_2_BR534_0_note_017_301_8-9" xml:id="start_com_4334"/>Clair 
+<anchor xml:id="GB03_1_BR534_0_301_009"/>obscür<ref xml:id="end_com_4334"/> hervorzubringen da die grösten auf die höchsten Lichter gesezt 
+<anchor xml:id="GB03_1_BR534_0_301_010"/>sind und bis hinten in die Schatten die kleineren und kleinsten. Wie 
+<anchor xml:id="GB03_1_BR534_0_301_011"/>alles neu und beysammen, alles blanck und bunt war, bin ich überzeugt 
+<anchor xml:id="GB03_1_BR534_0_301_012"/>muss es schön und in seiner art vollkomen gewesen seyn. Wir 
+<anchor xml:id="GB03_1_BR534_0_301_013"/>sahen in der <ref target="gb:note#GB03_2_BR534_0_note_018_301_13" xml:id="start_com_4335"/>Sessionsstube des Capitels<ref xml:id="end_com_4335"/> die <ref target="gb:note#GB03_2_BR534_0_note_019_301_13-14" xml:id="start_com_4336"/>Scizze zur Hochzeit<ptr n="5" target="#a005_301.13"/> von 
+<anchor xml:id="GB03_1_BR534_0_301_014"/>Cana durch Paul Veronese<ref xml:id="end_com_4336"/> ein treffliches Stück, mit groser Liebe und 
+<anchor xml:id="GB03_1_BR534_0_301_015"/>Leichtigkeit <ref target="gb:note#GB03_2_BR534_0_note_020_301_15" xml:id="start_com_4337"/>gemahlen<ref xml:id="end_com_4337"/> und gewalt und tüchtigkeit. Die meisten Köpfe 
+<anchor xml:id="GB03_1_BR534_0_301_016"/>sieht man sind <ref target="gb:note#GB03_2_BR534_0_note_021_301_16" xml:id="start_com_4338"/>Portraits<ref xml:id="end_com_4338"/> auffallend lebendig. Wir sahen die Gemählde 
+<anchor xml:id="GB03_1_BR534_0_301_017"/>Sammlung des <ref target="gb:note#GB03_2_BR534_0_note_022_301_17" xml:id="start_com_4339"/>Dechanten<ref xml:id="end_com_4339"/> der sehr viel und manches gute besizzt. <pb n="5" facs="gb:digitalisate#12021/23128"/> 
+<anchor xml:id="GB03_1_BR534_0_301_018"/>Die Landschafften zogen<ptr n="6" target="#a006_301.18"/> mich besonders an, denn ich hoffe immer 
+<anchor xml:id="GB03_1_BR534_0_301_019"/>noch etwas zu lernen: Bis iezt stehn mir einige starcke <ref target="gb:note#GB03_2_BR534_0_note_023_301_19" xml:id="start_com_4340"/>Redouten<ref xml:id="end_com_4340"/><ptr n="7" target="#a007_301.19"/> <anchor xml:id="GB03_1_BR534_0_301_020"/>noch entgegen, auf dieser Reise hoff ich wenigstens eine mit sturm 
+<anchor xml:id="GB03_1_BR534_0_301_021"/>einzunehmen. Wir fanden <ref target="gb:note#GB03_2_BR534_0_note_024_301_21" xml:id="start_com_4341"/>bei Berold.<ptr n="8" target="#a008_301.21"/> selbst<ptr n="9" target="#a009_301.21"/><ref xml:id="end_com_4341"/> manches Gute an Gemählden 
+<anchor xml:id="GB03_1_BR534_0_301_022"/>und Kupfern, aber alles durcheinander gekramt, eben eine 
+<anchor xml:id="GB03_1_BR534_0_301_023"/><ref target="gb:note#GB03_2_BR534_0_note_025_301_23" xml:id="start_com_4342"/>Hagestolzen<ref xml:id="end_com_4342"/> Wirthschafft. Er ist des Jahrs 5<ptr n="10" target="#a010_301.23"/> Monate in Hildesheim die 
+<anchor xml:id="GB03_1_BR534_0_301_024"/>übrige Zeit theils hier theils auf <ref target="gb:note#GB03_2_BR534_0_note_026_301_24" xml:id="start_com_4343"/>Touren<ref xml:id="end_com_4343"/>, und so kommt er nicht zur 
+<anchor xml:id="GB03_1_BR534_0_301_025"/>Ruhe und Ordnung. Er kennt und liebt die Kunst sehr lebhafft, und 
+<anchor xml:id="GB03_1_BR534_0_301_026"/>weis was ein Mahler thut. Abends bey schönem Mondschein<ptr n="11" target="#a011_301.26"/> fuhren 
+<anchor xml:id="GB03_1_BR534_0_301_027"/>wir hierher, da wir unsre Pferde Zeitiger vorausschickten. Hier ist 
+<anchor xml:id="GB03_1_BR534_0_301_028"/>nichts zu sagen wir kamen um eilf Uhr an schliefen lange<ptr n="12" target="#a012_301.28"/>, und reiten 
+<anchor xml:id="GB03_1_BR534_0_301_029"/>gleich weiter.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_301_030"/><hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR534_0_note_027_301_30" xml:id="start_com_4344"/>Selz</hi><ref xml:id="end_com_4344"/> Mittags. Ein ungemein schöner Tag eine glückliche Gegend, 
+<anchor xml:id="GB03_1_BR534_0_301_031"/>noch alles grün, kaum hie und da ein<ptr n="13" target="#a013_301.31"/> Buchen und Eichenblat gelb. 
+<anchor xml:id="GB03_1_BR534_0_301_032"/>Die Weiden noch in ihrer silbernen<ptr n="14" target="#a014_301.32"/> schönheit. ein milder willkommner 
+<anchor xml:id="GB03_1_BR534_0_301_033"/>Athem durchs ganze Land. Trauben<ptr n="15" target="#a015_301.33"/> mit iedem Schritt und Tage 
+<anchor xml:id="GB03_1_BR534_0_302_001"/>besser. Jedes Bauer <pb n="6" facs="gb:digitalisate#12021/23129"/> Haus mit Reben bis unters Dach, ieder Hof mit 
+<anchor xml:id="GB03_1_BR534_0_302_002"/>einer grosen vollhangenden<ptr n="16" target="#a016_302.2"/> Laube. Himmelsluft weich, warm, feuchtlich, 
+<anchor xml:id="GB03_1_BR534_0_302_003"/>man wird auch wie die Trauben reif und süs in der seele. Wollte<ptr n="17" target="#a017_302.3"/>
+        <anchor xml:id="GB03_1_BR534_0_302_004"/>Gott wir wohnten hier zusammen, mancher würde nicht so schnell 
+<anchor xml:id="GB03_1_BR534_0_302_005"/>im Winter einfrieren und im Sommer austrocknen. Der Rhein und 
+<anchor xml:id="GB03_1_BR534_0_302_006"/>die klaren Gebürge in der Nähe, die abwechselnden Wälder Wiesen 
+<anchor xml:id="GB03_1_BR534_0_302_007"/>und Gartenmäsigen Felder, machen dem Menschen wohl und geben 
+<anchor xml:id="GB03_1_BR534_0_302_008"/>mir eine Art Behagens das ich lange entbehre.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_302_009"/>══</p>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_302_010"/>
+        <ref target="gb:note#GB03_2_BR534_0_note_028_302_10" xml:id="start_com_4345"/>Emmedingen<ref xml:id="end_com_4345"/> d<g ref="#typoSuspension"/>. 28 Sept. Ich kan nur zuerst die himmlischen Wolcken 
+<anchor xml:id="GB03_1_BR534_0_302_011"/>preisen und verherrlichen<ptr n="18" target="#a018_302.11"/> die bisher noch, wie ein Baldachin am 
+<anchor xml:id="GB03_1_BR534_0_302_012"/>Feyertage, über uns schwebten, und sich als Freunde und Führer unsres 
+<anchor xml:id="GB03_1_BR534_0_302_013"/>Unternehmens bekannten. In Demuth hoff ich dass es so weiter 
+<anchor xml:id="GB03_1_BR534_0_302_014"/>gehn wird, Lufft und Wetterglas geben Hoffnung. Nachts die klarsten 
+<anchor xml:id="GB03_1_BR534_0_302_015"/>Himmel, früh mit Sonnen Aufgang leicht auf und absteigende Nebel, 
+<anchor xml:id="GB03_1_BR534_0_302_016"/>die erhabensten Lufterscheinungen. Regen wenn wir ins Quartier 
+<anchor xml:id="GB03_1_BR534_0_302_017"/>kommen pp.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_302_018"/>Ich fahre in meiner Erzählung fort.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_302_019"/>══</p>
+      <p>
+        <anchor xml:id="GB03_1_BR534_0_302_020"/>d<g ref="#typoSuspension"/>. 25<ptr n="19" target="#a019_302.20"/> Abends ritt ich etwas seitwärts nach <ref target="gb:note#GB03_2_BR534_0_note_029_302_20" xml:id="start_com_4346"/>Sessenheim<ref xml:id="end_com_4346"/>, indem die andern 
+<anchor xml:id="GB03_1_BR534_0_302_021"/>ihre Reise grad fortsezten, und fand daselbst <ref target="gb:note#GB03_2_BR534_0_note_030_302_21" xml:id="start_com_4347"/>eine Famielie<ref xml:id="end_com_4347"/> wie 
+<anchor xml:id="GB03_1_BR534_0_302_022"/>ich sie vor acht Jahren verlassen hatte beysammen, und wurde gar 
+<anchor xml:id="GB03_1_BR534_0_302_023"/>freundlich und Gut auf<pb n="7" facs="gb:digitalisate#12021/23130"/>genommen. Da ich iezt so <ref target="gb:note#GB03_2_BR534_0_note_031_302_23" xml:id="start_com_4348"/>rein<ref xml:id="end_com_4348"/> und still bin 
+<anchor xml:id="GB03_1_BR534_0_302_024"/>wie die Luft so ist mir der Athem guter und stiller Menschen sehr 
+<anchor xml:id="GB03_1_BR534_0_302_025"/>willkommen. Die Zweite Tochter vom Hause hatte mich ehmals geliebt 
+<anchor xml:id="GB03_1_BR534_0_302_026"/>schöner als ichs verdiente, und mehr als <ref target="gb:note#GB03_2_BR534_0_note_032_302_26-27" xml:id="start_com_4349"/>andre an die ich viel 
+<anchor xml:id="GB03_1_BR534_0_302_027"/>Leidenschafft und Treue verwendet habe<ref xml:id="end_com_4349"/>, ich musste sie in einem Augenblick 
+<anchor xml:id="GB03_1_BR534_0_302_028"/>verlassen, wo es ihr fast das Leben kostete, sie ging leise drüber 
+<anchor xml:id="GB03_1_BR534_0_302_029"/>weg mir zu sagen was ihr von einer Kranckheit iener Zeit noch 
+<anchor xml:id="GB03_1_BR534_0_302_030"/>überbliebe, betrug sich allerliebst mit soviel herzlicher Freundschafft 
+<anchor xml:id="GB03_1_BR534_0_302_031"/>vom ersten Augenblick da ich ihr unerwartet auf der Schwelle ins Gesicht 
+<anchor xml:id="GB03_1_BR534_0_302_032"/>tratt, und wir mit den Nasen aneinander stiesen dass mir’s ganz 
+<anchor xml:id="GB03_1_BR534_0_302_033"/>wohl wurde. Nachsagen muss ich ihr dass sie auch nicht durch die 
+<anchor xml:id="GB03_1_BR534_0_302_034"/>leiseste Berührung irgend ein altes Gefühl in meiner Seele zu wecken 
+<anchor xml:id="GB03_1_BR534_0_303_001"/>unternahm. Sie führte mich in ieder Laube, und da musst ich sizzen 
+<anchor xml:id="GB03_1_BR534_0_303_002"/>und so wars gut.<ptr n="20" target="#a020_303.2"/> Wir hatten den schönsten Vollmond. ich erkundigte 
+<anchor xml:id="GB03_1_BR534_0_303_003"/>mich nach allem. Ein Nachbaar der uns sonst hatte <ref target="gb:note#GB03_2_BR534_0_note_033_303_3" xml:id="start_com_4350"/>künsteln<ref xml:id="end_com_4350"/> helfen<ptr n="21" target="#a021_303.3"/>
+        <anchor xml:id="GB03_1_BR534_0_303_004"/>wurde herbeygerufen und bezeugt dass er noch vor acht Tagen nach 
+<anchor xml:id="GB03_1_BR534_0_303_005"/>mir gefragt hatte, der Barbir<ptr n="22" target="#a022_303.5"/> musste auch kommen, ich fand <ref target="gb:note#GB03_2_BR534_0_note_034_303_5-6" xml:id="start_com_4351"/>alte Lieder 
+<anchor xml:id="GB03_1_BR534_0_303_006"/>die ich gestifftet hatte<ref xml:id="end_com_4351"/>, eine Kutsche die ich gemahlt hatte, wir 
+<anchor xml:id="GB03_1_BR534_0_303_007"/>erinnerten uns an manche Streiche iener guten Zeit, und ich<ptr n="23" target="#a023_303.7"/> fand 
+<anchor xml:id="GB03_1_BR534_0_303_008"/>mein Andencken so lebhaft unter ihnen als ob ich kaum ein halb Jahr 
+<anchor xml:id="GB03_1_BR534_0_303_009"/>weg wäre. Die Alten waren treuherzig man fand ich sey iünger geworden. 
+<anchor xml:id="GB03_1_BR534_0_303_010"/>Ich blieb die Nacht und schied d<g ref="#typoSuspension"/>. andern Morgen bey Sonnen<pb n="8" facs="gb:digitalisate#12021/23131"/>
+<anchor xml:id="GB03_1_BR534_0_303_011"/>aufgang, von freundlichen Gesichtern verabschiedet dass ich nun auch 
+<anchor xml:id="GB03_1_BR534_0_303_012"/>wieder mit Zufriedenheit an das Eckgen der Welt hindencken, und in 
+<anchor xml:id="GB03_1_BR534_0_303_013"/>Friede mit den Geistern dieser ausgesohnten in mir leben kan.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_303_014"/>d<g ref="#typoSuspension"/>. 26 Sonntags <ref target="gb:note#GB03_2_BR534_0_note_035_303_14" xml:id="start_com_4352"/>traff ich wieder mit der Gesellschafft zusammen<ref xml:id="end_com_4352"/>, 
+<anchor xml:id="GB03_1_BR534_0_303_015"/>und gegen Mittag waren wir in Strasburg<ptr n="24" target="#a024_303.15"/>. Ich ging zu <ref target="gb:note#GB03_2_BR534_0_note_036_303_15" xml:id="start_com_4353"/>Lili<ref xml:id="end_com_4353"/> und fand 
+<anchor xml:id="GB03_1_BR534_0_303_016"/>den schönen <ref target="gb:note#GB03_2_BR534_0_note_037_303_16" xml:id="start_com_4354"/>Grasaffen<ref xml:id="end_com_4354"/> mit einer <ref target="gb:note#GB03_2_BR534_0_note_038_303_16" xml:id="start_com_4355"/>Puppe von sieben Wochen<ref xml:id="end_com_4355"/> spielen, 
+<anchor xml:id="GB03_1_BR534_0_303_017"/>und <ref target="gb:note#GB03_2_BR534_0_note_039_303_17" xml:id="start_com_4356"/>ihre Mutter<ref xml:id="end_com_4356"/> bey ihr. Auch da wurde ich mit Verwundrung und 
+<anchor xml:id="GB03_1_BR534_0_303_018"/>Freude empfangen. Erkundigte mich nach allem, und sah in alle Ecken. 
+<anchor xml:id="GB03_1_BR534_0_303_019"/>Da ich denn zu meinem ergozzen fand dass die gute Creatur recht 
+<anchor xml:id="GB03_1_BR534_0_303_020"/>glücklich verheurathet ist. Ihr Mann aus allem was ich hore scheint 
+<anchor xml:id="GB03_1_BR534_0_303_021"/>brav, vernünftig, und beschafftigt zu seyn, er ist wohlhabend, ein schönes 
+<anchor xml:id="GB03_1_BR534_0_303_022"/>Haus, ansehnliche Famielie, einen stattlichen<ptr n="25" target="#a025_303.22"/> bürgerlichen Rang 
+<anchor xml:id="GB03_1_BR534_0_303_023"/>pp. alles was sie brauchte pp. Er war abwesend. Ich blieb zu Tische. 
+<anchor xml:id="GB03_1_BR534_0_303_024"/>Ging nach Tisch mit dem Herzog auf <ref target="gb:note#GB03_2_BR534_0_note_040_303_24" xml:id="start_com_4357"/>den Münster<ref xml:id="end_com_4357"/>, Abends<ptr n="26" target="#a026_303.24"/> sahen wir 
+<anchor xml:id="GB03_1_BR534_0_303_025"/>ein Stück <ref target="gb:note#GB03_2_BR534_0_note_041_303_25" xml:id="start_com_4358"/><emph rendition="#latin">L’Infante de Zamora</emph><ref xml:id="end_com_4358"/> mit ganz trefflicher Musick von <emph rendition="#latin">Paesiello</emph>. 
+<anchor xml:id="GB03_1_BR534_0_303_026"/>Dann as ich wieder bey Lili und ging in schönem Mondschein<ptr n="27" target="#a027_303.26"/>
+        <anchor xml:id="GB03_1_BR534_0_303_027"/>weg. Die schöne Empfindung die mich begleitet kan ich nicht sagen. 
+<anchor xml:id="GB03_1_BR534_0_303_028"/>So <ref target="gb:note#GB03_2_BR534_0_note_042_303_28" xml:id="start_com_4359"/>prosaisch<ref xml:id="end_com_4359"/> als ich nun mit diesen Menschen bin, so ist doch in dem 
+<anchor xml:id="GB03_1_BR534_0_303_029"/>Gefühl von durchgehendem reinen Wohlwollen<ptr n="28" target="#a028_303.29"/>, und wie ich diesen 
+<anchor xml:id="GB03_1_BR534_0_303_030"/>Weeg her gleichsam einen <ref target="gb:note#GB03_2_BR534_0_note_043_303_30" xml:id="start_com_4360"/>Rosenkranz<ref xml:id="end_com_4360"/> der treusten <pb n="9" facs="gb:digitalisate#12021/23132"/> bewährtesten, 
+<anchor xml:id="GB03_1_BR534_0_303_031"/>unauslöschlichsten Freundschafft abgebetet habe eine recht <ref target="gb:note#GB03_2_BR534_0_note_044_303_31-32" xml:id="start_com_4361"/>ätherische 
+<anchor xml:id="GB03_1_BR534_0_303_032"/>Wollust<ref xml:id="end_com_4361"/>. Ungetrübt von einer beschränckten Leidenschafft treten nun 
+<anchor xml:id="GB03_1_BR534_0_303_033"/>in meine Seele die Verhältnisse zu den Menschen die bleibend sind, 
+<anchor xml:id="GB03_1_BR534_0_304_001"/>meine entfernten Freunde und ihr Schicksaal liegen<ptr n="29" target="#a029_304.1"/> nun vor mir wie 
+<anchor xml:id="GB03_1_BR534_0_304_002"/>ein Land in dessen Gegenden man von einem hohen Berge oder im 
+<anchor xml:id="GB03_1_BR534_0_304_003"/>Vogelflug sieht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_304_004"/>Hier bin ich nun nah am <ref target="gb:note#GB03_2_BR534_0_note_045_304_4" xml:id="start_com_4362"/>Grabe meiner Schwester<ref xml:id="end_com_4362"/>, ihr Haushalt ist 
+<anchor xml:id="GB03_1_BR534_0_304_005"/>mir, wie eine Tafel worauf eine geliebte<ptr n="30" target="#a030_304.5"/> Gestalt stand die nun weggelöscht 
+<anchor xml:id="GB03_1_BR534_0_304_006"/>ist. Die an ihre Stelle Getrettne <ref target="gb:note#GB03_2_BR534_0_note_046_304_6" xml:id="start_com_4363"/>Fahlmer<ref xml:id="end_com_4363"/><ptr n="31" target="#a031_304.6"/>, <ref target="gb:note#GB03_2_BR534_0_note_047_304_6" xml:id="start_com_4364"/>mein Schwager<ref xml:id="end_com_4364"/>, <ref target="gb:note#GB03_2_BR534_0_note_048_304_6-7" xml:id="start_com_4365"/>einige 
+<anchor xml:id="GB03_1_BR534_0_304_007"/>Freundinnen<ref xml:id="end_com_4365"/> sind mir so nah wie sonst. <ref target="gb:note#GB03_2_BR534_0_note_049_304_7" xml:id="start_com_4366"/>Ihre Kinder<ref xml:id="end_com_4366"/> sind schön, 
+<anchor xml:id="GB03_1_BR534_0_304_008"/>munter, und gesund. Von hier wird nun auf <ref target="gb:note#GB03_2_BR534_0_note_050_304_8" xml:id="start_com_4367"/>Basel<ref xml:id="end_com_4367"/> gehn. Wenn Sie 
+<anchor xml:id="GB03_1_BR534_0_304_009"/>wieder <ref target="gb:note#GB03_2_BR534_0_note_051_304_9" xml:id="start_com_4368"/>von mir hören<ref xml:id="end_com_4368"/> weis ich nicht. <ref target="gb:note#GB03_2_BR534_0_note_052_304_9" xml:id="start_com_4369"/>Von Ihnen hab ich noch nichts.<ref xml:id="end_com_4369"/>
+        <anchor xml:id="GB03_1_BR534_0_304_010"/>Obgleich <ref target="gb:note#GB03_2_BR534_0_note_053_304_10" xml:id="start_com_4370"/>andre Briefe<ref xml:id="end_com_4370"/> von Franckfurt aus nachgeschickt sind.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR534_0_304_011"/>Adieu. Grüsen Sie alles.</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline rendition="#einrueck7">
+          <anchor xml:id="GB03_1_BR534_0_304_012"/>Emmedingen d<g ref="#typoSuspension"/>. 28 Sept. 1779.</dateline>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR534_0_304_013"/>d<g ref="#typoSuspension"/>. 27 früh sin<unclear reason="illegible">d</unclear> wir von Strasburg ab und Abends <ref target="gb:note#GB03_2_BR534_0_note_054_304_13" xml:id="start_com_4371"/>hier<ref xml:id="end_com_4371"/> angekommen.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR534_0_304_014"/><ref target="gb:note#GB03_2_BR534_0_note_055_304_14-15" xml:id="start_com_4372"/>Lavatern zu sehn und ihn dem Herzog näher zu wissen ist meine 
+<anchor xml:id="GB03_1_BR534_0_304_015"/>gröste Hoffnung.<ref xml:id="end_com_4372"/> Ich unterhalte<ptr n="32" target="#a032_304.15"/> Sie nur von mir. Es ist meine alte 
+<anchor xml:id="GB03_1_BR534_0_304_016"/>Sünde. Adieu.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12021_comment">
+<body>
+<div type="metadata" xml:id="gb12021_comment_com796">
+  <ab type="numberAddressee"><label>534.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84955">bei Speyer</placeName>, <placeName key="sndb:ort#96829">Rheinzabern</placeName>, <placeName key="sndb:ort#96836">Seltz</placeName> und <placeName key="sndb:ort#84812">Emmendingen</placeName>, 25. September 1779 und 28. September 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12021_comment_com2840">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 29. – 5 Bl.: 2 ineinandergelegte Doppelblätter 17,2(–17,5) × 21,4(–21,8) cm und 1 Bl. 18,2(–18,4) × 21,2(–21,4) cm, Blätter mit Falz aneinander geklebt, 7 &#xBE; S. beschr., egh., Bleistift (S. 1: &#xBE; S.) und Tinte (S. 3–9); S. 2 Zeichnung, egh., Bleistift, Tuschlavierung (Speyer von jenseits des Rheins gesehen, vgl. <ref target="sndb:sigle#1248">Corpus</ref> VIa, 62 f., Nr 220); S. 1 oben rechts von fremder Hd, Tinte und Bleistift: „4<hi rendition="#sup #uu">a</hi>“; S. 3 oben rechts von fremder Hd, Tinte: „5.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 51), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile der Zeichnung (S. 2): <ref target="gb:digitalisate#12021/23125">Abb. 15</ref> im Textband (S. 300); <ref target="sndb:sigle#1248">Corpus</ref> VIa (1977), Nr 220.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 241–247.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 62–69, Nr 849.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12021_comment_com4636">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12021_comment_com14142">
+<label xml:id="GB03_2_BR534_0_note_001_299_1" copyOf="#start_com_4318"><hi rendition="#fett">299,1</hi>Gegen Speyer über</label>
+<p>Auf der rechten Rheinseite; Goethe kam von Heidelberg.</p>
+
+</note>
+<note xml:id="gb12021_comment_com15315">
+<label xml:id="GB03_2_BR534_0_note_002_299_2" copyOf="#start_com_4319"><hi rendition="#fett">299,2</hi>Fähre</label>
+<p>Vermutlich die „Husener Fahr“, die Fährverbindung vom rechtsrheinischen Rheinhausen zum linksrheinischen Speyer, die seit dem 13. Jahrhundert existierte.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11862">
+<label xml:id="GB03_2_BR534_0_note_003_299_9" copyOf="#start_com_4320"><hi rendition="#fett">299,9</hi>Die Schweiz liegt vor uns</label>
+<p>Von diesem Reiseziel wusste Charlotte von Stein bisher nichts. Erst auf dem Weg nach Frankfurt wurde beschlossen, dorthin zu gehen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11863">
+<label xml:id="GB03_2_BR534_0_note_004_299_9" copyOf="#start_com_4321"><hi rendition="#fett">299,9</hi>Himm</label>
+<p>Abbruch am Zeilenende.</p>
+
+</note>
+<note xml:id="gb12021_comment_com18132">
+<label xml:id="GB03_2_BR534_0_note_005_299_10-11" copyOf="#start_com_4322"><hi rendition="#fett">299,10-11</hi>unsre Geister im Erhabnen der Natur zu baden</label>
+<p>Auf den Begriff des Erhabenen, hier noch im Sinn einer subjektiven Erfahrung, nicht einer ästhetischen Kategorie, kommt Goethe in den Briefen aus der Schweiz wiederholt zurück (vgl. <ref target="gb:text#GB03_1_BR538_0_317_027 #GB03_1_BR538_0_317_030">317,27–30</ref>; <ref target="gb:text#GB03_1_BR536_0_305_023">305,23</ref>; <ref target="gb:text#GB03_1_BR536_0_306_008">306,8</ref>; <ref target="gb:text#GB03_1_BR558_0_365_009">365,9</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11875">
+<label xml:id="GB03_2_BR534_0_note_006_299_11-12" copyOf="#start_com_4323"><hi rendition="#fett">299,11-12</hi>Lassen Sie <gap quantity="3" reason="editorial"/> nachgeschickt</label>
+<p>Am 20. Dezember 1779 teilte Goethe Charlotte von Stein von der Rückreise aus Karlsruhe mit, vier ihrer Briefe seien in einem  <quote type="G">gros Packet in Franckfurt liegen blieben</quote> (<ref target="gb:text#GB03_1_BR559_0_365_019">365,19</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11876">
+<label xml:id="GB03_2_BR534_0_note_007_299_13" copyOf="#start_com_4324"><hi rendition="#fett">299,13</hi>leichtes Schattenbild der Gegend</label>
+<p>Goethes getuschte Bleistiftzeichnung „Speyer von jenseits des Rheins gesehen“ (vgl. <ref target="gb:note#gb12021_comment_com2840">Überlieferung</ref> und <ref target="gb:digitalisate#12021/23125">Abb. 15</ref> im Textband, S. 300).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11877">
+<label xml:id="GB03_2_BR534_0_note_008_299_15" copyOf="#start_com_4325"><hi rendition="#fett">299,15</hi>Rheinzabern</label>
+<p>Nordwestlich von Karlsruhe, linksrheinisch gelegen.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11878">
+<label xml:id="GB03_2_BR534_0_note_009_299_16" copyOf="#start_com_4326"><hi rendition="#fett">299,16</hi>Diari<unclear reason="illegible">um</unclear></label>
+<p>Lat.: Tagebuch.</p>
+
+</note>
+<note xml:id="gb12021_comment_com15317">
+<label xml:id="GB03_2_BR534_0_note_010_299_18" copyOf="#start_com_4327"><hi rendition="#fett">299,18</hi>täglich, einfach aufschreiben</label>
+<p>Solche Tagesberichte finden sich etwa in <ref target="gb:dokument#12030">Nr 536</ref>, <ref target="gb:dokument#12029">538</ref>, <ref target="gb:dokument#12036">541</ref>, <ref target="gb:dokument#12038">543</ref> und <ref target="gb:dokument#12043">550</ref>.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11879">
+<label xml:id="GB03_2_BR534_0_note_011_299_19" copyOf="#start_com_4328"><hi rendition="#fett">299,19</hi>Bleystifft Beylage</label>
+<p>Vgl. <ref target="gb:digitalisate#12021/23125">Abb. 15</ref> im Textband, S. 300.</p>
+
+</note>
+<note xml:id="gb12021_comment_com18137">
+<label xml:id="GB03_2_BR534_0_note_012_299_20" copyOf="#start_com_4329"><hi rendition="#fett">299,20</hi>Beroldingen</label>
+<p>Joseph Freiherr von Beroldingen; der aufklärerisch gesinnte Domherr, Haupt der Opposition gegen den absolutistisch regierenden Bischof August Graf von Limburg-Styrum in Speyer (zugleich in Hildesheim und Bruchsal), galt als bedeutender Kunstsammler und -kenner und als Förderer von Kunst und Wissenschaft. Aus dem Jahr 1811 ist ein kurzer Briefwechsel mit Goethe überliefert (vgl. <ref target="ra:dokument#8241">RA 6, 59, Nr 81</ref>; <ref target="sndb:sigle#1157">WA</ref> IV 22, Nr 6140). Laut <ref target="gb:dokument#63">Nr 540</ref> brachte Goethe den ganzen Nachmittag bei Beroldingen zu (vgl. <ref target="gb:text#GB03_1_BR540_0_320_012">320,12</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11892">
+<label xml:id="GB03_2_BR534_0_note_013_299_21" copyOf="#start_com_4330"><hi rendition="#fett">299,21</hi>fasteten</label>
+<p>Es war Freitag; an diesem Tag gilt in der katholischen Kirche das Gebot, auf Fleisch zu verzichten. Bei Beroldingen gab es offenbar wohlschmeckende fleischlose Speisen.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11893">
+<label xml:id="GB03_2_BR534_0_note_014_299_22" copyOf="#start_com_4331"><hi rendition="#fett">299,22</hi>Dom</label>
+<p>Der romanische Dom zu Speyer ist eine Gründung des salischen Kaisers Konrad II. aus der ersten Hälfte des 11. Jahrhunderts. Nach wiederholter Zerstörung und Wiederherstellung bereits während des 12. Jahrhunderts wurde der Dom 1689 im Pfälzischen Erbfolgekrieg von den Truppen des französischen Königs Ludwig XIV. schwer beschädigt. Seit 1758 war der Wiederaufbau im Gang; 1772–1778 wurde der westliche Teil des Langhauses erneuert. Auf diese Arbeiten bezieht sich Goethes kritische Schilderung im Folgenden (vgl. <ref target="gb:text#GB03_1_BR534_0_301_003 #GB03_1_BR534_0_301_004">301,3–4</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11894">
+<label xml:id="GB03_2_BR534_0_note_015_301_4" copyOf="#start_com_4332"><hi rendition="#fett">301,4</hi>Schniz und Krizpossen</label>
+<p>Albernheiten von Schnitzwerk und Malerei. – ‚Schnitz‘ und ‚Kritz‘: Nominalbildungen zu ‚schnitzen‘ und ‚kritze(l)n‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 15, 1358; 11, 2341).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11895">
+<label xml:id="GB03_2_BR534_0_note_016_301_8" copyOf="#start_com_4333"><hi rendition="#fett">301,8</hi>Studium</label>
+<p>Hier im Sinn von lat. studere (sich eifrig bemühen): Eifer, Bemühung, eindringende Beschäftigung (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 20, 287).</p>
+
+</note>
+<note xml:id="gb12021_comment_com13722">
+<label xml:id="GB03_2_BR534_0_note_017_301_8-9" copyOf="#start_com_4334"><hi rendition="#fett">301,8-9</hi>Clair obscür</label>
+<p>Franz. clair obscur: Helldunkel; in der Malerei ein Mittel der Bildgestaltung (Hell-Dunkel-Malerei, ital. Chiaroscuro); vgl. dazu Goethes Faszination von der Dämmerung (<ref target="gb:note#GB01_2_BR068_0_note_013_190_21">GB 1 II, zu 190,21</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com15334">
+<label xml:id="GB03_2_BR534_0_note_018_301_13" copyOf="#start_com_4335"><hi rendition="#fett">301,13</hi>Sessionsstube des Capitels</label>
+<p>Sitzungssaal des Domkapitels, des leitenden geistlichen Gremiums an katholischen Bischofskirchen.</p>
+
+</note>
+<note xml:id="gb12021_comment_com18306">
+<label xml:id="GB03_2_BR534_0_note_019_301_13-14" copyOf="#start_com_4336"><hi rendition="#fett">301,13-14</hi>Scizze <gap quantity="3" reason="editorial"/> durch Paul Veronese</label>
+<p>Bei dem Gemälde des venezianischen Malers Paolo Veronese handelt es sich um das großformatige Bild „Hochzeit zu Kana“ (660 × 990 cm), das 1562/63 entstanden und für das Refektorium des Benediktinerklosters San Giorgio Maggiore in Venedig bestimmt war. Das Original wurde 1798 von den Franzosen nach Paris gebracht und befindet sich heute im Musée du Louvre. Das Gemälde wurde so häufig kopiert und nachgestochen, dass 1705 ein Kopierverbot erlassen wurde (Andreas Priever: Vorbild und Mythos. Die Wirkungsgeschichte der ‚Hochzeit zu Kana‘ Paolo Veroneses. Sigmaringen 1997, S. 80). Kopien hingen „vornehmlich in den Kabinetten wohlhabender Patrizier und Angehöriger des niederen fürstlichen Adels.“ (Ebd., S. 88.) Ein Hinweis auf die ‚Skizze‘ in Speyer findet sich weder im „Katalog der Kopien“ (ebd., S. 164–187) noch in dem Louvre-Katalog „Les Noces de Cana de Véronès, une œuvre et sa restauration“ (Paris 1992, S. 298–313). Unklar ist auch, was genau unter dem Begriff ‚Skizze‘ zu verstehen ist: der „erste Entwurf eines Gemähldes“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 116) oder eine Kopie. Offenbar wurde zeitgenössisch das eine oder andere kleinformatige Leinwandgemälde für ein „Original Schizzo“ Veroneses gehalten, wie z. B. die anonyme Kopie in der vom Mainzer Kurfürsten Lothar Franz gegründeten Sammlung auf Schloss Gaibach, heute in der Sammlung Dr. Karl Graf von Schönborn auf Schloss Weissenstein in Pommersfelden (vgl. Priever, S. 102 und 169; Katalog A II, Nr 1). – Aus Anlass einer Hochzeit zu Kana in Galiläa wirkte Jesus sein erstes Wunder: Er verwandelte Wasser in Wein (vgl. Johannes 2,1–12).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11909">
+<label xml:id="GB03_2_BR534_0_note_020_301_15" copyOf="#start_com_4337"><hi rendition="#fett">301,15</hi>gemahlen</label>
+<p>Form des Partizips Perfekt von ‚malen‘; wird „mundartlich durch verwechselung“ (<ref target="sndb:sigle#2890">Grimm</ref> 12, 1500) mit dem Partizip Perfekt von ‚mahlen‘ gebraucht.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11910">
+<label xml:id="GB03_2_BR534_0_note_021_301_16" copyOf="#start_com_4338"><hi rendition="#fett">301,16</hi>Portraits</label>
+<p>Seit Antonio Maria Zanettis d. J. Werk „Della pittura Veneziana e delle opere pubbliche de Veneziani maestri libri V“ (Venedig 1771; 2. Buch, S. 170–173) werden u. a. der im Vordergrund sitzende Cellospieler (im weißen Gewand) mit dem Maler selbst identifiziert, der rechts davon sitzende Kontrabassspieler (im roten Gewand) mit Tizian und der wiederum rechts von diesem stehende Majordomus (in prächtigem Gewand, den Wein prüfend) mit Benedetto Cagliari, dem Bruder des Malers.</p>
+
+</note>
+<note xml:id="gb12021_comment_com18208">
+<label xml:id="GB03_2_BR534_0_note_022_301_17" copyOf="#start_com_4339"><hi rendition="#fett">301,17</hi>Dechanten</label>
+<p>Der Dechant (oder Dekan) in der katholischen Kirche war im vorliegenden Fall der Vorsteher des Domkapitels. – Domdechant in Speyer war seit 1770 Franz Philipp Joseph von Hutten zum Stolzenberg, der von seinem Onkel, dem Fürstbischof und Kardinal Franz Christoph von Hutten, eine umfangreiche Gemäldesammlung geerbt hatte. Schon im Jahr seiner Wahl zum Dechanten hatte Hutten die Domdechanei neu errichten lassen. In diesem dreiflügeligen, zweigeschossigen Neubau war die Gemäldesammlung untergebracht, die so groß war, dass eigens der Maler Franz Stöber angestellt werden musste, um sie zu verwalten. Das Gebäude fiel 1794 einem Brand zum Opfer. – Vgl. Markus Lothar Lamm: Franz Philipp Joseph von Hutten zum Stolzenberg 1731–1790. In: Archiv für mittelrheinische Kirchengeschichte 60 (2008), S. 193–213, hier S. 204–206.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11923">
+<label xml:id="GB03_2_BR534_0_note_023_301_19" copyOf="#start_com_4340"><hi rendition="#fett">301,19</hi>Redouten</label>
+<p>Franz. redoute: (hier) Schanze, Bollwerk. – Hier sind Hindernisse auf dem Weg zu einem guten Landschaftsmaler gemeint.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11924">
+<label xml:id="GB03_2_BR534_0_note_024_301_21" copyOf="#start_com_4341"><hi rendition="#fett">301,21</hi>bei Berold. selbst</label>
+<p>Auch Joseph von Beroldingen besaß eine Kunst- und Gemäldesammlung.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11925">
+<label xml:id="GB03_2_BR534_0_note_025_301_23" copyOf="#start_com_4342"><hi rendition="#fett">301,23</hi>Hagestolzen</label>
+<p>Hagestolz: Junggeselle, unverheirateter Mann.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11926">
+<label xml:id="GB03_2_BR534_0_note_026_301_24" copyOf="#start_com_4343"><hi rendition="#fett">301,24</hi>Touren</label>
+<p>Franz. tour: Reise; Umlauf.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11927">
+<label xml:id="GB03_2_BR534_0_note_027_301_30" copyOf="#start_com_4344"><hi rendition="#fett">301,30</hi><hi rendition="#hervor1">Selz</hi></label>
+<p>Seltz: französische Gemeinde im Département Bas-Rhin, etwa 33 km von Rheinzabern den Rhein hinauf.</p>
+
+</note>
+<note xml:id="gb12021_comment_com14157">
+<label xml:id="GB03_2_BR534_0_note_028_302_10" copyOf="#start_com_4345"><hi rendition="#fett">302,10</hi>Emmedingen</label>
+<p>Emmendingen, nördlich von Freiburg i. B., gut 100 km südlich von Seltz, der letzte Wohnort von Goethes Schwester Cornelia Schlosser.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11928">
+<label xml:id="GB03_2_BR534_0_note_029_302_20" copyOf="#start_com_4346"><hi rendition="#fett">302,20</hi>Sessenheim</label>
+<p>Französische Gemeinde im Département Bas-Rhin, nordöstlich von Straßburg, etwa 20 km von Seltz entfernt.</p>
+
+</note>
+<note xml:id="gb12021_comment_com18114">
+<label xml:id="GB03_2_BR534_0_note_030_302_21" copyOf="#start_com_4347"><hi rendition="#fett">302,21</hi>eine Famielie</label>
+<p>Gemeint ist die Familie des Pfarrers Johann Jacob Brion; dazu gehörten (1770) dessen Frau Magdalena Salomea geb. Schöll sowie vier Töchter und ein Sohn. Im Oktober 1770 hatte Goethe Friederike, die 18-jährige Tochter des Pfarrers, kennen gelernt; es entwickelte sich eine enge Beziehung, die im August 1771 mit Goethes Rückkehr von Straßburg nach Frankfurt beendet wurde. Über die näheren Umstände der Trennung gibt es keine zuverlässigen Zeugnisse. Offensichtlich aber plagte ihn ein schlechtes Gewissen, das noch der Schilderung im vorliegenden Brief zugrunde liegt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10495_comment_com22584">GB 1 II, Nr 78</ref>). Den Besuch im September 1779 behandelte Goethe noch einmal in der Notiz „Lenz“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 36, 230 f.).</p>
+
+</note>
+<note xml:id="gb12021_comment_com18130">
+<label xml:id="GB03_2_BR534_0_note_031_302_23" copyOf="#start_com_4348"><hi rendition="#fett">302,23</hi> rein</label>
+<p>Vor dem Aufbruch in die Schweiz hatte Goethe unter dem 7. August 1779 in sein Tagebuch geschrieben: <quote type="G">Möge die Idee des reinen die sich bis auf den Bissen erstreckt den ich in Mund nehme, immer lichter in mir werden.</quote> (<ref target="gt:dokument#752">GT I 1, 87</ref>; vgl. weiter auch zu <ref target="gb:note#GB03_2_BR554_0_note_005_357_11-13">357,11–12</ref>.) Die Wiederbegegnung mit Friederike Brion in Sessenheim und mit Anna Elisabeth (Lili) von Türckheim geb. Schönemann in Straßburg und ihren Familien erlebte Goethe <quote type="G">in dem Gefühl von durchgehendem reinen Wohlwollen</quote> (<ref target="gb:text#GB03_1_BR534_0_303_028 #GB03_1_BR534_0_303_029">303,28–29</ref>), ungetrübt <quote type="G">von einer beschränckten Leidenschafft</quote> (<ref target="gb:text#GB03_1_BR534_0_303_032">303,32</ref>). – Goethe benutzt das Adjektiv ‚rein‘ auch in <ref target="gb:dokument#12029">Nr 538</ref> (vgl. <ref target="gb:text#GB03_1_BR538_0_317_031">317,31</ref>). Dort ist auch von <quote type="G">reinheit</quote> (<ref target="gb:text#GB03_1_BR538_0_316_023">316,23</ref>) die Rede.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11845">
+<label xml:id="GB03_2_BR534_0_note_032_302_26-27" copyOf="#start_com_4349"><hi rendition="#fett">302,26-27</hi>andre <gap quantity="3" reason="editorial"/> verwendet habe</label>
+<p>Zu den Mädchen, in die sich Goethe verliebt hatte, gehörten vor Friederike Brion Anna Catharina Schönkopf und nach ihr Charlotte Buff, Maximiliane La Roche und Anna Elisabeth (Lili) Schönemann.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11846">
+<label xml:id="GB03_2_BR534_0_note_033_303_3" copyOf="#start_com_4350"><hi rendition="#fett">303,3</hi>künsteln</label>
+<p>‚Sich künstlerisch betätigen‘; vgl. Goethes Brief an Johanna Fahlmer von Anfang November 1774: <quote type="G"><gap quantity="3" reason="editorial"/> ich zeichne, künstle pp. Und lebe ganz mit Rembrandt.</quote>(<ref target="gb:text#GB02_1_BR156_0_134_024 #GB02_1_BR156_0_134_025">GB 2 I, 134,24-25</ref>.) Im Folgenden ist von alten Liedern und Malereien Goethes aus der damaligen Zeit die Rede. Möglicherweise hatte man damals auch Theater gespielt, woran der erwähnte Nachbar beteiligt gewesen war.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11864">
+<label xml:id="GB03_2_BR534_0_note_034_303_5-6" copyOf="#start_com_4351"><hi rendition="#fett">303,5-6</hi>alte Lieder die ich gestifftet hatte</label>
+<p>Ob damit solche aus dem Umkreis der so genannten „Sesenheimer-“ oder „Friederiken-Lieder“ (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10495_comment_com22584">GB 1 II, Nr 78</ref>) gemeint sind oder Volkslieder, die Goethe 1771 gesammelt hatte (vgl. <ref target="gb:note#GB01_2_BR089_0_note_002_217_8">GB 1 II, zu 217,8</ref>), ist unklar.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11865">
+<label xml:id="GB03_2_BR534_0_note_035_303_14" copyOf="#start_com_4352"><hi rendition="#fett">303,14</hi>traff ich wieder <gap quantity="3" reason="editorial"/> zusammen</label>
+<p>Im nahe gelegenen Drusenheim, wohin ihn Karl Christian Gambs begleitete, Friedrike Brions Verlobter und späterer Pfarrer in Paris, Bremen und Straßburg (vgl. dessen Brief an Friedrich Leopold Weyland aus dem Jahr 1790; <ref target="bug:dokument#6088">BuG 2, 146</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11847">
+<label xml:id="GB03_2_BR534_0_note_036_303_15" copyOf="#start_com_4353"><hi rendition="#fett">303,15</hi>Lili</label>
+<p>Anna Elisabeth von Türckheim geb. Schönemann; Goethes inoffizielle Verlobte aus dem Jahr 1775 hatte im August 1778 den Straßburger Bankier Bernhard Friedrich von Türckheim geheiratet (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51217_comment_com4802">GB 2 II, Z 1</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11866">
+<label xml:id="GB03_2_BR534_0_note_037_303_16" copyOf="#start_com_4354"><hi rendition="#fett">303,16</hi>Grasaffen</label>
+<p>Scherzhaft für ‚Kinder‘ und ‚junge Mädchen‘, hier für Lili. Goethe benutzte den Begriff oft für Charlotte von Steins Kinder (vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>). In Brief <ref target="gb:dokument#11188">Nr 141</ref> wird Corona Schröter so bezeichnet (vgl. <ref target="gb:text#GB03_1_BR141_0_084_019">84,19</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com15760">
+<label xml:id="GB03_2_BR534_0_note_038_303_16" copyOf="#start_com_4355"><hi rendition="#fett">303,16</hi>Puppe von sieben Wochen</label>
+<p>Anna Elisabeth von Türckheims Tochter Elisabeth Magdalena, ihr erstes Kind, das am 9. August 1779 geboren worden war.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11880">
+<label xml:id="GB03_2_BR534_0_note_039_303_17" copyOf="#start_com_4356"><hi rendition="#fett">303,17</hi>ihre Mutter</label>
+<p>Susanne Elisabeth Schönemann.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11881">
+<label xml:id="GB03_2_BR534_0_note_040_303_24" copyOf="#start_com_4357"><hi rendition="#fett">303,24</hi>den Münster</label>
+<p>Das Wort wurde sowohl im Neutrum als auch im Maskulinum gebraucht (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 12, 2698 f.); bei Goethe findet sich das Maskulinum auch im Brief an Johann Gottfried Roederer von Ende März 1773? (vgl. <ref target="gb:text#GB02_1_BR021_0_018_014">GB 2 I, 18,14</ref>). – Goethe hatte die gotische Kathedrale während seiner Straßburger Studienzeit 1770/71 wiederholt besucht; seine Begeisterung fand Niederschlag in dem Aufsatz „Von deutscher Baukunst“ aus dem Jahr 1772 (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 3, 101–107).</p>
+
+</note>
+<note xml:id="gb12021_comment_com14154">
+<label xml:id="GB03_2_BR534_0_note_041_303_25" copyOf="#start_com_4358"><hi rendition="#fett">303,25</hi><emph rendition="#latin">L’Infante de Zamora</emph></label>
+<p>Eine von mehreren französischen Parodien auf italienische Opern von Nicolas Etienne Framery; im vorliegenden Fall unterlegte er der komischen Oper „La frascatana“ (1774) von Giovanni Païsiello mit dem Libretto von Filippo Livigni einen neuen Text; die neue Oper mit dem Titel „L’infante de Zamora“ kam erstmals 1779 auf die Bühne.</p>
+
+</note>
+<note xml:id="gb12021_comment_com15331">
+<label xml:id="GB03_2_BR534_0_note_042_303_28" copyOf="#start_com_4359"><hi rendition="#fett">303,28</hi>prosaisch</label>
+<p>Hier im Gegensatz zu ‚poetisch‘ oder ‚romantisch‘, Letzteres in der Bedeutung ‚wie ein Roman‘ („im engsten Verstande <gap quantity="3" reason="editorial"/> eine wunderbare, oder mit Verwirrungen durchwebte Liebesgeschichte“; <ref target="sndb:sigle#2753">Adelung</ref> 3, 1154).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11882">
+<label xml:id="GB03_2_BR534_0_note_043_303_30" copyOf="#start_com_4360"><hi rendition="#fett">303,30</hi>Rosenkranz</label>
+<p>Vielgliedrige Gebetskette in Gestalt einer Perlenschnur, die in den christlichen Konfessionen zum Beten des Rosenkranzgebets dient, eines Gebetszyklus, der im Wesentlichen aus fünf ‚Gesätzen‘ besteht, in denen jeweils ein „Vater unser“ und zehn „Gegrüßest seist du, Maria“ gebetet werden.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11883">
+<label xml:id="GB03_2_BR534_0_note_044_303_31-32" copyOf="#start_com_4361"><hi rendition="#fett">303,31-32</hi>ätherische Wollust</label>
+<p>Oxymoron; ‚ätherisch‘ hier im Gegensatz zu „sinnlich“ (<ref target="sndb:sigle#397">GWb</ref> 1, 884).</p>
+
+</note>
+<note xml:id="gb12021_comment_com15332">
+<label xml:id="GB03_2_BR534_0_note_045_304_4" copyOf="#start_com_4362"><hi rendition="#fett">304,4</hi>Grabe meiner Schwester</label>
+<p>Goethes Schwester Cornelia verh. Schlosser war am 8. Juni 1777 in Emmendingen gestorben, nachdem sie am 10. Mai 1777 ihre zweite Tochter Elisabeth Catharina Julie (Juliette) geboren hatte (vgl. zu <ref target="gb:note#GB03_2_BR276_0_note_001_151_12">151,12</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11896">
+<label xml:id="GB03_2_BR534_0_note_046_304_6" copyOf="#start_com_4363"><hi rendition="#fett">304,6</hi>Fahlmer</label>
+<p>Johanna Fahlmer; sie hatte 1778 den verwitweten Johann Georg Schlosser geheiratet (vgl. weiter die einleitenden Erläuterungen zu <ref target="gb:note#gb10565_comment_com4770">Nr 4</ref> und <ref target="gb:note#gb11770_comment_com4989">305</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11897">
+<label xml:id="GB03_2_BR534_0_note_047_304_6" copyOf="#start_com_4364"><hi rendition="#fett">304,6</hi>mein Schwager</label>
+<p>Johann Georg Schlosser.</p>
+
+</note>
+<note xml:id="gb12021_comment_com15349">
+<label xml:id="GB03_2_BR534_0_note_048_304_6-7" copyOf="#start_com_4365"><hi rendition="#fett">304,6-7</hi>einige Freundinnen</label>
+<p>Möglicherweise Antoinette und Anna Gerock, Jugendfreundinnen Goethes und seiner Schwester Cornelia, die sie in Emmendingen oft besucht und Schlosser nach deren Tod den Haushalt geführt hatten.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11898">
+<label xml:id="GB03_2_BR534_0_note_049_304_7" copyOf="#start_com_4366"><hi rendition="#fett">304,7</hi>Ihre Kinder</label>
+<p>Goethes Nichten, die fast fünfjährige Louise und die zweijährige Julie.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11899">
+<label xml:id="GB03_2_BR534_0_note_050_304_8" copyOf="#start_com_4367"><hi rendition="#fett">304,8</hi>Basel</label>
+<p>Die Reisegesellschaft brach am 30. September 1779 von Emmendingen nach Basel auf; „morgen geht es auf Basel, welches 12 Stunden von hier ist“, schrieb Herzog Carl August am 29. September 1779 an seine Mutter (<ref target="sndb:sigle#76">Bergmann</ref>, 26). Zur Reiseroute vgl. zu <ref target="gb:note#GB03_2_BR540_0_note_004_320_13-14">320,13-14</ref>.</p>
+
+</note>
+<note xml:id="gb12021_comment_com14155">
+<label xml:id="GB03_2_BR534_0_note_051_304_9" copyOf="#start_com_4368"><hi rendition="#fett">304,9</hi>von mir hören</label>
+<p>Goethes nächster Brief an Charlotte von Stein stammt vom 9. und 14. Oktober 1779 (<ref target="gb:dokument#12030">Nr 536</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com15350">
+<label xml:id="GB03_2_BR534_0_note_052_304_9" copyOf="#start_com_4369"><hi rendition="#fett">304,9</hi>Von Ihnen hab ich noch nichts.</label>
+<p>Erst am 16. Oktober 1779 meldete Goethe den Empfang eines Briefes von Charlotte von Stein vom 25. September (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>).</p>
+
+</note>
+<note xml:id="gb12021_comment_com11900">
+<label xml:id="GB03_2_BR534_0_note_053_304_10" copyOf="#start_com_4370"><hi rendition="#fett">304,10</hi>andre Briefe</label>
+<p>Um welche es sich handelte, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb12021_comment_com15762">
+<label xml:id="GB03_2_BR534_0_note_054_304_13" copyOf="#start_com_4371"><hi rendition="#fett">304,13</hi>hier</label>
+<p>In Emmendingen.</p>
+
+</note>
+<note xml:id="gb12021_comment_com11911">
+<label xml:id="GB03_2_BR534_0_note_055_304_14-15" copyOf="#start_com_4372"><hi rendition="#fett">304,14-15</hi>Lavatern zu sehn <gap quantity="3" reason="editorial"/> gröste Hoffnung.</label>
+<p>Dazu kam es erst am 18. November 1779 in Zürich; dort hielt sich die Reisegesellschaft bis zum 2. Dezember auf. Carl August schrieb am 19. November 1779 an seine Mutter: „Lavatern lernten wir schon gestern kennen.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 30.) Und am 29. November: „Lavaters Gegenwart und Nähe ist mir sehr kostbar und wohltätig.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 31.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

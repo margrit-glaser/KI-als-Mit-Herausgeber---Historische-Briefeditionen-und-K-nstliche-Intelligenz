@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5520"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb63" n="GB 3, Nr. 540">
+  <teiHeader xml:id="gb63_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>540.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77387">Bern</placeName>, <supplied>19.</supplied> Oktober <supplied>1779.  Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb63_tei.xml</idno>
+        <idno type="URI">gb63</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR540_0</idno>
+        <idno type="KSW-ID">63</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="320" to="321">320-321</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1016" to="1021">1016-1021</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb63_header_hwit56419" corresp="#gb63_source_hwit56419" sameAs="#gb63_comment_hwit56419" type="facsimile">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/63,,56419/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Wir hatten immer das glücklichste Wetter gehabt. In Speier    mit Beroldingen gegessen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77387">Bern</placeName>
+            <date when="1779-10-19"><supplied>19.</supplied> Oktober <supplied>1779</supplied></date>
+            <note>
+              <date type="WA" when="1779-10-17">17. Oktober 1779</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb63_source_hwit56419" corresp="#gb63_header_hwit56419" type="source" rend="facsimile">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_1_BR540_0_320_011"/>
+        <ref target="gb:note#GB03_2_BR540_0_note_001_320_11" xml:id="start_com_4580"/>Bern d<g ref="#typoSuspension"/>. 17. Oktb.<ref xml:id="end_com_4580"/>   Wir haben immer das glücklichste Wetter gehabt. 
+<anchor xml:id="GB03_1_BR540_0_320_012"/><ref target="gb:note#GB03_2_BR540_0_note_002_320_12" xml:id="start_com_4581"/>in Speyer mit Berold. gegessen, einen ganzen Nachmittag mit ihm<ref xml:id="end_com_4581"/>. <ref target="gb:note#GB03_2_BR540_0_note_003_320_12-13" xml:id="start_com_4582"/>in 
+<anchor xml:id="GB03_1_BR540_0_320_013"/>Emmend. alles recht gut und Brav<ref xml:id="end_com_4582"/>. <ref target="gb:note#GB03_2_BR540_0_note_004_320_13-14" xml:id="start_com_4583"/>hinter Freyburg in die Hölle, einen 
+<anchor xml:id="GB03_1_BR540_0_320_014"/>guten Tag mit Schlossers und den Mädels<ref xml:id="end_com_4583"/>. <ref target="gb:note#GB03_2_BR540_0_note_005_320_14" xml:id="start_com_4584"/>In Basel<ref xml:id="end_com_4584"/> <ref target="gb:note#GB03_2_BR540_0_note_006_320_14-15" xml:id="start_com_4585"/>Mechel bey 
+<anchor xml:id="GB03_1_BR540_0_320_015"/>ihm interessante Wiener Portraits<ref xml:id="end_com_4585"/> pp Gegend, <ref target="gb:note#GB03_2_BR540_0_note_007_320_15" xml:id="start_com_4586"/>Bibliotheck<ref xml:id="end_com_4586"/>, <ref target="gb:note#GB03_2_BR540_0_note_008_320_15" xml:id="start_com_4587"/>Holbeins<ref xml:id="end_com_4587"/>
+        <anchor xml:id="GB03_1_BR540_0_320_016"/>pp. Antiquitäten. <ref target="gb:note#GB03_2_BR540_0_note_009_320_16" xml:id="start_com_4588"/>Fabricken<ref xml:id="end_com_4588"/> pp. Durch <ref target="gb:note#GB03_2_BR540_0_note_010_320_16" xml:id="start_com_4589"/>Münsterthal<ref xml:id="end_com_4589"/> eine herrliche 
+<anchor xml:id="GB03_1_BR540_0_320_017"/>Felsgegend, abwechselnd, durch <ref target="gb:note#GB03_2_BR540_0_note_011_320_17" xml:id="start_com_4590"/>Münster<ref xml:id="end_com_4590"/> auf <ref target="gb:note#GB03_2_BR540_0_note_012_320_17" xml:id="start_com_4591"/>Biel<ref xml:id="end_com_4591"/>. In die Weinlese kamen 
+<anchor xml:id="GB03_1_BR540_0_320_018"/>wir, da<ptr n="1" target="#a001_320.18"/> wo die Trauben berühmt sind. Halb stürmischen schönen 
+<anchor xml:id="GB03_1_BR540_0_320_019"/>Tag auf der See. <ref target="gb:note#GB03_2_BR540_0_note_013_320_19" xml:id="start_com_4592"/>nach Rousseaus<ptr n="2" target="#a002_320.19"/> Insel<ref xml:id="end_com_4592"/>, eben im Weinlesen begriffen, 
+<anchor xml:id="GB03_1_BR540_0_320_020"/>für drei Jahr Trauben gessen. auf <ref target="gb:note#GB03_2_BR540_0_note_014_320_20" xml:id="start_com_4593"/>Anet<ref xml:id="end_com_4593"/>, sodann wieder bis <ref target="gb:note#GB03_2_BR540_0_note_015_320_20" xml:id="start_com_4594"/><emph rendition="#latin">St</emph> Blaise<ref xml:id="end_com_4594"/>, 
+<anchor xml:id="GB03_1_BR540_0_320_021"/>am Neuburger See einen Mittag gefeyert, hohe Sonnenblicke<ptr n="3" target="#a003_320.21"/> pp.     <ref target="gb:note#GB03_2_BR540_0_note_016_320_21-22" xml:id="start_com_4595"/>auf 
+<anchor xml:id="GB03_1_BR540_0_320_022"/>Murten, der einzige Regen<ptr n="4" target="#a004_320.22"/> Tag. Auf Bern.<ref xml:id="end_com_4595"/> Nach einer kleinen <ref target="gb:note#GB03_2_BR540_0_note_017_320_22-23" xml:id="start_com_4596"/>gedruckten 
+<anchor xml:id="GB03_1_BR540_0_320_023"/>Anweisung Wyttenbachs<ref xml:id="end_com_4596"/> auf die Glätscher. <ref target="gb:note#GB03_2_BR540_0_note_018_320_23-25" xml:id="start_com_4597"/>über<ptr n="5" target="#a005_320.23"/> Thun<ptr n="6" target="#a006_320.23"/> Unterseeven 
+<anchor xml:id="GB03_1_BR540_0_320_024"/>in’s Lauterbrunn, Staubbach, auf den Steinberg, die Glätscher 
+<anchor xml:id="GB03_1_BR540_0_320_025"/>gegen über, bis an Tschingelhorn, zurück<ref xml:id="end_com_4597"/>, dann in <ref target="gb:note#GB03_2_BR540_0_note_019_320_25" xml:id="start_com_4598"/>Grindelwald<ref xml:id="end_com_4598"/>, 
+<anchor xml:id="GB03_1_BR540_0_320_026"/><ref target="gb:note#GB03_2_BR540_0_note_020_320_26" xml:id="start_com_4599"/>die<ptr n="7" target="#a007_320.26"/> beyden Glätscher<ref xml:id="end_com_4599"/>, und unbeschreibliche Tage, <ref target="gb:note#GB03_2_BR540_0_note_021_320_26-27" xml:id="start_com_4600"/>über den Scheideck 
+<anchor xml:id="GB03_1_BR540_0_320_027"/>ins Oberhaslin<ref xml:id="end_com_4600"/>, durch<ptr n="8" target="#a008_320.27"/> den Grund bis Guttannen. <ref target="gb:note#GB03_2_BR540_0_note_022_320_27-321_3" xml:id="start_com_4601"/>Zurück auf Meyringen. 
+<anchor xml:id="GB03_1_BR540_0_321_001"/>In der höchsten Klarheit des Himmels, Wärme und Kühle, ein 
+<anchor xml:id="GB03_1_BR540_0_321_002"/>Grün über alles, und Farben an den abstehenden noch ganz beblätterten 
+<anchor xml:id="GB03_1_BR540_0_321_003"/>Bäumen!! In Tracht bey Brigenz schlafen.<ref xml:id="end_com_4601"/> Mit Sonnenaufgang auf 
+<anchor xml:id="GB03_1_BR540_0_321_004"/>den <ref target="gb:note#GB03_2_BR540_0_note_023_321_4" xml:id="start_com_4602"/>Brigenzer See<ref xml:id="end_com_4602"/>. <ref target="gb:note#GB03_2_BR540_0_note_024_321_4-5" xml:id="start_com_4603"/>Über Unterseeven auf den Thuner, nach Thun, 
+<anchor xml:id="GB03_1_BR540_0_321_005"/>auf Bern<ref xml:id="end_com_4603"/>, <ref target="gb:note#GB03_2_BR540_0_note_025_321_5-6" xml:id="start_com_4604"/>auf Langenau, beym alten Micheli eine Nacht, auf Hindelbanck 
+<anchor xml:id="GB03_1_BR540_0_321_006"/>das Grab der Langhans. auf Bern zurück<ref xml:id="end_com_4604"/>, immer vollkommen 
+<anchor xml:id="GB03_1_BR540_0_321_007"/>Wetter! <ref target="gb:note#GB03_2_BR540_0_note_026_321_7" xml:id="start_com_4605"/>die Bibliotheck<ref xml:id="end_com_4605"/>, das <ref target="gb:note#GB03_2_BR540_0_note_027_321_7" xml:id="start_com_4606"/>Zeuchhaus<ref xml:id="end_com_4606"/>
+        <ref target="gb:note#GB03_2_BR540_0_note_028_321_7" xml:id="start_com_4607"/>Sprünglins Sammlung<ref xml:id="end_com_4607"/> hochst 
+<anchor xml:id="GB03_1_BR540_0_321_008"/>interessant. bey<ptr n="9" target="#a009_321.8"/> <ref target="gb:note#GB03_2_BR540_0_note_029_321_8" xml:id="start_com_4608"/>Wittenbachen<ref xml:id="end_com_4608"/> war ich diesen Morgen drey Stunden, 
+<anchor xml:id="GB03_1_BR540_0_321_009"/>er ist sehr instrucktiv er hat von allen Bergen und Enden der Schweiz 
+<anchor xml:id="GB03_1_BR540_0_321_010"/>die / Steinarten zusammengelesen. ist ein recht <ref target="gb:note#GB03_2_BR540_0_note_030_321_10" xml:id="start_com_4609"/>artiger Mann<ref xml:id="end_com_4609"/>. Allerley 
+<anchor xml:id="GB03_1_BR540_0_321_011"/>Leute besucht     <ref target="gb:note#GB03_2_BR540_0_note_031_321_11" xml:id="start_com_4610"/>Aberli<ref xml:id="end_com_4610"/>,<ptr n="10" target="#a010_321.11"/> ein Mahler <ref target="gb:note#GB03_2_BR540_0_note_032_321_11" xml:id="start_com_4611"/>der Junge Wocher<ref xml:id="end_com_4611"/> wird recht 
+<anchor xml:id="GB03_1_BR540_0_321_012"/>brav, <ref target="gb:note#GB03_2_BR540_0_note_033_321_12" xml:id="start_com_4612"/>in Biel einen kennen lernen Hartmann<ref xml:id="end_com_4612"/>, <ref target="gb:note#GB03_2_BR540_0_note_034_321_12" xml:id="start_com_4613"/>von dem ich mit bringe<ref xml:id="end_com_4613"/>. 
+<anchor xml:id="GB03_1_BR540_0_321_013"/>Uber alles was sich dencken lässt zeichnet <ref target="gb:note#GB03_2_BR540_0_note_035_321_13-14" xml:id="start_com_4614"/>der iunge Schüz<ptr n="11" target="#a011_321.13"/> der iezt 
+<anchor xml:id="GB03_1_BR540_0_321_014"/>bey einem Handelsmann Bürckhart in Basel<ref xml:id="end_com_4614"/> ist. Aberli macht seine 
+<anchor xml:id="GB03_1_BR540_0_321_015"/>Studien nach der Natur in Oel trefflich.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR540_0_321_016"/>Wir sind wohl, mit unter recht lustig, <ref target="gb:note#GB03_2_BR540_0_note_036_321_16" xml:id="start_com_4615"/>der Herzog<ref xml:id="end_com_4615"/> grüst und <ref target="gb:note#GB03_2_BR540_0_note_037_321_16" xml:id="start_com_4616"/>Wedel<ref xml:id="end_com_4616"/>.<ptr n="12" target="#a012_321.16"/>
+        <anchor xml:id="GB03_1_BR540_0_321_017"/><ref target="gb:note#GB03_2_BR540_0_note_038_321_17-18" xml:id="start_com_4617"/>Von<ptr n="13" target="#a013_321.17"/> Lavatern hab ich mir allerley interessante Menschen nennen lassen<ref xml:id="end_com_4617"/>
+        <anchor xml:id="GB03_1_BR540_0_321_018"/>pp. So viel im Vogelflug von unserer Tour, dass du folgen kannst 
+<anchor xml:id="GB03_1_BR540_0_321_019"/>und siehst dass bisher die Götter mit uns waren, morgen gehn wir <ref target="gb:note#GB03_2_BR540_0_note_039_321_19-20" xml:id="start_com_4618"/>auf 
+<anchor xml:id="GB03_1_BR540_0_321_020"/>Lausanne<ref xml:id="end_com_4618"/>
+      </p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_1_BR540_0_321_021"/>═══</p>
+      <p>
+        <anchor xml:id="GB03_1_BR540_0_321_022"/>Eben da ich so schrieb sah ich durch die Schornsteine dass die Sonne 
+<anchor xml:id="GB03_1_BR540_0_321_023"/>unterging und lief schnell auf die Terasse hinter dem Münster. Sie war 
+<anchor xml:id="GB03_1_BR540_0_321_024"/>schon untergegangen, und an den Schneebergen stand noch das Roth, 
+<anchor xml:id="GB03_1_BR540_0_321_025"/>und der Mond oben drüber, du kennst den Anblick. Adieu. <ref target="gb:note#GB03_2_BR540_0_note_040_321_25-26" xml:id="start_com_4619"/>Schick 
+<anchor xml:id="GB03_1_BR540_0_321_026"/>diesen Brief wenn du ihn gelesen hast meinen Eltern.<ref xml:id="end_com_4619"/> Adieu.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR540_0_321_027"/>Meine Mutter soll künftig alle Packete an H<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR540_0_note_041_321_27" xml:id="start_com_4620"/>Gedeon Burckhardt<ptr n="14" target="#a014_321.27"/><ref xml:id="end_com_4620"/>
+        <anchor xml:id="GB03_1_BR540_0_321_028"/>in Basel adressiren. Was sie bisher abgeschickt hat haben wir zu verschiednenmalen 
+<anchor xml:id="GB03_1_BR540_0_321_029"/>erhalten. Es ist uns nachgekommen.</p>
+      <closer>
+        <signed rend="paraph" rendition="#einrueck13">
+          <anchor xml:id="GB03_1_BR540_0_321_030"/>G</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb63_comment">
+<body>
+<div type="metadata" xml:id="gb63_comment_com119">
+  <ab type="numberAddressee"><label>540.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77387">Bern</placeName>, <supplied>19.</supplied> Oktober <supplied>1779</supplied> → <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb63_comment_com1438">
+  <p>Die fehlende Jahresangabe lässt sich nach dem Inhalt des Briefes ergänzen. Wie beim vorhergehenden Brief an Johann Caspar Lavater (<ref target="gb:dokument#9584">Nr 539</ref>) hat sich Goethe auch hier im Tagesdatum geirrt. Der Brief wurde nicht am 17., sondern am 19. Oktober 1779 geschrieben. Dies geht daraus hervor, dass Goethe die Abreise aus Bern nach Lausanne, die am 20. Oktober stattfand, für <quote type="G">morgen</quote> (<ref target="gb:text#GB03_1_BR540_0_321_019">321,19</ref>) ankündigt. Das Datum wird im Brief Carl Augusts an seine Frau Louise vom 28. Oktober 1779 bestätigt: „Den 20<hi rendition="#sup">ten</hi> sind wir von Bern weg“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 117). Außerdem berichtet Goethe von den Ausflügen nach Langnau und Hindelbank (vgl. <ref target="gb:text#GB03_1_BR540_0_321_005 #GB03_1_BR540_0_321_006">321,5–6</ref>), die am 17. und am 18. Oktober unternommen wurden. Auch dies wird durch Carl August bestätigt (vgl. seinen Brief an Herzogin Louise vom 18. Oktober 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 116 f.).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb63_comment_com2163">
+  <p>H: Verbleib unbekannt; zuletzt angeboten im Autographenkatalog von Thierry Bodin, Auktion vom 11./12. Oktober 1999 in Paris (vgl. Autographes / Documents historiques / Livres anciens <gap quantity="3" reason="editorial"/>. Paris <supplied>1999</supplied>, Nr 180). – 1 Bl., 1 &#xBE; S. beschr., egh., Tinte; über der Datumsangabe von fremder Hd ergänzt: „79.“; oben links von fremder Hd: „N<hi rendition="#sup">o</hi> 6.“ und alte Foliierung „10.“ (Angaben nach einer Fotokopie der Ausfertigung im GSA). – Teilfaksimile: Autographenkatalog von Thierry Bodin (<ref target="gb:text#GB03_1_BR540_0_321_010 #GB03_1_BR540_0_321_030">321,10–30</ref> <quote type="G">Steinarten <gap quantity="3" reason="editorial"/> G</quote>).</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 183–185, Nr 83.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 86–88, Nr 855 (nach E).</p>
+  <p>Textgrundlage: Fotokopie von H im GSA.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb63_comment_com3959">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der Brief enthält – unter Auslassung einiger Stationen wie Sessenheim (Wiedersehen mit Friederike Brion) und Straßburg (Wiedersehen mit Anna Elisabeth [Lili] von Türckheim geb. Schönemann) – die Beschreibung einzelner Etappen von Goethes zweiter Schweizer Reise, und zwar die Strecke von Speyer, wo er am 24. September 1779 war, bis Bern, wo er am 15. Oktober 1779 eintraf. – Vgl. auch die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb63_comment_com5421">
+<label xml:id="GB03_2_BR540_0_note_001_320_11" copyOf="#start_com_4580"><hi rendition="#fett">320,11</hi>Bern d<g ref="#typoSuspension"/>. 17. Oktb.</label>
+<p>Vgl. <ref target="gb:note#gb63_comment_com1438">Datierung</ref>. – In Bern hielt sich Goethe vom 15. bis 20. Oktober 1779 auf.</p>
+
+</note>
+<note xml:id="gb63_comment_com15890">
+<label xml:id="GB03_2_BR540_0_note_002_320_12" copyOf="#start_com_4581"><hi rendition="#fett">320,12</hi>in Speyer mit Berold. <gap quantity="3" reason="editorial"/> mit ihm</label>
+<p>In Speyer traf Goethe am 24. September 1779 den Domherrn Joseph Anton Siegmund von Beroldingen und besichtigte mit ihm den Dom; darüber berichtet er ausführlich im Brief an Charlotte von Stein vom 24. bis 28. September 1779 (<ref target="gb:dokument#12021">Nr 534</ref>), Briefteil vom 25. September (<ref target="gb:text#GB03_1_BR534_0_299_020 #GB03_1_BR534_0_301_026">299,20–301,26</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5422">
+<label xml:id="GB03_2_BR540_0_note_003_320_12-13" copyOf="#start_com_4582"><hi rendition="#fett">320,12-13</hi>in Emmend. alles recht gut und Brav</label>
+<p>In Emmendingen hatte Goethe vom 27. bis 30. September seinen Schwager Johann Georg Schlosser besucht, der seit 1778 mit Johanna Fahlmer verheiratet war, nachdem Goethes Schwester Cornelia im Sommer 1777 gestorben war.</p>
+
+</note>
+<note xml:id="gb63_comment_com5423">
+<label xml:id="GB03_2_BR540_0_note_004_320_13-14" copyOf="#start_com_4583"><hi rendition="#fett">320,13-14</hi>hinter Freyburg <gap quantity="3" reason="editorial"/> den Mädels</label>
+<p>Vermutlich hatte Johann Georg Schlosser Goethes Reisegesellschaft am 30. September 1779 von Emmendingen aus bis ins südöstlich von Freiburg zwischen Buchenbach und Hinterzarten gelegene Höllental begleitet (das Datum des Aufbruchs von Emmendingen nach Carl Augusts Brief an seine Mutter, 29. September 1779; <ref target="sndb:sigle#76">Bergmann</ref>, 25 f.). Von dort scheint der Weg nach Basel durch das Wiesental (Feldberg, Todtnau, Schönau, Zell, Schopfheim, Lörrach) geführt zu haben. Denn Herzog Carl August schrieb am 2. Oktober 1779 an Catharina Elisabeth Goethe, nachdem er in der Schweiz angekommen war: „Über einen ging es hinüber, und da sahen wir die schone Fläche um Basel, den Rhein, und in der Ferne die hohen Berge.“ (<ref target="sndb:sigle#517">Frau Rath</ref>, 150.) Möglicherweise handelt es sich bei „einen“ um eine Verschreibung für ‚Steinen‘. Die Ortschaft Steinen liegt an der Einmündung des Steinenbachtals ins Wiesental 9 km vor Lörrach. Am 1. Oktober 1779 erreichten die Reisenden Basel; im zitierten Brief des Herzogs an Catharina Elisabeth Goethe heißt es: „Mit den Monat October, sind wir in die Schweitz getreten.“ (Ebd.) Wo Goethe übernachtete, ist nicht bekannt. – Nicht auszuschließen ist allerdings, dass an der vorliegenden Briefstelle von einem Ausflug von Emmendingen ins Höllental die Rede ist, der am 28. oder 29. September stattgefunden haben könnte. In diesem Fall könnte die Reiseroute nach Basel von Emmendingen aus westlich an Feldberg und Belchen vorbei und dann südwärts parallel zum Rhein über Freiburg, Wolfenweiler (bei Schallstadt), Müllheim, Kaltenherberg geführt haben (vgl. Andreas, Carl August, 431). Diese Route wäre mit etwa 90 km kürzer als die erstgenannte mit 115 km. Sie würde auch zu dem passen, was Herzog Carl August vor dem Aufbruch aus Emmendingen am 29. September 1779 an seine Mutter schrieb: „<gap quantity="3" reason="editorial"/> morgen geht es auf Basel, welches 12 Stunden von hier ist.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 26.) Im selben Brief heißt es nämlich: „Auf Strassburg ist es 12 Stund.“ (Ebd.) Diese Strecke beträgt etwa 74 km; die Reisenden hatten sie am 27. September zurückgelegt. – ‚Mädels‘: Im Brief an Johanna Schlosser vom 16. November 1779 trägt Goethe der Adressatin auf, <quote type="G">Schlosser und die Mädgen</quote> (<ref target="gb:text#GB03_1_BR548_0_343_013">343,13</ref>) zu grüßen. Damit dürften Schlossers Töchter – Goethes Nichten – Louise und Juliette sowie die Schwestern Antoinette und Anna Gerock (vgl. zu <ref target="gb:note#GB03_2_BR534_0_note_048_304_6-7">304,6-7</ref>) gemeint sein. Ob diese im vorliegenden Fall alle mit von der Partie waren, erscheint fraglich; Schlossers jüngste Tochter war erst zweieinhalb Jahre alt. Vielleicht aber gehörte noch Johanna Schlosser zu den Mitreisenden. – Auch im Brief an Johanna Fahlmer vom 21. Februar 1777 lässt Goethe Grüße an <quote type="G">die Mädels</quote> (<ref target="gb:text#GB03_1_BR222_0_131_008">131,8</ref>) ausrichten (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR222_0_note_006_131_8">131,8</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5424">
+<label xml:id="GB03_2_BR540_0_note_005_320_14" copyOf="#start_com_4584"><hi rendition="#fett">320,14</hi>In Basel</label>
+<p>Dort machte Goethe vom 1. bis 3. Oktober 1779 Station.</p>
+
+</note>
+<note xml:id="gb63_comment_com5425">
+<label xml:id="GB03_2_BR540_0_note_006_320_14-15" copyOf="#start_com_4585"><hi rendition="#fett">320,14-15</hi>Mechel <gap quantity="3" reason="editorial"/> Wiener Portraits</label>
+<p>In Basel besuchte Goethe wie schon im Juli 1775 auf der ersten Schweizer Reise den Kupferstecher und Kunsthändler Christian von Mechel. Dieser war seit 1778 mit der Katalogisierung der kaiserlichen Gemäldesammlung in Wien beschäftigt; von dort hatte er Porträts lebender Persönlichkeiten mitgebracht.</p>
+
+</note>
+<note xml:id="gb63_comment_com15891">
+<label xml:id="GB03_2_BR540_0_note_007_320_15" copyOf="#start_com_4586"><hi rendition="#fett">320,15</hi>Bibliotheck</label>
+<p>Im „Haus zur Mücke“ („Haus zur Mugge“) am Schlüsselberg beim Münsterplatz; dort war die Universitätsbibliothek untergebracht. Im 17. Jahrhundert erwarben die Universität und der Große Rat der Stadt Basel die Kunstsammlung Basilius Amerbachs, in der sich u. a. Gemälde von Hans Holbein d. J., aber auch Münzen, Schmuckstücke und Musikinstrumente befanden, und eröffneten 1671 im „Haus zur Mücke“ das erste öffentliche Museum in Europa.</p>
+
+</note>
+<note xml:id="gb63_comment_com5426">
+<label xml:id="GB03_2_BR540_0_note_008_320_15" copyOf="#start_com_4587"><hi rendition="#fett">320,15</hi>Holbeins</label>
+<p>Der Renaissancemaler Hans Holbein d. J. und sein älterer Bruder Ambrosius kamen 1515 nach Basel. Letzterer starb dort um 1519; Hans Holbein lebte mit Unterbrechungen bis 1532 in der Stadt.</p>
+
+</note>
+<note xml:id="gb63_comment_com15900">
+<label xml:id="GB03_2_BR540_0_note_009_320_16" copyOf="#start_com_4588"><hi rendition="#fett">320,16</hi>Fabricken</label>
+<p>Im 18. Jahrhundert gehörte die Seidenbandproduktion zu den bedeutendsten Wirtschaftszweigen in der Region Basel. Die erste Seide verarbeitende Fabrik wurde 1717 von Johann Jacob de Bary-Birr gegründet. Seidenbänder wurden nicht nur in der Mode (zum Schmuck von Kleidern, Hüten und Schuhen), sondern auch für Taschen, Urkunden und Bücher verwendet.</p>
+
+</note>
+<note xml:id="gb63_comment_com5427">
+<label xml:id="GB03_2_BR540_0_note_010_320_16" copyOf="#start_com_4589"><hi rendition="#fett">320,16</hi>Münsterthal</label>
+<p>Die Reise führte Goethe von Basel in südwestlicher Richtung durch das zwischen Basel und Biel gelegene Tal am Oberlauf der Birs, das seinen Namen nach der Propstei Münster (Moutier) bei Granfelden (Grandval) trägt. Vgl. die Schilderung im Brief an Charlotte von Stein vom 3. Oktober 1779, den Goethe in Münster schrieb (<ref target="gb:text#GB03_1_BR538_0_317_003 #GB03_1_BR538_0_319_010">317,3–319,10</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5428">
+<label xml:id="GB03_2_BR540_0_note_011_320_17" copyOf="#start_com_4590"><hi rendition="#fett">320,17</hi>Münster</label>
+<p>Heute Moutier im Kanton Bern.</p>
+
+</note>
+<note xml:id="gb63_comment_com5429">
+<label xml:id="GB03_2_BR540_0_note_012_320_17" copyOf="#start_com_4591"><hi rendition="#fett">320,17</hi>Biel</label>
+<p>Dort hielt sich Goethe vom 4. bis 6. Oktober 1779 auf.</p>
+
+</note>
+<note xml:id="gb63_comment_com15901">
+<label xml:id="GB03_2_BR540_0_note_013_320_19" copyOf="#start_com_4592"><hi rendition="#fett">320,19</hi>nach Rousseaus Insel</label>
+<p>Die Fahrt zur St. Petersinsel im Bieler See fand am 5. Oktober 1779 statt. Auf der Insel fand Jean Jacques Rousseau Zuflucht, nachdem er 1765 aus Genf ausgewiesen worden war. Goethe beschreibt den Ausflug im Brief an Charlotte von Stein vom 9. bis 14. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR536_0_307_028 #GB03_1_BR536_0_307_032">307,28–32</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5430">
+<label xml:id="GB03_2_BR540_0_note_014_320_20" copyOf="#start_com_4593"><hi rendition="#fett">320,20</hi>Anet</label>
+<p>Die heutige Gemeinde Ins (franz. Anet) liegt zwischen dem Bieler und dem Neuenburger See (Lac de Neuchâtel). Am 6. Oktober kam Goethe dort an, verirrte sich auf der Weiterreise nach La Sauge am Nordostufer des Neuenburger Sees und blieb bis zum 7. Oktober in Ins/Anet (vgl. seinen Brief an Charlotte von Stein vom 9. bis 14. Oktober 1779 [<ref target="gb:text#GB03_1_BR536_0_307_016 #GB03_1_BR536_0_307_027">307,16–27</ref>]).</p>
+
+</note>
+<note xml:id="gb63_comment_com14368">
+<label xml:id="GB03_2_BR540_0_note_015_320_20" copyOf="#start_com_4594"><hi rendition="#fett">320,20</hi><hi rendition="#latin">St Blaise</hi></label>
+<p>Die Ortschaft liegt am Nordufer des Neuenburger Sees; von dort ritt Goethes Reisegesellschaft wieder zurück nach Ins/Anet (vgl. seinen Brief an Charlotte von Stein vom 9. bis 14. Oktober 1779 [<ref target="gb:text#GB03_1_BR536_0_307_022 #GB03_1_BR536_0_307_026">307,22–26</ref>]).</p>
+
+</note>
+<note xml:id="gb63_comment_com5431">
+<label xml:id="GB03_2_BR540_0_note_016_320_21-22" copyOf="#start_com_4595"><hi rendition="#fett">320,21-22</hi>auf Murten <gap quantity="3" reason="editorial"/> Auf Bern.</label>
+<p>Murten am Ostufer des gleichnamigen Sees erreichte Goethe gegen Mittag des 7. Oktober 1779, Bern am Abend desselben Tages (vgl. seinen Brief an Charlotte von Stein vom 9. bis 14. Oktober 1779 [<ref target="gb:text#GB03_1_BR536_0_307_007 #GB03_1_BR536_0_307_014">307,7–14</ref>]).</p>
+
+</note>
+<note xml:id="gb63_comment_com14327">
+<label xml:id="GB03_2_BR540_0_note_017_320_22-23" copyOf="#start_com_4596"><hi rendition="#fett">320,22-23</hi>gedruckten Anweisung Wyttenbachs</label>
+<p>Jacob Samuel Wyttenbach: Kurze Anleitung für diejenigen, welche eine Reise durch einen Theil der merkwürdigsten Alpgegenden des Lauterbrunnenthals, Grindelwald, und über Meyringen auf Bern zurück, machen wollen. Bern 1777.</p>
+
+</note>
+<note xml:id="gb63_comment_com15908">
+<label xml:id="GB03_2_BR540_0_note_018_320_23-25" copyOf="#start_com_4597"><hi rendition="#fett">320,23-25</hi>über Thun <gap quantity="3" reason="editorial"/> bis an Tschingelhorn, zurück</label>
+<p>Am 8. Oktober 1779 traf Goethe in Thun ein; am 9. Oktober wurde der Weg über Unterseen (zwischen Thuner See und Brienzer See) in südlicher Richtung fortgesetzt bis Lauterbrunnen. Dabei passierten die Reisenden den Staubbachfall in der Nähe von Lauterbrunnen. Am 10. Oktober bestiegen Goethe und die Reisegefährten von Lauterbrunnen aus den Steinberg im hinteren Lauterbrunnental und wanderten von dort weiter zum Tschingelgletscher; von dort ging es zurück nach Lauterbrunnen. Goethe schildert die Wanderung im Brief an Charlotte von Stein vom 15. und 16. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR538_0_310_005 #GB03_1_BR538_0_311_003">310,5–311,3</ref>) und im Tagebuch unter dem 10. Oktober 1779 (vgl. <ref target="gt:dokument#780">GT I 1, 94 f.</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5432">
+<label xml:id="GB03_2_BR540_0_note_019_320_25" copyOf="#start_com_4598"><hi rendition="#fett">320,25</hi>Grindelwald</label>
+<p>Von Lauterbrunnen führte die Reise zurück durch das Lauterbrunnental in nördliche Richtung, dann am Ende des Tales in östliche Richtung ins Lütschinental bis nach Grindelwald, wo Goethe am 11. Oktober 1779 ankam und bis zum 12. Oktober blieb.</p>
+
+</note>
+<note xml:id="gb63_comment_com13985">
+<label xml:id="GB03_2_BR540_0_note_020_320_26" copyOf="#start_com_4599"><hi rendition="#fett">320,26</hi>die beyden Glätscher</label>
+<p>Oberer und Unterer Grindelwaldgletscher.</p>
+
+</note>
+<note xml:id="gb63_comment_com5433">
+<label xml:id="GB03_2_BR540_0_note_021_320_26-27" copyOf="#start_com_4600"><hi rendition="#fett">320,26-27</hi>über den Scheideck ins Oberhaslin</label>
+<p>Am 12. Oktober 1779 brach Goethe mit seiner Reisegesellschaft von Grindelwald in nordöstlicher Richtung zur Großen Scheidegg auf und gelangte über die Schwarzwaldalp ins Aaretal und am Abend nach Guttannen. Vgl. die Schilderung im zweiten Briefteil von <ref target="gb:dokument#12029">Nr 538</ref> (<ref target="gb:text#GB03_1_BR538_0_312_014 #GB03_1_BR538_0_314_002">312,14–314,2</ref>) sowie Goethes Tagebuch unter dem 12. Oktober 1779 (<ref target="gt:dokument#782">GT I 1, 95 und 98</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5466">
+<label xml:id="GB03_2_BR540_0_note_022_320_27-321_3" copyOf="#start_com_4601"><hi rendition="#fett">320,27-321,3</hi>Zurück auf Meyringen. <gap quantity="3" reason="editorial"/> bey Brigenz schlafen.</label>
+<p>Von Guttannen ging es am 13. Oktober 1779 durch das Aaretal in nordwestlicher Richtung zurück bis Meiringen und weiter nach Tracht (heute Kienholz) östlich von Brienz.</p>
+
+</note>
+<note xml:id="gb63_comment_com5467">
+<label xml:id="GB03_2_BR540_0_note_023_321_4" copyOf="#start_com_4602"><hi rendition="#fett">321,4</hi>Brigenzer See</label>
+<p>Brienzer See.</p>
+
+</note>
+<note xml:id="gb63_comment_com18744">
+<label xml:id="GB03_2_BR540_0_note_024_321_4-5" copyOf="#start_com_4603"><hi rendition="#fett">321,4-5</hi>Über Unterseeven <gap quantity="3" reason="editorial"/> auf Bern</label>
+<p>Die Route des 14. Oktober 1779 führte über die ganze Länge des Brienzer Sees nach Interlaken und von dort über Unterseen nach Thun, am 15. Oktober weiter nach Bern, wo Goethe schon eine Woche zuvor gewesen war. Vgl. die Beschreibung der Strecke im zweiten Briefteil von <ref target="gb:dokument#12029">Nr 538</ref> (<ref target="gb:text#GB03_1_BR538_0_315_013 #GB03_1_BR538_0_316_012">315,13–316,12</ref>). In Bern blieb Goethe bis zum 20. Oktober.</p>
+
+</note>
+<note xml:id="gb63_comment_com16384">
+<label xml:id="GB03_2_BR540_0_note_025_321_5-6" copyOf="#start_com_4604"><hi rendition="#fett">321,5-6</hi>auf Langenau <gap quantity="3" reason="editorial"/> auf Bern zurück</label>
+<p>Von Bern aus machte Goethe am 17. Oktober einen Ausflug nach Langnau (im Emmental) zum als ‚Wunderdoktor‘ apostrophierten Chirurgen, Arzt und Apotheker Michael (Michel, Micheli) Schüppach (Schuppach), bei dem er auch übernachtete. Am 18. Oktober kehrte er nach Bern zurück und besuchte das etwa 18 km nordöstlich gelegene Hindelbank mit dem von Johann August Nahl 1751/52 geschaffenen Grabmal der Pfarrersfrau Maria Magdalena Langhans. Sie war bei der Geburt ihres ersten Kindes am Vorabend des Osterfestes gestorben. Der Bildhauer wählte das Thema der Auferstehung; aus einem einzigen Stein arbeitete er ein Grab, dessen Platte aufbricht und durch einen Riss den Blick auf Mutter und Sohn frei gibt: Die Mutter hebt ihr Kind mit den Armen zum Himmel empor. Die Platte trägt Inschriften, darunter eine von Albrecht von Haller:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck3">Horch! die Trompete schallt, ihr Klang dringt durch das Grab,</l>
+    <l rendition="#einrueck3">Wach auf, mein Schmerzens-Sohn, wirf deine Hülsen ab,</l>
+    <l rendition="#einrueck3">Dein Heiland ruft dir zu; vor ihm flieht Tod und Zeit,</l>
+    <l rendition="#einrueck3">Und in ein ewig Heil verschwindet alles Leid.</l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+ (Versuch Schweizerischer Gedichte. Eilfte vermehrte und verbesserte Auflage. Bern 1777, S. 289.) – Der Stein war in den Boden eingelassen und durch einen Holzdeckel geschützt, der angehoben werden musste, wenn Besucher das Denkmal besichtigen wollten. Bekanntheit erlangte Nahls Werk durch eine Radierung des Basler Kupferstechers Christian von Mechel, den Goethe Anfang Oktober 1779 besucht hatte (vgl. zu <ref target="gb:note#GB03_2_BR540_0_note_006_320_14-15">320,14-15</ref>). Goethe erwähnt das Grabmal auch im Brief an Charlotte von Stein vom 20. bis 27. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR541_0_322_015 #GB03_1_BR541_0_322_017">322,15–17</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5468">
+<label xml:id="GB03_2_BR540_0_note_026_321_7" copyOf="#start_com_4605"><hi rendition="#fett">321,7</hi>die Bibliotheck</label>
+<p>Ende des 17. Jahrhunderts war im Zuge eines Umbaus der alten theologisch ausgerichteten Hohen Schule in Bern ein prunkvoller Bibliothekssaal entstanden.</p>
+
+</note>
+<note xml:id="gb63_comment_com14431">
+<label xml:id="GB03_2_BR540_0_note_027_321_7" copyOf="#start_com_4606"><hi rendition="#fett">321,7</hi>Zeuchhaus</label>
+<p>Vgl. die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR538_0_note_023_311_16">311,16</ref>. Das Berner Zeughaus wurde 1876 abgebrochen.</p>
+
+</note>
+<note xml:id="gb63_comment_com5469">
+<label xml:id="GB03_2_BR540_0_note_028_321_7" copyOf="#start_com_4607"><hi rendition="#fett">321,7</hi>Sprünglins Sammlung</label>
+<p>Daniel Sprüngli, früherer Pfarrer in Stettlen, war Besitzer des Landsitzes Baumgarten nordöstlich von Bern; er beschäftigte sich mit Naturgeschichte und hatte eine große Sammlung von Fossilien und Vögeln zusammengetragen. Merck trat einige Jahre später osteologischer Fragen wegen in Korrespondenz mit ihm; vgl. seinen Brief an ihn vom 20. Oktober 1783 (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 3, 381 f.).</p>
+
+</note>
+<note xml:id="gb63_comment_com15919">
+<label xml:id="GB03_2_BR540_0_note_029_321_8" copyOf="#start_com_4608"><hi rendition="#fett">321,8</hi>Wittenbachen</label>
+<p>Jacob Samuel Wyttenbach hatte Theologie und Medizin studiert und war seit 1775 Prediger am Burgerspital in Bern. Er baute eine Naturaliensammlung auf und machte sich als Übersetzer naturwissenschaftlicher Werke einen Namen. In einem Brief an Wyttenbach vom 18. Februar 1780 bedankt sich Goethe für die <quote type="G">angenehmen und lehrreichen Stunden</quote> (<ref target="gb:text#GB04_1_BR018_0_017_016 #GB04_1_BR018_0_017_017">GB 4 I, 17,16-17</ref>), die er bei ihm zugebracht habe.</p>
+
+</note>
+<note xml:id="gb63_comment_com14432">
+<label xml:id="GB03_2_BR540_0_note_030_321_10" copyOf="#start_com_4609"><hi rendition="#fett">321,10</hi>artiger Mann</label>
+<p>Artig: Modewort des 18. Jahrhunderts; hier etwa: liebenswürdig, auch von der äußeren Gestalt her (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 839 f.).</p>
+
+</note>
+<note xml:id="gb63_comment_com5470">
+<label xml:id="GB03_2_BR540_0_note_031_321_11" copyOf="#start_com_4610"><hi rendition="#fett">321,11</hi>Aberli</label>
+<p>Johann Ludwig Aberli, Landschaftsmaler.</p>
+
+</note>
+<note xml:id="gb63_comment_com5471">
+<label xml:id="GB03_2_BR540_0_note_032_321_11" copyOf="#start_com_4611"><hi rendition="#fett">321,11</hi>der Junge Wocher</label>
+<p>Der 19-jährige Marquard Fidel Dominikus Wocher, Maler und Kupferstecher, Schüler Aberlis. Von ihm stammt das so genannte Wocher-Panorama, ein 7,5 × 38 m großes Rundbild der Stadt Thun (1809–1814).</p>
+
+</note>
+<note xml:id="gb63_comment_com14433">
+<label xml:id="GB03_2_BR540_0_note_033_321_12" copyOf="#start_com_4612"><hi rendition="#fett">321,12</hi>in Biel <gap quantity="3" reason="editorial"/> Hartmann</label>
+<p>Im etwa 50 km entfernten Biel besuchte Goethe den aus Mannheim stammenden Landschaftsmaler und Radierer Johann Joseph Hartmann.</p>
+
+</note>
+<note xml:id="gb63_comment_com5472">
+<label xml:id="GB03_2_BR540_0_note_034_321_12" copyOf="#start_com_4613"><hi rendition="#fett">321,12</hi>von dem ich mit bringe</label>
+<p>Vermutlich die vier Ölgemälde „Im Berner Oberland“, „Landschaft zwischen Biel und Gottstadt“, „Les champs de Mache. Beauchamps et l’entrée dans l’Ergeuil“ und „Zwischen Biel und Orbain“, die sich in den Kunstsammlungen der Klassik Stiftung Weimar (Inv.-Nr KK 796–799) befinden (vgl. <ref target="sndb:sigle#2878">Goethes „Bildergalerie“</ref>, 160).</p>
+
+</note>
+<note xml:id="gb63_comment_com14434">
+<label xml:id="GB03_2_BR540_0_note_035_321_13-14" copyOf="#start_com_4614"><hi rendition="#fett">321,13-14</hi>der iunge Schüz <gap quantity="3" reason="editorial"/> Bürckhardt in Basel</label>
+<p>Der 17-jährige Franz Schütz, Maler und Radierer, Sohn des Frankfurter Malers Christian Georg Schütz; er lebte seit 1777 in Basel, gefördert von dem Seidenbandfabrikanten Johann Rudolf Burckhardt.</p>
+
+</note>
+<note xml:id="gb63_comment_com13761">
+<label xml:id="GB03_2_BR540_0_note_036_321_16" copyOf="#start_com_4615"><hi rendition="#fett">321,16</hi>der Herzog</label>
+<p>Carl August von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb63_comment_com5473">
+<label xml:id="GB03_2_BR540_0_note_037_321_16" copyOf="#start_com_4616"><hi rendition="#fett">321,16</hi>Wedel</label>
+<p>Der Weimarer Kammerherr und Oberforstmeister Otto Joachim Moritz von Wedel.</p>
+
+</note>
+<note xml:id="gb63_comment_com5474">
+<label xml:id="GB03_2_BR540_0_note_038_321_17-18" copyOf="#start_com_4617"><hi rendition="#fett">321,17-18</hi>Von Lavatern <gap quantity="3" reason="editorial"/> nennen lassen</label>
+<p>Darum hatte Goethe in seinem Brief an Johann Caspar Lavater vom 8. Oktober 1779 gebeten (vgl. <ref target="gb:text#GB03_1_BR535_0_304_022 #GB03_1_BR535_0_304_025">304,22–25</ref>).</p>
+
+</note>
+<note xml:id="gb63_comment_com5475">
+<label xml:id="GB03_2_BR540_0_note_039_321_19-20" copyOf="#start_com_4618"><hi rendition="#fett">321,19-20</hi>auf Lausanne</label>
+<p>Goethe brach am 20. Oktober 1779 von Bern auf und traf am 22. Oktober in Lausanne ein.</p>
+
+</note>
+<note xml:id="gb63_comment_com8723">
+<label xml:id="GB03_2_BR540_0_note_040_321_25-26" copyOf="#start_com_4619"><hi rendition="#fett">321,25-26</hi>Schick diesen Brief <gap quantity="3" reason="editorial"/> meinen Eltern.</label>
+<p>Ob dies geschah, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb63_comment_com5476">
+<label xml:id="GB03_2_BR540_0_note_041_321_27" copyOf="#start_com_4620"><hi rendition="#fett">321,27</hi>Gedeon Burckhardt</label>
+<p>Gedeon Burkhardt, Seidenbandfabrikant in Basel, der 1760 gestorben war. Sein Nachfolger war sein Sohn Johann Rudolf Burkhardt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9624" n="GB 3, Nr. 472">
+  <teiHeader xml:id="gb9624_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>472.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77280" evidence="conjecture">Apolda</placeName></supplied>, 7. <supplied>März 1779. Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:35Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9624_tei.xml</idno>
+        <idno type="URI">gb9624</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR472_0</idno>
+        <idno type="KSW-ID">9624</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="263" to="263">263</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="870" to="872">870-872</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9624_header_hwit1452" corresp="#gb9624_source_hwit1452" sameAs="#gb9624_comment_hwit1452" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/469,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:343268</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9624,,1452/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich schicke dir zwey Dukaten zu den Currenten ausgaben das    andre mag warten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#77280">Apolda</placeName></supplied>
+            <date when="1779-03-07">7. <supplied>März 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45319">Seidel, Philipp</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9624_source_hwit1452" corresp="#gb9624_header_hwit1452" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9624/12306"/>
+      <p>
+        <anchor xml:id="GB03_1_BR472_0_263_016"/>Ich schicke dir zwey Dukaten zu den <ref target="gb:note#GB03_2_BR472_0_note_001_263_16" xml:id="start_com_3842"/>Currenten<ref xml:id="end_com_3842"/> ausgaben das andre 
+<anchor xml:id="GB03_1_BR472_0_263_017"/>mag warten. Hast du denn <ref target="gb:note#GB03_2_BR472_0_note_002_263_17" xml:id="start_com_3843"/>das Geld von Rath Bertuch<ref xml:id="end_com_3843"/> gekriegt <ref target="gb:note#GB03_2_BR472_0_note_003_263_17-18" xml:id="start_com_3844"/>davon 
+<anchor xml:id="GB03_1_BR472_0_263_018"/>25<ptr n="1" target="#a001_263.18"/> rh zu Flachs bestimmt<ref xml:id="end_com_3844"/> waren, und hat <ref target="gb:note#GB03_2_BR472_0_note_004_263_18" xml:id="start_com_3845"/>der Lynckrische<ref xml:id="end_com_3845"/> soviel gekostet?
+<anchor xml:id="GB03_1_BR472_0_263_019"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR472_0_263_020"/>Hast du mir etwas zu melden so gieb es dem <ref target="gb:note#GB03_2_BR472_0_note_005_263_20" xml:id="start_com_3846"/>Hptm. Castrop<ref xml:id="end_com_3846"/> mit 
+<anchor xml:id="GB03_1_BR472_0_263_021"/>der <ref target="gb:note#GB03_2_BR472_0_note_006_263_21" xml:id="start_com_3847"/>heute d<g ref="#typoSuspension"/>. 7ten oder Morgen früh nach Buttstett<ref xml:id="end_com_3847"/>.     Alsdenn müssen 
+<anchor xml:id="GB03_1_BR472_0_263_022"/>die Sachen liegen weil ich <ref target="gb:note#GB03_2_BR472_0_note_007_263_22" xml:id="start_com_3848"/>nach Alstedt<ref xml:id="end_com_3848"/> gehe. <ref target="gb:note#GB03_2_BR472_0_note_008_263_22-23" xml:id="start_com_3849"/>d<g ref="#typoSuspension"/>. 11ten bin ich 
+<anchor xml:id="GB03_1_BR472_0_263_023"/>wieder in Weimar.<ref xml:id="end_com_3849"/>
+      </p>
+      <closer>
+        <signed rend="paraph" rendition="#einrueck14">
+          <anchor xml:id="GB03_1_BR472_0_263_024"/>G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9624/12307" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#9624/12308" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9624/12309" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9624_comment">
+<body>
+<div type="metadata" xml:id="gb9624_comment_com230">
+  <ab type="numberAddressee"><label>472.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77280">Apolda</placeName></supplied>, 7. <supplied>März 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb9624_comment_com1507">
+  <p>Monat und Jahr lassen sich nach dem Inhalt des Briefes und den Übereinstimmungen mit dem Tagebuch ergänzen. 1779 unternahm Goethe eine Dienstreise nach Jena, Dornburg, Apolda und Buttstädt (vgl. zu <ref target="gb:note#GB03_2_BR472_0_note_006_263_21">263,21</ref>). Ebenso belegen die inhaltlichen Bezüge zum Brief an Charlotte von Stein vom 7. März 1779, dass auch der vorliegende Brief an diesem Tag geschrieben wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR473_0_note_002_264_3">264,3</ref>).</p>
+</div>
+
+<div type="addressee" xml:id="gb9624_comment_com2021">
+  <p>Als Adressat kommt nur Goethes Diener und Sekretär Philipp Seidel in Frage, der während der Abwesenheit seines Herrn dessen Geschäfte erledigte und weitgehende Vollmachten besaß (vgl. Datierung zu <ref target="gb:note#gb9549_comment_com1819">Nr 468</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9624_comment_com2274">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#343268">GSA 29/469,I</ref>, Bl. 2. – Doppelblatt ca. 13,6(–13,8) &#xD7; 19,8(–20) cm, &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: Ludwig Geiger: Goethes Briefe an Bertuch. In: <ref target="sndb:sigle#1266">GJb</ref> IV (1883), 227 f., Nr 32.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 19, Nr 792.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9624_comment_com4070">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9624_comment_com15602">
+<label xml:id="GB03_2_BR472_0_note_001_263_16" copyOf="#start_com_3842"><hi rendition="#fett">263,16</hi>Currenten</label>
+<p>Kurrent: laufend, ständig (von lat. currere: laufen).</p>
+
+</note>
+<note xml:id="gb9624_comment_com7653">
+<label xml:id="GB03_2_BR472_0_note_002_263_17" copyOf="#start_com_3843"><hi rendition="#fett">263,17</hi>das Geld von Rath Bertuch</label>
+<p>Friedrich Justin Bertuch war seit 1775 Geheimer Sekretär und Verwalter der herzoglichen Privatschatulle.</p>
+
+</note>
+<note xml:id="gb9624_comment_com16937">
+<label xml:id="GB03_2_BR472_0_note_003_263_17-18" copyOf="#start_com_3844"><hi rendition="#fett">263,17-18</hi>davon 25 rh. zu Flachs bestimmt</label>
+<p>Zur Herstellung von Leinwand. – In Goethes Nachlass ist eine an Seidel adressierte Flachsrechnung vom 5. März 1779 von „L. v. Lincker“ aus Denstedt überliefert. Der gesamte Betrag für „34 Bündel Flachs von H<g ref="#typoSuspension"/>. Pastor Blau zu Trichtelborn“ mit Fuhrlohn und Bearbeitung belief sich auf „47. r<g ref="#typoSuspension"/>. 17 g<g ref="#typoSuspension"/>. 3 d<g ref="#typoSuspension"/>.“, wovon die Hälfte schon gezahlt war (<ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 9 f.). Neben Rechnungen von Flachsspinnereien (vgl. u. a. <ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 49) und weiteren Flachsrechnungen (vgl. u. a. <ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 49) finden sich auch Rechnungen von Leinewebern (vgl. u. a. <ref target="sndb:sigle#2575">GR/Belege 1780, 1</ref>, Bl. 74 f.) und Bleichern (vgl. u. a. <ref target="sndb:sigle#2576">GR/Belege 1780, 2</ref>, Bl. 4). Außerdem sind Rechnungen des Drechslers Johann Jacob Feuerhacke in Weimar überliefert, bei dem Goethe Spinnräder fertigen und reparieren ließ, die an verschiedene Frauen weitergegeben wurden (vgl. <ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 3, 4 und 6). In Goethes Rechnungsbüchern der Jahre 1779 und 1780 findet sich in den Abschlussrechnungen unter „M“ der Abschnitt „Spinnerei“, der die Ausgaben für Materialien und Arbeitslöhne verzeichnet (vgl. <ref target="sndb:sigle#2564">GR/Abschlussrechnung 1779</ref> und <ref target="sndb:sigle#2565">GR/Abschlussrechnung 1780</ref>). Goethe benötigte die Leinwand wahrscheinlich zur Einrichtung seines eigenen Haushalts.</p>
+
+</note>
+<note xml:id="gb9624_comment_com7664">
+<label xml:id="GB03_2_BR472_0_note_004_263_18" copyOf="#start_com_3845"><hi rendition="#fett">263,18</hi>der Lynckrische</label>
+<p>Wahrscheinlich der Kameralist Joseph Johann Jacob Daniel Freiherr von Lincker und Lützenwick, Besitzer des Ritterguts Denstedt, das etwa acht Kilometer östlich von Weimar liegt.</p>
+
+</note>
+<note xml:id="gb9624_comment_com7665">
+<label xml:id="GB03_2_BR472_0_note_005_263_20" copyOf="#start_com_3846"><hi rendition="#fett">263,20</hi>Hptm. Castrop</label>
+<p>Jean Antoine Joseph de Castrop war Artillerie- und Ingenieur-Hauptmann bei der Wegebaukommission in Weimar und als solcher Mitarbeiter Goethes, der die Kommission seit Januar 1779 leitete (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb46_comment_com3939">Nr 458</ref>). Castrop begleitete Goethe auf seiner Dienstreise, die der Straßeninspektion und der Musterung diente (vgl. zu <ref target="gb:note#GB03_2_BR466_0_note_001_259_7">259,7</ref>; zu <ref target="gb:note#GB03_2_BR466_0_note_004_259_10">259,10</ref>).</p>
+
+</note>
+<note xml:id="gb9624_comment_com7666">
+<label xml:id="GB03_2_BR472_0_note_006_263_21" copyOf="#start_com_3847"><hi rendition="#fett">263,21</hi>heute d<g ref="#typoSuspension"/>. 7ten <gap quantity="3" reason="editorial"/> nach Buttstett</label>
+<p>Goethe selbst ritt am 7. März 1779 früh mit dem Unteroffizier Johann Christian Venus in das nördlich von Weimar gelegene Buttstädt (vgl. <ref target="gt:dokument#685">GT I 1, 77</ref>). Über die Rekrutenauslesung in Buttstädt vgl. Goethes Brief an Herzog Carl August vom 8. März 1779 (<ref target="gb:dokument#10219">Nr 474</ref>).</p>
+
+</note>
+<note xml:id="gb9624_comment_com16880">
+<label xml:id="GB03_2_BR472_0_note_007_263_22" copyOf="#start_com_3848"><hi rendition="#fett">263,22</hi>nach Alstedt</label>
+<p>Am 9. März ritt Goethe <quote type="G">Mit Castrop über Rast<unclear reason="illegible">enb</unclear> nach Alstä<unclear reason="illegible">dt</unclear></quote> (<ref target="gt:dokument#687">GT I 1, 77</ref>). Die ehemalige Kaiserpfalz Allstedt, etwa 60 km nördlich von Weimar, war sachsen-weimarische Exklave und besaß ein Gestüt, von dem der Weimarer Hof Kutsch- und Reitpferde bezog und das dem Oberstallmeister Josias von Stein unterstand (vgl. Andreas, Carl August, 337). Am 11. März notierte Goethe in sein Tagebuch: <quote type="G">Die Stuterey besehen.</quote> (<ref target="gt:dokument#689">GT I 1, 77</ref>.)</p>
+
+</note>
+<note xml:id="gb9624_comment_com7457">
+<label xml:id="GB03_2_BR472_0_note_008_263_22-23" copyOf="#start_com_3849"><hi rendition="#fett">263,22-23</hi>d<g ref="#typoSuspension"/>. 11ten <gap quantity="3" reason="editorial"/> in Weimar.</label>
+<p>Goethe kehrte erst am 12. März 1779 <quote type="G">mit Castrop nach Weimar</quote> (<ref target="gt:dokument#690">GT I 1, 77</ref>) zurück.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

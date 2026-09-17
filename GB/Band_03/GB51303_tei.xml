@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb51303" n="GB 3, Nr. Z 4">
+  <teiHeader xml:id="gb51303_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>Z 4.</label> An <persName key="sndb:person#39093" cert="low">Jacob Michael Reinhold Lenz?</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78327">Kranichfeld</placeName>, 2. September 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:23:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb51303_tei.xml</idno>
+        <idno type="URI">gb51303</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_ZB004_0</idno>
+        <idno type="KSW-ID">51303</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="447" to="447">447</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1105" to="1107">1105-1107</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb51303_header_hwit51421" corresp="#gb51303_source_hwit51421" sameAs="#gb51303_comment_hwit51421" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 404</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349708</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/51303,,51421/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Kranichfeld an deiner Brücke. d 2 Sept. 1776 / Hierhergetrabt die Brust voll</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78327">Kranichfeld</placeName>
+            <date when="1776-09-02">2. September 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39093" cert="low">? Lenz, Jacob Michael Reinhold</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb51303_source_hwit51421" corresp="#gb51303_header_hwit51421" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    
+      <p rendition="#c"><supplied>Vgl. Faksimile</supplied></p>
+      <pb n="1" facs="gb:digitalisate#51303/28095"/>
+      <space quantity="1" unit="lines"/>
+      <lg type="poem">
+      
+        <anchor xml:id="GB03_1_ZB004_0_447_001"/><head rendition="#einrueck5">
+        <ref target="gb:note#GB03_2_ZB004_0_note_001_447_1" xml:id="start_com_5256"/>Kranichfeld<ref xml:id="end_com_5256"/>
+        <ref target="gb:note#GB03_2_ZB004_0_note_002_447_1" xml:id="start_com_5257"/>an deiner Brücke<ref xml:id="end_com_5257"/>. <ref target="gb:note#GB03_2_ZB004_0_note_003_447_1-2" xml:id="start_com_5258"/>d<g ref="#typoSuspension"/> 2 Sept.</head><lb/> 
+              <anchor xml:id="GB03_1_ZB004_0_447_002"/><head rendition="#einrueck13">1776.<ref xml:id="end_com_5258"/>
+      </head><lb/>
+              <anchor xml:id="GB03_1_ZB004_0_447_003"/>
+        <l rendition="#einrueck5">Hierhergetrabt die Brust voll tiefem Wühlen</l>
+        <anchor xml:id="GB03_1_ZB004_0_447_004"/>
+        <l rendition="#einrueck5">Planvoller Aussicht<ptr n="1" target="#a001_447.4"/>, sehnt sich<ptr n="2" target="#a002_447.4"/> nun</l>
+        <anchor xml:id="GB03_1_ZB004_0_447_005"/>
+        <l rendition="#einrueck5">Mein Herz ein Weilchen auszuruhn</l>
+        <anchor xml:id="GB03_1_ZB004_0_447_006"/>
+        <l rendition="#einrueck5">Und wieder rein<ptr n="3" target="#a003_447.6"/> an der Natur zu fühlen</l>
+        <anchor xml:id="GB03_1_ZB004_0_447_007"/>
+        <l rendition="#einrueck5">Und wieder <ref target="gb:note#GB03_2_ZB004_0_note_004_447_7" xml:id="start_com_5259"/>was für dich zu thun<ref xml:id="end_com_5259"/>.</l>
+      </lg>
+    <pb n="2" facs="gb:digitalisate#51303/28096" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#51303/28097"/>
+    <pb n="4" facs="gb:digitalisate#51303/28098" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb51303_comment">
+<body>
+<div type="metadata" xml:id="gb51303_comment_com17">
+  <ab type="numberAddressee"><label>Z 4.</label> An <persName key="sndb:person#39093" cert="low">? Jacob Michael Reinhold Lenz</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78327">Kranichfeld</placeName>, 2. September 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="addressee" xml:id="gb51303_comment_com2016">
+  <p>Die Verse wurden zuerst 1891 unvollständig in der WA unter den Gedichten „Aus dem Nachlaß / An Personen“ (<ref target="sndb:sigle#1157">WA</ref> I 4, 209) gedruckt (vgl. <ref target="gb:note#gb51303_comment_com2061">Überlieferung</ref>). Für die Zuschreibung „An Frau von Stein“ (ebd.), die in der Handschrift fehlt, findet sich in den „Lesarten zu Band 4“ keine Begründung (vgl. <ref target="sndb:sigle#1157">WA</ref> I 5.2, 128). Wahrscheinlich erfolgte sie nach der Datierung <quote type="G">d<g ref="#typoSuspension"/> 2 Sept. 1776.</quote> (<ref target="gb:text#GB03_1_ZB004_0_447_001 #GB03_1_ZB004_0_447_002">447,1–2</ref>) und der Annahme, dass das Gedicht in dieser Zeit der engen Freundschaft zu Charlotte von Stein nur an sie gerichtet sein könne. Auch der Umstand, dass es von einer Zeichnung begleitet wurde, schien für die Freundin, an die Goethe häufig Zeichnungen schickte, zu sprechen. Julius Wahle nahm das Gedicht 1899 in die Ausgabe der Briefe Goethes an Charlotte von Stein auf (vgl. <ref target="gb:note#gb51303_comment_com2061">Überlieferung</ref>), ihm folgten alle späteren Herausgeber, zuletzt Fränkel (Goethe-Stein<hi rendition="#sup">2</hi> 1, 48, Nr 98). Auch Wahle und seine Nachfolger begründen die Zuschreibung an Charlotte von Stein nicht. Selbst wenn sie als Adressatin nicht ganz auszuschließen ist, so gibt es doch keinen Beleg dafür. Im Unterschied zu anderen der Freundin gewidmeten Gedichten sind die vorliegenden Verse mit Zeichnung nicht im Konvolut der Briefe an Charlotte von Stein überliefert. Auch gibt es keinen Hinweis, dass Charlotte von Stein einen besonderen Bezug zur Brücke in Kranichfeld hatte, oder gar, dass Goethe und sie vor September 1776 gemeinsam dort gewesen wären. Zudem erscheint der Bezug des letzten Verses gerade auf sie als Adressatin keineswegs naheliegend. Eher könnte damit ein Freund angesprochen sein. Als Adressat käme Jacob Michael Reinhold Lenz in Frage (vgl. zu <ref target="gb:note#GB03_2_ZB004_0_note_001_447_1">447,1</ref>). Allerdings lässt sich dies gleichfalls nicht belegen.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb51303_comment_com2061">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#349708">GSA 25/W 404</ref>. – Doppelblatt 16,5 × 9,8 cm, Heftspuren am Mittelbruch, zusammengelegtes Doppelblatt einmal quer und einmal längs gefaltet, &#xBE; S. (S. 3) beschr., egh., Bleistift; S. 1 egh. Bleistiftzeichnung (Brücke in Kranichfeld). – Faksimile der Zeichnung: <ref target="gb:digitalisate#51303/28097">Abb. 16</ref> im Textband (S. 445); vgl. <ref target="sndb:sigle#1248">Corpus</ref> VIa (1977), Nr 198.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> I 4 (1891), 208 (Teildruck: ohne Überschrift [<ref target="gb:text#GB03_1_ZB004_0_447_001">447,1</ref> <quote type="G">Kranichfeld an deiner Brücke. d<g ref="#typoSuspension"/> 2 Sept.</quote>], ohne 4. Zeile [<ref target="gb:text#GB03_1_ZB004_0_447_006">447,6</ref> <quote type="G">Und wieder rein an der Natur zu fühlen</quote>]; Zeichnung erwähnt in: <ref target="sndb:sigle#1157">WA</ref> I 5.2, 128; Gustav von Loeper). – Als Brief zuerst gedruckt bei <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1 (1899), 49, Nr 95 (Zeichnung erwähnt, 496).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb51303_comment_com3857">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der Briefcharakter des vorliegenden Textes ist nicht sicher. Gedicht und Bleistiftzeichnung sind in Kranichfeld, einer Station auf dem Weg von Weimar nach Ernstthal im Thüringer Wald, entstanden (vgl. zu <ref target="gb:note#GB03_2_ZB004_0_note_003_447_1-2">447,1-2</ref>). Sie könnten von unterwegs einem Adressaten anstelle eines Briefes zugesandt oder auch später bei einer persönlichen Begegnung als Geschenk überreicht worden sein. Da Adressat und Briefcharakter unsicher sind, werden Zeichnung und Gedicht, die seit dem Abdruck durch Julius Wahle als an Charlotte von Stein gerichtet galten, im Anhang „Zweifelhaftes“ mitgeteilt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb51303_comment_com18749">
+<label xml:id="GB03_2_ZB004_0_note_001_447_1" copyOf="#start_com_5256"><hi rendition="#fett">447,1</hi>Kranichfeld</label>
+<p>Stadt im Mittleren Ilmtal, etwa 20 km südwestlich von Weimar; seit 1772 Poststation. – Auf dem Rückweg von Ernstthal am 5. September machte Goethe wiederum in dem Ort Station: <quote type="G">von Kranichf. bis Bercka mit Lenz zu Fuse geirrt. nacht in Bercka blieben</quote> (<ref target="gt:dokument#137">GT I 1, 24</ref>). Lenz hatte sich Ende Juni 1776 von Weimar nach Berka zurückgezogen, um dort zu arbeiten (vgl. <ref target="gb:text#GB03_1_BR125_0_074_011">74,11</ref>). Berka liegt knapp 9 km nordöstlich von Kranichfeld an der Straße nach Weimar. Goethe könnte bei Gelegenheit der gemeinsamen Wanderung Lenz das vorliegende Gedicht mit der Zeichnung geschenkt haben. Als sich dieser im Herbst 1776 für einige Wochen bei Charlotte von Stein aufhielt, bat er Goethe in einem Brief Mitte September um seine in Weimar vergessene „Brieftasche“ oder „Wenigstens dein Gedicht, das ich hineingelegt hatte“ (Brief abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb11175_comment_com84580">Nr 169</ref>). Für die Aufbewahrung des Doppelblattes in einer Brieftasche spricht zumindest die Faltung (vgl. <ref target="gb:note#gb51303_comment_com2061">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb51303_comment_com13773">
+<label xml:id="GB03_2_ZB004_0_note_002_447_1" copyOf="#start_com_5257"><hi rendition="#fett">447,1</hi>an deiner Brücke</label>
+<p>Die alte Steinbrücke über die Ilm unterhalb des Ober-Schlosses, das Motiv der Bleistiftzeichnung auf der ersten Seite. Sie wurde im 20. Jahrhundert zerstört und durch eine Betonbrücke ersetzt.</p>
+
+</note>
+<note xml:id="gb51303_comment_com18019">
+<label xml:id="GB03_2_ZB004_0_note_003_447_1-2" copyOf="#start_com_5258"><hi rendition="#fett">447,1-2</hi>d<g ref="#typoSuspension"/> 2 Sept. 1776.</label>
+<p>Am 2. September 1776 <quote type="G">Früh halb sechse</quote> (<ref target="gt:dokument#134">GT I 1, 24</ref>) brach Goethe mit der herzoglichen Jagdgesellschaft in den Thüringer Wald auf (vgl. zu <ref target="gb:note#GB03_2_BR164_0_note_002_101_19-20">101,19-20</ref>).</p>
+
+</note>
+<note xml:id="gb51303_comment_com13774">
+<label xml:id="GB03_2_ZB004_0_note_004_447_7" copyOf="#start_com_5259"><hi rendition="#fett">447,7</hi>was für dich zu thun</label>
+<p>Möglicherweise mit Bezug auf Lenz; es könnte sich auch um eine Anspielung auf die das vorliegende Gedicht begleitende Zeichnung handeln.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

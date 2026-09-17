@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5270"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb58" n="GB 3, Nr. 517">
+  <teiHeader xml:id="gb58_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>517.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 7. August 1779. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:29Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb58_tei.xml</idno>
+        <idno type="URI">gb58</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR517_0</idno>
+        <idno type="KSW-ID">58</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="287" to="287">287</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="943" to="944">943-944</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb58_header_hwit1505" corresp="#gb58_source_hwit1505" sameAs="#gb58_comment_hwit1505" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 13</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/58,,1505/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Sein Sie unbesorgt, wenn Sie nicht immer von mir hören. Der Bote hat Packet</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb58_header_acc241" corresp="gb58_comment_acc241">
+            <objectIdentifier>
+              <objectName><quote type="G">Gel. Zeitungen</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb58_header_acc608" corresp="gb58_comment_acc608">
+            <objectIdentifier>
+              <objectName><quote type="G">6 rh.</quote></objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb58_header_acc609" corresp="gb58_comment_acc609">
+            <objectIdentifier>
+              <objectName><quote type="G">Leinwand</quote> für <quote type="G">Hemden</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-08-07">7. August 1779</date>
+            <note>
+              <date type="WA" when="1779-08-03">3. August 1779</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb58_source_hwit1505" corresp="#gb58_header_hwit1505" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#58/10987"/>
+      <p>
+        <anchor xml:id="GB03_1_BR517_0_287_004"/>Seyn Sie unbesorgt wenn Sie nicht immer von mir hören. Der Bote 
+<anchor xml:id="GB03_1_BR517_0_287_005"/>hat <ref target="gb:note#GB03_2_BR517_0_note_001_287_5" xml:id="start_com_4127"/>Packet<ref xml:id="end_com_4127"/> und den Br. vom 2 Aug. wohl überbracht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR517_0_287_006"/>Meine Gesinnungen und Handlungen werd ich nie gegen Sie ändern 
+<anchor xml:id="GB03_1_BR517_0_287_007"/>wie ich s auch von Ihnen hoffe. Behalten Sie ihre Freymütigkeit 
+<anchor xml:id="GB03_1_BR517_0_287_008"/>und <ref target="gb:note#GB03_2_BR517_0_note_002_287_8" xml:id="start_com_4128"/>schreiben mir alles was Ihnen vorkommt<ref xml:id="end_com_4128"/> ohne Furcht mich zu 
+<anchor xml:id="GB03_1_BR517_0_287_009"/>beleidigen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR517_0_287_010"/>Hier sind <ref target="gb:note#GB03_2_BR517_0_note_003_287_10" xml:id="start_com_4129"/>Ge<g ref="#typoSuspension"/>. Zeitungen<ref xml:id="end_com_4129"/>. und<ptr n="1" target="#a001_287.10"/> 6 rh. <ref target="gb:note#GB03_2_BR517_0_note_004_287_10" xml:id="start_com_4130"/>Münze<ref xml:id="end_com_4130"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR517_0_287_011"/>Tuch zu einem Kleide sollen Sie nächstens haben, auch vor dem 
+<anchor xml:id="GB03_1_BR517_0_287_012"/>Winter sonst noch das nötige, <ref target="gb:note#GB03_2_BR517_0_note_005_287_12" xml:id="start_com_4131"/>ich komme vielleicht selbst nach Illm.<ref xml:id="end_com_4131"/>
+        <anchor xml:id="GB03_1_BR517_0_287_013"/>wo wir mehr sprechen können.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR517_0_287_014"/>Wegen <ref target="gb:note#GB03_2_BR517_0_note_006_287_14" xml:id="start_com_4132"/>Rieds<ref xml:id="end_com_4132"/> werd ich sehn was mir die Umstände zu thun erlauben. 
+<anchor xml:id="GB03_1_BR517_0_287_015"/>Sonst rath ich <ref target="gb:note#GB03_2_BR517_0_note_007_287_15" xml:id="start_com_4133"/>in solchen Fällen<ref xml:id="end_com_4133"/> nicht leicht zu Ausnahmen. Wegen 
+<anchor xml:id="GB03_1_BR517_0_287_016"/>
+        <ref target="gb:note#GB03_2_BR517_0_note_008_287_16" xml:id="start_com_4134"/>des Knabens<ptr n="2" target="#a002_287.16"/>
+        <ref xml:id="end_com_4134"/> will ich nächstens weitläufiger schreiben<ptr n="3" target="#a003_287.16"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR517_0_287_017"/>Hier bey kommt auch Leinwand zu ein halb duzzend Hemden.</p>
+      <closer>
+        <signed rend="paraph" rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR517_0_287_018"/>W. d<g ref="#typoSuspension"/>. 7 Aug 1779                                             G. </signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+        <pb n="2" facs="gb:digitalisate#58/10988"/>
+          <anchor xml:id="GB03_1_BR517_0_287_019"/>Ein iunger Mensch Nahmens<ptr n="4" target="#a004_287.19"/>
+          <ref target="gb:note#GB03_2_BR517_0_note_009_287_19" xml:id="start_com_4135"/>Seidel<ref xml:id="end_com_4135"/> der mein Hauswesen versieht, 
+<anchor xml:id="GB03_1_BR517_0_287_020"/>
+          <ref target="gb:note#GB03_2_BR517_0_note_010_287_20" xml:id="start_com_4136"/>wird bey Ihnen einsprechen<ref xml:id="end_com_4136"/> und wegen des iungen Peter im Baumgarten 
+<anchor xml:id="GB03_1_BR517_0_287_021"/>das nötige mit Ihnen abreden auch sonst besorgen weil zu 
+<anchor xml:id="GB03_1_BR517_0_287_022"/>schreiben es zu weitläuffig ist.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR517_0_287_023"/>
+          <signed rend="paraph" rendition="#einrueck15">G.</signed>
+        </closer>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb58_comment">
+<body>
+<div type="metadata" xml:id="gb58_comment_com106">
+  <ab type="numberAddressee"><label>517.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 7. August 1779 → <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb58_comment_com2150">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 13. – 1 Bl. 20,1 × 27,5 cm, 1 S. beschr., egh., Tinte; Nachschrift in der Mitte der Rs. quer zur Schreibrichtung (offenbar nach Faltung des Briefs); Vs. oben links von fremder Hd, Tinte: „79. Aug<g ref="#typoSuspension"/>. 3<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd (Schöll?, vgl. E), Bleistift: „11.“; Bl. nachträglich mit einem Falz an einem unbeschriebenen Bl. befestigt.</p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 179 f., Nr 11.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 48, Nr 834 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb58_comment_com3460">
+  <p>1) <quote type="G">Ge<g ref="#typoSuspension"/>. Zeitungen</quote> (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR517_0_note_003_287_10">287,10</ref>).</p>
+  <p>2) <quote type="G">6 rh.</quote> (<ref target="gb:text#GB03_1_BR517_0_287_010">287,10</ref>)</p>
+  <p>3) <quote type="G">Leinwand</quote> für <quote type="G">Hemden</quote> (<ref target="gb:text#GB03_1_BR517_0_287_017">287,17</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb58_comment_com3946">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Kraffts vom 2. August 1779 (vgl. <ref target="gb:text#GB03_1_BR517_0_287_005">287,5</ref>). – Ob der nicht überlieferte Brief, auf den sich Goethes Brief vom 9. September 1779 (<ref target="gb:dokument#62">Nr 528</ref>) bezieht (vgl. <ref target="gb:text#GB03_1_BR528_0_295_027 #GB03_1_BR528_0_296_002">295,27–296,2</ref>), der Antwortbrief auf den vorliegenden war, ist ungewiss.</p>
+  <p rendition="#einrueck1">Postsendungen: 7. August 1779 (vgl. <ref target="sndb:sigle#2651">GR/RB 1779, 3</ref>, Bl. 8v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb58_comment_com5405">
+<label xml:id="GB03_2_BR517_0_note_001_287_5" copyOf="#start_com_4127"><hi rendition="#fett">287,5</hi>Packet</label>
+<p>Was es enthielt, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb58_comment_com5406">
+<label xml:id="GB03_2_BR517_0_note_002_287_8" copyOf="#start_com_4128"><hi rendition="#fett">287,8</hi>schreiben mir alles was Ihnen vorkommt</label>
+<p>Bezieht sich auf Kraffts Berichte aus Ilmenau (vgl. zu <ref target="gb:note#GB03_2_BR515_0_note_004_285_8">285,8</ref>).</p>
+
+</note>
+<note xml:id="gb58_comment_com14307">
+<label xml:id="GB03_2_BR517_0_note_003_287_10" copyOf="#start_com_4129"><hi rendition="#fett">287,10</hi>Ge<g ref="#typoSuspension"/>. Zeitungen</label>
+<p>‚Gelehrte Zeitungen‘ erschienen in verschiedenen Städten. Hier handelte es sich möglicherweise um die „Erfurtische gelehrte Zeitung“, die von der dortigen Kurmainzischen Akademie nützlicher Wissenschaften herausgegeben wurde.</p>
+
+</note>
+<note xml:id="gb58_comment_com5407">
+<label xml:id="GB03_2_BR517_0_note_004_287_10" copyOf="#start_com_4130"><hi rendition="#fett">287,10</hi>Münze</label>
+<p>Hier „so viel als einzelnes Geld <gap quantity="3" reason="editorial"/> im Gegensatze des ganzen Geldes oder größerer Stücke Geldes.“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 318.)</p>
+
+</note>
+<note xml:id="gb58_comment_com5408">
+<label xml:id="GB03_2_BR517_0_note_005_287_12" copyOf="#start_com_4131"><hi rendition="#fett">287,12</hi>ich komme vielleicht selbst nach Illm.</label>
+<p>Goethe lernte Krafft persönlich erst am 5. September 1780 in Ilmenau kennen, als er sich mit Herzog Carl August und dem Oberstallmeister Josias von Stein auf einer Reise durch den Thüringer Wald und die Rhön befand.</p>
+
+</note>
+<note xml:id="gb58_comment_com14319">
+<label xml:id="GB03_2_BR517_0_note_006_287_14" copyOf="#start_com_4132"><hi rendition="#fett">287,14</hi>Rieds</label>
+<p>Die Familie des Kaufmanns Julius Michael Rieth, in dessen Haus Krafft wohnte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb38_comment_com4808">Nr 410</ref> sowie zu <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3">268,1-3</ref>).</p>
+
+</note>
+<note xml:id="gb58_comment_com15683">
+<label xml:id="GB03_2_BR517_0_note_007_287_15" copyOf="#start_com_4133"><hi rendition="#fett">287,15</hi>in solchen Fällen</label>
+<p>Um was es ging, konnte nicht ermittelt werden. Die Kosten für Kraffts Unterbringung waren vertraglich geregelt; für die Monate August bis Oktober 1779 erhielt Rieth 25 Reichstaler (vgl. zu <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3">268,1-3</ref>).</p>
+
+</note>
+<note xml:id="gb58_comment_com5409">
+<label xml:id="GB03_2_BR517_0_note_008_287_16" copyOf="#start_com_4134"><hi rendition="#fett">287,16</hi>des Knabens</label>
+<p>Peter im Baumgarten (vgl. über ihn des Näheren die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>; ferner zu <ref target="gb:note#GB03_2_BR515_0_note_006_285_12">285,12</ref>; zu <ref target="gb:note#GB03_2_BR515_0_note_007_285_20">285,20</ref>).</p>
+
+</note>
+<note xml:id="gb58_comment_com5410">
+<label xml:id="GB03_2_BR517_0_note_009_287_19" copyOf="#start_com_4135"><hi rendition="#fett">287,19</hi>Seidel</label>
+<p>Philipp Seidel.</p>
+
+</note>
+<note xml:id="gb58_comment_com14334">
+<label xml:id="GB03_2_BR517_0_note_010_287_20" copyOf="#start_com_4136"><hi rendition="#fett">287,20</hi>wird bey Ihnen einsprechen</label>
+<p>Seidels Besuch bei Krafft in Ilmenau muss in den Wochen vor dem 12. September 1779 stattgefunden haben. An diesem Tag brach er als Mitglied der Gesellschaft um Goethe und Herzog Carl August zur Reise in die Schweiz auf. Weiteres konnte nicht ermittelt werden.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

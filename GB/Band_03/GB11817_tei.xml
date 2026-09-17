@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3330"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11817" n="GB 3, Nr. 324">
+  <teiHeader xml:id="gb11817_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>324.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 19. Januar 1778. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:21Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11817_tei.xml</idno>
+        <idno type="URI">gb11817</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR324_0</idno>
+        <idno type="KSW-ID">11817</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="191" to="191">191</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="651" to="653">651-653</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11817_header_hwit1299" corresp="#gb11817_source_hwit1299" sameAs="#gb11817_comment_hwit1299" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 76</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11817,,1299/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Statt meiner kommt ein Blätgen. Da ich von Ihnen wegging,    konnt ich nicht zeichnen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-01-19">19. Januar 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11817_source_hwit1299" corresp="#gb11817_header_hwit1299" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11817/22777"/>
+      <p>
+        <anchor xml:id="GB03_1_BR324_0_191_005"/>
+        <ref target="gb:note#GB03_2_BR324_0_note_001_191_5" xml:id="start_com_2941"/>Statt meiner kommt ein Blätgen.<ref xml:id="end_com_2941"/>
+        <ref target="gb:note#GB03_2_BR324_0_note_002_191_5" xml:id="start_com_2942"/>Da ich von Ihnen wegging<ref xml:id="end_com_2942"/>, konnt 
+<anchor xml:id="GB03_1_BR324_0_191_006"/>ich nicht zeichnen. Es waren Arbeiter unten<ptr n="1" target="#a001_191.6"/>, und ich erfand <ref target="gb:note#GB03_2_BR324_0_note_003_191_6-7" xml:id="start_com_2943"/>ein seltsam 
+<anchor xml:id="GB03_1_BR324_0_191_007"/>Pläzgen<ref xml:id="end_com_2943"/> wo <ref target="gb:note#GB03_2_BR324_0_note_004_191_7" xml:id="start_com_2944"/>das Andencken der armen Cristel<ref xml:id="end_com_2944"/> verborgen stehn 
+<anchor xml:id="GB03_1_BR324_0_191_008"/>wird. Das war was mir heut noch an meiner Idee misfiel, dass es so 
+<anchor xml:id="GB03_1_BR324_0_191_009"/>am Weeg wäre, wo man weder hintreten und beten, noch lieben soll. 
+<anchor xml:id="GB03_1_BR324_0_191_010"/>Ich hab mit <ref target="gb:note#GB03_2_BR324_0_note_005_191_10" xml:id="start_com_2945"/>Jentschen<ref xml:id="end_com_2945"/> ein gut Stück Felsen ausgehölt, man übersieht 
+<anchor xml:id="GB03_1_BR324_0_191_011"/>von da, in höchster <ref target="gb:note#GB03_2_BR324_0_note_006_191_11" xml:id="start_com_2946"/>Absgeschiedenheit<ref xml:id="end_com_2946"/><ptr n="2" target="#a002_191.11"/>, ihre lezte Pfade und <ref target="gb:note#GB03_2_BR324_0_note_007_191_11-12" xml:id="start_com_2947"/>den Ort 
+<anchor xml:id="GB03_1_BR324_0_191_012"/>ihres Tods<ref xml:id="end_com_2947"/>. Wir haben bis in die Nacht gearbeitet, zulezt noch ich 
+<anchor xml:id="GB03_1_BR324_0_191_013"/>allein bis in ihre TodtesStunde, es war eben so ein Abend. <emph rendition="#latin">Orion</emph> stand 
+<anchor xml:id="GB03_1_BR324_0_191_014"/>so schön am Himmel <ref target="gb:note#GB03_2_BR324_0_note_008_191_14" xml:id="start_com_2948"/>als wie wir von Tiefurth fröhlich heraufritten<ref xml:id="end_com_2948"/>. 
+<anchor xml:id="GB03_1_BR324_0_191_015"/>Ich habe an Erinnerungen und Gedancken iust genug, und kan nicht 
+<anchor xml:id="GB03_1_BR324_0_191_016"/>wieder aus meinem Hause<ptr n="3" target="#a003_191.16"/>. Gute Nacht Engel, schonen Sie sich und 
+<anchor xml:id="GB03_1_BR324_0_191_017"/>gehn nicht herunter. Diese einladende<ptr n="4" target="#a004_191.17"/> Trauer hat <ref target="gb:note#GB03_2_BR324_0_note_009_191_17-19" xml:id="start_com_2949"/>was gefährlich anziehendes 
+<anchor xml:id="GB03_1_BR324_0_191_018"/>wie das Wasser selbst, und der Abglanz der Sterne des Himmels 
+<anchor xml:id="GB03_1_BR324_0_191_019"/>der aus beyden leuchtet lockt uns<ref xml:id="end_com_2949"/>. Gute Nacht, ich kans <ref target="gb:note#GB03_2_BR324_0_note_010_191_19-21" xml:id="start_com_2950"/>meinen 
+<anchor xml:id="GB03_1_BR324_0_191_020"/>Jungen nicht verdencken die nun Nachts nur zu dreyen einen Gang 
+<anchor xml:id="GB03_1_BR324_0_191_021"/>hinüber wagen<ref xml:id="end_com_2950"/>, eben die Saiten der Menschheit werden an ihnen gerührt, 
+<anchor xml:id="GB03_1_BR324_0_191_022"/>nur geben sie einen rohern Klang.</p>
+      <closer>
+        <dateline rendition="#einrueck10">
+          <anchor xml:id="GB03_1_BR324_0_191_023"/>d<g ref="#typoSuspension"/>. 19 Jan 78.     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    <!--<figure><graphic url="abb13.tif"/><p>Abb. 13: Goethe an Charlotte von Stein,
+    <supplied>zwischen Oktober/November 1777 und Ende Januar 1778?</supplied> (Nr 326), S. 2</p></figure>-->
+    <!--<figure><graphic url="abb14.tif"/><p>Abb. 14: Goethe an Charlotte von Stein,
+    <supplied>zwischen Oktober/November 1777 und Ende Januar 1778?</supplied> (Nr 326), S. 3</p></figure>-->
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11817_comment">
+<body>
+<div type="metadata" xml:id="gb11817_comment_com542">
+  <ab type="numberAddressee"><label>324.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 19. Januar 1778 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11817_comment_com2586">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 76. – 1 Bl. ca. 19,5 × 24,4 cm, &#xBE; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. rotes Gemmensiegel: Bellerophon (vgl. <ref target="sndb:sigle#267">Femmel/Heres</ref>, 10 f.); Vs. oben rechts von fremder Hd, Tinte: „5“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 5), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 154 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 207, Nr 666.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11817_comment_com4382">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11817_comment_com11585">
+<label xml:id="GB03_2_BR324_0_note_001_191_5" copyOf="#start_com_2941"><hi rendition="#fett">191,5</hi>Statt meiner kommt ein Blätgen.</label>
+<p>Im Tagebuch fehlen vom 19. bis 29. Januar die täglichen datierten Einträge (vgl. zu <ref target="gb:note#GB03_2_BR324_0_note_003_191_6-7">191,6-7</ref>; zu <ref target="gb:note#GB03_2_BR324_0_note_004_191_7">191,7</ref>); ein Besuch Goethes bei Charlotte von Stein wird erst wieder für den 13. Februar erwähnt (vgl. <ref target="gt:dokument#527">GT I 1, 60</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com11586">
+<label xml:id="GB03_2_BR324_0_note_002_191_5" copyOf="#start_com_2942"><hi rendition="#fett">191,5</hi>Da ich von Ihnen wegging</label>
+<p>Am 18. Januar (vgl. <ref target="gt:dokument#520">GT I 1, 60</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com18144">
+<label xml:id="GB03_2_BR324_0_note_003_191_6-7" copyOf="#start_com_2943"><hi rendition="#fett">191,6-7</hi>ein seltsam Pläzgen</label>
+<p>Wie aus dem Folgenden hervorgeht, ist die später nach ihrer Überdachung als „Nadelöhr“ bekannte Felsen- und Grottenanlage oberhalb der früheren Floßbrücke gemeint, unweit der Stelle gelegen, an der Christiane von Laßberg ertrunken aufgefunden worden war. Sie entstand im Zuge der Umgestaltung des Parks aus den Resten eines alten Steinbruchs. Die Arbeiten daran, an denen Goethe selbst beteiligt war, zogen sich bis in den April 1778 hin: Am 23. März 1778 vermerkt Goethe im Tagebuch: <quote type="G">Diese Zeit viel an dem Felsen werck arbeiten lassen</quote> (<ref target="gt:dokument#550">GT I 1, 62</ref>); kurz vor dem 12. April heißt es: <quote type="G">Wühlte ich still an Felsen und Ufer fort.</quote> (<ref target="gt:dokument#556">Ebd.</ref>)</p>
+
+</note>
+<note xml:id="gb11817_comment_com18148">
+<label xml:id="GB03_2_BR324_0_note_004_191_7" copyOf="#start_com_2944"><hi rendition="#fett">191,7</hi>das Andencken der armen Cristel</label>
+<p>Die kaum 16-jährige Christiane (Christel) Henriette von Laßberg hatte sich am 16. Januar 1778 in der Nähe von Goethes Garten in die Ilm gestürzt, wo sie ertrunken war. Wie Goethes Tagebuch vom <ref target="gt:dokument#519">17.</ref> und <ref target="gt:dokument#520">18.</ref> Januar belegt, muss ihn das Unglück tief bewegt haben: <quote type="G">17. Ward Cristel v. Lasberg in der Ilm vor der Flosbrücke unter dem Wehr von meinen Leuten</quote> <supplied>Philipp Seidel, Paul Goetze, Christoph Sutor</supplied> <quote type="G">gefunden. sie war Abends vorher ertruncken. Ich war mit &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">auf dem Eis. Nachmittags beschäfftigt mit der Todten die sie herauf zu &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">gebracht hatten. Abends zu den Eltern</quote> <supplied>Friederike Wilhelmine und Johann Maximilian Albrecht von Laßberg</supplied> <quote type="G">. <gap quantity="3" reason="editorial"/> 18. Mit &#x2643; ausgeritten <gap quantity="3" reason="editorial"/> Nachts mit &#x2643;. Knebeln herüber. Knebel blieb bey mir Die Nacht. Viel über der Cristel Todt. Dies ganze Wesen Dabey ihre lezten Pfade ppp.</quote> (GT I 1, 60.) Der folgende Eintrag ohne genaue Datierung stammt aus den Tagen vor dem 30. Januar: <quote type="G">In stiller Trauer einige Tage beschäfftigt um die Scene des Todts, nachher wieder gezwungen zu theatralischem Leichtsinn.</quote> (<ref target="gt:dokument#521">Ebd.</ref>) – Über die besonderen Umstände des Freitods Christiane von Laßbergs und die Reaktionen der Zeitgenossen darauf geben die Aufzeichnungen Lynckers Auskunft: „Gedenken will ich hierbei eines traurigen Vorfalls, der sich zu jener Zeit ereignete, als fast täglich Proben von Theaterspielen und Balleten die jungen Herren und Damen in Anspruch nahmen. Dergleichen Uebungen wurden gewöhnlich unter Göthe’s und Sigmund Seckendorfs Direktion in einem Saale der Wohnung der Frau von Stein gehalten. Fräulein Albertine <supplied>recte: Christiane</supplied> von Laßberg, welche mit unter die Tänzerinnen gehörte, wurde bei der Probe erwartet, sie erschien aber nicht; man sendete nach ihrem Haus, aus welchem sie sich bereits entfernt hatte. Nach mancherlei Forschen und Suchen wurde sie ertrunken in der Ilm gefunden und alle Wiederbelebungsversuche blieben fruchtlos.* Daß dieses Ereignis Stoff genug gab, die empfindsame Stimmung zu schmähen, in welche die Göthischen Bücher und Theaterstücke die Jugend versetzt haben sollten, läßt sich wohl denken (und es ward viel darüber gesprochen). / *Man sagte, ein Liebesverhältniß mit dem von Wrangel, einem Liefländer, habe Anlaß gegeben.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 53.) Zudem kamen in der Folgezeit Gerüchte auf, Christiane von Laßberg habe Goethes „Werther“ bei sich gehabt, als sie in die Ilm ging (vgl. ebd., 186). – Zu den Umständen des Todes der Christiane von Laßberg vgl. auch Caroline Gräfin Goertz an Johann Eustach Graf Goertz, 18. Januar 1778 (<ref target="bug:dokument#5476">BuG 2, 59</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com11599">
+<label xml:id="GB03_2_BR324_0_note_005_191_10" copyOf="#start_com_2945"><hi rendition="#fett">191,10</hi>Jentschen</label>
+<p>Der seit 1777 aus Altersgründen pensionierte Hofgärtner in Belvedere Johann Ernst Gentzsch, auch unter dem Namen Rentsch erwähnt. Wohl vor allem wenn Goethe auf Reisen war, beauftragte er Gentzsch mit der Aufsicht über seinen Garten (vgl. die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR362_0_note_004_208_14">208,14</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com11365">
+<label xml:id="GB03_2_BR324_0_note_006_191_11" copyOf="#start_com_2946"><hi rendition="#fett">191,11</hi>Absgeschiedenheit</label>
+<p>Bei Korrektur versehentlich ‚s‘ nicht getilgt.</p>
+
+</note>
+<note xml:id="gb11817_comment_com15807">
+<label xml:id="GB03_2_BR324_0_note_007_191_11-12" copyOf="#start_com_2947"><hi rendition="#fett">191,11-12</hi>den Ort ihres Tods</label>
+<p>Der Abschnitt der Ilm zwischen Floßbrücke (heute Naturbrücke) und Wehr vis à vis von Goethes Garten (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com18086">
+<label xml:id="GB03_2_BR324_0_note_008_191_14" copyOf="#start_com_2948"><hi rendition="#fett">191,14</hi>als wie wir von Tiefurth fröhlich heraufritten</label>
+<p>Am 16. Januar, als Goethe mit der herzoglichen Gesellschaft, zu der an diesem Tag auch Charlotte von Stein gehörte, <quote type="G">Mittags <gap quantity="3" reason="editorial"/> nach Tiefurt</quote> geritten war (<ref target="gt:dokument#518">GT I 1, 60</ref>). Der Abend wurde in Weimar mit einem „Picknick auf dem Redouten.Saal“ beschlossen (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 11).</p>
+
+</note>
+<note xml:id="gb11817_comment_com14075">
+<label xml:id="GB03_2_BR324_0_note_009_191_17-19" copyOf="#start_com_2949"><hi rendition="#fett">191,17-19</hi>was gefährlich anziehendes <gap quantity="3" reason="editorial"/> lockt uns</label>
+<p>Vgl. Goethes Ballade „Der Fischer“, die spätestens Ende Januar 1778 entstanden sein muss. In der Vertonung Sigmund von Seckendorffs wurde sie als Nr 76 in Goethes Liederbuch aufgenommen, das wahrscheinlich Anfang Februar 1778 fertig vorlag (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>).</p>
+
+</note>
+<note xml:id="gb11817_comment_com11366">
+<label xml:id="GB03_2_BR324_0_note_010_191_19-21" copyOf="#start_com_2950"><hi rendition="#fett">191,19-21</hi>meinen Jungen <gap quantity="3" reason="editorial"/> einen Gang hinüber wagen</label>
+<p>Von Goethes Grundstück in die Stadt (vgl. zu <ref target="gb:note#GB03_2_BR318_0_note_001_189_1">189,1</ref>). – Zu Goethes Haushalt im Gartenhaus am „Stern“ gehörten 1778 neben Philipp Seidel noch der damals knapp 24-jährige Hausdiener Christoph Erhard Sutor und der Laufbursche Johann Georg Paul Goetze, damals 17 Jahre alt. Bis zum April 1778 lebte zwar auch Goethes Pflegesohn, der damals etwa 11-jährige Peter im Baumgarten, in Goethes Haushalt. Dass er hier mit gemeint sein könnte, wie seit Fielitz’ Kommentar immer wieder angenommen wurde, ist unwahrscheinlich (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 433, Anm. 1 zu 118; zuletzt <ref target="sndb:sigle#1240">FA/Goethe</ref> II 2, 811, Anm. zu 123,22). Sowohl sein Alter, vor allem aber seine Unzuverlässigkeit und charakterliche Unberechenbarkeit sprechen dagegen, dass ihn Goethe nachts zu Botengängen eingesetzt hat (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

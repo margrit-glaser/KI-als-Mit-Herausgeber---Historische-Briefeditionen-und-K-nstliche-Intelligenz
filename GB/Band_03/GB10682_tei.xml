@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="290"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10682" n="GB 3, Nr. 29">
+  <teiHeader xml:id="gb10682_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>29.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, kurz vor dem oder am 24. Januar 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10682_tei.xml</idno>
+        <idno type="URI">gb10682</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR029_0</idno>
+        <idno type="KSW-ID">10682</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="24" to="24">24</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="109" to="111">109-111</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10682_header_hwit858" corresp="#gb10682_source_hwit858" sameAs="#gb10682_comment_hwit858" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10682,,858/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Bruder sey ruhig, ich brauch der Zeugnisse nicht, habe mit trefflichen Hezpeitschen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" notBefore="1776-01-21" notAfter="1776-01-23"><supplied>kurz vor dem 24. Januar 1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-01-24"><supplied>am 24. Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10682_source_hwit858" corresp="#gb10682_header_hwit858" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10682/18417"/>
+      <p>
+        <anchor xml:id="GB03_1_BR029_0_024_006"/>Bruder sey ruhig <ref target="gb:note#GB03_2_BR029_0_note_001_24_6" xml:id="start_com_0382"/>ich brauch der <hi rendition="#hervor1">Zeugnisse</hi> nicht<ref xml:id="end_com_0382"/>, habe mit trefflichen 
+<anchor xml:id="GB03_1_BR029_0_024_007"/>
+        <ref target="gb:note#GB03_2_BR029_0_note_002_24_7" xml:id="start_com_0383"/>Hezpeitschen<ref xml:id="end_com_0383"/>
+        <ref target="gb:note#GB03_2_BR029_0_note_003_24_7" xml:id="start_com_0384"/>die Kerls<ref xml:id="end_com_0384"/> zusammen getrieben, und es kann nicht 
+<anchor xml:id="GB03_1_BR029_0_024_008"/>lang mehr stocken <ref target="gb:note#GB03_2_BR029_0_note_004_24_8" xml:id="start_com_0385"/>so hast du den Ruf<ref xml:id="end_com_0385"/>. Ich will dir <ref target="gb:note#GB03_2_BR029_0_note_005_24_8-9" xml:id="start_com_0386"/>ein Pläzgen kehren<ptr n="1" target="#a001_24.9"/>
+        <ref xml:id="end_com_0386"/>, 
+<anchor xml:id="GB03_1_BR029_0_024_009"/>dass du gleich hier sollst die Zügel zur Hand nehmen. <ref target="gb:note#GB03_2_BR029_0_note_006_24_9-10" xml:id="start_com_0387"/>Vielleicht<ptr n="2" target="#a002_24.9"/>
+        <anchor xml:id="GB03_1_BR029_0_024_010"/>bleib ich auch eine Zeitlang da.<ref xml:id="end_com_0387"/> – Wenn ich das in’s rein hab, dann ist 
+<anchor xml:id="GB03_1_BR029_0_024_011"/>mirs auf eine Weile Wohl, denn mit mir ists aufgestanden und schlafen<ptr n="3" target="#a003_24.11"/>
+        <anchor xml:id="GB03_1_BR029_0_024_012"/>gangen, das Projeckt, und durch die <hi rendition="#hervor1">besten</hi> Weege. Eh du herkommst 
+<anchor xml:id="GB03_1_BR029_0_024_013"/>Bruder, muss noch erst <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR029_0_note_007_24_13" xml:id="start_com_0388"/>bellus modus</emph>
+        <ref xml:id="end_com_0388"/> vieler Sachen verabredt 
+<anchor xml:id="GB03_1_BR029_0_024_014"/>werden. unser Herzog ist ein goldner Junge. <ref target="gb:note#GB03_2_BR029_0_note_008_24_14-15" xml:id="start_com_0389"/>Die Herzoginnen wünschen 
+<anchor xml:id="GB03_1_BR029_0_024_015"/>dich auch.<ref xml:id="end_com_0389"/>
+        <hi rendition="#hervor1">schreib mir doch einmal weitläufig</hi>. – – Es 
+<anchor xml:id="GB03_1_BR029_0_024_016"/>geht nichts in der Welt mit – <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR029_0_note_009_24_16" xml:id="start_com_0390"/>coups de baguette</emph>
+        <ref xml:id="end_com_0390"/> – und doch auch – <pb n="2" facs="gb:digitalisate#10682/18418"/> 
+<anchor xml:id="GB03_1_BR029_0_024_017"/>
+        <ref target="gb:note#GB03_2_BR029_0_note_010_24_17" xml:id="start_com_0391"/>Vielleicht kriegst du den Ruf mit dieser Post schon.<ref xml:id="end_com_0391"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10682_comment">
+<body>
+<div type="metadata" xml:id="gb10682_comment_com36">
+  <ab type="numberAddressee"><label>29.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>kurz vor dem 24. Januar 1776</supplied> oder <supplied>am 24. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10682_comment_com1403">
+  <p>Der <quote type="G">Ruf</quote> (<ref target="gb:text#GB03_1_BR029_0_024_008">24,8</ref>) an Herder erging mit dem Brief Carl Friedrich Ernst von Lynckers vom 24. Januar 1776 (vgl. zu <ref target="gb:note#GB03_2_BR029_0_note_010_24_17">24,17</ref>). In Goethes Rechnungsbüchern ist unter demselben Datum ein Brief an Herder vermerkt (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4v), bei dem es sich offensichtlich um den vorliegenden handelt. Er ist demnach am 24. Januar 1776 oder kurz zuvor geschrieben worden.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10682_comment_com2080">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – 1 Bl. 13,6(–13,9) × 20 cm, von einem Doppelblatt abgerissen, 1 S. beschr., letzter Satz (<quote type="G">Vielleicht <gap quantity="3" reason="editorial"/> schon.</quote> [<ref target="gb:text#GB03_1_BR029_0_024_017">24,17</ref>]) auf der Rs. quer zur Schreibrichtung, egh., Tinte, flüchtig geschrieben; Vs. oben links von fremder Hd, Bleistift: „11.“, rechts daneben Stempel: „Herder“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(18)“, oben rechts von Caroline Herders Hd (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 4, 347), Tinte: „Janij 1776.“</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 57, Nr 18.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 22, Nr 391.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10682_comment_com3876">
+  <p>Der Anfang des Briefes – <quote type="G">Bruder sey ruhig</quote> (<ref target="gb:text#GB03_1_BR029_0_024_006">24,6</ref>) – scheint eine Antwort auf einen Bezugsbrief zu sein; ein solcher ist jedoch nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 24. Januar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10682_comment_com9768">
+<label xml:id="GB03_2_BR029_0_note_001_24_6" copyOf="#start_com_0382"><hi rendition="#fett">24,6</hi>ich brauch der <hi rendition="#hervor1">Zeugnisse</hi> nicht</label>
+<p>In seinem letzten Brief vom 15. Januar oder kurz zuvor (<ref target="gb:dokument#10912">Nr 20</ref>) hatte Goethe nachgefragt, ob Herder Empfehlungsschreiben beibringen könne, die seine Berufung als Generalsuperintendent nach Weimar befördern könnten (vgl. zu <ref target="gb:note#GB03_2_BR020_0_note_001_20_3">20,3</ref>).</p>
+
+</note>
+<note xml:id="gb10682_comment_com15465">
+<label xml:id="GB03_2_BR029_0_note_002_24_7" copyOf="#start_com_0383"><hi rendition="#fett">24,7</hi>Hezpeitschen</label>
+<p>Peitschen, mit denen bei Hetzjagden (Parforcejagden) die Hundemeuten gelenkt werden. „<gap quantity="3" reason="editorial"/> Hasen u. Füchse werden dabei bisweilen nur mit der Hetzpeitsche getödtet.“ (<ref target="sndb:sigle#3019">Pierer</ref> 12, 678.)</p>
+
+</note>
+<note xml:id="gb10682_comment_com9778">
+<label xml:id="GB03_2_BR029_0_note_003_24_7" copyOf="#start_com_0384"><hi rendition="#fett">24,7</hi>die Kerls</label>
+<p>Mitglieder des Oberkonsistoriums und des Stadtrats (vgl. des Näheren die einleitenden Erläuterungen zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref> und <ref target="gb:note#gb10962_comment_com5157">Nr 17</ref> sowie die Erläuterung zu <ref target="gb:note#GB03_2_BR108_0_note_003_64_2-3">64,2-3</ref>).</p>
+
+</note>
+<note xml:id="gb10682_comment_com9779">
+<label xml:id="GB03_2_BR029_0_note_004_24_8" copyOf="#start_com_0385"><hi rendition="#fett">24,8</hi>so hast du den Ruf</label>
+<p>Am 1. Februar 1776 erhielt Herder das entsprechende Schreiben (vgl. zu <ref target="gb:note#GB03_2_BR029_0_note_010_24_17">24,17</ref>).</p>
+
+</note>
+<note xml:id="gb10682_comment_com9780">
+<label xml:id="GB03_2_BR029_0_note_005_24_8-9" copyOf="#start_com_0386"><hi rendition="#fett">24,8-9</hi>ein Pläzgen kehren</label>
+<p>Im Sinn von ‚die Bahn frei machen‘ (vgl. <ref target="gb:note#GB02_2_BR157_0_note_003_135_3">GB 2 II, zu 135,3</ref>).</p>
+
+</note>
+<note xml:id="gb10682_comment_com14147">
+<label xml:id="GB03_2_BR029_0_note_006_24_9-10" copyOf="#start_com_0387"><hi rendition="#fett">24,9-10</hi>Vielleicht bleib ich auch eine Zeitlang da.</label>
+<p>Goethe hatte seinen Aufenthalt in Weimar zunächst lediglich als Besuch geplant. An Merck hatte er jedoch schon am 22. Januar 1776 geschrieben, er werde <quote type="G">fast nicht wieder weg können</quote> (<ref target="gb:text#GB03_1_BR027_0_023_014">23,14</ref>). Mitte März 1776 fiel die endgültige Entscheidung (vgl. zu <ref target="gb:note#GB03_2_BR046_0_note_002_32_13">32,13</ref>).</p>
+
+</note>
+<note xml:id="gb10682_comment_com14925">
+<label xml:id="GB03_2_BR029_0_note_007_24_13" copyOf="#start_com_0388"><hi rendition="#fett">24,13</hi><emph rendition="#latin">bellus modus</emph></label>
+<p>Lat.: angemessene, schickliche Art und Weise.</p>
+
+</note>
+<note xml:id="gb10682_comment_com17515">
+<label xml:id="GB03_2_BR029_0_note_008_24_14-15" copyOf="#start_com_0389"><hi rendition="#fett">24,14-15</hi>Die Herzoginnen wünschen dich auch.</label>
+<p>Dass Herzoginmutter Anna Amalia und Herzogin Louise die Berufung Herders unterstützten, könnte damit zusammenhängen, dass sich Johann Caspar Lavater auf Nachfrage Goethes mit einem Brief vom 3. Januar 1776 für Herder eingesetzt hatte (teilweise abgedruckt in der Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_011_7_16-17">7,16-17</ref>). Diesen Brief hatte er – zur Verärgerung Goethes – an Herzogin Louise adressiert.</p>
+
+</note>
+<note xml:id="gb10682_comment_com9781">
+<label xml:id="GB03_2_BR029_0_note_009_24_16" copyOf="#start_com_0390"><hi rendition="#fett">24,16</hi><emph rendition="#latin">coups de baguette</emph></label>
+<p>Franz.: Stockschläge.</p>
+
+</note>
+<note xml:id="gb10682_comment_com17595">
+<label xml:id="GB03_2_BR029_0_note_010_24_17" copyOf="#start_com_0391"><hi rendition="#fett">24,17</hi>Vielleicht <gap quantity="3" reason="editorial"/> mit dieser Post schon.</label>
+<p>Mit einem Brief vom 24. Januar 1776 (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 74) übersandte der Präsident des Weimarer Oberkonsistoriums Carl Friedrich Ernst von Lyncker Abschriften eines (noch nicht mit Herders Namen versehenen) Berufungsdekrets und eines Ernennungsdekrets sowie eine Liste der künftigen Amtspflichten (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 75–77). Damit kam Lyncker dem in einem Reskript vom 23. Januar 1776 ausgesprochenen Auftrag des Herzogs Carl August nach, dem Adressaten mitzuteilen, er sei dem Herzog „wegen seiner Gelehrsamkeit und Stärke in der geistlichen Beredsamkeit, auch sonstigen guten Eigenschaften, ganz besonders angerühmet und empfohlen worden“ (<ref target="sndb:sigle#2397/618">Peucer</ref>, 54), und anzufragen, ob er einem Ruf auf die „Ober-Hofpredigers- Ober-Consistorial- und KirchenRaths-, auch GeneralSuperintendenten-Stelle“ (<ref target="sndb:sigle#3159">HN</ref>, XXXVII 74, 1) in Weimar folgen würde. Lynckers Schreiben, das formal noch keine offizielle Vokation darstellte, sondern nur eine Anfrage, hatte Herder am 1. Februar 1776 in Händen (vgl. <ref target="sndb:sigle#2397/618">Peucer</ref>, 53). Herder antwortete am 3. Februar 1776 auf diesen Ruf, den er als „Stimme Gottes“ (<ref target="sndb:sigle#2904">HB</ref> 3, 253) empfand: „<gap quantity="3" reason="editorial"/> so nehme ich den mir gnädigst angetragenen Ruf in tiefer Demuth und mit dem redlichsten eifrigsten Wunsche an, meinen Pflichten aufs beste nachkommen und in meinem Kreise von Geschäften, wie zum Bau des Reichs Gottes, so zum Glück des Landes Ihro Hochfürstlichen Durchlaucht und zur Zufriedenheit HöchstDero herzoglichen Hauses den Antheil beitragen zu können, der mein künftiger theurer Ruf ist.“ (Ebd.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

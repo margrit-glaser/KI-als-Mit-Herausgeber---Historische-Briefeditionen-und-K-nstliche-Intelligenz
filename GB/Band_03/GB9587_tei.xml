@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5470"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9587" n="GB 3, Nr. 537">
+  <teiHeader xml:id="gb9587_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>537.</label> An <persName key="sndb:person#41270">Christian Friedrich Schnauß</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77387">Bern</placeName>, 16. Oktober 1779. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9587_tei.xml</idno>
+        <idno type="URI">gb9587</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR537_0</idno>
+        <idno type="KSW-ID">9587</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="309" to="310">309-310</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1000" to="1003">1000-1003</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9587_header_hwit1528" corresp="#gb9587_source_hwit1528" sameAs="#gb9587_comment_hwit1528" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, 33</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9587,,1528/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Haben Sie viel Danck theuerster H. Collega für Ihren angenehmen Brief, ich erhielt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77387">Bern</placeName>
+            <date when="1779-10-16">16. Oktober 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#41270">Schnauß, Christian Friedrich</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9587_source_hwit1528" corresp="#gb9587_header_hwit1528" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9587/28807"/>
+      <p>
+        <anchor xml:id="GB03_1_BR537_0_309_013"/>Haben Sie viel Danck theuerster H<g ref="#typoSuspension"/>. <emph rendition="#latin">Collega</emph> für Ihren angenehmen 
+<anchor xml:id="GB03_1_BR537_0_309_014"/>
+        <ref target="gb:note#GB03_2_BR537_0_note_001_309_14" xml:id="start_com_4449"/>Brief<ref xml:id="end_com_4449"/>, ich erhielt ihn schon als wir <ref target="gb:note#GB03_2_BR537_0_note_002_309_14" xml:id="start_com_4450"/>das erstemal in Bern ankamen<ref xml:id="end_com_4450"/>. Seit 
+<anchor xml:id="GB03_1_BR537_0_309_015"/>der Zeit haben wir den<ptr n="1" target="#a001_309.15"/> Weeg durch die Eisgebürge des Cantons und 
+<anchor xml:id="GB03_1_BR537_0_309_016"/>was dran hängt gemacht. wir haben den <ref target="gb:note#GB03_2_BR537_0_note_003_309_16" xml:id="start_com_4451"/>Staubbach<ref xml:id="end_com_4451"/>, die <ref target="gb:note#GB03_2_BR537_0_note_004_309_16-17" xml:id="start_com_4452"/>Glätscher im 
+<anchor xml:id="GB03_1_BR537_0_309_017"/>Lauterbrunn und Grindelwald<ref xml:id="end_com_4452"/>, den <ref target="gb:note#GB03_2_BR537_0_note_005_309_17" xml:id="start_com_4453"/>Fall des Reichenbachs<ref xml:id="end_com_4453"/>, <ref target="gb:note#GB03_2_BR537_0_note_006_309_17" xml:id="start_com_4454"/>Meyringen<ref xml:id="end_com_4454"/>, 
+<anchor xml:id="GB03_1_BR537_0_309_018"/>das <ref target="gb:note#GB03_2_BR537_0_note_007_309_18" xml:id="start_com_4455"/>Thal nach der Grimsel bis Guthdannen<ref xml:id="end_com_4455"/>, den <ref target="gb:note#GB03_2_BR537_0_note_008_309_18-19" xml:id="start_com_4456"/>Brigenzer und Thuner 
+<anchor xml:id="GB03_1_BR537_0_309_019"/>See<ref xml:id="end_com_4456"/> pp bey dem schönsten Wetter mit allem Glück und zufriedenheit 
+<anchor xml:id="GB03_1_BR537_0_309_020"/>gesehen, und die Schönheit und Herrlichkeit dieser Gegenstände 
+<anchor xml:id="GB03_1_BR537_0_309_021"/>geht über alle Gedancken und Worte. Der Herzog ist sehr vergnügt 
+<anchor xml:id="GB03_1_BR537_0_309_022"/>dass es so auserordentlich geglückt<ptr n="2" target="#a002_309.22"/> hat.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR537_0_309_023"/>Leben Sie wohl behalten Sie mich lieb, grüsen Sie gute Freunde, 
+<anchor xml:id="GB03_1_BR537_0_309_024"/>und bleiben von meiner Treue überzeugt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR537_0_309_025"/>
+        <g ref="#NB"/> ich kan Sie<ptr n="3" target="#a003_309.25"/> versichern dass ich bey schönen Gegenständen offt 
+<anchor xml:id="GB03_1_BR537_0_309_026"/>an Sie gedacht habe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR537_0_309_027"/>Eben erhalt ich auch <ref target="gb:note#GB03_2_BR537_0_note_009_309_27" xml:id="start_com_4457"/>Ihr zweites nubiloses Schreiben<ref xml:id="end_com_4457"/>
+        <ref target="gb:note#GB03_2_BR537_0_note_010_309_27-28" xml:id="start_com_4458"/>weder in <emph rendition="#latin">materia
+<anchor xml:id="GB03_1_BR537_0_309_028"/>
+        </emph> noch <emph rendition="#latin">forma</emph>
+        <ref xml:id="end_com_4458"/> ist ienes Betragen gut und hübsch. Halten Sie Sich 
+<anchor xml:id="GB03_1_BR537_0_309_029"/>wacker, und lassen Sie bald wieder von Sich hören. Bern d<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR537_0_309_030"/>16 Oktbr. 1779.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR537_0_310_001"/>Wir schwäzzen hier den ganzen Tag mit den Bernern von ihrer 
+<anchor xml:id="GB03_1_BR537_0_310_002"/>
+        <ref target="gb:note#GB03_2_BR537_0_note_011_310_2" xml:id="start_com_4459"/>Regimentsform<ref xml:id="end_com_4459"/>. Der Herzog fragt brav aus und ist auf alles aufmercksam. 
+<anchor xml:id="GB03_1_BR537_0_310_003"/>Wir sehen auch was zu sehen ist.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR537_0_310_004"/>
+        <signed rend="paraph" rendition="#einrueck18">G</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9587/28808" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9587_comment">
+<body>
+<div type="metadata" xml:id="gb9587_comment_com1041">
+  <ab type="numberAddressee"><label>537.</label> An <persName key="sndb:person#41270">Christian Friedrich Schnauß</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77387">Bern</placeName>, 16. Oktober 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9587_comment_com3085">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: 33. – 1 Bl. 19,4 × 24,2 cm, 1 S. beschr., egh., Tinte; Rs. Spuren von Siegellack.</p>
+  <p>E: Jahrbuch der Sammlung Kippenberg 5 (1925), S. 5 f. (Max Hecker).</p>
+  <p><ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 51–52, Nr 854a.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9587_comment_com4881">
+  <p>Die Bezugsbriefe (vgl. <ref target="gb:text#GB03_1_BR537_0_309_013 #GB03_1_BR537_0_309_014">309,13–14</ref>; <ref target="gb:text#GB03_1_BR537_0_309_027">309,27</ref>) sind nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Christian Friedrich Schnauß (1722–1797) war der älteste Sohn des Eisenacher Regierungs- und Archivsekretärs Elias Friedrich Schnauß und dessen Frau Sabine Christine geb. Château. Nach dem Besuch des Gymnasiums in Eisenach von 1730 an und dem Studium der Jurisprudenz in Jena von 1740 bis 1743 begann er als Geheimer Kanzlist und Kabinettsekretär des Herzogs Ernst August I. von Sachsen-Weimar und Eisenach eine Beamtenkarriere, in deren Verlauf er verschiedene Funktionen sowohl in Eisenach als auch in Weimar ausübte. 1748 zunächst Regierungssekretär in seiner Vaterstadt, wurde er 1756 Rat und Geheimer Sekretär in Weimar, 1759 wiederum Regierungsassessor in Eisenach sowie 1763 Regierungsrat. 1772 erhielt er das Angebot der Stelle eines Geheimen Assistenzrats mit Sitz und Stimme im Geheimen Consilium in Weimar, die er annahm – nach Beratungen „mit Gott und meiner Frau“ (Schnauß in seiner Selbstbiographie, in: Carl von Beaulieu-Marconnay: Ein weimarischer Beamter des achtzehnten Jahrhunderts. In: Zeitschrift für deutsche Kulturgeschichte. N. F. 4 [1875], S. 655–702; hier S. 675). Am 5. September 1779, kurz vor dem Aufbruch zur Schweizer Reise, ernannte ihn Herzog Carl August zum Geheimen Rat. Als Schnauß 1793 Dienstjubiläum feierte, schrieb ihm sein Dienstherr: „Ihre 50jährige Dienstzeit, welche Sie bald feiern werden, erinnert mich an die vielen und mancherlei Vortheile, welche Ihr Eifer und Ihre Kenntnisse in diesem Zeitpunkt Meinem Hauß verschafft haben, und es wird mir eine angenehme Pflicht sein, mich Ihnen dafür erkenntlich zu bezeigen, und ich werde bei jeder Gelegenheit Ihrer Familie thätlich zeigen, wie sehr ich Sie, mein werthester Geheimer Rath, hochschätze.“ (Ebd., S. 697 f.) Aus der Autobiographie ergibt sich das Bild eines fleißigen, zuverlässigen Beamten und guten Familienvaters, der den Lauf der Zeit stets und ausschließlich unter dem Blickwinkel der eisenachischen und weimarischen Verhältnisse betrachtete. Weltereignisse wie die Französische Revolution und deren Folgen, auch die politische und kulturelle Entwicklung Weimars unter Anna Amalia und Carl August finden keine Erwähnung, wohl aber die genaue Anzahl der Gäste bei Familienfesten, deren genauer Ablauf und die Kosten für Tafelschmuck und Wein. Auch die Preise für Lebensmittel in verschiedenen Kriegs- und Winterzeiten werden akribisch mitgeteilt. Über seine Hochzeit mit seiner ersten Frau Christiane Sophie Kraußold im Jahr 1748 berichtet Schnauß: „Meiner Braut habe ich keinen Schmuck oder Ring geschenkt; dagegen aber 40 Ellen französischen Stoff, weißer Grund mit lebendigen Blumen à 3 rt die Elle, und 20 Ellen Spitzen à 3 rt die Elle.“ (Ebd., S. 663.) Außerhalb seiner amtlichen und familiären Belange interessierte sich Schnauß für Gärten und Blumen, die er selbst zog, sowie als dilettierender Zeichner für bildende Kunst, für deren Förderung in Weimar er als Oberaufseher des von Georg Melchior Kraus geführten Zeicheninstituts tätig war.</p>
+  <p rendition="#einrueck1">Auch über Goethes Eintritt in Weimar sowie das Aufsehen und die Probleme, die er verursachte, äußert Schnauß sich nicht, obwohl er in die Auseinandersetzungen verwickelt war, die um den von Jacob Friedrich von Fritsch angekündigten Rückzug aus seinen Ämtern als Reaktion auf die Berufung Goethes ins Geheime Consilium im Frühjahr 1776 geführt wurden: Auf Bitte Fritschs schrieb Schnauß ein Votum (vgl. <ref target="sndb:sigle#60">Beaulieu-Marconnay</ref>, 174–177), in welchem er sich sowohl für Goethes Sitz im Geheimen Consilium als auch für Fritschs Verbleiben im Amt aussprach. Sein eigenes Verhältnis zu Goethe war stets ein freundschaftlich-kollegiales; Goethe gehörte regelmäßig zu den Gästen bei Hochzeiten und Taufen im Hause Schnauß, worüber dieser in seiner Lebensbeschreibung genaue Auskunft gibt (vgl. Beaulieu-Marconnay: Ein weimarischer Beamter, S. 682, 685, 686). Auch Goethe berichtet davon im Brief an Charlotte von Stein vom 23. August 1782 (vgl. <ref target="gb:dokument#13309">GB 5, Nr 225</ref>) sowie im Tagebuch (unter dem 4. September 1780 [vgl. <ref target="gt:dokument#911">GT I 1, 115</ref>] und dem 28. Januar 1782 [vgl. <ref target="gt:dokument#1025">GT I 1, 132</ref>]). Letzteres verzeichnet darüber hinaus eine Vielzahl von Begegnungen und Beratungen über amtliche Fragen. Goethe seinerseits verband mit dem geschätzten Kollegen, wie aus den wenigen überlieferten Briefen an ihn hervorgeht, eine vertrauensvolle Zusammenarbeit; als dieser gestorben war, schrieb er am 9. Dezember 1797 an Schiller: <quote type="G">Unser guter alter College Schnauß hat sich denn endlich auch davon gemacht.</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 12, 374.)</p>
+  <p rendition="#einrueck1">Von Goethe sind insgesamt 15 Briefe an Schnauß aus der Zeit von 1779 bis 1796 überliefert, die meisten davon amtlichen Charakters; dies gilt ebenso für die vier überlieferten Briefe von Schnauß an Goethe aus den Jahren 1793 bis 1796.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9587_comment_com14702">
+<label xml:id="GB03_2_BR537_0_note_001_309_14" copyOf="#start_com_4449"><hi rendition="#fett">309,14</hi>Brief</label>
+<p>Nicht überliefert.</p>
+
+</note>
+<note xml:id="gb9587_comment_com16179">
+<label xml:id="GB03_2_BR537_0_note_002_309_14" copyOf="#start_com_4450"><hi rendition="#fett">309,14</hi>das erstemal in Bern ankamen</label>
+<p>Erstmals berührte die Reisegruppe Bern am 7. und 8. Oktober 1779 (vgl. die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>). Nun hielt sich Goethe vom 15. bis zum 20. Oktober in der Stadt auf.</p>
+
+</note>
+<note xml:id="gb9587_comment_com7592">
+<label xml:id="GB03_2_BR537_0_note_003_309_16" copyOf="#start_com_4451"><hi rendition="#fett">309,16</hi>Staubbach</label>
+<p>Wasserfall bei Lauterbrunnen im Berner Oberland (vgl. zu <ref target="gb:note#GB03_2_BR536_0_note_003_305_19">305,19</ref>).</p>
+
+</note>
+<note xml:id="gb9587_comment_com16788">
+<label xml:id="GB03_2_BR537_0_note_004_309_16-17" copyOf="#start_com_4452"><hi rendition="#fett">309,16-17</hi>Glätscher im Lauterbrunn und Grindelwald</label>
+<p>Lauterbrunnen, Ort im Lauterbrunnental im Kanton Bern (vgl. Goethes in Lauterbrunnen geschriebenen Brief an Charlotte von Stein vom 9. Oktober 1779 [<ref target="gb:dokument#12030">Nr 536</ref>]). – Grindelwald, Ort im Berner Oberland, zwischen Eiger, Wetterhorn und Faulhorn gelegen. Die bekanntesten und meistbesuchten Gletscher, der Untere und Obere Grindelwaldgletscher, die von der Reisegruppe ebenfalls bestiegen wurden, reichten zur Zeit Goethes noch bis an das Dorf heran.</p>
+
+</note>
+<note xml:id="gb9587_comment_com14704">
+<label xml:id="GB03_2_BR537_0_note_005_309_17" copyOf="#start_com_4453"><hi rendition="#fett">309,17</hi>Fall des Reichenbachs</label>
+<p>300 m hohe Kaskade von sieben Wasserfällen bei Schattenhalb in der Nähe von Meiringen im Kanton Bern. Der oberste der Reichenbachfälle hat eine Sturzhöhe von 120 m auf einer Breite von 40 m.</p>
+
+</note>
+<note xml:id="gb9587_comment_com7603">
+<label xml:id="GB03_2_BR537_0_note_006_309_17" copyOf="#start_com_4454"><hi rendition="#fett">309,17</hi>Meyringen</label>
+<p>Meiringen, Gemeinde am Oberlauf der Aare im östlichen Berner Oberland. – Von Grindelwald erreichte die Reisegruppe über den Pass der Großen Scheidegg das Haslital und stieg dann nach Meiringen ab (vgl. zur Route auch <ref target="gb:text#GB03_1_BR540_0_320_026 #GB03_1_BR540_0_321_001">320,26–321,1</ref>).</p>
+
+</note>
+<note xml:id="gb9587_comment_com16802">
+<label xml:id="GB03_2_BR537_0_note_007_309_18" copyOf="#start_com_4455"><hi rendition="#fett">309,18</hi>Thal nach der Grimsel bis Guthdannen</label>
+<p>Das Haslital im Berner Oberland, durch das die hinter Meiringen bei Innertkirchen beginnende Passstraße führt, die den Kanton Bern mit dem Kanton Wallis verbindet. Höchster Punkt ist der in 2165 m Höhe gelegene Grimselpass auf der europäischen Wasserscheide von Nordsee und Mittelmeer. Der Ort Guttannen liegt an dieser Straße auf 1060 m Höhe etwa 17 km hinter dem Grimselpass (vgl. die Schilderung im Brief an Johann Heinrich Merck vom 17./19. Oktober 1779 [<ref target="gb:text#GB03_1_BR540_0_320_026 #GB03_1_BR540_0_321_003">320,26–321,3</ref>]).</p>
+
+</note>
+<note xml:id="gb9587_comment_com16062">
+<label xml:id="GB03_2_BR537_0_note_008_309_18-19" copyOf="#start_com_4456"><hi rendition="#fett">309,18-19</hi>Brigenzer und Thuner See</label>
+<p>Der Brienzer See, ein 14 km langer und 2,8 km breiter Alpenrandsee im Kanton Bern, wird von der Aare durchflossen. Der Thuner See, 17,5 km lang und bis zu 3,5 km breit, liegt nur wenige Kilometer westlich des Brienzer Sees. Die von dort kommende Aare bildet im Südosten den Zufluss und im Norden bei Thun den Abfluss des Thuner Sees. In der Schwemmebene zwischen Brienzer und Thuner See liegt Interlaken, wo das Tal der Lütschine beginnt, das sich nach etwa 6 km in die Täler von Lauterbrunnen und Grindelwald verzweigt (vgl. die Schilderung im Brief an Johann Heinrich Merck, 17./19. Oktober 1779 [<ref target="gb:text#GB03_1_BR540_0_321_003 #GB03_1_BR540_0_321_004">321,3–4</ref>]).</p>
+
+</note>
+<note xml:id="gb9587_comment_com7604">
+<label xml:id="GB03_2_BR537_0_note_009_309_27" copyOf="#start_com_4457"><hi rendition="#fett">309,27</hi>Ihr zweites nubiloses Schreiben</label>
+<p>Der Brief ist nicht überliefert. – Nubilos (von lat. nubilosus): düster, finster.</p>
+
+</note>
+<note xml:id="gb9587_comment_com7605">
+<label xml:id="GB03_2_BR537_0_note_010_309_27-28" copyOf="#start_com_4458"><hi rendition="#fett">309,27-28</hi>weder in <emph rendition="#latin">materia</emph> noch <emph rendition="#latin">forma</emph></label>
+<p>Lat./dt.: weder nach Inhalt noch Form.</p>
+
+</note>
+<note xml:id="gb9587_comment_com7606">
+<label xml:id="GB03_2_BR537_0_note_011_310_2" copyOf="#start_com_4459"><hi rendition="#fett">310,2</hi>Regimentsform</label>
+<p>Verfassung, Regierungsform. – Bern, heute Bundesstadt (de jure Hauptstadt) der Schweiz, war seit 1218 freie Reichsstadt, die 1353 der Eidgenossenschaft beitrat, seit 1536 größter Stadtstaat nördlich der Alpen. Im Westfälischen Frieden 1648 erlangte Bern die volle Souveränität und löste sich endgültig vom Heiligen Römischen Reich Deutscher Nation. Die Verfassung der Stadtrepublik Bern blieb seit dem 13. Jahrhundert weitgehend unverändert. An der Spitze stand ein regierender Schultheiß. Ursprünglich wurde der Schultheiß von der Stadtgemeinde gewählt. Diese Wahlbefugnis ging 1294 an den Großen Rat, einen Bürgerausschuss von 200 Mitgliedern, über. Die Zweihundert wählten auch den Kleinen Rat, der wiederum gemeinsam mit dem Sechzehner-Ausschuss die Mitglieder des Großen Rats bestimmte. Die Sechzehner, je vier aus jedem der vier Stadtviertel, wurden von deren Vorstehern, den Vennern, ernannt. Diese wiederum mussten vom Rat der Zweihundert aus den vier Gesellschaften der Pfister (Bäcker), Gerber, Metzger und Schmiede rekrutiert werden. Der Kleine Rat bestand aus den zwei Schultheißen, die einander jährlich in der Amtsführung abwechselten, zwei Seckelmeistern (Kämmerern), den vier Vennern, 17 Ratsherren und zwei besonderen Vertretern des Großen Rats, den so genannten Heimlichern. Die verschiedenen Gremien bestätigten sich also gegenseitig, so dass die Stadtämter faktisch nur aus deren Mitgliederkreis besetzt wurden. Seit 1680 galten nur noch diejenigen 360 Familien als ‚regimentsfähig‛, die vor 1643 Bürger geworden und im „Roten Buch“ der Stadt Bern verzeichnet waren. Von diesen ‚regimentsfähigen‛ Familien waren aber nur 80 wirklich ‚regierende‛ und bildeten das Berner Patriziat. Die Berner Stadtrepublik wurde mithin von einigen wenigen Patrizierfamilien oligarchisch regiert. Diese verwalteten auch die 62 Landvogteien des Kantons Bern, die auf jeweils sechs Jahre vergeben wurden. Nach Errichtung der Helvetischen Republik (1798) und der so genannten Mediationszeit (seit 1803), in der das politische System der Schweiz maßgeblich vom Einfluss Frankreichs bestimmt war, wurde 1815 die Herrschaft des Patriziats in Bern wiederhergestellt und endete endgültig erst 1831. Verfassung und Verwaltung der Berner Stadtrepublik galten im 18. Jahrhundert als vorbildlich.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

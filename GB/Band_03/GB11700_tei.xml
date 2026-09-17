@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11700" n="GB 3, Nr. 373">
+  <teiHeader xml:id="gb11700_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>373.</label> An <persName key="sndb:person#44718">Friederike Oeser</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 15. Juni 1778. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:19Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11700_tei.xml</idno>
+        <idno type="URI">gb11700</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR373_0</idno>
+        <idno type="KSW-ID">11700</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="215" to="215">215</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="736" to="737">736-737</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11700_header_hwit1365" corresp="#gb11700_source_hwit1365" sameAs="#gb11700_comment_hwit1365" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 103</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11700,,1365/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Beyliegenden Brief an Ihren Herrn Vater schlies ich an Sie ein um die drinn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-06-15">15. Juni 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44718">Oeser, Friederike</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11700_source_hwit1365" corresp="#gb11700_header_hwit1365" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11700/13929"/>
+      <p>
+        <anchor xml:id="GB03_1_BR373_0_215_001"/><ref target="gb:note#GB03_2_BR373_0_note_001_215_1" xml:id="start_com_3263"/>Beyliegenden Brief an Ihren H<g ref="#typoSuspension"/>. Vater<ref xml:id="end_com_3263"/> schlies ich an Sie ein um die 
+<anchor xml:id="GB03_1_BR373_0_215_002"/><ref target="gb:note#GB03_2_BR373_0_note_002_215_2" xml:id="start_com_3264"/>drinn enthaltne Bitten<ref xml:id="end_com_3264"/> Ihrer Vorsorge zu empfelen. <ref target="gb:note#GB03_2_BR373_0_note_003_215_2-3" xml:id="start_com_3265"/>Da Ihnen die Feder 
+<anchor xml:id="GB03_1_BR373_0_215_003"/>so geläufig ist wie das Mäulgen<ref xml:id="end_com_3265"/>, so sind sie wohl so gut und antworten 
+<anchor xml:id="GB03_1_BR373_0_215_004"/>mir bald. Die <ref target="gb:note#GB03_2_BR373_0_note_004_215_4-5" xml:id="start_com_3266"/>Herzoginn Mutter ist Sonnabends von Ilmenau 
+<anchor xml:id="GB03_1_BR373_0_215_005"/>weg um eine kleine Tour ins Bad<ref xml:id="end_com_3266"/> zu machen. Leben Sie wohl. Grüsen 
+<anchor xml:id="GB03_1_BR373_0_215_006"/><ref target="gb:note#GB03_2_BR373_0_note_005_215_6" xml:id="start_com_3267"/>die Mama<ref xml:id="end_com_3267"/> und <ref target="gb:note#GB03_2_BR373_0_note_006_215_6" xml:id="start_com_3268"/>den kleinen Sausewind<ref xml:id="end_com_3268"/>.</p>
+      <closer>
+        <dateline rendition="#einrueck9">
+          <anchor xml:id="GB03_1_BR373_0_215_007"/>d<g ref="#typoSuspension"/>. 15 Jun. 78.     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11700/13930" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11700/13931" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11700/13932"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11700_comment">
+<body>
+<div type="metadata" xml:id="gb11700_comment_com594">
+  <ab type="numberAddressee"><label>373.</label> An <persName key="sndb:person#44718">Friederike Oeser</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 15. Juni 1778 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11700_comment_com2638">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 103. – Doppelblatt 17,2 × 20,7(–20,9) cm, &#x2154; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Mademoiselle / Fridrike Oeser / nach / Leipzig / fr.</quote>, Siegelausschnitt. – Beischluss: <ref target="gb:dokument#11698">Nr 372</ref> (vgl. <ref target="gb:text#GB03_1_BR373_0_215_001">215,1</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2880">Goethe’s Briefe an Leipziger Freunde<hi rendition="#sup">2</hi></ref> (1867), 211, Nr 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1788), 230 f., Nr 714.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11700_comment_com4434">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Friederike Elisabeth Oeser (1748–1829) war die älteste Tochter Adam Friedrich Oesers. Goethe hatte sie im Herbst 1766 in Leipzig kennen gelernt. Der vorliegende Brief ist der letzte von vier überlieferten Briefen Goethes an Friederike. Von der Adressatin ist nur ein Briefkonzept an Goethe vom 16. November 1776 überliefert, in dem sie ihm zur Ernennung zum Legationsrat gratuliert und hofft, bald nach Weimar reisen zu können (vgl. <ref target="ra:dokument#83">RA 1, 68, Nr 76</ref>). Persönliche Begegnungen werden während Goethes wiederholten Reisen nach Leipzig stattgefunden haben, da Friederike Oeser im Haus der Eltern lebte. – Über Goethes Beziehung zu Friederike Oeser vgl. die einleitende Erläuterung zum Brief vom 6. November 1768 (<ref target="gb:note#gb11649_comment_com22609">GB 1 II, Nr 48</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11700_comment_com11314">
+<label xml:id="GB03_2_BR373_0_note_001_215_1" copyOf="#start_com_3263"><hi rendition="#fett">215,1</hi>Beyliegenden Brief an Ihren H<g ref="#typoSuspension"/>. Vater</label>
+<p>Brief <ref target="gb:dokument#11698">Nr 372</ref> an Adam Friedrich Oeser.</p>
+
+</note>
+<note xml:id="gb11700_comment_com15189">
+<label xml:id="GB03_2_BR373_0_note_002_215_2" copyOf="#start_com_3264"><hi rendition="#fett">215,2</hi>drinn enthaltne Bitten</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR372_0_214_014">214,14</ref> und <ref target="gb:text#GB03_1_BR372_0_214_018 #GB03_1_BR372_0_214_019">214,18–19</ref>.</p>
+
+</note>
+<note xml:id="gb11700_comment_com16047">
+<label xml:id="GB03_2_BR373_0_note_003_215_2-3" copyOf="#start_com_3265"><hi rendition="#fett">215,2-3</hi>Da Ihnen die Feder so geläufig ist wie das Mäulgen</label>
+<p>Friederike Oeser führte u. a. die Korrespondenz ihres Vaters und bildete den Mittelpunkt der Geselligkeit vor allem auf dem Landgut der Familie (vgl. <ref target="gb:note#GB01_2_BR048_0_note_025_142_14">GB 1 II, zu 142,14</ref>). Ihren Witz thematisierte Goethe schon in früheren Briefen (vgl. <ref target="gb:text#GB01_1_BR048_0_140_025 #GB01_1_BR048_0_140_029">GB 1 I, 140,25–29</ref>; <ref target="gb:text#GB01_1_BR048_0_141_011 #GB01_1_BR048_0_141_018">141,11–18</ref>; <ref target="gb:text#GB01_1_BR058_0_170_007 #GB01_1_BR058_0_170_011">170,7–11</ref>).</p>
+
+</note>
+<note xml:id="gb11700_comment_com17977">
+<label xml:id="GB03_2_BR373_0_note_004_215_4-5" copyOf="#start_com_3266"><hi rendition="#fett">215,4-5</hi>Herzoginn Mutter <gap quantity="3" reason="editorial"/> ins Bad</label>
+<p>Anna Amalia war am 13. Juni 1778 von Ilmenau aus zu einer Rhein-Reise aufgebrochen (vgl. <ref target="gb:text#GB03_1_BR372_0_214_011 #GB03_1_BR372_0_214_012">214,11–12</ref>). In Begleitung ihrer Gesellschafterin Louise von Göchhausen, der Hofdame Gottlobe Sophie Charlotte von Stein (einer Schwester Josias von Steins), des Kammerherrn Friedrich Hildebrand von Einsiedel und des Malers Georg Melchior Kraus reiste sie nicht wie angenommen zur Kur, sondern zu einer ‚Bildungsreise‘ in die Rhein-Main-Gegenden, und zwar über Kassel und Frankfurt nach Düsseldorf (vgl. <ref target="sndb:sigle#2095">Berger, Anna Amalia</ref>, 542–544). In Frankfurt schloss sich Johann Heinrich Merck der Gesellschaft an (vgl. <ref target="gb:text#GB03_1_BR388_0_219_017 #GB03_1_BR388_0_219_020">219,17–20</ref>; zu <ref target="gb:note#GB03_2_BR387_0_note_001_219_7-8">219,7-8</ref>).</p>
+
+</note>
+<note xml:id="gb11700_comment_com15203">
+<label xml:id="GB03_2_BR373_0_note_005_215_6" copyOf="#start_com_3267"><hi rendition="#fett">215,6</hi>die Mama</label>
+<p>Rosine Elisabeth Oeser geb. Hohburg.</p>
+
+</note>
+<note xml:id="gb11700_comment_com11327">
+<label xml:id="GB03_2_BR373_0_note_006_215_6" copyOf="#start_com_3268"><hi rendition="#fett">215,6</hi>den kleinen Sausewind</label>
+<p>Möglicherweise mit Bezug auf Oesers jüngere Tochter Wilhelmine (geb. 1755), die Goethe als Kind kennen gelernt hatte und die um 1778 noch im Elternhaus lebte.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

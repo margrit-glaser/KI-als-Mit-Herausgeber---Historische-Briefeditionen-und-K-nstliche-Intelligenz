@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3240"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11784" n="GB 3, Nr. 315">
+  <teiHeader xml:id="gb11784_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>315.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 30. Dezember 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:19Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11784_tei.xml</idno>
+        <idno type="URI">gb11784</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR315_0</idno>
+        <idno type="KSW-ID">11784</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="188" to="188">188</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="638" to="640">638-640</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11784_header_hwit1291" corresp="#gb11784_source_hwit1291" sameAs="#gb11784_comment_hwit1291" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 67</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11784,,1291/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Eine Blume schick ich Ihnen die ich im Ausritt vom Harze,    unter dem Schnee</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11784_header_acc496" corresp="gb11784_comment_acc496">
+            <objectIdentifier>
+              <objectName>Pflanze </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11784_header_acc582" corresp="gb11784_comment_acc582">
+            <objectIdentifier>
+              <objectName><quote type="G">Zeichnungen</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11784_header_acc583" corresp="gb11784_comment_acc583">
+            <objectIdentifier>
+              <objectName><quote type="G">Ente</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-12-30">30. Dezember 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11784_source_hwit1291" corresp="#gb11784_header_hwit1291" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11784/22765"/>
+      <p>
+        <anchor xml:id="GB03_1_BR315_0_188_001"/>Eine <ref target="gb:note#GB03_2_BR315_0_note_001_188_1" xml:id="start_com_2881"/>Blume<ref xml:id="end_com_2881"/> schick ich Ihnen die ich <ref target="gb:note#GB03_2_BR315_0_note_002_188_1" xml:id="start_com_2882"/>im Ausritt vom Harze<ref xml:id="end_com_2882"/>, unter dem 
+<anchor xml:id="GB03_1_BR315_0_188_002"/>Schnee aus einem Felsen für Sie gebrochen habe, es <ref target="gb:note#GB03_2_BR315_0_note_003_188_2" xml:id="start_com_2883"/>war beylage<ref xml:id="end_com_2883"/> zum 
+<anchor xml:id="GB03_1_BR315_0_188_003"/>
+        <ref target="gb:note#GB03_2_BR315_0_note_004_188_3" xml:id="start_com_2884"/>Brief der verlohren<ptr n="1" target="#a001_188.3"/> ist<ref xml:id="end_com_2884"/>. Auch einige <ref target="gb:note#GB03_2_BR315_0_note_005_188_3" xml:id="start_com_2885"/>angefangne Zeichnungen<ref xml:id="end_com_2885"/>, auch 
+<anchor xml:id="GB03_1_BR315_0_188_004"/>eine <ref target="gb:note#GB03_2_BR315_0_note_006_188_4" xml:id="start_com_2886"/>Ente<ref xml:id="end_com_2886"/>, und bitte Sie um <ref target="gb:note#GB03_2_BR315_0_note_007_188_4" xml:id="start_com_2887"/>meine Gedichte<ref xml:id="end_com_2887"/> dass ich <ref target="gb:note#GB03_2_BR315_0_note_008_188_4" xml:id="start_com_2888"/>was einschreiben<ref xml:id="end_com_2888"/>
+        <anchor xml:id="GB03_1_BR315_0_188_005"/>kan. Ich bin still <ref target="gb:note#GB03_2_BR315_0_note_009_188_5" xml:id="start_com_2889"/>in meiner Hütte<ref xml:id="end_com_2889"/>. <ref target="gb:note#GB03_2_BR315_0_note_010_188_5-6" xml:id="start_com_2890"/>heut Abend sehn sie mich in dem 
+<anchor xml:id="GB03_1_BR315_0_188_006"/>Leichtsin der Representation.<ref xml:id="end_com_2890"/>    Addio beste.   d<g ref="#typoSuspension"/>. 30 Dez 77.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR315_0_188_007"/>
+        <signed rend="paraph" rendition="#einrueck14">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11784_comment">
+<body>
+<div type="metadata" xml:id="gb11784_comment_com77">
+  <ab type="numberAddressee"><label>315.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 30. Dezember 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11784_comment_com2121">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 67. – 1 Bl. 21(–21,2) × 7,4(–7,6) cm, &#xBE; S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „58“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 63), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 143.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 204, Nr 659.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11784_comment_com3453">
+  <p>1) Pflanze (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR315_0_note_001_188_1">188,1</ref>).</p>
+  <p>2) <quote type="G">Zeichnungen</quote> (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR315_0_note_005_188_3">188,3</ref>).</p>
+  <p>3) <quote type="G">Ente</quote> (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR315_0_note_006_188_4">188,4</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11784_comment_com3917">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11784_comment_com18007">
+<label xml:id="GB03_2_BR315_0_note_001_188_1" copyOf="#start_com_2881"><hi rendition="#fett">188,1</hi>Blume</label>
+<p>Goethe könnte eine im Winter blühende Pflanze, z. B. eine Schnee- oder Christrose, überschickt haben, deren Blütezeit je nach Schnee- und Höhenlage schon im November beginnen kann. – Die genauen Angaben zum Fundort sprechen dafür, dass es sich bei der ‚Blume‘ tatsächlich um eine Pflanze gehandelt hat. Daher ist es wenig wahrscheinlich, dass hier auf das im Folgenden erwähnte Gedicht angespielt wird, wie Wahle vermutet (vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 516, Anm. 6 zu S. 103).</p>
+
+</note>
+<note xml:id="gb11784_comment_com11261">
+<label xml:id="GB03_2_BR315_0_note_002_188_1" copyOf="#start_com_2882"><hi rendition="#fett">188,1</hi>im Ausritt vom Harze</label>
+<p>Am 13. Dezember ritt Goethe von Sankt Andreasberg nach Duderstadt (vgl. <ref target="gb:text#GB03_1_BR312_0_187_006 #GB03_1_BR312_0_187_009">187,6–9</ref>), von wo aus er mit der Kutsche weiterreiste.</p>
+
+</note>
+<note xml:id="gb11784_comment_com11262">
+<label xml:id="GB03_2_BR315_0_note_003_188_2" copyOf="#start_com_2883"><hi rendition="#fett">188,2</hi>war beylage</label>
+<p>Weshalb sich die ‚Beilage‘ zu einem verloren gegangenen Brief erhalten hat, kann nur vermutet werden; möglicherweise hatte Goethe nur die Absicht, die ‚Blume‘ mit dem früheren Brief zu versenden, es dann aber doch unterlassen, oder er hatte ein weiteres Exemplar der Pflanze mitgenommen, das er nun der Freundin überschickte.</p>
+
+</note>
+<note xml:id="gb11784_comment_com11263">
+<label xml:id="GB03_2_BR315_0_note_004_188_3" copyOf="#start_com_2884"><hi rendition="#fett">188,3</hi>Brief der verlohren ist</label>
+<p>Dieser nicht überlieferte Brief könnte vom 13. Dezember stammen, als Goethe den Harz verließ (vgl. <ref target="gb:dokument#52606">EB 176</ref>). Der vorhergehende Brief <ref target="gb:dokument#10661">Nr 311</ref> vom 7. bis 11. Dezember wurde wahrscheinlich am Morgen des 12. aus Clausthal, der Tagebuchbrief <ref target="gb:dokument#11808">Nr 312</ref> frühestens am 15. Dezember aus Eisenach abgeschickt.</p>
+
+</note>
+<note xml:id="gb11784_comment_com11278">
+<label xml:id="GB03_2_BR315_0_note_005_188_3" copyOf="#start_com_2885"><hi rendition="#fett">188,3</hi>angefangne Zeichnungen</label>
+<p>Möglicherweise Zeichnungen von der Harzreise (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_047_184_23-24">184,23-24</ref>). Aus dem Winter 1777/78 stammen außerdem die Zeichnungen „Floßbrücke im Weimarer Park“, auf deren Rückseite sich eine Skizze vermutlich mit einem Goslarer Motiv erhalten hat, sowie „Winterliche Mondnacht am Schwansee“ (<ref target="sndb:sigle#1248">Corpus</ref> I, 75, Nr 192 und 193). Hinweise, dass sie sich im Nachlass Charlotte von Steins befanden, gibt es allerdings nicht. Nicht genau zu datieren ist eine Zeichnung der „Floßbrücke (Naturbrücke) im Weimarer Park“ mit dem Gartenhaus links im Hintergrund sowie zwei Figuren, bei denen es sich um Goethe und Friedrich von Stein handeln könnte (<ref target="sndb:sigle#1248">Corpus</ref> I, 75 f., Nr 195). Sie stammt möglicherweise ebenfalls aus dem Winter 1777/78 und befand sich ganz sicher im Besitz Charlotte von Steins, da Goethe sie am 18. November 1782 von ihr zurück erbat (vgl. <ref target="gb:dokument#13366">GB 5, Nr 286</ref>).</p>
+
+</note>
+<note xml:id="gb11784_comment_com15174">
+<label xml:id="GB03_2_BR315_0_note_006_188_4" copyOf="#start_com_2886"><hi rendition="#fett">188,4</hi>Ente</label>
+<p>Hier offenbar ein zum Essen bestimmtes bereits geschlachtetes oder erlegtes Tier (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 120). An diesem Tag aß Goethe bei Charlotte von Stein zu Mittag (vgl. <ref target="gt:dokument#501">GT I 1, 55</ref>).</p>
+
+</note>
+<note xml:id="gb11784_comment_com13915">
+<label xml:id="GB03_2_BR315_0_note_007_188_4" copyOf="#start_com_2887"><hi rendition="#fett">188,4</hi>meine Gedichte</label>
+<p>Wahrscheinlich die von Goethe für Charlotte von Stein angelegte Sammlung mit eigenhändigen Gedichtreinschriften, die so genannte „Erste Weimarer Gedichtsammlung“ (<ref target="archivdb:dokument#349327">GSA 25/W 18</ref>). Sie enthält auf 23 Blättern, die offenbar später gebunden und mit einem Umschlag versehen wurden, insgesamt 27 Gedichte (in der <ref target="sndb:sigle#1157">WA</ref> unter der Sigle H<hi rendition="#sup">2</hi>; vgl. <ref target="sndb:sigle#1157">WA</ref> I 2, 298; zum Inhalt im Einzelnen vgl. <ref target="sndb:sigle#2937">Inventare</ref> 2 I, 27 f.). Wie aus dem Folgenden hervorgeht, lag die Sammlung damals noch nicht in der heute überlieferten Form vor, sondern wurde ergänzt, war also frühestens Anfang 1778 abgeschlossen. Karl Eibl vermutet, dass es noch eine ältere handschriftliche Sammlung mit Gedichten gegeben hat, auf der sowohl eine nicht mehr erhaltene Abschrift Charlotte von Steins wie auch die im GSA überlieferte „Erste Weimarer Gedichtsammlung“ beruhen (vgl. Karl Eibl: Die Erste Weimarer Gedichtsammlung. In: <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 1, 155–158).</p>
+
+</note>
+<note xml:id="gb11784_comment_com18014">
+<label xml:id="GB03_2_BR315_0_note_008_188_4" copyOf="#start_com_2888"><hi rendition="#fett">188,4</hi>was einschreiben</label>
+<p>Wahrscheinlich das kurz zuvor entstandene Gedicht „Auf dem Harz im Dezember. 1778 <supplied>recte 1777</supplied>“ (später „Harzreise im Winter“; vgl. Beilage zu <ref target="gb:dokument#11894">Nr 388</ref>). Es fehlt zwar heute in der „Ersten Weimarer Gedichtsammlung“ für Charlotte von Stein. Dafür, dass es sich ursprünglich darin befunden hat, spricht aber der Umstand, dass es in einer von Charlotte von Stein angelegten, jedoch nicht mehr überlieferten Abschrift der Gedichtsammlung enthalten war. Diese Abschrift lag Heinrich Düntzer 1877 noch vor (vgl. Heinrich Düntzer: Die handschriftliche Sammlung Goethescher Gedichte von Charlotte von Stein. In: <ref target="sndb:sigle#26">AfL</ref> 6 [1877], 96–110; bes. 98 f.). Möglicherweise stand das Gedicht auf dem herausgetrennten ersten Blatt der Sammlung oder lag ihr nur lose bei (vgl. <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 16 f.).</p>
+
+</note>
+<note xml:id="gb11784_comment_com11291">
+<label xml:id="GB03_2_BR315_0_note_009_188_5" copyOf="#start_com_2889"><hi rendition="#fett">188,5</hi>in meiner Hütte</label>
+<p>Wohl im Gartenhaus, das Goethe winterfest gemacht hatte (vgl. zu <ref target="gb:note#GB03_2_BR185_0_note_003_116_24">116,24</ref>).</p>
+
+</note>
+<note xml:id="gb11784_comment_com17969">
+<label xml:id="GB03_2_BR315_0_note_010_188_5-6" copyOf="#start_com_2890"><hi rendition="#fett">188,5-6</hi>heut Abend <gap quantity="3" reason="editorial"/> in dem Leichtsin der Representation.</label>
+<p>Anspielung auf Goethes Rolle als ‚verhinderter Ehebrecher‛ Alcest in den „Mitschuldigen“, die am 30. Dezember 1777 vom Liebhabertheater aufgeführt wurden (vgl. <ref target="gt:dokument#501">GT I 1, 55</ref>; zur Weimarer Uraufführung am 28. November 1776 vgl. Datierung zu <ref target="gb:note#gb11427_comment_com1692">Nr 124</ref>; die Erläuterungen zu <ref target="gb:note#GB03_2_BR124_0_note_001_74_6">74,6</ref>). Zur Aufnahme des Stückes durch das Weimarer Publikum bemerkt Lyncker: „Nur erwähnen muß ich, daß das Lustspiel ‚Die Mitschuldigen‘ <gap quantity="3" reason="editorial"/> als ganz unmoralisch [und deshalb sittenverderblich] angesprochen wurde.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 53.) – Repräsentation: „die Vor- oder Darstellung, Vorzeigung, die Vertretung einer andern Person“ (<ref target="sndb:sigle#3152">Zedler</ref> 31, 649).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

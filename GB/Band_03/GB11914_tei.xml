@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4330"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11914" n="GB 3, Nr. 424">
+  <teiHeader xml:id="gb11914_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>424.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 26. Dezember 1778. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:54Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11914_tei.xml</idno>
+        <idno type="URI">gb11914</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR424_0</idno>
+        <idno type="KSW-ID">11914</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="242" to="242">242</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="807" to="808">807-808</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11914_header_hwit1420" corresp="#gb11914_source_hwit1420" sameAs="#gb11914_comment_hwit1420" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 107</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11914,,1420/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ein Bouquet für Sie und die Haare für Gustgen, und    Tobacksraucher für Frizzen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11914_header_acc437" corresp="gb11914_comment_acc437">
+            <objectIdentifier>
+              <objectName>Blumen </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11914_header_acc600" corresp="gb11914_comment_acc600">
+            <objectIdentifier>
+              <objectName>Haar </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11914_header_acc601" corresp="gb11914_comment_acc601">
+            <objectIdentifier>
+              <objectName>Geschenk für Friedrich von Stein </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-12-26">26. Dezember 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11914_source_hwit1420" corresp="#gb11914_header_hwit1420" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11914/22971"/>
+      <p>
+        <anchor xml:id="GB03_1_BR424_0_242_013"/>Ein <ref target="gb:note#GB03_2_BR424_0_note_001_242_13" xml:id="start_com_3640"/>Bouquet<ptr n="1" target="#a001_242.13"/> für Sie<ref xml:id="end_com_3640"/> und die <ref target="gb:note#GB03_2_BR424_0_note_002_242_13" xml:id="start_com_3641"/>haare<ref xml:id="end_com_3641"/> für <ref target="gb:note#GB03_2_BR424_0_note_003_242_13" xml:id="start_com_3642"/>Gustgen<ref xml:id="end_com_3642"/>, und <ref target="gb:note#GB03_2_BR424_0_note_004_242_13" xml:id="start_com_3643"/>Tobacksraucher<ref xml:id="end_com_3643"/>
+        <anchor xml:id="GB03_1_BR424_0_242_014"/>für <ref target="gb:note#GB03_2_BR424_0_note_005_242_14" xml:id="start_com_3644"/>Frizzen<ref xml:id="end_com_3644"/>. Und eine Bitte um ein wenig Essen. Die Schüsseln schick 
+<anchor xml:id="GB03_1_BR424_0_242_015"/>ich und will sie um Ein<ptr n="2" target="#a002_242.15"/> Uhr wieder hohlen lassen. Wenn Sie eine 
+<anchor xml:id="GB03_1_BR424_0_242_016"/>Stickerinn haben ausgefunden mögt ich doch uber das Muster und das 
+<anchor xml:id="GB03_1_BR424_0_242_017"/><ref target="gb:note#GB03_2_BR424_0_note_006_242_17" xml:id="start_com_3645"/>haar band<ref xml:id="end_com_3645"/> noch erst sprechen.    d<g ref="#typoSuspension"/>. 2 Cristfeyrtag 78. Aus wiedrig 
+<anchor xml:id="GB03_1_BR424_0_242_018"/>kaltem aussern und leidlich warmen innern Wetter.    G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11914_comment">
+<body>
+<div type="metadata" xml:id="gb11914_comment_com870">
+  <ab type="numberAddressee"><label>424.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 26. Dezember 1778 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11914_comment_com2914">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 107. – 1 Bl. 20,2(–20,4) × 9,5(–9,7) cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „71.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 73), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 190 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 266, Nr 768.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11914_comment_com3702">
+  <p>1) Blumen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR424_0_note_001_242_13">242,13</ref>).</p>
+  <p>2) Haar (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR424_0_note_002_242_13">242,13</ref>).</p>
+  <p>3) Geschenk für Friedrich von Stein (vgl. die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR424_0_note_004_242_13">242,13</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11914_comment_com4710">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11914_comment_com11749">
+<label xml:id="GB03_2_BR424_0_note_001_242_13" copyOf="#start_com_3640"><hi rendition="#fett">242,13</hi>Bouquet für Sie</label>
+<p>Zum Geburtstag Charlotte von Steins, die am 25. Dezember 36 Jahre alt geworden war.</p>
+
+</note>
+<note xml:id="gb11914_comment_com11737">
+<label xml:id="GB03_2_BR424_0_note_002_242_13" copyOf="#start_com_3641"><hi rendition="#fett">242,13</hi>haare</label>
+<p>Demnach trug Goethe keine Bedenken, Haar-Reliquien von sich an ferner stehende Personen zu verschenken (vgl. dagegen zu <ref target="gb:note#GB03_2_BR316_0_note_002_188_11-12">188,11-12</ref>).</p>
+
+</note>
+<note xml:id="gb11914_comment_com18032">
+<label xml:id="GB03_2_BR424_0_note_003_242_13" copyOf="#start_com_3642"><hi rendition="#fett">242,13</hi>Gustgen</label>
+<p>Wahrscheinlich Augusta Eleonore von Kalb, die offenbar zu Besuch in Weimar war (vgl. zu <ref target="gb:note#GB03_2_BR392_0_note_004_226_3-4">226,3-4</ref>). Sie gehört auch zu den Empfängerinnen der „Neujahrswünsche“, die Goethe am 30. Dezember 1778 gemeinsam mit Sigmund von Seckendorff auf der Jagdpartie in Apolda verfasste (vgl. <ref target="gb:dokument#52743">Nr 429</ref>).</p>
+
+</note>
+<note xml:id="gb11914_comment_com11750">
+<label xml:id="GB03_2_BR424_0_note_004_242_13" copyOf="#start_com_3643"><hi rendition="#fett">242,13</hi>Tobacksraucher</label>
+<p>Hölzerne Räuchermännchen, die es seit Ende des 17. Jahrhunderts gab und die mit Tabak oder anderem Räucherwerk befüllt wurden (nach Auskunft des Museums für Sächsische Volkskunst mit Puppentheatersammlung, Dresden).</p>
+
+</note>
+<note xml:id="gb11914_comment_com11751">
+<label xml:id="GB03_2_BR424_0_note_005_242_14" copyOf="#start_com_3644"><hi rendition="#fett">242,14</hi>Frizzen</label>
+<p>Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb11914_comment_com11752">
+<label xml:id="GB03_2_BR424_0_note_006_242_17" copyOf="#start_com_3645"><hi rendition="#fett">242,17</hi>haar band</label>
+<p>Vielleicht ein Geschenk für Charlotte von Stein, die auf zeitgenössischen Porträts zumeist mit einem Haarband dargestellt wird (vgl. <ref target="gb:digitalisate#10706/64258">Abb. 1</ref> im Kommentarband, S. 63).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

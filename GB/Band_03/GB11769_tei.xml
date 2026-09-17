@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3460"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11769" n="GB 3, Nr. 337">
+  <teiHeader xml:id="gb11769_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>337.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 18. oder 19.? März 1778. Mittwoch oder Donnerstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:12Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11769_tei.xml</idno>
+        <idno type="URI">gb11769</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR337_0</idno>
+        <idno type="KSW-ID">11769</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="200" to="200">200</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="675" to="676">675-676</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11769_header_hwit1332" corresp="#gb11769_source_hwit1332" sameAs="#gb11769_comment_hwit1332" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 99</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11769,,1332/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier was ich habe von der Phisiognomick das Blat 305 hatte    zurückbehalten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11769_header_acc410" corresp="gb11769_comment_acc410">
+            <objectIdentifier>
+              <objectName>Manuskript zum 4. Band von Lavaters „Physiognomischen Fragmenten“ </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11769_header_acc585" corresp="gb11769_comment_acc585">
+            <objectIdentifier>
+              <objectName><quote type="G">17 Ldl.</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1778-03-18"><supplied>18.? März 1778</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1778-03-19"><supplied>19.? März 1778</supplied></date>
+            <note>
+              <date type="WA" when="1778-03-19"><supplied>19. März 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11769_source_hwit1332" corresp="#gb11769_header_hwit1332" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11769/13919"/>
+      <p>
+        <anchor xml:id="GB03_1_BR337_0_200_001"/>Hier <ref target="gb:note#GB03_2_BR337_0_note_001_200_1" xml:id="start_com_3040"/>was ich habe von der Phis.<ref xml:id="end_com_3040"/> das <ref target="gb:note#GB03_2_BR337_0_note_002_200_1" xml:id="start_com_3041"/>Blat 305<ref xml:id="end_com_3041"/> hatte zurückbehalten, 
+<anchor xml:id="GB03_1_BR337_0_200_002"/>und erinnre mich nicht ob <ref target="gb:note#GB03_2_BR337_0_note_003_200_2" xml:id="start_com_3042"/>306,<ptr n="1" target="#a001_200.2"/> 7, 8<ref xml:id="end_com_3042"/>, schon bey Ihnen sind wenigstens 
+<anchor xml:id="GB03_1_BR337_0_200_003"/>hab ich sie nicht. melden Sie mir s doch.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR337_0_200_004"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR337_0_200_005"/>Zugleich schicke <ref target="gb:note#GB03_2_BR337_0_note_004_200_5" xml:id="start_com_3043"/>17 Ld<g ref="#typoSuspension"/>. davon bitte 59 rh.<ref xml:id="end_com_3043"/> an H<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR337_0_note_005_200_5" xml:id="start_com_3044"/>Rost<ref xml:id="end_com_3044"/> der die <ref target="gb:note#GB03_2_BR337_0_note_006_200_5-6" xml:id="start_com_3045"/>Benellische 
+<anchor xml:id="GB03_1_BR337_0_200_006"/>Hand<g ref="#typoSuspension"/>.<ref xml:id="end_com_3045"/> übernommen gegen <ref target="gb:note#GB03_2_BR337_0_note_007_200_6" xml:id="start_com_3046"/>Quittung<ref xml:id="end_com_3046"/> zu bezahlen. das übrige 
+<anchor xml:id="GB03_1_BR337_0_200_007"/>auf Ihre Rechnung anzunehmen und mir gleichfalls <ref target="gb:note#GB03_2_BR337_0_note_008_200_7-8" xml:id="start_com_3047"/>ein <emph rendition="#latin">quittirt</emph>
+          <anchor xml:id="GB03_1_BR337_0_200_008"/>Conto zu schicken<ref xml:id="end_com_3047"/>.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR337_0_200_009"/>
+          <signed rend="paraph" rendition="#einrueck21">G.</signed>
+        </closer>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#11769/13920" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11769/13921" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11769/13922"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11769_comment">
+<body>
+<div type="metadata" xml:id="gb11769_comment_com1287">
+  <ab type="numberAddressee"><label>337.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>18.? März 1778</supplied> oder <supplied>19.? März 1778</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11769_comment_com1968">
+  <p>Aus dem Vergleich zwischen Absende- und Empfangsdatum der übrigen an Reich gerichteten Briefe im vorliegenden Band ergibt sich, dass die Beförderungsdauer meist zwei oder drei Tage betrug. Wenn Reich den vorliegenden Brief am 21. März 1778 erhielt (vgl. <ref target="gb:note#gb11769_comment_com3331">Überlieferung</ref>), könnte er am 18. oder 19. März 1778 geschrieben worden sein.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11769_comment_com3331">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 99. – Doppelblatt 11,6 × 18,6 cm, &#x2154; S. beschr., egh., Tinte; S. 4 Empfangs- und Antwortvermerk, Tinte: „1778. 21. Mer<unclear reason="illegible">z</unclear> Weimar / Goethe. / Bl“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 215, Nr 683 (Friedrich Strehlke). – Incipit zuvor schon in: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 188 (<ref target="gb:text#GB03_1_BR337_0_200_001">200,1</ref> <quote type="G">Hier was ich habe von der Phis.</quote>).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11769_comment_com3814">
+  <p>1) Manuskript zum 4. Band von Lavaters „Physiognomischen Fragmenten“ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR337_0_note_001_200_1">200,1</ref>).</p>
+  <p>2) <quote type="G">17 Ld<g ref="#typoSuspension"/>.</quote> (<ref target="gb:text#GB03_1_BR337_0_200_005">200,5</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11769_comment_com5127">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. <ref target="gb:note#gb11769_comment_com3331">Überlieferung</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. März 1778 (vgl. <ref target="sndb:sigle#4229">GR/RB 1778,1</ref>, Bl. 8v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11769_comment_com17974">
+<label xml:id="GB03_2_BR337_0_note_001_200_1" copyOf="#start_com_3040"><hi rendition="#fett">200,1</hi>was ich habe von der Phis.</label>
+<p>Goethe schickte Manuskripte zum 4. und letzten Teil von Lavaters „Physiognomischen Fragmenten“ nach Leipzig, wo der Band gedruckt wurde. Am 25. November 1777 hatte er die erste Manuskriptsendung abgeschickt (vgl. <ref target="gb:text#GB03_1_BR307_0_177_026">177,26</ref>). Der Band erschien im Mai 1778 zur Leipziger Ostermesse.</p>
+
+</note>
+<note xml:id="gb11769_comment_com11304">
+<label xml:id="GB03_2_BR337_0_note_002_200_1" copyOf="#start_com_3041"><hi rendition="#fett">200,1</hi>Blat 305</label>
+<p>Gemeint ist möglicherweise Seite 305. Diese gehört zum 5. Abschnitt des 4. Bandes (National- und Familien-Physiognomien; S. 265–340), und zwar zur „Beylage A“ zum 5. Fragment: Vermischte Nationalgesichter (S. 304 f.). Sie enthält nur einen Satz: „c) Nachstehender Caphtan scheint in seinem Gesichte Weichlichkeit und Grausamkeit zu vereinigen.“ Es folgt die Abbildung des Brustbildes eines orientalisch gekleideten Mannes mit einer hohen (fez-ähnlichen) Kopfbedeckung.</p>
+
+</note>
+<note xml:id="gb11769_comment_com11305">
+<label xml:id="GB03_2_BR337_0_note_003_200_2" copyOf="#start_com_3042"><hi rendition="#fett">200,2</hi>306, 7, 8</label>
+<p>Auch hier wohl: Seite 306–308.</p>
+
+</note>
+<note xml:id="gb11769_comment_com15187">
+<label xml:id="GB03_2_BR337_0_note_004_200_5" copyOf="#start_com_3043"><hi rendition="#fett">200,5</hi>17 Ld<g ref="#typoSuspension"/>. davon bitte 59 rh.</label>
+<p>17 Louisdor entsprachen einer Summe von etwas mehr als 86 Reichstalern (vgl. <ref target="gb:dokument#56921">Münze und Geldrechnung in Goethes Briefen 1775–1779</ref>, S. LIII).</p>
+
+</note>
+<note xml:id="gb11769_comment_com11306">
+<label xml:id="GB03_2_BR337_0_note_005_200_5" copyOf="#start_com_3044"><hi rendition="#fett">200,5</hi>Rost</label>
+<p>Carl Christian Heinrich Rost, Verleger, Kunstschriftsteller und Kunsthändler in Leipzig, Fabrikant von Gipsabgüssen u. a. von antiken Plastiken und von Modellen antiker Gebäude.</p>
+
+</note>
+<note xml:id="gb11769_comment_com18028">
+<label xml:id="GB03_2_BR337_0_note_006_200_5-6" copyOf="#start_com_3045"><hi rendition="#fett">200,5-6</hi>Benellische Hand<g ref="#typoSuspension"/></label>
+<p>Die Handelsfirma Carl Benelle und Sohn; sie existierte seit den 50er Jahren des 18. Jahrhunderts und hatte ihren Sitz in Auerbachs Hof. Nach dem Tod ihres Gründers Carl Benelle im Jahr 1754 wurde sie von dessen Sohn Philipp Carl Benelle, später von Johann Georg Oetterich Retz weitergeführt, nach dem Tod des Letzteren 1765 von Christian Wilhelm Steinauer. 1778 ging sie in Konkurs. – Im <ref target="sndb:sigle#1324">ThHStA Weimar</ref> wird folgende gedruckte Anzeige aufbewahrt:
+</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56455_source" corresp="#gb56455_comment">
+  <body>
+    <div>
+      <p>Carl Christian Heinrich Rost in Auerbachs Hofe zu Leipzig hat die seit vielen Jahren etablierte Handlung des verstorbenen Herrn Johann George Oetterich Retz, welche bisher unter dem Namen Herrn Wilhelm Steinauer junior fortgeführt worden ist, für seine eigene Rechnung käuflich an sich gebracht.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56455_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56455_comment_com84719">
+  <p>(<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Landschaft und Landtag B 114, S. 34, Nr 367.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb11769_comment_com11317">
+<label xml:id="GB03_2_BR337_0_note_007_200_6" copyOf="#start_com_3046"><hi rendition="#fett">200,6</hi>Quittung</label>
+<p>Sie stammt vom 21. März 1778 und ist in Goethes Rechnungen überliefert (vgl. <ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 27).</p>
+
+</note>
+<note xml:id="gb11769_comment_com11318">
+<label xml:id="GB03_2_BR337_0_note_008_200_7-8" copyOf="#start_com_3047"><hi rendition="#fett">200,7-8</hi>ein <emph rendition="#latin">quittirt</emph> Conto zu schicken</label>
+<p>Ein entsprechender Brief Reichs an Goethe ist nicht bekannt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

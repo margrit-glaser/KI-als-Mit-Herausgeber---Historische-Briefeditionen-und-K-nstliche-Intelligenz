@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="30"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10576" n="GB 3, Nr. 3">
+  <teiHeader xml:id="gb10576_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>3.</label> An <persName key="sndb:person#59516">Matthias Fuchs</persName> und den Kirchenvorstand der deutschen reformierten Gemeinde in Frankfurt a. M.</title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. November 1775. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:00Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10576_tei.xml</idno>
+        <idno type="URI">gb10576</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR003_0</idno>
+        <idno type="KSW-ID">10576</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="4" to="5">4-5</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="13" to="15">13-15</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10576_header_hwit816" corresp="#gb10576_source_hwit816" sameAs="#gb10576_comment_hwit816" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-6</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10576,,816/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Der Herr v. Trumbach meldet mir verschiedenes, hochgeehrteste Herren, über unsre gemeinschaftlichen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1775-11-22">22. November 1775</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#59516">Fuchs, Matthias</persName> und
+            <orgName key="sndb:organisation#98410">Kirchenvorstand der deutschen reformierten Gemeinde in Frankfurt a. M.</orgName>
+            <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10576_source_hwit816" corresp="#gb10576_header_hwit816" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10576/19299"/>
+      <opener>
+        <dateline rendition="#einrueck14">
+          <anchor xml:id="GB03_1_BR003_0_004_026"/>Weimar d<g ref="#typoSuspension"/>. 22 Nov 75.</dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR003_0_004_027"/>Der <ref target="gb:note#GB03_2_BR003_0_note_001_4_27" xml:id="start_com_0038"/>Herr v. Trümbach<ref xml:id="end_com_0038"/> meldet mir verschiednes, <ref target="gb:note#GB03_2_BR003_0_note_002_4_27-28" xml:id="start_com_0039"/>hochgeehrteste Herren<ref xml:id="end_com_0039"/>, 
+<anchor xml:id="GB03_1_BR003_0_004_028"/>über unsre gemeinschafftlichen Geschäffte, ich habe <ref target="gb:note#GB03_2_BR003_0_note_003_4_28-5_1" xml:id="start_com_0040"/>seinen Brief 
+<anchor xml:id="GB03_1_BR003_0_005_001"/>und Promemoria<ref xml:id="end_com_0040"/>
+        <ref target="gb:note#GB03_2_BR003_0_note_004_5_1" xml:id="start_com_0041"/>meinem Vater zugeschickt<ref xml:id="end_com_0041"/>, mit welchem gefällige 
+<anchor xml:id="GB03_1_BR003_0_005_002"/>Absprache zu nehmen bitte. Vorzüglich wünscht nunmehro H<g ref="#typoSuspension"/>. v. Tr. 
+<anchor xml:id="GB03_1_BR003_0_005_003"/>die<ptr n="1" target="#a001_5.3"/> Hälfte<ptr n="2" target="#a002_5.3"/> des <ref target="gb:note#GB03_2_BR003_0_note_005_5_3" xml:id="start_com_0042"/>Ladenzinses<ref xml:id="end_com_0042"/> von <ref target="gb:note#GB03_2_BR003_0_note_006_5_3" xml:id="start_com_0043"/>Ao.<ref xml:id="end_com_0043"/> 73, 74, 75, zu erhalten. Nicht weniger 
+<anchor xml:id="GB03_1_BR003_0_005_004"/>das der Fr<g ref="#typoSuspension"/>. v. Klettb. see<g ref="#typoSuspension"/>. aufzuheben gegebne <ref target="gb:note#GB03_2_BR003_0_note_007_5_4-5" xml:id="start_com_0044"/>Frohnische Legat<ref xml:id="end_com_0044"/>
+        <anchor xml:id="GB03_1_BR003_0_005_005"/>von <ref target="gb:note#GB03_2_BR003_0_note_008_5_5" xml:id="start_com_0045"/>300 f im 22 f Fus<ref xml:id="end_com_0045"/>, welches wir, wie auch der Kinder Spaarbüchse 
+<anchor xml:id="GB03_1_BR003_0_005_006"/>bey der Inventur <emph rendition="#latin">in natura</emph> vorgefunden haben. Wollten Sie 
+<anchor xml:id="GB03_1_BR003_0_005_007"/>von der Güte seyn meinem Vater solche Gelder gegen Quittung einzuhändigen, 
+<anchor xml:id="GB03_1_BR003_0_005_008"/>oder sofern etwas einzuwenden vorkäme mir solches mit 
+<anchor xml:id="GB03_1_BR003_0_005_009"/>nächster Post melden. Der ich die Ehre habe zu verharren</p>
+      <closer>
+        <dateline rendition="#einrueck15">
+          <anchor xml:id="GB03_1_BR003_0_005_010"/>Dero</dateline>
+        <dateline rendition="#einrueck19">
+          <anchor xml:id="GB03_1_BR003_0_005_011"/>ergebenster <ref target="gb:note#GB03_2_BR003_0_note_009_5_10" xml:id="start_com_0046"/>Dr<ref xml:id="end_com_0046"/>
+        </dateline>
+        <anchor xml:id="GB03_1_BR003_0_005_012"/>
+        <signed rend="signature" rendition="#einrueck20">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10576/19300"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10576_comment">
+<body>
+<div type="metadata" xml:id="gb10576_comment_com404">
+  <ab type="numberAddressee"><label>3.</label> An <persName key="sndb:person#59516">Matthias Fuchs</persName> und den <orgName key="sndb:organisation#98410">Kirchenvorstand der deutschen reformierten Gemeinde in Frankfurt a. M.</orgName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. November 1775 → <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></ab>
+</div>
+
+<div type="addressee" xml:id="gb10576_comment_com2024">
+  <p>Wie aus der Anrede <quote type="G">hochgeehrteste Herren</quote> (<ref target="gb:text#GB03_1_BR003_0_004_027 #GB03_1_BR003_0_004_028">4,27–28</ref>) am Anfang des Briefes hervorgeht, ist der Brief nicht nur an Matthias Fuchs persönlich, sondern an die gesamte Diakonie der deutschen reformierten Gemeinde in Frankfurt gerichtet.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10576_comment_com2448">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 6. – 1 Bl. 19,1 × 23 cm, beim Öffnen beschädigt, &#x2154; S. beschr., egh., Tinte; Rs. Siegelreste und Adresse: <quote type="G">An Herrn / Handelsmann Fuchs / auf dem Römerberge / Franckfurt.</quote> – Beischluss zu <ref target="gb:dokument#10565">Nr 4</ref>.</p>
+  <p>E: Berichte <gap quantity="3" reason="editorial"/> des Freien Deutschen Hochstiftes für Wissenschaften, Künste und allgemeine Bildung in Goethe’s Vaterhause. 30. Oktober 1864. Flugblatt 30 und 31, S. 133.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 2 f., Nr 368.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10576_comment_com4244">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Matthias Fuchs d. J. (1738–1812) war Weinhändler in Frankfurt (vgl. <ref target="sndb:sigle#2809">Dietz, Handelsgeschichte</ref> 4 I, 314), außerdem erster Diakon der dortigen deutschen reformierten Gemeinde. In der evangelischen und der reformierten Kirche obliegt den Diakonen die Aufgabe, sich um die Kirchenverwaltung und um soziale Belange zu kümmern (Armen- und Krankenpflege). – Der vorliegende Brief ist der einzige überlieferte Brief Goethes an den Adressaten. Briefe von Fuchs an Goethe sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Goethes mütterliche Freundin Susanna von Klettenberg war am 13. Dezember 1774 gestorben (vgl. weiter über sie die einleitende Erläuterung zum Brief Goethes an sie vom 26. August 1770 [<ref target="gb:note#gb10492_comment_com22583">GB 1 II, Nr 74</ref>]). In ihrem Testament hatte sie Ernestina und Carl Ludwig Friedrich von Trümbach, die „zwei Kinder meiner im Leben sehr wert gewesenen Schwester“ (Hermann Dechent: Goethes Schöne Seele Susanna Katharina v. Klettenberg. Gotha 1986, S. 168) Maria Magdalena und ihres Schwagers, des hessischen Regierungsrates Philipp Rudolf Freiherrn von Trümbach in Gelnhausen, zu Erben eingesetzt, ebenso ihre Tante Maria Franziska von Klettenberg. Als Testamentsvollstrecker fungierten die Vorsteher der Diakonie der Frankfurter deutschen reformierten Gemeinde. Goethe war von Trümbach und Maria Franziska von Klettenberg mit der Wahrnehmung ihrer Interessen beauftragt worden. Zwei gerichtliche Eingaben Goethes vom 7. April 1775 für Trümbach und vom 21. April 1775 für Frau von Klettenberg sind überliefert (vgl. Georg Ludwig Kriegk: Deutsche Kulturbilder aus dem 18. Jahrhundert. Nebst einem Anhang: Goethe als Rechtsanwalt. Leipzig 1874, S. 514 f., 515–517). In beiden Fällen bemühte sich Goethe, die Vollstreckung des Testaments, insbesondere im Hinblick auf das fortgeschrittene Alter der Tante, die 1776 starb, zu beschleunigen. Mit Bescheid vom 6. September 1775 wurden schließlich die Erben in den Nachlass eingesetzt. Die Mobilien von Susanna von Klettenberg wurden öffentlich versteigert. Der Erlös ging im Januar 1776 an die Erben (vgl. ebd., S. 517).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10576_comment_com9148">
+<label xml:id="GB03_2_BR003_0_note_001_4_27" copyOf="#start_com_0038"><hi rendition="#fett">4,27</hi>Herr v. Trümbach</label>
+<p>Philipp Rudolf von Trümbach.</p>
+
+</note>
+<note xml:id="gb10576_comment_com9149">
+<label xml:id="GB03_2_BR003_0_note_002_4_27-28" copyOf="#start_com_0039"><hi rendition="#fett">4,27-28</hi>hochgeehrteste Herren</label>
+<p>Gemeint sind die Mitglieder des Kirchenvorstands (Diakonie) der deutschen reformierten Gemeinde in Frankfurt.</p>
+
+</note>
+<note xml:id="gb10576_comment_com14086">
+<label xml:id="GB03_2_BR003_0_note_003_4_28-5_1" copyOf="#start_com_0040"><hi rendition="#fett">4,28-5,1</hi>seinen Brief und Promemoria</label>
+<p>Nicht überliefert. – Promemoria: Denkschrift, Eingabe.</p>
+
+</note>
+<note xml:id="gb10576_comment_com9150">
+<label xml:id="GB03_2_BR003_0_note_004_5_1" copyOf="#start_com_0041"><hi rendition="#fett">5,1</hi>meinem Vater zugeschickt</label>
+<p>Trümbachs Brief ging offenbar als Beischluss zu <ref target="gb:dokument#15710">EB 9</ref> nach Frankfurt (vgl. <ref target="gb:text#GB03_1_BR004_0_005_022 #GB03_1_BR004_0_005_023">5,22–23</ref>).</p>
+
+</note>
+<note xml:id="gb10576_comment_com9151">
+<label xml:id="GB03_2_BR003_0_note_005_5_3" copyOf="#start_com_0042"><hi rendition="#fett">5,3</hi>Ladenzinses</label>
+<p>Ladenzins: Ladenmiete (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 1866). Um wessen Geschäftsräume es geht, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10576_comment_com9152">
+<label xml:id="GB03_2_BR003_0_note_006_5_3" copyOf="#start_com_0043"><hi rendition="#fett">5,3</hi>Ao.</label>
+<p>Lat. anno: im/vom Jahr.</p>
+
+</note>
+<note xml:id="gb10576_comment_com9153">
+<label xml:id="GB03_2_BR003_0_note_007_5_4-5" copyOf="#start_com_0044"><hi rendition="#fett">5,4-5</hi>Frohnische Legat</label>
+<p>Darüber konnte nichts ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10576_comment_com9167">
+<label xml:id="GB03_2_BR003_0_note_008_5_5" copyOf="#start_com_0045"><hi rendition="#fett">5,5</hi>300 f im 22 f Fus</label>
+<p>Der 22-Gulden-Fuß war in Frankfurt neben dem 20- und dem 24-Gulden-Fuß in Gebrauch; er entstand aus der Würdigung des Konventionstalers zu 33 der alten Batzen statt zu 30 in Konventionsmünze (nach freundlicher Auskunft von Diedrich Deseniss, Hamburg).</p>
+
+</note>
+<note xml:id="gb10576_comment_com9168">
+<label xml:id="GB03_2_BR003_0_note_009_5_10" copyOf="#start_com_0046"><hi rendition="#fett">5,11</hi>Dr</label>
+<p>Diener.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

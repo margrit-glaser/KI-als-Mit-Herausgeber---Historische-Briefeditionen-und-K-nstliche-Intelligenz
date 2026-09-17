@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4760"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11681" n="GB 3, Nr. 467">
+  <teiHeader xml:id="gb11681_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>467.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77679">Dornburg</placeName>, 2. März <supplied>1779. Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:34Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11681_tei.xml</idno>
+        <idno type="URI">gb11681</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR467_0</idno>
+        <idno type="KSW-ID">11681</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="259" to="260">259-260</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="860" to="861">860-861</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11681_header_hwit1446" corresp="#gb11681_source_hwit1446" sameAs="#gb11681_comment_hwit1446" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 79</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11681,,1446/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dornburg d. 2. März. Wenn ich an ein Ort komme wo ich mit    Ihnen gewesen bin, oder wo ich weis dass</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77679">Dornburg</placeName>
+            <date when="1779-03-02">2. März <supplied>1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11681_source_hwit1446" corresp="#gb11681_header_hwit1446" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11681/23007"/>
+      <p>
+        <anchor xml:id="GB03_1_BR467_0_259_013"/>
+        <ref target="gb:note#GB03_2_BR467_0_note_001_259_13" xml:id="start_com_3776"/>Dornburg d<g ref="#typoSuspension"/>. 2. März.<ref xml:id="end_com_3776"/>    Wenn ich an ein Ort komme wo ich mit 
+<anchor xml:id="GB03_1_BR467_0_259_014"/>Ihnen gewesen bin, oder wo ich weis dass Sie waren, ist mir’s<ptr n="1" target="#a001_259.14"/> immer 
+<anchor xml:id="GB03_1_BR467_0_259_015"/>viel lieber. Heut hab ich im <ref target="gb:note#GB03_2_BR467_0_note_002_259_15" xml:id="start_com_3777"/>Paradiese<ref xml:id="end_com_3777"/> an Sie gedacht, dass Sie drinn 
+<anchor xml:id="GB03_1_BR467_0_259_016"/>herumgingen eh Sie mich kannten. Es ist mir fast unangenehm dass 
+<anchor xml:id="GB03_1_BR467_0_259_017"/>eine Zeit war wo sie mich nicht kannten, und nicht liebten. Wenn 
+<anchor xml:id="GB03_1_BR467_0_259_018"/>ich wieder auf die Erde komme will ich die Götter bitten dass ich nur 
+<anchor xml:id="GB03_1_BR467_0_259_019"/>einmal liebe, und <ref target="gb:note#GB03_2_BR467_0_note_003_259_19" xml:id="start_com_3778"/>wenn Sie nicht so feind dieser Welt wären<ref xml:id="end_com_3778"/>, wollt ich 
+<anchor xml:id="GB03_1_BR467_0_260_001"/>um Sie bitten zu dieser lieben Gefährtinn. Noch etwas hätten Sie mir 
+<anchor xml:id="GB03_1_BR467_0_260_002"/>mit geben können, einen <ref target="gb:note#GB03_2_BR467_0_note_004_260_2" xml:id="start_com_3779"/>Talisman<ref xml:id="end_com_3779"/> mehr, denn ich habe wohl allerley 
+<anchor xml:id="GB03_1_BR467_0_260_003"/>und doch nicht genug. Wenn Sie ein <ref target="gb:note#GB03_2_BR467_0_note_005_260_3" xml:id="start_com_3780"/>Misel<ref xml:id="end_com_3780"/> wären hätt ich Sie gebeten 
+<anchor xml:id="GB03_1_BR467_0_260_004"/>das Westgen erst einmal eine Nacht anzuziehn und es<ptr n="2" target="#a002_260.4"/> so zu <ref target="gb:note#GB03_2_BR467_0_note_006_260_4-5" xml:id="start_com_3781"/>transsubstantiiren<ref xml:id="end_com_3781"/>, 
+<anchor xml:id="GB03_1_BR467_0_260_005"/>wie Sie aber eine weise Frau sind muss ich mit <ref target="gb:note#GB03_2_BR467_0_note_007_260_5-6" xml:id="start_com_3782"/>dem Calvinischen 
+<anchor xml:id="GB03_1_BR467_0_260_006"/>Sakrament<ref xml:id="end_com_3782"/> vorlieb nehmen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR467_0_260_007"/>Knebeln können Sie sagen dass <ref target="gb:note#GB03_2_BR467_0_note_008_260_7" xml:id="start_com_3783"/>das Stück<ref xml:id="end_com_3783"/> sich formt, und Glieder 
+<anchor xml:id="GB03_1_BR467_0_260_008"/>kriegt. Morgen hab ich <ref target="gb:note#GB03_2_BR467_0_note_009_260_8" xml:id="start_com_3784"/>die Auslesung<ref xml:id="end_com_3784"/>, dann will ich mich <ref target="gb:note#GB03_2_BR467_0_note_010_260_8-9" xml:id="start_com_3785"/>in das neue 
+<anchor xml:id="GB03_1_BR467_0_260_009"/>Schloss sperren und einige Tage an<ptr n="3" target="#a003_260.9"/> meinen Figuren posseln<ref xml:id="end_com_3785"/><ptr n="4" target="#a004_260.9"/>.
+        <ref target="gb:note#GB03_2_BR467_0_note_011_260_9-10" xml:id="start_com_3786"/>Am 5<hi rendition="#sup">ten</hi><ptr n="5" target="#a005_260.9"/>
+        <anchor xml:id="GB03_1_BR467_0_260_010"/>treff ich in Apolda ein<ref xml:id="end_com_3786"/>, da verlang ich aber einen Boten von Ihnen zu<ptr n="6" target="#a006_260.10"/>
+        <anchor xml:id="GB03_1_BR467_0_260_011"/>finden, und viel geschriebnes, und sonst allerley Sachen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR467_0_260_012"/>Jetzt leb ich mit den Menschen dieser Welt, und esse und trincke 
+<anchor xml:id="GB03_1_BR467_0_260_013"/>spase auch wohl mit ihnen, spüre sie aber kaum, denn <ref target="gb:note#GB03_2_BR467_0_note_012_260_13-14" xml:id="start_com_3787"/>mein inneres 
+<anchor xml:id="GB03_1_BR467_0_260_014"/>Leben geht unverrücklich seinen Gang<ref xml:id="end_com_3787"/>. <pb n="2" facs="gb:digitalisate#11681/23008"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR467_0_260_015"/>Indem ich das Blat umwende bedenck ich dass ich Ihnen diesen 
+<anchor xml:id="GB03_1_BR467_0_260_016"/>Brief gleich schicken, und morgen um diese Zeit schon Antwort von 
+<anchor xml:id="GB03_1_BR467_0_260_017"/>Ihnen haben kan. Wenn sie einigermassen können schreiben Sie mir 
+<anchor xml:id="GB03_1_BR467_0_260_018"/>viel. Grüsen Sie den herzog. Adieu Liebste. Schreiben Sie mir dass Sie 
+<anchor xml:id="GB03_1_BR467_0_260_019"/>wohl sind.   Adieu.</p>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_1_BR467_0_260_020"/>Abends halb neune</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR467_0_260_021"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR467_0_260_022"/>
+          <ref target="gb:note#GB03_2_BR467_0_note_013_260_22" xml:id="start_com_3788"/>Nach Apolda erwart ich eben auch einen Brief<ref xml:id="end_com_3788"/> von Ihnen.</p>
+      </postscript>
+    <pb n="3" facs="gb:digitalisate#11681/23009"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11681_comment">
+<body>
+<div type="metadata" xml:id="gb11681_comment_com552">
+  <ab type="numberAddressee"><label>467.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77679">Dornburg</placeName>, 2. März <supplied>1779</supplied> → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb11681_comment_com1663">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief in den März 1778 eingeordnet. Der Inhalt und die Übereinstimmungen mit dem Tagebuch belegen eindeutig, dass er ins Jahr 1779 gehört (vgl. zu <ref target="gb:note#GB03_2_BR467_0_note_001_259_13">259,13</ref>; zu <ref target="gb:note#GB03_2_BR467_0_note_009_260_8">260,8</ref>). So wird er seit dem Erstdruck auch datiert.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11681_comment_com2596">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 79. – Doppelblatt  ca. 20 &#xD7; 27,5 cm, 1 &#x2153; S. (S. 1 und 2) beschr., egh., Tinte, S. 3 Adresse: <quote type="G">An Fr. v. Stein / nach / Weimar.</quote>, rotes Siegel: herzogliches Wappen?; S. 1 oben rechts von fremder Hd, Tinte: „11“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 11), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischluss zu <ref target="gb:dokument#9549">Nr 468</ref> (vgl. zu <ref target="gb:note#GB03_2_BR468_0_note_001_260_23">260,23</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 214 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 13 f., Nr 786.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11681_comment_com4392">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief etwa vom 3. März 1779 ist nicht überliefert (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR469_0_note_014_261_22">261,22</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11681_comment_com15492">
+<label xml:id="GB03_2_BR467_0_note_001_259_13" copyOf="#start_com_3776"><hi rendition="#fett">259,13</hi>Dornburg d<g ref="#typoSuspension"/>. 2. März.</label>
+<p>Am 2. März war Goethe von Jena aus zunächst südlich in das etwa 12 km entfernte Dorf Rothenstein geritten und von dort erst nach <quote type="G">Tisch</quote> aufgebrochen, um <quote type="G">den Weeg nach Dornburg</quote> zu <quote type="G">besehen</quote>. In dem etwa 13 km nordöstlich von Jena gelegenen Ort war er <quote type="G">Abends 6</quote> angekommen (<ref target="gt:dokument#679">GT I 1, 76</ref>). Quartier hatte er beim Amtmann Johann Wilhelm Wetekind im Alten Schloss genommen, wo die Dornburger Amtsbehörde samt Dienstwohnungen seit dem großen Stadtbrand von 1717 untergebracht waren (vgl. <ref target="sndb:sigle#2886">Gothe</ref>, 55). – Goethe hatte seit seinem Amtsantritt in Weimar nachweislich schon zweimal Dornburg und die Schlösser besucht (vgl. <ref target="gb:dokument#52710">Z 5</ref> und zu <ref target="gb:note#GB03_2_BR277_0_note_003_152_2">152,2</ref>).</p>
+
+</note>
+<note xml:id="gb11681_comment_com17484">
+<label xml:id="GB03_2_BR467_0_note_002_259_15" copyOf="#start_com_3777"><hi rendition="#fett">259,15</hi>Paradiese</label>
+<p>Saaleaue südlich der Stadt Jena, heute am Rand der südlichen Innenstadt, Teil des Volksparks. Im 18. Jahrhundert war es eine der „gewöhnlichsten Promenaden in der Nähe der Stadt“, die Georg Friedrich Rebmann, der von 1787 bis 1789 in Jena studierte, in seinen „Briefen über Jena“ (Frankfurt und Leipzig 1793) folgendermaßen beschreibt: „<gap quantity="3" reason="editorial"/> man erwartet viel, und findet nichts als eine angenehme Wiese längs der Saale, mit einer doppelten, gut unterhaltenen Esplanade, sehr bequem, um die Schönen und Musensöhne aus Jena zum Genuß der Natur einzuladen <gap quantity="3" reason="editorial"/>.“ (11. Brief, S. 132 f.)</p>
+
+</note>
+<note xml:id="gb11681_comment_com11046">
+<label xml:id="GB03_2_BR467_0_note_003_259_19" copyOf="#start_com_3778"><hi rendition="#fett">259,19</hi>wenn Sie nicht so feind dieser Welt wären</label>
+<p>Sinngemäß in Übereinstimmung mit dem fiktiven Brief Charlottes, der älteren Freundin des Helden Wilhelm in Goethes Einakter „Die Geschwister“, dem ein authentischer Brief Charlotte von Steins zugrunde liegen soll (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR198_0_note_005_121_20">121,20</ref>).</p>
+
+</note>
+<note xml:id="gb11681_comment_com11047">
+<label xml:id="GB03_2_BR467_0_note_004_260_2" copyOf="#start_com_3779"><hi rendition="#fett">260,2</hi>Talisman</label>
+<p>Mit Bezug auf das im Folgenden erwähnte ‚Westgen‘; vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR309_0_note_013_179_1">179,1</ref>.</p>
+
+</note>
+<note xml:id="gb11681_comment_com11048">
+<label xml:id="GB03_2_BR467_0_note_005_260_3" copyOf="#start_com_3780"><hi rendition="#fett">260,3</hi>Misel</label>
+<p>Junges Mädchen (vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>).</p>
+
+</note>
+<note xml:id="gb11681_comment_com11058">
+<label xml:id="GB03_2_BR467_0_note_006_260_4-5" copyOf="#start_com_3781"><hi rendition="#fett">260,4-5</hi>transsubstantiiren</label>
+<p>Von neulat. transsubstantiatio: Wesensverwandlung; in der christlichen Theologie die Verwandlung von Brot und Wein in den Leib Christi.</p>
+
+</note>
+<note xml:id="gb11681_comment_com11059">
+<label xml:id="GB03_2_BR467_0_note_007_260_5-6" copyOf="#start_com_3782"><hi rendition="#fett">260,5-6</hi>dem Calvinischen Sakrament</label>
+<p>Hier sinngemäß: sich begnügen mit dem rein Geistigen, der Vorstellung; in Anspielung auf die Liturgie der maßgeblich von Johannes Calvin geprägten reformierten Kirche, die das Abendmahl als reine Dankfeier begeht und den Glauben an die Realpräsenz Christi ablehnt.</p>
+
+</note>
+<note xml:id="gb11681_comment_com15054">
+<label xml:id="GB03_2_BR467_0_note_008_260_7" copyOf="#start_com_3783"><hi rendition="#fett">260,7</hi>das Stück</label>
+<p>„Iphigenie“ (vgl. zu <ref target="gb:note#GB03_2_BR462_0_note_003_258_3">258,3</ref>).</p>
+
+</note>
+<note xml:id="gb11681_comment_com11060">
+<label xml:id="GB03_2_BR467_0_note_009_260_8" copyOf="#start_com_3784"><hi rendition="#fett">260,8</hi>die Auslesung</label>
+<p>Musterung von Soldaten (vgl. zu <ref target="gb:note#GB03_2_BR466_0_note_001_259_7">259,7</ref>); die ‚Aushebung‘ dagegen gehörte nicht in das Aufgabengebiet der Kriegskommission.</p>
+
+</note>
+<note xml:id="gb11681_comment_com17823">
+<label xml:id="GB03_2_BR467_0_note_010_260_8-9" copyOf="#start_com_3785"><hi rendition="#fett">260,8-9</hi>in das neue Schloss <gap quantity="3" reason="editorial"/> an meinen Figuren posseln</label>
+<p>Im Neuen oder Mittleren Schloss (vgl. zu <ref target="gb:note#GB03_2_BR277_0_note_003_152_2">152,2</ref>) wohnte Goethe laut Tagebuch seit dem 3. März: <quote type="G">einsam im neuen schlöss<unclear reason="illegible">gen</unclear> an Iph. geschr. soauch d. 4.</quote> (<ref target="gt:dokument#680">GT I 1, 76</ref>.) – ‚Posseln‘ (bosseln) hier ‚arbeiten‘; auch ironisch mit dem pejorativen Nebensinn ‚sudeln‘, ‚pfuschen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 2, 265).</p>
+
+</note>
+<note xml:id="gb11681_comment_com11061">
+<label xml:id="GB03_2_BR467_0_note_011_260_9-10" copyOf="#start_com_3786"><hi rendition="#fett">260,9-10</hi>Am 5<hi rendition="#sup">ten</hi> treff ich in Apolda ein</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR469_0_note_013_261_22">261,22</ref>.</p>
+
+</note>
+<note xml:id="gb11681_comment_com18768">
+<label xml:id="GB03_2_BR467_0_note_012_260_13-14" copyOf="#start_com_3787"><hi rendition="#fett">260,13-14</hi>mein inneres Leben geht unverrücklich seinen Gang</label>
+<p>In Anklang an den Eingangsvers des Gedichtbriefs für Charlotte von Stein etwa vom 6. Juli 1776 <quote type="G">Und ich geh meinen alten Gang</quote> (<ref target="gb:text#GB03_1_BR139_0_081_014">81,14</ref>). – Hier wohl mit Bezug auf die dichterische Arbeit. Wie Goethes Briefe seit dem 14. Februar belegen, war er ungeachtet der sich häufenden Amtsgeschäfte immer auch mit der „Iphigenie“ beschäftigt.</p>
+
+</note>
+<note xml:id="gb11681_comment_com11073">
+<label xml:id="GB03_2_BR467_0_note_013_260_22" copyOf="#start_com_3788"><hi rendition="#fett">260,22</hi>Nach Apolda <gap quantity="3" reason="editorial"/> einen Brief</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR469_0_261_022 #GB03_1_BR469_0_261_023">261,22–23</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

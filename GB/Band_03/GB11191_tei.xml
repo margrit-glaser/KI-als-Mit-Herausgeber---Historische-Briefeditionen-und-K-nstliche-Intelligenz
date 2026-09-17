@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="770"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11191" n="GB 3, Nr. 77">
+  <teiHeader xml:id="gb11191_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>77.</label> An <persName key="sndb:person#40055">Adam Friedrich Oeser</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. April 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11191_tei.xml</idno>
+        <idno type="URI">gb11191</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR077_0</idno>
+        <idno type="KSW-ID">11191</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="50" to="50">50</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="197" to="199">197-199</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11191_header_hwit923" corresp="#gb11191_source_hwit923" sameAs="#gb11191_comment_hwit923" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/364,I Bl. 6</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8445</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11191,,923/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich bin verschwunden wie ich erschienen bin. Liebster Mann tausend Danck für alles, und</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-04-06">6. April 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40055">Oeser, Adam Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11191_source_hwit923" corresp="#gb11191_header_hwit923" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11191/12184"/>
+      <p>
+        <anchor xml:id="GB03_1_BR077_0_050_012"/>
+        <ref target="gb:note#GB03_2_BR077_0_note_001_50_12" xml:id="start_com_0780"/>Ich bin verschwunden wie ich erschienen bin.<ref xml:id="end_com_0780"/> Liebster Mann tausend 
+<anchor xml:id="GB03_1_BR077_0_050_013"/>Danck für alles, und unveränderliche Liebe <ref target="gb:note#GB03_2_BR077_0_note_002_50_13" xml:id="start_com_0781"/>in <emph rendition="#latin">saecla saeclorum</emph>
+        <ref xml:id="end_com_0781"/>. Grüsen 
+<anchor xml:id="GB03_1_BR077_0_050_014"/>Sie ihre ganze <ref target="gb:note#GB03_2_BR077_0_note_003_50_14" xml:id="start_com_0782"/>Famielie<ref xml:id="end_com_0782"/>, und <ref target="gb:note#GB03_2_BR077_0_note_004_50_14" xml:id="start_com_0783"/>Beckern<ref xml:id="end_com_0783"/>. Vergessen Sie <ref target="gb:note#GB03_2_BR077_0_note_005_50_14" xml:id="start_com_0784"/>die Abgüsse<ref xml:id="end_com_0784"/>
+        <anchor xml:id="GB03_1_BR077_0_050_015"/>nicht und schicken sie<ptr n="1" target="#a001_50.15"/> bald. Der Herzog hat auf meine Beschreibung 
+<anchor xml:id="GB03_1_BR077_0_050_016"/>Lust zu <ref target="gb:note#GB03_2_BR077_0_note_006_50_16" xml:id="start_com_0785"/>den Snayers<ref xml:id="end_com_0785"/> gekriegt, man muss sehn wie sie ihm gegenwärtig 
+<anchor xml:id="GB03_1_BR077_0_050_017"/>behagen. Drum bitt ich Sie, mir sie wohl <hi rendition="#hervor1">gesaübert</hi> und wohl gepackt 
+<anchor xml:id="GB03_1_BR077_0_050_018"/>mit dem Postwagen zu übersenden. – Ich habe Leipzig ungern 
+<anchor xml:id="GB03_1_BR077_0_050_019"/>verlassen, – <ref target="gb:note#GB03_2_BR077_0_note_007_50_19" xml:id="start_com_0786"/>M. Becker soll mir manchmal schreiben.<ref xml:id="end_com_0786"/>
+      </p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR077_0_050_020"/>Weimar d<g ref="#typoSuspension"/>. 6. Apr. 1776.</dateline>
+        <anchor xml:id="GB03_1_BR077_0_050_021"/>
+        <lb/><signed rend="signature" rendition="#einrueck22">Goethe.</signed>
+        <lb/><dateline rendition="#einrueck23">
+          <anchor xml:id="GB03_1_BR077_0_050_022"/>
+          <graphic url="gb:digitalisate#11191/70157"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11191/12185" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11191_comment">
+<body>
+<div type="metadata" xml:id="gb11191_comment_com65">
+  <ab type="numberAddressee"><label>77.</label> An <persName key="sndb:person#40055">Adam Friedrich Oeser</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. April 1776 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11191_comment_com2109">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8445">GSA 29/364,I</ref>, Bl. 6. – 1 Bl. 10,6(–10,8) × 16,8 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; Rs. Siegelrest; Empfangsvermerk, Tinte: „Göthe Aprl: 76.“</p>
+  <p>E: <ref target="sndb:sigle#2879">Goethes Briefe an Leipziger Freunde</ref> (1849), 126, Nr 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 49, Nr 432.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11191_comment_com3905">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Über Adam Friedrich Oeser (1717–1799) und dessen Verhältnis zu Goethe sowie deren Briefwechsel vgl. die einleitende Erläuterung zum Brief vom 13. September 1768 (<ref target="gb:note#gb10273_comment_com22599">GB 1 II, Nr 44</ref>).</p>
+  <p>Goethes ehemaliger Leipziger Zeichenlehrer und Direktor der Leipziger Zeichenakademie war bereits durch seine Tätigkeit für Heinrich von Bünau in Oßmannstedt und als Berater des Weimarer Ministers und Präsidenten des Geheimen Consiliums Jacob Friedrich von Fritsch beim Bau seines Stadthauses (später Wittumspalais) in Weimar bekannt. Durch Fritsch 1775 am Hof eingeführt, stand Oeser vor Goethes Ankunft in Weimar u. a. mit Carl Ludwig von Knebel in Kontakt, den er später maßgeblich bei der Gestaltung des Tiefurter Landschaftsparks beriet (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_050_68_22-23">68,22-23</ref>). In Weimar war Oeser wiederholt zu Gast, so u. a. am <ref target="gt:dokument#243">25.</ref> und <ref target="gt:dokument#244">26.</ref> Dezember 1776 (vgl. GT I 1, 31), und auch Goethe besuchte ihn mehrmals in Leipzig (vgl. <ref target="gb:text#GB03_1_BR072_0_048_021 #GB03_1_BR072_0_049_002">48,21–49,2</ref>). Oeser schuf Theaterdekorationen für das Weimarer Liebhabertheater, Monumente im Park an der Ilm und in Tiefurt sowie Deckengemälde im Wittumspalais und im Gartenpavillon des Palais (dem so genannten Roten Turm, der später neben die Orangerie in Belvedere versetzt wurde). Außerdem war er am Entwurf des am 5. April 1777 in Goethes Garten eingeweihten „Stein des guten Glücks“ (vgl. zu <ref target="gb:note#GB03_2_BR208_0_note_011_125_12">125,12</ref>) beteiligt. – Die drei im vorliegenden Band mitgeteilten Briefe Goethes an Oeser (<ref target="gb:dokument#11191">Nr 77</ref>, <ref target="gb:dokument#11447">208</ref>, <ref target="gb:dokument#11698">372</ref>) stammen aus den Jahren 1777, 1778 und 1779. Sie handeln hauptsächlich von Kunstgegenständen, die Oeser anfertigen oder besorgen sollte. Von Oeser sind aus diesem Zeitraum Antwortbriefe auf Goethes Brief vom 7. Januar 1777 (<ref target="gb:dokument#11447">Nr 208</ref>; vgl. <ref target="ra:dokument#85">RA 1, 69, Nr 78</ref> und <ref target="ra:dokument#86">RA 6 II, 273, Nr 78a</ref>) und ein Brief vom 9. Mai 1779 überliefert, in dem es um die Deckengemälde im Wittumspalais geht (vgl. <ref target="ra:dokument#106">RA Erg.-Bd 1–5, 542, Nr 1/94a<hi rendition="#sup">+</hi></ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11191_comment_com10568">
+<label xml:id="GB03_2_BR077_0_note_001_50_12" copyOf="#start_com_0780"><hi rendition="#fett">50,12</hi>Ich bin verschwunden wie ich erschienen bin.</label>
+<p>Goethe hatte sich vom 24. März bis zum 4. April 1776 in Leipzig aufgehalten (vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_001_43_1">43,1</ref>), wo er auch Oeser und dessen Familie besuchte. Am 26. März 1776 berichtete Goethe dem Herzog, dass er in Oeser <quote type="G">wieder ganz den alten, lieben, guten Menschen, und wahrhafften Künstler wiedergefunden</quote> habe (<ref target="gb:text#GB03_1_BR072_0_048_022 #GB03_1_BR072_0_049_002">48,22–49,2</ref>; vgl. auch <ref target="gb:text#GB03_1_BR071_0_048_014 #GB03_1_BR071_0_048_015">48,14–15</ref> und zu <ref target="gb:note#GB03_2_BR071_0_note_003_48_14-15">48,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11191_comment_com10569">
+<label xml:id="GB03_2_BR077_0_note_002_50_13" copyOf="#start_com_0781"><hi rendition="#fett">50,13</hi>in <emph rendition="#latin">saecla saeclorum</emph></label>
+<p>Lat. in saecula saeculorum: bis in alle Ewigkeit; von Ewigkeit zu Ewigkeit. – Bestandteil der lateinischen Liturgie.</p>
+
+</note>
+<note xml:id="gb11191_comment_com15936">
+<label xml:id="GB03_2_BR077_0_note_003_50_14" copyOf="#start_com_0782"><hi rendition="#fett">50,14</hi>Famielie</label>
+<p>Oeser war seit 1745 mit Rosine Elisabeth geb. Hohburg verheiratet. Das Ehepaar hatte acht Kinder, von denen vier das Erwachsenenalter erreichten (vgl. <ref target="gb:note#GB01_2_BR044_0_note_011_133_8">GB 1 II, zu 133,8</ref>). Die unverheiratete Tochter Friederike blieb im Haus der Eltern (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11649_comment_com22609">GB 1 II, Nr 48</ref>). Der ältere Sohn Johann Friedrich Ludwig war seit 1774 in Dresden. Die jüngere Tochter Wilhelmine (geb. 1755) könnte noch im Haus gewesen sein. Sie heiratete erst 1787 den Leipziger Kupferstecher Christian Gottlieb Geyser. Der jüngste Sohn Carl (geb. 1756) wurde Fecht- und Zeichenmeister in Russland.</p>
+
+</note>
+<note xml:id="gb11191_comment_com17760">
+<label xml:id="GB03_2_BR077_0_note_004_50_14" copyOf="#start_com_0783"><hi rendition="#fett">50,14</hi>Beckern</label>
+<p>Wahrscheinlich der spätere Schriftsteller und Kunsthistoriker Wilhelm Gottlieb Becker. Becker machte während seines Jurastudiums von 1773 bis 1776 in Leipzig die Bekanntschaft Oesers, der ihn in die Literatur und die schönen Künste einführte. Goethe wird Becker, der 1777 eine Stellung im Philanthropin in Dessau annahm, während seines Aufenthalts in Leipzig in Oesers Haus noch begegnet sein (vgl. zu <ref target="gb:note#GB03_2_BR077_0_note_001_50_12">50,12</ref>). 1782 wurde Becker Professor für Moralphilosophie und Geschichte an der Ritterakademie in Dresden, 1795 Inspektor des Münzkabinetts und der Antikengalerie und 1804 des Grünen Gewölbes. Am 26. Mai 1776 schrieb Becker an Lenz: „Göthe ist mir sehr lieb, und dazu mein Freund; <gap quantity="3" reason="editorial"/> denn er hat mich doch ein wenig kennen lernen.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 260 f.)</p>
+
+</note>
+<note xml:id="gb11191_comment_com10579">
+<label xml:id="GB03_2_BR077_0_note_005_50_14" copyOf="#start_com_0784"><hi rendition="#fett">50,14</hi>die Abgüsse</label>
+<p>Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11191_comment_com16129">
+<label xml:id="GB03_2_BR077_0_note_006_50_16" copyOf="#start_com_0785"><hi rendition="#fett">50,16</hi>den Snayers</label>
+<p>Am 10. Januar 1777 schrieb Oeser an Goethe: „Eine frohe Nachricht habe ich der Familie, welchen die Schneyers gehörten durch die gewißheit daß der Durch<g ref="#typoSuspension"/> Herzog selbige behällt, gemacht, könnte ich denselben noch sagen wenn die bezahlung erfolgte so würde die Freude desto größer seyn“ (Brief vollständig abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb11447_comment_com84649">Nr 208</ref>). Am 2. Juni 1777 stellte Oeser für die herzogliche Schatulle eine Quittung über erhaltene 400 Reichstaler „Für Vier Gemählde von Sneyers“ aus (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1065, Bl. 282). In der Jahresrechnung der herzoglichen Schatulle vom 1. Oktober 1776 bis 1. Oktober 1777 werden diese Gemälde als „große Thier Stücke von Sneyers“ bezeichnet (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1064, Bl. 18). – Möglicherweise handelt es sich um Gemälde des flämischen Malers Pieter Snayers, der neben seinen Schlachtendarstellungen auch Jagdstücke malte, oder um Tierbilder des flämischen Stillleben- und Tiermalers Frans Snyders, eines Zeitgenossen und Mitarbeiters von Peter Paul Rubens.</p>
+
+</note>
+<note xml:id="gb11191_comment_com10580">
+<label xml:id="GB03_2_BR077_0_note_007_50_19" copyOf="#start_com_0786"><hi rendition="#fett">50,19</hi>M. Becker soll mir manchmal schreiben.</label>
+<p>‚M.‘ für ‚Monsieur‘. – Briefe Beckers an Goethe aus dieser Zeit sind nicht überliefert. Der erste überlieferte Brief Beckers stammt vom 4. Dezember 1795 (vgl. <ref target="ra:dokument#1541">RA 1, 444, Nr 1501</ref>). Goethe schrieb wahrscheinlich am 2. Mai 1776 an ihn (vgl. <ref target="gb:dokument#15767">EB 66</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

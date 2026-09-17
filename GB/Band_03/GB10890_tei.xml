@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1350"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10890" n="GB 3, Nr. 134">
+  <teiHeader xml:id="gb10890_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>134.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 23. Juni 1776. Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:55Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10890_tei.xml</idno>
+        <idno type="URI">gb10890</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR134_0</idno>
+        <idno type="KSW-ID">10890</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="77" to="78">77-78</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="300" to="301">300-301</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10890_header_hwit1010" corresp="#gb10890_source_hwit1010" sameAs="#gb10890_comment_hwit1010" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 26</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10890,,1010/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich hab meine Glieder in Stern geschleppt, Sie noch zu sehn und Einen Tropfen Anodynum</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-23"><supplied>23. Juni 1776</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-06-23"><supplied>23. Juni 1776</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-06-24"><supplied>24. Juni 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10890_source_hwit1010" corresp="#gb10890_header_hwit1010" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10890/22391"/>
+      <p>
+        <anchor xml:id="GB03_1_BR134_0_077_019"/>Ich hab meine Glieder in <ref target="gb:note#GB03_2_BR134_0_note_001_77_19" xml:id="start_com_1220"/>Stern<ref xml:id="end_com_1220"/>
+        <ref target="gb:note#GB03_2_BR134_0_note_002_77_19" xml:id="start_com_1221"/>geschleppt<ref xml:id="end_com_1221"/>, <ref target="gb:note#GB03_2_BR134_0_note_003_77_19" xml:id="start_com_1222"/>sie noch zu sehn<ref xml:id="end_com_1222"/>, und 
+<anchor xml:id="GB03_1_BR134_0_077_020"/>Einen <ref target="gb:note#GB03_2_BR134_0_note_004_77_20" xml:id="start_com_1223"/>Trpfen<ref xml:id="end_com_1223"/>
+        <ref target="gb:note#GB03_2_BR134_0_note_005_77_20" xml:id="start_com_1224"/>Anodynum<ref xml:id="end_com_1224"/> aus Ihren Augen zu trincken. Sie waren 
+<anchor xml:id="GB03_1_BR134_0_077_021"/>nicht da und ich zog mich zu <ref target="gb:note#GB03_2_BR134_0_note_006_77_21" xml:id="start_com_1225"/>Wiel.<ref xml:id="end_com_1225"/> und <ref target="gb:note#GB03_2_BR134_0_note_007_77_21" xml:id="start_com_1226"/>nach haus<ref xml:id="end_com_1226"/>, nun fühl ich dass 
+<anchor xml:id="GB03_1_BR134_0_077_022"/>ich müd bin. Ach <ref target="gb:note#GB03_2_BR134_0_note_008_77_22" xml:id="start_com_1227"/>Ihre Gesandten<ref xml:id="end_com_1227"/>! – Liebe Frau. <ref target="gb:note#GB03_2_BR134_0_note_009_77_22" xml:id="start_com_1228"/>Lenz<ref xml:id="end_com_1228"/> hat die Kirsche 
+<anchor xml:id="GB03_1_BR134_0_077_023"/>verwahrlost! hat mir sie nicht gegeben, mir nicht den Kern nicht den 
+<anchor xml:id="GB03_1_BR134_0_077_024"/>Stiel gegeben. Mir der ich <ref target="gb:note#GB03_2_BR134_0_note_010_77_24" xml:id="start_com_1229"/>in all dem Tumult<ref xml:id="end_com_1229"/> so offt an Sie gedacht 
+<anchor xml:id="GB03_1_BR134_0_078_001"/>habe. – Hat mir nichts davon gesagt biss heute – Gute Nacht. Bleiben 
+<anchor xml:id="GB03_1_BR134_0_078_002"/>Sie mir immer die liebe,<ptr n="1" target="#a001_78.2"/> unveränderliche <ref target="gb:note#GB03_2_BR134_0_note_011_78_2-3" xml:id="start_com_7406"/>von Ewigk. zu Ewigk. 
+<anchor xml:id="GB03_1_BR134_0_078_003"/>Amen.<ref xml:id="end_com_7406"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10890_comment">
+<body>
+<div type="metadata" xml:id="gb10890_comment_com691">
+  <ab type="numberAddressee"><label>134.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>23. Juni 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10890_comment_com1719">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der Brief vor <ref target="gb:dokument#11105">Nr 147</ref> vom 2. August 1776 eingeordnet. Das Jahr wird durch die Erwähnung von Jacob Michael Reinhold Lenz (vgl. <ref target="gb:text#GB03_1_BR134_0_077_022">77,22</ref>) bestätigt, der sich nur 1776 in Weimar aufhielt, und zwar von April bis November. Im Erstdruck wird der Brief auf Anfang September 1776, seit Fielitz auf die Zeit kurz vor Charlotte von Steins Abreise nach Pyrmont am 25. Juni 1776 datiert (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 40, Nr 69). Für die Datierung in den Juni spricht die Erwähnung der <quote type="G">Kirsche</quote> (<ref target="gb:text#GB03_1_BR134_0_077_022">77,22</ref>). Inhaltliche Parallelen zu Goethes Tagebuch vom 23. Juni 1776 verweisen darauf, dass der Brief an diesem Tag geschrieben wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR134_0_note_006_77_21">77,21</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR134_0_note_009_77_22">77,22</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10890_comment_com2735">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 26. – 1 Bl. 17,1(–17,3) × 10(–10,2) cm, &#xBE; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „67.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 67), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 57.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 77 f., Nr 480.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10890_comment_com4531">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10890_comment_com17567">
+<label xml:id="GB03_2_BR134_0_note_001_77_19" copyOf="#start_com_1220"><hi rendition="#fett">77,19</hi>Stern</label>
+<p>Der älteste, schon im 16. Jahrhundert entstandene Teil des Schlossparks, der sich von der Schloss- oder Sternbrücke am östlichen Ilmufer in südlicher Richtung erstreckte und in dessen unmittelbarer Nähe sich auch Goethes Garten befand. Der Name erinnert noch an die ursprünglich für die Jagd sternförmig angelegten Schneisen (vgl. zu <ref target="gb:note#GB03_2_BR144_0_note_016_86_22-23">86,22-23</ref>; zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb10890_comment_com10017">
+<label xml:id="GB03_2_BR134_0_note_002_77_19" copyOf="#start_com_1221"><hi rendition="#fett">77,19</hi>geschleppt</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_002_77_5">77,5</ref>.</p>
+
+</note>
+<note xml:id="gb10890_comment_com10018">
+<label xml:id="GB03_2_BR134_0_note_003_77_19" copyOf="#start_com_1222"><hi rendition="#fett">77,19</hi>sie noch zu sehn</label>
+<p>Wenn der Brief am 23. Juni 1776 geschrieben wurde, dann ist damit gemeint, ‚Sie noch einmal zu sehen‘, da Goethe an diesem Tag mit Charlotte von Stein gegessen hatte (vgl. <ref target="gt:dokument#78">GT I 1, 19</ref>).</p>
+
+</note>
+<note xml:id="gb10890_comment_com10019">
+<label xml:id="GB03_2_BR134_0_note_004_77_20" copyOf="#start_com_1223"><hi rendition="#fett">77,20</hi>Trpfen</label>
+<p>Versehentlich für ‚Tropfen‘.</p>
+
+</note>
+<note xml:id="gb10890_comment_com10020">
+<label xml:id="GB03_2_BR134_0_note_005_77_20" copyOf="#start_com_1224"><hi rendition="#fett">77,20</hi>Anodynum</label>
+<p>Schmerzlinderndes, schmerzstillendes Mittel.</p>
+
+</note>
+<note xml:id="gb10890_comment_com17571">
+<label xml:id="GB03_2_BR134_0_note_006_77_21" copyOf="#start_com_1225"><hi rendition="#fett">77,21</hi>Wiel.</label>
+<p>Wieland; vgl. dazu Goethes Tagebuch vom 23. Juni 1776: <quote type="G">In wielands Garten <hi rendition="#hervor1">Ryno</hi> herrlicher Abend mit W. und Lenz, von Vergangenheiten. Silhouetten</quote> (<ref target="gt:dokument#78">GT I 1, 19</ref>).</p>
+
+</note>
+<note xml:id="gb10890_comment_com10021">
+<label xml:id="GB03_2_BR134_0_note_007_77_21" copyOf="#start_com_1226"><hi rendition="#fett">77,21</hi>nach haus</label>
+<p>Wahrscheinlich schon in die Stadtwohnung im Haus des Hofkassierers König am Burgplatz, die Goethe in dieser Zeit bezogen haben muss (vgl. <ref target="sndb:sigle#1266/761">Burkhardt, Goethes Stadtwohnungen in Weimar</ref>, 245).</p>
+
+</note>
+<note xml:id="gb10890_comment_com10022">
+<label xml:id="GB03_2_BR134_0_note_008_77_22" copyOf="#start_com_1227"><hi rendition="#fett">77,22</hi>Ihre Gesandten</label>
+<p>Darunter wahrscheinlich der im Folgenden genannte Lenz.</p>
+
+</note>
+<note xml:id="gb10890_comment_com10034">
+<label xml:id="GB03_2_BR134_0_note_009_77_22" copyOf="#start_com_1228"><hi rendition="#fett">77,22</hi>Lenz</label>
+<p>Lenz hielt sich noch bis zum 27. Juni 1776 in Weimar auf, bevor er sich nach Berka zurückzog (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR125_0_note_001_74_11">74,11</ref>). Dass Goethe am 23. Juni gemeinsam mit ihm in Wielands Garten war, bestätigt das Tagebuch (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR134_0_note_006_77_21">77,21</ref>).</p>
+
+</note>
+<note xml:id="gb10890_comment_com10035">
+<label xml:id="GB03_2_BR134_0_note_010_77_24" copyOf="#start_com_1229"><hi rendition="#fett">77,24</hi>in all dem Tumult</label>
+<p>Wahrscheinlich im Zusammenhang mit Goethes Ernennung zum Geheimen Legationsrat und der bevorstehenden Amtseinführung am 25. Juni 1776 (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_002_81_23">81,23</ref>). In diesen Tagen fand außerdem Goethes Umzug in die Wohnung am Burgplatz statt.</p>
+
+</note>
+<note xml:id="gb10890_comment_com10036">
+<label xml:id="GB03_2_BR134_0_note_011_78_2-3" copyOf="#start_com_7406"><hi rendition="#fett">78,2-3</hi>von Ewigk. zu Ewigk. Amen.</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR077_0_note_002_50_13">50,13</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

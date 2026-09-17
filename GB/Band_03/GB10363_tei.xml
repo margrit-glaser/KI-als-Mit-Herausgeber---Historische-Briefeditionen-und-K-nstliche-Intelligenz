@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8510"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10363" n="GB 3, Nr. A 1">
+  <teiHeader xml:id="gb10363_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>A 1.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 9. Februar 1779. Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:35Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10363_tei.xml</idno>
+        <idno type="URI">gb10363</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_AB001_0</idno>
+        <idno type="KSW-ID">10363</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="433" to="436">433-436</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1085" to="1089">1085-1089</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10363_header_hwit1434" corresp="#gb10363_source_hwit1434" sameAs="#gb10363_comment_hwit1434" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Großherzogliches Hausarchiv A XIX. Nr. 42</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10363,,1434/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Nach der Antwort des Königs in Preusen Maj. worinn derselbe solche Gründe hinzulegen glaubt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-02-09"><supplied>9. Februar 1779</supplied></date>
+            <note>
+              <date type="WA" from="1779-01-21" to="1779-01-31"><supplied>Ende Januar 1779</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10363_source_hwit1434" corresp="#gb10363_header_hwit1434" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10363/25878"/>
+      <opener>
+        <salute rendition="#einrueck3">
+          <anchor xml:id="GB03_1_AB001_0_433_001"/>Gnädigster Herr,</salute>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_AB001_0_433_002"/>Nach der <ref target="gb:note#GB03_2_AB001_0_note_001_433_2" xml:id="start_com_5181"/>Antwort des <ref target="gb:note#GB03_2_AB001_0_note_002_433_2" xml:id="start_com_5182"/>Königs<ref xml:id="end_com_5181"/> in Preusen Maj.<ref xml:id="end_com_5182"/> worinn derselbe solche 
+<anchor xml:id="GB03_1_AB001_0_433_003"/>Gründe <ref target="gb:note#GB03_2_AB001_0_note_003_433_3" xml:id="start_com_5183"/>hinzulegen<ref xml:id="end_com_5183"/> glaubt, die Ew Durch<g ref="#typoSuspension"/> bewegen sollen, ihm <ref target="gb:note#GB03_2_AB001_0_note_004_433_3-4" xml:id="start_com_5184"/>die verlangte 
+<anchor xml:id="GB03_1_AB001_0_433_004"/>Werbung<ref xml:id="end_com_5184"/> in Ihren Landen zu gestatten, und es als gewiss anzunehmen 
+<anchor xml:id="GB03_1_AB001_0_433_005"/>scheint, dass man sich mit dem <ref target="gb:note#GB03_2_AB001_0_note_005_433_5" xml:id="start_com_5185"/>General Mollendorf<ref xml:id="end_com_5185"/> besprechen 
+<anchor xml:id="GB03_1_AB001_0_433_006"/>und eine <ref target="gb:note#GB03_2_AB001_0_note_006_433_6" xml:id="start_com_5186"/>Auskunft<ref xml:id="end_com_5186"/> zu treffen wissen werde, bleibt nach aller Uberzeugung 
+<anchor xml:id="GB03_1_AB001_0_433_007"/>nichts übrig, als dass man eine baldige und feste Entschliesung 
+<anchor xml:id="GB03_1_AB001_0_433_008"/>fasse, <ref target="gb:note#GB03_2_AB001_0_note_007_433_8-9" xml:id="start_com_5187"/>welchen Theil man ergreiffen und wie man sich auf ein oder die 
+<anchor xml:id="GB03_1_AB001_0_433_009"/>andre Weise betragen wolle<ref xml:id="end_com_5187"/>? Man hat vorläufig am besten zu seyn geglaubt 
+<anchor xml:id="GB03_1_AB001_0_433_010"/>wenn man beyde unangenehme Seiten gegenwärtiger Lage, natürlich 
+<anchor xml:id="GB03_1_AB001_0_433_011"/>gegen einander stellte, das zwiefache Benehmen wovon man eins 
+<anchor xml:id="GB03_1_AB001_0_433_012"/>zu wählen hat ohnübertrieben hinlegte, und die Folgen eines ieden 
+<anchor xml:id="GB03_1_AB001_0_433_013"/>überdächte, so weit man sie mit einem zwar uneingenommnen, aber 
+<anchor xml:id="GB03_1_AB001_0_433_014"/>freilich immer beschränckten Geiste vorauszusehen im Stande ist.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_433_015"/>Gesezt also man fügt sich dem Begehren des Konigs, so kan es entweder 
+<anchor xml:id="GB03_1_AB001_0_433_016"/>geschehen wenn man ihm die Werbung erlaubt, oder mit dem General 
+<anchor xml:id="GB03_1_AB001_0_433_017"/>Möllendorf auf eine gewisse Anzahl abzugebender Mannschafft 
+<anchor xml:id="GB03_1_AB001_0_433_018"/>übereinkommt, und auch diese entweder durch die Preusen <ref target="gb:note#GB03_2_AB001_0_note_008_433_18" xml:id="start_com_5188"/>ausnehmen<ref xml:id="end_com_5188"/><ptr n="1" target="#a001_433.18"/>
+        <anchor xml:id="GB03_1_AB001_0_433_019"/>lässt oder sie selbst ausnimmt und sie ihnen überliefert. <pb n="2" facs="gb:digitalisate#10363/25879"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_433_020"/>Erwählt man das erste, so werden diese gefährliche Leute sich 
+<anchor xml:id="GB03_1_AB001_0_433_021"/>festsetzen<ptr n="2" target="#a002_433.21"/>, und überall Wurzel fassen, sie werden auf alle Weise die beste iunge 
+<anchor xml:id="GB03_1_AB001_0_433_022"/>Mannschafft an sich zu ziehen suchen, sie werden mit List und heimlicher 
+<anchor xml:id="GB03_1_AB001_0_433_023"/>Gewalt eine grose Anzahl wegnehmen, sie werdens an nichts fehlen 
+<anchor xml:id="GB03_1_AB001_0_433_024"/>lassen<ptr n="3" target="#a003_433.24"/> selbst die Soldaten Ew Durch<g ref="#typoSuspension"/> untreu zu machen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_433_025"/>Will man mit dem General Möllendorf auf eine gewisse Anzahl übereinkommen, 
+<anchor xml:id="GB03_1_AB001_0_433_026"/>und ihnen etwa selbst überlassen die iunge Mannschafft 
+<anchor xml:id="GB03_1_AB001_0_433_027"/>nach gewissen zu fertigenden <ref target="gb:note#GB03_2_AB001_0_note_009_433_27" xml:id="start_com_5189"/>Verzeichnissen aus den Aemtern<ref xml:id="end_com_5189"/> auszuheben, 
+<anchor xml:id="GB03_1_AB001_0_433_028"/>so kan man nicht versichert seyn dass es dabey bleiben wird. Ein 
+<anchor xml:id="GB03_1_AB001_0_433_029"/>und der andre der es merckt wird <ref target="gb:note#GB03_2_AB001_0_note_010_433_29" xml:id="start_com_5190"/>austreten<ref xml:id="end_com_5190"/>, sie werden statt dessen nach 
+<anchor xml:id="GB03_1_AB001_0_433_030"/>andern greifen, es werden Händel entstehen, und sie werden davon Anlas 
+<anchor xml:id="GB03_1_AB001_0_433_031"/>nehmen, was man mit ihnen ausgemacht hat zu überschreiten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_433_032"/>Will man endlich sich entschliessen eine Auswahl selbst zu machen 
+<anchor xml:id="GB03_1_AB001_0_433_033"/>und ihnen die Leute auszuliefern; so ist darinn wohl fürs ganze das geringste 
+<anchor xml:id="GB03_1_AB001_0_433_034"/>übel aber doch bleibt auch dieses, ein unangenehmes verhasstes 
+<anchor xml:id="GB03_1_AB001_0_434_001"/>und schaamvolles Geschäfft. Und wahrscheinlich ist man mit allem diesem 
+<anchor xml:id="GB03_1_AB001_0_434_002"/>doch nicht am Ende des Verdrusses. Diese mit Gewalt in<ptr n="4" target="#a004_434.2"/> fremde 
+<anchor xml:id="GB03_1_AB001_0_434_003"/>Hände gegebne Leute, werden in kurzem desertiren, und in ihr Vaterland 
+<anchor xml:id="GB03_1_AB001_0_434_004"/>zurückkehren, die Preusen werden sie wieder fordern, im Fall sie 
+<anchor xml:id="GB03_1_AB001_0_434_005"/>fehlen, austreten oder sich ver<pb n="3" facs="gb:digitalisate#10363/25880"/>bergen, an ihrer Stelle andre wegnehmen. 
+<anchor xml:id="GB03_1_AB001_0_434_006"/>Diese Plage wird mit iedem Herbste wiederkommen. Wie sie sich gewiss 
+<anchor xml:id="GB03_1_AB001_0_434_007"/>auch nicht begnügen werden, wenn man ihnen einmal Mannschafft 
+<anchor xml:id="GB03_1_AB001_0_434_008"/>stellt, mit iedem Frühiahr werden sie diese Anforderungen erneuen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_434_009"/>Dagegen wird man <ref target="gb:note#GB03_2_AB001_0_note_011_434_9" xml:id="start_com_5191"/>von kayserlicher Seite<ref xml:id="end_com_5191"/> diesen Schritt den man so 
+<anchor xml:id="GB03_1_AB001_0_434_010"/>sehr wider willen gethan gewiss übel aufnehmen. Man wird sie niemals 
+<anchor xml:id="GB03_1_AB001_0_434_011"/>überreden können dass man so nothgedrungen, und so ungern eine solche 
+<anchor xml:id="GB03_1_AB001_0_434_012"/>Entschliesung ergriffen hat. <ref target="gb:note#GB03_2_AB001_0_note_012_434_12" xml:id="start_com_5192"/>Der alte Verdacht<ref xml:id="end_com_5192"/> den man gegen <ref target="gb:note#GB03_2_AB001_0_note_013_434_12-13" xml:id="start_com_5193"/>die sachsischen 
+<anchor xml:id="GB03_1_AB001_0_434_013"/>Häuser<ptr n="5" target="#a005_434.13"/>
+        <ref xml:id="end_com_5193"/> hegt, dass sie wenig Neigung für das Oestreichische haben, 
+<anchor xml:id="GB03_1_AB001_0_434_014"/>wird wieder rege werden, und es wird dem kayserlichen Hofe an Gelegenheit 
+<anchor xml:id="GB03_1_AB001_0_434_015"/>nicht fehlen, dem fürstlichen Haus manches unangenehme fühlen 
+<anchor xml:id="GB03_1_AB001_0_434_016"/>zu lassen. Das nächste was zu befürchten steht, ist dass sie gleichfalls Werbung 
+<anchor xml:id="GB03_1_AB001_0_434_017"/>in den fürst<g ref="#typoSuspension"/> Landen einzulegen verlangen so dass man von beyden 
+<anchor xml:id="GB03_1_AB001_0_434_018"/>Seiten wird gedrängt seyn und die oben hererzählte Verdrüsslichkeiten 
+<anchor xml:id="GB03_1_AB001_0_434_019"/>doppelt, ia dreyfach auszustehen haben wird, weil dieser Theil alsdenn 
+<anchor xml:id="GB03_1_AB001_0_434_020"/>wohl nicht mit Schoonung verfahren mag, die man doch immer von den 
+<anchor xml:id="GB03_1_AB001_0_434_021"/>Preussen wenn man mit ihnen übereinkommen wollte,<ptr n="6" target="#a006_434.21"/> zu hoffen hätte.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_434_022"/>Will man nun um diesem Ubel auszuweichen die andre Seite ergreifen, 
+<anchor xml:id="GB03_1_AB001_0_434_023"/>und des Konigs Gründen womit er seinen An<pb n="4" facs="gb:digitalisate#10363/25881"/>trag unterstüzzt kein 
+<anchor xml:id="GB03_1_AB001_0_434_024"/>Gehör geben, so würde man folgende<ptr n="7" target="#a007_434.24"/> Maasregeln zu ergreifen haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_434_025"/>Gegenwartig kan man stille seyn und<ptr n="8" target="#a008_434.25"/> abwarten, was der Gen. Mollendorf 
+<anchor xml:id="GB03_1_AB001_0_434_026"/>entweder schrifftlich oder durch einen Offizier hierher gelangen lässt, 
+<anchor xml:id="GB03_1_AB001_0_434_027"/>da er auf <ref target="gb:note#GB03_2_AB001_0_note_014_434_27" xml:id="start_com_5194"/>das lezte an ihn erlassne Schreiben<ref xml:id="end_com_5194"/> noch eine <ref target="gb:note#GB03_2_AB001_0_note_015_434_27" xml:id="start_com_5195"/>Antwort<ref xml:id="end_com_5195"/> schuldig 
+<anchor xml:id="GB03_1_AB001_0_434_028"/>ist. Nach den neusten Nachrichten befindet er sich mit seinem <ref target="gb:note#GB03_2_AB001_0_note_016_434_28" xml:id="start_com_5196"/>Chor<ref xml:id="end_com_5196"/> wieder 
+<anchor xml:id="GB03_1_AB001_0_434_029"/>in Böhmen, der <ref target="gb:note#GB03_2_AB001_0_note_017_434_29" xml:id="start_com_5197"/>Leutnant Reinbaben<ref xml:id="end_com_5197"/> ist abgegangen und der <ref target="gb:note#GB03_2_AB001_0_note_018_434_29-30" xml:id="start_com_5198"/>Leutnant 
+<anchor xml:id="GB03_1_AB001_0_434_030"/>
+        <emph rendition="#latin">Monteton</emph>
+        <ref xml:id="end_com_5198"/> trifft wohl vor Ende des Monats nicht wieder ein; dadurch 
+<anchor xml:id="GB03_1_AB001_0_434_031"/>scheint man eine kleine Frist zu gewinnen, die man ia wohl zu nuzzen hat.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_434_032"/>Zuerst wird man <ref target="gb:note#GB03_2_AB001_0_note_019_434_32-33" xml:id="start_com_5199"/>an Hanover, Maynz Gotha, die übrigen Sachsischen 
+<anchor xml:id="GB03_1_AB001_0_434_033"/>Höfe schreiben<ref xml:id="end_com_5199"/>, und ihnen vorlegen, dass es Ew. Durch<g ref="#typoSuspension"/> bey gegenwärtigen 
+<anchor xml:id="GB03_1_AB001_0_434_034"/>Umständen, Pflicht, Gesinnung und Wunsch sey, Ihre<ptr n="9" target="#a009_434.34"/> Lande und 
+<anchor xml:id="GB03_1_AB001_0_434_035"/>Unterthanen vor den Beschweerden des benachbaarten Kriegs auf das 
+<anchor xml:id="GB03_1_AB001_0_434_036"/>möglichste zu schüzzen, und an denen öffentlichen Angelegenheiten 
+<anchor xml:id="GB03_1_AB001_0_434_037"/>keinen Theil als gesammt mit den übrigen <ref target="gb:note#GB03_2_AB001_0_note_020_434_37" xml:id="start_com_5200"/>Ständen des Reichs<ref xml:id="end_com_5200"/> zu nehmen, 
+<anchor xml:id="GB03_1_AB001_0_434_038"/>Sie seyen es gewiss <ref target="gb:note#GB03_2_AB001_0_note_021_434_38-435_1" xml:id="start_com_5201"/>dass an iedem Hofe eben<ptr n="10" target="#a010_434.38"/> solche Gesinnungen 
+<anchor xml:id="GB03_1_AB001_0_435_001"/>herschten<ref xml:id="end_com_5201"/>, und um desto mehr sey es zu bedauern, dass ohnerachtet dieser 
+<anchor xml:id="GB03_1_AB001_0_435_002"/>innerlichen Ubereinstimmung man sich bisher nach einem gemeinschafftlichen 
+<anchor xml:id="GB03_1_AB001_0_435_003"/>Plan zu handeln noch nicht habe verstehen konnen, 
+<anchor xml:id="GB03_1_AB001_0_435_004"/>Durch<g ref="#typoSuspension"/> seyen <pb n="5" facs="gb:digitalisate#10363/25882"/> iezzo durch einen Vorgang bewogen mehr als iemals <ref target="gb:note#GB03_2_AB001_0_note_022_435_4-5" xml:id="start_com_5202"/>ein 
+<anchor xml:id="GB03_1_AB001_0_435_005"/>näheres Band mit den übrigen Fürsten<ref xml:id="end_com_5202"/> zu wünschen und eine neue 
+<anchor xml:id="GB03_1_AB001_0_435_006"/>Uberlegung der so nothwendigen Vereinigung unter sich zu veranlassen, 
+<anchor xml:id="GB03_1_AB001_0_435_007"/>da man preusischer Seits die Werbung in Ihren Landen neuerdings verlangt 
+<anchor xml:id="GB03_1_AB001_0_435_008"/>habe. So wenig Sie im Falle seyen diese Fordrung wenn sie durchgesezzt<ptr n="11" target="#a011_435.9"/>
+        <anchor xml:id="GB03_1_AB001_0_435_009"/>werden wollte mit Nachdruck abzuweisen, so sehr wünschten 
+<anchor xml:id="GB03_1_AB001_0_435_010"/>Sie durch eine Verbindung<ptr n="12" target="#a012_435.10"/> mit wohlgesinnten <ref target="gb:note#GB03_2_AB001_0_note_023_435_10" xml:id="start_com_5203"/>Mitständen<ref xml:id="end_com_5203"/>, deren Länder 
+<anchor xml:id="GB03_1_AB001_0_435_011"/>diesen, oder ähnlichen Unannehmlichkeiten ausgesezt seyen, solchen<ptr n="13" target="#a013_435.11"/> 
+<anchor xml:id="GB03_1_AB001_0_435_012"/>Zumutungen sich standhafft widersezzen zu konnen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_435_013"/>Dieser Schritt kann auf ieden Fall sogleich gethan werden, man mag 
+<anchor xml:id="GB03_1_AB001_0_435_014"/>sich in der Haupt-Sache entschliesen zu was man will, und er wird immer 
+<anchor xml:id="GB03_1_AB001_0_435_015"/>eine gute, wenn auch nicht hinreichende Würckung haben. Zu 
+<anchor xml:id="GB03_1_AB001_0_435_016"/>wünschen wär es dass andre glückliche Umstände zusammen träfen die 
+<anchor xml:id="GB03_1_AB001_0_435_017"/>Fürsten des Reichs aus ihrer Untätigkeit zu wecken, und sehr glücklich 
+<anchor xml:id="GB03_1_AB001_0_435_018"/>wär es wenn man durch die Noth gedrungen von hier aus zu einer geschwinderen 
+<anchor xml:id="GB03_1_AB001_0_435_019"/>Vereinigung beygetragen hätte.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_435_020"/>Doch wird man mit der Entschliesung in der Hauptsache nicht auf 
+<anchor xml:id="GB03_1_AB001_0_435_021"/>die Antworten zu warten haben, weil man leider menschlicher Weise<ptr n="14" target="#a014_435.21"/>
+        <anchor xml:id="GB03_1_AB001_0_435_022"/>den Inhalt der eben nicht entscheidend seyn wird voraus sehen kann.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_435_023"/>Bleibt man also dabey sich dem Könige widersezzen zu wollen, so 
+<anchor xml:id="GB03_1_AB001_0_435_024"/>muss man sich vorbereiten, ehster Tage einen <ref target="gb:note#GB03_2_AB001_0_note_024_435_24" xml:id="start_com_5204"/>Werbeoffi<pb n="6" facs="gb:digitalisate#10363/25883"/>zier<ref xml:id="end_com_5204"/> mit einem 
+<anchor xml:id="GB03_1_AB001_0_435_025"/>Commando, angemeldet oder unangemeldet erscheinen zu sehen, will 
+<anchor xml:id="GB03_1_AB001_0_435_026"/>man ihm alsdenn und dem Generale der ihn abschickt die Antwort geben:<anchor xml:id="GB03_1_AB001_0_435_027"/><ptr n="15" target="#a015_435.27"/> dass man ohnerachtet der koniglichen Erklärung die Werbung nicht 
+<anchor xml:id="GB03_1_AB001_0_435_028"/>gestatten werde, und von dem Offizier verlangen dass er sich aus den 
+<anchor xml:id="GB03_1_AB001_0_435_029"/>fürst<g ref="#typoSuspension"/> Landen wegbegebe, so wird man zum Voraus wohl zu überlegen und<ptr n="16" target="#a016_435.29"/>
+        <anchor xml:id="GB03_1_AB001_0_435_030"/> sich zu entschliesen<ptr n="17" target="#a017_435.30"/> haben, ob man im Weigerungs Fall ihn arretiren 
+<anchor xml:id="GB03_1_AB001_0_435_031"/>und aus dem Land bringen, und wie weit man mit der Gewalt wenn 
+<anchor xml:id="GB03_1_AB001_0_435_032"/>er sich widersezzen sollte gehen wolle. Solche Dinge die zwar schweer 
+<anchor xml:id="GB03_1_AB001_0_435_033"/>vorherzubestimmen sind, müssen doch, weil sie vorausgesehen werden 
+<anchor xml:id="GB03_1_AB001_0_435_034"/>können, wohl überlegt werden, weil die augenblicklichen<ptr n="18" target="#a018_435.34"/> Entschlüsse in 
+<anchor xml:id="GB03_1_AB001_0_435_035"/>solchen Gelegenheiten, selten die Folgen zu Rathe ziehen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_435_036"/>Ist man also entschlossen, sich von dem ersten schwächeren<ptr n="19" target="#a019_435.36"/> Abgeschickten 
+<anchor xml:id="GB03_1_AB001_0_435_037"/>auf diese Weise zu befreyen, so entsteht die neue Frage was 
+<anchor xml:id="GB03_1_AB001_0_436_001"/>man thun will, oder vielmehr thun muss wenn sie mit verstärckter Gewalt 
+<anchor xml:id="GB03_1_AB001_0_436_002"/>wiederkommen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_436_003"/>Zwar lässt sich mit einiger Wahrscheinlichkeit vermuthen, dass die 
+<anchor xml:id="GB03_1_AB001_0_436_004"/>Preusen selbst es zu einem offentlichen unangenehmen Ausbruch nicht 
+<anchor xml:id="GB03_1_AB001_0_436_005"/>werden kommen lassen, und wenn sie Standhafftigkeit sehen, sich begnügen 
+<anchor xml:id="GB03_1_AB001_0_436_006"/>in der Stille zu necken, und hier und da einigen Abbruch zu 
+<anchor xml:id="GB03_1_AB001_0_436_007"/>thun. Doch kan es auch seyn dass der Konig durch den gegen<pb n="7" facs="gb:digitalisate#10363/25884"/>wärtigen 
+<anchor xml:id="GB03_1_AB001_0_436_008"/>Mangel an Leuten gedrängt, über die Achtung hinausgeht, die er gern 
+<anchor xml:id="GB03_1_AB001_0_436_009"/>zu seinem eignen Vorteil für die Fürsten bezeigte. Da er wohl weis dass 
+<anchor xml:id="GB03_1_AB001_0_436_010"/>theils alle diese Sachen wenn sie zur Sprache kommen sich beschönigen 
+<anchor xml:id="GB03_1_AB001_0_436_011"/>lassen, theils auch dass solche Beschwerden unter dem Lärm des Kriegs, 
+<anchor xml:id="GB03_1_AB001_0_436_012"/>und unter den übrigen weit wichtigern, mehrere Theilnehmer angehenden 
+<anchor xml:id="GB03_1_AB001_0_436_013"/>Vorfällen, sich verlieren.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_436_014"/>Wäre dieses, so würde er seinen hinaus geschafften Werber mit verstärckter 
+<anchor xml:id="GB03_1_AB001_0_436_015"/>Macht wieder hereinführen, man würde Truppen gleichsam auf 
+<anchor xml:id="GB03_1_AB001_0_436_016"/>
+        <ref target="gb:note#GB03_2_AB001_0_note_025_436_16" xml:id="start_com_5205"/>Exekution<ref xml:id="end_com_5205"/> hier und da einquartieren, die alsdenn auf Unkosten des Landes 
+<anchor xml:id="GB03_1_AB001_0_436_017"/>unterhalten werden müssten. Bey der Unordnung die solch ein 
+<anchor xml:id="GB03_1_AB001_0_436_018"/>Trupp verursacht, und unter seinem Schuzze würden alle Ubel der Werbung 
+<anchor xml:id="GB03_1_AB001_0_436_019"/>sich gehäuft<ptr n="20" target="#a020_436.19"/> ausbreiten, und die Rache die dazu käme, würde alle 
+<anchor xml:id="GB03_1_AB001_0_436_020"/>Mäsigung aufheben, und alle Ubereinkunft abweisen. Sie würden alsdenn 
+<anchor xml:id="GB03_1_AB001_0_436_021"/>mit offenbaarer Gewalt, brauchbaare, verheurathete, angesessene 
+<anchor xml:id="GB03_1_AB001_0_436_022"/>Leute mit wegnehmen, man würde den Unterthan vor Prellereyen und 
+<anchor xml:id="GB03_1_AB001_0_436_023"/>Bevortheilungen nicht schüzzen konnen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_AB001_0_436_024"/>Was alsdenn übrig bliebe, wäre, sich an den <ref target="gb:note#GB03_2_AB001_0_note_026_436_24" xml:id="start_com_5206"/>Reichstag<ref xml:id="end_com_5206"/> zu wenden, 
+<anchor xml:id="GB03_1_AB001_0_436_025"/>woher man sich aber bey gegenwärtigen Umständen nur eine leere 
+<anchor xml:id="GB03_1_AB001_0_436_026"/>Theilnehmung zu versehen hätte, indess man durch die dringenden und 
+<anchor xml:id="GB03_1_AB001_0_436_027"/>bittren Beschweerden <ref target="gb:note#GB03_2_AB001_0_note_027_436_27-28" xml:id="start_com_5207"/>das gute Verhältniss zum könig<g ref="#typoSuspension"/> Preusischen 
+<anchor xml:id="GB03_1_AB001_0_436_028"/>Hause<ref xml:id="end_com_5207"/> leicht gestört haben könnte.</p>
+    </div>
+
+<!-- Validierungsfehler im Apparat an drei Stellen: "subst must have at least one child add and at least one child del or surplus"
+
+    
+-->
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10363_comment">
+<body>
+<div type="metadata" xml:id="gb10363_comment_com375">
+  <ab type="numberAddressee"><label>A 1.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>9. Februar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10363_comment_com1563">
+  <p>Der Brief wurde geschrieben, nachdem am Morgen des 9. Februar 1779 das Geheime Consilium in Weimar zusammengetreten war, um über das Schreiben des preußischen Königs Friedrich II. mit der Forderung nach Soldatenwerbung auf weimarischem Territorium zu beraten. Dieses Schreiben stammt vom 2. Februar 1779 und trägt einen Präsentatsvermerk vom 7. Februar 1776 (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1556, Bl. 45r–46v).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10363_comment_com2419">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Großherzogliches Hausarchiv A XIX Nr 42, Bl. 6–9. – 2 ineinandergelegte Doppelblätter 20,7 × 33,7 cm, festes Konzeptpapier, 7 S. beschr., egh., Tinte; S. 1 links oben von fremder Hd, Tinte: „Im Winter / 1778/79.“</p>
+  <p>E: Carl August-Goethe<hi rendition="#sup">1</hi> 1 (1863), 4–10, Nr 4.</p>
+  <p>WA IV 4 (1889), 3–9, Nr 777.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10363_comment_com4215">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Im Bayerischen Erbfolgekrieg 1778/79, der den von Österreich beabsichtigten Tausch der österreichischen Niederlande gegen Teile Bayerns verhinderte, richtete König Friedrich II. von Preußen nach seiner Kriegserklärung an Österreich am 3. Juli 1778 an die anderen Reichsstände das Ersuchen, in ihren Ländern preußische Truppenwerbungen zu gestatten. Nachdem ein Schreiben aus Weimar an den preußischen Generalleutnant Wichard von Moellendorff, die für das Land ruinösen Werbungen einzustellen, mit der Empfehlung beantwortet worden war, sich mit dieser Angelegenheit an den König selbst zu wenden, richtete Herzog Carl August am 29. Januar 1779 ein Handschreiben an König Friedrich II., in dem er sich über das Vorgehen der preußischen Werber beschwerte und die Einstellung der Werbungen forderte (vgl. Konzept des Schreibens, 29. Januar 1779; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1556, Bl. 28r–29r). In seinem Antwortschreiben vom 2. Februar 1779 (ebd., Bl. 45r–46r, mit eigenhändiger Unterschrift) bestand der preußische König jedoch darauf, die Werbungen fortzusetzen, und forderte Carl August auf, ihn dabei zu unterstützen, da er den Krieg im Interesse des Reichs führe. Dieses Schreiben veranlasste die Beratung des Geheimen Consiliums vom 9. Februar 1779 (vgl. <ref target="sndb:sigle#32">AS</ref> 1, 45–52). Entweder auf Bitte des Herzogs oder auf eigenes Betreiben stellte Goethe, seit dem 5. Januar 1779 Mitglied der Kriegskommission, eine Übersicht über die Möglichkeiten zusammen, wie Weimar sich verhalten könne, gewissermaßen als Entscheidungshilfe für die nächste Sitzung des Consiliums am folgenden Tag. Eine endgültige Entscheidung blieb der weimarischen Regierung erspart. Diplomatische Verhandlungen führten zum Frieden von Teschen vom 13. Mai 1779; der Bayerische Erbfolgekrieg endete ohne nennenswerte militärische Kämpfe. Die Musterungen, an denen Goethe im Februar/März 1779 teilnahm, haben nichts mit seiner Empfehlung im vorliegenden Brief zu tun, gegebenenfalls die Rekruten selbst auszuwählen und dem preußischen König zur Verfügung zu stellen; vielmehr fanden diese Musterungen im Weimarischen in einem Rhythmus von drei Jahren statt, u. a. im Frühjahr 1779. – Eine ausführliche sowohl sachliche als auch sprachlich-stilistische Analyse des vorliegenden Briefs hat Albrecht Schöne vorgelegt: Der Kriegskommissar Goethe. In: Orden Pour le Mérite für Wissenschaften und Künste. 38. Bd. 2009/10, S. 37–59.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10363_comment_com8412">
+<label xml:id="GB03_2_AB001_0_note_001_433_2" copyOf="#start_com_5181"><hi rendition="#fett">433,2</hi>Antwort des Königs</label>
+<p>Vgl. <ref target="gb:note#gb10363_comment_com1563">Datierung</ref> und die einleitende <ref target="gb:note#gb10363_comment_com4215">Erläuterung</ref>.</p>
+
+</note>
+<note xml:id="gb10363_comment_com17135">
+<label xml:id="GB03_2_AB001_0_note_002_433_2" copyOf="#start_com_5182"><hi rendition="#fett">433,2</hi>Königs in Preusen Maj.</label>
+<p>Bei der Standeserhebung am 18. Januar 1701 hatte der brandenburgische Kurfürst Friedrich III. die kaiserliche Anerkennung der Königswürde mit dem Titel Majestät lediglich für die nicht zum Heiligen Römischen Reich Deutscher Nation gehörenden Gebiete des souveränen Herzogtums Preußen erhalten. Die einschränkende Titulatur eines Königs ‚in Preußen‘ war erforderlich, weil das westliche Preußen mit dem Kulmerland, dem Fürstbistum Ermland und Pomerellen zu Polen gehörte, dessen Regenten noch bis 1742 den Titel eines ‚Königs von Preußen‘ beanspruchten. Obwohl König Friedrich II. seit dem siegreich beendeten ersten schlesischen Krieg den Titel eines ‚Königs von Preußen‘ führte, verwendet Goethe hier distanzierend die alte, einschränkende Titulatur.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8413">
+<label xml:id="GB03_2_AB001_0_note_003_433_3" copyOf="#start_com_5183"><hi rendition="#fett">433,3</hi>hinzulegen</label>
+<p>‚Hinlegen‘ hier im Sinn von ‚darlegen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 10, 1452).</p>
+
+</note>
+<note xml:id="gb10363_comment_com8414">
+<label xml:id="GB03_2_AB001_0_note_004_433_3-4" copyOf="#start_com_5184"><hi rendition="#fett">433,3-4</hi>die verlangte Werbung</label>
+<p>Vgl. die einleitende <ref target="gb:note#gb10363_comment_com4215">Erläuterung</ref>.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8415">
+<label xml:id="GB03_2_AB001_0_note_005_433_5" copyOf="#start_com_5185"><hi rendition="#fett">433,5</hi>General Mollendorf </label>
+<p>Wichard Joachim Heinrich von Moellendorff, preußischer Generalleutnant, Befehlshaber eines Korps im Bayerischen Erbfolgekrieg. Er hatte sich im Siebenjährigen Krieg ausgezeichnet und war vom Hauptmann zum General aufgestiegen.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8416">
+<label xml:id="GB03_2_AB001_0_note_006_433_6" copyOf="#start_com_5186"><hi rendition="#fett">433,6</hi>Auskunft</label>
+<p>Hier „Mittel und Wege zu Erreichung einer Absicht“ (<ref target="sndb:sigle#2753">Adelung</ref> 1, 608).</p>
+
+</note>
+<note xml:id="gb10363_comment_com16929">
+<label xml:id="GB03_2_AB001_0_note_007_433_8-9" copyOf="#start_com_5187"><hi rendition="#fett">433,8-9</hi>welchen Theil man ergreiffen <gap quantity="3" reason="editorial"/> wolle</label>
+<p>Hier im Sinne von ‚Partei‘ (von lat. pars: Teil); gemeint sind Preußen und Österreich als kriegführende Seiten. – Am Anfang des Krieges versuchte Carl August zwischen den Kriegsparteien zu lavieren. In den folgenden Jahren wurde der Herzog einer der politischen Hauptakteure bei der Entstehung des Fürstenbundes, eines Bündnisses mehrerer Reichsfürsten mit Preußen, das sich gegen die österreichischen Pläne eines Ländertausches richtete.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8165">
+<label xml:id="GB03_2_AB001_0_note_008_433_18" copyOf="#start_com_5188"><hi rendition="#fett">433,18</hi>ausnehmen</label>
+<p>(Rekruten) ausheben (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 1, 921).</p>
+
+</note>
+<note xml:id="gb10363_comment_com8166">
+<label xml:id="GB03_2_AB001_0_note_009_433_27" copyOf="#start_com_5189"><hi rendition="#fett">433,27</hi>Verzeichnissen aus den Aemtern </label>
+<p>In den Ämtern des Herzogtums wurden Listen der militärdienstfähigen Untertanen geführt, die alljährlich über die jeweils nachrückenden Geburtenjahrgänge erstellt wurden.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8167">
+<label xml:id="GB03_2_AB001_0_note_010_433_29" copyOf="#start_com_5190"><hi rendition="#fett">433,29</hi>austreten</label>
+<p>Hier ist gemeint: sich der Rekrutierung entziehen.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8168">
+<label xml:id="GB03_2_AB001_0_note_011_434_9" copyOf="#start_com_5191"><hi rendition="#fett">434,9</hi>von kayserlicher Seite </label>
+<p>Von österreichischer Seite. – Da Preußen den Krieg erklärt hatte und Kaiser Joseph II. das nominelle Reichsoberhaupt war, konnte der Wiener Hof den preußischen König zum Reichsfriedensbrecher erklären und die Unterstützung der Reichsstände einfordern.</p>
+
+</note>
+<note xml:id="gb10363_comment_com17042">
+<label xml:id="GB03_2_AB001_0_note_012_434_12" copyOf="#start_com_5192"><hi rendition="#fett">434,12</hi>Der alte Verdacht </label>
+<p>Die Geschichte des ernestinischen Hauses Sachsen war seit der Reformation jahrhundertelang vom politischen Gegensatz zum habsburgischen Kaiserhaus geprägt. Mehrfache militärische Katastrophen, wie z. B. die Schlacht bei Mühlberg 1547, in der Kurfürst Johann Friedrich in die Gefangenschaft Kaiser Karls V. geriet und einen großen Teil seines Territoriums und die Kurwürde an die albertinische Linie des Hauses Sachsen abgeben musste, der gescheiterte Revancheversuch des Herzogs Johann Friedrich II., der 1567 ebenfalls in kaiserliche Gefangenschaft gehen musste, sowie die Auseinandersetzungen des Dreißigjährigen Krieges, in dem die weimarischen Herzöge in den protestantischen Armeen kämpften und im Heer des Schwedenkönigs Gustav Adolf hohe militärische Stellen bekleideten, wobei insbesondere Herzog Bernhard von Weimar als siegreicher Heerführer hervortrat, brachten die Ernestiner, besonders aber das Haus Sachsen-Weimar in den Ruf, Erbfeinde der Habsburger zu sein.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8280">
+<label xml:id="GB03_2_AB001_0_note_013_434_12-13" copyOf="#start_com_5193"><hi rendition="#fett">434,12-13</hi>die sachsischen Häuser </label>
+<p>Gemeint sind hier nur die evangelisch-lutherischen ernestinischen Herzogshäuser, damals Sachsen-Weimar und Eisenach, Sachsen-Gotha und Altenburg, Sachsen-Coburg-Saalfeld, Sachsen-Coburg-Meiningen und Sachsen-Hildburghausen. Der katholische Kurfürst von Sachsen und seine Familie waren durch verwandtschaftliche Beziehungen eng mit dem Haus Habsburg verbunden.</p>
+
+</note>
+<note xml:id="gb10363_comment_com16982">
+<label xml:id="GB03_2_AB001_0_note_014_434_27" copyOf="#start_com_5194"><hi rendition="#fett">434,27</hi>das lezte an ihn erlassne Schreiben</label>
+<p>Schreiben des Geheimen Rats Jacob Friedrich von Fritsch an den Generalleutnant von Moellendorff vom 26. Januar 1779 (vgl. Konzept des Schreibens; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1556, Bl. 33r). In dem Schreiben wurde der General ersucht, bis zum Eingang einer Antwort auf das von ihm angeregte Schreiben des Herzogs an den preußischen König alle Werbeaktivitäten einzustellen.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8281">
+<label xml:id="GB03_2_AB001_0_note_015_434_27" copyOf="#start_com_5195"><hi rendition="#fett">434,27</hi>Antwort</label>
+<p>Das Antwortschreiben Moellendorffs erging am 3. Februar 1779 (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1556, Bl. 44r). Darin versicherte der General, dass er veranlasst habe, alle Gewalttätigkeiten bei dem Werbegeschäft zu unterlassen. Offensichtlich lag es bei der Beratung des Geheimen Consiliums am 9./10. Februar 1779 noch nicht vor.</p>
+
+</note>
+<note xml:id="gb10363_comment_com15837">
+<label xml:id="GB03_2_AB001_0_note_016_434_28" copyOf="#start_com_5196"><hi rendition="#fett">434,28</hi>Chor </label>
+<p>Korps, aus verschiedenen Truppenteilen zusammengesetzter militärischer Großverband.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8282">
+<label xml:id="GB03_2_AB001_0_note_017_434_29" copyOf="#start_com_5197"><hi rendition="#fett">434,29</hi>Leutnant Reinbaben </label>
+<p>Kaspar Heinrich von Rheinbaben, wohl der preußische Kurier.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8283">
+<label xml:id="GB03_2_AB001_0_note_018_434_29-30" copyOf="#start_com_5198"><hi rendition="#fett">434,29-30</hi>Leutnant <emph rendition="#latin">Monteton</emph> </label>
+<p>Johann Ludwig Friedrich Digeon de Monteton, preußischer Werbeoffizier.</p>
+
+</note>
+<note xml:id="gb10363_comment_com17039">
+<label xml:id="GB03_2_AB001_0_note_019_434_32-33" copyOf="#start_com_5199"><hi rendition="#fett">434,32-33</hi>an Hanover <gap quantity="3" reason="editorial"/> schreiben</label>
+<p>Bereits vor den Beratungen des Geheimen Consiliums am 9./10. Februar 1779 korrespondierte der Weimarer Hof mit den Herzögen von Sachsen-Gotha und Altenburg und Sachsen-Coburg-Saalfeld über das mögliche Vorgehen gegenüber den preußischen Werbungen. Am 10. Februar 1779 wurden auf Beschluss des Geheimen Consiliums ein weiteres Handschreiben des Herzogs an Sachsen-Gotha und Altenburg (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1556, Bl. 55r–56v, Konzept, paraphiert von Carl August, Fritsch, Schnauß und Goethe) und ein Schreiben des Geheimen Consiliums an die Geheimen Räte zu Hannover (ebd., Bl. 57r–58v, paraphiertes Konzept) erlassen, in denen die Bildung einer „engeren Vereinigung“ zu wirksamen Maßregeln gegen die Werbeübergriffe vorgeschlagen wurde. Die Antworten des Gothaer Herzogs Ernst II. vom 15. Februar 1779 und der Regierung des Kurfürstentums Braunschweig-Lüneburg vom gleichen Datum (ebd., Bl. 70r–71r, 74r–75v) lauteten jedoch ausweichend. Das hannoversche Schreiben bezeichnete den Vorschlag als „noch zur Zeit dem Zweck und der Lage der Sache nicht angemeßen“.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8297">
+<label xml:id="GB03_2_AB001_0_note_020_434_37" copyOf="#start_com_5200"><hi rendition="#fett">434,37</hi>Ständen des Reichs </label>
+<p>Als Reichsstände des Heiligen Römischen Reichs Deutscher Nation galten die Personen und Korporationen, die Sitz und Stimmrecht im Reichstag besaßen. Es gab bis 1803 mehr als 300 Reichsstände, bestehend aus den geistlichen und weltlichen Kurfürsten und Fürsten, Freien Reichsstädten, Reichsgrafen und Ritterorden. Alle Reichsstände waren in der Reichsmatrikel verzeichnet.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8298">
+<label xml:id="GB03_2_AB001_0_note_021_434_38-435_1" copyOf="#start_com_5201"><hi rendition="#fett">38-435,1</hi>dass an iedem Hofe <gap quantity="3" reason="editorial"/> herschten</label>
+<p>Diese Annahme ergab sich aus der persönlichen Korrespondenz Fritschs mit Ministern und Geheimen Räten der benachbarten Höfe, so z. B. mit dem Gothaer Minister Sylvius von Franckenberg (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Krieg und Frieden H 1558).</p>
+
+</note>
+<note xml:id="gb10363_comment_com15979">
+<label xml:id="GB03_2_AB001_0_note_022_435_4-5" copyOf="#start_com_5202"><hi rendition="#fett">435,4-5</hi>ein näheres Band mit den übrigen Fürsten </label>
+<p>Ein Abkommen mit den anderen deutschen Reichsfürsten zur Verhinderung unerlaubter Rekrutenwerbung durch auswärtige Mächte wurde nicht verwirklicht. Die Wiederaufnahme der Bündnisbestrebungen seit 1782 führte 1785 zur Gründung des Fürstenbundes, der die Verfassungs- und Territorialverhältnisse des Heiligen Römischen Reiches Deutscher Nation garatieren sollte.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8299">
+<label xml:id="GB03_2_AB001_0_note_023_435_10" copyOf="#start_com_5203"><hi rendition="#fett">435,10</hi>Mitständen </label>
+<p>Die anderen Reichsstände (vgl. zu <ref target="gb:note#GB03_2_AB001_0_note_020_434_37">434,37</ref>).</p>
+
+</note>
+<note xml:id="gb10363_comment_com8312">
+<label xml:id="GB03_2_AB001_0_note_024_435_24" copyOf="#start_com_5204"><hi rendition="#fett">435,24</hi>Werbeoffizier </label>
+<p>Offizier, der zur Rekrutenwerbung von Söldnern eingesetzt wurde. Gelang es, einen Kandidaten zur Unterschrift unter einen Werbevertrag, die so genannte Kapitulation, zu gewinnen, erhielt der Werbeoffizier von seinem Kriegsherrn eine Provision.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8313">
+<label xml:id="GB03_2_AB001_0_note_025_436_16" copyOf="#start_com_5205"><hi rendition="#fett">436,16</hi>Exekution </label>
+<p>Durchführung einer Amtshandlung oder Durchsetzung eines Rechtsanspruchs mit Hilfe staatlicher Gewalt, hier: Erzwingen der Gestattung von Rekrutenwerbung durch das Druckmittel der Einquartierung von Militäreinheiten.</p>
+
+</note>
+<note xml:id="gb10363_comment_com8314">
+<label xml:id="GB03_2_AB001_0_note_026_436_24" copyOf="#start_com_5206"><hi rendition="#fett">436,24</hi>Reichstag </label>
+<p>Versammlung der Reichsstände des Heiligen Römischen Reichs Deutscher Nation, seit 1663 in Form eines ständigen Gesandtenkongresses („Immerwährender Reichstag“) in Regensburg, bestehend aus Kurfürstenrat, Fürstenrat und Städterat. Die Beschlüsse des Reichstages waren die Reichsabschiede, seit 1663 Reichsschlüsse. Ein Reichsschluss kam zustande, wenn nach dem vorherigen Verfahren der Ausschussberatungen alle drei Gremien des Reichstages übereinstimmten. Seine Rechtsgültigkeit erforderte zudem die Zustimmung des Kaisers.</p>
+
+</note>
+<note xml:id="gb10363_comment_com18746">
+<label xml:id="GB03_2_AB001_0_note_027_436_27-28" copyOf="#start_com_5207"><hi rendition="#fett">436,27-28</hi>das gute Verhältniss zum könig<g ref="#typoSuspension"/> Preusischen Hause </label>
+<p>Das Haus Sachsen-Weimar und Eisenach pflegte tradtionell gute Beziehungen zum preußischen Hof. Die Inbesitznahme des 1741 als Erbe an Weimar gefallenen Herzogtums Sachsen-Eisenach war vor allem durch die Unterstützung Preußens möglich gewesen. Außerdem war Herzog Carl August mit dem preußischen Königshaus eng verwandt, da seine Großmutter, Herzogin Philippine Charlotte von Braunschweig-Wolfenbüttel, eine Schwester König Friedrichs II. war. Im Siebenjährigen Krieg hatte Carl Augusts Großvater, Herzog Carl I. von Braunschweig-Wolfenbüttel, nach dem Tod von Herzog Ernst August II. Constantin von Sachsen-Weimar und Eisenach die Einsetzung von Carl Augusts Mutter, Herzogin Anna Amalia, zur vormundschaftlichen Regentin durchgesetzt und damit eine Vormundschaft des Kurfürsten von Sachsen, der zu den Kriegsgegnern Friedrichs II. gehörte, zu verhindern vermocht. So konnte die persönliche Intervention Anna Amalias bei Friedrich II. erreichen, dass ihr Herzogtum damals von Plünderungen durch das preußische Militär und Kontributionen verschont blieb.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

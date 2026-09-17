@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4750"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11965" n="GB 3, Nr. 466">
+  <teiHeader xml:id="gb11965_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>466.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78191">Jena</placeName>, 1. März 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11965_tei.xml</idno>
+        <idno type="URI">gb11965</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR466_0</idno>
+        <idno type="KSW-ID">11965</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="259" to="259">259</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="859" to="860">859-860</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11965_header_hwit1444" corresp="#gb11965_source_hwit1444" sameAs="#gb11965_comment_hwit1444" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 4</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11965,,1444/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mit meiner Menschenglauberey bin ich hier fertig und haben mit    den alten Soldaten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78191">Jena</placeName>
+            <date when="1779-03-01">1. März 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11965_source_hwit1444" corresp="#gb11965_header_hwit1444" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11965/23005"/>
+      <p>
+        <anchor xml:id="GB03_1_BR466_0_259_007"/>Mit meiner <ref target="gb:note#GB03_2_BR466_0_note_001_259_7" xml:id="start_com_3771"/>Menschenglauberey<ref xml:id="end_com_3771"/> bin ich hier fertig und haben <ref target="gb:note#GB03_2_BR466_0_note_002_259_7-8" xml:id="start_com_3772"/>mit den 
+<anchor xml:id="GB03_1_BR466_0_259_008"/>alten Soldaten gegessen<ref xml:id="end_com_3772"/>, und von vorigen Zeiten reden horen. <ref target="gb:note#GB03_2_BR466_0_note_003_259_8-9" xml:id="start_com_3773"/>Mein 
+<anchor xml:id="GB03_1_BR466_0_259_009"/>Stück rückt.<ref xml:id="end_com_3773"/> Lassen Sie mich horen dass Sie wohl sind und mich lieb 
+<anchor xml:id="GB03_1_BR466_0_259_010"/>haben. Der Herzog weis wo ich <ref target="gb:note#GB03_2_BR466_0_note_004_259_10" xml:id="start_com_3774"/>ieden Tag<ref xml:id="end_com_3774"/> bin. Grüsen Sie ihn. 
+<anchor xml:id="GB03_1_BR466_0_259_011"/>Adieu.   Jena d<g ref="#typoSuspension"/>. 1 Marz 1779</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR466_0_259_012"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11965_comment">
+<body>
+<div type="metadata" xml:id="gb11965_comment_com829">
+  <ab type="numberAddressee"><label>466.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78191">Jena</placeName>, 1. März 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11965_comment_com2873">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 4. – 1 Bl. 18,3(–18,5) &#xD7; 14(–14,2) cm, &#x2154; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Fr. Oberstm v. Stein</quote>; Vs. oben rechts von fremder Hd, Tinte: „9“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 10), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 214.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 12 f., Nr 785.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11965_comment_com4669">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11965_comment_com11638">
+<label xml:id="GB03_2_BR466_0_note_001_259_7" copyOf="#start_com_3771"><hi rendition="#fett">259,7</hi>Menschenglauberey</label>
+<p>Menschenklauberei; klauben: vorwiegend im Oberdt. im übertragenen Sinn für ‚aussondern‘, ‚auslesen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 1609), auch in der Bedeutung von „rauben, stehlen, ergreifen“ (<ref target="sndb:sigle#2890">Grimm</ref> 5, 1021); okkasionelle Wortbildung Goethes, möglicherweise in Abwandlung zu ‚Menschenfischer(ei)‘ im Neuen Testament (vgl. Matthäus 4,19; Markus 1,17). – Anspielung auf die ungeliebte Pflicht der ‚Auslesung‘, der Musterung der Rekruten, für die Goethe als leitendes Mitglied der Kriegskommission zuständig war. Schon am <ref target="gt:dokument#675">26.</ref> und <ref target="gt:dokument#676">27.</ref> Februar hatte er die <quote type="G">Erste</quote> und <quote type="G">Zweite Auslesung</quote> von Rekruten in Weimar beaufsichtigt (GT I 1, 75). Am <ref target="gt:dokument#677">28.</ref> Februar war er nach Jena geritten, wo er <quote type="G">Im Schlos<unclear reason="illegible">s</unclear>e eingekehrt</quote> war (ebd., 76) und am 1. und 3. März die Auslesungen durchführte. Danach erfolgten Musterungen in Dornburg, Apolda und Buttstädt, in der Exklave Allstedt und am 17. März im Amt Ilmenau (vgl. ebd., 76–78). Die Musterung im Frühjahr 1779 war Goethes „erstes bedeutenderes Geschäft in der Kriegskommission“ (<ref target="sndb:sigle#135">Bürgin</ref>, 159). Sie fand turnusmäßig drei Jahre nach der vorangegangenen von 1776 statt, hatte also nicht unmittelbar zu tun mit Forderungen des kriegführenden Preußen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10363_comment_com4215">A 1</ref>). Goethe beaufsichtigte auch die folgende ‚Auslesung‘ im Frühjahr 1782. Die fällige Musterung im Jahr 1785 fand nicht mehr statt, da sie durch die bis dahin auf Goethes Betreiben erfolgte Reduzierung der sachsen-weimarischen Truppen überflüssig wurde (vgl. ebd., 160 f.). – Während der Musterungen im März 1779 entstand auch eine Zeichnung Goethes, wahrscheinlich die Musterung in Buttstädt darstellend (vgl. <ref target="gb:digitalisate#10219/64268">Abb. 11</ref> im Kommentarband, S. 874; <ref target="sndb:sigle#1248">Corpus</ref> I, 107, Nr 307).</p>
+
+</note>
+<note xml:id="gb11965_comment_com11651">
+<label xml:id="GB03_2_BR466_0_note_002_259_7-8" copyOf="#start_com_3772"><hi rendition="#fett">259,7-8</hi>mit den alten Soldaten gegessen</label>
+<p>Im Tagebuch vom 1. März wird nur der damals etwa 40-jährige Weimarer Hauptmann Johann Georg von Bentheim namentlich erwähnt, mit dem Goethe nach der Musterung <quote type="G">gessen</quote> hat (<ref target="gt:dokument#678">GT I 1, 76</ref>).</p>
+
+</note>
+<note xml:id="gb11965_comment_com11652">
+<label xml:id="GB03_2_BR466_0_note_003_259_8-9" copyOf="#start_com_3773"><hi rendition="#fett">259,8-9</hi>Mein Stück rückt.</label>
+<p>‚Rücken‘ hier im übertragenen Sinn: „Sich langsam fortbewegen; wo der Begriff der Bewegung in unterbrochenen Absätzen verschwindet, und nur der Begriff der Langsamkeit übrig bleibt.“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1187.) – Mit Bezug auf die „Iphigenie“ (vgl. zu <ref target="gb:note#GB03_2_BR465_0_note_002_259_5">259,5</ref>).</p>
+
+</note>
+<note xml:id="gb11965_comment_com18053">
+<label xml:id="GB03_2_BR466_0_note_004_259_10" copyOf="#start_com_3774"><hi rendition="#fett">259,10</hi>ieden Tag</label>
+<p>In Angelegenheiten der Kriegs- und Wegebaukommission reiste Goethe am 2. März von Jena nach Dornburg, am 5. nach Apolda, am 7. nach Buttstädt, am 9. nach Allstedt, von wo aus er am 12. nach Weimar zurückkehrte (vgl. GT I 1, 76 f.). Wie das Tagebuch belegt, begleitete ihn der Ingenieurhauptmann und Mitarbeiter in der Wegebaukommission Jean Antoine Joseph de Castrop, mit dem Goethe schon am 28. Februar die Straße nach Jena <quote type="G">besehen</quote> hatte (ebd., 76). – Zu den einzelnen Stationen der Wegebauinspektionsreise vgl. <ref target="sndb:sigle#135">Bürgin</ref>, 54 f.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

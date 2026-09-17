@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2250"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11624" n="GB 3, Nr. 222">
+  <teiHeader xml:id="gb11624_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>222.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 21. Februar 1777. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:05Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11624_tei.xml</idno>
+        <idno type="URI">gb11624</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR222_0</idno>
+        <idno type="KSW-ID">11624</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="131" to="131">131</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="481" to="482">481-482</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11624_header_hwit1152" corresp="#gb11624_source_hwit1152" sameAs="#gb11624_comment_hwit1152" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11624,,1152/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ihr Brief liebe Tante hat mir recht wohl in meiner verwirrten Einsamkeit gethan</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-02-21">21. Februar 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11624_source_hwit1152" corresp="#gb11624_header_hwit1152" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11624/62355"/>
+      <p>
+        <anchor xml:id="GB03_1_BR222_0_131_001"/>Ihr Brief l. Tante hat mir recht wohl in meiner verwirrten <ref target="gb:note#GB03_2_BR222_0_note_001_131_1-2" xml:id="start_com_2021"/>Einsamkeit<ref xml:id="end_com_2021"/>
+        <anchor xml:id="GB03_1_BR222_0_131_002"/>gethan. Schreib sie mir irgend wenn’s Ihr wohl macht. Ich bin 
+<anchor xml:id="GB03_1_BR222_0_131_003"/>beschränckter als iemals, sizze im Schnee im Thal, und brüte über 
+<anchor xml:id="GB03_1_BR222_0_131_004"/>mir selbst, <ref target="gb:note#GB03_2_BR222_0_note_002_131_4-5" xml:id="start_com_2022"/>die bunte, dumme, und tolle Wirthschafft<ptr n="1" target="#a001_131.4"/> um mich fühl 
+<anchor xml:id="GB03_1_BR222_0_131_005"/>ich gar kaum<ptr n="2" target="#a002_131.5"/>
+        <ref xml:id="end_com_2022"/>. Sag sie der <ref target="gb:note#GB03_2_BR222_0_note_003_131_5" xml:id="start_com_2023"/>Fr Aya<ref xml:id="end_com_2023"/> sie mag mir mit dem Früh jahr 
+<anchor xml:id="GB03_1_BR222_0_131_006"/>wieder <ref target="gb:note#GB03_2_BR222_0_note_004_131_6" xml:id="start_com_2024"/>Flaschen Alten Weins<ref xml:id="end_com_2024"/> schicken. <ref target="gb:note#GB03_2_BR222_0_note_005_131_6" xml:id="start_com_2025"/>Der erste Transport<ref xml:id="end_com_2025"/> ist kaum 
+<anchor xml:id="GB03_1_BR222_0_131_007"/>die Hälfte getruncken, ich halt ihn werth Ihr sollt manchmal von 
+<anchor xml:id="GB03_1_BR222_0_131_008"/>mir hören. Adieu grüs sie <ref target="gb:note#GB03_2_BR222_0_note_006_131_8" xml:id="start_com_2026"/>die Mädels<ref xml:id="end_com_2026"/>. Grüs sie <ref target="gb:note#GB03_2_BR222_0_note_007_131_8" xml:id="start_com_2027"/>Frizzen<ref xml:id="end_com_2027"/> und lebt 
+<anchor xml:id="GB03_1_BR222_0_131_009"/>wohl.     d<g ref="#typoSuspension"/>. 21 Febr 77.     G.</p>
+    <pb n="2" facs="gb:digitalisate#11624/62356"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11624_comment">
+<body>
+<div type="metadata" xml:id="gb11624_comment_com1170">
+  <ab type="numberAddressee"><label>222.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 21. Februar 1777 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11624_comment_com3214">
+  <p>H: Privatbesitz, Deutschland. – 1 Bl. 18,4(–18,7) × 28,5(–28,7) cm, &#xBD; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Msll Fahlmer</quote> (demnach möglicherweise Einschluss in einen anderen Brief), Reste eines roten Initialsiegels: „G“; Vs. oben in der Mitte von fremder Hd, Bleistift: „46“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 117 f., Nr 46.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 137, Nr 563 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11624_comment_com5010">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief von Johanna Fahlmer (vgl. <ref target="gb:text#GB03_1_BR222_0_131_001">131,1</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11624_comment_com17884">
+<label xml:id="GB03_2_BR222_0_note_001_131_1-2" copyOf="#start_com_2021"><hi rendition="#fett">131,1-2</hi>Einsamkeit</label>
+<p>Goethe wohnte in seinem Haus im Garten am „Stern“, <quote type="G">stiller in mir als ie, schreibe niemanden, höre von niemanden</quote> (<ref target="gb:text#GB03_1_BR220_0_130_008 #GB03_1_BR220_0_130_009">130,8–9</ref>), wie er am 19. Februar 1777 an Lavater geschrieben hatte (vgl. zu <ref target="gb:note#GB03_2_BR207_0_note_004_124_17">124,17</ref>; zu <ref target="gb:note#GB03_2_BR220_0_note_006_130_8-9">130,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb11624_comment_com11109">
+<label xml:id="GB03_2_BR222_0_note_002_131_4-5" copyOf="#start_com_2022"><hi rendition="#fett">131,4-5</hi>die bunte <gap quantity="3" reason="editorial"/> fühl ich gar kaum</label>
+<p>Ähnlich hatte Goethe am 5. Januar 1777 an Johann Heinrich Merck geschrieben: <quote type="G">Ich lebe immer in der tollen Welt und bin sehr in mich zurückgezogen.</quote> (<ref target="gb:text#GB03_1_BR207_0_124_016 #GB03_1_BR207_0_124_017">124,16–17</ref>.) – ‚Wirtschaft‘ hier im Sinn von ‚Lebensverhältnisse‘, auch als Bezeichnung für die „Handhabung eines jeden Geschäftes“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577). – Über seine Geschäfte, private (die Umgestaltung seines Gartens betreffend) und amtliche (die Arbeit im Geheimen Consilium betreffend), hatte Goethe im vorhergehenden Brief an Johanna Fahlmer vom 6. November 1776 geschrieben (vgl. <ref target="gb:text#GB03_1_BR183_0_115_012 #GB03_1_BR183_0_115_013">115,12–13</ref>; <ref target="gb:text#GB03_1_BR183_0_115_018 #GB03_1_BR183_0_115_022">115,18–22</ref>).</p>
+
+</note>
+<note xml:id="gb11624_comment_com13926">
+<label xml:id="GB03_2_BR222_0_note_003_131_5" copyOf="#start_com_2023"><hi rendition="#fett">131,5</hi>Fr Aya</label>
+<p>Catharina Elisabeth Goethe (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb9356_comment_com5042">Nr 276</ref> sowie <ref target="gb:note#GB02_2_BR253_0_note_023_205_22-23">GB 2 II, zu 205,22–23</ref>).</p>
+
+</note>
+<note xml:id="gb11624_comment_com17952">
+<label xml:id="GB03_2_BR222_0_note_004_131_6" copyOf="#start_com_2024"><hi rendition="#fett">131,6</hi>Flaschen Alten Weins</label>
+<p>Im folgenden Brief an Johanna Fahlmer vom 19. März 1777 wiederholte und präzisierte Goethe die Bitte um Zusendung von Wein: Er wünschte Wein des Jahrgangs 1762 oder 1766 (vgl. <ref target="gb:text#GB03_1_BR237_0_137_001 #GB03_1_BR237_0_137_002">137,1–2</ref>). Am Vortag hatte Goethe <quote type="G">alten Wein</quote> (<ref target="gb:text#GB03_1_BR221_0_130_023 #GB03_1_BR221_0_130_024">130,23–24</ref>) an Charlotte von Stein geschickt, die Herzog Carl August zum Essen erwartete. – Im Lauf des Jahres 1776 war Goethe von Johann Heinrich Merck mit Wein versorgt worden (vgl. seine Briefe an den Freund vom 24. Juli und 16. September 1776; <ref target="gb:dokument#10666">Nr 146</ref> und <ref target="gb:dokument#11179">171</ref>).</p>
+
+</note>
+<note xml:id="gb11624_comment_com11110">
+<label xml:id="GB03_2_BR222_0_note_005_131_6" copyOf="#start_com_2025"><hi rendition="#fett">131,6</hi>Der erste Transport</label>
+<p>Er war im September 1776 in Weimar eingetroffen (vgl. <ref target="gb:text#GB03_1_BR171_0_108_001">108,1</ref>).</p>
+
+</note>
+<note xml:id="gb11624_comment_com17968">
+<label xml:id="GB03_2_BR222_0_note_006_131_8" copyOf="#start_com_2026"><hi rendition="#fett">131,8</hi>die Mädels</label>
+<p>Möglicherweise gehörten sie zu der Damen-Gesellschaft, von welcher Goethes Mutter in einem Brief an Johann Bernhard Crespel vom 5. Januar 1777 berichtet: „8 junge Mädels waren bey mir, zwei Demoisellen Clermondt, die Mingen Starck u. s. w. wir spielten, stirbt der Fuchs so gielt sein Balg und da gabs Euch Pfänder daß es eine Lust war. Auch wurden Mährgen erzählt, Rätzel aufgegeben, es war mit einem Wort ein groß Gaudium.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 405.) Bei den Genannten handelte es sich um Nichten von Helene Elisabeth Jacobi, die eine geborene von Clermont war, vermutlich um Eleonore Marie Henriette und Caroline Helene Christiane von Clermont, die von 1776 bis 1778 in Hanau in Pension waren (nach freundlicher Mitteilung von Jan Wartenberg, Berlin), sowie um Margarethe Catharina Rosina Starck, eine Nichte von Goethes Mutter. In ihrem Brief werden auch Maximiliane Brentano und die Schwestern Gerock erwähnt, ebenso Johanna Fahlmer, von der Goethe über die <quote type="G">Mädels</quote> gehört haben könnte.</p>
+
+</note>
+<note xml:id="gb11624_comment_com11121">
+<label xml:id="GB03_2_BR222_0_note_007_131_8" copyOf="#start_com_2027"><hi rendition="#fett">131,8</hi>Frizzen</label>
+<p>Friedrich Heinrich Jacobi.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

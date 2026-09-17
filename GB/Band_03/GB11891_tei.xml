@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4100"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11891" n="GB 3, Nr. 401">
+  <teiHeader xml:id="gb11891_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>401.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77740">Eisenach</placeName>, 10. und 13. September 1778. Donnerstag und Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11891_tei.xml</idno>
+        <idno type="URI">gb11891</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR401_0</idno>
+        <idno type="KSW-ID">11891</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="229" to="230">229-230</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="775" to="776">775-776</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11891_header_hwit1394" corresp="#gb11891_source_hwit1394" sameAs="#gb11891_comment_hwit1394" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 95</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11891,,1394/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Da Sie weg waren spürt ich, ich müsse die Dekoration verändern. Ging erst nur</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77740">Eisenach</placeName>
+            <date when="1778-09-10">10. September 1778</date> und
+            <date when="1778-09-13"> 13. September 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11891_source_hwit1394" corresp="#gb11891_header_hwit1394" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11891/22922"/>
+      <opener>
+        <dateline rendition="#einrueck18">
+          <anchor xml:id="GB03_1_BR401_0_229_007"/>Eisenach d<g ref="#typoSuspension"/> 10. S. 78.</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR401_0_229_008"/>Da sie <ref target="gb:note#GB03_2_BR401_0_note_001_229_8" xml:id="start_com_3459"/>weg waren<ref xml:id="end_com_3459"/> spürt ich, ich müsse <ref target="gb:note#GB03_2_BR401_0_note_002_229_8" xml:id="start_com_3460"/>die Dekoration<ref xml:id="end_com_3460"/> verändern. 
+<anchor xml:id="GB03_1_BR401_0_229_009"/>Ging erst nur zum <ref target="gb:note#GB03_2_BR401_0_note_003_229_9" xml:id="start_com_3461"/>Stadthalten<ref xml:id="end_com_3461"/>, und bey leidlichem Wetter <ref target="gb:note#GB03_2_BR401_0_note_004_229_9" xml:id="start_com_3462"/>hierher<ref xml:id="end_com_3462"/>, 
+<anchor xml:id="GB03_1_BR401_0_229_010"/>wo ich <ref target="gb:note#GB03_2_BR401_0_note_005_229_10" xml:id="start_com_3463"/>im grosen Fürstenhause<ref xml:id="end_com_3463"/> ganz allein wie ein <ref target="gb:note#GB03_2_BR401_0_note_006_229_10" xml:id="start_com_3464"/>Spenst<ref xml:id="end_com_3464"/> mit einem 
+<anchor xml:id="GB03_1_BR401_0_229_011"/>
+        <ref target="gb:note#GB03_2_BR401_0_note_007_229_11" xml:id="start_com_3465"/>Diener<ref xml:id="end_com_3465"/> wohne. Erst 6 Uhr kam ich an. <ref target="gb:note#GB03_2_BR401_0_note_008_229_11" xml:id="start_com_3466"/>Der H. ist in Wilhelmsthal<ptr n="1" target="#a001_229.11"/>.<ref xml:id="end_com_3466"/>
+        <anchor xml:id="GB03_1_BR401_0_229_012"/>Morgen früh will ich <ref target="gb:note#GB03_2_BR401_0_note_009_229_12" xml:id="start_com_3467"/>hinaus<ref xml:id="end_com_3467"/>. Viel Ruhe wirds nicht geben also heut 
+<anchor xml:id="GB03_1_BR401_0_229_013"/>wenigstens dies Wort und für heut Gute Nacht.</p>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_1_BR401_0_229_014"/>Eisenach Sonnt. d<g ref="#typoSuspension"/>. 13. S.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR401_0_229_015"/>Die Zeit bin ich <ref target="gb:note#GB03_2_BR401_0_note_010_229_15" xml:id="start_com_3468"/>auf der Wartburg<ref xml:id="end_com_3468"/> mit dem <ref target="gb:note#GB03_2_BR401_0_note_011_229_15" xml:id="start_com_3469"/>Prinzen<ref xml:id="end_com_3469"/> seshafft gewesen, 
+<anchor xml:id="GB03_1_BR401_0_229_016"/>und wir hatten so viele <ref target="gb:note#GB03_2_BR401_0_note_012_229_16" xml:id="start_com_3470"/>Drollerey<ref xml:id="end_com_3470"/> zusammen dass ich in keine Ruhe 
+<anchor xml:id="GB03_1_BR401_0_229_017"/>kommen bin. Die Felsen hab ich truz dem bösen Wetter gemessen. 
+<anchor xml:id="GB03_1_BR401_0_229_018"/>Mit dem <ref target="gb:note#GB03_2_BR401_0_note_013_229_18" xml:id="start_com_3471"/>Jagen<ref xml:id="end_com_3471"/> wirds morgen <ref target="gb:note#GB03_2_BR401_0_note_014_229_18" xml:id="start_com_3472"/>schweinisch<ref xml:id="end_com_3472"/> werden, Und <ref target="gb:note#GB03_2_BR401_0_note_015_229_18-19" xml:id="start_com_3473"/>vier<ptr n="2" target="#a002_229.18"/> bis fünf 
+<anchor xml:id="GB03_1_BR401_0_229_019"/>Herzoge von Sachsen<ref xml:id="end_com_3473"/> in einem Zimmer machen auch nicht die beste 
+<anchor xml:id="GB03_1_BR401_0_229_020"/>Conversation. Eben komm ich von <ref target="gb:note#GB03_2_BR401_0_note_016_229_20" xml:id="start_com_3474"/>Wthal<ref xml:id="end_com_3474"/> wo die <ref target="gb:note#GB03_2_BR401_0_note_017_229_20-21" xml:id="start_com_3475"/>Herzoge von Meiningen<ref xml:id="end_com_3475"/>
+        <anchor xml:id="GB03_1_BR401_0_229_021"/>seit früh 10 sind unterweegs hab ich viel mit Ihnen lieb <ref target="gb:note#GB03_2_BR401_0_note_018_229_21" xml:id="start_com_3476"/>Gold<ref xml:id="end_com_3476"/>
+        <anchor xml:id="GB03_1_BR401_0_229_022"/>geredt, was ich viel schreiben wollte. Iezt ists schon wieder vorbey. <pb n="2" facs="gb:digitalisate#11891/22923"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR401_0_229_023"/>Allerley <ref target="gb:note#GB03_2_BR401_0_note_019_229_23" xml:id="start_com_3477"/>Krickeleyen<ref xml:id="end_com_3477"/><ptr n="3" target="#a003_229.23"/> |:<emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR401_0_note_020_229_23" xml:id="start_com_3478"/>Disapointments</emph>
+        <ref xml:id="end_com_3478"/>:| hab ich wieder gehabt, wie 
+<anchor xml:id="GB03_1_BR401_0_229_024"/>Sie wohl dencken können, da ich die schöne Hoffnung auf mein 
+<anchor xml:id="GB03_1_BR401_0_229_025"/>30 Jahr habe, weil ich im 29 noch so ein Kind bin.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR401_0_230_001"/>Offt schüttl ich den Kopf und härte mich wieder, und endlich kom 
+<anchor xml:id="GB03_1_BR401_0_230_002"/>ich mir vor, <ref target="gb:note#GB03_2_BR401_0_note_021_230_2-4" xml:id="start_com_3479"/>wie ienes Ferckel dem der Franzos die<ptr n="4" target="#a004_230.2"/> knupperig gebratne 
+<anchor xml:id="GB03_1_BR401_0_230_003"/>Haut abgefressen hatte, und es wieder in die Küche schickte, 
+<anchor xml:id="GB03_1_BR401_0_230_004"/>um ihm die zweite anbraten zu lassen<ref xml:id="end_com_3479"/>.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11891_comment">
+<body>
+<div type="metadata" xml:id="gb11891_comment_com812">
+  <ab type="numberAddressee"><label>401.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77740">Eisenach</placeName>, 10. September 1778 und  13. September 1778 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11891_comment_com2856">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 95. – 1 Bl. ca. 17,5(–18) &#xD7; 20,8(–21) cm, Büttenrand, 1 &#xBD; S. beschr., egh., Tinte; Vs. oben Mitte von fremder Hd, Tinte: „49.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 50), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischluss zu <ref target="gb:dokument#11893">Nr 402</ref>? (Vgl. zu <ref target="gb:note#GB03_2_BR402_0_note_002_230_7">230,7</ref>.)</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 182 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 247 f., Nr 744.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11891_comment_com4652">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11891_comment_com15244">
+<label xml:id="GB03_2_BR401_0_note_001_229_8" copyOf="#start_com_3459"><hi rendition="#fett">229,8</hi>weg waren</label>
+<p>Charlotte von Stein war am 8. September nach Kochberg abgereist (vgl. zu <ref target="gb:note#GB03_2_BR400_0_note_002_229_2">229,2</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com15257">
+<label xml:id="GB03_2_BR401_0_note_002_229_8" copyOf="#start_com_3460"><hi rendition="#fett">229,8</hi>die Dekoration</label>
+<p>In der Wohnung der Familie von Stein (vgl. zu <ref target="gb:note#GB03_2_BR403_0_note_008_230_22">230,22</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11388">
+<label xml:id="GB03_2_BR401_0_note_003_229_9" copyOf="#start_com_3461"><hi rendition="#fett">229,9</hi>Stadthalten</label>
+<p>Verschrieben für ‚Stadthalter‘: Carl Theodor von Dalberg, kurmainzischer Statthalter in Erfurt, den Goethe laut Tagebuch am 9. September besuchte (vgl. <ref target="gt:dokument#611">GT I 1, 65</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11389">
+<label xml:id="GB03_2_BR401_0_note_004_229_9" copyOf="#start_com_3462"><hi rendition="#fett">229,9</hi>hierher</label>
+<p>Nach Eisenach, Sitz der Zentralbehörden des seit 1741 zu Sachsen-Weimar gehörenden Herzogtums. Goethe war am 10. September von Erfurt in das etwa 60 km westlich gelegene Eisenach gereist, wahrscheinlich zu Pferde (vgl. <ref target="gt:dokument#612">GT I 1, 65</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com17049">
+<label xml:id="GB03_2_BR401_0_note_005_229_10" copyOf="#start_com_3463"><hi rendition="#fett">229,10</hi>im grosen Fürstenhause</label>
+<p>Das Stadtschloss am Eisenacher Marktplatz, wo Goethe schon bei früheren Aufenthalten gewohnt hatte (vgl. die Erläuterungen zu <ref target="gb:note#GB03_2_BR286_0_note_022_164_21">164,21</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com15258">
+<label xml:id="GB03_2_BR401_0_note_006_229_10" copyOf="#start_com_3464"><hi rendition="#fett">229,10</hi>Spenst</label>
+<p>Ältere Form von ‚Gespenst‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 10 I, 2156 f.); bei Goethe nur im vorliegenden Brief und in der „Geschichte Gottfriedens von Berlichingen“ (1771) belegt (V 1; vgl. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 2, 194,33).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11390">
+<label xml:id="GB03_2_BR401_0_note_007_229_11" copyOf="#start_com_3465"><hi rendition="#fett">229,11</hi>Diener</label>
+<p>Wohl nicht Philipp Seidel, den Goethe namentlich erwähnt hätte.</p>
+
+</note>
+<note xml:id="gb11891_comment_com11391">
+<label xml:id="GB03_2_BR401_0_note_008_229_11" copyOf="#start_com_3466"><hi rendition="#fett">229,11</hi>Der H. ist in Wilhelmsthal.</label>
+<p>In Wilhelmsthal südlich von Eisenach befand sich ein herzogliches Jagdschloss. Laut Fourierbuch war Herzog Carl August schon am 1. September nach Eisenach gegangen, „alwo auch ein Schones Jagen gehalten wurde“ (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 158).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11392">
+<label xml:id="GB03_2_BR401_0_note_009_229_12" copyOf="#start_com_3467"><hi rendition="#fett">229,12</hi>hinaus</label>
+<p>Nach Wilhelmsthal, wohin sich Goethe laut Tagebuch am 11. September begab (vgl. <ref target="gt:dokument#613">GT I 1, 65</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com15259">
+<label xml:id="GB03_2_BR401_0_note_010_229_15" copyOf="#start_com_3468"><hi rendition="#fett">229,15</hi>auf der Wartburg</label>
+<p>In der mittelalterlichen Burg auf einem Felsplateau südwestlich der Stadt hatte Goethe ebenfalls schon bei früheren Besuchen Quartier bezogen (vgl. zu <ref target="gb:note#GB03_2_BR289_0_note_005_166_9-10">166,9-10</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com15275">
+<label xml:id="GB03_2_BR401_0_note_011_229_15" copyOf="#start_com_3469"><hi rendition="#fett">229,15</hi>Prinzen</label>
+<p>Prinz Constantin von Sachsen-Weimar und Eisenach, der auch zur Jagdgesellschaft gehörte (vgl. Anna Amalia Herzogin von Sachsen-Weimar und Eisenach an Johann Heinrich Merck, 4. September 1778; <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 157).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11404">
+<label xml:id="GB03_2_BR401_0_note_012_229_16" copyOf="#start_com_3470"><hi rendition="#fett">229,16</hi>Drollerey</label>
+<p>Hier: „munteres, scherzhaftes Treiben“ (<ref target="sndb:sigle#2890">Grimm</ref> 2, 1430); nur einmal bei Goethe belegt.</p>
+
+</note>
+<note xml:id="gb11891_comment_com11405">
+<label xml:id="GB03_2_BR401_0_note_013_229_18" copyOf="#start_com_3471"><hi rendition="#fett">229,18</hi>Jagen</label>
+<p>Laut Tagebuch nahm Goethe am 14. September am <quote type="G">Jagen</quote> teil (<ref target="gt:dokument#614">GT I 1, 65</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com15276">
+<label xml:id="GB03_2_BR401_0_note_014_229_18" copyOf="#start_com_3472"><hi rendition="#fett">229,18</hi>schweinisch</label>
+<p>Hier „als kräftiger ausdruck für miszlich, unschön“ (<ref target="sndb:sigle#2890">Grimm</ref> 9, 2449) und zugleich in Anspielung auf die Schweinejagd, die in den Revieren um Eisenach stattfand (vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>).</p>
+
+</note>
+<note xml:id="gb11891_comment_com11406">
+<label xml:id="GB03_2_BR401_0_note_015_229_18-19" copyOf="#start_com_3473"><hi rendition="#fett">229,18-19</hi>Vier bis fünf Herzoge von Sachsen</label>
+<p>Neben den im Folgenden erwähnten Meininger Herzögen war wahrscheinlich der mit Herzog Carl August befreundete Ernst II. Ludwig Herzog von Sachsen-Gotha und Altenburg, möglicherweise auch dessen Bruder Prinz August zur Jagd geladen.</p>
+
+</note>
+<note xml:id="gb11891_comment_com13717">
+<label xml:id="GB03_2_BR401_0_note_016_229_20" copyOf="#start_com_3474"><hi rendition="#fett">229,20</hi>Wthal</label>
+<p>Wilhelmsthal.</p>
+
+</note>
+<note xml:id="gb11891_comment_com11407">
+<label xml:id="GB03_2_BR401_0_note_017_229_20-21" copyOf="#start_com_3475"><hi rendition="#fett">229,20-21</hi>Herzoge von Meiningen</label>
+<p>Der regierende Herzog August Friedrich Carl Wilhelm (auch Carl August) von Sachsen-Meiningen sowie dessen jüngerer Bruder Prinz Georg.</p>
+
+</note>
+<note xml:id="gb11891_comment_com11408">
+<label xml:id="GB03_2_BR401_0_note_018_229_21" copyOf="#start_com_3476"><hi rendition="#fett">229,21</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+<note xml:id="gb11891_comment_com15277">
+<label xml:id="GB03_2_BR401_0_note_019_229_23" copyOf="#start_com_3477"><hi rendition="#fett">229,23</hi>Krickeleyen</label>
+<p>Krickelei: hier ‚Verdrießlichkeit‘, ‚Unannehmlichkeit‘, in dieser Bedeutung nur bei Goethe und nur an dieser Stelle belegt.</p>
+
+</note>
+<note xml:id="gb11891_comment_com11449">
+<label xml:id="GB03_2_BR401_0_note_020_229_23" copyOf="#start_com_3478"><hi rendition="#fett">229,23</hi><emph rendition="#latin">Disapointments</emph></label>
+<p>Engl. disappointment: Enttäuschung, Frustration; nur an dieser Stelle bei Goethe belegt.</p>
+
+</note>
+<note xml:id="gb11891_comment_com18042">
+<label xml:id="GB03_2_BR401_0_note_021_230_2-4" copyOf="#start_com_3479"><hi rendition="#fett">230,2-4</hi>wie ienes Ferckel <gap quantity="3" reason="editorial"/> anbraten zu lassen</label>
+<p>Ob es hierfür eine literarische Quelle gibt, konnte nicht ermittelt werden. Möglicherweise spielt Goethe auf eine mündlich überlieferte Anekdote an. – Knupperig: mittel- und norddt. für ‚knusperig‘, als Belegstelle wird bei <ref target="sndb:sigle#2890">Grimm</ref> (11, 1524) auf den vorliegenden Brief verwiesen.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

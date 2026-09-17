@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="380"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10707" n="GB 3, Nr. 38">
+  <teiHeader xml:id="gb10707_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>38.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 2.? Februar 1776. Freitag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10707_tei.xml</idno>
+        <idno type="URI">gb10707</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR038_0</idno>
+        <idno type="KSW-ID">10707</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="29" to="29">29</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="126" to="130">126-130</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10707_header_hwit852" corresp="#gb10707_source_hwit852" sameAs="#gb10707_comment_hwit852" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 6</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10707,,852/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Es ist mir lieb dass ich wegkomme, mich von Ihnen zu entwöhnen. Hier haben Sie die Briefe</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10707_header_acc186" corresp="gb10707_comment_acc186">
+            <objectIdentifier>
+              <objectName><quote type="G">Briefe</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-02"><supplied>2.? Februar 1776</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-01-15"><supplied>15. Januar 1776</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-01-16"><supplied>16. Januar 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10707_source_hwit852" corresp="#gb10707_header_hwit852" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10707/22238"/>
+      <p>
+        <anchor xml:id="GB03_1_BR038_0_029_008"/>Es ist mir lieb <ref target="gb:note#GB03_2_BR038_0_note_001_29_8" xml:id="start_com_0463"/>dass ich wegkomme<ref xml:id="end_com_0463"/>, mich von Ihnen zu entwöhnen. 
+  <anchor xml:id="GB03_1_BR038_0_029_009"/>hier haben Sie <ref target="gb:note#GB03_2_BR038_0_note_002_29_9" xml:id="start_com_0464"/>die Briefe wieder<ref xml:id="end_com_0464"/> und <ref target="gb:note#GB03_2_BR038_0_note_003_29_9" xml:id="start_com_0465"/>ein Paar neue<ref xml:id="end_com_0465"/> dazu. Ich wollt in 
+  <anchor xml:id="GB03_1_BR038_0_029_010"/>meinem Herzen <ref target="gb:note#GB03_2_BR038_0_note_004_29_10-11" xml:id="start_com_0466"/>wärs so hell da, dass ich gleich der göttlichen Thus
+  <anchor xml:id="GB03_1_BR038_0_029_011"/>nelda<ref xml:id="end_com_0466"/>, Sie zu lachen machen könnte. Aber all meine Thorheit und all 
+  <anchor xml:id="GB03_1_BR038_0_029_012"/>mein Wiz sind, Gott weis wohin! – Ich nehme <ref target="gb:note#GB03_2_BR038_0_note_005_29_12" xml:id="start_com_0467"/>den Homer<ref xml:id="end_com_0467"/> mit und 
+  <anchor xml:id="GB03_1_BR038_0_029_013"/>will sehn was der an mir thut. Treiben Sie brav dass <ref target="gb:note#GB03_2_BR038_0_note_006_29_13" xml:id="start_com_0468"/>der Westindier<ref xml:id="end_com_0468"/>
+        <anchor xml:id="GB03_1_BR038_0_029_014"/>gelernt wird, ich will auch lernen! – Ah von oben biss unten nichts 
+  <anchor xml:id="GB03_1_BR038_0_029_015"/>als gute Vorsäze, klingts doch fast als wär ich <ref target="gb:note#GB03_2_BR038_0_note_007_29_15" xml:id="start_com_0469"/>ein iunger Herzog<ref xml:id="end_com_0469"/>. Ge
+  <anchor xml:id="GB03_1_BR038_0_029_016"/>duld liebe Frau, ach und ein bissgen Wärme wenn Sie an Ihren <ref target="gb:note#GB03_2_BR038_0_note_008_29_16" xml:id="start_com_0470"/>Gustel<ref xml:id="end_com_0470"/>
+        <anchor xml:id="GB03_1_BR038_0_029_017"/>dencken <ref target="gb:note#GB03_2_BR038_0_note_009_29_17" xml:id="start_com_0471"/>es verschlägt Sie ja nichts<ref xml:id="end_com_0471"/> – doch ich habe mich nicht zu 
+  <anchor xml:id="GB03_1_BR038_0_029_018"/>beklagen <ref target="gb:note#GB03_2_BR038_0_note_010_29_18" xml:id="start_com_0472"/>Sie sind so lieb als Sie seyn dürfen um mich nicht zu plagen.<ref xml:id="end_com_0472"/>
+        <anchor xml:id="GB03_1_BR038_0_029_019"/>Sie könnten <ref target="gb:note#GB03_2_BR038_0_note_011_29_19-20" xml:id="start_com_0473"/>den einfältigen Vers: O Freundschafft Quell erhabner 
+  <anchor xml:id="GB03_1_BR038_0_029_020"/>pp<ref xml:id="end_com_0473"/> Hier anbringen. Passte aber doch nicht ganz und sagt im Grunde 
+  <anchor xml:id="GB03_1_BR038_0_029_021"/>nichts.   Adieu</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10707_comment">
+<body>
+<div type="metadata" xml:id="gb10707_comment_com540">
+  <ab type="numberAddressee"><label>38.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>2.? Februar 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10707_comment_com1659">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief unmittelbar vor dem datierten Brief vom 23. Februar 1776 (<ref target="gb:dokument#10386">Nr 50</ref>) eingeordnet. Im Erstdruck wird er ohne Begründung zwischen den 17. und 19. März 1776 gesetzt. Der Inhalt verweist auf eine frühere Datierung: Die Erwähnung einer bevorstehenden Trennung könnte sich auf Goethes Aufenthalt in Erfurt vom 3. bis 6. Februar 1776 beziehen (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_001_29_8">29,8</ref>). Dass damit eine spätere Reise gemeint ist, etwa die vom 25. März bis zum 4. April 1776 nach Leipzig, wie Wahle und Petersen vermuteten (vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 484, Anm. 1 [zu S. 27]; <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 558 f., Anm. zu Nr 29), ist weniger wahrscheinlich, da der Brief offenbar noch vor der ersten Aufführung des „Westindiers“ durch das Liebhabertheater geschrieben wurde (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_006_29_13">29,13</ref>). Als Datierung kommt daher der 2. Februar 1776 in Frage.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10707_comment_com2584">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 6. – 1 Bl. 17 × 11 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „14.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 14), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 15 f. (Paraphe irrtümlich ergänzt).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 18 f., Nr 385.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10707_comment_com3587">
+  <p><quote type="G">Briefe </quote> (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR038_0_note_002_29_9">29,9</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10707_comment_com4380">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10707_comment_com9769">
+<label xml:id="GB03_2_BR038_0_note_001_29_8" copyOf="#start_com_0463"><hi rendition="#fett">29,8</hi>dass ich wegkomme</label>
+<p>Wenn der Brief, wie angenommen, am 2. Februar 1776 geschrieben wurde, ist hier Goethes Reise mit Herzog Carl August nach Erfurt gemeint. Die genaue Dauer des Aufenthalts geht aus Wielands Brief an Lavater vom 5. Februar 1776 hervor: „Göthe ist seit Sonnabends [3. 2.] früh mit dem Herzog in Erfurt, und kömmt erst morgen wieder.“ (<ref target="sndb:sigle#141">WB</ref> 5, 469.)</p>
+
+</note>
+<note xml:id="gb10707_comment_com9770">
+<label xml:id="GB03_2_BR038_0_note_002_29_9" copyOf="#start_com_0464"><hi rendition="#fett">29,9</hi>die Briefe wieder</label>
+<p>Nicht überliefert. – Die Formulierung lässt vermuten, dass es sich um die Anfang bis Mitte Januar 1776 Charlotte von Stein überlassenen und am 28. Januar von ihr zurückerhaltenen Briefe an Goethe handelt (vgl. zu <ref target="gb:note#GB03_2_BR022_0_note_001_21_1-2">21,2-3</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR031_0_note_005_25_15">25,15</ref>).</p>
+
+</note>
+<note xml:id="gb10707_comment_com9771">
+<label xml:id="GB03_2_BR038_0_note_003_29_9" copyOf="#start_com_0465"><hi rendition="#fett">29,9</hi>ein Paar neue</label>
+<p>Nicht überliefert. – Wahrscheinlich weitere eingegangene Briefe, die Goethe vielleicht in seiner ersten Weimarer Zeit erhalten hatte.</p>
+
+</note>
+<note xml:id="gb10707_comment_com17580">
+<label xml:id="GB03_2_BR038_0_note_004_29_10-11" copyOf="#start_com_0466"><hi rendition="#fett">29,10-11</hi>wärs so hell da <gap quantity="3" reason="editorial"/> Thusnelda</label>
+<p>‚Thusnelda‘, einer der Spitznamen Louise von Göchhausens, seit 1775 Gesellschafterin, seit 1783 erste Hofdame der Herzoginmutter Anna Amalia (vgl. WB 5, Nr 568; WB 6 III, 1562–1564; ebenso in Charlotte von Steins „Rino“, abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10967_comment_com85700">Nr 135</ref>). Die Verse in Goethes Brief könnten eine Anspielung auf Stegreifreime der Göchhausen sein, die sie in Gesellschaft Goethes und Charlotte von Steins vorgetragen hatte (vgl. auch <ref target="gb:text#GB03_1_BR218_0_129_003 #GB03_1_BR218_0_129_004">129,3–4</ref>). Über Louise von Göchhausen, die an einer Missbildung der Wirbelsäule litt und ungewöhnlich klein war, doch selbstbewusst und literarisch begabt gewesen sein muss, verfasste Graf Moritz von Putbus, Oberhofmeister Anna Amalias, 1776 die folgenden scherzhaften Verse:
+  <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck6">Was sag ich aber vom Genie</l>
+    <l rendition="#einrueck6">(Hier mit Respect zu melden)</l>
+    <l rendition="#einrueck6">Der Göttin hoch, wie unser Knie,</l>
+    <l rendition="#einrueck6">Der herrlichen Thusnelden?</l>
+    <l rendition="#einrueck6">Sie wirbelt, webt und schwebt und schwirrt</l>
+    <l rendition="#einrueck6">Und gondelt durch die Sphären</l>
+    <l rendition="#einrueck6">Und dichtet, urtheilt, trifft und irrt</l>
+    <l rendition="#einrueck6">Und wankt wie Blat und Aehren;</l>
+    <l rendition="#einrueck6">Ist immer wizig, immer gut</l>
+    <l rendition="#einrueck6">Auch bey uns bösen Leuten;</l>
+    <l rendition="#einrueck6">Behält in Nöthen festen Muth</l>
+    <l rendition="#einrueck6">Und weiß sich durchzustreiten;</l>
+    <l rendition="#einrueck6"><gap quantity="3" reason="editorial"/>.</l>
+  </lg>
+  <space unit="lines" quantity="1"/>
+(<ref target="sndb:sigle#3110">Tiefurter Matinée 1776</ref>, S. 11; vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>.)</p>
+
+</note>
+<note xml:id="gb10707_comment_com17589">
+<label xml:id="GB03_2_BR038_0_note_005_29_12" copyOf="#start_com_0467"><hi rendition="#fett">29,12</hi>den Homer</label>
+<p>Möglicherweise eine der von Samuel Clarke begonnenen und von seinem Sohn fortgeführten Ausgaben von Homers „Ilias“ und „Odyssee“, die neben dem griechischen Urtext eine lateinische Übersetzung enthielten (vgl. <ref target="gb:note#GB01_2_BR071_0_note_010_196_33">GB 1 II, zu 196,33</ref>). In einer Ausgabe von 1756 befindet sie sich in Goethes Bibliothek (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 178, Nr 1282). Alle anderen Homer-Ausgaben, die nachweislich in Goethes Besitz waren, stammen aus der Zeit nach 1776. – Mit dem Studium des griechischen Originals der homerischen Dichtungen hatte Goethe bereits 1771 in seiner Straßburger Studienzeit begonnen, angeregt und unterstützt durch Herder. Im Brief an Johann Daniel Salzmann vom 12. Juni 1771 schrieb er: <gap quantity="3" reason="editorial"/> <quote type="G">denn dass Sie es wissen ich habe in der Zeit dass ich hier binn meine griechische Weisheit so vermehrt dass ich fast den Homer ohne Übersetzung lese.</quote> (<ref target="gb:text#GB01_1_BR084_0_212_014 #GB01_1_BR084_0_212_016">GB 1 I, 212,14-16</ref>.) Ende Dezember 1775 hatte Goethe offenbar seine Homer-Lektüre wieder aufgenommen, wie aus dem frühesten erhaltenen Brief an Herzog Carl August vom 23. und 24. Dezember 1775 hervorgeht (vgl. <ref target="gb:text#GB03_1_BR008_0_010_032">10,32</ref>).</p>
+
+</note>
+<note xml:id="gb10707_comment_com9782">
+<label xml:id="GB03_2_BR038_0_note_006_29_13" copyOf="#start_com_0468"><hi rendition="#fett">29,13</hi>der Westindier</label>
+<p>Lustspiel von Richard Cumberland (The West Indien. A Comedy. London 1771), das im Februar 1776 vom Weimarer Liebhabertheater einstudiert wurde, und zwar in der Übersetzung von Johann Joachim Christoph Bode (Der Westindier. 2. Auflage. Hamburg, Frankfurt a. M. 1775). Einem heute nur in fragmentarischer Abschrift überlieferten Brief von Philipp Seidel an Johann Adam Wolf vom 29. Februar 1776 zufolge fand die erste Aufführung an diesem Tag statt: „Sie spielen diesen Abend den Westindier und mein bester <supplied>Herr</supplied> hat Belcours Rolle, deßen Charackter so viele Aehnlichkeit mit dem meinen hat und ich will zum voraus garantiren, er wird auch da <supplied>Meister</supplied> seyn.“ (Abschrift: <ref target="archivdb:dokument#280374">GSA 96/2698</ref>; im Erstdruck des Briefes irrtümlich mit dem Datum 19. Februar 1776, vgl. C. A. H. Burckhardt: Kritische Bemerkungen zu Goethe’s Biographien. Aus Seidel’s Briefen und Goethe’s Tagebüchern 1775–76. In: Die Grenzboten. 33. Jg. 1. Semester. Bd 1. Leipzig 1874, S. 377.) Neben Goethe, der, wie auch aus Seidels Brief hervorgeht, die Titelrolle des ‚Westindiers‘ Belcour verkörperte, und Charlotte von Stein in der Rolle der Miss Charlotte Russport sollen Herzog Carl August, Prinz Constantin, Louise von Göchhausen, die Kammerherren Friedrich Hildebrand von Einsiedel und Carl Friedrich Sigmund von Seckendorff, Emilie von Werthern-Beichlingen, Josias von Stein und Knebel mitgespielt haben (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 135 f.). – Dass Angehörige des Hofes und der herzoglichen Familie, ja der regierende Herzog selbst zu den Schauspielern des Liebhabertheaters gehörten, dürfte für die damalige Zeit ungewöhnlich gewesen sein, wie u. a. ein Brief Carl von Steins vom 7. Dezember 1782 an seinen Vater belegt: „Man hält sich hier <supplied>in Braunschweig</supplied> darüber auf, daß in Weimar keine Truppe ist und daß der Hof das Publikum belustigt, indem er selbst mitagiert. Ich habe mein liebes Weimar verteidigt, soviel in meinen Kräften steht. Es behält doch immer den Vorzug, daß niemand durch <hi rendition="#hervor1">Etiquette</hi> bekümmert wird wie hier.“ (Horst Fleischer: Vertrauliche Mitteilungen aus Mecklenburg-Schwerin und Sachsen-Weimar. Rudolstadt 1999, S. 28.)</p>
+
+</note>
+<note xml:id="gb10707_comment_com9783">
+<label xml:id="GB03_2_BR038_0_note_007_29_15" copyOf="#start_com_0469"><hi rendition="#fett">29,15</hi>ein iunger Herzog</label>
+<p>Möglicherweise Anspielung auf den 18-jährigen Herzog Carl August, der von verschiedenen Seiten zu ‚guten Vorsätzen‘ gedrängt wurde (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>).</p>
+
+</note>
+<note xml:id="gb10707_comment_com9784">
+<label xml:id="GB03_2_BR038_0_note_008_29_16" copyOf="#start_com_0470"><hi rendition="#fett">29,16</hi>Gustel</label>
+<p>Außer an dieser Stelle nennt sich Goethe nur noch im Brief an Charlotte von Stein vom 24. Februar 1776 so (vgl. <ref target="gb:text#GB03_1_BR051_0_036_019">36,19</ref>). – Schöll vermutete, der Name spiele auf die Figur des treuherzigen Liebhabers ‚Gustel‘ im Singspiel „Das Rosenfest“ von Gottlob Ephraim Heermann an, einer Bearbeitung der französischen Vorlage „Rosière de Salenci“ von Charles Simon Favart (vgl. Adolph Schöll: Jenaer Literaturzeitung. 3. Jg. Jena 1876, Nr 39, S. 612). In der Vertonung des Weimarer Hofkapellmeisters Ernst Wilhelm Wolf war das Stück schon 1769 in Weimar uraufgeführt worden, gehörte aber noch 1774 zum Repertoire des Liebhabertheaters (vgl. <ref target="sndb:sigle#3081">Schrickel, Weimarer Theater</ref>, 56) und war 1775 in Frankfurt im Druck erschienen.</p>
+
+</note>
+<note xml:id="gb10707_comment_com9785">
+<label xml:id="GB03_2_BR038_0_note_009_29_17" copyOf="#start_com_0471"><hi rendition="#fett">29,17</hi>es verschlägt Sie ja nichts</label>
+<p>Verschlagen: ausmachen; hier im Sinne von ‚es macht keinen Unterschied für Sie‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1120 f.).</p>
+
+</note>
+<note xml:id="gb10707_comment_com17523">
+<label xml:id="GB03_2_BR038_0_note_010_29_18" copyOf="#start_com_0472"><hi rendition="#fett">29,18</hi>Sie sind so lieb <gap quantity="3" reason="editorial"/> zu plagen.</label>
+<p>Schon im frühesten überlieferten Brief an Charlotte von Stein hatte Goethe behauptet, <quote type="G">alles <hi rendition="#hervor1">liebe</hi> peinigt mich auch hier ausser <hi rendition="#hervor2">Sie</hi> liebe Frau</quote> (<ref target="gb:text#GB03_1_BR018_0_018_021 #GB03_1_BR018_0_018_022">18,21–22</ref>).</p>
+
+</note>
+<note xml:id="gb10707_comment_com9797">
+<label xml:id="GB03_2_BR038_0_note_011_29_19-20" copyOf="#start_com_0473"><hi rendition="#fett">29,19-20</hi>den einfältigen Vers: O Freundschafft Quell erhabner p. p.</label>
+<p>Beginn der dritten Strophe von Johann Friedrich von Cronegks Ode „Die verkleidete Liebe“:
+<space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck7">O Freundschaft, Quell erhabner Triebe!</l>
+    <l rendition="#einrueck7">Dir folgen ist der Menschheit Pflicht:</l>
+    <l rendition="#einrueck7">Du hast die Reizungen der Liebe,</l>
+    <l rendition="#einrueck7">Und ihre Schmerzen hast du nicht.</l>
+  </lg>
+<space unit="lines" quantity="1"/>
+(Des Freyherrn Johann Friedrich von Cronegks Schriften. Bd 2. Anspach 1773, S. 262.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

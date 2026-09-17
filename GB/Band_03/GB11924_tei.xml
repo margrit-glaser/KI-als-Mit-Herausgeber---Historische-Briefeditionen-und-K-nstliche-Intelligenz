@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3320"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11924" n="GB 3, Nr. 323">
+  <teiHeader xml:id="gb11924_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>323.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, vermutlich erste Hälfte Januar 1778</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:08Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11924_tei.xml</idno>
+        <idno type="URI">gb11924</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR323_0</idno>
+        <idno type="KSW-ID">11924</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="191" to="191">191</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="650" to="650">650</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11924_header_hwit1323" corresp="#gb11924_source_hwit1323" sameAs="#gb11924_comment_hwit1323" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe, Ms. Germ. Qu. 521</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11924,,1323/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier, mein lieber, das erste Buch meines Romans. Ohngefähr der achte Theil desselben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11924_header_acc420" corresp="gb11924_comment_acc420">
+            <objectIdentifier>
+              <objectName>Manuskript des 1. Buches von „Wilhelm Meisters theatralischer Sendung“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1778-01-01" to="1778-01-15"><supplied>vermutlich erste Hälfte Januar 1778</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1778-01-01" to="1778-01-31"><supplied>Januar 1778</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1778-02-01" to="1778-02-28"><supplied>Februar 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44242">Knebel, Carl Ludwig von</persName>
+            <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11924_source_hwit1323" corresp="#gb11924_header_hwit1323" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11924/17377"/>
+      <p>
+        <anchor xml:id="GB03_1_BR323_0_191_001"/>Hier, mein lieber, <ref target="gb:note#GB03_2_BR323_0_note_001_191_1" xml:id="start_com_2938"/>das erste Buch meines Romans<ref xml:id="end_com_2938"/>. Ohngefähr der 
+<anchor xml:id="GB03_1_BR323_0_191_002"/>achte Theil desselben. Ich wünschte von dir zu hören wie er sich ließt 
+<anchor xml:id="GB03_1_BR323_0_191_003"/>und ob diese <ref target="gb:note#GB03_2_BR323_0_note_002_191_3" xml:id="start_com_2939"/>Introduzzione<ref xml:id="end_com_2939"/> würdige Erwartungen erregt?</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR323_0_191_004"/>
+        <signed rend="paraph" rendition="#einrueck25">G</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11924/17378" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11924_comment">
+<body>
+<div type="metadata" xml:id="gb11924_comment_com1330">
+  <ab type="numberAddressee"><label>323.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>vermutlich erste Hälfte Januar 1778</supplied> → <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11924_comment_com1991">
+  <p>Das überschickte <quote type="G">erste Buch</quote> (<ref target="gb:text#GB03_1_BR323_0_191_001">191,1</ref>) des Romans „Wilhelm Meisters theatralische Sendung“ hatte Goethe am 2. Januar 1778 fertiggestellt; unter diesem Datum heißt es in seinem Tagebuch: <quote type="G">früh 1 B. Meisters geendigt.</quote> (<ref target="gt:dokument#504">GT I 1, 59</ref>.) Es ist anzunehmen, dass er das Manuskript nicht allzu lange danach Knebel zu lesen gab. Demnach stammt der vorliegende Brief vermutlich aus der ersten Hälfte Januar 1778.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11924_comment_com3374">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin, Sign.: Ms. Germ. 4°. 521, Bl. 11. – 1 Bl. 15 × 10 cm, &#x2154; S. beschr., egh., Tinte; Vs. oben links von fremder Hd, Tinte: „Wilhelm Meister“, darunter von Gottschalk Eduard Guhrauers Hd, Bleistift: „12“ (vgl. E), oben in der Mitte von fremder Hd, Tinte: „No. 3 –“; Vs. unter der Paraphe von fremder Hd, Bleistift: „19 Nov <supplied>?</supplied> 1783?“. – In einem Konvolut mit schwarzem Ledereinband (vgl. weiter Überlieferung zu <ref target="gb:note#gb10600_comment_com2925">Nr 5</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1 (1851), 11, Nr 12.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 213, Nr 679.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11924_comment_com3825">
+  <p>Manuskript des 1. Buches von „Wilhelm Meisters theatralischer Sendung“ (vgl. zu <ref target="gb:note#GB03_2_BR323_0_note_001_191_1">191,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11924_comment_com5170">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11924_comment_com11658">
+<label xml:id="GB03_2_BR323_0_note_001_191_1" copyOf="#start_com_2938"><hi rendition="#fett">191,1</hi>das erste Buch meines Romans</label>
+<p>Goethe hatte knapp ein Jahr zuvor mit der Niederschrift seines Romans „Wilhelm Meisters theatralische Sendung“ begonnen, der im Tagebuch erstmals unter dem 16. Februar 1777 erwähnt wird (vgl. <ref target="gt:dokument#289">GT I 1, 38</ref>). Der Fragment gebliebene Roman gedieh bis zum 6. Buch, das im November 1785 beendet wurde. Vom 7. Buch arbeitete Goethe Teile aus, die nicht überliefert sind. Vgl. auch zu <ref target="gb:note#GB03_2_BR218_0_note_006_129_9">129,9</ref>.</p>
+
+</note>
+<note xml:id="gb11924_comment_com11659">
+<label xml:id="GB03_2_BR323_0_note_002_191_3" copyOf="#start_com_2939"><hi rendition="#fett">191,3</hi>Introduzzione</label>
+<p>Ital. introduzione: Einführung.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

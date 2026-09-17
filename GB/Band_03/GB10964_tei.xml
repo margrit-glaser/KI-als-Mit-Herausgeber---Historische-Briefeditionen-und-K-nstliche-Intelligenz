@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1260"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10964" n="GB 3, Nr. 125">
+  <teiHeader xml:id="gb10964_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>125.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 7. Juni 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:24Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10964_tei.xml</idno>
+        <idno type="URI">gb10964</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR125_0</idno>
+        <idno type="KSW-ID">10964</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="74" to="74">74</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="289" to="291">289-291</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10964_header_hwit1007" corresp="#gb10964_source_hwit1007" sameAs="#gb10964_comment_hwit1007" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 20</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10964,,1007/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie kann ich seyn ohne Ihnen zu schreiben. Wenigstens hört ich gestern durch Lenz was von Ihnen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10964_header_acc311" corresp="gb10964_comment_acc311">
+            <objectIdentifier>
+              <objectName>Exemplar von „Erwin und Elmire“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-07">7. Juni 1776</date>
+            <note>
+              <date type="WA" when="1776-06-20"><supplied>20.?</supplied> Juni 1776</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10964_source_hwit1007" corresp="#gb10964_header_hwit1007" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10964/22384"/>
+      <p>
+        <anchor xml:id="GB03_1_BR125_0_074_010"/>Wie kann ich seyn ohne Ihnen zu schreiben. Wenigstens hört ich gestern 
+<anchor xml:id="GB03_1_BR125_0_074_011"/>
+        <ref target="gb:note#GB03_2_BR125_0_note_001_74_11" xml:id="start_com_1159"/>durch Lenz<ref xml:id="end_com_1159"/> was von Ihnen. Hier ein <ref target="gb:note#GB03_2_BR125_0_note_002_74_11" xml:id="start_com_1160"/>Erwin<ref xml:id="end_com_1160"/>. Schicken Sie <ref target="gb:note#GB03_2_BR125_0_note_003_74_11-12" xml:id="start_com_1161"/>das Ihrige<ref xml:id="end_com_1161"/>
+        <anchor xml:id="GB03_1_BR125_0_074_012"/>der <ref target="gb:note#GB03_2_BR125_0_note_004_74_12" xml:id="start_com_1162"/>Werthern<ref xml:id="end_com_1162"/>. <ref target="gb:note#GB03_2_BR125_0_note_005_74_12" xml:id="start_com_1163"/>Wiel.<ref xml:id="end_com_1163"/> hat mit Ihrer Frau <ref target="gb:note#GB03_2_BR125_0_note_006_74_12" xml:id="start_com_1164"/>Mutter<ref xml:id="end_com_1164"/> von einer <ref target="gb:note#GB03_2_BR125_0_note_007_74_12" xml:id="start_com_1165"/>Französin<ref xml:id="end_com_1165"/>
+        <anchor xml:id="GB03_1_BR125_0_074_013"/>gesprochen die Kinder unterrichten will. Wird noch was draus? Was 
+<anchor xml:id="GB03_1_BR125_0_074_014"/>macht <ref target="gb:note#GB03_2_BR125_0_note_008_74_14" xml:id="start_com_1166"/>Friz<ref xml:id="end_com_1166"/>? Gezeichnet hab ich nichts. <ref target="gb:note#GB03_2_BR125_0_note_009_74_14" xml:id="start_com_1167"/>Meiner Schwester<ref xml:id="end_com_1167"/> mögt ich 
+<anchor xml:id="GB03_1_BR125_0_074_015"/>eine <ref target="gb:note#GB03_2_BR125_0_note_010_74_15" xml:id="start_com_1168"/>Abschrifft der neuen Melodie<ref xml:id="end_com_1168"/> schicken.   Addio.   Vielleicht komm 
+<anchor xml:id="GB03_1_BR125_0_074_016"/>ich heute noch und bring die <ref target="gb:note#GB03_2_BR125_0_note_011_74_16" xml:id="start_com_1169"/>Rahmen zu den Feuer Stücken<ref xml:id="end_com_1169"/>. <ref target="gb:note#GB03_2_BR125_0_note_012_74_16-17" xml:id="start_com_1170"/>Die 
+<anchor xml:id="GB03_1_BR125_0_074_017"/>Banck steht prächtig in dem ihr geweihten Heiligthum.<ref xml:id="end_com_1170"/>   Adieu.   Seyn 
+<anchor xml:id="GB03_1_BR125_0_074_018"/>Sie mir lieb wie immer, ich will auch seltner schreiben und kommen.
+<anchor xml:id="GB03_1_BR125_0_074_019"/>    d<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR125_0_note_013_74_19" xml:id="start_com_1171"/>7. Jun.<ref xml:id="end_com_1171"/> 76.    G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10964_comment">
+<body>
+<div type="metadata" xml:id="gb10964_comment_com632">
+  <ab type="numberAddressee"><label>125.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 7. Juni 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10964_comment_com2676">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 20. – 1 Bl. 17,9 × 10,9 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Fr. v. Stein</quote>, Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „53“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 53), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 36.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 76, Nr 477.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10964_comment_com3618">
+  <p>Exemplar von „Erwin und Elmire“ (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR125_0_note_002_74_11">74,11</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10964_comment_com4472">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Ein möglicherweise vom selben Tag stammender Antwortbrief ist nicht überliefert (vgl. zu <ref target="gb:note#GB03_2_BR126_0_note_001_75_1">75,1</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10964_comment_com17695">
+<label xml:id="GB03_2_BR125_0_note_001_74_11" copyOf="#start_com_1159"><hi rendition="#fett">74,11</hi>durch Lenz</label>
+<p>Lenz hielt sich noch bis zum 27. Juni 1776 in Weimar auf, um sich dann für einige Wochen zum Schreiben in das nahe gelegene Berka zurückzuziehen. Am 27. Juni schrieb er an Goethe: „Ich geh aufs Land, weil ich bey Euch nichts thun kann.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 3, Nr 189; vgl. auch Lenz an Goethe und Philipp Seidel, 27. Juni 1776; ebd. 2, 3–5, Nr 190; zu Lenz in Weimar vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR091_0_note_003_57_12">57,12</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>.)</p>
+
+</note>
+<note xml:id="gb10964_comment_com17774">
+<label xml:id="GB03_2_BR125_0_note_002_74_11" copyOf="#start_com_1160"><hi rendition="#fett">74,11</hi>Erwin</label>
+<p>Wahrscheinlich ein Exemplar der „Arien und Gesänge aus der Operette Erwin und Elmire“, die anlässlich der Liebhaberaufführungen von Goethes Singspiel am 24. Mai sowie am 4. und 10. Juni 1776 (vgl. zu <ref target="gb:note#GB03_2_BR115_0_note_005_70_12-13">70,12-13</ref>) als Separatdruck in 600 Exemplaren erschienen waren (Weimar 1776; 10 Bl., o. S.). 1776 erschien zudem ein Separatdruck in Offenbach mit der Musik von Goethes Freund Johann André, der nur die vertonten Lieder enthält (vgl. <ref target="sndb:sigle#2894">Hagen</ref> 119, Nr 114). Die vollständige Partitur der Herzoginmutter Anna Amalia ist in der <ref target="sndb:sigle#400">HAAB</ref> Weimar (Mus II a: 98) erhalten, sie erschien erst 1921 (Erwin und Elmire: ein Schauspiel mit Gesang / von Goethe. Komponiert von Anna Amalia, Herzogin zu Sachsen-Weimar-Eisenach 1776. Nach der in der Weimarer Landesbibliothek befindlichen handschriftlichen Partitur bearbeitet und zum erstenmal hrsg. von Max Friedländer. Leipzig). – Außerdem erschien 1776 bei Himburg in Berlin eine nicht autorisierte 2. Auflage von „Erwin und Elmire. Ein Schauspiel mit Gesang / von D. Göthe“ (vgl. <ref target="sndb:sigle#2894">Hagen</ref> 119, Nr 112 [D<hi rendition="#sup">2a</hi>]); auch wenn sich Goethe gegen die himburgischen Raubdrucke seiner Schriften zur Wehr setzte, so verschenkte er doch Widmungsexemplare davon (vgl. zu <ref target="gb:note#GB03_2_BR498_0_note_001_278_1-2">278,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb10964_comment_com10264">
+<label xml:id="GB03_2_BR125_0_note_003_74_11-12" copyOf="#start_com_1161"><hi rendition="#fett">74,11-12</hi>das Ihrige</label>
+<p>Demnach muss Charlotte von Stein schon zuvor ein Exemplar von „Erwin und Elmire“ erhalten haben, das allerdings nicht explizit in Goethes Briefen erwähnt wird (vgl. zu <ref target="gb:note#GB03_2_BR122_0_note_003_72_18">72,18</ref>).</p>
+
+</note>
+<note xml:id="gb10964_comment_com10265">
+<label xml:id="GB03_2_BR125_0_note_004_74_12" copyOf="#start_com_1162"><hi rendition="#fett">74,12</hi>Werthern</label>
+<p>Emilie von Werthern-Beichlingen (vgl. zu <ref target="gb:note#GB03_2_BR121_0_note_003_72_7">72,7</ref>), die auch bei Aufführungen des Liebhabertheaters mitwirkte (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_006_29_13">29,13</ref>).</p>
+
+</note>
+<note xml:id="gb10964_comment_com10266">
+<label xml:id="GB03_2_BR125_0_note_005_74_12" copyOf="#start_com_1163"><hi rendition="#fett">74,12</hi>Wiel.</label>
+<p>Christoph Martin Wieland.</p>
+
+</note>
+<note xml:id="gb10964_comment_com10263">
+<label xml:id="GB03_2_BR125_0_note_006_74_12" copyOf="#start_com_1164"><hi rendition="#fett">74,12</hi>Mutter</label>
+<p>Concordia Elisabeth von Schardt.</p>
+
+</note>
+<note xml:id="gb10964_comment_com10267">
+<label xml:id="GB03_2_BR125_0_note_007_74_12" copyOf="#start_com_1165"><hi rendition="#fett">74,12</hi>Französin</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10964_comment_com10268">
+<label xml:id="GB03_2_BR125_0_note_008_74_14" copyOf="#start_com_1166"><hi rendition="#fett">74,14</hi>Friz</label>
+<p>Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb10964_comment_com13652">
+<label xml:id="GB03_2_BR125_0_note_009_74_14" copyOf="#start_com_1167"><hi rendition="#fett">74,14</hi>Meiner Schwester</label>
+<p>Cornelia Schlosser geb. Goethe, die im Frankfurter Familien- und Freundeskreis viel Anerkennung für ihr Klavierspiel bekommen hatte.</p>
+
+</note>
+<note xml:id="gb10964_comment_com17706">
+<label xml:id="GB03_2_BR125_0_note_010_74_15" copyOf="#start_com_1168"><hi rendition="#fett">74,15</hi>Abschrifft der neuen Melodie</label>
+<p>Am 20. Oktober 1776 bedankte sich Cornelia Schlosser bei Charlotte von Stein: „Für Ihre Musick meine Liebste kann ich Ihnen nicht genug dancken ob ich schon nur den kleinsten Schatten davon auszuführen im Stande binn. Das Recitativ vom Orpheus muss eine erstaunende Würkung thun – ich glaub ich käm von Sinnen wenn ich einmal wieder so was hörte – hier sind wir abgeschnitten von allem was gut und schön in der Welt ist“ (vgl. den Abdruck des Briefes im Anschluss an die Erläuterungen zu <ref target="gb:note#gb11125_comment_com10477">Nr 150</ref>).</p>
+
+</note>
+<note xml:id="gb10964_comment_com10277">
+<label xml:id="GB03_2_BR125_0_note_011_74_16" copyOf="#start_com_1169"><hi rendition="#fett">74,16</hi>Rahmen zu den Feuer Stücken</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR122_0_note_002_72_13">72,13</ref>.</p>
+
+</note>
+<note xml:id="gb10964_comment_com10278">
+<label xml:id="GB03_2_BR125_0_note_012_74_16-17" copyOf="#start_com_1170"><hi rendition="#fett">74,16-17</hi>Die Banck <gap quantity="3" reason="editorial"/> ihr geweihten Heiligthum.</label>
+<p>Möglicherweise schon mit Bezug auf die später als Goethes „Lieblingsplatz“ bezeichnete Stelle am oberen Wiesenhang hinter dem Gartenhaus am „Stern“, an dem der Dichter selbst ein Halbrund von Laub- und Nadelbäumen anpflanzen und wo er 1782 eine steinerne Tafel mit dem Epigramm „Hier gedachte still ein Liebender seiner Geliebten <gap quantity="3" reason="editorial"/>“ anbringen ließ (zuerst 1789 in „Goethe’s Schriften“ [Bd 8, S. 223] unter dem Titel „Erwählter Fels“ gedruckt).</p>
+
+</note>
+<note xml:id="gb10964_comment_com10279">
+<label xml:id="GB03_2_BR125_0_note_013_74_19" copyOf="#start_com_1171"><hi rendition="#fett">74,19</hi>7. Jun.</label>
+<p>Im Erstdruck wurde irrtümlich „2. Juni“ gelesen, ebenso bei Fielitz (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 39, Nr 66) und in der <ref target="sndb:sigle#1157">WA</ref>, die außerdem zu „[20.?] Jun.“ ergänzt; zuerst 1899 von Wahle zu „7. Jun.“ korrigiert (vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 37, Nr 64).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

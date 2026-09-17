@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1940"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11445" n="GB 3, Nr. 192">
+  <teiHeader xml:id="gb11445_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>192.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zweite Hälfte November 1776?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:37Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11445_tei.xml</idno>
+        <idno type="URI">gb11445</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR192_0</idno>
+        <idno type="KSW-ID">11445</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="120" to="120">120</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="435" to="436">435-436</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11445_header_hwit1116" corresp="#gb11445_source_hwit1116" sameAs="#gb11445_comment_hwit1116" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/159,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:341056</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11445,,1116/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Zwar gesättigt bin ich aber ich bin in Weines Noth und aus denen theatralischen Eselskinbacken</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-11-15" to="1776-11-30"><supplied>zweite Hälfte November 1776?</supplied></date>
+            <note>
+              <date type="WA" from="1776-01-01" to="1776-12-31"><supplied>November? 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#46103">Einsiedel, Friedrich Hildebrand von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11445_source_hwit1116" corresp="#gb11445_header_hwit1116" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11445/11138"/>
+      <p>
+        <anchor xml:id="GB03_1_BR192_0_120_001"/>Zwar gesättigt bin ich aber ich bin in Weines Noth und auch denen 
+<anchor xml:id="GB03_1_BR192_0_120_002"/>
+        <ref target="gb:note#GB03_2_BR192_0_note_001_120_2-3" xml:id="start_com_1831"/>theatralischen Eselskinbacken mit denen man wohl Philister todtschlägt<ref xml:id="end_com_1831"/>
+        <anchor xml:id="GB03_1_BR192_0_120_003"/>springt der edle Quell nicht. Schicke mir aber was <hi rendition="#hervor1">altes</hi> denn 
+<anchor xml:id="GB03_1_BR192_0_120_004"/>eure neuen Weine hass ich wie die neue Literatur.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR192_0_120_005"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11445/11139" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11445_comment">
+<body>
+<div type="metadata" xml:id="gb11445_comment_com1315">
+  <ab type="numberAddressee"><label>192.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zweite Hälfte November 1776?</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11445_comment_com1982">
+  <p>Der Brief wurde im Erstdruck auf 1776 und in der <ref target="sndb:sigle#1157">WA</ref> auf November? 1776 datiert, jeweils ohne Begründung. Die Erwähnung der <quote type="G">Weines Noth</quote> (<ref target="gb:text#GB03_1_BR192_0_120_001">120,1</ref>) erinnert an Goethes Brief an Johann Heinrich Merck vom 22. November 1776, in dem er ebenfalls um eine Weinlieferung bittet (vgl. <ref target="gb:text#GB03_1_BR188_0_118_014 #GB03_1_BR188_0_118_016">118,14–16</ref>). Mit den <quote type="G">theatralischen Eselskinbacken</quote> (<ref target="gb:text#GB03_1_BR192_0_120_002">120,2</ref>) könnte Goethe auf die Mitglieder des Weimarer Liebhabertheaters anspielen. Um jene Zeit wurden „Die Geschwister“ und „Die Mitschuldigen“ geprobt und am 21. bzw. 28. November 1776 aufgeführt. Möglicherweise wurde der Brief also in der zweiten Hälfte des November 1776 geschrieben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11445_comment_com3359">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#341056">GSA 29/159,I</ref>, Bl. 2. – 1 Bl. 11,5 × 18,3 cm, &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> XI (1890), 71 (Carl August Hugo Burkhardt).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 7 (1891), 355, Nr 545a (nach E; mit Hinweis auf H in den Lesarten [<ref target="sndb:sigle#1157">WA</ref> IV 7, 369] sowie Textkorrekturen in den „Berichtigungen”, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11445_comment_com5155">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11445_comment_com10846">
+<label xml:id="GB03_2_BR192_0_note_001_120_2-3" copyOf="#start_com_1831"><hi rendition="#fett">120,2-3</hi>theatralischen Eselskinbacken <gap quantity="3" reason="editorial"/> todtschlägt</label>
+<p>Anspielung auf Simsons Sieg über die Philister bei Lehi, von dem im Alten Testament erzählt wird: Simson ergriff den noch blutigen Kinnbacken eines Esels und erschlug damit tausend Männer (vgl. Buch der Richter 15,15–17). – Das Attribut ‚theatralisch‘ zielt möglicherweise auf die Mitglieder des Weimarer Liebhabertheaters ab (vgl. <ref target="gb:note#gb11445_comment_com1982">Datierung</ref>), die offenbar ebenfalls unter Weinmangel litten.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5640"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12043" n="GB 3, Nr. 550">
+  <teiHeader xml:id="gb12043_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>550.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#84920">Luzern</placeName>, 17.? November 1779. Mittwoch? und <placeName key="sndb:ort#79740">Zürich</placeName>, zwischen 22. und 24. November? 1779. Montag?&#x2012;Mittwoch?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12043_tei.xml</idno>
+        <idno type="URI">gb12043</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR550_0</idno>
+        <idno type="KSW-ID">12043</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="344" to="354">344-354</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1054" to="1062">1054-1062</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12043_header_hwit1544" corresp="#gb12043_source_hwit1544" sameAs="#gb12043_comment_hwit1544" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 39 und Bl. 37</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12043,,1544/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Meine vielgeliebte, sehr vergnügt und wohl sind wir schon vor    einigen Tagen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#84920">Luzern</placeName></supplied> und
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+            <date from="1779-11-22" to="1779-11-24"><supplied>zwischen 22. und 24. November 1779</supplied></date> und
+            <date when="1779-11-17"><supplied>17.? November?1779</supplied></date>
+            <note>
+              <date type="WA" when="1779-11-24"><supplied>ca. 24. November 1779</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12043_source_hwit1544" corresp="#gb12043_header_hwit1544" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+      <pb n="1" facs="gb:digitalisate#12043/23190"/>
+      <p>
+        <anchor xml:id="GB03_1_BR550_0_344_012"/>Meine vielgeliebte, sehr vergnügt und wohl sind wir schon vor einigen 
+<anchor xml:id="GB03_1_BR550_0_344_013"/>Tagen hier <ref target="gb:note#GB03_2_BR550_0_note_001_344_13" xml:id="start_com_4951"/>in Zürch angekommen<ref xml:id="end_com_4951"/>. <ref target="gb:note#GB03_2_BR550_0_note_002_344_13-15" xml:id="start_com_4952"/>Vom Gotthart fuhren wir 
+<anchor xml:id="GB03_1_BR550_0_344_014"/>über den Luzerner See, nach Schwiz und Luzern, von da ritten wir 
+<anchor xml:id="GB03_1_BR550_0_344_015"/>hierher.<ref xml:id="end_com_4952"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_344_016"/>Was ich auf unsrer <ref target="gb:note#GB03_2_BR550_0_note_003_344_16" xml:id="start_com_4953"/>Savoyer Tour<ref xml:id="end_com_4953"/> theils mit Dinte<ptr n="1" target="#a001_344.16"/> theils mit Bleystift 
+<anchor xml:id="GB03_1_BR550_0_344_017"/>gekrizzelt, hab ich Ph. in Luzern dicktirt, und <ref target="gb:note#GB03_2_BR550_0_note_004_344_17" xml:id="start_com_4954"/>es liegt hierbey<ref xml:id="end_com_4954"/>. Nun 
+<anchor xml:id="GB03_1_BR550_0_344_018"/>steht noch die <ref target="gb:note#GB03_2_BR550_0_note_005_344_18" xml:id="start_com_4955"/>Reise durchs Wallis auf den Gotthart<ref xml:id="end_com_4955"/> und von da hier 
+<anchor xml:id="GB03_1_BR550_0_344_019"/>her zurück, wozu ich auch Zettelgen habe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_344_020"/><ref target="gb:note#GB03_2_BR550_0_note_006_344_20" xml:id="start_com_4956"/>Ihren Brief vom 12 Nov<ref xml:id="end_com_4956"/> aus Kochberg hab ich, nun werden Sie 
+<anchor xml:id="GB03_1_BR550_0_344_021"/>wohl <ref target="gb:note#GB03_2_BR550_0_note_007_344_21" xml:id="start_com_4957"/>in der Stadt<ref xml:id="end_com_4957"/> seyn, bereiten Sie uns dort einen freundlichen Empfang 
+<anchor xml:id="GB03_1_BR550_0_344_022"/>von allen guten Geistern, denn meine Seele sehnt sich starck zurück. 
+<anchor xml:id="GB03_1_BR550_0_344_023"/><ref target="gb:note#GB03_2_BR550_0_note_008_344_23" xml:id="start_com_4958"/>Die Bekanntschafft von Lavatern<ref xml:id="end_com_4958"/> ist für den Herzog und mich 
+<anchor xml:id="GB03_1_BR550_0_344_024"/>was ich gehofft habe, Siegel und oberste Spizze der ganzen Reise, und 
+<anchor xml:id="GB03_1_BR550_0_344_025"/>eine Weide an Himmelsbrod wovon man <ref target="gb:note#GB03_2_BR550_0_note_009_344_25" xml:id="start_com_4959"/>lange gute Folgen<ref xml:id="end_com_4959"/> spüren 
+<anchor xml:id="GB03_1_BR550_0_344_026"/>wird. Die Trefflichkeit dieses Menschen spricht kein Mund aus, wenn 
+<anchor xml:id="GB03_1_BR550_0_344_027"/>durch Abwesenheit<ptr n="2" target="#a002_344.27"/> sich die Idee von ihm verschwächt hat, wird man 
+<anchor xml:id="GB03_1_BR550_0_345_001"/>auf’s neue von seinem Wesen überrascht. Er ist der beste grosste weiseste 
+<anchor xml:id="GB03_1_BR550_0_345_002"/>innigste aller sterblichen und unsterblichen Menschen die ich 
+<anchor xml:id="GB03_1_BR550_0_345_003"/>kenne. Adieu beste. Die Post eilt und ich war gestern faul</p>
+      <p rendition="#einrueck23">
+        <anchor xml:id="GB03_1_BR550_0_345_004"/>G.</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR550_0_345_005"/>Ich habe nicht einmal <ref target="gb:note#GB03_2_BR550_0_note_010_345_5-6" xml:id="start_com_4960"/>die</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR550_0_345_006"/>Reise Nachricht<ref xml:id="end_com_4960"/> durchsehen konnen</p>
+      <p rendition="#einrueck5">
+        <anchor xml:id="GB03_1_BR550_0_345_007"/>es sind wohl schreibfehler drinne </p>
+      <space quantity="1" unit="lines"/>
+      <pb n="2" facs="gb:digitalisate#12043/23191" type="empty"/><pb n="3" facs="gb:digitalisate#12043/23182"/><p>
+        <anchor xml:id="GB03_1_BR550_0_345_008"/>Hier und da auf der ganzen Reise ward so viel von der <ref target="gb:note#GB03_2_BR550_0_note_011_345_8-9" xml:id="start_com_4961"/>Merkwürdigkeit<ref xml:id="end_com_4961"/>
+        <anchor xml:id="GB03_1_BR550_0_345_009"/>der <ref target="gb:note#GB03_2_BR550_0_note_012_345_9" xml:id="start_com_4962"/>Savoier Eisgebirgen<ref xml:id="end_com_4962"/> gesprochen und wie wir nach Genf kamen, 
+<anchor xml:id="GB03_1_BR550_0_345_010"/>hörten wir, dass es immer mehr Mode würde, dieselben zu sehen, 
+<anchor xml:id="GB03_1_BR550_0_345_011"/>dass der Herzog eine sonderliche Lust kriegte, seinen Weeg 
+<anchor xml:id="GB03_1_BR550_0_345_012"/>dahin zu nehmen, von Genf aus über <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_013_345_12" xml:id="start_com_4963"/>Cluse</emph> und <emph rendition="#latin">Salenche</emph><ref xml:id="end_com_4963"/> in’s Thal 
+<anchor xml:id="GB03_1_BR550_0_345_013"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_014_345_13" xml:id="start_com_4964"/>Chamouni</emph><ref xml:id="end_com_4964"/> zu gehen, die Wunder zu betrachten, dann über <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_015_345_13-14" xml:id="start_com_4965"/>Valorsine</emph>
+        <anchor xml:id="GB03_1_BR550_0_345_014"/>und <emph rendition="#latin">Trient</emph><ref xml:id="end_com_4965"/> nach <ref target="gb:note#GB03_2_BR550_0_note_016_345_14" xml:id="start_com_4966"/>Martinach<ref xml:id="end_com_4966"/> in’s Wallis zu fallen. Dieser Weeg, den die 
+<anchor xml:id="GB03_1_BR550_0_345_015"/>meisten Reisenden nehmen, schien, wegen der Jahrszeit etwas bedenklich<ptr n="3" target="#a003_345.16"/>. 
+<anchor xml:id="GB03_1_BR550_0_345_016"/>Der <ref target="gb:note#GB03_2_BR550_0_note_017_345_16" xml:id="start_com_4967"/>Herr <emph rendition="#latin">de Saussure</emph><ref xml:id="end_com_4967"/> wurde deswegen auf seinem Landgute 
+<anchor xml:id="GB03_1_BR550_0_345_017"/>besucht und um Rath gefragt. Er versicherte, <ref target="gb:note#GB03_2_BR550_0_note_018_345_17-18" xml:id="start_com_4968"/>dass man ohne Bedenken 
+<anchor xml:id="GB03_1_BR550_0_345_018"/>den Weeg machen könnte<ref xml:id="end_com_4968"/>, es liege auf den mittlern Bergen noch 
+<anchor xml:id="GB03_1_BR550_0_345_019"/>kein Schnee und wenn wir in der Folge auf’s Wetter und auf den 
+<anchor xml:id="GB03_1_BR550_0_345_020"/>guten Rath der Landleute<ptr n="4" target="#a004_345.20"/> achten wollten, der niemals fehl schläge, so 
+<anchor xml:id="GB03_1_BR550_0_345_021"/>könnten wir mit aller Sicherheit diese Reise unternehmen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_345_022"/>Hier ist die Abschrifft eines sehr eiligen Tageregisters.</p>
+      <p rendition="#einrueck6">
+        <anchor xml:id="GB03_1_BR550_0_345_023"/><emph rendition="#latin">Cluse</emph> in Savoiien den 3<hi rendition="#sup">t<g ref="#typoSuspension"/></hi> Nov. 1779.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_345_024"/>Heute früh ist der Herzog mit mir und <ref target="gb:note#GB03_2_BR550_0_note_019_345_24" xml:id="start_com_4969"/>einem Jäger<ref xml:id="end_com_4969"/> von Genf ab, 
+<anchor xml:id="GB03_1_BR550_0_345_025"/><ref target="gb:note#GB03_2_BR550_0_note_020_345_25" xml:id="start_com_4970"/>Wedel mit den Pferden<ref xml:id="end_com_4970"/> durch’s <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_021_345_25" xml:id="start_com_4971"/>paï de vaud</emph><ref xml:id="end_com_4971"/> in’s Wallis. Wir, in einem 
+<anchor xml:id="GB03_1_BR550_0_345_026"/>leichten <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_022_345_26" xml:id="start_com_4972"/>Cabriolet</emph>, mit vier Rädern<ref xml:id="end_com_4972"/>, fuhren erst, <ref target="gb:note#GB03_2_BR550_0_note_023_345_26" xml:id="start_com_4973"/>Hubern<ref xml:id="end_com_4973"/> auf seinem 
+<anchor xml:id="GB03_1_BR550_0_345_027"/>Landgute zu besuchen, den Mann, dem Geist, Imagination, Nachahmungsbegierde 
+<anchor xml:id="GB03_1_BR550_0_345_028"/>zu allen Gliedern heraus will, einen der wenigen ganzen 
+<anchor xml:id="GB03_1_BR550_0_345_029"/>Menschen, die wir angetroffen haben. Er sezte uns auf den Weeg 
+<anchor xml:id="GB03_1_BR550_0_345_030"/>und wir fuhren sodann, die hohen Schneegebürge, an die wir wollten, 
+<anchor xml:id="GB03_1_BR550_0_345_031"/>vor Augen, weiter. Vom Genfersee lauffen die vordern Bergketten gegen 
+<anchor xml:id="GB03_1_BR550_0_345_032"/>einander, biss da, wo <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_024_345_32-33" xml:id="start_com_4974"/>Bonneville</emph>, zwischen der <emph rendition="#latin">Mole</emph>, einem ansehnlichen 
+<anchor xml:id="GB03_1_BR550_0_345_033"/>Berge und der Arve<ref xml:id="end_com_4974"/>, inne liegt. Da assen wir zu Mittag. 
+<anchor xml:id="GB03_1_BR550_0_346_001"/>Hinter der Stadt schliesst sich das Thal, obgleich<ptr n="5" target="#a005_346.1"/> noch sehr breit an, 
+<anchor xml:id="GB03_1_BR550_0_346_002"/>die <emph rendition="#latin">Arve</emph> fliesst sachte durch, die <ref target="gb:note#GB03_2_BR550_0_note_025_346_2" xml:id="start_com_4975"/>Mitagseite<ref xml:id="end_com_4975"/> ist sehr angebaut und 
+<anchor xml:id="GB03_1_BR550_0_346_003"/>durchaus der Boden benuzt. Wir hatten seit früh etwas Regen, wenigsten 
+<anchor xml:id="GB03_1_BR550_0_346_004"/>auf die Nacht befürchtet, aber die Wolken verliessen nach und 
+<anchor xml:id="GB03_1_BR550_0_346_005"/>nach die Berge und theilten sich in Schäfgen, die uns schon mehr 
+<anchor xml:id="GB03_1_BR550_0_346_006"/>gute Zeichen waren. Die Luft war so warm, wie anfangs<ptr n="6" target="#a006_346.6"/> September 
+<anchor xml:id="GB03_1_BR550_0_346_007"/>und die Gegend sehr schön, noch viele Bäume grün, die meisten 
+<anchor xml:id="GB03_1_BR550_0_346_008"/>braungelb, wenige ganz kahl, die Saat hochgrün, die Berge im Abendroth 
+<anchor xml:id="GB03_1_BR550_0_346_009"/>rosenfarb in’s violette und diese Farben auf grossen, schönen, gefälligen 
+<anchor xml:id="GB03_1_BR550_0_346_010"/>Formen der Landschaft! Wir schwazten viel Gutes. Gegen 
+<anchor xml:id="GB03_1_BR550_0_346_011"/>fünfe kamen wir nach <emph rendition="#latin">Cluse</emph>, wo das Thal sich schliesset und nur 
+<anchor xml:id="GB03_1_BR550_0_346_012"/>einen <pb n="4" facs="gb:digitalisate#12043/23183"/> Ausgang lässt, wo <ref target="gb:note#GB03_2_BR550_0_note_026_346_12" xml:id="start_com_4976"/>die <emph rendition="#latin">Arve</emph> aus dem Gebürge kommt<ref xml:id="end_com_4976"/> und wir 
+<anchor xml:id="GB03_1_BR550_0_346_013"/>morgen hinein gehen. Wir stiegen auf einen Berg und sahen unter 
+<anchor xml:id="GB03_1_BR550_0_346_014"/>uns die Stadt an einen Fels gegen über mit der einen Seite angelehnt<ptr n="7" target="#a007_346.14"/>, 
+<anchor xml:id="GB03_1_BR550_0_346_015"/>die andere mehr in die Fläche des Thals hingebaut, das wir mit vergnügten 
+<anchor xml:id="GB03_1_BR550_0_346_016"/>Bliken durchliefen und, auf abgestürzten Granitstüken sizend, 
+<anchor xml:id="GB03_1_BR550_0_346_017"/>die Ankunft der Nacht, mit ruhigen und mannichfaltigen Gesprächen, 
+<anchor xml:id="GB03_1_BR550_0_346_018"/>erwarteten. Gegen sieben, als wir hinab stiegen, war es noch nicht 
+<anchor xml:id="GB03_1_BR550_0_346_019"/>kühler, als es auf dem Sommer um neun Uhr zu seyn pflegt. In einem 
+<anchor xml:id="GB03_1_BR550_0_346_020"/>
+        <ref target="gb:note#GB03_2_BR550_0_note_027_346_20" xml:id="start_com_4977"/>schlechten Wirthshaus<ref xml:id="end_com_4977"/>, bei muntern und willigen Leuten, an deren 
+<anchor xml:id="GB03_1_BR550_0_346_021"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_028_346_21" xml:id="start_com_4978"/>Patois</emph><ref xml:id="end_com_4978"/> man sich erlustigt, erschlafen wir nun den morgenden Tag, vor 
+<anchor xml:id="GB03_1_BR550_0_346_022"/>dessen Anbruch wir schon unsern Stab weiter sezen wollen.</p>
+      <p rendition="#einrueck20">
+        <anchor xml:id="GB03_1_BR550_0_346_023"/>Abends gegen 10<ptr n="8" target="#a008_346.23"/>.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR550_0_346_024"/><emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR550_0_note_029_346_24" xml:id="start_com_4979"/>Salenche</emph>
+        <ref xml:id="end_com_4979"/> den 4 Nov. Mitags.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_346_025"/>Bis ein <ref target="gb:note#GB03_2_BR550_0_note_030_346_25" xml:id="start_com_4980"/>schlechtes Mitagessen<ref xml:id="end_com_4980"/> von sehr willigen Händen wird bereitet 
+<anchor xml:id="GB03_1_BR550_0_346_026"/>seyn, will ich versuchen, das merkwürdigste von heute früh aufzuschreiben. 
+<anchor xml:id="GB03_1_BR550_0_346_027"/>Mit Tags Anbruch gingen wir zu Fuse von <emph rendition="#latin">Cluse</emph><ptr n="9" target="#a009_346.27"/> ab, den 
+<anchor xml:id="GB03_1_BR550_0_346_028"/>Weeg nach <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_031_346_28" xml:id="start_com_4981"/>Balme</emph><ref xml:id="end_com_4981"/>. Angenehm frisch war’s im Thal, das lezte Mondsviertel 
+<anchor xml:id="GB03_1_BR550_0_346_029"/>ging vor der Sonne hell auf und erfreute uns, weil man es selten 
+<anchor xml:id="GB03_1_BR550_0_346_030"/>so zu sehen<ptr n="10" target="#a010_346.30"/> gewohnt ist, leichte, einzelne Nebel stiegen aus den 
+<anchor xml:id="GB03_1_BR550_0_346_031"/>Felsrizen aufwärts, als wenn die Morgenluft iunge Geister aufwekte, 
+<anchor xml:id="GB03_1_BR550_0_346_032"/>die Lust fühlten, ihre Brust der Sonne entgegen zu tragen und sie an 
+<anchor xml:id="GB03_1_BR550_0_346_033"/>ihren Bliken zu vergülden. Der obere Himmel war ganz rein, nur, 
+<anchor xml:id="GB03_1_BR550_0_346_034"/>wenig quer, strichen durchleuchtete Wolkenstreiffen. <emph rendition="#latin">Balme</emph> ist ein 
+<anchor xml:id="GB03_1_BR550_0_347_001"/>elendes Dorf, unfern vom Weeg, wo sich eine Felsschlucht wendet. 
+<anchor xml:id="GB03_1_BR550_0_347_002"/>Wir verlangten von den Leuten, dass sie uns zur Höle führen sollten, 
+<anchor xml:id="GB03_1_BR550_0_347_003"/>von der der Ort seinen Ruhm hat. Da sahen sich die Leute unter einander 
+<anchor xml:id="GB03_1_BR550_0_347_004"/>an und sagten einer zum andern: Nehm’ du die Leiter, ich will 
+<anchor xml:id="GB03_1_BR550_0_347_005"/>den Strik nehmen, kommt ihr Herrn nur mit! Diese wunderbare Einladung 
+<anchor xml:id="GB03_1_BR550_0_347_006"/>schrökte uns nicht ab, ihnen zu folgen. Der Stieg ging durch 
+<anchor xml:id="GB03_1_BR550_0_347_007"/>abgestürzte <ref target="gb:note#GB03_2_BR550_0_note_032_347_7" xml:id="start_com_4982"/>Kalchfelsenstüke<ref xml:id="end_com_4982"/> erst hinauf, die durch die Zeit vor die 
+<anchor xml:id="GB03_1_BR550_0_347_008"/>steile Felswand aufgestufet worden und mit Hasel- und Buchenbüschen 
+<anchor xml:id="GB03_1_BR550_0_347_009"/>durchwachsen sind. Auf ihnen kommt man endlich an die 
+<anchor xml:id="GB03_1_BR550_0_347_010"/>Schicht der Felswand, wo man mühseelig und leidig auf der Leiter 
+<anchor xml:id="GB03_1_BR550_0_347_011"/>und Felsstufen, mit Hülfe übergebogener Nussbäumen-Aeste, hinauf 
+<anchor xml:id="GB03_1_BR550_0_347_012"/>klettern muss, dann steht man fröhlich in einem Portal des Felsen, 
+<anchor xml:id="GB03_1_BR550_0_347_013"/>übersieht das Thal und das Dorf unter sich. Wir bereiteten uns zum 
+<anchor xml:id="GB03_1_BR550_0_347_014"/>Eingang in die Höle, zündeten Lichter an und luden eine Pistole, die 
+<anchor xml:id="GB03_1_BR550_0_347_015"/>wir losschiessen wollten. Die Höle ist ein langer<ptr n="11" target="#a011_347.15"/> Gang, meist ebnes 
+<anchor xml:id="GB03_1_BR550_0_347_016"/>Bodens, auf einer Schicht, bald zu ein, bald zu <pb n="5" facs="gb:digitalisate#12043/23184"/> zwei Menschen breit, 
+<anchor xml:id="GB03_1_BR550_0_347_017"/>bald über Mannshöhe, dann wieder züm büken und auch zum durchkriechen. 
+<anchor xml:id="GB03_1_BR550_0_347_018"/>Gegen die Mitte steigt eine Kluft aufwärts und bildet einen 
+<anchor xml:id="GB03_1_BR550_0_347_019"/>spizigen Dohm. In einer Eke schiebt eine Kluft abwärts, wo wir immer 
+<anchor xml:id="GB03_1_BR550_0_347_020"/>gelassen siebzehn bis neunzehn gezählt haben, eh’ ein Stein, mit 
+<anchor xml:id="GB03_1_BR550_0_347_021"/>verschiedentlich wiederschallenden Springen, endlich in die Tiefe 
+<anchor xml:id="GB03_1_BR550_0_347_022"/>kam. An den Wänden <ref target="gb:note#GB03_2_BR550_0_note_033_347_22" xml:id="start_com_4983"/>sintert<ref xml:id="end_com_4983"/> ein Tropfstein, doch ist sie an den wenigsten 
+<anchor xml:id="GB03_1_BR550_0_347_023"/>Orten feucht, und bilden sich lange nicht die reichen, wunderbaren 
+<anchor xml:id="GB03_1_BR550_0_347_024"/>Figuren<ptr n="12" target="#a012_347.24"/>, wie in der <ref target="gb:note#GB03_2_BR550_0_note_034_347_24" xml:id="start_com_4984"/>Baumannshöle<ref xml:id="end_com_4984"/>. Wir drangen so weit vor, 
+<anchor xml:id="GB03_1_BR550_0_347_025"/>als es die Wasser zuliesen, schossen im Herausgehn die Pistole los, davon 
+<anchor xml:id="GB03_1_BR550_0_347_026"/>die Höle von einem starken dumpfen Klang erschüttert wurde 
+<anchor xml:id="GB03_1_BR550_0_347_027"/>und um uns wie eine Gloke summte. Wir brauchten eine starke viertel 
+<anchor xml:id="GB03_1_BR550_0_347_028"/>Stunde wieder heraus zu<ptr n="13" target="#a013_347.28"/> gehen, machten uns die Felsen wieder 
+<anchor xml:id="GB03_1_BR550_0_347_029"/>hinunter, fanden unsern Wagen und fuhren weiter. Wir sahen einen 
+<anchor xml:id="GB03_1_BR550_0_347_030"/><ref target="gb:note#GB03_2_BR550_0_note_035_347_30" xml:id="start_com_4985"/>schönen Wasserfall<ref xml:id="end_com_4985"/> auf <ref target="gb:note#GB03_2_BR550_0_note_036_347_30" xml:id="start_com_4986"/>Staubbachsart<ref xml:id="end_com_4986"/>, es war weder 
+<anchor xml:id="GB03_1_BR550_0_347_031"/>sehr hoch noch sehr reich, doch weil die Felsen um ihn, wie eine runde <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_037_347_31" xml:id="start_com_4987"/>Niche</emph><ref xml:id="end_com_4987"/> bilden, 
+<anchor xml:id="GB03_1_BR550_0_347_032"/>in der er herab stürzt und weil die Kalchschichten<ptr n="14" target="#a014_347.32"/> an ihm, in sich 
+<anchor xml:id="GB03_1_BR550_0_347_033"/>selbst umgeschlagen, neue und ungewohnte Formen bilden, sehr interessant. 
+<anchor xml:id="GB03_1_BR550_0_347_034"/>Bei hohem Sonnenschein kamen wir hier an, nicht hungrig 
+<anchor xml:id="GB03_1_BR550_0_348_001"/>gnug, das Mitagessen, das aus einem aufgewärmten Fisch, Kuhfleisch 
+<anchor xml:id="GB03_1_BR550_0_348_002"/>und hartem Brod bestehet, gut zu finden. Von hier geht weiter in’s 
+<anchor xml:id="GB03_1_BR550_0_348_003"/>Gebürg kein Fuhrweeg für eine so stattliche Reisekutsche, wie wir 
+<anchor xml:id="GB03_1_BR550_0_348_004"/>haben, diese geht nach Genf zurük und ich nehme Abschied von Ihnen, 
+<anchor xml:id="GB03_1_BR550_0_348_005"/>um den Weeg weiter fort zu sezen. Ein Maulesel mit dem Gepäk 
+<anchor xml:id="GB03_1_BR550_0_348_006"/>wird uns auf dem Fuse folgen.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck4"><anchor xml:id="GB03_1_BR550_0_348_007"/><emph rendition="#latin">Chamouni</emph> den 4. Nov. Abends gegen 9.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_348_008"/>Nur dass ich mit diesem Blat ihnen um so näher rüken kann, 
+<anchor xml:id="GB03_1_BR550_0_348_009"/>nehme ich die Feder, sonst wär’ es besser meine Geister ruhen zu 
+<anchor xml:id="GB03_1_BR550_0_348_010"/>lassen. Wir liesen <emph rendition="#latin">Salenche</emph> in einem schönen, ofnen Thale hinter uns, 
+<anchor xml:id="GB03_1_BR550_0_348_011"/>der Himmel hatte sich, während unsrer Mitagrast, mit weisen Schäfgen 
+<anchor xml:id="GB03_1_BR550_0_348_012"/>überzogen, von denen ich hier eine besondre Anmerkung machen 
+<anchor xml:id="GB03_1_BR550_0_348_013"/>muss: Wir haben sie so schön und noch schöner, an einem heitern 
+<anchor xml:id="GB03_1_BR550_0_348_014"/>Tag,<ptr n="15" target="#a015_348.14"/> von den Berner Eisbergen aufsteigen sehen, auch hier 
+<anchor xml:id="GB03_1_BR550_0_348_015"/>schien es uns wieder so, als wenn die Sonne die leiseste Ausdünstungen 
+<anchor xml:id="GB03_1_BR550_0_348_016"/>von den höchsten Schneegebürgen<ptr n="16" target="#a016_348.16"/>, gegen sich <pb n="6" facs="gb:digitalisate#12043/23185"/> aufzöge und 
+<anchor xml:id="GB03_1_BR550_0_348_017"/>diese ganz feine Dünste von einer leichten Luft, wie eine Schaumwolle, 
+<anchor xml:id="GB03_1_BR550_0_348_018"/>durch die Atmosphäre gekämmt würden<ptr n="17" target="#a017_348.18"/>. Ich erinnre mich nie in 
+<anchor xml:id="GB03_1_BR550_0_348_019"/>den höchsten Sommertagen, bei uns, wo dergleichen ähnliche Lufterscheinungen 
+<anchor xml:id="GB03_1_BR550_0_348_020"/>vorfallen, etwas so durchsichtiges, leichtgewobenes gesehen 
+<anchor xml:id="GB03_1_BR550_0_348_021"/>zu haben. Schon sahen wir die Schneegebürge, von denen sie 
+<anchor xml:id="GB03_1_BR550_0_348_022"/>aufsteigen, vor uns, das Thal fing an zu stoken, die <emph rendition="#latin">Arve</emph> schoss aus 
+<anchor xml:id="GB03_1_BR550_0_348_023"/>einer Felskluft hervor, wir mussten einen Berg hinan und wanden 
+<anchor xml:id="GB03_1_BR550_0_348_024"/>uns, die Schneegebürge rechts vor uns, immer höher. Abwechselnde 
+<anchor xml:id="GB03_1_BR550_0_348_025"/>Berge, alte Fichtenwälder zeigten sich uns rechts, theils in der Tiefe, 
+<anchor xml:id="GB03_1_BR550_0_348_026"/>theils uns gleich. Links über uns waren die Gipfel des Bergs kahl und 
+<anchor xml:id="GB03_1_BR550_0_348_027"/>spizig. Wir fühlten dass wir einem stärkern und mächtigern Saz von 
+<anchor xml:id="GB03_1_BR550_0_348_028"/>Bergen immer näher rükten. Wir kamen über ein breites troknes <ref target="gb:note#GB03_2_BR550_0_note_038_348_28" xml:id="start_com_4988"/>Beet<ref xml:id="end_com_4988"/>
+        <anchor xml:id="GB03_1_BR550_0_348_029"/>von Kieseln und Steinen, das<ptr n="18" target="#a018_348.29"/> die Wasserfluthen die Länge<ptr n="19" target="#a019_348.29"/> des Bergs 
+<anchor xml:id="GB03_1_BR550_0_348_030"/>hinab zerreissen und wieder füllen. Von da in ein sehr angenehmes, 
+<anchor xml:id="GB03_1_BR550_0_348_031"/>eingenommnes, flaches Thal, worinn das Dörfgen <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_039_348_31" xml:id="start_com_4989"/>Serves</emph><ref xml:id="end_com_4989"/> liegt, von da 
+<anchor xml:id="GB03_1_BR550_0_348_032"/>geht der Weeg, um einige sehr bunte Felsen, wieder gegen die <emph rendition="#latin">Arve</emph>. 
+<anchor xml:id="GB03_1_BR550_0_348_033"/>Wenn man über sie weg ist, steigt man einen Berg hinan, die Massen 
+<anchor xml:id="GB03_1_BR550_0_349_001"/>werden hier immer grösser, die Natur hat hier mit sachter Hand, das 
+<anchor xml:id="GB03_1_BR550_0_349_002"/>Ungeheure zu bereiten angefangen. Es wurde dunkler, wir kamen 
+<anchor xml:id="GB03_1_BR550_0_349_003"/>dem Thale <emph rendition="#latin">Chamouni</emph> näher und endlich darein. Nur die grossen 
+<anchor xml:id="GB03_1_BR550_0_349_004"/>Massen waren uns sichtbar, die Sterne gingen nach einander auf und 
+<anchor xml:id="GB03_1_BR550_0_349_005"/>wir bemerkten über den Gipfeln der Berge, rechts vor uns, ein Licht, 
+<anchor xml:id="GB03_1_BR550_0_349_006"/>das wir nicht erklären konnten, hell, ohne Glanz wie die Milchstrasse, 
+<anchor xml:id="GB03_1_BR550_0_349_007"/>doch dichter, fast wie die <ref target="gb:note#GB03_2_BR550_0_note_040_349_7" xml:id="start_com_4990"/>Pleïaden<ref xml:id="end_com_4990"/>, nur grösser, unterhielte es lang 
+<anchor xml:id="GB03_1_BR550_0_349_008"/>unsre Aufmerksamkeit, biss es endlich, da wir unsern Standpunkt änderten, 
+<anchor xml:id="GB03_1_BR550_0_349_009"/>wie eine Piramiede, von einem innern,<ptr n="20" target="#a020_349.9"/> geheimnissvollen 
+<anchor xml:id="GB03_1_BR550_0_349_010"/>Lichte durchzogen, das dem Schein eines Johanniswurms am besten 
+<anchor xml:id="GB03_1_BR550_0_349_011"/>verglichen werden kann, über den Gipfeln aller Berge hervorragte 
+<anchor xml:id="GB03_1_BR550_0_349_012"/>und uns gewiss machte, dass es der Gipfel des <emph rendition="#latin">mont blanc’s</emph> war. Es 
+<anchor xml:id="GB03_1_BR550_0_349_013"/>war die Schönheit dieses Anbliks ganz auserordentlich, denn, da er 
+<anchor xml:id="GB03_1_BR550_0_349_014"/>mit den Sternen, die um ihn herumstunden, zwar nicht in gleich raschem 
+<anchor xml:id="GB03_1_BR550_0_349_015"/>Licht, doch in einer breitern, zusammenhängendern Masse 
+<anchor xml:id="GB03_1_BR550_0_349_016"/>leuchtete, so schien er <pb n="7" facs="gb:digitalisate#12043/23186"/> den Augen zu iener höhern Sphäre zu gehören 
+<anchor xml:id="GB03_1_BR550_0_349_017"/>und man hatte Müh’, in Gedanken seine Wurzeln wieder an die 
+<anchor xml:id="GB03_1_BR550_0_349_018"/>Erde zu befestigen. Vor ihm sahen wir eine Reihe von Schneegebürgen, 
+<anchor xml:id="GB03_1_BR550_0_349_019"/>dämmernder auf den Rüken von schwarzen Fichtenbergen liegen 
+<anchor xml:id="GB03_1_BR550_0_349_020"/>und wir sahen ungeheure Gletscher zwischen den schwarzen 
+<anchor xml:id="GB03_1_BR550_0_349_021"/>Wäldern herunter in’s Thal steigen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_349_022"/>Meine Beschreibung fängt an unordentlich und ängstlich zu werden, 
+<anchor xml:id="GB03_1_BR550_0_349_023"/>auch braucht es eigentlich immer<ptr n="21" target="#a021_349.23"/> zwei Menschen, einen der’s 
+<anchor xml:id="GB03_1_BR550_0_349_024"/>sähe und einen der’s beschriebe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_349_025"/>Wir sind hier in dem <ref target="gb:note#GB03_2_BR550_0_note_041_349_25" xml:id="start_com_4991"/>mittelsten Dorfe<ref xml:id="end_com_4991"/> des Thals, <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_042_349_25" xml:id="start_com_4992"/>le Prieuré</emph><ref xml:id="end_com_4992"/> genannt, 
+<anchor xml:id="GB03_1_BR550_0_349_026"/>wohl logieret, in einem Hause, das eine <ref target="gb:note#GB03_2_BR550_0_note_043_349_26" xml:id="start_com_4993"/>Wittwe<ref xml:id="end_com_4993"/> den vielen 
+<anchor xml:id="GB03_1_BR550_0_349_027"/>Fremden zu Ehren, vor einigen Jahren erbauen lies. Wir sizen am Camin 
+<anchor xml:id="GB03_1_BR550_0_349_028"/>und lassen uns den <ref target="gb:note#GB03_2_BR550_0_note_044_349_28" xml:id="start_com_4994"/>Muskatellerwein<ref xml:id="end_com_4994"/>, aus der <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_045_349_28" xml:id="start_com_4995"/>vallée<ptr n="22" target="#a022_349.28"/> d’aost</emph><ref xml:id="end_com_4995"/> besser 
+<anchor xml:id="GB03_1_BR550_0_349_029"/>schmeken, als die Fastenspeissen, die uns aufgetischt werden.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR550_0_349_030"/>den 5<hi rendition="#sup">t<g ref="#typoSuspension"/></hi> Nov. Abends.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_349_031"/>Es ist immer eine <ref target="gb:note#GB03_2_BR550_0_note_046_349_31" xml:id="start_com_4996"/>Resolution<ref xml:id="end_com_4996"/> als wie wenn man in’s kalte Wasser 
+<anchor xml:id="GB03_1_BR550_0_349_032"/>soll, ehe ich die Feder nehmen mag, zu schreiben. Hier hätt ich nun 
+<anchor xml:id="GB03_1_BR550_0_349_033"/>grade Lust, Sie auf die <ref target="gb:note#GB03_2_BR550_0_note_047_349_33" xml:id="start_com_4997"/>Beschreibung der Savoiischen Eisgebürgen<ref xml:id="end_com_4997"/>, die 
+<anchor xml:id="GB03_1_BR550_0_349_034"/><emph rendition="#latin">Bourit</emph>, ein passionirter Kletterer, herausgegeben hat, zu verweissen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_350_001"/>Erfrischt durch einige Gläser guten<ptr n="23" target="#a023_350.1"/> Wein und den Gedanken, dass 
+<anchor xml:id="GB03_1_BR550_0_350_002"/>diese Blätter eher als die Reisenden und <emph rendition="#latin">Bourit’s</emph> Buch,<ptr n="24" target="#a024_350.2"/> bei ihnen ankommen 
+<anchor xml:id="GB03_1_BR550_0_350_003"/>werden, will ich mein möglichstes thun. Das Thal <emph rendition="#latin">Chamouni</emph>, 
+<anchor xml:id="GB03_1_BR550_0_350_004"/>in dem wir uns befinden, liegt sehr hoch in den Gebürgen, es ist etwa 
+<anchor xml:id="GB03_1_BR550_0_350_005"/><ref target="gb:note#GB03_2_BR550_0_note_048_350_5" xml:id="start_com_4998"/>sechs bis sieben Stunden lang<ref xml:id="end_com_4998"/> und gehet ziemlich <ref target="gb:note#GB03_2_BR550_0_note_049_350_5-6" xml:id="start_com_4999"/>von Mitag gegen 
+<anchor xml:id="GB03_1_BR550_0_350_006"/>Mitternacht<ref xml:id="end_com_4999"/>, der Charakter, der mir es vor andern auszeichnet, ist, dass 
+<anchor xml:id="GB03_1_BR550_0_350_007"/>es in seiner Mitte fast gar keine Fläche hat, sondern das Erdreich, wie 
+<anchor xml:id="GB03_1_BR550_0_350_008"/>eine Mulde, sich gleich von der <emph rendition="#latin">Arve</emph> aus gegen die höchsten Gebürge 
+<anchor xml:id="GB03_1_BR550_0_350_009"/>anschmiegt. Der <emph rendition="#latin">Mont blanc</emph> und die Gebürge, die von ihm herabsteigen 
+<anchor xml:id="GB03_1_BR550_0_350_010"/>die Eismassen, die diese ungeheure Klüfte ausfüllen, machen die 
+<anchor xml:id="GB03_1_BR550_0_350_011"/>östliche Wand aus, an der die ganze Länge des Thals hin <ref target="gb:note#GB03_2_BR550_0_note_050_350_11-12" xml:id="start_com_5000"/>sieben 
+<anchor xml:id="GB03_1_BR550_0_350_012"/>Gletscher<ref xml:id="end_com_5000"/>, einer grösser als der andre herunterkommen. Un<pb n="8" facs="gb:digitalisate#12043/23187"/>sere Führer, 
+<anchor xml:id="GB03_1_BR550_0_350_013"/>die wir gedingt hatten, das Eismeer zu sehen, kamen bei Zeiten. <ref target="gb:note#GB03_2_BR550_0_note_051_350_13-14" xml:id="start_com_5001"/>Der 
+<anchor xml:id="GB03_1_BR550_0_350_014"/>eine ist ein rüstiger, iunge Bursche, der andre schon älter<ref xml:id="end_com_5001"/> und sich klug 
+<anchor xml:id="GB03_1_BR550_0_350_015"/>dünkender, der mit allen gelehrten Fremden Verkehr gehabt hat, von 
+<anchor xml:id="GB03_1_BR550_0_350_016"/>der Beschaffenheit der Eisberge sehr wohl unterrichtet und ein sehr 
+<anchor xml:id="GB03_1_BR550_0_350_017"/>tüchtiger Mann ist. Er versicherte uns, dass seit acht und zwanzig Jahren, 
+<anchor xml:id="GB03_1_BR550_0_350_018"/>so lang führ’ er Fremde auf die Gebürge, er zum erstenmal so spät 
+<anchor xml:id="GB03_1_BR550_0_350_019"/>im Jahr, nach <ref target="gb:note#GB03_2_BR550_0_note_052_350_19" xml:id="start_com_5002"/>Allerheiligen<ref xml:id="end_com_5002"/>, iemand hinaufbringe und doch versicherte 
+<anchor xml:id="GB03_1_BR550_0_350_020"/>er, dass wir alles eben so gut, wie im August sehen sollten. Wir stiegen, 
+<anchor xml:id="GB03_1_BR550_0_350_021"/>mit Speisse und Wein gerüstet den <ref target="gb:note#GB03_2_BR550_0_note_053_350_21" xml:id="start_com_5003"/><emph rendition="#latin">Mont Anvert</emph><ref xml:id="end_com_5003"/> hinan, wo uns der Anblik 
+<anchor xml:id="GB03_1_BR550_0_350_022"/>des Eismeers überraschen sollte. Ich würde es, um die Baken nicht 
+<anchor xml:id="GB03_1_BR550_0_350_023"/>so voll zu nehmen, eigentlich das Eisthal oder den Eisstrom nennen. 
+<anchor xml:id="GB03_1_BR550_0_350_024"/>Denn die ungeheuren Massen von Eis, dringen aus einem tiefen Thal, 
+<anchor xml:id="GB03_1_BR550_0_350_025"/>von oben anzusehn, in ziemlicher Ebne hervor. Grad hinten endigt 
+<anchor xml:id="GB03_1_BR550_0_350_026"/><ref target="gb:note#GB03_2_BR550_0_note_054_350_26" xml:id="start_com_5004"/>ein spizer Berg<ref xml:id="end_com_5004"/>, wo von beiden Seiten Eisflüsse sich in den Hauptstrohm 
+<anchor xml:id="GB03_1_BR550_0_350_027"/>ergiessen. Es lag noch nicht der mindeste Schnee auf der zakigten 
+<anchor xml:id="GB03_1_BR550_0_350_028"/>Fläche und die blauen Spalten glänzten gar schön hervor. Das Wetter 
+<anchor xml:id="GB03_1_BR550_0_350_029"/>fing nach und nach an sich zu überziehen und ich sahe wogige, 
+<anchor xml:id="GB03_1_BR550_0_350_030"/>graue Wolken, die Schnee anzudeuten schienen, wie ich sie niemals 
+<anchor xml:id="GB03_1_BR550_0_350_031"/>gesehen. In der Gegend, wo wir stunden, ist die kleine <ref target="gb:note#GB03_2_BR550_0_note_055_350_31-32" xml:id="start_com_5005"/>von Steinen 
+<anchor xml:id="GB03_1_BR550_0_350_032"/>zusammengelegte Hütte<ref xml:id="end_com_5005"/> für das Bedürfniss der Reisenden, zum Scherz 
+<anchor xml:id="GB03_1_BR550_0_350_033"/>das Schloss von <emph rendition="#latin">Montanvert</emph> genannt. <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_056_350_33" xml:id="start_com_5006"/>Monsieur Blaire</emph><ref xml:id="end_com_5006"/>, ein Engländer, 
+<anchor xml:id="GB03_1_BR550_0_350_034"/>der sich zu Genf aufhält, hat eine geräumigere, an einem schiklichern 
+<anchor xml:id="GB03_1_BR550_0_351_001"/>Ort, etwas weiter hinauf, erbauen lassen, wo man, am Feuer sizend, zu 
+<anchor xml:id="GB03_1_BR550_0_351_002"/>einem Fenster hinaus, das ganze Eisthal übersehen kann. Die Gipfel 
+<anchor xml:id="GB03_1_BR550_0_351_003"/>der Felsen gegen über und auch in die Tiefe des Thals hin, sind sehr 
+<anchor xml:id="GB03_1_BR550_0_351_004"/>spizig ausgezakt, es kommt daher, weil sie aus einer <ref target="gb:note#GB03_2_BR550_0_note_057_351_4" xml:id="start_com_5007"/>Gesteinart<ref xml:id="end_com_5007"/> zusammen 
+<anchor xml:id="GB03_1_BR550_0_351_005"/>gesezt sind, deren Schichten fast ganz <ref target="gb:note#GB03_2_BR550_0_note_058_351_5" xml:id="start_com_5008"/>perpendikular<ref xml:id="end_com_5008"/> in die Erde 
+<anchor xml:id="GB03_1_BR550_0_351_006"/>einschiessen, wittert eine leichter aus, so bleibt der andere spiz in die 
+<anchor xml:id="GB03_1_BR550_0_351_007"/>Luft stehen, solche Zaken werden Nadeln genennet und die <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_059_351_7-8" xml:id="start_com_5009"/>aiguille 
+<anchor xml:id="GB03_1_BR550_0_351_008"/>du dru</emph><ref xml:id="end_com_5009"/> ist eine solche ho<pb n="9" facs="gb:digitalisate#12043/23188" type="empty"/>he merkwürdige Spize, grade dem <emph rendition="#latin">mont anvert</emph>
+<anchor xml:id="GB03_1_BR550_0_351_009"/>gegen über. Wir wollen nunmehro auch das Eismeer betreten und 
+<anchor xml:id="GB03_1_BR550_0_351_010"/>diese ungeheure Massen auf sich selbst beschauen. Wir stiegen den 
+<anchor xml:id="GB03_1_BR550_0_351_011"/>Berg hinunter und machten einige hundert Schritte auf den wogigen 
+<anchor xml:id="GB03_1_BR550_0_351_012"/>Cristallklippen herum. Es ist ein ganz treflicher Anblik, wenn man, auf 
+<anchor xml:id="GB03_1_BR550_0_351_013"/>dem Eise selbst stehend, denen oberwärts sich herabdrängenden und 
+<anchor xml:id="GB03_1_BR550_0_351_014"/>durch seltsame Spalten geschiedenen Massen entgegen sieht, doch 
+<anchor xml:id="GB03_1_BR550_0_351_015"/>wollt’ es uns nicht länger auf diesem schlüpfrigen Boden gefallen, wir 
+<anchor xml:id="GB03_1_BR550_0_351_016"/>waren weder mit Fuseisen, noch mit beschlagenen Schuhen gerüstet, 
+<anchor xml:id="GB03_1_BR550_0_351_017"/>vielmehr waren unsere Absäze durch den langen Marsch abgerundet 
+<anchor xml:id="GB03_1_BR550_0_351_018"/>und geglättet, wir machten uns also wieder zu denen Hütten hinauf 
+<anchor xml:id="GB03_1_BR550_0_351_019"/>und nach einigem Ausruhen zur Abreise fertig. Wir stiegen den Berg 
+<anchor xml:id="GB03_1_BR550_0_351_020"/>hinab und kamen an den Ort, wo der Eisstrohm stufenweis biss hinunter 
+<anchor xml:id="GB03_1_BR550_0_351_021"/>in’s Thal dringt und traten in <ref target="gb:note#GB03_2_BR550_0_note_060_351_21-22" xml:id="start_com_5010"/>die Höle in der er sein Wasser ausgiesst<ref xml:id="end_com_5010"/>. 
+<anchor xml:id="GB03_1_BR550_0_351_022"/>Sie ist weit, tief, von dem schönsten Blau, und es steht sich sichrer 
+<anchor xml:id="GB03_1_BR550_0_351_023"/>im Grund als vorn an der Mündung, weil an ihr sich immer grosse 
+<anchor xml:id="GB03_1_BR550_0_351_024"/>Stüke Eis schmelzend ablösen. Wir nahmen unsern Weeg nach dem 
+<anchor xml:id="GB03_1_BR550_0_351_025"/>Wirthshause zu, bei der Wohnung zweier <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_061_351_25" xml:id="start_com_5011"/>Blondins</emph><ref xml:id="end_com_5011"/> vorbei: Kinder von 
+<anchor xml:id="GB03_1_BR550_0_351_026"/>zwölf bis vierzehn Jahren, die sehr weise Haut, weise, doch schroffe 
+<anchor xml:id="GB03_1_BR550_0_351_027"/>Haare, rothe und bewegliche Augen wie die Kaninchen haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_351_028"/>Die tiefe Nacht, die im Thale liegt, lädt mich zeitig zu Bette und ich 
+<anchor xml:id="GB03_1_BR550_0_351_029"/>habe kaum noch so viel Munterkeit ihnen zu sagen, dass wir einen iungen 
+<anchor xml:id="GB03_1_BR550_0_351_030"/>zahmen Steinbok gesehen haben, der sich unter den Ziegen ausnimmt, 
+<anchor xml:id="GB03_1_BR550_0_351_031"/>wie der <ref target="gb:note#GB03_2_BR550_0_note_062_351_31" xml:id="start_com_5012"/>natürliche Sohn<ref xml:id="end_com_5012"/> von einem grossen Herrn, dessen Erziehung 
+<anchor xml:id="GB03_1_BR550_0_351_032"/>in der Stille einer bürgerlichen Famielie aufgetragen ist. Von 
+<anchor xml:id="GB03_1_BR550_0_351_033"/>unsern Diskursen geht’s nicht an, dass ich etwas aus der Reihe mittheile, 
+<anchor xml:id="GB03_1_BR550_0_351_034"/>an Graniten, <ref target="gb:note#GB03_2_BR550_0_note_063_351_34" xml:id="start_com_5013"/>Gestellsteinen<ref xml:id="end_com_5013"/>, <ref target="gb:note#GB03_2_BR550_0_note_064_351_34" xml:id="start_com_5014"/>Lerchen<ref xml:id="end_com_5014"/> und <ref target="gb:note#GB03_2_BR550_0_note_065_351_34" xml:id="start_com_5015"/>Zirbelbäumen<ref xml:id="end_com_5015"/> finden 
+<anchor xml:id="GB03_1_BR550_0_351_035"/>sie auch keine grose Erbauung, doch sollen sie ehestens merkwürdige 
+<anchor xml:id="GB03_1_BR550_0_351_036"/>Früchte von unserm <ref target="gb:note#GB03_2_BR550_0_note_066_351_36" xml:id="start_com_5016"/>botanisen<ref xml:id="end_com_5016"/> zu sehen kriegen. Ich bilde mir ein, 
+<anchor xml:id="GB03_1_BR550_0_351_037"/>sehr schlaftrunken zu sein und kann nicht eine Zeile weiter schreiben.</p>
+      <p rendition="#einrueck5">
+        <anchor xml:id="GB03_1_BR550_0_352_001"/><emph rendition="#latin">Chamouni</emph> den 6 Nov. früh.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_352_002"/>Zufrieden mit dem, was uns die Jahrszeit hier zu sehen erlaubte, 
+<anchor xml:id="GB03_1_BR550_0_352_003"/>sind wir reisefertig noch heute in’s Wallis durchzudringen. / Das ganze 
+<anchor xml:id="GB03_1_BR550_0_352_004"/>Thal ist über und über biss an die Helfte der Berge mit Nebel bedekt, 
+<anchor xml:id="GB03_1_BR550_0_352_005"/>wir müssen erwarten, was Sonne und Wind zu unserm Vortheil 
+<anchor xml:id="GB03_1_BR550_0_352_006"/>thun werden. <ref target="gb:note#GB03_2_BR550_0_note_067_352_6" xml:id="start_com_5017"/>Unser Führer<ref xml:id="end_com_5017"/> schlägt uns einen Weeg über den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_068_352_6-7" xml:id="start_com_5018"/>col de 
+<anchor xml:id="GB03_1_BR550_0_352_007"/>balme</emph><ref xml:id="end_com_5018"/> vor. Ein hoher Berg, der an der nördlichen Seite des Thals gegen 
+<anchor xml:id="GB03_1_BR550_0_352_008"/>Wallis zu liegt und auf dem wir, wenn wir glüklich sind, das Thal 
+<anchor xml:id="GB03_1_BR550_0_352_009"/><emph rendition="#latin">Chamouni</emph>,<ptr n="25" target="#a025_352.9"/> mit seinen meisten <ref target="gb:note#GB03_2_BR550_0_note_069_352_9" xml:id="start_com_5019"/>Merkwürdigkeiten<ref xml:id="end_com_5019"/>, noch auf einmal 
+<anchor xml:id="GB03_1_BR550_0_352_010"/>von seiner Höhe übersehen können. Indem ich dieses schreibe, geschieht 
+<anchor xml:id="GB03_1_BR550_0_352_011"/>an dem Himmel eine herrliche Erscheinung: Die Nebel, die 
+<anchor xml:id="GB03_1_BR550_0_352_012"/>sich bewegen und die sich an einigen Orten brechen, lassen, wie 
+<anchor xml:id="GB03_1_BR550_0_352_013"/>durch Tagelöcher den blauen Himmel sehen und die Gipfel der Berge, 
+<anchor xml:id="GB03_1_BR550_0_352_014"/>die oben, über unsrer Dunstdeke, von der Morgensonne beschienen 
+<anchor xml:id="GB03_1_BR550_0_352_015"/>werden. Auch ohne die Hofnung eines schönen Tags,<ptr n="26" target="#a026_352.15"/> ist dieser 
+<anchor xml:id="GB03_1_BR550_0_352_016"/>Anblik dem Aug’ eine rechte Weide. Erst iezo hat man einiges Maas 
+<anchor xml:id="GB03_1_BR550_0_352_017"/>für die Höhe der Berge. Erst in einer ziemlichen Höhe vom Thal auf, 
+<anchor xml:id="GB03_1_BR550_0_352_018"/>streichen die Nebel an dem Berg hin, hohe Wolken steigen von da 
+<anchor xml:id="GB03_1_BR550_0_352_019"/>auf und als denn sieht man noch über ihnen die Gipfel der Berge in 
+<anchor xml:id="GB03_1_BR550_0_352_020"/>der Verklärung schimmern. Es wird Zeit! Ich nehme zugleich von 
+<anchor xml:id="GB03_1_BR550_0_352_021"/>diesem geliebten Thal und von ihnen Abschied.</p>
+      <p rendition="#einrueck5">
+        <anchor xml:id="GB03_1_BR550_0_352_022"/><ref target="gb:note#GB03_2_BR550_0_note_070_352_22" xml:id="start_com_5020"/>Martinach<ref xml:id="end_com_5020"/> im Wallis den 6 Nov. Abends.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_352_023"/>Glüklich sind wir herüber gekommen und so wäre auch dieses 
+<anchor xml:id="GB03_1_BR550_0_352_024"/>Abendtheuer bestanden. Die Freude<ptr n="27" target="#a027_352.24"/> über unser gutes Schiksaal wird 
+<anchor xml:id="GB03_1_BR550_0_352_025"/>mir noch eine halbe Stunde die Feder lebendig erhalten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR550_0_352_026"/>Unser Gepäk auf ein Maulthier geladen, zogen wir gegen neune 
+<anchor xml:id="GB03_1_BR550_0_352_027"/>heute früh von <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_071_352_27" xml:id="start_com_5021"/>Prieuré</emph><ref xml:id="end_com_5021"/> aus. Die Wolken wechselten, dass die Gipfel 
+<anchor xml:id="GB03_1_BR550_0_352_028"/>der Berge bald erschienen bald verschwanden, bald die Sonne streifweis 
+<anchor xml:id="GB03_1_BR550_0_352_029"/>in’s Thal dringen konnte, bald die Gegend wieder verdekt<ptr n="28" target="#a028_352.29"/> wurde. 
+<anchor xml:id="GB03_1_BR550_0_352_030"/>Wir gingen das Thal hinauf, den <ref target="gb:note#GB03_2_BR550_0_note_072_352_30" xml:id="start_com_5022"/>Ausguss des Eisthals<ref xml:id="end_com_5022"/> vorbei, ferner 
+<anchor xml:id="GB03_1_BR550_0_352_031"/>den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_073_352_31" xml:id="start_com_5023"/>glacier d’argentiére</emph><ref xml:id="end_com_5023"/> hin, der höchste von allen, dessen oberster 
+<anchor xml:id="GB03_1_BR550_0_352_032"/>Gipfel uns aber von Wolken bedekt war. In der Gegend wurde Rath 
+<anchor xml:id="GB03_1_BR550_0_352_033"/>gehalten, ob wir den Stieg über den col de balme unternehmen und 
+<anchor xml:id="GB03_1_BR550_0_352_034"/>den <ref target="gb:note#GB03_2_BR550_0_note_074_352_34" xml:id="start_com_5024"/>Weeg über <emph rendition="#latin">Valorsine</emph><ref xml:id="end_com_5024"/> verlassen wollten. Der Anschein war nicht 
+<anchor xml:id="GB03_1_BR550_0_353_001"/>der vortheilhafteste, doch da hier nichts / zu verlieren und viel zu gewinnen 
+<anchor xml:id="GB03_1_BR550_0_353_002"/>stund, traten wir unsern Weeg kek gegen die dunkle Nebel- 
+<anchor xml:id="GB03_1_BR550_0_353_003"/>und Wolkenregion an. Als wir gegen den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_075_353_3" xml:id="start_com_5025"/>glacier du tour</emph><ref xml:id="end_com_5025"/> kamen, rissen 
+<anchor xml:id="GB03_1_BR550_0_353_004"/>sich die Wolken auseinander<ptr n="29" target="#a029_353.4"/> und wir sahen auch diesen schönen Gletscher 
+<anchor xml:id="GB03_1_BR550_0_353_005"/>in völligem Lichte. Wir sezten uns nieder, tranken eine Flasche 
+<anchor xml:id="GB03_1_BR550_0_353_006"/>Wein aus und assen etwas weniges. Wir stiegen nunmehro immer den 
+<anchor xml:id="GB03_1_BR550_0_353_007"/><ref target="gb:note#GB03_2_BR550_0_note_076_353_7" xml:id="start_com_5026"/>Quellen der <emph rendition="#latin">Arve</emph><ref xml:id="end_com_5026"/> auf rauhern Matten und schlecht <ref target="gb:note#GB03_2_BR550_0_note_077_353_7" xml:id="start_com_5027"/>berasten<ref xml:id="end_com_5027"/> Gegenden, 
+<anchor xml:id="GB03_1_BR550_0_353_008"/>entgegen und kamen dem Nebelkreis immer näher, biss er uns 
+<anchor xml:id="GB03_1_BR550_0_353_009"/>endlich völlig aufnahm. Wir stiegen eine Weile gedultig fort, als es auf 
+<anchor xml:id="GB03_1_BR550_0_353_010"/>ein mal wieder uber unsern Häuptern helle zu werden anfing und wir 
+<anchor xml:id="GB03_1_BR550_0_353_011"/>aufschritten. Wenig dauerte es, so traten wir aus den Wolken heraus, 
+<anchor xml:id="GB03_1_BR550_0_353_012"/>sahen sie in ihrer ganzen Last,<ptr n="30" target="#a030_353.12"/> unter uns auf dem Thale liegen und 
+<anchor xml:id="GB03_1_BR550_0_353_013"/>konnten die Berge, die es rechts und links einschliessen ausser dem 
+<anchor xml:id="GB03_1_BR550_0_353_014"/>Gipfel des <emph rendition="#latin">mont blanc’s</emph>, der mit Wolken bedekt war, sehen, deuten 
+<anchor xml:id="GB03_1_BR550_0_353_015"/>und mit Namen nennen. Wir sahen einige Gletscher von ihren Höhen 
+<anchor xml:id="GB03_1_BR550_0_353_016"/>biss zu der Wolkentiefe herabsteigen, von andern sahen wir nur die 
+<anchor xml:id="GB03_1_BR550_0_353_017"/>Pläze, indem uns die Eismassen durch die Bergschründe, verdekt wurden. 
+<anchor xml:id="GB03_1_BR550_0_353_018"/>Ueber die ganze Wolkenfläche sahen wir, ausser dem <ref target="gb:note#GB03_2_BR550_0_note_078_353_18" xml:id="start_com_5028"/>mittägigen<ref xml:id="end_com_5028"/>
+        <anchor xml:id="GB03_1_BR550_0_353_019"/>Ende des Thales, ferne Berge im Sonnenschein. Was soll ich Ihnen die 
+<anchor xml:id="GB03_1_BR550_0_353_020"/>Namen von denen Gipfeln, Spizen, Nadeln, Eis- und Schneemassen 
+<anchor xml:id="GB03_1_BR550_0_353_021"/>vorerzählen, die Ihnen doch kein Bild weder vom Ganzen noch vom 
+<anchor xml:id="GB03_1_BR550_0_353_022"/>Einzeln in die Seele bringen, <ref target="gb:note#GB03_2_BR550_0_note_079_353_22" xml:id="start_com_5029"/>merkwürdiger<ref xml:id="end_com_5029"/> ist’s, wie die Geister der 
+<anchor xml:id="GB03_1_BR550_0_353_023"/>Luft sich unter uns zu streiten schienen. Kaum hatten wir eine Weile 
+<anchor xml:id="GB03_1_BR550_0_353_024"/>gestanden und uns an der grossen Aussicht ergözt, so schien eine feindseelige 
+<anchor xml:id="GB03_1_BR550_0_353_025"/>Gährung in den Nebeln zu entstehen, der auf einmal aufwärts 
+<anchor xml:id="GB03_1_BR550_0_353_026"/>strich und uns auf’s neue einzuwikeln drohte. Wir stiegen stärker den 
+<anchor xml:id="GB03_1_BR550_0_353_027"/>Berg hinan, ihm nochmals zu entgehen, allein er überflügelte uns und 
+<anchor xml:id="GB03_1_BR550_0_353_028"/>rollte uns ein. Wir stiegen immer frisch aufwärts und bald kam uns ein 
+<anchor xml:id="GB03_1_BR550_0_353_029"/>Gegenwind vom Berge selbst zu Hülfe, der durch den Sattel, der <ref target="gb:note#GB03_2_BR550_0_note_080_353_29-30" xml:id="start_com_5030"/>zwei 
+<anchor xml:id="GB03_1_BR550_0_353_030"/>Gipfel<ref xml:id="end_com_5030"/> verbindet, hereinstrich und den Nebel wieder in’s Thal zurüktrieb. 
+<anchor xml:id="GB03_1_BR550_0_353_031"/>Dieser wundersame Streit wiederholte sich öfters und wir langten 
+<anchor xml:id="GB03_1_BR550_0_353_032"/>endlich glüklich auf dem <emph rendition="#latin">col de balme</emph> an. Es war ein seltsamer, / 
+<anchor xml:id="GB03_1_BR550_0_353_033"/>eigner Anblik, der höchste Himmel, über den Gipfeln der Berge, war 
+<anchor xml:id="GB03_1_BR550_0_353_034"/>überzogen, unter uns sahen wir durch den manchmal<ptr n="31" target="#a031_353.34"/> zerrissnen Nebel 
+<anchor xml:id="GB03_1_BR550_0_354_001"/>in’s ganze Thal <emph rendition="#latin">Chamouni</emph> und zwischen diesen beiden Wolkenschichten 
+<anchor xml:id="GB03_1_BR550_0_354_002"/>waren die Gipfel der Berge alle sichtbar. Auf der Ostseite waren 
+<anchor xml:id="GB03_1_BR550_0_354_003"/>wir von schroffen Gebürgen eingeschlossen, auf der <ref target="gb:note#GB03_2_BR550_0_note_081_354_3" xml:id="start_com_5031"/>Abendseite<ref xml:id="end_com_5031"/> sahen 
+<anchor xml:id="GB03_1_BR550_0_354_004"/>wir in ungeheure Thäler, wo doch auf einigen Matten sich menschliche 
+<anchor xml:id="GB03_1_BR550_0_354_005"/>Wohnungen zeigten. Vorwärts lag uns das Wallisthal, wo man mit 
+<anchor xml:id="GB03_1_BR550_0_354_006"/>einem Blik bis <ref target="gb:note#GB03_2_BR550_0_note_082_354_6" xml:id="start_com_5032"/>Martinach<ref xml:id="end_com_5032"/> hinein sehen konnte. Von allen Seiten von 
+<anchor xml:id="GB03_1_BR550_0_354_007"/>Gebürgen umschlossen, die sich weiter gegen den Horizont immer zu 
+<anchor xml:id="GB03_1_BR550_0_354_008"/>vermehren und aufzüthürmen schienen, so standen wir auf der Gränze 
+<anchor xml:id="GB03_1_BR550_0_354_009"/>von Savoiien und Wallis. Einige <emph rendition="#latin"><ref target="gb:note#GB03_2_BR550_0_note_083_354_9" xml:id="start_com_5033"/>Contrebandiers</emph><ref xml:id="end_com_5033"/> kamen mit Mauleseln 
+<anchor xml:id="GB03_1_BR550_0_354_010"/>den Berg herauf und erschraken vor uns, da sie an dem Plaz iezo niemand 
+<anchor xml:id="GB03_1_BR550_0_354_011"/>vermutheten. Sie thaten einen Schuss, als ob sie sagen wollten<ptr n="32" target="#a032_354.11"/>: 
+<anchor xml:id="GB03_1_BR550_0_354_012"/>„damit ihr seht dass sie geladen sind“ –<ptr n="33" target="#a033_354.12"/> und es ging<ptr n="34" target="#a034_354.12"/> einer voraus um 
+<anchor xml:id="GB03_1_BR550_0_354_013"/>uns<ptr n="35" target="#a035_354.13"/> zu <ref target="gb:note#GB03_2_BR550_0_note_084_354_13" xml:id="start_com_5034"/>recognosciren<ref xml:id="end_com_5034"/>. Da er unsern Führer erkannte und unsre harmlose 
+<anchor xml:id="GB03_1_BR550_0_354_014"/>Figuren sah, rükten die andre auch näher und wir zogen, mit wechselseitigen 
+<anchor xml:id="GB03_1_BR550_0_354_015"/>Glükwünschen von ein ander vorbei. Der Wind ging scharf 
+<anchor xml:id="GB03_1_BR550_0_354_016"/>und es fing ein wenig an zu schneien. Nunmehro ging es durch einen 
+<anchor xml:id="GB03_1_BR550_0_354_017"/>sehr rauhen und wilden Stieg abwärts, durch einen alten Fichtenwald, 
+<anchor xml:id="GB03_1_BR550_0_354_018"/>der sich auf Platten von Gestellstein, eingewurzelt hatte. Vom Wind 
+<anchor xml:id="GB03_1_BR550_0_354_019"/>übereinander gerissen, verfaulten hier die Stämme mit ihren Wurzeln 
+<anchor xml:id="GB03_1_BR550_0_354_020"/>und die zugleich losgebrochne Felsen lagen schrof durcheinander. Endlich 
+<anchor xml:id="GB03_1_BR550_0_354_021"/>kamen wir in’s Thal, wo der <ref target="gb:note#GB03_2_BR550_0_note_085_354_21" xml:id="start_com_5035"/>Trientfluss<ref xml:id="end_com_5035"/> aus einem Gletscher entspringt, 
+<anchor xml:id="GB03_1_BR550_0_354_022"/>liessen das Dörfgen <ref target="gb:note#GB03_2_BR550_0_note_086_354_22" xml:id="start_com_5036"/>Trient<ref xml:id="end_com_5036"/> ganz nahe rechts liegen und folgten<ptr n="36" target="#a036_354.22"/>
+        <anchor xml:id="GB03_1_BR550_0_354_023"/>dem Thale durch einen ziemlich unbequemen Weeg, biss wir endlich 
+<anchor xml:id="GB03_1_BR550_0_354_024"/>gegen sechse hier in Martinach auf flachem Wallisboden angekommen 
+<anchor xml:id="GB03_1_BR550_0_354_025"/>sind, wo wir uns zu weitern Unternehmungen ausruhen wollen.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12043_comment">
+<body>
+<div type="metadata" xml:id="gb12043_comment_com1199">
+  <ab type="numberAddressee"><label>550.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#84920">Luzern</placeName></supplied> und <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>, <supplied>zwischen 22. und 24. November 1779</supplied> und <supplied>17.? November?1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb12043_comment_com1923">
+  <p>Der erste Briefteil wurde in Zürich geschrieben, nachdem Goethe dort <quote type="G">vor einigen Tagen</quote> (<ref target="gb:text#GB03_1_BR550_0_344_012 #GB03_1_BR550_0_344_013">344,12–13</ref>), nämlich am 18. November 1779, eingetroffen war. Die Formulierung lässt an einen Zeitraum von mehr als drei Tagen, aber von weniger als einer Woche denken, so dass der Brief vermutlich zwischen dem 22. und dem 24. November 1779 geschrieben wurde. Den hinzugefügten Reisebericht diktierte Goethe nach <ref target="gb:text#GB03_1_BR550_0_344_016 #GB03_1_BR550_0_344_017">344,16–17</ref> seinem Sekretär Seidel in Luzern; dort traf er am 16. November 1779 ein und blieb bis zum 18. November. Unter der Annahme, dass der lange Bericht einige Zeit in Anspruch nahm, dürften Diktat und Niederschrift eher am 17. November 1779 als am An- oder Abreisetag erfolgt sein. – Aus dem von Goethe in Zürich geschriebenen Briefteil vom 24. November 1779 geht hervor, dass er diesem den Reisebericht hinzugefügt hat, den er Philipp Seidel in Luzern diktiert hatte (vgl. <ref target="gb:text#GB03_1_BR550_0_344_016 #GB03_1_BR550_0_344_017">344,16–17</ref>). Aus diesem Grund werden beide als Teile eines Briefes verstanden und nicht wie bisher als zwei selbstständige Briefe gedruckt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12043_comment_com3243">
+  <p>1) Briefteil aus Zürich (<ref target="gb:text#GB03_1_BR550_0_344_012 #GB03_1_BR550_0_345_007">344,12–345,7</ref> <quote type="G">Meine vielgeliebte <gap quantity="3" reason="editorial"/> schreibfehler drinne</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 39. – 1 Bl. 18,8(–19) × 22,8(–23) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „14“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 62), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 275 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 139 f., Nr 868.</p>
+  <p>2) Briefteil aus Luzern (<ref target="gb:text#GB03_1_BR550_0_345_008 #GB03_1_BR550_0_354_025">345,8–354,25</ref> <quote type="G">Hier und da <gap quantity="3" reason="editorial"/> ausruhen wollen.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 37. – 3 ineinandergelegte geheftete Doppelblätter 19,5 × 24,3 cm, 10 S. beschr., Schreiberhd (Seidel), Tinte, kleine, sehr gleichmäßige Schrift; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „12“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 60), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 273 (Incipit/Fußnote mit Inhaltsangabe).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1 (1883), 215–225, Nr 358.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 122–137, Nr 865.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12043_comment_com5039">
+  <p>Goethe hatte Charlotte von Steins Brief vom 12. November 1779 erhalten (vgl. <ref target="gb:text#GB03_1_BR550_0_344_020">344,20</ref>), geht im vorliegenden Brief aber nicht darauf ein. – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12043_comment_com8191">
+<label xml:id="GB03_2_BR550_0_note_001_344_13" copyOf="#start_com_4951"><hi rendition="#fett">344,13</hi>in Zürch angekommen</label>
+<p>Am 18. November 1779.</p>
+
+</note>
+<note xml:id="gb12043_comment_com17076">
+<label xml:id="GB03_2_BR550_0_note_002_344_13-15" copyOf="#start_com_4952"><hi rendition="#fett">344,13-15</hi>Vom Gotthart fuhren wir <gap quantity="3" reason="editorial"/> hierher.</label>
+<p>Vom Sankt Gotthard berichten die Briefe <ref target="gb:dokument#12020">Nr 546</ref> und <ref target="gb:dokument#11750">547</ref> vom 13. bzw. 14. November 1779. Über den Abstieg und den weiteren Weg über Luzern nach Zürich ist kein Brief Goethes überliefert. Herzog Carl August schrieb darüber am 19. November 1779 aus Zürich an Herzogin Anna Amalia: „Der Herunterstieg, durchs Urner Loch, über die Teufelsbrücke bis Alt[d]orf ist ex ff: <gap quantity="3" reason="editorial"/> Über den Vierwaldstedter See führte uns zuletz <supplied>sic</supplied> unser Weg nach Brunn[en], von da gingen wir nach Schwyz, kehrten zurück, und fuhren vollends den See hinab bis nach Luzern. <gap quantity="3" reason="editorial"/> Nun sind wir hier seit gestern abend.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 29 f.) Zur Route vgl. auch die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8204">
+<label xml:id="GB03_2_BR550_0_note_003_344_16" copyOf="#start_com_4953"><hi rendition="#fett">344,16</hi>Savoyer Tour</label>
+<p>Von Genf bis Martigny an der Mündung der Dranse in die Rhone.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8205">
+<label xml:id="GB03_2_BR550_0_note_004_344_17" copyOf="#start_com_4954"><hi rendition="#fett">344,17</hi>es liegt hierbey</label>
+<p>Vgl. den von Philipp Seidel geschriebenen zweiten Teil des vorliegenden Briefes (<ref target="gb:text#GB03_1_BR550_0_345_008 #GB03_1_BR550_0_354_025">345,8–354,25</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8206">
+<label xml:id="GB03_2_BR550_0_note_005_344_18" copyOf="#start_com_4955"><hi rendition="#fett">344,18</hi>Reise durchs Wallis auf den Gotthart</label>
+<p>Ein entsprechender Brief oder Bericht Goethes ist nicht überliefert. Über die Reise von Martigny zum Sankt Gotthard schrieb Herzog Carl August am 19. November 1779 an seine Mutter: „Von Chamonix nach Martinay, in Wallis. Von da auf Sion, Seiders <supplied>Sierre</supplied>, Leukerbad, Leuk, Brig, u. s. w. über die Furka, Realp, Hospital, auf den Gotthard zu den Kapuzinern.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 29.) Zur Route vgl. auch die Übersicht „Goethes zweite Reise in die Schweiz“, die sich u. a. auf das Tagebuch des Herzogs bezieht (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>; vgl. auch BuG 2, 177–191).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8207">
+<label xml:id="GB03_2_BR550_0_note_006_344_20" copyOf="#start_com_4956"><hi rendition="#fett">344,20</hi>Ihren Brief vom 12 Nov</label>
+<p>Zuvor hatte Goethe nur einmal am 16. Oktober 1779 den Empfang eines Briefes von Charlotte von Stein erwähnt, der von Ende September 1779 stammte (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14678">
+<label xml:id="GB03_2_BR550_0_note_007_344_21" copyOf="#start_com_4957"><hi rendition="#fett">344,21</hi>in der Stadt</label>
+<p>In Weimar, wo Charlotte von Stein die Wintermonate verbrachte, nicht auf dem Landgut Kochberg.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8256">
+<label xml:id="GB03_2_BR550_0_note_008_344_23" copyOf="#start_com_4958"><hi rendition="#fett">344,23</hi>Die Bekanntschafft von Lavatern</label>
+<p>Diese dem Herzog zu vermitteln, gehörte zu den <quote type="G">Neben-Absichten</quote> (<ref target="gb:text#GB03_1_BR557_0_360_023">360,23</ref>), die Goethe mit der Reise in die Schweiz verfolgte (vgl. darüber weiter die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref> sowie zu <ref target="gb:note#GB03_2_BR557_0_note_002_360_23">360,23</ref>). Carl August war Lavater schon am Ankunftstag begegnet: „Lavatern lernten wir schon gestern kennen. <gap quantity="3" reason="editorial"/> Ich liebe ihn, wollte Gott, ich könnte ihn so geniessen als das, was er wägt“ (<ref target="sndb:sigle#76">Bergmann</ref>, 30), schrieb der Herzog am 19. November 1779 an seine Mutter. Im Brief vom 29. November fügte er hinzu: „Lavaters Gegenwart und Nähe ist mir sehr kostbar und wohltätig.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 31.) Im Brief vom selben Tag an Herzogin Louise heißt es: „Was den geistlichen Nutzen anbetrift, den dieser Aufenthalt <supplied>in Zürich</supplied> geben muß, so dünckt michs <gap quantity="3" reason="editorial"/>, habe er mir wirckl. große Dienste gethan; die Gegenwarth Lavaters hat etwas gantz eigen Balsamisches; ich gebrauche ihrer soviel als nur immer möglich, so viel es seine Zeit zuläßt; im grunde ist ers alleine, der mich hier hält“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 120). Der Abschied von Lavater sei „hart“ gewesen, schreibt er am 3. Dezember 1779 an dieselbe: „wolle daß Schicksal, daß es nicht zum letzten mahle sey, daß ich Ihn gesehn.“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 123.) – Herder berichtet in seinem Brief an Johann Georg Hamann von Mitte November und 18. Dezember 1780 Folgendes: „Der Herzog, der in Zürich den ‚Lichtbedürftigsten, Wahrheitsuchendsten Religiosen‘ <gap quantity="3" reason="editorial"/> gemacht hat, soll Lav[ater] gesagt haben, da dieser ihn vermuthl[ich] in manchem auf mich verwiesen: ‚ich gebe ihm nur <hi rendition="#hervor1">Blitz</hi>licht in der Religion, aber Göthe gebe ihm das wahre bleibende Licht‘ <gap quantity="3" reason="editorial"/>. Er ist, seit er aus der Schweiz ist, den ersten Sonntag, sonst nie mehr in der Kirche gewesen: ist übrigens ein großer Moralist u. Lav[ater] hat an ihm einen Menschen voraus verkündigt, vor dem die ganze Welt einmal bewundernd hinknieen werde“ (<ref target="sndb:sigle#2904">HB</ref> 4, 145).</p>
+
+</note>
+<note xml:id="gb12043_comment_com15822">
+<label xml:id="GB03_2_BR550_0_note_009_344_25" copyOf="#start_com_4959"><hi rendition="#fett">344,25</hi>lange gute Folgen</label>
+<p>Vgl. darüber die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8257">
+<label xml:id="GB03_2_BR550_0_note_010_345_5-6" copyOf="#start_com_4960"><hi rendition="#fett">345,5-6</hi>die Reise Nachricht</label>
+<p>Der folgende Reisebericht, den Goethe Philipp Seidel diktiert hatte.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14705">
+<label xml:id="GB03_2_BR550_0_note_011_345_8-9" copyOf="#start_com_4961"><hi rendition="#fett">345,8-9</hi>Merkwürdigkeit</label>
+<p>‚Merkwürdig‘ im Wortsinn: ‚wert, bemerkt oder beachtet zu werden‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 183).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8258">
+<label xml:id="GB03_2_BR550_0_note_012_345_9" copyOf="#start_com_4962"><hi rendition="#fett">345,9</hi>Savoier Eisgebirgen</label>
+<p>Mit dem Montblanc als Hauptgipfel.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8259">
+<label xml:id="GB03_2_BR550_0_note_013_345_12" copyOf="#start_com_4963"><hi rendition="#fett">345,12</hi><emph rendition="#latin">Cluse</emph> und <emph rendition="#latin">Salenche</emph></label>
+<p>Cluses und Sallanches im Arvetal südöstlich von Genf.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8260">
+<label xml:id="GB03_2_BR550_0_note_014_345_13" copyOf="#start_com_4964"><hi rendition="#fett">345,13</hi><emph rendition="#latin">Chamouni</emph></label>
+<p>Chamonix, ebenfalls im Arvetal.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15823">
+<label xml:id="GB03_2_BR550_0_note_015_345_13-14" copyOf="#start_com_4965"><hi rendition="#fett">345,13-14</hi><emph rendition="#latin">Valorsine</emph> und <emph rendition="#latin">Trient</emph></label>
+<p>Vallorcine im Tal der Eau Noire nördlich des Montblanc; Trient im gleichnamigen Tal.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8261">
+<label xml:id="GB03_2_BR550_0_note_016_345_14" copyOf="#start_com_4966"><hi rendition="#fett">345,14</hi>Martinach</label>
+<p>Franz.: Martigny, an der Mündung der Dranse in die Rhone, nordöstlich des Montblanc.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14706">
+<label xml:id="GB03_2_BR550_0_note_017_345_16" copyOf="#start_com_4967"><hi rendition="#fett">345,16</hi>Herr <emph rendition="#latin">de Saussure</emph></label>
+<p>Der Genfer Naturkundler Horace Bénédict de Saussure (vgl. weiter zu <ref target="gb:note#GB03_2_BR545_0_note_003_340_3-4">340,3-4</ref>; zu <ref target="gb:note#GB03_2_BR544_0_note_025_339_15">339,15</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8218">
+<label xml:id="GB03_2_BR550_0_note_018_345_17-18" copyOf="#start_com_4968"><hi rendition="#fett">345,17-18</hi>dass man ohne Bedenken den Weeg machen könnte</label>
+<p>Dies hatte Goethe schon im Brief vom 2. November 1779 berichtet (vgl. <ref target="gb:text#GB03_1_BR544_0_339_008 #GB03_1_BR544_0_339_019">339,8–19</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8219">
+<label xml:id="GB03_2_BR550_0_note_019_345_24" copyOf="#start_com_4969"><hi rendition="#fett">345,24</hi>einem Jäger</label>
+<p>Über die Frage, wer dieser Jäger war, vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>.</p>
+
+</note>
+<note xml:id="gb12043_comment_com16941">
+<label xml:id="GB03_2_BR550_0_note_020_345_25" copyOf="#start_com_4970"><hi rendition="#fett">345,25</hi>Wedel mit den Pferden</label>
+<p>Moritz von Wedel, der unter Schwindel litt, machte die Tour zum Montblanc und zum Sankt Gotthard nicht mit. Wie bei früheren Gelegenheiten, etwa dem Aufstieg auf die Dôle (vgl. <ref target="gb:text#GB03_1_BR543_0_335_010 #GB03_1_BR543_0_335_011">335,10–11</ref>), führte er die Pferde voraus, möglicherweise begleitet vom Reitknecht Johann Friedrich Blochberg.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15820">
+<label xml:id="GB03_2_BR550_0_note_021_345_25" copyOf="#start_com_4971"><hi rendition="#fett">345,25</hi><emph rendition="#latin">paï de vaud</emph></label>
+<p>Franz. Pays de Vaud: Waadtland, schweizerischer Kanton nördlich des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15886">
+<label xml:id="GB03_2_BR550_0_note_022_345_26" copyOf="#start_com_4972"><hi rendition="#fett">345,26</hi><emph rendition="#latin">Cabriolet</emph>, mit vier Rädern</label>
+<p>Leichte Fuhrwerke, gewöhnlich mit zwei Rädern (vgl. weiter zu <ref target="gb:note#GB03_2_BR544_0_note_012_338_14">338,14</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8220">
+<label xml:id="GB03_2_BR550_0_note_023_345_26" copyOf="#start_com_4973"><hi rendition="#fett">345,26</hi>Hubern</label>
+<p>Jean Huber (vgl. weiter die erste Erläuterung zu <ref target="gb:note#GB03_2_BR544_0_note_007_338_7">338,7</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8221">
+<label xml:id="GB03_2_BR550_0_note_024_345_32-33" copyOf="#start_com_4974"><hi rendition="#fett">345,32-33</hi><emph rendition="#latin">Bonneville</emph>, zwischen der <emph rendition="#latin">Mole</emph><gap quantity="3" reason="editorial"/> und der <emph rendition="#latin">Arve</emph></label>
+<p>Bonneville im Tal der Arve, 27 km südöstlich von Genf; 9 km (Luftlinie) nordöstlich von Bonneville liegt der 1863 m hohe Berg Le Môle.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8222">
+<label xml:id="GB03_2_BR550_0_note_025_346_2" copyOf="#start_com_4975"><hi rendition="#fett">346,2</hi>Mitagseite</label>
+<p>Südseite.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8239">
+<label xml:id="GB03_2_BR550_0_note_026_346_12" copyOf="#start_com_4976"><hi rendition="#fett">346,12</hi>die <emph rendition="#latin">Arve</emph> aus dem Gebürge kommt</label>
+<p>Die Quelle der Arve liegt am Col de Balme (2204 m) im oberen Chamonixtal, östlich von Vallorcine. Goethe bestieg den Berg am 6. November 1779.</p>
+
+</note>
+<note xml:id="gb12043_comment_com16948">
+<label xml:id="GB03_2_BR550_0_note_027_346_20" copyOf="#start_com_4977"><hi rendition="#fett">346,20</hi>schlechten Wirthshaus</label>
+<p>‚Schlecht‘ hier wie weiter unten im Fall von <quote type="G">schlechtes Mittagessen</quote> (<ref target="gb:text#GB03_1_BR550_0_346_025">346,25</ref>) vermutlich, wie im 18. Jahrhundert häufig, in der Bedeutung ‚schlicht‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1510 und 1528).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8240">
+<label xml:id="GB03_2_BR550_0_note_028_346_21" copyOf="#start_com_4978"><hi rendition="#fett">346,21</hi><emph rendition="#latin">Patois</emph></label>
+<p>Franz.: Mundart.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8241">
+<label xml:id="GB03_2_BR550_0_note_029_346_24" copyOf="#start_com_4979"><hi rendition="#fett">346,24</hi><emph rendition="#latin">Salenche</emph></label>
+<p>Sallanches im Tal der Arve, 17 km von Cluses entfernt.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8242">
+<label xml:id="GB03_2_BR550_0_note_030_346_25" copyOf="#start_com_4980"><hi rendition="#fett">346,25</hi>schlechtes Mitagessen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR550_0_note_027_346_20">346,20</ref>.</p>
+
+</note>
+<note xml:id="gb12043_comment_com16954">
+<label xml:id="GB03_2_BR550_0_note_031_346_28" copyOf="#start_com_4981"><hi rendition="#fett">346,28</hi><emph rendition="#latin">Balme</emph></label>
+<p>Balme-Arâches, Dorf rechts der Arve, 5 km von Cluses entfernt. Es war bekannt für eine Höhle, die am Berghang in Richtung Arâches la Frasse liegt. Carl August notierte am 4. November 1779 in sein Tagebuch: „Wir stiegen zu der Höhle mit Müh, u. Gefahr. beynah &#xBE; Stunden biß fast ans Ende wo Waßer ist. Voll Stallactiten, u. Fledermäuse. An einer andern öfnung ist ein Kirschbaum in der Höhle gewachsen, u. strekt bloß die Äste heraus.“ (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 5r; vgl. auch <ref target="bug:dokument#6183">BuG 2, 172</ref>.)</p>
+
+</note>
+<note xml:id="gb12043_comment_com13798">
+<label xml:id="GB03_2_BR550_0_note_032_347_7" copyOf="#start_com_4982"><hi rendition="#fett">347,7</hi>Kalchfelsenstüke</label>
+<p>Kalch: mundartlich geprägte Schreibweise für ‚Kalk‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11, 64).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8243">
+<label xml:id="GB03_2_BR550_0_note_033_347_22" copyOf="#start_com_4983"><hi rendition="#fett">347,22</hi>sintert</label>
+<p>‚Sintern‘ in der Sprache des Bergbaus: tropfen, gerinnen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4,109 f.).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14841">
+<label xml:id="GB03_2_BR550_0_note_034_347_24" copyOf="#start_com_4984"><hi rendition="#fett">347,24</hi>Baumannshöle</label>
+<p>Tropfsteinhöhle in der zu Elbingerode gehörenden Ortschaft Rübeland, die Goethe am 1. und 2. Dezember 1777 während seiner Harzreise besucht hatte (vgl. weiter zu <ref target="gb:note#GB03_2_BR312_0_note_009_186_6">186,6</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8525">
+<label xml:id="GB03_2_BR550_0_note_035_347_30" copyOf="#start_com_4985"><hi rendition="#fett">347,30</hi>schönen Wasserfall</label>
+<p>Die Cascade d’Arpenaz, ein 200 m hoher Wasserfall bei Luziers (Dorf rechts der Arve 3 km nördlich von Sallanches).</p>
+
+</note>
+<note xml:id="gb12043_comment_com13819">
+<label xml:id="GB03_2_BR550_0_note_036_347_30" copyOf="#start_com_4986"><hi rendition="#fett">347,30</hi>Staubbachsart</label>
+<p>Den Staubbachfall hatte Goethe kennen gelernt, als er vom 9. bis 11. Oktober 1779 Lauterbrunnen besucht hatte (vgl. weiter zu <ref target="gb:note#GB03_2_BR536_0_note_003_305_19">305,19</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8526">
+<label xml:id="GB03_2_BR550_0_note_037_347_31" copyOf="#start_com_4987"><hi rendition="#fett">347,31</hi><emph rendition="#latin">Niche</emph></label>
+<p>Franz. Wortform von ‚Nische‘.</p>
+
+</note>
+<note xml:id="gb12043_comment_com17100">
+<label xml:id="GB03_2_BR550_0_note_038_348_28" copyOf="#start_com_4988"><hi rendition="#fett">348,28</hi>Beet</label>
+<p>Bett. – Goethe verwendet ‚Beet‘ für ‚Bett‘ auch an anderer Stelle, etwa im Brief an Johann Heinrich Merck vom 27. Oktober 1782 (vgl. <ref target="gb:dokument#11941">GB 5, Nr 262</ref>) sowie im Promemoria für Herzog Carl August vom 15. Januar 1781 über den Wasserbau in der Flur Ringleben (vgl. <ref target="sndb:sigle#32">AS</ref> 1, 133). – Nach <ref target="sndb:sigle#2753">Adelung</ref> (1, 787) waren ‚Beet‘ und ‚Bett‘ ursprünglich identischer Bedeutung; im Oberdeutschen heißt es in beiderlei Sinn noch immer ‚Bett‘ (vgl. auch <ref target="sndb:sigle#2956">Kluge/Seebold</ref>, 89).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8527">
+<label xml:id="GB03_2_BR550_0_note_039_348_31" copyOf="#start_com_4989"><hi rendition="#fett">348,31</hi><emph rendition="#latin">Serves</emph></label>
+<p>Servoz, 12 km westlich von Chamonix.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8528">
+<label xml:id="GB03_2_BR550_0_note_040_349_7" copyOf="#start_com_4990"><hi rendition="#fett">349,7</hi>Pleïaden</label>
+<p>Gestirn aus sieben Sternen im Sternbild des Stiers, benannt nach den sieben Töchtern des Atlas und der Pleione in der griechischen Mythologie, die vom Jäger Orion verfolgt und von Zeus als Sterne an den Himmel versetzt wurden.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14857">
+<label xml:id="GB03_2_BR550_0_note_041_349_25" copyOf="#start_com_4991"><hi rendition="#fett">349,25</hi>mittelsten Dorfe</label>
+<p>Es gab drei Pfarrdörfer im Chamonixtal: Les Houches im Süden des Tals, Chamonix in der Mitte und Argentière im Norden des Tals.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8541">
+<label xml:id="GB03_2_BR550_0_note_042_349_25" copyOf="#start_com_4992"><hi rendition="#fett">349,25</hi><emph rendition="#latin">le Prieuré</emph></label>
+<p>Franz.: Kloster, Priorei. – Ortsteil von Chamonix-Mont Blanc, aus einem 1099 gestifteten Benediktinerkloster entstanden.</p>
+
+</note>
+<note xml:id="gb12043_comment_com17114">
+<label xml:id="GB03_2_BR550_0_note_043_349_26" copyOf="#start_com_4993"><hi rendition="#fett">349,26</hi>Wittwe</label>
+<p>Thérèse Couteran. – Horace Bénédict de Saussure berichtet in seinen „Voyages dans les alpes“ (Bd 2. Neuchâtel 1780) über seinen Aufenthalt in Chamonix: „Je vais ordinairement chez la veuve d’un Notaire, M<hi rendition="#sup">me</hi>. Couteran, femme d’une probité reconnue, qui a des chambres très-propres, &amp; qui traite fort bien &amp; pour un prix honnête, ceux qui vont loger chez elle.“ (S. 239. – Ich gehe gewöhnlich zu der Witwe eines Notars, Madame Couteran, einer Frau von anerkannter Rechtschaffenheit, die sehr ordentliche Zimmer hat und die sehr gut bewirtet und das zu einem angemessenen Preis für die, welche bei ihr wohnen.)</p>
+
+</note>
+<note xml:id="gb12043_comment_com8542">
+<label xml:id="GB03_2_BR550_0_note_044_349_28" copyOf="#start_com_4994"><hi rendition="#fett">349,28</hi>Muskatellerwein</label>
+<p>Der Muskateller (franz.: muscat) ist eine Rebsorte, die bereits in der Antike in Kleinasien und Südeuropa angebaut wurde. In Mittel- und Nordeuropa ist dieser weiße Wein seit dem Mittelalter verbreitet.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8543">
+<label xml:id="GB03_2_BR550_0_note_045_349_28" copyOf="#start_com_4995"><hi rendition="#fett">349,28</hi><emph rendition="#latin">vallée d’aost</emph></label>
+<p>Das in Italien gelegene Aostatal, etw 60 km südöstlich von Chamonix.</p>
+
+</note>
+<note xml:id="gb12043_comment_com13604">
+<label xml:id="GB03_2_BR550_0_note_046_349_31" copyOf="#start_com_4996"><hi rendition="#fett">349,31</hi>Resolution</label>
+<p>Franz.: Entschließung, Entschluss.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8544">
+<label xml:id="GB03_2_BR550_0_note_047_349_33" copyOf="#start_com_4997"><hi rendition="#fett">349,33</hi>Beschreibung der Savoiischen Eisgebürgen</label>
+<p>Description des glacieres, glaciers &amp; amas de glace du duché de Savoye. Par M. T. Bourrit <gap quantity="3" reason="editorial"/>. Genf 1773. – Marc Théodore Bourrit war ein Genfer Bergsteiger und Reiseschriftsteller.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8522">
+<label xml:id="GB03_2_BR550_0_note_048_350_5" copyOf="#start_com_4998"><hi rendition="#fett">350,5</hi>sechs bis sieben Stunden lang</label>
+<p>Die Entfernung von Servoz am Eingang des Tales bis Vallorcine am Ende beträgt etwa 30 km</p>
+
+</note>
+<note xml:id="gb12043_comment_com8554">
+<label xml:id="GB03_2_BR550_0_note_049_350_5-6" copyOf="#start_com_4999"><hi rendition="#fett">350,5-6</hi>von Mitag gegen Mitternacht</label>
+<p>Von Süden nach Norden.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8555">
+<label xml:id="GB03_2_BR550_0_note_050_350_11-12" copyOf="#start_com_5000"><hi rendition="#fett">350,11-12</hi>sieben Gletscher</label>
+<p>Als erster der Gletscher von Les Bossons im Süden des Tals, ferner das System von Einzelgletschern bei Chamonix, das Mer de Glace, Eismeer, genannt wird.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8556">
+<label xml:id="GB03_2_BR550_0_note_051_350_13-14" copyOf="#start_com_5001"><hi rendition="#fett">350,13-14</hi>Der eine ist <gap quantity="3" reason="editorial"/> der andre schon älter</label>
+<p>Im Tagebuch des Herzogs Carl August heißt es unter dem 5. November 1779: „Unsere zwey Führer hießen Michel Pacard, u. sein Neffe Victor Tessai.“ (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 5v.) Beim Erstgenannten handelte es sich vermutlich um Michel Paccard, einen Cousin von Michel Gabriel Paccard, dem 1786 zusammen mit Jacques Balmat die Erstbesteigung des Montblanc gelang (nach freundlicher Mitteilung von Sylvain Jouty, Buis-les-Baronnies, Frankreich). Marc Théodore Bourrit nennt ihn in seiner „Nouvelle description des glacieres et glaciers de Savoye“ (Genf 1785) den „Doyen des Guides“ (S. 63); „est un homme sage, prudent, instruit, sa physionomie qui a caractere inspire la confiance, il est surtout le guide des Dames par ses complaisances &amp; les petits soins qu’il sait mettre en usage pour leur éviter l’extrême fatigue; c’est chez lui encore où l’on trouve les curiosités du pays, comme cristaux, amianthes, plantes alpines &amp; chamois empaillés.“ (Ebd. – Er ist ein weiser, umsichtiger, wohlunterrichteter Mann, seine Gesichtszüge, die Charakter haben, erwecken Vertrauen; er ist vor allem der Führer der Damen, durch seine Gefälligkeit und die kleinen Hilfeleistungen, die er anzuwenden versteht, um ihnen die extreme Mühsal zu ersparen; bei ihm findet man noch die Sehenswürdigkeiten des Landes wie Kristalle, Bergflachs, Alpenpflanzen und ausgestopfte Gemsen.) Herzog Carl August erwähnt ihn auch in seinem Brief an Carl Ludwig von Knebel vom 27. Juli 1780 (vgl. <ref target="sndb:sigle#1312">Knebel, Nachlaß und Briefwechsel</ref> 1, 122). – Der zweite Führer war Victor Tissay (Schreibung schwankt); über ihn heißt es bei Bourrit: „<hi rendition="#hervor1">Victor Tissai</hi>, plus jeune, est admirable par son courage, sa hardiesse dans les pas les plus difficiles, c’est un vrai chamois sur les rochers &amp; les cîmes de glaces, la force de ses jarrets surpasse cette de tout autre, &amp; sa gaîté est inaltérable.“ (Nouvelle description des glacieres et glaciers de Savoye, S. 63. – Victor Tissai, jünger, ist durch seinen Mut und seine Kühnheit bei den schwierigsten Schritten zu bewundern; er ist auf den Felsen und Eisspitzen eine wahre Gemse; die Kraft seiner Gelenke übersteigt die jedes anderen, und seine Fröhlichkeit ist unverwüstlich.) Michel Paccard und sein Bruder François gehörten zusammen mit Tissay zu den Bergsteigern, die in den 1770er Jahren erste Versuche zur Besteigung des Montblanc unternommen hatten.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8557">
+<label xml:id="GB03_2_BR550_0_note_052_350_19" copyOf="#start_com_5002"><hi rendition="#fett">350,19</hi>Allerheiligen</label>
+<p>Das in der katholischen Kirche gefeierte Fest zum Gedenken aller Heiligen (omnium sanctorum) fällt auf den 1. November.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14869">
+<label xml:id="GB03_2_BR550_0_note_053_350_21" copyOf="#start_com_5003"><hi rendition="#fett">350,21</hi><emph rendition="#latin">Mont Anvert</emph></label>
+<p>Gemeint ist der Montenvers, ein 1913 m hoher Gipfel und Aussichtspunkt auf das Mer de Glace östlich von Chamonix.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8558">
+<label xml:id="GB03_2_BR550_0_note_054_350_26" copyOf="#start_com_5004"><hi rendition="#fett">350,26</hi>ein spizer Berg</label>
+<p>Vermutlich ist einer der folgenden Berge gemeint, die vom Montenvers aus zu sehen sind: die Gipfel der Grandes Jorasses (Pointe Walker 4208 m), deren Nordwand 1000 m über das Mer de Glace aufsteigt, der Dôme de Rochefort (4015 m), der Aiguille de Rochefort (4001 m) und die Dent du Géant (4013 m).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14237">
+<label xml:id="GB03_2_BR550_0_note_055_350_31-32" copyOf="#start_com_5005"><hi rendition="#fett">350,31-32</hi>von Steinen zusammengelegte Hütte</label>
+<p>Eine auf dem Montenvers unter einem überhängenden Felsblock eingerichtete Schäferhütte, von den Einheimischen „Le château“ genannt (vgl. Peter Grupp: Faszination Berg. Geschichte des Alpinismus. Köln, Weimar, Wien 2008, S. 173).</p>
+
+</note>
+<note xml:id="gb12043_comment_com17122">
+<label xml:id="GB03_2_BR550_0_note_056_350_33" copyOf="#start_com_5006"><hi rendition="#fett">350,33</hi><emph rendition="#latin">Monsieur Blaire</emph></label>
+<p>Der britische Lord Charles Blair hatte auf dem Montenvers eine Schutzhütte errichten lassen, die auch „Hospice de Blair“ genannt wurde: „En 1779, un certain Charles Blair donna quatre guinées pour faire construire une cabane, rapidement trop exiguë, et que, par dérision, on appelait le Château ou l’Hôpital de Blair.“ (Sylvain Jouty: Alpinistes extraordinaires. Paris 2009, S. 24. – 1779 stellte ein gewisser Charles Blair vier Guineen zur Verfügung, um eine Hütte errichten zu lassen, die schnell zu klein wurde und die man spöttisch das Château oder das Hôpital de Blair nannte. – Vgl. Grupp: Faszination Berg, S. 173.)</p>
+
+</note>
+<note xml:id="gb12043_comment_com8568">
+<label xml:id="GB03_2_BR550_0_note_057_351_4" copyOf="#start_com_5007"><hi rendition="#fett">351,4</hi>Gesteinart</label>
+<p>Das Gebirge der Montblanc-Gruppe besteht im Zentrum aus Granit und Gneis.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8569">
+<label xml:id="GB03_2_BR550_0_note_058_351_5" copyOf="#start_com_5008"><hi rendition="#fett">351,5</hi>perpendikular</label>
+<p>Senkrecht (nach lat. perpendiculum: Bleilot).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8570">
+<label xml:id="GB03_2_BR550_0_note_059_351_7-8" copyOf="#start_com_5009"><hi rendition="#fett">351,7-8</hi><emph rendition="#latin">aiguille du dru</emph></label>
+<p>3754 m hoher Gipfel in östlicher Richtung in der Nähe des Montenvers. – Franz. aiguille: Nadel, Spitze.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14882">
+<label xml:id="GB03_2_BR550_0_note_060_351_21-22" copyOf="#start_com_5010"><hi rendition="#fett">351,21-22</hi>die Höle in der er sein Wasser ausgiesst</label>
+<p>Im 18. Jahrhundert erstreckte sich das Mer de Glace noch bis zu der Ortschaft Les Bois im Tal von Chamonix. Die Gletscherzunge hieß Glacier des Bois. An deren Ende entsprang aus einem Gletschertor der Arveyron. Heute hat sich der Gletscher etwa 2 km weit zurückgezogen.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8571">
+<label xml:id="GB03_2_BR550_0_note_061_351_25" copyOf="#start_com_5011"><hi rendition="#fett">351,25</hi><emph rendition="#latin">Blondins</emph></label>
+<p>Albinos, Menschen, die unter Albinismus leiden (nach lat. albus: weiß), einer durch eingeschränkte Melaninsynthese hervorgerufene Störung der Hautpigmentbildung. Sie haben eine ungewöhnlich helle Haut-, Haar- und Augenfarbe. Die durch Inzucht begünstigte Erbkrankheit trat im 18. Jahrhundert in den Alpentälern vermehrt auf.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15616">
+<label xml:id="GB03_2_BR550_0_note_062_351_31" copyOf="#start_com_5012"><hi rendition="#fett">351,31</hi>natürliche Sohn</label>
+<p>Unehelicher Sohn, welcher „bloß aus einem natürlichen Bedürfnisse <gap quantity="3" reason="editorial"/> ohne Beobachtung der bürgerlichen Ordnung gezeuget worden.“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 447.)</p>
+
+</note>
+<note xml:id="gb12043_comment_com14238">
+<label xml:id="GB03_2_BR550_0_note_063_351_34" copyOf="#start_com_5013"><hi rendition="#fett">351,34</hi>Gestellsteinen</label>
+<p>‚Gestellstein‘ ist ein feuerfestes Gestein, aus dem der Unterbau (‚Gestell‘) eines (Hoch-)Ofens gemauert wurde (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 139).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14883">
+<label xml:id="GB03_2_BR550_0_note_064_351_34" copyOf="#start_com_5014"><hi rendition="#fett">351,34</hi>Lerchen</label>
+<p>Vermutlich sind ‚Lärchen‘-Bäume aus der Familie der Kiefern gemeint. Im 18. Jahrhundert waren beide Schreibweisen möglich (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 2030).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14898">
+<label xml:id="GB03_2_BR550_0_note_065_351_34" copyOf="#start_com_5015"><hi rendition="#fett">351,34</hi>Zirbelbäumen</label>
+<p>Im Oberdeutschen verwendeter Name für eine u. a. in der Schweiz heimische Fichtenart, lat. Pinus cembra (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1724 f.).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8583">
+<label xml:id="GB03_2_BR550_0_note_066_351_36" copyOf="#start_com_5016"><hi rendition="#fett">351,36</hi>botanisen</label>
+<p>Versehentlich für ‚botanisieren‘.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8584">
+<label xml:id="GB03_2_BR550_0_note_067_352_6" copyOf="#start_com_5017"><hi rendition="#fett">352,6</hi>Unser Führer</label>
+<p>Möglicherweise Michel Paccard (vgl. zu <ref target="gb:note#GB03_2_BR550_0_note_051_350_13-14">350,13-14</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8585">
+<label xml:id="GB03_2_BR550_0_note_068_352_6-7" copyOf="#start_com_5018"><hi rendition="#fett">352,6-7</hi><emph rendition="#latin">col de balme</emph></label>
+<p>2204 m hoch gelegener Pass zwischen Savoyen und der Schweiz südöstlich des Tête de Balme.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14899">
+<label xml:id="GB03_2_BR550_0_note_069_352_9" copyOf="#start_com_5019"><hi rendition="#fett">352,9</hi>Merkwürdigkeiten</label>
+<p>Im 18. Jahrhundert noch: Sehenswürdigkeiten.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8586">
+<label xml:id="GB03_2_BR550_0_note_070_352_22" copyOf="#start_com_5020"><hi rendition="#fett">352,22</hi>Martinach</label>
+<p>Deutscher Name für Martigny im Kanton Wallis, gut 40 km nordöstlich von Chamonix.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8587">
+<label xml:id="GB03_2_BR550_0_note_071_352_27" copyOf="#start_com_5021"><hi rendition="#fett">352,27</hi><emph rendition="#latin">Prieuré</emph></label>
+<p>Ortsteil von Chamonix (vgl. zu <ref target="gb:note#GB03_2_BR550_0_note_042_349_25">349,25</ref>).</p>
+
+</note>
+<note xml:id="gb12043_comment_com14900">
+<label xml:id="GB03_2_BR550_0_note_072_352_30" copyOf="#start_com_5022"><hi rendition="#fett">352,30</hi>Ausguss des Eisthals</label>
+<p>Vermutlich ist der Glacier des Bois gemeint, die Gletscherzunge des Mer de Glace, die sich zu Goethes Zeit bei Les Bois 3,5 km nordöstlich von Chamonix ins Tal erstreckte.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15618">
+<label xml:id="GB03_2_BR550_0_note_073_352_31" copyOf="#start_com_5023"><hi rendition="#fett">352,31</hi><emph rendition="#latin">glacier d’argentiére</emph></label>
+<p>Gletscher des Aiguille d’Argentière (3900 m) östlich von der Ortschaft Argentière im Chamonixtal.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14929">
+<label xml:id="GB03_2_BR550_0_note_074_352_34" copyOf="#start_com_5024"><hi rendition="#fett">352,34</hi>Weeg über <emph rendition="#latin">Valorsine</emph></label>
+<p>Vallorcine liegt auf halbem Weg zwischen Chamonix und Martigny im Tal der Eau Noire. Die Reisegesellschaft verließ bei Argentière das Tal und wandte sich nordostwärts ins Gebirge in Richtung Col de Balme.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8601">
+<label xml:id="GB03_2_BR550_0_note_075_353_3" copyOf="#start_com_5025"><hi rendition="#fett">353,3</hi><emph rendition="#latin">glacier du tour</emph></label>
+<p>Gletscher des Aiguille du Tour (3540 m) östlich der Ortschaft Le Tour, die von der Arve durchflossen wird.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15620">
+<label xml:id="GB03_2_BR550_0_note_076_353_7" copyOf="#start_com_5026"><hi rendition="#fett">353,7</hi>Quellen der Arve</label>
+<p>Am Col de Balme.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8602">
+<label xml:id="GB03_2_BR550_0_note_077_353_7" copyOf="#start_com_5027"><hi rendition="#fett">353,7</hi>berasten</label>
+<p>‚Mit Gras bedeckten‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 388).</p>
+
+</note>
+<note xml:id="gb12043_comment_com8603">
+<label xml:id="GB03_2_BR550_0_note_078_353_18" copyOf="#start_com_5028"><hi rendition="#fett">353,18</hi>mittägigen</label>
+<p>Südlichen.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8604">
+<label xml:id="GB03_2_BR550_0_note_079_353_22" copyOf="#start_com_5029"><hi rendition="#fett">353,22</hi>merkwürdiger</label>
+<p>Bemerkenswerter.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14930">
+<label xml:id="GB03_2_BR550_0_note_080_353_29-30" copyOf="#start_com_5030"><hi rendition="#fett">353,29-30</hi>zwei Gipfel</label>
+<p>Vermutlich der Tête de Balme und Les Grandes Otanes.</p>
+
+</note>
+<note xml:id="gb12043_comment_com13606">
+<label xml:id="GB03_2_BR550_0_note_081_354_3" copyOf="#start_com_5031"><hi rendition="#fett">354,3</hi>Abendseite</label>
+<p>Westseite.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8605">
+<label xml:id="GB03_2_BR550_0_note_082_354_6" copyOf="#start_com_5032"><hi rendition="#fett">354,6</hi>Martinach</label>
+<p>Martigny, 12 km Luftlinie in nordöstlicher Richtung vom Col de Balme entfernt.</p>
+
+</note>
+<note xml:id="gb12043_comment_com15621">
+<label xml:id="GB03_2_BR550_0_note_083_354_9" copyOf="#start_com_5033"><hi rendition="#fett">354,9</hi><emph rendition="#latin">Contrebandiers</emph></label>
+<p>Franz.: Schmuggler.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8606">
+<label xml:id="GB03_2_BR550_0_note_084_354_13" copyOf="#start_com_5034"><hi rendition="#fett">354,13</hi>recognosciren</label>
+<p>Nach lat. recognoscere: prüfen, auskundschaften.</p>
+
+</note>
+<note xml:id="gb12043_comment_com14943">
+<label xml:id="GB03_2_BR550_0_note_085_354_21" copyOf="#start_com_5035"><hi rendition="#fett">354,21</hi>Trientfluss</label>
+<p>Der Trient entspringt bei der Ortschaft Trient aus dem Trientgletscher, der umgeben ist von dem Pointe d’Orny (3271 m) im Osten, den Aiguilles Dorées (bis 3519 m) im Süden und dem Aiguille du Tour (3540 m) im Westen.</p>
+
+</note>
+<note xml:id="gb12043_comment_com8615">
+<label xml:id="GB03_2_BR550_0_note_086_354_22" copyOf="#start_com_5036"><hi rendition="#fett">354,22</hi>Trient</label>
+<p>Ortschaft 4 km nordöstlich vom Col de Balme.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

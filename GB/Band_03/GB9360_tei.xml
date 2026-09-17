@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5580"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9360" n="GB 3, Nr. 545">
+  <teiHeader xml:id="gb9360_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>545.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77909">Genf</placeName>, 2. November 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:35Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9360_tei.xml</idno>
+        <idno type="URI">gb9360</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR545_0</idno>
+        <idno type="KSW-ID">9360</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="340" to="341">340-341</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1046" to="1048">1046-1048</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9360_header_hwit1537" corresp="#gb9360_source_hwit1537" sameAs="#gb9360_comment_hwit1537" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 109</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9360,,1537/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>-Eh ich von hier weggehe noch einige Worte lieber Bruder eh    wir uns tiefer in die Gebürge</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77909">Genf</placeName>
+            <date when="1779-11-02">2. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#114">RA 1, Nr. 102</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9360_source_hwit1537" corresp="#gb9360_header_hwit1537" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9360/14337"/>
+      <opener>
+        <dateline rendition="#einrueck12">
+          <anchor xml:id="GB03_1_BR545_0_340_001"/>
+          <ref target="gb:note#GB03_2_BR545_0_note_001_340_1" xml:id="start_com_4890"/>Genf<ref xml:id="end_com_4890"/> den 2 9br. 1779.</dateline>
+      </opener>
+      <space quantity="2" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR545_0_340_002"/>Eh ich <ref target="gb:note#GB03_2_BR545_0_note_002_340_2" xml:id="start_com_4891"/>von hier weggehe<ref xml:id="end_com_4891"/> noch einige Worte lieber Bruder eh wir uns 
+<anchor xml:id="GB03_1_BR545_0_340_003"/>tiefer in die Gebürge verlieren in die wir unter <emph rendition="#latin">Garantie</emph> des Herrn <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR545_0_note_003_340_3-4" xml:id="start_com_4892"/>de 
+<anchor xml:id="GB03_1_BR545_0_340_004"/>Saussure</emph><ref xml:id="end_com_4892"/><ptr n="1" target="#a001_340.4"/> einen Versuch wagen,<ptr n="2" target="#a002_340.4"/> von hier aus gehts <ref target="gb:note#GB03_2_BR545_0_note_004_340_4-5" xml:id="start_com_4893"/>in die Savoiischen 
+<anchor xml:id="GB03_1_BR545_0_340_005"/>Eisgebürge und ins Wallis<ptr n="3" target="#a003_340.5"/>
+        <ref xml:id="end_com_4893"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR545_0_340_006"/>
+        <ref target="gb:note#GB03_2_BR545_0_note_005_340_6" xml:id="start_com_4894"/>Deine Offenbarung hat mir viel Vergnügen gemacht.<ref xml:id="end_com_4894"/> Ich habe sie 
+<anchor xml:id="GB03_1_BR545_0_340_007"/>recht und vieles davon mehr als einmal gelesen. Schon da <ref target="gb:note#GB03_2_BR545_0_note_006_340_7" xml:id="start_com_4895"/>Tobler<ref xml:id="end_com_4895"/><ptr n="4" target="#a004_340.7"/> mir 
+<anchor xml:id="GB03_1_BR545_0_340_008"/>sagte <ref target="gb:note#GB03_2_BR545_0_note_007_340_8" xml:id="start_com_4896"/>du habest darüber von Amts wegen gepredigt<ref xml:id="end_com_4896"/>, gabs<ptr n="5" target="#a005_340.8"/> mir ein ganz 
+<anchor xml:id="GB03_1_BR545_0_340_009"/>neues Interesse, denn ich konnte nun mehr begreiffen, wie du mit 
+<anchor xml:id="GB03_1_BR545_0_340_010"/>diesem Buche so lange beschäftigt, du<ptr n="6" target="#a006_340.10"/> es ganz in dich hinüber empfunden 
+<anchor xml:id="GB03_1_BR545_0_340_011"/>hast und es <ref target="gb:note#GB03_2_BR545_0_note_008_340_11" xml:id="start_com_4897"/>in einem so fremden <emph rendition="#latin">Vehiculo</emph><ptr n="7" target="#a007_340.11"/>
+        <ref xml:id="end_com_4897"/> ohne fremden, viel 
+<anchor xml:id="GB03_1_BR545_0_340_012"/>mehr eigentlich heterogenen Zusaz wieder aus dir heraus quellen lassen 
+<anchor xml:id="GB03_1_BR545_0_340_013"/>konntest, denn nach meiner Empfindung macht deine Ausmahlung 
+<anchor xml:id="GB03_1_BR545_0_340_014"/>keinen andern Eindruk als die Original Skize macht, wenigstens 
+<anchor xml:id="GB03_1_BR545_0_340_015"/>einer Seele aus diesem Jahrhundert, wo man die Ideen die du hineinlegst 
+<anchor xml:id="GB03_1_BR545_0_340_016"/>selbst von Kindheit an gröstentheils hinein zu legen pflegt. Die 
+<anchor xml:id="GB03_1_BR545_0_340_017"/>Arbeit selbst ist dir glüklich von statten gangen, einige trefliche Züge 
+<anchor xml:id="GB03_1_BR545_0_340_018"/>der Auslegung und Erfindung sind drinne. Ausgemahlt sind viele Stellen 
+<anchor xml:id="GB03_1_BR545_0_340_019"/>ganz treflich, besonders alle die der innern Empfindung von Zärtlichkeit 
+<anchor xml:id="GB03_1_BR545_0_340_020"/>und Kraft, <ref target="gb:note#GB03_2_BR545_0_note_009_340_20" xml:id="start_com_4898"/>w. z.<ref xml:id="end_com_4898"/> die <ref target="gb:note#GB03_2_BR545_0_note_010_340_20" xml:id="start_com_4899"/>Verheissung des ewigen<ptr n="8" target="#a008_340.20"/> Lebens<ref xml:id="end_com_4899"/>, <ref target="gb:note#GB03_2_BR545_0_note_011_340_20-21" xml:id="start_com_4900"/>das Weiden<ptr n="19" target="#a019_340.20"/> 
+<anchor xml:id="GB03_1_BR545_0_340_021"/>der Schaafe unter Palmen<ref xml:id="end_com_4900"/>, <ref target="gb:note#GB03_2_BR545_0_note_012_340_21-22" xml:id="start_com_4901"/>das siegende Gefühl der Engel, eh und 
+<anchor xml:id="GB03_1_BR545_0_340_022"/>indem sie die Schlacht anfangen<ref xml:id="end_com_4901"/>. In einigen Gestalten und Gleichnissen<ptr n="9" target="#a009_340.23"/>
+        <anchor xml:id="GB03_1_BR545_0_340_023"/>hast<ptr n="10" target="#a010_340.23"/> du <pb n="2" facs="gb:digitalisate#9360/14338"/> dich auch gut gehalten nur schwinden deine Ungeheuer 
+<anchor xml:id="GB03_1_BR545_0_340_024"/>für mich zu schnell in allegorischen Dampf auf, doch ist auch dies, 
+<anchor xml:id="GB03_1_BR545_0_340_025"/>wenn<ptr n="11" target="#a011_340.25"/> ichs recht bedenke <ref target="gb:note#GB03_2_BR545_0_note_013_340_25" xml:id="start_com_4902"/>das klügste<ptr n="12" target="#a012_340.25"/> Theil das du ergreiffen konntest<ref xml:id="end_com_4902"/>. 
+<anchor xml:id="GB03_1_BR545_0_340_026"/>Es ist mir leid dass ich <ref target="gb:note#GB03_2_BR545_0_note_014_340_26" xml:id="start_com_4903"/>die zwölf folgende Gesänge<ref xml:id="end_com_4903"/> nicht gleich habe. 
+<anchor xml:id="GB03_1_BR545_0_340_027"/>Bei dieser Gelegenheit lies ich mir den griechischen Text wieder geben 
+<anchor xml:id="GB03_1_BR545_0_340_028"/>und sah auch <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR545_0_note_015_340_28" xml:id="start_com_4904"/>Piscators</emph> Uebersezung<ref xml:id="end_com_4904"/> an.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR545_0_341_001"/>Nun noch ein herzlich Wort<ptr n="13" target="#a013_341.1"/> der Sehnsucht an dich, und der Hoffnung, 
+<anchor xml:id="GB03_1_BR545_0_341_002"/>sie wird alle Tage stärcker. Lass uns ia<ptr n="14" target="#a014_341.2"/> einander bleiben, einander 
+<anchor xml:id="GB03_1_BR545_0_341_003"/>mehr werden denn neue Freunde und Lieben<ptr n="15" target="#a015_341.3"/> mach ich mir 
+<anchor xml:id="GB03_1_BR545_0_341_004"/>nicht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR545_0_341_005"/>
+        <ref target="gb:note#GB03_2_BR545_0_note_016_341_5" xml:id="start_com_4905"/>Mit Toblern weis ich nicht wies war.<ref xml:id="end_com_4905"/> Er hat wohl nähe und Vertrauen 
+<anchor xml:id="GB03_1_BR545_0_341_006"/>zu mir. Aber leider fühl ich meine 30 Jahr und Weltwesen!! 
+<anchor xml:id="GB03_1_BR545_0_341_007"/>schon einige Ferne<ptr n="16" target="#a016_341.7"/> von<ptr n="17" target="#a017_341.7"/> dem <hi rendition="#hervor1">werdenden</hi>, sich <hi rendition="#hervor1">entfaltenden</hi>, 
+<anchor xml:id="GB03_1_BR545_0_341_008"/>ich erkenns noch mit Vergnügen, mein Geist ist ihm nah aber mein 
+<anchor xml:id="GB03_1_BR545_0_341_009"/>Herz ist fremd. Grose Gedancken, die dem Jüngling ganz fremd sind, 
+<anchor xml:id="GB03_1_BR545_0_341_010"/>füllen iezt meine Seele, beschäfftigen sie in einem neuen Reiche, und 
+<anchor xml:id="GB03_1_BR545_0_341_011"/>so kann ich nicht als nur geborgt nieder ins Thal des Thaus und der 
+<anchor xml:id="GB03_1_BR545_0_341_012"/>Morgenbegattung lieblicher<ptr n="18" target="#a018_341.12"/> Turteltauben. Er sagt dir vielleicht <ref target="gb:note#GB03_2_BR545_0_note_017_341_12-13" xml:id="start_com_4906"/>wie’s 
+<anchor xml:id="GB03_1_BR545_0_341_013"/>ihm mit mir war<ref xml:id="end_com_4906"/>. Wohl ists uns zusammen nicht worden <pb n="3" facs="gb:digitalisate#9360/14339"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR545_0_341_014"/>Adieu guter. Meine Seele ist immer bey dir.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR545_0_341_015"/>
+        <signed rend="paraph" rendition="#einrueck8">G.</signed>
+      </closer>
+    <pb n="4" facs="gb:digitalisate#9360/14340"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9360_comment">
+<body>
+<div type="metadata" xml:id="gb9360_comment_com900">
+  <ab type="numberAddressee"><label>545.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77909">Genf</placeName>, 2. November 1779 → <placeName key="sndb:ort#79740">Zürich</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9360_comment_com2944">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 109. – Doppelblatt 18,9 × 23,3 cm, 2 S. und zwei Zeilen beschr., Anfang des Briefes (<ref target="gb:text#GB03_1_BR545_0_340_001 #GB03_1_BR545_0_340_028">340,1–28</ref> <quote type="G">Genf <gap quantity="3" reason="editorial"/> Uebersezung an.</quote>) von Schreiberhd (Seidel), Rest des Briefes egh., Tinte; S. 4 egh. Adresse: <quote type="G">An Herrn / Joh. Casp. Lavater / nach / Zürch</quote>, rotes Siegel: Wappen.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 51–54, Nr 17.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 114–116, Nr 861.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9360_comment_com4740">
+  <p>Der Brief beantwortet keinen Brief Lavaters. Goethe hatte diesen in seinem Brief vom 28. und 29. Oktober 1779 (<ref target="gb:dokument#11749">Nr 542</ref>) gebeten, ihm nach Luzern zu schreiben (vgl. <ref target="gb:text#GB03_1_BR542_0_329_004 #GB03_1_BR542_0_329_005">329,4–5</ref>); dort traf Goethe erst am 16. November 1779 ein. – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9360_comment_com7254">
+<label xml:id="GB03_2_BR545_0_note_001_340_1" copyOf="#start_com_4890"><hi rendition="#fett">340,1</hi>Genf</label>
+<p>In Genf hielt sich Goethe vom 27. Oktober bis 3. November 1779 auf.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7255">
+<label xml:id="GB03_2_BR545_0_note_002_340_2" copyOf="#start_com_4891"><hi rendition="#fett">340,2</hi>von hier weggehe</label>
+<p>Am 3. November brach Goethe von Genf nach Bonneville und Cluses auf.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7256">
+<label xml:id="GB03_2_BR545_0_note_003_340_3-4" copyOf="#start_com_4892"><hi rendition="#fett">340,3-4</hi><emph rendition="#latin">de Saussure</emph></label>
+<p>Der Genfer Naturforscher Horace Bénédict de Saussure hatte den Ausflug in die Savoyer Alpen für unbedenklich erklärt (vgl. zu <ref target="gb:note#GB03_2_BR544_0_note_025_339_15">339,15</ref>). Andere hielten dies hingegen für eine „Thorheit“, wie Herzog Carl August unter dem 2. November 1779 in sein Tagebuch schrieb (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 4v; vgl. auch <ref target="bug:dokument#6171">BuG 2, 168</ref>).</p>
+
+</note>
+<note xml:id="gb9360_comment_com16741">
+<label xml:id="GB03_2_BR545_0_note_004_340_4-5" copyOf="#start_com_4893"><hi rendition="#fett">340,4-5</hi>in die Savoiischen Eisgebürge und ins Wallis</label>
+<p>Die Reise führte Goethe und seine Begleiter von Cluses über Sallanches nach Chamonix. Von dort unternahmen sie am 5. November 1779 eine Wanderung ins Mer de Glace, ausführlich beschrieben im Brief <ref target="gb:dokument#12043">Nr 550</ref> an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR550_0_345_023 #GB03_1_BR550_0_352_021">345,23–352,21</ref>). Danach ging es weiter über den Col de Balme nach Martigny und durch das Rhone-Tal nördlich der Walliser Alpen bis Münster, von wo aus am 12. November der Weg über den Rhone-Gletscher und den Furka-Pass nach Realp führte; vgl. Goethes Berichte im Tagebuch (GT I 1, 98 f.) und in den „Briefen aus der Schweiz“ (<ref target="sndb:sigle#1157">WA</ref> I 19, 287–299).</p>
+
+</note>
+<note xml:id="gb9360_comment_com7266">
+<label xml:id="GB03_2_BR545_0_note_005_340_6" copyOf="#start_com_4894"><hi rendition="#fett">340,6</hi>Deine Offenbarung hat mir viel Vergnügen gemacht.</label>
+<p>Gemeint ist Lavaters poetische Bearbeitung der Offenbarung des Johannes „Jesus Messias, oder die Zukunft des Herrn. Nach der Offenbarung des Johannes“ (O. O. u. J. <supplied>Zürich 1780</supplied>). Lavater hatte Goethe die erste Hälfte dieses Werks im Manuskript zukommen lassen (vgl. <ref target="gb:text#GB03_1_BR542_0_327_019">327,19</ref>). In einer ersten Stellungnahme hatte sich Goethe sehr kritisch geäußert (vgl. <ref target="gb:text#GB03_1_BR542_0_327_021 #GB03_1_BR542_0_328_007">327,21–328,7</ref>).</p>
+
+</note>
+<note xml:id="gb9360_comment_com14547">
+<label xml:id="GB03_2_BR545_0_note_006_340_7" copyOf="#start_com_4895"><hi rendition="#fett">340,7</hi>Tobler</label>
+<p>Georg Christoph Tobler; er hatte Goethe das Manuskript des „Jesus Messias“ nach dessen Eintreffen in Genf übergeben.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7267">
+<label xml:id="GB03_2_BR545_0_note_007_340_8" copyOf="#start_com_4896"><hi rendition="#fett">340,8</hi>du habest <gap quantity="3" reason="editorial"/> gepredigt</label>
+<p>Lavater predigte im Lauf des Jahres 1779 mittwochs und samstags abends über die Offenbarung des Johannes (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 405). Wie in seinem „Jesus Messias“ versuchte er auch in diesen Predigten nach eigener Aussage, „die Apocalypse <hi rendition="#hervor1">poetisch</hi>, das ist, durch das ihr eigne Vehiculum zu denken“ (Lavater an Herder, 7. August 1779; <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 188).</p>
+
+</note>
+<note xml:id="gb9360_comment_com14548">
+<label xml:id="GB03_2_BR545_0_note_008_340_11" copyOf="#start_com_4897"><hi rendition="#fett">340,11</hi>in einem so fremden <emph rendition="#latin">Vehiculo</emph></label>
+<p>Lavater benutzte für seine poetische Bearbeitung der Offenbarung des Johannes Hexameter und freie Rhythmen, wie Klopstock in seinem „Messias“ (1755–1773).</p>
+
+</note>
+<note xml:id="gb9360_comment_com7268">
+<label xml:id="GB03_2_BR545_0_note_009_340_20" copyOf="#start_com_4898"><hi rendition="#fett">340,20</hi>w. z.</label>
+<p>Versehentlich verkürzt für ‚wie zum Beispiel‘.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7155">
+<label xml:id="GB03_2_BR545_0_note_010_340_20" copyOf="#start_com_4899"><hi rendition="#fett">340,20</hi>die Verheissung des ewigen Lebens</label>
+<p>Möglicherweise ist der 6. Gesang des „Jesus Messias“ (S. 51–54) gemeint, die ‚Auserwählten vor dem Throne Gottes‘ (vgl. Offenbarung 7,9–17).</p>
+
+</note>
+<note xml:id="gb9360_comment_com16756">
+<label xml:id="GB03_2_BR545_0_note_011_340_20-21" copyOf="#start_com_4900"><hi rendition="#fett">340,20-21</hi>das Weiden der Schaafe unter Palmen</label>
+<p>In der Druckausgabe des „Jesus Messias“ findet sich eine solche Stelle nicht; es heißt lediglich im 6. Gesang über die Auserwählten:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck2">Denn der vollendete Dulder, der Nächst’ am Throne der Gottheit</l>
+    <l rendition="#einrueck2">Weydet selber Sie alle am Schatten himmlischer Zedern;</l>
+    <l rendition="#einrueck2">Leitet zu kühlenden Wassern, zu Quellen des ewigen Friedens,</l>
+    <l rendition="#einrueck2">Jeder Erquickung sie hin, nach der die Seele verlangte.</l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+(S. 53.) Vgl. Offenbarung 7,17.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7278">
+<label xml:id="GB03_2_BR545_0_note_012_340_21-22" copyOf="#start_com_4901"><hi rendition="#fett">340,21-22</hi>das siegende Gefühl der Engel <gap quantity="3" reason="editorial"/> Schlacht anfangen</label>
+<p>Vermutlich ist der Kampf zwischen Michael und seinen Engeln mit dem Drachen und seinen Engeln gemeint, von dem in der Offenbarung des Johannes 12,7–12 die Rede ist. Lavater schildert den Vorgang ausführlich im 11. Gesang (vgl. Jesus Messias, S. 92–102).</p>
+
+</note>
+<note xml:id="gb9360_comment_com14292">
+<label xml:id="GB03_2_BR545_0_note_013_340_25" copyOf="#start_com_4902"><hi rendition="#fett">340,25</hi>das klügste Theil das du ergreiffen konntest</label>
+<p>Mit der Formulierung spielt Goethe auf das Lukas-Evangelium an; dort heißt es im Zusammenhang mit Jesu Besuch bei den Schwestern Marta und Maria (10,41 f.): „Martha, Martha, du hast viel sorge und mühe, Eins aber ist noth. Maria hat das gute theil erwählet, das soll nicht von ihr genommen werden.“ (Luther-Bibel 1772 NT, 74.)</p>
+
+</note>
+<note xml:id="gb9360_comment_com7279">
+<label xml:id="GB03_2_BR545_0_note_014_340_26" copyOf="#start_com_4903"><hi rendition="#fett">340,26</hi>die zwölf folgende Gesänge</label>
+<p>Lavaters „Jesus Messias“ umfasst 24 Gesänge.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7280">
+<label xml:id="GB03_2_BR545_0_note_015_340_28" copyOf="#start_com_4904"><hi rendition="#fett">340,28</hi><emph rendition="#latin">Piscators</emph> Uebersezung</label>
+<p>Biblia, Das ist: Alle Bücher der H. Schrift <gap quantity="3" reason="editorial"/> vertheutscht <gap quantity="3" reason="editorial"/>. Herborn 1602. – Verfasser dieser volkstümlichen Übersetzung ist der Rektor der nassauischen Akademie und Theologieprofessor Johannes Piscator.</p>
+
+</note>
+<note xml:id="gb9360_comment_com7281">
+<label xml:id="GB03_2_BR545_0_note_016_341_5" copyOf="#start_com_4905"><hi rendition="#fett">341,5</hi>Mit Toblern weis ich nicht wies war.</label>
+<p>Lavater hatte seinen Schüler und Freund Georg Christoph Tobler veranlasst, in Genf Kontakt zu Goethe zu suchen. Eine engere Beziehung erwuchs aus der Begegnung jedoch nicht (vgl. auch die vierte Erläuterung zu <ref target="gb:note#GB03_2_BR542_0_note_004_327_1">327,1</ref>).</p>
+
+</note>
+<note xml:id="gb9360_comment_com16770">
+<label xml:id="GB03_2_BR545_0_note_017_341_12-13" copyOf="#start_com_4906"><hi rendition="#fett">341,12-13</hi>wie’s ihm mit mir war</label>
+<p>Dass auch Tobler sich mit Goethe nicht in ein rechtes Verhältnis zu setzen vermochte, geht aus seinem Bericht über die zweite Zusammenkunft im Frühjahr 1781 in Weimar hervor. In einem Brief Toblers an Lavater von Mai 1781 heißt es über Charlotte von Stein und Goethe: „Aber ich kann so wenig zu einem hohen reinen Grade von Achtung für sie kommen, als zu einem hohen Grade von Zärtlichkeit gegen Goethe: Der mir sonst weit, unverdient weit artiger freündlicher, undrükender begegnet, als ich vermuhtet hätte.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 356.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

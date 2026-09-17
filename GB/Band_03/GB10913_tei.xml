@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1230"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10913" n="GB 3, Nr. 122">
+  <teiHeader xml:id="gb10913_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>122.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 3.</supplied> Juni 1776. <supplied>Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10913_tei.xml</idno>
+        <idno type="URI">gb10913</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR122_0</idno>
+        <idno type="KSW-ID">10913</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="72" to="72">72</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="284" to="285">284-285</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10913_header_hwit992" corresp="#gb10913_source_hwit992" sameAs="#gb10913_comment_hwit992" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 20</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10913,,992/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mir war's so wohl gestern in Ihrem Zimmer ich eilte nur dass Sie mich nicht wieder</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10913_header_acc493" corresp="gb10913_comment_acc493">
+            <objectIdentifier>
+              <objectName>Päckchen </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-03"><supplied>3.</supplied> Juni 1776</date>
+            <note>
+              <date type="WA" when="1776-06-02"><supplied>2.</supplied> Juni 1776</date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-06-03"><supplied>3.</supplied> Juni 1776</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10913_source_hwit992" corresp="#gb10913_header_hwit992" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10913/22360"/>
+      <p>
+        <anchor xml:id="GB03_1_BR122_0_072_011"/>Mir war’s so wohl gestern in ihrem Zimmer ich eilte nur dass Sie mich 
+<anchor xml:id="GB03_1_BR122_0_072_012"/>nicht wieder finden sollten. <ref target="gb:note#GB03_2_BR122_0_note_001_72_12" xml:id="start_com_1147"/>Kestners<ref xml:id="end_com_1147"/> theilnehmung fachte das Feuer an 
+<anchor xml:id="GB03_1_BR122_0_072_013"/>und so haben Sie <ref target="gb:note#GB03_2_BR122_0_note_002_72_13" xml:id="start_com_1148"/>Glut gefunden wie Sie nach Hause kamen<ref xml:id="end_com_1148"/>. Ich aber 
+<anchor xml:id="GB03_1_BR122_0_072_014"/>hatte mich über dem Zeichnen erhizt<ptr n="1" target="#a001_72.14"/> dass ich einen wunderbaaren 
+<anchor xml:id="GB03_1_BR122_0_072_015"/>Krampf am Herzen bekam wie ich ging.   Adieu Engel ich lass ein Paar 
+<anchor xml:id="GB03_1_BR122_0_072_016"/>Rahmen bestellen dass das Feuer nicht verlösche.    d<g ref="#typoSuspension"/>.  Jun. 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR122_0_072_017"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR122_0_072_018"/>
+          <ref target="gb:note#GB03_2_BR122_0_note_003_72_18" xml:id="start_com_1149"/>Beygehendes<ref xml:id="end_com_1149"/> machen Sie nicht eher auf biss ich komme</p>
+      </postscript>
+      <!--<figure><graphic url="abb03.tif"/><p rendition="#einrueck1">Abb. 3: Blick auf den Gutshof in Frohndorf
+    (Beilage zu Nr 121)</p></figure>-->
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10913_comment">
+<body>
+<div type="metadata" xml:id="gb10913_comment_com49">
+  <ab type="numberAddressee"><label>122.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>3.</supplied> Juni 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10913_comment_com1410">
+  <p>Tagesangabe nach dem Tagebuch ergänzt (vgl. zu <ref target="gb:note#GB03_2_BR122_0_note_002_72_13">72,13</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10913_comment_com2093">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 20. – 1 Bl. 17,9 × 10,9 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „54“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 54), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 36 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 73, Nr 470.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10913_comment_com3443">
+  <p>Päckchen (vgl. zu <ref target="gb:note#GB03_2_BR122_0_note_003_72_18">72,18</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10913_comment_com3889">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10913_comment_com10148">
+<label xml:id="GB03_2_BR122_0_note_001_72_12" copyOf="#start_com_1147"><hi rendition="#fett">72,12</hi>Kestners</label>
+<p>Johann Friedrich Kästner, Hauslehrer der älteren Söhne Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb10913_comment_com17604">
+<label xml:id="GB03_2_BR122_0_note_002_72_13" copyOf="#start_com_1148"><hi rendition="#fett">72,13</hi>Glut gefunden wie Sie nach Hause kamen</label>
+<p>Der Kontext des Wortspiels legt nahe, dass es sich um Zeichnungen handelt. Aufschluss gibt das Tagebuch vom 2. Juni 1776: <quote type="G">Der Stein die Feuerzeichnungen.</quote> (<ref target="gt:dokument#59">GT I 1, 18</ref>.) Einen Tag zuvor hatte Goethe festgehalten: <quote type="G">Nachts Brand in Utenbach</quote> (<ref target="gt:dokument#58">ebd.</ref>). Dem Bericht in der Kirchenbuchchronik zufolge war am 1. Juni 1776 in Utenbach (heute Stadtteil von Apolda) knapp 20 km nordöstlich von Weimar „abends gegen 10 Uhr <gap quantity="3" reason="editorial"/> ein schreckliches und wütendes Feuer“ ausgebrochen, „wodurch innerhalb wenig Stunden 35 Häußer ohne Scheuren und anderen Neben Gebäuden in der Asche da lagen“ (Zitiert nach: <ref target="sndb:sigle#1266/773">Goethes Branderlebnisse</ref>, 89). Goethe hat demnach also in der Wohnung Charlotte von Steins aus dem Gedächtnis seine Eindrücke vom Utenbacher Brand gezeichnet. Im <ref target="sndb:sigle#2147">GNM</ref> sind verschiedene Branddarstellungen aus dem Jahr 1776 überliefert: Die Zeichnung „Brandstätte“ (Bleistift, Tuschfeder, Tuschlavierung; <ref target="sndb:sigle#1248">Corpus</ref> I, 59 f., Nr 142) könnte sowohl mit Bezug zum <quote type="G">Hazfeldischen</quote> (<ref target="gb:text#GB03_1_BR114_0_069_016">69,16</ref>), zu Ilmenau (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR097_0_note_004_59_10">59,10</ref>) oder eben zu Utenbach entstanden sein; unsicher sind die Lokalisierungen von „Dorfbrand im Thüringischen“ (Federzeichnung mit Bister; <ref target="sndb:sigle#1248">Corpus</ref> I, 57 f., Nr 135) und „Brandstätte mit löschender Mannschaft“ (schwarze Kreide, Weißhöhung mit Kreide; <ref target="sndb:sigle#1248">Corpus</ref> VIb, 63, Nr 175).</p>
+
+</note>
+<note xml:id="gb10913_comment_com10149">
+<label xml:id="GB03_2_BR122_0_note_003_72_18" copyOf="#start_com_1149"><hi rendition="#fett">72,18</hi>Beygehendes</label>
+<p>Nicht ermittelt; möglicherweise ein Exemplar von „Erwin und Elmire“ (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR125_0_note_002_74_11">74,11</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

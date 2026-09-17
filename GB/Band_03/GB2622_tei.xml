@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5610"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb2622" n="GB 3, Nr. 548">
+  <teiHeader xml:id="gb2622_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>548.</label> An <persName key="sndb:person#45158">Johanna, geb. Fahlmer Schlosser</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84920">Luzern</placeName>, 16.  November 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb2622_tei.xml</idno>
+        <idno type="URI">gb2622</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR548_0</idno>
+        <idno type="KSW-ID">2622</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="343" to="343">343</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1050" to="1052">1050-1052</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb2622_header_hwit1542" corresp="#gb2622_source_hwit1542" sameAs="#gb2622_comment_hwit1542" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-26321</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/2622,,1542/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>-Da ich in Genf liebe Schwester von Philippen auseinander ging, trug ich ihm auf</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb2622_header_acc372" corresp="gb2622_comment_acc372">
+            <objectIdentifier>
+              <objectName>Reisebericht in einer Abschrift von Philipp Seidel </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb2622_header_acc613" corresp="gb2622_comment_acc613">
+            <objectIdentifier>
+              <objectName>Brief Seidels an Johanna Schlosser </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84920">Luzern</placeName>
+            <date when="1779-11-16">16.  November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Schlosser, Johanna, geb. Fahlmer</persName>
+            <supplied><placeName key="sndb:ort#84812">Emmendingen</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb2622_source_hwit1542" corresp="#gb2622_header_hwit1542" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#2622/20736"/>
+      <opener>
+        <dateline rendition="#einrueck16">
+          <anchor xml:id="GB03_1_BR548_0_343_005"/>Luzern d<g ref="#typoSuspension"/>. 16 Nov. 79.</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR548_0_343_006"/>Da ich <ref target="gb:note#GB03_2_BR548_0_note_001_343_6" xml:id="start_com_4927"/>in Genf<ref xml:id="end_com_4927"/>
+        <ref target="gb:note#GB03_2_BR548_0_note_002_343_6" xml:id="start_com_4928"/>l. Schwester<ref xml:id="end_com_4928"/>
+        <ref target="gb:note#GB03_2_BR548_0_note_003_343_6" xml:id="start_com_4929"/>von Philippen aus einander ging<ref xml:id="end_com_4929"/>, trug ich 
+<anchor xml:id="GB03_1_BR548_0_343_007"/>ihm auf er solle dir abschreiben <ref target="gb:note#GB03_2_BR548_0_note_004_343_7" xml:id="start_com_4930"/>einige Blätter<ref xml:id="end_com_4930"/> die ich von unsrem Seitenweeg 
+<anchor xml:id="GB03_1_BR548_0_343_008"/>auf die Dole pp dicktirt hatte. <ref target="gb:note#GB03_2_BR548_0_note_005_343_8" xml:id="start_com_4931"/>Hier<ref xml:id="end_com_4931"/> find ich’s fertig und noch 
+<anchor xml:id="GB03_1_BR548_0_343_009"/>
+        <ref target="gb:note#GB03_2_BR548_0_note_006_343_9" xml:id="start_com_4932"/>einen Brief von ihm<ref xml:id="end_com_4932"/> in dem er dir eine andre Tour auf seine Weise 
+<anchor xml:id="GB03_1_BR548_0_343_010"/>erzählt. Ich schicke dir’s zusammen Und sage dir nur noch dass wir 
+<anchor xml:id="GB03_1_BR548_0_343_011"/>
+        <ref target="gb:note#GB03_2_BR548_0_note_007_343_11-12" xml:id="start_com_4933"/>von Genv durch die Savoyer Eisberge und Wallis auf den Gotthart 
+<anchor xml:id="GB03_1_BR548_0_343_012"/>dann herab über den 4 Waldstätter See hir glücklich angekommen<ref xml:id="end_com_4933"/>
+        <anchor xml:id="GB03_1_BR548_0_343_013"/>sind. Grüse <ref target="gb:note#GB03_2_BR548_0_note_008_343_13" xml:id="start_com_4934"/>Schlosser und die Mädgen<ref xml:id="end_com_4934"/>. <ref target="gb:note#GB03_2_BR548_0_note_009_343_13" xml:id="start_com_4935"/>Eh ich aus der Schweiz gehe<ref xml:id="end_com_4935"/>
+        <anchor xml:id="GB03_1_BR548_0_343_014"/>
+        <ref target="gb:note#GB03_2_BR548_0_note_010_343_14" xml:id="start_com_4936"/>hörst du noch von mir<ref xml:id="end_com_4936"/>. <ref target="gb:note#GB03_2_BR548_0_note_011_343_14" xml:id="start_com_4937"/>Gezeichnet habe ich keine Linie.<ref xml:id="end_com_4937"/> Adieu! Ich 
+<anchor xml:id="GB03_1_BR548_0_343_015"/>habe nun des grosen fast zu viel. Seit ich euch verlassen habe ist kein 
+<anchor xml:id="GB03_1_BR548_0_343_016"/>unbedeutender überflüssige Schritt geschehen. Lass es uns wohl<ptr n="1" target="#a001_343.16"/> bekommen 
+<anchor xml:id="GB03_1_BR548_0_343_017"/>und Kinderlein |:<ref target="gb:note#GB03_2_BR548_0_note_012_343_17" xml:id="start_com_4938"/>sagt der hei<g ref="#typoSuspension"/>. Johannes<ref xml:id="end_com_4938"/>:| liebt euch!</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR548_0_343_018"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR548_0_343_019"/>Der Herzog lässt Schlossern und Euch schonstens grüsen.</p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#2622/20737" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb2622_comment">
+<body>
+<div type="metadata" xml:id="gb2622_comment_com1080">
+  <ab type="numberAddressee"><label>548.</label> An <persName key="sndb:person#45158">Johanna, geb. Fahlmer Schlosser</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84920">Luzern</placeName>, 16.  November 1779 → <supplied><placeName key="sndb:ort#84812">Emmendingen</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb2622_comment_com3124">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: Hs-26321. – 1 Bl. 18,6 × 25,3 cm, 1 S. beschr., egh., Tinte; Rs. von fremden Händen: „Goethe an seine Schwägerin Johanna Schlosser; geb. Fahlmer“. – Beischluss: Brief von Philipp Seidel an Johanna Schlosser (vgl. zu <ref target="gb:note#GB03_2_BR548_0_note_006_343_9">343,9</ref>). – Faksimile: Stargardt-Katalog 670, Auktion am 7./8. Juli 1998, S. 33, Nr 93.</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 123 f., Nr 49.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 138, Nr 866 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb2622_comment_com3766">
+  <p>1) Reisebericht in einer Abschrift von Philipp Seidel (vgl. zu <ref target="gb:note#GB03_2_BR548_0_note_004_343_7">343,7</ref>).</p>
+  <p>2) Brief Seidels an Johanna Schlosser (vgl. zu <ref target="gb:note#GB03_2_BR548_0_note_006_343_9">343,9</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb2622_comment_com4920">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb2622_comment_com14483">
+<label xml:id="GB03_2_BR548_0_note_001_343_6" copyOf="#start_com_4927"><hi rendition="#fett">343,6</hi>in Genf</label>
+<p>In Genf hatte sich Goethe auf seiner zweiten Schweizer Reise vom 27. Oktober bis 3. November 1779 aufgehalten.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5504">
+<label xml:id="GB03_2_BR548_0_note_002_343_6" copyOf="#start_com_4928"><hi rendition="#fett">343,6</hi>l. Schwester</label>
+<p>Liebe Schwester. – So redete Goethe Johanna Fahlmer nach ihrer Hochzeit mit Johann Georg Schlosser im September 1778 an. Zuvor hatte er sie ‚Tante‘ oder ‚Täntchen‘ genannt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10586_comment_com4208">GB 2 II, Nr 19</ref>).</p>
+
+</note>
+<note xml:id="gb2622_comment_com15932">
+<label xml:id="GB03_2_BR548_0_note_003_343_6" copyOf="#start_com_4929"><hi rendition="#fett">343,6</hi>von Philippen aus einander ging</label>
+<p>Während Goethe am 3. November 1779 mit Herzog Carl August von Genf nach Bonneville und Cluses aufbrach, begaben sich Philipp Seidel, Goethes Sekretär und Reisegefährte, und der Weimarer Oberforstmeister Moritz von Wedel <quote type="G">mit den Pferden durch’s <emph rendition="#latin">paï de vaud</emph> in’s Wallis </quote> (<ref target="gb:text#GB03_1_BR550_0_345_025">345,25</ref>), wie Goethe in seiner Reiseschilderung für Charlotte von Stein vom 17.? November 1779 berichtet.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5505">
+<label xml:id="GB03_2_BR548_0_note_004_343_7" copyOf="#start_com_4930"><hi rendition="#fett">343,7</hi>einige Blätter</label>
+<p>Gemeint ist der von Philipp Seidel nach Goethes Diktat geschriebene Bericht über den Aufstieg auf den Jura-Gipfel La Dôle, den Goethe am 26. Oktober unternommen und in seinem Brief an Charlotte von Stein vom 28. Oktober 1779 beschrieben hatte (vgl. <ref target="gb:text#GB03_1_BR543_0_334_012 #GB03_1_BR543_0_337_024">334,12–337,24</ref>); das mit dem vorliegenden Brief übersandte Exemplar der Abschrift ist nicht überliefert. Eine weitere Abschrift hatte bereits Catharina Elisabeth Goethe erhalten, die den Bericht an die Herzoginmutter Anna Amalia in Weimar weiterschickte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12038_comment_com4369">Nr 543</ref>).</p>
+
+</note>
+<note xml:id="gb2622_comment_com5506">
+<label xml:id="GB03_2_BR548_0_note_005_343_8" copyOf="#start_com_4931"><hi rendition="#fett">343,8</hi>Hier</label>
+<p>In Luzern hielt sich Goethe vom 16. bis 18. November 1779 auf, bevor er noch am 18. November in Zürich eintraf.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5507">
+<label xml:id="GB03_2_BR548_0_note_006_343_9" copyOf="#start_com_4932"><hi rendition="#fett">343,9</hi>einen Brief von ihm</label>
+<p>Der Brief Philipp Seidels an Johanna Schlosser ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb2622_comment_com16404">
+<label xml:id="GB03_2_BR548_0_note_007_343_11-12" copyOf="#start_com_4933"><hi rendition="#fett">343,11-12</hi>von Genv <gap quantity="3" reason="editorial"/> hir glücklich angekommen</label>
+<p>Von Genf aus führte die Reise über Sallanches nach Chamonix. Von dort unternahm Goethe mit seinen Gefährten am 5. November 1779 eine Wanderung ins Mer de Glace, ausführlich beschrieben im Brief <ref target="gb:dokument#12043">Nr 550</ref> an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR550_0_350_003 #GB03_1_BR550_0_351_027">350,3–351,27</ref>). Danach ging es weiter über den Col de Balme nach Martigny und durch das Rhone-Tal nördlich der Walliser Alpen bis Münster, von wo aus am 12. November der Weg über den Rhone-Gletscher und den Furka-Pass nach Realp führte; vgl. Goethes Berichte im Tagebuch (GT I 1, 98 f.) und in den „Briefen aus der Schweiz“ (<ref target="sndb:sigle#1157">WA</ref> I 19, 287–299). Am 13. November hatte Goethe den Sankt Gotthard bestiegen und war am 14./15. November über Andermatt, Göschenen, Amsteg an der Reuss zum Vierwaldstätter See gelangt und von dort am 16. November nach Luzern. – ‚Genv‘: nach franz. Genève.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5508">
+<label xml:id="GB03_2_BR548_0_note_008_343_13" copyOf="#start_com_4934"><hi rendition="#fett">343,13</hi>Schlosser und die Mädgen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR540_0_note_004_320_13-14">320,13-14</ref>.</p>
+
+</note>
+<note xml:id="gb2622_comment_com8724">
+<label xml:id="GB03_2_BR548_0_note_009_343_13" copyOf="#start_com_4935"><hi rendition="#fett">343,13</hi>Eh ich aus der Schweiz gehe</label>
+<p>Am 2. Dezember 1779 brach Goethe von Zürich zur Rückreise aus der Schweiz auf.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5509">
+<label xml:id="GB03_2_BR548_0_note_010_343_14" copyOf="#start_com_4936"><hi rendition="#fett">343,14</hi>hörst du noch von mir</label>
+<p>Ein entsprechender Brief Goethes an Johanna Schlosser ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5510">
+<label xml:id="GB03_2_BR548_0_note_011_343_14" copyOf="#start_com_4937"><hi rendition="#fett">343,14</hi>Gezeichnet habe ich keine Linie.</label>
+<p>Während Goethes zweiter Schweizer Reise entstanden nur wenige Zeichnungen (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_010_295_10-11">295,10-11</ref>). Dagegen hatte Goethe auf der ersten Reise in die Schweiz im Sommer 1775 viel gezeichnet. So sandte er am 7. Juni 1775 von Schaffhausen aus einen Brief an die Adressatin (<ref target="gb:dokument#10592">GB 2 I, Nr 244</ref>), dessen letzte Seite eine Zeichnung enthält (als Faksimile abgebildet in <ref target="gb:digitalisate#10592/62328">GB 2 I, 194</ref>). Zu weiteren Zeichnungen aus der Schweiz vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, Nr 106–131.</p>
+
+</note>
+<note xml:id="gb2622_comment_com5511">
+<label xml:id="GB03_2_BR548_0_note_012_343_17" copyOf="#start_com_4938"><hi rendition="#fett">343,17</hi>sagt der hei<g ref="#typoSuspension"/>. Johannes</label>
+<p>Wie in Brief <ref target="gb:dokument#12029">Nr 538</ref> vermutlich Anspielung auf Johannes 13,34 (vgl. zu <ref target="gb:note#GB03_2_BR538_0_note_036_311_26">311,26</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

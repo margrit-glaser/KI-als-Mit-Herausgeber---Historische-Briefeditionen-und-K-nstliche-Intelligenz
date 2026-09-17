@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1080"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10637" n="GB 3, Nr. 108">
+  <teiHeader xml:id="gb10637_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>108.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 18. Mai 1776, Samstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10637_tei.xml</idno>
+        <idno type="URI">gb10637</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR108_0</idno>
+        <idno type="KSW-ID">10637</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="64" to="64">64</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="246" to="249">246-249</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10637_header_hwit1004" corresp="#gb10637_source_hwit1004" sameAs="#gb10637_comment_hwit1004" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10637,,1004/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier Bruder ein Brief von Mosern. Schreib mir doch einmal. die Schinderey</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10637_header_acc300" corresp="gb10637_comment_acc300">
+            <objectIdentifier>
+              <objectName>Brief von Friedrich Carl von Moser</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-18">18. <supplied>Mai 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-06-18">18. <supplied>Juni 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10637_source_hwit1004" corresp="#gb10637_header_hwit1004" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10637/18411"/>
+      <p>
+        <anchor xml:id="GB03_1_BR108_0_064_001"/>Hier <ref target="gb:note#GB03_2_BR108_0_note_001_64_1" xml:id="start_com_1001"/>Br.<ref xml:id="end_com_1001"/> ein <ref target="gb:note#GB03_2_BR108_0_note_002_64_1" xml:id="start_com_1002"/>Brief von Mosern<ref xml:id="end_com_1002"/>. Schreib mir doch einmal. Die Schinderey 
+<anchor xml:id="GB03_1_BR108_0_064_002"/>wird auch bald zu End gehn – <ref target="gb:note#GB03_2_BR108_0_note_003_64_2-3" xml:id="start_com_1003"/>Es zerrt die Pfaffen verflucht 
+<anchor xml:id="GB03_1_BR108_0_064_003"/>dass das was so lang unter sie vertheilt war, einer allein haben soll.<ref xml:id="end_com_1003"/>
+        <anchor xml:id="GB03_1_BR108_0_064_004"/>Wie geht dirs sonst. Schreib mir doch und <gap reason="damage" unit="chars" quantity="3"/> und <ref target="gb:note#GB03_2_BR108_0_note_004_64_4" xml:id="start_com_1004"/>schier<ref xml:id="end_com_1004"/> und treib 
+<anchor xml:id="GB03_1_BR108_0_064_005"/>mich, denn <ref target="gb:note#GB03_2_BR108_0_note_005_64_5" xml:id="start_com_1005"/>weil deine Sach gewiss ist<ref xml:id="end_com_1005"/>, und also das andre all eins ist, 
+<anchor xml:id="GB03_1_BR108_0_064_006"/>und <ref target="gb:note#GB03_2_BR108_0_note_006_64_6" xml:id="start_com_1006"/>ich nicht pressirt bin dich hier zu sehn<ref xml:id="end_com_1006"/> so lass ich alles laufen. 
+<anchor xml:id="GB03_1_BR108_0_064_007"/>Ade. <ref target="gb:note#GB03_2_BR108_0_note_007_64_7-8" xml:id="start_com_1007"/>Mir ist wie dem zweyten im Konigreich so scheisig als dem ersten<ref xml:id="end_com_1007"/>
+        <anchor xml:id="GB03_1_BR108_0_064_008"/>und die Verantwortun<supplied>g</supplied> dazu, ob ich gleich mich nicht verantworte.
+<anchor xml:id="GB03_1_BR108_0_064_009"/>     G.   d<g ref="#typoSuspension"/> 18.</p>
+    <pb n="2" facs="gb:digitalisate#10637/18412" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10637_comment">
+<body>
+<div type="metadata" xml:id="gb10637_comment_com265">
+  <ab type="numberAddressee"><label>108.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 18. <supplied>Mai 1776</supplied> → <supplied><placeName key="sndb:ort#87434">Bückeburg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10637_comment_com1525">
+  <p>Das fehlende Jahr ergibt sich aus dem Inhalt des Briefes: Es geht um Herders Berufung nach Weimar im Jahr 1776. Der Monat lässt sich ebenfalls nach dem Inhalt erschließen. Klar zu sein scheint, dass der Brief zwischen die Briefe <ref target="gb:dokument#10430">Nr 47</ref> vom 20. Februar oder kurz davor und <ref target="gb:dokument#10725">Nr 138</ref> vom 5. Juli 1776 einzuordnen ist: Im ersteren steht Herders Ernennung noch bevor (vgl. <ref target="gb:text#GB03_1_BR047_0_034_023">34,23</ref>); im letzteren liegt sie bereits zurück, so dass sich Goethe um die Herrichtung von Herders künftiger Amtswohnung kümmern kann. Was die Berufungsverhandlungen angeht, so fiel die endgültige Entscheidung erst am 2. Mai 1776; unter diesem Datum ordnete Herzog Carl August entgegen dem Wunsch des Oberkonsistoriums nach einer vorherigen Probepredigt in einem Reskript an, „die Vocation sofort begreifen zu lassen und solche zur höchsten Vollziehung einzuschicken“ (<ref target="sndb:sigle#2397/618">Peucer</ref>, 60). Die Ernennungsurkunde wurde am 15. Mai 1776 ausgestellt und traf am 12. Juni bei Herder ein (vgl. dessen Brief an Carl Friedrich Ernst von Lyncker vom 15. Juni 1776; <ref target="sndb:sigle#2904">HB</ref> 3, 270). Zur Zeit des vorliegenden Briefes scheint die Ernennung oder doch die Entscheidung des Herzogs erfolgt gewesen zu sein, weshalb Goethe <quote type="G">alles laufen</quote> (<ref target="gb:text#GB03_1_BR108_0_064_006">64,6</ref>) lassen kann. Sie war aber noch nicht in Herders Händen. Zwei in Goethes Rechnungsbüchern verzeichnete, nicht überlieferte Briefe an Herder vom 16. und vom 22. April kommen deswegen hier nicht in Betracht. Noch in einem auf Ende April 1776 datierten Brief an Jacob Michael Reinhold Lenz war Herder so unsicher über den Erfolg seiner Berufungsverhandlungen, dass er schrieb: „Mit dem Zögern in Weimar gehts doch entsetzlich.  <gap quantity="3" reason="editorial"/> Trage Du doch bei, daß das Ding so oder so ausgeht, nur daß was gethan wird.“ (<ref target="sndb:sigle#2904">HB</ref> 3, 264.) Demnach stammt der vorliegende Brief offenbar vom 18. Mai 1776. Im Erstdruck und in der WA wurde dem Brief das Datum vom 18. Juni zugewiesen, allerdings ohne eine Begründung. Wenn Goethe schreibt, dass die <quote type="G">Schinderey</quote> (<ref target="gb:text#GB03_1_BR108_0_064_001 #GB03_1_BR108_0_064_002">64,1–2</ref>) bald ein Ende haben werde und <quote type="G">deine Sach gewiss</quote> (<ref target="gb:text#GB03_1_BR108_0_064_005">64,5</ref>) sei, dann spricht dies gegen den 18. Juni, denn er musste wissen, dass die Urkunde zu diesem Zeitpunkt längst in Bückeburg angekommen und Herder also über die endgültige Entscheidung in dieser Sache unterrichtet war.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10637_comment_com2309">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – 1 Bl. 17,8 × 10,1 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte, flüchtig geschrieben; Vs. am rechten Rand in der Mitte Radierung, teilweise mit Rötel (?) angefüllt, Textverlust (vgl. <ref target="gb:text#GB03_1_BR108_0_064_004">64,4</ref>; <ref target="gb:text#GB03_1_BR108_0_064_008">64,8</ref>), oben links von fremder Hd, Bleistift: „15.“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „20“.</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 60 f., Nr 20.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 75, Nr 476.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10637_comment_com3498">
+  <p>Brief von Friedrich Carl von Moser (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR108_0_note_002_64_1">64,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10637_comment_com4105">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10637_comment_com9647">
+<label xml:id="GB03_2_BR108_0_note_001_64_1" copyOf="#start_com_1001"><hi rendition="#fett">64,1</hi>Br.</label>
+<p>Bruder.</p>
+
+</note>
+<note xml:id="gb10637_comment_com17415">
+<label xml:id="GB03_2_BR108_0_note_002_64_1" copyOf="#start_com_1002"><hi rendition="#fett">64,1</hi>Brief von Mosern</label>
+<p>Vermutlich handelte es sich um den undatierten Brief des hessisch-darmstädtischen Ministers Friedrich Carl von Moser an Herder, der wohl vom Mai 1776 stammt (vgl. <ref target="sndb:sigle#2904">HB</ref> 9, 728) und in der Biblioteka Jagiellonska Kraków (Krakau) aufbewahrt wird; darin wünscht Moser Herder Glück zu dessen Ankunft in Weimar und dankt ihm für den 1. Teil von „Zend-Avesta, Zoroaster’s lebendiges Wort, worin die Lehren und Meinungen dieses Gesetzgebers von Gott, Welt, Natur und Menschen enthalten“ (Riga 1776), die von Herder veranlasste Übersetzung von Abraham Hyacinthe Anquetil-Duperrons „Zend-Avesta“ (3 Bde. Paris 1771) durch Johann Friedrich Kleuker (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10878_comment_com5140">Nr 100</ref>); ferner berichtet Moser, er habe eine Stelle für Matthias Claudius gefunden, der seit dem 16. April 1776 Mitglied der Oberlandkommission in Darmstadt war. (Nach freundlicher Mitteilung von Günter Arnold, Weimar.)</p>
+
+</note>
+<note xml:id="gb10637_comment_com17418">
+<label xml:id="GB03_2_BR108_0_note_003_64_2-3" copyOf="#start_com_1003"><hi rendition="#fett">64,2-3</hi>Es zerrt die Pfaffen <gap quantity="3" reason="editorial"/> haben soll.</label>
+<p>Während der Vakanz der Generalsuperintendentur wurde das Amt durch drei Vertreter des Oberkonsistoriums interimistisch verwaltet: durch die Oberkonsistorialassessoren Johann Sebastian Gottschalg, Christian Wilhelm Schneider und Wilhelm Heinrich Schulze, die sich die Einkünfte teilten. Diese hatten bereits am 20. Februar 1776 in einem Brief an das Oberkonsistorium Beschwerde geführt (Abschrift: <ref target="sndb:sigle#2914">HN</ref>, XXXVII 78). Sie waren enttäuscht darüber, die Hoffnung auf eigene Beförderung aufgeben und auf die vormaligen Zulagen verzichten zu müssen. Sie beklagten sich, einem jüngeren auswärtigen Theologen untergeordnet zu werden, der ihnen an Dienstjahren „gar weit zurückstehet, und also noch keine vorzügliche Erfahrung in Consistorial- und geistlichen Amts-Sachen, welche eigentlich eine nothwendige Eigenschafft eines guten General Superintendentens und gleichsam die Seele seiner Amtsführung ausmacht, noch weniger aber einige Kenntniß des Status ecclesiastici der hiesigen Fürstl. Lande  und der Serenissimo clementissime Regenti zustehenden speciellen Höchsten Episcopal-Rechte erlangt haben kann.“ (Ebd., S. 2 f.) Ohne sich grundsätzlich gegen die herzogliche Entscheidung für Herder auszusprechen, verlangten sie, unter Aufstockung ihres Gehalts zu Oberkonsistorialräten befördert zu werden und ihnen „die Ancienneté und Vorsitz vor dem zukünftigen Generalsuperintendenten Herrn Herder zu ertheilen“ (ebd., S. 6). Die erste Forderung wurde ihnen gewährt; noch vor Herders Amtsantritt erhielten sie ihre Beförderung.</p>
+
+</note>
+<note xml:id="gb10637_comment_com9648">
+<label xml:id="GB03_2_BR108_0_note_004_64_4" copyOf="#start_com_1004"><hi rendition="#fett">64,4</hi>schier</label>
+<p>Von ‚schieren‘: aufhetzen, aufmuntern; nach <ref target="sndb:sigle#2753">Adelung</ref> (3, 1449) „nur in den gemeinen Sprecharten üblich“.</p>
+
+</note>
+<note xml:id="gb10637_comment_com9452">
+<label xml:id="GB03_2_BR108_0_note_005_64_5" copyOf="#start_com_1005"><hi rendition="#fett">64,5</hi>weil deine Sach gewiss ist</label>
+<p>Am 15. Mai 1776 wurde die offizielle Vokationsurkunde ausgestellt (<ref target="sndb:sigle#2914">HN</ref>, XXXVII 82), von Carl Friedrich Ernst von Lyncker mit einem Schreiben vom 24. Mai 1776 (<ref target="sndb:sigle#2914">HN</ref>, XXXVII 83) an Herder geschickt, der sie am 12. Juni entgegennahm und sich am 15. Juni mit Briefen an Lyncker und Herzog Carl August bedankte (vgl. <ref target="sndb:sigle#2904">HB</ref> 3, 270 f.). – Vgl. auch <ref target="gb:note#gb10637_comment_com1525">Datierung</ref>.</p>
+
+</note>
+<note xml:id="gb10637_comment_com9453">
+<label xml:id="GB03_2_BR108_0_note_006_64_6" copyOf="#start_com_1006"><hi rendition="#fett">64,6</hi>ich nicht pressirt bin dich hier zu sehn</label>
+<p>Im Unterschied etwa zum Anfang des Jahres, als Goethe begann, Herders Berufung zu betreiben. Damals war sein Aufenthalt in Weimar nur als Besuch geplant. Im Brief vom 2. Januar 1776 hatte er an Herder geschrieben: <quote type="G">ich muss das stifften eh ich scheide</quote> (<ref target="gb:text#GB03_1_BR012_0_014_003">14,3</ref>). Spätestens Mitte März 1776 jedoch war die Entscheidung gefallen, in Weimar zu bleiben (vgl. zu <ref target="gb:note#GB03_2_BR027_0_note_006_23_14">23,14</ref>).</p>
+
+</note>
+<note xml:id="gb10637_comment_com16297">
+<label xml:id="GB03_2_BR108_0_note_007_64_7-8" copyOf="#start_com_1007"><hi rendition="#fett">64,7-8</hi>Mir ist <gap quantity="3" reason="editorial"/> als dem ersten</label>
+<p>Im Brief an Charlotte von Stein vom 11. Mai? 1776 (<ref target="gb:dokument#10878">Nr 100</ref>) vergleicht Goethe Herzog Carl August und sich selbst mit ‚Radscha‘ (Fürst) und ‚Brahmane‘ (Priester, Gelehrter, Dichter); mit gleichem Bezug könnte hier von ‚Erster‘ und ‚Zweiter‘ die Rede sein. Was Goethes persönliche Situation in der ersten Weimarer Zeit angeht, so stand er damals <quote type="G">unter dem Druck</quote> (<ref target="gb:text#GB03_1_BR106_0_063_008">63,8</ref>) der Schwierigkeiten, die dem Herzog und ihm bereitet wurden beim Versuch, ihn als Mitglied des Geheimen Consiliums zu etablieren und mit Regierungsgeschäften zu betrauen (vgl. zu <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

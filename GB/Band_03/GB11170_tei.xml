@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1660"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11170" n="GB 3, Nr. 164">
+  <teiHeader xml:id="gb11170_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>164.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 1. September <supplied>1776. Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:59Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11170_tei.xml</idno>
+        <idno type="URI">gb11170</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR164_0</idno>
+        <idno type="KSW-ID">11170</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="101" to="102">101-102</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="378" to="380">378-380</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11170_header_hwit1052" corresp="#gb11170_source_hwit1052" sameAs="#gb11170_comment_hwit1052" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 93</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11170,,1052/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wenn das so fortgeht beste Frau werden wir warrlich noch zu lebendigen Schatten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11170_header_acc522" corresp="gb11170_comment_acc522">
+            <objectIdentifier>
+              <objectName>Mineralwasser? </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-09-01">1. September <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11170_source_hwit1052" corresp="#gb11170_header_hwit1052" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11170/22445"/>
+      <p>
+        <anchor xml:id="GB03_1_BR164_0_101_018"/>Wenn das so fortgeht beste Frau werden wir warrlich noch <ref target="gb:note#GB03_2_BR164_0_note_001_101_18-19" xml:id="start_com_1570"/>zu lebendigen 
+<anchor xml:id="GB03_1_BR164_0_101_019"/>Schatten<ref xml:id="end_com_1570"/>. Es ist mir lieb dass wir wieder auf eine <ref target="gb:note#GB03_2_BR164_0_note_002_101_19-20" xml:id="start_com_1571"/>abenteuerliche 
+<anchor xml:id="GB03_1_BR164_0_101_020"/>Wirthschafft<ref xml:id="end_com_1571"/> ziehen, denn ich halts nicht aus. So viel Liebe so viel 
+<anchor xml:id="GB03_1_BR164_0_102_001"/>Theilnehmung! So viel <ref target="gb:note#GB03_2_BR164_0_note_003_102_1" xml:id="start_com_1572"/>treffliche Menschen<ref xml:id="end_com_1572"/> und so viel Herzensdruck. 
+<anchor xml:id="GB03_1_BR164_0_102_002"/>Leben Sie wohl. Lassen Sie Sich die <ref target="gb:note#GB03_2_BR164_0_note_004_102_2" xml:id="start_com_1573"/>Grasaffen<ref xml:id="end_com_1573"/>, besonders die <ref target="gb:note#GB03_2_BR164_0_note_005_102_2" xml:id="start_com_1574"/>Imhof<ref xml:id="end_com_1574"/>
+        <anchor xml:id="GB03_1_BR164_0_102_003"/>was <ref target="gb:note#GB03_2_BR164_0_note_006_102_3" xml:id="start_com_1575"/>vorschäckern<ref xml:id="end_com_1575"/>. Fühlen Sie dass ich an Sie dencke, und dass ich wieder 
+<anchor xml:id="GB03_1_BR164_0_102_004"/>einen <ref target="gb:note#GB03_2_BR164_0_note_007_102_4-5" xml:id="start_com_1576"/>Theil des Weegs reiten werde den ich mit Ihnen gefahren 
+<anchor xml:id="GB03_1_BR164_0_102_005"/>bin<ref xml:id="end_com_1576"/>. <ref target="gb:note#GB03_2_BR164_0_note_008_102_5" xml:id="start_com_1577"/>Steinen<ref xml:id="end_com_1577"/> hab ich das <ref target="gb:note#GB03_2_BR164_0_note_009_102_5" xml:id="start_com_1578"/>Zettelgen<ref xml:id="end_com_1578"/> gegeben. <ref target="gb:note#GB03_2_BR164_0_note_010_102_5" xml:id="start_com_1579"/>Louisen<ref xml:id="end_com_1579"/> nur eine Verbeugung 
+<anchor xml:id="GB03_1_BR164_0_102_006"/>gemacht. Sagen sie Ihr <ref target="gb:note#GB03_2_BR164_0_note_011_102_6" xml:id="start_com_1580"/>dass ich sie noch lieb habe<ref xml:id="end_com_1580"/>! versteht sich 
+<anchor xml:id="GB03_1_BR164_0_102_007"/>in gehörigen <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR164_0_note_012_102_7" xml:id="start_com_1581"/>termes</emph>
+        <ref xml:id="end_com_1581"/>.    Addio. Addio.    d<g ref="#typoSuspension"/>. 1 Sept. Nachts im 
+<anchor xml:id="GB03_1_BR164_0_102_008"/>Garten.                                     G.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR164_0_102_009"/>So offt Sie <ref target="gb:note#GB03_2_BR164_0_note_013_102_9" xml:id="start_com_1582"/>Selzer Wasser<ref xml:id="end_com_1582"/> trincken gedencken Sie an mich!</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11170_comment">
+<body>
+<div type="metadata" xml:id="gb11170_comment_com1270">
+  <ab type="numberAddressee"><label>164.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 1. September <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11170_comment_com1963">
+  <p>Der vorliegende Brief, im Konvolut der Briefe an Charlotte von Stein (Bd I) in das Jahr 1778 eingeordnet, wird seit dem Erstdruck auf den 1. September 1776 datiert. Das Jahr 1776 erschließt sich aus dem Inhalt: Wie der zweite Satz des Briefes (vgl. <ref target="gb:text#GB03_1_BR164_0_101_019 #GB03_1_BR164_0_101_020">101,19–20</ref>) nahelegt, wurde er unmittelbar vor Antritt einer Reise geschrieben. Die im weiteren Verlauf des Briefes gemachte Anspielung auf den gemeinsam zurückgelegten Weg, auf dem Goethe auf der Reise <quote type="G">einen Theil <gap quantity="3" reason="editorial"/> reiten werde</quote> (<ref target="gb:text#GB03_1_BR164_0_102_004">102,4</ref>), verweist auf den Jagdausflug in den Thüringer Wald, zu dem Goethe am 2. September 1776 aufgebrochen ist (vgl. zu <ref target="gb:note#GB03_2_BR164_0_note_002_101_19-20">101,19-20</ref>). Anfang September 1777 und 1778 hingegen hielt sich Goethe in Weimar auf.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11170_comment_com3314">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 93. – 1 Bl. 20,5 × 13,3(–13,7) cm, Büttenrand, teilweise beschnitten, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „45.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 46), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Möglicherweise Beischluss zu <ref target="gb:dokument#35">Nr 165</ref> (vgl. <ref target="gb:text#GB03_1_BR165_0_102_011">102,11</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 56 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 102 f., Nr 505.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11170_comment_com3808">
+  <p>Mineralwasser? (vgl. zu <ref target="gb:note#GB03_2_BR164_0_note_013_102_9">102,9</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11170_comment_com5110">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11170_comment_com10585">
+<label xml:id="GB03_2_BR164_0_note_001_101_18-19" copyOf="#start_com_1570"><hi rendition="#fett">101,18-19</hi>zu lebendigen Schatten</label>
+<p>‚Schatten‘ vielleicht wie im zeitgenössischen Sprachgebrauch üblich als Kurzform von ‚Schattenbildern‘, also Silhouetten. – Möglicherweise eine Anspielung auf den Vorabend, als Goethe nach dem Essen beim Herzog noch <quote type="G">zu. &#x2609;</quote> <supplied>Charlotte von Stein</supplied> gegangen war und <quote type="G">mit ihr und d. Imhof zu Nacht gessen</quote> hatte (<ref target="gt:dokument#133">GT I 1, 24</ref>).</p>
+
+</note>
+<note xml:id="gb11170_comment_com17685">
+<label xml:id="GB03_2_BR164_0_note_002_101_19-20" copyOf="#start_com_1571"><hi rendition="#fett">101,19-20</hi>abenteuerliche Wirthschafft</label>
+<p>Anspielung auf den bevorstehenden Jagdausflug nach Ernstthal im Thüringer Wald. Am frühen Morgen des 2. September brach Goethe mit der herzoglichen Gesellschaft auf, kam mittags in Ilmenau und am Abend in Ernstthal an (vgl. <ref target="gt:dokument#134">GT I 1, 24</ref>). Am 3. September, dem Geburtstag Carl Augusts, fand dort eine große Haupt- und Staatsjagd des Prinzen Joseph Friedrich von Sachsen-Hildburghausen statt (vgl. <ref target="sndb:sigle#3102">Stapff</ref>, 63). – ‚Wirtschaft‘ hier möglicherweise in Anlehnung an die bei Adelung angeführte Bedeutungsvariante: „Lustbarkeit bei Hofe“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577); ‚abenteuerlich‘ hier: vom Gewohnten, Alltäglichen abweichend (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 42).</p>
+
+</note>
+<note xml:id="gb11170_comment_com14242">
+<label xml:id="GB03_2_BR164_0_note_003_102_1" copyOf="#start_com_1572"><hi rendition="#fett">102,1</hi>treffliche Menschen</label>
+<p>In Goethes Tagebuch werden um diese Zeit neben dem Herzog und der Adressatin häufig auch Wieland und dessen Familie erwähnt (vgl. z. B. den Eintrag vom 28. August 1776; <ref target="gt:dokument#130">GT I 1, 24</ref>), ebenso Einsiedel, Johann August von Kalb und dessen Vater Carl Alexander sowie Emilie von Werthern-Beichlingen und Charlotte von Steins Schwester Louise von Imhoff.</p>
+
+</note>
+<note xml:id="gb11170_comment_com10597">
+<label xml:id="GB03_2_BR164_0_note_004_102_2" copyOf="#start_com_1573"><hi rendition="#fett">102,2</hi>Grasaffen</label>
+<p>Hier wohl die Söhne Charlotte von Steins und andere im Haus anwesende Kinder (zu Herkunft und Verwendung des Begriffs vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>).</p>
+
+</note>
+<note xml:id="gb11170_comment_com15140">
+<label xml:id="GB03_2_BR164_0_note_005_102_2" copyOf="#start_com_1574"><hi rendition="#fett">102,2</hi>Imhof</label>
+<p>Louise von Imhoff, die sich schon seit Mitte Juni in Weimar aufhielt, war am 16. August von ihrer ersten Tochter entbunden worden (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>).</p>
+
+</note>
+<note xml:id="gb11170_comment_com15835">
+<label xml:id="GB03_2_BR164_0_note_006_102_3" copyOf="#start_com_1575"><hi rendition="#fett">102,3</hi>vorschäckern</label>
+<p>Vorschäkern: „vor jemandem scherzen, tändeln“ (<ref target="sndb:sigle#2890">Grimm</ref> 12 II, 1449); wahrscheinlich Gelegenheitsbildung Goethes (bei Grimm vorliegende Stelle als einziger Beleg aufgeführt).</p>
+
+</note>
+<note xml:id="gb11170_comment_com10598">
+<label xml:id="GB03_2_BR164_0_note_007_102_4-5" copyOf="#start_com_1576"><hi rendition="#fett">102,4-5</hi>Theil des Weegs <gap quantity="3" reason="editorial"/> gefahren bin</label>
+<p>Auf ihrer Rückreise von Pyrmont hatte Charlotte von Stein Goethe am 5. und 6. August 1776 in Ilmenau besucht (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_001_92_7">92,7</ref>; zu <ref target="gb:note#GB03_2_BR150_0_note_008_92_24">92,24</ref>).</p>
+
+</note>
+<note xml:id="gb11170_comment_com15141">
+<label xml:id="GB03_2_BR164_0_note_008_102_5" copyOf="#start_com_1577"><hi rendition="#fett">102,5</hi>Steinen</label>
+<p>Josias von Stein.</p>
+
+</note>
+<note xml:id="gb11170_comment_com10599">
+<label xml:id="GB03_2_BR164_0_note_009_102_5" copyOf="#start_com_1578"><hi rendition="#fett">102,5</hi>Zettelgen</label>
+<p>Nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11170_comment_com14243">
+<label xml:id="GB03_2_BR164_0_note_010_102_5" copyOf="#start_com_1579"><hi rendition="#fett">102,5</hi>Louisen</label>
+<p>Herzogin Louise von Sachsen-Weimar und Eisenanch.</p>
+
+</note>
+<note xml:id="gb11170_comment_com10600">
+<label xml:id="GB03_2_BR164_0_note_011_102_6" copyOf="#start_com_1580"><hi rendition="#fett">102,6</hi>dass ich sie noch lieb habe</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR034_0_026_018 #GB03_1_BR034_0_026_019">26,18–19</ref>; zu <ref target="gb:note#GB03_2_BR035_0_note_005_27_4-5">27,4-5</ref>.</p>
+
+</note>
+<note xml:id="gb11170_comment_com10601">
+<label xml:id="GB03_2_BR164_0_note_012_102_7" copyOf="#start_com_1581"><hi rendition="#fett">102,7</hi><emph rendition="#latin">termes</emph></label>
+<p>Franz. terme: Ausdruck, Wort.</p>
+
+</note>
+<note xml:id="gb11170_comment_com13666">
+<label xml:id="GB03_2_BR164_0_note_013_102_9" copyOf="#start_com_1582"><hi rendition="#fett">102,9</hi>Selzer Wasser</label>
+<p>Möglicherweise mit dem vorliegenden Brief als Geschenk an Charlotte von Stein geschickt. – Das Mineralwasser aus dem Selzer-Brunnen in Karben am Taunusrand in der Nähe Frankfurts wurde schon seit Beginn des 18. Jahrhunders vor allem in und um Frankfurt vertrieben (vgl. <ref target="gb:note#GB02_2_BR249_0_note_018_199_27">GB 2 II, zu 199,27</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

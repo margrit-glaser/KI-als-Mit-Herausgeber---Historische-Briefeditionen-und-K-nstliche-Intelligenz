@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5650"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10802" n="GB 3, Nr. 551">
+  <teiHeader xml:id="gb10802_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>551.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79740">Zürich</placeName>, 29. November 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:46Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10802_tei.xml</idno>
+        <idno type="URI">gb10802</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR551_0</idno>
+        <idno type="KSW-ID">10802</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="354" to="355">354-355</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1062" to="1062">1062</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10802_header_hwit1545" corresp="#gb10802_source_hwit1545" sameAs="#gb10802_comment_hwit1545" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>6 Bertuch</collection>
+            <idno type="shelfmark">GSA 6/628</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:220965</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10802,,1545/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Der Herzog trägt mir auf 12 Rahmen zu bestellen. 6 von der Gröse wie beyliegender Faden</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10802_header_acc523" corresp="gb10802_comment_acc523">
+            <objectIdentifier>
+              <objectName><quote type="G">Faden</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+            <date when="1779-11-29">29. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43118">Bertuch, Friedrich Justin</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10802_source_hwit1545" corresp="#gb10802_header_hwit1545" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10802/25702"/>
+      <p>
+        <anchor xml:id="GB03_1_BR551_0_354_026"/>Der Herzog trägt mir auf 12 Rahmen zu bestellen. 6 von der Gröse 
+<anchor xml:id="GB03_1_BR551_0_354_027"/>wie beyliegender Faden anzeigt, und 6 etwa die Hälfte. Sie sollen für 
+<anchor xml:id="GB03_1_BR551_0_354_028"/>die <ref target="gb:note#GB03_2_BR551_0_note_001_354_28" xml:id="start_com_5038"/>Zeichen Ackademie<ref xml:id="end_com_5038"/>, also nur von weichem braungebeiztem Holz 
+<anchor xml:id="GB03_1_BR551_0_354_029"/>ganz glatt, und Gläser darein. Wir bringen sehr schöne Zeichnungen 
+<anchor xml:id="GB03_1_BR551_0_355_001"/>mit die <ref target="gb:note#GB03_2_BR551_0_note_002_355_1" xml:id="start_com_5039"/>Krausen<ref xml:id="end_com_5039"/> freuen und dem Institut ein neues<ptr n="1" target="#a001_355.1"/> Leben geben werden. 
+<anchor xml:id="GB03_1_BR551_0_355_002"/>Am besten wird seyn du siehst erst zu was für Gläser da sind, dass 
+<anchor xml:id="GB03_1_BR551_0_355_003"/>wenn sie etwa um ein Theil gröser wären dass man auch statt sie zu 
+<anchor xml:id="GB03_1_BR551_0_355_004"/>verschneiden die Rhamen grosser machte denn es ist immer besser, 
+<anchor xml:id="GB03_1_BR551_0_355_005"/>weil man doch mit <pb n="2" facs="gb:digitalisate#10802/25701"/> Zeichnungen wechselt. Mache dass Sie fertig 
+<anchor xml:id="GB03_1_BR551_0_355_006"/>werden <ref target="gb:note#GB03_2_BR551_0_note_003_355_6" xml:id="start_com_5040"/>eh der Herzog zurückkommt<ref xml:id="end_com_5040"/>, und<ptr n="2" target="#a002_355.6"/> übergieb sie Krausen, dass 
+<anchor xml:id="GB03_1_BR551_0_355_007"/>man gleich etwas aufstellen könne.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR551_0_355_008"/>Der Herzog und <ref target="gb:note#GB03_2_BR551_0_note_004_355_8" xml:id="start_com_5041"/>wir beyde<ref xml:id="end_com_5041"/> sind sehr wohl und wünschen euch alles 
+<anchor xml:id="GB03_1_BR551_0_355_009"/>gute, hoffen euch gesund und vergnügt anzutreffen.</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR551_0_355_010"/>Zürch d<g ref="#typoSuspension"/>. 29 Nov. 79           </dateline>
+        <signed rend="signature">Goethe</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10802_comment">
+<body>
+<div type="metadata" xml:id="gb10802_comment_com966">
+  <ab type="numberAddressee"><label>551.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79740">Zürich</placeName>, 29. November 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10802_comment_com3010">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#220965">GSA 6/628</ref>. – 1 Bl. 12,8 × 9,2 cm, Bordüre aus zwei Balken, an den Ecken und jeweils in der Mitte umwunden von einer Rocaille (ähnlich wie <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), 2 S. beschr., egh., Tinte; S. 1 über dem Brieftext: <quote type="G">H<g ref="#typoSuspension"/>. R. Bertuch.</quote></p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> IV (1883), 200, Nr 4 (Ludwig Geiger).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 140–141, Nr 869.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10802_comment_com3728">
+  <p><quote type="G">Faden</quote> (<ref target="gb:text#GB03_1_BR551_0_354_027">354,27</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10802_comment_com4806">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10802_comment_com17534">
+<label xml:id="GB03_2_BR551_0_note_001_354_28" copyOf="#start_com_5038"><hi rendition="#fett">354,28</hi>Zeichen Ackademie</label>
+<p>Die Ende 1775 auf Anregung Bertuchs gegründete, vom Herzog finanzierte und von Goethe geförderte „Fürstliche Freye Zeichenschule“, die zunächst im Fürstenhaus (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_001_26_8">26,8</ref>), 1781 im Roten Schloss (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_024_83_2">83,2</ref>) untergebracht war. Sie sollte nach Ansicht ihres Gründers zur Vervollkommnung von Künstlern und Handwerkern in der Region und zur allgemeinen Hebung des Geschmacks dienen. – Im Anschluss dürfte das Verb ‚sein‘ fehlen.</p>
+
+</note>
+<note xml:id="gb10802_comment_com9962">
+<label xml:id="GB03_2_BR551_0_note_002_355_1" copyOf="#start_com_5039"><hi rendition="#fett">355,1</hi>Krausen</label>
+<p>Der Frankfurter Maler, Zeichner und Radierer Georg Melchior Kraus, seit Oktober 1775 Zeichenmeister Carl Augusts, war Direktor der Zeichenschule.</p>
+
+</note>
+<note xml:id="gb10802_comment_com9963">
+<label xml:id="GB03_2_BR551_0_note_003_355_6" copyOf="#start_com_5040"><hi rendition="#fett">355,6</hi>eh der Herzog zurückkommt</label>
+<p>Die Reisegesellschaft traf am 14. Januar 1780 wieder in Weimar ein.</p>
+
+</note>
+<note xml:id="gb10802_comment_com14150">
+<label xml:id="GB03_2_BR551_0_note_004_355_8" copyOf="#start_com_5041"><hi rendition="#fett">355,8</hi>wir beyde</label>
+<p>Gemeint sein könnte neben dem Absender der Kammerherr Otto Joachim Moritz von Wedel oder – wahrscheinlicher – Goethes Diener Philipp Seidel, die zur Reisegesellschaft gehörten.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

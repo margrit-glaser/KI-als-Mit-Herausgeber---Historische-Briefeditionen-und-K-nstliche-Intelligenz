@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="550"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10691" n="GB 3, Nr. 55">
+  <teiHeader xml:id="gb10691_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>55.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 6. März <supplied>1776. Mittwoch</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:49Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10691_tei.xml</idno>
+        <idno type="URI">gb10691</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR055_0</idno>
+        <idno type="KSW-ID">10691</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="40" to="40">40</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="161" to="162">161-162</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10691_header_hwit893" corresp="#gb10691_source_hwit893" sameAs="#gb10691_comment_hwit893" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10691,,893/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante. Schreibt mir und liebt mich. Sorgt nicht für mir. Ich fresse mich überall durch</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-03-06">6. März <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10691_source_hwit893" corresp="#gb10691_header_hwit893" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10691/62343"/>
+      <p>
+        <anchor xml:id="GB03_1_BR055_0_040_001"/>Liebe Tante. Schreibt mir und liebt mich. Sorgt nicht für mir. Ich 
+<anchor xml:id="GB03_1_BR055_0_040_002"/>fresse mich überall durch wie <ref target="gb:note#GB03_2_BR055_0_note_001_40_2" xml:id="start_com_0617"/>die <hi rendition="#hervor1">Schmirmer</hi>
+        <ref xml:id="end_com_0617"/> sagt. Jezt bitt ich 
+<anchor xml:id="GB03_1_BR055_0_040_003"/>euch beruhigt euch <hi rendition="#hervor1">ein vor allemal</hi>, der Vater mag <ref target="gb:note#GB03_2_BR055_0_note_002_40_3" xml:id="start_com_0618"/>kochen<ref xml:id="end_com_0618"/> was er 
+<anchor xml:id="GB03_1_BR055_0_040_004"/>will ich kann nicht immer <hi rendition="#hervor1">darauf</hi> antworten<ptr n="1" target="#a001_40.4"/> nicht immer <hi rendition="#hervor2">die</hi> Grillen 
+<anchor xml:id="GB03_1_BR055_0_040_005"/>zurecht legen. So viel ists. <ref target="gb:note#GB03_2_BR055_0_note_003_40_5" xml:id="start_com_0619"/>Ich bleibe hier<ref xml:id="end_com_0619"/>, hab <ref target="gb:note#GB03_2_BR055_0_note_004_40_5-6" xml:id="start_com_0620"/>ein schön Logis 
+<anchor xml:id="GB03_1_BR055_0_040_006"/>gemieth<ref xml:id="end_com_0620"/>, aber <ref target="gb:note#GB03_2_BR055_0_note_005_40_6-7" xml:id="start_com_0621"/>der Vater ist mir <hi rendition="#hervor2">Ausstattung</hi> und <hi rendition="#hervor1">Mitgift 
+<anchor xml:id="GB03_1_BR055_0_040_007"/>
+          <hi rendition="#hervor2">schuldig</hi>
+        </hi>
+        <ref xml:id="end_com_0621"/> das mag die Mutter nach ihrer Art einleiten sie soll nur 
+<anchor xml:id="GB03_1_BR055_0_040_008"/>kein <hi rendition="#hervor2">Kind</hi> seyn, da ich <hi rendition="#hervor1">Bruder</hi> und <hi rendition="#hervor1">alles</hi> eines Fürsten bin. Der 
+<anchor xml:id="GB03_1_BR055_0_040_009"/>
+        <ref target="gb:note#GB03_2_BR055_0_note_006_40_9" xml:id="start_com_0622"/>H.<ref xml:id="end_com_0622"/> hat mir <ref target="gb:note#GB03_2_BR055_0_note_007_40_9" xml:id="start_com_0623"/>wieder 100 Dukaten geschenckt<ref xml:id="end_com_0623"/>. <hi rendition="#hervor1">Gegeben</hi> <pb n="2" facs="gb:digitalisate#10691/62344"/> Wie ihr 
+<anchor xml:id="GB03_1_BR055_0_040_010"/>wollt – ich bin ihm was ich ihm seyn kann, er mir was er seyn kann — 
+<anchor xml:id="GB03_1_BR055_0_040_011"/>das mag nun fort gehn wie und so lang das kann. Ich bin noch <ref target="gb:note#GB03_2_BR055_0_note_008_40_11-12" xml:id="start_com_0624"/>allerley 
+<anchor xml:id="GB03_1_BR055_0_040_012"/>Leuten<ref xml:id="end_com_0624"/> schuldig das thut mir nichts – Aber die Mutter soll nur ihre 
+<anchor xml:id="GB03_1_BR055_0_040_013"/>Schuldigkeit thun, und sehn was auf den Vater <hi rendition="#hervor1">möglich</hi> ist ohne sie 
+<anchor xml:id="GB03_1_BR055_0_040_014"/>zu plagen! – Wenn sie allenfalls Geld braucht und kanns vom Vater 
+<anchor xml:id="GB03_1_BR055_0_040_015"/>nicht haben; so will ichs ihr schicken     G.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR055_0_040_016"/>d<g ref="#typoSuspension"/>. 6. Merz.</dateline>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR055_0_040_017"/>Das Geld für <ref target="gb:note#GB03_2_BR055_0_note_009_40_17" xml:id="start_com_0625"/>die Federn<ref xml:id="end_com_0625"/> schick ich nächstens.<ptr n="2" target="#a002_40.17"/>
+        </p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10691_comment">
+<body>
+<div type="metadata" xml:id="gb10691_comment_com359">
+  <ab type="numberAddressee"><label>55.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 6. März <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10691_comment_com1552">
+  <p>Das fehlende Jahr ergibt sich aus dem Inhalt des Briefes sowie aus dem Vermerk der Postsendung in Goethes Rechnungsbüchern.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10691_comment_com2403">
+  <p>H: Privatbesitz, Deutschland. – 1 Bl. 11 × 17,5 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 2 S. beschr., egh., Tinte, Text auf Rs. flüchtig geschrieben; Vs. unten rechts und Rs. oben links am Rand jeweils egh., Tinte: #; Vs. oben links von Johanna Fahlmers Hd, Tinte: „N<hi rendition="#sup #u">&#xA0;r</hi> 5“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), in der Mitte von fremder Hd, Bleistift: „42“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 109 f., Nr 42.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 37 f., Nr 413 (nach E; Textkorrekturen nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10691_comment_com4199">
+  <p>Ein Bezugsbrief ist nicht bekannt. Aus der Nachschrift des vorliegenden Briefes geht hervor, dass Johanna Fahlmer die im Brief vom 14. Februar 1776 (<ref target="gb:dokument#10607">Nr 43</ref>) erbetenen Schmuckfedern übersandt hatte. Ein Begleitbrief ist nicht überliefert. Goethes Aufforderung, die Eltern möchten sich über sein dauerhaftes Engagement in Weimar beruhigen, könnte sich auf entsprechende Nachrichten aus Frankfurt beziehen. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 8. März 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 7r).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10691_comment_com9675">
+<label xml:id="GB03_2_BR055_0_note_001_40_2" copyOf="#start_com_0617"><hi rendition="#fett">40,2</hi>die <hi rendition="#hervor1">Schmirmer</hi></label>
+<p>Bisher wurde irrig „der Schwärmer“ (vgl. E und <ref target="sndb:sigle#1157">WA</ref>) oder „der Schmirmer“ (vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> II 2, 26) gelesen. Es handelt sich jedoch um Sarah Katharina Schirmer geb. Dünckel, von Goethe auch Schmirmer genannt: <quote type="G">Hernach bey Frau Schmirmer und Jaquet.</quote> (Tagebuch unter dem 14. August 1797; <ref target="gt:dokument#1770">GT II 1, 128</ref> und 140.) Sie war die Frau des Schul-, Schreib- und Rechenmeisters Johann Georg (Michael) Schirmer in Frankfurt, Verfassers verschiedener Schulbücher wie „Geöfnete Schreib-Schule“ (Frankfurt a. M. um 1760) und „Selbstlehrende Algebra“ (5 Bde. Frankfurt a. M. 1779–1782). Der Name ‚Schmirmer‘ findet sich nur im vorliegenden Brief und an der zitierten Tagebuch-Stelle. Über Goethes Bekanntschaft mit dem Ehepaar Schirmer ließ sich nichts Näheres ermitteln.</p>
+
+</note>
+<note xml:id="gb10691_comment_com9690">
+<label xml:id="GB03_2_BR055_0_note_002_40_3" copyOf="#start_com_0618"><hi rendition="#fett">40,3</hi>kochen</label>
+<p>Hier im übertragenen Sinn von ‚jemandem etwas zubereiten‘, ‚verfügen‘, ‚machen‘, ‚verfahren‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11, 1557).</p>
+
+</note>
+<note xml:id="gb10691_comment_com17426">
+<label xml:id="GB03_2_BR055_0_note_003_40_5" copyOf="#start_com_0619"><hi rendition="#fett">40,5</hi>Ich bleibe hier</label>
+<p>Diesen Entschluss hatte Goethe bereits im Brief an Johanna Fahlmer vom 19. Februar 1776 mitgeteilt (vgl. <ref target="gb:text#GB03_1_BR046_0_032_013">32,13</ref>). Dass er sich hier wiederholt, könnte mit Einwänden der Eltern zusammenhängen. Einige Tage nach der Niederschrift des vorliegenden Briefes, am 16. März 1776, wandte sich Johann August von Kalb mit einem Brief an Goethes Eltern (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>), in dem er von der Ernennung ihres Sohnes zum Geheimen Legationsrat berichtet und hinzufügt: „Machen Sie ich beschwöre Sie darum, daß Glück Ihrer Söhne dadurch vollkommen, daß Sie Ihren Handlungen Ihrem Beifall geben.“</p>
+
+</note>
+<note xml:id="gb10691_comment_com9691">
+<label xml:id="GB03_2_BR055_0_note_004_40_5-6" copyOf="#start_com_0620"><hi rendition="#fett">40,5-6</hi>ein schön Logis gemieth</label>
+<p>Goethe hatte vier Monate lang im Haus des Kammerpräsidenten Carl Alexander von Kalb gewohnt. Über seine weiteren Wohungen vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>.</p>
+
+</note>
+<note xml:id="gb10691_comment_com9692">
+<label xml:id="GB03_2_BR055_0_note_005_40_6-7" copyOf="#start_com_0621"><hi rendition="#fett">40,6-7</hi>der Vater ist mir <gap quantity="3" reason="editorial"/> <hi rendition="#hervor2">schuldig</hi></label>
+<p>Johann Caspar Goethe unterstützte seinen Sohn nur in bescheidenem Umfang, nicht zuletzt, weil er zum damaligen Zeitpunkt dem Eintritt Goethes in den weimarischen Fürstendienst kritisch gegenüberstand (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb10691_comment_com9693">
+<label xml:id="GB03_2_BR055_0_note_006_40_9" copyOf="#start_com_0622"><hi rendition="#fett">40,9</hi>H.</label>
+<p>Herzog.</p>
+
+</note>
+<note xml:id="gb10691_comment_com17427">
+<label xml:id="GB03_2_BR055_0_note_007_40_9" copyOf="#start_com_0623"><hi rendition="#fett">40,9</hi>wieder 100 Dukaten geschenckt</label>
+<p>Die finanzielle Unterstützung durch den Herzog in den ersten Monaten nach Goethes Ankunft in Weimar entsprang dem Wunsch Carl Augusts, ihn langfristig an das Herzogtum zu binden. Diesem Zweck diente auch, dass der Herzog Goethe im April 1776 das für 600 Taler erworbene Haus an den Ilmhängen schenkte und dieses für etwa die gleiche Summe renovieren und möblieren ließ (vgl. <ref target="gb:text#GB03_1_BR062_0_043_006 #GB03_1_BR062_0_043_008">43,6–8</ref>).</p>
+
+</note>
+<note xml:id="gb10691_comment_com17481">
+<label xml:id="GB03_2_BR055_0_note_008_40_11-12" copyOf="#start_com_0624"><hi rendition="#fett">40,11-12</hi>allerley Leuten</label>
+<p>Darunter Johann Heinrich Merck (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>), Charlotte von Stein (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR140_0_note_016_82_22">82,22</ref>) und Friedrich Heinrich Jacobi; Letzterer gewährte ihm offenbar ein Darlehen, wie aus Goethes Brief an Jacobi vom 2. Oktober 1782 hervorgeht. Dort spricht Goethe von einer <quote type="G">Schuld <gap quantity="3" reason="editorial"/>, in der ich noch bey dir stehe.</quote> Weiter heißt es: <quote type="G">Du halfst mir damals aus einer großen Verlegenheit und ich will es nicht entschuldigen daß ich der Sache so lang nicht erwähnte. Bald hatte ich die Summe nicht beysammen, bald vergaß, bald vernachlässigte ich es</quote> (<ref target="gb:text#GB05_1_BR241_0_150_015 #GB05_1_BR241_0_150_018">GB 5 I, 150,15-18</ref>). Näheres konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10691_comment_com9706">
+<label xml:id="GB03_2_BR055_0_note_009_40_17" copyOf="#start_com_0625"><hi rendition="#fett">40,17</hi>die Federn</label>
+<p>Goethe hatte um Schmuckfedern für weiblichen Kopfputz gebeten (vgl. <ref target="gb:text#GB03_1_BR043_0_031_027 #GB03_1_BR043_0_031_028">31,27–28</ref>). Wann er das Geld übersandte, ist nicht bekannt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

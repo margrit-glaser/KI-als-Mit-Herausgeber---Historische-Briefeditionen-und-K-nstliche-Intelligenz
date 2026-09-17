@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1480"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10666" n="GB 3, Nr. 146">
+  <teiHeader xml:id="gb10666_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>146.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78160">Ilmenau</placeName>, 24. Juli 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:59Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10666_tei.xml</idno>
+        <idno type="URI">gb10666</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR146_0</idno>
+        <idno type="KSW-ID">10666</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="90" to="90">90</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="342" to="346">342-346</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10666_header_hwit1025" corresp="#gb10666_source_hwit1025" sameAs="#gb10666_comment_hwit1025" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/331,I</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8383</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10666,,1025/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>-Wir sind hier und wollen sehn, ob wir das alte Berkwerk wieder in Bewegung setzen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78160">Ilmenau</placeName>
+            <date when="1776-07-24">24. Juli 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10666_source_hwit1025" corresp="#gb10666_header_hwit1025" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10666/12142"/>
+      <p>
+        <anchor xml:id="GB03_1_BR146_0_090_001"/>Ilmenau d<g ref="#typoSuspension"/>. 24 Jul. 76 <ref target="gb:note#GB03_2_BR146_0_note_001_90_1-2" xml:id="start_com_1400"/>Wir sind hier und wollen sehn ob wir das alte 
+<anchor xml:id="GB03_1_BR146_0_090_002"/>Bergwerck wieder in Bewegung sezzen<ref xml:id="end_com_1400"/>, du kannst dencken wie ich 
+<anchor xml:id="GB03_1_BR146_0_090_003"/>mich <ref target="gb:note#GB03_2_BR146_0_note_002_90_3" xml:id="start_com_1401"/>auf dem Thüringer Wald herum zeichne<ref xml:id="end_com_1401"/>, der Herzog <ref target="gb:note#GB03_2_BR146_0_note_003_90_3-4" xml:id="start_com_1402"/>geht auf 
+<anchor xml:id="GB03_1_BR146_0_090_004"/>Hirsche<ref xml:id="end_com_1402"/> ich auf Landschafften aus, und selbst zur Jagd führ ich mein 
+<anchor xml:id="GB03_1_BR146_0_090_005"/>
+        <ref target="gb:note#GB03_2_BR146_0_note_004_90_5" xml:id="start_com_1403"/>Portefeuille<ref xml:id="end_com_1403"/> mit. Geht aber auch bald<ptr n="1" target="#a001_90.5"/> wie sich’s gehört. <ref target="gb:note#GB03_2_BR146_0_note_005_90_5-6" xml:id="start_com_1404"/>Lass den Wein 
+<anchor xml:id="GB03_1_BR146_0_090_006"/>nur liegen biss zur rechten Zeit und schick den Rest auch mit.<ref xml:id="end_com_1404"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR146_0_090_007"/>Denck doch an ein Stück hübschen<ptr n="2" target="#a002_90.7"/> Tischwein, einen sechziger etwa, 
+<anchor xml:id="GB03_1_BR146_0_090_008"/>eine mittelsorte. Wenn wir auf dem Land sind führen wir die 
+<anchor xml:id="GB03_1_BR146_0_090_009"/>
+        <ref target="gb:note#GB03_2_BR146_0_note_006_90_9" xml:id="start_com_1405"/>Wirthschafft<ref xml:id="end_com_1405"/> selbst, und befinden uns besser dabey. Hab mich immer 
+<anchor xml:id="GB03_1_BR146_0_090_010"/>lieb, glaub dass ich mir immer gleich bin, <ref target="gb:note#GB03_2_BR146_0_note_007_90_10-11" xml:id="start_com_1406"/>freylich hab ich was auszustehen 
+<anchor xml:id="GB03_1_BR146_0_090_011"/>gehabt<ref xml:id="end_com_1406"/>, dadurch bin ich nun ganz in mich gekehrt. <ref target="gb:note#GB03_2_BR146_0_note_008_90_11-12" xml:id="start_com_1407"/>Der Herzog 
+<anchor xml:id="GB03_1_BR146_0_090_012"/>ist eben so, daran denn die <hi rendition="#hervor1">Welt</hi> freylich keine Freude erlebt<ref xml:id="end_com_1407"/>, wir 
+<anchor xml:id="GB03_1_BR146_0_090_013"/>halten zusammen und gehn unsern eignen Weeg, stosen so freylich 
+<anchor xml:id="GB03_1_BR146_0_090_014"/>allen schlimmen mittelmäsigen und guten fürn Kopf, werden aber 
+<anchor xml:id="GB03_1_BR146_0_090_015"/>doch hindurch dringen, denn die Götter sind sichtbaar mit uns. Addio. 
+<anchor xml:id="GB03_1_BR146_0_090_016"/>grüs <ref target="gb:note#GB03_2_BR146_0_note_009_90_16" xml:id="start_com_1408"/>die Mutter<ref xml:id="end_com_1408"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR146_0_090_017"/>
+        <ref target="gb:note#GB03_2_BR146_0_note_010_90_17-18" xml:id="start_com_1409"/>Lenz ward endlich gar lieb und gut in unserm Wesen, sizzt iezt in 
+<anchor xml:id="GB03_1_BR146_0_090_018"/>Wäldern und Bergen allein<ref xml:id="end_com_1409"/>, so glücklich als er seyn Kan. <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19" xml:id="start_com_1410"/>Klinger kann 
+<anchor xml:id="GB03_1_BR146_0_090_019"/>nicht mit mir wandeln<ref xml:id="end_com_1410"/>, er drückt mich, ich habs ihm gesagt<ptr n="3" target="#a003_90.19"/>, darüber 
+<anchor xml:id="GB03_1_BR146_0_090_020"/>er ausser sich war und’s nicht verstund und ich’s nicht erklären konnte 
+<anchor xml:id="GB03_1_BR146_0_090_021"/>noch mochte.</p>
+    <pb n="2" facs="gb:digitalisate#10666/12143" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10666/12144" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10666/12145"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10666_comment">
+<body>
+<div type="metadata" xml:id="gb10666_comment_com1262">
+  <ab type="numberAddressee"><label>146.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78160">Ilmenau</placeName>, 24. Juli 1776 → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10666_comment_com3306">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8383">GSA 29/331,I</ref>. – Doppelblatt 17,2 × 20,9 cm, 1 S. beschr., egh., Tinte; S. 4 rotes Initialsiegel: „G“, darunter Adresse: <quote type="G">Herrn Kriegsrath / Merck / nach / Darmstadt / fr.</quote> – Faksimile: Johann Heinrich Mercks Schriften und Briefwechsel. In Auswahl hrsg. von Kurt Wolff. Bd 2. Leipzig 1909, zwischen S. 80 und 81; Faksimile der Adresse: Stargardt-Katalog 548, Auktion vom 17. Mai 1960, S. 19, Nr 69.</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 94, Nr 37.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 90–91, Nr 489 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10666_comment_com5102">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10666_comment_com9734">
+<label xml:id="GB03_2_BR146_0_note_001_90_1-2" copyOf="#start_com_1400"><hi rendition="#fett">90,1-2</hi>Wir sind hier <gap quantity="3" reason="editorial"/> in Bewegung sezzen</label>
+<p>In Ilmenau und Umgebung war bis 1739 Kupferschiefer mit Anteilen von Silber abgebaut worden. Nach einem Dammbruch, der den Wasserantrieb für die Grundwasserpumpen lahmlegte und zum Anstieg des Grundwassers führte, war die Förderung eingestellt worden. Um die finanzielle Lage des Herzogtums zu verbessern, wurde nicht nur über eine Steuerreform nachgedacht (vgl. zu <ref target="gb:note#GB03_2_BR251_0_note_002_141_16-18">141,16-18</ref>), sondern auch über eine Belebung der Wirtschaft. In diesem Zusammenhang steht der Plan zur Wiederaufnahme des Bergbaus in Ilmenau. Bereits vom 3. bis 10. Mai 1776 hatte Goethe eine Erkundungsreise im Auftrag von Herzog Carl August nach Ilmenau geführt. In der ersten Sitzung des Geheimen Consiliums, an der Goethe teilnahm, wurde am 25. Juni 1776 die Instruktion für den sächsischen Bergbauexperten Friedrich Wilhelm Heinrich von Trebra verhandelt. Dieser äußerte sich zu den Erfolgsaussichten optimistisch. Goethes zweiter Aufenthalt im Thüringer Wald vom 18. Juli bis zum 14. August 1776 diente Gesprächen und Beratungen mit dem Herzog, Trebra und anderen Fachleuten, dem Freiberger Bergbauingenieur Johann Friedrich Mende und dem sächsischen Bergbaubeamten Johann Gottfried Schreiber. Daran beteiligt waren auch Johann August von Kalb, Präsident des Kammerkollegiums, Moritz von Wedel, Oberforstmeister, Friedrich Justin Bertuch, Schatullverwalter des Herzogs, und Wilhelm von Staff, Oberforstmeister in Ilmenau. Am 20. August 1776 wurde im Geheimen Consilium der formelle Beschluss gefasst, den Abbau wieder aufzunehmen. Die am 18. Februar 1777 gegründete Bergwerks­kommission, der neben Goethe der Kammerpräsident von Kalb und der Hof- und Regierungsrat Johann Ludwig Eckardt angehörten, hatte zunächst juristische und finanzielle Probleme zu lösen, die den Beginn der vorbereitenden Arbeiten bis 1784 verzögerten (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 48–50). Wiederholte Wassereinbrüche führten dazu, dass erst 1792 die erste Tonne Kupferschiefer gefördert werden konnte; dieser erwies sich jedoch zur Gewinnung von Erz als ungeeignet. Nach immer wieder auftretenden technischen Problemen wurde der Ilmenauer Bergbau im Jahr 1812 endgültig eingestellt.</p>
+
+</note>
+<note xml:id="gb10666_comment_com9721">
+<label xml:id="GB03_2_BR146_0_note_002_90_3" copyOf="#start_com_1401"><hi rendition="#fett">90,3</hi>auf dem Thüringer Wald herum zeichne</label>
+<p>Schon in seiner Frankfurter Zeit hatte Goethe mit Merck gelegentlich gemeinsam gezeichnet (vgl. <ref target="gb:dokument#15367">GB 2 I, Nr 177</ref>, <ref target="gb:dokument#10477">190</ref>, <ref target="gb:dokument#10553">205</ref>). Während des Ilmenauer Aufenthalts wird das Zeichnen von Goethe mehrfach im Tagebuch oder in Briefen an Charlotte von Stein erwähnt: unter dem 21. Juli 1776: <quote type="G">Aussicht nach der Frohn Feste</quote> (<ref target="gt:dokument#96">GT I 1, 22</ref>; laut <ref target="sndb:sigle#1248">Corpus</ref> VII, 39 nicht nachgewiesen); an Charlotte von Stein schrieb Goethe am 22. Juli: <quote type="G">Ich hab <gap quantity="3" reason="editorial"/> angefangen was zu zeichnen es geht aber nicht</quote> (<ref target="gb:text#GB03_1_BR145_0_087_017 #GB03_1_BR145_0_087_018">87,17–18</ref>); unter dem 22. Juli: <quote type="G">nach Cammerberg gezeichnet</quote> (<ref target="gt:dokument#97">GT I 1, 22</ref>; vgl. die Zeichnungen „Mundloch des Kammerbergstollens“ [<ref target="sndb:sigle#1248">Corpus</ref> I, 60, Nr 143 f.]); unter demselben Datum: <quote type="G">auf den Gickelhahn. gezeichnet</quote> (<ref target="gt:dokument#97">GT I 1, 22</ref>; vgl. die Zeichnung „Dampfende Täler bei Ilmenau“; vgl. <ref target="gb:digitalisate#11106/64252">Abb. 4</ref> im Textband, S. 89 [<ref target="sndb:sigle#1248">Corpus</ref> I, 60, Nr 145]); unter dem 26. Juli: <quote type="G">Gezeichnet früh</quote> (<ref target="gt:dokument#101">GT I 1, 22</ref>; nach <ref target="sndb:sigle#1248">Corpus</ref> VII, 40 nicht nachgewiesen); unter dem 2. August: <quote type="G">nach Stüzzerbach. gezeichnet</quote> (<ref target="gt:dokument#108">GT I 1, 23</ref>; vgl. die beiden Zeichnungen mit dem Titel „Stützerbacher Grund“; vgl. <ref target="gb:digitalisate#11128/64253">Abb. 5</ref> im Textband, S. 95 [<ref target="sndb:sigle#1248">Corpus</ref> I, 61 f. Nr 146 f.]); unter dem 3. August: <quote type="G">ich gez.</quote> (<ref target="gt:dokument#109">GT I 1, 23</ref>; vermutlich Weiterarbeit an den Zeichnungen vom Vortag); unter dem 6. August: <quote type="G">nach Unterporliz zu Tische. Zeichn.</quote> (<ref target="gt:dokument#112">GT I 1, 23</ref>; nach <ref target="sndb:sigle#1248">Corpus</ref> VII, 41 nicht nachgewiesen); in Goethes Brief an Charlotte von Stein vom 12. August 1776 heißt es: <quote type="G">Hier hast du die Aussicht aus dem Pachthofe zu Unter Pörliz wo wir zusammen standen als Krause zeichnete.</quote> (<ref target="gb:text#GB03_1_BR153_0_094_015 #GB03_1_BR153_0_094_017">94,15–17</ref>); unter dem 8. August: <quote type="G">aufm Hermanst. Die Höhle gezeichnet</quote> (<ref target="gt:dokument#114">GT I 1, 23</ref>; vgl. die Zeichnung „Höhle am Hermannstein“; vgl. <ref target="gb:digitalisate#11128/64254">Abb. 6</ref> im Textband, S. 96 [<ref target="sndb:sigle#1248">Corpus</ref> I, 62, Nr 148]), unter demselben Datum: <quote type="G">Gegen Abend auf Stüzzerbach ich zeichnete noch ein wenig</quote> (<ref target="gt:dokument#114">GT I 1, 23</ref>; vermutlich Weiterarbeit an der Zeichnung vom 2. August); unter dem 9. August: <quote type="G">Verduselter, verzeichneter, verwarteter, verschlafner Morgen</quote> (<ref target="gt:dokument#115">GT I 1, 23</ref>; vermutlich Weiterarbeit an der Zeichnung vom 2. August); am 10. August schrieb Goethe an Charlotte von Stein: <quote type="G">Ich schick Ihnen die Stüzzerbacher Zeichnung unvollendet, denn ich fürcht ich verderb sie.</quote> (<ref target="gb:text#GB03_1_BR152_0_094_004 #GB03_1_BR152_0_094_005">94,4–5</ref>.)</p>
+
+</note>
+<note xml:id="gb10666_comment_com9735">
+<label xml:id="GB03_2_BR146_0_note_003_90_3-4" copyOf="#start_com_1402"><hi rendition="#fett">90,3-4</hi>geht auf Hirsche</label>
+<p>Vom Jagen wird in Goethes Tagebuch unter dem <ref target="gt:dokument#99">24.</ref>, <ref target="gt:dokument#102">27.</ref> und <ref target="gt:dokument#103">28.</ref> Juli sowie unter dem 3. August berichtet (vgl. GT I 1, 22 f.).</p>
+
+</note>
+<note xml:id="gb10666_comment_com9722">
+<label xml:id="GB03_2_BR146_0_note_004_90_5" copyOf="#start_com_1403"><hi rendition="#fett">90,5</hi>Portefeuille</label>
+<p>Franz.: Brieftasche; hier: Zeichenmappe.</p>
+
+</note>
+<note xml:id="gb10666_comment_com17497">
+<label xml:id="GB03_2_BR146_0_note_005_90_5-6" copyOf="#start_com_1404"><hi rendition="#fett">90,5-6</hi>Lass den Wein <gap quantity="3" reason="editorial"/> auch mit.</label>
+<p>In seinem Brief vom 16. September 1776 bestätigte Goethe den Erhalt der Weinsendung (vgl. <ref target="gb:text#GB03_1_BR171_0_108_001">108,1</ref>). – Merck versorgte nicht nur Goethe, sondern auch Wieland mit Wein. In dessen Briefen an Merck vom 26. Januar und 23. März 1776 ist von einer gemeinsamen Bestellung von Niersteiner Wein die Rede (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 466 und 488).</p>
+
+</note>
+<note xml:id="gb10666_comment_com9736">
+<label xml:id="GB03_2_BR146_0_note_006_90_9" copyOf="#start_com_1405"><hi rendition="#fett">90,9</hi>Wirthschafft</label>
+<p>Hier im Sinn von ‚Lebensführung‘, ‚Lebensverhältnisse‘; in Anlehnung an die im 18. Jahrhundert noch verbreitete Bedeutung des Wortes: „Inbegriff <gap quantity="3" reason="editorial"/> aller häuslichen Geschäfte“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb10666_comment_com9737">
+<label xml:id="GB03_2_BR146_0_note_007_90_10-11" copyOf="#start_com_1406"><hi rendition="#fett">90,10-11</hi>freylich hab ich was auszustehen gehabt</label>
+<p>In Anspielung auf den Widerstand gegen Goethes Berufung ins Geheime Consilium (vgl. zu <ref target="gb:note#GB03_2_BR106_0_note_003_63_8">63,8</ref> und die einleitende Erläuterung zu <ref target="gb:note#gb9829_comment_com4077">Nr 148</ref>).</p>
+
+</note>
+<note xml:id="gb10666_comment_com17549">
+<label xml:id="GB03_2_BR146_0_note_008_90_11-12" copyOf="#start_com_1407"><hi rendition="#fett">90,11-12</hi>Der Herzog ist eben so <gap quantity="3" reason="editorial"/> keine Freude erlebt</label>
+<p>Dies könnte sich auf die Kritik an den ‚Weimarer Verhältnissen‘ und dem angeblich ‚wilden Genietreiben‘ beziehen, in deren Mittelpunkt Herzog Carl August und Goethe standen (vgl. im Einzelnen die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">112</ref>). Offenbar hatte sich auch Merck besorgt über üble Gerüchte geäußert; am 5. Juli 1776 hatte ihm Wieland geschrieben: „Wegen Göthen bitt ich Sie ewig ruhig zu seyn. Das Schiksal hat ihn in affection genommen: es ist Caesar und sein Glück; und Ihr werdet sehen, daß er sogar in diesem Hefen der Zeit worin wir leben, große Dinge thun u: eine glänzende Rolle spielen wird. Laßt die schäbichten Kerls schwazen. Graf Görz rüstet sich nun auch, in eure Gegenden u: nach Maynz und Mannheim zu gehen, und dort alles gegen Göthen und mich aufzuwigeln. Der Elende!“ (<ref target="sndb:sigle#141">WB</ref> 5, 520.)</p>
+
+</note>
+<note xml:id="gb10666_comment_com9751">
+<label xml:id="GB03_2_BR146_0_note_009_90_16" copyOf="#start_com_1408"><hi rendition="#fett">90,16</hi>die Mutter</label>
+<p>Gemeint ist wohl nicht Mercks Mutter Elisabeth Catharina geb. Kayser, sondern Goethes Mutter Catharina Elisabeth geb. Textor, mit der Merck in regem Kontakt stand.</p>
+
+</note>
+<note xml:id="gb10666_comment_com9752">
+<label xml:id="GB03_2_BR146_0_note_010_90_17-18" copyOf="#start_com_1409"><hi rendition="#fett">90,17-18</hi>Lenz <gap quantity="3" reason="editorial"/> sizzt iezt in Wäldern und Bergen allein</label>
+<p>Jacob Michael Reinhold Lenz war Ende Juni ins Weimar nahe gelegene Berka gezogen (vgl. im Einzelnen die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>). Von Lenz’ Rückzug aufs Land hatte Merck schon aus Wielands Brief vom 5. Juli 1776 erfahren: „<hi rendition="#hervor1">Lenz</hi> ist seit 8 Tagen in Eremum gegangen, wo er vermuthl. Heuschrecken und Wildhonig frißt <supplied>vgl. Matthäus 3,4</supplied>, und entweder ein neues Drama, oder ein Project die Welt zu bessern macht, das seit geraumer Zeit seine marotte ist.“ (<ref target="sndb:sigle#141">WB</ref> 5, 521.)</p>
+
+</note>
+<note xml:id="gb10666_comment_com9753">
+<label xml:id="GB03_2_BR146_0_note_011_90_18-19" copyOf="#start_com_1410"><hi rendition="#fett">90,18-19</hi>Klinger kann nicht mit mir wandeln</label>
+<p>Friedrich Maximilian Klinger hatte im Juni 1776 sein Jurastudium in Gießen abgebrochen, zu dem ihm Goethe verholfen hatte (vgl. dessen Brief an Ludwig Julius Friedrich Höpfner, erste Hälfte April 1774; <ref target="gb:dokument#10394">GB 2 I, Nr 106</ref>; über Goethes Verhältnis zu Klinger vgl. <ref target="gb:note#GB02_2_BR106_0_note_001_83_5">GB 2 II, zu 83,5</ref>). Am 24. des Monats war Klinger in Weimar eingetroffen: „Am Montag kam ich hier an – lag an Goethes Hals u. er umfaßte mich innig mit aller Liebe ‚Närrischer Junge! und kriegte Küße von ihm. ‚Toller Junge! und immer mehr liebe <supplied>sic</supplied>. Denn er wußte kein Wort von meinem Kommen, so kannst du denken wie ich ihn überraschte“, schrieb Klinger in einem gemeinsamen Brief mit Jacob Michael Reinhold Lenz an Philipp Christoph Kayser vom 26. Juni 1776 (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 274). Ein Anlass, sich nach Weimar zu wenden, war Klingers Hoffnung, dort eine Anstellung zu erhalten. Die Herzoginmutter Anna Amalia bemühte sich um eine Versorgung in auswärtigen Militärdiensten (vgl. Klingers Brief an Goethe vom 26. Mai 1814; <ref target="sndb:sigle#764">Rieger, Klinger 2</ref>, Briefbuch, 164). Diese Pläne scheiterten jedoch. Auch litt – wie im Fall von Lenz – das frühere herzliche Verhältnis zu Goethe durch den Aufenthalt des Freundes in Weimar; schon zwei Wochen nach dessen Ankunft schrieb Wieland am 5. Juli 1776 an Johann Heinrich Merck: „<hi rendition="#hervor1">Klinger</hi> ist auch gekommen. Leider! Er ist ein guter Kerl, ennuyirt uns aber herzl. und drückt Göthen. Was ist mit solchen Leuten anzufangen?“ (<ref target="sndb:sigle#141">WB</ref> 5, 521.) Diesen Bericht Wielands bestätigt Goethe im vorliegenden Brief und im Brief an Johann Caspar Lavater vom 16. September 1776 noch einmal mit ähnlichen Worten (vgl. <ref target="gb:text#GB03_1_BR170_0_106_007 #GB03_1_BR170_0_106_009">106,7–9</ref>). Am 25. September kündigte Klinger in einem Brief an seine Mutter und Schwestern an: „Kommende Woche reiß ich von hier weg nach Dessau <gap quantity="3" reason="editorial"/>. In Weimar kann ich auf keine Weise mehr bleiben. Gœthes Liebe ist groß, aber die Umstände sind gegen uns.“ (<ref target="sndb:sigle#763">Rieger, Klinger 1</ref>, 400.) Dies teilte Klinger am selben Tag auch seinem Freund Ernst Christian Friedrich Adam Schleiermacher mit (vgl. ebd.). Unter den Gründen für das problematisch werdende Verhältnis zwischen Goethe und Klinger und für dessen Weggang aus Weimar werden genannt (vgl. ebd., 163–177): Goethe sei verärgert gewesen, weil Klinger sein Studium abgebrochen habe und unangemeldet und eigenmächtig in Weimar erschienen sei. Klinger habe sich als „roher, ungeschlachter Naturmensch“ (so später <ref target="sndb:sigle#2773">Böttiger, Literarische Zustände<hi rendition="#sup">2</hi></ref>, 35 f.) aufgeführt, dessen kraftgenialisches Tun und Reden Goethe verdrossen hätten. Carl August Böttiger kolportiert auch ein Gespräch Klingers mit Franz Christian Lersé aus dem Jahr 1798; bei einem Scheibenschießen, bei dem es „Sitte geweßen, statt der Zielscheibe ein Portrait hinzusetzen“ (ebd., 46), habe er auf ein Porträt Goethes geschossen. „Dieß habe ihm Göthe nie verzeihn können.“ (Ebd.) Nach Mitteilung Friedrich Justin Bertuchs habe Klinger „allerlei Klätschereien zwischen der alten Herzogin und der jungen gemacht“ (ebd.). Der einzige authentische Hinweis zu der Angelegenheit stammt von Klinger selbst; in seinem Brief an Schleiermacher vom 29. August 1789 heißt es: „Ein elender Mensch, dessen Herz so schlecht ist, als sein Verstand verwirrt, hat uns durch Tretschereyen in Weimar, auseinander gesprengt. Er <supplied>Goethe</supplied> glaubte ihm erbärmliches Zeug, ich war zu stolz mich über Plackereyen zu rechtfertigen, <gap quantity="3" reason="editorial"/> u so reißt ich ab“ (<ref target="sndb:sigle#764">Rieger, Klinger 2</ref>, Briefbuch, 9). Die Rede ist von Johann Christoph Kaufmann, dem von Johann Caspar Lavater geschätzten ‚Genieapostel‘, religiösen Schwärmer und Wunderarzt, der sich vom 21. September bis 9. Oktober 1776 in Weimar aufhielt. Goethe ließ sich, wie auch Herzog Carl August, Wieland, Herder u. a., von ihm beeindrucken; im Tagebuch heißt es unter dem 24. September: <quote type="G">Herrliche Nacht mit Kaufm.</quote> (<ref target="gt:dokument#153">GT I 1, 26</ref>), und zwei Tage später: <quote type="G">Nachts mit Kaufmann.</quote> (Ebd.) Später nannte er ihn jedoch einen <quote type="G">Lügenpropheten</quote> (Brief an Lavater, 6. März 1780; <ref target="gb:text#GB04_1_BR034_0_030_015 #GB04_1_BR034_0_030_016">GB 4 I, 30,15-16</ref>). Der Gegenstand der „Tretschereyen“ ist nicht bekannt. Über Kaufmanns Motiv äußerte sich Klinger in einem Brief an Goethe vom 26. Mai 1814: „Indessen versuchte dieser neue Simson <gap quantity="3" reason="editorial"/> auch an mir vergeblich sein Apostelamt. Er rächte sich dafür. Hätt’ ich mich, bey meiner Abreise, mehr als durch Blicke des Herzens, gegen Sie erklärt, ich wäre Ihnen gewiß werther, als je geworden, aber ich <hi rendition="#hervor1">sollte</hi> es nicht, vermöge dessen, was Sie in mir erkannt hatten.“ (<ref target="sndb:sigle#764">Rieger, Klinger 2</ref>, Briefbuch, 164.) Inwieweit diese Erinnerungen Klingers – wie auch die Berichte Böttigers – aus einer großen zeitlichen Distanz zuverlässig sind, muss dahingestellt bleiben. Möglicherweise, vermutet der Klinger-Biograph Max Rieger, versuchte Kaufmann bloß, „durch Zutragen von Beschwerdestoff sich <supplied>bei Goethe</supplied> wichtig zu machen“ (<ref target="sndb:sigle#763">Rieger, Klinger 1</ref>, 175).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5680"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11754" n="GB 3, Nr. 554">
+  <teiHeader xml:id="gb11754_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>554.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79740">Zürich</placeName>, 30. November 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11754_tei.xml</idno>
+        <idno type="URI">gb11754</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR554_0</idno>
+        <idno type="KSW-ID">11754</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="357" to="358">357-358</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1066" to="1068">1066-1068</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11754_header_hwit1548" corresp="#gb11754_source_hwit1548" sameAs="#gb11754_comment_hwit1548" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe, Ms. Germ. Qu. 521</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11754,,1548/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder ich hatte gehofft du würdest aus deiner    Einsamkeit einmal ein Wörtgen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+            <date when="1779-11-30">30. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44242">Knebel, Carl Ludwig von</persName>
+            <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11754_source_hwit1548" corresp="#gb11754_header_hwit1548" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11754/17375"/>
+      <p>
+        <anchor xml:id="GB03_1_BR554_0_357_001"/>l. Br. ich hatte gehofft du würdest aus <ref target="gb:note#GB03_2_BR554_0_note_001_357_1" xml:id="start_com_5062"/>deiner Einsamkeit<ref xml:id="end_com_5062"/> einmal ein 
+<anchor xml:id="GB03_1_BR554_0_357_002"/>Wörtgen zu mir herüber reden, so aber seh ich wohl ich muss anklopfen, 
+<anchor xml:id="GB03_1_BR554_0_357_003"/>und aus meiner Zerstreuung dir zurufen. <ref target="gb:note#GB03_2_BR554_0_note_002_357_3-4" xml:id="start_com_5063"/>So schön und 
+<anchor xml:id="GB03_1_BR554_0_357_004"/>glücklich<ref xml:id="end_com_5063"/> dass man sich nicht unterstehn darf zu preisen ist <ref target="gb:note#GB03_2_BR554_0_note_003_357_4-5" xml:id="start_com_5064"/>unsre Reise<ref xml:id="end_com_5064"/>
+        <anchor xml:id="GB03_1_BR554_0_357_005"/>bisher gewesen. Helfe die willige<ptr n="1" target="#a001_357.5"/> Glücksluft weiter und führe uns 
+<anchor xml:id="GB03_1_BR554_0_357_006"/>gesund wieder zu Euch. So wohl mir’s geht, so manigfaltig das Leben 
+<anchor xml:id="GB03_1_BR554_0_357_007"/>ist sehn ich mich wieder nach Hause, und ausdrücken kan ich dir 
+<anchor xml:id="GB03_1_BR554_0_357_008"/>nicht wie lieb ihr mir täglich werdet, und wie ich Gott bitte dass er 
+<anchor xml:id="GB03_1_BR554_0_357_009"/>uns auch wenn wir wieder näher rücken, immer fort möge fühlen 
+<anchor xml:id="GB03_1_BR554_0_357_010"/>und geniessen lassen was wir an einander haben. Dass die <ref target="gb:note#GB03_2_BR554_0_note_004_357_10" xml:id="start_com_5065"/>ehrenen<ref xml:id="end_com_5065"/>, 
+<anchor xml:id="GB03_1_BR554_0_357_011"/>hölzernen und pappenen <ref target="gb:note#GB03_2_BR554_0_note_005_357_11-13" xml:id="start_com_5066"/>Schaalen die uns offt trennen, mögen zertrümmert 
+<anchor xml:id="GB03_1_BR554_0_357_012"/>und auf ewig ins höllische Feuer geworfen werden<ref xml:id="end_com_5066"/>. Wann <anchor xml:id="GB03_1_BR554_0_357_013"/>werden wir <ref target="gb:note#GB03_2_BR554_0_note_006_357_13" xml:id="start_com_5067"/>lernen uns der eingebildeten Ubel entschlagen<ref xml:id="end_com_5067"/> und die 
+<anchor xml:id="GB03_1_BR554_0_357_014"/>wahren alsdann einander zutraulich im Momente ans Herz legen. Hebe 
+<anchor xml:id="GB03_1_BR554_0_357_015"/>diesen Brief auf ich bitte dich und wenn ich unhold werde zeig 
+<anchor xml:id="GB03_1_BR554_0_357_016"/>mir ihn vor dass ich in mich kehre.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR554_0_357_017"/>Hier bin ich <ref target="gb:note#GB03_2_BR554_0_note_007_357_17" xml:id="start_com_5068"/>bey Lavatern<ref xml:id="end_com_5068"/>, im reinsten Zusammengenuss des Lebens. 
+<anchor xml:id="GB03_1_BR554_0_357_018"/>In<ptr n="2" target="#a002_357.18"/> dem Kreise seiner Freunde ist eine Engelsstille und Ruh, bey 
+<anchor xml:id="GB03_1_BR554_0_357_019"/>allem Drange der Welt und ein anhaltendes mitgenie<supplied>ssen</supplied> von Freud 
+<anchor xml:id="GB03_1_BR554_0_357_020"/>und Schmerz, doch<ptr n="3" target="#a003_357.20"/> hab ich deutlich gesehen dass es vorzüglich darinn 
+<anchor xml:id="GB03_1_BR554_0_357_021"/>liegt dass ieder <pb n="2" facs="gb:digitalisate#11754/17376"/> Sein Haus <ref target="gb:note#GB03_2_BR554_0_note_008_357_21" xml:id="start_com_5069"/>Frau, Kinder<ref xml:id="end_com_5069"/>, und eine reine menschliche 
+<anchor xml:id="GB03_1_BR554_0_357_022"/>Existens in der nächsten <ref target="gb:note#GB03_2_BR554_0_note_009_357_22" xml:id="start_com_5070"/>Nothdurft<ref xml:id="end_com_5070"/> hat. das schliest aneinander, und 
+<anchor xml:id="GB03_1_BR554_0_357_023"/>
+        <ref target="gb:note#GB03_2_BR554_0_note_010_357_23" xml:id="start_com_5071"/>speut<ref xml:id="end_com_5071"/> was Feind<g ref="#typoSuspension"/>. ist sogleich aus. Von der Reise selbst lass dir doch 
+<anchor xml:id="GB03_1_BR554_0_357_024"/>die Stein die <ref target="gb:note#GB03_2_BR554_0_note_011_357_24" xml:id="start_com_5072"/>Tour durch die Savoyer Gletscher<ref xml:id="end_com_5072"/> zeigen. Den <ref target="gb:note#GB03_2_BR554_0_note_012_357_24-25" xml:id="start_com_5073"/>Zug 
+<anchor xml:id="GB03_1_BR554_0_357_025"/>durchs Wallis<ref xml:id="end_com_5073"/> hoff ich auch ehstens zu schicken.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR554_0_357_026"/>Lavater ist und bleibt ein einziger Mensch, den man, nur 3 Schritte 
+<anchor xml:id="GB03_1_BR554_0_357_027"/>von ihm, gar nicht erkennen kan. Solche Wahrheit, Glauben, Liebe, 
+<anchor xml:id="GB03_1_BR554_0_357_028"/>Gedult, Stärcke, Weisheit, Güte, Betriebsamkeit, Ganzheit, Manigfaltigkeit, 
+<anchor xml:id="GB03_1_BR554_0_357_029"/>Ruhe pp ist <ref target="gb:note#GB03_2_BR554_0_note_013_357_29" xml:id="start_com_5074"/>weder in Israel noch unter den Haiden<ref xml:id="end_com_5074"/>. Von 
+<anchor xml:id="GB03_1_BR554_0_357_030"/>Kunstsachen haben wir eine Menge <ref target="gb:note#GB03_2_BR554_0_note_014_357_30" xml:id="start_com_5075"/>mit uns gerollt<ref xml:id="end_com_5075"/>. Treffliche Sachen 
+<anchor xml:id="GB03_1_BR554_0_358_001"/>mit unter. Ich habe <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR554_0_note_015_358_1" xml:id="start_com_5076"/>p fas et nefas</emph>
+        <ref xml:id="end_com_5076"/> einige <ref target="gb:note#GB03_2_BR554_0_note_016_358_1-2" xml:id="start_com_5077"/>Fueslische Gemählde und 
+<anchor xml:id="GB03_1_BR554_0_358_002"/>Skizzen<ref xml:id="end_com_5077"/><ptr n="4" target="#a004_358.2"/> erwischt, <ref target="gb:note#GB03_2_BR554_0_note_017_358_2" xml:id="start_com_5078"/>über die ihr erschröcken werdet<ref xml:id="end_com_5078"/>, grüs Herdern, und 
+<anchor xml:id="GB03_1_BR554_0_358_003"/>gieb ihm <ref target="gb:note#GB03_2_BR554_0_note_018_358_3" xml:id="start_com_5079"/>seinen Theil von diesem Briefe<ref xml:id="end_com_5079"/>. Leb wohl und vergnügt, 
+<anchor xml:id="GB03_1_BR554_0_358_004"/>und thut das eurige wenn wir zurückkommen, dass es uns wohl bleibe, 
+<anchor xml:id="GB03_1_BR554_0_358_005"/>wie wir ganz in der Stimmung sind, euch freundlicher als iemals, 
+<anchor xml:id="GB03_1_BR554_0_358_006"/>entgegen zu gehen, Adieu Alter lass mir <ref target="gb:note#GB03_2_BR554_0_note_019_358_6" xml:id="start_com_5080"/>nach Franckfurt<ref xml:id="end_com_5080"/> etwas hören.
+<anchor xml:id="GB03_1_BR554_0_358_007"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR554_0_358_008"/>Zürch d<g ref="#typoSuspension"/>. 30 Nov. 79.     </dateline>
+        <signed rend="paraph">G</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11754_comment">
+<body>
+<div type="metadata" xml:id="gb11754_comment_com518">
+  <ab type="numberAddressee"><label>554.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79740">Zürich</placeName>, 30. November 1779 → <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11754_comment_com2562">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin, Sign.: Ms. Germ. 4°. 521, Bl. 15. – 1 Bl. 19 × 22,4(–22,6) cm, 2 S. beschr., egh., Tinte; Vs. oben links von Gottschalk Eduard Guhrauers Hd, Tinte: „18“ (vgl. E), oben in der Mitte von fremder Hd, Tinte: „<hi rendition="#hervor1">No 6</hi><supplied>korr. aus 7</supplied>“, oben über der rechten Seitenhälfte von fremder Hd, Bleistift: „79?“; Rs. oben in der Mitte von fremder Hd, Tinte: „<hi rendition="#hervor1"><del rendition="#s">No 6</del></hi>“; von fremder Hd, Bleistift, folgender Text mit eckigen Klammern eingeklammert: <quote type="G">Von Kunstsachen <gap quantity="3" reason="editorial"/> diesem Briefe.</quote> (<ref target="gb:text#GB03_1_BR554_0_357_029 #GB03_1_BR554_0_358_003">357,29–358,3</ref>); innerhalb dieser Klammer mit eckigen Klammern mit Rötel und Bleistift eingeklammert: <quote type="G">Ich habe <gap quantity="3" reason="editorial"/> erschröcken werdet,</quote> (<ref target="gb:text#GB03_1_BR554_0_358_001 #GB03_1_BR554_0_358_002">358,1–2</ref>); Bl. am rechten Rand mehrfach ausgerissen, durch Papierstreifen auf der Rs. restauriert. – In einem Konvolut mit schwarzem Ledereinband (vgl. weiter Überlieferung zu <ref target="gb:note#gb10600_comment_com2925">Nr 5</ref>). – Beischluss: Brief Goethes an Herder (vgl. zu <ref target="gb:note#GB03_2_BR554_0_note_018_358_3">358,3</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1 (1851), 14 f., Nr 18.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 147 f., Nr 871.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11754_comment_com4358">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11754_comment_com11223">
+<label xml:id="GB03_2_BR554_0_note_001_357_1" copyOf="#start_com_5062"><hi rendition="#fett">357,1</hi>deiner Einsamkeit</label>
+<p>In Tiefurt bei Weimar (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_050_68_22-23">68,22-23</ref>).</p>
+
+</note>
+<note xml:id="gb11754_comment_com15125">
+<label xml:id="GB03_2_BR554_0_note_002_357_3-4" copyOf="#start_com_5063"><hi rendition="#fett">357,3-4</hi>So schön und glücklich</label>
+<p>Dass die Reise über Erwarten glücklich verlaufe, hatte Goethe schon früher oft betont (vgl. zu <ref target="gb:note#GB03_2_BR552_0_note_003_355_14-15">355,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11754_comment_com11224">
+<label xml:id="GB03_2_BR554_0_note_003_357_4-5" copyOf="#start_com_5064"><hi rendition="#fett">357,4-5</hi>unsre Reise</label>
+<p>Goethe befand sich seit dem 12. September 1779 mit Herzog Carl August auf einer Reise in die Schweiz. Über die weiteren Mitglieder der Reisegesellschaft vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>, über den Reiseverlauf die Übersicht „Goethes zweite Reise in die Schweiz“ ebd. In Zürich hielt sich Goethe vom 18. November bis 2. Dezember auf.</p>
+
+</note>
+<note xml:id="gb11754_comment_com11225">
+<label xml:id="GB03_2_BR554_0_note_004_357_10" copyOf="#start_com_5065"><hi rendition="#fett">357,10</hi>ehrenen</label>
+<p>Versehentlich für ‚Ehernen‘.</p>
+
+</note>
+<note xml:id="gb11754_comment_com17948">
+<label xml:id="GB03_2_BR554_0_note_005_357_11-13" copyOf="#start_com_5066"><hi rendition="#fett">357,11-12</hi>Schaalen <gap quantity="3" reason="editorial"/> ins höllische Feuer geworfen werden</label>
+<p>Ein ähnliches Bild hatte Goethe in seinem Tagebuch vom 7. August 1779 gebraucht: <quote type="G">Zu Hause aufgeraumt meine Papiere durchgesehen und alle alten Schaalen verbrannt. Andre Zeiten andre Sorgen. Stiller Rückblick aufs Leben <gap quantity="3" reason="editorial"/> . Die Zeit dass ich im Treiben der Welt bin seit 75 Oktbr. getrau ich noch nicht zu übersehen. Gott helfe weiter. und gebe Lichter dass wir uns nicht selbst soviel im Weege stehen. Lasse uns von Morgen zum Abend das gehörige thun und gebe uns klare Begriffe von den Folgen der Dinge.</quote> (<ref target="gt:dokument#752">GT I 1, 85 und 87</ref>.)</p>
+
+</note>
+<note xml:id="gb11754_comment_com11226">
+<label xml:id="GB03_2_BR554_0_note_006_357_13" copyOf="#start_com_5067"><hi rendition="#fett">357,13</hi>lernen uns der eingebildeten Ubel entschlagen</label>
+<p>Diese Mahnung dürfte Goethe nicht nur an sich selbst, sondern auch an Knebel gerichtet haben, dessen hypochondrische Lebensart er mit Sorge betrachtete (vgl. zu <ref target="gb:note#GB03_2_BR417_0_note_002_239_1-2">239,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb11754_comment_com18004">
+<label xml:id="GB03_2_BR554_0_note_007_357_17" copyOf="#start_com_5068"><hi rendition="#fett">357,17</hi>bey Lavatern</label>
+<p>Goethe wohnte vom 18. November bis zum 2. Dezember 1779 bei Lavater. Diesen Aufenthalt hatte er in seinem Brief an Charlotte von Stein vom 24. November 1779 als <quote type="G">Siegel und oberste Spizze der ganzen Reise</quote> (<ref target="gb:text#GB03_1_BR550_0_344_024">344,24</ref>) bezeichnet. Zuvor hatte er auch gegenüber Lavater die Hoffnung geäußert, dieser werde dem Herzog <quote type="G">das Haupt salben</quote> (<ref target="gb:text#GB03_1_BR542_0_328_012">328,12</ref>). Wie Carl August selbst die Begegnung empfand und welche Wirkungen sie auf ihn hatte, dazu vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref> sowie zu <ref target="gb:note#GB03_2_BR550_0_note_008_344_23">344,23</ref>.</p>
+
+</note>
+<note xml:id="gb11754_comment_com11243">
+<label xml:id="GB03_2_BR554_0_note_008_357_21" copyOf="#start_com_5069"><hi rendition="#fett">357,21</hi>Frau, Kinder</label>
+<p>Lavater und seine Frau Anna hatten insgesamt acht Kinder, von denen nur drei den Vater überlebten: Heinrich, Anna (Nette) und Louise. 1779 lebten der elfjährige Heinrich und die achtjährige Nette in Lavaters Haus.</p>
+
+</note>
+<note xml:id="gb11754_comment_com11244">
+<label xml:id="GB03_2_BR554_0_note_009_357_22" copyOf="#start_com_5070"><hi rendition="#fett">357,22</hi>Nothdurft</label>
+<p>Der „bedarf an nothwendigen dingen, besonders zum leben“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 924).</p>
+
+</note>
+<note xml:id="gb11754_comment_com11245">
+<label xml:id="GB03_2_BR554_0_note_010_357_23" copyOf="#start_com_5071"><hi rendition="#fett">357,23</hi>speut</label>
+<p>Mundartliche Nebenform von ‚speit‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 16, 2196).</p>
+
+</note>
+<note xml:id="gb11754_comment_com11246">
+<label xml:id="GB03_2_BR554_0_note_011_357_24" copyOf="#start_com_5072"><hi rendition="#fett">357,24</hi>Tour durch die Savoyer Gletscher</label>
+<p>Gemeint ist Goethes <quote type="G">Tageregister</quote> (<ref target="gb:text#GB03_1_BR550_0_345_022">345,22</ref>) vom 3. bis 6. November in Brief <ref target="gb:dokument#12043">Nr 550</ref> an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR550_0_345_023 #GB03_1_BR550_0_352_021">345,23–352,21</ref>). Die Reise führte von Cluses über Sallanches nach Chamonix.</p>
+
+</note>
+<note xml:id="gb11754_comment_com17960">
+<label xml:id="GB03_2_BR554_0_note_012_357_24-25" copyOf="#start_com_5073"><hi rendition="#fett">357,24-25</hi>Zug durchs Wallis</label>
+<p>Die Reise ging nach Martigny und durch das Rhone-Tal nördlich der Walliser Alpen bis Münster, von wo aus am 12. November der Weg über den Rhone-Gletscher und den Furka-Pass nach Realp führte; vgl. Goethes Berichte im Tagebuch (GT I 1, 98 f.). Sein <quote type="G">unleserliches Tagebuch</quote> (<ref target="gb:text#GB03_1_BR555_0_359_016">359,16</ref>) für Charlotte von Stein wurde erst nach der Rückkehr in Weimar in Ordnung gebracht und erschien unter der Überschrift „Briefe auf einer Reise nach dem Gotthardt“ 1796 im 8. Stück von Schillers „Horen“ (S. 29–94).</p>
+
+</note>
+<note xml:id="gb11754_comment_com11256">
+<label xml:id="GB03_2_BR554_0_note_013_357_29" copyOf="#start_com_5074"><hi rendition="#fett">357,29</hi>weder in Israel noch unter den Haiden</label>
+<p>Im Matthäus-Evangelium (8,10; vgl. auch Lukas 7,9) wird vom Hauptmann von Capernaum berichtet, der Jesus bittet, seinen kranken Knecht zu heilen. Als Jesus diesen aufsuchen will, lässt es der Hauptmann nicht zu: Er sei nicht wert, dass Jesus sein Haus betrete; er möge nur ein Wort sprechen, dann werde sein Knecht gesund. Da wunderte sich Jesus und sprach: „Wahrlich, ich sage euch, solchen glauben habe ich in Israel nicht funden.“ (Luther-Bibel 1772 NT, 10.)</p>
+
+</note>
+<note xml:id="gb11754_comment_com11257">
+<label xml:id="GB03_2_BR554_0_note_014_357_30" copyOf="#start_com_5075"><hi rendition="#fett">357,30</hi>mit uns gerollt</label>
+<p>‚Mit uns im Reisewagen mitgenommen‘; ‚rollen‘ hier in der Bedeutung von „auf dem wagen fahren“ (<ref target="sndb:sigle#2890">Grimm</ref> 14, 1144).</p>
+
+</note>
+<note xml:id="gb11754_comment_com11258">
+<label xml:id="GB03_2_BR554_0_note_015_358_1" copyOf="#start_com_5076"><hi rendition="#fett">358,1</hi><emph rendition="#latin">p fas et nefas</emph></label>
+<p>Lat. per fas et nefas: mit erlaubten und unerlaubten Mitteln.</p>
+
+</note>
+<note xml:id="gb11754_comment_com11259">
+<label xml:id="GB03_2_BR554_0_note_016_358_1-2" copyOf="#start_com_5077"><hi rendition="#fett">358,1-2</hi>Fueslische Gemählde und Skizzen</label>
+<p>Lavater besaß einige Werke des mit ihm befreundeten Malers Johann Heinrich Füßli. Welche Gemälde und Skizzen Goethe 1779 erwarb, lässt sich im Einzelnen nicht mehr nachweisen. In den Weimarer Kunstsammlungen befindet sich u. a. das Porträt der Magdalena Schweizer geb. Hess (Inv.-Nr G 892). Angaben zu Provenienz und Datierung lassen sich nicht machen. Eine Vorstudie zum Bildnis der Magdalena Schweizer (Inv.-Nr KK 1451) trägt eine Bezeichnung von Lavaters Hand. In den Kunstsammlungen sind ferner 48 Zeichnungen überliefert, darunter eine Vorstudie zum „Rütli-Schwur“ (Inv.-Nr KK 1383; vgl. Hermann Mildenberger: Im Blickfeld der Goethezeit I. Aquarelle und Zeichnungen aus dem Bestand der Kunstsammlungen zu Weimar. Berlin 1997, S. 196 f., Nr 78); diese Zeichnung soll „über Lavater in den Besitz Goethes gelangt“ sein (Gert Schiff: Johann Heinrich Füssli. Bd 1. Zürich 1973, S. 95). Das ausgeführte Gemälde sah Goethe auf seiner dritten Schweizer Reise am 24. Oktober 1797 im Zürcher Rathaus (vgl. <ref target="gt:dokument#1868">GT II 1, 222</ref>). – In Goethes Sammlungen wird ein Konvolut von 23 Blättern mit Zeichnungen aufbewahrt: „Köpfe, einzelne Figuren und einige Compositionen“ mit Feder und Tusche sowie mit Bleistift (Inv.-Nr GHz/Sch.I.264,0318.1–23); die Zeichnungen werden nicht nur Johann Heinrich Füßli, sondern auch seinem Bruder Rudolf Füßli zugeschrieben. Sie scheinen alle vor Sommer 1779 entstanden zu sein. Ein Blatt – Mädchen, eingeschlafen auf einer Fensterbank (Inv.-Nr GHz/Sch.I.264,0318.7) – trägt eine Bemerkung von Lavaters Hand: „radirt diese Nonchalance einmal kleiner u. netter“. Ein anderes Blatt, einen älteren Mann darstellend, der seinen Kopf in seine linke Hand stützt (Inv.-Nr GHz/Sch.I.264,0318.3), soll „durch Lavaters Vermittlung in Goethes Besitz gelangt“ sein (Gert Schiff: Johann Heinrich Füssli, S. 112). Das Blatt mit dem Kopf des heiligen Johannes des Täufers (Inv.-Nr GHz/Sch.I.264,0318.10) wurde 1779 von Johann Heinrich Lips für Lavater gestochen. (Nach freundlichen Hinweisen von Alexander Rosenbaum, Weimar.) – Goethes Wunsch nach einer Zusammenarbeit mit Füßli erfüllte dieser nicht (vgl. zu <ref target="gb:note#GB03_2_BR557_0_note_001_360_16">360,16</ref>).</p>
+
+</note>
+<note xml:id="gb11754_comment_com18006">
+<label xml:id="GB03_2_BR554_0_note_017_358_2" copyOf="#start_com_5078"><hi rendition="#fett">358,2</hi>über die ihr erschröcken werdet</label>
+<p>Diese Erwartung hing möglicherweise mit Füßlis später auch von Goethe selbst kritisiertem Stil zusammen. In den (vom 9. August 1797 stammenden) Notizen zu einem mit Johann Heinrich Meyer geplanten Aufsatz über Füßli für die „Propyläen“ heißt es: <quote type="G">Die Sujets die er wählt sind sämmtlich abenteuerlich und entweder tragisch oder humoristisch <gap quantity="3" reason="editorial"/> . Bey Füesli’s sind Poesie und Mahlerei immer im Streit und sie lassen den Zuschauer niemals zum ruhigen Genuß kommen; man schätzt ihn als Dichter, und als bildender Künstler macht er den Zuschauer immer ungeduldig.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 47, 347.)</p>
+
+</note>
+<note xml:id="gb11754_comment_com11273">
+<label xml:id="GB03_2_BR554_0_note_018_358_3" copyOf="#start_com_5079"><hi rendition="#fett">358,3</hi>seinen Theil von diesem Briefe</label>
+<p>Offenbar war dem vorliegenden Brief ein Brief an Herder beigeschlossen; er ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11754_comment_com11274">
+<label xml:id="GB03_2_BR554_0_note_019_358_6" copyOf="#start_com_5080"><hi rendition="#fett">358,6</hi>nach Franckfurt</label>
+<p>In Frankfurt und Umgebung hielt sich Goethe während der Rückreise vom 24. Dezember 1779 bis zum 10. Januar 1780 auf. Eine Nachricht Knebels ist nicht bekannt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

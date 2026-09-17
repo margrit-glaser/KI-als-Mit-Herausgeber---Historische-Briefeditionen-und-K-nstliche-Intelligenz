@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="730"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10713" n="GB 3, Nr. 73">
+  <teiHeader xml:id="gb10713_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>73.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78408">Leipzig</placeName>, 26. März 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10713_tei.xml</idno>
+        <idno type="URI">gb10713</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR073_0</idno>
+        <idno type="KSW-ID">10713</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="49" to="49">49</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="192" to="193">192-193</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10713_header_hwit915" corresp="#gb10713_source_hwit915" sameAs="#gb10713_comment_hwit915" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 19</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10713,,915/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Beste Frau, mir ist immer Sie sind in Gotha wenn ich wieder komme. Ich habe heut viel viel</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+            <date when="1776-03-26">26. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10713_source_hwit915" corresp="#gb10713_header_hwit915" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10713/22298"/>
+      <p>
+        <anchor xml:id="GB03_1_BR073_0_049_003"/>Beste Frau, mir ist immer <ref target="gb:note#GB03_2_BR073_0_note_001_49_3" xml:id="start_com_0757"/>Sie<ref xml:id="end_com_0757"/> sind <ref target="gb:note#GB03_2_BR073_0_note_002_49_3" xml:id="start_com_0758"/>in Gotha wenn ich wieder komme<ref xml:id="end_com_0758"/>. 
+<anchor xml:id="GB03_1_BR073_0_049_004"/>
+        <ref target="gb:note#GB03_2_BR073_0_note_003_49_4" xml:id="start_com_0759"/>Ich habe heut viel viel gelitten, aber auch Einen<ptr n="1" target="#a001_49.4"/> Moment!<ref xml:id="end_com_0759"/> – O ich 
+<anchor xml:id="GB03_1_BR073_0_049_005"/>will nichts davon schreiben dass ich seine Ganze<ptr n="2" target="#a002_49.5"/> Fülle erzählen kann. 
+<anchor xml:id="GB03_1_BR073_0_049_006"/>– Ich bin bey <ref target="gb:note#GB03_2_BR073_0_note_004_49_6" xml:id="start_com_0760"/>der Schrötern<ref xml:id="end_com_0760"/> – ein edel Geschöpf in seiner Art, – ach 
+<anchor xml:id="GB03_1_BR073_0_049_007"/>wenn die nur ein halb Jahr um Sie wäre! beste Frau, was sollte aus der 
+<anchor xml:id="GB03_1_BR073_0_049_008"/>werden! Gute Nacht. Und bleiben Sie mir immer was Sie mir iezt 
+<anchor xml:id="GB03_1_BR073_0_049_009"/>sind.  L. d<g ref="#typoSuspension"/>. 26. Merz 76.   </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR073_0_049_010"/>
+        <signed rend="paraph" rendition="#einrueck19">G</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10713_comment">
+<body>
+<div type="metadata" xml:id="gb10713_comment_com676">
+  <ab type="numberAddressee"><label>73.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78408">Leipzig</placeName>, 26. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10713_comment_com2720">
+  <p>H: GSA Weimar, Sign.: GSA 29/468,I, Bl. 19. –  1 Bl. 18,4 × 10,5 cm, 1 S. beschr., egh., Tinte; Rs. Adresse, Textverlust durch Beschnitt: <quote type="G">Frau <gap quantity="3" reason="editorial"/></quote>; oben rechts von fremder Hd, Tinte: „49.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 49), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 20.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 47, Nr 429.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10713_comment_com4516">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief von Ende März 1776 ist nicht überliefert (vgl. zu <ref target="gb:note#GB03_2_BR074_0_note_001_49_11">49,11</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10713_comment_com9830">
+<label xml:id="GB03_2_BR073_0_note_001_49_3" copyOf="#start_com_0757"><hi rendition="#fett">49,3</hi>Sie</label>
+<p>Vgl. dagegen die Anrede im Brief vom Vortag (<ref target="gb:text#GB03_1_BR071_0_048_018">48,18</ref>).</p>
+
+</note>
+<note xml:id="gb10713_comment_com17555">
+<label xml:id="GB03_2_BR073_0_note_002_49_3" copyOf="#start_com_0758"><hi rendition="#fett">49,3</hi>in Gotha wenn ich wieder komme</label>
+<p>Goethe traf am 4. April 1776 wieder in Weimar ein (vgl. <ref target="gt:dokument#19">GT I 1, 17</ref>), wo er am nächsten Morgen Charlotte von Stein besuchte (vgl. <ref target="gb:text#GB03_1_BR075_0_050_001 #GB03_1_BR075_0_050_002">50,1–2</ref>). Dass diese ihren Mann gelegentlich zu den Versammlungen der „Landschaft“ nach Gotha begleitete, wird seit Fielitz immer wieder vermutet (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 408, Anm. 3 [zu S. 29]). Da Teile der Kochberger Ländereien sowie das Schloss selbst auf dem Gebiet des Herzogtums Sachsen-Gotha und Altenburg lagen, war Josias von Stein „Ausserordentlicher Deputirter“ der „Landschaft<supplied>lichen</supplied> Deputation“ des Herzogtums (Herzoglich-Sachsen-Gotha- und Altenburgischer Hof- und Adreß-Calender auf das Jahr 1778 <gap quantity="3" reason="editorial"/>. Gotha <supplied>1777</supplied>, S. 13 f.). – Am 4. April 1776 allerdings war Josias von Stein in Weimar und nahm an der fürstlichen Mittagstafel teil, ebenso an den beiden folgenden Tagen (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 104 f.).</p>
+
+</note>
+<note xml:id="gb10713_comment_com9831">
+<label xml:id="GB03_2_BR073_0_note_003_49_4" copyOf="#start_com_0759"><hi rendition="#fett">49,4</hi>Ich habe heut viel viel gelitten <gap quantity="3" reason="editorial"/> Einen Moment!</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR072_0_048_020 #GB03_1_BR072_0_048_021">48,20–21</ref>.</p>
+
+</note>
+<note xml:id="gb10713_comment_com9832">
+<label xml:id="GB03_2_BR073_0_note_004_49_6" copyOf="#start_com_0760"><hi rendition="#fett">49,6</hi>der Schrötern</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

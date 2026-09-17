@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2000"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11163" n="GB 3, Nr. 198">
+  <teiHeader xml:id="gb11163_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>198.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84837">Rippach</placeName>, 2. Dezember <supplied>1776. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:08Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11163_tei.xml</idno>
+        <idno type="URI">gb11163</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR198_0</idno>
+        <idno type="KSW-ID">11163</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="121" to="122">121-122</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="442" to="445">442-445</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11163_header_hwit1123" corresp="#gb11163_source_hwit1123" sameAs="#gb11163_comment_hwit1123" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 103</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11163,,1123/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Montag d. 2. Dez. Abends 8. Wir sind in Rippach, werden bis Mitternacht ruhen und dann im Mondschein nach Leipzig</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84837">Rippach</placeName>
+            <date when="1776-12-02">2. Dezember <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11163_source_hwit1123" corresp="#gb11163_header_hwit1123" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11163/22496"/>
+      <p>
+        <anchor xml:id="GB03_1_BR198_0_121_016"/>Montag <ref target="gb:note#GB03_2_BR198_0_note_001_121_16" xml:id="start_com_1854"/>d<g ref="#typoSuspension"/>. 2 Dez. Abends 8<ref xml:id="end_com_1854"/>. Wir sind <ref target="gb:note#GB03_2_BR198_0_note_002_121_16-17" xml:id="start_com_1855"/>in Rippach, werden bis Mitternacht 
+<anchor xml:id="GB03_1_BR198_0_121_017"/>ruhen und dann im Mondschein nach Leipzig<ref xml:id="end_com_1855"/>. Dieses Blat 
+<anchor xml:id="GB03_1_BR198_0_121_018"/>kriegen Sie erst donnerstags. Mir ist in all <ref target="gb:note#GB03_2_BR198_0_note_003_121_18" xml:id="start_com_1856"/>meinen Verwirrungen<ref xml:id="end_com_1856"/> immer 
+<anchor xml:id="GB03_1_BR198_0_121_019"/>ein freudiger Aufblick wenn ich an Sie dencke. Dass nur Herzogin 
+<anchor xml:id="GB03_1_BR198_0_121_020"/>Louise <ref target="gb:note#GB03_2_BR198_0_note_004_121_20" xml:id="start_com_1857"/>die <hi rendition="#hervor1">Geschwister</hi>
+        <ref xml:id="end_com_1857"/>
+        <ref target="gb:note#GB03_2_BR198_0_note_005_121_20" xml:id="start_com_1858"/>nicht weiter giebt<ref xml:id="end_com_1858"/> oder sonst – Eh sie 
+<anchor xml:id="GB03_1_BR198_0_121_021"/>nach <ref target="gb:note#GB03_2_BR198_0_note_006_121_21" xml:id="start_com_1859"/>Gotha<ref xml:id="end_com_1859"/> geht lassen Sie sich’s wiedergeben, es muss uns bleiben. 
+<anchor xml:id="GB03_1_BR198_0_122_001"/>Die <ref target="gb:note#GB03_2_BR198_0_note_007_122_1" xml:id="start_com_1860"/>Schrittschue<ref xml:id="end_com_1860"/> die ich ihr versprochen habe sind aus Versehn eingepackt 
+<anchor xml:id="GB03_1_BR198_0_122_002"/>worden. Gute Nacht. Sie sind immer gleich und <ref target="gb:note#GB03_2_BR198_0_note_008_122_2-3" xml:id="start_com_1861"/>ich wie der 
+<anchor xml:id="GB03_1_BR198_0_122_003"/>Mond<ref xml:id="end_com_1861"/> in seinen Veränderungen sich auch gleich! Eben hier <ref target="gb:note#GB03_2_BR198_0_note_009_122_3-4" xml:id="start_com_1862"/>schrieb 
+<anchor xml:id="GB03_1_BR198_0_122_004"/>ich vor drey vierteliahr an Sie<ref xml:id="end_com_1862"/> mit eben dem Herzen Gute Nacht.      G.</p>
+    <pb n="2" facs="gb:digitalisate#11163/22497" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11163/22498" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11163/22499"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11163_comment">
+<body>
+<div type="metadata" xml:id="gb11163_comment_com596">
+  <ab type="numberAddressee"><label>198.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84837">Rippach</placeName>, 2. Dezember <supplied>1776</supplied> → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb11163_comment_com1683">
+  <p>Der vorliegende Brief, im Konvolut der Briefe an Charlotte von Stein (Bd I) in den Dezember 1778 eingeordnet, wird seit seiner ersten Veröffentlichung bei Schöll ins Jahr 1776 gesetzt. Der Ortsangabe <quote type="G">Rippach</quote> (<ref target="gb:text#GB03_1_BR198_0_121_016">121,16</ref>) zufolge wurde er zu Beginn der Reise nach Leipzig, Wörlitz und Dessau geschrieben, zu der Goethe mit Herzog Carl August am 2. Dezember 1776 aufgebrochen war (vgl. zu <ref target="gb:note#GB03_2_BR198_0_note_001_121_16">121,16</ref>). Anfang Dezember 1778 hingegen befand sich Goethe in Weimar (vgl. GT I 1, 67). Auch das Jahr 1777 ist auszuschließen, da Goethe bereits Ende November zu seiner Reise in den Harz aufbrach (vgl. ebd., 53).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11163_comment_com2640">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 103. – Doppelblatt 16,3(–16,5) × 17,3(–17,5) cm, &#xBE; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Frau / Oberstallmeister von Stein / nach / Weimar / fr</quote>, Reste eines rotbraunen Wappensiegels (Löwe mit Schweif?), Postvermerk; S. 1 oben rechts von fremder Hd, Tinte: „61“, unten rechts von fremder Hd, Bleistift: „ist von 1776.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 63), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 73.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 125 f., Nr 539.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11163_comment_com4436">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11163_comment_com17704">
+<label xml:id="GB03_2_BR198_0_note_001_121_16" copyOf="#start_com_1854"><hi rendition="#fett">121,16</hi>d<g ref="#typoSuspension"/>. 2 Dez. Abends 8</label>
+<p>Am Morgen des 2. Dezember <quote type="G">früh nach sieben</quote> (<ref target="gt:dokument#220">GT I 1, 30</ref>) war Goethe im Gefolge des Herzogs Carl August von Weimar aus in Richtung Leipzig aufgebrochen (vgl. <ref target="gb:text#GB03_1_BR197_0_121_005 #GB03_1_BR197_0_121_007">121,5–7</ref>).</p>
+
+</note>
+<note xml:id="gb11163_comment_com10607">
+<label xml:id="GB03_2_BR198_0_note_002_121_16-17" copyOf="#start_com_1855"><hi rendition="#fett">121,16-17</hi>in Rippach <gap quantity="3" reason="editorial"/> im Mondschein nach Leipzig</label>
+<p>Rippach, etwa 30 km südwestlich von Leipzig (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR069_0_note_001_47_4">47,4</ref>); im Tagebuch vom 2. Dezember 1776 heißt es: <quote type="G">Nachts in Rippach ein Paar stund geschlafen</quote> (<ref target="gt:dokument#220">GT I 1, 30</ref>). In Leipzig hielt sich die Gesellschaft am Morgen des 3. Dezember nur für etwa eine Stunde auf, um dann nach Wörlitz weiterzureisen. Den kurzen Aufenthalt nutzte Goethe zu einem Besuch bei Adam Friedrich Oeser, dem Direktor der Leipziger Zeichenakademie (vgl. ebd.), der wahrscheinlich bei dieser Gelegenheit verbindlich nach Weimar eingeladen wurde, wo er am 21. Dezember 1776 eintraf, dem Tag, an dem auch Goethe und der Herzog dorthin zurückkehrten (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 314).</p>
+
+</note>
+<note xml:id="gb11163_comment_com15142">
+<label xml:id="GB03_2_BR198_0_note_003_121_18" copyOf="#start_com_1856"><hi rendition="#fett">121,18</hi>meinen Verwirrungen</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR196_0_note_001_121_1">121,1</ref>.</p>
+
+</note>
+<note xml:id="gb11163_comment_com10608">
+<label xml:id="GB03_2_BR198_0_note_004_121_20" copyOf="#start_com_1857"><hi rendition="#fett">121,20</hi>die <hi rendition="#hervor1">Geschwister</hi></label>
+<p>Der Einakter war laut Tagebuch zwischen dem 26. und 31. Oktober 1776 entstanden und am 21. November mit Goethe in der Rolle des Wilhelm vom Liebhabertheater uraufgeführt worden (vgl. GT I 1, 28 f.; <ref target="sndb:sigle#854">Sichardt</ref>, 140); hier mit Bezug auf eine Handschrift der „Geschwister“, wahrscheinlich auf die von Seidels Hand, die sich 1890 im Besitz der Nachkommen Charlotte von Steins befand und heute im Goethe-Museum Düsseldorf aufbewahrt wird (H: <ref target="sndb:sigle#1267">GMD</ref> NW 2346/2003; vgl. <ref target="sndb:sigle#1157">WA</ref> I 9, 501).</p>
+
+</note>
+<note xml:id="gb11163_comment_com17786">
+<label xml:id="GB03_2_BR198_0_note_005_121_20" copyOf="#start_com_1858"><hi rendition="#fett">121,20</hi>nicht weiter giebt</label>
+<p>Ganz ähnlich hatte Goethe am 6. November 1776 nach Frankfurt an seine Mutter, Johanna Fahlmer und Johann Caspar Bölling mit Bezug auf ein Manuskript der „Geschwister“ geschrieben: <quote type="G">Leßts! lassts den Vater lesen, schickts der Schwester und die soll mir’s wiederschicken, niemand solls abschreiben. Und das soll heilig gehalten werden</quote> (<ref target="gb:text#GB03_1_BR183_0_116_004 #GB03_1_BR183_0_116_006">116,4–6</ref>). Offenbar sollte das Stück, das erst 1787 im 3. Band der „Schriften“ (S. 249–292) gedruckt wurde, zunächst nur einem ausgewählten Kreis zugänglich gemacht werden. Möglicherweise befürchtete Goethe Rückschlüsse des Publikums auf seine persönlichen Verhältnisse, ähnlich wie er es 1774 nach der Veröffentlichung des „Werthers“ erlebt hatte (vgl. <ref target="gb:note#GB02_2_BR207_0_note_021_175_4-5">GB 2 II, zu 175,4–5</ref>; zu <ref target="gb:note#GB02_2_BR207_0_note_022_175_6">175,6</ref>). Anlass hätte z. B. schon der Name ‚Charlotte‘ geben können, in den „Geschwistern“ die ältere, früh verstorbene Freundin des Helden Wilhelm, der <quote type="G">durch sie ein ganz anderer Mensch</quote> geworden war (<ref target="sndb:sigle#1157">WA</ref> I 9, 123). Von einem Brief Charlottes, aus dem Wilhelm im Stück zitiert, wurde später vermutet, dass ihm ein authentischer Brief Charlotte von Steins zugrunde läge, wofür es allerdings keinen Beleg gibt (vgl. <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, XIII f.): <quote type="G"><hi rendition="#hervor1">Wilhelm.</hi> Es war in den ersten Tagen unserer Bekanntschaft. „Die Welt wird mir wieder lieb,“ schreibt sie, „ich hatte mich so los von ihr gemacht, wieder lieb durch Sie. Mein Herz macht mir Vorwürfe; ich fühle, daß ich Ihnen und mir Qualen zubereite. Vor einem halben Jahre war ich so bereit zu sterben, und ich bin’s nicht mehr.“</quote>(<ref target="sndb:sigle#1157">WA</ref> I 9, 123.)</p>
+
+</note>
+<note xml:id="gb11163_comment_com9803">
+<label xml:id="GB03_2_BR198_0_note_006_121_21" copyOf="#start_com_1859"><hi rendition="#fett">121,21</hi>Gotha</label>
+<p>Residenz des mit dem Weimarer Fürstenhaus befreundeten Herzogs Ernst II. Ludwig von Sachsen-Gotha und Altenburg. Laut Fourierbuch reiste Herzogin Louise in Begleitung ihrer Oberhofmeisterin Gräfin von Giannini, ihrer Hofdamen sowie des Kammerherrn Sigmund von Seckendorff am 7. Dezember 1776 „früh halb 10 Uhr von hier <supplied>Weimar</supplied> nach Gotha ab“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 308), von wo sie erst am Abend des 17. Dezember zurückkehrte (vgl. ebd., S. 310).</p>
+
+</note>
+<note xml:id="gb11163_comment_com17802">
+<label xml:id="GB03_2_BR198_0_note_007_122_1" copyOf="#start_com_1860"><hi rendition="#fett">122,1</hi>Schrittschue</label>
+<p>Ältere Nebenform zu ‚Schlittschuhe‘: „die alte sprache kennt ausschlieszlich die bildung <hi rendition="#hervor1">schrittschuh</hi> zum verb <hi rendition="#hervor1">schreiten</hi>, schuh zu weitem schritt.“ (<ref target="sndb:sigle#2890">Grimm</ref> 9, 759.) Der Gebrauch der Wortform ,Schrittschuhe‘ scheint auf Klopstocks Frankfurter Besuch Ende September 1774 zurückzugehen (vgl. <ref target="gb:note#GB02_2_BR157_0_note_008_135_22">GB 2 II, zu 135,22</ref>). Als ‚Schrittschuhe‘ oder ‚Schlittschuhe‘ wurden damals nur die Metallkufen bezeichnet, nämlich „glatte viereckte vorn krumm gebogene Stäbe von Eisen oder Stahl, welche man unter die Schuhsohlen befestiget, um vermittelst derselben schnell auf dem Eise fortzuschreiten“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1659). – Goethe, der in Frankfurt ein begeisterter Eisläufer gewesen war, hatte das Schlittschuhlaufen in der Weimarer Hofgesellschaft verbreitet, wie u. a. die Erinnerungen Carl von Steins belegen: „Zu dieser Misbilligung <supplied>den Einfluss Goethes auf den jungen Herzog betreffend</supplied> gehörte auch unter anderen das Schlittschuhlaufen, ein vorher nur bey den untern Ständen der Stadt gebräuchliches Vergnügen. Auf Göthens Veranlassung wurde hierzu ein Teich im sogenannten Baumgarten (eine damals herzogliche, später von Bertuch acquirierte Besitzung) erwählt. Es wurde ein transportabel Bretterhäusgen mit einem Windofen ans Ufer gebauet, mehrere Schlittenstühle angeschafft, Damen auf dem Eise spatzieren zu fahren.“ (<ref target="sndb:sigle#2854">Goethe/Carl von Stein</ref>, 2 f.) Nach den Erinnerungen Lynckers sei Herzog Carl August „eine Zeit lang fast täglich“ auf dem Eis gelaufen, ebenso hätten Herzogin Louise und Charlotte von Stein das Schlittschuhfahren gelernt (<ref target="sndb:sigle#2983">Lyncker</ref>, 57).</p>
+
+</note>
+<note xml:id="gb11163_comment_com10628">
+<label xml:id="GB03_2_BR198_0_note_008_122_2-3" copyOf="#start_com_1861"><hi rendition="#fett">122,2-3</hi>ich wie der Mond</label>
+<p>Die Mondmetapher gebraucht Goethe in dieser Zeit häufiger für sich in Anspielung auf den wiederkehrenden Wechsel zwischen Nähe und Rückzug, der seine Beziehung zu Charlotte von Stein charakterisiert (vgl. zu <ref target="gb:note#GB03_2_BR157_0_note_006_98_5">98,5</ref>).</p>
+
+</note>
+<note xml:id="gb11163_comment_com10629">
+<label xml:id="GB03_2_BR198_0_note_009_122_3-4" copyOf="#start_com_1862"><hi rendition="#fett">122,3-4</hi>schrieb ich vor drey vierteliahr an Sie</label>
+<p>Vgl. den Brief vom 25. März 1776 (<ref target="gb:dokument#11883">Nr 69</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

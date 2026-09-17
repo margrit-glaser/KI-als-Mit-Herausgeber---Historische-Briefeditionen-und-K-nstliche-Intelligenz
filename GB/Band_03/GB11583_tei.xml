@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2310"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11583" n="GB 3, Nr. 228">
+  <teiHeader xml:id="gb11583_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>228.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. März 1777. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:07Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11583_tei.xml</idno>
+        <idno type="URI">gb11583</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR228_0</idno>
+        <idno type="KSW-ID">11583</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="133" to="133">133</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="487" to="489">487-489</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11583_header_hwit1157" corresp="#gb11583_source_hwit1157" sameAs="#gb11583_comment_hwit1157" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 88</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11583,,1157/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder deine Papiere gehn ziemlich ordentlich nach Leipzig, ich thue nichts dran</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-03-10">10. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11583_source_hwit1157" corresp="#gb11583_header_hwit1157" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11583/13883"/>
+      <p>
+        <anchor xml:id="GB03_1_BR228_0_133_005"/>Lieber <ref target="gb:note#GB03_2_BR228_0_note_001_133_5" xml:id="start_com_2062"/>Br.<ref xml:id="end_com_2062"/>
+        <ref target="gb:note#GB03_2_BR228_0_note_002_133_5" xml:id="start_com_2063"/>deine Papiere<ref xml:id="end_com_2063"/> gehen ziemlich ordentlich nach Leipzig, ich 
+<anchor xml:id="GB03_1_BR228_0_133_006"/>thue nichts dran, davon es nicht schlimmer werden wird. <ref target="gb:note#GB03_2_BR228_0_note_003_133_6-7" xml:id="start_com_2064"/>Dein Fragment 
+<anchor xml:id="GB03_1_BR228_0_133_007"/>über Wolfen<ref xml:id="end_com_2064"/> habe weggelassen. Es ging gar nicht. Es wäre hier 
+<anchor xml:id="GB03_1_BR228_0_133_008"/>unendlich lächerlich geworden. Das Kupfer ist zwar wie der Kerl nie 
+<anchor xml:id="GB03_1_BR228_0_133_009"/>ist, doch giebt mich’s Wunder dass du dadrinn das mancherley fatale 
+<anchor xml:id="GB03_1_BR228_0_133_010"/>nicht bemerckt hast. Mir dünckt <ref target="gb:note#GB03_2_BR228_0_note_004_133_10" xml:id="start_com_2065"/>wenn ich aus<ref xml:id="end_com_2065"/> nichts von ihm gewust 
+<anchor xml:id="GB03_1_BR228_0_133_011"/>hätte hätt ich gesagt dass das wohl ein Virtuos<ptr n="1" target="#a001_133.11"/> nie aber ein Componist 
+<anchor xml:id="GB03_1_BR228_0_133_012"/>seyn könne. Die garstige Selbstgefälligkeit, ohne Drang und Fülle und 
+<anchor xml:id="GB03_1_BR228_0_133_013"/>
+        <ref target="gb:note#GB03_2_BR228_0_note_005_133_13" xml:id="start_com_2066"/>Dumpfheit<ref xml:id="end_com_2066"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR228_0_133_014"/>Ich hatte gehofft <ref target="gb:note#GB03_2_BR228_0_note_006_133_14" xml:id="start_com_2067"/>mich würdest du heraus lassen<ref xml:id="end_com_2067"/>, <ref target="gb:note#GB03_2_BR228_0_note_007_133_14-15" xml:id="start_com_2068"/>da ich dich so höflich 
+<anchor xml:id="GB03_1_BR228_0_133_015"/>drum gebeten hatte<ref xml:id="end_com_2068"/>, und du nicht einen leidlichen Zug von mir 
+<anchor xml:id="GB03_1_BR228_0_133_016"/>hast, indess da es ein <ref target="gb:note#GB03_2_BR228_0_note_008_133_16" xml:id="start_com_2069"/>Gericht ist das über mehr ehrliche Kerls<ref xml:id="end_com_2069"/> ergeht 
+<anchor xml:id="GB03_1_BR228_0_133_017"/>mags denn seyn.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR228_0_133_018"/>
+        <ref target="gb:note#GB03_2_BR228_0_note_009_133_18" xml:id="start_com_2070"/>Herder wird dir auch den Hals voll schelten<ref xml:id="end_com_2070"/> über <ref target="gb:note#GB03_2_BR228_0_note_010_133_18-19" xml:id="start_com_2071"/>sein polirtes 
+<anchor xml:id="GB03_1_BR228_0_133_019"/>Milchgesicht<ref xml:id="end_com_2071"/>, und den <ref target="gb:note#GB03_2_BR228_0_note_011_133_19" xml:id="start_com_2072"/>Colofonien Bliz des Fragments<ref xml:id="end_com_2072"/> dazu.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR228_0_133_020"/>Adieu. Behalt mich im Herzen. Mir gehts nach dem Rathschlusse 
+<anchor xml:id="GB03_1_BR228_0_133_021"/>
+        <ref target="gb:note#GB03_2_BR228_0_note_012_133_21" xml:id="start_com_2073"/>der Götter<ref xml:id="end_com_2073"/>, den ich in tiefer Ahndung ehre. Weimar d<g ref="#typoSuspension"/>. 10 Merz 77</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR228_0_133_022"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11583/13884" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11583_comment">
+<body>
+<div type="metadata" xml:id="gb11583_comment_com1323">
+  <ab type="numberAddressee"><label>228.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. März 1777 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11583_comment_com3367">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 88. – 1 Bl. 18,7 × 22,8 cm, &#xBE; S. beschr., egh., Tinte.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#417">Hegner</ref> (1836), 98 (Teildruck: <ref target="gb:text#GB03_1_BR228_0_133_014 #GB03_1_BR228_0_133_019">133,14–19</ref> <quote type="G">Ich hatte gehofft <gap quantity="3" reason="editorial"/> des Fragments dazu.</quote>).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 187 (Teildruck: <ref target="gb:text#GB03_1_BR228_0_133_005 #GB03_1_BR228_0_133_006">133,5–6</ref> <quote type="G">Lieber Br. <gap quantity="3" reason="editorial"/> werden wird.</quote>; <ref target="gb:text#GB03_1_BR228_0_133_014 #GB03_1_BR228_0_133_021">133,14–21</ref> <quote type="G">Ich hatte gehofft <gap quantity="3" reason="editorial"/> ehre.</quote>).</p>
+  <p>E<hi rendition="#sup">3</hi>: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 139 f., Nr 568 (Friedrich Strehlke).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11583_comment_com5163">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11583_comment_com10999">
+<label xml:id="GB03_2_BR228_0_note_001_133_5" copyOf="#start_com_2062"><hi rendition="#fett">133,5</hi>Br.</label>
+<p>Bruder.</p>
+
+</note>
+<note xml:id="gb11583_comment_com11000">
+<label xml:id="GB03_2_BR228_0_note_002_133_5" copyOf="#start_com_2063"><hi rendition="#fett">133,5</hi>deine Papiere</label>
+<p>Die Manuskripte zum 3. Band der „Physiognomischen Fragmente“, die Lavater an Goethe schickte, der sie, korrigiert und redigiert, nach Leipzig zum Druck an Philipp Erasmus Reich weiterleitete.</p>
+
+</note>
+<note xml:id="gb11583_comment_com15178">
+<label xml:id="GB03_2_BR228_0_note_003_133_6-7" copyOf="#start_com_2064"><hi rendition="#fett">133,6-7</hi>Dein Fragment über Wolfen</label>
+<p>Lavaters Kommentierung zu einem Porträt des Weimarer Kapellmeisters Ernst Wilhelm Wolf wurde ebenso wenig veröffentlicht wie das Bild, das Goethe im vorhergehenden Brief an Lavater ein <quote type="G">Scheisgesicht</quote> genannt hatte (vgl. zu <ref target="gb:note#GB03_2_BR224_0_note_001_131_14">131,14</ref>; zu <ref target="gb:note#GB03_2_BR224_0_note_003_131_15-16">131,15-16</ref>). Goethe, der von Wolfs Fähigkeiten nicht überzeugt war, versuchte später vergeblich, ihn durch seinen Freund Philipp Christoph Kayser zu ersetzen.</p>
+
+</note>
+<note xml:id="gb11583_comment_com11010">
+<label xml:id="GB03_2_BR228_0_note_004_133_10" copyOf="#start_com_2065"><hi rendition="#fett">133,10</hi>wenn ich aus</label>
+<p>Wohl verschrieben für ‚wenn ich auch‘.</p>
+
+</note>
+<note xml:id="gb11583_comment_com11011">
+<label xml:id="GB03_2_BR228_0_note_005_133_13" copyOf="#start_com_2066"><hi rendition="#fett">133,13</hi>Dumpfheit</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref> und <ref target="gb:text#GB03_1_BR160_0_099_014 #GB03_1_BR160_0_099_015">99,14-15</ref>.</p>
+
+</note>
+<note xml:id="gb11583_comment_com11012">
+<label xml:id="GB03_2_BR228_0_note_006_133_14" copyOf="#start_com_2067"><hi rendition="#fett">133,14</hi>mich würdest du heraus lassen</label>
+<p>Lavater scheint Goethe in einem nicht überlieferten Brief mitgeteilt zu haben, einen Beitrag über ihn veröffentlichen zu wollen. Das Manuskript dazu hatte er offensichtlich direkt an Reich geschickt, ohne es Goethe vorzulegen. Der Artikel erschien im 9. Abschnitt, der sieben Fragmente unter der Überschrift „Dichter“ enthält. Behandelt werden u. a. Friedrich Wilhelm Gotter, Johann Timotheus Hermes, Johann Martin Miller, Matthias Claudius und Friedrich Heinrich Jacobi. Das 6. Fragment dieses Abschnitts ist „Göthe“ gewidmet (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 218–224). Am Schluss des Fragments heißt es mit Bezug auf Goethe: „Und nun – verzeihe, edler Mann, gekannter und nicht gekannter – daß ich alles dieß von dir, ohne dein Wissen – hinstammle.“ (Ebd., 224.) – In dem Fragment erschienen fünf Porträts Goethes: 1–2) zwei Reliefs (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, zwischen 218 und 219; das erste dieser Reliefs auch bei <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, 8 f. [Erläuterungen], Tafel 10 [Abbildung]); (3) ein Porträt als Kupferstich von Johann Gottfried Saiter nach dem (Miniatur-)Ölgemälde von Johann Daniel Bager (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, zwischen 220 und 221; vgl. <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, 7 f. [Erläuterungen], Tafel 8 [Abbildung]; ferner <ref target="sndb:sigle#3057">Schaeffer/Göres</ref>, 54, Nr 3); Lavater bedankte sich dafür schon in einem Brief vom 6. November 1773 (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 5); (4) ein (kleines) Porträt nach einer Radierung Georg Friedrich Schmolls (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 222; vgl. auch <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, 13 f. [Erläuterungen], Tafel 15 [Abbildung]; ferner <ref target="sndb:sigle#3057">Schaeffer/Göres</ref>, 59, Nr 6); Schmoll hatte Goethe im Juni/Juli 1774 gezeichnet (vgl. Lavaters Tagebuch unter dem 25. Juni und 16. Juli 1774; <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 287 und 299); (5) ein (kleines) Porträt unbekannter Herkunft (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 224; vgl. <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, 9–11 [Erläuterungen], Tafel 12 [Abbildung]), vielleicht von Johann Rudolf Schellenberg (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 427). Zuvor findet sich (6) ein Schattenriss Goethes auf der Tafel „Zwanzig Silhouetten von Liebenden und Geliebten“ (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, zwischen 36 und 37; vgl. <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, 15 f. [Erläuterungen], Tafel 20) als letzte dieser Silhouetten, die 1775 in Zürich entstanden war (vgl. <ref target="gb:note#GB02_2_BR247_0_note_004_196_7">GB 2 II, zu 196,7</ref>). – Alle Porträts sind auch abgebildet in <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, Tafel I, Nr 2–4 und Tafel II, Nr 5–7.</p>
+
+</note>
+<note xml:id="gb11583_comment_com11013">
+<label xml:id="GB03_2_BR228_0_note_007_133_14-15" copyOf="#start_com_2068"><hi rendition="#fett">133,14-15</hi>da ich dich so höflich drum gebeten hatte</label>
+<p>Möglicherweise war dies mündlich geschehen. Ein entsprechender Brief Goethes an Lavater ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11583_comment_com15010">
+<label xml:id="GB03_2_BR228_0_note_008_133_16" copyOf="#start_com_2069"><hi rendition="#fett">133,16</hi>Gericht <gap quantity="3" reason="editorial"/> über mehr ehrliche Kerls</label>
+<p>Das Goethe betreffende Fragment erschien unter insgesamt sieben Fragmenten über verschiedene Dichter (vgl. zu <ref target="gb:note#GB03_2_BR228_0_note_006_133_14">133,14</ref>).</p>
+
+</note>
+<note xml:id="gb11583_comment_com14287">
+<label xml:id="GB03_2_BR228_0_note_009_133_18" copyOf="#start_com_2070"><hi rendition="#fett">133,18</hi>Herder <gap quantity="3" reason="editorial"/> schelten</label>
+<p>In einem Brief von Herbst 1777 schrieb Johann Georg Zimmermann an Lavater: „Mit Dir scheint Herder unzufrieden. Ich glaube, daß dieses durch den dritten Theil Deiner Physiognomik veranlaßt ist, von der er sagt, Du machest sie zur Schädelstätte Deiner Freunde.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 403.)</p>
+
+</note>
+<note xml:id="gb11583_comment_com17926">
+<label xml:id="GB03_2_BR228_0_note_010_133_18-19" copyOf="#start_com_2071"><hi rendition="#fett">133,18-19</hi>sein polirtes Milchgesicht</label>
+<p>Eine Abbildung Herders findet sich im 9. Fragment des 10. Abschnitts, welcher den Titel „Religiose“ trägt (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 227–288): „Ein männliches Profil. H“ (ebd., 262–264). In seinem Brief an Johann Georg Hamann von Mitte August 1777 urteilte Herder, der 3. Band der „Fragmente“ habe ihm „wenig schmecken wollen“, u. a. weil sein „Bild darinn erstolen, unwahr u. die Schilderung dabei weder aus dem Himmel, noch von der Erde“ sei (<ref target="sndb:sigle#2904">HB</ref> 4, 36). Außerdem fand er es, wie Johann Georg Zimmermann im Herbst 1777 Lavater mitteilte, „lächerlich, daß Du seinen Kopf unter die religiosen Köpfe gesetzt hast, ihn einen Propheten nennst u. s. f.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 403). Zu der Gesellschaft von ‚Religiosen‘, in der sich Herder befindet, gehören Personen wie Ignatius von Loyola einerseits und „Ein schwäbischer Bauer“ andererseits. Über seine Kommentierung von Herders Abbild hatte Lavater schon am 8. März 1777 an den Betroffenen geschrieben: „Verzeih die Brühe über Dein allliebes Gesicht.“ (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 178.)</p>
+
+</note>
+<note xml:id="gb11583_comment_com17796">
+<label xml:id="GB03_2_BR228_0_note_011_133_19" copyOf="#start_com_2072"><hi rendition="#fett">133,19</hi>Colofonien Bliz des Fragments</label>
+<p>Laut <ref target="sndb:sigle#397">GWb</ref> eine „okkasionelle Bildung zu ‚Kolophon‘“ (5, 513). Der Begriff Kolophon (nach griech. κολοφών: Gipfel; Abschluss) bezeichnet in mittelalterlichen Handschriften und frühen Druckwerken die titelblattähnliche Schlussformel über Verfasser, Schreiber, Druckort und -jahr. – Lavater schreibt in seiner Charaktersierung Herders: „Mit Einem Blicke blickt er Licht in die Nacht hin – Aber das Licht ist Blitz.“ (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 263.)</p>
+
+</note>
+<note xml:id="gb11583_comment_com11022">
+<label xml:id="GB03_2_BR228_0_note_012_133_21" copyOf="#start_com_2073"><hi rendition="#fett">133,21</hi>der Götter</label>
+<p>Den Plural verwendet Goethe in bewusstem Gegensatz zu Lavaters monotheistischem Glauben. So hatte er im Brief an Lavater vom 8. Januar 1777 geschrieben: <quote type="G">Dein Durst nach Crist. hat mich gejammert. Du bist übler dran als wir Heiden uns erscheinen doch in der Noth unsre Götter.</quote> (<ref target="gb:text#GB03_1_BR210_0_126_023 #GB03_1_BR210_0_126_024">126,23–24</ref>.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

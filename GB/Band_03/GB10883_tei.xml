@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1010"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10883" n="GB 3, Nr. 101">
+  <teiHeader xml:id="gb10883_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>101.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 13.? Mai 1776. Montag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:18Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10883_tei.xml</idno>
+        <idno type="URI">gb10883</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR101_0</idno>
+        <idno type="KSW-ID">10883</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="61" to="61">61</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="236" to="237">236-237</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10883_header_hwit949" corresp="#gb10883_source_hwit949" sameAs="#gb10883_comment_hwit949" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 70a</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10883,,949/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Trösten Sie den Engel. Wär' ich nur eine Stunde bei ihr. Ich danke für alles</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-05-13"><supplied>13.? Mai 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-04-01" to="1776-04-30"><supplied>April? 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#59746">Steinauer, Christian Wilhelm</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10883_source_hwit949" corresp="#gb10883_header_hwit949" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10883/13782"/>
+      <p>
+        <anchor xml:id="GB03_1_BR101_0_061_014"/>
+        <ref target="gb:note#GB03_2_BR101_0_note_001_61_14" xml:id="start_com_0966"/>Trösten Sie den Engel<ref xml:id="end_com_0966"/> —— Wär ich nur eine Stunde bey ihr. – Ich 
+<anchor xml:id="GB03_1_BR101_0_061_015"/>dancke für alles. Lieben Sie mich.</p>
+    <pb n="2" facs="gb:digitalisate#10883/13783" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10883_comment">
+<body>
+<div type="metadata" xml:id="gb10883_comment_com1305">
+  <ab type="numberAddressee"><label>101.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>13.? Mai 1776</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10883_comment_com1976">
+  <p>Der vorliegende Brief wurde vermutlich nach den Briefen <ref target="gb:dokument#10726">Nr 83</ref>, <ref target="gb:dokument#10877">87</ref> und <ref target="gb:dokument#10727">96</ref> geschrieben, die vom 15. April 1776 stammen bzw. sich den in Goethes Rechnungsbüchern verzeichneten Daten vom 18. April und 2. Mai zuordnen lassen (vgl. Datierung der Briefe); seinem Inhalt zufolge geht er außerdem Brief <ref target="gb:dokument#10779">Nr 103</ref> vom 16. Mai 1776 voraus (vgl. zu <ref target="gb:note#GB03_2_BR101_0_note_001_61_14">61,14</ref>). In den Rechnungsbüchern ist unter dem 13. Mai 1776 ein Brief an Steinauer vermerkt (vgl. Postsendungen); dabei dürfte es sich um den vorliegenden handeln.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10883_comment_com3349">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 70a. – 1 Bl. 10 &#xD7; 8,5 cm, Bordüre mit zwei Balken, in weiten Abständen von einer Rocaille umwunden (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 233.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 52, Nr 438.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10883_comment_com5145">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Steinauers (vgl. zu <ref target="gb:note#GB03_2_BR101_0_note_001_61_14">61,14</ref>). – Ein Antwortbrief Steinauers ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 13. Mai 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 6v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10883_comment_com9978">
+<label xml:id="GB03_2_BR101_0_note_001_61_14" copyOf="#start_com_0966"><hi rendition="#fett">61,14</hi>Trösten Sie den Engel</label>
+<p>Goethe hatte laut Rechnungsbüchern am 13. Mai 1776 <quote type="G">Briefe von Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 6v) bekommen, darunter offenbar den Bezugsbrief. Darin könnte Steinauer von einer Liebesaffäre berichtet haben, in die sich Corona Schröter verstrickt, aus der sie sich aber – vermutlich mit Hilfe von Freunden, darunter Steinauer – wieder hatte befreien können (vgl. Heinrich Stümcke: Corona Schröter. Bielefeld und Leipzig 1904, S. 29). Im Brief <ref target="gb:dokument#10779">Nr 103</ref> vom 16. Mai 1776 dankt Goethe Steinauer dafür, dass er sich um Corona Schröter gekümmert habe: <quote type="G">Sie sind ein ganzer Mann</quote> (<ref target="gb:text#GB03_1_BR103_0_062_010">62,10</ref>). Vgl. weiter zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

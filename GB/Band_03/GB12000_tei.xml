@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5210"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12000" n="GB 3, Nr. 511">
+  <teiHeader xml:id="gb12000_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>511.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 24. Juni 1779. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:46Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12000_tei.xml</idno>
+        <idno type="URI">gb12000</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR511_0</idno>
+        <idno type="KSW-ID">12000</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="283" to="283">283</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="931" to="931">931</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12000_header_hwit1499" corresp="#gb12000_source_hwit1499" sameAs="#gb12000_comment_hwit1499" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 15</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12000,,1499/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sie thun sehr wohl dass Sie mich durch Ihre Raben speisen    lassen Morgends</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-06-24">24. Juni 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12000_source_hwit1499" corresp="#gb12000_header_hwit1499" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12000/23080"/>
+      <p>
+        <anchor xml:id="GB03_1_BR511_0_283_011"/>Sie thun sehr wohl dass Sie mich <ref target="gb:note#GB03_2_BR511_0_note_001_283_11-12" xml:id="start_com_4080"/>durch ihre Raben speisen<ptr n="1" target="#a001_283.11"/> lassen 
+<anchor xml:id="GB03_1_BR511_0_283_012"/>Morgends und Abends<ref xml:id="end_com_4080"/><ptr n="2" target="#a002_283.12"/>, den es ist doch eins der sichtlichsten und gewissesten 
+<anchor xml:id="GB03_1_BR511_0_283_013"/>Zeichen dass man im Himmel an die<ptr n="3" target="#a003_283.13"/> Propheten denckt. 
+<anchor xml:id="GB03_1_BR511_0_283_014"/>Gestern Abend hab ich <ref target="gb:note#GB03_2_BR511_0_note_002_283_14" xml:id="start_com_4081"/>noch eine Scene in Egmont<ref xml:id="end_com_4081"/> geschrieben, die 
+<anchor xml:id="GB03_1_BR511_0_283_015"/>ich kaum wieder deschiffriren kann    Ade       d<g ref="#typoSuspension"/> 24</p>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_1_BR511_0_283_016"/>G   Jun 79.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12000_comment">
+<body>
+<div type="metadata" xml:id="gb12000_comment_com76">
+  <ab type="numberAddressee"><label>511.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 24. Juni 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12000_comment_com2120">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 15. – 1 Bl. 15,4(–15,6) × 10,1(–10,4) cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „32.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 33), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 228.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 43, Nr 828.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12000_comment_com3916">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12000_comment_com18155">
+<label xml:id="GB03_2_BR511_0_note_001_283_11-12" copyOf="#start_com_4080"><hi rendition="#fett">283,11-12</hi>durch ihre Raben <gap quantity="3" reason="editorial"/> Morgends und Abends</label>
+<p>In Anlehnung an 1 Könige 17,2–6: „Und das wort des Herrn kam zu ihm, und sprach: / Gehe weg von hinnen, und wende dich gen morgen, und verbirge dich am bach Crith, der gegen dem Jordan fleußt. / Und sollt vom bach trincken; und ich habe den raben gebotten, daß sie dich daselbst sollen versorgen. / Er aber gieng hin, und thät nach dem wort des Herrn; und gieng weg, und satzte sich am bach Crith, der gegen dem Jordan fleußt. / Und die raben brachten ihm brod und fleisch, des morgens und des abends; und er tranck des bachs.“ (Luther-Bibel 1772 AT, 316.) – Möglicherweise mit Bezug auf Boten Charlotte von Steins, die Lebensmittel überbrachten.</p>
+
+</note>
+<note xml:id="gb12000_comment_com13998">
+<label xml:id="GB03_2_BR511_0_note_002_283_14" copyOf="#start_com_4081"><hi rendition="#fett">283,14</hi>noch eine Scene in Egmont</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR501_0_note_003_279_16">279,16</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

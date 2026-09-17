@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11152" n="GB 3, Nr. 157">
+  <teiHeader xml:id="gb11152_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>157.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 23. August 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:56Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11152_tei.xml</idno>
+        <idno type="URI">gb11152</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR157_0</idno>
+        <idno type="KSW-ID">11152</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="98" to="98">98</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="368" to="369">368-369</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11152_header_hwit1041" corresp="#gb11152_source_hwit1041" sameAs="#gb11152_comment_hwit1041" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 29</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11152,,1041/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich hoffte Ihr Herz sollte Ihnen sagen über die Oberweimarer Wiesen zu gehn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11152_header_acc232" corresp="gb11152_comment_acc232">
+            <objectIdentifier>
+              <objectName>Silhouette </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-08-23">23. August 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11152_source_hwit1041" corresp="#gb11152_header_hwit1041" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11152/22436"/>
+      <p>
+        <anchor xml:id="GB03_1_BR157_0_098_001"/>Ich hoffte ihr<ptr n="1" target="#a001_98.1"/> Herz sollte ihnen sagen über <ref target="gb:note#GB03_2_BR157_0_note_001_98_1" xml:id="start_com_1510"/>die Oberweimarer Wiesen<ref xml:id="end_com_1510"/>
+        <anchor xml:id="GB03_1_BR157_0_098_002"/>zu gehn. Es hats nicht und ich bin umsonst bey schönem Sonnen Untergang 
+<anchor xml:id="GB03_1_BR157_0_098_003"/>
+        <ref target="gb:note#GB03_2_BR157_0_note_002_98_3" xml:id="start_com_1511"/>in meinen Garten Gangen<ref xml:id="end_com_1511"/>. hier <ref target="gb:note#GB03_2_BR157_0_note_003_98_3" xml:id="start_com_1512"/>die Silhouette<ref xml:id="end_com_1512"/>. Viel Grüse <ref target="gb:note#GB03_2_BR157_0_note_004_98_3-4" xml:id="start_com_1513"/>Ihrer 
+<anchor xml:id="GB03_1_BR157_0_098_004"/>Hohenlohe<ref xml:id="end_com_1513"/>. <ref target="gb:note#GB03_2_BR157_0_note_005_98_4" xml:id="start_com_1514"/>Morgen bin ich bey Ihnen.<ref xml:id="end_com_1514"/>    d<g ref="#typoSuspension"/>. 23 Aug 76.    G.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR157_0_098_005"/>
+        <ref target="gb:note#GB03_2_BR157_0_note_006_98_5" xml:id="start_com_1515"/>Beym Monde dencken Sie mein.<ref xml:id="end_com_1515"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11152_comment">
+<body>
+<div type="metadata" xml:id="gb11152_comment_com693">
+  <ab type="numberAddressee"><label>157.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 23. August 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11152_comment_com2737">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 29. – 1 Bl. 10 × 8,7 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), Goldschnitt, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „74“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 74), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 54.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 97 f., <ref target="gb:dokument#54">Nr 499</ref>.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11152_comment_com3642">
+  <p>Silhouette (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR157_0_note_003_98_3">98,3</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11152_comment_com4533">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11152_comment_com15065">
+<label xml:id="GB03_2_BR157_0_note_001_98_1" copyOf="#start_com_1510"><hi rendition="#fett">98,1</hi>die Oberweimarer Wiesen</label>
+<p>Oberweimar: Dorf südöstlich von Weimar auf der rechten Ilmseite (heute Ortsteil); die Ilmwiesen erstrecken sich unterhalb von Goethes Garten bis nach Oberweimar und sind heute Teil des Parks an der Ilm.</p>
+
+</note>
+<note xml:id="gb11152_comment_com9629">
+<label xml:id="GB03_2_BR157_0_note_002_98_3" copyOf="#start_com_1511"><hi rendition="#fett">98,3</hi>in meinen Garten Gangen</label>
+<p>Laut Tagebuch vom 23. August 1776 war Goethe an diesem Tag in Belvedere und <quote type="G">Abends im Garten</quote> <supplied>am Stern</supplied> (<ref target="gt:dokument#124">GT I 1, 24</ref>; vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11152_comment_com17752">
+<label xml:id="GB03_2_BR157_0_note_003_98_3" copyOf="#start_com_1512"><hi rendition="#fett">98,3</hi>die Silhouette</label>
+<p>Möglicherweise die Silhouette Isabellas Gräfin von Wartensleben. Diese schrieb am 20. August 1776 aus Kassel an die befreundete Charlotte von Stein: „Ce qu’il <supplied>Goethe</supplied> a dit de mon profil est trop flatan je n’ai feine Nase j’ai le nez horrible, s’est pour vous plaire qi’il a dit de mois tout de bien.“ (H: <ref target="sndb:sigle#3157">FDH/FGM</ref> 11810. – Was er über mein Profil gesagt hat, ist viel zu schmeichelhaft. Ich habe keine feine Nase, meine Nase ist schrecklich, um Ihnen zu gefallen, hat er von mir alles Gute gesagt.) Ähnliches berichtet auch die im Folgenden gegrüßte Fürstin von Hohenlohe (vgl. zu <ref target="gb:note#GB03_2_BR157_0_note_004_98_3-4">98,3-4</ref>). Goethe scheint die Silhouette der Gräfin von Wartensleben, die wahrscheinlich durch Charlotte von Stein nach Weimar gelangt war, kopiert zu haben, da er sie mit dem Brief vom 25. bis 30. August an Lavater schickte (vgl. <ref target="gb:text#GB03_1_BR160_0_100_001 #GB03_1_BR160_0_100_002">100,1–2</ref>).</p>
+
+</note>
+<note xml:id="gb11152_comment_com10467">
+<label xml:id="GB03_2_BR157_0_note_004_98_3-4" copyOf="#start_com_1513"><hi rendition="#fett">98,3-4</hi>Ihrer Hohenlohe</label>
+<p>Friederike Maria Johanna (Jenny) Fürstin von Hohenlohe-Kirchberg. Wie die vorliegende Erwähnung und ihr (nur in einer Abschrift überlieferter) Brief an die Gräfin von Wartensleben vermuten lässt, war sie erst am Tag zuvor in Weimar angekommen, wo sie am selben Abend noch Charlotte von Stein besuchte, bei der sie auch Goethe antraf:</p>
+ <space unit="lines" quantity="1"/>
+ <p>À Weimar jeudi au soir à 10 heures. / <gap quantity="3" reason="editorial"/> / En arrivent à Weimar, je rencontre notre Eule den Schaardt, je descend vîte de la voiture et il me mena chez sa soeur qui fût très détonnée de me voir; je trouvais ches elle fameux <hi rendition="#hervor1">Göthe</hi>, qui n’a pas l’air d’un Bürger, mais d’un savant gaté par les éloges, malgré cet air que je n’aime pas je l’ai pourtant trouvé assez aimable u. bin ihm ganz gut geworden, il sache de toi comme s’il venait de te voir et t’aime comme s’il te voyait encore; il étudi ton caractère sur ta silhouette, et il juge de ton esprit par le nez et le tout de ton visage. Ich wollte du kenntest die Eule <gap quantity="3" reason="editorial"/> il a dit à la Stein, ich schien ein <hi rendition="#hervor1">gutes, liebes</hi> Geschöpf zu sein. / J’ai fait en suite la connaissance de Stein, qui m’a parut fort genießbar et de toute la famille; après le souper les Steins et Göthe m’ont accompagné jusqu’à la maison de Joste <gap quantity="3" reason="editorial"/>.</p>
+ <space unit="lines" quantity="1"/>
+ <p>(Nach einer verschollenen Abschrift aus dem Nachlass Adolf Schölls; zitiert nach: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 2, 692–694. – In Weimar, Donnerstagabend um 10 Uhr / <gap quantity="3" reason="editorial"/> Angekommen in Weimar, treffe ich unsere Eule den Schaardt <supplied>Carl von Schardt</supplied>; geschwind entsteige ich dem Wagen, und er nahm mich zu seiner Schwester mit, die sehr erstaunt war, mich zu sehen; ich fand bei ihr den berühmten Göthe, der nicht wie ein Bürger aussieht, sondern vielmehr wie ein durch Lobreden verwöhnter Gelehrter. Trotz dieser Miene, die ich nicht mag, habe ich ihn dennoch als sehr angenehm empfunden u. bin ihm ganz gut geworden; er kennt Dich so gut, als ob er Dir gerade begegnet sei und liebt Dich, als wenn er Dich wieder sähe; er studiert Deinen Charakter nach Deiner Silhouette und urteilt über Deinen Geist nach der Nase und Deinem Antlitz. Ich wollte du kenntest die Eule <gap quantity="3" reason="editorial"/>; er hat zur Stein gesagt, ich schien ein gutes, liebes Geschöpf zu sein. / Ich habe dann die Bekanntschaft von Steins <supplied>Josias von Stein</supplied> gemacht, der mir sehr genießbar schien und <supplied>wie</supplied> die ganze Familie; nach dem Souper haben die Steins und Göthe mich bis zu meinem Gasthaus begleitet <gap quantity="3" reason="editorial"/>.)</p>
+
+</note>
+<note xml:id="gb11152_comment_com10468">
+<label xml:id="GB03_2_BR157_0_note_005_98_4" copyOf="#start_com_1514"><hi rendition="#fett">98,4</hi>Morgen bin ich bey Ihnen.</label>
+<p>Laut Tagebuch hat Goethe am 24. August 1776 <quote type="G">Bey &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">gessen</quote> und die <quote type="G">Silh. der Grafinnen gemacht.</quote> (<ref target="gt:dokument#125">GT I 1, 24</ref>.)</p>
+
+</note>
+<note xml:id="gb11152_comment_com10469">
+<label xml:id="GB03_2_BR157_0_note_006_98_5" copyOf="#start_com_1515"><hi rendition="#fett">98,5</hi>Beym Monde dencken Sie mein.</label>
+<p>Vice versa heißt es im Gedicht „Jägers Nachtlied“: <quote type="G">Mir ist es, denk’ ich nur an dich,  / Als in den Mond zu sehn</quote> (<ref target="sndb:sigle#1157">WA</ref> I 1, 99 [Verse 13 f.]; vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_006_175_14">175,14</ref>); vgl. auch das Briefgedicht für Charlotte von Stein „An den Mond“ (<ref target="gb:dokument#11675">Nr 326</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

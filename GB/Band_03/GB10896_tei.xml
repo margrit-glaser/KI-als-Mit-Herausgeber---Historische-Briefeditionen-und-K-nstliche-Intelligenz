@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1140"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10896" n="GB 3, Nr. 114">
+  <teiHeader xml:id="gb10896_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>114.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 17.&#x2012;24.  Mai <supplied>1776. Freitag&#x2012;Freitag</supplied> </title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10896_tei.xml</idno>
+        <idno type="URI">gb10896</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR114_0</idno>
+        <idno type="KSW-ID">10896</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="66" to="70">66-70</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="269" to="276">269-276</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10896_header_hwit984" corresp="#gb10896_source_hwit984" sameAs="#gb10896_comment_hwit984" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-25751, ehemals Slg Brockhaus</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10896,,984/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>d. 17. May. Morgens 8. Guten Morgen Gustgen. Nichts als dies zur Grundlage eines Tagbuchs für dich. Ach du nimmst</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-05-17" to="1776-05-24">17.-24. Mai <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Augusta Louise Gräfin zu</persName>
+            <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10896_source_hwit984" corresp="#gb10896_header_hwit984" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10896/20987"/>
+      <p>
+        <anchor xml:id="GB03_1_BR114_0_066_008"/>d<g ref="#typoSuspension"/>. 17 May. Morgens 8. Guten Morgen Gustgen. Nichts als die’s zur 
+<anchor xml:id="GB03_1_BR114_0_066_009"/><ref target="gb:note#GB03_2_BR114_0_note_001_66_9" xml:id="start_com_1036"/>Grundlage eines Tagbuchs<ref xml:id="end_com_1036"/> für dich. Ach du nimmst <ref target="gb:note#GB03_2_BR114_0_note_002_66_9-10" xml:id="start_com_1037"/>an dem unsteten 
+<anchor xml:id="GB03_1_BR114_0_066_010"/>Menschen<ref xml:id="end_com_1037"/> noch Theil, der seit er dir <ref target="gb:note#GB03_2_BR114_0_note_003_66_10" xml:id="start_com_1038"/>nichts von sich schrieb<ref xml:id="end_com_1038"/>, <ref target="gb:note#GB03_2_BR114_0_note_004_66_10-11" xml:id="start_com_1039"/>seltsame 
+<anchor xml:id="GB03_1_BR114_0_066_011"/>Schicksaale<ref xml:id="end_com_1039"/> gehabt hat. Ich fühle dass ich <ref target="gb:note#GB03_2_BR114_0_note_005_66_11" xml:id="start_com_1040"/>dir nicht alles sagen kann<ref xml:id="end_com_1040"/>
+        <anchor xml:id="GB03_1_BR114_0_066_012"/>drum mag ich nichts sagen. Adieu! –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_066_013"/>In <ref target="gb:note#GB03_2_BR114_0_note_006_66_13" xml:id="start_com_1041"/>meinem Garten<ref xml:id="end_com_1041"/> Gustgen gegen 10. Hab ein liebes Gärtgen <ref target="gb:note#GB03_2_BR114_0_note_007_66_13" xml:id="start_com_1042"/>vom<ref xml:id="end_com_1042"/>
+        <anchor xml:id="GB03_1_BR114_0_066_014"/>Thore an der Ilm schönen Wiesen in einem Thale. ist <ref target="gb:note#GB03_2_BR114_0_note_008_66_14-15" xml:id="start_com_1043"/>ein altes Hausgen 
+<anchor xml:id="GB03_1_BR114_0_066_015"/>drinne, das ich<ptr n="1" target="#a001_66.15"/> mir repariren lasse<ref xml:id="end_com_1043"/>. Alles blüht alle Vögel singen. 
+<anchor xml:id="GB03_1_BR114_0_066_016"/>Gustgen und <ref target="gb:note#GB03_2_BR114_0_note_009_66_16" xml:id="start_com_1044"/>du bist kranck<ref xml:id="end_com_1044"/>! –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_066_017"/>d<g ref="#typoSuspension"/>. 18 May Gestern konnt ich dir nichts mehr sagen. Der <ref target="gb:note#GB03_2_BR114_0_note_010_66_17-18" xml:id="start_com_1045"/>Husarn 
+<anchor xml:id="GB03_1_BR114_0_066_018"/>Rittmeister<ref xml:id="end_com_1045"/> kam in meinen Garten, ich ritt um eilf nach dem <ref target="gb:note#GB03_2_BR114_0_note_011_66_18-19" xml:id="start_com_1046"/>Lustschloss 
+<anchor xml:id="GB03_1_BR114_0_066_019"/>Belvedere<ref xml:id="end_com_1046"/>
+        <ptr n="2" target="#a002_66.19"/> wo ich hinten im Garten eine Einsiedeley anlege, 
+<anchor xml:id="GB03_1_BR114_0_066_020"/>allerley Pläzgen drinn für arme Krancke und bekümmerte Herzen. 
+<anchor xml:id="GB03_1_BR114_0_066_021"/>Ich <ref target="gb:note#GB03_2_BR114_0_note_012_66_21" xml:id="start_com_1047"/>ass mit dem Herzog<ref xml:id="end_com_1047"/>, nach Tisch ging ich <ref target="gb:note#GB03_2_BR114_0_note_013_66_21" xml:id="start_com_1048"/>zur Frau v. Stein<ref xml:id="end_com_1048"/> einem 
+<anchor xml:id="GB03_1_BR114_0_066_022"/>Engel von einem Weibe, <ref target="gb:note#GB03_2_BR114_0_note_014_66_22" xml:id="start_com_1049"/>frag die Brüder<ref xml:id="end_com_1049"/>, der ich so offt die Beruhigung 
+<anchor xml:id="GB03_1_BR114_0_066_023"/>meines Herzens und manche der reinsten Glückseeligkeiten<ptr n="3" target="#a003_66.23"/> zu 
+<anchor xml:id="GB03_1_BR114_0_066_024"/>verdancken habe<ptr n="4" target="#a004_66.24"/>. Der ich noch nichts von dir erzählt habe, dass mir 
+<anchor xml:id="GB03_1_BR114_0_066_025"/>viel Gewalt<ptr n="5" target="#a005_66.25"/> gekostet hat, <ref target="gb:note#GB03_2_BR114_0_note_015_66_25" xml:id="start_com_1050"/>heut aber will ich’s thun<ref xml:id="end_com_1050"/> will ich tausend 
+<anchor xml:id="GB03_1_BR114_0_067_001"/>Sachen<ptr n="6" target="#a006_67.1"/> von Gustgen sagen. Wir gingen in meinen Garten spazieren. 
+<anchor xml:id="GB03_1_BR114_0_067_002"/><ref target="gb:note#GB03_2_BR114_0_note_016_67_2" xml:id="start_com_1051"/>Ihr Mann<ref xml:id="end_com_1051"/> <ref target="gb:note#GB03_2_BR114_0_note_017_67_2" xml:id="start_com_1052"/>ihre Kinder<ref xml:id="end_com_1052"/> <ref target="gb:note#GB03_2_BR114_0_note_018_67_2" xml:id="start_com_1053"/>ihr Bruder<ref xml:id="end_com_1053"/> ein paar <ref target="gb:note#GB03_2_BR114_0_note_019_67_2" xml:id="start_com_1054"/>Frau<g ref="#typoSuspension"/>. Ilten<ref xml:id="end_com_1054"/>. es kamen mehr 
+<anchor xml:id="GB03_1_BR114_0_067_003"/>zu uns wir gingen spazieren, begegneten der <ref target="gb:note#GB03_2_BR114_0_note_020_67_3" xml:id="start_com_1055"/>Herzoginn Mutter<ref xml:id="end_com_1055"/> und 
+<anchor xml:id="GB03_1_BR114_0_067_004"/>dem <ref target="gb:note#GB03_2_BR114_0_note_021_67_4" xml:id="start_com_1056"/>Prinzen<ref xml:id="end_com_1056"/>, die sich zu uns. Wir waren ganz vergnügt. Ich verlies 
+<anchor xml:id="GB03_1_BR114_0_067_005"/>die Gesellschafft, ging noch einen Augenblick zum Herzog und <ref target="gb:note#GB03_2_BR114_0_note_022_67_5-6" xml:id="start_com_1057"/>ass 
+<anchor xml:id="GB03_1_BR114_0_067_006"/>mit Fr. v. Stein zu Nacht<ref xml:id="end_com_1057"/>. Nun ists wieder schöner heitrer Tag. Soviel 
+<anchor xml:id="GB03_1_BR114_0_067_007"/>iezt. halb 9.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_067_008"/>12 Uhr in meinem Garten. Da lass ich mir von den Vögeln was 
+<anchor xml:id="GB03_1_BR114_0_067_009"/>vorsingen, und <ref target="gb:note#GB03_2_BR114_0_note_023_67_9" xml:id="start_com_1058"/>zeichne Rasenbäncke<ref xml:id="end_com_1058"/> die ich will anlegen lassen,<ptr n="7" target="#a007_67.9"/>
+        <anchor xml:id="GB03_1_BR114_0_067_010"/>damit Ruhe über meine Seele komme, und ich wieder von vorne mög 
+<anchor xml:id="GB03_1_BR114_0_067_011"/>anfangen zu tragen und zu leiden. Gustgen könnt ich dir von meiner 
+<anchor xml:id="GB03_1_BR114_0_067_012"/>Lage sagen! die erwünschteste für mich, die glücklichste, und dann 
+<anchor xml:id="GB03_1_BR114_0_067_013"/>wieder – Ich sagte immer in meiner Jugend zu mir da so viel tausend 
+<anchor xml:id="GB03_1_BR114_0_067_014"/>Empfindungen das schwanckende Ding bestürmten: Was das Schicksal 
+<anchor xml:id="GB03_1_BR114_0_067_015"/>mit mir will, dass es mich durch all <ref target="gb:note#GB03_2_BR114_0_note_024_67_15" xml:id="start_com_1059"/>die Schulen<ref xml:id="end_com_1059"/> gehn lässt, es hat gewiss 
+<anchor xml:id="GB03_1_BR114_0_067_016"/>vor pp<ptr n="8" target="#a008_67.16"/> Ich<ptr n="9" target="#a009_67.16"/> hab das <ref target="gb:note#GB03_2_BR114_0_note_025_67_16" xml:id="start_com_1060"/>ausgestrichen<ref xml:id="end_com_1060"/> weils dunckel und unbestimmt 
+<anchor xml:id="GB03_1_BR114_0_067_017"/>gesagt<ptr n="10" target="#a010_67.17"/> war. Nach Tische mehr. <pb n="2" facs="gb:digitalisate#10896/20988"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_067_018"/>Sonnabends Nachts 10 <ref target="gb:note#GB03_2_BR114_0_note_026_67_18" xml:id="start_com_1061"/>in meinem Garten<ref xml:id="end_com_1061"/>. Ich habe meinen <ref target="gb:note#GB03_2_BR114_0_note_027_67_18" xml:id="start_com_1062"/>Philipp<ref xml:id="end_com_1062"/> <anchor xml:id="GB03_1_BR114_0_067_019"/><ref target="gb:note#GB03_2_BR114_0_note_028_67_19" xml:id="start_com_1063"/>nach Hause<ref xml:id="end_com_1063"/> geschickt und will allein hier <ref target="gb:note#GB03_2_BR114_0_note_029_67_19" xml:id="start_com_1064"/>zum erstenmal schlafen<ref xml:id="end_com_1064"/>. 
+<anchor xml:id="GB03_1_BR114_0_067_020"/>Und so meinen Schlaf einweihen dass ich dir schreibe. Die <ref target="gb:note#GB03_2_BR114_0_note_030_67_20" xml:id="start_com_1065"/>Maurer<ref xml:id="end_com_1065"/>
+        <anchor xml:id="GB03_1_BR114_0_067_021"/>haben gearbeit biss Nacht ich wollt sie aus dem Haus haben, wollte<ptr n="11" target="#a011_67.21"/> – 
+<anchor xml:id="GB03_1_BR114_0_067_022"/><unclear reason="illegible">ia</unclear> ich kann dir nicht ins Detail<ptr n="12" target="#a012_67.22"/> gehn. Den ganzen Nachmittag war <ref target="gb:note#GB03_2_BR114_0_note_031_67_22-23" xml:id="start_com_1066"/>die 
+<anchor xml:id="GB03_1_BR114_0_067_023"/>Herzoginn Mutter da und der Prinz<ref xml:id="end_com_1066"/> und waren <ref target="gb:note#GB03_2_BR114_0_note_032_67_23" xml:id="start_com_1067"/>guten lieben Humors<ref xml:id="end_com_1067"/>, 
+<anchor xml:id="GB03_1_BR114_0_067_024"/>und ich hab denn so herum <ref target="gb:note#GB03_2_BR114_0_note_033_67_24" xml:id="start_com_1068"/>gehausvatert<ref xml:id="end_com_1068"/>, wie alles weg war, ein Stück 
+<anchor xml:id="GB03_1_BR114_0_067_025"/>kalten<ptr n="13" target="#a013_67.25"/> Braten gessen und mit meinem Philipp, |:lass dir von den Brüdern 
+<anchor xml:id="GB03_1_BR114_0_067_026"/>was von ihm erzählen:| von seiner und meiner Welt geschwäzzt, 
+<anchor xml:id="GB03_1_BR114_0_067_027"/>war ruhig und bin’s und hoffe gut zu schlaffen zu holdem<ptr n="14" target="#a014_67.27"/> Erwachen. 
+<anchor xml:id="GB03_1_BR114_0_067_028"/>Gute Nacht beste. – Es geht gegen<ptr n="15" target="#a015_67.28"/> eilf ich hab noch gesessen und <ref target="gb:note#GB03_2_BR114_0_note_034_67_28-29" xml:id="start_com_1069"/>einen 
+<anchor xml:id="GB03_1_BR114_0_067_029"/>englischen Garten gezeichnet<ref xml:id="end_com_1069"/>. Es ist eine herrliche Empfindung 
+<anchor xml:id="GB03_1_BR114_0_067_030"/>dahausen im Feld allein zu sizzen. Morgen frühe wie schon. Alles ist 
+<anchor xml:id="GB03_1_BR114_0_067_031"/>so still. Ich höre nur meine Uhr <ref target="gb:note#GB03_2_BR114_0_note_035_67_31" xml:id="start_com_1070"/>dackcken<ref xml:id="end_com_1070"/>, und den Wind und <ref target="gb:note#GB03_2_BR114_0_note_036_67_31-68_1" xml:id="start_com_1071"/>das 
+<anchor xml:id="GB03_1_BR114_0_068_001"/>Wehr<ref xml:id="end_com_1071"/> von ferne gute Nacht. <gap reason="damage" unit="chars" quantity="3"/> Sonntag früh<ptr n="16" target="#a016_68.1"/> d<g ref="#typoSuspension"/>. 19. Guten Morgen! 
+<anchor xml:id="GB03_1_BR114_0_068_002"/>ein trüber, aber herrlicher Tag. Ich habe lang geschlafen wachte 
+<anchor xml:id="GB03_1_BR114_0_068_003"/>aber gegen vier auf, wie schön <supplied>war da</supplied>s g<supplied>rün</supplied> dem Auge das sich 
+<anchor xml:id="GB03_1_BR114_0_068_004"/>halbtruncken aufthat. Da schlief ich wieder ein.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_068_005"/>Nachts 10. Im Garten versteht sich iezt von selbst. ging um eilf 
+<anchor xml:id="GB03_1_BR114_0_068_006"/>heut früh in die Stadt steckte mich in <ref target="gb:note#GB03_2_BR114_0_note_037_68_6" xml:id="start_com_1072"/>erbaare Kleider<ref xml:id="end_com_1072"/>, machte <ref target="gb:note#GB03_2_BR114_0_note_038_68_6-7" xml:id="start_com_1073"/>eine 
+<anchor xml:id="GB03_1_BR114_0_068_007"/>Visite<ref xml:id="end_com_1073"/>, ging zum<ptr n="17" target="#a017_68.7"/> Herzog, einen Augenblick zur Herzoginn Mutter, 
+<anchor xml:id="GB03_1_BR114_0_068_008"/>wir haben <ref target="gb:note#GB03_2_BR114_0_note_039_68_8" xml:id="start_com_1074"/>Italiäners hier die uns gute Güsse der Antiken schaffen<ref xml:id="end_com_1074"/>, 
+<anchor xml:id="GB03_1_BR114_0_068_009"/>dann <ref target="gb:note#GB03_2_BR114_0_note_040_68_9" xml:id="start_com_1075"/>bey Fr. v. St. zu Tisch<ref xml:id="end_com_1075"/>, wir hatten Lust uns zu necken, um vier 
+<anchor xml:id="GB03_1_BR114_0_068_010"/><ref target="gb:note#GB03_2_BR114_0_note_041_68_10" xml:id="start_com_1076"/>zu Wieland<ref xml:id="end_com_1076"/> in Garten wo der <ref target="gb:note#GB03_2_BR114_0_note_042_68_10" xml:id="start_com_1077"/>Mahler Krause<ref xml:id="end_com_1077"/> dazu kam. Beyde mit 
+<anchor xml:id="GB03_1_BR114_0_068_011"/>mir in meinen Garten. Sie verliesen mich ich las <ref target="gb:note#GB03_2_BR114_0_note_043_68_11" xml:id="start_com_1078"/>Guibert s Tacktick<ref xml:id="end_com_1078"/>, 
+<anchor xml:id="GB03_1_BR114_0_068_012"/><ref target="gb:note#GB03_2_BR114_0_note_044_68_12" xml:id="start_com_1079"/>da kam der Herzog und der Prinz<ref xml:id="end_com_1079"/> mit noch <ref target="gb:note#GB03_2_BR114_0_note_045_68_12" xml:id="start_com_1080"/>zween Guten Geistern<ref xml:id="end_com_1080"/>. 
+<anchor xml:id="GB03_1_BR114_0_068_013"/>Wir schwazzten und trieben allerley. Fr von Stein mit <ref target="gb:note#GB03_2_BR114_0_note_046_68_13" xml:id="start_com_1081"/>ihrer Mutter<ref xml:id="end_com_1081"/>
+        <anchor xml:id="GB03_1_BR114_0_068_014"/>kam von <ref target="gb:note#GB03_2_BR114_0_note_047_68_14" xml:id="start_com_1082"/>Oberweimar<ref xml:id="end_com_1082"/> herunter spazieren wir begleiteten sie, kehrten 
+<anchor xml:id="GB03_1_BR114_0_068_015"/>um, der Prinz verlies uns auch, ich erzählte dem Herzog eine <ref target="gb:note#GB03_2_BR114_0_note_048_68_15-16" xml:id="start_com_1083"/>Geschichte 
+<anchor xml:id="GB03_1_BR114_0_068_016"/>eines meiner Freunde<ref xml:id="end_com_1083"/> der sich wunderlich durch die Welt 
+<anchor xml:id="GB03_1_BR114_0_068_017"/>schlagen musste, begleitet ihn nach der Stadt, und kam allein zurück. 
+<anchor xml:id="GB03_1_BR114_0_068_018"/>Hir treu mein Tag. lieb Gustgen. Ich hab so viel gedacht! Dass ich’s 
+<anchor xml:id="GB03_1_BR114_0_068_019"/>doch nur nicht so hin sagen kann. <pb n="3" facs="gb:digitalisate#10896/20989"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_068_020"/>Montag d<g ref="#typoSuspension"/>. 20. Süsser Morgen. <ref target="gb:note#GB03_2_BR114_0_note_049_68_20" xml:id="start_com_1084"/>Arbeiter in meinem Garten<ref xml:id="end_com_1084"/>. Allerley 
+<anchor xml:id="GB03_1_BR114_0_068_021"/>beschäfftigungen! – — — —</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_068_022"/>Bey der Herzoginn Mutter gessen Nach Tische ging alles <ref target="gb:note#GB03_2_BR114_0_note_050_68_22-23" xml:id="start_com_1085"/>nach 
+<anchor xml:id="GB03_1_BR114_0_068_023"/>Tiefurt<ref xml:id="end_com_1085"/> wo der Prinz sich hat ein Pachtgut artig zurecht machen lassen 
+<anchor xml:id="GB03_1_BR114_0_068_024"/>Die Bauern empfingen ihm mit Musik<ptr n="18" target="#a018_68.24"/>, Böllern,<ptr n="19" target="#a019_68.24"/> landlichen Ehrenpforten, 
+<anchor xml:id="GB03_1_BR114_0_068_025"/>Kränzlein, Kuchen, Tanz, Feuerwerckspuffen Serenade und 
+<anchor xml:id="GB03_1_BR114_0_068_026"/>s. w. wir waren vergnügt ich hatte das Glück alles sehr schön zu sehen. 
+<anchor xml:id="GB03_1_BR114_0_068_027"/>Und nun bin ich im Garten hab eine Viertelstunde nach dem Feuerzeug 
+<anchor xml:id="GB03_1_BR114_0_068_028"/>getappt und mich geargert und<ptr n="20" target="#a020_68.28"/> bin so froh dass ich iezt Licht 
+<anchor xml:id="GB03_1_BR114_0_068_029"/>habe dir das zu schreiben. <ref target="gb:note#GB03_2_BR114_0_note_051_68_29" xml:id="start_com_1086"/>Dadrüben auf dem Schlosse<ref xml:id="end_com_1086"/> sah ich viel 
+<anchor xml:id="GB03_1_BR114_0_068_030"/>Licht indess ich nach Einem Funcken schnappte, und wusste doch 
+<anchor xml:id="GB03_1_BR114_0_068_031"/>dass der Herzog<ptr n="21" target="#a021_68.31"/> gern mit mir getauscht hätte, wenn er’s in dem Augenblick 
+<anchor xml:id="GB03_1_BR114_0_068_032"/>hätte wissen können. Es ist <ref target="gb:note#GB03_2_BR114_0_note_052_68_32" xml:id="start_com_1087"/>ein trefflicher Junge<ref xml:id="end_com_1087"/> und wird 
+<anchor xml:id="GB03_1_BR114_0_068_033"/>wills Gott auch <ref target="gb:note#GB03_2_BR114_0_note_053_68_33" xml:id="start_com_1088"/>ausgähren<ref xml:id="end_com_1088"/>. <ref target="gb:note#GB03_2_BR114_0_note_054_68_33" xml:id="start_com_1089"/>Friz wird gute Tage mit uns haben<ref xml:id="end_com_1089"/>, so wenig 
+<anchor xml:id="GB03_1_BR114_0_068_034"/>ich ihm ein Paradies verspreche. Gute Nacht. Eine grose Bitte hab 
+<anchor xml:id="GB03_1_BR114_0_069_001"/>ich! – <ref target="gb:note#GB03_2_BR114_0_note_055_69_1" xml:id="start_com_1090"/>Meine Schwester<ref xml:id="end_com_1090"/> der ich so lang geschwiegen habe als dir, plagt 
+<anchor xml:id="GB03_1_BR114_0_069_002"/>mich wieder heute um Nachrichten oder so was von mir. <ref target="gb:note#GB03_2_BR114_0_note_056_69_2-3" xml:id="start_com_1091"/>Schick ihr 
+<anchor xml:id="GB03_1_BR114_0_069_003"/>diesen Brief, und schreib ihr!<ref xml:id="end_com_1091"/> O dass ihr verbunden wärt! Dass in ihrer 
+<anchor xml:id="GB03_1_BR114_0_069_004"/>Einsamkeit ein Lichstral von dir auf sie hin leuchtete, und wieder von 
+<anchor xml:id="GB03_1_BR114_0_069_005"/>ihr ein Trostwort zur Stunde der Noth herüber zu dir käme. <ref target="gb:note#GB03_2_BR114_0_note_057_69_5-6" xml:id="start_com_1092"/>Lernt<ptr n="22" target="#a022_69.5"/>
+        <anchor xml:id="GB03_1_BR114_0_069_006"/>euch kennen.<ref xml:id="end_com_1092"/> Seyd einander was ich euch nicht seyn kann<ptr n="23" target="#a023_69.6"/>. Was rechte 
+<anchor xml:id="GB03_1_BR114_0_069_007"/>Weiber sind sollten keine<ptr n="24" target="#a024_69.7"/> Männer lieben, wir sinds nicht werth. Gute 
+<anchor xml:id="GB03_1_BR114_0_069_008"/>Nacht halb eilfe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_069_009"/>Dienstag d<g ref="#typoSuspension"/>. 21. früh 6 aufgestanden herrlicher kühler Sonnenmorgen. 
+<anchor xml:id="GB03_1_BR114_0_069_010"/>Arbeiter im Garten. Ein Jäger bringt mir <ref target="gb:note#GB03_2_BR114_0_note_058_69_10" xml:id="start_com_1093"/>einen iungen Fuchs<ref xml:id="end_com_1093"/>. <pb n="4" facs="gb:digitalisate#10896/20990"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_069_011"/>Mittwoch d<g ref="#typoSuspension"/>. 22. um 10 Uhr. Gestern<ptr n="25" target="#a025_69.11"/> wieder nach Tiefurth die 
+<anchor xml:id="GB03_1_BR114_0_069_012"/><ref target="gb:note#GB03_2_BR114_0_note_059_69_12" xml:id="start_com_1094"/>regierende Herzoginn<ref xml:id="end_com_1094"/> war dort. Der Herzog und <ref target="gb:note#GB03_2_BR114_0_note_060_69_12" xml:id="start_com_1095"/>noch einige<ref xml:id="end_com_1095"/> blieben 
+<anchor xml:id="GB03_1_BR114_0_069_013"/>die Nacht drausen, heut früh ritten wir herein dem <ref target="gb:note#GB03_2_BR114_0_note_061_69_13-14" xml:id="start_com_1096"/>Maneuvre der 
+<anchor xml:id="GB03_1_BR114_0_069_014"/>Husaren<ref xml:id="end_com_1096"/> zuzusehn und nun bin ich wieder in meinem Garten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR114_0_069_015"/>Freytag d<g ref="#typoSuspension"/>. 24 Morgens eilf in der Stadt. Habe viel ausgestanden 
+<anchor xml:id="GB03_1_BR114_0_069_016"/>die Zeit. Mittw. Nachmittag <ref target="gb:note#GB03_2_BR114_0_note_062_69_16" xml:id="start_com_1097"/>brach ein Feuer aus im Hazfeldischen<ref xml:id="end_com_1097"/>
+        <anchor xml:id="GB03_1_BR114_0_069_017"/>5 Stunden von hier der Herzog ritt hinaus <ref target="gb:note#GB03_2_BR114_0_note_063_69_17-18" xml:id="start_com_1098"/>biss wir hin kamen lag das 
+<anchor xml:id="GB03_1_BR114_0_069_018"/>ganze Dorf nieder<ref xml:id="end_com_1098"/>, es war nur noch um<ptr n="26" target="#a026_69.18"/> Trümmern zu retten und die 
+<anchor xml:id="GB03_1_BR114_0_069_019"/>Schul und die Kirche. Es war ein groser Anblick ich stand auf einem 
+<anchor xml:id="GB03_1_BR114_0_069_020"/>Hause<ptr n="27" target="#a027_69.20"/> wo das Dach<ptr n="28" target="#a028_69.20"/> herunter war und wo unsre Schlauchsprizze nur 
+<anchor xml:id="GB03_1_BR114_0_069_021"/>das untre noch erhalten sollte<ptr n="29" target="#a029_69.21"/>, und sieh Gustgen und hinter und vor 
+<anchor xml:id="GB03_1_BR114_0_069_022"/>und neben mir feine<ptr n="30" target="#a030_69.22"/> Glut, nicht Flamme, tiefe hohlaugige <hi rendition="#hervor1">Glut</hi> des 
+<anchor xml:id="GB03_1_BR114_0_069_023"/>niedergesuncknen Orts, und der Wind drein und dann wieder da eine 
+<anchor xml:id="GB03_1_BR114_0_069_024"/>Auffahrende<ptr n="31" target="#a031_69.24"/> Flamme, und die herrlichen alten Bäume um’s ort inwendig 
+<anchor xml:id="GB03_1_BR114_0_069_025"/>in ihren hohlen Stämmen glühend und der rothe dampf in 
+<anchor xml:id="GB03_1_BR114_0_069_026"/>der Nacht und die Sterne roth und der neue Mond sich verbergend 
+<anchor xml:id="GB03_1_BR114_0_069_027"/>in Wolcken. Wir kamen erst <ref target="gb:note#GB03_2_BR114_0_note_064_69_27" xml:id="start_com_1099"/>Nachts zwey<ref xml:id="end_com_1099"/> wieder nach Hause. Gestern 
+<anchor xml:id="GB03_1_BR114_0_069_028"/>Donnest d<g ref="#typoSuspension"/>. 23 ist mir auch wieder <ref target="gb:note#GB03_2_BR114_0_note_065_69_28" xml:id="start_com_1100"/>wunderbaars<ref xml:id="end_com_1100"/> Wesen um den 
+<anchor xml:id="GB03_1_BR114_0_069_029"/>Kopf gezogen –. Was wirds werden, ich hab eben noch viel auszustehen, 
+<anchor xml:id="GB03_1_BR114_0_069_030"/>das ists was ich in allen Drangsaalen meiner Jugend fühlte, aber 
+<anchor xml:id="GB03_1_BR114_0_069_031"/>gestählt bin ich auch, und will ausdauern bis ans Ende. Adieu. Nun 
+<anchor xml:id="GB03_1_BR114_0_069_032"/>hörst du wieder eine Weile nichts von mir. Schreib mir aber wann 
+<anchor xml:id="GB03_1_BR114_0_069_033"/>dichs freut. <ref target="gb:note#GB03_2_BR114_0_note_066_69_33" xml:id="start_com_1101"/>Friz soll kommen<ref xml:id="end_com_1101"/> wann er gerne mag der Herzog hat ihn 
+<anchor xml:id="GB03_1_BR114_0_070_001"/>lieb wünscht ihn ie eher ie lieber, will ihn aber nicht engen. Adieu. 
+<anchor xml:id="GB03_1_BR114_0_070_002"/>Ich bin ewig derselbe.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR114_0_070_003"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR114_0_070_004"/>An meine Schwester die Addresse.</p>
+        <p rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR114_0_070_005"/>Frau Hofrath Schlosser</p>
+        <p rendition="#einrueck6">
+          <anchor xml:id="GB03_1_BR114_0_070_006"/>nach</p>
+        <p>
+          <anchor xml:id="GB03_1_BR114_0_070_007"/>fr. Rheinhausen.            <ref target="gb:note#GB03_2_BR114_0_note_067_70_7" xml:id="start_com_1102"/>Emmedingen im Brisgau<ref xml:id="end_com_1102"/>
+        </p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10896_comment">
+<body>
+<div type="metadata" xml:id="gb10896_comment_com699">
+  <ab type="numberAddressee"><label>114.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 17.-24. Mai <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10896_comment_com1722">
+  <p>Das Jahr lässt sich nach inhaltlichen Parallelen zum Tagebuch Goethes aus dem Mai 1776 (vgl. u. a. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR114_0_note_006_66_13">66,13</ref>; zu <ref target="gb:note#GB03_2_BR114_0_note_012_66_21">66,21</ref>) und den Bezügen zum Brief vom 16. Mai 1776 (<ref target="gb:dokument#10876">Nr 104</ref>) erschließen (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_001_66_9">66,9</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10896_comment_com2743">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 25751, ehemals Slg Brockhaus. – Doppelblatt 18 × 25,8 cm, Papier stark gebräunt, 4 S. beschr., egh., Tinte, flüchtig geschrieben; ältere Restaurierungsspuren, Textverlust (<ref target="gb:text#GB03_1_BR114_0_068_001">68,1</ref>; <ref target="gb:text#GB03_1_BR114_0_068_003">68,3</ref>).</p>
+  <p>E: <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> (1839), 118–123, Nr 14.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 64–70, Nr 463.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10896_comment_com4539">
+  <p>Der vorliegende Brief beantwortet wie schon der Brief vom 16. Mai 1776 (<ref target="gb:dokument#10876">Nr 104</ref>) einen nicht überlieferten Brief Augusta zu Stolbergs von Anfang Mai 1776 (vgl. zu <ref target="gb:note#GB03_2_BR104_0_note_001_62_12">62,12</ref>; zu <ref target="gb:note#GB03_2_BR114_0_note_001_66_9">66,9</ref>). – Der Antwortbrief ist nicht überliefert (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_007_100_22">100,22</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10896_comment_com17493">
+<label xml:id="GB03_2_BR114_0_note_001_66_9" copyOf="#start_com_1036"><hi rendition="#fett">66,9</hi>Grundlage eines Tagbuchs</label>
+<p>Am Tag zuvor hatte Goethe brieflich angekündigt: <quote type="G">Ja Gustgen Morgen fang ich dir ein Journal an!</quote> (<ref target="gb:text#GB03_1_BR104_0_062_017 #GB03_1_BR104_0_062_018">62,17–18</ref>; vgl. zu <ref target="gb:note#GB03_2_BR104_0_note_003_62_17-18">62,17-18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9875">
+<label xml:id="GB03_2_BR114_0_note_002_66_9-10" copyOf="#start_com_1037"><hi rendition="#fett">66,9-10</hi>an dem unsteten Menschen</label>
+<p>Im Gegensatz dazu hatte Goethe in seinen beiden vorangegangenen Briefen an Augusta zu Stolberg stets betont, dass er noch <quote type="G">ihr Alter</quote> (<ref target="gb:text#GB03_1_BR078_0_051_004">51,4</ref>) und <quote type="G">immer derselbe</quote> (<ref target="gb:text#GB03_1_BR104_0_062_019">62,19</ref>) sei. – Wohl auch in Anklang an den Fluch Gottes, mit dem er Kain straft: „<gap quantity="3" reason="editorial"/> unstät und flüchtig sollt du seyn auf erden.“ (1 Mose 4,12; Luther-Bibel 1772 AT, 4.) Mit Kain hatte Goethe sich wiederholt in früheren Briefen verglichen (vgl. <ref target="gb:note#GB02_2_BR042_0_note_013_32_20">GB 2 II, zu 32,20</ref>; zu <ref target="gb:note#GB02_2_BR249_0_note_003_198_15">198,15</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com14836">
+<label xml:id="GB03_2_BR114_0_note_003_66_10" copyOf="#start_com_1038"><hi rendition="#fett">66,10</hi>nichts von sich schrieb</label>
+<p>Goethe hatte seit seiner Ankunft in Weimar am 7. November 1775 bis zum Mai 1776 nur viermal an Augusta zu Stolberg geschrieben, zumeist äußerst knapp und ohne viel von seinem Leben preiszugeben (vgl. zu <ref target="gb:text#GB03_1_BR104_0_062_018">62,18–19</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com17494">
+<label xml:id="GB03_2_BR114_0_note_004_66_10-11" copyOf="#start_com_1039"><hi rendition="#fett">66,10-11</hi>seltsame Schicksaale</label>
+<p>‚Schicksal‘ hier: unwillkürliche Veränderungen; Begebenheiten, deren Ursachen im Verborgenen liegen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1339). – Wahrscheinlich vor allem mit Bezug auf Goethes Entschluss, nicht nur besuchsweise, sondern dauerhaft in Weimar zu bleiben, den er zuerst am 19. Februar 1776 gegenüber Johanna Fahlmer geäußert hatte (vgl. <ref target="gb:text#GB03_1_BR046_0_032_013">32,13</ref>). Ausschlaggebend dafür war neben der Freundschaft zu Herzog Carl August das zunehmend enger werdende Verhältnis zu Charlotte von Stein. Spätestens seit März 1776 stand fest, dass Goethe zum Legationsrat und Mitglied des Geheimen Consiliums berufen werden würde, im April hatte er mit der Inbesitznahme des Gartens am „Stern“ auch das Weimarer Bürgerrecht erhalten.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9887">
+<label xml:id="GB03_2_BR114_0_note_005_66_11" copyOf="#start_com_1040"><hi rendition="#fett">66,11</hi>dir nicht alles sagen kann</label>
+<p>Vor allem mit Bezug auf das Verhältnis zu Charlotte von Stein, von dem im Folgenden dann doch die Rede ist.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9888">
+<label xml:id="GB03_2_BR114_0_note_006_66_13" copyOf="#start_com_1041"><hi rendition="#fett">66,13</hi>meinem Garten</label>
+<p>Goethes Garten oberhalb des „Sterns“, des ältesten Teils des Schlossparks, den er laut Tagebuch am 21. April 1776 <quote type="G">in besiz genommen</quote> hatte (<ref target="gt:dokument#22">GT I 1, 17</ref>; Näheres vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9889">
+<label xml:id="GB03_2_BR114_0_note_007_66_13" copyOf="#start_com_1042"><hi rendition="#fett">66,13</hi>vom</label>
+<p>Versehentlich für ‚vorm‘.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9890">
+<label xml:id="GB03_2_BR114_0_note_008_66_14-15" copyOf="#start_com_1043"><hi rendition="#fett">66,14-15</hi>ein altes Hausgen <gap quantity="3" reason="editorial"/> repariren lasse</label>
+<p>Das Gartenhaus war vernachlässigt und halb verfallen, das Dach undicht und Treppen und Fußböden morsch, so dass das Haus erst bewohnbar gemacht werden musste.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9891">
+<label xml:id="GB03_2_BR114_0_note_009_66_16" copyOf="#start_com_1044"><hi rendition="#fett">66,16</hi>du bist kranck</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR078_0_note_001_51_1">51,1</ref>.</p>
+
+</note>
+<note xml:id="gb10896_comment_com14852">
+<label xml:id="GB03_2_BR114_0_note_010_66_17-18" copyOf="#start_com_1045"><hi rendition="#fett">66,17-18</hi>Husarn Rittmeister</label>
+<p>Carl Friedrich von Lichtenberg, Weimarer Husaren-Rittmeister und herzoglicher Adjutant.</p>
+
+</note>
+<note xml:id="gb10896_comment_com17546">
+<label xml:id="GB03_2_BR114_0_note_011_66_18-19" copyOf="#start_com_1046"><hi rendition="#fett">66,18-19</hi>Lustschloss Belvedere</label>
+<p>Schloss Belvedere, auf einer Anhöhe etwa 3 km südlich von Weimar gelegen und durch die Belvederer Allee mit der Stadt verbunden, wurde unter Herzog Ernst August von Sachsen-Weimar und Eisenach im Wesentlichen zwischen 1724 und 1732 nach Plänen von Johann Adolf Richter und Gottfried Heinrich Krohne errichtet und diente der herzoglichen Familie als Sommerresidenz. Neben dem barocken Schloss gab es Kavaliershäuser, Uhrenpavillons, Stallungen und Wirtschaftsgebäude sowie eine Orangerie. Die strenge Symmetrie der barock angelegten Parkanlage wurde seit Anna Amalias Regierungsantritt allmählich im Sinne der englischen Gartenkultur gelockert. Es entstanden kleine Schmuckplätze und dekorative Architektur wie künstliche Ruinen sowie zwei so genannte Einsiedeleien, die der zwanglosen Geselligkeit dienten. Im Gartenteil des Parks und in der Orangerie wurden exotische Pflanzen gezogen.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9900">
+<label xml:id="GB03_2_BR114_0_note_012_66_21" copyOf="#start_com_1047"><hi rendition="#fett">66,21</hi>ass mit dem Herzog</label>
+<p>Für den 17. Mai 1776 verzeichnet das Fourierbuch: „Füst<g ref="#typoSuspension"/>. Tafel Mittags 1. Durch<g ref="#typoSuspension"/>. Herzog mit 3 Personen“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 149).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9901">
+<label xml:id="GB03_2_BR114_0_note_013_66_21" copyOf="#start_com_1048"><hi rendition="#fett">66,21</hi>zur Frau v. Stein</label>
+<p>Im Tagebuch vermerkte Goethe unter dem 17. Mai 1776: <quote type="G">mit St im Garten</quote> (<ref target="gt:dokument#43">GT I 1, 18</ref>). Am selben Tag schrieb er an Charlotte von Stein: <quote type="G">Dancke beste für den guten Morgen. Ich komme mit Ihnen zu essen und bring allerley mit.</quote> (<ref target="gb:text#GB03_1_BR106_0_063_007 #GB03_1_BR106_0_063_008">63,7–8</ref>.)</p>
+
+</note>
+<note xml:id="gb10896_comment_com17499">
+<label xml:id="GB03_2_BR114_0_note_014_66_22" copyOf="#start_com_1049"><hi rendition="#fett">66,22</hi>frag die Brüder</label>
+<p>Christian und Friedrich Leopold zu Stolberg hatten sich vom 26. November bis 3. Dezember 1775 in Weimar aufgehalten (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_022_4_10">4,10</ref>) und Charlotte von Stein kennen gelernt. Am 6. Dezember 1775 schrieb Friedrich Leopold zu Stolberg an seine Schwester Henriette Bernstorff: „Eine Frau von Stein, Oberstallmeisterin, ist ein allerliebstes, schönes Weibchen.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 65; vgl. den Teildruck des Briefes in der Erläuterung zu <ref target="gb:note#GB03_2_BR002_0_note_027_4_20">4,21</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9902">
+<label xml:id="GB03_2_BR114_0_note_015_66_25" copyOf="#start_com_1050"><hi rendition="#fett">66,25</hi>heut aber will ich’s thun</label>
+<p>Wie damals fast täglich, so plante Goethe auch für den 18. Mai einen Besuch bei Charlotte von Stein, den er brieflich ankündigte (vgl. <ref target="gb:text#GB03_1_BR107_0_063_014 #GB03_1_BR107_0_063_015">63,14–15</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9911">
+<label xml:id="GB03_2_BR114_0_note_016_67_2" copyOf="#start_com_1051"><hi rendition="#fett">67,2</hi>Ihr Mann</label>
+<p>Josias von Stein, herzoglicher Oberstallmeister.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9912">
+<label xml:id="GB03_2_BR114_0_note_017_67_2" copyOf="#start_com_1052"><hi rendition="#fett">67,2</hi>ihre Kinder</label>
+<p>Die drei Söhne Carl, Ernst und Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9913">
+<label xml:id="GB03_2_BR114_0_note_018_67_2" copyOf="#start_com_1053"><hi rendition="#fett">67,2</hi>ihr Bruder</label>
+<p>Gemeint sein könnten sowohl der 1744 geborene Carl von Schardt, Geheimer Regierungsrat in Weimar, als auch der jüngere, 1748 geborene Ludwig von Schardt, herzoglicher Kammer- und Jagdjunker am Weimarer Hof.</p>
+
+</note>
+<note xml:id="gb10896_comment_com85636">
+<label xml:id="GB03_2_BR114_0_note_019_67_2" copyOf="#start_com_1054"><hi rendition="#fett">67,2</hi>Frau<g ref="#typoSuspension"/>. Ilten</label>
+<p>Die früh verwaisten Schwestern Sophie und Caroline von Ilten (vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb52739_comment_com5212">Nr 433</ref> und <ref target="gb:note#gb52723_comment_com5197">449</ref>)</p>
+</note>
+<note xml:id="gb10896_comment_com9914">
+<label xml:id="GB03_2_BR114_0_note_020_67_3" copyOf="#start_com_1055"><hi rendition="#fett">67,3</hi>Herzoginn Mutter</label>
+<p>Anna Amalia von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9915">
+<label xml:id="GB03_2_BR114_0_note_021_67_4" copyOf="#start_com_1056"><hi rendition="#fett">67,4</hi>Prinzen</label>
+<p>Constantin von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9916">
+<label xml:id="GB03_2_BR114_0_note_022_67_5-6" copyOf="#start_com_1057"><hi rendition="#fett">67,5-6</hi>ass mit Fr. v. Stein zu Nacht</label>
+<p>Im Tagebuch vermerkte Goethe am 17. Mai: <quote type="G">bey St zu nacht.</quote> (<ref target="gt:dokument#43">GT I 1, 18</ref>.)</p>
+
+</note>
+<note xml:id="gb10896_comment_com14894">
+<label xml:id="GB03_2_BR114_0_note_023_67_9" copyOf="#start_com_1058"><hi rendition="#fett">67,9</hi>zeichne Rasenbäncke</label>
+<p>Für die Neu- und Umgestaltung des Gartens am „Stern“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_004_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9651">
+<label xml:id="GB03_2_BR114_0_note_024_67_15" copyOf="#start_com_1059"><hi rendition="#fett">67,15</hi>die Schulen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR004_0_note_002_5_15">5,15</ref>.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9928">
+<label xml:id="GB03_2_BR114_0_note_025_67_16" copyOf="#start_com_1060"><hi rendition="#fett">67,16</hi>ausgestrichen</label>
+<p>Vgl. Var. zu <ref target="gb:text#GB03_1_BR114_0_067_016">67,16</ref>.</p>
+
+</note>
+<note xml:id="gb10896_comment_com14939">
+<label xml:id="GB03_2_BR114_0_note_026_67_18" copyOf="#start_com_1061"><hi rendition="#fett">67,18</hi>in meinem Garten</label>
+<p>Im Tagebuch vom 18. Mai 1776 vermerkte Goethe: <quote type="G">Abend im Garten</quote> (<ref target="gt:dokument#44">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9929">
+<label xml:id="GB03_2_BR114_0_note_027_67_18" copyOf="#start_com_1062"><hi rendition="#fett">67,18</hi>Philipp</label>
+<p>Goethes Diener und Sekretär Philipp Friedrich Seidel.</p>
+
+</note>
+<note xml:id="gb10896_comment_com17517">
+<label xml:id="GB03_2_BR114_0_note_028_67_19" copyOf="#start_com_1063"><hi rendition="#fett">67,19</hi>nach Hause</label>
+<p>In die Stadtwohnung. Goethe war am 18. März 1776 aus seiner ersten Weimarer Unterkunft im Stadthaus des Kammerpräsidenten Carl Alexander von Kalb, dem damaligen Schwarzburger Hof am Töpfen-Markt (heute Sächsischer Hof am Herderplatz), ausgezogen. Seine erste eigene Wohnung befand sich im Haus des Hofkassierers König am heutigen Burgplatz gegenüber dem Gelben Schloss (heute Herzogin Anna Amalia Bibliothek). Möglicherweise zog Goethe dort aber erst Ende Juni ein, wohnte im Mai vorübergehend also noch in einem anderen Quartier (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9930">
+<label xml:id="GB03_2_BR114_0_note_029_67_19" copyOf="#start_com_1064"><hi rendition="#fett">67,19</hi>zum erstenmal schlafen</label>
+<p>Obwohl sich Goethe eine Wohnung in der Stadt gemietet hatte, hielt er sich häufig im Gartenhaus auf; nach dessen Umbau im Frühjahr 1777 lebte er sogar fast ständig dort. Am 19. Mai 1776 schrieb Goethe an Charlotte von Stein, er habe <quote type="G">Zum erstenmal im Garten geschlafen</quote> (<ref target="gb:text#GB03_1_BR109_0_064_010">64,10</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9931">
+<label xml:id="GB03_2_BR114_0_note_030_67_20" copyOf="#start_com_1065"><hi rendition="#fett">67,20</hi>Maurer</label>
+<p>Sie waren mit der Instandsetzung des verfallenen Gartenhauses befasst.</p>
+
+</note>
+<note xml:id="gb10896_comment_com13626">
+<label xml:id="GB03_2_BR114_0_note_031_67_22-23" copyOf="#start_com_1066"><hi rendition="#fett">67,22-23</hi>die Herzoginn Mutter da und der Prinz</label>
+<p>Anna Amalia und Prinz Constantin. – Im Tagebuch erwähnt Goethe unter dem 18. Mai 1776 nur den Besuch der Herzogin (vgl. <ref target="gt:dokument#44">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9932">
+<label xml:id="GB03_2_BR114_0_note_032_67_23" copyOf="#start_com_1067"><hi rendition="#fett">67,23</hi>guten lieben Humors</label>
+<p>‚Humor‘ hier noch in der älteren Wortbedeutung von ‚Stimmung‛, ‚Laune‛ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4 II, 1905 f.); zumeist als Femininum gebraucht nach franz. la humeur.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9943">
+<label xml:id="GB03_2_BR114_0_note_033_67_24" copyOf="#start_com_1068"><hi rendition="#fett">67,24</hi>gehausvatert</label>
+<p>Hausvatern: okkasionelle Wortbildung Goethes für ‚sich wie ein Hausvater benehmen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 797).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9944">
+<label xml:id="GB03_2_BR114_0_note_034_67_28-29" copyOf="#start_com_1069"><hi rendition="#fett">67,28-29</hi>einen englischen Garten gezeichnet</label>
+<p>Wohl für die Umgestaltung von Goethes Garten am „Stern“ im englischen Stil.</p>
+
+</note>
+<note xml:id="gb10896_comment_com9945">
+<label xml:id="GB03_2_BR114_0_note_035_67_31" copyOf="#start_com_1070"><hi rendition="#fett">67,31</hi>dackcken</label>
+<p>Verschrieben für ‚tacken‘ als Abwandlung zu ‚ticktacken‘: lautmalerisch abgeleitet „vom ton der wanduhr“ (<ref target="sndb:sigle#2890">Grimm</ref> 11 I 1, 480).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9946">
+<label xml:id="GB03_2_BR114_0_note_036_67_31-68_1" copyOf="#start_com_1071"><hi rendition="#fett">67,31-68,1</hi>das Wehr</label>
+<p>Das Wehr in der Nähe der Kegelbrücke, unmittelbar unterhalb der Ruine des Stadtschlosses und nicht weit von Goethes Garten gelegen (vgl. zu <ref target="gb:note#GB03_2_BR129_0_note_003_76_1">76,1</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com9947">
+<label xml:id="GB03_2_BR114_0_note_037_68_6" copyOf="#start_com_1072"><hi rendition="#fett">68,6</hi>erbaare Kleider</label>
+<p>Ehrbar: ehrenhaft; hier Kleidung, die Goethe in höfischer Gesellschaft tragen konnte.</p>
+
+</note>
+<note xml:id="gb10896_comment_com15785">
+<label xml:id="GB03_2_BR114_0_note_038_68_6-7" copyOf="#start_com_1073"><hi rendition="#fett">68,6-7</hi>eine Visite</label>
+<p>Näheres dazu konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10896_comment_com17768">
+<label xml:id="GB03_2_BR114_0_note_039_68_8" copyOf="#start_com_1074"><hi rendition="#fett">68,8</hi>Italiäners hier <gap quantity="3" reason="editorial"/> Güsse der Antiken schaffen</label>
+<p>Damals hielten sich die Brüder Giugeio und Giacomo Ferrari aus Mailand in Weimar auf, die hauptsächlich für die 1776 gegründete Freie Zeichenschule Abgüsse antiker Plastiken herstellten. Laut Schatull-Rechnungen 1775–1776 bezahlte Herzog Carl August am 8. Juni 1776 „122 <supplied>Rthlr.</supplied> 14 <supplied>g<g ref="#typoSuspension"/>.</supplied> den Gebrüdern Ferrari für antike Gips Statüen, für die Zeichenschule.“ (SR/CA 1775–1776, S. 48). Nachweisbar sind auch Ankäufe für Anna Amalia und Goethe (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1062, Bl. 107 f. und A 923, Bl. 39; vgl. auch die <ref target="gb:note#GB03_2_BR116_0_note_001_70_23">erste</ref> und die <ref target="gb:note#GB03_2_BR116_0_note_003_70_23">dritte</ref> Erläuterung zu 70,23). Die Brüder Ferrari, die um die Mitte des 18. Jahrhunderts zu den führenden Gipsgießern und Antikenhändlern gehörten, waren schon 1774 für Weimar tätig gewesen und belieferten in Deutschland vor allem die Höfe von Kassel, Braunschweig und Gotha sowie die Universitäten in Leipzig, Göttingen und Dresden (vgl. Petra Rau: „Unter diesen Göttern zu wandeln“. Kunsthandel, Kunstjournale und Kunstmanufakturen im 18. Jahrhundert. In: Antlitz des Schoenen. Klassizistische Bildhauerkunst im Umkreis Goethes. Rudolstadt 2003, S. 61 und 83; Katharina Krügel: „Ich freue mich auf die Pariser Abgüsse“. Ein Beitrag zur Sammlung antiker Abgüsse in der Herzogin Anna Amalia Bibliothek. In: Hellmut Th. Seemann [Hrsg.]: Europa in Weimar. Visionen eines Kontinents. Göttingen 2008, S. 176 und 178 f.).</p>
+
+</note>
+<note xml:id="gb10896_comment_com15118">
+<label xml:id="GB03_2_BR114_0_note_040_68_9" copyOf="#start_com_1075"><hi rendition="#fett">68,9</hi>bey Fr. v. St. zu Tisch</label>
+<p>Laut Tagebuch vom 19. Mai 1776 hatte Goethe <quote type="G">Bey St</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">gessen</quote> (<ref target="gt:dokument#45">GT I 1, 18</ref>; vgl. auch <ref target="gb:text#GB03_1_BR109_0_064_014 #GB03_1_BR109_0_064_015">64,14–15</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10181">
+<label xml:id="GB03_2_BR114_0_note_041_68_10" copyOf="#start_com_1076"><hi rendition="#fett">68,10</hi>zu Wieland</label>
+<p>Im Tagebuch vom 19. Mai 1776 vermerkte Goethe: <quote type="G">bey Wieland</quote> (<ref target="gt:dokument#45">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10182">
+<label xml:id="GB03_2_BR114_0_note_042_68_10" copyOf="#start_com_1077"><hi rendition="#fett">68,10</hi>Mahler Krause</label>
+<p>Georg Melchior Kraus.</p>
+
+</note>
+<note xml:id="gb10896_comment_com17654">
+<label xml:id="GB03_2_BR114_0_note_043_68_11" copyOf="#start_com_1078"><hi rendition="#fett">68,11</hi>Guibert s Tacktick</label>
+<p>Jacques Antoine Hippolyte de Guibert: Essai général de tactique. 2 Bde. Paris <supplied>u. a.</supplied> 1772. – Sofort nach dem Erstdruck folgten mehrere Nachauflagen, 1774 war die deutsche Übersetzung unter dem Titel „Versuch über die Tactik“ (Dresden) erschienen. Goethe hatte am 15. April 1776 Christian Wilhelm Steinauer in Leipzig um Guiberts Werk gebeten (vgl. zu <ref target="gb:note#GB03_2_BR083_0_note_001_54_18">54,18</ref>). In Goethes Bibliothek ist allerdings nur Voltaires „Vers sur l’essai général de tactique de Mr. de Guibert“ (o. O. 1774) überliefert (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 234, Nr 1650). Möglicherweise verblieb das Buch bei Jacob Michael Reinhold Lenz, der es sich am 27. Juni 1776 von Goethe erbeten hatte (vgl. Lenz, Briefe 2, 4). Goethe schickte es ihm mit seinem Brief von Anfang Juli 1776 (vgl. <ref target="gb:text#GB03_1_BR136_0_078_017">78,17</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10183">
+<label xml:id="GB03_2_BR114_0_note_044_68_12" copyOf="#start_com_1079"><hi rendition="#fett">68,12</hi>da kam der Herzog und der Prinz</label>
+<p>Herzog Carl August und Prinz Constantin. Im Tagebuch notierte Goethe nur: <quote type="G">mit d. H. Abends</quote> (<ref target="gt:dokument#45">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10184">
+<label xml:id="GB03_2_BR114_0_note_045_68_12" copyOf="#start_com_1080"><hi rendition="#fett">68,12</hi>zween Guten Geistern</label>
+<p>Wahrscheinlich Carl Augusts Kammerherren Carl Friedrich Sigmund von Seckendorff und Moritz von Wedel, der zu Goethes frühesten Freunden in Weimar gehörte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_003_26_10">26,10</ref>). Aber auch Carl Ludwig von Knebel könnte gemeint sein.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10191">
+<label xml:id="GB03_2_BR114_0_note_046_68_13" copyOf="#start_com_1081"><hi rendition="#fett">68,13</hi>ihrer Mutter</label>
+<p>Concordia Elisabeth von Schardt.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10188">
+<label xml:id="GB03_2_BR114_0_note_047_68_14" copyOf="#start_com_1082"><hi rendition="#fett">68,14</hi>Oberweimar</label>
+<p>Dorf südöstlich von Weimar auf der rechten Ilmseite (heute Ortsteil).</p>
+
+</note>
+<note xml:id="gb10896_comment_com17741">
+<label xml:id="GB03_2_BR114_0_note_048_68_15-16" copyOf="#start_com_1083"><hi rendition="#fett">68,15-16</hi>Geschichte eines meiner Freunde</label>
+<p>Dem Kontext nach wahrscheinlich die Lebensgeschichte Johann Heinrich Jungs, Goethes Freund aus der Straßburger Studienzeit. Aus armen Verhältnissen stammend und streng pietistisch erzogen, hatte Jung in Straßburg Medizin studiert und war anschließend als Star-Operateur zu Ansehen gelangt. Goethe ermunterte Jung dazu, seine Autobiographie zu schreiben. Als er während seiner Rheinreise im Juli 1774 Jung in Elberfeld besuchte, überließ dieser ihm das Manuskript. Goethe besorgte Redaktion und Publikation. Der 1. Band erschien 1777 in Berlin unter dem Titel „Henrich Stillings Jugend. Eine wahrhafte Geschichte“. Nach der Titelfigur wird der Verfasser auch Jung-Stilling genannt, in Anspielung auf die „Stillen im Lande“ (vgl. Psalm 35,20), ein ursprünglich von den Gegnern in Umlauf gebrachter Spottname für die Pietisten (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10504_comment_com22661">GB 1 II, Nr 96</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10192">
+<label xml:id="GB03_2_BR114_0_note_049_68_20" copyOf="#start_com_1084"><hi rendition="#fett">68,20</hi>Arbeiter in meinem Garten</label>
+<p>Analog dazu vermerkt Goethe im Tagebuch vom 20. Mai 1776 offenbar mit Bezug auf die Umgestaltung seines Gartens: <quote type="G">Angefangen die untere Anlage</quote> (<ref target="gt:dokument#46">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10193">
+<label xml:id="GB03_2_BR114_0_note_050_68_22-23" copyOf="#start_com_1085"><hi rendition="#fett">68,22-23</hi>nach Tiefurt</label>
+<p>Etwa 3 km östlich von Weimar in einem Ilmbogen gelegenes Dorf (heute Ortsteil von Weimar). Das ehemalige Pächterhaus des fürstlichen Kammerguts war 1775/76 für die Hofhaltung des Prinzen Constantin hergerichtet worden, der es am 20. Mai 1776 mit seinem Erzieher Carl Ludwig von Knebel bezog. Goethe vermerkt am selben Tag im Tagebuch: <quote type="G">Tifurt Einzug.</quote> (<ref target="gt:dokument#46">GT I 1, 18</ref>.) – Die Umgebung des Gutes wurde in den folgenden Jahren von Knebel und dem Prinzen mit Unterstützung Adam Friedrich Oesers zu einer Parkanlage im englischen Stil gestaltet. 1781 übernahm Anna Amalia von Sachsen-Weimar und Eisenach das Schlösschen als Sommerresidenz.</p>
+
+</note>
+<note xml:id="gb10896_comment_com13715">
+<label xml:id="GB03_2_BR114_0_note_051_68_29" copyOf="#start_com_1086"><hi rendition="#fett">68,29</hi>Dadrüben auf dem Schlosse</label>
+<p>Mit Bezug auf das so genannte Landschafts- oder Fürstenhaus, gelegen in Sichtweite des Gartenhauses (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_001_26_8">26,8</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10205">
+<label xml:id="GB03_2_BR114_0_note_052_68_32" copyOf="#start_com_1087"><hi rendition="#fett">68,32</hi>ein trefflicher Junge</label>
+<p>Ganz ähnlich hatte Friedrich Leopold zu Stolberg am 6. Dezember 1775 Herzog Carl August seiner Schwester Henriette Bernstorff beschrieben (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_027_4_20">4,20</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10206">
+<label xml:id="GB03_2_BR114_0_note_053_68_33" copyOf="#start_com_1088"><hi rendition="#fett">68,33</hi>ausgähren</label>
+<p>Ausgären; hier übertragen: einen Reifeprozess durchlaufen (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 1, 865); bei Goethe nur hier belegt (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 1157).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10207">
+<label xml:id="GB03_2_BR114_0_note_054_68_33" copyOf="#start_com_1089"><hi rendition="#fett">68,33</hi>Friz wird gute Tage mit uns haben</label>
+<p>Augusta zu Stolbergs Bruder Friedrich Leopold hatte gemeinsam mit seinem Bruder Christian auf der Rückreise von der Schweiz nach Kopenhagen vom 26. November bis zum 3. Dezember 1775 in Weimar Station gemacht (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_022_4_10">4,10</ref>). Während seines Besuchs war ihm eine Stelle in weimarischen Diensten angeboten worden. Am 17. Februar 1776 schrieb er darüber an Johann Martin Miller: „Der Herzog <supplied>Carl August</supplied> ließ mir eine Kammerherrn Stelle mit 600 rtl: u: freie Tafel antragen, im Fall die Landstände in die Creation von 6 Kammerherrn einwilligen würden, er ließ mir zu verschiednen malen durch Göthe u: den treflichen Dahlberg Mainzischen Stadthalter von Erfurt den Antrag thun, ich sprach selbst mit ihm, u: in Hamburg erhielt ich Briefe welche die Sache richtig machten. Ich hab um Erlaubniß gebeten den Sommer noch hier zu bleiben, u: erwarte täglich Antwort.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 68.) Wie aus der vorliegenden Erwähnung hervorgeht, rechneten Goethe und der Herzog Ende Mai 1776 noch fest damit, dass Friedrich Leopold zu Stolberg seine Stelle in Weimar antreten würde. Anfang August 1776 erhielt dieser jedoch die Bestallung zum fürstbischöflich lübeckischen Gesandten am dänischen Hof in Kopenhagen, die er annahm, wohl auch, um näher bei seinen Geschwistern zu leben. So zumindest begründete er seine Entscheidung noch am 29. August 1778 in einem Brief an Friedrich Justin Bertuch: „<gap quantity="3" reason="editorial"/> sagen Sie mir aufrichtig ob man meiner noch gedenket. Ich dencke nie ohne viel zu empfinden an die flüchtigen Tage, welche ich bey Ihnen allen zubrachte. Es war mir sehr wohl bey der Hoffnung in Weymar mein Leben zuzubringen, u: wenn nicht meine Geschwister mich zurückgehalten hätten, würde nichts in der Welt es haben thun können.“ (Ebd., 106.) – Am 20. August 1776, dem Tag seiner offiziellen Amtseinführung, schrieb er an seinen Bruder Christian: „<gap quantity="3" reason="editorial"/> ich hab an den Herzog von W. <supplied>Weimar</supplied> u: Göthen geschrieben.“ (Ebd., 80.) Briefe mit dieser Nachricht waren zu dieser Zeit allerdings noch nicht in Weimar angekommen, wo der Eindruck entstehen musste, dass Friedrich Leopold nicht zu seiner Zusage stand, sich aber vor einer klaren Entscheidung scheute. Es kam daher in Weimar zu Irritationen und Verdruss (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_008_100_24">100,24</ref>; zu <ref target="gb:note#GB03_2_BR161_0_note_016_101_3-4">101,3-4</ref>). Nicht ohne Einfluss auf Stolbergs Entscheidung dürften auch das Zerwürfnis zwischen Goethe und Friedrich Gottlieb Klopstock gewesen sein (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10208">
+<label xml:id="GB03_2_BR114_0_note_055_69_1" copyOf="#start_com_1090"><hi rendition="#fett">69,1</hi>Meine Schwester</label>
+<p>Cornelia Schlosser, die sich im fernen Emmendingen zunehmend unglücklich fühlte und schon seit der Geburt ihrer Tochter Louise am 28. Oktober 1774 krank und meist ans Bett gefesselt war (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com14179">
+<label xml:id="GB03_2_BR114_0_note_056_69_2-3" copyOf="#start_com_1091"><hi rendition="#fett">69,2-3</hi>Schick ihr diesen Brief, und schreib ihr!</label>
+<p>Wahrscheinlich ebenfalls am 20. Mai 1776 bat Goethe auch Charlotte von Stein, seiner Schwester zu schreiben (vgl. <ref target="gb:text#GB03_1_BR110_0_064_021 #GB03_1_BR110_0_065_001">64,21–65,1</ref>; zu <ref target="gb:note#GB03_2_BR110_0_note_004_65_1">65,1</ref>). Ob Augusta zu Stolberg tatsächlich eine Abschrift des vorliegenden Briefes an Cornelia Schlosser geschickt hat, ist nicht bekannt. Sie selbst muss jedoch mehrere Briefe an Goethes Schwester geschrieben haben, wie aus deren einzigem überlieferten Brief an Augusta zu Stolberg vom 10. Dezember 1776 hervorgeht (abgedruckt im Anschluss an die folgenden <ref target="gb:note#gb10896_comment_com84518">Erläuterungen</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com15134">
+<label xml:id="GB03_2_BR114_0_note_057_69_5-6" copyOf="#start_com_1092"><hi rendition="#fett">69,5-6</hi>Lernt euch kennen.</label>
+<p>Augusta zu Stolberg ist durch Briefe an Cornelia dieser Aufforderung nachgekommen, wie Cornelias Antwort vom 10. Dezember belegt. – Die Briefe Augusta zu Stolbergs an Cornelia Schlosser sind nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10896_comment_com17668">
+<label xml:id="GB03_2_BR114_0_note_058_69_10" copyOf="#start_com_1093"><hi rendition="#fett">69,10</hi>einen iungen Fuchs</label>
+<p>Offenbar nahm Goethe das Tier bei sich in Pflege. Unter dem 21. Mai 1776 findet sich in Goethes Rechnungsbuch der Eintrag: <quote type="G">Fleisch vorn Fuchs</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 7), der von da an regelmäßig wiederkehrt. Noch Anfang September 1776 bittet er Einsiedel: <quote type="G">vergiss nicht meinen Fuchs gleich heute früh</quote> (<ref target="gb:text#GB03_1_BR165_0_102_010 #GB03_1_BR165_0_102_011">102,10–11</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10219">
+<label xml:id="GB03_2_BR114_0_note_059_69_12" copyOf="#start_com_1094"><hi rendition="#fett">69,12</hi>regierende Herzoginn</label>
+<p>Louise von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10218">
+<label xml:id="GB03_2_BR114_0_note_060_69_12" copyOf="#start_com_1095"><hi rendition="#fett">69,12</hi>noch einige</label>
+<p>Im Tagebuch vermerkte Goethe am 21. Mai 1776: <quote type="G">In Tiefurt mit den beyden Herzoginnen</quote> <supplied>Herzoginmutter Anna Amalia und Herzogin Louise</supplied> <quote type="G">Edelsheim</quote> <supplied>Wilhelm von Edelsheim</supplied> <quote type="G">p draus geschlafen.</quote>(<ref target="gt:dokument#47">GT I 1, 18</ref>.)</p>
+
+</note>
+<note xml:id="gb10896_comment_com14050">
+<label xml:id="GB03_2_BR114_0_note_061_69_13-14" copyOf="#start_com_1096"><hi rendition="#fett">69,13-14</hi>Maneuvre der Husaren</label>
+<p>Husaren, die herzoglichen berittenen Truppen unter der Führung des Rittmeisters Carl Friedrich von Lichtenberg, später auch als Kavallerie bezeichnet. – Laut Tagebuch fand am 22. Mai 1776 ein <quote type="G">Exerzitium der Husaren</quote> (<ref target="gt:dokument#48">GT I 1, 18</ref>) statt.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10220">
+<label xml:id="GB03_2_BR114_0_note_062_69_16" copyOf="#start_com_1097"><hi rendition="#fett">69,16</hi>brach ein Feuer aus im Hazfeldischen</label>
+<p>Laut Tagebuch war am 22. Mai 1776 ein <quote type="G">Feuer in Neckerode</quote> (<ref target="gt:dokument#48">GT I 1, 18</ref>) ausgebrochen. Das etwa 20 km südlich von Weimar gelegene Dorf Neckeroda gehörte zur Herrschaft Blankenhain im Besitz der Grafen von Hatzfeld-Gleichen-Trachenberg.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10221">
+<label xml:id="GB03_2_BR114_0_note_063_69_17-18" copyOf="#start_com_1098"><hi rendition="#fett">69,17-18</hi>biss wir hin kamen <gap quantity="3" reason="editorial"/> Dorf nieder</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR115_0_note_008_70_16-17">70,16-17</ref>. – Herzog Carl August, dem die Direktion der Feuersozietät unterstand, versuchte bei jeder Brandmeldung unverzüglich selbst zum Brandort zu reiten. Häufig begleitete oder vertrat ihn Goethe (vgl. <ref target="sndb:sigle#1266/773">Goethes Branderlebnisse</ref>, bes. 86 f.).</p>
+
+</note>
+<note xml:id="gb10896_comment_com15137">
+<label xml:id="GB03_2_BR114_0_note_064_69_27" copyOf="#start_com_1099"><hi rendition="#fett">69,27</hi>Nachts zwey</label>
+<p>Diese Angabe findet sich auch im Tagebuch (vgl. <ref target="gt:dokument#49">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10222">
+<label xml:id="GB03_2_BR114_0_note_065_69_28" copyOf="#start_com_1100"><hi rendition="#fett">69,28</hi>wunderbaars</label>
+<p>‚Wunderbar‘ hier in der Bedeutung ‚sonderbar‘, ‚merkwürdig‘, „auf erlebnisse und innere vorgänge bezogen“ (<ref target="sndb:sigle#2890">Grimm</ref> 14 II, 1846).</p>
+
+</note>
+<note xml:id="gb10896_comment_com10233">
+<label xml:id="GB03_2_BR114_0_note_066_69_33" copyOf="#start_com_1101"><hi rendition="#fett">69,33</hi>Friz soll kommen</label>
+<p>Friedrich Leopold zu Stolberg, der eine Stelle als Kammerherr in Weimar antreten sollte.</p>
+
+</note>
+<note xml:id="gb10896_comment_com10234">
+<label xml:id="GB03_2_BR114_0_note_067_70_7" copyOf="#start_com_1102"><hi rendition="#fett">70,7</hi>Emmedingen im Brisgau</label>
+<p>Emmendingen im Breisgau, wo Cornelias Mann Johann Georg Schlosser seit 1774 Oberamtmann der Markgrafschaft Hochberg war.</p>
+
+</note>
+</div>
+<div xml:id="gb10896_comment_com84518">
+  <p>Cornelia Schlosser an Augusta Gräfin zu Stolberg-Stolberg</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56432_source" corresp="#gb56432_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck16">
+        <anchor xml:id="GB03_2_FB011_0_276_001"/>Emedingen den 10. Dec. 1776</p>
+      <p>
+        <anchor xml:id="GB03_2_FB011_0_276_002"/>Ganz unverzeihlich ist&#8217;s, bestes Gustgen, daß ich Ihnen noch nie geantwortet habe, 
+<anchor xml:id="GB03_2_FB011_0_276_003"/>ich will mich auch gar nicht entschuldigen, denn was sollte was könnte ich 
+<anchor xml:id="GB03_2_FB011_0_276_004"/>sagen. Ihre häusliche Glückseeligkeit ahnde ich und wünschte als Schwester unter 
+<anchor xml:id="GB03_2_FB011_0_276_005"/>Ihnen aufgenommen zu seyn, das ist der eine von den Wünschen, der nie erfüllt 
+<anchor xml:id="GB03_2_FB011_0_276_006"/>werden wird, denn unsere gegenseitige Entfernung ist so gros, dass ich nicht einmal 
+<anchor xml:id="GB03_2_FB011_0_276_007"/>hoffen darf, Sie jemals in diesem Leben zu sehen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB011_0_276_008"/>Wir sind hier ganz allein, auf 30–40 Meilen weit ist kein Mensch zu finden; – 
+<anchor xml:id="GB03_2_FB011_0_276_009"/>
+        <ref target="gb:note#GB03_2_FB011_0_276_note_001_9" xml:id="start_com_7060"/>meines Manns Geschäffte<ref xml:id="end_com_7060"/> erlauben ihm nur sehr wenige Zeit bey mir zuzubringen, 
+<anchor xml:id="GB03_2_FB011_0_276_010"/>und da schleiche ich denn ziemlich langsam durch die Welt, mit einem Körper der 
+<anchor xml:id="GB03_2_FB011_0_276_011"/>nirgend hin als ins Grab taugt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB011_0_276_012"/>Der Winter ist mir immer unangenehm und beschwehrlich, hier macht die 
+<anchor xml:id="GB03_2_FB011_0_276_013"/>schöne Natur unsre einzige Freude aus, und wenn die schläft schläft alles.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB011_0_276_014"/>Leben Sie wohl, bestes Gustchen, ich umarme Sie im Geist, kann Ihnen aber 
+<anchor xml:id="GB03_2_FB011_0_276_015"/>nichts mehr sagen weil ich zu entfernt von Ihnen binn.</p>
+      <p rendition="#einrueck24">
+        <anchor xml:id="GB03_2_FB011_0_276_016"/>Cornelia.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56432_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56432_comment_com84516">
+  <p>(<ref target="sndb:sigle#3142">Witkowski, Cornelia</ref>, 243.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56432_comment_com84517">
+<label xml:id="GB03_2_FB011_0_276_note_001_9" copyOf="#start_com_7060"><hi rendition="#normal">276,9</hi>meines Manns Geschäffte</label>
+<p>Johann Georg Schlosser stand als Oberamtmann in markgräflich-badischen Diensten (vgl. <ref target="gb:note#GB02_2_BR054_0_note_006_41_9-10">GB 2 II, zu 41,9–10</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

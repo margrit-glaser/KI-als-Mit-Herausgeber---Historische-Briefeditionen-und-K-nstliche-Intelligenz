@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="90"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb52762" n="GB 3, Nr. 9">
+  <teiHeader xml:id="gb52762_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>9.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79598">Waldeck</placeName>, 24.&#x2012;26. Dezember 1775. Sonntag&#x2012;Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:22:09Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb52762_tei.xml</idno>
+        <idno type="URI">gb52762</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR009_0</idno>
+        <idno type="KSW-ID">52762</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="11" to="12">11-12</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="37" to="40">37-40</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb52762_header_hwit52933" corresp="#gb52762_source_hwit52933" sameAs="#gb52762_comment_hwit52933" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/411,I Bl. 3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8528</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/52762,,52933/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sonntags früh eilfe. Unser Bote ist noch nicht da</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79598">Waldeck</placeName>
+            <date from="1775-12-24" to="1775-12-26">24.-26. Dezember 1775</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#77961">Gotha</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#61">RA 1, Nr. 57</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb52762_source_hwit52933" corresp="#gb52762_header_hwit52933" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#52762/12258"/>
+      <p>
+        <anchor xml:id="GB03_1_BR009_0_011_019"/>
+        <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR009_0_note_001_11_19" xml:id="start_com_0143"/>Sonntags</hi>
+        <ref xml:id="end_com_0143"/>
+        <hi rendition="#hervor1">früh eilfe</hi>. Unser Bote ist noch nicht da, der <ref target="gb:note#GB03_2_BR009_0_note_002_11_19-20" xml:id="start_com_0144"/>Schrittschue<ref xml:id="end_com_0144"/>
+        <anchor xml:id="GB03_1_BR009_0_011_020"/>mitbringt, ihm sind tausend<ptr n="1" target="#a001_11.20"/> Flüche entgegen geschickt worden, 
+<anchor xml:id="GB03_1_BR009_0_011_021"/>wir sind in der Gegend herumgekrochen und geschli<supplied>chen.</supplied> <ref target="gb:note#GB03_2_BR009_0_note_003_11_21-22" xml:id="start_com_0145"/>Gleich 
+<anchor xml:id="GB03_1_BR009_0_011_022"/>hinter dem Hausgarten<ref xml:id="end_com_0145"/> führt ein wilder Pfad nach<ptr n="2" target="#a002_11.22"/> einem Felsen worauf 
+<anchor xml:id="GB03_1_BR009_0_011_023"/>ein <ref target="gb:note#GB03_2_BR009_0_note_004_11_23" xml:id="start_com_0146"/>altes Schloss der Grafen v. Gleichen<ptr n="3" target="#a003_11.23"/>
+        <ref xml:id="end_com_0146"/> stund mitten im Fichtenthal, 
+<anchor xml:id="GB03_1_BR009_0_011_024"/>
+        <ref target="gb:note#GB03_2_BR009_0_note_005_11_24-25" xml:id="start_com_0147"/>Bertuch hat mit seinem Mägdlein Rasen und Moos Bäncke und 
+<anchor xml:id="GB03_1_BR009_0_011_025"/>Hüttgen und Pläzzgen angelegt<ref xml:id="end_com_0147"/>, die sehr romantisch sind, die Felsen 
+<anchor xml:id="GB03_1_BR009_0_011_026"/>hinab sind wilde Blicke, und ein offner, freundlicher über die Fichtentiefen 
+<anchor xml:id="GB03_1_BR009_0_011_027"/>nach Bürgel hin. Die Morgensonne war lieb. Ich stieg mit Bertuch 
+<anchor xml:id="GB03_1_BR009_0_011_028"/>seitwärts eine Felsenstieg ab zu einem Brunnen und Fischkasten, 
+<anchor xml:id="GB03_1_BR009_0_012_001"/>die Eiszapfen die Felsen herab! – Der Bote ist da und <ref target="gb:note#GB03_2_BR009_0_note_006_12_1-2" xml:id="start_com_0148"/>nun aufs 
+<anchor xml:id="GB03_1_BR009_0_012_002"/>Eis<ref xml:id="end_com_0148"/>.     Seegen zum Morgen und Mahlzeit <ref target="gb:note#GB03_2_BR009_0_note_007_12_2" xml:id="start_com_0149"/>l. gndger<ref xml:id="end_com_0149"/> Herr — — Die 
+<anchor xml:id="GB03_1_BR009_0_012_003"/>Schrittschue sind vergessen, ich habe <ref target="gb:note#GB03_2_BR009_0_note_008_12_3" xml:id="start_com_0150"/>gestrampft<ref xml:id="end_com_0150"/> und geflucht<ptr n="4" target="#a004_12.3"/> und 
+<anchor xml:id="GB03_1_BR009_0_012_004"/>eine Viertelstunde am Fenster gestanden und gemault, nun laben sie 
+<anchor xml:id="GB03_1_BR009_0_012_005"/>mich<ptr n="5" target="#a005_12.5"/> mit der Hoffnung es käm noch ein Bote nach. Muss also <ref target="gb:note#GB03_2_BR009_0_note_009_12_5-6" xml:id="start_com_0151"/>ohne 
+<anchor xml:id="GB03_1_BR009_0_012_006"/>geschritten<ref xml:id="end_com_0151"/> zu Tische – <hi rendition="#hervor1">Abends viere</hi>. Sind gekommen, habe gefahren 
+<anchor xml:id="GB03_1_BR009_0_012_007"/>und mir ists wohl.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR009_0_012_008"/>
+        <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR009_0_note_010_12_8" xml:id="start_com_0152"/>Den ersten Feyertag</hi>
+        <ref xml:id="end_com_0152"/>
+        <hi rendition="#hervor1">früh achte</hi>. Hab ziemlich lang geschlafen, 
+<anchor xml:id="GB03_1_BR009_0_012_009"/>die Sonne steht schon am Himmel. Der Abend gestern ward 
+<anchor xml:id="GB03_1_BR009_0_012_010"/>mit Würfeln und Karten vervagabundet. <hi rendition="#hervor1">– – –</hi>
+        <hi rendition="#hervor1">Dienst. Abends 6</hi>.<ptr n="6" target="#a006_12.10"/>
+        <anchor xml:id="GB03_1_BR009_0_012_011"/>So auch der ganze heutige Tag! <ref target="gb:note#GB03_2_BR009_0_note_011_12_11" xml:id="start_com_0153"/>Nach Bürgel<ref xml:id="end_com_0153"/> geritten! Das <ref target="gb:note#GB03_2_BR009_0_note_012_12_11" xml:id="start_com_0154"/>Amthaus<ref xml:id="end_com_0154"/>
+        <anchor xml:id="GB03_1_BR009_0_012_012"/>ist schön. Wäre<ptr n="7" target="#a007_12.12"/> wohl einmal ein Sommerritt für Ihr Durch<g ref="#typoSuspension"/>. Und das 
+<anchor xml:id="GB03_1_BR009_0_012_013"/>
+        <ref target="gb:note#GB03_2_BR009_0_note_013_12_13" xml:id="start_com_0155"/>Revier Waldeck<ref xml:id="end_com_0155"/> ist recht schön. Die Waldungen in gutem Stand dass 
+<anchor xml:id="GB03_1_BR009_0_012_014"/>es wohl Freude ist. Der <ref target="gb:note#GB03_2_BR009_0_note_014_12_14" xml:id="start_com_0156"/>Hofr. Hochhausen<ref xml:id="end_com_0156"/> hat ein Portrait von <ref target="gb:note#GB03_2_BR009_0_note_015_12_14-15" xml:id="start_com_0157"/>Herz. 
+<anchor xml:id="GB03_1_BR009_0_012_015"/>Ernst August<ref xml:id="end_com_0157"/>. Es hat was starres, scheues, bezeichnet einen Mann der 
+<anchor xml:id="GB03_1_BR009_0_012_016"/>eigentlich nicht nachdenckt, mehr durch<ptr n="8" target="#a008_12.16"/> die<ptr n="9" target="#a009_12.16"/> ersten gegenwärtigen 
+<anchor xml:id="GB03_1_BR009_0_012_017"/>Eindrücke<ptr n="10" target="#a010_12.17"/> sich bestimmen lässt, trocken<ptr n="11" target="#a011_12.17"/> schroff aber gut,<ptr n="12" target="#a012_12.17"/> und ohne 
+<anchor xml:id="GB03_1_BR009_0_012_018"/>den einwägenden Zug von Güte, bey übrigen treffligen Anlagen<ptr n="13" target="#a013_12.18"/> Tyrann 
+<anchor xml:id="GB03_1_BR009_0_012_019"/>– Auch hing da <ref target="gb:note#GB03_2_BR009_0_note_016_12_19" xml:id="start_com_0158"/>der lezte Herzog von Weisenfels<ref xml:id="end_com_0158"/>, Einsiedel 
+<anchor xml:id="GB03_1_BR009_0_012_020"/>
+        <ref target="gb:note#GB03_2_BR009_0_note_017_12_20" xml:id="start_com_0159"/>musste mir seinen Charackter machen <ref xml:id="end_com_0159"/> und trafs. Gradheit, Güte, verschwebende 
+<anchor xml:id="GB03_1_BR009_0_012_021"/>Schwäche, Untätigkeit und alles was dran hängt<ptr n="14" target="#a014_12.21"/>. – Drauf 
+<anchor xml:id="GB03_1_BR009_0_012_022"/>nach Hause. Die <ref target="gb:note#GB03_2_BR009_0_note_018_12_22" xml:id="start_com_0160"/>Odyssee<ref xml:id="end_com_0160"/> war endlich aufgetrieben. Nach Tisch <ref target="gb:note#GB03_2_BR009_0_note_019_12_22-23" xml:id="start_com_0161"/>rammel
+<anchor xml:id="GB03_1_BR009_0_012_023"/><pb n="2" facs="gb:digitalisate#52762/12259"/>ten<ref xml:id="end_com_0161"/> sich <ref target="gb:note#GB03_2_BR009_0_note_020_12_23" xml:id="start_com_0162"/>Crugantino und Basko<ref xml:id="end_com_0162"/> nachdem<ptr n="15" target="#a015_12.23"/> wir vorher <ref target="gb:note#GB03_2_BR009_0_note_021_12_23-24" xml:id="start_com_0163"/>unsre Imagination 
+<anchor xml:id="GB03_1_BR009_0_012_024"/>spazierengeritten<ref xml:id="end_com_0163"/> hatten wie’s seyn möchte wenn wir Spizbuben 
+<anchor xml:id="GB03_1_BR009_0_012_025"/>und Vagabunden wären, und um das natürlich vorzustellen, die Kleider 
+<anchor xml:id="GB03_1_BR009_0_012_026"/>gewechselt hatten. <ref target="gb:note#GB03_2_BR009_0_note_022_12_26" xml:id="start_com_0164"/>Krause<ptr n="16" target="#a016_12.26"/>
+        <ref xml:id="end_com_0164"/> war auch gekommen und sah in Bertuch’s 
+<anchor xml:id="GB03_1_BR009_0_012_027"/>weissem Tressen Rocke und einer alten <ref target="gb:note#GB03_2_BR009_0_note_023_12_27" xml:id="start_com_0165"/>Perrucke<ref xml:id="end_com_0165"/>
+        <ref target="gb:note#GB03_2_BR009_0_note_024_12_27" xml:id="start_com_0166"/>des Wildmsters<ref xml:id="end_com_0166"/> wie 
+<anchor xml:id="GB03_1_BR009_0_012_028"/>ein verdorbner<ptr n="17" target="#a017_12.28"/> Landschreiber, Einsiedel in meinem Frack mit blauem<ptr n="18" target="#a018_12.28"/>
+        <anchor xml:id="GB03_1_BR009_0_012_029"/>Krägelgen, wie ein verspielt Bürschgen<ptr n="19" target="#a019_12.29"/>, und ich in <ref target="gb:note#GB03_2_BR009_0_note_025_12_29" xml:id="start_com_0167"/>Kalbs<ref xml:id="end_com_0167"/> blauem<ptr n="20" target="#a020_12.29"/> Rock 
+<anchor xml:id="GB03_1_BR009_0_012_030"/>mit gelben Knöpfen rothem Kragen, und <ref target="gb:note#GB03_2_BR009_0_note_026_12_30" xml:id="start_com_0168"/>vertrotteltem Kreuz <ref xml:id="end_com_0168"/> und<ptr n="21" target="#a021_12.30"/>
+        <anchor xml:id="GB03_1_BR009_0_012_031"/>Schnurrbart wie ein Capital Spizbube aus –</p>
+    <pb n="3" facs="gb:digitalisate#52762/12260" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#52762/12261" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb52762_comment">
+<body>
+<div type="metadata" xml:id="gb52762_comment_com1380">
+  <ab type="numberAddressee"><label>9.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79598">Waldeck</placeName>, 24.-26. Dezember 1775 → <supplied><placeName key="sndb:ort#77961">Gotha</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb52762_comment_com3424">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8528">GSA 29/411,I</ref>, Bl. 3. – Doppelblatt 18,2 × 23 cm, stark vergilbtes Papier, 1 &#xBD; S. beschr., egh., Tinte, von <quote type="G"><hi rendition="#hervor1">Dienst. Abends 6.</hi></quote> (<ref target="gb:text#GB03_1_BR009_0_012_010">12,10</ref>) an zunehmend flüchtig geschrieben; Bl. 1 am rechten oberen Rand und in der Mitte beschädigt, leichter Textverlust (vgl. <ref target="gb:text#GB03_1_BR009_0_011_021">11,21</ref>), Bl. 2 oben rechts Reste von Klebestreifen.</p>
+  <p>E: <ref target="sndb:sigle#2810">DjG<hi rendition="#sup">1</hi></ref> 3 (1875), 127 f. (als zweiter Teil eines Briefes, als dessen erster Teil <ref target="gb:dokument#10609">Nr 8</ref> betrachtet wurde).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 10–12, Nr 374 (nach einer Abschrift; Textkorrektur nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 213; als zweiter Teil eines Briefes, als dessen erster Teil <ref target="gb:dokument#10609">Nr 8</ref> betrachtet wurde).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb52762_comment_com5220">
+  <p>Ein Antwortbrief des Herzogs ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10609_comment_com4245">Nr 8</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb52762_comment_com13644">
+<label xml:id="GB03_2_BR009_0_note_001_11_19" copyOf="#start_com_0143"><hi rendition="#fett">11,19</hi><hi rendition="#hervor1">Sonntags</hi></label>
+<p>24. Dezember 1775.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13657">
+<label xml:id="GB03_2_BR009_0_note_002_11_19-20" copyOf="#start_com_0144"><hi rendition="#fett">11,19-20</hi>Schrittschue</label>
+<p>Ältere Nebenform zu ‚Schlittschuhe‘ (vgl. zu <ref target="gb:note#GB03_2_BR198_0_note_007_122_1">122,1</ref>).</p>
+
+</note>
+<note xml:id="gb52762_comment_com13658">
+<label xml:id="GB03_2_BR009_0_note_003_11_21-22" copyOf="#start_com_0145"><hi rendition="#fett">11,21-22</hi>Gleich hinter dem Hausgarten</label>
+<p>Unmittelbar hinter der Waldecker Försterei befindet sich die Wolfsschlucht, eine steil abfallende, tief in das Buntsandsteinplateau eingeschnittene Felsenklamm innerhalb des heutigen Totalreservats Waldecker Schlossgrund.</p>
+
+</note>
+<note xml:id="gb52762_comment_com18752">
+<label xml:id="GB03_2_BR009_0_note_004_11_23" copyOf="#start_com_0146"><hi rendition="#fett">11,23</hi>altes Schloss der Grafen v. Gleichen</label>
+<p>Am Nordwestrand des Ortes Waldeck oberhalb der Wolfsschlucht und des Schlossgrundes auf einem steilen Felssporn gelegener hochmittelalterlicher Herrensitz, von dem nur noch die Grabenanlage erhalten ist. – Die Grafen von Gleichen waren ein vor allem in Mittelthüringen ansässiges Adelsgeschlecht mit mehreren Linien und umfangreichem Grund- und Lehnsbesitz, die den Höhepunkt ihrer Macht im 13. Jahrhundert erreichten. Seit dem 14. Jahrhundert waren sie Vasallen der Wettiner, wurden aber bis 1521 in der Reichsmatrikel verzeichnet. Die gräfliche Linie starb 1631 aus. Bekanntheit erlangte das Geschlecht durch die Sage vom Grafen von Gleichen. Graf Ernst von Gleichen, 1227 auf einem Kreuzzug Kaiser Friedrichs II. in Gefangenschaft geraten, soll durch die Eheschließung mit der Sultanstochter Malechsala (auch Mechsala) die Freiheit erlangt haben. Nach der Legitimation dieser bigamistischen Ehe durch den Papst habe der Graf mit zwei rechtmäßigen Ehefrauen glücklich zusammengelebt. Die Sage nimmt Bezug auf den Grabstein des Grafen im Dom zu Erfurt, auf dem er gemeinsam mit zwei Frauengestalten abgebildet ist. Ob die Waldecker Burg tatsächlich Gleichenscher Besitz war, ist ungeklärt (vgl. zu <ref target="gb:note#GB03_2_BR037_0_note_003_29_4-5">29,4–5</ref>).</p>
+
+</note>
+<note xml:id="gb52762_comment_com13659">
+<label xml:id="GB03_2_BR009_0_note_005_11_24-25" copyOf="#start_com_0147"><hi rendition="#fett">11,24-25</hi>Bertuch hat mit seinem Mägdlein <gap quantity="3" reason="editorial"/> angelegt</label>
+<p>Bertuch war mit Friederike Elisabeth Caroline Slevoigt, der ältesten Tochter des Waldecker Wildmeisters Traugott Friedemann Slevoigt, verlobt. Im April 1776 heirateten beide. – Die damals im Waldecker Schlossgrund angelegten Felsenstiege sind ebenso wie ein großer Steintisch auf dem Schlossberg noch heute vorhanden.</p>
+
+</note>
+<note xml:id="gb52762_comment_com18756">
+<label xml:id="GB03_2_BR009_0_note_006_12_1-2" copyOf="#start_com_0148"><hi rendition="#fett">12,1-2</hi>nun aufs Eis</label>
+<p>In der Nähe der Waldecker Försterei befinden sich noch heute mehrere Teiche. Goethes Eispartie schildert ein Brief Bertuchs an Herzog Carl August vom gleichen Tag, dem 24. Dezember 1775: „Göthe und Einsiedel sind schon seit Tisch auf dem Eiße und schreiten mit aller möglichen Grazie, außgenommen daß gestern Einsiedel einer unendlichen Hochansehnlichen Versammlung von Herren und Frauen, Jungfrauen, Bauermädchen und Bauernjungen auf dem Teichdamme – er aber mitten auf dem Eiße – a priori und a posteriori demonstrirte daß alles auf dem Erdenrund vim centripetam <supplied>Kraft zum Mittelpunkt des Kreises</supplied> habe.“ (Zitiert nach: <ref target="sndb:sigle#1159">Carl August-Goethe<hi rendition="#sup">2</hi></ref> 1, 356.)</p>
+
+</note>
+<note xml:id="gb52762_comment_com13671">
+<label xml:id="GB03_2_BR009_0_note_007_12_2" copyOf="#start_com_0149"><hi rendition="#fett">12,2</hi>l. gndger</label>
+<p>Verkürzt für ‚lieber gnädiger‘.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13655">
+<label xml:id="GB03_2_BR009_0_note_008_12_3" copyOf="#start_com_0150"><hi rendition="#fett">12,3</hi>gestrampft</label>
+<p>Strampfen: hier „heftig mit dem Fuße auf die Erde stoßen“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 420).</p>
+
+</note>
+<note xml:id="gb52762_comment_com13672">
+<label xml:id="GB03_2_BR009_0_note_009_12_5-6" copyOf="#start_com_0151"><hi rendition="#fett">12,5-6</hi>ohne geschritten</label>
+<p>Ohne Schlittschuh gelaufen zu sein.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13673">
+<label xml:id="GB03_2_BR009_0_note_010_12_8" copyOf="#start_com_0152"><hi rendition="#fett">12,8</hi><hi rendition="#hervor1">Den ersten Feyertag</hi></label>
+<p>25. Dezember 1775.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13674">
+<label xml:id="GB03_2_BR009_0_note_011_12_11" copyOf="#start_com_0153"><hi rendition="#fett">12,11</hi>Nach Bürgel</label>
+<p>Kleinstadt ungefähr 15 km östlich von Jena, auf einem Sandsteinplateau oberhalb des Gleistals gelegen, Marktort und Mittelpunkt des gleichnamigen weimarischen Amtes, bekannt durch die dort gefertigten Töpferwaren mit blauer, weißgepunkteter Glasur. Die Entfernung zwischen Waldeck und Bürgel beträgt ungefähr 3 km.</p>
+
+</note>
+<note xml:id="gb52762_comment_com18759">
+<label xml:id="GB03_2_BR009_0_note_012_12_11" copyOf="#start_com_0154"><hi rendition="#fett">12,11</hi>Amthaus</label>
+<p>Der Sitz des herzoglichen Amtes Bürgel befand sich in dem 1133 gestifteten und um 1530 während der Reformation in ein herzogliches Kammergut umgewandelten Benediktinerkloster Thalbürgel unterhalb der Stadt Bürgel. Aus dem Jurisdiktionsbezirk des Klosters wurde mit der Säkularisation das herzogliche Amt Bürgel. Die Klosteranlage ist vor allem wegen der noch erhaltenen romanischen Pfeilerbasilika der Klosterkirche St. Maria und Georg kunsthistorisch bedeutend. Goethe veranlasste später in seiner amtlichen Funktion als Direktor der Oberaufsicht über die unmittelbaren Anstalten für Wissenschaft und Kunst die bauliche Sicherung und Rekonstruktion von Teilen des Klosters. Das als Amtshaus genutzte Torhaus der Klosteranlage ist im Zuge der nach 1945 in Thüringen vorgenommenen Zerstörung von Gutshäusern und Herrensitzen abgerissen worden.</p>
+
+</note>
+<note xml:id="gb52762_comment_com17054">
+<label xml:id="GB03_2_BR009_0_note_013_12_13" copyOf="#start_com_0155"><hi rendition="#fett">12,13</hi>Revier Waldeck</label>
+<p>Herzogliches Jagd- und Forstrevier, das die südlich von Bürgel gelegenen Wälder im weimarischen Teil des Thüringer Holzlandes umfasste.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13686">
+<label xml:id="GB03_2_BR009_0_note_014_12_14" copyOf="#start_com_0156"><hi rendition="#fett">12,14</hi>Hofr. Hochhausen</label>
+<p>Christian Hochhausen, Hof- und Landkammerrat, Amtmann zu Bürgel.</p>
+
+</note>
+<note xml:id="gb52762_comment_com18764">
+<label xml:id="GB03_2_BR009_0_note_015_12_14-15" copyOf="#start_com_0157"><hi rendition="#fett">12,14-15</hi>Herz. Ernst August</label>
+<p>Ernst August I. Herzog von Sachsen-Weimar und Eisenach, Großvater von Herzog Carl August, seit 1707 Mitregent, 1728 Alleinregent des Herzogtums Sachsen-Weimar, erbte 1741 das Herzogtum Sachsen-Eisenach und führte daraufhin die Primogenitur ein. Er ließ Belvedere, Dornburg und andere Schlösser im Rokokostil erbauen. Zudem war er wegen seines Hangs zu absolutistischer Willkür und seiner ruinösen Verschwendungssucht berüchtigt. – Die folgende Charakterisierung anhand eines Porträts erinnert an die physiognomischen Betrachtungen Lavaters.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13687">
+<label xml:id="GB03_2_BR009_0_note_016_12_19" copyOf="#start_com_0158"><hi rendition="#fett">12,19</hi>der lezte Herzog von Weisenfels</label>
+<p>Johann Adolf II., von 1736 bis 1746 Herzog von Sachsen-Weißenfels-Querfurt, einem Sekundogeniturherzogtum der albertinischen Linie des Hauses Sachsen. Johann Adolf machte zunächst eine Militärkarriere im Dienst des Landgrafen von Hessen-Kassel und zeichnete sich im Spanischen Erbfolgekrieg aus, danach stand er als Generalmajor im Dienst des Kurfürsten August des Starken von Sachsen, wo er in der Schlacht von Stralsund im Großen Nordischen Krieg erfolgreich war. 1716 kämpfte er im Sechsten Türkenkrieg und 1733 im Polnischen Thronfolgekrieg, wo er den polnischen Gegenkandidaten Augusts des Starken besiegen konnte. Nach dem Tod seiner beiden älteren Brüder übernahm er die Regierung des Herzogtums Sachsen-Weißenfels-Querfurt, führte aber auch weiterhin mehrfach die kursächsische Armee als Oberbefehlshaber im Ersten und Zweiten Schlesischen Krieg. Da keiner seiner Söhne das Erwachsenenalter erreichte, starb die Linie Sachsen-Weißenfels mit ihm aus, und das Herzogtum fiel wieder an Kursachsen zurück.</p>
+
+</note>
+<note xml:id="gb52762_comment_com18767">
+<label xml:id="GB03_2_BR009_0_note_017_12_20" copyOf="#start_com_0159"><hi rendition="#fett">12,20</hi>musste mir seinen Charackter machen</label>
+<p>Gemeint ist eine physiognomische Charakteranalyse im Sinne der Physiognomik Johann Caspar Lavaters. Später kritisierte Goethe dessen <quote type="G">physiognomische Hetzerey, – denn so darf man die ungestüme Anregung wohl nennen, womit er</quote> <supplied>Lavater</supplied> <quote type="G">alle Menschen <gap quantity="3" reason="editorial"/> zur Contemplation der Physiognomien <gap quantity="3" reason="editorial"/> zu nöthigen bemüht war</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 638 [20. Buch]). Ob Einsiedels Interpretation zutreffend ist, sei dahingestellt.</p>
+
+</note>
+<note xml:id="gb52762_comment_com16478">
+<label xml:id="GB03_2_BR009_0_note_018_12_22" copyOf="#start_com_0160"><hi rendition="#fett">12,22</hi>Odyssee</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR008_0_note_026_10_32">10,32</ref>.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13697">
+<label xml:id="GB03_2_BR009_0_note_019_12_22-23" copyOf="#start_com_0161"><hi rendition="#fett">12,22-23</hi>rammelten</label>
+<p>Rammeln: hier im Sinn von ‚im Scherz raufen‘, ‚balgen‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 14, 78).</p>
+
+</note>
+<note xml:id="gb52762_comment_com17055">
+<label xml:id="GB03_2_BR009_0_note_020_12_23" copyOf="#start_com_0162"><hi rendition="#fett">12,23</hi>Crugantino und Basko</label>
+<p>Vagabundenfiguren aus Goethes erst im Mai 1776 veröffentlichtem Schauspiel „Claudine von Villa Bella“ (1. Fassung). Offensichtlich vertrieb man sich die Zeit mit einem Stegreifspiel von Szenen aus diesem Stück (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_014_295_15">295,15</ref>).</p>
+
+</note>
+<note xml:id="gb52762_comment_com13698">
+<label xml:id="GB03_2_BR009_0_note_021_12_23-24" copyOf="#start_com_0163"><hi rendition="#fett">12,23-24</hi>unsre Imagination spazierengeritten</label>
+<p>Hier im Sinn von ‚sich vorstellen‘, ‚ausmalen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1494) mit Bezug auf die improvisierte Kostümierung beim Theaterspiel.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13699">
+<label xml:id="GB03_2_BR009_0_note_022_12_26" copyOf="#start_com_0164"><hi rendition="#fett">12,26</hi>Krause</label>
+<p>Georg Melchior Kraus, Maler und Zeichner aus Frankfurt, bei dem Goethe Anfang 1775 Zeichenunterricht genommen hatte. Er hatte 1774 Weimar besucht und dort zahlreiche Porträts und Landschaften angefertigt, die nach Goethes späterer Aussage in seiner Lebensbeschreibung ein Grund für den Künstler gewesen waren, nach Weimar zu gehen (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 639 [20. Buch]). Kraus warb um Augusta, die jüngere Tochter Traugott Friedemann Slevoigts (vgl. zu <ref target="gb:note#GB03_2_BR008_0_note_004_9_8">9,8</ref>).</p>
+
+</note>
+<note xml:id="gb52762_comment_com17056">
+<label xml:id="GB03_2_BR009_0_note_023_12_27" copyOf="#start_com_0165"><hi rendition="#fett">12,27</hi>Perrucke</label>
+<p>Von franz. perruque (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_014_3_24-4_1">3,24-4,1</ref>).</p>
+
+</note>
+<note xml:id="gb52762_comment_com13957">
+<label xml:id="GB03_2_BR009_0_note_024_12_27" copyOf="#start_com_0166"><hi rendition="#fett">12,27</hi>des Wildmsters</label>
+<p>Traugott Friedemann Slevoigt, Wildmeister in Waldeck, Freund Bertuchs.</p>
+
+</note>
+<note xml:id="gb52762_comment_com13700">
+<label xml:id="GB03_2_BR009_0_note_025_12_29" copyOf="#start_com_0167"><hi rendition="#fett">12,29</hi>Kalbs</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR008_0_note_031_11_13">11,13</ref>.</p>
+
+</note>
+<note xml:id="gb52762_comment_com17058">
+<label xml:id="GB03_2_BR009_0_note_026_12_30" copyOf="#start_com_0168"><hi rendition="#fett">12,30</hi>vertrotteltem Kreuz</label>
+<p>Mit Troddeln versehenes Rückenteil des Rocks.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

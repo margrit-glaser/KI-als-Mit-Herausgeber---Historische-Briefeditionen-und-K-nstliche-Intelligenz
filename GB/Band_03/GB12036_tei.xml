@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5530"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12036" n="GB 3, Nr. 541">
+  <teiHeader xml:id="gb12036_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>541.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#96828">Payerne</placeName>, 20. Oktober, <placeName key="sndb:ort#96822">Moudon</placeName>, 21. Oktober, <placeName key="sndb:ort#78395">Lausanne</placeName>, 23. Oktober, <placeName key="sndb:ort#79557">Vallee de Joux</placeName>, 24./25. Oktober, <placeName key="sndb:ort#78752">Nion</placeName>, 26./27. Oktober 1779. Mittwoch&#x2012;Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:34Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12036_tei.xml</idno>
+        <idno type="URI">gb12036</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR541_0</idno>
+        <idno type="KSW-ID">12036</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="322" to="326">322-326</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1022" to="1028">1022-1028</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12036_header_hwit1532" corresp="#gb12036_source_hwit1532" sameAs="#gb12036_comment_hwit1532" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 34</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12036,,1532/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Nur wenig Worte dass ich nicht ganz aus dem Faden komme, und    Sie uns folgen können</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#96828">Payerne</placeName> und
+            <placeName key="sndb:ort#96822">Moudon</placeName> und
+            <placeName key="sndb:ort#78395">Lausanne</placeName> und
+            <placeName key="sndb:ort#79557">Vallee de Joux</placeName> und
+            <placeName key="sndb:ort#78752">Nyon</placeName>
+            <date when="1779-10-20">20. Oktober 1779</date> und
+            <date when="1779-10-21">21. Oktober 1779</date> und
+            <date when="1779-10-23">23. Oktober 1779</date> und
+            <date from="1779-10-24" to="1779-10-25">24./25. Oktober 1779</date> und
+            <date from="1779-10-26" to="1779-10-27">26./27. Oktober 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12036_source_hwit1532" corresp="#gb12036_header_hwit1532" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12036/23152"/>
+      <opener>
+        <dateline rendition="#einrueck18">
+          <anchor xml:id="GB03_1_BR541_0_322_001"/>
+          <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR541_0_note_001_322_1" xml:id="start_com_4622"/>Payerne</emph> Peterlingen<ref xml:id="end_com_4622"/>
+        </dateline>
+        <dateline rendition="#einrueck17">
+          <anchor xml:id="GB03_1_BR541_0_322_002"/>d<g ref="#typoSuspension"/>. 20<ptr n="1" target="#a001_322.2"/> Oktbr. 79 Abends</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_322_003"/>Nur wenig Worte<ptr n="2" target="#a002_322.3"/> dass ich nicht ganz aus dem Faden komme, und Sie 
+<anchor xml:id="GB03_1_BR541_0_322_004"/>uns folgen können. Heut früh sind wir von Bern ab, nachdem wir 
+<anchor xml:id="GB03_1_BR541_0_322_005"/>uns was moglich war umgesehen und auch <ref target="gb:note#GB03_2_BR541_0_note_002_322_5" xml:id="start_com_4623"/>einige interessante Leute<ref xml:id="end_com_4623"/>
+        <anchor xml:id="GB03_1_BR541_0_322_006"/>kennen lernen. In Murten zu Mittage. In Avanche einen<ptr n="3" target="#a003_322.6"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_003_322_6-7" xml:id="start_com_4624"/>Fusboden 
+<anchor xml:id="GB03_1_BR541_0_322_007"/>Mosaique<ref xml:id="end_com_4624"/> von der Römer Zeit gesehen, schlecht erhalten<ptr n="4" target="#a004_322.7"/>, und geht 
+<anchor xml:id="GB03_1_BR541_0_322_008"/>taglich mehr zu Grunde, dass es Jammer ist. Mit schonem Mondschein 
+<anchor xml:id="GB03_1_BR541_0_322_009"/>hier angelangt. Auch kan ich diesen Brief wieder mit Preis der 
+<anchor xml:id="GB03_1_BR541_0_322_010"/>Witterung anfangen. Vom <ref target="gb:note#GB03_2_BR541_0_note_004_322_10" xml:id="start_com_4625"/>Docktor in Langnau<ref xml:id="end_com_4625"/> werd ich manches erzählen. 
+<anchor xml:id="GB03_1_BR541_0_322_011"/>Er geht für Alter sehr zu sammen und war auch nicht guter 
+<anchor xml:id="GB03_1_BR541_0_322_012"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_005_322_12" xml:id="start_com_4626"/>Humor<ref xml:id="end_com_4626"/> des Tags, er hatte Honig gegessen den er nicht verdauen kan, 
+<anchor xml:id="GB03_1_BR541_0_322_013"/>und seine Frau war abwesend, doch ist sein Auge <ref target="gb:note#GB03_2_BR541_0_note_006_322_13" xml:id="start_com_4627"/>das gegenwärtigste<ref xml:id="end_com_4627"/>
+        <anchor xml:id="GB03_1_BR541_0_322_014"/>das ich glaube gesehn zu haben. Blau, offen, vorstehend, ohne <ref target="gb:note#GB03_2_BR541_0_note_007_322_14-15" xml:id="start_com_4628"/>Anstremgung<ref xml:id="end_com_4628"/><ptr n="5" target="#a005_322.15"/>
+        <anchor xml:id="GB03_1_BR541_0_322_015"/>beobachtend ppp. Vom <ref target="gb:note#GB03_2_BR541_0_note_008_322_15-16" xml:id="start_com_4629"/>Grabmal der Pfarren zu Hindelbanck<ref xml:id="end_com_4629"/>
+        <anchor xml:id="GB03_1_BR541_0_322_016"/>zu hören werden Sie Geduld haben müssen, denn ich habe 
+<anchor xml:id="GB03_1_BR541_0_322_017"/>mancherley davon<ptr n="6" target="#a006_322.17"/>, darüber und dabey vorzubringen. Es ist ein Text 
+<anchor xml:id="GB03_1_BR541_0_322_018"/>worüber sich ein lang Capitel lesen lässt. Ich wünschte gleich iezt alles 
+<anchor xml:id="GB03_1_BR541_0_322_019"/>aufschreiben zu können. Ich hab soviel davon gehört und alles <ref target="gb:note#GB03_2_BR541_0_note_009_322_19-20" xml:id="start_com_4630"/>verbertucht<ref xml:id="end_com_4630"/>
+        <anchor xml:id="GB03_1_BR541_0_322_020"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_010_322_20" xml:id="start_com_4631"/>pour ainsi dire</emph>
+        <ref xml:id="end_com_4631"/> Man<ptr n="7" target="#a007_322.20"/> spricht mit einem allzeit<ptr n="8" target="#a008_322.20"/> fertigen Enthusiasmus 
+<anchor xml:id="GB03_1_BR541_0_322_021"/>von solchen Dingen, und niemand denckt sieht<ptr n="9" target="#a009_322.21"/> drauf was hat der 
+<anchor xml:id="GB03_1_BR541_0_322_022"/>Künstler gemacht, was hat er machen wollen. <pb n="2" facs="gb:digitalisate#12036/23153"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_322_023"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_011_322_23" xml:id="start_com_4632"/>Moudon<ref xml:id="end_com_4632"/> d<g ref="#typoSuspension"/>. 21.    Wir machen kleine Tagreisen wie es neugierigen 
+<anchor xml:id="GB03_1_BR541_0_322_024"/>Reisenden ziemt. Den Morgen haben wir zugebracht wieder ein <ref target="gb:note#GB03_2_BR541_0_note_012_322_24-25" xml:id="start_com_4633"/>Mosaisches 
+<anchor xml:id="GB03_1_BR541_0_322_025"/>Pflaster bey Chaire<ref xml:id="end_com_4633"/> gegen<ptr n="10" target="#a010_322.25"/> den Neustädter See zu besuchen. Es 
+<anchor xml:id="GB03_1_BR541_0_322_026"/>ist ziemlich erhalten <ref target="gb:note#GB03_2_BR541_0_note_013_322_26" xml:id="start_com_4634"/>geht aber auch nach und nach zu Grunde<ref xml:id="end_com_4634"/> die 
+<anchor xml:id="GB03_1_BR541_0_322_027"/>Schweizer <ref target="gb:note#GB03_2_BR541_0_note_014_322_27" xml:id="start_com_4635"/>tracktiren<ref xml:id="end_com_4635"/> so etwas wie die Schweine. <ref target="gb:note#GB03_2_BR541_0_note_015_322_27" xml:id="start_com_4636"/>Der vorige Landvogt<ref xml:id="end_com_4636"/>
+        <anchor xml:id="GB03_1_BR541_0_323_001"/>fand es erst vor zwey Jahren, <ref target="gb:note#GB03_2_BR541_0_note_016_323_1" xml:id="start_com_4637"/>der iezzige<ref xml:id="end_com_4637"/> wird sich nicht drum kümmern, 
+<anchor xml:id="GB03_1_BR541_0_323_002"/>besonders da es in einem benachbaarten Amt liegt und er nur 
+<anchor xml:id="GB03_1_BR541_0_323_003"/>die Schlüssel dazu hat. Ich schrieb ihm <ref target="gb:note#GB03_2_BR541_0_note_017_323_3" xml:id="start_com_4638"/>ein anonym billet<ref xml:id="end_com_4638"/>, ihm zu berichten 
+<anchor xml:id="GB03_1_BR541_0_323_004"/>dass das<ptr n="11" target="#a011_323.4"/> Mäuergen umher einzufallen anfinge, und bat ihn es 
+<anchor xml:id="GB03_1_BR541_0_323_005"/>wieder herstellen zu lassen. Doch hilft auch das nichts wenn ers auch 
+<anchor xml:id="GB03_1_BR541_0_323_006"/>thut ppp. Es stellt den Orpheus vor in einem Rund, und in den Feldern 
+<anchor xml:id="GB03_1_BR541_0_323_007"/>umher die Thiere, es ist mittelmäsige Arbeit. Dagegen <ref target="gb:note#GB03_2_BR541_0_note_018_323_7-8" xml:id="start_com_4639"/>das gestrige<ref xml:id="end_com_4639"/>
+        <anchor xml:id="GB03_1_BR541_0_323_008"/>trefflich muss gewesen seyn, aus einem einzigen Kopf zu schliesen 
+<anchor xml:id="GB03_1_BR541_0_323_009"/>den wir von allem noch finden konnten der aber auch bald wird zerstört 
+<anchor xml:id="GB03_1_BR541_0_323_010"/>seyn. Ganz herrlich aber war die <ref target="gb:note#GB03_2_BR541_0_note_019_323_10" xml:id="start_com_4640"/>Zeichnung<ptr n="12" target="#a012_323.10"/> von einem<ref xml:id="end_com_4640"/> die wir 
+<anchor xml:id="GB03_1_BR541_0_323_011"/>gestern<ptr n="13" target="#a013_323.11"/> sahen, das aber schon lange aus Muthwill <ref target="gb:note#GB03_2_BR541_0_note_020_323_11-12" xml:id="start_com_4641"/>von Bauern bey 
+<anchor xml:id="GB03_1_BR541_0_323_012"/>nachtzeit ist rouinirt worden<ref xml:id="end_com_4641"/>. <pb n="3" facs="gb:digitalisate#12036/23154"/> Meine ganz immer gleiche herzliche 
+<anchor xml:id="GB03_1_BR541_0_323_013"/>Freude und Liebe zu der bildenden Kunst macht mir so was noch viel 
+<anchor xml:id="GB03_1_BR541_0_323_014"/>auffallender und unerträglicher.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR541_0_323_015"/>Ubrigens bin ich ruhig und recht wohl in meiner Seele. So bald 
+<anchor xml:id="GB03_1_BR541_0_323_016"/>eine ewige Abwechslung tausend manigfaltige Stückgen auf meinem 
+<anchor xml:id="GB03_1_BR541_0_323_017"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_021_323_17" xml:id="start_com_4642"/>Psalter<ref xml:id="end_com_4642"/> spielt bin ich vergnügt. Dem Herzog bekommt’s auch recht 
+<anchor xml:id="GB03_1_BR541_0_323_018"/>sehr, ich hoffe ihr sollt des alle geniessen.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_323_019"/>Lausanne d<g ref="#typoSuspension"/>. 23ten<ptr n="14" target="#a014_323.19"/>.    Wenn es was zu schreiben giebt merck ich wohl 
+<anchor xml:id="GB03_1_BR541_0_323_020"/>wird nichts geschrieben und von <ref target="gb:note#GB03_2_BR541_0_note_022_323_20" xml:id="start_com_4643"/>alten Fusboden<ref xml:id="end_com_4643"/> die Sie nichts angehn 
+<anchor xml:id="GB03_1_BR541_0_323_021"/>unterhalt ich Sie weitläufig.    gestern<ptr n="15" target="#a015_323.21"/> d<g ref="#typoSuspension"/>. 22ten<ptr n="16" target="#a016_323.21"/> kamen wir gegen Mittag 
+<anchor xml:id="GB03_1_BR541_0_323_022"/>hier an und sahen d<g ref="#typoSuspension"/>. Genfer See Den<ptr n="17" target="#a017_323.22"/> Meister von allen Seen die 
+<anchor xml:id="GB03_1_BR541_0_323_023"/>wir bisher gesehen haben, wovon doch ieder sein eignes hat. Lausanne<ptr n="18" target="#a018_323.23"/>
+        <anchor xml:id="GB03_1_BR541_0_323_024"/>liegt allerliebst, ist aber ein leidig Nest, <ref target="gb:note#GB03_2_BR541_0_note_023_323_24" xml:id="start_com_4644"/>Lust Hauser<ref xml:id="end_com_4644"/> sind umher von 
+<anchor xml:id="GB03_1_BR541_0_323_025"/>trefflichen Aussichten<ptr n="19" target="#a019_323.25"/> auch <ref target="gb:note#GB03_2_BR541_0_note_024_323_25" xml:id="start_com_4645"/>Spaziergänge<ref xml:id="end_com_4645"/>. Wir gingen Nachmittag 
+<anchor xml:id="GB03_1_BR541_0_323_026"/>Spazieren und sahen uns satt. Abends ging ich zu <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_025_323_26" xml:id="start_com_4646"/>Mad. Branconi</emph>
+        <ref xml:id="end_com_4646"/>. Sie 
+<anchor xml:id="GB03_1_BR541_0_323_027"/>kommt mir so schön und angenehm vor dass ich mich etlichemal in 
+<anchor xml:id="GB03_1_BR541_0_323_028"/>ihrer Gegenwart stille fragte, ob s auch wahr seyn möchte<ptr n="20" target="#a020_323.28"/> dass sie so 
+<anchor xml:id="GB03_1_BR541_0_323_029"/>schön sey. Einen Geist! ein Leben!<ptr n="21" target="#a021_323.29"/> einen<ptr n="22" target="#a022_323.29"/> Offenmuth!<ptr n="23" target="#a023_323.29"/> dass man eben 
+<anchor xml:id="GB03_1_BR541_0_323_030"/>nicht weis woran man ist. <pb n="4" facs="gb:digitalisate#12036/23155"/></p>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_324_001"/>d<g ref="#typoSuspension"/>. 23 früh den schönsten Morgen<ptr n="24" target="#a024_324.1"/>. Jeder Tag ist so schon dass man 
+<anchor xml:id="GB03_1_BR541_0_324_002"/>glaubt er sey schöner als der Vorhergehende. Wir fuhren nach <ref target="gb:note#GB03_2_BR541_0_note_026_324_2" xml:id="start_com_4647"/>Veway<ref xml:id="end_com_4647"/>, 
+<anchor xml:id="GB03_1_BR541_0_324_003"/>ich konnte mich der Trähnen nicht enthalten, wenn ich nach <ref target="gb:note#GB03_2_BR541_0_note_027_324_3-4" xml:id="start_com_4648"/>Melleraye<ref xml:id="end_com_4648"/>
+        <anchor xml:id="GB03_1_BR541_0_324_004"/>hinüber sahe und den <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_028_324_4" xml:id="start_com_4649"/>dent de Chamant</emph>
+        <ref xml:id="end_com_4649"/> und die ganze Pläzze vor 
+<anchor xml:id="GB03_1_BR541_0_324_005"/>mir hatte, die der ewig einsame Rousseau mit empfindenden Wesen 
+<anchor xml:id="GB03_1_BR541_0_324_006"/>bevölckerte. Der Genfer See wird<ptr n="25" target="#a025_324.6"/> hier von den <ref target="gb:note#GB03_2_BR541_0_note_029_324_6-7" xml:id="start_com_4650"/>Walliser und Savoyer 
+<anchor xml:id="GB03_1_BR541_0_324_007"/>Gebürgen<ref xml:id="end_com_4650"/> eingeschlossen die steil herab gehn, die Einsicht 
+<anchor xml:id="GB03_1_BR541_0_324_008"/>ins Wallis ist<ptr n="26" target="#a026_324.8"/> ahndungs voll und die Schweizerseite mit Weinbergen sorgfältig 
+<anchor xml:id="GB03_1_BR541_0_324_009"/>und fröhlig genuzt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR541_0_324_010"/>Wir badeten im See, assen zu Mittag fuhren nach Hause, puzten 
+<anchor xml:id="GB03_1_BR541_0_324_011"/>uns, fuhren zur <ref target="gb:note#GB03_2_BR541_0_note_030_324_11" xml:id="start_com_4651"/>Herzogin von Curland<ref xml:id="end_com_4651"/>, <ref target="gb:note#GB03_2_BR541_0_note_031_324_11" xml:id="start_com_4652"/>strichen uns<ref xml:id="end_com_4652"/> balde<ptr n="27" target="#a027_324.11"/>, und mich 
+<anchor xml:id="GB03_1_BR541_0_324_012"/>führte der Geist wieder zur <emph rendition="#latin">M. Branconi</emph>. Eigentlich darf ich sagen, sie 
+<anchor xml:id="GB03_1_BR541_0_324_013"/>lies mir durch <ref target="gb:note#GB03_2_BR541_0_note_032_324_13" xml:id="start_com_4653"/>Mathäi<ptr n="28" target="#a028_324.13"/> der bey ihrem Sohn ist<ref xml:id="end_com_4653"/><ptr n="29" target="#a029_324.13"/> gar <ref target="gb:note#GB03_2_BR541_0_note_033_324_13" xml:id="start_com_4654"/>artig<ref xml:id="end_com_4654"/> sagen wenn ich 
+<anchor xml:id="GB03_1_BR541_0_324_014"/>noch eine Stunde sie sehen konnte würd es ihr recht seyn. Ich blieb 
+<anchor xml:id="GB03_1_BR541_0_324_015"/>zum Essen. Am Ende ist von ihr zu sagen <ref target="gb:note#GB03_2_BR541_0_note_034_324_15-16" xml:id="start_com_4655"/>was Ulyss von den Felsen 
+<anchor xml:id="GB03_1_BR541_0_324_016"/>der Scylla erzählt<ref xml:id="end_com_4655"/>. „Unverlezt die Flügel streicht kein Vogel vorbey, 
+<anchor xml:id="GB03_1_BR541_0_324_017"/>auch<ptr n="30" target="#a030_324.17"/> die schnelle Taube nicht die dem <ref target="gb:note#GB03_2_BR541_0_note_035_324_17" xml:id="start_com_4656"/>Jovi<ref xml:id="end_com_4656"/> Ambrosia<ptr n="31" target="#a031_324.17"/> bringt, er muss 
+<anchor xml:id="GB03_1_BR541_0_324_018"/>sich für iedesmal andrer bedienen.“ <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_036_324_18-19" xml:id="start_com_4657"/>Pour la Colombe <hi rendition="#hervor1">du jour</hi> elle a 
+<anchor xml:id="GB03_1_BR541_0_324_019"/>echappé belle</emph>
+        <ref xml:id="end_com_4657"/> doch mag <ref target="gb:note#GB03_2_BR541_0_note_037_324_19" xml:id="start_com_4658"/>er<ref xml:id="end_com_4658"/> sich für das nachstemal andrer bedienen. <pb n="5" facs="gb:digitalisate#12036/23156"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_324_020"/>d<g ref="#typoSuspension"/> 24 Octbr. <emph rendition="#latin">a la <ref target="gb:note#GB03_2_BR541_0_note_038_324_20" xml:id="start_com_4659"/>Vallee de Joux</emph>
+        <ref xml:id="end_com_4659"/>.    Der heutige Tag war wieder 
+<anchor xml:id="GB03_1_BR541_0_324_021"/>sehr glücklich. wir ritten früh halb achte mit schönem Wetter aus, doch 
+<anchor xml:id="GB03_1_BR541_0_324_022"/>war ich schon seit gestern Abend in stillen<ptr n="32" target="#a032_324.22"/> Sorgen, der Wind hatte 
+<anchor xml:id="GB03_1_BR541_0_324_023"/>gewendet und kam von <ref target="gb:note#GB03_2_BR541_0_note_039_324_23" xml:id="start_com_4660"/>Genv<ref xml:id="end_com_4660"/> das hier Regen deutet, die Sonne stach<ptr n="33" target="#a033_324.23"/>, 
+<anchor xml:id="GB03_1_BR541_0_324_024"/>die Nebel zogen vom Jura nach den Savoyer und Wallis Bergen<ptr n="34" target="#a034_324.24"/>, wir 
+<anchor xml:id="GB03_1_BR541_0_324_025"/>kamen nach eilf auf <ref target="gb:note#GB03_2_BR541_0_note_040_324_25" xml:id="start_com_4661"/>Rolles<ref xml:id="end_com_4661"/>. Der See war unendlich schön, die Gegend 
+<anchor xml:id="GB03_1_BR541_0_324_026"/>die <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_041_324_26" xml:id="start_com_4662"/>la Cote</emph>
+        <ref xml:id="end_com_4662"/> heisst ist fast vom See<ptr n="35" target="#a035_324.26"/> an bis hoch an die Berge hinauf mit 
+<anchor xml:id="GB03_1_BR541_0_324_027"/>Reben bepflanzt, mit unzähligen Hausern besezt und ist<ptr n="36" target="#a036_324.27"/> iezt voll von 
+<anchor xml:id="GB03_1_BR541_0_324_028"/>Menschen, es geht mit der Weinlese zu Ende. In Rolle nahm ich ein 
+<anchor xml:id="GB03_1_BR541_0_324_029"/>Miethpferd auf <ref target="gb:note#GB03_2_BR541_0_note_042_324_29" xml:id="start_com_4663"/>Mont<ref xml:id="end_com_4663"/> zu <ref target="gb:note#GB03_2_BR541_0_note_043_324_29" xml:id="start_com_4664"/>Mercks Schwiegereltern<ref xml:id="end_com_4664"/> zu reiten das ein halb 
+<anchor xml:id="GB03_1_BR541_0_324_030"/>stündgen aufwärts liegt. Dort blieb ich zu Tische, und fing ohngefähr 
+<anchor xml:id="GB03_1_BR541_0_324_031"/>an vom <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_044_324_31" xml:id="start_com_4665"/>Lac de Joux</emph>
+        <ref xml:id="end_com_4665"/> zu reden. Merck hatte <ref target="gb:note#GB03_2_BR541_0_note_045_324_31" xml:id="start_com_4666"/>und<ref xml:id="end_com_4666"/> diese Tour sehr empfolen 
+<anchor xml:id="GB03_1_BR541_0_324_032"/>von Lausanne aus zu machen, die bedeckten Berge hatten uns<ptr n="37" target="#a037_324.32"/> den 
+<anchor xml:id="GB03_1_BR541_0_325_001"/>Gedancken verlöscht. Man pries die<ptr n="38" target="#a038_325.1"/> Gegend sehr und erzählte dass eigentlich 
+<anchor xml:id="GB03_1_BR541_0_325_002"/>der beste Weeg von Rolle hinauf gehe, eine Chaussee bis<ptr n="39" target="#a039_325.2"/> zu 
+<anchor xml:id="GB03_1_BR541_0_325_003"/>oberst des Bergs, und dass wir zu Nacht<ptr n="40" target="#a040_325.3"/> besonders bey Mondschein 
+<anchor xml:id="GB03_1_BR541_0_325_004"/>oben<ptr n="41" target="#a041_325.4"/> seyn könnten. <ref target="gb:note#GB03_2_BR541_0_note_046_325_4" xml:id="start_com_4667"/>Ich schrieb dem Herzog ein Billet<ref xml:id="end_com_4667"/>, und kam mit 
+<anchor xml:id="GB03_1_BR541_0_325_005"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_047_325_5" xml:id="start_com_4668"/>Merckens Schwager<ref xml:id="end_com_4668"/> <pb n="6" facs="gb:digitalisate#12036/23157"/> der diese Reviere als Oberforstmeister unter sich 
+<anchor xml:id="GB03_1_BR541_0_325_006"/>hat, und alles wohl kennt, <ref target="gb:note#GB03_2_BR541_0_note_048_325_6" xml:id="start_com_4669"/>den Herzog und Wedeln abzuholen<ref xml:id="end_com_4669"/>. <ref target="gb:note#GB03_2_BR541_0_note_049_325_6-7" xml:id="start_com_4670"/>Wir 
+<anchor xml:id="GB03_1_BR541_0_325_007"/>machten uns mit den Pferden<ref xml:id="end_com_4670"/>, erstlich <ref target="gb:note#GB03_2_BR541_0_note_050_325_7" xml:id="start_com_4671"/>Mont<ref xml:id="end_com_4671"/> hinan, und hatten steigend 
+<anchor xml:id="GB03_1_BR541_0_325_008"/>die herrlichste<ptr n="42" target="#a042_325.8"/> Aussicht auf den Genfer See die Savoyer und Wallis 
+<anchor xml:id="GB03_1_BR541_0_325_009"/>Gebürge hinter uns konnten Lausanne erkennen, und durch einen 
+<anchor xml:id="GB03_1_BR541_0_325_010"/>leichten Nebel auch die Gegend von Genv. <ref target="gb:note#GB03_2_BR541_0_note_051_325_10" xml:id="start_com_4672"/>Grad über<ref xml:id="end_com_4672"/> sahen wir den 
+<anchor xml:id="GB03_1_BR541_0_325_011"/>Mont blanc der über alle Gebürge des <ref target="gb:note#GB03_2_BR541_0_note_052_325_11" xml:id="start_com_4673"/>Faucigny<ref xml:id="end_com_4673"/> hervor sieht die Sonne 
+<anchor xml:id="GB03_1_BR541_0_325_012"/>ging klar unter<ptr n="43" target="#a043_325.12"/> es war ein so groser Anblick, dass ein menschlich Auge 
+<anchor xml:id="GB03_1_BR541_0_325_013"/>nicht hinreicht ihn zu sehen. Der fast volle<ptr n="44" target="#a044_325.13"/> Mond kam herauf, und wir 
+<anchor xml:id="GB03_1_BR541_0_325_014"/>höher; durch Tannen Wälder stiegen wir immer den Jura hinan, und 
+<anchor xml:id="GB03_1_BR541_0_325_015"/>sahen <ref target="gb:note#GB03_2_BR541_0_note_053_325_15" xml:id="start_com_4674"/>den See<ref xml:id="end_com_4674"/> im Duft und den Wiederschein des Mondes drinne. es 
+<anchor xml:id="GB03_1_BR541_0_325_016"/>wurde immer heller. Der Weeg ist eine bequeme Chaussee nur angelegt 
+<anchor xml:id="GB03_1_BR541_0_325_017"/>um das Holz aus den Gebürgen bequemer ins Land zu bringen. 
+<anchor xml:id="GB03_1_BR541_0_325_018"/>Wir waren wohl drey Stunden<ptr n="45" target="#a045_325.18"/> gestiegen, als es hinterwarts sachte <ref target="gb:note#GB03_2_BR541_0_note_054_325_18-19" xml:id="start_com_4675"/>wieder 
+<anchor xml:id="GB03_1_BR541_0_325_019"/>hinab<ref xml:id="end_com_4675"/> zu gehen anfing<ptr n="46" target="#a046_325.19"/> und in einer Stunde zeit waren wir im Thal 
+<anchor xml:id="GB03_1_BR541_0_325_020"/>
+        <emph rendition="#latin">de Joux</emph> das also<ptr n="47" target="#a047_325.20"/> hoch auf dem Berge liegt <ref target="gb:note#GB03_2_BR541_0_note_055_325_20" xml:id="start_com_4676"/>einen schönen See<ref xml:id="end_com_4676"/> hat und 
+<anchor xml:id="GB03_1_BR541_0_325_021"/>wo in zerstreuten<ptr n="48" target="#a048_325.21"/> Hausern bey 2000 Seelen wohnen. Davon haben wir 
+<anchor xml:id="GB03_1_BR541_0_325_022"/>alle <pb n="7" facs="gb:digitalisate#12036/23158"/> nichts gesehen denn der Nebel lag im Thal wie wir herunter 
+<anchor xml:id="GB03_1_BR541_0_325_023"/>kamen der Mond schien hoch drauf, wir sahen einen Mondbogen im 
+<anchor xml:id="GB03_1_BR541_0_325_024"/>Nebel ganz geformt. Breiter Als der Regenbogen aber niedrig weil 
+<anchor xml:id="GB03_1_BR541_0_325_025"/>der Mond hoch stand – nun sind wir <ref target="gb:note#GB03_2_BR541_0_note_056_325_25-26" xml:id="start_com_4677"/>in einem recht guten Wirths<ptr n="49" target="#a049_325.25"/>
+        <anchor xml:id="GB03_1_BR541_0_325_026"/>Haus<ref xml:id="end_com_4677"/> wo die Menschen aussehn wie im flachen Land, wir haben sogar 
+<anchor xml:id="GB03_1_BR541_0_325_027"/>hübsch gepuzte <ref target="gb:note#GB03_2_BR541_0_note_057_325_27" xml:id="start_com_4678"/>Misels<ref xml:id="end_com_4678"/> zum Besuch angetroffen.    Um halb 
+<anchor xml:id="GB03_1_BR541_0_325_028"/>10 Abends.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR541_0_325_029"/>
+        <emph rendition="#latin">a la Vallee de Joux.</emph> d<g ref="#typoSuspension"/>. 25 Abends. 9.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_325_030"/>Wir haben heute einen <ref target="gb:note#GB03_2_BR541_0_note_058_325_30" xml:id="start_com_4679"/>delizieusen<ref xml:id="end_com_4679"/> Tag gehabt, die <ref target="gb:note#GB03_2_BR541_0_note_059_325_30" xml:id="start_com_4680"/>Tour<ptr n="50" target="#a050_325.30"/> vom Thal<ref xml:id="end_com_4680"/> zu 
+<anchor xml:id="GB03_1_BR541_0_325_031"/>machen, auf die <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR541_0_note_060_325_31" xml:id="start_com_4681"/>Dent de Vaulion</emph>
+        <ref xml:id="end_com_4681"/> zu steigen und uns von da in alle 
+<anchor xml:id="GB03_1_BR541_0_325_032"/>Welt umzusehen. Leider will mir’s nicht aus der Feder <ref target="gb:note#GB03_2_BR541_0_note_061_325_32-326_1" xml:id="start_com_4682"/>eine Beschreibung<ref xml:id="end_com_4682"/>
+        <anchor xml:id="GB03_1_BR541_0_326_001"/>zu machen so sehr es verdiente. Gute Nacht. Mündlich ein 
+<anchor xml:id="GB03_1_BR541_0_326_002"/>mehres.</p>
+      <p rendition="#einrueck11">
+        <graphic url="gb:digitalisate#12036/70174" width="60px"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_326_003"/>Ich hab es doch noch über mich vermocht geschwind <ref target="gb:note#GB03_2_BR541_0_note_062_326_3-4" xml:id="start_com_4683"/>eine leichte 
+<anchor xml:id="GB03_1_BR541_0_326_004"/>Skizze<ref xml:id="end_com_4683"/><ptr n="51" target="#a051_326.4"/> vom heutigen Tag auf ein ander Papier zu werfen, das ich aber 
+<anchor xml:id="GB03_1_BR541_0_326_005"/>Philippen <ref target="gb:note#GB03_2_BR541_0_note_063_326_5" xml:id="start_com_4684"/>wenn wir nach Genv. kommen<ref xml:id="end_com_4684"/> abdicktiren muss. Gute 
+<anchor xml:id="GB03_1_BR541_0_326_006"/>Nacht. <ref target="gb:note#GB03_2_BR541_0_note_064_326_6" xml:id="start_com_4685"/>Nur einen Brief vom Ende Sept.<ref xml:id="end_com_4685"/> hab ich von Ihnen In einem 
+<anchor xml:id="GB03_1_BR541_0_326_007"/>ganzen Monat nichts von Ihnen gehört. wenn ich in Genv nichts finde 
+<anchor xml:id="GB03_1_BR541_0_326_008"/>wer weis wann dann<ptr n="52" target="#a052_326.8"/>. <pb n="8" facs="gb:digitalisate#12036/23159"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_326_009"/>d<g ref="#typoSuspension"/> 26ten<ptr n="53" target="#a053_326.9"/> Oktbr. <ref target="gb:note#GB03_2_BR541_0_note_065_326_9" xml:id="start_com_4686"/>Nion<ref xml:id="end_com_4686"/> Abends achte. Vom Camin wo ich den Glanz 
+<anchor xml:id="GB03_1_BR541_0_326_010"/>des Monds über den ganzen See gar herrlich sehn kan<ptr n="54" target="#a054_326.10"/>. Auch diesen 
+<anchor xml:id="GB03_1_BR541_0_326_011"/>Tag hat uns das Glück wie verdorbne Kinder behandelt, alle unsre 
+<anchor xml:id="GB03_1_BR541_0_326_012"/>Wünsche erfüllt, und auch unsre Nachlässigkeiten zum besten gekehrt. 
+<anchor xml:id="GB03_1_BR541_0_326_013"/>Ich will geschwind das mögliche zum gestrigen zusammenkrizzeln. 
+<anchor xml:id="GB03_1_BR541_0_326_014"/>Freylich wenn man den ganzen Tag genossen hat fällt Abends 
+<anchor xml:id="GB03_1_BR541_0_326_015"/>die Wiederholung schweer. Adieu! Ich verlasse Sie, um Sie <ref target="gb:note#GB03_2_BR541_0_note_066_326_15-16" xml:id="start_com_4687"/>auf einem 
+<anchor xml:id="GB03_1_BR541_0_326_016"/>andren Blat<ref xml:id="end_com_4687"/> wieder zu suchen.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR541_0_326_017"/>gegen neun.<ptr n="55" target="#a055_326.17"/> Auch soviel Geduld hab ich gefunden um die äussersten 
+<anchor xml:id="GB03_1_BR541_0_326_018"/>Linien wenigstens unsrer Schicksaale zu ziehen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR541_0_326_019"/>
+        <ref target="gb:note#GB03_2_BR541_0_note_067_326_19-20" xml:id="start_com_4688"/>Mit dem Gestrigen will ich so bald wir nach Genv morgen kommen 
+<anchor xml:id="GB03_1_BR541_0_326_020"/>auch dies dicktiren.<ref xml:id="end_com_4688"/> Die Nacht ist klar, ruhig, der See<ptr n="56" target="#a056_326.20"/> still und 
+<anchor xml:id="GB03_1_BR541_0_326_021"/>der Breite Wiederschein des<ptr n="57" target="#a057_326.21"/> Monds drinn unendlich schön.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR541_0_326_022"/>Nion d<g ref="#typoSuspension"/> 27 Morgends gegen achte. Nach sechsen war heut der See 
+<anchor xml:id="GB03_1_BR541_0_326_023"/>und Himmel gar lieblich in vielen wechselnden Farben der aufsteigenden<ptr n="58" target="#a058_326.24"/>
+        <anchor xml:id="GB03_1_BR541_0_326_024"/>Sonne sie selbst blieb hinter Wolcken <ref target="gb:note#GB03_2_BR541_0_note_068_326_24" xml:id="start_com_4689"/>der Bergen<ref xml:id="end_com_4689"/> gegenüber, und 
+<anchor xml:id="GB03_1_BR541_0_326_025"/>nun liegt die ganze Gegend unter Nebel. Wir sind nun unter eben 
+<anchor xml:id="GB03_1_BR541_0_326_026"/>dem Vorhang wieder eingewickelt auf den wir gestern aus stolzer<ptr n="59" target="#a059_326.26"/> Klarheit 
+<anchor xml:id="GB03_1_BR541_0_326_027"/>hinunter sahen. Der Herzog pflegt der Ruhe noch, in wenig 
+<anchor xml:id="GB03_1_BR541_0_326_028"/>Stunden sind wir <ref target="gb:note#GB03_2_BR541_0_note_069_326_28" xml:id="start_com_4690"/>in Genf<ref xml:id="end_com_4690"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12036_comment">
+<body>
+<div type="metadata" xml:id="gb12036_comment_com757">
+  <ab type="numberAddressee"><label>541.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#96828">Payerne</placeName>, <placeName key="sndb:ort#96822">Moudon</placeName>, <placeName key="sndb:ort#78395">Lausanne</placeName>, <placeName key="sndb:ort#79557">Vallee de Joux</placeName> und <placeName key="sndb:ort#78752">Nyon</placeName>, 20. Oktober 1779 und 21. Oktober 1779 und 23. Oktober 1779 und 24./25. Oktober 1779 und 26./27. Oktober 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied> und <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12036_comment_com2801">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 34. – 2 ineinandergelegte Doppelblätter 17(–17,2) &#xD7; 21,4(–21,6) cm, Büttenrand, 8 S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „8“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 56), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 261–269.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 90–97, Nr 857.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12036_comment_com4597">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12036_comment_com12191">
+<label xml:id="GB03_2_BR541_0_note_001_322_1" copyOf="#start_com_4622"><hi rendition="#fett">322,1</hi><emph rendition="#latin">Payerne</emph> Peterlingen</label>
+<p>Goethe war mit seiner Reisegesellschaft am Morgen des 20. Oktober 1779 von Bern, wo er sich fünf Tage aufgehalten hatte, aufgebrochen und am Mittag im etwa 27 km westlich gelegenen Murten angekommen. Von dort ging es über den Murtensee (vgl. Herzog Carl August an seine Frau Louise, 28. Oktober 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 117) und in südwestlicher Richtung über Avenches nach Payerne (Peterlingen) im Kanton Waadt.</p>
+
+</note>
+<note xml:id="gb12036_comment_com18252">
+<label xml:id="GB03_2_BR541_0_note_002_322_5" copyOf="#start_com_4623"><hi rendition="#fett">322,5</hi>einige interessante Leute</label>
+<p>In Bern war Goethe u. a. mit Carl Ferdinand von Sinner, Johann Ludwig Aberli, Nikolaus Anton Kirchberger, Samuel Anton Wilhelmi, Niklaus Emanuel Tscharner und Jacob Samuel Wyttenbach zusammengetroffen (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR538_0_note_022_311_16">311,16</ref>; die zweite bis fünfte Erläuterung zu 311,17 (<ref target="gb:note#GB03_2_BR538_0_note_026_311_17">311,17/2</ref>, <ref target="gb:note#GB03_2_BR538_0_note_027_311_17">311,17/3</ref>, <ref target="gb:note#GB03_2_BR538_0_note_028_311_17">311,17/4</ref>, <ref target="gb:note#GB03_2_BR538_0_note_029_311_17">311,17/5</ref>) sowie zu <ref target="gb:note#GB03_2_BR540_0_note_029_321_8">321,8</ref>). Lavater hatte ihm einige Personen empfohlen (vgl. zu <ref target="gb:note#GB03_2_BR535_0_note_009_304_23-25">304,23-25</ref>; <ref target="gb:text#GB03_1_BR540_0_321_017 #GB03_1_BR540_0_321_018">321,17–18</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com18348">
+<label xml:id="GB03_2_BR541_0_note_003_322_6-7" copyOf="#start_com_4624"><hi rendition="#fett">322,6-7</hi>Fusboden Mosaique</label>
+<p>In Avenches (Wiflisburg) südwestlich des Murtensees, das auf das römische Aventicum zurückgeht, wurden zu Beginn des 18. Jahrhunderts mehrere Bodenmosaiken entdeckt. Bei dem von Goethe erwähnten Mosaik handelt es sich um das etwa 18 × 12 m große Bacchus-Ariadne-Mosaik; 1708 ausgegraben, wurde es zunächst wieder eingedeckt, dann Mitte des Jahrhunderts erneut freigelegt. Es erlitt große Schäden, als ein französischer Adliger versuchte, das Mosaik nach Frankreich zu transportieren. Vollständig soll das Kunstwerk 1798 durch napoleonische Truppen zerstört worden sein. Herzog Carl August berichtete über den Erhaltungszustand des Mosaiks an seine Frau: „<gap quantity="3" reason="editorial"/> ein eintziger Kopf ist noch übrig, welcher von der größten Schönheit ist.“ (Brief vom 28. Oktober 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 117 f.) – Literaturhinweis: Hans Bögli: Aventicum. La ville romaine et le musée. 3. Ausgabe. Hrsg. von Anne Hochuli-Gysel. Avenches 1996.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12209">
+<label xml:id="GB03_2_BR541_0_note_004_322_10" copyOf="#start_com_4625"><hi rendition="#fett">322,10</hi>Docktor in Langnau</label>
+<p>Am 17. Oktober 1779 hatte Goethe einen Ausflug zu dem als ‚Wunderdoktor‘ geltenden Arzt Michael Schüppach in Langnau (im Emmental) gemacht (vgl. auch zu <ref target="gb:note#GB03_2_BR540_0_note_025_321_5-6">321,5-6</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12210">
+<label xml:id="GB03_2_BR541_0_note_005_322_12" copyOf="#start_com_4626"><hi rendition="#fett">322,12</hi>Humor</label>
+<p>Im 18. Jahrhundert noch im Sinne von franz. humeur: (gute oder schlechte) Laune, Stimmung.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15894">
+<label xml:id="GB03_2_BR541_0_note_006_322_13" copyOf="#start_com_4627"><hi rendition="#fett">322,13</hi>das gegenwärtigste</label>
+<p>‚Gegenwärtig‘ hier im Sinne von ‚geistig präsent‘, ‚teilnahmsvoll‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1267).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12211">
+<label xml:id="GB03_2_BR541_0_note_007_322_14-15" copyOf="#start_com_4628"><hi rendition="#fett">322,14-15</hi>Anstremgung</label>
+<p>Verschrieben für ‚Anstrengung‘.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12212">
+<label xml:id="GB03_2_BR541_0_note_008_322_15-16" copyOf="#start_com_4629"><hi rendition="#fett">322,15-16</hi>Grabmal der Pfarren zu Hindelbanck</label>
+<p>Über das Grabmal der Pfarrersfrau Maria Magdalena Langhans in Hindelbank vgl. zu <ref target="gb:note#GB03_2_BR540_0_note_025_321_5-6">321,5-6</ref>.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12213">
+<label xml:id="GB03_2_BR541_0_note_009_322_19-20" copyOf="#start_com_4630"><hi rendition="#fett">322,19-20</hi>verbertucht</label>
+<p>Die Wortschöpfung ‚verbertuchen‘ bezieht sich auf Friedrich Justin Bertuch; sie ist wohl im Sinn von ‚trivialisieren‘ oder ‚kommerzialisieren‘ zu verstehen (vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb11439_comment_com5015">Nr 200</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com15321">
+<label xml:id="GB03_2_BR541_0_note_010_322_20" copyOf="#start_com_4631"><hi rendition="#fett">322,20</hi><emph rendition="#latin">pour ainsi dire</emph></label>
+<p>Franz.: sozusagen.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12225">
+<label xml:id="GB03_2_BR541_0_note_011_322_23" copyOf="#start_com_4632"><hi rendition="#fett">322,23</hi>Moudon</label>
+<p>Milden; Gemeinde im Broyetal im Kanton Waadt, etwa 20 km südlich des Neuenburger Sees.</p>
+
+</note>
+<note xml:id="gb12036_comment_com18363">
+<label xml:id="GB03_2_BR541_0_note_012_322_24-25" copyOf="#start_com_4633"><hi rendition="#fett">322,24-25</hi>Mosaisches Pflaster bei Chaire</label>
+<p>Das Wort ‚mosaisch‘ ist das Adjektiv zu ‚Mosaik‘, dieses entlehnt aus franz. mosaïque von mittellat. musaicum und lat. musivum (opus), dies wiederum nach griech. μουσαῖος (den Musen geweiht). <ref target="sndb:sigle#2753">Adelung</ref> kennt den Begriff „Musiv-Arbeit“ für eine „Mahlerey, wo die Figuren <gap quantity="3" reason="editorial"/> durch künstliche Zusammensetzung kleiner farbiger Glasstücke oder Steine hervor gebracht werden“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 325). – Goethe besuchte von Payerne aus das 15 km entfernt am Ostufer des Neuenburger Sees gelegene Cheyres. Dort hatte im Jahr 1778 der Landvogt Fran&#231;ois Prosper Nicolas Castella de Villardin einen römischen „Musivboden von zweihundert vier und sechzig Quadratfuß <supplied>etwa 80 m<hi rendition="#sup">2</hi></supplied> Oberfläche entdeckt.“ (Gerold Ludwig Meyer von Knonau: Erdkunde der Schweizerischen Eidgenossenschaft. Ein Handbuch für Einheimische und Fremde. Zürich 1838, S. 423.) Das Mosaik stellt dar, wie Orpheus durch den Klang seiner Leier Tiere heranlockt.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12226">
+<label xml:id="GB03_2_BR541_0_note_013_322_26" copyOf="#start_com_4634"><hi rendition="#fett">322,26</hi>geht aber auch nach und nach zu Grunde</label>
+<p>In Meyer von Knonaus „Erdkunde der Schweizerischen Eidgenossenschaft“ von 1838 heißt es: „Der Entdecker machte sich durch seine Beflissenheit für die Erhaltung dieses Kunstwerkes sehr verdient; allein seither hat es so gelitten, daß man kaum noch einige Spuren davon wahrnimmt.“ (S. 423.) Das Gleiche wird bereits im „Dictionnaire géographique, statistique et historique du Canton de Fribourg“ berichtet, wo es heißt: „<gap quantity="3" reason="editorial"/> des paysans ayant cru y trouver un trésor, <gap quantity="3" reason="editorial"/> le détruisirent dans une nuit.“ (T. 1. Fribourg 1832, S. 115. – Die Bauern glaubten dort einen Schatz zu finden, <gap quantity="3" reason="editorial"/> sie zerstörten es innerhalb einer Nacht.)</p>
+
+</note>
+<note xml:id="gb12036_comment_com12227">
+<label xml:id="GB03_2_BR541_0_note_014_322_27" copyOf="#start_com_4635"><hi rendition="#fett">322,27</hi>tracktiren</label>
+<p>Von lat. tractare: behandeln.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12228">
+<label xml:id="GB03_2_BR541_0_note_015_322_27" copyOf="#start_com_4636"><hi rendition="#fett">322,27</hi>Der vorige Landvogt</label>
+<p>Fran&#231;ois Prosper Nicolas Castella de Villardin; er war von 1772 bis 1778 Landvogt von Cheyres.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12237">
+<label xml:id="GB03_2_BR541_0_note_016_323_1" copyOf="#start_com_4637"><hi rendition="#fett">323,1</hi>der iezzige</label>
+<p>Tobie de Gottrau de Billens; er war von 1778 bis 1783 Landvogt von Cheyres.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12238">
+<label xml:id="GB03_2_BR541_0_note_017_323_3" copyOf="#start_com_4638"><hi rendition="#fett">323,3</hi>ein anonym billet</label>
+<p>Nicht überliefert (vgl. <ref target="gb:dokument#52706">EB 271</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12239">
+<label xml:id="GB03_2_BR541_0_note_018_323_7-8" copyOf="#start_com_4639"><hi rendition="#fett">323,7-8</hi>das gestrige</label>
+<p>Gemeint ist das Bacchus-Ariadne-Mosaik in Avenches.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15322">
+<label xml:id="GB03_2_BR541_0_note_019_323_10" copyOf="#start_com_4640"><hi rendition="#fett">323,10</hi>Zeichnung von einem</label>
+<p>Um welches Mosaik es sich handelte, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12240">
+<label xml:id="GB03_2_BR541_0_note_020_323_11-12" copyOf="#start_com_4641"><hi rendition="#fett">323,11-12</hi>von Bauern <gap quantity="3" reason="editorial"/> rouinirt worden</label>
+<p>Für das Mosaik in Avenches dürfte dasselbe gelten wir für das in Cheyres (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_013_322_26">322,26</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12241">
+<label xml:id="GB03_2_BR541_0_note_021_323_17" copyOf="#start_com_4642"><hi rendition="#fett">323,17</hi>Psalter</label>
+<p>on griech. ψαλτήριον: Saiteninstrument.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15335">
+<label xml:id="GB03_2_BR541_0_note_022_323_20" copyOf="#start_com_4643"><hi rendition="#fett">323,20</hi>alten Fusboden</label>
+<p>Gemeint sind die römischen Bodenmosaiken in Avenches und Cheyres (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_003_322_6-7">322,6-7</ref>; zu <ref target="gb:note#GB03_2_BR541_0_note_012_322_24-25">322,24-25</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com14204">
+<label xml:id="GB03_2_BR541_0_note_023_323_24" copyOf="#start_com_4644"><hi rendition="#fett">323,24</hi>Lust Hauser</label>
+<p>Gartenhäuser, Sommerhäuser zum Aufenthalt auf dem Land (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 12, 1338).</p>
+
+</note>
+<note xml:id="gb12036_comment_com15727">
+<label xml:id="GB03_2_BR541_0_note_024_323_25" copyOf="#start_com_4645"><hi rendition="#fett">323,25</hi>Spaziergänge</label>
+<p>‚Spaziergang‘ hier „für den weg oder ort, wo man spazieren geht“ (<ref target="sndb:sigle#2890">Grimm</ref> 16, 2021), wie franz. promenade.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12242">
+<label xml:id="GB03_2_BR541_0_note_025_323_26" copyOf="#start_com_4646"><hi rendition="#fett">323,26</hi><emph rendition="#latin">Mad. Branconi</emph></label>
+<p>Maria Antonia von Branconi geb. Elsener, Witwe des neapolitanischen Beamten Francesco Pessina de Branconi, war nach dem Tod ihres Mannes 1766 die Geliebte des Erbprinzen Carl Wilhelm Ferdinand von Braunschweig-Lüneburg-Wolfenbüttel, des Bruders von Herzogin Anna Amalia, geworden. Ihr Braunschweiger Palais wurde zu einem gesellschaftlichen Treffpunkt. 1777 beendete der Erbprinz die Beziehung. Madame Branconi zog auf ihr Gut Langenstein in der Nähe von Halberstadt und unternahm Reisen nach Frankreich und in die Schweiz, wo sie 1779 Lavater in Zürich kennen lernte, auf dessen Empfehlung Goethe sie am 22. und 23. Oktober in Lausanne aufsuchte. Sie erwiderte den Besuch am 26. und 27. August 1780 in Weimar. Goethe seinerseits machte im September 1783 und 1784 Gegenbesuche in Langenstein. Wie sehr er von Maria Antonia von Branconi beeindruckt war, zeigt sein Brief an sie vom 28. August 1780: <quote type="G"><gap quantity="3" reason="editorial"/> nehmen Sie den schönsten Danck für die Paar Tage die Sie uns gegönnt haben. Erst iezt spür ich dass Sie da waren, wie man erst den Wein spürt wenn er eine Weile hinunter ist. In Ihrer Gegenwart wünscht man sich reicher an Augen, Ohren und Geist, um nur sehen, und glaubwürdig und begreiflich finden zu können, dass es dem Himmel, nach so viel verunglückten Versuchen, auch einmal gefallen und geglückt hat etwas Ihresgleichen zu machen.</quote> (<ref target="gb:text#GB04_1_BR161_0_109_007 #GB04_1_BR161_0_109_013">GB 4 I, 109,7-13</ref>.) – In seinem Brief an Johann Caspar Lavater vom 24. Juli 1775 hatte Goethe anhand zweier Schattenrisse eine vergleichende Charakteristik von Charlotte von Stein und Maria Antonia von Branconi gegeben (vgl. <ref target="gb:text#GB02_1_BR247_0_196_011 #GB02_1_BR247_0_196_022">GB 2 I, 196,11-22</ref>); darin urteilte er über Letztere weit weniger günstig als nach der persönlichen Bekanntschaft. – Carl Matthaei, der Sekretär Madame Branconis, berichtet über die Begegnung mit Goethe am Abend des 22. Oktober 1779: Es sei über die Reise gesprochen worden, über Persönlichkeiten wie Johann Georg Zimmermann und Johann Caspar Lavater, über das Leben in Weimar und über Herzog Carl August. Die Gastgeberin wollte wissen, „woher es käme, daß ein Fürst Munterkeit und Vertraulichkeit kennte. Goethe sagte u. a., es gebe Leute, besonders die Fürsten, mit denen man immer in gleicher Linie gehe, aber dazwischen bleibe stets ein Graben, über den man nicht hinüber könnte.“ (<ref target="bug:dokument#6150">BuG 2, 160 f.</ref>) Beim Abschied habe Goethe zu Matthaei gesagt: „Es ist eine treffliche Frau von Geist und Verstand. <gap quantity="3" reason="editorial"/> Jesus! Was könnte diese Frau aus einem machen!“ (<ref target="bug:dokument#6150">BuG 2, 161</ref>.) In seinem Brief an Lavater vom 28. und 29. Oktober 1779 vergleicht Goethe <quote type="G">die gar liebliche Br.</quote> mit einer der <quote type="G">Sirenen</quote> (<ref target="gb:text#GB03_1_BR542_0_328_030 #GB03_1_BR542_0_328_033">328,30–33</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12257">
+<label xml:id="GB03_2_BR541_0_note_026_324_2" copyOf="#start_com_4647"><hi rendition="#fett">324,2</hi>Veway</label>
+<p>Das 20 km östlich von Lausanne am Nordufer des Genfer Sees gelegene Vevey. Der Ort gehört ebenso wie das im Folgenden genannte Meillerie zu den Schauplätzen von Rousseaus Roman „Julie, ou La Nouvelle Heloïse“ (6 Tle. Amsterdam 1761).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12258">
+<label xml:id="GB03_2_BR541_0_note_027_324_3-4" copyOf="#start_com_4648"><hi rendition="#fett">324,3-4</hi>Melleraye</label>
+<p>Meillerie am Südufer des Genfer Sees, Vevey gegenüber in südwestlicher Richtung.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12259">
+<label xml:id="GB03_2_BR541_0_note_028_324_4" copyOf="#start_com_4649"><hi rendition="#fett">324,4</hi><emph rendition="#latin">dent de Chamant</emph></label>
+<p>Dent de Jaman, ein Felsgipfel (1875 m) südlich des Alpenpasses Col de Jaman oberhalb von Montreux, 14 km östlich von Vevey.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15737">
+<label xml:id="GB03_2_BR541_0_note_029_324_6-7" copyOf="#start_com_4650"><hi rendition="#fett">324,6-7</hi>Walliser und Sayoyer Gebürgen</label>
+<p>Die Savoyer Alpen (mit dem Montblanc als Hauptgipfel) liegen südlich des Genfer Sees auf dem Gebiet des (früheren) Königreichs Savoyen, die Walliser Alpen (mit dem Matterhorn) östlich der Savoyer Alpen in der Schweiz.</p>
+
+</note>
+<note xml:id="gb12036_comment_com14318">
+<label xml:id="GB03_2_BR541_0_note_030_324_11" copyOf="#start_com_4651"><hi rendition="#fett">324,11</hi>Herzogin von Curland</label>
+<p>Gemeint ist nicht, wie gelegentlich angenommen (vgl. <ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref>, 159, Anm. 3), Dorothea von Curland, die dritte Frau des letzten Herzogs von Curland Peter von Biron; deren Vermählung fand erst am 6. November 1779 statt. Vermutlich handelte es sich um dessen erste Frau Caroline Louise, die seit 1772 von ihm geschieden war. Sie war eine Nichte von Karoline von Hessen-Darmstadt, der ‚Großen Landgräfin‘, mithin eine Cousine der Weimarer Herzogin Louise. An diese ließ sie Grüße senden: „<gap quantity="3" reason="editorial"/> nur will ich dir ein Compl. von der Hertz. von Curland außrichten, welche ich besucht habe“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 118), schrieb Herzog Carl August am 28. Oktober 1779 an seine Frau.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15338">
+<label xml:id="GB03_2_BR541_0_note_031_324_11" copyOf="#start_com_4652"><hi rendition="#fett">324,11</hi>strichen uns</label>
+<p>Sich streichen: schnell gehen, laufen; hier: sich davonmachen (vgl. zu <ref target="gb:note#GB03_2_BR269_0_note_001_148_7">148,7</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12260">
+<label xml:id="GB03_2_BR541_0_note_032_324_13" copyOf="#start_com_4653"><hi rendition="#fett">324,13</hi>Mathäi der bey ihrem Sohn ist</label>
+<p>Carl Matthaei war auch der Erzieher des Grafen von Forstenburg, des Sohnes von Maria Antonia von Branconi und Carl Wilhelm Ferdinand von Braunschweig-Lüneburg-Wolfenbüttel.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12274">
+<label xml:id="GB03_2_BR541_0_note_033_324_13" copyOf="#start_com_4654"><hi rendition="#fett">324,13</hi>artig</label>
+<p>Im 18. Jahrhundert oft benutztes Wort; hier im Sinn von ‚auf gehörige Art und Weise‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 839).</p>
+
+</note>
+<note xml:id="gb12036_comment_com18773">
+<label xml:id="GB03_2_BR541_0_note_034_324_15-16" copyOf="#start_com_4655"><hi rendition="#fett">324,15-16</hi>was Ulyss <gap quantity="3" reason="editorial"/> erzählt</label>
+<p>Das folgende aus dem Gedächtnis wiedergegebene Zitat bezieht sich auf die „Odyssee“ (12,62–65); dort berichtet nicht Odysseus, sondern Kirke von den Gefahren der weiteren Reise: von den Sirenen, den Irrfelsen sowie der Meerenge zwischen den Meeresungeheuern Skylla und Charybdis. In Bodmers Übersetzung, die Goethe im Reisegepäck hatte (vgl. <ref target="gb:text#GB03_1_BR538_0_315_023 #GB03_1_BR538_0_315_025">315,23–25</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR536_0_note_014_306_16">306,16</ref>), lautet die Stelle, die sich nicht auf Skylla und Charybdis, sondern auf die „irrungsfelsen“ (12,58) bezieht:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck3">Hier ist kein flügel vorbey geflogen, die schnelleste daube</l>
+    <l rendition="#einrueck3">Nicht, die mit eile dem vater Jovi Ambrosia bringet,</l>
+    <l rendition="#einrueck3">Welcher der schlüpfrige fels nicht die schwingen beschädiget habe;</l>
+    <l rendition="#einrueck3">Jupiter muß für iedes mahl sich andrer bedienen.</l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+(Odyssee 12,59–62; Homers Werke. Aus dem Griechischen übersetzt von dem Dichter der Noachide. Zweyter Band. Zürich 1778, S. 156.)</p>
+
+</note>
+<note xml:id="gb12036_comment_com12275">
+<label xml:id="GB03_2_BR541_0_note_035_324_17" copyOf="#start_com_4656"><hi rendition="#fett">324,17</hi>Jovi</label>
+<p>Lat. Dativ von Jupiter.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12276">
+<label xml:id="GB03_2_BR541_0_note_036_324_18-19" copyOf="#start_com_4657"><hi rendition="#fett">324,18-19</hi><emph rendition="#latin">Pour la Colombe</emph> <emph rendition="#latin">
+<hi rendition="#hervor1">du jour</hi></emph> <emph rendition="#latin">elle a echappé belle</emph></label>
+<p>Franz.: Für die Taube von heute <supplied>gilt</supplied>: Sie ist mit einem blauen Auge davongekommen. – Mit dieser ihn selbst betreffenden Erklärung wird Goethe der möglichen Eifersucht der Adressatin entgegenzuwirken gesucht haben.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15739">
+<label xml:id="GB03_2_BR541_0_note_037_324_19" copyOf="#start_com_4658"><hi rendition="#fett">324,19</hi>er</label>
+<p>Jupiter.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12277">
+<label xml:id="GB03_2_BR541_0_note_038_324_20" copyOf="#start_com_4659"><hi rendition="#fett">324,20</hi><emph rendition="#latin">Vallee de Joux</emph></label>
+<p>Ein 20 km langes, 1000 m hoch gelegenes, von der Orbe durchflossenes Tal im Schweizer Jura, etwa 20 km nordwestlich vom Genfer See gelegen; eine genaue Beschreibung des Tales findet sich im Brief an Charlotte von Stein vom 28. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR543_0_329_013 #GB03_1_BR543_0_330_012">329,13–330,12</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com15356">
+<label xml:id="GB03_2_BR541_0_note_039_324_23" copyOf="#start_com_4660"><hi rendition="#fett">324,23</hi>Genv</label>
+<p>Nach franz. Genève.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12290">
+<label xml:id="GB03_2_BR541_0_note_040_324_25" copyOf="#start_com_4661"><hi rendition="#fett">324,25</hi>Rolles</label>
+<p>Rolle am Nordufer des Genfer Sees, 26 km westlich von Lausanne.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12291">
+<label xml:id="GB03_2_BR541_0_note_041_324_26" copyOf="#start_com_4662"><hi rendition="#fett">324,26</hi><emph rendition="#latin">la Cote</emph></label>
+<p>Franz.: die Küste, der Abhang; hier: das schweizerische Weinbaugebiet, das sich am westlichen und nördlichen Ufer des Genfer Sees von Genf bis Lausanne erstreckt.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15357">
+<label xml:id="GB03_2_BR541_0_note_042_324_29" copyOf="#start_com_4663"><hi rendition="#fett">324,29</hi>Mont</label>
+<p>Mont-sur-Rolle, 2 km nördlich von Rolle.</p>
+
+</note>
+<note xml:id="gb12036_comment_com18279">
+<label xml:id="GB03_2_BR541_0_note_043_324_29" copyOf="#start_com_4664"><hi rendition="#fett">324,29</hi>Mercks Schwiegereltern</label>
+<p>Jean Emanuel und Marie Antoinette Charbonnier, die Eltern von Mercks Frau Louise, die sich jedes Jahr zur Weinernte in Mont-sur-Rolle aufhielten. Über den Besuch schrieb Merck am 19. November 1779 an Herzogin Anna Amalia nach Weimar, Goethe habe sich „bey meinen Alten brav aufgeführt“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 322).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12292">
+<label xml:id="GB03_2_BR541_0_note_044_324_31" copyOf="#start_com_4665"><hi rendition="#fett">324,31</hi><emph rendition="#latin">Lac de Joux</emph></label>
+<p>9 km langer und durchschnittlich 1000 m breiter See im unteren Vallée de Joux.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12293">
+<label xml:id="GB03_2_BR541_0_note_045_324_31" copyOf="#start_com_4666"><hi rendition="#fett">324,31</hi>und</label>
+<p>Verschrieben für ‚uns‘.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15778">
+<label xml:id="GB03_2_BR541_0_note_046_325_4" copyOf="#start_com_4667"><hi rendition="#fett">325,4</hi>Ich schrieb dem Herzog ein Billet</label>
+<p>Nicht überliefert (vgl. <ref target="gb:dokument#52707">EB 272</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12294">
+<label xml:id="GB03_2_BR541_0_note_047_325_5" copyOf="#start_com_4668"><hi rendition="#fett">325,5</hi>Merckens Schwager</label>
+<p>Jacques Arpeau, Gutsbesitzer in Cheserex in der Nähe von Nyon am Genfer See; er war mit Marie Charlotte geb. Charbonnier verheiratet, der Schwester von Mercks Frau Louise.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12307">
+<label xml:id="GB03_2_BR541_0_note_048_325_6" copyOf="#start_com_4669"><hi rendition="#fett">325,6</hi>den Herzog und Wedeln abzuholen</label>
+<p>Carl August und sein Kammerherr Moritz von Wedel waren in Rolle zurückgeblieben.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12308">
+<label xml:id="GB03_2_BR541_0_note_049_325_6-7" copyOf="#start_com_4670"><hi rendition="#fett">325,6-7</hi>Wir machten uns mit den Pferden</label>
+<p>Der hier folgende Bericht (bis <ref target="gb:text#GB03_1_BR541_0_325_024">325,24</ref>) findet sich leicht verändert auch in Goethes Brief an Charlotte von Stein vom 28. und 29. Oktober 1779 (vgl. <ref target="gb:text#GB03_1_BR543_0_330_014 #GB03_1_BR543_0_330_032">330,14–32</ref>); die Beschreibung wurde fast unverändert in die 2. Abteilung der „Briefe aus der Schweiz“ aufgenommen (vgl. <ref target="sndb:sigle#1157">WA</ref> I 19, 228 f.).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12309">
+<label xml:id="GB03_2_BR541_0_note_050_325_7" copyOf="#start_com_4671"><hi rendition="#fett">325,7</hi>Mont</label>
+<p>Mont-sur-Rolle.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15374">
+<label xml:id="GB03_2_BR541_0_note_051_325_10" copyOf="#start_com_4672"><hi rendition="#fett">325,10</hi>Grad über</label>
+<p>Auf der anderen (südlichen) Seite des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12310">
+<label xml:id="GB03_2_BR541_0_note_052_325_11" copyOf="#start_com_4673"><hi rendition="#fett">325,11</hi>Faucigny</label>
+<p>Landschaft im damaligen Savoyen um das Tal der Arve nördlich des Montblancs.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12311">
+<label xml:id="GB03_2_BR541_0_note_053_325_15" copyOf="#start_com_4674"><hi rendition="#fett">325,15</hi>den See</label>
+<p>Genfer See.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15375">
+<label xml:id="GB03_2_BR541_0_note_054_325_18-19" copyOf="#start_com_4675"><hi rendition="#fett">325,18-19</hi>wieder hinab</label>
+<p>Von der 1447 m hoch gelegenen Passhöhe des Col du Marchairuz, hinter welcher der Weg ins Vallée de Joux nach Le Brassus hinabführt.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12312">
+<label xml:id="GB03_2_BR541_0_note_055_325_20" copyOf="#start_com_4676"><hi rendition="#fett">325,20</hi>einen schönen See</label>
+<p>Lac de Joux.</p>
+
+</note>
+<note xml:id="gb12036_comment_com18722">
+<label xml:id="GB03_2_BR541_0_note_056_325_25-26" copyOf="#start_com_4677"><hi rendition="#fett">325,25-26</hi>in einem recht guten Wirths Haus</label>
+<p>In Brief <ref target="gb:dokument#12038">Nr 543</ref> wird dieses Haus in Le Brassus (vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_028_331_20">331,20</ref>), das offensichtlich kein Gasthaus, sondern ein Privathaus war, detailliert beschrieben (vgl. <ref target="gb:text#GB03_1_BR543_0_330_032 #GB03_1_BR543_0_331_010">330,32–331,10</ref>). Diese Beschreibung nahm Goethe auch in die 2. Abteilung seiner „Briefe aus der Schweiz“ auf (vgl. <ref target="sndb:sigle#1157">WA</ref> I 19, 229). – Das Haus soll Jacques David Rochat gehört haben (vgl. <ref target="sndb:sigle#2796">Chronik</ref> 2, 232); er wäre damals erst knapp 18 Jahre alt gewesen. Zuverlässigeres über das Gasthaus und dessen Besitzer konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12322">
+<label xml:id="GB03_2_BR541_0_note_057_325_27" copyOf="#start_com_4678"><hi rendition="#fett">325,27</hi>Misels</label>
+<p>Mädchen (vgl. weiter zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12323">
+<label xml:id="GB03_2_BR541_0_note_058_325_30" copyOf="#start_com_4679"><hi rendition="#fett">325,30</hi>delizieusen</label>
+<p>Deliziös (franz. délicieux: lieblich); von Goethe selten verwendetes Attribut im Sinn von ‚wundervoll‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1120).</p>
+
+</note>
+<note xml:id="gb12036_comment_com15387">
+<label xml:id="GB03_2_BR541_0_note_059_325_30" copyOf="#start_com_4680"><hi rendition="#fett">325,30</hi>Tour vom Thal</label>
+<p>Eine detaillierte Schilderung der Tour zu Pferd durchs Vallée de Joux zur Dent de Vaulion, die am westlichen Ufer des Lac de Joux hin- und am östlichen Ufer wieder zurückführte, findet sich in <ref target="gb:dokument#12038">Nr 543</ref> (vgl. <ref target="gb:text#GB03_1_BR543_0_331_011 #GB03_1_BR543_0_333_019">331,11–333,19</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12324">
+<label xml:id="GB03_2_BR541_0_note_060_325_31" copyOf="#start_com_4681"><hi rendition="#fett">325,31</hi><emph rendition="#latin">Dent de Vaulion</emph></label>
+<p>Die Dent de Vaulion ist ein 1483 m hoher Berg nordöstlich des Lac de Joux, der seinen Namen (franz. la dent: der Zahn, Zacken) seiner markanten Form verdankt.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15781">
+<label xml:id="GB03_2_BR541_0_note_061_325_32-326_1" copyOf="#start_com_4682"><hi rendition="#fett">325,32-326,1</hi>eine Beschreibung</label>
+<p>Vgl. die folgende <ref target="gb:note#GB03_2_BR541_0_note_062_326_3-4">Erläuterung</ref>.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12325">
+<label xml:id="GB03_2_BR541_0_note_062_326_3-4" copyOf="#start_com_4683"><hi rendition="#fett">326,3-4</hi>eine leichte Skizze</label>
+<p>Diese erhielt die Adressatin in einer Abschrift Philipp Seidels vom 28. Oktober 1779 in <ref target="gb:dokument#12038">Nr 543</ref> (vgl. <ref target="gb:text#GB03_1_BR543_0_331_011 #GB03_1_BR543_0_334_011">331,11–334,11</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12326">
+<label xml:id="GB03_2_BR541_0_note_063_326_5" copyOf="#start_com_4684"><hi rendition="#fett">326,5</hi>wenn wir nach Genv. kommen</label>
+<p>Am 27. Oktober 1779. – ‚Genv.‘: nach franz. Genève.</p>
+
+</note>
+<note xml:id="gb12036_comment_com18197">
+<label xml:id="GB03_2_BR541_0_note_064_326_6" copyOf="#start_com_4685"><hi rendition="#fett">326,6</hi>Nur einen Brief vom Ende Sept.</label>
+<p>Gemeint ist Charlotte von Steins nicht überlieferter Brief vom 25. September 1779; Goethe hatte ihn am 15. Oktober erhalten (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>). Erst am 24. November 1779 berichtete Goethe, er habe einen weiteren Brief Charlotte von Steins bekommen, der vom 12. November stammte (vgl. <ref target="gb:text#GB03_1_BR550_0_344_020">344,20</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12078">
+<label xml:id="GB03_2_BR541_0_note_065_326_9" copyOf="#start_com_4686"><hi rendition="#fett">326,9</hi>Nion</label>
+<p>Nyon am Westufer des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12036_comment_com15207">
+<label xml:id="GB03_2_BR541_0_note_066_326_15-16" copyOf="#start_com_4687"><hi rendition="#fett">326,15-16</hi>auf einem andren Blat</label>
+<p>Charlotte von Stein erhielt Goethes Schilderung der Reise von Le Brassus über Les Rousses mit dem Aufstieg zur 1677 m hohen La Dôle in einer Abschrift Philipp Seidels in <ref target="gb:dokument#12038">Nr 543</ref> (vgl. <ref target="gb:text#GB03_1_BR543_0_334_012 #GB03_1_BR543_0_337_024">334,12–337,24</ref>).</p>
+
+</note>
+<note xml:id="gb12036_comment_com12079">
+<label xml:id="GB03_2_BR541_0_note_067_326_19-20" copyOf="#start_com_4688"><hi rendition="#fett">326,19-20</hi>Mit dem Gestrigen <gap quantity="3" reason="editorial"/> dicktiren.</label>
+<p><ref target="gb:dokument#12038">Nr 543</ref> enthält die Reisebeschreibung vom Ausflug durchs Vallée de Joux zur Dent de Vaulion am 25. Oktober 1779 (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_062_326_3-4">326,3-4</ref>) und den Reiseverlauf am 26. Oktober.</p>
+
+</note>
+<note xml:id="gb12036_comment_com12080">
+<label xml:id="GB03_2_BR541_0_note_068_326_24" copyOf="#start_com_4689"><hi rendition="#fett">326,24</hi>der Bergen</label>
+<p>Verschrieben für ‚den Bergen‘.</p>
+
+</note>
+<note xml:id="gb12036_comment_com14013">
+<label xml:id="GB03_2_BR541_0_note_069_326_28" copyOf="#start_com_4690"><hi rendition="#fett">326,28</hi>in Genf</label>
+<p>Auf dem Weg dorthin sah die Reisegesellschaft, wie aus einem Brief Herzog Carl Augusts an Carl Ludwig von Knebel vom 28. Oktober 1779 hervorgeht, „eine schlechte, französische Comödie; in der Stadt wird sie nicht geduldet, also spielt sie auf französischem Grund und Boden.“ (<ref target="sndb:sigle#1312">Knebel, Nachlaß und Briefwechsel</ref> 1, 110.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

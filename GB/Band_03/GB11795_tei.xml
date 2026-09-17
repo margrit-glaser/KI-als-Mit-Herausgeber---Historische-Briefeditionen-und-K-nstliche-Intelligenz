@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2970"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11795" n="GB 3, Nr. 291">
+  <teiHeader xml:id="gb11795_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>291.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. Oktober <supplied>1777. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:35Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11795_tei.xml</idno>
+        <idno type="URI">gb11795</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR291_0</idno>
+        <idno type="KSW-ID">11795</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="170" to="170">170</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="576" to="578">576-578</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11795_header_hwit1246" corresp="#gb11795_source_hwit1246" sameAs="#gb11795_comment_hwit1246" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 99 und Bl. 111</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11795,,1246/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>In meinem Garten, d. 10. Oktbr. Wieder hier! und nur zwey Worte da ich höre dass eben ein Bote geht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-10-10">10. Oktober <supplied>1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11795_source_hwit1246" corresp="#gb11795_header_hwit1246" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11795/22677"/>
+      <p>
+        <anchor xml:id="GB03_1_BR291_0_170_001"/>In meinem Garten, d<g ref="#typoSuspension"/>. 10 Oktbr. Wieder hier! und nur zwey Worte 
+<anchor xml:id="GB03_1_BR291_0_170_002"/>da ich höre dass eben ein <ref target="gb:note#GB03_2_BR291_0_note_001_170_2" xml:id="start_com_2542"/>Bote<ref xml:id="end_com_2542"/> geht. Mit Weh hab ich <ref target="gb:note#GB03_2_BR291_0_note_002_170_2-3" xml:id="start_com_2543"/>meine Wartburg 
+<anchor xml:id="GB03_1_BR291_0_170_003"/>verlassen<ref xml:id="end_com_2543"/>, und <ref target="gb:note#GB03_2_BR291_0_note_003_170_3" xml:id="start_com_2544"/>Weimar mit kindischer Freude wiedergesehn<ref xml:id="end_com_2544"/>. 
+<anchor xml:id="GB03_1_BR291_0_170_004"/>
+        <ref target="gb:note#GB03_2_BR291_0_note_004_170_4" xml:id="start_com_2545"/>Heut früh fünfe<ref xml:id="end_com_2545"/> ritt ich mit <ref target="gb:note#GB03_2_BR291_0_note_005_170_4" xml:id="start_com_2546"/>Lichtenb.<ref xml:id="end_com_2546"/> aus um halb 12 waren wir hier, 
+<anchor xml:id="GB03_1_BR291_0_170_005"/>und haben <ref target="gb:note#GB03_2_BR291_0_note_006_170_5" xml:id="start_com_2547"/>eine Stunde beym Stadth. gefrühstückt<ref xml:id="end_com_2547"/>. <ref target="gb:note#GB03_2_BR291_0_note_007_170_5-6" xml:id="start_com_2548"/>Morgen kommt 
+<anchor xml:id="GB03_1_BR291_0_170_006"/>der Herzog nach.<ref xml:id="end_com_2548"/> Adieu beste. Ich bin <ref target="gb:note#GB03_2_BR291_0_note_008_170_6-7" xml:id="start_com_2549"/>entfremdeter von viel Welt nur 
+<anchor xml:id="GB03_1_BR291_0_170_007"/>nicht von Ihnen<ref xml:id="end_com_2549"/>.</p>
+      <closer>
+        <signed rend="paraph" rendition="#einrueck16">
+          <anchor xml:id="GB03_1_BR291_0_170_008"/>G. /</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR291_0_170_009"/>Grüsen Sie <ref target="gb:note#GB03_2_BR291_0_note_009_170_9" xml:id="start_com_2550"/>die kleinen<ref xml:id="end_com_2550"/> und <ref target="gb:note#GB03_2_BR291_0_note_010_170_9" xml:id="start_com_2551"/>Petern<ref xml:id="end_com_2551"/>, den Sie wohl <ref target="gb:note#GB03_2_BR291_0_note_011_170_9-10" xml:id="start_com_2552"/>noch behalten bis 
+<anchor xml:id="GB03_1_BR291_0_170_010"/>ich eingerichtet bin<ref xml:id="end_com_2552"/>. Und <ref target="gb:note#GB03_2_BR291_0_note_012_170_10" xml:id="start_com_2553"/>Kästnern<ref xml:id="end_com_2553"/>.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR291_0_170_011"/>
+          <signed rend="paraph" rendition="#einrueck24">G.</signed>
+        </closer>
+      </postscript>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11795_comment">
+<body>
+<div type="metadata" xml:id="gb11795_comment_com1095">
+  <ab type="numberAddressee"><label>291.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. Oktober <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11795_comment_com1886">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) wurde der erste, mit <quote type="G">10 Oktbr.</quote> (<ref target="gb:text#GB03_1_BR291_0_170_001">170,1</ref>) datierte Teil des Briefes (<ref target="gb:text#GB03_1_BR291_0_170_001 #GB03_1_BR291_0_170_008">170,1–8</ref>) ins Jahr 1778 eingeordnet. Aus dem Inhalt und den Parallelen zum Tagebuch (vgl. zu <ref target="gb:note#GB03_2_BR291_0_note_002_170_2-3">170,2-3</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR291_0_note_004_170_4">170,4</ref>) geht jedoch hervor, dass er am 10. Oktober 1777 geschrieben wurde. Seit dem Erstdruck wird der Brief auch mit dieser Datierung gedruckt. Der zweite, auf einem separaten Blatt geschriebene Teil (<ref target="gb:text#GB03_1_BR291_0_170_009 #GB03_1_BR291_0_170_011">170,9–11</ref>), im Konvolut der Briefe an Charlotte von Stein (Bd I) unter die undatierten Briefe am Ende des Jahrgangs 1778 eingeordnet, wurde nach dem Inhalt ebenfalls auf den 10. Oktober 1777 datiert (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR291_0_note_010_170_9">170,9</ref>). Er wird seit dem Erstdruck auch so datiert, seit dem Druck bei Fielitz aber unter zwei separaten Nummern mitgeteilt (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 95, Nr 182 und 183). Da anzunehmen ist, dass Goethe beide Teile gemeinsam verschickte (vgl. zu <ref target="gb:note#GB03_2_BR291_0_note_001_170_2">170,2</ref>), werden sie in der vorliegenden Ausgabe als ein Brief abgedruckt. Für die Zusammengehörigkeit und gemeinsame Versendung der Teile sprechen zudem analoge Faltspuren jeweils an der rechten unteren Ecke des Briefpapiers (vgl. <ref target="gb:note#gb11795_comment_com3139">Überlieferung</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11795_comment_com3139">
+  <p>1) 1. Briefteil (<ref target="gb:text#GB03_1_BR291_0_170_001 #GB03_1_BR291_0_170_008">170,1–8</ref> <quote type="G">In meinem Garten <gap quantity="3" reason="editorial"/> nicht von Ihnen. / G.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 99. – 1 Bl. 19 × 8,7(–9) cm, 1 S. beschr., egh., Tinte; rechte untere Ecke geknickt (etwa 1,5 × 5 cm); oben rechts von fremder Hd, Tinte. „55.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 56), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>;</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 120.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 180, Nr 634.</p>
+  <p>2) 2. Briefteil (<ref target="gb:text#GB03_1_BR291_0_170_009 #GB03_1_BR291_0_170_011">170,9–11</ref> <quote type="G">Grüsen Sie <gap quantity="3" reason="editorial"/> Kästnern. / G.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 111. – 1 Bl. 19 × 6,5(–6,7) cm, 3 Zeilen beschr., egh., Tinte; rechte untere Ecke geknickt (etwa 1,5 × 5 cm); oben rechts von fremder Hd, Tinte: „80“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 82), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 120.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 180, Nr 635.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11795_comment_com4935">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der letzte überlieferte und sicher zu datierende Brief Goethes an Charlotte von Stein, der dem vorliegenden vorangeht, stammt vom 13. bis 16. September 1777 (<ref target="gb:dokument#11779">Nr 289</ref>). Falls die Überlieferung der Briefe keine Lücken aufweist, hat Goethe demnach entgegen seiner Gewohnheit etwa drei Wochen nicht an die Freundin in Kochberg geschrieben. Ein Grund für diese vergleichsweise lange Pause könnten die Abhaltungen in Eisenach gewesen sein, insbesondere der Besuch Mercks vom 21. bis 28. September. Am 27. September notierte Goethe im Tagebuch: <quote type="G">Unbehaglichkeit und Aerger. Vermehrt und gereizt durch M.</quote> <supplied>Mercks</supplied> <quote type="G">Gegenwart.</quote> (<ref target="gt:dokument#446">GT I 1, 48</ref>; zum Aufenthalt in Eisenach insgesamt vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_005_160_16-17">160,16-17</ref>.) Offenbar befand sich Goethe zu dieser Zeit in einer Krisenstimmung, von der auch sein Verhältnis zu Charlotte von Stein nicht unberührt blieb (vgl. zu <ref target="gb:note#GB03_2_BR291_0_note_003_170_3">170,3</ref>). Diese hatte zudem ihren Aufenthalt in Kochberg unterbrochen und war nach Ilmenau gereist, wo sich Herzogin Louise mit ihrem Gefolge vom 20. September bis zum 4. Oktober 1777 aufhielt (vgl. Herzogin Louise von Sachsen-Weimar und Eisenach an Charlotte von Stein, 19. August 1777; abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb9221_comment_com84669">Nr 280</ref>). Vom 20. bis 23. September wird Charlotte von Stein unter den Gästen der herzoglichen Tafel aufgeführt (vgl. <ref target="sndb:sigle#3943">FB 1777</ref>, S. 193). Auch nach dem vorliegenden Brief vergingen wieder etwa drei Wochen, in denen Goethe wahrscheinlich nicht an die Freundin geschrieben hat (vgl. <ref target="gb:dokument#11775">Nr 293</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11795_comment_com11135">
+<label xml:id="GB03_2_BR291_0_note_001_170_2" copyOf="#start_com_2542"><hi rendition="#fett">170,2</hi>Bote</label>
+<p>Mit dem der vorliegende Brief nach Kochberg geschickt wurde, wo sich Charlotte von Stein noch immer aufhielt.</p>
+
+</note>
+<note xml:id="gb11795_comment_com11136">
+<label xml:id="GB03_2_BR291_0_note_002_170_2-3" copyOf="#start_com_2543"><hi rendition="#fett">170,2-3</hi>meine Wartburg verlassen</label>
+<p>Goethe hatte sich im Gefolge des Herzogs seit dem 6. September in Eisenach aufgehalten und wohnte ab dem 13. September auf der Wartburg (vgl. die Erläuterungen zu <ref target="gb:note#GB03_2_BR289_0_note_001_166_8">166,8</ref>).</p>
+
+</note>
+<note xml:id="gb11795_comment_com17984">
+<label xml:id="GB03_2_BR291_0_note_003_170_3" copyOf="#start_com_2544"><hi rendition="#fett">170,3</hi>Weimar mit kindischer Freude wiedergesehn</label>
+<p>Nach fast sechswöchiger Abwesenheit war Goethe am 10. Oktober 1777 nach Weimar zurückgekehrt (vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_005_160_16-17">160,16-17</ref>). Er hatte zunehmend unter Einsamkeitsgefühlen und Entfremdung von seiner Umgebung gelitten, von der nur die Beziehung zum Herzog ausgenommen war. Seit Anfang Oktober 1777 mehren sich im Tagebuch Bemerkungen wie <quote type="G">Tiefes Gefühl des Alleinseyns.</quote> (4. Oktober; <ref target="gt:dokument#452">GT I 1, 49</ref>.) Vom 8. Oktober stammt der folgende Eintrag:  <quote type="G"><gap quantity="3" reason="editorial"/>die Klufft zwischen mir und denen Menschen allen fiel mir so grass in die Augen, da kein Vehikulum da war. Ich musste fort, denn ich war ihnen auch sichtlich zur Last. Ins Herzogs Zimmer! konnts nicht dauern, sah den Mond über dem Schlosse und herauf. Hier</quote> <supplied>auf der Wartburg</supplied> <quote type="G">nun zum lezten mal, auf der reinen ruhigen Höhe, im Rauschen des Herbst winds. Unten hatt ich heute ein Heimweh nach Weimar nach meinem Garten, das sich hier schon wieder verliert. – Gern kehr ich doch zurück in mein enges Nest, nun bald in Sturm gewickelt, in Schnee verweht.</quote> (<ref target="gt:dokument#456">GT I 1, 50</ref>.)</p>
+
+</note>
+<note xml:id="gb11795_comment_com11146">
+<label xml:id="GB03_2_BR291_0_note_004_170_4" copyOf="#start_com_2545"><hi rendition="#fett">170,4</hi>Heut früh fünfe</label>
+<p>Im Tagebuch notiert Goethe am 10. Oktober: <quote type="G">früh fünfe weg. <gap quantity="3" reason="editorial"/> um halb 12 in Weimar. In Garten. schönes Wetter.</quote> (<ref target="gt:dokument#458">GT I 1, 50</ref>.)</p>
+
+</note>
+<note xml:id="gb11795_comment_com11147">
+<label xml:id="GB03_2_BR291_0_note_005_170_4" copyOf="#start_com_2546"><hi rendition="#fett">170,4</hi>Lichtenb.</label>
+<p>Husaren-Rittmeister Carl Friedrich von Lichtenberg, Adjutant Herzog Carl Augusts.</p>
+
+</note>
+<note xml:id="gb11795_comment_com11148">
+<label xml:id="GB03_2_BR291_0_note_006_170_5" copyOf="#start_com_2547"><hi rendition="#fett">170,5</hi>Stadth.</label>
+<p>Carl Theodor von Dalberg, Kurmainzer Statthalter in Erfurt, hatte Goethe schon kurz zuvor in Eisenach getroffen: <quote type="G">8.</quote> <supplied>Oktober.</supplied> <quote type="G">Stund inwärts gewendet wieder auf. Die Ankunft des Stadth. schloss mich auf einige Augenblicke auf</quote> (<ref target="gt:dokument#456">GT I 1, 49 f.</ref>). Die Unterbrechung der Rückreise in Erfurt für <quote type="G">eine starcke Stunde</quote> vermerkt Goethe analog zum vorliegenden Brief auch im Tagebuch (<ref target="gt:dokument#458">GT I 1, 50</ref>).</p>
+
+</note>
+<note xml:id="gb11795_comment_com17898">
+<label xml:id="GB03_2_BR291_0_note_007_170_5-6" copyOf="#start_com_2548"><hi rendition="#fett">170,5-6</hi>Morgen kommt der Herzog nach.</label>
+<p>Am 11. Oktober traf der „Durch<g ref="#typoSuspension"/>. Herzog mit Dero hoher Suite“ wieder in Weimar ein (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 196). Wie Goethes Tagebucheintrag vom 11. zu entnehmen ist, war Carl August noch im Forst und Jagdschloss Zillbach südlich von Eisenach geblieben, wo er einen Unfall hatte: <quote type="G">Ward die Hand des Herz. den in der Zillbach ein Hund gebissen hatte und die er vernachlässigt hatte schlimm und verdarb uns wieder vielen Spas, brachte mich aus meiner gehofften wenig<unclear reason="illegible">e</unclear> Tage genossnen Häuslichkeit.</quote> (<ref target="gt:dokument#460">GT I 1, 50</ref>.)</p>
+
+</note>
+<note xml:id="gb11795_comment_com11159">
+<label xml:id="GB03_2_BR291_0_note_008_170_6-7" copyOf="#start_com_2549"><hi rendition="#fett">170,6-7</hi>entfremdeter <gap quantity="3" reason="editorial"/> nur nicht von Ihnen</label>
+<p>Doch auch mit Charlotte von Stein war im September/Oktober 1777 Goethes Korrespondenz weniger intensiv als in den Monaten zuvor.</p>
+
+</note>
+<note xml:id="gb11795_comment_com11160">
+<label xml:id="GB03_2_BR291_0_note_009_170_9" copyOf="#start_com_2550"><hi rendition="#fett">170,9</hi>die kleinen</label>
+<p>Carl, Ernst und Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb11795_comment_com11161">
+<label xml:id="GB03_2_BR291_0_note_010_170_9" copyOf="#start_com_2551"><hi rendition="#fett">170,9</hi>Petern</label>
+<p>Peter im Baumgarten (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_001_159_18">159,18</ref>).</p>
+
+</note>
+<note xml:id="gb11795_comment_com11162">
+<label xml:id="GB03_2_BR291_0_note_011_170_9-10" copyOf="#start_com_2552"><hi rendition="#fett">170,9-10</hi>noch behalten bis ich eingerichtet bin</label>
+<p>Es ist anzunehmen, dass Goethes Zögling gemeinsam mit Charlotte von Stein nach Weimar zurückkehrte; Peter im Baumgarten wird das erste Mal wieder am 23. Oktober im Tagebuch erwähnt: <quote type="G">Mit Petern früh beschäfftigt.</quote> (<ref target="gt:dokument#462">GT I 1, 51</ref>.) Erst am folgenden Tag besuchte Goethe laut Tagebuch Charlotte von Stein (vgl. <ref target="gt:dokument#463">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb11795_comment_com11163">
+<label xml:id="GB03_2_BR291_0_note_012_170_10" copyOf="#start_com_2553"><hi rendition="#fett">170,10</hi>Kästnern</label>
+<p>Johann Friedrich Kästner.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1710"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11175" n="GB 3, Nr. 169">
+  <teiHeader xml:id="gb11175_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>169.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. und 12. September 1776. Dienstag und Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:42Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11175_tei.xml</idno>
+        <idno type="URI">gb11175</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR169_0</idno>
+        <idno type="KSW-ID">11175</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="104" to="105">104-105</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="387" to="393">387-393</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11175_header_hwit1063" corresp="#gb11175_source_hwit1063" sameAs="#gb11175_comment_hwit1063" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 31</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11175,,1063/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich schick Ihnen Lenzen, endlich hab ich's über mich gewonnen. O Sie haben eine Art zu peinigen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11175_header_acc407" corresp="gb11175_comment_acc407">
+            <objectIdentifier>
+              <objectName>Shakespeare-Ausgabe </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-09-10">10. September 1776</date> und
+            <date when="1776-09-12">12. September 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#76">RA 1, Nr. 71</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11175_source_hwit1063" corresp="#gb11175_header_hwit1063" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11175/22455"/>
+      <p>
+        <anchor xml:id="GB03_1_BR169_0_104_004"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_001_104_4" xml:id="start_com_1602"/>Ich schick Ihnen Lenzen<ref xml:id="end_com_1602"/>, endlich hab ich’s über mich gewonnen. O 
+<anchor xml:id="GB03_1_BR169_0_104_005"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_002_104_5" xml:id="start_com_1603"/>Sie haben eine Art zu peinigen<ref xml:id="end_com_1603"/> wie das Schicksaal, man kann sich 
+<anchor xml:id="GB03_1_BR169_0_104_006"/>nicht drüber beklagen so weh es thut. Er soll Sie sehn, und <ref target="gb:note#GB03_2_BR169_0_note_003_104_6-7" xml:id="start_com_1604"/>die verstörte<ptr n="1" target="#a001_104.7"/>
+        <anchor xml:id="GB03_1_BR169_0_104_007"/>Seele<ref xml:id="end_com_1604"/> soll in Ihrer Gegenwart die Balsamtropfen <ref target="gb:note#GB03_2_BR169_0_note_004_104_7" xml:id="start_com_1605"/>einschlürpfen<ref xml:id="end_com_1605"/>
+        <anchor xml:id="GB03_1_BR169_0_104_008"/>um die ich alles beneide. Er soll mit Ihnen seyn – <ref target="gb:note#GB03_2_BR169_0_note_005_104_8-9" xml:id="start_com_1606"/>Er war ganz betroffen 
+<anchor xml:id="GB03_1_BR169_0_104_009"/>da ich Ihm sein Glück ankündigte, in Kochberg mit Ihnen seyn<ref xml:id="end_com_1606"/>, 
+<anchor xml:id="GB03_1_BR169_0_104_010"/>mit Ihnen gehen, <ref target="gb:note#GB03_2_BR169_0_note_006_104_10" xml:id="start_com_1607"/>sie lehren<ref xml:id="end_com_1607"/>, für Sie zeichnen, sie werden für ihn 
+<anchor xml:id="GB03_1_BR169_0_104_011"/>zeichnen, für ihn seyn<ptr n="2" target="#a002_104.11"/>. Und ich – zwar von mir ist die Rede nicht, 
+<anchor xml:id="GB03_1_BR169_0_104_012"/>und warum sollte von mir die Rede seyn – Er war ganz im Traum da 
+<anchor xml:id="GB03_1_BR169_0_104_013"/>ich’s ihm sagte, bittet nur Geduld mit ihm zu haben, bittet nur ihn in 
+<anchor xml:id="GB03_1_BR169_0_104_014"/>seinem Wesen zu lassen. Und ich sagt ihm dass er es, eh er gebeten,<ptr n="3" target="#a003_104.14"/>
+        <anchor xml:id="GB03_1_BR169_0_104_015"/>habe. Ich schicke<ptr n="4" target="#a004_104.15"/> einen <ref target="gb:note#GB03_2_BR169_0_note_007_104_15" xml:id="start_com_1608"/>Schäckespeer<ptr n="5" target="#a005_104.15"/>
+        <ref xml:id="end_com_1608"/> mit, schicke hoffentlich den 
+<anchor xml:id="GB03_1_BR169_0_104_016"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_008_104_16" xml:id="start_com_1609"/>Wäckefield<ref xml:id="end_com_1609"/> nach. Geniessen Sie rein der lieben Herbst Zeit, es scheint 
+<anchor xml:id="GB03_1_BR169_0_104_017"/>als wollt Sie der Himmel mit lieben Tagen seegnen.   Ade.   <ref target="gb:note#GB03_2_BR169_0_note_009_104_17-18" xml:id="start_com_1610"/>von mir 
+<anchor xml:id="GB03_1_BR169_0_104_018"/>hören Sie nun nichts weiter<ref xml:id="end_com_1610"/>, ich <ref target="gb:note#GB03_2_BR169_0_note_010_104_18-19" xml:id="start_com_1611"/>verbitte mir auch alle Nachricht von 
+<anchor xml:id="GB03_1_BR169_0_104_019"/>Ihnen oder Lenz<ref xml:id="end_com_1611"/>. Wenn was zu bestellen ist mag er’s an <ref target="gb:note#GB03_2_BR169_0_note_011_104_19" xml:id="start_com_1612"/>Philip<ref xml:id="end_com_1612"/>
+        <anchor xml:id="GB03_1_BR169_0_104_020"/>schreiben.   d<g ref="#typoSuspension"/>. 10 Sept. 76.   G. <pb n="2" facs="gb:digitalisate#11175/22456"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR169_0_104_021"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_012_104_21" xml:id="start_com_1613"/>Lenz will nun fort<ref xml:id="end_com_1613"/>, und ich hatte Bedencken Ihnen die vorhergehende 
+<anchor xml:id="GB03_1_BR169_0_104_022"/>Seite zu schicken, doch sie mögen sehn wie mirs im Herzen manchmal 
+<anchor xml:id="GB03_1_BR169_0_104_023"/>aussieht, wie ich auch ungerecht gegen Sie werden kann. <ref target="gb:note#GB03_2_BR169_0_note_013_104_23-24" xml:id="start_com_1614"/>Ich 
+<anchor xml:id="GB03_1_BR169_0_104_024"/>danck ihnen<ref xml:id="end_com_1614"/> für erste Andencken <ref target="gb:note#GB03_2_BR169_0_note_014_104_24" xml:id="start_com_1615"/>von Ihrem Schreibtisch<ref xml:id="end_com_1615"/>, den ich damals 
+<anchor xml:id="GB03_1_BR169_0_104_025"/>wohl nicht wieder zu sehen hoffte, aber nicht so. <ref target="gb:note#GB03_2_BR169_0_note_015_104_25-26" xml:id="start_com_1616"/>Gestern war 
+<anchor xml:id="GB03_1_BR169_0_104_026"/>ich in Belveder.<ref xml:id="end_com_1616"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_016_104_26" xml:id="start_com_1617"/>Louise<ref xml:id="end_com_1617"/> ist eben ein unendlicher Engel, ich habe 
+<anchor xml:id="GB03_1_BR169_0_104_027"/>meine Augen bewahren müssen nicht über Tisch nach ihr zu sehn – 
+<anchor xml:id="GB03_1_BR169_0_104_028"/>die Götter werden uns allen beystehn – <ref target="gb:note#GB03_2_BR169_0_note_017_104_28" xml:id="start_com_1618"/>die Waldnern<ref xml:id="end_com_1618"/> ist recht lieb, 
+<anchor xml:id="GB03_1_BR169_0_105_001"/>ich war früh bey ihr, wir haben uns <ref target="gb:note#GB03_2_BR169_0_note_018_105_1" xml:id="start_com_1619"/>herumgeschäckert<ref xml:id="end_com_1619"/>. <ref target="gb:note#GB03_2_BR169_0_note_019_105_1-2" xml:id="start_com_1620"/>Abends alle 
+<anchor xml:id="GB03_1_BR169_0_105_002"/>Durch<g ref="#typoSuspension"/>. in Tiefurt.<ref xml:id="end_com_1620"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_020_105_2" xml:id="start_com_1621"/>Ihr Mann<ref xml:id="end_com_1621"/>
+        <ref target="gb:note#GB03_2_BR169_0_note_021_105_2" xml:id="start_com_1622"/>war guter Humor<ref xml:id="end_com_1622"/>, machte <ref target="gb:note#GB03_2_BR169_0_note_022_105_2-3" xml:id="start_com_1623"/>possierliche 
+<anchor xml:id="GB03_1_BR169_0_105_003"/>Streiche mit der Oberhofmeistern<ref xml:id="end_com_1623"/>. <ref target="gb:note#GB03_2_BR169_0_note_023_105_3" xml:id="start_com_1624"/>Ich hab die Hofleute bedauert<ref xml:id="end_com_1624"/>, 
+<anchor xml:id="GB03_1_BR169_0_105_004"/>mich wundert dass nicht die meisten gar <ref target="gb:note#GB03_2_BR169_0_note_024_105_4" xml:id="start_com_1625"/>Kröten und Basilisken<ref xml:id="end_com_1625"/> werden.
+<anchor xml:id="GB03_1_BR169_0_105_005"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR169_0_105_006"/>Addio, mein Herz ist doch bey Ihnen, liebe einzige die mich glücklich 
+<anchor xml:id="GB03_1_BR169_0_105_007"/>macht ohne mir weh zu<ptr n="6" target="#a006_105.7"/> thun. Doch – freylich auch nicht immer 
+<anchor xml:id="GB03_1_BR169_0_105_008"/>ohne Schmerz. Ade. beste.   d<g ref="#typoSuspension"/>. 12 Sept. 76</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR169_0_105_009"/>
+        <signed rend="paraph" rendition="#einrueck16">G.</signed> <pb n="3" facs="gb:digitalisate#11175/22457"/></closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR169_0_105_010"/>Eben krieg ich noch <ref target="gb:note#GB03_2_BR169_0_note_025_105_10" xml:id="start_com_1626"/>der W. Brief<ref xml:id="end_com_1626"/>. Dancke herz<g ref="#typoSuspension"/>. es ist <ref target="gb:note#GB03_2_BR169_0_note_026_105_10-11" xml:id="start_com_1627"/>eine werthe 
+<anchor xml:id="GB03_1_BR169_0_105_011"/>Frau<ref xml:id="end_com_1627"/> und thut recht wohl so dran. Sie hat ihre eigne feste Vorstellungs 
+<anchor xml:id="GB03_1_BR169_0_105_012"/>Art, und wer der nachhandelt, ist mir werth, wenn sie zugleich so 
+<anchor xml:id="GB03_1_BR169_0_105_013"/>liebevoll und so rein ist wie die ihrige<ptr n="7" target="#a007_105.13"/>. Grüsen Sie sie in meinem 
+<anchor xml:id="GB03_1_BR169_0_105_014"/>Nahmen und sagen ihr<ptr n="8" target="#a008_105.14"/> ich würde künftig um ihrentwillen mehr auf 
+<anchor xml:id="GB03_1_BR169_0_105_015"/>die <ref target="gb:note#GB03_2_BR169_0_note_027_105_15" xml:id="start_com_1628"/>Philantropins<ref xml:id="end_com_1628"/> aufmercken, dafür bät ich aber auch um die Nachricht 
+<anchor xml:id="GB03_1_BR169_0_105_016"/>die sie von <ref target="gb:note#GB03_2_BR169_0_note_028_105_16" xml:id="start_com_1629"/>Dessau<ref xml:id="end_com_1629"/> erwartete. Leben Sie wohl, dencken Sie mein. 
+<anchor xml:id="GB03_1_BR169_0_105_017"/>Ich sizze offt unter meinem Himmel in<ptr n="9" target="#a009_105.17"/> Gedancken an Sie, Sie helfen 
+<anchor xml:id="GB03_1_BR169_0_105_018"/>mir abwesend zeichnen, und einen Augenblick wo ich Sie recht lieb 
+<anchor xml:id="GB03_1_BR169_0_105_019"/>habe seh ich die Natur auch schöner, vermag sie besser auszusprechen.
+<anchor xml:id="GB03_1_BR169_0_105_020"/>   Adieu.   Wieland sagt meiner <ref target="gb:note#GB03_2_BR169_0_note_029_105_20" xml:id="start_com_1630"/>Zeichnung<ref xml:id="end_com_1630"/> die ich iezt mache 
+<anchor xml:id="GB03_1_BR169_0_105_021"/>sah man recht an <hi rendition="#hervor1">wen</hi> ich lieb hätte</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11175_comment">
+<body>
+<div type="metadata" xml:id="gb11175_comment_com1274">
+  <ab type="numberAddressee"><label>169.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. September 1776 und 12. September 1776 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11175_comment_com3318">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 31. – Doppelblatt 13,6(–14) × 19,8(–20) cm, 3 S. (S. 1 und 2 jeweils zu drei Vierteln, S. 3 zu zwei Dritteln) beschr., egh., Tinte; S. 1 oben rechts von fremder Hd, Tinte: „79.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 79), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 58–60.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 105–108, Nr 510.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11175_comment_com3811">
+  <p>Shakespeare-Ausgabe (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_007_104_15">104,15</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11175_comment_com5114">
+  <p>Der Brief beantwortet wahrscheinlich zwei nicht überlieferte Briefe Charlotte von Steins etwa vom 9. und vom 11. September 1776 (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_002_104_5">104,5</ref>; zu <ref target="gb:note#GB03_2_BR169_0_note_013_104_23-24">104,23-24</ref>). – Der Antwortbrief etwa vom 13. September 1776 (vgl. zu <ref target="gb:note#GB03_2_BR172_0_note_001_109_1">109,1</ref>) ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11175_comment_com17731">
+<label xml:id="GB03_2_BR169_0_note_001_104_4" copyOf="#start_com_1602"><hi rendition="#fett">104,4</hi>Ich schick Ihnen Lenzen</label>
+<p>Wie aus dem Kontext hervorgeht, kam Goethe damit einer Bitte der Adressatin nach, Jacob Michael Reinhold Lenz auf ihr Landgut nach Kochberg zu schicken. Lenz hatte ihr Anfang September aus Berka (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR125_0_note_001_74_11">74,11</ref>) geschrieben (abgedruckt im <ref target="gb:note#gb11175_comment_com84580">Anschluss</ref> an die folgenden Erläuterungen).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10622">
+<label xml:id="GB03_2_BR169_0_note_002_104_5" copyOf="#start_com_1603"><hi rendition="#fett">104,5</hi>Sie haben eine Art zu peinigen</label>
+<p>Mit Bezug auf einen nicht überlieferten Brief Charlotte von Steins etwa vom 9. September aus Kochberg.</p>
+
+</note>
+<note xml:id="gb11175_comment_com17793">
+<label xml:id="GB03_2_BR169_0_note_003_104_6-7" copyOf="#start_com_1604"><hi rendition="#fett">104,6-7</hi>die verstörte Seele</label>
+<p>Seit dem Erstdruck wurde an dieser Stelle „die zerstörte Seele“ gelesen (<ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1, 58), 1888 in der WA korrigiert zu „verstörte“ (<ref target="sndb:sigle#1157">WA</ref> IV 3, 105), danach wieder „zerstörte“ (vgl. <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 41; <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 43; <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 1, 49; <ref target="sndb:sigle#1240">FA/Goethe</ref> II 2, 62). Der handschriftliche Befund spricht jedoch eindeutig für eine Überschreibung von wahrscheinlich ursprünglich ‚z‘ durch ‚v‘. – Anspielung auf Lenz’ fragile psychische Verfassung, seine Sprunghaftigkeit und Unberechenbarkeit im persönlichen Umgang. Am 16. September 1776 schrieb Goethe an Lavater: <quote type="G">Lenz ist unter uns wie ein kranckes Kind</quote> (<ref target="gb:text#GB03_1_BR170_0_106_007">106,7</ref>; zu Lenz vgl. insgesamt die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10623">
+<label xml:id="GB03_2_BR169_0_note_004_104_7" copyOf="#start_com_1605"><hi rendition="#fett">104,7</hi>einschlürpfen</label>
+<p>‚Schlürpfen‘ oberdt. für ‚schlürfen‘.</p>
+
+</note>
+<note xml:id="gb11175_comment_com10624">
+<label xml:id="GB03_2_BR169_0_note_005_104_8-9" copyOf="#start_com_1606"><hi rendition="#fett">104,8-9</hi>Er war ganz betroffen <gap quantity="3" reason="editorial"/> mit Ihnen seyn</label>
+<p>Nachdem Lenz Charlotte von Stein in Weimar persönlich kennen gelernt hatte, schrieb er Ende Mai an Johann Georg Zimmermann: „Was ist doch die Frau v. Stein für ein Engel, deren Schatten Sie uns in Strasbg. wiesen.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 267.)</p>
+
+</note>
+<note xml:id="gb11175_comment_com10632">
+<label xml:id="GB03_2_BR169_0_note_006_104_10" copyOf="#start_com_1607"><hi rendition="#fett">104,10</hi>sie lehren</label>
+<p>Lenz, der Shakespeare („Coriolan“; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 124, Nr 64, Anm. 302) und Ossian übersetzt hatte und über Erfahrungen im Sprachunterricht verfügte, sollte Charlotte von Stein in Englisch unterrichten (vgl. Lenz an Goethe, Mitte September 1776; abgedruckt im <ref target="gb:note#gb11175_comment_com84580">Anschluss</ref> an die folgenden Erläuterungen).</p>
+
+</note>
+<note xml:id="gb11175_comment_com17809">
+<label xml:id="GB03_2_BR169_0_note_007_104_15" copyOf="#start_com_1608"><hi rendition="#fett">104,15</hi>Schäckespeer</label>
+<p>Eine englische Shakespeare-Ausgabe, die der Brief begleitet haben oder mit Lenz mitgeschickt worden sein könnte. Um welche Ausgabe es sich gehandelt hat, muss offenbleiben. Wie viele seiner Zeitgenossen verdankte Goethe der von William Dodd herausgegebenen Anthologie „The Beauties of Shakespear: Regularly selected from each Play“ (2 Bde. London 1752) die erste Kenntnis Shakespearescher Texte (vgl. <ref target="gb:note#GB01_2_BR014_0_note_001_43_3-8">GB 1 II, zu 43,3–8</ref>). Einen Hinweis auf die Anschaffung einer zehnbändigen Ausgabe von „Shakespears Works“ findet sich in Goethes Rechnungen, allerdings erst im April 1777 (<ref target="archivdb:dokument#81665">GSA 34/II,2,1</ref>, Bl. 31). Während in Goethes Bibliothek ausschließlich deutsche Shakespeare-Übersetzungen erhalten sind (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 217 f., Nr 1521–1531), hat Goethes Vater nachweislich auch eine englische Shakespeare-Ausgabe besessen (vgl. <ref target="sndb:sigle#4240/1189">Götting</ref>, 54). – Am 23. Oktober 1776 schrieb Lenz an Johann Daniel Salzmann: „Ich bin in Kochberg bei der liebenswürdigsten und geistreichsten Dame, die ich kenne, mit der ich seit vier, fünf Wochen den englischen Shakspeare lese.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 42.)</p>
+
+</note>
+<note xml:id="gb11175_comment_com10633">
+<label xml:id="GB03_2_BR169_0_note_008_104_16" copyOf="#start_com_1609"><hi rendition="#fett">104,16</hi>Wäckefield</label>
+<p>Oliver Goldsmith’ Roman „The vicar of Wakefield“ (1766), den auch Goethes Frankfurter Freundin Johanna Fahlmer für ihr Englischstudium, bei dem sie von Goethe unterstützt worden war, benutzt hatte (vgl. <ref target="gb:note#GB02_2_BR019_0_note_001_16_17">GB 2 II, zu 16,17</ref>). Das für Charlotte von Steins Unterricht aus Leipzig bestellte Exemplar des Romans traf am 16. September in Weimar ein (vgl. zu <ref target="gb:note#GB03_2_BR173_0_note_003_109_25">109,25</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com14457">
+<label xml:id="GB03_2_BR169_0_note_009_104_17-18" copyOf="#start_com_1610"><hi rendition="#fett">104,17-18</hi>von mir hören Sie nun nichts weiter</label>
+<p>Entgegen dieser Ankündigung setzte Goethe den vorliegenden Brief schon am 12. September fort (vgl. <ref target="gb:text#GB03_1_BR169_0_104_021 #GB03_1_BR169_0_105_021">104,21–105,21</ref>) und schrieb bis zum 27. September insgesamt noch fünf weitere Briefe nach Kochberg (<ref target="gb:dokument#11176">Nr 172</ref>, <ref target="gb:dokument#11177">173</ref>, <ref target="gb:dokument#11178">174</ref>, <ref target="gb:dokument#11183">176</ref>, <ref target="gb:dokument#11186">177</ref>). Erst nachdem Charlotte von Stein Anfang Oktober kurz nach Weimar zurückgekehrt war und ihr Goethe zum Abschied am 7. Oktober (<ref target="gb:dokument#11187">Nr 178</ref>) noch einmal geschrieben hatte, trat vorübergehend eine Unterbrechung der gewohnten Korrespondenz ein (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11187_comment_com4003">Nr 178</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com17455">
+<label xml:id="GB03_2_BR169_0_note_010_104_18-19" copyOf="#start_com_1611"><hi rendition="#fett">104,18-19</hi>verbitte mir auch alle Nachricht von <gap quantity="3" reason="editorial"/> Lenz</label>
+<p>Weder Charlotte von Stein noch Lenz hielten sich an dieses wohl nicht ganz ernst gemeinte Verbot (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR172_0_note_001_109_1">109,1</ref>; vgl. auch Lenz an Goethe, Mitte September 1776; abgedruckt im <ref target="gb:note#gb11175_comment_com84580">Anschluss</ref> an die folgenden Erläuterungen).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10645">
+<label xml:id="GB03_2_BR169_0_note_011_104_19" copyOf="#start_com_1612"><hi rendition="#fett">104,19</hi>Philip</label>
+<p>Philipp Seidel, Goethes Diener, Sekretär und Hausgenosse, der es in Goethes Auftrag übernommen hatte, auch für die persönlichen Bedürfnisse von Lenz zu sorgen (vgl. zu <ref target="gb:note#GB03_2_BR136_0_note_001_78_17">78,17</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com11153">
+<label xml:id="GB03_2_BR169_0_note_012_104_21" copyOf="#start_com_1613"><hi rendition="#fett">104,21</hi>Lenz will nun fort</label>
+<p>Am 12. September vermerkte Goethe im Tagebuch: <quote type="G">Nach Tisch ritt Lenz weg nach K.</quote><supplied>Kochberg</supplied> (<ref target="gt:dokument#144">GT I 1, 25</ref>). Er blieb etwa fünf Wochen in Kochberg und kehrte gemeinsam mit Charlotte von Stein erst am 31. Oktober nach Weimar zurück.</p>
+
+</note>
+<note xml:id="gb11175_comment_com10646">
+<label xml:id="GB03_2_BR169_0_note_013_104_23-24" copyOf="#start_com_1614"><hi rendition="#fett">104,23-24</hi>Ich danck ihnen</label>
+<p>Mit Bezug auf einen nicht überlieferten Brief Charlotte von Steins etwa vom 11. September 1776.</p>
+
+</note>
+<note xml:id="gb11175_comment_com17782">
+<label xml:id="GB03_2_BR169_0_note_014_104_24" copyOf="#start_com_1615"><hi rendition="#fett">104,24</hi>von Ihrem Schreibtisch</label>
+<p>Auf der Platte des Kochberger Schreibtischs Charlotte von Steins hatte Goethe bei seinem ersten Besuch am 6. Dezember 1775 seinen Namen und das Datum eingraviert (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>). Später trug er sich noch zwei weitere Male ein, am 4. Oktober und am 5. November 1780.</p>
+
+</note>
+<note xml:id="gb11175_comment_com10647">
+<label xml:id="GB03_2_BR169_0_note_015_104_25-26" copyOf="#start_com_1616"><hi rendition="#fett">104,25-26</hi>Gestern war ich in Belveder.</label>
+<p>Goethe war Gast der fürstlichen Mittagstafel auf Schloss Belvedere, der herzoglichen Sommerresidenz (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_011_66_18-19">66,18-19</ref>). Laut Fourierbuch nahmen außer ihm und dem Herzogspaar noch 14 weitere Gäste teil, darunter der Erbprinz Ludwig von Hessen-Darmstadt und Josias von Stein (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 245).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10648">
+<label xml:id="GB03_2_BR169_0_note_016_104_26" copyOf="#start_com_1617"><hi rendition="#fett">104,26</hi>Louise</label>
+<p>Louise Herzogin von Sachsen-Weimar und Eisenach (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_005_27_4-5">27,4-5</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10658">
+<label xml:id="GB03_2_BR169_0_note_017_104_28" copyOf="#start_com_1618"><hi rendition="#fett">104,28</hi>die Waldnern</label>
+<p>Louise Adelaide Waldner von Freundstein, die damals 30-jährige Hofdame der Herzogin Louise, eine Freundin Charlotte von Steins. Sie wirkte auch bei Liebhaberaufführungen französischer Operetten mit (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52741_comment_com5216">Nr 431</ref>). – Seinen Besuch bei Louise von Waldner am Vormittag des 11. September hielt Goethe auch im Tagebuch fest (vgl. <ref target="gt:dokument#143">GT I 1, 25</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com15169">
+<label xml:id="GB03_2_BR169_0_note_018_105_1" copyOf="#start_com_1619"><hi rendition="#fett">105,1</hi>herumgeschäckert</label>
+<p>Schäkern: im zeitgenössischen Sprachgebrauch „laut scherzen und lachen, kurzweilen“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1335).</p>
+
+</note>
+<note xml:id="gb11175_comment_com17830">
+<label xml:id="GB03_2_BR169_0_note_019_105_1-2" copyOf="#start_com_1620"><hi rendition="#fett">105,1-2</hi>Abends alle Durch<g ref="#typoSuspension"/>. in Tiefurt.</label>
+<p>Durchlaucht(en): Adelsprädikat, das vom Kaiser verliehen wurde und nur den Kurfürsten und altadligen Personen zustand. – Hier auf die herzogliche Familie und wahrscheinlich auch auf Erbprinz Ludwig von Hessen-Darmstadt, den Bruder der Herzogin Louise, bezogen. Wie Goethes Tagebuch belegt, war an diesem Abend <quote type="G">Pr.</quote> <supplied>Prinz</supplied> <quote type="G">C.</quote> <supplied>Constantin</supplied> <quote type="G">angekommen</quote> (<ref target="gt:dokument#143">GT I 1, 25</ref>), der von einer längeren Reise auf sein Landgut nach Tiefurt zurückkehrte (vgl. zu <ref target="gb:note#GB03_2_BR154_0_note_005_97_2">97,2</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10660">
+<label xml:id="GB03_2_BR169_0_note_020_105_2" copyOf="#start_com_1621"><hi rendition="#fett">105,2</hi>Ihr Mann</label>
+<p>Der Oberstallmeister Josias von Stein war demnach ebenfalls zur Begrüßung des Prinzen Constantin in Tiefurt anwesend.</p>
+
+</note>
+<note xml:id="gb11175_comment_com10661">
+<label xml:id="GB03_2_BR169_0_note_021_105_2" copyOf="#start_com_1622"><hi rendition="#fett">105,2</hi>war guter Humor</label>
+<p>‚Humor‘ hier noch in der älteren Wortbedeutung für ‚Stimmung‛, ‚Laune‛ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4 II, 1905 f.); die Verwendung als Femininum nach franz. la humeur: die Laune, Grille.</p>
+
+</note>
+<note xml:id="gb11175_comment_com15599">
+<label xml:id="GB03_2_BR169_0_note_022_105_2-3" copyOf="#start_com_1623"><hi rendition="#fett">105,2-3</hi>possierliche Streiche mit der Oberhofmeistern</label>
+<p>Wilhelmine Eleonore Elisabeth Gräfin von Giannini, eine frühere Braunschweiger Hofdame, seit Herbst 1775 Oberhofmeisterin der Herzogin Louise. Zeitgenössischen Berichten zufolge besaß die damals 57-jährige Gräfin das besondere Vertrauen der Herzogin und die allgemeine Achtung der Hofgesellschaft. Auch wenn sie offenbar streng auf die Einhaltung der Hofetikette bedacht war, soll sie <quote type="G">sonst eine heitere humoristische Dame</quote> gewesen sein (<ref target="sndb:sigle#1157">WA</ref> I 36, 240). Ihr Äußeres beschreibt Lyncker in seinen Erinnerungen: „Eine ungeheuer große Nase, hervorstehende rollende Augen mit rothen Ringen umgeben, mehrere bartähnliche schwarze Haare über dem Munde und ein immerwährendes Tabacksschnupfen gaben ihr trotz der dick aufgetragenen Schminke ein rauhes männliches Ansehen. Man sagte, sie sei heimlich mit einem Braunschweiger General verheurathet, welches ihrer Bildung nach fast nicht zu glauben war.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 73; vgl. des Näheren die einleitende Erläuterung zu <ref target="gb:note#gb52727_comment_com4833">Nr 445</ref>.) Gemeinsam mit dem Oberhofmeister Graf Goertz gehörte die Gräfin Giannini zu den Hofleuten, die die Verbindung Carl Augusts zu Goethe und das ‚Weimarer Genietreiben‘ beargwöhnten (vgl. die übergreifenden Erläuterungen zu <ref target="gb:dokument#10525">Nr 112</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com15172">
+<label xml:id="GB03_2_BR169_0_note_023_105_3" copyOf="#start_com_1624"><hi rendition="#fett">105,3</hi>Ich hab die Hofleute bedauert</label>
+<p>Dies und das Folgende möglicherweise mit Bezug auf das wenig vorteilhafte Äußere der Oberhofmeisterin, deren herausgehobene Stellung die besondere Aufmerksamkeit der Hofleute verlangte.</p>
+
+</note>
+<note xml:id="gb11175_comment_com18757">
+<label xml:id="GB03_2_BR169_0_note_024_105_4" copyOf="#start_com_1625"><hi rendition="#fett">105,4</hi>Kröten und Basilisken</label>
+<p>Kröten galten nicht nur als „häßlich ungestalt und abscheulich“, sondern auch als giftig. „Ihr Wehr und Waffen ist, wenn man sie jaget, daß sie ihren Harn von sich schiesset, welcher gifftig ist, und verursachet, daß dasjenige Glied, darauf er gefallen, aufläufft; ja er soll eben solche Zufälle, wie der Scorpion-Stich erwecken“ (<ref target="sndb:sigle#3152">Zedler</ref> 15, 1955). Noch unheilbringendere Eigenschaften wurden den Basilisken zugeschrieben, „nach den Sagen bei den Alten eine furchtbare Schlange von entsetzlicher Stimme u. tödtlichem Blick (daher Basiliskenblick), u. im Mittelalter ein, aus einem Hahnei <gap quantity="3" reason="editorial"/> durch eine Kröte auf dem Miste ausgebrütetes Thier, mit Hahnkörper u. am Ende 3spitzigen Schlangenschwanz, das, in Kellern sich aufhaltend, durch seinen Blick tödte u. daher nur durch Vorhaltung eines Spiegels getödtet werden könne“ (<ref target="sndb:sigle#3019">Pierer</ref> 2, 377).</p>
+
+</note>
+<note xml:id="gb11175_comment_com17847">
+<label xml:id="GB03_2_BR169_0_note_025_105_10" copyOf="#start_com_1626"><hi rendition="#fett">105,10</hi>der W. Brief</label>
+<p>Nicht überlieferter Brief der mit Charlotte von Stein befreundeten Isabella Gräfin von Wartensleben. Die im westfälischen Exten bei Rinteln lebende und seit 1770 verwitwete Gräfin beabsichtigte, ihren damals etwa 11-jährigen Sohn Gideon in einer auswärtigen Erziehungsanstalt unterzubringen. Wie der Kontext nahelegt, hatte sie in ihrem Brief Goethe in dieser Angelegenheit um seinen Rat gebeten (vgl. auch zu <ref target="gb:note#GB03_2_BR160_0_note_015_99_33-100_1">99,33-100,1</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com10675">
+<label xml:id="GB03_2_BR169_0_note_026_105_10-11" copyOf="#start_com_1627"><hi rendition="#fett">105,10-11</hi>eine werthe Frau</label>
+<p>Goethe kannte die Silhouette der Gräfin von Wartensleben, über die er sich enthusiastisch geäußert zu haben scheint (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR157_0_note_003_98_3">98,3</ref>) und von der er eine Kopie an Lavater schickte (vgl. <ref target="gb:text#GB03_1_BR160_0_100_001 #GB03_1_BR160_0_100_002">100,1–2</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com15184">
+<label xml:id="GB03_2_BR169_0_note_027_105_15" copyOf="#start_com_1628"><hi rendition="#fett">105,15</hi>Philantropins</label>
+<p>Philanthropinum: Erziehungs- und Unterrichtsanstalt nach philanthropischen Grundsätzen, die zur Natürlichkeit, Vernunft und Menschenfreundschaft erziehen sollten. Muster war vor allem das erste in Dessau gegründete Philantropinum (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11666_comment_com4969">Nr 490</ref>).</p>
+
+</note>
+<note xml:id="gb11175_comment_com17895">
+<label xml:id="GB03_2_BR169_0_note_028_105_16" copyOf="#start_com_1629"><hi rendition="#fett">105,16</hi>Dessau</label>
+<p>In Dessau, der Residenz des Fürsten Leopold III. Friedrich Franz von Anhalt-Dessau, war 1774 von Johann Bernhard Basedow und Christian Heinrich Wolke das Philanthropinum gegründet worden. Ursprünglich als Ausbildungsstätte für Pädagogen geplant, entwickelte es sich bald nach der Gründung zu einem Erziehungs- und Bildungsinstitut für Zöglinge aus dem Adel und wohlhabenden Bürgertum. Bereits 1776 allerdings trat Basedow als Direktor des Philanthropinums zurück, für kurze Zeit wurde Joachim Heinrich Campe sein Nachfolger. – Goethe kannte Basedow auch persönlich, er hatte im Juli 1774 mit ihm und Lavater eine Lahn- und Rheinreise unternommen und sich anschließend für zwei Wochen mit Basedow in Ems aufgehalten (zu Goethe und Basedow vgl. <ref target="gb:note#GB02_2_BR135_0_note_003_112_8">GB 2 II, zu 112,8</ref>; zu <ref target="gb:note#GB02_2_BR135_0_note_008_112_10">112,10</ref>). In seinem nicht überlieferten Antwortbrief riet Goethe der Gräfin Wartensleben, ihren Sohn nach Dessau zu schicken, was diese schließlich jedoch, einem Votum Johann Caspar Lavaters folgend, nicht tat.</p>
+
+</note>
+<note xml:id="gb11175_comment_com10687">
+<label xml:id="GB03_2_BR169_0_note_029_105_20" copyOf="#start_com_1630"><hi rendition="#fett">105,20</hi>Zeichnung</label>
+<p>Näheres konnte nicht ermittelt werden; wahrscheinlich nicht überliefert.</p>
+
+</note>
+</div>
+<div xml:id="gb11175_comment_com84580">
+  <p>Jacob Michael Reinhold Lenz an Charlotte von Stein in Weimar</p>
+  <space unit="lines" quantity="1"/>
+  <p rendition="#einrueck16"><supplied>Berka, Anfang September 1776</supplied></p>
+  <space unit="lines" quantity="1"/>
+  <p>Vous parlez de m’arracher de ma solitude – et m’alleguez pour cela d’aussi eloquentes raisons. Pensiez Vous bien Madame! lorsque Vous ecrites ces lignes, quels effets elles alloient faire sur moi. <gap quantity="3" reason="editorial"/>
+  </p>
+  <space unit="lines" quantity="1"/>
+  <p>(<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 29, Nr 221. – Sie sprechen davon, mich meiner Einsamkeit zu entreißen, und geben dafür so bedeutsame Gründe an. Haben Sie, Madame! als Sie diese Zeilen schrieben, gut bedacht, welche Wirkungen sie auf mich haben werden.)</p>
+  <space unit="lines" quantity="1"/>
+  <p>Jacob Michael Reinhold Lenz an Goethe in Weimar</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56438_source" corresp="#gb56438_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck15">
+        <anchor xml:id="GB03_2_FB017_0_392_001"/><supplied>Kochberg, Mitte September 1776</supplied></p>
+      <p>
+        <lb/>
+        <anchor xml:id="GB03_2_FB017_0_392_002"/>Ich bin zu glücklich Lieber als daß ich <ref target="gb:note#GB03_2_FB017_0_note_104_393_2" xml:id="start_com_7112"/>deine Ordres<ref xml:id="end_com_7112"/> dir von mir nichts wissen zu 
+<anchor xml:id="GB03_2_FB017_0_392_003"/>lassen nicht brechen sollte; wollte Gott ich hätte deine Art zu sehen und zu fühlen 
+<anchor xml:id="GB03_2_FB017_0_392_004"/>und du zu Zeiten etwas von der meinigen, wir würden uns glaub ich beyde besser 
+<anchor xml:id="GB03_2_FB017_0_392_005"/>dabey befinden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB017_0_392_006"/>Ich schreibe dir dies vor Schlaffengehen, weil ich in der That bey Tage keinen 
+<anchor xml:id="GB03_2_FB017_0_392_007"/>Augenblick so recht dazu finden kann. Dir alle die Feerey zu beschreiben in der 
+<anchor xml:id="GB03_2_FB017_0_392_008"/>ich itzt existire, müßte ich mehr Poet seyn als ich bin. Doch was soll ich dir 
+<anchor xml:id="GB03_2_FB017_0_392_009"/>schreiben daß du falls <ref target="gb:note#GB03_2_FB017_0_note_105_393_9" xml:id="start_com_7113"/>Schwedenborg<ref xml:id="end_com_7113"/> kein Betrüger ist alles nicht schon vollkommen 
+<anchor xml:id="GB03_2_FB017_0_392_010"/>mußt geahndet gesehen und gehört haben. Wenigstens haben wirs an all den Gebräuchen 
+<anchor xml:id="GB03_2_FB017_0_392_011"/>und Zauberformeln nicht fehlen lassen mit denen man abwesende Geister 
+<anchor xml:id="GB03_2_FB017_0_392_012"/>in seinen Zirkel zu bannen pflegt; wenn du nicht gehört hast, ists deine Schuld.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB017_0_392_013"/>Mit dem Englischen gehts vortreflich. Die Frau von Stein findt meine Methode 
+<anchor xml:id="GB03_2_FB017_0_392_014"/>besser als die deinige. Ich lasse sie nichts aufschreiben als die kleinen Bindewörter 
+<anchor xml:id="GB03_2_FB017_0_392_015"/>die oft wieder kommen; die andern soll sie <ref target="gb:note#GB03_2_FB017_0_note_106_393_15" xml:id="start_com_7115"/>a force de lire<ref xml:id="end_com_7115"/> unvermerkt gewohnen, 
+<anchor xml:id="GB03_2_FB017_0_392_016"/>wie man seine Muttersprache lernt. Auch bin ich unerbittlich ihr kein Wort wiederzusagen 
+<anchor xml:id="GB03_2_FB017_0_392_017"/>was den Tag schon vorgekommen und was mich freut ist, daß sie es 
+<anchor xml:id="GB03_2_FB017_0_392_018"/>entweder ganz gewiß wiederfindt oder wenigstens auf keine falsche Bedeutung räth, 
+<anchor xml:id="GB03_2_FB017_0_392_019"/>sondern in dem Fall lieber sagt, daß sies nicht wisse, bis es ihr das drittemal doch 
+<anchor xml:id="GB03_2_FB017_0_392_020"/>wieder einfällt. – Nur find ich daß ein Frauenzimmer fürs Englische ganz verderben 
+<anchor xml:id="GB03_2_FB017_0_392_021"/>kann, wenn sie mit <ref target="gb:note#GB03_2_FB017_0_note_107_393_21" xml:id="start_com_7114"/>Ossianen<ref xml:id="end_com_7114"/> anfängt. Es geht ihr sodenn mit der Sprache 
+<anchor xml:id="GB03_2_FB017_0_392_022"/>wie mir und <ref target="gb:note#GB03_2_FB017_0_note_108_393_22" xml:id="start_com_7116"/>Lindau<ref xml:id="end_com_7116"/> mit dem menschlichen Leben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB017_0_392_023"/>Lieber Bruder, du hast entweder selbst <ref target="gb:note#GB03_2_FB017_0_note_109_393_22-24" xml:id="start_com_7117"/>meine Brieftasche oder <ref target="gb:note#GB03_2_FB017_0_note_110_393_22" xml:id="start_com_7118"/>Philipp<ref xml:id="end_com_7118"/> hat sie 
+<anchor xml:id="GB03_2_FB017_0_392_024"/>gefunden; schicke mir sie doch. Wenigstens dein Gedicht<ref xml:id="end_com_7117"/>, das ich hineingelegt 
+<anchor xml:id="GB03_2_FB017_0_392_025"/>hatte – alles, denn ich weiß selbst nicht mehr was drin ist. Schick doch auch sonst 
+<anchor xml:id="GB03_2_FB017_0_392_026"/>was mit für Frau v. Stein, etwa d. <ref target="gb:note#GB03_2_FB017_0_note_111_393_26" xml:id="start_com_7119"/>Jungs Autobiographie<ref xml:id="end_com_7119"/> von der ich ihr erzehlt 
+<anchor xml:id="GB03_2_FB017_0_392_027"/>habe. Ich komm in der That hieher wie ein Bettelmönch, bringe nichts mit als 
+<anchor xml:id="GB03_2_FB017_0_392_028"/>meine hohe Person mit einer großen Empfänglichkeit; habe aber doch sobald ich 
+<anchor xml:id="GB03_2_FB017_0_392_029"/>allein bin große Unbehäglichkeiten über den Spruch <ref target="gb:note#GB03_2_FB017_0_note_112_393_29-30" xml:id="start_com_7120"/>daß Geben seeliger sey als 
+<anchor xml:id="GB03_2_FB017_0_392_030"/>Nehmen<ref xml:id="end_com_7120"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB017_0_392_031"/><ref target="gb:note#GB03_2_FB017_0_note_113_393_30" xml:id="start_com_7121"/>Dein Bote<ref xml:id="end_com_7121"/> gieng obschon er alle Kräfte anwandte die ihm Weib und Kinder 
+<anchor xml:id="GB03_2_FB017_0_392_032"/>übrig gelassen mit der Geschwindigkeit eines Mauleseltreibers; ich wäre eben so 
+<anchor xml:id="GB03_2_FB017_0_392_033"/>geschwind und ungefähr in eben der Gemüthsverfassung mit bloßen Knieen auf 
+<anchor xml:id="GB03_2_FB017_0_392_034"/>Erden nach <ref target="gb:note#GB03_2_FB017_0_note_114_393_34" xml:id="start_com_7122"/>K–<ref xml:id="end_com_7122"/> gerutscht; und doch war eben der <ref target="gb:note#GB03_2_FB017_0_note_115_392_34" xml:id="start_com_7123"/>Merkurius<ref xml:id="end_com_7123"/> den andern Morgen 
+<anchor xml:id="GB03_2_FB017_0_392_035"/>als ich ihn wollte ruffen lassen, dir Frau v. Stein <ref target="gb:note#GB03_2_FB017_0_note_116_393_35" xml:id="start_com_7124"/>Brief und Zeichnungen<ref xml:id="end_com_7124"/> zuzuschicken, 
+<anchor xml:id="GB03_2_FB017_0_392_036"/>(obschon ichs ihm Abends vorher hatte <ref target="gb:note#GB03_2_FB017_0_note_117_393_36" xml:id="start_com_7125"/>notifiziren<ref xml:id="end_com_7125"/> lassen) über alle Berge. 
+<anchor xml:id="GB03_2_FB017_0_392_037"/>Wofür du ihn <ref target="gb:note#GB03_2_FB017_0_note_118_393_37" xml:id="start_com_7126"/>sermoniren<ref xml:id="end_com_7126"/> kannst damit ers ein andermal in ähnlichen Fällen nicht 
+<anchor xml:id="GB03_2_FB017_0_392_038"/>wieder so macht.</p>
+        <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB017_0_393_039"/>I beg thee to see frequently the spouse of the lady. I have a pressentiment thou 
+<anchor xml:id="GB03_2_FB017_0_393_040"/>willst thank me of having given thee a counsel ....................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_041"/>needful. At least ........................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_042"/>it is only given ..........................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_043"/>thou kno  ................................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_044"/>imagine all  ..............................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_045"/>
+        <hi rendition="#hervor1">suffers constantly</hi> ................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_046"/>She must sea ............................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_047"/>much deli.................................................................................</p>
+      <p>
+        <anchor xml:id="GB03_2_FB017_0_393_048"/>tranquillity of mind  ....................................................................</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56438_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56438_comment_com84581">
+  <p>(letzte Seite abgerissen, Textverlust; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 31 f., Nr 222. – Ich bitte dich darum, den Ehemann der Dame häufig aufzusuchen. Ich habe eine Vorahnung, dass du mir noch dankbar sein wirst, dass ich dir einen Rat gegeben habe <gap quantity="3" reason="editorial"/> nötig. Zumindest <gap quantity="3" reason="editorial"/> wird er nur gegeben <gap quantity="3" reason="editorial"/> stell dir alle <gap quantity="3" reason="editorial"/> vor <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">fortwährend leidet</hi> <gap quantity="3" reason="editorial"/> Sie muss su<supplied>chen</supplied> <gap quantity="3" reason="editorial"/> viel Freu<supplied>de</supplied> <gap quantity="3" reason="editorial"/> Ruhe der Seele <gap quantity="3" reason="editorial"/>.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56438_comment_com84582">
+<label xml:id="GB03_2_FB017_0_note_104_393_2" copyOf="#start_com_7112"><hi rendition="#normal">392,2</hi>deine Ordres</label>
+<p>Franz. ordre: Anordnung, Aufforderung; hier mit Bezug auf Goethes Verbot, ihm Nachrichten aus Kochberg zu schicken (vgl. <ref target="gb:text#GB03_1_BR169_0_104_018 #GB03_1_BR169_0_104_019">104,18–19</ref>). </p>
+</note>
+<note xml:id="gb56438_comment_com84583">
+<label xml:id="GB03_2_FB017_0_note_105_393_9" copyOf="#start_com_7113"><hi rendition="#normal">392,9</hi>Schwedenborg</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR141_0_note_001_84_13">84,13</ref>.</p>
+</note>
+<note xml:id="gb56438_comment_com84584">
+<label xml:id="GB03_2_FB017_0_note_106_393_15" copyOf="#start_com_7115"><hi rendition="#normal">392,15</hi>a force de lire</label>
+<p>Franz.: durch viel lesen.</p>
+</note>
+<note xml:id="gb56438_comment_com84585">
+<label xml:id="GB03_2_FB017_0_note_107_393_21" copyOf="#start_com_7114"><hi rendition="#normal">392,21</hi>Ossianen</label>
+<p>Neben Shakespeare war es vor allem die Begeisterung für Ossian, die Lenz und Goethe zu Beginn ihrer Bekanntschaft in Straßburg verbunden hatte. – Die von James Macpherson stammenden „Works of Ossian, the Son of Fingal Ossian“ wurden bis zum Beginn des 19. Jahrhunderts noch für Dichtungen des sagenhaften schottischen Barden Ossian aus dem 3. Jahrhundert gehalten (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10223_comment_com22663">GB 1 II, Nr 90</ref>). </p>
+</note>
+<note xml:id="gb56438_comment_com84586">
+<label xml:id="GB03_2_FB017_0_note_108_393_22" copyOf="#start_com_7116"><hi rendition="#normal">392,22</hi>Lindau</label>
+<p>Heinrich Julius von Lindau (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>).</p>
+</note>
+<note xml:id="gb56438_comment_com84587">
+<label xml:id="GB03_2_FB017_0_note_109_393_22-24" copyOf="#start_com_7117"><hi rendition="#normal">392,23-24</hi>meine Brieftasche <gap quantity="3" reason="editorial"/> dein Gedicht</label>
+<p>Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51303_comment_com3857">Z 4</ref>.</p>
+</note>
+<note xml:id="gb56438_comment_com84588">
+<label xml:id="GB03_2_FB017_0_note_110_393_22" copyOf="#start_com_7118"><hi rendition="#normal">392,23</hi>Philipp</label>
+<p>Philipp Seidel, der sich im Auftrag Goethes auch um die Versorgung von Lenz in Berka gekümmert hatte (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 12 f., Nr 202 und 203).</p>
+</note>
+<note xml:id="gb56438_comment_com84589">
+<label xml:id="GB03_2_FB017_0_note_111_393_26" copyOf="#start_com_7119"><hi rendition="#normal">392,26</hi>Jungs Autobiographie</label>
+<p>Wohl das Manuskript der Autobiographie, die 1776 noch nicht gedruckt vorlag (zur Sache vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_048_68_15-16">68,15-16</ref>)</p>
+</note>
+<note xml:id="gb56438_comment_com84590">
+<label xml:id="GB03_2_FB017_0_note_112_393_29-30" copyOf="#start_com_7120"><hi rendition="#normal">392,29-30</hi>daß Geben seeliger sey als Nehmen</label>
+<p>Vgl. Apostelgeschichte 20,35.</p>
+</note>
+<note xml:id="gb56438_comment_com84591">
+<label xml:id="GB03_2_FB017_0_note_113_393_30" copyOf="#start_com_7121"><hi rendition="#normal">392,31</hi>Dein Bote</label>
+<p>Näheres zur Person nicht ermittelt.</p>
+</note>
+<note xml:id="gb56438_comment_com84592">
+<label xml:id="GB03_2_FB017_0_note_114_393_34" copyOf="#start_com_7122"><hi rendition="#normal">392,34</hi>K–</label>
+<p>Kochberg.</p>
+</note>
+<note xml:id="gb56438_comment_com84593">
+<label xml:id="GB03_2_FB017_0_note_115_393_34" copyOf="#start_com_7123"><hi rendition="#normal">392,34</hi>Merkurius</label>
+<p>Götterbote, römischer Gott der Händler und Diebe. </p>
+</note>
+<note xml:id="gb56438_comment_com84594">
+<label xml:id="GB03_2_FB017_0_note_116_393_35" copyOf="#start_com_7124"><hi rendition="#normal">392,35</hi>Brief und Zeichnungen</label>
+<p>Wahrscheinlich der nicht überlieferte Antwortbrief Charlotte von Steins auf Goethes Brief vom 10. und 12. September 1776 (<ref target="gb:dokument#11175">Nr 169</ref>) und die Zeichnungen, für die sich Goethe am 16. September bedankte (vgl. <ref target="gb:text#GB03_1_BR172_0_109_001">109,1</ref>).</p>
+</note>
+<note xml:id="gb56438_comment_com84595">
+<label xml:id="GB03_2_FB017_0_note_117_393_36" copyOf="#start_com_7125"><hi rendition="#normal">392,36</hi>notifiziren</label>
+<p>Von lat. notare: kundtun, anzeigen; hier komisch übertreibend gebraucht.</p>
+</note>
+<note xml:id="gb56438_comment_com84596">
+<label xml:id="GB03_2_FB017_0_note_118_393_37" copyOf="#start_com_7126"><hi rendition="#normal">392,37</hi>sermoniren</label>
+<p>Von lat. sermo: Wechselrede, Gespräch; spätlat. Predigt; hier ‚ins Gebet nehmen‘, ‚eine Strafpredigt halten‘.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

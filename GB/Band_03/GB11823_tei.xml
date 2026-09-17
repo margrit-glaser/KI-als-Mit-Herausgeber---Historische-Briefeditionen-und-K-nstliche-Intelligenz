@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="450"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11823" n="GB 3, Nr. 45">
+  <teiHeader xml:id="gb11823_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>45.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende Januar/erste Hälfte Februar? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:51Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11823_tei.xml</idno>
+        <idno type="URI">gb11823</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR045_0</idno>
+        <idno type="KSW-ID">11823</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="32" to="32">32</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="145" to="145">145</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11823_header_hwit1306" corresp="#gb11823_source_hwit1306" sameAs="#gb11823_comment_hwit1306" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 116</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11823,,1306/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier noch zur guten Nacht, ein Ragout. - - Allerley - -!    Gewürzt -! Sie fühlen mit was!</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11823_header_acc433" corresp="gb11823_comment_acc433">
+            <objectIdentifier>
+              <objectName><quote type="G">Ragout</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-01-21" to="1776-01-31"><supplied>Ende Januar 1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-02-01" to="1776-02-14"><supplied>erste Hälfte Februar? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1778-01-21" to="1778-01-31"><supplied>Ende Januar 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11823_source_hwit1306" corresp="#gb11823_header_hwit1306" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11823/22781"/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR045_0_032_008"/>Hier noch zur guten Nacht, ein <ref target="gb:note#GB03_2_BR045_0_note_001_32_8" xml:id="start_com_0522"/>Ragout<ref xml:id="end_com_0522"/>.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR045_0_032_009"/>——— —— Allerley —— ——</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR045_0_032_010"/>Gewürzt —— ! Sie fühlen mit was!</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR045_0_032_011"/>
+        <signed rend="paraph" rendition="#einrueck8">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11823_comment">
+<body>
+<div type="metadata" xml:id="gb11823_comment_com1302">
+  <ab type="numberAddressee"><label>45.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende Januar 1776</supplied> oder <supplied>erste Hälfte Februar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11823_comment_com1974">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) befindet sich der vorliegende Brief unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Seit dem Erstdruck wird er auf Anfang Februar 1776 datiert; nur Fielitz setzt ihn unmittelbar nach Brief <ref target="gb:dokument#11804">Nr 25</ref> in den Januar 1778. Inhaltliche Belege dafür gibt es nicht. Den einzigen verwertbaren Hinweis für die Datierung bietet das Briefpapier, das Goethe aus Frankfurt mit nach Weimar brachte und noch bis etwa Mitte 1776 verwendete; datierte Briefe auf diesem Papier stammen aus der Zeit von Januar bis April 1776 (vgl. Datierung zu <ref target="gb:note#gb11804_comment_com1419">Nr 25</ref>). Der Brief könnte, wie seit Schöll angenommen, kurz vor oder kurz nach Goethes Erfurter Reise vom 3. bis 6. Februar 1776 geschrieben worden sein (vgl. Datierung zu <ref target="gb:note#gb11818_comment_com1672">Nr 39</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11823_comment_com3346">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 116. – 1 Bl. 16,8 × 10,8 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#x2153; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. oben rechts von fremder Hd, Tinte: „91“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 94), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 7.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 209, Nr 669.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11823_comment_com3819">
+  <p><quote type="G">Ragout</quote> (vgl. zu <ref target="gb:note#GB03_2_BR045_0_note_001_32_8">32,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11823_comment_com5142">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11823_comment_com18080">
+<label xml:id="GB03_2_BR045_0_note_001_32_8" copyOf="#start_com_0522"><hi rendition="#fett">32,8</hi>Ragout</label>
+<p>Hier wohl im übertragenen Sinne als Vermischung unterschiedlicher ‚geistiger Speisen‘ (vgl. zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>). – Die Metapher verwendet Goethe gelegentlich in seinen frühen Briefen (vgl. <ref target="gb:text#GB01_1_BR085_0_213_024">GB 1 I, 213,24</ref>; <ref target="gb:text#GB02_1_BR007_0_006_020 #GB02_1_BR007_0_006_021">GB 2 I, 6,20–21</ref>) sowie in der Schüler-Szene der frühen Fassung des „Faust“: <quote type="G">Sizzt ihr einweil und leimt zusammen, / Braut ein Ragout von andrer Schmaus <gap quantity="3" reason="editorial"/>.</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 278.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

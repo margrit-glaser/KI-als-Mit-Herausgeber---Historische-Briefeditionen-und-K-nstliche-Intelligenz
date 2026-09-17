@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2910"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11164" n="GB 3, Nr. 286">
+  <teiHeader xml:id="gb11164_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>286.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77740">Eisenach</placeName>, 6. September <supplied>1777.  Samstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:12Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11164_tei.xml</idno>
+        <idno type="URI">gb11164</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR286_0</idno>
+        <idno type="KSW-ID">11164</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="161" to="164">161-164</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="564" to="567">564-567</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11164_header_hwit1236" corresp="#gb11164_source_hwit1236" sameAs="#gb11164_comment_hwit1236" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 57</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11164,,1236/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dancke bestes Gold für den Boten, wir waren den vierten von Ilmenau früh weg also krieg</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77740">Eisenach</placeName>
+            <date when="1777-09-06">6. September <supplied>1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11164_source_hwit1236" corresp="#gb11164_header_hwit1236" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11164/22662"/>
+      <p>
+        <anchor xml:id="GB03_1_BR286_0_161_019"/>Dancke bestes<ptr n="1" target="#a001_161.19"/> <ref target="gb:note#GB03_2_BR286_0_note_001_161_19" xml:id="start_com_2442"/>Gold<ref xml:id="end_com_2442"/> für den <ref target="gb:note#GB03_2_BR286_0_note_002_161_19" xml:id="start_com_2443"/>Boten<ref xml:id="end_com_2443"/>, wir waren <ref target="gb:note#GB03_2_BR286_0_note_003_161_19-20" xml:id="start_com_2444"/>den vierten von Ilmenau<ptr n="2" target="#a002_161.20"/>
+        <anchor xml:id="GB03_1_BR286_0_161_020"/>früh weg<ref xml:id="end_com_2444"/> also krieg ich <ref target="gb:note#GB03_2_BR286_0_note_004_161_20" xml:id="start_com_2445"/>das Packet<ref xml:id="end_com_2445"/> ganz unerwartet erst <ref target="gb:note#GB03_2_BR286_0_note_005_161_20-164_1" xml:id="start_com_2446"/>Eisenach 
+<anchor xml:id="GB03_1_BR286_0_164_001"/>am 6ten<ref xml:id="end_com_2446"/>.   Alles ist wohl nur ich habe mir ein <ref target="gb:note#GB03_2_BR286_0_note_006_164_1-2" xml:id="start_com_2447"/>Monster von dickem 
+<anchor xml:id="GB03_1_BR286_0_164_002"/>Backen<ref xml:id="end_com_2447"/> ganz wider allen Sinn meiner dürren <ref target="gb:note#GB03_2_BR286_0_note_007_164_2" xml:id="start_com_2448"/>Constitution<ref xml:id="end_com_2448"/> geholt. <ref target="gb:note#GB03_2_BR286_0_note_008_164_2-4" xml:id="start_com_2449"/>In 
+<anchor xml:id="GB03_1_BR286_0_164_003"/>Stüzzer bach tanzt ich mit allen Bauermädels<ptr n="3" target="#a003_164.3"/> im Nebel und trieb eine 
+<anchor xml:id="GB03_1_BR286_0_164_004"/>liederliche Wirthschafft bis Nacht eins.<ref xml:id="end_com_2449"/> und da kriegt ich den <ref target="gb:note#GB03_2_BR286_0_note_009_164_4" xml:id="start_com_2450"/>Ansaz<ref xml:id="end_com_2450"/>
+        <anchor xml:id="GB03_1_BR286_0_164_005"/>und wurde vermehrt<ptr n="4" target="#a004_164.5"/> durch fatales Gestöber<ptr n="5" target="#a005_164.5"/> auf der Reise, und muss 
+<anchor xml:id="GB03_1_BR286_0_164_006"/>nun inne sizzen und warme Kräutermilch im Mund haben, und kan 
+<anchor xml:id="GB03_1_BR286_0_164_007"/>nicht auf <ref target="gb:note#GB03_2_BR286_0_note_010_164_7" xml:id="start_com_2451"/>Misels<ref xml:id="end_com_2451"/> ausgehn<ptr n="6" target="#a006_164.7"/>, es wird ein verfluchter Streich seyn, wenn 
+<anchor xml:id="GB03_1_BR286_0_164_008"/>ich mit verzognem Gesicht soll die Maidels<ptr n="7" target="#a007_164.8"/> belügen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR286_0_164_009"/><ref target="gb:note#GB03_2_BR286_0_note_011_164_9-10" xml:id="start_com_2452"/>Ja lieb Gold, ich Glaub wohl dass Ihre Lieb zu mir, mit dem<ptr n="8" target="#a008_164.9"/> Abseyn 
+<anchor xml:id="GB03_1_BR286_0_164_010"/>wächst.<ref xml:id="end_com_2452"/> Denn wo ich weg bin können Sie auch <ref target="gb:note#GB03_2_BR286_0_note_012_164_10" xml:id="start_com_2453"/>die Idee lieben<ref xml:id="end_com_2453"/> die 
+<anchor xml:id="GB03_1_BR286_0_164_011"/>Sie von mir haben, wenn ich da bin wird sie offt gestört, durch meine 
+<anchor xml:id="GB03_1_BR286_0_164_012"/>Thor und Tollheit. Adieu. Ich schick Ihnen nun <ref target="gb:note#GB03_2_BR286_0_note_013_164_12" xml:id="start_com_2454"/>Zeichnungen<ref xml:id="end_com_2454"/> oder 
+<anchor xml:id="GB03_1_BR286_0_164_013"/><ref target="gb:note#GB03_2_BR286_0_note_014_164_13" xml:id="start_com_2455"/>meine Haare<ref xml:id="end_com_2455"/>. Denn die Gegend ist herrlich hier, wild und |:<ref target="gb:note#GB03_2_BR286_0_note_015_164_13-14" xml:id="start_com_2456"/>Gott versteht 
+<anchor xml:id="GB03_1_BR286_0_164_014"/>mich<ref xml:id="end_com_2456"/>:| und wenn ich muss <ref target="gb:note#GB03_2_BR286_0_note_016_164_14" xml:id="start_com_2457"/>zu hause bleiben<ref xml:id="end_com_2457"/> und kan nicht zeichnen 
+<anchor xml:id="GB03_1_BR286_0_164_015"/>und <ref target="gb:note#GB03_2_BR286_0_note_017_164_15" xml:id="start_com_2458"/>schiesen<ref xml:id="end_com_2458"/>, so schneid ich von meinen Haaren ab und schick 
+<anchor xml:id="GB03_1_BR286_0_164_016"/>sie ihnen. <pb n="2" facs="gb:digitalisate#11164/22663"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR286_0_164_017"/><ref target="gb:note#GB03_2_BR286_0_note_018_164_17" xml:id="start_com_2459"/>Grüsen Sie Petern<ref xml:id="end_com_2459"/> und bitten Sie <ref target="gb:note#GB03_2_BR286_0_note_019_164_17" xml:id="start_com_2460"/>Kästnern<ref xml:id="end_com_2460"/> nur <hi rendition="#hervor1">einige</hi> Pfeifen 
+<anchor xml:id="GB03_1_BR286_0_164_018"/>ihm des Tags auf gute Weise <ref target="gb:note#GB03_2_BR286_0_note_020_164_18" xml:id="start_com_2461"/>abzubrechen<ref xml:id="end_com_2461"/>, denn ich halte <ref target="gb:note#GB03_2_BR286_0_note_021_164_18-19" xml:id="start_com_2462"/>den Toback 
+<anchor xml:id="GB03_1_BR286_0_164_019"/>denn doch bey so einem Jungen für ein Spezificum<ref xml:id="end_com_2462"/>, sagen Sie Kästnern 
+<anchor xml:id="GB03_1_BR286_0_164_020"/>er wüsst es schon. und also mag er immer rauchen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR286_0_164_021"/><ref target="gb:note#GB03_2_BR286_0_note_022_164_21" xml:id="start_com_2463"/>Das Haus hier<ref xml:id="end_com_2463"/> hab ich auch nicht lieb, ich wohne <ref target="gb:note#GB03_2_BR286_0_note_023_164_21" xml:id="start_com_2464"/>hinten hinaus<ref xml:id="end_com_2464"/>, 
+<anchor xml:id="GB03_1_BR286_0_164_022"/>vielleicht auf der Reihe, ich will mir einbilden <ref target="gb:note#GB03_2_BR286_0_note_024_164_22-23" xml:id="start_com_2465"/>in dem Zimmer wo 
+<anchor xml:id="GB03_1_BR286_0_164_023"/>Sie wohnten<ref xml:id="end_com_2465"/>. Liebste! Ich habe Sie doch ganz allein lieb, das spür ich 
+<anchor xml:id="GB03_1_BR286_0_164_024"/>an der <ref target="gb:note#GB03_2_BR286_0_note_025_164_24" xml:id="start_com_2466"/>Wirthschafft<ref xml:id="end_com_2466"/> mit den übrigen Frauen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR286_0_164_025"/>Eifersüchtig auf mich sind Sie nicht, sonst wollt ich Ihnen ein Mittel 
+<anchor xml:id="GB03_1_BR286_0_164_026"/>sagen<ptr n="9" target="#a009_164.26"/>. Das <ref target="gb:note#GB03_2_BR286_0_note_026_164_26" xml:id="start_com_2467"/>Futteral zum Souwenir<ref xml:id="end_com_2467"/> hab ich nicht, aber ihr Halstuch 
+<anchor xml:id="GB03_1_BR286_0_164_027"/>hab ich um, aus dem die <ref target="gb:note#GB03_2_BR286_0_note_027_164_27" xml:id="start_com_2468"/>blaue Farbe<ref xml:id="end_com_2468"/> auch ausgewaschen ist. <ref target="gb:note#GB03_2_BR286_0_note_028_164_27-28" xml:id="start_com_2469"/>Ihr gestümpert<ptr n="10" target="#a010_164.28"/>
+        <anchor xml:id="GB03_1_BR286_0_164_028"/>Bild<ref xml:id="end_com_2469"/> hab ich, und ihre Liebe mehr als ich weis und soll. 
+<anchor xml:id="GB03_1_BR286_0_164_029"/>Adieu. Grüsen Sie <ref target="gb:note#GB03_2_BR286_0_note_029_164_29" xml:id="start_com_2470"/>die Kinder<ref xml:id="end_com_2470"/>   Es ist <ref target="gb:note#GB03_2_BR286_0_note_030_164_29" xml:id="start_com_2471"/>ein weiter Weeg zwischen uns<ref xml:id="end_com_2471"/>, 
+<anchor xml:id="GB03_1_BR286_0_164_030"/>der Grade beschweerlicher als der Krumme. Ich seh Sie bald nicht 
+<anchor xml:id="GB03_1_BR286_0_164_031"/>wieder adieu – Engel. Ich hab Sie gegenwärtig Lieber als abwesend, 
+<anchor xml:id="GB03_1_BR286_0_164_032"/>drum könnt ich mir anmasen dass meine Liebe wahrer sey. Adieu.</p>
+    <pb n="3" facs="gb:digitalisate#11164/22664" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11164/22665"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11164_comment">
+<body>
+<div type="metadata" xml:id="gb11164_comment_com229">
+  <ab type="numberAddressee"><label>286.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77740">Eisenach</placeName>, 6. September <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11164_comment_com1506">
+  <p>Jahr und Monat wurden nach dem Inhalt des Briefes und der Übereinstimmung mit Goethes Tagebucheinträgen vom 4. und 6. September 1777 (vgl. zu <ref target="gb:note#GB03_2_BR286_0_note_003_161_19-20">161,19-20</ref>; zu <ref target="gb:note#GB03_2_BR286_0_note_005_161_20-164_1">161,20-164,1</ref>) sowie aufgrund der Parallelen zum datierten Brief vom 29. und 31. August 1777 (<ref target="gb:dokument#11778">Nr 284</ref>) ergänzt (vgl. zu <ref target="gb:note#GB03_2_BR286_0_note_008_164_2-4">164,2-4</ref>). Auch im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief unmittelbar nach <ref target="gb:dokument#11778">Nr 284</ref> eingeordnet (vgl. <ref target="gb:note#gb11164_comment_com2273">Überlieferung</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11164_comment_com2273">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 57. – Doppelblatt: 1. Bl. 17,3(–17,6) × 20,2(–20,4) cm; 2. Bl. 6,4(–13,8) × 9,8(–17,8) cm (obere rechte Ecke und unterer Teil ausgerissen, Seitenrand beschnitten), 2 S. (S. 1–2) beschr., egh., Tinte, flüchtig geschrieben; S. 4 Adresse: <quote type="G">An Frau von Stein / nach / Kochberg.</quote>, rotes Gemmensiegel: Hebe (vgl. <ref target="sndb:sigle#267">Femmel/Heres</ref>, 11); S. 1 oben rechts von fremder Hd, Tinte: „44<hi rendition="#sup #u">a</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 46), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile (S. 1): <ref target="gb:digitalisate#11164/22662">Abb. 12</ref> im Textband (S. 163).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 112–114.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 171–173, Nr 629.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11164_comment_com4069">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Charlotte von Steins von Anfang September 1777 (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR286_0_note_002_161_19">161,19</ref>; zu <ref target="gb:note#GB03_2_BR286_0_note_004_161_20">161,20</ref>). – Der Antwortbrief vom 11. September 1777 (vgl. <ref target="gb:text#GB03_1_BR289_0_167_027">167,27</ref>) ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11164_comment_com10630">
+<label xml:id="GB03_2_BR286_0_note_001_161_19" copyOf="#start_com_2442"><hi rendition="#fett">161,19</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10631">
+<label xml:id="GB03_2_BR286_0_note_002_161_19" copyOf="#start_com_2443"><hi rendition="#fett">161,19</hi>Boten</label>
+<p>Aus Kochberg; wie der Kontext nahelegt (vgl. <ref target="gb:text#GB03_1_BR286_0_164_009 #GB03_1_BR286_0_164_010">164,9–10</ref>), überbrachte er wahrscheinlich auch einen Brief Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb11164_comment_com17781">
+<label xml:id="GB03_2_BR286_0_note_003_161_19-20" copyOf="#start_com_2444"><hi rendition="#fett">161,19-20</hi>den vierten von Ilmenau früh weg</label>
+<p>Goethe hielt sich seit dem 28. August in Ilmenau auf, wo er mit Carl August und dessen Reisegesellschaft zusammengetroffen war (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_008_159_24">159,24</ref>) und wo am 3. September der 20. Geburtstag des Herzogs gefeiert wurde. Laut Tagebuch brach die Gesellschaft <quote type="G">d. 4 früh 4</quote> (<ref target="gt:dokument#426">GT I 1, 47</ref>) auf und ritt über Gräfenhain, Georgenthal und Ruhla zum etwa 63 km entfernten Jagdschloss Wilhelmsthal südlich von Eisenach, wo sie am 4. September übernachtete und den nächsten Tag verbrachte (vgl. ebd.).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10640">
+<label xml:id="GB03_2_BR286_0_note_004_161_20" copyOf="#start_com_2445"><hi rendition="#fett">161,20</hi>das Packet</label>
+<p>Das mit dem Kochberger Boten geschickt worden war; Näheres nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10641">
+<label xml:id="GB03_2_BR286_0_note_005_161_20-164_1" copyOf="#start_com_2446"><hi rendition="#fett">161,20-164,1</hi>Eisenach am 6ten</label>
+<p>Die herzogliche Gesellschaft ging am 5. September in Wilhelmsthal auf die Jagd und ritt erst am folgenden Tag <quote type="G">gegen zehn nach Eisenach</quote> (<ref target="gt:dokument#428">GT I 1, 47</ref>; vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_005_160_16-17">160,16-17</ref>). – Zu Eisenach vgl. zu <ref target="gb:note#GB03_2_BR043_0_note_010_31_14">31,14</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com14257">
+<label xml:id="GB03_2_BR286_0_note_006_164_1-2" copyOf="#start_com_2447"><hi rendition="#fett">164,1-2</hi>Monster von dickem Backen</label>
+<p>Am 5. September nahm Goethe nicht an der Jagd teil, sondern vermerkt im Tagebuch: <quote type="G">am dicken Backen gepflegt</quote> (<ref target="gt:dokument#427">GT I 1, 47</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10642">
+<label xml:id="GB03_2_BR286_0_note_007_164_2" copyOf="#start_com_2448"><hi rendition="#fett">164,2</hi>Constitution</label>
+<p>Hier für ‚Körperbau‘, ‚körperlicher Gesamtzustand‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 5, 596).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10643">
+<label xml:id="GB03_2_BR286_0_note_008_164_2-4" copyOf="#start_com_2449"><hi rendition="#fett">164,2-4</hi>In Stüzzer bach <gap quantity="3" reason="editorial"/> bis Nacht eins.</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR284_0_note_013_160_25">160,25</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10644">
+<label xml:id="GB03_2_BR286_0_note_009_164_4" copyOf="#start_com_2450"><hi rendition="#fett">164,4</hi>Ansaz</label>
+<p>Ansatz: eine Schwellung durch Infektion (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 564).</p>
+
+</note>
+<note xml:id="gb11164_comment_com15157">
+<label xml:id="GB03_2_BR286_0_note_010_164_7" copyOf="#start_com_2451"><hi rendition="#fett">164,7</hi>Misels</label>
+<p>Junge Mädchen (vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10655">
+<label xml:id="GB03_2_BR286_0_note_011_164_9-10" copyOf="#start_com_2452"><hi rendition="#fett">164,9-10</hi>Ja lieb Gold <gap quantity="3" reason="editorial"/> mit dem Abseyn wächst.</label>
+<p>Wahrscheinlich mit Bezug auf den nicht überlieferten Brief Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10656">
+<label xml:id="GB03_2_BR286_0_note_012_164_10" copyOf="#start_com_2453"><hi rendition="#fett">164,10</hi>die Idee lieben</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR094_0_note_002_58_5-6">58,5-6</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com17824">
+<label xml:id="GB03_2_BR286_0_note_013_164_12" copyOf="#start_com_2454"><hi rendition="#fett">164,12</hi>Zeichnungen</label>
+<p>Vom Aufenthalt auf der Wartburg in Eisenach, wo Goethe seit dem 13. September sein Quartier hatte (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR289_0_note_002_166_8">166,8</ref>), haben sich mehrere Zeichnungen erhalten, von denen einige wahrscheinlich mit dem Brief vom 13. bis 17. September an Charlotte von Stein geschickt worden sind (vgl. zu <ref target="gb:note#GB03_2_BR289_0_note_010_167_17">167,17</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10657">
+<label xml:id="GB03_2_BR286_0_note_014_164_13" copyOf="#start_com_2455"><hi rendition="#fett">164,13</hi>meine Haare</label>
+<p>Der Freundin etwas so Persönliches wie die eigenen Haare zu schicken, scheint Goethe häufiger erwogen zu haben (vgl. <ref target="gb:text#GB03_1_BR316_0_188_011 #GB03_1_BR316_0_188_012">188,11–12</ref>). Ob er diese kurz danach wiederholte Ankündigung wahr machte, konnte nicht ermittelt werden. – Zur Bedeutung der Briefbeilagen für Charlotte von Stein vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com16156">
+<label xml:id="GB03_2_BR286_0_note_015_164_13-14" copyOf="#start_com_2456"><hi rendition="#fett">164,13-14</hi>Gott versteht mich</label>
+<p>Eine der wiederkehrenden Redewendungen Sancho Pansas in Cervantes’ „Don Quijote“. Dass Goethe <quote type="G">Sanchos Sprüchwörter</quote> geläufig waren, belegt die Erwähnung in einem Brief an Charlotte von Stein, der allerdings erst aus dem Jahr 1780 stammt (<ref target="gb:dokument#12202">GB 4, Nr 172</ref>). Goethe könnte den Roman in der Übersetzung von Friedrich Justin Bertuch gelesen haben (6 Bde. Weimar 1775–1777), nachweisbar in der Bibliothek Johann Caspar Goethes (vgl. <ref target="sndb:sigle#4240/1189">Götting</ref>, 56). Als Quelle für das Cervantes-Zitat kommt auch Wielands „Geschichte des Agathon“ (1766/67) in Frage (vgl. <ref target="gb:note#GB01_2_BR032_0_note_007_106_9-10">GB 1 II, zu 106,9–10</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10669">
+<label xml:id="GB03_2_BR286_0_note_016_164_14" copyOf="#start_com_2457"><hi rendition="#fett">164,14</hi>zu hause bleiben</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR288_0_165_012 #GB03_1_BR288_0_165_013">165,12–13</ref>.</p>
+
+</note>
+<note xml:id="gb11164_comment_com15171">
+<label xml:id="GB03_2_BR286_0_note_017_164_15" copyOf="#start_com_2458"><hi rendition="#fett">164,15</hi>schiesen</label>
+<p>Auf der Jagd in Wilhelmsthal, wohin sich die herzogliche Gesellschaft in den nächsten Tagen begab (vgl. <ref target="gb:text#GB03_1_BR288_0_165_013 #GB03_1_BR288_0_165_014">165,13–14</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10670">
+<label xml:id="GB03_2_BR286_0_note_018_164_17" copyOf="#start_com_2459"><hi rendition="#fett">164,17</hi>Grüsen Sie Petern</label>
+<p>Goethes Schützling Peter im Baumgarten (vgl. zu <ref target="gb:note#GB03_2_BR283_0_note_002_160_1">160,1</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10671">
+<label xml:id="GB03_2_BR286_0_note_019_164_17" copyOf="#start_com_2460"><hi rendition="#fett">164,17</hi>Kästnern</label>
+<p>Johann Friedrich Kästner, Hauslehrer der Familie von Stein, der auch Peter im Baumgarten beaufsichtigte.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10672">
+<label xml:id="GB03_2_BR286_0_note_020_164_18" copyOf="#start_com_2461"><hi rendition="#fett">164,18</hi>abzubrechen</label>
+<p>Abbrechen: hier im Sinn von ‚jemanden etwas entziehen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 14).</p>
+
+</note>
+<note xml:id="gb11164_comment_com17846">
+<label xml:id="GB03_2_BR286_0_note_021_164_18-19" copyOf="#start_com_2462"><hi rendition="#fett">164,18-19</hi>den Toback <gap quantity="3" reason="editorial"/> für ein Spezificum</label>
+<p>Wie auch spätere Briefe an Goethe belegen, änderte sich nichts an den Gewohnheiten Peter im Baumgartens, der „ohne toback nicht leben könnte ppp.“ (Johann Friedrich Krafft an Goethe, 28. Oktober 1779; teilweise mitgeteilt in der einleitenden Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>.) – ‚Spezifikum‘ hier im Sinn von ‚Eigenheit‘, ‚Eigenart‘.</p>
+
+</note>
+<note xml:id="gb11164_comment_com15714">
+<label xml:id="GB03_2_BR286_0_note_022_164_21" copyOf="#start_com_2463"><hi rendition="#fett">164,21</hi>Das Haus hier</label>
+<p>Das Stadtschloss war von 1742 bis 1748 während der Regentschaft Ernst Augusts I. von Sachsen-Weimar und Eisenach als „Fürstenhof“ anstelle ehemaliger Bürgerhäuser am Eisenacher Marktplatz errichtet worden.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10673">
+<label xml:id="GB03_2_BR286_0_note_023_164_21" copyOf="#start_com_2464"><hi rendition="#fett">164,21</hi>hinten hinaus</label>
+<p>Die Südfassade weist auf den Eisenacher Marktplatz; Goethes Unterkunft lag demnach wahrscheinlich im Nordflügel, wo sich auch die herzoglichen Festräume befanden.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10683">
+<label xml:id="GB03_2_BR286_0_note_024_164_22-23" copyOf="#start_com_2465"><hi rendition="#fett">164,22-23</hi>in dem Zimmer wo Sie wohnten</label>
+<p>Charlotte von Stein war zwar 1742 in Eisenach geboren worden, wo ihr Vater als Reisemarschall in herzoglichen Diensten stand. Die Familie zog aber schon 1743 nach Weimar; das Stadtschloss in Eisenach befand sich damals noch im Bau. Goethe spielt hier also offenbar auf einen der späteren Besuche Charlottes in Eisenach an.</p>
+
+</note>
+<note xml:id="gb11164_comment_com15173">
+<label xml:id="GB03_2_BR286_0_note_025_164_24" copyOf="#start_com_2466"><hi rendition="#fett">164,24</hi>Wirthschafft</label>
+<p>Hier in Anspielung auf den pejorativen Nebensinn des Wortes: verworrene, schlechte Handhabung, Ärger (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb11164_comment_com15715">
+<label xml:id="GB03_2_BR286_0_note_026_164_26" copyOf="#start_com_2467"><hi rendition="#fett">164,26</hi>Futteral zum Souwenir</label>
+<p>Möglicherweise ein Behältnis für ein Geschenk Charlotte von Steins oder für die erwähnten Zeichnungen Goethes (vgl. <ref target="gb:text#GB03_1_BR286_0_164_012">164,12</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10684">
+<label xml:id="GB03_2_BR286_0_note_027_164_27" copyOf="#start_com_2468"><hi rendition="#fett">164,27</hi>blaue Farbe</label>
+<p>Von gleicher Farbe wie der in den Briefen häufiger erwähnte Mantel (vgl. zu <ref target="gb:note#GB03_2_BR185_0_note_002_116_23">116,23</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com15183">
+<label xml:id="GB03_2_BR286_0_note_028_164_27-28" copyOf="#start_com_2469"><hi rendition="#fett">164,27-28</hi>Ihr gestümpert Bild</label>
+<p>Das Porträt Charlotte von Steins, mit dessen Ausführung Goethe unzufrieden war (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR233_0_note_002_135_10">135,10</ref>).</p>
+
+</note>
+<note xml:id="gb11164_comment_com10685">
+<label xml:id="GB03_2_BR286_0_note_029_164_29" copyOf="#start_com_2470"><hi rendition="#fett">164,29</hi>die Kinder</label>
+<p>Die drei Steinschen Söhne und Peter im Baumgarten.</p>
+
+</note>
+<note xml:id="gb11164_comment_com10686">
+<label xml:id="GB03_2_BR286_0_note_030_164_29" copyOf="#start_com_2471"><hi rendition="#fett">164,29</hi>ein weiter Weeg zwischen uns</label>
+<p>In Anspielung auf die gewachsene räumliche Distanz zu Charlotte von Stein; während zwischen Kochberg und Ilmenau etwa 40 km liegen (vgl. zu <ref target="gb:text#GB03_1_BR284_0_160_011">160,11</ref>), beträgt die Entfernung zwischen Kochberg und Eisenach etwa 95 km.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

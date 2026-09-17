@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1930"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11340" n="GB 3, Nr. 191">
+  <teiHeader xml:id="gb11340_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>191.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 30.? November 1776. Sonntag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11340_tei.xml</idno>
+        <idno type="URI">gb11340</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR191_0</idno>
+        <idno type="KSW-ID">11340</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="119" to="119">119</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="434" to="435">434-435</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11340_header_hwit1112" corresp="#gb11340_source_hwit1112" sameAs="#gb11340_comment_hwit1112" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/159,I Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:341056</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11340,,1112/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lenz wird reisen. Ich habe mich gewöhnt bey meinen Handlungen meinem Herzen zu folgen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-11-01" to="1776-11-30"><supplied>30.? November 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-11-21" to="1776-11-30"><supplied>Ende November 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#46103">Einsiedel, Friedrich Hildebrand von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11340_source_hwit1112" corresp="#gb11340_header_hwit1112" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11340/11134"/>
+      <p>
+        <anchor xml:id="GB03_1_BR191_0_119_014"/>Lenz wird reisen. Ich habe mich gewöhnt bey meinen Handlungen 
+<anchor xml:id="GB03_1_BR191_0_119_015"/>meinem Herzen zu folgen, und weder an Misbilligungen noch an 
+<anchor xml:id="GB03_1_BR191_0_119_016"/>Folgen zu dencken. Meine Existenz ist mir so lieb wie iedem andern, 
+<anchor xml:id="GB03_1_BR191_0_119_017"/>ich werde aber iust am wenigsten in Rücksicht auf sie irgend etwas in 
+<anchor xml:id="GB03_1_BR191_0_119_018"/>meinem Betragen ändern.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR191_0_119_019"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11340/11135"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11340_comment">
+<body>
+<div type="metadata" xml:id="gb11340_comment_com689">
+  <ab type="numberAddressee"><label>191.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>30.? November 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11340_comment_com1717">
+  <p>Der Brief wurde unmittelbar vor Jacob Michael Reinhold Lenz’ Abreise aus Weimar geschrieben, die sehr wahrscheinlich am 1. Dezember 1776 erfolgte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR196_0_note_001_121_1">121,1</ref>). Möglicherweise antwortet er auf <quote type="G">Eins. Billet</quote> (<ref target="gt:dokument#218">GT I 1, 30</ref>), das Goethe unter dem 30. November 1776 in seinem Tagebuch vermerkt. In diesem Fall stammt der Brief vom selben Tag, dem 30. November 1776. Das verwendete Siegel (vgl. <ref target="gb:note#gb11340_comment_com2733">Überlieferung</ref>) vom englischen Steinschneider Robert Bateman Wray wurde von Goethe in seinen überlieferten Briefen sonst nicht benutzt, der Brief möglicherweise also nicht in Goethes eigenen Räumen geschrieben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11340_comment_com2733">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#341056">GSA 29/159,I</ref>, Bl. 1. – 1 Bl. 19,2 × 23,2 cm, &#x2153; S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">H<g ref="#typoSuspension"/> v. Einsiedel</quote>, Gemmensiegel: Mädchenkopf mit Schleier (vgl. <ref target="sndb:sigle#267">Femmel/Heres</ref>, 10 f.).</p>
+  <p>E: Die Grenzboten 32 (1873). Nr 34, S. 298 (Carl August Hugo Burkhardt).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 123, Nr 533.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11340_comment_com4529">
+  <p>Der Brief antwortet möglicherweise auf ein nicht überliefertes <quote type="G">Billet</quote> (<ref target="gt:dokument#218">GT I 1, 30</ref>) Einsiedels (vgl. <ref target="gb:note#gb11340_comment_com1717">Datierung</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Goethe hatte dafür gesorgt, dass Jacob Michael Reinhold Lenz, der Anfang April 1776 nach Weimar gekommen war, nach seiner <quote type="G">Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>) vom 26. November 1776 die Stadt verlassen musste (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>). Offenbar regte sich in Weimar dagegen Widerspruch. Unter anderen scheint sich auch Einsiedel für Lenz eingesetzt zu haben, und zwar entschieden. Darauf könnte Goethes Tagebucheintragung vom 29. November 1776 schließen lassen: <quote type="G">Einsid. hartes Betragen.</quote> (<ref target="gt:dokument#217">GT I 1, 30</ref>.) Kritik an Lenz’ Ausweisung könnte auch <quote type="G">Eins. Billet</quote> (ebd.) enthalten haben, dessen Empfang Goethe am 30. November 1776 notierte. Dem entspräche jedenfalls der ebenfalls ‚harte‘ Ton des vorliegenden Briefes und die darin zum Ausdruck kommende Kompromisslosigkeit Goethes.</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

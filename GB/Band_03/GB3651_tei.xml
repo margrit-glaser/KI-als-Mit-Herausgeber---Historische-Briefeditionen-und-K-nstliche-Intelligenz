@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3920"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb3651" n="GB 3, Nr. 383">
+  <teiHeader xml:id="gb3651_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>383.</label> An <persName key="sndb:person#44625">Friedrich Müller</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, erste Hälfte? Juli 1778</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb3651_tei.xml</idno>
+        <idno type="URI">gb3651</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR383_0</idno>
+        <idno type="KSW-ID">3651</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="218" to="218">218</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="745" to="749">745-749</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb3651_header_hwit54427" corresp="#gb3651_source_hwit54427" sameAs="#gb3651_comment_hwit54427" type="notAuthorisedCopyOfAuthorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>München</placeName>
+            </settlement>
+            <institution key="sndb:standort#462">BSB</institution>
+            <idno type="shelfmark">Cgm 4830, Nr. 248</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/3651,,54427/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>... Wir sind jezt hier zerstreut. schicken euch morgen mit fahrender Post</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1778-07-01" to="1778-07-15"><supplied>erste Hälfte? Juli 1778</supplied></date>
+            <note>
+              <date type="WA" from="1778-09-01" to="1778-09-10"><supplied>Anfang September 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44625">Müller, Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78508">Mannheim</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#93">RA 1, Nr. 85</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb3651_source_hwit54427" corresp="#gb3651_header_hwit54427" type="source" rend="notAuthorisedCopyOfAuthorisedLetter">
+  <body>
+    <div>
+      <head><supplied>Abschrift</supplied></head>
+      <p>
+        <anchor xml:id="GB03_1_BR383_0_218_004"/>
+        <gap quantity="3" reason="editorial"/>
+        <ref target="gb:note#GB03_2_BR383_0_note_001_218_4" xml:id="start_com_3302"/>wir sind jezt hier zerstreut,<ref xml:id="end_com_3302"/> schicken Euch morgen <ref target="gb:note#GB03_2_BR383_0_note_002_218_4-5" xml:id="start_com_3303"/>mit fahrender 
+<anchor xml:id="GB03_1_BR383_0_218_005"/>Post<ref xml:id="end_com_3303"/> alles <ref target="gb:note#GB03_2_BR383_0_note_003_218_5" xml:id="start_com_3304"/>was ihr von uns jährlich zu erwarten habt<ref xml:id="end_com_3304"/> – villeicht / auch 
+<anchor xml:id="GB03_1_BR383_0_218_006"/>nur <ref target="gb:note#GB03_2_BR383_0_note_004_218_6" xml:id="start_com_3305"/>ein theil davon <ref xml:id="end_com_3305"/>
+        <gap quantity="3" reason="editorial"/>
+      </p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb3651_comment">
+<body>
+<div type="metadata" xml:id="gb3651_comment_com148">
+  <ab type="numberAddressee"><label>383.</label> An <persName key="sndb:person#44625">Friedrich Müller</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>erste Hälfte? Juli 1778</supplied> → <supplied><placeName key="sndb:ort#78508">Mannheim</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb3651_comment_com1457">
+  <p>Der Brief wurde bisher auf Anfang September 1778 datiert (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 3, 246), unter Bezugnahme auf Goethes Brief an Herzog Carl August, die Herzoginnen Anna Amalia und Louise, Prinz Constantin, Carl Ludwig von Knebel, Wieland und Carl Theodor von Dalberg vom 19. Januar 1780; dort heißt es: <quote type="G">Müller, der im August</quote> <supplied>1778</supplied> <quote type="G">nach Italien gieng, erhielt durch mich den größten Theil der Pension fürs erste Jahr im September</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 4, 165). Der vorliegende Brief wird jedoch bereits in einem Brief Müllers an Wolfgang Heribert von Dalberg zitiert, der auf den Zeitraum zwischen dem 29. Juni und 27. Juli 1778 zu datieren ist (vgl. <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 3, 1361); darin heißt es: „Mein Portefeuil von Weimar aus erhielt ich – 12 Zeichnungen behielt der Herzog oder viel mehr göthe <supplied>sic</supplied> hat sie in meinem Nahmen dem lieben Herren überreicht. / Zu gleich einen brieff von Göthe, nebst der Suma von 350. fl“ (<ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 1, 81). Dieses „Portefeuil“ hatte Wieland im Januar 1778 von Mannheim nach Weimar mitgenommen, um sich für Müller einzusetzen; am 28. Januar 1778 hatte er ihm geschrieben: „Euer Portefeuille halt ich noch zurück. Ich will erst vernehmen, was Ihr für Aussichten in M<supplied>annheim</supplied> habt“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 29). Am 26. Juni 1778 riet Wieland dann, Müller solle das Portefeuille dem Herzog und Goethe überlassen oder ihnen anbieten, auszuwählen und ihm die übrigen Arbeiten zurückzuschicken (vgl. <ref target="sndb:sigle#141">WB</ref> 7 I, 90). Im Antwortbrief vom 29. Juni 1778 erklärte Müller: „Was mein Portefeul voll Zeichnungen betrifft stehts ganz allein bey eurem gnädigsten Herrn ob ers behalten will“ (<ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 1, 78). Danach offenbar wurden die Zeichnungen ausgewählt und die restlichen zurückgeschickt. Beides dürfte einige Zeit in Anspruch genommen haben, so dass Müller die Sendung mit seinem „Portefeuil“ und dem Geld, die der vorliegende Brief für <quote type="G">morgen</quote> (<ref target="gb:text#GB03_1_BR383_0_218_004">218,4</ref>) ankündigte, vermutlich in der ersten Hälfte Juli 1778 erhalten hat. Auf diesen Zeitraum passt auch Goethes Bemerkung, er sei <quote type="G">jezt hier zerstreut</quote> (vgl. zu <ref target="gb:note#GB03_2_BR383_0_note_001_218_4">218,4</ref>). Dass Goethe im eingangs zitierten Brief davon spricht, Müller habe seine Pension im September 1778 erhalten, beruht wohl auf einem Irrtum.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb3651_comment_com2192">
+  <p>H: Verbleib unbekannt.</p>
+  <p>h: Bayerische Staatsbibliothek München, Sign.: Cgm. 4830, Nr 248. – Zitat in Friedrich Müllers Brief an Wolfgang Heribert von Dalberg, zwischen 29. Juni und 27. Juli 1778 (zur Datierung vgl. <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 3, 1361).</p>
+  <p>E: Briefe an W. H. Freiherrn von Dalberg. In: Weimarisches Jahrbuch für deutsche Sprache, Litteratur und Kunst. Hrsg. von Hoffmann von Fallersleben und Oskar Schade. Bd 5. Hannover 1856, S. 23 (Hoffmann von Fallersleben; nach h).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 246, Nr 742 (nach E).</p>
+  <p>Textgrundlage: h.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb3651_comment_com3988">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Friedrich Müller (1749–1825), gen. Maler Müller, war der Sohn des Bäckers und Gastwirts Johannes Friedrich Müller und dessen Frau Katharina Margaretha geb. Roos in Kreuznach. Dort besuchte er das Gymnasium, das er nach dem Tod des Vaters 1760 verlassen musste, um als Hütejunge zu arbeiten und seiner Mutter in der Gastwirtschaft zu helfen. Schon zu dieser Zeit beschäftigte er sich autodidaktisch mit Zeichnen und Malen. 1765 oder 1766 kam er mit Hilfe einer Pension von Herzog Christian IV. von Pfalz-Zweibrücken als Schüler des Hofmalers Daniel Hien nach Zweibrücken. Von 1770 an hielt er sich zu mehreren Studienaufenthalten in Mannheim auf, wo er die private Zeichenakademie besuchte, die der kurpfälzische Hofbildhauer Peter Anton Verschaffelt 1756 gegründet hatte. Zu Müllers frühen Arbeiten gehören Tierszenen und Landschaften, angeregt durch die Erfahrungen seiner Kinderjahre. In Mannheim, wohin er 1775 endgültig übersiedelte, begann er zugleich, gefördert durch Wolfgang Heribert von Dalberg und Otto Heinrich von Gemmingen, sich poetisch zu betätigen. Als erste Veröffentlichung erschien, von Klopstock empfohlen, Müllers Gedicht „Lied eines bluttrunknen Wodanadlers“ im Göttinger „Musen Almanach“ auf das Jahr 1774 (S. 213), der auch Gedichte Goethes brachte: „Gesang“ (später u. d. T. „Mahomets Gesang“), „Sprache“, „Der Adler und die Taube“ und „Der Wandrer“. Müllers „Lied“, das im Inhaltsverzeichnis des Almanachs mit der Bemerkung „Der Verfasser ist ein Maler“ versehen ist, verschaffte ihm zuerst Bekanntheit als Schriftsteller; als solcher nannte er sich, um Verwechslungen zu vermeiden, ‚Maler Müler‘. Zu seinen poetischen Werken der Mannheimer Zeit gehören Oden im Stil Klopstocks, seine ‚pfälzischen‘ Idyllen (darunter „Die Schaaf-Schur“. Mannheim 1775), angeregt durch Salomon Geßner, sowie zwei dramatische Fragmente zum Faust-Stoff: „Situation aus Fausts Leben“ (Mannheim 1776) und „Fausts Leben dramatisirt“ (Mannheim 1778). 1776 wurde Müller Mitglied der Mannheimer Akademie der Wissenschaften, 1777 kurpfälzischer Kabinettsmaler. Im August 1778 ging er nach Rom, wo er wahrscheinlich Ende Oktober eintraf. Geplant war ein Aufenthalt von einigen Jahren zur weiteren Ausbildung als Maler; Müller blieb lebenslang. Er wurde vom pfälzisch-bayerischen Kurfürsten Carl Theodor unterstützt. Außerdem regte Wieland, der Müller am 28. Januar 1778 geschrieben hatte, dass er „eher nicht ruhig seyn werde, bis Ihr in Italien seyd“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 29), den Plan an, den Maler durch ein Stipendium zu unterstützen. Dieses kam schließlich durch den Einsatz Goethes, der von Carl Theodor von Dalberg dazu ermuntert worden war (vgl. dessen Brief an Goethe vom 4. Mai 1778; <ref target="ra:dokument#93">RA 1, 70, Nr 85</ref>), zustande. Zu den Geldgebern gehörten Wieland und Knebel sowie der herzogliche Hof (vgl. zu <ref target="gb:note#GB03_2_BR393_0_note_003_226_19">226,19</ref>). Müller sollte dafür Zeichnungen und Bilder nach Weimar schicken. Die Produkte, die in den folgenden Jahren nur zögerlich und nach Aufforderung durch Goethe eintrafen, missfielen jedoch (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11707_comment_com5116">Nr 504</ref>). Goethe fand sogar, Müller habe <quote type="G">den Titel <hi rendition="#hervor1">Mahler</hi> zu früh vor seinen Nahmen gesezt</quote> (Brief an Johann Heinrich Merck, 16. Juli 1782; <ref target="gb:text#GB05_1_BR169_0_108_002 #GB05_1_BR169_0_108_003">GB 5 I, 108,2-3</ref>). Auf einen kritischen Brief Goethes vom 21. Juni 1781 (<ref target="gb:dokument#12703">GB 4, Nr 426</ref>) reagierte Müller empört. Sein Brief ist nicht überliefert, wohl aber Goethes Antwort darauf vom 9. August 1781 (<ref target="gb:dokument#9659">GB 4, Nr 463</ref>). Es kam zum Bruch; die finanzielle Unterstützung aus Weimar wurde eingestellt. Auch die kurfürstlichen Pensionszahlungen aus München gingen unregelmäßig ein. Müller blieb jedoch in Rom und betätigte sich neben der künstlerischen Arbeit zunehmend als Antiquar und Fremdenführer. Obwohl er 1806 Königlich Bayerischer Hofmaler wurde und für den bayerischen Hof als Kunstagent tätig war, blieb Müller Erfolg sowohl als Maler wie auch als Dichter versagt. Intrigen, die ihn in München in Misskredit und um weitere Förderung brachten, und eine Bürgschaft, die er einlösen musste, führten zusätzlich zu finanziellen Schwierigkeiten, die bis zu seinem Tod anhielten.</p>
+  <p rendition="#einrueck1">Goethe hatte Müller vermutlich am 15./16. Mai 1775 kennen gelernt, als er auf der Reise in die Schweiz in Mannheim Station machte. Unter Bezugnahme auf eine Mitteilung von Friedrich Götz (vgl. Geliebte Schatten. Bildnisse und Autographen <gap quantity="3" reason="editorial"/>. Mannheim 1858; Erläuterung zu Autographenblatt Nr 13) wurde wiederholt darauf hingewiesen, Goethe sei Müller bereits Anfang 1775 bei Christian Friedrich Schwan in Mannheim begegnet, als er dort zusammen mit Friedrich Heinrich Jacobi, der sich etwa vom 8. Januar bis zum 5. Februar 1775 in Frankfurt aufhielt, einen Besuch gemacht habe (vgl. u. a. <ref target="sndb:sigle#2941">JB</ref> II 2, 5; <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 3, 1353). Einen Beleg für diese Annahme gibt es allerdings nicht. Bei <ref target="sndb:sigle#103">Bode</ref> 1, 136 wird ein angeblich von Friedrich Müller stammender Brief an Philipp Christoph Kayser vom 24. September 1775 aus Mannheim mitgeteilt, in dem es mit Bezug auf eine Begegnung mit Goethe und den Grafen zu Stolberg im Mai 1775 heißt: „Ich und Goethe haben uns kaum halb kennenlernen.“ Der Briefschreiber war jedoch Johann Martin Miller, wie aus dem Erstdruck des Briefes hervorgeht (vgl. Die Grenzboten 29 [1870]. 2. Semester. 2. Band, S. 429 und 431). Zu Beginn von Müllers Italienaufenthalt setzte sich Goethe zunächst tatkräftig für ihn ein. Er streckte sogar das Stipendium vor, als dieses während seiner zweiten Schweizer Reise 1779/80 nicht rechtzeitig auf den Weg gebracht worden war und Müller in einem Brief vom 16. Oktober 1779 (vgl. <ref target="ra:dokument#113">RA 1, 74 f., Nr 101</ref>) um Hilfe gebeten hatte; in seinem Brief an Herzog Carl August, die Herzoginnen Anna Amalia und Louise, Prinz Constantin, Carl Ludwig von Knebel, Wieland und Carl Theodor von Dalberg vom 19. Januar 1780 schreibt Goethe, Müller sei <quote type="G">in große Verlegenheit</quote> (<ref target="gb:text#GB04_1_BR005_0_008_007 #GB04_1_BR005_0_008_008">GB 4 I, 8,7-8</ref>) geraten: <quote type="G">Unter diesen Umständen habe ich sogleich bei meiner Rückkunft die ganze Summe, die 304 Thlr. 12 Gr. nach hiesigem Gelde ausmacht, an ihn nach Rom übermacht und erbitte mir von seinen hohen Gönnern gnädigen und gefälligen Ersatz.</quote> (<ref target="gb:text#GB04_1_BR005_0_009_013 #GB04_1_BR005_0_009_016">GB 4 I, 9,13-16</ref>) Nach dem Bruch der Beziehung 1781 hatte Goethe allerdings kaum mehr etwas mit dem in Rom Lebenden zu tun. Während seines eigenen Aufenthalts in der Stadt von 1786 bis 1788 nahm er keine Notiz von ihm (vgl. Müllers Brief an Wilhelm Heinse vom 17. April 1787; <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 1, 119.) Ende 1796 erhielt Goethe über Friedrich Bury <quote type="G">einen wunderlichen Aufsatz</quote> Müllers (Brief an Schiller, 1. Februar 1797; <ref target="sndb:sigle#1157">WA</ref> IV 12, 28), der unter dem Titel „Schreiben Herrn Müllers Mahlers in Rom über die Ankündigung des Herrn Fernow von der Ausstellung des Herrn Profeßor Carstens in Rom“ in Schillers Zeitschrift „Die Horen“ (1797. 3. Stück, S. 21–44; 4. Stück, S. 4–16) veröffentlicht wurde: <quote type="G">In den Grundsätzen die er aufstellt hat er sehr recht, er sagt viel gründliches, wahres und gutes, so ist der Aufsatz auch stellenweise gut geschrieben, hat aber im Ganzen doch etwas unbehülfliches und in einzelnen Stellen ist der Punct nicht recht getroffen.</quote> (Brief an Schiller, 1. Februar 1797; <ref target="sndb:sigle#1157">WA</ref> IV 12, 28.) Im Herbst 1800 wandte sich Müller mit einem Brief vom 18. Oktober Hilfe suchend an Goethe und bat um Vermittlung eines Verlegers für seine Übersetzung von Giorgio Vasaris Werk „Le vite de più eccellenti architetti, pittori, et scultori Italiani, da Cimabue insino a tempi nostri“ (Florenz 1550. – Leben der ausgezeichnetsten Architekten, Maler und Bildhauer Italiens von Cimabue bis in unsere Zeit). Goethe antwortete am 19. November 1800 zurückhaltend und bat um eine Probe (vgl. <ref target="gb:dokument#5189">GB 14, Nr 343</ref>). Nachdem Müller in einem Brief vom 9. Januar 1801 geantwortet hatte, ohne die finanzielle Hilfe eines Verlegers für ein halbes Jahr könne er die gewünschte Probe nicht liefern, brach die Korrespondenz für lange Zeit ab. Lediglich ein Brief Müllers von der Jahreswende 1818/19 ist noch überliefert, in dem er bei Goethe um Hilfe gegen „Verleumdungen von Feinden“ (<ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 2, 862) nachsuchte. Von 1804 bis 1808 erwarb er im Auftrag des Direktors der Münchner Kunstsammlungen Christian Mannlich nahezu 400 Medaillen, die in Wirklichkeit für Goethe bestimmt waren, ohne dass Müller den Zusammenhang kannte. Über Mannlich erhielt Goethe Briefe aus Rom mit Angaben zu den überschickten Medaillen, von denen er Abschriften herstellte (vgl. Goethes Brief an Christian Mannlich, 26. April 1805; <ref target="sndb:sigle#1157">WA</ref> IV 50, Nr 5047a). Im Rückblick fand Goethe jedoch zu einer positiven Beurteilung Müllers; in seinem Aufsatz „Joseph Bossi über Leonard da Vinci’s Abendmahl zu Mailand“ (1817) erwähnt er dankend, <quote type="G">daß unser mehrjähriger Freund, Mitarbeiter und Zeitgenosse, den wir noch immer so gern, früherer Jahre eingedenk, mit dem Namen des <hi rendition="#hervor1">Mahler Müller</hi> bezeichnen, uns von Rom aus mit einem trefflichen Aufsatz über Bossi’s Werk in den Heidelberger Jahrbüchern</quote> <supplied>Heidelbergische Jahrbücher der Litteratur. Nr 72–76</supplied><quote type="G">, December 1816, beschenkt</quote> (<ref target="sndb:sigle#1157">WA</ref> I 49.1, 247) habe, der ihm selbst förderlich gewesen sei. Müller seinerseits hat sich widersprüchlich über Goethe geäußert. So schreibt er einerseits: „Er <supplied>Goethe</supplied> mag für einen wackern Meister gelten, aber ihn unter die großen Dichter zu zählen, fehlen ihm Hauptelementen, fürnemlich die Phantasie, woraus dann der Mangel an Erfindung und Idealität herfließt.“ (Brief an Georg Anton Batt, 25. September 1810; <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 1, 531 f.) Später heißt es dagegen: „Unter den lebenden <supplied>Meistern</supplied> die mir bekannt sind, würde Göthen ich zum Richter <supplied>über die Dramatisierung des Faust-Stoffs</supplied> mir wählen, er ist die Wahrheit zu gestehen offt etwas philistermäßig launisch, allein dennoch als Mensch und Dichter zu groß um durch irgend eine niedrige oder neidische Rucksicht das Verdienst andrer bezwacken zu wollen“ (Brief an Karl Friedrich Emich von Ixküll, 20. Januar 1822; <ref target="sndb:sigle#3006">Müller, Briefwechsel</ref> 2, 1017).</p>
+  <p rendition="#einrueck1">Von Goethe sind sechs Briefe an Müller überliefert, außer dem vorliegenden vier aus den Jahren 1780/81 sowie der genannte aus dem Jahr 1800. Von Müller haben sich insgesamt fünf Briefe an Goethe erhalten.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb3651_comment_com5736">
+<label xml:id="GB03_2_BR383_0_note_001_218_4" copyOf="#start_com_3302"><hi rendition="#fett">218,4</hi>wir sind jezt hier zerstreut</label>
+<p>In der ersten Hälfte des Juli 1778 hatte Goethe Sitzungen des Geheimen Consiliums zu besuchen (am 3. und 10. Juli) und an der fürstlichen Tafel zu erscheinen (3. und 4. Juli). Vor allem aber war er von den Arbeiten zur Umgestaltung des Parks an der Ilm in Anspruch genommen, ebenso von den Vorbereitungen eines Parkfestes aus Anlass des Namenstages von Herzogin Louise (des ‚Louisenfestes‘) am 9. Juli. Dieses Fest war nach einem Gewitter mit Überschwemmungen zunächst gefährdet (vgl. zu <ref target="gb:note#GB03_2_BR375_0_note_002_215_17">215,17</ref>; zu <ref target="gb:note#GB03_2_BR381_0_note_003_217_13">217,13</ref>).</p>
+
+</note>
+<note xml:id="gb3651_comment_com5750">
+<label xml:id="GB03_2_BR383_0_note_002_218_4-5" copyOf="#start_com_3303"><hi rendition="#fett">218,4-5</hi>mit fahrender Post</label>
+<p>Anders als die ‚reitende‘ konnte die ‚fahrende Post‘ Pakete und Wertsachen transportieren.</p>
+
+</note>
+<note xml:id="gb3651_comment_com5751">
+<label xml:id="GB03_2_BR383_0_note_003_218_5" copyOf="#start_com_3304"><hi rendition="#fett">218,5</hi>was ihr von uns jährlich zu erwarten habt</label>
+<p>Die Pension belief sich auf gut 304 Reichstaler (vgl. die einleitende <ref target="gb:note#gb3651_comment_com3988">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb3651_comment_com5752">
+<label xml:id="GB03_2_BR383_0_note_004_218_6" copyOf="#start_com_3305"><hi rendition="#fett">218,6</hi>ein theil davon</label>
+<p>Müller erhielt 350 Gulden (vgl. seinen Brief an Wolfgang Heribert von Dalberg, zwischen 29. Juni und 27. Juli 1778; Müller, Briefwechsel 1, 81). Dies entspricht ungefähr 195 Reichstalern; es handelte sich also um <quote type="G">den größten Theil</quote> der jährlichen Pension (vgl. <ref target="gb:note#gb3651_comment_com1457">Datierung</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

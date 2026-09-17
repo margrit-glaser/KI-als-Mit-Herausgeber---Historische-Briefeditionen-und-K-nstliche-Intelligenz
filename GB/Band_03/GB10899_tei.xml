@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1150"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10899" n="GB 3, Nr. 115">
+  <teiHeader xml:id="gb10899_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>115.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 24. Mai 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:01Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10899_tei.xml</idno>
+        <idno type="URI">gb10899</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR115_0</idno>
+        <idno type="KSW-ID">10899</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="70" to="70">70</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="277" to="278">277-278</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10899_header_hwit983" corresp="#gb10899_source_hwit983" sameAs="#gb10899_comment_hwit983" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 18</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10899,,983/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Also auch das Verhältniss, das reinste, schönste, wahrste, das ich ausser meiner Schwester</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-24">24. Mai 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10899_source_hwit983" corresp="#gb10899_header_hwit983" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10899/22343"/>
+      <p>
+        <anchor xml:id="GB03_1_BR115_0_070_008"/><ref target="gb:note#GB03_2_BR115_0_note_001_70_8-9" xml:id="start_com_1105"/>Also auch das Verhältniss, das reinste, schönste, wahrste, das ich ausser 
+<anchor xml:id="GB03_1_BR115_0_070_009"/>meiner <ref target="gb:note#GB03_2_BR115_0_note_002_70_9" xml:id="start_com_1104"/>Schwester<ref xml:id="end_com_1104"/> ie zu einem Weibe gehabt, auch das gestört!<ref xml:id="end_com_1105"/> – Ich 
+<anchor xml:id="GB03_1_BR115_0_070_010"/>war drauf vorbereitet, ich litt nur unendlich für das Vergangne und das 
+<anchor xml:id="GB03_1_BR115_0_070_011"/>Zukünftige, und für <ref target="gb:note#GB03_2_BR115_0_note_003_70_11" xml:id="start_com_1106"/>das arme Kind<ref xml:id="end_com_1106"/> das hinausging das<ptr n="1" target="#a001_70.11"/> ich zu solchen 
+<anchor xml:id="GB03_1_BR115_0_070_012"/>Leiden in dem <ref target="gb:note#GB03_2_BR115_0_note_004_70_12" xml:id="start_com_1107"/>Augeblick<ref xml:id="end_com_1107"/> geweiht hatte. <ref target="gb:note#GB03_2_BR115_0_note_005_70_12-13" xml:id="start_com_1108"/>Ich will Sie nicht sehn, ihre 
+<anchor xml:id="GB03_1_BR115_0_070_013"/>Gegenwart würde mich traurig machen.<ref xml:id="end_com_1108"/> Wenn ich mit Ihnen nicht 
+<anchor xml:id="GB03_1_BR115_0_070_014"/>leben soll, so hilft mir Ihre Liebe so wenig als <ref target="gb:note#GB03_2_BR115_0_note_006_70_14-15" xml:id="start_com_1109"/>die Liebe meiner Abwesenden<ref xml:id="end_com_1109"/>, 
+<anchor xml:id="GB03_1_BR115_0_070_015"/>an der ich so reich bin. <ref target="gb:note#GB03_2_BR115_0_note_007_70_15-16" xml:id="start_com_1110"/>Die <hi rendition="#hervor1">Gegenwart</hi> im Augenblicke 
+<anchor xml:id="GB03_1_BR115_0_070_016"/>des Bedürfnisses entscheidet alles, lindert alles, kräfftiget alles.<ref xml:id="end_com_1110"/>
+        <ref target="gb:note#GB03_2_BR115_0_note_008_70_16-17" xml:id="start_com_1111"/>Der Abwesende 
+<anchor xml:id="GB03_1_BR115_0_070_017"/>kommt<ptr n="2" target="#a002_70.17"/> mit seiner Sprüzze wenn das Feuer nieder ist<ref xml:id="end_com_1111"/> — — 
+<anchor xml:id="GB03_1_BR115_0_070_018"/>und das alles <ref target="gb:note#GB03_2_BR115_0_note_009_70_18" xml:id="start_com_1112"/>um der Welt willen<ref xml:id="end_com_1112"/>! Die Welt die mir nichts seyn kann 
+<anchor xml:id="GB03_1_BR115_0_070_019"/>will auch nicht dass du mir was seyn sollst – <ref target="gb:note#GB03_2_BR115_0_note_010_70_19-20" xml:id="start_com_1113"/>Sie wissen nicht was sie 
+<anchor xml:id="GB03_1_BR115_0_070_020"/>thun.<ref xml:id="end_com_1113"/> Die Hand des Einsam verschlossnen, der die Stimme der Liebe 
+<anchor xml:id="GB03_1_BR115_0_070_021"/>nicht hört, drückt hart wo sie aufliegt. Adieu beste.   d<g ref="#typoSuspension"/>. 24 May. 76</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10899_comment">
+<body>
+<div type="metadata" xml:id="gb10899_comment_com970">
+  <ab type="numberAddressee"><label>115.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 24. Mai 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10899_comment_com3014">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 18. – 1 Bl. 17,2(–17,4) × 10,2 cm, blaues Papier, 1 S. beschr., egh., Tinte; Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „46.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 46), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 33 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 70 f., Nr 464.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10899_comment_com4810">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Obwohl auch in den Monaten zuvor Goethes Verhältnis zu Charlotte von Stein nicht frei von Schwankungen war (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10692_comment_com4476">Nr 61</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>; zu <ref target="gb:note#GB03_2_BR097_0_note_008_59_14">59,14</ref>), ist der vorliegende Brief Beleg für eine erste ernsthaftere Verstimmung. Über den konkreten Anlass ist nichts bekannt (vgl. zu <ref target="gb:note#GB03_2_BR115_0_note_009_70_18">70,18</ref>); auch in Goethes Tagebuch gibt es dazu keine Aufschlüsse. Bemerkenswert erscheint jedoch, dass es vom 25. bis 27. Mai 1776, also an den drei Tagen, die unmittelbar auf die im vorliegenden Brief ausgesprochene ‚Störung‘ folgen, keine Tagebucheinträge gibt (vgl. GT I 1, 19), wohl aber Briefe an Charlotte von Stein, die Goethes Erleichterung über deren <quote type="G">unendliche Lieb und Güte</quote> (<ref target="gb:text#GB03_1_BR116_0_070_022">70,22</ref>) ausdrücken.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10899_comment_com17682">
+<label xml:id="GB03_2_BR115_0_note_001_70_8-9" copyOf="#start_com_1105"><hi rendition="#fett">70,8-9</hi>Also auch das Verhältniss <gap quantity="3" reason="editorial"/> gestört!</label>
+<p>Allem Anschein nach bezieht sich Goethe hier auf einen Vorfall oder eine Auseinandersetzung vom Tag zuvor, als er laut Tagebuch bei Charlotte von Stein gegessen hatte, und zwar nachdem er erst <quote type="G">um 2 Uhr. Morgens</quote> (<ref target="gt:dokument#49">GT I 1, 18</ref>) aus Neckeroda zurückgekehrt war, wo am 22. Mai ein verheerendes Feuer ausgebrochen war.</p>
+
+</note>
+<note xml:id="gb10899_comment_com10235">
+<label xml:id="GB03_2_BR115_0_note_002_70_9" copyOf="#start_com_1104"><hi rendition="#fett">70,9</hi>Schwester</label>
+<p>Cornelia Schlosser (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>).</p>
+
+</note>
+<note xml:id="gb10899_comment_com10095">
+<label xml:id="GB03_2_BR115_0_note_003_70_11" copyOf="#start_com_1106"><hi rendition="#fett">70,11</hi>das arme Kind</label>
+<p>Entweder einer der Söhne Charlotte von Steins oder ein jugendlicher Gast ihres Hauses, der bei der Auseinandersetzung zwischen ihr und Goethe anwesend war.</p>
+
+</note>
+<note xml:id="gb10899_comment_com10236">
+<label xml:id="GB03_2_BR115_0_note_004_70_12" copyOf="#start_com_1107"><hi rendition="#fett">70,12</hi>Augeblick</label>
+<p>Verkürzt oder flüchtig für ‚Augenblick‘; in dieser Form noch einmal bei Goethe belegt, im fragmentarisch überlieferten Versepos vom „Ewigen Juden“ (1774): <quote type="G">Er denckt an ienen Augeblick</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 4, 98 [Vers 122]).</p>
+
+</note>
+<note xml:id="gb10899_comment_com14180">
+<label xml:id="GB03_2_BR115_0_note_005_70_12-13" copyOf="#start_com_1108"><hi rendition="#fett">70,12-13</hi>Ich will Sie nicht sehn <gap quantity="3" reason="editorial"/> mich traurig machen.</label>
+<p>Möglicherweise mit Bezug auf die am selben Abend im Redoutenhaus an der Esplanade (heute Schillerstraße) stattfindende Weimarer Erstaufführung von Goethes „Erwin und Elmire“ (mit der Musik der Herzoginmutter Anna Amalia) durch das Liebhabertheater (vgl. <ref target="gt:dokument#50">GT I 1, 18</ref>; <ref target="sndb:sigle#854">Sichardt</ref>, 137).</p>
+
+</note>
+<note xml:id="gb10899_comment_com15152">
+<label xml:id="GB03_2_BR115_0_note_006_70_14-15" copyOf="#start_com_1109"><hi rendition="#fett">70,14-15</hi>die Liebe meiner Abwesenden</label>
+<p>Zu denken ist wohl besonders an Goethes Schwester Cornelia Schlosser in Emmendingen und an die Eltern, vor allem die Mutter, in Frankfurt.</p>
+
+</note>
+<note xml:id="gb10899_comment_com10247">
+<label xml:id="GB03_2_BR115_0_note_007_70_15-16" copyOf="#start_com_1110"><hi rendition="#fett">70,15-16</hi>Die <hi rendition="#hervor1">Gegenwart</hi> <gap quantity="3" reason="editorial"/> kräfftiget alles.</label>
+<p>Ähnlich äußert sich Goethe kurz vor und nach Charlotte von Steins Abreise nach Pyrmont (vgl. <ref target="gb:text#GB03_1_BR133_0_077_008 #GB03_1_BR133_0_077_009">77,8–9</ref>; <ref target="gb:text#GB03_1_BR140_0_082_001">82,1</ref>).</p>
+
+</note>
+<note xml:id="gb10899_comment_com15153">
+<label xml:id="GB03_2_BR115_0_note_008_70_16-17" copyOf="#start_com_1111"><hi rendition="#fett">70,16-17</hi>Der Abwesende kommt <gap quantity="3" reason="editorial"/> das Feuer nieder ist</label>
+<p>Offenbar noch unter dem Eindruck des zwei Tage zuvor erlebten Großfeuers in Neckeroda, wo die Helfer, darunter Goethe und Herzog Carl August, erst ankamen, als das Dorf bereits niedergebrannt war (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_062_69_16">69,16</ref>).</p>
+
+</note>
+<note xml:id="gb10899_comment_com10248">
+<label xml:id="GB03_2_BR115_0_note_009_70_18" copyOf="#start_com_1112"><hi rendition="#fett">70,18</hi>um der Welt willen</label>
+<p>Wahrscheinlich hatte Charlotte von Stein Anstoß an Goethes öffentlicher Vertraulichkeit ihr gegenüber genommen (vgl. <ref target="gb:text#GB03_1_BR121_0_072_006 #GB03_1_BR121_0_072_007">72,6–7</ref>; vgl. auch ihren Brief vom 6. März 1776 an Johann Georg Zimmermann, abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>).</p>
+
+</note>
+<note xml:id="gb10899_comment_com10249">
+<label xml:id="GB03_2_BR115_0_note_010_70_19-20" copyOf="#start_com_1113"><hi rendition="#fett">70,19-20</hi>Sie wissen nicht was sie thun.</label>
+<p>Lukas 23,34: „Jesus aber sprach: Vatter, vergieb ihnen! denn sie wissen nicht, was sie thun.“ (Luther-Bibel 1772 NT, 91.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

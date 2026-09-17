@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3640"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11881" n="GB 3, Nr. 355">
+  <teiHeader xml:id="gb11881_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>355.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende April oder Anfang Mai? 1778</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11881_tei.xml</idno>
+        <idno type="URI">gb11881</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR355_0</idno>
+        <idno type="KSW-ID">11881</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="206" to="206">206</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="695" to="696">695-696</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11881_header_hwit1347" corresp="#gb11881_source_hwit1347" sameAs="#gb11881_comment_hwit1347" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 109</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11881,,1347/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Diese Blumen sollen Ihnen gute Nacht sagen. Sehr ungern hab ich mich vertreiben lassen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11881_header_acc268" corresp="gb11881_comment_acc268">
+            <objectIdentifier>
+              <objectName><quote type="G">Blumen</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1778-04-21" to="1778-04-30"><supplied>Ende April? 1778</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1778-05-01" to="1778-05-10"><supplied>Anfang Mai? 1778</supplied></date>
+            <note>
+              <date type="WA" from="1778-05-01" to="1778-05-10"><supplied>Anfang Mai 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11881_source_hwit1347" corresp="#gb11881_header_hwit1347" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11881/22839"/>
+      <p>
+        <anchor xml:id="GB03_1_BR355_0_206_001"/>Diese Blumen sollen Ihnen gute Nacht sagen. Sehr ungern <ref target="gb:note#GB03_2_BR355_0_note_001_206_1-2" xml:id="start_com_3129"/>hab ich 
+<anchor xml:id="GB03_1_BR355_0_206_002"/>mich vertreiben lassen<ref xml:id="end_com_3129"/>. Liebste beste Gute Nacht! und muthwillige 
+<anchor xml:id="GB03_1_BR355_0_206_003"/>Träume! die doch wenigstens niemand necken.    G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11881_comment">
+<body>
+<div type="metadata" xml:id="gb11881_comment_com805">
+  <ab type="numberAddressee"><label>355.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende April? 1778</supplied> oder <supplied>Anfang Mai? 1778</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11881_comment_com1762">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) wurde der vorliegende Brief in den Dezember 1778 eingeordnet. Im Erstdruck wird er in die Zeit zwischen den 23. und 26. Mai 1777, seit der Ausgabe von Fielitz auf Anfang Mai 1778 datiert. Für das Jahr 1778 sprechen sowohl die Einordnung im Konvolut wie auch die Jahresangabe der Adressatin auf der Handschrift (vgl. <ref target="gb:note#gb11881_comment_com2849">Überlieferung</ref>). Im Frühjahr 1778, besonders im April, grüßte Goethe Charlotte von Stein sehr häufig mit Blumen aus seinem Garten. Der Brief könnte von Ende April oder, wie bisher angenommen, von Anfang Mai 1778 stammen, bevor Goethe nach Berlin aufbrach (vgl. zu <ref target="gb:note#GB03_2_BR358_0_note_003_206_13-14">206,13-14</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11881_comment_com2849">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 109. – 1 Bl. 17,7(–18) × 7,6 cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. rote Siegelreste; unten rechts von Charlotte von Steins Hd, Bleistift: „78“, oben rechts von fremder Hd, Tinte: „76.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 78), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 101.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 221, Nr 699.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11881_comment_com3679">
+  <p><quote type="G">Blumen</quote> (<ref target="gb:text#GB03_1_BR355_0_206_001">206,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11881_comment_com4645">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11881_comment_com18057">
+<label xml:id="GB03_2_BR355_0_note_001_206_1-2" copyOf="#start_com_3129"><hi rendition="#fett">206,1-2</hi>hab ich mich vertreiben lassen</label>
+<p>Der Brief wurde offenbar nach einem Abendbesuch bei Charlotte von Stein geschrieben. Da Goethe zwischen dem 23. April und 10. Mai, dem Zeitraum, in dem der vorliegende Brief wahrscheinlich geschrieben wurde (vgl. <ref target="gb:note#gb11881_comment_com1762">Datierung</ref>), sein Tagebuch nicht täglich führte, lässt sich dazu Näheres nicht ermitteln.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>
