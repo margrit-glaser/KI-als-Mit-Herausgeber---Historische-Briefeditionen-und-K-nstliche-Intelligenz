@@ -1,63 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<lied>
-    <titel>Barfuß am Klavier</titel>
-    <interpret>AnnenMayKantereit</interpret>
-    <komponisten>
-        Henning May, Christopher Annen, Severin Kantereit, Malte Huck
-    </komponisten>
-    <album>Alles Nix Konkretes</album>
-    <erscheinungsjahr>2016</erscheinungsjahr>
-    <genre>Deutschrock / Singer-Songwriter</genre>
 
-    <refrain>
-        <vers>Und ich sitz schon wieder</vers>
-        <vers>Barfuß am Klavier</vers>
-        <vers>Ich träume Liebeslieder</vers>
-        <vers>Und sing dabei von dir.</vers>
-    </refrain>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-    <strophe nummer="1">
-        <vers>Du und ich, wir waren wunderlich</vers>
-        <vers>Nicht für mich</vers>
-        <vers>Für die, die es störte,</vers>
-        <vers>Wenn man uns nachts hörte</vers>
-        <vers>Ich hab mit dir gemeinsam einsam rumgesessen und geschwiegen</vers>
-        <vers>Ich erinner mich am Besten ans gemeinsam einsam Liegen</vers>
-        <vers>Jeden Morgen danach, bei dir</vers>
-        <vers>Du nackt im Bett - und ich barfuß am Klavier</vers>
-    </strophe>
+    <teiHeader>
+        <fileDesc>
 
-    <refrain>
-        <vers>Und ich sitz schon wieder</vers>
-        <vers>Barfuß am Klavier</vers>
-        <vers>Ich träume Liebeslieder</vers>
-        <vers>Und sing dabei von dir</vers>
-    </refrain>
+            <titleStmt>
+                <title>Barfuß am Klavier</title>
+                <author>AnnenMayKantereit</author>
+            </titleStmt>
 
-    <strophe nummer="2">
-        <vers>Du und ich, wir war'n mal wir.</vers>
-        <vers>Und sind jetzt nichts du da, ich hier</vers>
-        <vers>Du wolltest alles wissen und das hat mich vertrieben</vers>
-        <vers>Eigentlich dich, du bist nicht länger geblieben; bei mir</vers>
-        <vers>Also sitz ich, um zu lieben, lieber barfuß am Klavier</vers>
-    </strophe>
+            <publicationStmt>
+                <p>TEI-encoded text</p>
+            </publicationStmt>
 
-    <refrain>
-        <vers>Und ich sitz schon wieder</vers>
-        <vers>Barfuß am Klavier</vers>
-        <vers>Ich träume Liebeslieder</vers>
-        <vers>Und sing dabei von dir</vers>
-    </refrain>
+            <sourceDesc>
+                <bibl>
+                    <title>Alles Nix Konkretes</title>
+                    <author>AnnenMayKantereit</author>
+                    <date when="2016">2016</date>
+                </bibl>
+            </sourceDesc>
 
-    <bridge>
-        <vers>Du und ich, das war zu wenig</vers>
-    </bridge>
+        </fileDesc>
 
-    <outro>
-        <vers>Und ich sitz schon wieder</vers>
-        <vers>Barfuß am Klavier</vers>
-        <vers>Und träum dabei von dir</vers>
-        <vers>Ich träum dabei von dir</vers>
-        <vers>Ich träum dabei von dir</vers>
-    </outro>
-</lied>
+
+    </teiHeader>
+
+    <text type="song">
+        <body>
+            <lg type="refrain">
+                <l>Und ich sitz schon wieder</l>
+                <l>Barfuß am Klavier</l>
+                <l>Ich träume Liebeslieder</l>
+                <l>Und sing dabei von dir.</l>
+            </lg>
+
+            <lg type="stanza" n="1">
+                <l>Du und ich, wir waren wunderlich</l>
+                <l>Nicht für mich</l>
+                <l>Für die, die es störte,</l>
+                <l>Wenn man uns nachts hörte</l>
+                <l>Ich hab mit dir gemeinsam einsam rumgesessen und geschwiegen</l>
+                <l>Ich erinner mich am Besten ans gemeinsam einsam Liegen</l>
+                <l>Jeden Morgen danach, bei dir</l>
+                <l>Du nackt im Bett - und ich barfuß am Klavier</l>
+            </lg>
+            <lg type="refrain">
+                <l>Und ich sitz schon wieder</l>
+                <l>Barfuß am Klavier</l>
+                <l>Ich träume Liebeslieder</l>
+                <l>Und sing dabei von dir.</l>
+            </lg>
+            
+            <lg type="stanza" n="2">
+                <l>Du und ich, wir war'n mal wir.</l>
+                <l>Und sind jetzt nichts du da, ich hier</l>
+                <l>Du wolltest alles wissen und das hat mich vertrieben</l>
+                <l>Eigentlich dich, du bist nicht länger geblieben; bei mir</l>
+                <l>Also sitz ich, um zu lieben, lieber barfuß am Klavier</l>
+            </lg>
+
+            <lg type="refrain">
+                <l>Und ich sitz schon wieder</l>
+                <l>Barfuß am Klavier</l>
+                <l>Ich träume Liebeslieder</l>
+                <l>Und sing dabei von dir.</l>
+            </lg>
+
+            <lg type="bridge">
+                <l>Du und ich, das war zu wenig</l>
+            </lg>
+
+            <lg type="outro">
+                 <l>Und ich sitz schon wieder</l>
+        <l>Barfuß am Klavier</l>
+        <l>Und träum dabei von dir</l>
+        <l>Ich träum dabei von dir</l>
+        <l>Ich träum dabei von dir</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
