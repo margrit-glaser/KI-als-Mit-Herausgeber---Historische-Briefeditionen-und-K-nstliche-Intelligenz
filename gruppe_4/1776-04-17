@@ -78,6 +78,14 @@
       <tagsDecl partial="true">
         <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
       </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="themes">
+          <category xml:id="love"><catDesc>Liebe</catDesc></category>
+          <category xml:id="pain"><catDesc>Schmerz</catDesc></category>
+          <category xml:id="loneliness"><catDesc>Einsamkeit</catDesc></category>
+          <category xml:id="dreams"><catDesc>Träume</catDesc></category>
+        </taxonomy>
+      </classDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage source="iso639-3">
@@ -102,25 +110,6 @@
   </teiHeader>
 <text xml:space="preserve"  xml:id="gb10774_source_hwit933" corresp="#gb10774_header_hwit933" type="source" rend="authorisedLetter">
 
- <encodingDesc>
-        <classDecl>
-            <taxonomy xml:id="themes">
-                <category xml:id="love">
-                    <catDesc>Liebe</catDesc>
-                </category>
-                <category xml:id="pain">
-                    <catDesc>Schmerz</catDesc>
-                </category>
-                <category xml:id="loneliness">
-                    <catDesc>Einsamkeit</catDesc>
-                </category>
-                <category xml:id="dreams">
-                    <catDesc>Träume</catDesc>
-                </category>
-            </taxonomy>
-        </classDecl>
-</encodingDesc>
-
   <body>
     <div>
     <pb n="1" facs="gb:digitalisate#10774/22308"/>
@@ -138,7 +127,7 @@
         <anchor xml:id="GB03_1_BR082_0_052_017"/>
         <l rendition="#einrueck5">Warum gabst uns <ref target="gb:note#GB03_2_BR082_0_note_004_52_17" xml:id="start_com_0820"/>Schicksaal<ref xml:id="end_com_0820"/> die Gefühle</l>
         <anchor xml:id="GB03_1_BR082_0_052_018"/>
-        <l rendition="#einrueck5">Uns einander in das Herz zu sehn,</l>
+        <l rendition="#einrueck5">Uns einander in das <seg ana="#love">Herz</seg> zu sehn,</l>
         <anchor xml:id="GB03_1_BR082_0_052_019"/>
         <l rendition="#einrueck5">Um durch all die seltenen Gewühle</l>
         <anchor xml:id="GB03_1_BR082_0_052_020"/>
@@ -153,7 +142,7 @@
           <ref target="gb:note#GB03_2_BR082_0_note_006_53_3" xml:id="start_com_0822"/>Schweben<ref xml:id="end_com_0822"/>
           <ref target="gb:note#GB03_2_BR082_0_note_007_53_3" xml:id="start_com_0823"/>zwecklos<ref xml:id="end_com_0823"/> hin und her und rennen</l>
         <anchor xml:id="GB03_1_BR082_0_053_004"/>
-        <l rendition="#einrueck5">Hoffnungslos in <ref target="gb:note#GB03_2_BR082_0_note_008_53_4" xml:id="start_com_0824"/>unversehnem<ref xml:id="end_com_0824"/> Schmerz,</l>
+        <l rendition="#einrueck5">Hoffnungslos in <ref target="gb:note#GB03_2_BR082_0_note_008_53_4" xml:id="start_com_0824"/>unversehnem<ref xml:id="end_com_0824"/> <seg ana="#pain">Schmerz</seg>,</l>
         <anchor xml:id="GB03_1_BR082_0_053_005"/>
         <l rendition="#einrueck5">Jauchzen wieder wenn der schnellen Freuden<ptr n="2" target="#a002_53.5"/>
         </l>
@@ -161,30 +150,30 @@
         <l rendition="#einrueck5">
           <ref target="gb:note#GB03_2_BR082_0_note_009_53_6" xml:id="start_com_0825"/>Unerwarte<ref xml:id="end_com_0825"/> Morgenröthe tagt.</l>
         <anchor xml:id="GB03_1_BR082_0_053_007"/>
-        <l rendition="#einrueck5">Nur uns Armen liebevollen beyden</l>
+        <l rendition="#einrueck5">Nur uns Armen <seg ana="#love">liebevollen</seg> beyden</l>
         <anchor xml:id="GB03_1_BR082_0_053_008"/>
-        <l rendition="#einrueck5">Ist das wechselseitge Glück versagt</l>
+        <l rendition="#einrueck5">Ist das wechselseitge <seg ana="#pain">Glück versagt</seg></l>
         <anchor xml:id="GB03_1_BR082_0_053_009"/>
-        <l rendition="#einrueck5">Uns zu lieben ohn uns zu verstehen,</l>
+        <l rendition="#einrueck5">Uns zu <seg ana="#love">lieben</seg> ohn uns zu verstehen,</l>
         <anchor xml:id="GB03_1_BR082_0_053_010"/>
         <l rendition="#einrueck5">
           <ref target="gb:note#GB03_2_BR082_0_note_010_53_10" xml:id="start_com_0826"/>In dem Andern<ptr n="3" target="#a003_53.10"/> sehn was er nie war<ref xml:id="end_com_0826"/>
         </l>
         <anchor xml:id="GB03_1_BR082_0_053_011"/>
-        <l rendition="#einrueck5">Immer frisch auf Traumglück auszugehen</l>
+        <l rendition="#einrueck5">Immer frisch auf <seg ana="#dreams">Traumglück</seg> auszugehen</l>
         <anchor xml:id="GB03_1_BR082_0_053_012"/>
-        <l rendition="#einrueck5">Und zu schwancken auch in Traumgefahr.</l></lg>
+        <l rendition="#einrueck5">Und zu schwancken auch in <seg ana="#dreams #pain">Traumgefahr</seg>.</l></lg>
         <space quantity="1" unit="lines"/>
         <lg n="2">
         <anchor xml:id="GB03_1_BR082_0_053_013"/>
-        <l rendition="#einrueck5">Glücklich den ein leerer<ptr n="4" target="#a004_53.13"/> Traum beschäfftigt!</l>
+        <l rendition="#einrueck5">Glücklich den ein <seg ana="#loneliness">leerer</seg><ptr n="4" target="#a004_53.13"/> <seg ana="#dreams">Traum</seg> beschäfftigt!</l>
         <anchor xml:id="GB03_1_BR082_0_053_014"/>
         <l rendition="#einrueck5">Glücklich dem die Ahndung<ptr n="5" target="#a005_53.14"/>
           <ref target="gb:note#GB03_2_BR082_0_note_011_53_14" xml:id="start_com_0827"/>eitel<ref xml:id="end_com_0827"/> wär!</l>
         <anchor xml:id="GB03_1_BR082_0_053_015"/>
         <l rendition="#einrueck5">Jede Gegenwart und ieder Blick bekräfftigt</l>
         <anchor xml:id="GB03_1_BR082_0_053_016"/>
-        <l rendition="#einrueck5">Traum und Ahndung leider uns noch mehr. <pb n="2" facs="gb:digitalisate#10774/22309"/></l>
+        <l rendition="#einrueck5"><seg ana="#dreams">Traum</seg> und Ahndung leider uns noch mehr. <pb n="2" facs="gb:digitalisate#10774/22309"/></l>
         <anchor xml:id="GB03_1_BR082_0_053_017"/>
         <l rendition="#einrueck5">
           <ref target="gb:note#GB03_2_BR082_0_note_012_53_17" xml:id="start_com_0828"/>Sag was will das Schicksaal uns bereiten?<ref xml:id="end_com_0828"/>
@@ -211,9 +200,9 @@
         <anchor xml:id="GB03_1_BR082_0_053_026"/>
         <l rendition="#einrueck5">Richtetest den wilden irren Lauf,</l>
         <anchor xml:id="GB03_1_BR082_0_053_027"/>
-        <l rendition="#einrueck5">Und in deinen Engelsarmen<ptr n="7" target="#a007_53.27"/> ruhte</l>
+        <l rendition="#einrueck5">Und in deinen <seg ana="#love">Engelsarmen</seg><ptr n="7" target="#a007_53.27"/> ruhte</l>
         <anchor xml:id="GB03_1_BR082_0_053_028"/>
-        <l rendition="#einrueck5">Die zerstörte Brust sich wieder auf,</l>
+        <l rendition="#einrueck5">Die <seg ana="#pain">zerstörte Brust</seg> sich wieder auf,</l>
         <anchor xml:id="GB03_1_BR082_0_053_029"/>
         <l rendition="#einrueck5">Hieltest zauberleicht ihn angebunden</l>
         <anchor xml:id="GB03_1_BR082_0_053_030"/>
@@ -223,7 +212,7 @@
         <anchor xml:id="GB03_1_BR082_0_054_002"/>
         <l rendition="#einrueck5">Da er danckbaar dir zu Füssen lag.</l>
         <anchor xml:id="GB03_1_BR082_0_054_003"/>
-        <l rendition="#einrueck5">Fühlt sein Herz an deinem Herzen schwellen,</l>
+        <l rendition="#einrueck5">Fühlt sein <seg ana="#love">Herz an deinem Herzen</seg> schwellen,</l>
         <anchor xml:id="GB03_1_BR082_0_054_004"/>
         <l rendition="#einrueck5">Fühlte sich in deinem Auge gut,</l>
         <anchor xml:id="GB03_1_BR082_0_054_005"/>
@@ -235,18 +224,18 @@
         <anchor xml:id="GB03_1_BR082_0_054_007"/>
         <l rendition="#einrueck5">Und von allem dem schwebt ein Erinnern</l>
         <anchor xml:id="GB03_1_BR082_0_054_008"/>
-        <l rendition="#einrueck5">Nur noch um das ungewisse Herz</l>
+        <l rendition="#einrueck5">Nur noch um das <seg ana="#loneliness">ungewisse Herz</seg></l>
         <anchor xml:id="GB03_1_BR082_0_054_009"/>
         <l rendition="#einrueck5">Fühlt die alte Wahrheit ewig gleich im Innern,</l>
         <anchor xml:id="GB03_1_BR082_0_054_010"/>
-        <l rendition="#einrueck5">Und der neue Zustand wird ihm Schmerz.</l>
+        <l rendition="#einrueck5">Und der neue Zustand wird ihm <seg ana="#pain">Schmerz</seg>.</l>
         <anchor xml:id="GB03_1_BR082_0_054_011"/>
-        <l rendition="#einrueck5">Und wir scheinen uns nur halb beseelet</l>
+        <l rendition="#einrueck5">Und wir scheinen uns nur <seg ana="#loneliness">halb beseelet</seg></l>
         <anchor xml:id="GB03_1_BR082_0_054_012"/>
         <l rendition="#einrueck5">
           <ref target="gb:note#GB03_2_BR082_0_note_017_54_12" xml:id="start_com_0833"/>Dämmernd<ref xml:id="end_com_0833"/> ist um uns der hellste Tag.</l>
         <anchor xml:id="GB03_1_BR082_0_054_013"/>
-        <l rendition="#einrueck5">Glücklich dass das Schicksaal das uns quälet</l>
+        <l rendition="#einrueck5">Glücklich dass das Schicksaal das uns <seg ana="#pain">quälet</seg></l>
         <anchor xml:id="GB03_1_BR082_0_054_014"/>
         <l rendition="#einrueck5">Uns doch nicht verändern mag.</l>
       </lg></lg>
