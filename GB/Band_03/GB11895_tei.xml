@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11895" n="GB 3, Nr. 403">
+  <teiHeader xml:id="gb11895_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>403.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 24. September 1778. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:28Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11895_tei.xml</idno>
+        <idno type="URI">gb11895</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR403_0</idno>
+        <idno type="KSW-ID">11895</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="230" to="230">230</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="777" to="778">777-778</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11895_header_hwit1396" corresp="#gb11895_source_hwit1396" sameAs="#gb11895_comment_hwit1396" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 97</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11895,,1396/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Überall such ich Sie, bey Hof in Ihrem haus und unter den    Bäumen, auch ohne</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1778-09-24">24. September 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11895_source_hwit1396" corresp="#gb11895_header_hwit1396" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11895/22927"/>
+      <p>
+        <anchor xml:id="GB03_1_BR403_0_230_013"/>
+        <ref target="gb:note#GB03_2_BR403_0_note_001_230_13" xml:id="start_com_3487"/>Uberall such ich Sie<ref xml:id="end_com_3487"/>, bey Hof in Ihrem Haus und unter den Baümen, 
+<anchor xml:id="GB03_1_BR403_0_230_014"/>auch ohne es zu wissen geh ich herum und suche was, und endlich 
+<anchor xml:id="GB03_1_BR403_0_230_015"/>kömts heraus dass Sie mir fehlen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR403_0_230_016"/>Ich <ref target="gb:note#GB03_2_BR403_0_note_002_230_16" xml:id="start_com_3488"/>bin in Jena gewesen<ref xml:id="end_com_3488"/> wo mich <ref target="gb:note#GB03_2_BR403_0_note_003_230_16-17" xml:id="start_com_3489"/>Steine und Pflanzen mit Menschen<ref xml:id="end_com_3489"/>
+        <anchor xml:id="GB03_1_BR403_0_230_017"/>zusammengehängt haben. Werd Ihnen auch einen alten <ref target="gb:note#GB03_2_BR403_0_note_004_230_17" xml:id="start_com_3490"/>Turn<ref xml:id="end_com_3490"/>
+        <anchor xml:id="GB03_1_BR403_0_230_018"/>von da schicken. Bitte um die <ref target="gb:note#GB03_2_BR403_0_note_005_230_18" xml:id="start_com_3491"/>Zeichn von der Wartburg<ref xml:id="end_com_3491"/> wieder zurück 
+<anchor xml:id="GB03_1_BR403_0_230_019"/>
+        <ref target="gb:note#GB03_2_BR403_0_note_006_230_19" xml:id="start_com_3492"/>vielleicht radir ich sie<ref xml:id="end_com_3492"/>. Dass Sie an mich dencken und schreiben 
+<anchor xml:id="GB03_1_BR403_0_230_020"/>verlang ich nicht, ich würde eifersüchtig werden und was draus folgt. 
+<anchor xml:id="GB03_1_BR403_0_230_021"/>Ich nehm<ptr n="1" target="#a001_230.21"/> alles als Geschenck<ptr n="2" target="#a002_230.21"/> an. <ref target="gb:note#GB03_2_BR403_0_note_007_230_21" xml:id="start_com_3493"/>Der Herzog will Sie bald besuchen.<ref xml:id="end_com_3493"/>
+        <anchor xml:id="GB03_1_BR403_0_230_022"/>
+        <ref target="gb:note#GB03_2_BR403_0_note_008_230_22" xml:id="start_com_3494"/>Ihre Zimmer werden hübsch.<ref xml:id="end_com_3494"/>    W. d<g ref="#typoSuspension"/>. 24 S. 78</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR403_0_230_023"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11895_comment">
+<body>
+<div type="metadata" xml:id="gb11895_comment_com741">
+  <ab type="numberAddressee"><label>403.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 24. September 1778 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11895_comment_com2785">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 97. – 1 Bl. 13,6(–14) × 18,7 cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „52“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 53), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 184.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 248 f., Nr 746.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11895_comment_com4581">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11895_comment_com11794">
+<label xml:id="GB03_2_BR403_0_note_001_230_13" copyOf="#start_com_3487"><hi rendition="#fett">230,13</hi>Uberall such ich Sie</label>
+<p>Charlotte von Stein war seit dem 8. September in Kochberg (vgl. zu <ref target="gb:note#GB03_2_BR400_0_note_002_229_2">229,2</ref>).</p>
+
+</note>
+<note xml:id="gb11895_comment_com11808">
+<label xml:id="GB03_2_BR403_0_note_002_230_16" copyOf="#start_com_3488"><hi rendition="#fett">230,16</hi>bin in Jena gewesen</label>
+<p>Der Tagebucheintrag <quote type="G">war in Jena</quote> (<ref target="gt:dokument#621">GT I 1, 66</ref>) aus der zweiten Hälfte des September 1778 ist nicht genau datiert. Da Goethe in seinem Brief vom 19. September (<ref target="gb:dokument#11893">Nr 402</ref>) den Plan, nach Jena zu gehen, nicht erwähnt, ist er wahrscheinlich erst einige Tage danach, etwa am 21. oder 22., aufgebrochen.</p>
+
+</note>
+<note xml:id="gb11895_comment_com13980">
+<label xml:id="GB03_2_BR403_0_note_003_230_16-17" copyOf="#start_com_3489"><hi rendition="#fett">230,16-17</hi>Steine und Pflanzen mit Menschen</label>
+<p>Laut Tagebuch besuchte Goethe in Jena einen Steinschleifer, wahrscheinlich den aus dem Braunschweigischen stammenden Albert Beyer, sowie das von dem Jenaer Philosophieprofessor und Naturforscher Johann Ernst Immanuel Walch begründete Naturalien-Kabinett (vgl. <ref target="gt:dokument#621">GT I 1, 66</ref>). Die Sammlung, zu der neben Steinen und Mineralien auch botanische und zoologische Exponate gehörten, wurde nach Walchs Tod 1778 im März 1779 auf Anraten Goethes von Herzog Carl August erworben. Sie ist heute Teil der medizinisch-naturwissenschaftlichen, insbesondere der mineralogischen und anatomischen Sammlungen der Universität Jena. Außerdem traf Goethe den Theologieprofessor und Schriftsteller Johann Jacob Griesbach (vgl. ebd.).</p>
+
+</note>
+<note xml:id="gb11895_comment_com18194">
+<label xml:id="GB03_2_BR403_0_note_004_230_17" copyOf="#start_com_3490"><hi rendition="#fett">230,17</hi>Turn</label>
+<p>Ältere Nebenform zu ‚Turm‘. – Wahrscheinlich der Fuchsturm auf dem etwa 330 m hohen Hausberg östlich des Jenaer Zentrums, ein alter Bergfried, der zur mittelalterlichen Burg Kirchberg gehörte, erst in den 1920er Jahren grundlegend erneuert und saniert. – Goethes Zeichnung von 1778 ist vermutlich nicht überliefert. – Seit der Ausgabe von Wahle wird an dieser Stelle auf eine Zeichnung vom Jenaer „Hausberg mit dem Fuchsturm“ und „Ziegenhain“ verwiesen, zuerst im „Katalog der Goethe-Ausstellung 1861“ (Berlin 1861, S. 43, Nr 44a) nachgewiesen, heute verwahrt im Kupferstichkabinett der Staatlichen Museen zu Berlin/Preußischer Kulturbesitz (vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 526, Anm. 19 [zu S. 130]). Diese Zeichnung wurde wahrscheinlich von Knebel auf „1809“ datiert; Femmel vermutet, dass diesem „auch die Zeichnung zuzuweisen sein dürfte“ (<ref target="sndb:sigle#1248">Corpus</ref> VIb, 158, Nr A 320).</p>
+
+</note>
+<note xml:id="gb11895_comment_com11809">
+<label xml:id="GB03_2_BR403_0_note_005_230_18" copyOf="#start_com_3491"><hi rendition="#fett">230,18</hi>Zeichn von der Wartburg</label>
+<p>Schon während des Aufenthalts auf der Wartburg im September 1777 waren mehrere Zeichnungen der Burg und ihrer Umgebung entstanden, von denen einige nachweislich in den Besitz Charlotte von Steins gelangten. Möglicherweise stammt eine der undatierten Zeichnungen aus dem September 1778 (vgl. zu <ref target="gb:note#GB03_2_BR289_0_note_010_167_17">167,17</ref>).</p>
+
+</note>
+<note xml:id="gb11895_comment_com11810">
+<label xml:id="GB03_2_BR403_0_note_006_230_19" copyOf="#start_com_3492"><hi rendition="#fett">230,19</hi>vielleicht radir ich sie</label>
+<p>Von den Wartburg-Zeichnungen Goethes sind keine Radierungen überliefert.</p>
+
+</note>
+<note xml:id="gb11895_comment_com18031">
+<label xml:id="GB03_2_BR403_0_note_007_230_21" copyOf="#start_com_3493"><hi rendition="#fett">230,21</hi>Der Herzog will Sie bald besuchen.</label>
+<p>Laut Fourierbuch ging der Herzog am 26. September für „einige Tage“ nach Ilmenau (FB 1778, S. 173). Dass er bis zum 15. Oktober in Ilmenau und Stützerbach blieb, belegen die Schatull-Rechnungen (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1077a, Bl. 17). Möglicherweise plante er, früher zurückzukommen und seine Rückreise über das etwa 45 km östlich von Ilmenau gelegene Kochberg zu nehmen, wo sich Charlotte von Stein bis zum 13. Oktober 1778 aufhielt.</p>
+
+</note>
+<note xml:id="gb11895_comment_com11616">
+<label xml:id="GB03_2_BR403_0_note_008_230_22" copyOf="#start_com_3494"><hi rendition="#fett">230,22</hi>Ihre Zimmer werden hübsch.</label>
+<p>Goethe kümmerte sich während der Abwesenheit Charlotte von Steins um die Renovierung ihrer Wohnung an der Ackerwand wie schon vor dem Einzug der Familie im November 1777 (vgl. zu <ref target="gb:note#GB03_2_BR304_0_note_004_176_1-2">176,1-2</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

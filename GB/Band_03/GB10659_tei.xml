@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="570"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10659" n="GB 3, Nr. 57">
+  <teiHeader xml:id="gb10659_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>57.</label> An <persName key="sndb:person#42917">Johann Georg von Zimmermann</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. März 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:51Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10659_tei.xml</idno>
+        <idno type="URI">gb10659</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR057_0</idno>
+        <idno type="KSW-ID">10659</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="41" to="41">41</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="164" to="169">164-169</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10659_header_hwit895" corresp="#gb10659_source_hwit895" sameAs="#gb10659_comment_hwit895" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-9698</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10659,,895/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mir ist wohl darauf verlass dich. Von meinen Wahren Verhältnissen, wird dir kein Reisender</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-03-06">6. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#42917">Zimmermann, Johann Georg von</persName>
+            <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10659_source_hwit895" corresp="#gb10659_header_hwit895" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10659/21870"/>
+      <p>
+        <anchor xml:id="GB03_1_BR057_0_041_004"/>
+        <ref target="gb:note#GB03_2_BR057_0_note_001_41_4" xml:id="start_com_0634"/>Mir ist wohl<ref xml:id="end_com_0634"/> darauf verlass dich. Von meinen <hi rendition="#hervor1">Wahren<ptr n="1" target="#a001_41.4"/> Verhältnissen</hi>,
+<anchor xml:id="GB03_1_BR057_0_041_005"/>wird dir kein <hi rendition="#hervor2"><ref target="gb:note#GB03_2_BR057_0_note_002_41_5" xml:id="start_com_0635"/>Reisender</hi><ref xml:id="end_com_0635"/> was erzählen können,<ptr n="2" target="#a002_41.5"/> kaum ein 
+<anchor xml:id="GB03_1_BR057_0_041_006"/>Mitwohnender. Ich bin fest entschlossen nichts zu hören, was man 
+<anchor xml:id="GB03_1_BR057_0_041_007"/>von mir sagt, noch was man mir rathen kann – – Wie’s <hi rendition="#hervor2">ausgeht</hi>
+        <anchor xml:id="GB03_1_BR057_0_041_008"/>daran ist auch nichts<ptr n="3" target="#a003_41.8"/> gelegen.     <ref target="gb:note#GB03_2_BR057_0_note_003_41_8-9" xml:id="start_com_0636"/>Der Pöbel sieht auf den Ausgang sagt 
+<anchor xml:id="GB03_1_BR057_0_041_009"/>ein Grieche.<ref xml:id="end_com_0636"/> Und <ref target="gb:note#GB03_2_BR057_0_note_004_41_9" xml:id="start_com_0637"/>die Glücklichen scheinen weise den Menschen.<ref xml:id="end_com_0637"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR057_0_041_010"/>d<g ref="#typoSuspension"/>. 6 Merz 76 Weimar</dateline>
+          <lb/>
+        <anchor xml:id="GB03_1_BR057_0_041_011"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10659/21871"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10659_comment">
+<body>
+<div type="metadata" xml:id="gb10659_comment_com348">
+  <ab type="numberAddressee"><label>57.</label> An <persName key="sndb:person#42917">Johann Georg von Zimmermann</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. März 1776 → <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10659_comment_com2392">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 9698. – 1 Bl. 18 × 10,9 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „6. März“, auf der Rs. Angabe des Adressaten: „An Zimmer/mann“. – Beischluss zu Charlotte von Steins Brief an Zimmermann vom 6. und 8. März 1776 (vgl. <ref target="sndb:sigle#4460/1240">Goethe/Stein-Zimmermann</ref>, 173).</p>
+  <p>E: <ref target="sndb:sigle#4460/1240">Goethe/Stein-Zimmermann</ref> (1904), 174, Nr 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 30 (1905), 9, Nr 413a.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10659_comment_com4188">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Zimmermanns (vgl. die einleitende Erläuterung zum vorliegenden Brief sowie Charlotte von Steins dort mitgeteilten Brief an Zimmermann vom 6. März 1776). – Möglicherweise antwortete Zimmermann mit einem nicht überlieferten Brief, den Goethe, vermutlich Anfang Mai 1776, an Charlotte von Stein weitergab (vgl. deren Brief an Zimmermann, 10. Mai 1776; abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10880_comment_com4505">Nr 102</ref>).</p>
+  <p rendition="#einrueck1">Im Bezugsbrief hatte Zimmermann offenbar berichtet, dass schlecht von Goethes Weimarer <quote type="G"><hi rendition="#hervor1">Verhältnissen</hi></quote> (<ref target="gb:text#GB03_1_BR057_0_041_004 #GB03_1_BR057_0_041_005">41,4–5</ref>) geredet werde, und davor gewarnt, es könne für ihn übel ausgehen. Darauf antwortet Goethe im vorliegenden Brief ebenso heftig wie in <ref target="gb:dokument#10525">Nr 112</ref> auf Klopstocks mahnenden Brief vom 8. Mai 1776. Charlotte von Stein bat er am 5. Juli 1776, Zimmermann auszurichten, er, Goethe, habe <quote type="G">einen Pick auf all meine Freunde die mich mit Schreiben von dem was man über mich sagte wider ihren Willen plagten.</quote> (<ref target="gb:text#GB03_1_BR140_0_083_018 #GB03_1_BR140_0_083_020">83,18–20</ref>.) Zimmermann zeigte sich ebenso empört wie Klopstock. Er brach zwar nicht wie dieser die Beziehung zu Goethe förmlich ab (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>), aber er opponierte gegen ihn mit einem „Anti-Weymarismus“ (Lavater an Zimmermann, 16. Mai 1777; zitiert nach: Ludwig Hirzel: Goetheana. In: Im neuen Reich 8 [1878]. Bd 2, S. 608), von dem ihn selbst sein Freund Johann Caspar Lavater nicht zurückhalten konnte. An Herder, der im Begriff stand, als Superintendent nach Weimar zu gehen, richtete Zimmermann in einem Brief vom 19. Juni 1776 warnende Worte über die „<hi rendition="#hervor1">Wirthschaft in Weimar</hi>“ (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 374) und zitierte zur Bekräftigung aus Charlotte von Steins Brief an Louise von Döring vom 10. Mai 1776: „Goethe cause içi un grand bouleversement; s’il sait y remettre ordre, tant mieux pour son génie. Il est sûr qu’il y va de bonne intension; cependant trop de jeunesse et peu d’expérience – mais attendons la fin. Tout notre bonheur a disparu içi: notre cour n’est plus ce quelle était. Un seigneur mécontent de soi et de tout le monde, hazardant tous les jours sa vie avec peu de santé pour la soutenir, son frère encore plus fluet, une mère chagrine, une épouse mécontente, tout ensemble de bonnes gens, et rien qui s’accorde dans cette malheureuse famille.“ (Zitiert nach: <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 3, 114. – „Goethe verursacht hier einen großen Umsturz; wenn er auch wieder Ordnung machen kann, um so besser für sein Genie! Sicherlich ist seine Absicht gut, aber zu große Jugend und zu geringe Erfahrung – doch warten wir das Ende ab! All unser Glück ist von uns gewichen; unser Hof ist nicht mehr, was er war. Ein Herr, der mit sich selber und mit aller Welt unzufrieden ist, der täglich sein Leben und sein bißchen Gesundheit aufs Spiel setzt, um diese letztere zu stärken; sein Bruder noch haltloser; eine bekümmerte Mutter, eine unzufriedene Gattin; alle zusammen gute Leute, aber nichts, was in dieser unglücklichen Familie zusammenstimmt.“ [<ref target="sndb:sigle#103">Bode</ref> 1, 180 f.])</p>
+  <p rendition="#einrueck1">Aus den Jahren nach 1776 ist nur noch ein Brief Goethes an Zimmermann bekannt; er stammt vom 26. Januar 1778 und ist nicht überliefert (vgl. <ref target="gb:dokument#15862">EB 190</ref>). – Wie sehr sich Goethe über Zimmermann geärgert hatte, zeigt Charlotte von Steins Brief an diesen, dem der vorliegende Brief Goethes beigeschlossen war:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56426_source" corresp="#gb56426_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB003_0_165_001"/>a Weimar ce 6“ Mars 1776</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_165_002"/>D’un jour a lautre Cher Ami j’ai voulu Vous ecrire et Vous remercier de <ref target="gb:note#GB03_2_FB003_0_note_011_165_2-3" xml:id="start_com_7010"/>Votre 
+<anchor xml:id="GB03_2_FB003_0_165_003"/>lettre du 29 Decemb:<ref xml:id="end_com_7010"/> de lannée passée et me voila presque un quart d’an dans la 
+<anchor xml:id="GB03_2_FB003_0_165_004"/>presente sans Vous avoir payé le reste de ce que je Vous devois de l’ancienne, je 
+<anchor xml:id="GB03_2_FB003_0_165_005"/>serai a jamais malgré moi Votre debitrice en tout jusqu’a la fin de ma vie.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_006"/>Le retour du printems j’espere Vous rendra plus content de <ref target="gb:note#GB03_2_FB003_0_note_012_165_5" xml:id="start_com_7011"/>Votre santé<ref xml:id="end_com_7011"/> que Vous 
+<anchor xml:id="GB03_2_FB003_0_166_007"/>ne l’étiez il ya quelques mois et Vous tirera de cet abattement de l’ame qui est le 
+<anchor xml:id="GB03_2_FB003_0_166_008"/>pir de tout, et dont je sçais aussi chanter quelque chose avec cette difference que je 
+<anchor xml:id="GB03_2_FB003_0_166_009"/>n’ai rien a perdre comme Vous autres genies.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_010"/>Dernierement au soir, et hier a midi, Wieland a souppé et diné chez moi et 
+<anchor xml:id="GB03_2_FB003_0_166_011"/>devient de bon coeur mon ami, je dois son amitié a Göthe et le tout a Vous.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_012"/>Ich könte Ihn wohl mancherley <ref target="gb:note#GB03_2_FB003_0_note_013_166_11" xml:id="start_com_7012"/>politische Lieder<ref xml:id="end_com_7012"/> hier singen, aber zu was? <ref target="gb:note#GB03_2_FB003_0_note_014_166_11-13" xml:id="start_com_7013"/>Nos 
+<anchor xml:id="GB03_2_FB003_0_166_013"/>souhaits pour Herder sont accomplits.<ref xml:id="end_com_7013"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_014"/>Göthe est ici un objet aimé, et haïs, Vous sentirez qu’il ya bien de grosses tetes 
+<anchor xml:id="GB03_2_FB003_0_166_015"/>qu’ils ne le comprennent pas. <ref target="gb:note#GB03_2_FB003_0_note_015_166_15" xml:id="start_com_7014"/>Louise<ref xml:id="end_com_7014"/> augmente pour moi de jour en amitié, mais <ref target="gb:note#GB03_2_FB003_0_note_016_166_15-16" xml:id="start_com_7015"/>
+        <anchor xml:id="GB03_2_FB003_0_166_016"/>beaucoup de froideur entre les Epoux<ref xml:id="end_com_7015"/> pourtant je ne desespere pas, deux ètres si 
+<anchor xml:id="GB03_2_FB003_0_166_017"/>raisonnables, si bons, doivent enfin s’accorder.     Au moment Göthe m’envoit 
+<anchor xml:id="GB03_2_FB003_0_166_018"/>Votre <ref target="gb:note#GB03_2_FB003_0_note_017_166_18" xml:id="start_com_7016"/>billet<ref xml:id="end_com_7016"/> je Vous ai deja confessé mes pêches. adieu, avant le depart de la poste 
+<anchor xml:id="GB03_2_FB003_0_166_019"/>je Vous dirai cher Ami encore une fois bon soir et bonjour.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_020"/>Ich komme jetz Ihnen eine gute Nacht zu sagen. Ich war den Abend im concert 
+<anchor xml:id="GB03_2_FB003_0_166_021"/>Göthe nicht, vor einigen Stunden war er bey mir gab mir vor Sie das beygeschloßne 
+<anchor xml:id="GB03_2_FB003_0_166_022"/>billet und war toll über <ref target="gb:note#GB03_2_FB003_0_note_018_166_22" xml:id="start_com_7017"/>Ihren Brief<ref xml:id="end_com_7017"/> den er mir auch vorlas, ich vertheitigte 
+<anchor xml:id="GB03_2_FB003_0_166_023"/>Sie, gestund ihm ich wünschte selbst er mögte etwas von seinen wilden Wesen 
+<anchor xml:id="GB03_2_FB003_0_166_024"/>darum ihn die Leute hier so schieff beurtheilen, ablegen, daß im Grund zwar 
+<anchor xml:id="GB03_2_FB003_0_166_025"/>nichts ist als daß er jagd, scharff reit, mit der grosen Peitsche klatscht, alles in 
+<anchor xml:id="GB03_2_FB003_0_166_026"/>Geselschaft des Herzogs. Gewiß sind dies seine Neigungen nicht, aber ein Weile 
+<anchor xml:id="GB03_2_FB003_0_166_027"/>muß ers so treiben um den Herzog zu gewinnen und dann gutes zu stifften, so 
+<anchor xml:id="GB03_2_FB003_0_166_028"/>denck ich davon; er gab mir den Grund nicht an, vertheitigte sich mit <ref target="gb:note#GB03_2_FB003_0_note_019_166_28-29" xml:id="start_com_7018"/>wunderbahren 
+<anchor xml:id="GB03_2_FB003_0_166_029"/>Gründen<ref xml:id="end_com_7018"/>, <ref target="gb:note#GB03_2_FB003_0_note_020_166_29" xml:id="start_com_7019"/>mir bliebs<ref xml:id="end_com_7019"/> als hätt er unrecht. Er war sehr gut gegen 
+<anchor xml:id="GB03_2_FB003_0_166_030"/>mich nennte mich im Vertrauen seines Hertzens Du, das verwies ich ihn mit den sanfftesten 
+<anchor xml:id="GB03_2_FB003_0_166_031"/>Ton von der Welt sichs nicht anzugewöhnen weil es nun eben niemand wie ich zu 
+<anchor xml:id="GB03_2_FB003_0_166_032"/>verstehn weis und er ohne dies offt gewiße Verhältniße aus den Augen setz, da 
+<anchor xml:id="GB03_2_FB003_0_166_033"/>springt er wild auf vom Kanape, sagt ich muß fort, läufft ein paar mahl auf und 
+<anchor xml:id="GB03_2_FB003_0_166_034"/>ab um seinen Stock zu suchen, find ihn nicht, rent so zur Thüre hinaus ohne 
+<anchor xml:id="GB03_2_FB003_0_166_035"/>Abschied ohne gute Nacht; Sehen Sie lieber Zimmermann so wars heute mit unßern 
+<anchor xml:id="GB03_2_FB003_0_166_036"/>Freund. Schon einigemahl habe ich bittern Verdruß um ihn gehabt das weis 
+<anchor xml:id="GB03_2_FB003_0_166_037"/>er nicht und sols nie wißen. nochmahls gute Nacht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_166_038"/>d. 8ten     Da haben Sie nun auch den guten Morgen, ich könte Ihnen vor 
+<anchor xml:id="GB03_2_FB003_0_166_039"/>Abgang der Post auch noch eine gute Nacht sagen aber ich bin nicht zu Hauß den 
+<anchor xml:id="GB03_2_FB003_0_166_040"/>Abend, und noch den Vormittag muß ich mich von Ihnen trennen. Ich solte gestern 
+<anchor xml:id="GB03_2_FB003_0_166_041"/>mit der <ref target="gb:note#GB03_2_FB003_0_note_021_166_41" xml:id="start_com_7020"/>Herzogin Mutter<ref xml:id="end_com_7020"/> zum Wieland gehn, weil ich aber furchte Göthen 
+<anchor xml:id="GB03_2_FB003_0_166_042"/>da zu finden that ichs nicht. Ich habe erstaunlich viel auf meinen Hertzen daß ich 
+<anchor xml:id="GB03_2_FB003_0_166_043"/>den Unmenschen sagen muß. Es ist nicht möglich mit seinen Betragen kömt er 
+<anchor xml:id="GB03_2_FB003_0_166_044"/>nicht durch die Welt; Wenn unßer <ref target="gb:note#GB03_2_FB003_0_note_022_166_44" xml:id="start_com_7021"/>sanffter Sittenlehrer<ref xml:id="end_com_7021"/> gekreutzget wurde, so wird 
+<anchor xml:id="GB03_2_FB003_0_166_045"/>dieser bittere zerhackt. Warum sein beständiges <ref target="gb:note#GB03_2_FB003_0_note_023_166_45" xml:id="start_com_7022"/>pasquilliren<ref xml:id="end_com_7022"/>, es sind ja alles Geschöpffe 
+<anchor xml:id="GB03_2_FB003_0_166_046"/>des grosen Wesens das duldet sie ja, und nun sein unanständiges betragen <pb n="167"/>
+        <anchor xml:id="GB03_2_FB003_0_167_047"/>mit Fluchen mit pöbelhafften niedern Ausdrücken. Auf sein moralisches so bald es 
+<anchor xml:id="GB03_2_FB003_0_167_048"/>aufs Handeln ankomt, wirds vielleicht keinen Einfluß haben, aber er verdirbt andre
+<anchor xml:id="GB03_2_FB003_0_167_049"/>; der Herzog hat sich wunderbahr geändert, gestern war er bey mir behaubtete 
+<anchor xml:id="GB03_2_FB003_0_167_050"/>daß alle Leute mit Anstand mit Manieren nicht den Namen eines ehrlichen Mannes 
+<anchor xml:id="GB03_2_FB003_0_167_051"/>tragen könten, wohl gab ich ihn zu daß mann in den rauhen Wesen offt den 
+<anchor xml:id="GB03_2_FB003_0_167_052"/>ehrlichen Mann fände aber doch wohl eben so offt in den gesitteten; daher er auch 
+<anchor xml:id="GB03_2_FB003_0_167_053"/>niemanden mehr leiden mag der nicht etwas ungeschliffnes an sich hat. Das ist 
+<anchor xml:id="GB03_2_FB003_0_167_054"/>nun alles von Göthen von den Menschen der vor tausende Kopff, und Hertz hat, 
+<anchor xml:id="GB03_2_FB003_0_167_055"/>der alle Sachen so klar ohne Vorurtheile sieht so bald er nur will der über alles kan 
+<anchor xml:id="GB03_2_FB003_0_167_056"/>Herr werden was er will. Ich fühls Göthe und ich werden niemahls Freunde; auch 
+<anchor xml:id="GB03_2_FB003_0_167_057"/>seine Art mit unßern Geschlecht umzugehn gefält mir nicht er ist eigendlich was 
+<anchor xml:id="GB03_2_FB003_0_167_058"/>man <ref target="gb:note#GB03_2_FB003_0_note_024_166_58" xml:id="start_com_7023"/>coquet<ref xml:id="end_com_7023"/> nent es ist nicht Achtung genug in seinen Umgang.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB003_0_167_059"/>Zerreißen Sie meinen Brief, es ist mir als wenn ich eine Undanckbarkeit gegen 
+<anchor xml:id="GB03_2_FB003_0_167_060"/>Göthen damit begangen hätte, aber um keine Falschheit zu begehn wil ichs ihm 
+<anchor xml:id="GB03_2_FB003_0_167_061"/>alles sagen sobald ich nur Gelegenheit finde. Leben Sie wohl lieber Zimmerman 
+<anchor xml:id="GB03_2_FB003_0_167_062"/>und empfelen mich <ref target="gb:note#GB03_2_FB003_0_note_025_166_62" xml:id="start_com_7024"/>unßern Freundinn<supplied>en</supplied><ref xml:id="end_com_7024"/>                 <hi rendition="#hervor1">v. Stein</hi>.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56426_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56426_comment_com84452">
+  <p>(H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: [1953/32a] – 7182.)</p>
+  <lb/>
+  <p>Übersetzung der französisch abgefassten Teile (von Elisabeth und Wolf-Dieter Lange, Bonn):</p>
+  <lb/>
+  <p rendition="#einrueck17">Weimar, 6. März 1776</p>
+  <p>Tag um Tag, lieber Freund, wollte ich Ihnen schon schreiben und Ihnen für Ihren Brief vom 29. Dezember des vergangenen Jahres danken: und nun befinde ich mich schon zu einem Viertel im neuen, ohne dass ich beglichen hätte, was ich Ihnen vom alten noch schulde; so werde ich, ohne es zu wollen, auf ewig in allem in Ihrer Schuld stehen bis an das Ende meines Lebens.</p>
+  <p>Die Wiederkehr des Frühlings wird Ihnen hoffentlich eine glücklichere Gesundheit bescheren, als es vor ein paar Monaten der Fall war, und Sie von jener Niedergeschlagenheit der Seele befreien, die von allem am schlimmsten ist und von der auch ich ein Liedchen zu singen wüsste, mit dem Unterschied, dass ich nichts wie Ihr anderen Genies zu verlieren habe.</p>
+  <p>Kürzlich speiste Wieland bei mir zu Abend und gestern auch zu Mittag; er wird mir von ganzem Herzen zum Freund. Seine Freundschaft verdanke ich Goethe und das Ganze Ihnen.</p>
+  <p>
+    <gap quantity="3" reason="editorial"/> Unsere Wünsche für Herder haben sich erfüllt.</p>
+  <p>Goethe ist hier Gegenstand von Liebe und Hass. Sie werden begreifen, dass es einige Dummköpfe gibt und dass sie ihn nicht verstehen. Louise wird mir in Freundschaft immer näher, aber es gibt so viel Kälte zwischen den Eheleuten. Gleichwohl gebe ich die Hoffnung nicht auf; zwei so vernünftige, so gute Seelen müssen sich am Ende doch wieder versöhnen.</p>
+  <p>Gerade schickt Goethe mir Ihr Billett; meine Sünden habe ich Ihnen schon gebeichtet. Adieu, vor der Abfahrt der Post-Kutsche wünsche ich Ihnen, lieber Freund, noch einmal einen guten Tag und einen guten Abend dazu.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56426_comment_com84453">
+<label xml:id="GB03_2_FB003_0_note_011_165_2-3" copyOf="#start_com_7010"><hi rendition="#normal">165,2-3</hi>Votre lettre du 29 Decemb:</label>
+<p>Nicht überliefert.</p>
+</note>
+<note xml:id="gb56426_comment_com84454">
+<label xml:id="GB03_2_FB003_0_note_012_165_5" copyOf="#start_com_7011"><hi rendition="#normal">166,6</hi>Votre santé</label>
+<p>Zimmermann litt zeitlebens unter Depressionen und Hypochondrie.</p>
+</note>
+<note xml:id="gb56426_comment_com84455">
+<label xml:id="GB03_2_FB003_0_note_013_166_11" copyOf="#start_com_7012"><hi rendition="#normal">166,12</hi>politische Lieder</label>
+<p>‚Politisch‘ hier wohl im weiteren Sinn von ‚auf das gesellschaftliche Leben bezüglich‘, sonst im 18. Jahrhundert auch ‚listig‘, ‚höflich‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 1979 f.).</p>
+</note>
+<note xml:id="gb56426_comment_com84456">
+<label xml:id="GB03_2_FB003_0_note_014_166_11-13" copyOf="#start_com_7013"><hi rendition="#normal">166,12-13</hi>Nos souhaits pour Herder sont accomplits.</label>
+<p>Herder war zum Generalsuperintendenten des Herzogtums Sachsen-Weimar berufen worden.</p>
+</note>
+<note xml:id="gb56426_comment_com84457">
+<label xml:id="GB03_2_FB003_0_note_015_166_15" copyOf="#start_com_7014"><hi rendition="#normal">166,15</hi>Louise</label>
+<p>Herzogin Louise von Sachsen-Weimar und Eisenach. </p>
+</note>
+<note xml:id="gb56426_comment_com84458">
+<label xml:id="GB03_2_FB003_0_note_016_166_15-16" copyOf="#start_com_7015"><hi rendition="#normal">166,16</hi>beaucoup de froideur entre les Epoux</label>
+<p>Über das wenig herzliche Verhältnis zwischen Herzog Carl August und seiner Frau Louise machte sich auch Lavater Sorgen (vgl. zu <ref target="gb:note#GB03_2_BR170_0_note_006_105_28">105,28</ref>).</p>
+</note>
+<note xml:id="gb56426_comment_com84459">
+<label xml:id="GB03_2_FB003_0_note_017_166_18" copyOf="#start_com_7016"><hi rendition="#normal">166,18</hi>billet</label>
+<p>Der vorliegende Brief Goethes an Zimmermann. </p>
+</note>
+<note xml:id="gb56426_comment_com84460">
+<label xml:id="GB03_2_FB003_0_note_018_166_22" copyOf="#start_com_7017"><hi rendition="#normal">166,22</hi>Ihren Brief</label>
+<p>Der nicht überlieferte Bezugsbrief.</p>
+</note>
+<note xml:id="gb56426_comment_com84461">
+<label xml:id="GB03_2_FB003_0_note_019_166_28-29" copyOf="#start_com_7018"><hi rendition="#normal">166,28-29</hi>wunderbahren Gründen</label>
+<p>‚Wunderbar‘ hier noch im Sinn von ‚seltsam‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4, 1622).</p>
+</note>
+<note xml:id="gb56426_comment_com84462">
+<label xml:id="GB03_2_FB003_0_note_020_166_29" copyOf="#start_com_7019"><hi rendition="#normal">166,29</hi>mir bliebs</label>
+<p>Verkürzt wohl für: ‚Mir blieb der Eindruck‘ o. Ä.</p>
+</note>
+<note xml:id="gb56426_comment_com84463">
+<label xml:id="GB03_2_FB003_0_note_021_166_41" copyOf="#start_com_7020"><hi rendition="#normal">166,41</hi>Herzogin Mutter</label>
+<p>Anna Amalia von Sachsen-Weimar und Eisenach, die Mutter Herzog Carl Augusts.</p>
+</note>
+<note xml:id="gb56426_comment_com84464">
+<label xml:id="GB03_2_FB003_0_note_022_166_44" copyOf="#start_com_7021"><hi rendition="#normal">166,44</hi>sanffter Sittenlehrer</label>
+<p>Jesus Christus.</p>
+</note>
+<note xml:id="gb56426_comment_com84465">
+<label xml:id="GB03_2_FB003_0_note_023_166_45" copyOf="#start_com_7022"><hi rendition="#normal">166,45</hi>pasquilliren</label>
+<p>Schmähen, verspotten (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 13, 1483), von ‚Pasquill‘: „Lästerschrift, Schandschrift“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 663).</p>
+</note>
+<note xml:id="gb56426_comment_com84466">
+<label xml:id="GB03_2_FB003_0_note_024_166_58" copyOf="#start_com_7023"><hi rendition="#normal">166,58</hi>coquet</label>
+<p>Franz. Form von ‚kokett‘: ‚wie ein Hahn‘ (von franz. coq); <ref target="sndb:sigle#2890">Grimm</ref> (11, 1600) bringt das Wort in Zusammenhang mit niederl. haanig („geil“) und altfranz. cocart („eitel“). Als Attribut weiblicher Personen hatte es stark pejorative Bedeutung: „Coquette, heist eine Weibs-Person, so buhlerisch ist, und sich von allen Manns-Personen careßiren lässet.“ (<ref target="sndb:sigle#3152">Zedler</ref> 6, 1207.)</p>
+</note>
+<note xml:id="gb56426_comment_com84467">
+<label xml:id="GB03_2_FB003_0_note_025_166_62" copyOf="#start_com_7024"><hi rendition="#normal">166,62</hi>unßern Freundinn<supplied>en</supplied></label>
+<p>Vermutlich ist nur Zimmermanns Tochter Catharina gemeint; Charlotte von Stein traf mit Vater und Tochter im Juni/Juli 1776 in Pyrmont zusammen.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</div>
+<div type="singleExplanations">
+<note xml:id="gb10659_comment_com84449">
+<label xml:id="GB03_2_BR057_0_note_001_41_4" copyOf="#start_com_0634"><hi rendition="#fett">41,4</hi>Mir ist wohl</label>
+<p>Eine solche Versicherung hatte Goethe gegenüber Zimmermann bereits früher abgegeben (vgl. <ref target="gb:text#GB03_1_BR014_0_015_004">15,4</ref>).</p>
+</note>
+<note xml:id="gb10659_comment_com17383">
+<label xml:id="GB03_2_BR057_0_note_002_41_5" copyOf="#start_com_0635"><hi rendition="#fett">41,5</hi><hi rendition="#hervor2">Reisender</hi></label>
+<p>Über die ‚Weimarer Verhältnisse‘ scheint Zimmermann in  diesem Fall nicht durch Briefe Charlotte von Steins, sondern durch einen ‚Reisenden‘ schriftlich oder mündlich unterrichtet worden zu sein. Bei diesem könnte es sich um Heinrich Julius von Lindau gehandelt haben (über ihn vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref> und <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). Er hatte sich im Januar 1776 in Weimar aufgehalten; am 29. Januar schreibt Goethe an Charlotte von Stein: <quote type="G">Lindau ist fort.</quote> (<ref target="gb:text#GB03_1_BR032_0_025_024">25,24</ref>.) Danach war er über einige Zwischenstationen nach Hannover gereist; wann genau er eintraf, ist nicht bekannt, wohl aber, dass er dort mit Heinrich Christian Boie zusammentraf („Gestern hat mich Lindau sehr unerwartet überrascht“; Brief an Jacob Michael Reinhold Lenz, 8. März 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 192]) und Gespräche mit Zimmermann führte („Zimmermann den ich in Hannover gesprochen habe“; Lindau an Lenz, 16. März 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 207). Zimmermann berichtet darüber in seinem Brief an Lavater vom 15. März 1776: „Vor wenigen Tagen war ein Herr von Lindau bei uns, der <gap quantity="3" reason="editorial"/> neulich bei Goethe in Weimar war.“ (<ref target="sndb:sigle#241">Ernst</ref>, 96.)</p>
+
+</note>
+<note xml:id="gb10659_comment_com84450">
+<label xml:id="GB03_2_BR057_0_note_003_41_8-9" copyOf="#start_com_0636"><hi rendition="#fett">41,8-9</hi>Der Pöbel sieht auf den Ausgang sagt ein Grieche.</label>
+<p>Ob Goethe hier einen bestimmten antiken Autor zitiert, ist ungewiss. Die Formulierung lässt an Niccolò Machiavellis Auffassung denken, die er in seinem Werk „Il principe“ (1532) vertritt; dort heißt es im 18. Kapitel „Wie ein Fürst Wort halten müsse“: „Der Pöbel hält sich nur an den äusserlichen Schein, und beurtheilet eine Sache nur nach ihrem Ausgange.“ (Nic. Machiavels Regierungskunst eines Fürsten. Mit Herrn Amelots de la Houssaye historischen und politischen Anmerkungen, und dem Leben des Machiavels. Frankfurt und Leipzig 1745 [Reprographischer Nachdruck mit einem Nachwort von Heiner Höfener. 2. Aufl. Dortmund 1982], S. 142.) Diese Vorstellung war freilich der gesamten griechischen und römischen Antike eigen (nach freundlichem Hinweis von Heinz Gerd Ingenkamp, Bonn). Für Seneca war es gerade ein Merkmal von Weisheit, sich gegenteilig zu verhalten: „<gap quantity="3" reason="editorial"/> in allen Dingen sieht der Weise auf die Absicht, nicht auf den Erfolg“ (Briefe an Lucilius 14,15; in: Lucius Annaeus Seneca: Philosophische Schriften. Bd 3. Übersetzt, mit Einleitungen und Anmerkungen versehen von Otto Apelt. Hamburg 1993, S. 49).</p>
+</note>
+<note xml:id="gb10659_comment_com84451">
+<label xml:id="GB03_2_BR057_0_note_004_41_9" copyOf="#start_com_0637"><hi rendition="#fett">41,9</hi>die Glücklichen scheinen weise den Menschen</label>
+<p>Zitat aus Goethes zu Lebzeiten nicht erschienener Übersetzung der Pindar zugeschriebenen „Fünften Olympischen Ode“ (Verse 38 f.; <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 3, 69; vgl. zu <ref target="gb:note#GB03_2_BR494_0_note_003_276_13-14">276,13-14</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

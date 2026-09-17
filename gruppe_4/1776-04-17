@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="820"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10774" n="GB 3, Nr. 82">
+  <teiHeader xml:id="gb10774_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>82.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 14. April 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:51Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10774_tei.xml</idno>
+        <idno type="URI">gb10774</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR082_0</idno>
+        <idno type="KSW-ID">10774</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="52" to="54">52-54</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="205" to="207">205-207</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10774_header_hwit933" corresp="#gb10774_source_hwit933" sameAs="#gb10774_comment_hwit933" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 14</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10774,,933/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Warum gabst du uns die tiefen Blicke</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-14">14. April 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10774_source_hwit933" corresp="#gb10774_header_hwit933" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10774/22308"/>
+      <lg type="poem">
+      <lg n="1">
+        <anchor xml:id="GB03_1_BR082_0_052_013"/>
+        <l rendition="#einrueck5">Warum gabst <ref target="gb:note#GB03_2_BR082_0_note_001_52_13" xml:id="start_com_0817"/>du<ref xml:id="end_com_0817"/> uns die<ptr n="1" target="#a001_52.13"/> Tiefen Blicke</l>
+        <anchor xml:id="GB03_1_BR082_0_052_014"/>
+        <l rendition="#einrueck5">Unsre Zukunft <ref target="gb:note#GB03_2_BR082_0_note_002_52_14" xml:id="start_com_0818"/>ahndungsvoll<ref xml:id="end_com_0818"/> zu schaun.</l>
+        <anchor xml:id="GB03_1_BR082_0_052_015"/>
+        <l rendition="#einrueck5">Unsrer Liebe, unserm Erdenglücke</l>
+        <anchor xml:id="GB03_1_BR082_0_052_016"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_003_52_16" xml:id="start_com_0819"/>Wähnend<ref xml:id="end_com_0819"/> seelig nimmer hinzutraun?</l>
+        <anchor xml:id="GB03_1_BR082_0_052_017"/>
+        <l rendition="#einrueck5">Warum gabst uns <ref target="gb:note#GB03_2_BR082_0_note_004_52_17" xml:id="start_com_0820"/>Schicksaal<ref xml:id="end_com_0820"/> die Gefühle</l>
+        <anchor xml:id="GB03_1_BR082_0_052_018"/>
+        <l rendition="#einrueck5">Uns einander in das Herz zu sehn,</l>
+        <anchor xml:id="GB03_1_BR082_0_052_019"/>
+        <l rendition="#einrueck5">Um durch all die seltenen Gewühle</l>
+        <anchor xml:id="GB03_1_BR082_0_052_020"/>
+        <l rendition="#einrueck5">Unser wahr Verhältniss auszuspähn.</l>
+        <anchor xml:id="GB03_1_BR082_0_053_001"/>
+        <l rendition="#einrueck5">Ach so viele tausend Menschen kennen</l>
+        <anchor xml:id="GB03_1_BR082_0_053_002"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_005_53_2" xml:id="start_com_0821"/>Dumpf<ref xml:id="end_com_0821"/> sich treibend kaum ihr eigen Herz,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_003"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_006_53_3" xml:id="start_com_0822"/>Schweben<ref xml:id="end_com_0822"/>
+          <ref target="gb:note#GB03_2_BR082_0_note_007_53_3" xml:id="start_com_0823"/>zwecklos<ref xml:id="end_com_0823"/> hin und her und rennen</l>
+        <anchor xml:id="GB03_1_BR082_0_053_004"/>
+        <l rendition="#einrueck5">Hoffnungslos in <ref target="gb:note#GB03_2_BR082_0_note_008_53_4" xml:id="start_com_0824"/>unversehnem<ref xml:id="end_com_0824"/> Schmerz,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_005"/>
+        <l rendition="#einrueck5">Jauchzen wieder wenn der schnellen Freuden<ptr n="2" target="#a002_53.5"/>
+        </l>
+        <anchor xml:id="GB03_1_BR082_0_053_006"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_009_53_6" xml:id="start_com_0825"/>Unerwarte<ref xml:id="end_com_0825"/> Morgenröthe tagt.</l>
+        <anchor xml:id="GB03_1_BR082_0_053_007"/>
+        <l rendition="#einrueck5">Nur uns Armen liebevollen beyden</l>
+        <anchor xml:id="GB03_1_BR082_0_053_008"/>
+        <l rendition="#einrueck5">Ist das wechselseitge Glück versagt</l>
+        <anchor xml:id="GB03_1_BR082_0_053_009"/>
+        <l rendition="#einrueck5">Uns zu lieben ohn uns zu verstehen,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_010"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_010_53_10" xml:id="start_com_0826"/>In dem Andern<ptr n="3" target="#a003_53.10"/> sehn was er nie war<ref xml:id="end_com_0826"/>
+        </l>
+        <anchor xml:id="GB03_1_BR082_0_053_011"/>
+        <l rendition="#einrueck5">Immer frisch auf Traumglück auszugehen</l>
+        <anchor xml:id="GB03_1_BR082_0_053_012"/>
+        <l rendition="#einrueck5">Und zu schwancken auch in Traumgefahr.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="2">
+        <anchor xml:id="GB03_1_BR082_0_053_013"/>
+        <l rendition="#einrueck5">Glücklich den ein leerer<ptr n="4" target="#a004_53.13"/> Traum beschäfftigt!</l>
+        <anchor xml:id="GB03_1_BR082_0_053_014"/>
+        <l rendition="#einrueck5">Glücklich dem die Ahndung<ptr n="5" target="#a005_53.14"/>
+          <ref target="gb:note#GB03_2_BR082_0_note_011_53_14" xml:id="start_com_0827"/>eitel<ref xml:id="end_com_0827"/> wär!</l>
+        <anchor xml:id="GB03_1_BR082_0_053_015"/>
+        <l rendition="#einrueck5">Jede Gegenwart und ieder Blick bekräfftigt</l>
+        <anchor xml:id="GB03_1_BR082_0_053_016"/>
+        <l rendition="#einrueck5">Traum und Ahndung leider uns noch mehr. <pb n="2" facs="gb:digitalisate#10774/22309"/></l>
+        <anchor xml:id="GB03_1_BR082_0_053_017"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_012_53_17" xml:id="start_com_0828"/>Sag was will das Schicksaal uns bereiten?<ref xml:id="end_com_0828"/>
+        </l>
+        <anchor xml:id="GB03_1_BR082_0_053_018"/>
+        <l rendition="#einrueck5">Sag wie band es uns so <ref target="gb:note#GB03_2_BR082_0_note_013_53_18" xml:id="start_com_0829"/>rein genau<ref xml:id="end_com_0829"/>?</l>
+        <anchor xml:id="GB03_1_BR082_0_053_019"/>
+        <l rendition="#einrueck5">Ach du warst <ref target="gb:note#GB03_2_BR082_0_note_014_53_19" xml:id="start_com_0830"/>in abgelebten Zeiten<ref xml:id="end_com_0830"/>
+        </l>
+        <anchor xml:id="GB03_1_BR082_0_053_020"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_015_53_20" xml:id="start_com_0831"/>Meine Schwester oder meine Frau<ref xml:id="end_com_0831"/>.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3"><anchor xml:id="GB03_1_BR082_0_053_021"/>
+        <l rendition="#einrueck5">Kanntest ieden Zug in meinem Wesen,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_022"/>
+        <l rendition="#einrueck5">Spähtest wie die reinste <ref target="gb:note#GB03_2_BR082_0_note_016_53_22" xml:id="start_com_0832"/>Nerve<ref xml:id="end_com_0832"/> klingt,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_023"/>
+        <l rendition="#einrueck5">Konntest<ptr n="6" target="#a006_53.23"/> mich mit Einem Blicke lesen</l>
+        <anchor xml:id="GB03_1_BR082_0_053_024"/>
+        <l rendition="#einrueck5">Den so schweer ein sterblich Aug durchdringt.</l>
+        <anchor xml:id="GB03_1_BR082_0_053_025"/>
+        <l rendition="#einrueck5">Tropftest Mässigung dem heissen Blute,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_026"/>
+        <l rendition="#einrueck5">Richtetest den wilden irren Lauf,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_027"/>
+        <l rendition="#einrueck5">Und in deinen Engelsarmen<ptr n="7" target="#a007_53.27"/> ruhte</l>
+        <anchor xml:id="GB03_1_BR082_0_053_028"/>
+        <l rendition="#einrueck5">Die zerstörte Brust sich wieder auf,</l>
+        <anchor xml:id="GB03_1_BR082_0_053_029"/>
+        <l rendition="#einrueck5">Hieltest zauberleicht ihn angebunden</l>
+        <anchor xml:id="GB03_1_BR082_0_053_030"/>
+        <l rendition="#einrueck5">Und vergauckeltest ihm manchen Tag.</l>
+        <anchor xml:id="GB03_1_BR082_0_054_001"/>
+        <l rendition="#einrueck5">Welche Seeligkeit glich ienen Wonnestunden,</l>
+        <anchor xml:id="GB03_1_BR082_0_054_002"/>
+        <l rendition="#einrueck5">Da er danckbaar dir zu Füssen lag.</l>
+        <anchor xml:id="GB03_1_BR082_0_054_003"/>
+        <l rendition="#einrueck5">Fühlt sein Herz an deinem Herzen schwellen,</l>
+        <anchor xml:id="GB03_1_BR082_0_054_004"/>
+        <l rendition="#einrueck5">Fühlte sich in deinem Auge gut,</l>
+        <anchor xml:id="GB03_1_BR082_0_054_005"/>
+        <l rendition="#einrueck5">Alle seine Sinnen sich erhellen</l>
+        <anchor xml:id="GB03_1_BR082_0_054_006"/>
+        <l rendition="#einrueck5">Und beruhigen sein brausend Blut.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="4">
+        <anchor xml:id="GB03_1_BR082_0_054_007"/>
+        <l rendition="#einrueck5">Und von allem dem schwebt ein Erinnern</l>
+        <anchor xml:id="GB03_1_BR082_0_054_008"/>
+        <l rendition="#einrueck5">Nur noch um das ungewisse Herz</l>
+        <anchor xml:id="GB03_1_BR082_0_054_009"/>
+        <l rendition="#einrueck5">Fühlt die alte Wahrheit ewig gleich im Innern,</l>
+        <anchor xml:id="GB03_1_BR082_0_054_010"/>
+        <l rendition="#einrueck5">Und der neue Zustand wird ihm Schmerz.</l>
+        <anchor xml:id="GB03_1_BR082_0_054_011"/>
+        <l rendition="#einrueck5">Und wir scheinen uns nur halb beseelet</l>
+        <anchor xml:id="GB03_1_BR082_0_054_012"/>
+        <l rendition="#einrueck5">
+          <ref target="gb:note#GB03_2_BR082_0_note_017_54_12" xml:id="start_com_0833"/>Dämmernd<ref xml:id="end_com_0833"/> ist um uns der hellste Tag.</l>
+        <anchor xml:id="GB03_1_BR082_0_054_013"/>
+        <l rendition="#einrueck5">Glücklich dass das Schicksaal das uns quälet</l>
+        <anchor xml:id="GB03_1_BR082_0_054_014"/>
+        <l rendition="#einrueck5">Uns doch nicht verändern mag.</l>
+      </lg></lg>
+      <closer>
+        <dateline rendition="#einrueck6">
+          <anchor xml:id="GB03_1_BR082_0_054_015"/>   d<g ref="#typoSuspension"/>. 14 Apr. 76.           </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10774_comment">
+<body>
+<div type="metadata" xml:id="gb10774_comment_com1290">
+  <ab type="numberAddressee"><label>82.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 14. April 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10774_comment_com3334">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 14. – 1 Bl. 19 × 23,3 cm (ursprünglich Doppelblatt, von Bl. 2 etwa 2 cm als Falz auf Trägerpapier geklebt), 2 S. beschr., egh., Tinte, gleichmäßige Schrift; Vs. oben rechts von fremder Hd, Tinte: „35.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 35), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 24–26.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 4 (1891), 97 f. (Gedicht).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10774_comment_com5130">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Das vorliegende Gedicht ist das zweite der zahlreichen unter Goethes Briefen an Charlotte von Stein überlieferten Gedichte. Es besitzt einen deutlich stärkeren Bezug zur Adressatin als z. B. der Gedichtbrief vom 12. Februar 1776 (<ref target="gb:dokument#10654">Nr 42</ref>). Auffallend sind vor allem die sprachlich-inhaltlichen Parallelen zu den kurz davor oder danach geschriebenen Briefen (vgl. <ref target="gb:text#GB03_1_BR081_0_052_007">52,7</ref>; <ref target="gb:text#GB03_1_BR084_0_055_002 #GB03_1_BR084_0_055_003">55,2–3</ref>). Auch wenn sich der Text ganz ohne biographischen Bezug als literarisches Kunstwerk verstehen lässt, so erfüllte er doch zugleich die Funktion eines Briefes, dessen Aussage durch die gebundene lyrische Sprache besondere Intensität und Eindringlichkeit verliehen wurde. Auf den persönlichen Charakter des Gedichtbriefes verweist schon die Tatsache, dass Goethe den Text im Unterschied zu anderen an Charlotte von Stein übersandten Gedichten zu seinen Lebzeiten nicht – auch nicht in einer abgewandelten Fassung – veröffentlichte. Auch in die von Goethe selbst verantworteten oder begonnenen Werkausgaben wurde das Gedicht nicht aufgenommen. Es erschien zuerst 1848 in der Ausgabe der Briefe Goethes an Charlotte von Stein (vgl. E).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10774_comment_com15016">
+<label xml:id="GB03_2_BR082_0_note_001_52_13" copyOf="#start_com_0817"><hi rendition="#fett">52,13</hi>du</label>
+<p>Mit Bezug auf das in Vers 5 apostrophierte <quote type="G">Schicksaal</quote>.</p>
+
+</note>
+<note xml:id="gb10774_comment_com10027">
+<label xml:id="GB03_2_BR082_0_note_002_52_14" copyOf="#start_com_0818"><hi rendition="#fett">52,14</hi>ahndungsvoll</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR081_0_note_003_52_7">52,7</ref>.</p>
+
+</note>
+<note xml:id="gb10774_comment_com14041">
+<label xml:id="GB03_2_BR082_0_note_003_52_16" copyOf="#start_com_0819"><hi rendition="#fett">52,16</hi>Wähnend</label>
+<p>‚Wähnen‘ hier im Sinn von ‚meinen‘, ‚glauben‘, ‚dafür halten‘. – Nach <ref target="sndb:sigle#2753">Adelung</ref> (4, 1342) im Hochdeutschen in dieser Bedeutung Ende des 18. Jahrhunderts veraltet, bereits durch die Konnotation auf „irrige, unbegründete Art dafür halten“, „sich einbilden“ überlagert.</p>
+
+</note>
+<note xml:id="gb10774_comment_com10028">
+<label xml:id="GB03_2_BR082_0_note_004_52_17" copyOf="#start_com_0820"><hi rendition="#fett">52,17</hi>Schicksaal</label>
+<p>Hier personifiziert als ‚höheres Wesen‘, das auf das menschliche Sein Einfluss besitzt.</p>
+
+</note>
+<note xml:id="gb10774_comment_com17660">
+<label xml:id="GB03_2_BR082_0_note_005_53_2" copyOf="#start_com_0821"><hi rendition="#fett">53,2</hi>Dumpf</label>
+<p>Mit Bezug auf Seelen- oder Bewusstseinszustände „für eine unklare, aber umfassende u intensive Empfindung“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1290). Das Wort begegnet in leicht abweichenden Bedeutungen und sowohl in positiver wie negativer Akzentuierung in Zusammensetzungen und als Substantivierung in Goethes Briefen an Charlotte von Stein aus dem Jahr 1776 auffallend häufig, während es in den darauffolgenden Jahren kaum noch verwendet wird (vgl. <ref target="gb:text#GB03_1_BR071_0_048_016">48,16</ref>; <ref target="gb:text#GB03_1_BR139_0_081_020">81,20</ref>; <ref target="gb:text#GB03_1_BR140_0_082_014">82,14</ref>; <ref target="gb:text#GB03_1_BR144_0_086_014">86,14</ref>; <ref target="gb:text#GB03_1_BR144_0_087_001 #GB03_1_BR144_0_087_002">87,1–2</ref>; <ref target="gb:text#GB03_1_BR159_0_098_013">98,13</ref>; <ref target="gb:text#GB03_1_BR245_0_139_013">139,13</ref>); hier im Sinne von „gedankenlos, verworren“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1291).</p>
+
+</note>
+<note xml:id="gb10774_comment_com10041">
+<label xml:id="GB03_2_BR082_0_note_006_53_3" copyOf="#start_com_0822"><hi rendition="#fett">53,3</hi>Schweben</label>
+<p>Hier für eine stärkere Bewegung mit ungewisser Richtung; wie „ein Schiff auf dem ungestümen Meere schwebet“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1725).</p>
+
+</note>
+<note xml:id="gb10774_comment_com10042">
+<label xml:id="GB03_2_BR082_0_note_007_53_3" copyOf="#start_com_0823"><hi rendition="#fett">53,3</hi>zwecklos</label>
+<p>Ohne Ziel, ohne eine bestimmte Absicht.</p>
+
+</note>
+<note xml:id="gb10774_comment_com10043">
+<label xml:id="GB03_2_BR082_0_note_008_53_4" copyOf="#start_com_0824"><hi rendition="#fett">53,4</hi>unversehnem</label>
+<p>Unversehen: unvermutet, unerwartet.</p>
+
+</note>
+<note xml:id="gb10774_comment_com10044">
+<label xml:id="GB03_2_BR082_0_note_009_53_6" copyOf="#start_com_0825"><hi rendition="#fett">53,6</hi>Unerwarte</label>
+<p>Veraltete Partizipialkonstruktion für ‚unerwartete‘; hier im Sinne von ‚unvermutet‘, ‚unverhofft‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11 III, 512).</p>
+
+</note>
+<note xml:id="gb10774_comment_com16045">
+<label xml:id="GB03_2_BR082_0_note_010_53_10" copyOf="#start_com_0826"><hi rendition="#fett">53,10</hi>In dem Andern sehn <gap quantity="3" reason="editorial"/> nie war</label>
+<p>Ähnlich heißt es in Goethes wahrscheinlich ebenfalls im April 1776 geschriebenen Brief: <quote type="G">Wir können einander nichts seyn. und sind einander zu viel</quote> (<ref target="gb:text#GB03_1_BR085_0_055_007 #GB03_1_BR085_0_055_008">55,7–8</ref>).</p>
+
+</note>
+<note xml:id="gb10774_comment_com10045">
+<label xml:id="GB03_2_BR082_0_note_011_53_14" copyOf="#start_com_0827"><hi rendition="#fett">53,14</hi>eitel</label>
+<p>Hier im Sinne von ‚leer‘, ‚ungegründet‘.</p>
+
+</note>
+<note xml:id="gb10774_comment_com14042">
+<label xml:id="GB03_2_BR082_0_note_012_53_17" copyOf="#start_com_0828"><hi rendition="#fett">53,17</hi>Sag was will das Schicksaal uns bereiten?</label>
+<p>Immer wieder befragt Goethe in den Briefen und Tagebüchern dieser Zeit sein ‚Schicksal‘ (vgl. <ref target="gb:text#GB03_1_BR067_0_045_006 #GB03_1_BR067_0_045_007">45,6–7</ref>; <ref target="gb:text#GB03_1_BR140_0_082_015 #GB03_1_BR140_0_082_016">82,15–16</ref>; <ref target="gb:text#GB03_1_BR145_0_088_017">88,17</ref>). Im Brief vom 31. März 1776 heißt es fast wörtlich, allerdings nur in Bezug auf sich selbst: <quote type="G">Was das Schicksaal mit mir vorhaben mag! </quote> (<ref target="gb:text#GB03_1_BR074_0_049_018">49,18</ref>.)</p>
+
+</note>
+<note xml:id="gb10774_comment_com10060">
+<label xml:id="GB03_2_BR082_0_note_013_53_18" copyOf="#start_com_0829"><hi rendition="#fett">53,18</hi>rein genau</label>
+<p>Ganz genau.</p>
+
+</note>
+<note xml:id="gb10774_comment_com10061">
+<label xml:id="GB03_2_BR082_0_note_014_53_19" copyOf="#start_com_0830"><hi rendition="#fett">53,19</hi>in abgelebten Zeiten</label>
+<p>‚Abgelebt‘ hier im Sinne von ‚vergangen‘, ‚ehemals durchlebt‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 98).</p>
+
+</note>
+<note xml:id="gb10774_comment_com17667">
+<label xml:id="GB03_2_BR082_0_note_015_53_20" copyOf="#start_com_0831"><hi rendition="#fett">53,20</hi>Meine Schwester oder meine Frau</label>
+<p>Hier und im Folgenden klingt die zeitgenössische, auf antike Ideen, insbesondere Platons, zurückgehende Vorstellung von der „Seelenwanderung“ an, mit deren Hilfe die eigentlich unerklärbare Nähe und Vertrautheit zur weiblichen Adressatin des Gedichts erklärt werden soll. Als erläuternde Paraphrase dazu erscheint Goethes Hinweis im Brief an Wieland von Mitte April 1776, der noch direkter auf die platonische Lehre von der Wiedererinnerung (Anamnesis) Bezug nimmt (vgl. <ref target="gb:text#GB03_1_BR084_0_055_001 #GB03_1_BR084_0_055_003">55,1–3</ref>; zu <ref target="gb:note#GB03_2_BR084_0_note_002_55_2">55,2</ref>). – Auffallend ist die prinzipielle Gleichstellung der weiblichen Rollen ‚Schwester‘ und ‚Frau‘, die als austauschbar erscheinen. Mit deutlich abweichender Akzentuierung hat Goethe im Oktober 1776 das „Schwester-Motiv“ im Einakter „Die Geschwister“ behandelt (vgl. die <ref target="gb:note#GB03_2_BR198_0_note_004_121_20">erste</ref> und <ref target="gb:note#GB03_2_BR198_0_note_005_121_20">zweite</ref> Erläuterung zu 121,20).</p>
+
+</note>
+<note xml:id="gb10774_comment_com10062">
+<label xml:id="GB03_2_BR082_0_note_016_53_22" copyOf="#start_com_0832"><hi rendition="#fett">53,22</hi>Nerve</label>
+<p>Sehne, auch Saite eines Musikinstruments; hier schwingt wohl auch die zeitgenössische Bedeutung mit: „gewisse zarte röhrartige von außen unsichtbare Fasern, welche sich aus dem Gehirne und Rückenmarke über alle Theile des Leibes erstrecken, und der Sitz so wohl der Empfindung als der Bewegung sind, Nerven genannt <gap quantity="3" reason="editorial"/>. In welcher Bedeutung das Wort auch häufig im weiblichen Geschlechte gebraucht wird, die Nerve.“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 468.)</p>
+
+</note>
+<note xml:id="gb10774_comment_com10063">
+<label xml:id="GB03_2_BR082_0_note_017_54_12" copyOf="#start_com_0833"><hi rendition="#fett">54,12</hi>Dämmernd</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR068_0_note_002_45_16-17">45,16-17</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

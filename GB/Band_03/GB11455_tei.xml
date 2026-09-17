@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2140"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11455" n="GB 3, Nr. 212">
+  <teiHeader xml:id="gb11455_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>212.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 2. Februar? 1777. Sonntag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:13Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11455_tei.xml</idno>
+        <idno type="URI">gb11455</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR212_0</idno>
+        <idno type="KSW-ID">11455</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="127" to="127">127</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="468" to="469">468-469</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11455_header_hwit1143" corresp="#gb11455_source_hwit1143" sameAs="#gb11455_comment_hwit1143" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 50</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11455,,1143/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hab ich doch wieder eine Puppe womit ich spielen kann. Eine Wohnung für Sie! - Wir waren Heut</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-02-02"><supplied>2. Februar? 1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11455_source_hwit1143" corresp="#gb11455_header_hwit1143" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11455/22522"/>
+      <p>
+        <anchor xml:id="GB03_1_BR212_0_127_003"/>Hab ich doch wieder eine Puppe womit ich spielen kann. <ref target="gb:note#GB03_2_BR212_0_note_001_127_3-4" xml:id="start_com_1955"/>Eine Wohnung 
+<anchor xml:id="GB03_1_BR212_0_127_004"/>für Sie!<ref xml:id="end_com_1955"/> – <ref target="gb:note#GB03_2_BR212_0_note_002_127_4" xml:id="start_com_1956"/>Wir waren Heut<ref xml:id="end_com_1956"/> all auf der <ref target="gb:note#GB03_2_BR212_0_note_003_127_4" xml:id="start_com_1957"/>Sattelkammer<ref xml:id="end_com_1957"/>. Der <ref target="gb:note#GB03_2_BR212_0_note_004_127_4-5" xml:id="start_com_1958"/>Baukontrolleur<ref xml:id="end_com_1958"/>
+        <anchor xml:id="GB03_1_BR212_0_127_005"/>hat den<ptr n="1" target="#a001_127.5"/> Auftrag es aufzunehmen und <ref target="gb:note#GB03_2_BR212_0_note_005_127_5-6" xml:id="start_com_1959"/>ich sinne schon auf 
+<anchor xml:id="GB03_1_BR212_0_127_006"/>Einrichtungen<ref xml:id="end_com_1959"/> davon nur einige nicht recht gehen wollen   Leben<ptr n="2" target="#a002_127.6"/> Sie 
+<anchor xml:id="GB03_1_BR212_0_127_007"/>wohl. Und Sie kommen!!</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11455_comment">
+<body>
+<div type="metadata" xml:id="gb11455_comment_com1318">
+  <ab type="numberAddressee"><label>212.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>2. Februar? 1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11455_comment_com1985">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach dem datierten vom 14. März 1777 (<ref target="gb:dokument#11402">Nr 230</ref>) eingeordnet. Im Erstdruck wird er deshalb auf den 16. März 1777 datiert, seit Fielitz auf den 2. Februar 1777 (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 420, Anm. 2 [zu S. 71]; zuletzt bei <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 1, 60, Nr 125). Diese Datierung gründet auf der Vermutung, der Tagebucheintrag vom 2. Februar 1777 <quote type="G">das Logie besehn und beschlo<unclear reason="illegible">ss</unclear>en</quote> (<ref target="gt:dokument#277">GT I 1, 36</ref>) beziehe sich auf die im vorliegenden Brief erwähnte neue <quote type="G">Wohnung</quote> (<ref target="gb:text#GB03_1_BR212_0_127_003 #GB03_1_BR212_0_127_004">127,3–4</ref>) der Familie von Stein. Dies ist zwar nicht zu belegen, aber auch nicht auszuschließen. Allerdings erfolgte der Umzug Charlotte von Steins und ihrer Familie erst am 14. November 1777 (vgl. <ref target="gt:dokument#477">GT I 1, 52</ref>), die neue Wohnung spielt bis zum Mai 1777 weder in Goethes Tagebuch noch in seinen Briefen eine Rolle. Da es aber keine anderen Anhaltspunkte als den Hinweis auf eine Wohnung für Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR212_0_127_003 #GB03_1_BR212_0_127_004">127,3–4</ref>) gibt, wird der Brief vermutungsweise auf dem Tag belassen, auf den ihn seit Fielitz sämtliche Herausgeber einschließlich Strehlke in der <ref target="sndb:sigle#1157">WA</ref> gesetzt haben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11455_comment_com3362">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 50. – 1 Bl. 20,3 × 5,4(–5,6) cm, 1 S. beschr., egh., Tinte; unten rechts von Charlotte von Steins Hd, Bleistift: „77“, oben rechts von fremder Hd, Tinte: „28<hi rendition="#sup #u">b</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 29), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 90.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 132, Nr 553.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11455_comment_com5158">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11455_comment_com17942">
+<label xml:id="GB03_2_BR212_0_note_001_127_3-4" copyOf="#start_com_1955"><hi rendition="#fett">127,3-4</hi>Eine Wohnung für Sie!</label>
+<p>Im so genannten Stiedenvorwerk am Welschen Garten an der Ackerwand. Die Wohnung gehörte zum fürstlichen Besitz, Oberstallmeister von Stein musste seinen Hauszins (Miete) an die Kammer entrichten. – Wohl auf Wunsch des Herzogs sollte der Oberstallmeister, der mit seiner Familie in der Kleinen Teichgasse in der Nähe des Kasseturms wohnte, näher an das Landschafts- oder Fürstenhaus ziehen.</p>
+
+</note>
+<note xml:id="gb11455_comment_com15191">
+<label xml:id="GB03_2_BR212_0_note_002_127_4" copyOf="#start_com_1956"><hi rendition="#fett">127,4</hi>Wir waren Heut</label>
+<p>Vgl. <ref target="gb:note#gb11455_comment_com1985">Datierung</ref>.</p>
+
+</note>
+<note xml:id="gb11455_comment_com11006">
+<label xml:id="GB03_2_BR212_0_note_003_127_4" copyOf="#start_com_1957"><hi rendition="#fett">127,4</hi>Sattelkammer</label>
+<p>Im Stiedenvorwerk waren im Erdgeschoss die Husarenpferde untergebracht, die Sattelkammern im Obergeschoss sollten zu Wohnungen umgebaut werden.</p>
+
+</note>
+<note xml:id="gb11455_comment_com11007">
+<label xml:id="GB03_2_BR212_0_note_004_127_4-5" copyOf="#start_com_1958"><hi rendition="#fett">127,4-5</hi>Baukontrolleur</label>
+<p>Johann Friedrich Rudolph Steiner.</p>
+
+</note>
+<note xml:id="gb11455_comment_com15192">
+<label xml:id="GB03_2_BR212_0_note_005_127_5-6" copyOf="#start_com_1959"><hi rendition="#fett">127,5-6</hi>ich sinne schon auf Einrichtungen</label>
+<p>Goethe kümmerte sich im Laufe des Jahres vor allem auch während der Abwesenheit der Familie von Stein um die Renovierung und Einrichtung des neuen Quartiers (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_009_159_26">159,26</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

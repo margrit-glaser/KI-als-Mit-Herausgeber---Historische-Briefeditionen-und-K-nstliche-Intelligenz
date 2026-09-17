@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2060"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10648" n="GB 3, Nr. 204">
+  <teiHeader xml:id="gb10648_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>204.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 3. Januar <supplied>1777. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:10Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10648_tei.xml</idno>
+        <idno type="URI">gb10648</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR204_0</idno>
+        <idno type="KSW-ID">10648</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="123" to="123">123</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="453" to="454">453-454</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10648_header_hwit1131" corresp="#gb10648_source_hwit1131" sameAs="#gb10648_comment_hwit1131" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10648,,1131/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Gestern Abend ist mir's noch sehr dumm worden. Ich habs Hufelanden gemeldet</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-01-03">3. Januar <supplied>1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10648_source_hwit1131" corresp="#gb10648_header_hwit1131" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10648/22510"/>
+      <p>
+        <anchor xml:id="GB03_1_BR204_0_123_012"/>
+        <ref target="gb:note#GB03_2_BR204_0_note_001_123_12" xml:id="start_com_1891"/>Gestern Abend ist mir’s noch sehr dumm worden.<ref xml:id="end_com_1891"/> Ich habs <ref target="gb:note#GB03_2_BR204_0_note_002_123_12" xml:id="start_com_1892"/>Huflanden<ref xml:id="end_com_1892"/>
+        <anchor xml:id="GB03_1_BR204_0_123_013"/>gemeldet, und was eingenommen. Werde<ptr n="1" target="#a001_123.13"/> zu Haus bleiben. auch 
+<anchor xml:id="GB03_1_BR204_0_123_014"/>schweerlich<ptr n="2" target="#a002_123.14"/> zur <ref target="gb:note#GB03_2_BR204_0_note_003_123_14" xml:id="start_com_1893"/>Redoute<ref xml:id="end_com_1893"/> kommen</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR204_0_123_015"/>Dancke für <ref target="gb:note#GB03_2_BR204_0_note_004_123_15" xml:id="start_com_1894"/>Ihr Wort gestern Nacht<ref xml:id="end_com_1894"/>. Ich soll wohl mit den Menschen 
+<anchor xml:id="GB03_1_BR204_0_123_016"/>spür ich sobald noch nicht auseinander kommen. Grüsen Sie 
+<anchor xml:id="GB03_1_BR204_0_123_017"/>
+        <ref target="gb:note#GB03_2_BR204_0_note_005_123_17" xml:id="start_com_1895"/>die herzoginn<ref xml:id="end_com_1895"/>. Ich weis doch allein wie lieb ich euch habe.    G. 
+<anchor xml:id="GB03_1_BR204_0_123_018"/>d<g ref="#typoSuspension"/>. 3 Jan. 76.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10648_comment">
+<body>
+<div type="metadata" xml:id="gb10648_comment_com408">
+  <ab type="numberAddressee"><label>204.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 3. Januar <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10648_comment_com1583">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach der eigenhändigen Datierung als erster des Jahrgangs 1776 eingeordnet. Die Jahresangabe <quote type="G">76.</quote> (<ref target="gb:text#GB03_1_BR204_0_123_018">123,18</ref>) ist offensichtlich verschrieben, wie es häufiger zu Beginn eines neuen Jahres vorkommt (vgl. u. a. Datierung zu <ref target="gb:note#gb10398_comment_com1941">Nr 205</ref>; Var. <ref target="gb:text#GB03_1_BR206_0_124_011">124,11</ref>). Aus dem Text geht hervor, dass Goethe am Tag zuvor in Weimar war (vgl. <ref target="gb:text#GB03_1_BR204_0_123_012 #GB03_1_BR204_0_123_014">123,12–14</ref>), weshalb der Brief nicht am 3. Januar 1776 geschrieben worden sein kann, hatte sich Goethe doch am 2. Januar 1776 noch in Stedten aufgehalten (vgl. <ref target="gb:text#GB03_1_BR012_0_013_011">13,11</ref>). Im Erstdruck bei Schöll wurde der Brief wie im Konvolut der Briefe unter dem 3. Januar 1776 eingeordnet, seit dem Abdruck bei Fielitz ist die Datierung auf den 3. Januar 1777 korrigiert worden (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 70, Nr 113).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10648_comment_com2452">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 1. – 1 Bl. 19,5 × 11,4 cm, 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Fr. v. Stein</quote>, Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „1.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 1), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 127, Nr 544.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10648_comment_com4248">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Möglicherweise antwortete Charlotte von Stein am selben Tag (vgl. zu <ref target="gb:note#GB03_2_BR205_0_note_001_124_1">124,1</ref>), die Antwort ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10648_comment_com9551">
+<label xml:id="GB03_2_BR204_0_note_001_123_12" copyOf="#start_com_1891"><hi rendition="#fett">123,12</hi>Gestern Abend <gap quantity="3" reason="editorial"/> sehr dumm worden.</label>
+<p>Schon seit der Weihnachtszeit 1776 fühlte sich Goethe unwohl (vgl. zu <ref target="gb:note#GB03_2_BR202_0_note_002_123_1-2">123,1-2</ref>); etwa seit Anfang Januar 1777 war er ernsthafter erkrankt (vgl. GT I 1, 35), am 2. Januar hatte er <quote type="G">bey &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">gessen</quote> und war <quote type="G">nachts fieberhafft</quote> (<ref target="gt:dokument#251">ebd.</ref>). – Am 3. Januar 1777 fand die erste Sitzung des Geheimen Consiliums im neuen Jahr statt, an der Goethe offenbar infolge seiner Erkrankung nicht teilgenommen hat (vgl. <ref target="sndb:sigle#3094">Sessionskalender</ref> 1776–1786; <ref target="sndb:sigle#32">AS</ref> 1, LXXI).</p>
+
+</note>
+<note xml:id="gb10648_comment_com17362">
+<label xml:id="GB03_2_BR204_0_note_002_123_12" copyOf="#start_com_1892"><hi rendition="#fett">123,12</hi>Huflanden</label>
+<p>Johann Friedrich Hufeland, herzoglicher Leibarzt und Geheimer Hofrat in Weimar (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR063_0_note_004_43_18">43,18</ref>); vgl. dazu den Tagebucheintrag vom 3. Januar 1777: <supplied>Medizin</supplied> <quote type="G">eingenommen</quote> (<ref target="gt:dokument#252">GT I 1, 35</ref>).</p>
+
+</note>
+<note xml:id="gb10648_comment_com17377">
+<label xml:id="GB03_2_BR204_0_note_003_123_14" copyOf="#start_com_1893"><hi rendition="#fett">123,14</hi>Redoute</label>
+<p>Maskenball (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_001_24_18">24,18</ref>), der in den Herbst- und Wintermonaten jeweils am Freitagabend stattfand, so nach dem Fourierbuch auch am 3. Januar 1777 (vgl. <ref target="sndb:sigle#3943">FB 1777</ref>, S. 3). Wie angekündigt, besuchte Goethe den Ball an diesem Abend nicht, sondern arbeitete am 1. Akt des Singspiels „Lila“ und blieb <quote type="G">den ganzen Tag</quote> in seinem Gartenhaus (<ref target="gt:dokument#252">GT I 1, 35</ref>).</p>
+
+</note>
+<note xml:id="gb10648_comment_com9565">
+<label xml:id="GB03_2_BR204_0_note_004_123_15" copyOf="#start_com_1894"><hi rendition="#fett">123,15</hi>Ihr Wort gestern Nacht</label>
+<p>Beim Abendessen bei Charlotte von Stein (vgl. <ref target="gt:dokument#251">GT I 1, 35</ref>).</p>
+
+</note>
+<note xml:id="gb10648_comment_com9566">
+<label xml:id="GB03_2_BR204_0_note_005_123_17" copyOf="#start_com_1895"><hi rendition="#fett">123,17</hi>die herzoginn</label>
+<p>Herzogin Louise von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

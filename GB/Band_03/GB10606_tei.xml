@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="310"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10606" n="GB 3, Nr. 31">
+  <teiHeader xml:id="gb10606_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>31.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 28. Januar 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:46Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10606_tei.xml</idno>
+        <idno type="URI">gb10606</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR031_0</idno>
+        <idno type="KSW-ID">10606</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="25" to="25">25</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="114" to="115">114-115</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10606_header_hwit860" corresp="#gb10606_source_hwit860" sameAs="#gb10606_comment_hwit860" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10606,,860/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Engel, ich komme nicht ins Conzert. Denn ich bin so wohl, dass ich nicht sehen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-28">28. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10606_source_hwit860" corresp="#gb10606_header_hwit860" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10606/22251"/>
+      <p>
+        <anchor xml:id="GB03_1_BR031_0_025_014"/>Lieber <ref target="gb:note#GB03_2_BR031_0_note_001_25_14" xml:id="start_com_0412"/>Engel<ref xml:id="end_com_0412"/>, ich komme nicht ins <ref target="gb:note#GB03_2_BR031_0_note_002_25_14" xml:id="start_com_0413"/>Conzert<ref xml:id="end_com_0413"/>. denn <ref target="gb:note#GB03_2_BR031_0_note_003_25_14" xml:id="start_com_0414"/>ich bin so wohl<ref xml:id="end_com_0414"/>, 
+<anchor xml:id="GB03_1_BR031_0_025_015"/>dass ich nicht sehen kann <ref target="gb:note#GB03_2_BR031_0_note_004_25_15" xml:id="start_com_0415"/>das Volck<ref xml:id="end_com_0415"/>! lieber Engel Ich lies <ref target="gb:note#GB03_2_BR031_0_note_005_25_15" xml:id="start_com_0416"/>meine Briefe<ref xml:id="end_com_0416"/>
+        <anchor xml:id="GB03_1_BR031_0_025_016"/>holen und es verdross mich dass kein Wort drinn war von dir, kein 
+<anchor xml:id="GB03_1_BR031_0_025_017"/>Wort mit Bleystifft, kein guter Abend. Liebe Frau, leide dass ich dich 
+<anchor xml:id="GB03_1_BR031_0_025_018"/>so lieb habe. Wenn ich iemand lieber haben kann, will ich dir’s sagen. 
+<anchor xml:id="GB03_1_BR031_0_025_019"/>Will dich ungeplagt lassen. Adieu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19" xml:id="start_com_0417"/>Gold<ref xml:id="end_com_0417"/>. Du begreiffst nicht <hi rendition="#hervor2">wie</hi> ich 
+<anchor xml:id="GB03_1_BR031_0_025_020"/>dich lieb hab.     G.   d<g ref="#typoSuspension"/>. 28. Jan</p>
+      <closer>
+        <dateline rendition="#einrueck17">
+          <anchor xml:id="GB03_1_BR031_0_025_021"/>76.</dateline>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10606_comment">
+<body>
+<div type="metadata" xml:id="gb10606_comment_com344">
+  <ab type="numberAddressee"><label>31.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 28. Januar 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10606_comment_com2388">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 2. – 1 Bl. 17 × 10,8(–11) cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Reste einer roten Verschlussoblate, beschädigt durch Tintenfraß, oben rechts von fremder Hd, Tinte: „3.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 3), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 6.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 24, Nr 394.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10606_comment_com4184">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10606_comment_com17444">
+<label xml:id="GB03_2_BR031_0_note_001_25_14" copyOf="#start_com_0412"><hi rendition="#fett">25,14</hi>Engel</label>
+<p>So hatte Goethe in seinen frühen Briefen auch andere von ihm bewunderte und geliebte Frauen bezeichnet, in der Leipziger Zeit seine Schwester Cornelia und Anna Catharina Schönkopf, 1772 bis 1774 Charlotte Buff, dann Maximiliane Brentano, 1775 Augusta zu Stolberg und Anna Elisabeth (Lili) Schönemann (vgl. <ref target="gb:note#GB02_2_ZBR002_0_note_001_286_1">GB 2 II, zu 286,1</ref>), 1776 nannte er außer Charlotte von Stein gelegentlich auch Corona Schröter so (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR071_0_note_006_48_16">48,16</ref>). – Vgl. Werthers Bericht über seine Bekanntschaft mit Lotte: <quote type="G">Einen Engel! – Pfuy! das sagt jeder von der seinigen! Nicht wahr? Und doch bin ich nicht im Stande, dir zu sagen, wie sie vollkommen ist, warum sie vollkommen ist, genug, sie hat all meinen Sinn gefangen genommen.</quote> (Die Leiden des jungen Werthers; <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 4, 114 [Brief vom 16. Juni <supplied>1771</supplied>].)</p>
+
+</note>
+<note xml:id="gb10606_comment_com15764">
+<label xml:id="GB03_2_BR031_0_note_002_25_14" copyOf="#start_com_0413"><hi rendition="#fett">25,14</hi>Conzert</label>
+<p>Sonntags fanden am Abend nach den Hofempfängen im großen Saal des Fürstenhauses regelmäßig Konzerte statt. – Die Hofkapelle unter dem Kapellmeister Ernst Wilhelm Wolf war im Unterschied zum Ensemble des Hoftheaters nach dem Schlossbrand im Mai 1774 nicht aufgelöst worden.</p>
+
+</note>
+<note xml:id="gb10606_comment_com9346">
+<label xml:id="GB03_2_BR031_0_note_003_25_14" copyOf="#start_com_0414"><hi rendition="#fett">25,14</hi>ich bin so wohl</label>
+<p>Wahrscheinlich mit Bezug auf das Zusammensein mit Charlotte von Stein am Vorabend (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_018_25_13">25,13</ref>).</p>
+
+</note>
+<note xml:id="gb10606_comment_com9347">
+<label xml:id="GB03_2_BR031_0_note_004_25_15" copyOf="#start_com_0415"><hi rendition="#fett">25,15</hi>das Volck</label>
+<p>Hier in weiterer Bedeutung eine „an Einem Orte beysammen befindliche Menge Menschen“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1225).</p>
+
+</note>
+<note xml:id="gb10606_comment_com9348">
+<label xml:id="GB03_2_BR031_0_note_005_25_15" copyOf="#start_com_0416"><hi rendition="#fett">25,15</hi>meine Briefe</label>
+<p>Nicht überliefert. – Möglicherweise sind Briefe an Goethe gemeint, die er Charlotte von Stein Anfang bis Mitte Januar zur Lektüre überlassen hatte (vgl. zu <ref target="gb:note#GB03_2_BR022_0_note_001_21_1-2">21,2-3</ref>).</p>
+
+</note>
+<note xml:id="gb10606_comment_com9349">
+<label xml:id="GB03_2_BR031_0_note_006_25_19" copyOf="#start_com_0417"><hi rendition="#fett">25,19</hi>Gold</label>
+<p>In Frankfurt als liebevolle Anrede für Kinder gebräuchlich (vgl. <ref target="gb:note#GB02_2_BR249_0_note_031_200_18">GB 2 II, zu 200,18</ref>); seit 1776 von Goethe fast ausschließlich als Anrede für Charlotte von Stein verwendet, seit Mitte 1778 seltener werdend (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 364 f.).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

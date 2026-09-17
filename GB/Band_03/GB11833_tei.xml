@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3420"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11833" n="GB 3, Nr. 333">
+  <teiHeader xml:id="gb11833_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>333.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 25. Februar 1778. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:07Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11833_tei.xml</idno>
+        <idno type="URI">gb11833</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR333_0</idno>
+        <idno type="KSW-ID">11833</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="197" to="198">197-198</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="666" to="667">666-667</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11833_header_hwit1321" corresp="#gb11833_source_hwit1321" sameAs="#gb11833_comment_hwit1321" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 78</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11833,,1321/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ihr gestrig Zettelgen kriegt ich durch Versehn erst heut früh.    Hier schick ich etwas</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11833_header_acc217" corresp="gb11833_comment_acc217">
+            <objectIdentifier>
+              <objectName><quote type="G">Blumen</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-02-25">25. Februar 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11833_source_hwit1321" corresp="#gb11833_header_hwit1321" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11833/22802"/>
+      <p>
+        <anchor xml:id="GB03_1_BR333_0_197_017"/>Ihr <ref target="gb:note#GB03_2_BR333_0_note_001_197_17" xml:id="start_com_2999"/>gestrig Zettelgen<ref xml:id="end_com_2999"/> kriegt ich durch Versehn erst <ref target="gb:note#GB03_2_BR333_0_note_002_197_17" xml:id="start_com_3000"/>heut früh<ref xml:id="end_com_3000"/>. Hier 
+<anchor xml:id="GB03_1_BR333_0_197_018"/>schick ich etwas von den frühzeitigen Fröhlichkeiten der Welt. Möchten 
+<anchor xml:id="GB03_1_BR333_0_197_019"/>Sie<ptr n="1" target="#a001_197.19"/> die Blumen recht freundlich ansehen. <ref target="gb:note#GB03_2_BR333_0_note_003_197_19-198_1" xml:id="start_com_3001"/>Nach Tische komm ich 
+<anchor xml:id="GB03_1_BR333_0_198_001"/>wohl<ref xml:id="end_com_3001"/>, schicken Sie mir durch <ref target="gb:note#GB03_2_BR333_0_note_004_198_1" xml:id="start_com_3002"/>überbringern<ref xml:id="end_com_3002"/> meinen <ref target="gb:note#GB03_2_BR333_0_note_005_198_1" xml:id="start_com_3003"/>Schwartenmagen<ref xml:id="end_com_3003"/>
+        <anchor xml:id="GB03_1_BR333_0_198_002"/>und eine Bratwurst. mein <ref target="gb:note#GB03_2_BR333_0_note_006_198_2" xml:id="start_com_3004"/>Meelkasten<ref xml:id="end_com_3004"/> ist gestern angekommen und 
+<anchor xml:id="GB03_1_BR333_0_198_003"/>macht mir grose Freude auch sind der schönsten <ref target="gb:note#GB03_2_BR333_0_note_007_198_3" xml:id="start_com_3005"/>Weinfächser<ref xml:id="end_com_3005"/> von 
+<anchor xml:id="GB03_1_BR333_0_198_004"/>Franckfurt gekommen, die ich an der Vorderseite meines hauses anpflanzen 
+<anchor xml:id="GB03_1_BR333_0_198_005"/>will. Ade <ref target="gb:note#GB03_2_BR333_0_note_008_198_5" xml:id="start_com_3006"/>Gold<ref xml:id="end_com_3006"/>. d<g ref="#typoSuspension"/> 25. Feb 78   G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11833_comment">
+<body>
+<div type="metadata" xml:id="gb11833_comment_com56">
+  <ab type="numberAddressee"><label>333.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 25. Februar 1778 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11833_comment_com2100">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 78. – 1 Bl. 12 × 9,4 cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. oben rechts von fremder Hd, Tinte: „10.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 10), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 160.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 212 f., Nr 678.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11833_comment_com3446">
+  <p><quote type="G">Blumen</quote> (<ref target="gb:text#GB03_1_BR333_0_197_019">197,19</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11833_comment_com3896">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Charlotte von Steins vom 24. Februar 1778 (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR333_0_note_001_197_17">197,17</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11833_comment_com15395">
+<label xml:id="GB03_2_BR333_0_note_001_197_17" copyOf="#start_com_2999"><hi rendition="#fett">197,17</hi>gestrig Zettelgen</label>
+<p>Nicht überliefert. – Laut Tagebuch nahm Goethe am 24. Februar an der Sitzung des Geheimen Consiliums teil, aß bei Carl August, hatte am Nachmittag Besuch von Corona Schröter und danach von Carl August, so dass er Charlotte von Stein an diesem Tag offenbar nicht gesehen hat (vgl. <ref target="gt:dokument#532">GT I 1, 61</ref>).</p>
+
+</note>
+<note xml:id="gb11833_comment_com11547">
+<label xml:id="GB03_2_BR333_0_note_002_197_17" copyOf="#start_com_3000"><hi rendition="#fett">197,17</hi>heut früh</label>
+<p>An diesem Morgen reiste Friedrich Victor Leberecht Plessing, der sich seit dem 22. Februar in Weimar aufgehalten hatte, wieder ab, was Goethe zwar im Tagebuch vermerkt, in den Briefen aber nicht erwähnt (vgl. <ref target="gt:dokument#533">GT I 1, 61</ref>). – Vgl. dagegen zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>.</p>
+
+</note>
+<note xml:id="gb11833_comment_com11395">
+<label xml:id="GB03_2_BR333_0_note_003_197_19-198_1" copyOf="#start_com_3001"><hi rendition="#fett">197,19-198,1</hi>Nach Tische komm ich wohl</label>
+<p>Auch am 25. Februar besuchte Goethe die Freundin offenbar nicht:  <quote type="G">Nach Tisch Enten schiesen</quote>, heißt es im Tagebuch (<ref target="gt:dokument#533">GT I 1, 61</ref>). Abends war er mit Herzog Carl August, Prinz Constantin, Knebel und Wedel <quote type="G">zu Tische</quote> (ebd.).</p>
+
+</note>
+<note xml:id="gb11833_comment_com11555">
+<label xml:id="GB03_2_BR333_0_note_004_198_1" copyOf="#start_com_3002"><hi rendition="#fett">198,1</hi>überbringern</label>
+<p>Möglicherweise Maria Dorothea Goetze, die Mutter von Goethes Diener Johann Georg Paul Goetze, die seit Ende 1777 ebenfalls zu Goethes Haushalt gehörte und für ihn Wege erledigte.</p>
+
+</note>
+<note xml:id="gb11833_comment_com15396">
+<label xml:id="GB03_2_BR333_0_note_005_198_1" copyOf="#start_com_3003"><hi rendition="#fett">198,1</hi>Schwartenmagen</label>
+<p>Ein mit „geschnittenem Specke und Schwarte, d. i. Schweinshaut, geriebener Semmel, Schweinsblut u. s. f. gefüllter Schweinsmagen, welcher hernach geräuchert wird; im gemeinen Leben der Sausack“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1718).</p>
+
+</note>
+<note xml:id="gb11833_comment_com11556">
+<label xml:id="GB03_2_BR333_0_note_006_198_2" copyOf="#start_com_3004"><hi rendition="#fett">198,2</hi>Meelkasten</label>
+<p>Mehlkasten; ‚Kasten‘ hier für „ein jedes wohl verwahrtes Behältniß, es habe eine Gestalt, welche es wolle“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1509).</p>
+
+</note>
+<note xml:id="gb11833_comment_com11557">
+<label xml:id="GB03_2_BR333_0_note_007_198_3" copyOf="#start_com_3005"><hi rendition="#fett">198,3</hi>Weinfächser</label>
+<p>Fechser: Schnittling von Wurzelschösslingen; hier die im „Weinbaue <gap quantity="3" reason="editorial"/> zur Fortpflanzung in die Erde gelegten Reben oder Knothölzer des Weinstockes, wenn sie zwey Jahre alt sind, <gap quantity="3" reason="editorial"/> weil sie alsdann zu bekleiden und Wurzeln zu fassen anfangen“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 6).</p>
+
+</note>
+<note xml:id="gb11833_comment_com11558">
+<label xml:id="GB03_2_BR333_0_note_008_198_5" copyOf="#start_com_3006"><hi rendition="#fett">198,5</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1620"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9606" n="GB 3, Nr. 160">
+  <teiHeader xml:id="gb9606_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>160.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 25.&#x2012;30. <supplied>August 1776. Sonntag&#x2012;Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:57Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9606_tei.xml</idno>
+        <idno type="URI">gb9606</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR160_0</idno>
+        <idno type="KSW-ID">9606</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="98" to="100">98-100</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="371" to="374">371-374</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9606_header_hwit1045" corresp="#gb9606_source_hwit1045" sameAs="#gb9606_comment_hwit1045" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 74</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9606,,1045/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sonntag Nachts. Ich will wenigstens wieder einmal einen Brief an dich anfangen, dass wir uns nur einmal</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb9606_header_acc455" corresp="gb9606_comment_acc455">
+            <objectIdentifier>
+              <objectName>Schattenriss des Herzogs Carl August </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb9606_header_acc573" corresp="gb9606_comment_acc573">
+            <objectIdentifier>
+              <objectName>Schattenriss der Gräfin Isabella von Wartensleben </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-08-25" to="1776-08-30">25.-30. <supplied>August 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#64">RA 1, Nr. 59</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#77">RA 1, Nr. 72</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9606_source_hwit1045" corresp="#gb9606_header_hwit1045" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9606/13801"/>
+      <p>
+        <anchor xml:id="GB03_1_BR160_0_098_015"/>Sonntag Nachts. Ich will wenigstens <ref target="gb:note#GB03_2_BR160_0_note_001_98_15" xml:id="start_com_1525"/>wieder einmal einen Brief an dich<ref xml:id="end_com_1525"/>
+        <anchor xml:id="GB03_1_BR160_0_098_016"/>anfangen, dass wir uns nur einmal wieder berühren. <ref target="gb:note#GB03_2_BR160_0_note_002_98_16-99_1" xml:id="start_com_1526"/>Eine herrliche 
+<anchor xml:id="GB03_1_BR160_0_099_001"/>Mondennacht!<ref xml:id="end_com_1526"/> ich bin über die Wiese nach <ref target="gb:note#GB03_2_BR160_0_note_003_99_1" xml:id="start_com_1527"/>meinem Garten<ref xml:id="end_com_1527"/> eben heraus 
+<anchor xml:id="GB03_1_BR160_0_099_002"/>gegangen, habe mich in Nacht Dämmer <ref target="gb:note#GB03_2_BR160_0_note_004_99_2" xml:id="start_com_1528"/>gelezt<ref xml:id="end_com_1528"/> und dencke an 
+<anchor xml:id="GB03_1_BR160_0_099_003"/>dich. – Lieber <ref target="gb:note#GB03_2_BR160_0_note_005_99_3" xml:id="start_com_1529"/>Br.<ref xml:id="end_com_1529"/>
+        <ref target="gb:note#GB03_2_BR160_0_note_006_99_3" xml:id="start_com_1530"/>dass du iust so geplagt seyn must<ref xml:id="end_com_1530"/> zur Zeit da ich so 
+<anchor xml:id="GB03_1_BR160_0_099_004"/>glücklich bin. Da mir das Schicksaal einen ganz reinen Moment bereitet, 
+<anchor xml:id="GB03_1_BR160_0_099_005"/>dass ich nicht müsig sey<ptr n="1" target="#a001_99.5"/> eine würckende Entfaltung für die Zukunft. 
+<anchor xml:id="GB03_1_BR160_0_099_006"/>Gute Nacht</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR160_0_099_007"/>Montag d<g ref="#typoSuspension"/>. 26. Heut ist <ref target="gb:note#GB03_2_BR160_0_note_007_99_7" xml:id="start_com_1531"/>deine Büste von Franckf. angekommen<ref xml:id="end_com_1531"/>
+        <anchor xml:id="GB03_1_BR160_0_099_008"/>glücklich, Hat mir viel Freude gemacht. Hier hast du <ref target="gb:note#GB03_2_BR160_0_note_008_99_8-9" xml:id="start_com_1532"/>einen Schatten 
+<anchor xml:id="GB03_1_BR160_0_099_009"/>vom Herzog<ref xml:id="end_com_1532"/>. – Ich fühl erst iezo wie weit wir aus einander kommen 
+<anchor xml:id="GB03_1_BR160_0_099_010"/>sind, ich kann dir nichts schreiben. Resultate und Abstracktionen 
+<anchor xml:id="GB03_1_BR160_0_099_011"/>mag ich nicht, Geschichten und Einzelnheiten kann ich nicht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR160_0_099_012"/>Freytag d<g ref="#typoSuspension"/>. 30. Ich will dir nur das grade schicken. Denn mehr 
+<anchor xml:id="GB03_1_BR160_0_099_013"/>kann ich doch iezt nicht sagen. Grüs <ref target="gb:note#GB03_2_BR160_0_note_009_99_13" xml:id="start_com_1533"/>Bäben<ref xml:id="end_com_1533"/> danck der herzlichen für 
+<anchor xml:id="GB03_1_BR160_0_099_014"/>
+        <ref target="gb:note#GB03_2_BR160_0_note_010_99_14" xml:id="start_com_1534"/>Ihren Brief<ref xml:id="end_com_1534"/>. Hier ein paar Zeilen reinen Gefühls <ref target="gb:note#GB03_2_BR160_0_note_011_99_14-15" xml:id="start_com_1535"/>auf dem Türinger 
+<anchor xml:id="GB03_1_BR160_0_099_015"/>Walde geschrieben d<g ref="#typoSuspension"/>. 3 Aug<ref xml:id="end_com_1535"/> Morgends unter dem Zeichnen.</p>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR160_0_099_016"/><head rendition="#c">
+        <ref target="gb:note#GB03_2_BR160_0_note_012_99_16-31" xml:id="start_com_1536"/>Dem Schicksaal.</head>         
+        <anchor xml:id="GB03_1_BR160_0_099_017"/>
+        <l rendition="#einrueck4">Was weis ich was mir hier gefällt</l>
+        <anchor xml:id="GB03_1_BR160_0_099_018"/>
+        <l rendition="#einrueck4">In dieser engen kleinen Welt</l>
+        <anchor xml:id="GB03_1_BR160_0_099_019"/>
+        <l rendition="#einrueck4">Mit leisem Zauberband mich hält!</l>
+        <anchor xml:id="GB03_1_BR160_0_099_020"/>
+        <l rendition="#einrueck4">Mein Carl und ich vergessen hier</l>
+        <anchor xml:id="GB03_1_BR160_0_099_021"/>
+        <l rendition="#einrueck4">Wie seltsam uns ein tiefes Schicksaal leitet</l>
+        <anchor xml:id="GB03_1_BR160_0_099_022"/>
+        <l rendition="#einrueck4">Und, ach ich fühls, im Stillen werden wir</l>
+        <anchor xml:id="GB03_1_BR160_0_099_023"/>
+        <l rendition="#einrueck4">Zu neuen Scenen vorbereitet.</l>
+        <anchor xml:id="GB03_1_BR160_0_099_024"/>
+        <l rendition="#einrueck4">Du hast uns lieb du gabst uns das Gefühl:</l>
+        <anchor xml:id="GB03_1_BR160_0_099_025"/>
+        <l rendition="#einrueck4">Dass ohne dich wir nur vergebens sinnen,</l>
+        <anchor xml:id="GB03_1_BR160_0_099_026"/>
+        <l rendition="#einrueck4">Durch Ungeduld und glaubenleer Gewühl</l>
+        <anchor xml:id="GB03_1_BR160_0_099_027"/>
+        <l rendition="#einrueck4">Voreilig dir niemals was abgewinnen.</l>
+        <anchor xml:id="GB03_1_BR160_0_099_028"/>
+        <l rendition="#einrueck4">Du hast für uns das rechte Maas getroffen</l>
+        <anchor xml:id="GB03_1_BR160_0_099_029"/>
+        <l rendition="#einrueck4">In reine Dumpfheit uns gehüllt,</l>
+        <anchor xml:id="GB03_1_BR160_0_099_030"/>
+        <l rendition="#einrueck4">Dass wir, von Lebenskrafft erfüllt,</l>
+        <anchor xml:id="GB03_1_BR160_0_099_031"/>
+        <l rendition="#einrueck4">In holder Gegenwart der lieben Zukunft hoffen.<ref xml:id="end_com_1536"/>
+        </l>
+      </lg>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR160_0_099_032"/>Ade <ref target="gb:note#GB03_2_BR160_0_note_013_99_32" xml:id="start_com_1537"/>grüs Kaysern danck ihm für die Musick<ref xml:id="end_com_1537"/>. Denckt denn dein 
+<anchor xml:id="GB03_1_BR160_0_099_033"/>
+        <ref target="gb:note#GB03_2_BR160_0_note_014_99_33" xml:id="start_com_1538"/>Wibele<ref xml:id="end_com_1538"/> noch an mich und hat sie mich noch lieb. <ref target="gb:note#GB03_2_BR160_0_note_015_99_33-100_1" xml:id="start_com_1539"/>Der Gr. Wartensleben 
+<anchor xml:id="GB03_1_BR160_0_100_001"/>hab ich gerathen ihren Sohn nach Dessau zu thun.<ref xml:id="end_com_1539"/> Hier <ref target="gb:note#GB03_2_BR160_0_note_016_100_1-2" xml:id="start_com_1540"/>ihre Silhouette<ref xml:id="end_com_1540"/>.
+<anchor xml:id="GB03_1_BR160_0_100_002"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR160_0_100_003"/>Schreib mir doch!                                                         </dateline>
+        <signed rend="paraph">G.</signed> <pb n="2" facs="gb:digitalisate#9606/13802"/></closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR160_0_100_004"/>Was sagst du zu dieser, durchs verkleinern und ausschneiden noch<ptr n="2" target="#a002_100.4"/>
+          <ref target="gb:note#GB03_2_BR160_0_note_017_100_4-5" xml:id="start_com_1541"/>unenlich<ref xml:id="end_com_1541"/>
+          <anchor xml:id="GB03_1_BR160_0_100_005"/>verrückten Weiblichkeit?</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9606_comment">
+<body>
+<div type="metadata" xml:id="gb9606_comment_com931">
+  <ab type="numberAddressee"><label>160.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 25.-30. <supplied>August 1776</supplied> → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb9606_comment_com1811">
+  <p>Monat und Jahr gehen aus dem Inhalt des Briefes hervor.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9606_comment_com2975">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 74. – 1 Bl. 19,6(–20) × 27,4 cm, 1 S. und drei Zeilen beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 157–159, Nr 43.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 99 f., Nr 503.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb9606_comment_com3722">
+  <p>1) Schattenriss des Herzogs Carl August (vgl. zu <ref target="gb:note#GB03_2_BR160_0_note_008_99_8-9">99,8-9</ref>).</p>
+  <p>2) Schattenriss der Gräfin Isabella von Wartensleben (vgl. zu <ref target="gb:note#GB03_2_BR160_0_note_016_100_1-2">100,1-2</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb9606_comment_com4771">
+  <p>Der Bezugsbrief ist nicht überliefert (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR160_0_note_006_99_3">99,3</ref>). – Lavater antwortete am 7. oder 8. September 1776 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 70, Nr 49; vgl. <ref target="ra:dokument#77">RA 1, 67, Nr 72</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9606_comment_com16810">
+<label xml:id="GB03_2_BR160_0_note_001_98_15" copyOf="#start_com_1525"><hi rendition="#fett">98,15</hi>wieder einmal einen Brief an dich</label>
+<p>Goethes letzter überlieferter Brief an Lavater stammt vom 6. März 1776 (<ref target="gb:dokument#10665">Nr 56</ref>), der letzte erschlossene Brief vom 10. April 1776 (<ref target="gb:dokument#15751">EB 55</ref>). Lavaters letzter überlieferter Brief trägt das Datum vom 27. April 1776 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 66–68, Nr 47; vgl. auch <ref target="ra:dokument#68">RA 1, 65, Nr 63</ref>).</p>
+
+</note>
+<note xml:id="gb9606_comment_com7619">
+<label xml:id="GB03_2_BR160_0_note_002_98_16-99_1" copyOf="#start_com_1526"><hi rendition="#fett">98,16-99,1</hi>Eine herrliche Mondennacht!</label>
+<p>Zuvor hatte Goethe den Nachmittag und Abend des Tages mit Charlotte von Stein verbracht: <quote type="G">Englich</quote> <supplied>sic</supplied> <quote type="G">gelehrt. Grammatikalischer Spas.</quote> (<ref target="gt:dokument#126">GT I 1, 24</ref>.)</p>
+
+</note>
+<note xml:id="gb9606_comment_com7620">
+<label xml:id="GB03_2_BR160_0_note_003_99_1" copyOf="#start_com_1527"><hi rendition="#fett">99,1</hi>meinem Garten</label>
+<p>Goethes Garten oberhalb des „Sterns“ im Park an der Ilm (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb9606_comment_com14720">
+<label xml:id="GB03_2_BR160_0_note_004_99_2" copyOf="#start_com_1528"><hi rendition="#fett">99,2</hi>gelezt</label>
+<p>Letzen: schon zeitgenössisch veraltetes, nur noch poetisch gebrauchtes Wort für ‚vergnügen‘, ‚erfreuen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 2035).</p>
+
+</note>
+<note xml:id="gb9606_comment_com7621">
+<label xml:id="GB03_2_BR160_0_note_005_99_3" copyOf="#start_com_1529"><hi rendition="#fett">99,3</hi>Br.</label>
+<p>Bruder.</p>
+
+</note>
+<note xml:id="gb9606_comment_com7622">
+<label xml:id="GB03_2_BR160_0_note_006_99_3" copyOf="#start_com_1530"><hi rendition="#fett">99,3</hi>dass du iust so geplagt seyn must</label>
+<p>Goethe bezieht sich offenbar auf einen nicht überlieferten Brief Lavaters.</p>
+
+</note>
+<note xml:id="gb9606_comment_com16817">
+<label xml:id="GB03_2_BR160_0_note_007_99_7" copyOf="#start_com_1531"><hi rendition="#fett">99,7</hi>deine Büste von Franckf. angekommen</label>
+<p>Eine von Johann Valentin Sonnenschein 1775/76 geschaffene Büste Lavaters, die dieser Goethe zum Geschenk machte. Goethe stellte sie in seinem Gartenhaus auf. Es handelt sich um die Büste, die Goethes Schützling Peter im Baumgarten 1777 mit Tinte beschmierte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). – Sonnenschein, der zuvor in Diensten des württembergischen Herzogs Carl Eugen stand, hatte 1774 auf Einladung Lavaters für einige Monate Zürich besucht; ein Jahr später ging der Bildhauer und Stukkateur dauerhaft in die Schweiz.</p>
+
+</note>
+<note xml:id="gb9606_comment_com16311">
+<label xml:id="GB03_2_BR160_0_note_008_99_8-9" copyOf="#start_com_1532"><hi rendition="#fett">99,8-9</hi>einen Schatten vom Herzog</label>
+<p>Ein Schattenriss (eine Silhouette) von Herzog Carl August, der möglicherweise von Goethe stammt (vgl. <ref target="sndb:sigle#2147">GNM</ref>, Inv.-Nr GSi). In die „Physiognomischen Fragmente“ wurde keine Silhouette Carl Augusts aufgenommen. Erst im 2. Band der französischen Ausgabe „Essai sur la physiognomie, destiné a faire Connoître l’Homme &amp; le faire Aimer“ (La Haye 1783) finden sich ein Profilbild des Herzogs (S. 227) und unter der Überschrift „Portrait W…r“ ein Kommentar (S. 230).</p>
+
+</note>
+<note xml:id="gb9606_comment_com7633">
+<label xml:id="GB03_2_BR160_0_note_009_99_13" copyOf="#start_com_1533"><hi rendition="#fett">99,13</hi>Bäben</label>
+<p>Barbara (Bäbe) Schultheß, Freundin Lavaters und Goethes in Zürich (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR155_0_note_006_97_9">97,9</ref>).</p>
+
+</note>
+<note xml:id="gb9606_comment_com15861">
+<label xml:id="GB03_2_BR160_0_note_010_99_14" copyOf="#start_com_1534"><hi rendition="#fett">99,14</hi>Ihren Brief</label>
+<p>Nicht überliefert.</p>
+
+</note>
+<note xml:id="gb9606_comment_com16890">
+<label xml:id="GB03_2_BR160_0_note_011_99_14-15" copyOf="#start_com_1535"><hi rendition="#fett">99,14-15</hi>auf dem Türinger Walde geschrieben d<g ref="#typoSuspension"/>. 3 Aug</label>
+<p>Am Morgen des 3. August 1776 hielt sich Goethe auf dem Schlossberg von Stützerbach im Thüringer Wald auf und zeichnete (vgl. <ref target="gt:dokument#109">GT I 1, 23</ref>). Er war am 17. Juli mit Herzog Carl August von Weimar nach Ilmenau aufgebrochen (vgl. <ref target="gt:dokument#92">GT I 1, 21</ref>); von dort führten Ausflüge u. a. auch nach Stützerbach. Die Reise diente der Wiederbelebung des Bergbaus und der Jagd. Am 14. August kehrte Goethe nach Weimar zurück (vgl. <ref target="gt:dokument#120">GT I 1, 24</ref>).</p>
+
+</note>
+<note xml:id="gb9606_comment_com7634">
+<label xml:id="GB03_2_BR160_0_note_012_99_16-31" copyOf="#start_com_1536"><hi rendition="#fett">99,16-31</hi>Dem Schicksaal <gap quantity="3" reason="editorial"/> Zukunft hoffen.</label>
+<p>In seinem Tagebuch nennt Goethe das Gedicht <quote type="G">Gesang des dumpfen Lebens</quote> (<ref target="gt:dokument#109">GT I 1, 23</ref>). Goethe nahm das Gedicht in die erste Gesamtausgabe seiner Werke auf, unter dem Titel „Einschränkung“ und nach Tilgung des Bezugs auf Herzog Carl August (vgl. Goethe’s Schriften. Bd 8. Leipzig 1789, S. 159). – ‚Reine Dumpfheit‘: Wie das Epitheton ‚rein‘ andeutet, hatte der Begriff für Goethe nichts Pejoratives, sondern drückte eine unbewusste, aber intensive volle Empfindung aus, ein „Gefühl naturhafter Kraft“ und „Fülle“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1290). Vgl. auch zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>.</p>
+
+</note>
+<note xml:id="gb9606_comment_com7635">
+<label xml:id="GB03_2_BR160_0_note_013_99_32" copyOf="#start_com_1537"><hi rendition="#fett">99,32</hi>grüs Kaysern danck ihm für die Musick</label>
+<p>Goethe lässt seinem Jugendfreund Philipp Christoph Kayser, der seit Frühjahr 1775 als Musiklehrer in Zürich tätig war, für die Zusendung von Kompositionen danken (vgl. zu <ref target="gb:note#GB03_2_BR251_0_note_003_141_18">141,18</ref>).</p>
+
+</note>
+<note xml:id="gb9606_comment_com7649">
+<label xml:id="GB03_2_BR160_0_note_014_99_33" copyOf="#start_com_1538"><hi rendition="#fett">99,33</hi>Wibele</label>
+<p>Schweizerische Diminutivform für ‚Weib‘; gemeint ist Anna Lavater geb. Schinz.</p>
+
+</note>
+<note xml:id="gb9606_comment_com7650">
+<label xml:id="GB03_2_BR160_0_note_015_99_33-100_1" copyOf="#start_com_1539"><hi rendition="#fett">99,33-100,1</hi>Der Gr. Wartensleben <gap quantity="3" reason="editorial"/> nach Dessau zu thun.</label>
+<p>Gräfin Isabella von Wartensleben im westfälischen Exten (bei Rinteln), eine Freundin Charlotte von Steins, hatte sich mit einem Brief vom 2. Juli 1776 an Lavater gewandt und dessen Rat in der Frage erbeten, ob sie ihren Sohn Gideon ins Philanthropinum im schweizerischen Marschlins (Graubünden), eine 1761 in Zizers (bei Chur) gegründete, seit 1771 in Schloss Marschlins untergebrachte Schul- und Erziehungsanstalt, schicken solle: „Dieses Kind ist im eilften Jahre. Gesund, lebhaft, voller Fähigkeiten, aber von einer solchen orriginalen tournure des Verstandes so wohl als des Herzens, daß ich in der aller ängstlichsten Ungewißheit stehe ob es einmal ein guter oder ein böser Mensch werden wird.“ (H: Zentralbibliothek Zürich, FA Lav Ms 531.131.) In seiner Antwort vom 17. Juli 1776 hatte Lavater mitgeteilt, dass Marschlins „wahrscheinlich eine der besten existirenden Schulen“ sei, aber noch nicht das, „was sie seyn soll, und gerad izt hat sie ein kleines Catarrfieber“ (H [Konzept]: Zentralbibliothek Zürich, FA Lav Ms 586.12). Das Institut war im Lauf des Jahres 1776 durch Auseinandersetzungen unter den Lehrern und das Ausbleiben von Zöglingen in pädagogische und finanzielle Schwierigkeiten geraten. Obwohl Lavater sich durch einen öffentlichen Aufruf im Oktober 1776 für den Erhalt der Einrichtung einsetzte, wurde sie im Februar 1777 geschlossen. Nachdem die Gräfin von Wartensleben Lavaters unbefriedigende Antwort erhalten hatte, war sie offenbar an Goethe herangetreten. Mit dessen Ratschlag, das Kind in Dessau unterzubringen, war Lavater nicht einverstanden; in seiner Antwort auf den vorliegenden Brief, von welcher nur das folgende Zitat in Goethes Brief an Charlotte von Stein vom 16. September 1776 überliefert ist, heißt es: <quote type="G">Die Grafin v. W. wird in Dessau die Religion nicht finden, die sie sich für ihren Sohn wünscht und die unser</quote> <supplied>Johann Caspar</supplied> <quote type="G"> <hi rendition="#hervor1">Häfelin</hi> in Marschlinz ihn lehren würde.</quote> (<ref target="gb:text#GB03_1_BR172_0_109_013 #GB03_1_BR172_0_109_015">109,13–15</ref>; vgl. auch <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 70.) Zu dieser Auffassung gelangte auch Isabella von Wartensleben. Am 30. November 1776 schrieb sie an Lavater: „Ich dancke Ihnen lieber Herr Pfarrer, für das was Sie mir durch Hl<hi rendition="#sup #u">n</hi>. Göthe haben sagen laßen. Sie haben Recht, und ich, habe kein Vertrauen zu Dessau.“ (H: Zentralbibliothek Zürich, FA Lav Ms 531.132.) Über das Philanthropin zu Marschlins musste Lavater schließlich am 4. Januar 1777 der Gräfin berichten: „Marschlinß kann <supplied>trotz</supplied> aller angewandten Mühe nicht seyn, u: nicht werden, was wir hoffen.“ (H [Konzept]: Zentralbibliothek Zürich, FA Lav Ms 586.13.) – ‚Dessau‘: Gemeint ist das von Johann Bernhard Basedow und Christian Hinrich Wolke Ende 1774 gegründete Dessauer Philanthropinum. Die Schule wurde 1776 von Wolke und Joachim Heinrich Campe geleitet. Sie bestand bis 1793.</p>
+
+</note>
+<note xml:id="gb9606_comment_com7651">
+<label xml:id="GB03_2_BR160_0_note_016_100_1-2" copyOf="#start_com_1540"><hi rendition="#fett">100,1-2</hi>ihre Silhouette</label>
+<p>Vermutlich hatte Goethe selbst den Schattenriss angefertigt; im Tagebuch heißt es unter dem 24. August 1776: <quote type="G">Silh. der Grafinnen gemacht.</quote> (<ref target="gt:dokument#125">GT I 1, 24</ref>.) Damit sind wohl die Gräfinnen Isabella von Wartensleben und Maria von Hohenlohe-Kirchberg gemeint (vgl. GT I 2, 401, zu 24,10); vgl. auch zu <ref target="gb:note#GB03_2_BR157_0_note_003_98_3">98,3</ref>. – Keine der beiden Gräfinnen ist in den „Physiognomischen Fragmenten“ mit einer Silhouette vertreten.</p>
+
+</note>
+<note xml:id="gb9606_comment_com7652">
+<label xml:id="GB03_2_BR160_0_note_017_100_4-5" copyOf="#start_com_1541"><hi rendition="#fett">100,4-5</hi>unenlich</label>
+<p>Schreibversehen.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

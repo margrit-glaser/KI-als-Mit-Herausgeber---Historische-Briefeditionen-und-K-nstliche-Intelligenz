@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="480"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10577" n="GB 3, Nr. 48">
+  <teiHeader xml:id="gb10577_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>48.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 20. Februar 1776. Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:26Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10577_tei.xml</idno>
+        <idno type="URI">gb10577</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR048_0</idno>
+        <idno type="KSW-ID">10577</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="35" to="35">35</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="150" to="153">150-153</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10577_header_hwit904" corresp="#gb10577_source_hwit904" sameAs="#gb10577_comment_hwit904" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 68</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10577,,904/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich hab mich über deine Plans Wirthschafft ein bissel geärgert, ich sah lang dass du meinen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-20"><supplied>20. Februar 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-03-15" to="1776-03-25"><supplied>ca. 20. März 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#64">RA 1, Nr. 59</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10577_source_hwit904" corresp="#gb10577_header_hwit904" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10577/13769"/>
+      <p>
+        <anchor xml:id="GB03_1_BR048_0_035_001"/>Ich hab mich über <ref target="gb:note#GB03_2_BR048_0_note_001_35_1" xml:id="start_com_0555"/>deine Plans Wirthschafft<ref xml:id="end_com_0555"/> ein bissel geärgert, ich sah 
+<anchor xml:id="GB03_1_BR048_0_035_002"/>lang dass du meinen nicht befolgen würdest, nun auch gut wenn du 
+<anchor xml:id="GB03_1_BR048_0_035_003"/>deinen hast, und ihn ohne mich ausführen kannst. <ref target="gb:note#GB03_2_BR048_0_note_002_35_3-4" xml:id="start_com_0556"/>Nur kommt iust 
+<anchor xml:id="GB03_1_BR048_0_035_004"/>alles was ich gemacht habe nicht in<ptr n="1" target="#a001_35.4"/> den Theil.<ref xml:id="end_com_0556"/>
+        <ref target="gb:note#GB03_2_BR048_0_note_003_35_4" xml:id="start_com_0557"/>Haman mach ich nicht.<ref xml:id="end_com_0557"/>
+        <anchor xml:id="GB03_1_BR048_0_035_005"/>Das versprech ich dir aber dass ich biss zu Ende will alles ordentlich 
+<anchor xml:id="GB03_1_BR048_0_035_006"/>halten und besorgen. Nur schick alles und wie du’s förderst <ref target="gb:note#GB03_2_BR048_0_note_004_35_6-7" xml:id="start_com_0558"/>an Wieland<ref xml:id="end_com_0558"/>. 
+<anchor xml:id="GB03_1_BR048_0_035_007"/>Wir machen vielleicht <ref target="gb:note#GB03_2_BR048_0_note_005_35_7" xml:id="start_com_0559"/>eine Reise<ref xml:id="end_com_0559"/>
+        <ref target="gb:note#GB03_2_BR048_0_note_006_35_7" xml:id="start_com_0560"/>der Herz. u ich<ref xml:id="end_com_0560"/> es soll aber 
+<anchor xml:id="GB03_1_BR048_0_035_008"/>doch nichts hindern. <ref target="gb:note#GB03_2_BR048_0_note_007_35_8-9" xml:id="start_com_0561"/>Hast du Aristoteles über die Phisiognomick gelesen.<ref xml:id="end_com_0561"/>
+<anchor xml:id="GB03_1_BR048_0_035_009"/>eine Stelle daraus wird über den Thierschädeln paradiren vielleicht 
+<anchor xml:id="GB03_1_BR048_0_035_010"/><ref target="gb:note#GB03_2_BR048_0_note_008_35_10" xml:id="start_com_0562"/>ein Auszug am Ende des zweyten<ptr n="2" target="#a002_35.10"/> Theils<ref xml:id="end_com_0562"/>, leb wohl und liebe. <pb n="2" facs="gb:digitalisate#10577/13770"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR048_0_035_011"/><ref target="gb:note#GB03_2_BR048_0_note_009_35_11" xml:id="start_com_0563"/>Herder wird General Superndendt<ref xml:id="end_com_0563"/> pp – ——</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR048_0_035_012"/><ref target="gb:note#GB03_2_BR048_0_note_010_35_12-14" xml:id="start_com_0564"/>Wenn <hi rendition="#hervor2">ich</hi> dich künftig frage so antworte <hi rendition="#hervor2">mir</hi> – es kann all gut 
+<anchor xml:id="GB03_1_BR048_0_035_013"/>seyn was <hi rendition="#hervor1">du</hi> <hi rendition="#hervor2">dir denckst</hi> und <hi rendition="#hervor2">wähnst</hi>, aber wenn <hi rendition="#hervor1">ich</hi> frage 
+<anchor xml:id="GB03_1_BR048_0_035_014"/>musst<ptr n="3" target="#a003_35.14"/> du nie <hi rendition="#hervor1">Weibern</hi> antworten.<ref xml:id="end_com_0564"/> Wie man auch <hi rendition="#hervor1">dem</hi> nie <hi rendition="#hervor1">schreiben</hi>
+<anchor xml:id="GB03_1_BR048_0_035_015"/>soll als <hi rendition="#hervor1">dem</hi> mit <hi rendition="#hervor1">dem</hi> man <hi rendition="#hervor1">gelebt</hi><ptr n="4" target="#a004_35.15"/> hat und nur im Maas als 
+<anchor xml:id="GB03_1_BR048_0_035_016"/>man mit ihm <hi rendition="#hervor1">gelebt</hi> hat. ——— <ref target="gb:note#GB03_2_BR048_0_note_011_35_16-17" xml:id="start_com_0565"/>Ich hoffe und fühle der Ton deines 
+<anchor xml:id="GB03_1_BR048_0_035_017"/>dritten Theils wird weniger <hi rendition="#hervor1">zitternd</hi> und <hi rendition="#hervor1">bebend</hi> seyn.<ref xml:id="end_com_0565"/> Ich wollte 
+<anchor xml:id="GB03_1_BR048_0_035_018"/>das <pb n="3" facs="gb:digitalisate#10577/13771"/> ausstreichen. Aber wenn du’s<ptr n="5" target="#a005_35.18"/> schreiben konntest, mags auch gedruckt 
+<anchor xml:id="GB03_1_BR048_0_035_019"/>werden</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR048_0_035_020"/>──────────────────────────</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR048_0_035_021"/>────────────────────────────────</p>
+      <p rendition="#einrueck5">
+        <anchor xml:id="GB03_1_BR048_0_035_022"/>
+        <g ref="#NB"/>.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR048_0_035_023"/>Du nimmst in <hi rendition="#sup">+</hi>Liebe zu mir ab. —— —— Schreibst mir nur wenn du 
+<anchor xml:id="GB03_1_BR048_0_035_024"/>mich brauchst! —— —— Merck dir das und gönn mir auch eine gute 
+<anchor xml:id="GB03_1_BR048_0_035_025"/>Stunde.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR048_0_035_026"/><hi rendition="#sup">+</hi> <emph rendition="#latin"><ref target="gb:note#GB03_2_BR048_0_note_012_35_26" xml:id="start_com_0566"/>i. e.</emph><ref xml:id="end_com_0566"/> Ausdruck der Liebe – Nothwendige <ref target="gb:note#GB03_2_BR048_0_note_013_35_26-27" xml:id="start_com_0567"/>Wort und Sprach Coexistenz.<ref xml:id="end_com_0567"/>
+<anchor xml:id="GB03_1_BR048_0_035_027"/><ref xml:id="start_com_0568" target="gb:note#GB03_2_BR048_0_note_014_35_27"/>|<ref xml:id="end_com_0568"/> d. heist ich bin dir nun abgethanes Ding. —— <ref target="gb:note#GB03_2_BR048_0_note_015_35_27" xml:id="start_com_0569"/>Amen.<ref xml:id="end_com_0569"/>
+      </p>
+    <pb n="4" facs="gb:digitalisate#10577/13772" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10577_comment">
+<body>
+<div type="metadata" xml:id="gb10577_comment_com409">
+  <ab type="numberAddressee"><label>48.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>20. Februar 1776</supplied> → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10577_comment_com1584">
+  <p>Nach seinem Empfangsvermerk (vgl. <ref target="gb:note#gb10577_comment_com2453">Überlieferung</ref>) und nach der Mitteilung in seinem Antwortbrief von Anfang März 1776 (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 63) erhielt Lavater den Brief am 1. März 1776. In Goethes Rechnungsbuch ist unter dem 20. Februar 1776 ein Brief an Lavater verzeichnet. Dabei kann es sich nur um den vorliegenden Brief handeln. Briefe zwischen Weimar und Zürich liefen etwa 6–8 Tage (auf Goethes Brief vom 6. März 1776 [Nr 56] antwortete Lavater am 12. März im Brief an Wieland [vgl. <ref target="sndb:sigle#141">WB</ref> 6 III, 1519]; Wielands Brief vom 5. Februar 1776 [<ref target="sndb:sigle#141">WB</ref> 5, 469 f.] erhielt Lavater am 13. Februar [vgl. <ref target="sndb:sigle#141">WB</ref> 5, 471,25; <ref target="sndb:sigle#141">WB</ref> 6 III, 1506]).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10577_comment_com2453">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 68. – Doppelblatt 10(–10,3) × 16,5(–16,7) cm, 3 S. beschr., egh., Tinte, von S. 2 an zunehmend flüchtig geschrieben; S. 1 oben rechts Empfangsvermerk, Tinte: „d<g ref="#typoSuspension"/> 1 Mz 1778.[!]“ (Die Angabe des Jahres beruht auf einem Irrtum; vgl. <ref target="gb:note#gb10577_comment_com1584">Datierung</ref>.)</p>
+  <p>E: Zur Hausandacht für die stille Gemeinde am 28. August 1871, S. 13, Nr 2 d (mit Datierung: Weimar, März 1776).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 42 f., Nr 421 (Korrektur des Datums in den „Lesarten“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 3, 280, und „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 30,25).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10577_comment_com4249">
+  <p>Der Brief beantwortet ein nicht überliefertes „Billiet“ Lavaters (<ref target="sndb:sigle#141">WB</ref> 5, 471), welches dieser seinem Brief an Wieland vom 13. Februar 1776 beigelegt hatte. – Lavater antwortete Anfang März 1776 (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 63–65, Nr 44; vgl. <ref target="ra:dokument#64">RA 1, 64, Nr 59</ref>).</p>
+  <p rendition="#einrueck1">Postsendungen: 20. Februar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 5v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10577_comment_com13892">
+<label xml:id="GB03_2_BR048_0_note_001_35_1" copyOf="#start_com_0555"><hi rendition="#fett">35,1</hi>deine Plans Wirthschafft</label>
+<p>Gemeint ist der Plan zum 2. Band von Lavaters „Physiognomischen Fragmenten“, der seit Januar bei Philipp Erasmus Reich in Leipzig gedruckt wurde. Während seiner ersten Schweizer Reise hatte sich Goethe im Juni und Juli 1775 in Zürich aufgehalten. Dabei hatten er und Lavater den weiteren Fortgang der „Fragmente“ besprochen: <quote type="G">Unsre nächste, und fast ununterbrochene Unterhaltung war seine Physiognomik. <gap quantity="3" reason="editorial"/> Wir verhandelten alles den Umständen nach gründlich genug, und ich versprach ihm dabey nach meiner Rückkehr die bisherige Theilnahme.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 605 und 622 [18. und 19. Buch].) Eduard von der Hellen schließt aus der Kritik im vorliegenden Brief, dass die in Zürich entwickelte Konzeption des 2. Bandes weitgehend auf Goethe zurückging und dass dieser deshalb nun von der Aufkündigung ‚seines‘ Plans sprach (vgl. von der Hellen, 123). Allerdings war es bereits im September 1775 zu Unstimmigkeiten zwischen Goethe und Lavater in Bezug auf die Zusammenarbeit an den „Physiognomischen Fragmenten“ gekommen (vgl. <ref target="gb:note#GB02_2_BR261_0_note_001_211_1-2">GB 2 II, zu 211,1–2</ref>).</p>
+
+</note>
+<note xml:id="gb10577_comment_com9169">
+<label xml:id="GB03_2_BR048_0_note_002_35_3-4" copyOf="#start_com_0556"><hi rendition="#fett">35,3-4</hi>Nur kommt iust alles <gap quantity="3" reason="editorial"/> nicht in den Theil.</label>
+<p>Über Goethes Anteil am 2. Band der „Physiognomischen Fragmente“ vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_004_7_5">7,5</ref>. In Lavaters Antwortbrief von Anfang März heißt es: „Wenn du nun alles hast, wie du’s haben solltest, was zum II. Thl gehört, wirst du sehen, daß du noch manches, ja das meiste von deinem Vorrathe brauchen kannst.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 64.)</p>
+
+</note>
+<note xml:id="gb10577_comment_com17303">
+<label xml:id="GB03_2_BR048_0_note_003_35_4" copyOf="#start_com_0557"><hi rendition="#fett">35,4</hi>Haman mach ich nicht.</label>
+<p>Lavater hatte mit seinem Brief an Wieland vom 13. Februar 1776 einen Kupferstich von Johann Georg Hamann übersandt, den Goethe physiognomisch interpretieren sollte (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 471). Goethes Kommentar wollte er mit Anmerkungen Herders über „Ham[anns] Karakter“ kompilieren, welche ihm dieser bereits mit seinem Brief vom 30. Dezember 1775 geschickt hatte (vgl. <ref target="sndb:sigle#2904">HB</ref> 3, 240). Nach Goethes Absage nahm Lavater eine Bearbeitung der Herderschen Bemerkungen vor und veröffentlichte den Beitrag im 2. Band der „Physiognomischen Fragmente“ im 36. Fragment „Religiöse, Schwärmer, Theosophen, Seher“ (S. 285 f.).</p>
+
+</note>
+<note xml:id="gb10577_comment_com9183">
+<label xml:id="GB03_2_BR048_0_note_004_35_6-7" copyOf="#start_com_0558"><hi rendition="#fett">35,6-7</hi>an Wieland</label>
+<p>Für den Zeitraum von Goethes Abwesenheit (vgl. die folgende <ref target="gb:note#GB03_2_BR048_0_note_005_35_7">Erläuterung</ref>) sollte Lavater seine Manuskripte an Wieland schicken.</p>
+
+</note>
+<note xml:id="gb10577_comment_com14813">
+<label xml:id="GB03_2_BR048_0_note_005_35_7" copyOf="#start_com_0559"><hi rendition="#fett">35,7</hi>eine Reise</label>
+<p>Goethe reiste vom 24. März bis zum 4. April nach Leipzig, wo er u. a. mit dem Verleger der „Physiognomischen Fragmente“, Philipp Erasmus Reich, zusammentraf (vgl. zu <ref target="gb:note#GB03_2_BR013_0_note_003_14_10">14,10</ref>).</p>
+
+</note>
+<note xml:id="gb10577_comment_com9184">
+<label xml:id="GB03_2_BR048_0_note_006_35_7" copyOf="#start_com_0560"><hi rendition="#fett">35,7</hi>der Herz. u ich</label>
+<p>Herzog Carl August von Sachsen-Weimar und Eisenach reiste wegen einer Erkrankung, die sich im März einstellte und bis Mitte April anhielt, nicht mit nach Leipzig (vgl. Wielands Brief an Johann Heinrich Merck, 12. April 1776 [<ref target="sndb:sigle#141">WB</ref> 5, 493] sowie zu <ref target="gb:note#GB03_2_BR080_0_note_001_52_1-2">52,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb10577_comment_com17317">
+<label xml:id="GB03_2_BR048_0_note_007_35_8-9" copyOf="#start_com_0561"><hi rendition="#fett">35,8-9</hi>Hast du Aristoteles über die Phisiognomick gelesen.</label>
+<p>Bereits Herder hatte Lavater in einem Brief nach dem 20. Februar 1775 auf die pseudoaristotelische Schrift „Physiognomonica“ aufmerksam gemacht (vgl. <ref target="sndb:sigle#2904">HB</ref> 3, 160). Goethe übersetzte eine Stelle daraus (805a 11–18 [Zählung nach Carl von Prantl]) und nutzte sie unter dem Titel „Aristoteles von der Physiognomik“ als einführende Bemerkung zu seinem Artikel „Thierschädel“ im 13. Fragment (S. 139–142; <ref target="sndb:sigle#1157">WA</ref> I 37, 348). Weiter vgl. <ref target="sndb:sigle#3122">von der Hellen</ref>, 163.</p>
+
+</note>
+<note xml:id="gb10577_comment_com9185">
+<label xml:id="GB03_2_BR048_0_note_008_35_10" copyOf="#start_com_0562"><hi rendition="#fett">35,10</hi>ein Auszug am Ende des zweyten Theils</label>
+<p>Eine solche weitere Übersetzung aus den „Physiognomika“ kam nicht zustande (vgl. <ref target="sndb:sigle#3122">von der Hellen</ref>, 163).</p>
+
+</note>
+<note xml:id="gb10577_comment_com9186">
+<label xml:id="GB03_2_BR048_0_note_009_35_11" copyOf="#start_com_0563"><hi rendition="#fett">35,11</hi>Herder wird General Superndendt</label>
+<p>Auf Vermittlung Goethes wurde Herder zum sachsen-weimarischen Generalsuperintendenten berufen und trat sein Amt am 1. Oktober 1776 an. Wieland hatte Lavater schon in seinem Brief vom 16. Februar von Herders Berufung berichtet (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 474). An diesen schrieb Lavater daraufhin am 27. Februar: „Du nach Weimar? Wo Stolberg Kammerherr, Wieland Merkur, Goethe Mignon, der Herzog ein trefflicher Mann, Louise der Engel ist.“ (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 160.)</p>
+
+</note>
+<note xml:id="gb10577_comment_com17330">
+<label xml:id="GB03_2_BR048_0_note_010_35_12-14" copyOf="#start_com_0564"><hi rendition="#fett">35,12-14</hi>Wenn <hi rendition="#hervor2">ich</hi> <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">Weibern</hi> antworten.</label>
+<p>Im Brief vom 21. oder 22. Dezember 1775 (<ref target="gb:dokument#10642">Nr 7</ref>) hatte Goethe auf Bitte Herzog Carl Augusts angefragt, ob Lavater ihm einen Kandidaten für das Amt eines Generalsuperintendenten nennen könne. Seinen Antwortbrief vom 3. Januar hatte Lavater an Herzogin Louise gerichtet (teilweise abgedruckt in der Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_011_7_16-17">7,16-17</ref>). Darüber hatte sich Goethe schon in seinem Brief an Lavater vom 22. Januar 1776 (<ref target="gb:dokument#10650">Nr 26</ref>) verärgert gezeigt (vgl. zu <ref target="gb:note#GB03_2_BR026_0_note_004_22_18-19">22,18-19</ref>).</p>
+
+</note>
+<note xml:id="gb10577_comment_com15987">
+<label xml:id="GB03_2_BR048_0_note_011_35_16-17" copyOf="#start_com_0565"><hi rendition="#fett">35,16-17</hi>Ich hoffe <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">bebend</hi> seyn.</label>
+<p>Lavaters emotional aufgeladener Stil, den Goethe hier ebenso kritisiert wie in <ref target="gb:dokument#11451">Nr 210</ref> (vgl. <ref target="gb:text#GB03_1_BR210_0_126_003 #GB03_1_BR210_0_126_006">126,3–6</ref>), gefiel anderen Freunden des Verfassers gut. So bekannte Friedrich Leopold zu Stolberg in seinem Brief an Lavater vom 10. September 1776: „O du lieber wie hat die Einleitung zum 2ten Theil mich gerührt! Wie lebendig dargestellt die Nacht vom 7 zum 8ten November [1775; Stolbergs Abschied von Lavater in Zürich]! Sey mir fest ans Herz gedrückt du allerliebster allerbester! du einziger!“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 400.) Auch Lavater selbst hatte am 8. November 1775 an Herder geschrieben: „Gestern, Bruder, hab’ ich die Einleitung zum zweiten Theil der ‚Physiognomik‘ gemacht, die erste Hälfte, war mir wohl bei diesem Capitelchen – Zittern und Wonne sein Inhalt.“ (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 150.)</p>
+
+</note>
+<note xml:id="gb10577_comment_com9202">
+<label xml:id="GB03_2_BR048_0_note_012_35_26" copyOf="#start_com_0566"><hi rendition="#fett">35,26</hi><emph rendition="#latin">i. e.</emph></label>
+<p>Lat. id est: Das heißt.</p>
+
+</note>
+<note xml:id="gb10577_comment_com9203">
+<label xml:id="GB03_2_BR048_0_note_013_35_26-27" copyOf="#start_com_0567"><hi rendition="#fett">35,26-27</hi>Wort und Sprach Coexistenz</label>
+<p>Ein ‚Zusammenleben in Wort und Sprache‘ in Form von Briefen. – Goethe beklagt sich über Lavaters nachlassende Korrespondenztätigkeit.</p>
+
+</note>
+<note xml:id="gb10577_comment_com101088">
+<label xml:id="GB03_2_BR048_0_note_014_35_27" copyOf="#start_com_0568"><hi rendition="#fett">35,27</hi>|</label>
+<p>Möglicherweise in der Funktion einer öffnenden Klammer; eine schließende Klammer fehlt allerdings.</p>
+</note>
+<note xml:id="gb10577_comment_com17102">
+<label xml:id="GB03_2_BR048_0_note_015_35_27" copyOf="#start_com_0569"><hi rendition="#fett">35,27</hi>Amen.</label>
+<p>Aus dem Hebräischen: So soll es sein. – Schlussformel des christlichen Gebets; wiederholt in den frühen Briefen Goethes zur Bekräftigung am Briefschluss gebraucht. Vgl. auch <ref target="gb:dokument#10586">GB 2 I, Nr 19</ref>, <ref target="gb:dokument#10382">92</ref>, <ref target="gb:dokument#10387">96</ref>, <ref target="gb:dokument#10536">146</ref>, <ref target="gb:dokument#10591">207</ref>, <ref target="gb:dokument#10532">216</ref>, <ref target="gb:dokument#10574">256</ref>, <ref target="gb:dokument#10562">259</ref>, <ref target="gb:dokument#10555">260</ref>, <ref target="gb:dokument#10622">263</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

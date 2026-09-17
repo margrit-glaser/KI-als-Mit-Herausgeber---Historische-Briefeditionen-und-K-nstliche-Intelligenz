@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4920"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11697" n="GB 3, Nr. 482">
+  <teiHeader xml:id="gb11697_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>482.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 29.? März 1779. Montag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11697_tei.xml</idno>
+        <idno type="URI">gb11697</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR482_0</idno>
+        <idno type="KSW-ID">11697</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="268" to="268">268</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="883" to="884">883-884</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11697_header_hwit1459" corresp="#gb11697_source_hwit1459" sameAs="#gb11697_comment_hwit1459" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 74</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11697,,1459/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Gut denn so wird mir ein Weeg gespaart, dafür mein Schimmel    unterthänig danckt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-03-29"><supplied>29.? März 1779</supplied></date>
+            <note>
+              <date type="WA" when="1779-03-15"><supplied>15. März 1779</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11697_source_hwit1459" corresp="#gb11697_header_hwit1459" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11697/23030"/>
+      <p>
+        <anchor xml:id="GB03_1_BR482_0_268_025"/>
+        <ref target="gb:note#GB03_2_BR482_0_note_001_268_25" xml:id="start_com_3912"/>Gut denn so wird mir ein Weeg gespaart<ref xml:id="end_com_3912"/>, dafür <ref target="gb:note#GB03_2_BR482_0_note_002_268_25-26" xml:id="start_com_3913"/>mein Schimmel unterthänig 
+<anchor xml:id="GB03_1_BR482_0_268_026"/>danckt<ref xml:id="end_com_3913"/>. <ref target="gb:note#GB03_2_BR482_0_note_003_268_26" xml:id="start_com_3914"/>Ich esse in Tiefurt<ref xml:id="end_com_3914"/><ptr n="1" target="#a001_268.26"/> und wenn <ref target="gb:note#GB03_2_BR482_0_note_004_268_26" xml:id="start_com_3915"/>die iunge Frau<ref xml:id="end_com_3915"/> zu Tisch 
+<anchor xml:id="GB03_1_BR482_0_268_027"/>kommt so erwarten wir <ref target="gb:note#GB03_2_BR482_0_note_005_268_27" xml:id="start_com_3916"/>die alte<ref xml:id="end_com_3916"/> zum <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR482_0_note_006_268_27" xml:id="start_com_3917"/>Gouté</emph>
+        <ref xml:id="end_com_3917"/>. Addio und besten guten 
+<anchor xml:id="GB03_1_BR482_0_268_028"/>Morgen beyden.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR482_0_268_029"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11697_comment">
+<body>
+<div type="metadata" xml:id="gb11697_comment_com577">
+  <ab type="numberAddressee"><label>482.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>29.? März 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11697_comment_com1675">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief am Ende des Jahrgangs 1777 eingeordnet. Im Erstdruck wurde er ohne Begründung nach Brief <ref target="gb:dokument#10914">Nr 123</ref> vom 4. Juni 1776 gesetzt. Seit Fielitz wird er in allen Ausgaben mit Ausnahme der WA auf den 29. März 1779 datiert (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 170, Nr 314). Abweichend dazu setzte ihn Eduard von der Hellen in der WA auf den 15. März 1779, und zwar mit dem Hinweis, dass die Bemerkung über den „stark beanspruchten Schimmel“ Goethes (<ref target="sndb:sigle#1157">WA</ref> IV 4, 341, Anm. zu Nr 797) auf die Zeit kurz nach seiner Rückkehr von der ersten Musterungs- und Wegebauinspektionsreise am 12. März verweisen würde. Da vom 15. März kein Tagebucheintrag überliefert ist, nimmt von der Hellen an, Goethe sei in Tiefurt gewesen, wogegen allerdings Brief <ref target="gb:dokument#49">Nr 477</ref> spricht, der wahrscheinlich unmittelbar vor Goethes Abreise nach Ilmenau, also auch am 15. März, geschrieben wurde (vgl. Datierung zu <ref target="gb:note#gb49_comment_com1847">Nr 477</ref>). Für die zuerst von Fielitz vorgeschlagene Datierung 29. März 1779 sprechen der Inhalt des Briefes und die Übereinstimmungen mit dem Fourierbuch (vgl. zu <ref target="gb:note#GB03_2_BR482_0_note_002_268_25-26">268,25-26</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR482_0_note_003_268_26">268,26</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11697_comment_com2621">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 74. – 1 Bl. 9,5 &#xD7; 7,8 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. Rest eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „77“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 81), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 37.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 22, Nr 797.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11697_comment_com4417">
+  <p>Der Brief beantwortet wahrscheinlich einen nicht überlieferten Brief Charlotte von Steins vom selben Tag (vgl. zu <ref target="gb:note#GB03_2_BR482_0_note_001_268_25">268,25</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11697_comment_com11267">
+<label xml:id="GB03_2_BR482_0_note_001_268_25" copyOf="#start_com_3912"><hi rendition="#fett">268,25</hi>Gut denn <gap quantity="3" reason="editorial"/> ein Weeg gespaart</label>
+<p>Wohl mit Bezug auf einen nicht überlieferten Brief Charlotte von Steins, in dem sie eine zuvor getroffene Verabredung abgesagt hatte.</p>
+
+</note>
+<note xml:id="gb11697_comment_com18010">
+<label xml:id="GB03_2_BR482_0_note_002_268_25-26" copyOf="#start_com_3913"><hi rendition="#fett">268,25-26</hi>mein Schimmel <gap quantity="3" reason="editorial"/> danckt</label>
+<p>Der ‚Schimmel‘ wurde mehrfach in den Briefen aus dem März 1779 erwähnt (vgl. zu <ref target="gb:note#GB03_2_BR469_0_note_020_262_12">262,12</ref>). Von der letzten Musterungs- und Inspektionsreise nach Ilmenau war Goethe zwar schon am 21. März zurückgekehrt, doch unternahm er auch danach kürzere Ritte in die Umgebung Weimars, so am 28. März nach Denstedt (vgl. <ref target="gt:dokument#704">GT I 1, 78</ref>).</p>
+
+</note>
+<note xml:id="gb11697_comment_com13693">
+<label xml:id="GB03_2_BR482_0_note_003_268_26" copyOf="#start_com_3914"><hi rendition="#fett">268,26</hi>Ich esse in Tiefurt</label>
+<p>Laut Tagebuch hatte Goethe am 28. März abends <quote type="G">Iphigenie</quote> geendigt (<ref target="gt:dokument#704">GT I 1, 78</ref>). Unter dem 29. trug er ein: <quote type="G">Ein toller Tag, aus einem ins andre von früh fünfen. <gap quantity="3" reason="editorial"/> in Tief. Iph. vorgelesen pp.</quote> (<ref target="gt:dokument#705">Ebd.</ref>) Er muss an diesem Tag Gast der herzoglichen Mittagstafel gewesen sein, die ohne das sonst übliche strenge Hofzeremoniell „in Tiefurth bey Durchl Prinz Constantin“ abgehalten wurde (<ref target="sndb:sigle#3945">FB 1779</ref>, S. 61).</p>
+
+</note>
+<note xml:id="gb11697_comment_com15175">
+<label xml:id="GB03_2_BR482_0_note_004_268_26" copyOf="#start_com_3915"><hi rendition="#fett">268,26</hi>die iunge Frau</label>
+<p>Möglicherweise Sophie Eleonore von Schardt geb. von Bernstorff, seit 1778 Ehefrau Carl von Schardts und Schwägerin Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb11697_comment_com11279">
+<label xml:id="GB03_2_BR482_0_note_005_268_27" copyOf="#start_com_3916"><hi rendition="#fett">268,27</hi>die alte</label>
+<p>Wahrscheinlich Charlotte von Stein.</p>
+
+</note>
+<note xml:id="gb11697_comment_com11280">
+<label xml:id="GB03_2_BR482_0_note_006_268_27" copyOf="#start_com_3917"><hi rendition="#fett">268,27</hi><emph rendition="#latin">Gouté</emph></label>
+<p>Franz. goûter: Vesperbrot. – Hier möglicherweise als Anspielung auf die Tiefurter Lesung der „Iphigenie“.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

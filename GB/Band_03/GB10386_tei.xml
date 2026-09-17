@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="500"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10386" n="GB 3, Nr. 50">
+  <teiHeader xml:id="gb10386_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>50.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 23. Februar 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:41Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10386_tei.xml</idno>
+        <idno type="URI">gb10386</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR050_0</idno>
+        <idno type="KSW-ID">10386</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="36" to="36">36</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="154" to="155">154-155</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10386_header_hwit882" corresp="#gb10386_source_hwit882" sameAs="#gb10386_comment_hwit882" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 6</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10386,,882/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie ruhig und leicht ich geschlafen habe, wie glücklich ich aufgestanden bin</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-23">23. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10386_source_hwit882" corresp="#gb10386_header_hwit882" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10386/22265"/>
+      <p>
+        <anchor xml:id="GB03_1_BR050_0_036_004"/>Wie ruhig und leicht ich geschlafen habe, wie glücklich ich aufgestanden 
+<anchor xml:id="GB03_1_BR050_0_036_005"/>bin und die schöne Sonne gegrüst habe <ref target="gb:note#GB03_2_BR050_0_note_001_36_5" xml:id="start_com_0573"/>das <ref target="gb:note#GB03_2_BR050_0_note_002_36_5-6" xml:id="start_com_0574"/>das<ref xml:id="end_com_0573"/> erstemal seit vierzehn 
+<anchor xml:id="GB03_1_BR050_0_036_006"/>Tagen mit freyem Herzen<ref xml:id="end_com_0574"/>, und wie <ref target="gb:note#GB03_2_BR050_0_note_003_36_6" xml:id="start_com_0575"/>voll Dancks gegen dich<ref xml:id="end_com_0575"/>
+        <ref target="gb:note#GB03_2_BR050_0_note_004_36_6-7" xml:id="start_com_0576"/>Engel 
+<anchor xml:id="GB03_1_BR050_0_036_007"/>des Himmels<ref xml:id="end_com_0576"/> dem ich das schuldig bin. Ich muss dir’s sagen <ref target="gb:note#GB03_2_BR050_0_note_005_36_7-8" xml:id="start_com_0577"/>du 
+<anchor xml:id="GB03_1_BR050_0_036_008"/>einzige unter den Weibern<ref xml:id="end_com_0577"/>, die<ptr n="1" target="#a001_36.8"/> mir eine Liebe in’s Herz gab die mich 
+<anchor xml:id="GB03_1_BR050_0_036_009"/>glücklich macht. Nicht eher als <ref target="gb:note#GB03_2_BR050_0_note_006_36_9" xml:id="start_com_0578"/>auf der Redoute<ref xml:id="end_com_0578"/> seh ich dich wieder! 
+<anchor xml:id="GB03_1_BR050_0_036_010"/>Wenn ich meinem Herzen gefolgt hätte – Nein will brav seyn – Ich 
+<anchor xml:id="GB03_1_BR050_0_036_011"/>liege zu deinen Füssen ich küsse deine Hände.</p>
+      <closer>
+        <dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR050_0_036_012"/>d<g ref="#typoSuspension"/> 23. Febr. 1776.     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10386_comment">
+<body>
+<div type="metadata" xml:id="gb10386_comment_com44">
+  <ab type="numberAddressee"><label>50.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 23. Februar 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10386_comment_com2088">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 6. – 1 Bl. 19,2 × 8,5(–9) cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „15“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 15), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 11 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 33 f., Nr 406.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10386_comment_com3884">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10386_comment_com14508">
+<label xml:id="GB03_2_BR050_0_note_001_36_5" copyOf="#start_com_0573"><hi rendition="#fett">36,5</hi>das das</label>
+<p>Versehentliche Dittographie nach Zeilenumbruch.</p>
+
+</note>
+<note xml:id="gb10386_comment_com17005">
+<label xml:id="GB03_2_BR050_0_note_002_36_5-6" copyOf="#start_com_0574"><hi rendition="#fett">36,5-6</hi>das erstemal seit vierzehn Tagen mit freyem Herzen</label>
+<p>Nachdem bereits Ende Januar die von Goethe betriebene Berufung Herders zum sachsen-weimarischen Oberhofprediger, Oberkonsistorial- und Kirchenrat und Generalsuperintendenten erfolgt war (vgl. <ref target="gb:text#GB03_1_BR043_0_031_008 #GB03_1_BR043_0_031_009">31,8–9</ref>), hatte sich Mitte Februar offenbar auch die bis dahin noch immer unentschiedene Lage Goethes geklärt (vgl. <ref target="gb:text#GB03_1_BR043_0_031_010 #GB03_1_BR043_0_031_012">31,10–12</ref>; <ref target="gb:text#GB03_1_BR046_0_032_013">32,13</ref>).</p>
+
+</note>
+<note xml:id="gb10386_comment_com8317">
+<label xml:id="GB03_2_BR050_0_note_003_36_6" copyOf="#start_com_0575"><hi rendition="#fett">36,6</hi>voll Dancks gegen dich</label>
+<p>Der Brief wurde wahrscheinlich nach einem gemeinsam verbrachten Abend geschrieben (vgl. zu <ref target="gb:note#GB03_2_BR051_0_note_008_37_3">37,3</ref>). Sowohl Charlotte von Stein wie auch Goethe selbst hatten am 22. Februar 1776 keine Verpflichtungen am Hof, da die fürstliche Abendtafel ausgefallen war, weil das Herzogspaar bei der Herzoginmutter speiste (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 61).</p>
+
+</note>
+<note xml:id="gb10386_comment_com8318">
+<label xml:id="GB03_2_BR050_0_note_004_36_6-7" copyOf="#start_com_0576"><hi rendition="#fett">36,6-7</hi>Engel des Himmels</label>
+<p>Seit Ende Januar gebrauchte Goethe in seinen Briefen an Charlotte von Stein häufig die Anrede ‚Engel‘, die hier durch die sprachliche Nähe zur Diktion der Bibel noch eine Steigerung erfährt (vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_001_25_14">25,14</ref>).</p>
+
+</note>
+<note xml:id="gb10386_comment_com17031">
+<label xml:id="GB03_2_BR050_0_note_005_36_7-8" copyOf="#start_com_0577"><hi rendition="#fett">36,7-8</hi>du einzige unter den Weibern</label>
+<p>Wohl in Abwandlung der Anrede der Jungfrau Maria durch den Engel des Herrn: „du gebenedeyte unter den weibern!“ (Lukas 1,28; Luther-Bibel 1772 NT, 58) sowie der Anrede der Geliebten im Hohenlied: „du schönste unter den weibern“ (Das Hohelied Salomons 1,8; Luther-Bibel 1772 AT, 557). Goethe war in der Straßburger Zeit 1770/71 durch Herder zu seiner zu Lebzeiten ungedruckten Übertragung des Hohenliedes angeregt worden (vgl. zu <ref target="gb:note#GB03_2_BR249_0_note_003_141_1-2">141,1-2</ref>; zu <ref target="gb:note#GB03_2_BR266_0_note_001_147_9">147,9</ref>).</p>
+
+</note>
+<note xml:id="gb10386_comment_com13610">
+<label xml:id="GB03_2_BR050_0_note_006_36_9" copyOf="#start_com_0578"><hi rendition="#fett">36,9</hi>auf der Redoute</label>
+<p>Maskenball (vgl. zu <ref target="gb:note#GB03_2_BR030_0_note_001_24_18">24,18</ref>); er fand am selben Abend statt: „Auf kommenden Freytag wird die lezte Redoute gehalten, worzu die Liebhaber eingeladen werden.“ (<ref target="sndb:sigle#3147">WWA</ref>, 21. Februar 1776, Nr 15, S. 59.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

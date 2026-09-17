@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1250"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11427" n="GB 3, Nr. 124">
+  <teiHeader xml:id="gb11427_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>124.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 6. Juni? 1776. Donnerstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11427_tei.xml</idno>
+        <idno type="URI">gb11427</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR124_0</idno>
+        <idno type="KSW-ID">11427</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="74" to="74">74</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="286" to="289">286-289</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11427_header_hwit1103" corresp="#gb11427_source_hwit1103" sameAs="#gb11427_comment_hwit1103" type="notAuthorisedCopyOfAuthorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#65">HAAB</institution>
+            <idno type="shelfmark">N 5084/3</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11427,,1103/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wäre dir's gelegen heut die "Mitschuldigen" zu probiren, so schreib mir's</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-06"><supplied>6. Juni? 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-11-15"><supplied>15. November 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#46103">Einsiedel, Friedrich Hildebrand von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11427_source_hwit1103" corresp="#gb11427_header_hwit1103" type="source" rend="notAuthorisedCopyOfAuthorisedLetter">
+  <body>
+    <div>
+      <head><supplied>Abschrift</supplied></head>
+      <p>
+        <anchor xml:id="GB03_1_BR124_0_074_006"/>Wäre dir s gelegen heut <ref target="gb:note#GB03_2_BR124_0_note_001_74_6" xml:id="start_com_1154"/>die Mitschuldigen<ref xml:id="end_com_1154"/> zu <ref target="gb:note#GB03_2_BR124_0_note_002_74_6" xml:id="start_com_1155"/>probiren<ref xml:id="end_com_1155"/>, so schreib mir s 
+<anchor xml:id="GB03_1_BR124_0_074_007"/>durch <ref target="gb:note#GB03_2_BR124_0_note_003_74_7" xml:id="start_com_1156"/>Uberbringern<ref xml:id="end_com_1156"/> zurück, und komm Nachmittag um dreye zu 
+<anchor xml:id="GB03_1_BR124_0_074_008"/>
+        <ref target="gb:note#GB03_2_BR124_0_note_004_74_8" xml:id="start_com_1157"/>Musäus<ref xml:id="end_com_1157"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR124_0_074_009"/>
+        <signed rend="paraph" rendition="#einrueck23">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11427_comment">
+<body>
+<div type="metadata" xml:id="gb11427_comment_com629">
+  <ab type="numberAddressee"><label>124.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>6. Juni? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11427_comment_com1692">
+  <p>Der vorliegende Brief wurde zunächst auf den 15. November 1776 datiert. Unter diesem Datum vermerkte Goethe in seinem Tagebuch: <quote type="G">Zu Musä<unclear reason="illegible">u</unclear>s Probe der Mitschuld.</quote> (<ref target="gt:dokument#203">GT I 1, 29</ref>.) Entsprechend wurden auch die Briefe <ref target="gb:dokument#11428">Nr 130</ref> und <ref target="gb:dokument#11432">131</ref> auf Mitte November bzw. auf den 28. November 1776 datiert. Gegen diese Datierungen spricht aber, dass bereits am Donnerstag, dem 28. November 1776, die erste Aufführung der „Mitschuldigen“ stattfand; Philipp Seidel schrieb darüber in einem Brief an Jacob Michael Reinhold Lenz vom 30. November 1776: „Am vergangenen Donnerstag <supplied>28. November 1776</supplied> sind die Mitschuldigen gespielt worden.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 58.) Überlegungen, die Erstaufführung könne am 9. Januar 1777 stattgefunden haben (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 141 f.), treffen somit nicht zu. Unter dieser Voraussetzung kann Goethe Einsiedel nicht am selben Tag (in <ref target="gb:dokument#11432">Nr 131</ref>) aufgefordert haben, in den nächsten Tagen seine Rolle als Söller zu proben. Es ist auch nicht anzunehmen, dass der vorliegende Brief und Brief <ref target="gb:dokument#11428">Nr 130</ref> Mitte November 1776 geschrieben worden sind, denn Einsiedel weigerte sich, die ihm zugedachte Rolle, die schließlich von Friedrich Justin Bertuch gespielt wurde, zu übernehmen, so dass die Zeit für eine Neubesetzung zu knapp gewesen wäre. Aus diesen Gründen werden die drei Briefe einer früheren Phase der langwierigen Proben zugeordnet. Bereits unter dem 6. Juni 1776 heißt es in Goethes Tagebuch: <quote type="G">Probe der Mitschuldigen.</quote> (<ref target="gt:dokument#63">GT I 1, 19</ref>.) Auf dieses Datum könnte sich der vorliegende Brief beziehen. Unter dem 9. Juni 1776 findet sich in Goethes Tagebuch die Bemerkung: <quote type="G">Abend mit Einsiedel über Oberweimar, Ehrigs’. Taub. Mell. Köttendorf. Nachts dramatisches Examen.</quote> (<ref target="gt:dokument#66">GT I 1, 19</ref>.) Möglicherweise betraf das ‚dramatische Examen‘ Einsiedels Rolle in den „Mitschuldigen“. Die Briefe <ref target="gb:dokument#11428">Nr 130</ref> und <ref target="gb:dokument#11432">131</ref> könnten aus der Zeit danach, etwa von Mitte Juni 1776, stammen, nachdem Einsiedel erklärt hatte, er wolle nicht mitwirken. Die Reihenfolge der beiden Briefe entspricht der Überlegung, dass der im derbsten Ton gehaltene möglicherweise der letzte Versuch war, Einsiedel umzustimmen (vgl. <ref target="sndb:sigle#1266/808">Vulpius, „Späne“, 143 f.</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11427_comment_com2673">
+  <p>H: Verbleib unbekannt. – „Ein umrändertes Billet, quer 8°. – Eigenhändig mit Blei.“ (Angaben in h.)</p>
+  <p>h: <ref target="sndb:sigle#400">HAAB</ref> Weimar, Sign.: N 5084/3. – Kollation von H durch Carl Schüddekopf in Eduard von der Hellens Handexemplar der <ref target="sndb:sigle#1157">WA</ref> IV 3, 120 und 291 vom 10. März 1900.</p>
+  <p>E: Die Grenzboten 32 (1873). Nr 27, S. 5 (Carl August Hugo Burkhardt; nach H).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 120, Nr 527 (nach H; mit Hinweis auf eine unsichere Lesung und eine Überlieferungsvariante dazu in E sowie Textkorrekturen in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 3, 291 und <ref target="sndb:sigle#1157">WA</ref> IV 30, 254).</p>
+  <p>Textgrundlage: h.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11427_comment_com4469">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Friedrich Hildebrand von Einsiedel(-Scharfenstein) (1750–1828), Sohn des Freiherrn August Hildebrand von Einsiedel, Herrn des Landguts Lumpzig bei Altenburg, war mit elf Jahren ins Weimarer Pagencorps eingetreten. Zu seinen Lehrern und Erziehern gehörten Johann Carl August Musäus und der Pagenhofmeister Georg Heinrich Schneider. Nach dem Studium der Rechtswissenschaften in Jena wurde er 1770 als Assessor Mitglied der weimarischen Landesregierung sowie Beisitzer des Hofgerichts in Jena. Nachdem im September 1775 Herzog Carl August seine Regierung angetreten hatte, ließ er Einsiedel zum Hofrat ernennen. Dieser wechselte jedoch bereits 1776 als Kammerherr in den Dienst der Herzoginmutter Anna Amalia. Als deren Begleiter verbrachte er 1788–1790 zwei Jahre in Italien. 1802 wurde Einsiedel zum Geheimen Rat und Oberhofmeister befördert und trat 1807, nach dem Tod der Herzoginmutter, als Oberhofmeister in den Dienst der regierenden Herzogin Louise. 1817 schließlich erhielt er die Ernennung zum Appellationsgerichtspräsidenten in Jena.</p>
+  <p rendition="#einrueck1">Einsiedel, der seines freundlichen Wesens und seiner Hilfsbereitschaft wegen den Spitznamen ‚l’ami‘ trug, spielte im gesellschaftlichen Leben Weimars und am Hof eine bedeutende Rolle. Neben musikalischem Talent (er spielte u. a. Cello [vgl. <ref target="sndb:sigle#2773">Böttiger, Literarische Zustände<hi rendition="#sup">2</hi></ref>, 42]) besaß er auch schauspielerische Begabung und gehörte dem Weimarer Liebhabertheater an. Als ‚Dilettant‘, der im zeitgenössischen Sinn des Wortes eine Kunst nicht aus Profession, sondern als ‚Liebhaber‘ ausübte, betätigte sich Einsiedel auch auf literarischem Gebiet. Er verfasste sowohl Gelegenheitstexte zu privaten Zwecken, wie die scherzhaften Gedichte und Versdialoge der „Matinéen“ (vgl. die Erläuterungen zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>) und seine Beiträge zum „Journal von Tiefurth“ (1781–1784), als auch Gedichte und Erzählungen, die in Almanachen und Journalen veröffentlicht wurden. Seine besondere Vorliebe galt dem Theater, für das er eigene Dramen schrieb (u. a. Ceres. Ein Vorspiel. Weimar 1774). Vor allem übersetzte er antike Lustspiele wie die des Terenz (2 Bde. Leipzig 1806) und des Plautus (nicht veröffentlicht), aber auch Komödien von Calderon, Molière und Goldoni.</p>
+  <p>Goethe lernte Einsiedel kurz nach seiner Ankunft in Weimar im November 1775 kennen und blieb ihm zeitlebens freundschaftlich verbunden. In den „Tag- und Jahres-Heften“ für 1801 zählt er ihn zu seinen <quote type="G">nächsten Freunden</quote> (<ref target="sndb:sigle#1157">WA</ref> I 35, 89); er gehörte zu den wenigen, die Goethe zeitlebens duzte. Als Einsiedel gestorben war, regte er eine Grabrede an und schrieb in einem Brief an Friedrich Theodor Adam Heinrich von Müller vom 16. August 1828: <quote type="G">Die Schwierigkeit liegt darin, den Lebensgang eines milden geselligen Mannes aufzufassen, dessen Gegenwart schon ein Räthsel war.</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 44, 276.) Zu Beginn ihrer Bekanntschaft führte sich Einsiedel allerdings weniger mild als vielmehr burschikos und übermütig auf. Er gehörte zu dem Kreis junger Männer um Herzog Carl August und Goethe, deren ungezwungenes Leben so viel Aufsehen erregte, dass von den ‚wilden Weimarer Verhältnissen‘ gesprochen wurde (vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">112</ref>). Carl August Böttiger, der allerdings erst 1791 nach Weimar kam, will etwa erfahren haben: „Göthe boxte sich gewöhnlich bei Landparthien mit dem Kammerherr v. Einsiedel manchmal so ernstlich, das <supplied>sic</supplied> Blut darnach floß. <gap quantity="3" reason="editorial"/> Oft setzte sich Göthe mit Einsiedeln grade unter den Tisch, wo gedeckt war, auf den Boden und spielte paschen mit ihm in Würfeln. Einsiedel hatte beständig ein paar Würfel in der Westentasche, u. wo sie ankamen, wurden diese so gleich hervorgehohlt“ (<ref target="sndb:sigle#2773">Böttiger, Literarische Zustände<hi rendition="#sup">2</hi></ref>, 39). Dass Einsiedel derb sein konnte, wird durch andere Erzählungen bestätigt; so berichtet Johannes Daniel Falk, allerdings Jahrzehnte später, von einem Gastmahl im Haus des Stützerbacher Kaufmanns Johann Elias Glaser, das am 26. Juli 1776 während der Thüringer Wald-Reise Goethes mit Carl August und anderen stattfand: „Ein andermal entzweihte sich der Kammerherr von Einsiedel mit einem andern vom Hofe über Tisch – Er stand auf (Einsiedel) riss das Tischtuch mit allen Speisen und Weinen vom Tisch, und die Bouteillen wurden ihm von Göthe und den andern nachgeworfen“ (<ref target="bug:dokument#1487">BuG 1, 478</ref>). An diesen Vorfall erinnerte sich Goethe noch über 40 Jahre später; am 19. April 1819 war „Einsiedels gottloses Wegziehen des Tischtuches mit allen Abendspeisen und Flucht darnach“ (<ref target="bug:dokument#1490">BuG 1, 479</ref>) Gegenstand eines Gesprächs mit Kanzler von Müller. Nur kurze Zeit nach dem Besuch bei Glaser notierte Goethe in Ilmenau unter dem 12. August 1776: <quote type="G">Nachts mit Einsiedel eine gute Stunde</quote> (<ref target="gt:dokument#118">GT I 1, 24</ref>). 1790 bot sich Goethe Gelegenheit, seinem Freund zu helfen. Einsiedel, der spielte und nachlässig in Geldsachen war, geriet in finanzielle Bedrängnis; Goethe setzte sich bei Hof um ein Darlehen von 1800 Reichstalern für Einsiedel ein, <quote type="G">daß er nur die kleinen drückenden Schulden abbezahlen könnte</quote> (Brief an Herzogin Anna Amalia, 26. Juli 1790; <ref target="gb:text#GB08_1_BR209_0_212_010 #GB08_1_BR209_0_212_011">GB 8 I, 212,10-11</ref>). Die Probleme blieben. 1798 musste Einsiedel das väterliche Gut Lumpzig verkaufen.</p>
+  <p>Da Goethe und Einsiedel ihr Leben gemeinsam in Weimar verbrachten, gibt es keine umfangreiche Korrespondenz. Jedenfalls sind bis 1821 nur etwa 20 Briefe Goethes überliefert, zwölf davon aus dem Zeitraum des vorliegenden Bandes. Von Einsiedel haben sich auch lediglich 37 Briefe an Goethe aus den Jahren von 1788 bis 1824 erhalten. Im Briefwechsel geht es in der Regel um Alltägliches: Weimarer Ereignisse, Einladungen, Bitten um Gefälligkeiten, Kommentare zu Überschicktem, am meisten um Theaterangelegenheiten.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11427_comment_com18700">
+<label xml:id="GB03_2_BR124_0_note_001_74_6" copyOf="#start_com_1154"><hi rendition="#fett">74,6</hi>die Mitschuldigen</label>
+<p>Gemeint ist die zweite Fassung von Goethes Farce „Die Mitschuldigen“, entstanden Anfang 1769, nachdem im November 1768 die erste Fassung vollendet war. Das Stück steht – vor allem in der ersten Fassung – deutlich in der Tradition der italienischen Typenkomödie der Commedia dell’arte; auch die Nähe zum französischen Alexandrinerlustspiel des 17. Jahrhunderts ist erkennbar. Die Umarbeitung zu einem ‚Lustspiel‘ erfolgte offenbar nach dem Vorbild von Lessings „Minna von Barnhelm“. Auch in der überarbeiteten Fassung konnte Goethe das Stück bei keinem Verleger unterbringen. Es erschien erst 1787 im Druck, und zwar in der dritten Fassung von 1783 in Goethes von Georg Joachim Göschen herausgegebenen „Schriften“ (Bd 2. Leipzig 1787, S. 241–368). – Die zweite Fassung der „Mitschuldigen“ wurde 1776 und 1777 lediglich dreimal auf dem Weimarer Liebhabertheater aufgeführt, und zwar mit Goethe in der Rolle des Alcest: außer am 28. November 1776 noch am 9. Januar 1777 und am 30. Dezember 1777 (vgl. <ref target="gt:dokument#258">GT I 1, 35</ref> und <ref target="gt:dokument#501">55</ref>).</p>
+
+</note>
+<note xml:id="gb11427_comment_com10773">
+<label xml:id="GB03_2_BR124_0_note_002_74_6" copyOf="#start_com_1155"><hi rendition="#fett">74,6</hi>probiren</label>
+<p>Goethes Lustspiel wurde vom Weimarer Liebhabertheater einstudiert. Einsiedel sollte die Rolle des Söller spielen, weigerte sich aber. Die erste Aufführung fand am 28. November 1776 statt (vgl. Datierung), mit folgender Rollenverteilung: Wirt: Johann Carl August Musäus; Sophie, dessen Tochter: Marie Salome Philippine Neuhaus; Söller, deren Mann: Friedrich Justin Bertuch; Alcest: Goethe; Kellner: August Kotzebue (vgl. Philipp Seidels Brief an Jacob Michael Reinhold Lenz vom 30. November 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 58).</p>
+
+</note>
+<note xml:id="gb11427_comment_com10774">
+<label xml:id="GB03_2_BR124_0_note_003_74_7" copyOf="#start_com_1156"><hi rendition="#fett">74,7</hi>Uberbringern</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb11427_comment_com10775">
+<label xml:id="GB03_2_BR124_0_note_004_74_8" copyOf="#start_com_1157"><hi rendition="#fett">74,8</hi>Musäus</label>
+<p>Johann Carl August Musäus, seit 1769 Gymnasialprofessor für alte Sprachen am Weimarer Gymnasium.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

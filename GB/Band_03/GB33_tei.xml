@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4020"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb33" n="GB 3, Nr. 393">
+  <teiHeader xml:id="gb33_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>393.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Mitte August 1778</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb33_tei.xml</idno>
+        <idno type="URI">gb33</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR393_0</idno>
+        <idno type="KSW-ID">33</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="226" to="227">226-227</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="767" to="769">767-769</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb33_header_hwit54348" corresp="#gb33_source_hwit54348" sameAs="#gb33_comment_hwit54348" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 2368/2004</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/33,,54348/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich schicke dir das Opus machs zurechte doch zweifl ich daß wirs so bald</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb33_header_acc243" corresp="gb33_comment_acc243">
+            <objectIdentifier>
+              <objectName><quote type="G">das <emph rendition="#latin">Opus</emph></quote>.</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb33_header_acc597" corresp="gb33_comment_acc597">
+            <objectIdentifier>
+              <objectName>Subskription zur Unterstützung Friedrich Müllers </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1778-08-11" to="1778-08-20"><supplied>Mitte August 1778</supplied></date>
+            <note>
+              <date type="WA" from="1778-09-01" to="1778-09-10"><supplied>Anfang September 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#46103">Einsiedel, Friedrich Hildebrand von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#93">RA 1, Nr. 85</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb33_source_hwit54348" corresp="#gb33_header_hwit54348" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#33/28794"/>
+      <p>
+        <anchor xml:id="GB03_1_BR393_0_226_017"/>Ich schicke dir <ref target="gb:note#GB03_2_BR393_0_note_001_226_17" xml:id="start_com_3417"/>das <emph rendition="#latin">Opus</emph>
+        <ref xml:id="end_com_3417"/> machs zurechte doch zweifl ich<ptr n="1" target="#a001_226.17"/> dass wirs sobald<ptr n="2" target="#a002_226.18"/>
+        <anchor xml:id="GB03_1_BR393_0_226_018"/>werden zusammen bringen <ref target="gb:note#GB03_2_BR393_0_note_002_226_18" xml:id="start_com_3418"/>da der Herzog nach Eisenach geht<ref xml:id="end_com_3418"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR393_0_226_019"/>Aus <ref target="gb:note#GB03_2_BR393_0_note_003_226_19" xml:id="start_com_3419"/>beyliegender Subscr.<ref xml:id="end_com_3419"/> siehst du was die Herzoginn Müllern zugesagt 
+<anchor xml:id="GB03_1_BR393_0_226_020"/>hat,<ptr n="3" target="#a003_226.20"/> schaffe mir’s <ref target="gb:note#GB03_2_BR393_0_note_004_226_20" xml:id="start_com_3420"/>der Stadth.<ref xml:id="end_com_3420"/> treibts.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR393_0_226_021"/>Sage der <ref target="gb:note#GB03_2_BR393_0_note_005_226_21" xml:id="start_com_3421"/>Herzoginn<ref xml:id="end_com_3421"/> wenn sie einen dieser Abende wollte das niedrige 
+<anchor xml:id="GB03_1_BR393_0_226_022"/>Thal mit ihrer Gegenwart beglücken, <ref target="gb:note#GB03_2_BR393_0_note_006_226_22-23" xml:id="start_com_3422"/>w<supplied>ür</supplied> den die Geister desselben<ptr n="4" target="#a004_226.23"/>
+        <anchor xml:id="GB03_1_BR393_0_226_023"/>sie aus allen Büschen heraus kukend bewillkommen<ref xml:id="end_com_3422"/>. Nur müsst 
+<anchor xml:id="GB03_1_BR393_0_227_001"/>ich’s des Morgens wißen wollten sie heut abend so Bät ich gleich um 
+<anchor xml:id="GB03_1_BR393_0_227_002"/>Antwort. <pb n="2" facs="gb:digitalisate#33/28795"/> Wäre Wieland bey euch so brächtet ihr ihn mit.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR393_0_227_003"/>Empfiel mich zu Gnaden</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR393_0_227_004"/>Addio.                             G.</p>
+    <pb n="3" facs="gb:digitalisate#33/28796" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#33/28797" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb33_comment">
+<body>
+<div type="metadata" xml:id="gb33_comment_com113">
+  <ab type="numberAddressee"><label>393.</label> An <persName key="sndb:person#46103">Friedrich Hildebrand von Einsiedel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Mitte August 1778</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb33_comment_com1435">
+  <p>Die im Brief erwähnte bevorstehende Reise nach Eisenach trat Herzog Carl August am 1. September 1778 an (vgl. zu <ref target="gb:note#GB03_2_BR393_0_note_002_226_18">226,18</ref>). Die Einladung an die Herzoginmutter Anna Amalia bezog sich auf das Parkfest mit Illumination in ‚Rembrandtscher Manier‘, das Goethe am 22. August 1778 veranstaltete (vgl. zu <ref target="gb:note#GB03_2_BR393_0_note_006_226_22-23">226,22-23</ref>). Der vorliegende Brief stammt aus den Tagen davor, etwa von Mitte August 1778 (vgl. <ref target="sndb:sigle#1266/808">Vulpius, „Späne“</ref>, 145).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb33_comment_com2157">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 2368/2004. – Doppelblatt 18,2 × 11,5 cm, 1 &#xBC; S. beschr., egh., Tinte; S. 3 und 4 Reste einer roten Verschlussoblate, leichter Textverlust am Rand (vgl. <ref target="gb:text#GB03_1_BR393_0_226_022">226,22</ref>).</p>
+  <p>E: Die Grenzboten 32 (1873). Nr 34, S. 299 (Carl August Hugo Burkhardt).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 243 f., Nr 736 (mit Textkorrekturen in den Lesarten [<ref target="sndb:sigle#1157">WA</ref> IV 3, 307] und in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 30, 254).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb33_comment_com3462">
+  <p>1) <quote type="G">das <emph rendition="#latin">Opus</emph></quote> (vgl. zu <ref target="gb:note#GB03_2_BR393_0_note_001_226_17">226,17</ref>).</p>
+  <p>2) Subskription zur Unterstützung Friedrich Müllers (vgl. zu <ref target="gb:note#GB03_2_BR393_0_note_003_226_19">226,19</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb33_comment_com3953">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb33_comment_com15600">
+<label xml:id="GB03_2_BR393_0_note_001_226_17" copyOf="#start_com_3417"><hi rendition="#fett">226,17</hi>das <emph rendition="#latin">Opus</emph></label>
+<p>Am 20. Oktober 1778 fand in Ettersburg die erste Aufführung der 2. Fassung von Goethes „Jahrmarktsfest zu Plundersweilern“ durch das Weimarer Liebhabertheater statt, und zwar im Anschluss an Molières Lustspiel „Le médicin malgré lui“ (Der Arzt wider Willen) in der Übersetzung von Einsiedel. Möglicherweise übersandte Goethe mit dem vorliegenden Brief dieses französische Stück; jedenfalls handelte es sich bei dem Überschickten sehr wahrscheinlich um ein Stück  für die Liebhaberbühne.</p>
+
+</note>
+<note xml:id="gb33_comment_com16328">
+<label xml:id="GB03_2_BR393_0_note_002_226_18" copyOf="#start_com_3418"><hi rendition="#fett">226,18</hi>da der Herzog nach Eisenach geht</label>
+<p>Herzog Carl August gehörte zu den Darstellern in Molières Stück; er spielte den Vallère (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 152). – Laut Fourierbuch brach Carl August am 1. September 1778 auf: <quote>Heüte gingen <abbr>Durchl.</abbr> Herzog nacher Eisenach, alwo auch ein Solenes <supplied>lat.: prächtiges, festliches</supplied> Jagen gehalten wurde!</quote> (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 158.) Am 4. September 1778 schrieb Herzoginmutter Anna Amalia irrtümlich an Johann Heinrich Merck: <quote>Gestern sind meine Kinder vonhier auf ein Jagen nach Eisenach. Goethe ist auch mit</quote> (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 157). Die Angabe betrifft weder Carl August noch Goethe. Carl August war bereits zwei Tage zuvor aufgebrochen. Goethe reiste, wie aus seinem Tagebuch hervorgeht, erst am 9. September 1778 nach Erfurt und am Tag darauf nach Eisenach (vgl. <ref target="gt:dokument#612">GT I 1, 65</ref>). Unter dem 18. September 1778 heißt es im Fourierbuch: <quote>Heüte Abend kahmen Durch<g ref="#typoSuspension"/>. Herzog von Eisenach wiederum gesund und wohl hier an.</quote> (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 169.) Und in Goethes Tagebuch ist für denselben Tag festgehalten: <quote type="G">Zurück nach W.</quote> (<ref target="gt:dokument#617">GT I 1, 66</ref>.)</p>
+
+</note>
+<note xml:id="gb33_comment_com5272">
+<label xml:id="GB03_2_BR393_0_note_003_226_19" copyOf="#start_com_3419"><hi rendition="#fett">226,19</hi>beyliegender Subscr.</label>
+<p>Der kurmainzische Statthalter in Erfurt, Carl Theodor von Dalberg, hatte Goethe in einem Brief vom 4. Mai 1778 mitgeteilt, der Maler Friedrich Müller gehe nach Italien und er, Dalberg, eröffne eine „Subskription“ (<ref target="ra:dokument#93">RA 1, 70, Nr 85</ref>), um ihn mit einer jährlichen Pension zu unterstützen, für die als Gegenleistung „Zeichnungen“ (ebd.) vereinbart seien. Zu denen, die sich an der Unterstützung beteiligten, gehörten auch Herzog Carl August, der 20 Louisdor bereitstellte, die Herzoginmutter Anna Amalia, die Herzogin Louise und Prinz Constantin, die einen Beitrag von jeweils 10 Louisdor leisteten (vgl. Goethes Brief an Herzog Carl August, die Herzoginnen Anna Amalia und Louise, Prinz Constantin, Carl Ludwig von Knebel, Wieland und Carl Theodor von Dalberg, 19. Januar 1780 [<ref target="gb:text#GB04_1_BR005_0_007_013 #GB04_1_BR005_0_007_021">GB 4 I, 7,13-21</ref>]; ebenso Wielands Brief an Friedrich Müller, 26. Juni 1778 [<ref target="sndb:sigle#141">WB</ref> 7 I, 90]). Insgesamt belief sich die jährliche Pension für Müller auf 304 Reichstaler (vgl. <ref target="gb:text#GB04_1_BR005_0_009_014">GB 4 I, 9,14</ref>). Über Friedrich Müller vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb3651_comment_com3988">Nr 383</ref>.</p>
+
+</note>
+<note xml:id="gb33_comment_com13760">
+<label xml:id="GB03_2_BR393_0_note_004_226_20" copyOf="#start_com_3420"><hi rendition="#fett">226,20</hi>der Stadth.</label>
+<p>Carl Theodor von Dalberg, der kurmainzische Statthalter in Erfurt.</p>
+
+</note>
+<note xml:id="gb33_comment_com5273">
+<label xml:id="GB03_2_BR393_0_note_005_226_21" copyOf="#start_com_3421"><hi rendition="#fett">226,21</hi>Herzoginn</label>
+<p>Herzoginmutter Anna Amalia von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb33_comment_com5275">
+<label xml:id="GB03_2_BR393_0_note_006_226_22-23" copyOf="#start_com_3422"><hi rendition="#fett">226,22-23</hi>w<supplied>ür</supplied>den die Geister <gap quantity="3" reason="editorial"/> bewillkommen</label>
+<p>Goethe beabsichtigte, der Herzoginmutter die von ihm vorgenommene Umgestaltung der Ilmauen (vgl. zu <ref target="gb:note#GB03_2_BR388_0_note_005_220_3-6">220,3-6</ref>) zu präsentieren. Dies geschah am 22. August 1778, nachdem er Anna Amalia am Vortag durch Einsiedel dazu hatte einladen lassen (vgl. <ref target="gb:dokument#30">Nr 395</ref>). Die Herzogin berichtete darüber in einem Brief an Catharina Elisabeth Goethe vom 29. August 1778: „Die lezt verfloßene Woche hat der Herr Docter <hi rendition="#hervor1">Wolff</hi>
+  <supplied>Goethe</supplied> mir ein Soupée im Stern gegeben wo die neuen Anlagen gemacht sind welche gar lieblich und herlich sind; nach den Abend Eßen wahr eine kleine Illumination ganz in dem Rembranschen geschmack veranstaltet wo nichts als licht und Schatten würkte; Wieland, Einsiedel, die Stein und Thusel <supplied>Louise von Göchhausen</supplied> genoßen es mit es wahr ein vergnügter guter Abend für uns“ (<ref target="sndb:sigle#517">Frau Rath</ref>, 114). Auch Wieland schilderte den Abend in einem Brief an Johann Heinrich Merck vom 27. August 1778: „Verwichnen Sonnabend fuhren wir zu Göthen, der die Herzogin auf den Abend in seinen Garten eingeladen hatte, um sie mit allen den Poëmen, die er in ihrer Abwesenheit an den Ufern der Ilm zu Stande gebracht, zu regalieren. Wir speiseten in einer gar holden kleinen Einsideley <gap quantity="3" reason="editorial"/> und wie wir nun aufgestanden waren und die Thüre öfneten, siehe, da stellte sich uns, durch geheime Anstalt des Archi-Magus, ein Anblik dar, der mehr einer realisierten dichterischen vision als einer Naturscene ähnlich sah. Das ganze Ufer der Ilm, ganz in Rembrands Geschmack, beleuchtet – ein wunderbares Zaubergemisch von Hell und Dunkel, das im Ganzen einen Effect machte der über allen Ausdruk geht. <gap quantity="3" reason="editorial"/> Als wir die kleine Treppe der Einsiedley herabstiegen und zwischen den Felsenstücken und Buschwerken längs der Ilm gegen die Brücke, die diesen Plaz mit einer Ecke des Sterns verbindet, hingiengen, zerfiel die ganze vision nach und nach in eine Menge kleiner Rembrandtischen Nachtstücke die man ewig hätte vor sich sehen mögen“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 113 f.). – ‚kukend‘: guckend. Bisher wurde ‚tubend‘ gelesen, was als Neologismus zu erklären wäre: die Tuba (eingedeutscht: Tube [vgl. <ref target="sndb:sigle#2890">Grimm</ref> 22, 1444]) blasend. Der Handschriftenbefund ist jedoch eindeutig.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

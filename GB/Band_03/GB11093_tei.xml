@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1450"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11093" n="GB 3, Nr. 144">
+  <teiHeader xml:id="gb11093_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>144.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 16. und 17. Juli 1776. Dienstag und Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:58Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11093_tei.xml</idno>
+        <idno type="URI">gb11093</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR144_0</idno>
+        <idno type="KSW-ID">11093</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="86" to="87">86-87</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="336" to="339">336-339</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11093_header_hwit1023" corresp="#gb11093_source_hwit1023" sameAs="#gb11093_comment_hwit1023" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 24 und Bl. 4</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11093,,1023/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Nur Ein Wort beste Frau. Ich hab den Kopf die Queere sizzen und kann nichts sagen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-07-16">16. Juli 1776</date> und
+            <date when="1776-07-17">17. Juli 1776</date>
+            <note>
+              <date type="WA" when="1776-07-16">16. Juli 1776</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11093_source_hwit1023" corresp="#gb11093_header_hwit1023" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11093/22406"/>
+      <p>
+        <anchor xml:id="GB03_1_BR144_0_086_007"/>Nur Ein Wort beste Frau. ich hab den Kopf die Queere sizzen und 
+<anchor xml:id="GB03_1_BR144_0_086_008"/>kann nichts sagen. <ref target="gb:note#GB03_2_BR144_0_note_002_86_8" xml:id="start_com_1360"/>Wir gehn übermorgen nach Ilmenau<ref xml:id="end_com_1360"/>, und wollt sie 
+<anchor xml:id="GB03_1_BR144_0_086_009"/>wären in <ref target="gb:note#GB03_2_BR144_0_note_003_86_9" xml:id="start_com_1361"/>Kochberg<ref xml:id="end_com_1361"/>. Sie fehlen mir an allen Ecken und Enden und 
+<anchor xml:id="GB03_1_BR144_0_086_010"/>wenn Sie nicht bald wiederkommen, mach ich dumme Streiche. <ref target="gb:note#GB03_2_BR144_0_note_004_86_10-11" xml:id="start_com_1362"/>Gestern 
+<anchor xml:id="GB03_1_BR144_0_086_011"/>auf dem Vogelschiesen zu Apolde<ref xml:id="end_com_1362"/> hab ich mich in die <ref target="gb:note#GB03_2_BR144_0_note_005_86_11-12" xml:id="start_com_1363"/>Cristel 
+<anchor xml:id="GB03_1_BR144_0_086_012"/>von Artern<ref xml:id="end_com_1363"/> verliebt ppp. Ich habe gar nichts was mich in <ref target="gb:note#GB03_2_BR144_0_note_006_86_12" xml:id="start_com_1364"/>linde<ref xml:id="end_com_1364"/> Stimmung 
+<anchor xml:id="GB03_1_BR144_0_086_013"/>sezt. <ref target="gb:note#GB03_2_BR144_0_note_007_86_13" xml:id="start_com_1365"/>Wiel.<ref xml:id="end_com_1365"/> thut mir noch am wohlsten. Der <ref target="gb:note#GB03_2_BR144_0_note_008_86_13" xml:id="start_com_1366"/>Herz<ref xml:id="end_com_1366"/> u. ich theilen 
+<anchor xml:id="GB03_1_BR144_0_086_014"/>unsre <ref target="gb:note#GB03_2_BR144_0_note_009_86_14" xml:id="start_com_1367"/>Dumpfheit<ref xml:id="end_com_1367"/> wenigstens, alles andre hezzt mich und ich kann 
+<anchor xml:id="GB03_1_BR144_0_086_015"/>mich nicht zu Ihnen flüchten. Sonst ist nicht leicht ein glücklicher 
+<anchor xml:id="GB03_1_BR144_0_086_016"/>Geschöpf als ich, wenn ich dich nur wieder hätte.   O Schick mir 
+<anchor xml:id="GB03_1_BR144_0_086_017"/>was! grüs <ref target="gb:note#GB03_2_BR144_0_note_010_86_17" xml:id="start_com_1368"/>Zimmermann<ref xml:id="end_com_1368"/>
+      </p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR144_0_086_018"/>d<g ref="#typoSuspension"/>. 16. Jul 76.                                                                    </dateline>
+        <signed rend="paraph">G</signed> <pb n="2" facs="gb:digitalisate#11093/28086"/></closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR144_0_086_019"/>
+          <ref target="gb:note#GB03_2_BR144_0_note_011_86_19" xml:id="start_com_1369"/>Abends d<g ref="#typoSuspension"/>. 16.<ref xml:id="end_com_1369"/>
+          <ref target="gb:note#GB03_2_BR144_0_note_012_86_19" xml:id="start_com_1370"/>Noch ein Wort.<ref xml:id="end_com_1370"/>
+          <ref target="gb:note#GB03_2_BR144_0_note_013_86_19-20" xml:id="start_com_1371"/>Gestern als wir<ptr n="1" target="#a001_86.19"/> nachts von Apolde 
+<anchor xml:id="GB03_1_BR144_0_086_020"/>zurück ritten<ref xml:id="end_com_1371"/><ptr n="2" target="#a002_86.20"/>, war ich vorn allein bey den <ref target="gb:note#GB03_2_BR144_0_note_014_86_20" xml:id="start_com_1372"/>Husaren<ref xml:id="end_com_1372"/> die erzählten einander 
+<anchor xml:id="GB03_1_BR144_0_086_021"/>
+          <ref target="gb:note#GB03_2_BR144_0_note_015_86_21" xml:id="start_com_1373"/>Stückgen<ref xml:id="end_com_1373"/>, ich hörts, hörts auch nicht, ritt so in Gedancken fort. 
+<anchor xml:id="GB03_1_BR144_0_086_022"/>Da fiel mirs auf wie mir die Gegend so<ptr n="3" target="#a003_86.22"/> lieb ist, das Land! der <ref target="gb:note#GB03_2_BR144_0_note_016_86_22-23" xml:id="start_com_1374"/>Ettersberg<ref xml:id="end_com_1374"/>! 
+<anchor xml:id="GB03_1_BR144_0_086_023"/>die unbedeutenden Hügel! Und mir fuhrs durch die Seele – 
+<anchor xml:id="GB03_1_BR144_0_086_024"/>Wenn du nun auch das einmal verlassen musst! das Land wo du so viel 
+<anchor xml:id="GB03_1_BR144_0_086_025"/>gefunden hast, alle Glückseeligkeit gefunden hast die ein Sterblicher 
+<anchor xml:id="GB03_1_BR144_0_086_026"/>träumen darf, wo du zwischen behagen und Missbehagen, in ewig 
+<anchor xml:id="GB03_1_BR144_0_086_027"/>klingender Existenz schwebst – wenn du auch das zu verlassen gedrungen 
+<anchor xml:id="GB03_1_BR144_0_086_028"/>würdest <ref target="gb:note#GB03_2_BR144_0_note_017_86_28-29" xml:id="start_com_1375"/>mit einem Stab in der Hand, wie du dein Vaterland 
+<anchor xml:id="GB03_1_BR144_0_086_029"/>verlassen hast<ref xml:id="end_com_1375"/>. Es kamen mir die Trähnen<ptr n="4" target="#a004_86.29"/> in die<ptr n="5" target="#a005_86.29"/> Augen, und ich fühlte 
+<anchor xml:id="GB03_1_BR144_0_087_001"/>mich starck genug auch das zu tragen. — <hi rendition="#hervor1">Starck –!</hi>! das heisst 
+<anchor xml:id="GB03_1_BR144_0_087_002"/>
+          <hi rendition="#hervor1">
+            <ref target="gb:note#GB03_2_BR144_0_note_018_87_2" xml:id="start_com_1376"/>dumpf</hi>
+          <ref xml:id="end_com_1376"/>
+          <hi rendition="#hervor1">.</hi>
+        </p>
+        <p rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR144_0_087_003"/>
+          <graphic url="gb:digitalisate#11093/70162" width="60px"/>
+        </p>
+        <p>
+          <anchor xml:id="GB03_1_BR144_0_087_004"/>Gegen neun! ich wollt du wärst hier! Ich hab dir was zu sagen das fürs 
+<anchor xml:id="GB03_1_BR144_0_087_005"/>Papier zugut ist. Mit denen <ref target="gb:note#GB03_2_BR144_0_note_019_87_5" xml:id="start_com_1377"/>Grasaffen<ref xml:id="end_com_1377"/> habe heute <ref target="gb:note#GB03_2_BR144_0_note_020_87_5" xml:id="start_com_1378"/>gessen<ref xml:id="end_com_1378"/>. Du fehlst 
+<anchor xml:id="GB03_1_BR144_0_087_006"/>
+          <hi rendition="#hervor2">Allen</hi>. Hab den <ref target="gb:note#GB03_2_BR144_0_note_021_87_6" xml:id="start_com_1379"/>Friz<ref xml:id="end_com_1379"/> gefüttert. <ref target="gb:note#GB03_2_BR144_0_note_022_87_6" xml:id="start_com_1380"/>Deine Schwester<ref xml:id="end_com_1380"/> seh ich nicht Es ist 
+<anchor xml:id="GB03_1_BR144_0_087_007"/>ein liebes Geschöpf wie ich eins für mich haben mögte, und dann 
+<anchor xml:id="GB03_1_BR144_0_087_008"/>nichts weiter geliebt.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR144_0_087_009"/>ich bin des Herztheilens überdrüßig <pb n="3" facs="gb:digitalisate#11093/28087"/></p>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR144_0_087_010"/>d<g ref="#typoSuspension"/>. 17. Adieu! <ref target="gb:note#GB03_2_BR144_0_note_023_87_10" xml:id="start_com_1381"/>Wir gehen heute Abend<ref xml:id="end_com_1381"/>
+          <ref target="gb:note#GB03_2_BR144_0_note_024_87_10-11" xml:id="start_com_1382"/>Dein Mann hat heut Reuter 
+<anchor xml:id="GB03_1_BR144_0_087_011"/>Künste getrieben<ref xml:id="end_com_1382"/> und Deiner Schwester schick ich noch eine Rose 
+<anchor xml:id="GB03_1_BR144_0_087_012"/>eh ich geh. Leb wohl. Ich komm wieder ferner von dir und <ref target="gb:note#GB03_2_BR144_0_note_025_87_12-13" xml:id="start_com_1383"/>wenn du 
+<anchor xml:id="GB03_1_BR144_0_087_013"/>zurück kommst bin ich nicht da<ref xml:id="end_com_1383"/>. Adieu. – Wenn ich nur leben 
+<anchor xml:id="GB03_1_BR144_0_087_014"/>könnte ohne zu lieben.<ptr n="6" target="#a006_87.14"/>
+        </p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11093_comment">
+<body>
+<div type="metadata" xml:id="gb11093_comment_com1325">
+  <ab type="numberAddressee"><label>144.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 16. Juli 1776 und 17. Juli 1776 → <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11093_comment_com1989">
+  <p>Der Brief besteht aus zwei im Konvolut der Briefe an Charlotte von Stein (Bd I) getrennt überlieferten Teilen (vgl. <ref target="gb:note#gb11093_comment_com3369">Überlieferung</ref>). Nach seiner Datierung <quote type="G">16. Jul 76.</quote> (<ref target="gb:text#GB03_1_BR144_0_086_018">86,18</ref>) eingeordnet wurde der erste Teil, wogegen sich der zweite, unvollständig datierte Teil unter den Briefen aus dem Februar 1776 findet. Von seinem Inhalt her schließt er jedoch unmittelbar an den Briefteil vom 16. Juli 1776 an, worauf auch die einleitende Tagesangabe <quote type="G">Abends d<g ref="#typoSuspension"/>. 16.</quote> (<ref target="gb:text#GB03_1_BR144_0_086_019">86,19</ref>) verweist. Mit dem Beginn <quote type="G">Noch ein Wort</quote> (<ref target="gb:text#GB03_1_BR144_0_086_019">86,19</ref>) wird der Anfang des ersten Teils aufgenommen (vgl. <ref target="gb:text#GB03_1_BR144_0_086_007">86,7</ref>). Danach kommt Goethe auf seinen Besuch in Apolda am Vortag zurück (vgl. <ref target="gb:text#GB03_1_BR144_0_086_019 #GB03_1_BR144_0_086_020">86,19–20</ref>), wozu die Mitteilung im ersten Teil passt, er sei <quote type="G">Gestern</quote>, also am 15. Juli 1776, <quote type="G">auf dem Vogelschiesen zu Apolde</quote> (<ref target="gb:text#GB03_1_BR144_0_086_010 #GB03_1_BR144_0_086_011">86,10–11</ref>) gewesen. Zudem korrespondiert die Erwähnung der <quote type="G">Reuter Künste</quote> (<ref target="gb:text#GB03_1_BR144_0_087_010 #GB03_1_BR144_0_087_011">87,10–11</ref>) Josias von Steins in dem nachfolgenden auf <quote type="G">d<g ref="#typoSuspension"/>. 17.</quote> (<ref target="gb:text#GB03_1_BR144_0_087_010">87,10</ref>) datierten Abschnitt des zweiten Teils mit einem Tagebucheintrag vom 17. Juli 1776 (vgl. zu <ref target="gb:note#GB03_2_BR144_0_note_024_87_10-11">87,10-11</ref>). Obwohl auch die Datierung des zweites Teils auf den 16. und 17. Juli 1776 seit dem Erstdruck als unstrittig gilt, wurde er bisher stets als separater Brief gedruckt. Sein enger inhaltlicher Zusammenhang zum vollständig datierten ersten Teil wie auch der Umstand, dass jeweils nur der Tag, nicht aber Monat und Jahr angegeben sind, lassen darauf schließen, dass es sich um einen gemeinsam abgesandten Brief handelt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11093_comment_com3369">
+  <p>1) Briefteil vom 16. Juli 1776 (<ref target="gb:text#GB03_1_BR144_0_086_007 #GB03_1_BR144_0_086_018">86,7–18</ref> <quote type="G">Nur Ein Wort <gap quantity="3" reason="editorial"/> G</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 24. – 1 Bl. 13,6(–13,8) × 19,7(–20) cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben; oben rechts von fremder Hd, Tinte: „64“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 64), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 47.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 87, Nr 486.</p>
+  <p>2) Briefteil vom 16. und 17. Juli 1776 (<ref target="gb:text#GB03_1_BR144_0_086_019 #GB03_1_BR144_0_087_014">86,19–87,14</ref> <quote type="G">Abends d<g ref="#typoSuspension"/>. 16. <gap quantity="3" reason="editorial"/> ohne zu lieben.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 4. – 1 Bl. 19,5(–19,9) × 27,5 cm, Vs. ganz beschrieben, Rs. &#xBC; S. quer zur Schreibrichtung der Vs. beschrieben, egh., Tinte, flüchtig geschrieben, mit Verschleifungen an den Wortenden; Vs. oben rechts von fremder Hd, Tinte: „9.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 9), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 48 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 87 f., Nr 487.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11093_comment_com5165">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11093_comment_com16009">
+<label xml:id="GB03_2_BR144_0_note_002_86_8" copyOf="#start_com_1360"><hi rendition="#fett">86,8</hi>Wir gehn übermorgen nach Ilmenau</label>
+<p>Am 18. Juli 1776 reiste Goethe im Gefolge des Herzogs Carl August nach Ilmenau, wo sie <quote type="G">gegen 1</quote> eintrafen (<ref target="gt:dokument#93">GT I 1, 21</ref>). Laut Fourierbuch gehörten auch der Erbprinz Ludwig von Hessen-Darmstadt, der Bruder der Herzogin Louise, der sich schon seit dem 23. April 1776 als Gast am Weimarer Hof aufhielt (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 123), Jacob Friedrich von Fritsch, Johann August von Kalb, Moritz von Wedel, Friedrich Justin Bertuch sowie August Wilhelm Ferdinand von Staff zur herzoglichen Begleitung (vgl. ebd., S. 211). Am 31. Juli traf außerdem auch der Kurmainzer Statthalter in Erfurt, Carl Theodor von Dalberg, in Ilmenau ein (vgl. <ref target="gt:dokument#106">GT I 1, 22</ref>). Anlass der Reise war die schon im Februar beschlossene Wiederaufnahme des Ilmenauer Bergbaus (vgl. zu <ref target="gb:note#GB03_2_BR097_0_note_001_59_7">59,7</ref>; vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_001_90_1-2">90,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10491">
+<label xml:id="GB03_2_BR144_0_note_003_86_9" copyOf="#start_com_1361"><hi rendition="#fett">86,9</hi>Kochberg</label>
+<p>Schloss Kochberg, das Landgut der Familie von Stein (vgl. zu <ref target="gb:note#GB03_2_BR023_0_note_003_21_11">21,11</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10492">
+<label xml:id="GB03_2_BR144_0_note_004_86_10-11" copyOf="#start_com_1362"><hi rendition="#fett">86,10-11</hi>Gestern auf dem Vogelschiesen zu Apolde</label>
+<p>Apolda, Stadt im Herzogtum Sachsen-Weimar und Eisenach, knapp 20 km nordöstlich von Weimar gelegen (vgl. zu <ref target="gb:note#GB03_2_BR471_0_note_011_263_12-13">263,12-13</ref>); vgl. auch den Tagebucheintrag vom 15. Juni 1776: <quote type="G">Vogelsch. zu Apolda. Cristel. pp, Beym &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">geschlafen.</quote> (<ref target="gt:dokument#90">GT I 1, 21</ref>.)</p>
+
+</note>
+<note xml:id="gb11093_comment_com10493">
+<label xml:id="GB03_2_BR144_0_note_005_86_11-12" copyOf="#start_com_1363"><hi rendition="#fett">86,11-12</hi>Cristel von Artern</label>
+<p>Artern, Stadt an der Unstrut, etwa 75 km nördlich von Weimar in einer Exklave des Kurfürstentums Sachsen gelegen. Zur Person <quote type="G">Cristel</quote> ist Näheres nicht bekannt; der Name wird außer im vorliegenden Brief und im Tagebuch vom 15. Juni 1776 nicht wieder erwähnt.</p>
+
+</note>
+<note xml:id="gb11093_comment_com10490">
+<label xml:id="GB03_2_BR144_0_note_006_86_12" copyOf="#start_com_1364"><hi rendition="#fett">86,12</hi>linde</label>
+<p>Sanft, sanftmütig; oberdt. für ‚gelinde‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 537).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10458">
+<label xml:id="GB03_2_BR144_0_note_007_86_13" copyOf="#start_com_1365"><hi rendition="#fett">86,13</hi>Wiel.</label>
+<p>Wieland, zu dem Goethe in dieser Zeit in besonders herzlichem Verhältnis stand (vgl. <ref target="gb:text#GB03_1_BR140_0_082_004">82,4</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10445">
+<label xml:id="GB03_2_BR144_0_note_008_86_13" copyOf="#start_com_1366"><hi rendition="#fett">86,13</hi>Herz</label>
+<p>Herzog Carl August.</p>
+
+</note>
+<note xml:id="gb11093_comment_com10503">
+<label xml:id="GB03_2_BR144_0_note_009_86_14" copyOf="#start_com_1367"><hi rendition="#fett">86,14</hi>Dumpfheit</label>
+<p>Hier mit positiver Akzentuierung für „eine unklare, aber umfassende u intensive Empfindung, für ein Gefühl naturhafter Kraft u Fülle“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1290); vgl. aber zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>.</p>
+
+</note>
+<note xml:id="gb11093_comment_com15077">
+<label xml:id="GB03_2_BR144_0_note_010_86_17" copyOf="#start_com_1368"><hi rendition="#fett">86,17</hi>Zimmermann</label>
+<p>Johann Georg Zimmermann, der sich gleichfalls in Pyrmont aufhielt (vgl. zu <ref target="gb:note#GB03_2_BR097_0_note_008_59_14">59,14</ref>; zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10504">
+<label xml:id="GB03_2_BR144_0_note_011_86_19" copyOf="#start_com_1369"><hi rendition="#fett">86,19</hi>Abends d<g ref="#typoSuspension"/>. 16.</label>
+<p>Vgl. <ref target="gb:note#gb11093_comment_com1989">Datierung</ref>. – Laut Tagebuch hat Goethe am 16. Juli <quote type="G">Bey Kestner</quote> <supplied>Johann Friedrich Kästner</supplied> <quote type="G">und &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">gessen.</quote> (<ref target="gt:dokument#91">GT I 1, 21</ref>.)</p> 
+
+</note>
+<note xml:id="gb11093_comment_com10505">
+<label xml:id="GB03_2_BR144_0_note_012_86_19" copyOf="#start_com_1370"><hi rendition="#fett">86,19</hi>Noch ein Wort.</label>
+<p>Vgl. <ref target="gb:note#gb11093_comment_com1989">Datierung</ref>.</p>
+
+</note>
+<note xml:id="gb11093_comment_com14228">
+<label xml:id="GB03_2_BR144_0_note_013_86_19-20" copyOf="#start_com_1371"><hi rendition="#fett">86,19-20</hi>Gestern <gap quantity="3" reason="editorial"/> von Apolde zurück ritten</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR144_0_086_010 #GB03_1_BR144_0_086_011">86,10–11</ref>.</p>
+
+</note>
+<note xml:id="gb11093_comment_com17634">
+<label xml:id="GB03_2_BR144_0_note_014_86_20" copyOf="#start_com_1372"><hi rendition="#fett">86,20</hi>Husaren</label>
+<p>Die herzoglichen berittenen Truppen, später auch als Kavallerie bezeichnet. – Friedrich von Steins Anmerkung zur vorliegenden Stelle lautet: „Der Herzog hielt ein Corps Husaren, deren er meist einige als Ordonanzen auf seinen Reisen in Thüringen bei sich hatte.    v. St.“ (Zitiert nach: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 414, Anm. 4 [zu S. 45].) Um 1780 bestand das Weimarer Husarenkorps aus einem Rittmeister, sieben Unteroffizieren und 31 Husaren (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 60). Nach der Entlassung der letzten 24 herzoglichen Gardereiter (Garde du Corps) 1779 übernahmen die Husaren auch deren Ehrendienste, außerdem versahen sie Streifenpatrouillen gegen Wegelagerer sowie Eilbotendienste und halfen u. a. bei der Brandbekämpfung (vgl. <ref target="sndb:sigle#135">Bürgin</ref>, 112 f.).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10506">
+<label xml:id="GB03_2_BR144_0_note_015_86_21" copyOf="#start_com_1373"><hi rendition="#fett">86,21</hi>Stückgen</label>
+<p>Hier für ‚Geschichten‘, ‚Anekdoten‘.</p>
+
+</note>
+<note xml:id="gb11093_comment_com15180">
+<label xml:id="GB03_2_BR144_0_note_016_86_22-23" copyOf="#start_com_1374"><hi rendition="#fett">86,22-23</hi>Ettersberg</label>
+<p>Der Ettersberg, ein Höhenzug (bis zu 474 m) nördlich von Weimar, bevorzugtes Jagdgebiet der Weimarer Herzöge, mit sternförmig angelegten Schneisen (Ettersburger Zehnstern) für fürstliche Haupt- und Staatsjagden und einem Jagdschloss (vgl. <ref target="sndb:sigle#3102">Stapff</ref>, 22–24).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10303">
+<label xml:id="GB03_2_BR144_0_note_017_86_28-29" copyOf="#start_com_1375"><hi rendition="#fett">86,28-29</hi>mit einem Stab <gap quantity="3" reason="editorial"/> dein Vaterland verlassen hast</label>
+<p>Stab: „in der anständigen Schreib- und Sprechart für das gemeinere Stock <gap quantity="3" reason="editorial"/>. Der Wanderstab, Reisestab, Hirtenstab, Spazierstab, Bettelstab u. s. f.“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 262.) – Erinnert an die Diktion der Bibel, z. B. 1 Mose 32,10; ähnlich auch der Beginn einer frühen Tagebuchaufzeichnung Goethes vom 30. Oktober 1775 über den Abschied von Frankfurt (vgl. <ref target="gt:dokument#14">GT I 1, 13</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10304">
+<label xml:id="GB03_2_BR144_0_note_018_87_2" copyOf="#start_com_1376"><hi rendition="#fett">87,2</hi><hi rendition="#hervor1">dumpf</hi></label>
+<p>Hier wohl als Synonym für einen Zustand der Empfindungs- und Fühllosigkeit (vgl. zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10305">
+<label xml:id="GB03_2_BR144_0_note_019_87_5" copyOf="#start_com_1377"><hi rendition="#fett">87,5</hi>Grasaffen</label>
+<p>Die Söhne Charlotte von Steins und andere im Haus anwesende Kinder (vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com15181">
+<label xml:id="GB03_2_BR144_0_note_020_87_5" copyOf="#start_com_1378"><hi rendition="#fett">87,5</hi>gessen</label>
+<p>Oberdt. Form des Partizips Perfekt (vgl. zu <ref target="gb:note#GB03_2_BR023_0_note_004_21_12">21,12</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com10306">
+<label xml:id="GB03_2_BR144_0_note_021_87_6" copyOf="#start_com_1379"><hi rendition="#fett">87,6</hi>Friz</label>
+<p>Friedrich von Stein, der jüngste, damals erst dreijährige Sohn Charlotte von Steins.</p>
+
+</note>
+<note xml:id="gb11093_comment_com13853">
+<label xml:id="GB03_2_BR144_0_note_022_87_6" copyOf="#start_com_1380"><hi rendition="#fett">87,6</hi>Deine Schwester</label>
+<p>Louise von Imhoff (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com15182">
+<label xml:id="GB03_2_BR144_0_note_023_87_10" copyOf="#start_com_1381"><hi rendition="#fett">87,10</hi>Wir gehen heute Abend</label>
+<p>Laut Tagebuch besuchte Goethe am Abend des 17. Juli 1776 Lenz in Berka an der Ilm (vgl. <ref target="gt:dokument#92">GT I 1, 21</ref>), das auf dem Weg nach Ilmenau lag, wohin Goethe am nächsten Tag reiste (vgl. zu <ref target="gb:note#GB03_2_BR144_0_note_002_86_8">86,8</ref>).</p>
+
+</note>
+<note xml:id="gb11093_comment_com17620">
+<label xml:id="GB03_2_BR144_0_note_024_87_10-11" copyOf="#start_com_1382"><hi rendition="#fett">87,10-11</hi>Dein Mann hat heut Reuter Künste getrieben</label>
+<p>Zeitgenössischen Erinnerungen zufolge war der „Oberstallmeister <supplied>Josias</supplied> von Stein <gap quantity="3" reason="editorial"/> einer der galantesten Reiter seiner Zeit; ja er gab sich sogar mit der Kunstreiterei ab. Es wurden auch noch in der folgenden Zeit <supplied>nach 1775</supplied> de jeunérs in der geschlossenen Reitbahn <supplied>zwischen Schloss und Reithaus im Ilmpark</supplied> gegeben, wo man seinen Kunstsprüngen und geschickten Wendungen auf den Pferden großen Beifall zollte.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 34 f.) – Im Tagebuch vermerkt Goethe unter dem 17. Juli 1776: <quote type="G">Nachmittags Oberstallm.Künste.</quote> (<ref target="gt:dokument#92">GT I 1, 21</ref>.)</p>
+
+</note>
+<note xml:id="gb11093_comment_com10318">
+<label xml:id="GB03_2_BR144_0_note_025_87_12-13" copyOf="#start_com_1383"><hi rendition="#fett">87,12-13</hi>wenn du zurück kommst bin ich nicht da</label>
+<p>Goethe kehrte erst am 14. August aus Ilmenau zurück (vgl. GT I 1, 24), wo ihn Charlotte von Stein am 5. August auf ihrer Rückreise von Pyrmont besuchte (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_001_92_7">92, 7</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

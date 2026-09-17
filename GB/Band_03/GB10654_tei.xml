@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="420"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10654" n="GB 3, Nr. 42">
+  <teiHeader xml:id="gb10654_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>42.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 12. Februar 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:23Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10654_tei.xml</idno>
+        <idno type="URI">gb10654</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR042_0</idno>
+        <idno type="KSW-ID">10654</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="30" to="30">30</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="133" to="135">133-135</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10654_header_hwit873" corresp="#gb10654_source_hwit873" sameAs="#gb10654_comment_hwit873" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10654,,873/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wandrers Nachtlied/ Der du von den Himmeln bist</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-12">12. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10654_source_hwit873" corresp="#gb10654_header_hwit873" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10654/22263"/>
+      <lg type="poem"><head rendition="#c">
+        <anchor xml:id="GB03_1_BR042_0_030_009"/>
+        <ref target="gb:note#GB03_2_BR042_0_note_001_30_9" xml:id="start_com_0484"/>Wandrers<ref xml:id="end_com_0484"/>
+        <ref target="gb:note#GB03_2_BR042_0_note_002_30_9" xml:id="start_com_0485"/>Nachtlied<ref xml:id="end_com_0485"/>.</head>
+      <head rendition="#c">
+        <anchor xml:id="GB03_1_BR042_0_030_010"/>════</head>
+      
+        <lg><anchor xml:id="GB03_1_BR042_0_030_011"/>
+        <l rendition="#einrueck7">Der <ref target="gb:note#GB03_2_BR042_0_note_003_30_11" xml:id="start_com_0486"/>du<ref xml:id="end_com_0486"/> von dem Himmel bist</l>
+        <anchor xml:id="GB03_1_BR042_0_030_012"/>
+        <l rendition="#einrueck7">
+          <ref target="gb:note#GB03_2_BR042_0_note_004_30_12" xml:id="start_com_0487"/>Alle Freud<ref xml:id="end_com_0487"/> und Schmerzen stillest,</l>
+        <anchor xml:id="GB03_1_BR042_0_030_013"/>
+        <l rendition="#einrueck7">Den der doppelt elend ist</l>
+        <anchor xml:id="GB03_1_BR042_0_030_014"/>
+        <l rendition="#einrueck7">Doppelt mit Erquickung füllest.</l>
+        <anchor xml:id="GB03_1_BR042_0_030_015"/>
+        <l rendition="#einrueck7">Ach ich bin <ref target="gb:note#GB03_2_BR042_0_note_005_30_15" xml:id="start_com_0488"/>des Treibens<ref xml:id="end_com_0488"/> müde!</l>
+        <anchor xml:id="GB03_1_BR042_0_030_016"/>
+        <l rendition="#einrueck7">Was soll all <ref target="gb:note#GB03_2_BR042_0_note_006_30_16" xml:id="start_com_0489"/>die Quaal<ref xml:id="end_com_0489"/> und Lust.</l>
+        <anchor xml:id="GB03_1_BR042_0_030_017"/>
+        <l rendition="#einrueck7">Süsser<ptr n="1" target="#a001_30.17"/> Friede,</l>
+        <anchor xml:id="GB03_1_BR042_0_030_018"/>
+        <l rendition="#einrueck7">Komm ach komm in meine Brust!</l>
+      </lg></lg>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_1_BR042_0_030_019"/><ref xml:id="start_com_0490" target="gb:note#GB03_2_BR042_0_note_007_30_17"/>Am Hang des Ettersberg<ref xml:id="end_com_0490"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck13">
+          <anchor xml:id="GB03_1_BR042_0_030_020"/>d<g ref="#typoSuspension"/>. 12 Febr<ptr n="2" target="#a002_30.20"/> 76.</dateline>
+        <anchor xml:id="GB03_1_BR042_0_030_021"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10654_comment">
+<body>
+<div type="metadata" xml:id="gb10654_comment_com1007">
+  <ab type="numberAddressee"><label>42.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 12. Februar 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10654_comment_com3051">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 3. – 1 Bl. 17 × 10,9(–11) cm, Bordüre mit gereihtem Dreiblatt auf drei Balken (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 4), 1 S. beschr., egh., Tinte, Schrift durch Tintenfraß beschädigt; Rs. von Concordia Elisabeth von Schardts Hd, Tinte: „Den Frieden laße ich euch, meinen Frieden gebe ich Euch; nicht gebe ich euch, wie die Welt giebt. Euer Hertz erschrecke nicht, und fürchte sich nicht.“ <supplied>Johannes 14,27</supplied>; Vs. oben rechts von fremder Hd, Tinte: „7“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 7), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile: Zur Erinnerung an die Feier des 28. August 1849. S. [3].</p>
+  <p>E<hi rendition="#sup">1</hi>: Christliches Magazin. Hrsg. von Johann Conrad Pfenninger. Bd 3. 1. Stück. Nr 21. Zürich 1780, S. 243 (als Gedicht unter dem Titel „Um Friede“).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 10.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 1 (1887), 392 (Gedicht; spätere Fassung [<ref target="sndb:sigle#1157">WA</ref> I 1, 98]: GSA 25/W 1 S 48).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10654_comment_com4847">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Das vorliegende Gedicht ist das erste von zahlreichen unter den Briefen Goethes an Charlotte von Stein überlieferten Gedichten, die, wie die Überlieferung nahelegt, anstelle eines Briefes verschickt worden sind. Das Bibelzitat auf der Rückseite des Briefblättchens stammt von der Mutter der Adressatin, einer streng religiösen, dem Pietismus nahestehenden Frau (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>). – Unter dem Titel „Wandrers Nachtlied“ erschien das Gedicht 1789 in Band 8 der Göschen-Ausgabe von „Goethe’s Schriften“ (S. 151).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10654_comment_com17409">
+<label xml:id="GB03_2_BR042_0_note_001_30_9" copyOf="#start_com_0484"><hi rendition="#fett">30,9</hi>Wandrers</label>
+<p>Als ‚Wanderer‘ bezeichnete sich Goethe selbst etwa seit 1772, als er nach der Bekanntschaft mit Merck und dem Darmstädter Kreis der ‚Empfindsamen‘ häufig zwischen den Frankfurt benachbarten Orten umherwanderte. Dieses <quote type="G">Umherschweifen in der Gegend</quote> habe ihm den Beinamen <quote type="G">Wanderer</quote> eingebracht, wie er sich im 12. Buch von „Dichtung und Wahrheit“ erinnert: <quote type="G">Dieser Beruhigung für mein Gemüth, die mir nur unter freyem Himmel, in Thälern, auf Höhen, in Gefilden und Wäldern zu Theil ward, kam die Lage von Frankfurt zu statten, das zwischen Darmstadt und Homburg mitten inne lag, zwey angenehmen Orten, die durch Verwandtschaft beyder Höfe in gutem Verhältniß standen. Ich gewöhnte mich, auf der Straße zu leben, und wie ein Bote zwischen dem Gebirg und dem flachen Lande hin und her zu wandern. </quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 431.)</p>
+
+</note>
+<note xml:id="gb10654_comment_com9630">
+<label xml:id="GB03_2_BR042_0_note_002_30_9" copyOf="#start_com_0485"><hi rendition="#fett">30,9</hi>Nachtlied</label>
+<p>‚Nacht‘ hier möglicherweise im Sinne von ‚Abend‘, analog zu ‚Nachtessen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 293).</p>
+
+</note>
+<note xml:id="gb10654_comment_com9631">
+<label xml:id="GB03_2_BR042_0_note_003_30_11" copyOf="#start_com_0486"><hi rendition="#fett">30,11</hi>du</label>
+<p>Mit Bezug auf den erst in Vers 7 apostrophierten ‚süßen Frieden‘ und nicht etwa, wie durch den Hinweis auf die himmlische Herkunft zu erwarten ist, auf ‚Gott‘ oder ‚das Göttliche‘. Vgl. dagegen das Bibelzitat Concordia von Schardts auf der Rückseite des Blattes (vgl. <ref target="gb:note#gb10654_comment_com3051">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb10654_comment_com9632">
+<label xml:id="GB03_2_BR042_0_note_004_30_12" copyOf="#start_com_0487"><hi rendition="#fett">30,12</hi>Alle Freud</label>
+<p>In der späteren Fassung, die dem Abdruck in <ref target="sndb:sigle#1157">WA</ref> I 1, 98 zugrunde liegt, heißt es <quote type="G">Alles Leid</quote>.</p>
+
+</note>
+<note xml:id="gb10654_comment_com9633">
+<label xml:id="GB03_2_BR042_0_note_005_30_15" copyOf="#start_com_0488"><hi rendition="#fett">30,15</hi>des Treibens</label>
+<p>Möglicherweise auch mit einem realen Bezug zum ‚Treiben‘ des Herzogs Carl August und seiner Begleitung (vgl. zu <ref target="gb:note#GB03_2_BR042_0_note_007_30_17">30,19</ref>).</p>
+
+</note>
+<note xml:id="gb10654_comment_com15782">
+<label xml:id="GB03_2_BR042_0_note_006_30_16" copyOf="#start_com_0489"><hi rendition="#fett">30,16</hi>die Quaal</label>
+<p>In der späteren Fassung: <quote type="G">der Schmerz</quote>.</p>
+
+</note>
+<note xml:id="gb10654_comment_com14404">
+<label xml:id="GB03_2_BR042_0_note_007_30_17" copyOf="#start_com_0490"><hi rendition="#fett">30,19</hi>Am Hang des Ettersberg</label>
+<p>Der Ettersberg, ein bewaldeter Höhenzug nördlich von Weimar (höchste Erhebung etwa 478 m), bevorzugtes Jagdgebiet der Weimarer Herzöge, mit sternförmig angelegten Schneisen (Ettersburger Zehnstern) für fürstliche Haupt- und Staatsjagden und einem Jagdschloss (vgl. <ref target="sndb:sigle#3102">Stapff</ref>, 22–24). — Goethe könnte am 12. Februar 1776 in Begleitung des Herzogs Carl August im Ettersburger Forst gewesen sein; im Fourierbuch ist für diesen Tag zwar keine Jagdgesellschaft vermerkt, allerdings nahm der Herzog auch nicht an der Mittagstafel teil und speiste abends in seinen Privaträumen, wahrscheinlich mit Gästen. Charlotte von Stein wird unter den Gästen der fürstlichen Abendtafel genannt (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 51).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

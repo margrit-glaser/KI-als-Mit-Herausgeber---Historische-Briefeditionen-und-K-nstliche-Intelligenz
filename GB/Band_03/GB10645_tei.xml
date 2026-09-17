@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="340"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10645" n="GB 3, Nr. 34">
+  <teiHeader xml:id="gb10645_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>34.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Nacht vom 29. zum 30. Januar 1776. Nacht von Montag zu Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:49Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10645_tei.xml</idno>
+        <idno type="URI">gb10645</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR034_0</idno>
+        <idno type="KSW-ID">10645</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="26" to="26">26</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="119" to="121">119-121</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10645_header_hwit867" corresp="#gb10645_source_hwit867" sameAs="#gb10645_comment_hwit867" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 74</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10645,,867/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich war auf der Gallerie und habe Nobodys Galanterien gegen Sie und seine Impertinenzen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-01-29" to="1776-01-30"><supplied>Nacht vom 29. zum 30. Januar 1776</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-01-01" to="1776-01-31"><supplied>Januar 1776?</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-02-01" to="1776-02-28"><supplied>Februar 1776?</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10645_source_hwit867" corresp="#gb10645_header_hwit867" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10645/22247"/>
+      <p>
+        <anchor xml:id="GB03_1_BR034_0_026_015"/>Ich war auf der <ref target="gb:note#GB03_2_BR034_0_note_001_26_15" xml:id="start_com_0437"/>Gallerie<ref xml:id="end_com_0437"/> und habe <ref target="gb:note#GB03_2_BR034_0_note_002_26_15" xml:id="start_com_0438"/>Nobodys Galanterien<ref xml:id="end_com_0438"/> gegen Sie 
+<anchor xml:id="GB03_1_BR034_0_026_016"/>und seine Impertinenzen gegen <ref target="gb:note#GB03_2_BR034_0_note_003_26_16" xml:id="start_com_0439"/>seine Untergebne<ref xml:id="end_com_0439"/> gesehen, es war ein 
+<anchor xml:id="GB03_1_BR034_0_026_017"/>Haupt Spas. Die <ref target="gb:note#GB03_2_BR034_0_note_004_26_17" xml:id="start_com_0440"/>Junge<ptr n="1" target="#a001_26.17"/> Herz.<ref xml:id="end_com_0440"/> war <ref target="gb:note#GB03_2_BR034_0_note_005_26_17" xml:id="start_com_0441"/>heut hoben<ref xml:id="end_com_0441"/> ganz in Gestalt und 
+<anchor xml:id="GB03_1_BR034_0_026_018"/>Wesen eines Engels, <ref target="gb:note#GB03_2_BR034_0_note_006_26_18" xml:id="start_com_0442"/>sie waren lieb zusammen<ref xml:id="end_com_0442"/>, sie war<ptr n="2" target="#a002_26.18"/> auch lieb mit 
+<anchor xml:id="GB03_1_BR034_0_026_019"/>mir. Gute Nacht liebste Frau. Ich habe nicht erkennen können ob Sie 
+<anchor xml:id="GB03_1_BR034_0_026_020"/>meinen Straus vorhaben, doch glaub ich’s, wie ich manchmal auch 
+<anchor xml:id="GB03_1_BR034_0_026_021"/>nur glauben muss – Gute Nacht liebe! liebe! <ref target="gb:note#GB03_2_BR034_0_note_007_26_21-22" xml:id="start_com_0443"/>Noch unter Einem Dach 
+<anchor xml:id="GB03_1_BR034_0_026_022"/>mit Ihnen<ref xml:id="end_com_0443"/> Gute Nacht.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR034_0_026_023"/>
+        <signed rend="paraph" rendition="#einrueck13">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10645_comment">
+<body>
+<div type="metadata" xml:id="gb10645_comment_com402">
+  <ab type="numberAddressee"><label>34.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Nacht vom 29. zum 30. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10645_comment_com1580">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief der vorletzte des Jahrgangs 1777. Seit der Erstausgabe wurde er in den Januar oder Februar 1776 eingeordnet, allerdings zumeist ohne ausreichende Begründung (vgl. zu <ref target="gb:note#GB03_2_BR034_0_note_002_26_15">26,15</ref>). Für die Datierung auf die Nacht vom 29. zum 30. Januar sprechen die inhaltlichen Bezüge zu Brief <ref target="gb:dokument#10680">Nr 33</ref>, der wahrscheinlich vom Abend des 29. Januar 1776 stammt. Mit deutlicher Parallele zur Bemerkung am Beginn dieses Briefes <quote type="G">Mit Ihnen unter Einem Dache</quote> (<ref target="gb:text#GB03_1_BR033_0_026_008">26,8</ref>) heißt es im vorliegenden Brief, Goethe befände sich <quote type="G">Noch unter Einem Dache</quote> (<ref target="gb:text#GB03_1_BR034_0_026_021">26,21</ref>) mit der Freundin. Dazu passt auch der weitere Inhalt, aus dem hervorgeht, dass sich Goethe in den Privaträumen des Herzogs Carl August im zweiten Stock des Fürstenhauses aufhielt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR034_0_note_005_26_17">26,17</ref>), während Charlotte von Stein offenbar an der im selben Gebäude stattfindenden Hoftafel teilnahm, was genau der Konstellation vom Abend des 29. Januar 1776 entspricht (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_001_26_8">26,8</ref> und Datierung zu <ref target="gb:note#gb10680_comment_com1497">Nr 33</ref>). Daher ist anzunehmen, dass die Niederschrift des vorliegenden Briefes nur wenig später als die des Briefes <ref target="gb:dokument#10680">Nr 33</ref> erfolgte.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10645_comment_com2446">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 74. – 1 Bl. 19(–19,2) × 11,2(–11,5) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „76“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 80), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Möglicherweise Beischluss zu <ref target="gb:dokument#10681">Nr 35</ref> (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_001_27_1">27,1</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 11.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 23, Nr 392.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10645_comment_com4242">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10645_comment_com9492">
+<label xml:id="GB03_2_BR034_0_note_001_26_15" copyOf="#start_com_0437"><hi rendition="#fett">26,15</hi>Gallerie</label>
+<p>Auf der Galerie des Gesellschaftssaales im Fürstenhaus, wo auch die Hoftafel stattfand (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_005_26_11">26,11</ref>).</p>
+
+</note>
+<note xml:id="gb10645_comment_com9493">
+<label xml:id="GB03_2_BR034_0_note_002_26_15" copyOf="#start_com_0438"><hi rendition="#fett">26,15</hi>Nobodys Galanterien</label>
+<p>‚Nobody‘ möglicherweise in Anspielung auf die Titelfigur des englischen Volksstücks „Nobody and Somebody“ aus dem 16. Jahrhundert, das in deutscher Übersetzung „Niemand und Jemand“ (Graz 1608) zum Repertoire der Wanderbühnen gehörte und sich größerer Beliebtheit als das englische Original erfreute (vgl. Cora Dietl: Das frühe deutsche Drama. Helsinki 1998, S. 158–161). – Wer hier gemeint ist, muss offenbleiben. Bisher wurde eine Anspielung auf Leonhard Freiherrn von Klinckowström vermutet, seit 1775 Reisemarschall am Hof des Herzogs Carl August. Laut Fourierbuch war Klinckowström jedoch am Abend des 29. Januar 1776, als der vorliegende Brief sehr wahrscheinlich geschrieben wurde, nicht unter den Gästen der Hoftafel. Nachweislich nahmen die folgenden männlichen Personen teil, von denen einer hier gemeint sein könnte: „H<g ref="#typoSuspension"/>. Obrist von Hohenthal“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 34), wahrscheinlich identisch mit dem sonst unter „Baron v. Hohenthal“ (ebd., 33) erwähnten Friedrich Wilhelm von Hohenthal, die Kammerherren Christian Ferdinand Georg von Werthern-Beichlingen und Carl Siegmund Emil von Üchtritz, der Oberstallmeister Josias von Stein, der Hofjunker Ludwig von Schardt und der Leutnant Friedrich August Ludwig von Laßberg (vgl. ebd., S. 34). – Auch wenn nicht auszuschließen ist, dass der Reisemarschall später zur Gesellschaft hinzukam, gibt es für die Vermutung, dass er hier gemeint ist, keinen Beleg. Die Behauptung, ‚Nobody‘ sei der Spitzname Klinckowströms gewesen, die in neueren Lexika und Quelleneditionen übernommen wurde (so bei <ref target="sndb:sigle#2766">Biedrzynski</ref>, 242; <ref target="sndb:sigle#2983">Lyncker</ref>, 314; <ref target="sndb:sigle#2796">Chronik</ref> 2, 21), geht offenbar auf Schölls Kommentar zur vorliegenden Briefstelle zurück: „D. i. Hofmarschall von Klinkowström, der angenehme Manieren hatte.“ (<ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 [1848], 11, Anm. 2.) Schölls Bemerkung wiederum basiert lediglich auf einem Hinweis Friedrich von Steins, den Fielitz mitteilt: „Der Reisemarschall v. Klinckowström <gap quantity="3" reason="editorial"/> Ein Mann, nach Fritz v. Steins Zeugniß, von angenehmen Formen, aber unbedeutendem Gehalt.“ (<ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1 [1883], 405, Anm. 8 [zu S. 21].) Außerdem wird auf Düntzer verwiesen, der vermutete, Klinckowström habe den Namen ‚Nobody‘ „wohl nach dem satirischen englischen Liede The little Nobody auf die Reformation unter Eduard VI. <supplied>geführt</supplied>, wo es heißt: The little John Nobody that dursted not speake.“ (<ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref> [1886], 23, Anm. 10; <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1 [1899], 482, Anm. 4 [zu S. 22]. – Der kleine John Niemand, der nicht zu sprechen wagte.) Überdies lässt sich für jede der bei Schöll, Düntzer, Fielitz und Wahle angegebenen Datierungen dieses Briefes anhand des Fourierbuches nachweisen, dass sich an diesen Tagen (nämlich zwischen dem 12. und 23. Februar, am 23. Januar oder am 11. Februar 1776) Goethe, der Herzog und Charlotte von Stein nie gemeinsam <quote type="G">unter Einem Dach</quote> im Fürstenhaus befanden, auch war Klinckowström nur einmal, nämlich am 11. Februar anwesend, an diesem Abend aber fehlte Charlotte von Stein an der Hoftafel (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 49).</p>
+
+</note>
+<note xml:id="gb10645_comment_com9494">
+<label xml:id="GB03_2_BR034_0_note_003_26_16" copyOf="#start_com_0439"><hi rendition="#fett">26,16</hi>seine Untergebne</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10645_comment_com9495">
+<label xml:id="GB03_2_BR034_0_note_004_26_17" copyOf="#start_com_0440"><hi rendition="#fett">26,17</hi>Junge Herz.</label>
+<p>Die junge Herzogin Louise von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10645_comment_com17322">
+<label xml:id="GB03_2_BR034_0_note_005_26_17" copyOf="#start_com_0441"><hi rendition="#fett">26,17</hi>heut hoben</label>
+<p>In den Wohnräumen des Herzogs Carl August im zweiten Stock des Fürstenhauses, wo Goethe am Abend des 29. Januar gemeinsam mit dem Oberforstmeister von Wedel zu Gast war (vgl. zu <ref target="gb:note#GB03_2_BR033_0_note_001_26_8">26,8</ref>). – ‚Hoben‘ von veraltet ‚heroben‘, in dieser Form nur in den frühen Briefen belegt (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1292).</p>
+
+</note>
+<note xml:id="gb10645_comment_com9496">
+<label xml:id="GB03_2_BR034_0_note_006_26_18" copyOf="#start_com_0442"><hi rendition="#fett">26,18</hi>sie waren lieb zusammen</label>
+<p>Vgl. aber zu <ref target="gb:note#GB03_2_BR030_0_note_016_25_11-12">25,11-12</ref>.</p>
+
+</note>
+<note xml:id="gb10645_comment_com9497">
+<label xml:id="GB03_2_BR034_0_note_007_26_21-22" copyOf="#start_com_0443"><hi rendition="#fett">26,21-22</hi>Noch unter Einem Dach mit Ihnen</label>
+<p>Vgl. <ref target="gb:note#gb10645_comment_com1580">Datierung</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

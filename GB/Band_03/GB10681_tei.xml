@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="350"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10681" n="GB 3, Nr. 35">
+  <teiHeader xml:id="gb10681_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>35.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 30.? Januar 1776. Dienstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10681_tei.xml</idno>
+        <idno type="URI">gb10681</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR035_0</idno>
+        <idno type="KSW-ID">10681</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="27" to="27">27</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="121" to="123">121-123</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10681_header_hwit864" corresp="#gb10681_source_hwit864" sameAs="#gb10681_comment_hwit864" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 117</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10681,,864/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Das schrieb ich gestern Nacht, und iezt einen guten Morgen, und Stella</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10681_header_acc172" corresp="gb10681_comment_acc172">
+            <objectIdentifier>
+              <objectName>1 Exemplar von „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776) </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-30"><supplied>30.? Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10681_source_hwit864" corresp="#gb10681_header_hwit864" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10681/22255"/>
+      <p>
+        <anchor xml:id="GB03_1_BR035_0_027_001"/>
+        <ref target="gb:note#GB03_2_BR035_0_note_001_27_1" xml:id="start_com_0445"/>Das schrieb ich gestern Nacht<ref xml:id="end_com_0445"/>, und iezt einen guten Morgen, und 
+<anchor xml:id="GB03_1_BR035_0_027_002"/>
+        <ref target="gb:note#GB03_2_BR035_0_note_002_27_2" xml:id="start_com_0446"/>Stella<ref xml:id="end_com_0446"/>. Ich habe gut geschlafen, u. meine Seel ist rein, und voll frohen 
+<anchor xml:id="GB03_1_BR035_0_027_003"/>Gefühls der Zukunft. <ref target="gb:note#GB03_2_BR035_0_note_003_27_3" xml:id="start_com_0447"/>Kommen Sie heut nach Hof?<ref xml:id="end_com_0447"/>
+        <ref target="gb:note#GB03_2_BR035_0_note_004_27_3-4" xml:id="start_com_0448"/>Louise war 
+<anchor xml:id="GB03_1_BR035_0_027_004"/>gestern lieb.<ref xml:id="end_com_0448"/> Groser Gott ich begreife nur nicht, <ref target="gb:note#GB03_2_BR035_0_note_005_27_4-5" xml:id="start_com_0449"/>was ihr Herz so zusammen 
+<anchor xml:id="GB03_1_BR035_0_027_005"/>zieht.<ref xml:id="end_com_0449"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR035_0_027_006"/>Ich sah ihr in die Seele, und doch wenn ich nicht so warm für sie 
+<anchor xml:id="GB03_1_BR035_0_027_007"/>wäre, sie hätte mich erkältet. Ihr <ref target="gb:note#GB03_2_BR035_0_note_006_27_7" xml:id="start_com_0450"/>Verdruss über’s Herzogs Hund<ref xml:id="end_com_0450"/> war 
+<anchor xml:id="GB03_1_BR035_0_027_008"/>auch so sichtlich. Sie haben eben immer beyde unrecht. Er hätt ihn 
+<anchor xml:id="GB03_1_BR035_0_027_009"/>draus lassen sollen, und da er hinn war hätt sie ihn eben auch leiden 
+<anchor xml:id="GB03_1_BR035_0_027_010"/>können. Nun liebe Frau bewahr <ref target="gb:note#GB03_2_BR035_0_note_007_27_10" xml:id="start_com_0451"/>dich<ref xml:id="end_com_0451"/> Gott, und hab mich lieb. Ist 
+<anchor xml:id="GB03_1_BR035_0_027_011"/>doch nichts anders auf der Welt</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10681_comment">
+<body>
+<div type="metadata" xml:id="gb10681_comment_com664">
+  <ab type="numberAddressee"><label>35.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>30.? Januar 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10681_comment_com1708">
+  <p>Der vorliegende im Konvolut der Briefe an Charlotte von Stein (Bd I) in den November 1778 eingeordnete Brief wird seit der Erstausgabe auf Ende Januar 1776 datiert. Für diese Umdatierung sprechen die inhaltlichen Bezüge zu dem wahrscheinlich unmittelbar zuvor geschriebenen Billett (<ref target="gb:dokument#10645">Nr 34</ref>) (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_001_27_1">27,1</ref>; zu <ref target="gb:note#GB03_2_BR035_0_note_004_27_3-4">27,3-4</ref>), der Wechsel in der Anrede (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_007_27_10">27,10</ref>), vor allem jedoch die Beilage: In seinem ersten Brief vom 29. Januar hatte Goethe der Freundin ein Exemplar des soeben im Druck erschienenen Schauspiels „Stella“ (vgl. <ref target="gb:text#GB03_1_BR032_0_026_003 #GB03_1_BR032_0_026_004">26,3–4</ref>) versprochen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>). Es ist anzunehmen, dass er es ihr auch umgehend, wahrscheinlich bereits am nächsten Tag, zukommen ließ. Der vorliegende Brief, der die Übersendung der „Stella“ begleitete, könnte demnach also am Morgen des 30. Januar 1776 geschrieben worden sein.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10681_comment_com2708">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 117. – 1 Bl. 17 × 11 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „95“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 98), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Beischluss: möglicherweise <ref target="gb:dokument#10645">Nr 34</ref> (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_001_27_1">27,1</ref>).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 8.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 25 f., Nr 396.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10681_comment_com3631">
+  <p>1 Exemplar von „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776) (vgl. zu <ref target="gb:note#GB03_2_BR035_0_note_002_27_2">27,2</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10681_comment_com4504">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10681_comment_com9659">
+<label xml:id="GB03_2_BR035_0_note_001_27_1" copyOf="#start_com_0445"><hi rendition="#fett">27,1</hi>Das schrieb ich gestern Nacht</label>
+<p>Möglicherweise lag das in der Nacht vom 29. zum 30. Januar 1776 geschriebene Billett (<ref target="gb:dokument#10645">Nr 34</ref>) bei.</p>
+
+</note>
+<note xml:id="gb10681_comment_com9660">
+<label xml:id="GB03_2_BR035_0_note_002_27_2" copyOf="#start_com_0446"><hi rendition="#fett">27,2</hi>Stella</label>
+<p>Mit dem Brief überschickte Goethe das angekündigte Exemplar seiner „Stella“ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>).</p>
+
+</note>
+<note xml:id="gb10681_comment_com17371">
+<label xml:id="GB03_2_BR035_0_note_003_27_3" copyOf="#start_com_0447"><hi rendition="#fett">27,3</hi>Kommen Sie heut nach Hof?</label>
+<p>Wenn der Brief, wie angenommen, am 30. Januar 1776 geschrieben worden ist, bezieht sich die Frage auf die bevorstehende Feier des 19. Geburtstages der Herzogin Louise. Laut Fourierbuch war an der abendlichen großen Hoftafel mit insgesamt 35 Personen auch Charlotte von Stein anwesend, während Goethe nur am Mittag unter den Gästen der Marschallstafel (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_004_26_10">26,10</ref>) genannt wird, und zwar als 16. und letzter Gast (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 35 f.). Am Abend des 30. Januar 1776 fand zudem aus Anlass des Geburtstages ein Konzert statt (vgl. <ref target="sndb:sigle#2822/1142">Brockmann, Weimarer Hofmusik</ref>, 94 f.).</p>
+
+</note>
+<note xml:id="gb10681_comment_com9661">
+<label xml:id="GB03_2_BR035_0_note_004_27_3-4" copyOf="#start_com_0448"><hi rendition="#fett">27,3-4</hi>Louise war gestern lieb.</label>
+<p>Fast wörtlich hatte dies Goethe schon in seinem Billett vom 29./30. Januar 1776 geschrieben (vgl. <ref target="gb:text#GB03_1_BR034_0_026_018">26,18</ref>).</p>
+
+</note>
+<note xml:id="gb10681_comment_com17568">
+<label xml:id="GB03_2_BR035_0_note_005_27_4-5" copyOf="#start_com_0449"><hi rendition="#fett">27,4-5</hi>was ihr Herz so zusammen zieht</label>
+<p>Die junge Herzogin beschreibt Wieland in einem Brief an Lavater vom 4. März 1776: „Von unsrer Her[zogin] Louise? Was kan ich Ihnen sagen? Sie ist ein Geschöpf aus meiner lieben Niobes-Familie; gleicht einem Weib aus der Unschuldswelt, oder aus den guten Homerischen u. Patriarchalischen Zeiten wenigstens. <gap quantity="3" reason="editorial"/> Und doch ist sie nicht glükl. und macht nicht glüklich! Ein trauriges Räthsel! – <gap quantity="3" reason="editorial"/> Ich sehe sie sehr selten; und wohl mir, daß ich sie selten sehe. Sie ist, nach Seel und Leib, eine Idealische Form für mich, und würde mir mehr Liebe einflößen, als unser Verhältnis tragen möchte. Warum kan C[arl] A[ugust] den Engel nicht aus <hi rendition="#hervor1">meinen</hi> Augen sehen? Warum kan Louise den edlen, guten, biderherzigen, wiewohl auf halbem Weg verunglückten Heros C. A. nicht mit <hi rendition="#hervor1">meinen</hi> Augen sehen?“ (<ref target="sndb:sigle#141">WB</ref> 5, 481 f.) Über die zwischen dem jungen Herzogspaar herrschende Kälte berichtet auch Charlotte von Stein in ihrem Brief an Zimmermann vom 6. März 1776 (vgl. zu <ref target="gb:note#GB03_2_BR028_0_note_001_24_1">24,1</ref>; zu <ref target="gb:note#GB03_2_BR170_0_note_006_105_28">105,28</ref>).</p>
+
+</note>
+<note xml:id="gb10681_comment_com9766">
+<label xml:id="GB03_2_BR035_0_note_006_27_7" copyOf="#start_com_0450"><hi rendition="#fett">27,7</hi>Verdruss über’s Herzogs Hund</label>
+<p>Wegen der Freiheiten, die Carl August seinen Hunden gewährte, muss es offenbar häufiger zu Missstimmungen zwischen ihm und Herzogin Louise gekommen sein. Dies belegen u. a. die Erinnerungen des Hofpagen Carl von Lyncker: „Die großen Hunde, die den Herzog stets begleiteten, verursachten nicht selten bei der Tafel, selbst bei der Herzogin, einigen Unwillen; ja es kam vor, daß sie die Tafel schneller aufhob, weil man gewisse Ungezogenheiten nicht länger ertragen konnte, wobei sich jedoch der Herzog vor Lachen ausschütten mochte.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 74.)</p>
+
+</note>
+<note xml:id="gb10681_comment_com9767">
+<label xml:id="GB03_2_BR035_0_note_007_27_10" copyOf="#start_com_0451"><hi rendition="#fett">27,10</hi>dich</label>
+<p>Der Anredewechsel von ‚Sie‘ zum vertraulichen ‚Du‘ ist charakteristisch für Goethes Briefe etwa ab Ende Januar 1776 (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

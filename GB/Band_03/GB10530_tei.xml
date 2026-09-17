@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="990"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10530" n="GB 3, Nr. 99">
+  <teiHeader xml:id="gb10530_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>99.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#78160" evidence="conjecture">Ilmenau</placeName></supplied>, 6. Mai 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:01Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10530_tei.xml</idno>
+        <idno type="URI">gb10530</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR099_0</idno>
+        <idno type="KSW-ID">10530</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="61" to="61">61</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="232" to="234">232-234</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10530_header_hwit960" corresp="#gb10530_source_hwit960" sameAs="#gb10530_comment_hwit960" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 16</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10530,,960/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Nur eine gute Nacht! Treff ich dich noch wenn ich zurückkomme! Mir gehts zu wunderbaar</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>
+            <date when="1776-05-06">6. Mai 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10530_source_hwit960" corresp="#gb10530_header_hwit960" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10530/22327"/>
+      <p>
+        <anchor xml:id="GB03_1_BR099_0_061_004"/>Nur eine gute Nacht! Treff ich <ref target="gb:note#GB03_2_BR099_0_note_001_61_4" xml:id="start_com_0954"/>dich<ref xml:id="end_com_0954"/> noch <ref target="gb:note#GB03_2_BR099_0_note_002_61_4" xml:id="start_com_0955"/>wenn ich zurück komme<ref xml:id="end_com_0955"/>! – 
+<anchor xml:id="GB03_1_BR099_0_061_005"/>
+        <ref target="gb:note#GB03_2_BR099_0_note_003_61_5" xml:id="start_com_0956"/>Mir gehts zu wunderbaar.<ref xml:id="end_com_0956"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR099_0_061_006"/>Hab mich nur ein bissel lieb. <ref target="gb:note#GB03_2_BR099_0_note_004_61_6-7" xml:id="start_com_0957"/>Ich erzähl dir auch viel und hab dich 
+<anchor xml:id="GB03_1_BR099_0_061_007"/>lieber als du magst.<ref xml:id="end_com_0957"/>     d<g ref="#typoSuspension"/>. 6 May 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR099_0_061_008"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10530_comment">
+<body>
+<div type="metadata" xml:id="gb10530_comment_com1205">
+  <ab type="numberAddressee"><label>99.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>, 6. Mai 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10530_comment_com3249">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 16. – 1 Bl. 15,9(–16,1) × 8,3(–8,5) cm, aus größerem Blatt ausgeschnitten, 1 S. beschr., egh., Tinte, flüchtig geschrieben; oben rechts von fremder Hd, Tinte: „39.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 39), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 31.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 58, Nr 449.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10530_comment_com5045">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10530_comment_com17163">
+<label xml:id="GB03_2_BR099_0_note_001_61_4" copyOf="#start_com_0954"><hi rendition="#fett">61,4</hi>dich</label>
+<p>Im Brief vom 4. Mai 1776 (<ref target="gb:dokument#10608">Nr 97</ref>), ebenfalls aus Ilmenau, hatte Goethe das ‚Sie‘ verwendet, wie auch im folgenden Brief vom 11. Mai (<ref target="gb:dokument#10878">Nr 100</ref>). Zum Problem der wechselnden Anrede in den ersten Jahren der Bekanntschaft mit Charlotte von Stein vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR030_0_note_017_25_13">25,13</ref>.</p>
+
+</note>
+<note xml:id="gb10530_comment_com8860">
+<label xml:id="GB03_2_BR099_0_note_002_61_4" copyOf="#start_com_0955"><hi rendition="#fett">61,4</hi>wenn ich zurück komme</label>
+<p>Am 10. Mai 1776 (vgl. <ref target="gt:dokument#36">GT I 1, 18</ref>).</p>
+
+</note>
+<note xml:id="gb10530_comment_com17178">
+<label xml:id="GB03_2_BR099_0_note_003_61_5" copyOf="#start_com_0956"><hi rendition="#fett">61,5</hi>Mir gehts zu wunderbaar.</label>
+<p>Vgl. Brief <ref target="gb:dokument#10871">Nr 98</ref>. – Laut Tagebuch hatte Goethe am 5. Mai mit dem herzoglichen Husaren-Kommando an der tags zuvor angekündigten Verfolgung einer Diebesbande nach Frauenwald am Rennsteig teilgenommen, sich am 6. Mai am Scheibenschießen beteiligt und die Löfflersche Eisenhütte bei Ilmenau besucht (vgl. <ref target="gt:dokument#32">GT I 1, 17</ref>; GT I 2, 388, zu 17,20; zu 17,21). ‚Wunderbar‘ hier noch im älteren, wörtlichen Sinne von ‚sonderbar‘, ‚merkwürdig‘, „auf erlebnisse und innere vorgänge bezogen“ (<ref target="sndb:sigle#2890">Grimm</ref> 14 II, 1846).</p>
+
+</note>
+<note xml:id="gb10530_comment_com8872">
+<label xml:id="GB03_2_BR099_0_note_004_61_6-7" copyOf="#start_com_0957"><hi rendition="#fett">61,6-7</hi>Ich erzähl <gap quantity="3" reason="editorial"/> lieber als du magst.</label>
+<p>Am selben Tag entstand in Ilmenau das Gedicht „Dem Schnee, dem Regen <gap quantity="3" reason="editorial"/>“, zuerst 1789 in „Goethe’s Schriften“ (Bd 8, S. 147 f.) unter dem Titel „Rastlose Liebe“ gedruckt. Dem Erstdruck liegt eine Abschrift Herders zugrunde, die auf einer nicht überlieferten Vorlage beruht. Es ist nicht auszuschließen, dass Goethe das mit Ort und Datum versehene Gedicht an Charlotte von Stein schickte, auch wenn es im Konvolut seiner Briefe an sie nicht überliefert ist.</p>
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck4"><quote type="G">Dem Schnee, dem Reg</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><supplied>Dem</supplied><quote type="G">Wind entgeg</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">Im Dampf d Kl</quote><supplied>ü</supplied><quote type="G">fte</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Wolknebeldüfte</quote></l>
+    <l rendition="#einrueck4"><quote type="G">immer zu,</quote><supplied>immer zu</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">ohne Rast u</quote><supplied>nd</supplied><quote type="G">Ruh.</quote></l>
+  </lg>
+  <lg>
+    <l rendition="#einrueck4"><quote type="G">Lieb</quote><supplied>er</supplied><quote type="G">d</quote><supplied>urch</supplied><quote type="G">leid</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">möcht ich mich schlag</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">als alle die Freud</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">Des Leb</quote><supplied>en</supplied><quote type="G">s zu trag</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">Alle d</quote><supplied>as</supplied> <quote type="G">Neig</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">v</quote><supplied>on</supplied><quote type="G">H</quote><supplied>erzen</supplied><quote type="G">zu H</quote><supplied>erzen</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">Ach wie so eig</quote><supplied>en</supplied><quote type="G">schaffet d</quote><supplied>as</supplied><quote type="G">Schmerz</quote><supplied>en</supplied>.</l>
+  </lg>
+  <lg>
+    <l rendition="#einrueck4"><quote type="G">W</quote><supplied>o</supplied><quote type="G">h</quote><supplied>in</supplied><quote type="G">soll ich flieh</quote><supplied>en</supplied><quote type="G">?</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Wälderwärts zieh</quote><supplied>en</supplied></l>
+    <l rendition="#einrueck4"><quote type="G">Alles vergebens!</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Leitstern des Leb</quote><supplied>en</supplied><quote type="G">s</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Gl</quote><supplied>üc</supplied><quote type="G">k ohne Ruh</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Liebe bist du!</quote></l>
+    <l rendition="#einrueck8"><quote type="G">Ilm</quote><supplied>enau</supplied><quote type="G">d</quote><supplied>en</supplied><quote type="G">6. Mai 76.</quote></l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+ <p>(Abschrift Johann Gottfried Herders. – H: <ref target="sndb:sigle#3166">SBB/PK</ref>, <ref target="sndb:sigle#2914">HN</ref> XXXII,5.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

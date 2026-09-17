@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5140"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11707" n="GB 3, Nr. 504">
+  <teiHeader xml:id="gb11707_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>504.</label> An <persName key="sndb:person#43421">Wolfgang Heribert von Dalberg</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Juni 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:44Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11707_tei.xml</idno>
+        <idno type="URI">gb11707</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR504_0</idno>
+        <idno type="KSW-ID">11707</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="280" to="281">280-281</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="923" to="925">923-925</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11707_header_hwit1492" corresp="#gb11707_source_hwit1492" sameAs="#gb11707_comment_hwit1492" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>München</placeName>
+            </settlement>
+            <institution key="sndb:standort#462">BSB</institution>
+            <idno type="shelfmark">Cod. germ. 4830, Nr. 9</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11707,,1492/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Der Innhalt derer mir zugeschickten Papiere war mir ganz neu, ich kan versichern</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-06-01">1. Juni 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43421">Dalberg, Wolfgang Heribert von</persName>
+            <supplied><placeName key="sndb:ort#78508">Mannheim</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11707_source_hwit1492" corresp="#gb11707_header_hwit1492" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11707/33274"/>
+      <opener>
+        <salute>
+          <anchor xml:id="GB03_1_BR504_0_280_016"/>Hochwohlgebohrner Freyherr</salute>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR504_0_280_017"/>Der Innhalt derer <ref target="gb:note#GB03_2_BR504_0_note_001_280_17" xml:id="start_com_4045"/>mir zugeschickten Papiere<ref xml:id="end_com_4045"/> war mir ganz neu, ich 
+<anchor xml:id="GB03_1_BR504_0_280_018"/>kan versichern dass von allem was mit Müllern in Rom vorgegangen 
+<anchor xml:id="GB03_1_BR504_0_280_019"/>ist, und was sich etwa davon nach Deutschland verbreitet<ptr n="1" target="#a001_280.19"/> haben mag, 
+<anchor xml:id="GB03_1_BR504_0_280_020"/>nicht das mindste bis zu uns gekommen ist.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR504_0_280_021"/>Sie werden die Güte haben ihn und seine Freunde darüber völlig zu 
+<anchor xml:id="GB03_1_BR504_0_280_022"/>beruhigen. Wir hoffen noch immer eben dasselbe von seinem mahlerischen 
+<anchor xml:id="GB03_1_BR504_0_281_001"/>Geiste, der gewiss, <ref target="gb:note#GB03_2_BR504_0_note_002_281_1" xml:id="start_com_4046"/>wenn er sich auf diese Kunst beschränckt<ref xml:id="end_com_4046"/>, 
+<anchor xml:id="GB03_1_BR504_0_281_002"/>etwas <ref target="gb:note#GB03_2_BR504_0_note_003_281_2" xml:id="start_com_4047"/>sonderlichs<ref xml:id="end_com_4047"/> hervorbringen wird.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR504_0_281_003"/>Erlauben Sie mir dass ich bey dieser Gelegenheit Ihnen den Hofbildhauer 
+<anchor xml:id="GB03_1_BR504_0_281_004"/>
+        <ref target="gb:note#GB03_2_BR504_0_note_004_281_4" xml:id="start_com_4048"/>Glauer<ref xml:id="end_com_4048"/> der vielleicht schon in Mannheim eingetroffen ist, 
+<anchor xml:id="GB03_1_BR504_0_281_005"/>auf das angelegentlichste empfehle.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR504_0_281_006"/>Mit Aller Hochachtung nenne ich mich</p>
+      <closer>
+        <salute rendition="#einrueck16">
+          <anchor xml:id="GB03_1_BR504_0_281_007"/>Ew Hochwohlgebohrnen</salute>
+        <lb xml:id="gb11707_source_lin1940"/><dateline><anchor xml:id="GB03_1_BR504_0_281_008"/>Weimar</dateline>                                                             <lb sameAs="#gb11707_source_lin1940"/><salute>ganz gehorsamsten</salute>
+        <lb xml:id="gb11707_source_lin1941"/><dateline>          <anchor xml:id="GB03_1_BR504_0_281_009"/>d<g ref="#typoSuspension"/>. 1 Jun 1779.</dateline>                                                            <lb sameAs="#gb11707_source_lin1941"/><salute>Diener</salute>
+        <lb/><anchor xml:id="GB03_1_BR504_0_281_010"/>
+        <signed rend="signature" rendition="#einrueck21">Goethe</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11707/33275" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11707/33276" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11707/33277" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11707_comment">
+<body>
+<div type="metadata" xml:id="gb11707_comment_com1276">
+  <ab type="numberAddressee"><label>504.</label> An <persName key="sndb:person#43421">Wolfgang Heribert von Dalberg</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Juni 1779 → <supplied><placeName key="sndb:ort#78508">Mannheim</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11707_comment_com3320">
+  <p>H: Bayerische Staatsbibliothek München, Sign.: Cod. germ. 4830, Nr 9. – 1 Bl. 19,5 × 24 cm, 1 S. beschr., egh., Tinte.</p>
+  <p>E: Briefe an W. H. Freiherrn von Dalberg. In: Weimarisches Jahrbuch für deutsche Sprache, Litteratur und Kunst. Hrsg. von Hoffmann von Fallersleben und Oskar Schade. Bd 5. Hannover 1856, S. 21.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 40, Nr 822.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11707_comment_com5116">
+  <p>Der Bezugsbrief (vgl. <ref target="gb:text#GB03_1_BR504_0_280_017">280,17</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Wolfgang Heribert Tobias Otto Maria Johann Nepomuk Freiherr von Dalberg (1750–1806) war der Bruder des Erfurter Statthalters Carl Theodor von Dalberg (über diesen und die Herkunft beider Brüder vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10892_comment_com4532">Nr 516</ref>). Wolfgang Heribert trat 1770 als Kammerherr in den Dienst des Kurfürsten Carl Theodor von der Pfalz in Mannheim. Der Kunst und Wissenschaft fördernde Regent gründete zur selben Zeit die Kurfürstliche Deutsche Gesellschaft, die sich Aufklärung und Geschmacksbildung in der Pfalz zum Ziel setzte und die Vorherrschaft französischer Kultur und Sprache in Kunst und Wissenschaften zurückzudrängen suchte. Seit 1778 stand Dalberg, der im selben Jahr zum Vizepräsident der kurpfälzischen Hofkammer ernannt wurde, an der Spitze der Gesellschaft, zu deren Mitgliedern von 1784 an auch Schiller gehörte. Nachdem Kurfürst Carl Theodor 1777 das Herzogtum Bayern geerbt und den Hof nach München verlegt hatte, drohte die Stadt Mannheim an Bedeutung zu verlieren. Weil auch die Schauspielgesellschaft von Theobald Marchand in die neue Residenz übergesiedelt war, ließ sich Dalberg deshalb 1778 den Auftrag erteilen, in Mannheim ein neues deutsches Nationaltheater zu etablieren. Er engagierte die Gothaer Schauspieler Heinrich Beck, Johann David Beil und August Wilhelm Iffland und trieb mit deren Hilfe den Aufbau des neuen Theaters voran. Das Mannheimer Ensemble pflegte in bewusstem Gegensatz zu Pathos und Deklamation des französischen Dramas einen ‚natürlichen‘ Darstellungsstil, nach dem Vorbild des Hamburger Schauspielers und Theaterdirektors Friedrich Ludwig Schröder, dessen Gastspiel in Mannheim im Jahr 1780 musterhaft wirkte. Dalberg, der im selben Jahr zum Wirklichen Geheimen Rat befördert wurde, übernahm von 1781 an auch die künstlerische Leitung des Theaters. Goethes Drama „Die Mitschuldigen“, das ihm der Autor 1780 schickte, führte Dalberg aus moralischen Bedenken gegen die Fabel nicht auf; zuvor hatte ihm Goethe seinerseits die „Iphigenie“ verweigert (vgl. <ref target="gb:dokument#10892">Nr 516</ref>). Unter Dalbergs Intendanz kam es am 13. Januar 1782 zur Uraufführung von Schillers „Räubern“; 1783/84 stellte Dalberg den Autor als Theaterdichter ein, dessen folgende Dramen er ebenfalls auf die Mannheimer Bühne brachte (am 11. Januar 1784 „Fiesko“, am 15. April 1784 „Kabale und Liebe“ und am 6. April 1788 „Don Karlos“). In späteren Jahren dominierte aus ökonomischen Gründen die Trivialdramatik u. a. von August Wilhelm Iffland und August von Kotzebue. 1791 erhielt Dalberg das Amt des Präsidenten des kurpfälzischen Oberappellationsgerichts, der obersten Justizbehörde des Landes; 1797 wurde er Oberintendant des Salinendepartements. In den 1790er Jahren hatte Mannheim und mit ihm das Theater unter den Auswirkungen der Koalitionskriege gegen das revolutionäre Frankreich zu leiden. Anfang 1794 wurden die Subventionen aus München eingestellt und das Theater geschlossen; Dalberg gelang es aber, diese Entscheidung rückgängig zu machen und das Theater im März 1794 wiederzueröffnen. Als 1802 abzusehen war, dass die rechtsrheinische Pfalz an Baden fallen werde, versiegte die Unterstützung aus München erneut. Wiederum konnte Dalberg helfen. Der neue Landesherr, Markgraf Karl Friedrich von Baden, ließ das Theater weiter fördern. 1803 machte Dalberg seinen Schwiegersohn Friedrich Anton von Venningen zu seinem Nachfolger als Intendant. Im selben Jahr ernannte der neue Kurfürst Karl Friedrich von Baden Dalberg zum Oberhofmeister und Staatsminister.</p>
+  <p rendition="#einrueck1">Dalberg war nicht nur Theaterleiter, er betätigte sich auch selbst als Schriftsteller, vor allem in Bearbeitungen und Übersetzungen, die in Mannheim erfolgreich gespielt wurden, u. a. Shakespeares „Julius Caesar“ (1785) und „Timon von Athen“ (1789) sowie Richard Cumberlands „Die Brüder“ (1785) und „Der Mönch vom Carmel“ (1787). 1793 brachte Goethe Dalbergs Lustspiel „Die eheliche Probe“ (vermutlich nach Harriet Lees Komödie „The new peerage“ [1787]) in Weimar auf die Bühne; vgl. sein Tagebuch unter dem 17. Dezember 1793 (<ref target="gt:dokument#1305">GT II 1, 34</ref>).</p>
+  <p rendition="#einrueck1">Goethe lernte Dalberg 1779 persönlich kennen, als er auf der Rückreise aus der Schweiz vom 21. bis 23. Dezember in Mannheim Station machte und am 22. Dezember eine Aufführung des „Clavigo“ mit Iffland als Carlos besuchte. Vom Briefwechsel beider haben sich nur drei Briefe Goethes und ein Brief Dalbergs wahrscheinlich vom Juni 1795 erhalten, in dem lobend von „Wilhelm Meister“ die Rede ist (vgl. <ref target="ra:dokument#1369">RA 1, 398, Nr 1330</ref>). Goethe schickte 1780 sein Drama „Die Mitschuldigen“ nach Mannheim; davon ist in Briefen vom 2. März und vom 10. April 1780 die Rede (vgl. <ref target="gb:dokument#11760">GB 4, Nr 30</ref> und <ref target="gb:dokument#11764">63</ref>).</p>
+  <p rendition="#einrueck1">Im vorliegenden Brief geht es um den Schriftsteller und Maler Friedrich Müller, der sich auch Maler Müller nannte. Er hielt sich seit 1778 zur weiteren Ausbildung in der Malerei in Rom auf, unterstützt u. a. durch ein Stipendium, das Goethe auf Anregung von Carl Theodor von Dalberg in Weimar initiiert hatte. Wie aus dem vorliegenden Brief hervorgeht, hatte es offenbar Gerüchte gegeben, denen zufolge Müller in Rom untätig oder ganz und gar unfähig sei. Wies Goethe diese Gerüchte in diesem Fall noch zurück, so fand er in den nächsten Jahren selbst zu der Überzeugung, dass Müller nicht die gewünschte Entwicklung nehme (vgl. darüber im Einzelnen die einleitende Erläuterung zu <ref target="gb:note#gb3651_comment_com3988">Nr 383</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11707_comment_com11353">
+<label xml:id="GB03_2_BR504_0_note_001_280_17" copyOf="#start_com_4045"><hi rendition="#fett">280,17</hi>mir zugeschickten Papiere</label>
+<p>Worum es sich handelt, konnte nicht ermittelt werden. Dalbergs Begleitbrief zu diesen <quote type="G">Papieren</quote> ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11707_comment_com11354">
+<label xml:id="GB03_2_BR504_0_note_002_281_1" copyOf="#start_com_4046"><hi rendition="#fett">281,1</hi>wenn er sich auf diese Kunst beschränckt</label>
+<p>Gemeint ist: wenn er sich nicht durch literarische Tätigkeit ablenken lässt, sondern sich auf die Malerei konzentriert.</p>
+
+</note>
+<note xml:id="gb11707_comment_com15216">
+<label xml:id="GB03_2_BR504_0_note_003_281_2" copyOf="#start_com_4047"><hi rendition="#fett">281,2</hi>sonderlichs</label>
+<p>Besonderes (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 142).</p>
+
+</note>
+<note xml:id="gb11707_comment_com11355">
+<label xml:id="GB03_2_BR504_0_note_004_281_4" copyOf="#start_com_4048"><hi rendition="#fett">281,4</hi>Glauer</label>
+<p>Martin Klauer, seit 1774 Hofbildhauer in Weimar; er hielt sich zu einem Studienaufenthalt im Mannheimer Antikensaal in der Stadt auf.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

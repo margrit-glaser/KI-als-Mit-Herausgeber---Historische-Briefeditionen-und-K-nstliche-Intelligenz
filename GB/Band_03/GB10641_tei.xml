@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="270"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10641" n="GB 3, Nr. 27">
+  <teiHeader xml:id="gb10641_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>27.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. Januar <supplied>1776. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10641_tei.xml</idno>
+        <idno type="URI">gb10641</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR027_0</idno>
+        <idno type="KSW-ID">10641</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="23" to="23">23</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="102" to="106">102-106</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10641_header_hwit856" corresp="#gb10641_source_hwit856" sameAs="#gb10641_comment_hwit856" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>Cambridge/MA</placeName>
+            </settlement>
+            <institution key="sndb:standort#72">Harvard University, Houghton Library</institution>
+            <idno type="shelfmark">bMS Ger 162 (138)</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10641,,856/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ich hab das Geld, lieber Bruder, erst den 19. Januar kriegt! Was du mir länger als März</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10641_header_acc531" corresp="gb10641_comment_acc531">
+            <objectIdentifier>
+              <objectName>Quittung </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb10641_header_acc565" corresp="gb10641_comment_acc565">
+            <objectIdentifier>
+              <objectName>Möglicherweise ein Exemplar von Goethes „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776) </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-01-22">22. Januar <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10641_source_hwit856" corresp="#gb10641_header_hwit856" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10641/54274"/>
+      <p>
+        <anchor xml:id="GB03_1_BR027_0_023_010"/>Ich hab <ref target="gb:note#GB03_2_BR027_0_note_001_23_10" xml:id="start_com_0359"/>das Geld<ref xml:id="end_com_0359"/>
+        <ref target="gb:note#GB03_2_BR027_0_note_002_23_10" xml:id="start_com_0360"/>l. Br.<ref xml:id="end_com_0360"/> erst d<g ref="#typoSuspension"/>. 19 Jan kriegt! was du mir länger als 
+<anchor xml:id="GB03_1_BR027_0_023_011"/>März lassen kannst das thu, was du aber wieder brauchst <ref target="gb:note#GB03_2_BR027_0_note_003_23_11-12" xml:id="start_com_0361"/>sollst du haben<ref xml:id="end_com_0361"/>. 
+<anchor xml:id="GB03_1_BR027_0_023_012"/>Hier hast du einen <ref target="gb:note#GB03_2_BR027_0_note_004_23_12" xml:id="start_com_0362"/>Schein<ref xml:id="end_com_0362"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR027_0_023_013"/>Ich bin nun ganz in alle <ref target="gb:note#GB03_2_BR027_0_note_005_23_13" xml:id="start_com_0363"/>Hof und Politische Händel<ref xml:id="end_com_0363"/> verwickelt und 
+<anchor xml:id="GB03_1_BR027_0_023_014"/>
+        <ref target="gb:note#GB03_2_BR027_0_note_006_23_14" xml:id="start_com_0364"/>werde fast nicht wieder weg können<ref xml:id="end_com_0364"/>. Meine Lage ist vortheilhafft genug, 
+<anchor xml:id="GB03_1_BR027_0_023_015"/>und <ref target="gb:note#GB03_2_BR027_0_note_007_23_15" xml:id="start_com_0365"/>die Herzogthümer Weimar und Eisenach<ref xml:id="end_com_0365"/> immer ein Schauplaz 
+<anchor xml:id="GB03_1_BR027_0_023_016"/>um zu versuchen <ref target="gb:note#GB03_2_BR027_0_note_008_23_16" xml:id="start_com_0366"/>wie einem die Weltrolle zu Gesichte stünde<ref xml:id="end_com_0366"/>, 
+<anchor xml:id="GB03_1_BR027_0_023_017"/>ich übereile mich drum nicht,<ptr n="1" target="#a001_23.17"/> und Freyheit und <ref target="gb:note#GB03_2_BR027_0_note_009_23_17" xml:id="start_com_0367"/>Gnüge<ref xml:id="end_com_0367"/> werden die 
+<anchor xml:id="GB03_1_BR027_0_023_018"/>Hauptconditionen der neuen Einrichtung seyn. – ob ich gleich mehr 
+<anchor xml:id="GB03_1_BR027_0_023_019"/>als iemals <ref target="gb:note#GB03_2_BR027_0_note_010_23_19" xml:id="start_com_0368"/>am Plaz bin<ref xml:id="end_com_0368"/>, <ref target="gb:note#GB03_2_BR027_0_note_011_23_19-20" xml:id="start_com_0369"/>das durchaus scheisige dieser zeitlichen Herrlichkeit 
+<anchor xml:id="GB03_1_BR027_0_023_020"/>zu erkennen<ref xml:id="end_com_0369"/>.     Eben drum – Adieu<ptr n="2" target="#a002_23.20"/>. – Ich hab einen <ref target="gb:note#GB03_2_BR027_0_note_012_23_20" xml:id="start_com_0370"/>Streich<ref xml:id="end_com_0370"/>
+        <anchor xml:id="GB03_1_BR027_0_023_021"/>gemacht <ref target="gb:note#GB03_2_BR027_0_note_013_23_21" xml:id="start_com_0371"/>der hoffentlich durch geht<ref xml:id="end_com_0371"/> und dir hoher<ptr n="3" target="#a003_23.21"/> Spas seyn wird. 
+<anchor xml:id="GB03_1_BR027_0_023_022"/>Weimar 22. Jan 1775.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR027_0_023_023"/>
+        <signed rendition="#einrueck22">G. <pb n="2" facs="gb:digitalisate#10641/54275"/></signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR027_0_023_024"/>Lieber Bruder freue dich der <ref target="gb:note#GB03_2_BR027_0_note_014_23_24" xml:id="start_com_0372"/>Beylage<ref xml:id="end_com_0372"/> schicks aber gleich mit dem 
+<anchor xml:id="GB03_1_BR027_0_023_025"/>
+          <ref target="gb:note#GB03_2_BR027_0_note_015_23_25" xml:id="start_com_0373"/>Brief<ref xml:id="end_com_0373"/>, <ref target="gb:note#GB03_2_BR027_0_note_016_23_25" xml:id="start_com_0374"/>auf <hi rendition="#hervor1">reitender Post</hi>
+          <ref xml:id="end_com_0374"/> an meine Schwester.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR027_0_023_026"/>
+          <signed rendition="#einrueck22">G.</signed>
+        </closer>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10641_comment">
+<body>
+<div type="metadata" xml:id="gb10641_comment_com393">
+  <ab type="numberAddressee"><label>27.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. Januar <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10641_comment_com1575">
+  <p>Das von Goethe angegebene Jahr <quote type="G">1775</quote> (<ref target="gb:text#GB03_1_BR027_0_023_022">23,22</ref>) beruht auf einem Irrtum. Das korrekte Jahr – 1776 – geht aus dem Inhalt des Briefes hervor.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10641_comment_com2437">
+  <p>H: The Houghton Library of Harvard University, Cambridge/Mass. (USA), Sign.: bMS Ger 162 (138). – 1 Bl. 13,8 × 20 cm, 1 S. und 4 Zeilen (Nachschrift) beschr., egh., Tinte; oben links über dem Brieftext von fremder Hd, Tinte: „N<hi rendition="#sup #u">o</hi> 3.“ – Beischluss: Goethes Brief an Cornelia Schlosser etwa vom 21. Januar 1776 (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR027_0_note_015_23_25">23,25</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 122, Nr 50 (unter dem Datum des 22. Januar 1778).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 21, Nr 389 (nach E, mit korrigiertem Datum).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10641_comment_com3535">
+  <p>1) Quittung (vgl. zu <ref target="gb:note#GB03_2_BR027_0_note_004_23_12">23,12</ref>).</p>
+  <p>2) Möglicherweise ein Exemplar von Goethes „Stella. Ein Schauspiel für Liebende in fünf Akten“ (Berlin 1776) (vgl. zu <ref target="gb:note#GB03_2_BR027_0_note_014_23_24">23,24</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10641_comment_com4233">
+  <p>Ein Bezugsbrief, etwa ein Begleitbrief zu Mercks Geldsendung (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR027_0_note_001_23_10">23,10</ref>), und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10641_comment_com9562">
+<label xml:id="GB03_2_BR027_0_note_001_23_10" copyOf="#start_com_0359"><hi rendition="#fett">23,10</hi>das Geld</label>
+<p>Goethe hatte Merck durch seine Mutter um ein Darlehen gebeten (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>; zu <ref target="gb:note#GB03_2_BR016_0_note_035_17_23-24">17,23-24</ref>).</p>
+
+</note>
+<note xml:id="gb10641_comment_com9563">
+<label xml:id="GB03_2_BR027_0_note_002_23_10" copyOf="#start_com_0360"><hi rendition="#fett">23,10</hi>l. Br.</label>
+<p>Lieber Bruder.</p>
+
+</note>
+<note xml:id="gb10641_comment_com17520">
+<label xml:id="GB03_2_BR027_0_note_003_23_11-12" copyOf="#start_com_0361"><hi rendition="#fett">23,11-12</hi>sollst du haben</label>
+<p>Über die Modalitäten der Rückzahlung des Darlehens konnte nichts weiter ermittelt werden. In seinem Brief vom 5. Januar 1777 bittet Goethe um eine <quote type="G">Rechnung was ich dir überhaupt noch schuldig bin</quote> (<ref target="gb:text#GB03_1_BR207_0_124_015">124,15</ref>). Ob sich dies über die Bezahlung von Weinlieferungen (vgl. <ref target="gb:dokument#11179">Nr 171</ref> und <ref target="gb:dokument#11199">188</ref>) hinaus noch auf alte Schulden bezieht, ist offen.</p>
+
+</note>
+<note xml:id="gb10641_comment_com9575">
+<label xml:id="GB03_2_BR027_0_note_004_23_12" copyOf="#start_com_0362"><hi rendition="#fett">23,12</hi>Schein</label>
+<p>Quittung, Schuldschein.</p>
+
+</note>
+<note xml:id="gb10641_comment_com14769">
+<label xml:id="GB03_2_BR027_0_note_005_23_13" copyOf="#start_com_0363"><hi rendition="#fett">23,13</hi>Hof und Politische Händel</label>
+<p>Goethes Ankunft in Weimar, sein vertrautes Verhältnis zu Herzog Carl August, der ihn sogleich an den Hof und in seine Regierung zog, das ‚Geniewesen‘, in dessen Mittelpunkt der Dichter und der Herzog standen und das innerhalb und außerhalb Weimars für Aufsehen sorgte (vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">112</ref>) – dies alles hatte die etablierten Hofkreise in Unruhe versetzt und gegen Goethe eingenommen. Auch mit dem <quote type="G">Streich</quote> (<ref target="gb:text#GB03_1_BR027_0_023_020">23,20</ref>), den Goethe im vorliegenden Brief erwähnt, Herders Berufung nach Weimar, stieß er auf Widerstand. Wieland nannte die damaligen ‚Weimarer Verhältnisse‘ eine „Staats-Comedie“ und fügte hinzu: „Göthe spielt seine Rolle edel und groß und meisterhaft. Ausser der Erfahrenheit, die er nicht haben <hi rendition="#hervor1">kann</hi>, fehlt ihm nichts.“ (Brief an Johann Gerhard Reinhard Andreä, 7. Februar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 471.) Er verglich Goethes „Rolle“ mit seiner eigenen, als er im Jahr 1772 als Prinzenerzieher nach Weimar gekommen war: „Göthe bleibt vermuthlich <gap quantity="3" reason="editorial"/> noch lange hier – er ist mächtig umsponnen, und versucht nun das Abentheuer, von welchem ich abgestanden bin, so wie ich sah, daß es für einen andern aufgehoben sey. <gap quantity="3" reason="editorial"/> Aber o! wie viel mehr könnte, würde der herrliche Geist thun, wenn er nicht in dies unser Chaos gesuncken wäre aus welchem er doch <gap quantity="3" reason="editorial"/> keine leidliche Welt schaffen wird. Aber – war ich nicht schon 38 Jahr alt, da ich mich noch durch eine magische Einbildung und die noch stärkere Magie des verführerischen Gedanckens <hi rendition="#hervor1">Viel Gutes</hi>, im <hi rendition="#hervor1">Grossen</hi>, auf <hi rendition="#hervor1">Jahrhunderte</hi> zu thun, an diesen Hof ziehen, in dieses gefahrvolle, mit Precipicen umgebne – und beym Tagslicht besehn <hi rendition="#hervor1">doch immer unmögliche</hi> Abentheuer verwickeln ließ? Göthe ist erst 26 Jahr alt. Wie sollt er, mit dem Gefühl <hi rendition="#hervor1">solcher</hi> Kräfte, einer <hi rendition="#hervor1">noch größern</hi> Reitzung widerstehen können? Denn sein ascendant über unsre Fürstenkinder, alt und jung, ist unglaublich. Und doch – doch, doch, wollen wir sehen! Wenn’s auch nur nicht ganz so schlimm wird, als es sonst geworden wäre, wenn auch nur etwas Gutes geschieht, das sonst nicht geschehen wäre, – so wär’s ja der Mühe werth.“ (Brief an Johann Caspar Lavater, 5. Februar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 469 f.)</p>
+
+</note>
+<note xml:id="gb10641_comment_com17280">
+<label xml:id="GB03_2_BR027_0_note_006_23_14" copyOf="#start_com_0364"><hi rendition="#fett">23,14</hi>werde fast nicht wieder weg können</label>
+<p>Zum ersten Mal spricht Goethe davon, dass sein Aufenthalt in Weimar mehr als nur ein Besuch sein könnte. Davon war Wieland schon länger überzeugt. Am 11. Januar 1776 hatte er an Anna Louisa Karsch in Berlin geschrieben: „<hi rendition="#hervor1">Göthe</hi> <gap quantity="3" reason="editorial"/> ist seit zehn Wochen bey uns, und wird noch vielleicht lange bey uns bleiben.“ (<ref target="sndb:sigle#141">WB</ref> 5, 462 f.) In seinem Brief an Sophie von La Roche vom selben Tag heißt es ähnlich: „Göthe ist sein <supplied>des Herzogs</supplied> Alles; und folglich werdet Ihr sein Angesicht sobald nicht wieder zu sehen bekommen.“ (<ref target="sndb:sigle#141">WB</ref> 5, 463.) Zwei Wochen später, am 26. Januar, teilte er Merck mit: „Göthe kömt nicht wieder von hier loß. C[arl] A[ugust] kann nicht mehr ohne ihn schwimmen noch watten. S’ist aber doch noch nichts entschiednes.“ (<ref target="sndb:sigle#141">WB</ref> 5, 466.) Dies war auch der Eindruck von Goethes Sekretär Philipp Seidel, als er am 29. Februar an seinen Freund Johann Adam Wolf in Frankfurt schrieb: „Wie lang wir bleiben und ob für immer, kann weder ich noch der Doctor sagen“ (C. A. H. Burkhardt: <gap quantity="3" reason="editorial"/> Aus Seidels Briefen und Goethe’s Tagebüchern 1775–76. In: Die Grenzboten 33 [1874]. 1. Semester. 1. Bd, S. 377; irrtümlich unter dem 19. Februar 1776 gedruckt, vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_006_29_13">29,13</ref>). Goethe selbst äußerte sich allerdings schon am 19. Februar in seinem Brief an Johanna Fahlmer zum ersten Mal deutlich über seine Zukunft: <quote type="G">Es ist nun wohl nicht anders ich bleibe hier</quote> (<ref target="gb:text#GB03_1_BR046_0_032_013">32,13</ref>). Die endgültige Entscheidung darüber fiel spätestens Mitte März 1776, wie aus dem Testament des Herzogs Carl August vom 16. März 1776 hervorgeht (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb10641_comment_com14770">
+<label xml:id="GB03_2_BR027_0_note_007_23_15" copyOf="#start_com_0365"><hi rendition="#fett">23,15</hi>die Herzogthümer Weimar und Eisenach</label>
+<p>Erst 1809 entstand durch die Vereinigung der drei getrennt verwalteten Landschaften Weimar, Jena und Eisenach ein Gesamtherzogtum Sachsen-Weimar-Eisenach mit gemeinsamer landesständischer Verfassung.</p>
+
+</note>
+<note xml:id="gb10641_comment_com17286">
+<label xml:id="GB03_2_BR027_0_note_008_23_16" copyOf="#start_com_0366"><hi rendition="#fett">23,16</hi>wie einem die Weltrolle zu Gesicht stünde</label>
+<p>Diese Äußerung ist keineswegs ironisch zu verstehen. Zunächst dürfte mit ‚Weltrolle‘ hier eine ‚politische Rolle‘ gemeint und diese wiederum in Gegensatz zu einer ‚bürgerlichen, literarischen und bloß geistigen Rolle‘ zu sehen sein. Sodann war Weimar mit seinem Hof und seinen etwa 6000 Einwohnern (vgl. Jens Riederer: Weimars Größe – statistisch. Eine quellenkritische Untersuchung zur Zahl seiner Einwohner zwischen 1640 und 1840. In: Weimar-Jena. Die große Stadt 3 [2010]. H. 2, S. 98) und das Herzogtum mit seinen etwa 100 000 Einwohnern (vgl. Ueber die Bevölkerung der Herzoglich Weimarischen Lande. In: Journal von und für Deutschland 1788. 2. Stück, S. 151) durchaus ein Fürstentum, das nicht nur in Bezug auf die Größe den Vergleich mit der reichsbürgerlichen Stadt Frankfurt zu gewinnen vermochte. Weimar war für Goethe „ein enormer Karrieresprung“ (Gerhard Müller: Weimar – Goethes politisches Projekt. In: <ref target="sndb:sigle#1266">GJb</ref> 126 [2009], 65): Es bot sich – durch die persönliche Freundschaft mit dem Regenten verstärkt – die Chance der Mitwirkung an Regierungsgeschäften, die Aussicht auf politische Veränderungen, vor allem in der Verbindung von Macht und Geist, von Politik und Vernunft. Vermutlich entsprach das Ausüben der ‚Weltrolle‘ von vornherein Goethes Wünschen. Dass er sich gleich beim ersten Zusammentreffen mit dem Prinzen Carl August am 11. Dezember 1774 – ausgehend von Justus Mösers „Patriotischen Phantasien“ – ausführlich über Fragen der Politik und Regierungsformen unterhielt (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 529–531 [15. Buch]), mag darauf hindeuten. Jedenfalls empfand Goethe seinen <quote type="G">Zustand</quote> in Weimar <quote type="G">als einen der für mich etwas unendliches hat</quote> (Brief an Catharina Elisabeth Goethe, 11. August 1781; <ref target="gb:text#GB04_1_BR464_0_310_020 #GB04_1_BR464_0_310_021">GB 4 I, 310,20-21</ref>), und er dankte Gott, <quote type="G">daß er mich bey meiner Natur in eine so eng-weite Situation gesezt hat, wo die manigfaltigen Fasern meiner Existenz alle durchgebeizt werden können und müssen.</quote> (Brief an Carl Ludwig von Knebel, 3. Februar 1782; <ref target="gb:text#GB05_1_BR033_0_017_010 #GB05_1_BR033_0_017_013">GB 5 I, 17,10-13</ref>.)</p>
+
+</note>
+<note xml:id="gb10641_comment_com17287">
+<label xml:id="GB03_2_BR027_0_note_009_23_17" copyOf="#start_com_0367"><hi rendition="#fett">23,17</hi>Gnüge</label>
+<p>‚Genüge‘ hier im Sinn von „gutes Auskommen“ (<ref target="sndb:sigle#397">GWb</ref> 3, 1477). – Goethes Wunsch, sowohl die gewünschte Freiheit zu bewahren als auch ein gutes Auskommen zu erhalten, wurde erfüllt. Der Weimarer Kammerrat Johann August Alexander von Kalb unterrichtete in einem Brief vom 16. März 1776 (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>) Goethes Eltern von den vorteilhaften Bedingungen, die Herzog Carl August Goethe anbot.</p>
+
+</note>
+<note xml:id="gb10641_comment_com9577">
+<label xml:id="GB03_2_BR027_0_note_010_23_19" copyOf="#start_com_0368"><hi rendition="#fett">23,19</hi>am Plaz bin</label>
+<p>‚Am Platz sein, etwas zu tun‘ im Sinn von ‚bereit sein, etwas zu tun‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 788).</p>
+
+</note>
+<note xml:id="gb10641_comment_com17293">
+<label xml:id="GB03_2_BR027_0_note_011_23_19-20" copyOf="#start_com_0369"><hi rendition="#fett">23,19-20</hi>das durchaus scheisige <gap quantity="3" reason="editorial"/> zu erkennen</label>
+<p>Anspielung auf die Einschränkung von Goethes persönlicher Ungebundenheit durch die enge Verbindung zum Herzog (vgl. zu <ref target="gb:note#GB03_2_BR036_0_note_001_27_12">27,12</ref>). Darüber hinaus wollte Goethe wohl auch Merck entgegenkommen: Er kannte dessen Abneigung gegen höfisches Leben im Allgemeinen und dessen Vorbehalte gegen seine Assoziation an den Weimarer Hof im Besonderen (vgl. aber die einleitende Erläuterung zu <ref target="gb:note#gb10969_comment_com5152">Nr 292</ref>). – ‚Zeitliche Herrlichkeit‘ (für Hof und weltliche Herrschaft) in Anklang an die biblischen Vorstellungen von der ‚ewigen Herrlichkeit‘ Gottes und der ‚Herrlichkeit des ewigen Lebens‘ nach der Auferstehung der Toten.</p>
+
+</note>
+<note xml:id="gb10641_comment_com9587">
+<label xml:id="GB03_2_BR027_0_note_012_23_20" copyOf="#start_com_0370"><hi rendition="#fett">23,20</hi>Streich</label>
+<p>Gemeint ist die Berufung Herders nach Weimar in das Amt des Generalsuperintendenten, die Goethe bereits seit Dezember 1775 betrieb (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref>).</p>
+
+</note>
+<note xml:id="gb10641_comment_com9588">
+<label xml:id="GB03_2_BR027_0_note_013_23_21" copyOf="#start_com_0371"><hi rendition="#fett">23,21</hi>der hoffentlich durch geht</label>
+<p>Um Herders Berufung durchzusetzen, musste der Widerstand konservativ-orthodoxer Kirchenkreise überwunden werden (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10962_comment_com5157">Nr 17</ref>).</p>
+
+</note>
+<note xml:id="gb10641_comment_com17384">
+<label xml:id="GB03_2_BR027_0_note_014_23_24" copyOf="#start_com_0372"><hi rendition="#fett">23,24</hi>Beylage</label>
+<p>Möglicherweise ein Exemplar von Goethes „Stella. Ein Schauspiel für Liebende“ (Berlin 1776), das im Januar 1776 erschien. Den ersten Beleg für das Eintreffen der Druckexemplare in Weimar enthält allerdings erst Goethes Brief an Charlotte von Stein vom 29. Januar 1776 (vgl. <ref target="gb:text#GB03_1_BR032_0_026_003 #GB03_1_BR032_0_026_004">26,3–4</ref>). Goethe konnte bei Merck besondere ‚Freude‘ an dem Stück voraussetzen, weil dieser mit dem Berliner Buchhändler August Mylius über den Verlag des Dramas verhandelt und somit Anteil an der Veröffentlichung hatte (vgl. <ref target="gb:note#GB02_2_BR256_0_note_012_208_5-6">GB 2 II, zu 208,5–6</ref>; ferner <ref target="sndb:sigle#1105">QuZ</ref> 4, 644, Nr 2363–2365). Nicht völlig auszuschließen, wenn auch weniger wahrscheinlich ist die Annahme, bei der Beilage könne es sich um eine der <quote type="G"><emph rendition="#latin">Matinees</emph></quote> (<ref target="gb:text#GB03_1_BR058_0_041_013">41,13</ref>) handeln, um deren Rücksendung Goethe Merck im Brief vom 8. März 1776 bittet, also eine der kleinen scherzhaft-satirischen Dichtungen, die damals in der Weimarer Hofgesellschaft kursierten (vgl. darüber im Einzelnen die erste Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_003_32_4">32,4</ref>). Zwar hatte Goethe offensichtlich Texte dieser Art an Merck geschickt, ob dies aber mit dem vorliegenden Brief geschah, erscheint fraglich; dass die Beilage sogleich an Goethes Schwester weitergesandt werden sollte und offenbar für sie bestimmt war, spricht eher für die Übersendung des Schauspiels.</p>
+
+</note>
+<note xml:id="gb10641_comment_com14119">
+<label xml:id="GB03_2_BR027_0_note_015_23_25" copyOf="#start_com_0373"><hi rendition="#fett">23,25</hi>Brief</label>
+<p>Goethes Brief an seine Schwester Cornelia in Emmendingen etwa vom 21. Januar 1776 (vgl. <ref target="gb:dokument#52547">EB 27</ref> sowie die erste Erläuterung zu <ref target="gb:note#GB03_2_BR028_0_note_003_24_3">24,3</ref>) ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10641_comment_com9589">
+<label xml:id="GB03_2_BR027_0_note_016_23_25" copyOf="#start_com_0374"><hi rendition="#fett">23,25</hi>auf <hi rendition="#hervor1">reitender Post</hi></label>
+<p>Im Unterschied zur ‚fahrenden Post‘, der Postkutsche, die langsamer unterwegs war als der Postreiter.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

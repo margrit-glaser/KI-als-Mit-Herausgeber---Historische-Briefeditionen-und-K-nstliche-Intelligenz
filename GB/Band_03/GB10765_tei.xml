@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="910"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10765" n="GB 3, Nr. 91">
+  <teiHeader xml:id="gb10765_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>91.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 25. April <supplied>1776. Donnerstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10765_tei.xml</idno>
+        <idno type="URI">gb10765</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR091_0</idno>
+        <idno type="KSW-ID">10765</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="57" to="57">57</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="222" to="223">222-223</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10765_header_hwit945" corresp="#gb10765_source_hwit945" sameAs="#gb10765_comment_hwit945" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 13</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10765,,945/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wahrscheinlicher Weise ess ich heut mit Ihnen, um Ein uhr bin ich da, so mich nicht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-25">25. April <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10765_source_hwit945" corresp="#gb10765_header_hwit945" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10765/22317"/>
+      <p>
+        <anchor xml:id="GB03_1_BR091_0_057_009"/>
+        <ref target="gb:note#GB03_2_BR091_0_note_001_57_9" xml:id="start_com_0882"/>Wahrscheinlicher Weise ess ich heut mit Ihnen<ref xml:id="end_com_0882"/>, um Ein uhr bin ich 
+<anchor xml:id="GB03_1_BR091_0_057_010"/>da, so mich nicht ein Fluss oder ein Berg abhält. Liebe Frau<ptr n="1" target="#a001_57.10"/>
+        <ref target="gb:note#GB03_2_BR091_0_note_002_57_10-11" xml:id="start_com_0883"/>gestern 
+<anchor xml:id="GB03_1_BR091_0_057_011"/>hatt ich einen guten Tag<ref xml:id="end_com_0883"/>.    Addio.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR091_0_057_012"/>
+        <ref target="gb:note#GB03_2_BR091_0_note_003_57_12" xml:id="start_com_0884"/>Lenzens Eseley<ref xml:id="end_com_0884"/> von <ref target="gb:note#GB03_2_BR091_0_note_004_57_12" xml:id="start_com_0885"/>gestern Nacht<ref xml:id="end_com_0885"/>, hat ein Lachfieber gegeben. Ich 
+<anchor xml:id="GB03_1_BR091_0_057_013"/>kann mich gar nicht erhohlen.     d<g ref="#typoSuspension"/>. 25. Apr.     G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10765_comment">
+<body>
+<div type="metadata" xml:id="gb10765_comment_com959">
+  <ab type="numberAddressee"><label>91.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 25. April <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10765_comment_com1828">
+  <p>Das Jahr ergibt sich aus der Erwähnung von Jacob Michael Reinhold Lenz (vgl. <ref target="gb:text#GB03_1_BR091_0_057_012">57,12</ref>), der sich nur im April des Jahres 1776 in Weimar aufhielt (vgl. auch Charlotte von Steins Jahresangabe auf der Handschrift).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10765_comment_com3003">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 13. – 1 Bl. 16,7 × 10,7 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); unten links von Charlotte von Steins Hd, Bleistift: „76“, oben rechts von fremder Hd, Tinte: „33.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 33), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 28 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 53 f., Nr 442.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10765_comment_com4799">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10765_comment_com14025">
+<label xml:id="GB03_2_BR091_0_note_001_57_9" copyOf="#start_com_0882"><hi rendition="#fett">57,9</hi>Wahrscheinlicher Weise ess ich heut mit Ihnen</label>
+<p>Am 25. April 1776 war Charlotte von Stein gemeinsam mit ihren Söhnen, ihrem Bruder Carl von Schardt und Wieland bei Goethe in dessen Garten am „Stern“ (vgl. <ref target="gt:dokument#24">GT I 1, 17</ref>), den er am 21. April <quote type="G">in besiz genommen</quote> (ebd.) hatte. – Zum Erwerb des Gartens durch Goethe vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>.</p>
+
+</note>
+<note xml:id="gb10765_comment_com10010">
+<label xml:id="GB03_2_BR091_0_note_002_57_10-11" copyOf="#start_com_0883"><hi rendition="#fett">57,10-11</hi>gestern hatt ich einen guten Tag</label>
+<p>Einen Teil des 24. April hatte Goethe laut Tagebuch gleichfalls in seinem Garten verbracht; außerdem hatte er den Waffenübungen der Weimarer Husaren auf dem Exerzierplatz an der Ackerwand zugesehen und war im Schloss Belvedere südlich von Weimar gewesen, seit 1776 Sommerresidenz der Herzogin Louise (vgl. <ref target="gt:dokument#23">GT I 1, 17</ref>; I 2, 387).</p>
+
+</note>
+<note xml:id="gb10765_comment_com10011">
+<label xml:id="GB03_2_BR091_0_note_003_57_12" copyOf="#start_com_0884"><hi rendition="#fett">57,12</hi>Lenzens Eseley</label>
+<p>Anspielung auf einen wahrscheinlich eher komischen ‚Fehltritt‘, eine törichte, aber verzeihliche Handlung oder Äußerung von Lenz; das Wort ‚Eselei‘ ist nur fünfmal bei Goethe belegt, davon zweimal 1776 mit Bezug auf Lenz. Dieser hielt sich seit dem 1. April 1776 in Weimar auf, wo er nach Goethes Rückkehr aus Leipzig auch Herzog Carl August vorgestellt wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR075_0_note_002_50_2">50,2</ref>). – In den ersten Wochen nach Lenz’ Ankunft in Weimar gab es wiederholt Vorfälle der Art, die Goethe im oben genannten Sinne als ‚Eselei‘ bezeichnet haben könnte, wie ein Brief Wielands an Merck vom 13. Mai 1776 belegt: „<hi rendition="#hervor1">Lenz am Hofe</hi> – Was dünkt euch dazu? Seit er hier ist, ist kaum ein Tag vergangen, wo er nicht einen oder andern Streich hätte ausgeführt, der jeden andern als ihn in die Luft gesprengt hätte. Dafür wird er nun freylich auch was Rechtes geschoren; aber das ficht ihn nichts an; er geht seinen Weg fort, und wischt sein Vidle ans Thor, wie die Schweizer sagen. Ein herrlicher Junge, das weiß Gott, und Poet à triple carillon.“ (<ref target="sndb:sigle#141">WB</ref> 5, 505. – Vidle: Füdli, schweizerisch für ‚Hinterteil‘; à triple carillon: franz.: von dreifachem Glockenspiel; figürlich als Ausdruck der Steigerung, etwa ‚tüchtig‘, ‚ganz gehörig‘.) Über einen dieser „Streiche“ berichtet ein zeitgenössischer Besucher des Weimarer Hofes: „Man / nahm ihn <supplied>Lenz</supplied> als einen Mann von Talenten sehr gut auf; aber bald zeigte sich viel Sonderbares an ihm. So erschien er zum Beyspiel einmal bey Hofe auf dem Balle maskirt und im Domino, mit dem Hute auf dem Kopfe; und als nun aller Augen auf ihn hinstarrten und das <hi rendition="#hervor1">Ah</hi>! der Verwunderung von allen Seiten erschallte, trat er ganz ruhig und unbefangen zu einer der vornehmsten Damen, und nahm sie zum Tanz auf. Der junge Herzog, der ein Liebhaber von Farçen war, freute sich über diese lustige Erscheinung, die ihm etwas zu lachen gab; aber die betitelten Herren und Damen, die den weimarischen Hof ausmachten, meynten, daß dem naseweisen Lenz wenigstens der Kopf vor die Füße gelegt werden müsse.“ (<supplied>Nikolai Michailowitsch</supplied> Karamsin: Briefe eines Reisenden Russen. Aus dem Russischen von Johann Richter. Bd 2. Leipzig 1802, S. 91 f.; ähnlich auch in: Johannes Falk: Goethe aus näherm persönlichen Umgange dargestellt. Leipzig 1856, S. 108 f.) – Unter dem 26. November 1776 findet sich in Goethes Tagebuch die zweite gleichlautende Erwähnung <quote type="G">Lenzens Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>), die in diesem Fall allerdings weitaus ernstere Folgen für den Verursacher haben sollte, da sie gemeinhin als Anlass dafür betrachtet wird, dass Lenz Weimar verlassen musste (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>).</p>
+
+</note>
+<note xml:id="gb10765_comment_com17563">
+<label xml:id="GB03_2_BR091_0_note_004_57_12" copyOf="#start_com_0885"><hi rendition="#fett">57,12</hi>gestern Nacht</label>
+<p>Am 24. April 1776 fand zu Ehren des Erbprinzen Ludwig von Hessen-Darmstadt, der am Abend zuvor mit Gefolge in Weimar eingetroffen war, eine große fürstliche Abendtafel mit 26 Personen und 32 Gästen an der Marschallstafel statt. Charlotte von Stein nahm laut Fourierbuch an der Abendtafel teil. Goethes und Lenz’ Namen sind nicht vermerkt, möglicherweise waren sie aber in den Privaträumen des Herzogs zu Gast, der offenbar separat und nicht an der Hoftafel speiste (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 123–125).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="800"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10722" n="GB 3, Nr. 80">
+  <teiHeader xml:id="gb10722_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>80.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, etwa 13. April 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:18Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10722_tei.xml</idno>
+        <idno type="URI">gb10722</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR080_0</idno>
+        <idno type="KSW-ID">10722</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="52" to="52">52</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="203" to="204">203-204</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10722_header_hwit948" corresp="#gb10722_source_hwit948" sameAs="#gb10722_comment_hwit948" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 118</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10722,,948/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dass Sie uns doch noch entdecken mussten gestern. Der Herzog ist besser ich blieb heut</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-13"><supplied>etwa 13. April 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-04-01" to="1776-04-30"><supplied>April 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10722_source_hwit948" corresp="#gb10722_header_hwit948" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10722/22304"/>
+      <p>
+        <anchor xml:id="GB03_1_BR080_0_052_001"/>Dass Sie uns doch noch entdecken mussten gestern. <ref target="gb:note#GB03_2_BR080_0_note_001_52_1-2" xml:id="start_com_0808"/>Der Herzog ist 
+<anchor xml:id="GB03_1_BR080_0_052_002"/>besser<ref xml:id="end_com_0808"/>
+        <ref target="gb:note#GB03_2_BR080_0_note_002_52_2" xml:id="start_com_0809"/>ich blieb heut Nacht hoben<ref xml:id="end_com_0809"/>. <ref target="gb:note#GB03_2_BR080_0_note_003_52_2" xml:id="start_com_0810"/>Heut muss ich Sie sehn<ref xml:id="end_com_0810"/> wärs nur 
+<anchor xml:id="GB03_1_BR080_0_052_003"/>ein Augenblick. Addio Beste Frau.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR080_0_052_004"/>
+        <signed rend="paraph" rendition="#einrueck20">G</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10722_comment">
+<body>
+<div type="metadata" xml:id="gb10722_comment_com617">
+  <ab type="numberAddressee"><label>80.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>etwa 13. April 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10722_comment_com1691">
+  <p>Der vorliegende Brief, im Konvolut der Briefe an Charlotte von Stein (Bd I) den undatierten Briefen am Ende des Jahrgangs 1778 zugeordnet, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen, wird seit der Ausgabe von Fielitz vor den datierten Brief vom 13. April 1776 (<ref target="gb:dokument#10708">Nr 81</ref>) gesetzt (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 30, Nr 34). Für diese Datierung spricht der Inhalt des Briefes, in dem eine Erkrankung des Herzogs erwähnt wird (vgl. <ref target="gb:text#GB03_1_BR080_0_052_001 #GB03_1_BR080_0_052_002">52,1–2</ref>) sowie die damit im Zusammenhang stehende Übernachtung Goethes beim Herzog (vgl. <ref target="gb:text#GB03_1_BR080_0_052_002">52,2</ref>). Carl August war um den 20. März 1776 erkrankt und konnte erst am 17. April wieder seine Wohnung verlassen (vgl. zu <ref target="gb:note#GB03_2_BR063_0_note_001_43_15-16">43,15-16</ref>); hingegen gibt es für Ende 1778 keine Hinweise auf eine Erkrankung. Wie aus dem Brief an Augusta zu Stolberg vom 10. April 1776 hervorgeht, war Goethe in dieser Zeit fast ständig beim Herzog, in dessen Räumen er auch seine Korrespondenz erledigte (vgl. <ref target="gb:text#GB03_1_BR078_0_051_007 #GB03_1_BR078_0_051_008">51,7–8</ref>). Wahrscheinlich ist auch der vorliegende Brief in diesen Tagen geschrieben worden, möglicherweise am Morgen des 13. April unmittelbar vor <ref target="gb:dokument#10708">Nr 81</ref> (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR080_0_note_003_52_2">52,2</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10722_comment_com2661">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 118. – 1 Bl. 11,5 × 9(–9,2) cm, &#x2153; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „96“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 99), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 14 (Datierung: Anfang März 1776).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 51, Nr 435.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10722_comment_com4457">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10722_comment_com18724">
+<label xml:id="GB03_2_BR080_0_note_001_52_1-2" copyOf="#start_com_0808"><hi rendition="#fett">52,1-2</hi>Der Herzog ist besser</label>
+<p>Vgl. <ref target="gb:note#gb10722_comment_com1691">Datierung</ref>. – Von einer leichten Besserung des Gesundheitszustandes Carl Augusts berichtete am 12. April 1776 auch der Weimarer Kammerherr Carl Friedrich Sigmund von Seckendorff in einem Brief an seinen Bruder: „Le duc se trouve trois semains envoiron très incommodé de rhumatismes, fluxions et vertiges accompgnés des petit ressentiments fièvreux qui commencent pourtant à le quitter. Cependant il se trouve encore si affaibli que nous doutons avev raison qu’il puisse sortir sitôt.“ (Seckendorff, Briefe, 8. – Seit ungefähr drei Wochen leidet der Herzog unter rheumatischen Schüben, Leibfluss und Schwindelanfällen, begleitet von kurzen Fieberschüben, die aber im Abklingen sind. Dennoch ist er noch so geschwächt, dass wir Grund haben zu bezweifeln, er könne bald abreisen. – Übersetzung von Eva Beck, Weimar.)</p>
+
+</note>
+<note xml:id="gb10722_comment_com9749">
+<label xml:id="GB03_2_BR080_0_note_002_52_2" copyOf="#start_com_0809"><hi rendition="#fett">52,2</hi>ich blieb heut Nacht hoben</label>
+<p>In den Wohnräumen des Herzogs Carl August im zweiten Stock des Fürstenhauses (vgl. <ref target="gb:text#GB03_1_BR078_0_051_007 #GB03_1_BR078_0_051_008">51,7–8</ref>; <ref target="gb:text#GB03_1_BR086_0_055_015 #GB03_1_BR086_0_055_016">55,15–16</ref>). – ‚Hoben‘ von veraltet ‚heroben‘, in dieser Form nur in den frühen Briefen belegt (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1292).</p>
+
+</note>
+<note xml:id="gb10722_comment_com14880">
+<label xml:id="GB03_2_BR080_0_note_003_52_2" copyOf="#start_com_0810"><hi rendition="#fett">52,2</hi>Heut muss ich Sie sehn</label>
+<p>Möglicherweise am Morgen des 13. April 1776 unmittelbar vor <ref target="gb:dokument#10708">Nr 81</ref> geschrieben (vgl. <ref target="gb:text#GB03_1_BR081_0_052_005">52,5</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

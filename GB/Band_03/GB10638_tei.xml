@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="20"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10638" n="GB 3, Nr. 2">
+  <teiHeader xml:id="gb10638_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>2.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName> mit <persName key="sndb:person#51979">Christian Graf zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77853" evidence="conjecture">Frankfurt a. M.</placeName></supplied>, 20.<supplied> September</supplied>&#x2012;<placeName key="sndb:ort#79627">Weimar</placeName>, 22. November<supplied>1775</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:01Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10638_tei.xml</idno>
+        <idno type="URI">gb10638</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR002_0</idno>
+        <idno type="KSW-ID">10638</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="3" to="4">3-4</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="4" to="13">4-13</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10638_header_hwit818" corresp="#gb10638_source_hwit818" sameAs="#gb10638_comment_hwit818" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-25749</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10638,,818/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wieder angefangen Mittwoch den 20. ob zum Zerreissen oder wie! Genug ich fange an</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#51979">Stolberg-Stolberg, Christian Graf zu</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied> und
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date from="1775-09-20" to="1775-11-22">20. <supplied>September</supplied>-22. November<supplied>1775</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Augusta Louise Gräfin zu</persName>
+            <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#60">RA 1, Nr. 56</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10638_source_hwit818" corresp="#gb10638_header_hwit818" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10638/20991"/>
+      <p>
+        <anchor xml:id="GB03_1_BR002_0_003_008"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_001_3_8" xml:id="start_com_0006"/>Wieder angefangen<ref xml:id="end_com_0006"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_002_3_8" xml:id="start_com_0007"/>Mittwoch d<g ref="#typoSuspension"/>. 20.<ref xml:id="end_com_0007"/> ob’s zum Zerreissen oder wie! 
+<anchor xml:id="GB03_1_BR002_0_003_009"/>Genug ich fange an. Auf dem <ref target="gb:note#GB03_2_BR002_0_note_003_3_9" xml:id="start_com_0008"/>Ball bis sechs<ref xml:id="end_com_0008"/> heut früh, nur zwey Menuets 
+<anchor xml:id="GB03_1_BR002_0_003_010"/>getanzt, Gesellschafft gehalten <ref target="gb:note#GB03_2_BR002_0_note_004_3_10" xml:id="start_com_0009"/>einem süsen Mädgen<ref xml:id="end_com_0009"/>, die einen 
+<anchor xml:id="GB03_1_BR002_0_003_011"/>Husten hatte – Wenn ich dir mein gegenwärtig Verhältniss zu mehr 
+<anchor xml:id="GB03_1_BR002_0_003_012"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_005_3_12" xml:id="start_com_0010"/>recht lieben und edlen weiblichen Seelen<ref xml:id="end_com_0010"/> sagen könnte! Wenn ich dir 
+<anchor xml:id="GB03_1_BR002_0_003_013"/>lebhafft! – Nein wenn ich s konnte ich dürfts nicht, du hieltests nicht 
+<anchor xml:id="GB03_1_BR002_0_003_014"/>aus. Ich auch nicht, wenn alles auf einmal stürmte, und wenn Natur 
+<anchor xml:id="GB03_1_BR002_0_003_015"/>nicht in ihrer täglichen Einrichtung<ptr n="1" target="#a001_3.15"/> uns einige Körner Vergessenheit 
+<anchor xml:id="GB03_1_BR002_0_003_016"/>schlucken lies. Jezt ists bald achte Nachts. Hab geschlafen bis 1. gegessen, 
+<anchor xml:id="GB03_1_BR002_0_003_017"/>etwas besorgt, mich angezogen den <ref target="gb:note#GB03_2_BR002_0_note_006_3_17" xml:id="start_com_0011"/>Prinzen von Meinungen<ref xml:id="end_com_0011"/>
+        <anchor xml:id="GB03_1_BR002_0_003_018"/>mich dargestellt, ums Thor gangen, in die <ref target="gb:note#GB03_2_BR002_0_note_007_3_18" xml:id="start_com_0012"/>Comödie<ref xml:id="end_com_0012"/>. <ref target="gb:note#GB03_2_BR002_0_note_008_3_18" xml:id="start_com_0013"/>Lili<ref xml:id="end_com_0013"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_009_3_18-19" xml:id="start_com_0014"/>sieben Worte<ref xml:id="end_com_0014"/>
+        <anchor xml:id="GB03_1_BR002_0_003_019"/>gesagt. Und nun hier. Addio.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR002_0_003_020"/>Donnerst. d<g ref="#typoSuspension"/>. 21. Ich habe mir in Kopf gesezt mich heut <ref target="gb:note#GB03_2_BR002_0_note_010_3_20" xml:id="start_com_0015"/>wohl<ref xml:id="end_com_0015"/> anzuziehen. 
+<anchor xml:id="GB03_1_BR002_0_003_021"/>Ich erwarte einen <ref target="gb:note#GB03_2_BR002_0_note_011_3_21" xml:id="start_com_0016"/>neuen Rock vom Schneider<ref xml:id="end_com_0016"/> den ich mir 
+<anchor xml:id="GB03_1_BR002_0_003_022"/>hab <ref target="gb:note#GB03_2_BR002_0_note_012_3_22" xml:id="start_com_0017"/>in Lion sticken lassen<ref xml:id="end_com_0017"/>, grau mit blauer<ptr n="2" target="#a002_3.22"/> Bordüre, mit mehr Ungedult 
+<anchor xml:id="GB03_1_BR002_0_003_023"/>als die Bekandtschafft <ref target="gb:note#GB03_2_BR002_0_note_013_3_23" xml:id="start_com_0018"/>eines Manns von Geist<ref xml:id="end_com_0018"/> der sich auf eben 
+<anchor xml:id="GB03_1_BR002_0_003_024"/>die Stunde bey mir melden lies. Schon ist was missglückt. Mein <ref target="gb:note#GB03_2_BR002_0_note_014_3_24-4_1" xml:id="start_com_0019"/>Perruckenm.
+<anchor xml:id="GB03_1_BR002_0_004_001"/>
+        <ref xml:id="end_com_0019"/> hat eine Stunde an mir<ptr n="3" target="#a003_4.1"/> frisirt und wie er fort war riss ich’s 
+<anchor xml:id="GB03_1_BR002_0_004_002"/>ein, und schickte nach einem andern, auf den ich auch passe. – – –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR002_0_004_003"/>Samstag d<g ref="#typoSuspension"/>. 23 Es hat <ref target="gb:note#GB03_2_BR002_0_note_015_4_3" xml:id="start_com_0020"/>tolles Zeug<ref xml:id="end_com_0020"/> gesezt. Ich hab nicht zum schreiben 
+<anchor xml:id="GB03_1_BR002_0_004_004"/>kommen können. Gestern lauter <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR002_0_note_016_4_4" xml:id="start_com_0021"/>Altessen</emph>
+        <ref xml:id="end_com_0021"/>. Heut hab ich einen 
+<anchor xml:id="GB03_1_BR002_0_004_005"/>Husten. Ade.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR002_0_004_006"/>Sonntag den 8. <ref target="gb:note#GB03_2_BR002_0_note_017_4_6" xml:id="start_com_0022"/>Sept.<ref xml:id="end_com_0022"/> Bisher eine grose Pause ich <ref target="gb:note#GB03_2_BR002_0_note_018_4_6-7" xml:id="start_com_0023"/>in wunderbaaren 
+<anchor xml:id="GB03_1_BR002_0_004_007"/>Kälten und Wärmen<ref xml:id="end_com_0023"/>. Bald noch eine grössere Pause. <ref target="gb:note#GB03_2_BR002_0_note_019_4_7-8" xml:id="start_com_0024"/>Ich erwarte den 
+<anchor xml:id="GB03_1_BR002_0_004_008"/>Herzog v. Weimar<ref xml:id="end_com_0024"/> der von Carlsruhe mit seiner herrlichen neuen <ref target="gb:note#GB03_2_BR002_0_note_020_4_8-9" xml:id="start_com_0025"/>Gemahlinn 
+<anchor xml:id="GB03_1_BR002_0_004_009"/>Louisen von Darmstadt<ref xml:id="end_com_0025"/> kommt. <ref target="gb:note#GB03_2_BR002_0_note_021_4_9-10" xml:id="start_com_0026"/>Ich geh mit ihm nach Weimar.
+<anchor xml:id="GB03_1_BR002_0_004_010"/>
+        <ref xml:id="end_com_0026"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_022_4_10" xml:id="start_com_0027"/>Deine Brüder kommen auch hin<ref xml:id="end_com_0027"/>, und von da schreib ich gewiss 
+<anchor xml:id="GB03_1_BR002_0_004_011"/>liebste Schwester. <ref target="gb:note#GB03_2_BR002_0_note_023_4_11" xml:id="start_com_0028"/>Mein Herz ist übel dran.<ref xml:id="end_com_0028"/> Es ist auch Herbstwetter<ptr n="4" target="#a004_4.11"/>
+        <anchor xml:id="GB03_1_BR002_0_004_012"/>drinn, nicht warm nicht kalt. <ref target="gb:note#GB03_2_BR002_0_note_024_4_12" xml:id="start_com_0029"/>Wann kommst du nach Hamburg?<ptr n="5" target="#a005_4.12"/>
+        <ref xml:id="end_com_0029"/>
+      </p>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_1_BR002_0_004_013"/>
+        <ref target="gb:note#GB03_2_BR002_0_note_025_4_13" xml:id="start_com_0030"/>Weimar<ref xml:id="end_com_0030"/> d<g ref="#typoSuspension"/>. 22 Nov.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR002_0_004_014"/>Ich erwarte deine Brüder, o Gustgen! was ist die Zeit alles mit mir 
+<anchor xml:id="GB03_1_BR002_0_004_015"/>vorgangen. Schon fast vierzehn Tage hier, <ref target="gb:note#GB03_2_BR002_0_note_026_4_15-16" xml:id="start_com_0031"/>im Treiben und Weben des 
+<anchor xml:id="GB03_1_BR002_0_004_016"/>Hofs<ref xml:id="end_com_0031"/>. Adieu. bald mehr. Vereint mit unsern Brüdern! Dies Blättel 
+<anchor xml:id="GB03_1_BR002_0_004_017"/>sollst indess haben.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR002_0_004_018"/>
+        <signed rend="paraph" rendition="#einrueck17">G. <pb n="2" facs="gb:digitalisate#10638/20992"/></signed>
+      </closer>
+      </div>
+      <space quantity="1" unit="lines"/>
+      <div type="relatedText">
+        <p/>   <!-- muss hier stehen, nur mit <postscript> in <div> nicht valide -->
+        <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR002_0_004_019"/>Da ist ein briefgen von Göthgen, und zwey Zeilen von mir, mein Gustchen, wie 
+<anchor xml:id="GB03_1_BR002_0_004_020"/>lieb ich dich, Beste, Gerne sagt ich dirs, aber das geht nicht das weißt du wohl.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR002_0_004_021"/>
+          <ref target="gb:note#GB03_2_BR002_0_note_027_4_20" xml:id="start_com_0032"/>Hier wirds uns recht wohl. Wir leben mit lauter guten Leuten<ref xml:id="end_com_0032"/>, mit unsern 
+<anchor xml:id="GB03_1_BR002_0_004_022"/>
+          <ref target="gb:note#GB03_2_BR002_0_note_028_4_21" xml:id="start_com_0033"/>Wolf<ref xml:id="end_com_0033"/> und den hiesigen Fürstlichkeiten die sehr gut sind. gehen auf die Jagt reiten 
+<anchor xml:id="GB03_1_BR002_0_004_023"/>und fahren aus, und gehen auf die <emph rendition="#latin">Maskerade</emph>.      Mit <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR002_0_note_029_4_22" xml:id="start_com_0034"/>HWieland</emph>
+          <ref xml:id="end_com_0034"/> sind wir <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR002_0_note_030_4_22-23" xml:id="start_com_0035"/>bras 
+<anchor xml:id="GB03_1_BR002_0_004_024"/>dissus, bras dessous</emph>
+          <ref xml:id="end_com_0035"/>.      Lebe wohl, Kind, ich küße dich und unsre <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR002_0_note_031_4_23" xml:id="start_com_0036"/>Oberg</emph>
+          <ref xml:id="end_com_0036"/> –</p>
+        <p rendition="#einrueck21">
+          <anchor xml:id="GB03_1_BR002_0_004_025"/>CSt.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10638_comment">
+<body>
+<div type="metadata" xml:id="gb10638_comment_com387">
+  <ab type="numberAddressee"><label>2.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName> mit <persName key="sndb:person#51979">Christian Graf zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied> und <placeName key="sndb:ort#79627">Weimar</placeName>, 20. <supplied>September</supplied>-22. November<supplied>1775</supplied> → <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10638_comment_com1571">
+  <p>Die fehlende Jahresangabe und der Monat lassen sich aus dem Inhalt des Briefes erschließen: Er wurde in Frankfurt begonnen (vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_003_3_9">3,9</ref>; zu <ref target="gb:note#GB03_2_BR002_0_note_004_3_10">3,10</ref>) und in <quote type="G">Weimar</quote> (<ref target="gb:text#GB03_1_BR002_0_004_013">4,13</ref>) beendet, wo Goethe am 7. November 1775 eingetroffen war (vgl. <ref target="gb:text#GB03_1_BR002_0_004_015 #GB03_1_BR002_0_004_016">4,15–16</ref>). Auch die inhaltlichen Bezüge zu Goethes Brief an Augusta zu Stolberg vom 14. bis 19. September 1775 (<ref target="gb:dokument#10622">GB 2 I, Nr 263</ref>) belegen das Jahr (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR002_0_note_001_3_8">3,8</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10638_comment_com2431">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 25749, ehemals Slg Brockhaus. – 1 Bl. 19,2 × 22,8 cm, 1 S. beschr., egh., Tinte; Rs. Nachschrift von Christian Graf zu Stolbergs Hd, Tinte (Petitdruck).</p>
+  <p>E: Goethe-Stolberg<hi rendition="#sup">1</hi> (1839), 111 f., Nr 9 (Brief Goethes) und 114, Nr 10 (Nachschrift Christian Graf zu Stolbergs).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 2 (1887), 304–306, Nr 365 (ohne Nachschrift; wahrscheinlich nach <ref target="sndb:sigle#2869">Goethe-Stolberg<hi rendition="#sup">2</hi></ref> [1881], 39–42, Nr 9; Textkorrektur nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50 [1912], 213).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10638_comment_com4227">
+  <p>Ein nicht überlieferter Brief Augusta zu Stolbergs wahrscheinlich von Ende Oktober 1775 scheint Goethe nicht erreicht zu haben (vgl. Antwortbrief, Erläuterung zu Zeile 12). – Augusta zu Stolbergs <ref target="gb:note#gb10638_comment_com84086">Antwort</ref> vom 9. Dezember 1775, deren zweiter Teil an Christian zu Stolberg gerichtet war, hat Goethe ebenfalls nicht erreicht (abgedruckt im Anschluss an die folgenden Erläuterungen, vgl. auch <ref target="ra:dokument#60">RA 1, 63 f., Nr 56</ref>).</p>
+  <p rendition="#einrueck1">Mit Augusta Louise Gräfin zu Stolberg-Stolberg (1753–1835) stand Goethe seit Ende Januar 1775 in brieflichem Kontakt. Die Adressatin war das fünfte von zwölf Kindern des Grafen Christian Günther zu Stolberg-Stolberg und dessen Ehefrau Charlotte Friederike Christiane, einer geborenen Gräfin zu Castell-Remlingen. Zur Zeit, als Goethe an Augusta zu Stolberg schrieb, lebte diese als Konventualin des Adeligen Damenstifts in Uetersen im dänisch regierten Herzogtum Holstein. Zu Augusta zu Stolberg vgl. ausführlicher die einleitende Erläuterung zum Brief etwa vom 18. bis 30. Januar 1775 (<ref target="gb:dokument#10625">GB 2 II, Nr 188</ref>).</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist der neunte von insgesamt 19 überlieferten Briefen an diese Adressatin, der Goethe niemals persönlich begegnete. Der engste briefliche Kontakt zu ihr bestand in den ersten acht Monaten nach Beginn der Korrespondenz, als Goethe, der noch immer im Frankfurter Elternhaus wohnte, sich mit der ungeliebten Tätigkeit als Anwalt plagte und gerade die Bekanntschaft Anna Elisabeth (Lili) Schönemanns gemacht hatte, eine Krisensituation durchlebte. Die Briefpartnerin im fernen Uetersen wurde für ihn zur Vertrauten seines spannungsreichen Verhältnisses zu ‚Lili‘, das mit der Trennung des Paares und Goethes Weggang aus Frankfurt im Herbst desselben Jahres endete (vgl. Antwortbrief, Erläuterung zu Zeile 12). Im Vergleich zur Anfangszeit nahm die Intensität des Briefwechsels nach Goethes Übersiedlung nach Weimar merklich ab, auch wurden die Briefe mit Ausnahme desjenigen vom 17. bis 24. Mai 1776 (<ref target="gb:dokument#10896">Nr 114</ref>) immer kürzer. 1775 schrieb Goethe aus Weimar nur einmal an Augusta zu Stolberg (<ref target="gb:dokument#10638">Nr 2</ref>), 1776 immerhin noch fünfmal (<ref target="gb:dokument#10683">Nr 40</ref>, <ref target="gb:dokument#10728">78</ref>, <ref target="gb:dokument#10876">104</ref>, <ref target="gb:dokument#10896">114</ref>, <ref target="gb:dokument#11169">161</ref>), 1777 und 1778 jeweils noch einmal (<ref target="gb:dokument#11712">Nr 279</ref> und <ref target="gb:dokument#11925">342</ref>). Aus dem Jahr 1779 ist kein Brief an Augusta überliefert. Schon im letzten der im vorliegenden Band mitgeteilten Briefe, dem Brief vom 27. März 1778 (<ref target="gb:dokument#11925">Nr 342</ref>), wechselt Goethe in der Anrede vom vertrauten ‚du‘ zum unpersönlichen ‚Sie‘ (vgl. <ref target="gb:text#GB03_1_BR342_0_201_014 #GB03_1_BR342_0_201_015">201,14–15</ref>). Die folgenden beiden Briefe an Augusta zu Stolberg stammen vom 3. Juni 1780 und vom 4. März 1782 (vgl. <ref target="gb:dokument#90">GB 4, Nr 103</ref>; <ref target="gb:dokument#3579">5, Nr 66</ref>) und haben inhaltlich und sprachlich kaum noch etwas gemein mit den gefühlsbetonten, bekenntnishaften Briefen aus dem Anfangsjahr der Bekanntschaft. Danach brach die Korrespondenz mit der Uetersener Konventualin ab. Nach mehr als vierzig Jahren, in einem Brief vom 15. bis 23. Oktober 1822, wandte sich Augusta Louise, nunmehr verwitwete Gräfin von Bernstorff, noch einmal an Goethe, um dessen Seelenheil sie als gläubige Christin besorgt war (H: <ref target="archivdb:dokument#7031">GSA 28/192</ref>; gedruckt bei <ref target="sndb:sigle#2759">Behrens</ref>, 51–55, Nr 20). Goethe antwortete am 17. April 1823 (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 37, 18–20, Nr 17). – Augusta zu Stolbergs Briefe an Goethe sind mit zwei Ausnahmen (vgl. <ref target="ra:dokument#60">RA 1, 63, Nr 56</ref> und <ref target="sndb:sigle#2759">Behrens</ref>, 51–55, Nr 20) nicht überliefert; sie wurden wahrscheinlich in einem der von Goethe von Zeit zu Zeit veranstalteten Autodafés vernichtet (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10422_comment_com22618">GB 1 II, Nr 4</ref>).</p>
+  <p rendition="#einrueck1">Der erste hier mitgeteilte Brief Goethes, am 20. September in Frankfurt begonnen und am 22. November 1775 in Weimar beendet (vgl. <ref target="gb:note#gb10638_comment_com1571">Datierung</ref>), knüpft inhaltlich und sprachlich an die vorangehenden Briefe dieses Jahres an. Doch lässt der in Weimar geschriebene knappe und abrupt endende Schlussteil bereits erkennen, dass sich Goethe gedanklich von seiner Briefpartnerin entfernt hat, ihre Bedeutung für ihn zu schwinden beginnt. Im Mai 1776 schreibt Goethe zwar noch einmal einen langen Brief (<ref target="gb:dokument#10896">Nr 114</ref>), in dem er den Tagebuchstil der Frankfurter Briefe wieder aufnimmt, doch bleibt dies eine Ausnahme, die keine Fortsetzung findet. Der am 28. August 1776, dem Tag von Goethes 27. Geburtstag, begonnene tagebuchartige Brief an Augusta zu Stolberg ist wesentlich kürzer und endet mit dem Ausdruck kaum verhohlener Enttäuschung über das Verhalten ihres Bruders Friedrich Leopold, der auf die Ernennung zum weimarischen Kammerherrn durch Carl August zunächst zustimmend reagiert hatte, dann aber mit einer endgültigen Antwort zu lange zögerte (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_008_100_24">100,24</ref>). Auch auf das Zerwürfnis zwischen Goethe und Klopstock wird im Schlussteil angespielt (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_016_101_3-4">101,3-4</ref>; zur Sache vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10593_comment_com4223">GB 2 II, Nr 266</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10638_comment_com17284">
+<label xml:id="GB03_2_BR002_0_note_001_3_8" copyOf="#start_com_0006"><hi rendition="#fett">3,8</hi>Wieder angefangen</label>
+<p>Damit knüpft Goethe unmittelbar an den tagebuchartigen Brief vom 14. bis 19. September 1775 an (<ref target="gb:dokument#10622">GB 2 I, Nr 263</ref>), dessen Schlussteil am 19. September <quote type="G">Nachts Achte</quote> (<ref target="gb:dokument#11370">GB 2 I, Nr 217</ref>) geschrieben wurde.</p>
+
+</note>
+<note xml:id="gb10638_comment_com9454">
+<label xml:id="GB03_2_BR002_0_note_002_3_8" copyOf="#start_com_0007"><hi rendition="#fett">3,8</hi>Mittwoch d<g ref="#typoSuspension"/>. 20.</label>
+<p>Zu ergänzen ist ‚September‘; 1775 fiel der 20. September auf einen Mittwoch (vgl. <ref target="gb:note#gb10638_comment_com1571">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17292">
+<label xml:id="GB03_2_BR002_0_note_003_3_9" copyOf="#start_com_0008"><hi rendition="#fett">3,9</hi>Ball bis sechs</label>
+<p>Als Goethe den vorliegenden Brief begann, fand gerade die Frankfurter Messe statt, die zahlreiche Besucher in die Stadt führte. Während dieser Zeit wurden noch häufiger als sonst Gesellschaften veranstaltet, was Goethes Verhältnis zu Anna Elisabeth Schönemann zusätzlich belastet zu haben scheint (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 633 f. [19. Buch]). – Goethe war am 19. September 1775 nach 20 Uhr zum Ball gegangen, wie er der Adressatin in seinem vorhergehenden Brief geschrieben hatte (vgl. <ref target="gb:text#GB02_1_BR263_0_217_011">GB 2 I, 217,11</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9463">
+<label xml:id="GB03_2_BR002_0_note_004_3_10" copyOf="#start_com_0009"><hi rendition="#fett">3,10</hi>einem süsen Mädgen</label>
+<p>Wahrscheinlich mit Bezug auf das ‚Offenbacher Mädchen‛, wie es in der älteren biographischen Goethe-Forschung genannt wird, möglicherweise Justine Elisabeth Nagel (vgl. <ref target="gb:note#GB02_2_BR263_0_note_028_215_28-29">GB 2 II, zu 215,28–29</ref>). Im Brief vom 17. September hatte Goethe angekündigt: <quote type="G">Ich geh doch auf den Ball einem süsen Geschöpfe zu lieb <gap quantity="3" reason="editorial"/> Lili geht nicht.</quote> (<ref target="gb:text#GB02_1_BR263_0_217_005 #GB02_1_BR263_0_217_007">GB 2 I, 217,5-7</ref>.)</p>
+
+</note>
+<note xml:id="gb10638_comment_com17299">
+<label xml:id="GB03_2_BR002_0_note_005_3_12" copyOf="#start_com_0010"><hi rendition="#fett">3,12</hi>recht lieben und edlen weiblichen Seelen</label>
+<p>Gemeint sein könnten u. a. Johanna Fahlmer und weitere Frankfurter Freundinnen wie Antoinette und Catharina Gerock oder die Schwestern Anna Sibylla und Susanne Magdalene Münch sowie Catharina und Franciska Crespel, Letztere seit 1774 verheiratete Jacquet, die Töchter eines Frankfurter Juwelenhändlers (vgl. <ref target="gb:note#GB02_2_BR008_0_note_001_7_6-7">GB 2 II, zu 7,6–7</ref>; zu <ref target="gb:note#GB02_2_BR008_0_note_003_7_11">7,11</ref>). Goethe machte zu dieser Zeit auch die Bekanntschaft verschiedener Besucherinnen der Messestadt, darunter wahrscheinlich die der Herzogin Charlotte Amalie von Sachsen-Meiningen und die der Markgräfin Sophie Caroline Maria von Brandenburg-Bayreuth (vgl. <ref target="gb:note#GB02_2_BR263_0_note_009_214_7">GB 2 II, zu 214,7</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9464">
+<label xml:id="GB03_2_BR002_0_note_006_3_17" copyOf="#start_com_0011"><hi rendition="#fett">3,17</hi>Prinzen von Meinungen</label>
+<p>‚Meinungen‘ für ‚Meiningen‘ (nach lat. Meinunga Porta Franconia: Meinungen, die Pforte Fankens). – August Friedrich Carl Wilhelm und Georg Friedrich Carl von Sachsen-Meiningen, die sich mit ihrer Mutter, Herzogin Charlotte Amalie von Sachsen-Meiningen, in Frankfurt aufhielten. Goethe war den Prinzen, die von einer Reise durch die Schweiz und Frankreich zurückkehrten, schon am 2. Februar 1775 in Frankfurt und danach am 25. Mai 1775 in Straßburg begegnet (vgl. <ref target="bug:dokument#702">BuG 1, 314</ref> und <ref target="bug:dokument#769">337</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9473">
+<label xml:id="GB03_2_BR002_0_note_007_3_18" copyOf="#start_com_0012"><hi rendition="#fett">3,18</hi>Comödie</label>
+<p>Da es in Frankfurt damals kein stehendes Theater gab, können nur Aufführungen von zur Messezeit in der Stadt gastierenden Wanderbühnen und Orchestern gemeint sein (vgl. <ref target="gb:note#GB02_2_BR029_0_note_005_24_5-6">GB 2 II, zu 24,5–6</ref>). ‚Comödien‘-Besuche erwähnt Goethe auch in seinem vorangehenden Brief (vgl. <ref target="gb:text#GB02_1_BR263_0_216_029">GB 2 I, 216,29</ref>; <ref target="gb:text#GB02_1_BR263_0_217_010 #GB02_1_BR263_0_217_011">217,10–11</ref>; <ref target="gb:text#GB02_1_BR264_0_217_026">217,26</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9474">
+<label xml:id="GB03_2_BR002_0_note_008_3_18" copyOf="#start_com_0013"><hi rendition="#fett">3,18</hi>Lili</label>
+<p>Anna Elisabeth (Lili) Schönemann, mit der Goethe etwa seit Ostern inoffiziell verlobt war und der er sich bis Mitte September noch immer ‚versprochen‘ fühlte (vgl. <ref target="gb:note#GB02_2_BR263_0_note_014_214_29-30">GB 2 II, zu 214,29–30</ref>). Mit seinem Weggang aus Frankfurt löste Goethe die Verbindung endgültig (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51217_comment_com4802">GB 2 II, Z 1</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17306">
+<label xml:id="GB03_2_BR002_0_note_009_3_18-19" copyOf="#start_com_0014"><hi rendition="#fett">3,18-19</hi>sieben Worte</label>
+<p>Mit Bezug auf die sieben letzten Sätze Jesu Christi am Kreuz in den vier Evangelien. – Goethe konnte sicher sein, dass die Adressatin auch die wörtliche Bedeutung seiner Anspielung assoziiert hat: „Vatter, vergieb ihnen! denn sie wissen nicht, was sie thun.“ (Lukas 23,34; Luther-Bibel 1772 NT, 91.) – „Wahrlich, ich sage dir, heute wirst du mit mir im paradies seyn.“ (Lukas 23,43; ebd.) – „Weib, siehe, das ist dein sohn“ und „Siehe, das ist deine mutter.“ (Johannes 19,26–27; ebd., 118.) – „Gott, mein Gott, warum hast du mich verlassen?“ (Markus 15,34; ebd., 56.) – „Mich dürstet.“ (Johannes 19,28; ebd., 118.) – „Es ist vollbracht!“ (Johannes 19,30; ebd.) – „Vatter, ich befehle meinen geist in deine hände.“ (Lukas 23,46; ebd., 91.)</p>
+
+</note>
+<note xml:id="gb10638_comment_com9475">
+<label xml:id="GB03_2_BR002_0_note_010_3_20" copyOf="#start_com_0015"><hi rendition="#fett">3,20</hi>wohl</label>
+<p>Hier in der Bedeutung ‚angemessen‘, ‚auf gehörige Art‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1592).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17392">
+<label xml:id="GB03_2_BR002_0_note_011_3_21" copyOf="#start_com_0016"><hi rendition="#fett">3,21</hi>neuen Rock vom Schneider</label>
+<p>‚Rock‘ hier wohl „ein langes Oberkleid“, eine Jacke, im Unterschied zu „dem noch längern und weitern Mantel“; nach Adelung wurde bei „dem männlichen Geschlechte <gap quantity="3" reason="editorial"/> zuweilen die ganze obere Kleidung, mit Inbegriff der Weste, der Rock genannt“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1138). Als seine gewöhnliche Bekleidung erwähnt Goethe im Brief an Augusta zu Stolberg vom 13. Februar 1775 seinen <quote type="G">grauen Biber-Frack</quote> (<ref target="gb:text#GB02_1_BR196_0_164_010 #GB02_1_BR196_0_164_011">GB 2 I, 164,10–11</ref>). – Goethe ließ zur damaligen Zeit bei dem Frankfurter Schneider Georg Philipp Eberhardt arbeiten. Unter dem 4. Oktober 1775 findet sich im Rechnungsbuch folgender Eintrag: <quote type="G">Schneider Eberhardts Rechnung zugelegt.</quote> (<ref target="sndb:sigle#4220">GR/RB 1775</ref>, Bl. 17.) Wahrscheinlich hat Goethe die hier erwähnte Bestellung aber erst später bezahlt, wie der Brief vom 18. März 1776 an Johanna Fahlmer nahelegt (vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_010_43_12">43,12</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9489">
+<label xml:id="GB03_2_BR002_0_note_012_3_22" copyOf="#start_com_0017"><hi rendition="#fett">3,22</hi>in Lion sticken lassen</label>
+<p>‚Lion‘ ältere Schreibweise für ‚Lyon‘. – Die Lyoner Seiden- und Bortenweberei sowie die Gold- und Seidenstickerei waren bis zum Ausbruch der Französischen Revolution in ganz Europa berühmt; Lyoner Stickereien galten als besonders fein und als Statussymbol (vgl. Marita Bombek: Kleider der Vernunft. Die Vorgeschichte bürgerlicher Präsentation und Repräsentation in der Kleidung. Münster 2005, S. 241 f.).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9490">
+<label xml:id="GB03_2_BR002_0_note_013_3_23" copyOf="#start_com_0018"><hi rendition="#fett">3,23</hi>eines Manns von Geist</label>
+<p>Wer damit gemeint ist, konnte nicht geklärt werden. – Nach dem Erscheinen des „Götz von Berlichingen“ 1773 und vor allem der „Leiden des jungen Werthers“ im Herbst 1774 war Goethe schlagartig berühmt geworden. Fremde, die nach Frankfurt kamen, suchten seine Bekanntschaft und ließen sich bei ihm melden, wie z. B. der Buchhändlerlehrling Gottlieb Christian Götz aus dem pfälzischen Winterburg, der Goethe am 15. oder 16. September 1775 besuchte und am 30. seinen Eltern darüber schrieb: „Herrn Göthe und Hofrat Deinet <gap quantity="3" reason="editorial"/> habe ich auch gesprochen <gap quantity="3" reason="editorial"/>. Bei ersterem siehet es vornehm aus und man glaubt in das Haus eines Ministers zu kommen. Sein Besuch- oder vielmehr Audienzzimmer ist nie leer, immer wechselt einer den andern ab. Göthe ist aber wirklich sehr inkommodiert, denn jeder Reisender will ihn kennen lernen. Er hat sich aber jetzo auf den Fuß gesetzt, nur viermal wöchentlich Audienz zu geben, und zwar des Vormittags“ (<ref target="sndb:sigle#1266">GJb</ref> N. F. 2 [1937], 217).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17400">
+<label xml:id="GB03_2_BR002_0_note_014_3_24-4_1" copyOf="#start_com_0019"><hi rendition="#fett">3,24-4,1</hi>Perruckenm.</label>
+<p>Perückenmacher (Perruquier); Goethe verwendet die Form ‚Perrucke‘ – in Anlehnung an franz. perruque – gelegentlich in der frühen Zeit (vgl. <ref target="gb:text#GB03_1_BR009_0_012_027">12,27</ref>). – Perückenmacher, in Frankfurt zumeist aus Frankreich eingewanderte Hugenotten, fertigten nicht nur Perücken, sondern frisierten und schnitten auch die natürlichen Haare. Perücken galten im 18. Jahrhundert auch im Bürgertum als Bestandteil der ‚anständigen‘ Kleidung. Nach „Dichtung und Wahrheit“ hat Goethe in seiner Straßburger Studentenzeit auch im Alltag eine Perücke getragen: <quote type="G">Ich hatte zwar sehr schöne Haare, aber mein Straßburger Friseur versicherte mir sogleich, daß sie viel zu tief nach hinten hin verschnitten seyen und daß es ihm unmöglich werde, daraus eine Frisur zu bilden <gap quantity="3" reason="editorial"/> . Hierbey bleibe nun nichts übrig, als mir eine Haartour gefallen zu lassen, bis der natürliche Wachsthum sich wieder nach den Erfordernissen der Zeit hergestellt habe. <gap quantity="3" reason="editorial"/> Da ich aber vom frühen Morgen an so aufgestutzt und gepudert bleiben und mich zugleich in Acht nehmen mußte, nicht durch Erhitzung und heftige Bewegung den falschen Schmuck zu verrathen; so trug dieser Zwang wirklich viel bey, daß ich mich eine Zeit lang ruhiger und gesitteter benahm, mir angewöhnte, mit dem Hut unterm Arm und folglich auch in Schuh und Strümpfen zu gehen <gap quantity="3" reason="editorial"/>.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 307 [9. Buch].)</p>
+
+</note>
+<note xml:id="gb10638_comment_com9504">
+<label xml:id="GB03_2_BR002_0_note_015_4_3" copyOf="#start_com_0020"><hi rendition="#fett">4,3</hi>tolles Zeug</label>
+<p>Anspielung auf die Bälle und Gesellschaften, mit denen sich Goethe zerstreute. An Lavater schrieb er am 27. September 1775 über das <quote type="G">gottlose Geschwärmme der Tage</quote> (<ref target="gb:text#GB02_1_BR265_0_218_003 #GB02_1_BR265_0_218_004">GB 2 I, 218,3-4</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9505">
+<label xml:id="GB03_2_BR002_0_note_016_4_4" copyOf="#start_com_0021"><hi rendition="#fett">4,4</hi><emph rendition="#latin">Altessen</emph></label>
+<p>Franz. altesse: Hoheit. – Neben den Prinzen und der Herzogin von Sachsen-Meiningen hielt sich seit dem 20. September auch Herzog Carl August von Sachsen-Weimar und Eisenach, der sich auf der Reise nach Karlsruhe zu seiner Hochzeit mit Louise von Hessen-Darmstadt befand, in Frankfurt auf. Er blieb bis zum 29. September und erneuerte seine Einladung an Goethe, nach Weimar zu kommen (vgl. <ref target="gb:note#GB02_2_BR266_0_note_012_219_17">GB 2 II, zu 219,17</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9506">
+<label xml:id="GB03_2_BR002_0_note_017_4_6" copyOf="#start_com_0022"><hi rendition="#fett">4,6</hi>Sept.</label>
+<p>Verschrieben für ‚Oktober‘ (vgl. <ref target="gb:note#gb10638_comment_com1571">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com14735">
+<label xml:id="GB03_2_BR002_0_note_018_4_6-7" copyOf="#start_com_0023"><hi rendition="#fett">4,6-7</hi>in wunderbaaren Kälten und Wärmen</label>
+<p>Wohl im Sinne von ‚im Wechselbad der Gefühle‘; ‚wunderbar‘ hier für ‚seltsam‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4, 1622). – Anspielung auf die Übergangssituation, in der sich Goethe damals befand, weil er im Begriff stand, seine Heimatstadt zu verlassen.</p>
+
+</note>
+<note xml:id="gb10638_comment_com9514">
+<label xml:id="GB03_2_BR002_0_note_019_4_7-8" copyOf="#start_com_0024"><hi rendition="#fett">4,7-8</hi>Ich erwarte den Herzog</label>
+<p>Die Hochzeit zwischen Herzog Carl August und Louise von Hessen-Darmstadt hatte am 3. Oktober 1775 in Karlsruhe stattgefunden. Auf der Rückreise nach Weimar kam das Paar durch Frankfurt, wo es vom 12. bis 14. Oktober Station machte (vgl. <ref target="gb:note#GB02_2_BR265_0_note_014_219_6-7">GB 2 II, zu 219,6–7</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17347">
+<label xml:id="GB03_2_BR002_0_note_020_4_8-9" copyOf="#start_com_0025"><hi rendition="#fett">4,8-9</hi>Gemahlinn Louisen von Darmstadt</label>
+<p>Auf der Reise in die Schweiz hatte Goethe während eines Zwischenaufenthaltes in Karlsruhe vom 17. bis 23. Mai 1775 seine im Dezember 1774 geschlossene Bekanntschaft mit Herzog Carl August erneuert und auch dessen Braut Louise von Hessen-Darmstadt kennen gelernt (vgl. <ref target="gb:note#GB02_2_BR241_0_note_008_192_3">GB 2 II, zu 192,3</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9515">
+<label xml:id="GB03_2_BR002_0_note_021_4_9-10" copyOf="#start_com_0026"><hi rendition="#fett">4,9-10</hi>Ich geh mit ihm nach Weimar.</label>
+<p>Goethe ging davon aus, dass er bei Carl Augusts Rückreise aus Karlsruhe mit diesem zusammen nach Weimar reisen würde.</p>
+
+</note>
+<note xml:id="gb10638_comment_com9516">
+<label xml:id="GB03_2_BR002_0_note_022_4_10" copyOf="#start_com_0027"><hi rendition="#fett">4,10</hi>Deine Brüder kommen auch hin</label>
+<p>Christian und Friedrich Leopold zu Stolberg hatten im Mai 1775 in Karlsruhe ebenfalls die Weimarer Prinzen kennen gelernt und planten daher, auf ihrer Rückreise von der Schweiz nach Kopenhagen in Weimar Station zu machen. Friedrich Leopold hatte am 24. Mai 1775 an Klopstock geschrieben: „Der Herzog von Weimar u: sein Bruder kamen noch 2 Tag vor unsrer Abreise an. Beide haben mir gefallen.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 44.) Die Stolbergs trafen am 26. November 1775 in Weimar ein und blieben bis zum 3. Dezember.</p>
+
+</note>
+<note xml:id="gb10638_comment_com14736">
+<label xml:id="GB03_2_BR002_0_note_023_4_11" copyOf="#start_com_0028"><hi rendition="#fett">4,11</hi>Mein Herz ist übel dran.</label>
+<p>Der bevorstehende Abschied aus Frankfurt bedeutete auch die endgültige Trennung von Anna Elisabeth Schönemann, was Goethe schwer belastete (vgl. den <ref target="gb:note#gb10638_comment_com84086">Brief</ref> Augusta zu Stolbergs an ihren Bruder Christian vom 9. Dezember 1775; abgedruckt im Anschluss an die folgenden Erläuterungen).</p>
+
+</note>
+<note xml:id="gb10638_comment_com17414">
+<label xml:id="GB03_2_BR002_0_note_024_4_12" copyOf="#start_com_0029"><hi rendition="#fett">4,12</hi>Wann kommst du nach Hamburg?</label>
+<p>Wie schon in vorangehenden Briefen an Augusta zu Stolberg deutet Goethe damit an, möglicherweise gemeinsam mit Christian und Friedrich Leopold zu Stolberg nach Hamburg zu reisen (vgl. <ref target="gb:note#GB02_2_BR250_0_note_003_201_16">GB 2 II, zu 201,16</ref>). Allerdings kam das in Aussicht gestellte Treffen mit der Adressatin nie zustande, so dass an der Ernsthaftigkeit des Vorsatzes gezweifelt werden darf. – Augusta hielt sich damals noch auf Schloss Bernstorff bei Kopenhagen auf. Mitte Oktober reiste sie nach Uetersen zurück, wo sie am 9. November 1775 eintraf, zwei Tage nach Goethes Ankunft in Weimar. Die Brüder trafen sich auf ihrer Heimreise nach Kopenhagen am 24. Dezember 1775 mit ihr in Hamburg. Johann Heinrich Voß schrieb am 28. Dezember 1775 aus Hamburg an seine Braut Ernestine Boie, Friedrich Leopold zu Stolberg habe ihm „vieles von Lavater, Goethe, Wieland, Voltaire u. s. w. erzählt <gap quantity="3" reason="editorial"/>. Der Herzog von Weimar ist ein vortreflicher Mann. Er hat Goethe <gap quantity="3" reason="editorial"/> nicht so bald weglassen wollen; sonst wäre er mit nach Hamburg gekommen.“ (Briefe von Johann Heinrich Voß nebst erläuternden Beilagen. Hrsg. von Abraham Voß. Bd 1. Leipzig 1840, S. 292.) Nach einem Treffen mit ihren Brüdern in Hamburg Ende Dezember 1775 erkrankte Augusta für mehrere Monate, wovon Goethe allerdings erst sehr viel später erfuhr (vgl. zu <ref target="gb:note#GB03_2_BR078_0_note_001_51_1">51,1</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9529">
+<label xml:id="GB03_2_BR002_0_note_025_4_13" copyOf="#start_com_0030"><hi rendition="#fett">4,13</hi>Weimar</label>
+<p>Goethe war am 7. November 1775 in Weimar eingetroffen (vgl. zu <ref target="gb:note#GB03_2_BR184_0_note_001_116_10">116,10</ref>).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9530">
+<label xml:id="GB03_2_BR002_0_note_026_4_15-16" copyOf="#start_com_0031"><hi rendition="#fett">4,15-16</hi>im Treiben und Weben des Hofs</label>
+<p>An Johanna Fahlmer schrieb Goethe am gleichen Tag: <quote type="G">Wie eine Schlittenfahrt geht mein Leben, rasch weg und klingelnd und promenirend auf und ab</quote> (<ref target="gb:text#GB03_1_BR004_0_005_013 #GB03_1_BR004_0_005_014">5,13–14</ref>; vgl. auch den Brief vom 21. Dezember 1775 an Lavater [<ref target="gb:text#GB03_1_BR007_0_007_007 #GB03_1_BR007_0_007_008">7,7–8</ref>]). Über Goethes Leben in Weimar schrieb Wieland am 25. Dezember 1775 an Lavater: „Der Herzog (dem er <supplied>Goethe</supplied> fast unentbehrl. worden ist) das Schrittschuh-Fahren, die Jagd und Reitparthien, die Assembleen, kurz der Hof nimmt ihm fast alle seine Zeit.“ (<ref target="sndb:sigle#141">WB</ref> 5, 458.)</p>
+
+</note>
+<note xml:id="gb10638_comment_com9531">
+<label xml:id="GB03_2_BR002_0_note_027_4_20" copyOf="#start_com_0032"><hi rendition="#fett">4,21</hi>Hier wirds uns recht wohl  <gap quantity="3" reason="editorial"/>  guten Leuten</label>
+<p>Über den Weimarer Aufenthalt und die Bekanntschaften der Brüder berichtet Friedrich Leopold zu Stolberg seiner Schwester Henriette Bernstorff am 6. Dezember 1775 aus Dessau: „Auf dieser Reise hat mir, außer der Schweiz, und freilich auch Hamburg ausgenommen, kein Ort so gefallen, wie Weimar. Ich will Dir die Hauptpersonen beschreiben. Der Herzog ist ein herrlicher achtzehnjähriger Junge, voll Herzens-Feuer, voll deutschen Geistes, gut, treuherzig, dabei viel Verstand. Engel Luischen ist Engel Luischen. Die verwittwete Herzogin, eine noch schöne Frau von sechsunddreißig Jahren, hat viel Verstand, viel Würde, eine in die Augen fallende Güte, so ganz ungleich den fürstlichen Personen, die im Steifsein Würde suchen; sie ist charmant im Umgang, spricht sehr gut, scherzt fein und weiß auf die schönste Art einem etwas Angenehmes zu sagen. Prinz Constantin ist ein herziges feines Bübchen. Eine Frau von Stein, Oberstallmeisterin, ist ein allerliebstes, schönes Weibchen. Wir waren gleich auf dem angenehmsten Fuß dort; es ward uns sehr wohl und ihnen ward auch wohl bei uns. Den Vormittag waren wir entweder bei Göthe oder Wieland, oder ritten mit dem Herzog auf die Jagd oder spazieren. Von zwei bis fünf Uhr waren wir bei Hof. Nach Tisch wurden kleine Spiele gespielt, blinde Kuh und Plumpsack. Von sieben bis neun war Concert oder ward vingt-un <supplied>Einundzwanzig, französisches Kartenspiel</supplied> gespielt. Einmal war Maskerade. Einen Nachmittag las Göthe seinen halbfertigen Faust vor. Ein herrliches Stück. Die Herzoginnen waren gewaltig gerührt bei einigen Scenen. Den vorletzten Abend (d. 2.) waren wir bei Prinz Constantin; der Herzog, der Statthalter von Erfurt, ein trefflicher Mann von Verstand, Göthe und viele Cavaliere vom Hofe assen mit uns. Da wir bald abgegessen hatten und recht guter Dinge waren, öffnete sich plötzlich die Thüre und siehe, die Herzogin Mutter mit der schönen Frau von Stein traten feierlich in die Stube, jede ein drei Ellen langes Schwert aus dem Zeughause in der Hand, um uns zu Rittern zu schlagen. Wir setzten uns nieder und die beiden Damen gingen vertraut um den Tisch herum, von einem zum andern. Nach Tisch wurde lange blinde Kuh gespielt. Einigen steifen Hofleuten waren wir, glaub’ ich, ein Dorn im Auge, aber alle guten waren uns herzlich gut.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 65 f.; vgl. ergänzend Friedrich Leopold zu Stolberg-Stolberg an Jacob Michael Reinhold Lenz, 3. Februar 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 173.)</p>
+
+</note>
+<note xml:id="gb10638_comment_com9532">
+<label xml:id="GB03_2_BR002_0_note_028_4_21" copyOf="#start_com_0033"><hi rendition="#fett">4,22</hi>Wolf</label>
+<p>Diesen Namen für Goethe gebrauchten die Stolbergs gelegentlich als Ausdruck besonderer Vertraulichkeit (vgl. Augustas <ref target="gb:note#gb10638_comment_com84086">Antwortbrief</ref>, abgedruckt im Anschluss an die folgenden Erläuterungen).</p>
+
+</note>
+<note xml:id="gb10638_comment_com9546">
+<label xml:id="GB03_2_BR002_0_note_029_4_22" copyOf="#start_com_0034"><hi rendition="#fett">4,23</hi><emph rendition="#latin">HWieland</emph></label>
+<p>Über Goethes Verhältnis zu Wieland vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10882_comment_com4512">Nr 84</ref>. – Die Brüder Stolberg kamen als literarische ‚Widersacher‘ Wielands nach Weimar, während sie in Goethe einen Verbündeten gefunden zu haben glaubten: „Der Ritter mit der eisernen Hand und sein Dichter, sind beydes brave Männer“, „die ihre Knie nicht vor Wieland oder andern Gözen gebeugt haben“, hatte Christian zu Stolberg am 2. August 1773 im Namen des Göttinger Hainbundes, dem die Brüder angehörten, an den verehrten Klopstock geschrieben (<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 6 I, 82), der das Stück „eben so gut so <hi rendition="#hervor1">original</hi>“ fand wie Stolberg selbst (Brief an Johann Heinrich Voß und Carl Friedrich Cramer, 19. September 1773; <ref target="sndb:sigle#1266">GJb</ref> XXXIII [1912], 11). Das Drama veranlasste sie, Goethe der eigenen ‚patriotischen‘ Partei zuzurechnen, die wie Klopstock und der gesamte Hainbund gegen die französischen Einflüsse in der deutschen Literatur, insbesondere in Wielands Werken, zu Felde zog. Vor ihrer Begegnung mit Wieland finden sich mehrfach negative Bemerkungen über den Dichter in den Briefen der Stolbergs. So schrieb Friedrich Leopold am 19. November 1774 an Johann Martin Miller: „Und wer sind die gefährlichen Feinde? Wieland ist der einzige den es der Mühe werth wäre in Staub zu treten.“ (<ref target="sndb:sigle#63">Stolberg, Briefe</ref>, 36.) Nach der Begegnung wandelte sich sein Urteil über Wieland; am 27. November 1775 schrieb er an Lavater: „Wieland gefällt mir, er hat doch gewiß viel Gutes“ (ebd., 62). An seine Schwester Henriette Bernstorff schrieb er am selben Tag: „Wir sind einige Stunden bei Wieland gewesen. Ich meine, er war Anfangs embarassirt, wir setzten ihn aber und er uns völlig à notre aise. Göthe, welcher sein öffentlicher Widersacher war, ist nun sein Freund. Zu unserer Verwunderung dachten wir über so viele Sachen gleich; er sprach so herzlich von meinem Homer und meinem Lavater und meinem Göthe, daß mein Herz jeden alten Groll vergaß und ich die Vernunft, welche freilich viel sagen könnte, einschläferte. <gap quantity="3" reason="editorial"/> Glaube nicht, daß ich Wieland’s vertrauter Freund sein möchte, dazu werde ich immer zuviel griefs gegen ihn haben, aber für einen eben so interessanten als angenehmen Mann, und für einen Mann, dessen Herz viel gute Seiten hat, muß ich ihn halten.“ (Ebd., 64 f.; vgl. auch Friedrich Leopold zu Stolberg-Stolberg an Jacob Michael Reinhold Lenz, 3. Februar 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 173; zum Verhältnis zwischen den Stolbergs und Wieland insgesamt vgl. Jürgen Behrens: Wieland und die Brüder Christian und Friedrich Leopold Grafen zu Stolberg-Stolberg. In: Jahrbuch des Wiener Goethe Vereins. Bd 65. Wien 1961, S. 45–67.)</p>
+
+</note>
+<note xml:id="gb10638_comment_com14754">
+<label xml:id="GB03_2_BR002_0_note_030_4_22-23" copyOf="#start_com_0035"><hi rendition="#fett">4,23-24</hi><emph rendition="#latin">bras dissus, bras dessous</emph></label>
+<p>Franz. être bras dessus, bras dessous: ein Herz und eine Seele sein.</p>
+
+</note>
+<note xml:id="gb10638_comment_com9547">
+<label xml:id="GB03_2_BR002_0_note_031_4_23" copyOf="#start_com_0036"><hi rendition="#fett">4,24</hi>Oberg</label>
+<p>Augustas Vertraute, die Uetersener Stiftsdame Anna Metta Baronesse von Oberg (vgl. <ref target="gb:note#GB02_2_BR213_0_note_008_179_5">GB 2 II, zu 179,5</ref>).</p>
+
+</note>
+</div>
+<div xml:id="gb10638_comment_com84086">
+  <p>Augusta Gräfin zu Stolberg-Stolberg an Goethe und Christian Graf zu Stolberg-Stolberg in Weimar</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56421_source" corresp="#gb56421_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck19">
+        <anchor xml:id="GB03_2_FB001_0_012_001"/>Ütersen, 9. XII. 1775</p>
+      <lb/>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_2_FB001_0_012_002"/>Abends 10 Uhr.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB001_0_012_003"/>Dank meine Lieber Goethe für <ref target="gb:note#GB03_2_FB001_0_note_001_12_1" xml:id="start_com_7000"/>Ihr Blätgen<ref xml:id="end_com_7000"/>, daß mir sehr lieb war, aber auch 
+<anchor xml:id="GB03_2_FB001_0_012_004"/>herzlich mußte ich lachen, da Sie sagen ein neues Kleid mache Ihnen so viel Freude, 
+<anchor xml:id="GB03_2_FB001_0_012_005"/>und eine mislungene Frisur verdruß – bin ich doch ein Mädchen Goethe, und 
+<anchor xml:id="GB03_2_FB001_0_012_006"/>kaum geht’s so weit bey mir – ein niedliches Kleid von süßer Farbe macht mir 
+<anchor xml:id="GB03_2_FB001_0_012_007"/>zwar izt Freude, und die Besezung daran beschäftigt mich des Abends, wenn ich 
+<anchor xml:id="GB03_2_FB001_0_012_008"/>nicht mehr an Christels weste arbeiten kan; aber – mit einem wort Goethe Sie 
+<anchor xml:id="GB03_2_FB001_0_012_009"/>sind vieleicht in den Stük mehr Mädchen als ich – Hören Sie Goethe Sie könten 
+<anchor xml:id="GB03_2_FB001_0_012_010"/>wohl <ref target="gb:note#GB03_2_FB001_0_note_002_12_10" xml:id="start_com_7001"/>mit nach Hamburg kommen<ref xml:id="end_com_7001"/>, und es ahndet mir halb, daß Sie mich überraschen 
+<anchor xml:id="GB03_2_FB001_0_012_011"/>werden, daß ist so Ahndung daß es ein <ref target="gb:note#GB03_2_FB001_0_note_003_12_11" xml:id="start_com_7002"/>dißapointment<ref xml:id="end_com_7002"/> seyn wird, wenn 
+<anchor xml:id="GB03_2_FB001_0_012_012"/>Sie nicht kommen. aber Sie sagen mir ja nicht ein wort, ob Sie <ref target="gb:note#GB03_2_FB001_0_note_004_12_12" xml:id="start_com_7003"/>meine Epistel<ref xml:id="end_com_7003"/>
+        <anchor xml:id="GB03_2_FB001_0_012_013"/>erhalten haben – eine rechte Epistel war’s, denn ich hatte wenigstens 3 Wochen 
+<anchor xml:id="GB03_2_FB001_0_012_014"/>dran geschrieben – mir gehts gut, ich lebe mit einer <ref target="gb:note#GB03_2_FB001_0_note_005_12_14" xml:id="start_com_7004"/>süßen Freundin<ref xml:id="end_com_7004"/> und Lebe und 
+<anchor xml:id="GB03_2_FB001_0_012_015"/>webe in den Gedanken daß ich meinen Christel, und meinen Friz bald wiedersehn 
+<anchor xml:id="GB03_2_FB001_0_012_016"/>und umarmen werde – Sind’s doch gar zu Liebe Jungens! ich bin aber recht 
+<anchor xml:id="GB03_2_FB001_0_012_017"/>krank geweßen. adieu mein guter <hi rendition="#hervor1">Wolf</hi> – bleiben Sie mein Freund, und glauben 
+<anchor xml:id="GB03_2_FB001_0_012_018"/>Sie daß ich den lebhaftesten Antheil an allem nehme waß Ihnen Freude oder 
+<anchor xml:id="GB03_2_FB001_0_012_019"/>Schmerz macht – wollte Gott daß Sie einmal recht glüklich wären!          Gustchen</p>
+      <lb/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB001_0_012_020"/>Bester Christel hier sind ein paar worte für unsern Wolf, den ihr mitbringen solt 
+<anchor xml:id="GB03_2_FB001_0_012_021"/>– daß es dir so wohl geht, und ihr so in Freuden lebt, freut mich, aber ich wollte ich 
+<anchor xml:id="GB03_2_FB001_0_012_022"/>hätte euch schon. die Zeit wird mir gar zu lang, und doch wenn ich an das leere 
+<anchor xml:id="GB03_2_FB001_0_012_023"/>denke daß ich empfinden werde, wenn ich mich wieder von euch getrennt habe, so 
+<anchor xml:id="GB03_2_FB001_0_012_024"/>mögte ich meine izige unruhe, die von der angenehmsten Aussicht herkomt, verlängern 
+<anchor xml:id="GB03_2_FB001_0_012_025"/>können – ich bin krank gewesen mein Christel, habe viel gelitten, freute mich 
+<anchor xml:id="GB03_2_FB001_0_012_026"/>aber oft, daß ihr mich nicht leiden saht – izt bin ich beßer, kan nur noch nichts 
+<anchor xml:id="GB03_2_FB001_0_012_027"/>eßen, – daß mögte denn meinetwegen immer so bleiben, wenn nur nicht nach allen 
+<anchor xml:id="GB03_2_FB001_0_012_028"/>waß ich esse oder trinke schmerz käme – aber doch bin ich viel beßer, und arbeite 
+<anchor xml:id="GB03_2_FB001_0_012_029"/>viel wieder an deiner Weste – die Arbeit macht mich gar zu glüklich. und warum? 
+<anchor xml:id="GB03_2_FB001_0_012_030"/>wie will ich mich freun wenn wir erst zusammen sind! o Christel wenn wir immer 
+<anchor xml:id="GB03_2_FB001_0_012_031"/>zusammen Leben könten! wahrlich unsre Seelen sind ganz für einander geschaffen, 
+<anchor xml:id="GB03_2_FB001_0_012_032"/>davon bin ich immer mehr überzeugt – Hätt ich euch doch erst ihr Jungens – laßt 
+<anchor xml:id="GB03_2_FB001_0_012_033"/>das Mädel nicht zu lange zappeln – ist Goethe weg, so schik ihn mein Blättgen 
+        <anchor xml:id="GB03_2_FB001_0_013_034"/>nach – möcht doch den Goethe vor mein Leben gerne sehn – adieu bester ich 
+<anchor xml:id="GB03_2_FB001_0_013_035"/>drüke dich fest fest an mein Herz – Schwester Ob[erg] küßt ihren Frater Christian.
+<anchor xml:id="GB03_2_FB001_0_013_036"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB001_0_013_037"/>d[en] 10. Heute bin ich viel beßer!</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56421_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56421_comment_com84422">
+  <p>(Zitiert nach: <ref target="sndb:sigle#1266/448">Schumann, Auguste Stolberg</ref>, 287–289; H: Rigsarkivet Kopenhagen.) – Wahrscheinlich wurde der vorliegende Antwortbrief, den Christian zu Stolberg Goethe aushändigen sollte, den Brüdern Stolberg, die schon am 4. Dezember 1775 Weimar in Richtung Dessau und Berlin verlassen hatten, nachgesandt. Daher blieb der Brief, der Goethe nicht erreichte, erhalten und wurde nicht in einem der späteren Autodafés, die Goethe von Zeit zu Zeit veranstaltete, vernichtet (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10565_comment_com4770">Nr 4</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56421_comment_com84423">
+<label xml:id="GB03_2_FB001_0_note_001_12_1" copyOf="#start_com_7000"><hi rendition="#normal">12,3</hi>Ihr Blätgen</label>
+<p>Goethes Bezugsbrief vom 20. September bis 22. November 1775 (<ref target="gb:dokument#10638">Nr 2</ref>).</p>
+</note>
+<note xml:id="gb56421_comment_com84424">
+<label xml:id="GB03_2_FB001_0_note_002_12_10" copyOf="#start_com_7001"><hi rendition="#normal">12,10</hi>mit nach Hamburg kommen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_024_4_12">4,12</ref>.</p>
+</note>
+<note xml:id="gb56421_comment_com84425">
+<label xml:id="GB03_2_FB001_0_note_003_12_11" copyOf="#start_com_7002"><hi rendition="#normal">12,11</hi>dißapointment</label>
+<p>Von franz. désappointement: ‚Strich durch die Rechnung‘, Enttäuschung.</p>
+</note>
+<note xml:id="gb56421_comment_com84426">
+<label xml:id="GB03_2_FB001_0_note_004_12_12" copyOf="#start_com_7003"><hi rendition="#normal">12,12</hi>meine Epistel</label>
+<p>Nicht überlieferter Brief, mit dem Augusta zu Stolberg wahrscheinlich auf Goethes Brief vom 14. bis 19. September 1775 (<ref target="gb:dokument#10622">GB 2 I, Nr 263</ref>) geantwortet hatte und den sie im Brief vom 20. November an ihren Bruder Christian erwähnt: „Lili verheirathet! o mein armer Goethe! ich habe seit 6 Wochen keine Zeile von ihn, ich muß aber sagen ich habe seinen lezten Brief erst nach 5 Wochen beantwortet. Daß war aber auch ein Brief der seine! <gap quantity="3" reason="editorial"/> und oft war er außer sich, wenn er von Lili sprach, denn wieder so zärtlich für mich – unteranderm sagt er, er könne es sich nicht denken daß jemals die Zeit kommen könte, da er die Hofnung Lilli zu besizen, aufgeben müßte – und izt ist die Zeit da – o der arme Goethe!“ (<ref target="sndb:sigle#1266/448">Schumann, Auguste Stolberg</ref>, 285 f.) Anna Elisabeth Schönemann ging erst im Sommer 1776 eine neue Verlobung ein und heiratete 1778 den Straßburger Bankier Bernhard Friedrich von Türckheim (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_014_82_14-15">82,14-15</ref>). – Da Goethe auch im Weimarer Briefteil vom 22. November die „Epistel“ Augustas nicht erwähnt, scheint er sie nicht erhalten zu haben.</p>
+</note>
+<note xml:id="gb56421_comment_com84427">
+<label xml:id="GB03_2_FB001_0_note_005_12_14" copyOf="#start_com_7004"><hi rendition="#normal">12,14</hi>süßen Freundin</label>
+<p>Anna Metta Baronesse von Oberg.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

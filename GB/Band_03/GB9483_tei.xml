@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4260"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9483" n="GB 3, Nr. 417">
+  <teiHeader xml:id="gb9483_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>417.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 30. November 1778. Montag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:52Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9483_tei.xml</idno>
+        <idno type="URI">gb9483</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR417_0</idno>
+        <idno type="KSW-ID">9483</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="238" to="239">238-239</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="801" to="801">801</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9483_header_hwit1412" corresp="#gb9483_source_hwit1412" sameAs="#gb9483_comment_hwit1412" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 2418/2006</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9483,,1412/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Beiliegende Gechenke Deiner Freundinnen und Freunde zum Geburtstage, der uns</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb9483_header_acc294" corresp="gb9483_comment_acc294">
+            <objectIdentifier>
+              <objectName><quote type="G">Geschencke</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-11-30"><supplied>30. November 1778</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44242">Knebel, Carl Ludwig von</persName>
+            <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9483_source_hwit1412" corresp="#gb9483_header_hwit1412" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9483/28802"/>
+      <p>
+        <anchor xml:id="GB03_1_BR417_0_238_028"/>Beyliegende <ref target="gb:note#GB03_2_BR417_0_note_001_238_28-29" xml:id="start_com_3600"/>Geschencke deiner Freundinnen und Freunde zum Geburtstag<ref xml:id="end_com_3600"/>
+        <anchor xml:id="GB03_1_BR417_0_238_029"/>der uns überrascht hat, sollte<ptr n="1" target="#a001_238.29"/> ich mit einem begleitenden Gedichte 
+<anchor xml:id="GB03_1_BR417_0_239_001"/>zusammenbinden. <ref target="gb:note#GB03_2_BR417_0_note_002_239_1-2" xml:id="start_com_3601"/>Da ich aber kaum zu diesem prosaischen 
+<anchor xml:id="GB03_1_BR417_0_239_002"/>Wunsche Zeit habe<ref xml:id="end_com_3601"/>; so lebe wohl und gedencke unsrer.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR417_0_239_003"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9483/28803" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#9483/28804" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9483/28805" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9483_comment">
+<body>
+<div type="metadata" xml:id="gb9483_comment_com216">
+  <ab type="numberAddressee"><label>417.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>30. November 1778</supplied> → <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb9483_comment_com1496">
+  <p>Der Brief bezieht sich auf Knebels Geburtstag am 30. November 1778 (vgl. <ref target="gb:note#gb9483_comment_com2260">Überlieferung</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9483_comment_com2260">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 21418/2006. – Doppelblatt 10,6(–10,9) × 17,4 cm, &#x2154; S. beschr. (quer), egh., Tinte; oben rechts über dem Text von fremder Hd (Knebel?): „30 Nov. 1778.“; S. 4 Bemerkung von fremder Hd (späterer Schreiber), Bleistift: „Begleitschreiben Goethes an Henriette Wolfskeel (vereh. Bölsch) / 30. Nov. 1778.“</p>
+  <p>E: <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1 (1851), 10, Nr 11 (nach H).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 259, Nr 759 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb9483_comment_com3490">
+  <p><quote type="G">Geschencke</quote> (<ref target="gb:text#GB03_1_BR417_0_238_028">238,28</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb9483_comment_com4056">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9483_comment_com7271">
+<label xml:id="GB03_2_BR417_0_note_001_238_28-29" copyOf="#start_com_3600"><hi rendition="#fett">238,28-29</hi>Geschencke <gap quantity="3" reason="editorial"/> zum Geburtstag</label>
+<p>Am 30. November 1778 wurde Carl Ludwig von Knebel 34 Jahre alt. Näheres über die Geburtstagsgeschenke konnte nicht ermittelt werden, ebenso wenig darüber, wer im Einzelnen die <quote type="G">Freundinnen und Freunde</quote> waren.</p>
+
+</note>
+<note xml:id="gb9483_comment_com18733">
+<label xml:id="GB03_2_BR417_0_note_002_239_1-2" copyOf="#start_com_3601"><hi rendition="#fett">239,1-2</hi>Da ich aber kaum <gap quantity="3" reason="editorial"/> Zeit habe</label>
+<p>Zu Goethes Geschäften im November 1778 gehörten die Überwachung der Umbauarbeiten im Fürstenhaus, Angelegenheiten des Geheimen Consiliums, an dessen Sitzungen er am 18., 25. und 27. November sowie am 1. Dezember teilnahm (vgl. <ref target="sndb:sigle#32">AS</ref> 1, LXXII), desgleichen die Unterstützung von Johann Friedrich Krafft (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb38_comment_com4808">Nr 410</ref>). Darüber hinaus fehlte ihm möglicherweise die rechte Stimmung zum Dichten; in sein Tagebuch notierte er ohne genaues Datum zwischen November und Dezember 1778: <quote type="G">Besorgniss für Krafften. Knebels Hypochondrie. <gap quantity="3" reason="editorial"/> War zugefroren gegen alle Menschen.</quote> (<ref target="gt:dokument#645">GT I 1, 67</ref>.) Was Knebel angeht, so hatte Goethe bereits unter dem 31. Juli 1778 in sein Tagebuch geschrieben: <quote type="G">Knebel hat eine falsch wahre Hypochondrische Art die sachen zu sehn die ihm wird bös spiel machen.</quote> (<ref target="gt:dokument#598">GT I 1, 65</ref>.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

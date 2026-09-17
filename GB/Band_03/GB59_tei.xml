@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5290"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb59" n="GB 3, Nr. 519">
+  <teiHeader xml:id="gb59_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>519.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 9. August 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb59_tei.xml</idno>
+        <idno type="URI">gb59</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR519_0</idno>
+        <idno type="KSW-ID">59</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="288" to="289">288-289</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="946" to="949">946-949</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb59_header_hwit1507" corresp="#gb59_source_hwit1507" sameAs="#gb59_comment_hwit1507" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>37 Goethe Familie</collection>
+            <idno type="shelfmark">GSA 37/I,9,3 Bl. 4-5</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:229157</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/59,,1507/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Mein Verlangen Sie einmal wiederzusehen, war bisher immer    durch die Umstände</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-08-09">9. August 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43781">Goethe, Catharina Elisabeth</persName>
+            <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb59_source_hwit1507" corresp="#gb59_header_hwit1507" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#59/12357"/>
+      <p>
+        <anchor xml:id="GB03_1_BR519_0_288_005"/>Mein Verlangen <ref target="gb:note#GB03_2_BR519_0_note_001_288_5" xml:id="start_com_4142"/>Sie einmal wiederzusehen<ref xml:id="end_com_4142"/>, war bisher immer durch 
+<anchor xml:id="GB03_1_BR519_0_288_006"/>die Umstände in denen ich hier mehr oder weniger nothwendig war, 
+<anchor xml:id="GB03_1_BR519_0_288_007"/>gemäsigt. Nunmehr aber kann sich eine Gelegenheit finden, darüber 
+<anchor xml:id="GB03_1_BR519_0_288_008"/>ich aber vor allem das strengste Geheimniss fordern muss. <ref target="gb:note#GB03_2_BR519_0_note_002_288_8-9" xml:id="start_com_4143"/>Der Herzog 
+<anchor xml:id="GB03_1_BR519_0_288_009"/>hat Lust<ptr n="1" target="#a001_288.9"/> den schönen Herbst am Rein zu geniesen<ref xml:id="end_com_4143"/>, ich würde mit ihm 
+<anchor xml:id="GB03_1_BR519_0_288_010"/>gehen und der <ref target="gb:note#GB03_2_BR519_0_note_003_288_10" xml:id="start_com_4144"/>Cammerh<g ref="#typoSuspension"/>. Wedel<ref xml:id="end_com_4144"/>. wir würden bey Euch einkehren 
+<anchor xml:id="GB03_1_BR519_0_288_011"/>wenige Tage da bleiben um <ref target="gb:note#GB03_2_BR519_0_note_004_288_11" xml:id="start_com_4145"/>den<ptr n="2" target="#a002_288.11"/> Messfreunden<ref xml:id="end_com_4145"/> auszuweichen dann <ref target="gb:note#GB03_2_BR519_0_note_005_288_11-12" xml:id="start_com_4146"/>auf 
+<anchor xml:id="GB03_1_BR519_0_288_012"/>dem Wasser weiter gehn<ref xml:id="end_com_4146"/>. <ref target="gb:note#GB03_2_BR519_0_note_006_288_12" xml:id="start_com_4147"/>Dann zurückkommen<ref xml:id="end_com_4147"/> und bey euch <ref target="gb:note#GB03_2_BR519_0_note_007_288_12-13" xml:id="start_com_4148"/>unsre 
+<anchor xml:id="GB03_1_BR519_0_288_013"/>Städte<ref xml:id="end_com_4148"/> aufschlagen um von da <ref target="gb:note#GB03_2_BR519_0_note_008_288_13" xml:id="start_com_4149"/>die Nachbaarschafft<ref xml:id="end_com_4149"/> zu besuchen. Wenn 
+<anchor xml:id="GB03_1_BR519_0_288_014"/>sie dieses prosaisch oder poetisch nimmt so ist dieses eigentlich das 
+<anchor xml:id="GB03_1_BR519_0_288_015"/>Tüpfgen aufs i, eures vergangnen Lebens, und ich käme das erstemal 
+<anchor xml:id="GB03_1_BR519_0_288_016"/>ganz wohl und vergnügt und <ref target="gb:note#GB03_2_BR519_0_note_009_288_16-17" xml:id="start_com_4150"/>so ehrenvoll als möglich in mein Vaterland 
+<anchor xml:id="GB03_1_BR519_0_288_017"/>zurück<ref xml:id="end_com_4150"/>. Weil ich aber auch mögte dass, da <ref target="gb:note#GB03_2_BR519_0_note_010_288_17-18" xml:id="start_com_4151"/>an den Bergen Samariä 
+<anchor xml:id="GB03_1_BR519_0_288_018"/>der Wein so schön gediehen ist auch dazu gepfiffen würde<ref xml:id="end_com_4151"/>, so wollt ich 
+<anchor xml:id="GB03_1_BR519_0_288_019"/>nichts als dass Sie und der Vater offne und feine Herzen hätten uns zu 
+<anchor xml:id="GB03_1_BR519_0_288_020"/>empfangen, und Gott zu dancken der Euch euren Sohn <ref target="gb:note#GB03_2_BR519_0_note_011_288_20-21" xml:id="start_com_4152"/>im dreisigsten 
+<anchor xml:id="GB03_1_BR519_0_288_021"/>Jahr<ref xml:id="end_com_4152"/> auf solche Weise wiedersehen lasst. Da ich aller Versuchung widerstanden 
+<anchor xml:id="GB03_1_BR519_0_288_022"/>habe,<ptr n="3" target="#a003_288.22"/> von hier <ref target="gb:note#GB03_2_BR519_0_note_012_288_22" xml:id="start_com_4153"/>wegzuwitschen<ref xml:id="end_com_4153"/> und Euch zu überraschen, 
+<anchor xml:id="GB03_1_BR519_0_288_023"/>so wollt ich auch<ptr n="4" target="#a004_288.23"/> diese Reise <pb n="2" facs="gb:digitalisate#59/12354"/> recht nach Herzenslust geniessen. Das 
+<anchor xml:id="GB03_1_BR519_0_288_024"/>unmögliche erwart ich nicht. <ref target="gb:note#GB03_2_BR519_0_note_013_288_24-26" xml:id="start_com_4154"/>Gott hat nicht gewollt dass der Vater die 
+<anchor xml:id="GB03_1_BR519_0_288_025"/>so<ptr n="5" target="#a005_288.25"/> sehnlich gewünschten Früchte die nun reif sind geniessen solle, er 
+<anchor xml:id="GB03_1_BR519_0_288_026"/>hat ihm den Apetit verdorben<ptr n="6" target="#a006_288.26"/> und so seys.<ref xml:id="end_com_4154"/> ich will gerne von der Seite 
+<anchor xml:id="GB03_1_BR519_0_288_027"/>nichts fordern als was ihm <ref target="gb:note#GB03_2_BR519_0_note_014_288_27" xml:id="start_com_4155"/>der Humor des Augenblicks<ref xml:id="end_com_4155"/> für ein Betragen 
+<anchor xml:id="GB03_1_BR519_0_289_001"/>eingiebt. Aber Sie mögt ich recht fröhlich sehen, und ihr einen 
+<anchor xml:id="GB03_1_BR519_0_289_002"/>guten Tag bieten wie noch keinen. <ref target="gb:note#GB03_2_BR519_0_note_015_289_2-3" xml:id="start_com_4156"/>ich habe alles was ein Mensch verlangen 
+<anchor xml:id="GB03_1_BR519_0_289_003"/>kan<ref xml:id="end_com_4156"/>, ein Leben in dem ich mich täglich übe und täglich wachse, 
+<anchor xml:id="GB03_1_BR519_0_289_004"/>und komme diesmal gesund, ohne Leidenschafft, ohne Verworrenheit, 
+<anchor xml:id="GB03_1_BR519_0_289_005"/>ohne dumpfes Treiben, sondern wie ein<ptr n="7" target="#a007_289.5"/> von Gott geliebter, <ref target="gb:note#GB03_2_BR519_0_note_016_289_5-6" xml:id="start_com_4157"/>der die 
+<anchor xml:id="GB03_1_BR519_0_289_006"/>Hälfte seines Lebens hingebracht hat<ref xml:id="end_com_4157"/>, und aus Vergangnem Leide manches 
+<anchor xml:id="GB03_1_BR519_0_289_007"/>Gute für die Zukunft hofft, und auch für künftiges Leiden die 
+<anchor xml:id="GB03_1_BR519_0_289_008"/>Brust bewährt hat, wenn ich euch vergnügt finde, werd ich mit Lust 
+<anchor xml:id="GB03_1_BR519_0_289_009"/>zurückkehren an die Arbeit und die Mühe des Tags die mich erwartet. 
+<anchor xml:id="GB03_1_BR519_0_289_010"/>
+        <ref target="gb:note#GB03_2_BR519_0_note_017_289_10" xml:id="start_com_4158"/>Antworte Sie mir<ref xml:id="end_com_4158"/> im ganzen Umpfang sogleich. wir kommen allenfalls 
+<anchor xml:id="GB03_1_BR519_0_289_011"/>in der Hälfte Septembers das nähere bis auf den kleinsten Umstand soll 
+<anchor xml:id="GB03_1_BR519_0_289_012"/>Sie wissen<ptr n="8" target="#a008_289.12"/> wenn ich nur Antwort<ptr n="9" target="#a009_289.12"/> auf diese habe. Aber ein unverbrüchlich 
+<anchor xml:id="GB03_1_BR519_0_289_013"/>
+        <ref target="gb:note#GB03_2_BR519_0_note_018_289_13" xml:id="start_com_4159"/>Geheim<pb n="3" facs="gb:digitalisate#59/12355"/>niss<ref xml:id="end_com_4159"/> vor der Hand auch gegen<ptr n="10" target="#a010_289.13"/> den Vater <ref target="gb:note#GB03_2_BR519_0_note_019_289_13" xml:id="start_com_4160"/>Merckn<ref xml:id="end_com_4160"/>
+        <anchor xml:id="GB03_1_BR519_0_289_014"/>
+        <ref target="gb:note#GB03_2_BR519_0_note_020_289_14" xml:id="start_com_4161"/>Bollig<ref xml:id="end_com_4161"/> pp allen muss unsre Ankunft Überraschung<ptr n="11" target="#a011_289.14"/> sein. ich verlasse 
+<anchor xml:id="GB03_1_BR519_0_289_015"/>mich drauf. <ref target="gb:note#GB03_2_BR519_0_note_021_289_15" xml:id="start_com_4162"/>Hier vermuthet noch niemand nichts.<ref xml:id="end_com_4162"/>     d<g ref="#typoSuspension"/>. 9 Aug. 1779.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR519_0_289_016"/>
+        <signed rend="paraph" rendition="#einrueck20">G</signed>
+      </closer>
+      <postscript>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR519_0_289_017"/>Wie ich mir unsre Quartiere gedacht habe und was wir brauchen 
+<anchor xml:id="GB03_1_BR519_0_289_018"/>pp das alles soll <ref target="gb:note#GB03_2_BR519_0_note_022_289_18" xml:id="start_com_4163"/>in meinem nächsten Brief<ref xml:id="end_com_4163"/> folgen wenn Sie mir erst 
+<anchor xml:id="GB03_1_BR519_0_289_019"/>ihre Ideen geschrieben hat.</p>
+      </postscript>
+    <pb n="4" facs="gb:digitalisate#59/12356"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb59_comment">
+<body>
+<div type="metadata" xml:id="gb59_comment_com1102">
+  <ab type="numberAddressee"><label>519.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 9. August 1779 → <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb59_comment_com3146">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#229157">GSA 37/I,9,3</ref>, Bl. 4–5. – Doppelblatt 19,8 × 27,5 cm, 2 &#x2153; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An Frau Rath Goethe / nach / Franckfurt / am Mayn.</quote>, Reste eines roten Initialsiegels: „G“; links über der Adresse von fremder Hd: „de Weimar“.</p>
+  <p>E<hi rendition="#sup">1</hi>: Friedrich Wilhelm Riemer: Mittheilungen über Goethe. Aus mündlichen und schriftlichen, gedruckten und ungedruckten Quellen. Bd 2, S. 95 f. (Teildruck: <ref target="gb:text#GB03_1_BR519_0_289_002 #GB03_1_BR519_0_289_009">289,2–9</ref> <quote type="G">ich habe alles was ein Mensch <gap quantity="3" reason="editorial"/> des Tags die mich erwartet.</quote>).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#517">Frau Rath</ref> (1871), 144–146.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 49–51, Nr 836.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb59_comment_com4942">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Catharina Elisabeth Goethe antwortete in einem nicht überlieferten Brief (vgl. <ref target="gb:text#GB03_1_BR520_0_289_020">289,20</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb59_comment_com5411">
+<label xml:id="GB03_2_BR519_0_note_001_288_5" copyOf="#start_com_4142"><hi rendition="#fett">288,5</hi>Sie einmal wiederzusehen</label>
+<p>Goethe hatte seine Mutter seit seiner Übersiedlung nach Weimar im November 1775 nicht mehr gesehen.</p>
+
+</note>
+<note xml:id="gb59_comment_com16295">
+<label xml:id="GB03_2_BR519_0_note_002_288_8-9" copyOf="#start_com_4143"><hi rendition="#fett">288,8-9</hi>Der Herzog hat Lust <gap quantity="3" reason="editorial"/> zu geniesen</label>
+<p>Am 30. Juli 1779 schrieb Goethe in sein Tagebuch: <quote type="G">Projeckt zur Reise nach Frf. überlegt</quote> (<ref target="gt:dokument#745">GT I 1, 85</ref>), und am 1. August notierte er: <quote type="G">den ganzen Tag allein ausser mit &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">und umgeworfen den künftigen Zustand, die Reise nach F. und wie Merck herbeizuziehen.</quote> (<ref target="gt:dokument#747">Ebd.</ref>) Goethe und Herzog Carl August beabsichtigten, eine Reise zunächst nach Frankfurt am Main und dann am Rhein entlang nach Düsseldorf zu unternehmen, entschieden sich aber in Frankfurt, in die Schweiz zu reisen. Am 11. September brachen sie gemeinsam mit Moritz von Wedel, Reitknecht Blochberg, Kammerdiener Wagner (vgl. <ref target="sndb:sigle#3945">FB 1779</ref>, S. 161) und Philipp Seidel auf und kamen am 18. September in Frankfurt an, wo sie bis zum 22. September blieben und bei Goethes Eltern am Großen Hirschgraben (vgl. <ref target="gb:note#GB01_2_BR001_0_note_018_4_25-26">GB 1 II, zu 4,25–26</ref>) logierten (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5413">
+<label xml:id="GB03_2_BR519_0_note_003_288_10" copyOf="#start_com_4144"><hi rendition="#fett">288,10</hi>Cammerh<g ref="#typoSuspension"/>. Wedel</label>
+<p>Otto Joachim Moritz von Wedel, seit 1776 Kammerherr und Oberforstmeister Herzog Carl Augusts (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_003_26_10">26,10</ref>). Am 18. Januar 1780 schrieb Catharina Elisabeth Goethe an die Herzoginmutter Anna Amalia: „Der schöne Wedel hat auch überall Lob und preiß eingeärndet.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 466 f.)</p>
+
+</note>
+<note xml:id="gb59_comment_com16365">
+<label xml:id="GB03_2_BR519_0_note_004_288_11" copyOf="#start_com_4145"><hi rendition="#fett">288,11</hi>den Messfreunden</label>
+<p>In Frankfurt begannen die Handelsmessen im Herbst in der Zeit zwischen dem 6. und 12. September und dauerten 3 Wochen (vgl. <ref target="gb:note#GB02_2_BR261_0_note_004_211_10">GB 2 II, zu 211,10</ref>), so dass der geplante Aufenthalt in die Messezeit fiel. 1779 begann die Messe am 6. September. Obwohl <quote type="G">der Herzog seine Tanten und Vettern die auf der Messe seyn werden nicht eben sehen</quote> (<ref target="gb:text#GB03_1_BR520_0_289_023 #GB03_1_BR520_0_289_025">289,23–25</ref>) mochte und die Reisenden daher gleich weiter ziehen wollten, blieben sie schließlich doch während der Messe in Frankfurt. An seine Frau Louise schrieb Carl August am 19. September 1779: „Die Meße ist nicht lebhaft.“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 112.)</p>
+
+</note>
+<note xml:id="gb59_comment_com5388">
+<label xml:id="GB03_2_BR519_0_note_005_288_11-12" copyOf="#start_com_4146"><hi rendition="#fett">288,11-12</hi>auf dem Wasser weiter gehn</label>
+<p>Die Reisenden wollten ursprünglich nach dem Aufenthalt in Frankfurt <quote type="G">gleich weiter und auf dem Mayn und Rhein hinab schwimmen</quote> (<ref target="gb:text#GB03_1_BR520_0_289_025 #GB03_1_BR520_0_289_026">289,25–26</ref>; vgl. auch zu <ref target="gb:note#GB03_2_BR519_0_note_002_288_8-9">288,8-9</ref>). Am 21. September schrieb Carl August an die Herzoginmutter Anna Amalia, dass sie „statt nach Morgen, wo wir nach Düsseldorf zu wollten, <gap quantity="3" reason="editorial"/> nach Mittag, nach der <hi rendition="#hervor1">Schweiz</hi> reiten.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 25.)</p>
+
+</note>
+<note xml:id="gb59_comment_com15963">
+<label xml:id="GB03_2_BR519_0_note_006_288_12" copyOf="#start_com_4147"><hi rendition="#fett">288,12</hi>Dann zurückkommen</label>
+<p>Auf der Rückreise, die schließlich von der Schweiz aus erfolgte, hielten sich Goethe und Carl August vom 24. bis 30. Dezember 1779 und vom 6. bis etwa 10. Januar 1780 erneut in Frankfurt auf (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref> sowie zu <ref target="gb:note#GB03_2_BR519_0_note_008_288_13">288,13</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5389">
+<label xml:id="GB03_2_BR519_0_note_007_288_12-13" copyOf="#start_com_4148"><hi rendition="#fett">288,12-13</hi>unsre Städte</label>
+<p>Im Sinn von ‚Lager(stätte)‘.</p>
+
+</note>
+<note xml:id="gb59_comment_com16420">
+<label xml:id="GB03_2_BR519_0_note_008_288_13" copyOf="#start_com_4149"><hi rendition="#fett">288,13</hi>die Nachbaarschafft</label>
+<p>Während des zweiten Frankfurter Aufenthalts (vgl. zu <ref target="gb:note#GB03_2_BR519_0_note_006_288_12">288,12</ref>) wurde vor allem der Hof in Darmstadt besucht, wo Carl Augusts Schwager Erbprinz Ludwig X. Georg Carl von Hessen-Darmstadt und dessen Frau Louise Caroline Henriette lebten. In Darmstadt wohnte auch Prinz Georg Wilhelm von Hessen-Darmstadt mit seiner Familie. Von Darmstadt aus fuhr die Gesellschaft nach Homburg an den Hof des Landgrafen Friedrich V. Ludwig Wilhelm Christian von Hessen-Homburg, der seit 1768 mit Carl Augusts Schwägerin Carolina verheiratet war, sowie nach Dieburg, auf das Schloss des kurmainzischen Ministers Carl Friedrich Willibald von Groschlag. (Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>; Goethe an Charlotte von Stein, 1.–3. Januar 1780; <ref target="gb:dokument#12065">GB 4, Nr 1</ref>.)</p>
+
+</note>
+<note xml:id="gb59_comment_com16361">
+<label xml:id="GB03_2_BR519_0_note_009_288_16-17" copyOf="#start_com_4150"><hi rendition="#fett">288,16-17</hi>so ehrenvoll als möglich in mein Vaterland zurück</label>
+<p>Goethes Vater hatte den Weggang seines Sohnes nach Weimar anfangs nicht gebilligt und hätte ihn lieber als Anwalt in Frankfurt gesehen (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>). Seine Stellung in Weimar als Freund des Herzogs und Geheimer Legationsrat mit Sitz und Stimme im Geheimen Consilium ließ Goethe jedoch auf einen ehrenvollen Empfang in seinem Elternhaus hoffen (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>; zu <ref target="gb:note#GB03_2_BR140_0_note_002_81_23">81,23</ref>). Möglicherweise wusste er auch schon von seiner bevorstehenden Ernennung zum Geheimen Rat, die Carl August ihm zu seinem 30. Geburtstag am 28. August 1779 ankündigte (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_017_295_16-17">295,16-17</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com13984">
+<label xml:id="GB03_2_BR519_0_note_010_288_17-18" copyOf="#start_com_4151"><hi rendition="#fett">288,17-18</hi>an den Bergen Samariä <gap quantity="3" reason="editorial"/> dazu gepfiffen würde</label>
+<p>Vgl. Jeremia 31,5. – Im Briefwechsel mit der Mutter wie auch mit Charlotte von Stein wird dieser Bibel-Vers mehrfach verwendet (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_030_183_18-19">183,18-19</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5390">
+<label xml:id="GB03_2_BR519_0_note_011_288_20-21" copyOf="#start_com_4152"><hi rendition="#fett">288,20-21</hi>im dreisigsten Jahr</label>
+<p>Goethe vollendete am 28. August 1779 sein 30. Lebensjahr.</p>
+
+</note>
+<note xml:id="gb59_comment_com5391">
+<label xml:id="GB03_2_BR519_0_note_012_288_22" copyOf="#start_com_4153"><hi rendition="#fett">288,22</hi>wegzuwitschen</label>
+<p>Witschen: „blitzschnell entwischen, entschlüpfen“ (<ref target="sndb:sigle#2890">Grimm</ref> 14 II, 815).</p>
+
+</note>
+<note xml:id="gb59_comment_com5392">
+<label xml:id="GB03_2_BR519_0_note_013_288_24-26" copyOf="#start_com_4154"><hi rendition="#fett">288,24-26</hi>Gott hat nicht gewollt <gap quantity="3" reason="editorial"/> und so seys.</label>
+<p>Wahrscheinlich in Anspielung auf den Gesundheitszustand Johann Caspar Goethes, der bereits 1776 schwer erkrankt war. Nach dem Tod seiner Tochter Cornelia im Juni 1777 verschlechterte sich sein Zustand erneut. Im Herbst 1779, nach Goethes Besuch in Frankfurt, erlitt er einen ersten Schlaganfall. Schon in den Monaten davor scheint er sich verändert zu haben, was Goethe wahrscheinlich aus Briefen seiner Mutter erfahren hatte. Seine eigenen Beobachtungen darüber teilte er nach dem Wiedersehen in Frankfurt Charlotte von Stein mit (vgl. <ref target="gb:text#GB03_1_BR533_0_298_014 #GB03_1_BR533_0_298_015">298,14–15</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5393">
+<label xml:id="GB03_2_BR519_0_note_014_288_27" copyOf="#start_com_4155"><hi rendition="#fett">288,27</hi>der Humor des Augenblicks</label>
+<p>‚Humor‘ hier noch in der älteren Wortbedeutung für ‚Stimmung‛, ‚Laune‛ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4 II, 1905 f.); die Wendung insgesamt wohl mit Bezug auf die wechselnden Gemütszustände des Vaters.</p>
+
+</note>
+<note xml:id="gb59_comment_com14430">
+<label xml:id="GB03_2_BR519_0_note_015_289_2-3" copyOf="#start_com_4156"><hi rendition="#fett">289,2-3</hi>ich habe alles was ein Mensch verlangen kan</label>
+<p>Ganz ähnlich äußerte sich Goethe seiner Mutter gegenüber schon in seinen früheren Briefen (vgl. zu <ref target="gb:note#GB03_2_BR276_0_note_002_151_12-13">151,12-13</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5394">
+<label xml:id="GB03_2_BR519_0_note_016_289_5-6" copyOf="#start_com_4157"><hi rendition="#fett">289,5-6</hi>der die Hälfte seines Lebens hingebracht hat</label>
+<p>Schon am 7. August hatte Goethe mit Bezug auf die bevorstehende Vollendung seines 30. Lebensjahres im Tagebuch vermerkt, dass <quote type="G">die Hälfte des Lebens nun vorüber ist</quote> (<ref target="gt:dokument#752">GT I 1, 87</ref>). Allerdings zieht er ein wesentlich bescheideneres Resümee seines bisherigen Lebens als im vorliegenden Brief (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12004_comment_com5121">Nr 518</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com14443">
+<label xml:id="GB03_2_BR519_0_note_017_289_10" copyOf="#start_com_4158"><hi rendition="#fett">289,10</hi>Antworte Sie mir</label>
+<p>Die Antwort Catharina Elisabeth Goethes ist nicht überliefert (vgl. aber <ref target="gb:text#GB03_1_BR520_0_289_020">289,20</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com15964">
+<label xml:id="GB03_2_BR519_0_note_018_289_13" copyOf="#start_com_4159"><hi rendition="#fett">289,13</hi>Geheimniss</label>
+<p>Auch Charlotte von Stein wurde von Goethe erst am 7. September 1779 über die geplante Reise informiert, jedoch ohne zunächst das genaue Ziel zu erfahren (vgl. <ref target="gb:text#GB03_1_BR527_0_295_004 #GB03_1_BR527_0_295_006">295,4–6</ref>). Auch in seinem nächsten Brief an die Mutter schrieb Goethe: <quote type="G">Also immer ein tiefes Stillschweigen, denn noch weis kein Mensch hier ein Wort.</quote> (<ref target="gb:text#GB03_1_BR520_0_290_028 #GB03_1_BR520_0_290_029">290,28–29</ref>.)</p>
+
+</note>
+<note xml:id="gb59_comment_com5395">
+<label xml:id="GB03_2_BR519_0_note_019_289_13" copyOf="#start_com_4160"><hi rendition="#fett">289,13</hi>Merckn</label>
+<p>Johann Heinrich Merck traf in Frankfurt mit den Reisenden zusammen und begleitete sie bis Eberstadt: „Die Voiageurs habe ich in Frankfurt gesehen, u. nachdem ich 3 Tage mit ihnen verlebt, hab ich ihnen das Geleite durchs Darmstädtische gegeben.“ (Merck an Christoph Martin Wieland, etwa 7. Oktober 1779; <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 300.)</p>
+
+</note>
+<note xml:id="gb59_comment_com5396">
+<label xml:id="GB03_2_BR519_0_note_020_289_14" copyOf="#start_com_4161"><hi rendition="#fett">289,14</hi>Bollig</label>
+<p>Der mit der Familie Goethe befreundete Frankfurter Kaufmann Johann Caspar Bölling (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11204_comment_com4494">Nr 183</ref>).</p>
+
+</note>
+<note xml:id="gb59_comment_com5397">
+<label xml:id="GB03_2_BR519_0_note_021_289_15" copyOf="#start_com_4162"><hi rendition="#fett">289,15</hi>Hier vermuthet noch niemand nichts.</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR519_0_note_018_289_13">289,13</ref>.</p>
+
+</note>
+<note xml:id="gb59_comment_com5398">
+<label xml:id="GB03_2_BR519_0_note_022_289_18" copyOf="#start_com_4163"><hi rendition="#fett">289,18</hi>in meinem nächsten Brief</label>
+<p><ref target="gb:dokument#60">Nr 520</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

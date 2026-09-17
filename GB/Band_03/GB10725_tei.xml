@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1390"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10725" n="GB 3, Nr. 138">
+  <teiHeader xml:id="gb10725_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>138.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 5. Juli 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:56Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10725_tei.xml</idno>
+        <idno type="URI">gb10725</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR138_0</idno>
+        <idno type="KSW-ID">10725</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="79" to="80">79-80</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="320" to="322">320-322</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10725_header_hwit1016" corresp="#gb10725_source_hwit1016" sameAs="#gb10725_comment_hwit1016" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10725,,1016/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Bruder heut war ich in der Superintendur, wo Hr. Consistorial Rath Seidler</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-07-05">5. Juli 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <placeName key="sndb:ort#87434">Bückeburg</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10725_source_hwit1016" corresp="#gb10725_header_hwit1016" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10725/18419"/>
+      <p>
+        <anchor xml:id="GB03_1_BR138_0_079_009"/>Lieber Bruder heut war ich <ref xml:id="start_com_1254" target="gb:note#GB03_2_BR138_0_note_002_79_9-11"/>in der Superintendur, wo H<g ref="#typoSuspension"/>. <hi rendition="#hervor2">Consistorial 
+<anchor xml:id="GB03_1_BR138_0_079_010"/>Rath</hi> Seidler mit einem Schwanz von 10 Kindern nach 
+<anchor xml:id="GB03_1_BR138_0_079_011"/>und nach ausmistet<ref xml:id="end_com_1254"/>. Ich hab gleich veranstaltet dass wenigstens das obre 
+<anchor xml:id="GB03_1_BR138_0_079_012"/>Stock reparirt werde,<ptr n="1" target="#a001_79.12"/> und so eingerichtet dass ihr einziehen, und <ref target="gb:note#GB03_2_BR138_0_note_002_79_12-13" xml:id="start_com_1255"/>deine 
+<anchor xml:id="GB03_1_BR138_0_079_013"/>Frau Wochen<ptr n="2" target="#a002_79.13"/> halten könne<ref xml:id="end_com_1255"/>. auf die Woche wird angefangen. Ihr müsst 
+<anchor xml:id="GB03_1_BR138_0_079_014"/>euch in dess gefallen lassen wie ich euch die Zimmer anlege.</p>
+      <anchor xml:id="GB03_1_BR138_0_079_015"/>
+      <figure rendition="#c">  
+        <graphic url="gb:digitalisate#10725/67461" width="400px"/>
+        <!-- evtl. noch dazu:   
+        <head>[Titel der Abbildung im Manuskript]</head>
+        <p>[Bildunterschrift im Manuskript]</p>  
+        <figDesc>[Bildbeschreibung BearbeiterIn]</figDesc>  
+        <note type="editorial">[Kommentar BearbeiterIn]</note>  -->
+      </figure>
+      
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_001"/>Es müssen noch Öfen gesezt werden Fenster gemacht, angestrichen, 
+<anchor xml:id="GB03_1_BR138_0_080_002"/>geweisst und so weiter.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_003"/><hi rendition="#hervor1">Berechne</hi> nur <ref target="gb:note#GB03_2_BR138_0_note_003_80_3" xml:id="start_com_1256"/>was dich Reise und Transport kostet<ref xml:id="end_com_1256"/>, es wird dir 
+<anchor xml:id="GB03_1_BR138_0_080_004"/>alles ersezt. sie wollten dir 200 rh. schicken weil du aber schriebst du 
+<anchor xml:id="GB03_1_BR138_0_080_005"/>brauchsts nicht so hab ich sie hier gelassen <pb n="2" facs="gb:digitalisate#10725/18420"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_006"/><ref target="gb:note#GB03_2_BR138_0_note_004_80_6" xml:id="start_com_1257"/>Kommt also <hi rendition="#hervor1">sobald ihr könnt<ref xml:id="end_com_1257"/> und wollt</hi>, Behelfen müsst ihr 
+<anchor xml:id="GB03_1_BR138_0_080_007"/>euch freylich im Anfange, solts aber gar nicht fertig werden können 
+<anchor xml:id="GB03_1_BR138_0_080_008"/>so habt ihr immer <ref target="gb:note#GB03_2_BR138_0_note_005_80_8" xml:id="start_com_1258"/>meine<ptr n="4" target="#a004_80.8"/> Wohnung<ref xml:id="end_com_1258"/> und Plaz genug drinn. und ich 
+<anchor xml:id="GB03_1_BR138_0_080_009"/>mögt wohl ein <ref target="gb:note#GB03_2_BR138_0_note_006_80_9" xml:id="start_com_1259"/>Faunchen<ref xml:id="end_com_1259"/> in meinem Schlafzimmer gebohren haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_010"/>Lieber Bruder der Augenblick des Zeugens ist herrlich, das Tragen 
+<anchor xml:id="GB03_1_BR138_0_080_011"/>und Gebähren beschweerlich, so aber gebohren ist, Freude. So wird s 
+<anchor xml:id="GB03_1_BR138_0_080_012"/>auch seyn<ptr n="5" target="#a005_80.12"/> <ref target="gb:note#GB03_2_BR138_0_note_007_80_12" xml:id="start_com_1260"/>wenn du als G. S. p gebohren bist<ref xml:id="end_com_1260"/>. Leb wohl. Du findst viel 
+<anchor xml:id="GB03_1_BR138_0_080_013"/>liebes Volck hier das dein offen erwartet. <ref target="gb:note#GB03_2_BR138_0_note_008_80_13-14" xml:id="start_com_1261"/>Du brauchst nur zu seyn wie 
+<anchor xml:id="GB03_1_BR138_0_080_014"/>du bist, das ist iezt hier Politick.<ref xml:id="end_com_1261"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_015"/>Ich<ptr n="6" target="#a006_80.15"/> hab das falsch gesagt <g ref="#NB"/>. das Gemeine <hi rendition="#hervor2">Volck</hi> fürchtet sich vor 
+<anchor xml:id="GB03_1_BR138_0_080_016"/>dir es werde dich nicht verstehen drum sey einfach in <ref target="gb:note#GB03_2_BR138_0_note_009_80_16-17" xml:id="start_com_1262"/>deiner ersten 
+<anchor xml:id="GB03_1_BR138_0_080_017"/>Predigt<ref xml:id="end_com_1262"/>. Sag ihnen das gemeinste mit deiner Art, so hast du auch Die. 
+<anchor xml:id="GB03_1_BR138_0_080_018"/>Die Geistlichen sind alle <ref target="gb:note#GB03_2_BR138_0_note_010_80_18" xml:id="start_com_1263"/>verschobene Kerls<ref xml:id="end_com_1263"/>. Sind aber die iungen dir 
+<anchor xml:id="GB03_1_BR138_0_080_019"/>nicht ganz gram. <pb n="3" facs="gb:digitalisate#10725/18421"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_020"/>Das ist wohl alles für diesmal. Bester Bruder der Kopf ist mir 
+<anchor xml:id="GB03_1_BR138_0_080_021"/>manchmal toll genug, doch hab ihn<ptr n="7" target="#a007_80.21"/> Gott sei Danck noch immer oben 
+<anchor xml:id="GB03_1_BR138_0_080_022"/>behalten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR138_0_080_023"/>Der Stadtrath hat schon seine <ref target="gb:note#GB03_2_BR138_0_note_011_80_23" xml:id="start_com_1264"/>Denomination<ref xml:id="end_com_1264"/> eingereicht, die <ref target="gb:note#GB03_2_BR138_0_note_012_80_23-24" xml:id="start_com_1265"/>Confirmation<ref xml:id="end_com_1265"/>
+        <anchor xml:id="GB03_1_BR138_0_080_024"/>wird erfolgen gleich, das wirst du hier finden<ptr n="8" target="#a008_80.24"/>. Gute Nacht. 
+<anchor xml:id="GB03_1_BR138_0_080_025"/>Dir wird hoffentlich wohl mit uns werden. <ref target="gb:note#GB03_2_BR138_0_note_013_80_25" xml:id="start_com_1266"/>Wiel.<ref xml:id="end_com_1266"/> grüsst dich.     G.   d<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR138_0_080_026"/>5<ptr n="9" target="#a009_80.26"/>. Jul. 76.</p>
+    <pb n="4" facs="gb:digitalisate#10725/18422"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10725_comment">
+<body>
+<div type="metadata" xml:id="gb10725_comment_com677">
+  <ab type="numberAddressee"><label>138.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 5. Juli 1776 → <placeName key="sndb:ort#87434">Bückeburg</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10725_comment_com2721">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – Doppelblatt 19 × 23,3 cm, 2 &#x2153; S. beschr., egh., Tinte, flüchtig geschrieben; S. 4 Adresse: <quote type="G">An / Herrn Consistorialrath / Herder / in / Bückeburg. / fr</quote> (<quote type="G">fr</quote> von fremder Hd mit schwarzer Tinte überschrieben und unterstrichen: „<hi rendition="#hervor1">frey</hi>“; <quote type="G">Bückeburg</quote> ebenfalls von fremder Hd mit schwarzer Tinte unterstrichen), rotes Initialsiegel: „G“; Bl. 2 am Rand beschnitten zum Öffnen des Siegels; S. 1 oben links von fremder Hd, Bleistift: „12“, rechts daneben Stempel: „Herder.“ sowie von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(21.)“.</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 61–63, Nr 21.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 79–81, Nr 482.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10725_comment_com4517">
+  <p>Der Bezugsbrief (vgl. <ref target="gb:text#GB03_1_BR138_0_080_004">80,4</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 8. Juli 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 12r). – Vermutlich wurde der vorliegende Brief erst am 8. Juli 1776 abgeschickt. Dass zwischen dem Brief vom 5. Juli und dem bereits am 10. Juli 1776 folgenden nächsten Brief ein weiterer geschrieben wurde, ist unwahrscheinlich.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10725_comment_com85637">
+<label xml:id="GB03_2_BR138_0_note_002_79_9-11" copyOf="#start_com_1254"><hi rendition="#fett">79,9-11</hi>in der Superintendur <gap quantity="3" reason="editorial"/> ausmistet</label>
+<p>,Superintendur‘: Schreibversehen. – Caroline Herder schreibt in ihren „Erinnerungen“: „Ein Geistlicher bei der dortigen <supplied>Weimarer</supplied> Stadtkirche hatte von zwei Regierungs-Mitgliedern das Versprechen der General-Superintendentur längst erhalten.“ (1, 251.) Es handelte sich um den Oberkonsistorialrat Johann Wilhelm Seidler, der nicht nur wegen der getäuschten Hoffnung auf Beförderung zu Herders Gegnern gehörte. Er bewohnte zudem die Amtswohnung des Generalsuperintendenten am Töpfenmarkt (Topfberg) neben der Stadtkirche (heute Herderplatz 8), die während der Vakanz der Stelle an ihn vermietet war. Schon am 28. Februar 1776 hatte Herzog Carl August in einem Reskript angeordnet, es solle „die dem Generalsuperintendenten bestimmte Wohnung <hi rendition="#hervor1">baldmöglichst</hi> geräumt und in wohnbaren Stand gesetzt werden“ (<ref target="sndb:sigle#2397/618">Peucer</ref>, 58). Inzwischen war die dreimonatige Kündigungsfrist (vgl. ebd.) abgelaufen. – Seidler soll fünf Söhne und fünf Töchter gehabt haben; nachweisen lassen sich nur folgende: Heinrich Friedrich Wilhelm (fast 26 Jahre alt), Anna Carolina (24 Jahre), Carl Ludwig (21 Jahre), August Gottfried Ludwig (17 Jahre), Aemilius August Ferdinand (14 Jahre), Amalie Christiane Dorothea (10 Jahre) und Hieronymus Wilhelm Christian (11 Jahre) (vgl. Fritz Meyen: Über die Anfänge der Bibliothek des Collegium Carolinum zu Braunschweig und ihren ersten Bibliothekar Johann Wilhelm Seidler. In: Braunschweigisches Jahrbuch 54 [1973], S. 208).</p>
+
+</note>
+<note xml:id="gb10725_comment_com9959">
+<label xml:id="GB03_2_BR138_0_note_002_79_12-13" copyOf="#start_com_1255"><hi rendition="#fett">79,12-13</hi>deine Frau Wochen halten könne</label>
+<p>Am 18. August 1776 brachte Caroline Herder ihren Sohn August zur Welt. Ihre Schwangerschaft und Niederkunft verzögerten Herders Abreise nach Weimar, nachdem die formalen Voraussetzungen für seine Berufung mit der Ausstellung des herzoglichen Ernennungsdekrets zum Oberpfarrer und der entsprechenden Urkunde des Bürgermeisters und des Stadtrats am 1. August 1776 (<ref target="sndb:sigle#2914">HN</ref>, XXXVII 85 f.) endgültig geschaffen worden waren. Bereits seit Januar 1776 hatten sich die Berufungsverhandlungen hingezogen, verzögert durch den Widerstand der Weimarer Geistlichkeit; vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref> und <ref target="gb:note#gb10962_comment_com5157">17</ref> sowie zu <ref target="gb:note#GB03_2_BR029_0_note_010_24_17">24,17</ref> und zu <ref target="gb:note#GB03_2_BR108_0_note_003_64_2-3">64,2-3</ref>. – ‚Wochen‘: Verkürzt für ,Wochenbett‘ oder ,Kindbett‘, das Frauen nach der Entbindung gewöhnlich sechs Wochen lang hüten mussten.</p>
+
+</note>
+<note xml:id="gb10725_comment_com9966">
+<label xml:id="GB03_2_BR138_0_note_003_80_3" copyOf="#start_com_1256"><hi rendition="#fett">80,3</hi>was dich Reise und Transport kostet</label>
+<p>Herder erhielt für den Umzug schließlich 250 Reichstaler „in Pistolen zu 5 Thlr. 2 Gr.“ (<ref target="sndb:sigle#2397/618">Peucer</ref>, 62. – Pistole: Louisdor.)</p>
+
+</note>
+<note xml:id="gb10725_comment_com14866">
+<label xml:id="GB03_2_BR138_0_note_004_80_6" copyOf="#start_com_1257"><hi rendition="#fett">80,6</hi>Kommt also <hi rendition="#hervor1">sobald ihr könnt</hi></label>
+<p>Herder und seine Frau trafen mit dem zweijährigen Gottfried und dem Säugling August am 1. Oktober 1776 in Weimar ein.</p>
+
+</note>
+<note xml:id="gb10725_comment_com9967">
+<label xml:id="GB03_2_BR138_0_note_005_80_8" copyOf="#start_com_1258"><hi rendition="#fett">80,8</hi>meine Wohnung</label>
+<p>Goethe hatte seit Ende Juni 1776 im Haus des Hofkassierers König am heutigen Burgplatz gegenüber dem Gelben Schloss eine Wohnung gemietet (vgl. zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>), hielt sich aber meist in seinem Gartenhaus auf.</p>
+
+</note>
+<note xml:id="gb10725_comment_com9968">
+<label xml:id="GB03_2_BR138_0_note_006_80_9" copyOf="#start_com_1259"><hi rendition="#fett">80,9</hi>Faunchen</label>
+<p>Faune: Begleiter (oder Kinder) des altitalischen Land- und Feldgottes Faunus, Gottes der Natur und Beschützers der Hirten und Bauern.</p>
+
+</note>
+<note xml:id="gb10725_comment_com14867">
+<label xml:id="GB03_2_BR138_0_note_007_80_12" copyOf="#start_com_1260"><hi rendition="#fett">80,12</hi>wenn du als G. S. p gebohren bist</label>
+<p>Die Berufung Herders zum Generalsuperintendenten – eine nach Goethes Worten ‚schwierige Geburt‘ – wurde mit der Ernennung zum Weimarer Oberpfarrer am 1. August 1776 abgeschlossen. – ‚p‘: lat. perge: und so weiter.</p>
+
+</note>
+<note xml:id="gb10725_comment_com17576">
+<label xml:id="GB03_2_BR138_0_note_008_80_13-14" copyOf="#start_com_1261"><hi rendition="#fett">80,13-14</hi>Du brauchst nur <gap quantity="3" reason="editorial"/> Politick.</label>
+<p>Ein solches Verhalten – sich ‚natürlich‘ zu geben im Gegensatz zu strenger Beachtung höfischer Etikette – in seiner Umgebung gefördert zu haben, gehörte zu den Vorwürfen, die Goethe gemacht wurden (vgl. zu <ref target="gb:note#GB03_2_BR004_0_note_005_5_18">5,18</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>). Vor allem Wieland wies sie wiederholt in seinen Briefen zurück, so in seinem Brief vom selben Tag an Merck: „Er <supplied>Goethe</supplied> hat bey all seiner anscheinenden u: würcklichen Naturwildheit, im kleinen Finger mehr <hi rendition="#hervor1">Conduite</hi> und <hi rendition="#hervor1">Scavoir-faire</hi> als alle Hofschranzen, Bonifaz Schleichers, und Politischen Kreuzspinnen zusammengenommen, in Leib und Seele.“ (<ref target="sndb:sigle#141">WB</ref> 5, 520 f.)</p>
+
+</note>
+<note xml:id="gb10725_comment_com9980">
+<label xml:id="GB03_2_BR138_0_note_009_80_16-17" copyOf="#start_com_1262"><hi rendition="#fett">80,16-17</hi>deiner ersten Predigt</label>
+<p>Seine Antrittspredigt in Weimar hielt Herder am 20. Oktober 1776 über Matthäus 22,1–14, das Gleichnis vom königlichen Hochzeitsmahl, erstmals gedruckt im „Weimarischen Herder-Album“ (Jena 1845, S. 65–84). Über die Aufnahme beim Publikum berichtete er in seinem Brief an Johann Georg Hamann vom 13. Januar 1777: „Meine erste Predigt, die ich in aller Ruhe eines Unwißenden aller vorigen Gerüchte hielt, wandte mir hohes u. niedres Volk so unglaublich zu, daß ich nun freilich auf ein so leicht gewonnenes Gut nicht viel rechne, es doch aber zum Anfange als eine sehr gute Schickung u. Hülfe ansehen muß.“ (<ref target="sndb:sigle#2904">HB</ref> 4, 25.)</p>
+
+</note>
+<note xml:id="gb10725_comment_com17548">
+<label xml:id="GB03_2_BR138_0_note_010_80_18" copyOf="#start_com_1263"><hi rendition="#fett">80,18</hi>verschobene Kerls</label>
+<p>‚Verschoben‘ in dem Sinn wie etwa im „Clavigo“: <quote type="G">Es ist löblich, daß man dem Menschen, der durch Verschwendung oder andere Thorheiten zeigt daß sein Verstand sich verschoben hat, von Amtswegen Vormünder setzt.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 11, 92.)</p>
+
+</note>
+<note xml:id="gb10725_comment_com9981">
+<label xml:id="GB03_2_BR138_0_note_011_80_23" copyOf="#start_com_1264"><hi rendition="#fett">80,23</hi>Denomination</label>
+<p>Ernennung (von lat. denominatio: Benennung); hier die Ernennung Herders zum Oberpfarrer durch den Weimarer Stadtrat. Mit einem Brief vom 22. Juli 1776 (<ref target="sndb:sigle#2914">HN</ref>, XXXVII 84) unterrichtete Carl Friedrich Ernst von Lyncker Herder darüber.</p>
+
+</note>
+<note xml:id="gb10725_comment_com9982">
+<label xml:id="GB03_2_BR138_0_note_012_80_23-24" copyOf="#start_com_1265"><hi rendition="#fett">80,23-24</hi>Confirmation</label>
+<p>Lat. confirmatio: Bestätigung, Bekräftigung. – Gewöhnlich Bezeichnung für die Einsegnung von Kindern zur Erneuerung ihres Taufbundes (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 1745), hier auf die endgültige Ausstellung des Ernennungsdekrets vom 1. August 1776 bezogen.</p>
+
+</note>
+<note xml:id="gb10725_comment_com15204">
+<label xml:id="GB03_2_BR138_0_note_013_80_25" copyOf="#start_com_1266"><hi rendition="#fett">80,25</hi>Wiel.</label>
+<p>Wieland, der, wie er unter dem Datum des vorliegenden Briefes an Merck schreibt, Goethe „wieder ein paar Tage herrl. genoßen; aber seit den lezten 3 Tagen nur 1. mal flüchtig gesehen“ hatte (<ref target="sndb:sigle#141">WB</ref> 5, 520).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

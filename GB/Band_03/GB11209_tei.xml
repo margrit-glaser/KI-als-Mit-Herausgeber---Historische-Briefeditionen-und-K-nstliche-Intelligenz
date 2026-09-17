@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1890"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11209" n="GB 3, Nr. 187">
+  <teiHeader xml:id="gb11209_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>187.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 19. <supplied>oder 20.</supplied> November <supplied>1776. Dienstag oder Mittwoch</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:15Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11209_tei.xml</idno>
+        <idno type="URI">gb11209</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR187_0</idno>
+        <idno type="KSW-ID">11209</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="117" to="118">117-118</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="425" to="427">425-427</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11209_header_hwit1105" corresp="#gb11209_source_hwit1105" sameAs="#gb11209_comment_hwit1105" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 38</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11209,,1105/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Der Sturm hat die ganze Nacht gewährt, und mich aus seltsamen Träumen wohl fünfmal aufgestört</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11209_header_acc370" corresp="gb11209_comment_acc370">
+            <objectIdentifier>
+              <objectName>Zeichnung </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11209_header_acc574" corresp="gb11209_comment_acc574">
+            <objectIdentifier>
+              <objectName>Werk von Swedenborg </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11209_header_acc575" corresp="gb11209_comment_acc575">
+            <objectIdentifier>
+              <objectName>Zeichenpapier </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-11-19">19. November <supplied>1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-11-20"><supplied>20.</supplied> November <supplied>1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-11-19">19. November <supplied>1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11209_source_hwit1105" corresp="#gb11209_header_hwit1105" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11209/22484"/>
+      <p>
+        <anchor xml:id="GB03_1_BR187_0_117_017"/>
+        <ref target="gb:note#GB03_2_BR187_0_note_001_117_17" xml:id="start_com_1791"/>Der Sturm hat die ganze Nacht gewährt<ref xml:id="end_com_1791"/>, und mich aus seltsamen 
+<anchor xml:id="GB03_1_BR187_0_117_018"/>Träumen wohl fünfmal aufgestört, und der Tag der so unhold einbrach, 
+<anchor xml:id="GB03_1_BR187_0_117_019"/>wollte eben Ihr Angesicht nicht sehen unter meinem <ref target="gb:note#GB03_2_BR187_0_note_002_117_19-20" xml:id="start_com_1792"/>Wachholderb.
+<anchor xml:id="GB03_1_BR187_0_117_020"/>
+        <ref xml:id="end_com_1792"/> Ich hab<ptr n="1" target="#a001_117.20"/>
+        <ref target="gb:note#GB03_2_BR187_0_note_003_117_20" xml:id="start_com_1793"/>meine kleine Wirthschafft um und umgekehrt<ref xml:id="end_com_1793"/>. Dieses 
+<anchor xml:id="GB03_1_BR187_0_117_021"/>
+        <ref target="gb:note#GB03_2_BR187_0_note_004_117_21" xml:id="start_com_1794"/>Zieraffen Papier<ref xml:id="end_com_1794"/> gefunden, und zugleich schick ich. <ref target="gb:note#GB03_2_BR187_0_note_005_117_21-22" xml:id="start_com_1795"/>Aussicht vom 
+<anchor xml:id="GB03_1_BR187_0_117_022"/>Stüzzerbacher berg <hi rendition="#hervor1">lincks</hi>
+        <ref xml:id="end_com_1795"/>
+        <hi rendition="#hervor1"/>, wie <ref target="gb:note#GB03_2_BR187_0_note_006_117_22" xml:id="start_com_1796"/>das Sie schon haben<ref xml:id="end_com_1796"/>
+        <hi rendition="#hervor1">rechts</hi> ist, gezeichnet 
+<anchor xml:id="GB03_1_BR187_0_117_023"/>das erstemal in Ilmenau. <ref target="gb:note#GB03_2_BR187_0_note_007_117_23" xml:id="start_com_1797"/>Schwedenborg.<ref xml:id="end_com_1797"/>
+        <ref target="gb:note#GB03_2_BR187_0_note_008_117_23-24" xml:id="start_com_1798"/>Grau Papier für 
+<anchor xml:id="GB03_1_BR187_0_117_024"/>Kestnern<ref xml:id="end_com_1798"/>, und einen Bindfaden. Es ist das Maas wo Sie sollen einen 
+   <anchor xml:id="GB03_1_BR187_0_118_001"/>Pflock zum Nagel <pb n="2" facs="gb:digitalisate#11209/22485"/> in die Wand schlagen lassen. <g ref="#NB"/>. gemessen von 
+<anchor xml:id="GB03_1_BR187_0_118_002"/>dem Nagel wo <ref target="gb:note#GB03_2_BR187_0_note_009_118_2" xml:id="start_com_1799"/>das Berg Nebelbild<ref xml:id="end_com_1799"/> hinzuhängen kommt. Gestern 
+<anchor xml:id="GB03_1_BR187_0_118_003"/>Nacht hab ich ein Model zu einem <ref target="gb:note#GB03_2_BR187_0_note_010_118_3" xml:id="start_com_1800"/>Schlitten<ref xml:id="end_com_1800"/> für Sie, aus einem 
+<anchor xml:id="GB03_1_BR187_0_118_004"/>Stümpfgen Wachslicht gefertiget, er ist auch schon bestellt. Wenn Sie 
+<anchor xml:id="GB03_1_BR187_0_118_005"/>mich sollten sizzen sehn, in dem neuen Eckgen das ich mir bereitet 
+<anchor xml:id="GB03_1_BR187_0_118_006"/>habe. Ich <ref target="gb:note#GB03_2_BR187_0_note_011_118_6" xml:id="start_com_1801"/>kalfatre<ref xml:id="end_com_1801"/> ietzt Fenster und Thüren, und will sehn wie lang ich 
+<anchor xml:id="GB03_1_BR187_0_118_007"/>mich gegen die Unbilden der Wittrung halte, und ob sie mich überwältigen. 
+<anchor xml:id="GB03_1_BR187_0_118_008"/>Addio. – Ich muss nur noch nach einem Pferd schicken 
+<anchor xml:id="GB03_1_BR187_0_118_009"/>
+        <ref target="gb:note#GB03_2_BR187_0_note_012_118_9" xml:id="start_com_1802"/>denn die Unruhe hat mich heute wieder an allen Haaren<ref xml:id="end_com_1802"/>. Gute Nacht. 
+<anchor xml:id="GB03_1_BR187_0_118_010"/>d<g ref="#typoSuspension"/> 19. Nov. halb vier. Nach Mitt.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR187_0_118_011"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11209_comment">
+<body>
+<div type="metadata" xml:id="gb11209_comment_com1078">
+  <ab type="numberAddressee"><label>187.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 19. November <supplied>1776</supplied> oder <supplied>20.</supplied> November <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11209_comment_com1876">
+  <p>Das Jahr wurde nach den sprachlichen Übereinstimmungen mit den Tagebucheinträgen vom 19. und 20. November 1776 (vgl. zu <ref target="gb:note#GB03_2_BR187_0_note_003_117_20">117,20</ref>; zu <ref target="gb:note#GB03_2_BR187_0_note_012_118_9">118,9</ref>) sowie der Einordnung im Konvolut der Briefe an Charlotte von Stein (Bd I) nach <ref target="gb:dokument#11208">Nr 185</ref> vom 10. November und vor <ref target="gb:dokument#11247">Nr 194</ref> vom 1. Dezember 1776 ergänzt. Nach den Parallelen zum Tagebuch ist der Brief wahrscheinlich am frühen Morgen des 20. November geschrieben worden. In den bisherigen Ausgaben wird er nach der Angabe im Brief auf den 19. November 1776 datiert.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11209_comment_com3122">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 38. – 1 Bl. 8,5 × 11,3 cm, Blättchen aus elfenbeinfarbig glänzendem Papier mit violett-grüner Bordüre (mit einer Schablone gezeichnet; nicht bei <ref target="sndb:sigle#2998">Mick</ref>), 2 S. beschr., egh., Tinte, gleichmäßige Schrift; oben rechts neben dem Brief von fremder Hd, Bleistift: „95“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 95), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 71.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 120 f., Nr 529.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11209_comment_com3764">
+  <p>1) Zeichnung (vgl. zu <ref target="gb:note#GB03_2_BR187_0_note_005_117_21-22">117,21-22</ref>).</p>
+  <p>2) Werk von Swedenborg (vgl. zu <ref target="gb:note#GB03_2_BR187_0_note_007_117_23">117,23</ref>).</p>
+  <p>3) Zeichenpapier (vgl. zu <ref target="gb:note#GB03_2_BR187_0_note_008_117_23-24">117,23-24</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11209_comment_com4918">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11209_comment_com10798">
+<label xml:id="GB03_2_BR187_0_note_001_117_17" copyOf="#start_com_1791"><hi rendition="#fett">117,17</hi>Der Sturm hat die ganze Nacht gewährt</label>
+<p>Goethe übernachtete noch immer in seinem Gartenhaus, wo er den Naturgewalten besonders ausgesetzt war (vgl. <ref target="gt:dokument#207">GT I 1, 29</ref>).</p>
+
+</note>
+<note xml:id="gb11209_comment_com17901">
+<label xml:id="GB03_2_BR187_0_note_002_117_19-20" copyOf="#start_com_1792"><hi rendition="#fett">117,19-20</hi>Wachholderb.</label>
+<p>Den Wacholderbaum in seinem Garten erwähnt Goethe auch im Brief von Anfang Juni? 1777 (vgl. zu <ref target="gb:note#GB03_2_BR269_0_note_002_148_7-8">148,7-8</ref>). – In der Nacht vom 30. zum 31. Januar 1809 wurde der Baum durch einen Sturm gefällt. Einer Beschreibung von Adolph Friedrich Temlers Auqarell des umgestürzten Baumes zufolge soll dieser etwa 12 m hoch gewesen und einen Stamm von etwa 3 m im Durchmesser besessen haben: „Von seinem äusserst hohen Alter wagt man nichts zu sagen. Der Stamm war inwendig vertrocknet, das Holz desselben mit horizontalen Rissen durchschnitten, wie man sie an den Kohlen zu sehen pflegt, gelblicher Farbe und durchaus von Würmern zerfressen.“ (<ref target="sndb:sigle#3162">KSW</ref>, Museen, Grafik-Slg, Inv.-Nr KHz 1992/00103; vgl. <ref target="sndb:sigle#2881">Goethes Gärten</ref>, 45.) – Der Wacholder „gilt als zauber- und heilkräftig und genieszt deshalb verehrung“ (<ref target="sndb:sigle#2890">Grimm</ref> 13, 57). An den Wacholderbaum (niederdt. Machandelbaum) knüpfen sich viele Volkssagen und -märchen, am bekanntesten ist das „Märchen vom Machandelbaum“, aus dem Goethe Verse in die „Kerker“-Szene in der „Frühen Fassung“ des „Faust“ aufnahm (vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> I 7/1, 535; ebenso Faust I, Verse 4412–4420; ebd., 192; vgl. auch <ref target="sndb:sigle#1240">FA/Goethe</ref> I 7/2, 378 und 911). Die Szene gehört zu den ältesten Teilen der „Faust“-Dichtung und lag 1776 schon vor (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR044_0_note_004_32_4">32,4</ref>).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10810">
+<label xml:id="GB03_2_BR187_0_note_003_117_20" copyOf="#start_com_1793"><hi rendition="#fett">117,20</hi>meine kleine Wirthschafft um und umgekehrt</label>
+<p>Eine wörtliche Parallele findet sich im Tagebucheintrag vom 19. November 1776: <quote type="G">Ganz im Garten. Die Wirthschafft umgekehrt – – – </quote> (<ref target="gt:dokument#207">GT I 1, 29</ref>). – Wahrscheinlich in Anspielung auf die Vorkehrungen im Grundstück und Gartenhaus für den bevorstehenden Winter (vgl. zu <ref target="gb:note#GB03_2_BR185_0_note_003_116_24">116,24</ref>). – ‚Wirtschaft‘ hier in engerer Bedeutung für ‚häusliche Geschäfte‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10811">
+<label xml:id="GB03_2_BR187_0_note_004_117_21" copyOf="#start_com_1794"><hi rendition="#fett">117,21</hi>Zieraffen Papier</label>
+<p>Vgl. <ref target="gb:note#gb11209_comment_com3122">Überlieferung</ref>. – ‚Zieraffe‘ nach <ref target="sndb:sigle#2753">Adelung</ref> „in der vertraulichen Sprechart, eine Person, welche sich ziert, d. i. affectirte Bewegungen und Complimente macht. So auch die Zierpuppe, ein solches Mädchen.“ (3, 1712.) Sonst bei Goethe nur noch einmal belegt (vgl. Übersetzung von „Rameau’s Neffe“; <ref target="sndb:sigle#1157">WA</ref> I 45, 77).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10812">
+<label xml:id="GB03_2_BR187_0_note_005_117_21-22" copyOf="#start_com_1795"><hi rendition="#fett">117,21-22</hi>Aussicht vom Stüzzerbacher berg <hi rendition="#hervor1">lincks</hi></label>
+<p>Blick vom Stützerbacher Schlossberg (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_021_93_13">93,13</ref>). – Wahrscheinlich eine nicht überlieferte Zeichnung mit einem ähnlichen Motiv wie das der nachfolgend erwähnten Ansicht „Stützerbacher Grund“, wozu sich noch eine Skizze erhalten hat (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 62, Nr 147).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10823">
+<label xml:id="GB03_2_BR187_0_note_006_117_22" copyOf="#start_com_1796"><hi rendition="#fett">117,22</hi>das Sie schon haben</label>
+<p>Vgl. Beilage 1 zu <ref target="gb:dokument#11128">Nr 152</ref>, <ref target="gb:digitalisate#11128/64253">Abb. 5</ref> im Textband, S. 95 (vgl. zu <ref target="gb:note#GB03_2_BR152_0_note_001_94_4-5">94,4-5</ref>).</p>
+
+</note>
+<note xml:id="gb11209_comment_com13681">
+<label xml:id="GB03_2_BR187_0_note_007_117_23" copyOf="#start_com_1797"><hi rendition="#fett">117,23</hi>Schwedenborg.</label>
+<p>Wahrscheinlich „Swedenborgs und anderer Irrdische und himmlische Philosophie, zur Prüfung des Besten ans Licht gestellt von Friedrich Christoph Oetinger“ (Frankfurt und Leipzig 1765), von Goethe im Juli in Leipzig bestellt (vgl. <ref target="gb:text#GB03_1_BR141_0_084_012 #GB03_1_BR141_0_084_013">84,12–13</ref>). Die Ausgabe ist in Goethes Bibliothek nachweisbar (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 458, Nr 3135), ebenfalls in der Bibliothek Johann Caspar Goethes (vgl. <ref target="sndb:sigle#4240/1189">Götting</ref>, 39).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10824">
+<label xml:id="GB03_2_BR187_0_note_008_117_23-24" copyOf="#start_com_1798"><hi rendition="#fett">117,23-24</hi>Grau Papier für Kestnern</label>
+<p>Wohl Zeichenpapier für den Hauslehrer Johann Friedrich Kästner.</p>
+
+</note>
+<note xml:id="gb11209_comment_com10822">
+<label xml:id="GB03_2_BR187_0_note_009_118_2" copyOf="#start_com_1799"><hi rendition="#fett">118,2</hi>das Berg Nebelbild</label>
+<p>Die Zeichnung „Dampfende Täler bei Ilmenau“ (vgl. Beilage zu <ref target="gb:dokument#11106">Nr 145</ref> [<ref target="gb:digitalisate#11106/64252">Abb. 4</ref> im Textband, S. 89]).</p>
+
+</note>
+<note xml:id="gb11209_comment_com10825">
+<label xml:id="GB03_2_BR187_0_note_010_118_3" copyOf="#start_com_1800"><hi rendition="#fett">118,3</hi>Schlitten</label>
+<p>Wahrscheinlich mit Bezug auf das hier erwähnte Geschenk für Charlotte von Stein vermerkt Goethe am 28. Dezember 1776 im Tagebuch: <quote type="G">Schlitten probirt nach Tiefurt.</quote> (<ref target="gt:dokument#246">GT I 1, 31</ref>.) Unter dem 31. Dezember schließlich findet sich der folgende Eintrag: <quote type="G">Abends nach Tiefurt gefahren allein. Den schlitten zerschlagen</quote> <supplied>beschädigt</supplied>. (<ref target="gt:dokument#249">Ebd.</ref>)</p>
+
+</note>
+<note xml:id="gb11209_comment_com10826">
+<label xml:id="GB03_2_BR187_0_note_011_118_6" copyOf="#start_com_1801"><hi rendition="#fett">118,6</hi>kalfatre</label>
+<p>‚Kalfatern‘ hier ‚gegen Wind und Wetter abdichten‘; sonst nur noch einmal bei Goethe belegt (vgl. <ref target="gb:text#GB07_1_BR128_0_221_009">GB 7 I, 221,9</ref>).</p>
+
+</note>
+<note xml:id="gb11209_comment_com17841">
+<label xml:id="GB03_2_BR187_0_note_012_118_9" copyOf="#start_com_1802"><hi rendition="#fett">118,9</hi>denn die Unruhe <gap quantity="3" reason="editorial"/> Haaren</label>
+<p>Am 20. November 1776 vermerkt Goethe im Tagebuch: <quote type="G">Unruhe. pp.</quote> (<ref target="gt:dokument#208">GT I 1, 29</ref>.) – Zur Redewendung vgl. zu <ref target="gb:note#GB03_2_BR197_0_note_003_121_11-12">121,11-12</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

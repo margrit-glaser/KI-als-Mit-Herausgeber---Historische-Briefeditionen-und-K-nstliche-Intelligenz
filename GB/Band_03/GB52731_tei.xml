@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4500"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb52731" n="GB 3, Nr. 441">
+  <teiHeader xml:id="gb52731_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>441.</label> An <persName key="sndb:person#60353">Anna Friederika Carolina Müller</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 1. Januar 1779. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:22:20Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb52731_tei.xml</idno>
+        <idno type="URI">gb52731</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR441_0</idno>
+        <idno type="KSW-ID">52731</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="250" to="250">250</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="829" to="830">829-830</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb52731_header_hwit52904" corresp="#gb52731_source_hwit52904" sameAs="#gb52731_comment_hwit52904" type="draft">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 342 S. 3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349648</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/52731,,52904/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Käzgen Ein Schmäzgen An mich</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#41490">Seckendorff, Carl Friedrich Sigmund von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-01-01"><supplied>1. Januar 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#60353">Müller, Anna Friederika Carolina</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb52731_source_hwit52904" corresp="#gb52731_header_hwit52904" type="source" rend="draft">
+  <body>
+    <div>
+      <head><supplied>Konzept</supplied></head>
+      <pb n="1" facs="gb:digitalisate#52731/12436"/>
+      <lg type="poem">
+              <anchor xml:id="GB03_1_BR441_0_250_003"/><head rendition="#einrueck7">Anngen Müllern</head>
+      <space quantity="1" unit="lines"/>
+              <anchor xml:id="GB03_1_BR441_0_250_004"/>
+        <l rendition="#einrueck6">Käzgen</l>
+        <anchor xml:id="GB03_1_BR441_0_250_005"/>
+        <l rendition="#einrueck6">Ein Schmäzgen</l>
+        <anchor xml:id="GB03_1_BR441_0_250_006"/>
+        <l rendition="#einrueck6">An mich</l>
+        <anchor xml:id="GB03_1_BR441_0_250_007"/>
+        <l rendition="#einrueck6">Und deinem Schäzgen</l>
+        <anchor xml:id="GB03_1_BR441_0_250_008"/>
+        <l rendition="#einrueck6">Gar lieblich</l>
+        <anchor xml:id="GB03_1_BR441_0_250_009"/>
+        <l rendition="#einrueck6">Ein Duzend mehr</l>
+        <anchor xml:id="GB03_1_BR441_0_250_010"/>
+        <l rendition="#einrueck6">Ach wer doch nur dein Schäzgen wär.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb52731_comment">
+<body>
+<div type="metadata" xml:id="gb52731_comment_com1016">
+  <ab type="numberAddressee"><label>441.</label> An <persName key="sndb:person#60353">Anna Friederika Carolina Müller</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>1. Januar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb52731_comment_com1860">
+  <p>Vgl. zu <ref target="gb:note#GB03_2_BR428_0_note_001_244_6-7">244,6-7</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb52731_comment_com3060">
+  <p>H: Verbleib unbekannt.</p>
+  <p>K: GSA Weimar, Sign.: <ref target="archivdb:dokument#349648">GSA 25/W 342</ref>. – Auf einem Doppelblatt, S. 3 (vgl. weiter Überlieferung zu <ref target="gb:note#gb52743_comment_com3068">Nr 429</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1266/762">Burkhardt, Neujahrs-Possen, 1904</ref>, 58.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref>: Nicht gedruckt.</p>
+  <p>Textgrundlage: K.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb52731_comment_com4856">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Zum Anlass des Gedichtbriefs vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52743_comment_com4864">Nr 429</ref>. – Nach Burkhardt (vgl. E) handelt es sich um Anna Friederika (Friedericke) Carolina (Caroline) Müller (1759/60–1804). Sie war die zweite Tochter des Weimarer Rats und Hofarztes Friedrich Gottlieb Müller. In der „Todes-Anzeige“ vom 18. Januar 1804 im „Weimarischen Wochenblatt“ (Nr 5, S. 26) wird ihr ein „heiterer Geist“ bestätigt, „der sie auch in ihren langen Leiden nicht verließ <gap quantity="3" reason="editorial"/>; die fromme Fassung, mit der sie ihrem Ende so ruhig entgegen sahe, machte sie ihren Freunden werther“. Anna Müller blieb unverheiratet und starb im Alter von 44 Jahren, so dass sie bei Entstehung der Neujahrs-Possen etwa 19 Jahre alt war. Am 20. Oktober 1778 hatte sie in Ettersburg bei einer Aufführung von Molières Komödie „Le médecin malgré lui“, die das Weimarer Liebhabertheater gab, mitgespielt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11896_comment_com5011">Nr 406</ref>; ferner Louise von Göchhausen an Catharina Elisabeth Goethe, 25. Oktober 1778; <ref target="bug:dokument#5752">BuG 2, 100</ref>). – Über ihr Verhältnis zu Goethe ist nichts bekannt. Außer dem vorliegenden Gedichtbrief sind keine weiteren Briefe Goethes an Anna Müller bekannt.</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

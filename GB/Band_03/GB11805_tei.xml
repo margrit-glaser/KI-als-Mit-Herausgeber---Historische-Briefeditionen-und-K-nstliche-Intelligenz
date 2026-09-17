@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1650"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11805" n="GB 3, Nr. 163">
+  <teiHeader xml:id="gb11805_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>163.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende August? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:05Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11805_tei.xml</idno>
+        <idno type="URI">gb11805</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR163_0</idno>
+        <idno type="KSW-ID">11805</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="101" to="101">101</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="377" to="378">377-378</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11805_header_hwit1318" corresp="#gb11805_source_hwit1318" sameAs="#gb11805_comment_hwit1318" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 111</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11805,,1318/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Schicken Sie mir den 2. band Phisiognomick! - haben Sie etwa    noch einige Bogen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-08-21" to="1776-08-31"><supplied>Ende August? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1778-02-11" to="1778-02-20"><supplied>Mitte Februar 1778</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11805_source_hwit1318" corresp="#gb11805_header_hwit1318" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11805/22796"/>
+      <p>
+        <anchor xml:id="GB03_1_BR163_0_101_015"/>Schicken Sie mir <ref target="gb:note#GB03_2_BR163_0_note_001_101_15" xml:id="start_com_1565"/>den 2. band Phisg<ref xml:id="end_com_1565"/>! – haben Sie etwa noch einige 
+<anchor xml:id="GB03_1_BR163_0_101_016"/>Bogen <ref target="gb:note#GB03_2_BR163_0_note_002_101_16" xml:id="start_com_1566"/>des schlechten Exemp<g ref="#typoSuspension"/>.<ref xml:id="end_com_1566"/>
+        <ref target="gb:note#GB03_2_BR163_0_note_003_101_16" xml:id="start_com_1567"/>mir fehlen sie<ref xml:id="end_com_1567"/>. Wie ists Ihnen liebste. 
+<anchor xml:id="GB03_1_BR163_0_101_017"/>
+        <ref target="gb:note#GB03_2_BR163_0_note_004_101_17" xml:id="start_com_1568"/>hier hausen ists sehr schön.<ref xml:id="end_com_1568"/>    G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11805_comment">
+<body>
+<div type="metadata" xml:id="gb11805_comment_com526">
+  <ab type="numberAddressee"><label>163.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende August? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11805_comment_com1654">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) befindet sich der vorliegende Brief unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Im Erstdruck wird er ohne Begründung in die zweite Hälfte Mai 1777 eingeordnet. Fielitz setzt ihn zwischen den 11. und 18. Februar 1778, und zwar nach einem vermuteteten Bezug zu Briefen Catharina Elisabeth Goethes an Philipp Seidel vom 2. Januar und an Johann Caspar Lavater vom 20. März 1778 (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 119, Nr 217; 433, Anm. 3 [zu S. 119]): Seidel wird erinnert, „die Phisionockmik nicht“ zu vergessen, Lavater gebeten, zu helfen, „daß das arme Exemplar nicht defect bleibt“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 418 f.). Der dort angenommene Bezug auf den im vorliegenden Brief erwähnten 2. Band der „Physiognomischen Fragmente“ (vgl. <ref target="gb:text#GB03_1_BR163_0_101_015">101,15</ref>) vom Mai 1776 ist unwahrscheinlich. Die WA folgt in ihrer Datierung zunächst der Ausgabe von Fielitz, korrigiert sie aber in den „Lesarten“ nach den inhaltlichen Bezügen zu Goethes Briefen an Philipp Erasmus Reich (<ref target="gb:dokument#11182">Nr 175</ref> und <ref target="gb:dokument#11394">179</ref>) auf Ende August oder Anfang September 1776 (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 3, 302; datiert von Eduard von der Hellen, vgl. ebd., 272). Diese neue Datierung, die von den nachfolgenden Ausgaben übernommen wurde, erscheint plausibel, da der 2. Band der „Physiognomischen Fragmente“ in Goethes Briefen nach 1776 nicht mehr erwähnt wird und Goethe Charlotte von Stein schon etwa Mitte August 1776 (<ref target="gb:dokument#11946">Nr 156</ref>) um die Rückgabe des Bandes gebeten hatte (vgl. zu <ref target="gb:note#GB03_2_BR163_0_note_001_101_15">101,15</ref>). Zudem wandte er sich im September 1776 mit einer Bitte um Vervollständigung seines <quote type="G">schlechten Exemp<g ref="#typoSuspension"/>.</quote> (<ref target="gb:text#GB03_1_BR163_0_101_016">101,16</ref>) der „Fragmente“ an Reich in Leipzig (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR163_0_note_002_101_16">101,16</ref>). Der vorliegende Brief könnte einige Zeit nach <ref target="gb:dokument#11946">Nr 156</ref>, also Ende August 1776, geschrieben sein, wohin er auch nach seinem Tonfall passt. Ein etwas späteres Datum ist nicht auszuschließen, doch hielt sich Goethe vom 2. bis 5. September in Ernstthal im Thüringer Wald auf und Charlotte von Stein war etwa ab dem 9. September 1776 in Kochberg (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_002_104_5">104,5</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11805_comment_com2570">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 111. – 1 Bl. 20,5 × 6,3(–7,2) cm, 4 Zeilen beschr., egh., Bleistift, sehr flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Adresse, Bleistift: <quote type="G">Fr. von Stein.</quote>; Vs. und Rs. Rest eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „78“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 80), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 100.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 211, Nr 675.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11805_comment_com4366">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11805_comment_com18119">
+<label xml:id="GB03_2_BR163_0_note_001_101_15" copyOf="#start_com_1565"><hi rendition="#fett">101,15</hi>den 2. band Phisg</label>
+<p>Der Anfang Mai 1776 erschienene 2. Band von Lavaters „Physiognomischen Fragmenten“ (vgl. <ref target="gb:text#GB03_1_BR105_0_063_001">63,1</ref>). In der ersten Hälfte Juni gab Goethe ein Exemplar des Bandes an Charlotte von Stein weiter (vgl. zu <ref target="gb:note#GB03_2_BR129_0_note_002_75_17">75,17</ref>), das er Mitte August von ihr zurückverlangte (vgl. <ref target="gb:text#GB03_1_BR156_0_097_013 #GB03_1_BR156_0_097_014">97,13–14</ref>). Wahrscheinlich war sie dieser ersten Bitte nicht nachgekommen.</p>
+
+</note>
+<note xml:id="gb11805_comment_com14110">
+<label xml:id="GB03_2_BR163_0_note_002_101_16" copyOf="#start_com_1566"><hi rendition="#fett">101,16</hi>des schlechten Exemp<g ref="#typoSuspension"/>.</label>
+<p>‚Schlecht‘ hier: einfach, von geringerer Qualität. – Exemplare der „Physiognomischen Fragmente“ erschienen auch zu niedrigerem Preis auf einfachem Druckpapier, das im Unterschied zu Post- oder Velinpapier nicht geleimt und daher weniger glatt und hart war (vgl. <ref target="sndb:sigle#3152">Zedler</ref> 26, 640).</p>
+
+</note>
+<note xml:id="gb11805_comment_com11597">
+<label xml:id="GB03_2_BR163_0_note_003_101_16" copyOf="#start_com_1567"><hi rendition="#fett">101,16</hi>mir fehlen sie</label>
+<p>Schon im Mai 1776 hatte Goethe Reich um Vervollständigung seines <quote type="G">geringen Exemplars</quote> (<ref target="gb:text#GB03_1_BR105_0_063_006">63,6</ref>) gebeten; am 19. September und am 14. Oktober wiederholte er diese Bitte (vgl. <ref target="gb:text#GB03_1_BR175_0_110_013 #GB03_1_BR175_0_110_017">110,13–17</ref>; <ref target="gb:text#GB03_1_BR179_0_112_010 #GB03_1_BR179_0_112_011">112,10–11</ref>).</p>
+
+</note>
+<note xml:id="gb11805_comment_com18124">
+<label xml:id="GB03_2_BR163_0_note_004_101_17" copyOf="#start_com_1568"><hi rendition="#fett">101,17</hi>hier hausen <gap quantity="3" reason="editorial"/> schön.</label>
+<p>‚Haußen‘ ist eine ältere Nebenform zu ‚draußen‘, ‚außerhalb‘; im ausgehenden 18. Jahrhundert nur noch „in den niedrigen Sprecharten“ gebraucht (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1035). – Hier mit Bezug auf Garten und Gartenhaus am „Stern“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>); auch wenn Goethe zu dieser Zeit noch nicht ständig im Garten wohnte, war er doch in der zweiten Augusthälfte nach seiner Rückkehr aus Ilmenau fast täglich dort (vgl. GT I 1, 24).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

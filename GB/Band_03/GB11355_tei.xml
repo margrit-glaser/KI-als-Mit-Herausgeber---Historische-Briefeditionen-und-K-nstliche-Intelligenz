@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5620"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11355" n="GB 3, Nr. 549">
+  <teiHeader xml:id="gb11355_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>549.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79740">Zürich</placeName>, 20. November 1779. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:23Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11355_tei.xml</idno>
+        <idno type="URI">gb11355</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR549_0</idno>
+        <idno type="KSW-ID">11355</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="343" to="344">343-344</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1052" to="1054">1052-1054</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11355_header_hwit1543" corresp="#gb11355_source_hwit1543" sameAs="#gb11355_comment_hwit1543" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>6 Bertuch</collection>
+            <idno type="shelfmark">GSA 6/628</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:220965</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11355,,1543/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Die Brossard hat mir von Mez einen erbärmlichen Brief    geschrieben, dass ihre Pension</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79740">Zürich</placeName>
+            <date when="1779-11-20">20. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43118">Bertuch, Friedrich Justin</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11355_source_hwit1543" corresp="#gb11355_header_hwit1543" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11355/25697"/>
+      <opener>
+        <dateline rendition="#einrueck17">
+          <anchor xml:id="GB03_1_BR549_0_343_020"/>Zürch d<g ref="#typoSuspension"/>. 20 Nov. 1779</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR549_0_343_021"/>Die Brossard hat mir <ref target="gb:note#GB03_2_BR549_0_note_001_343_21" xml:id="start_com_4940"/>von Mez<ref xml:id="end_com_4940"/> einen <ref target="gb:note#GB03_2_BR549_0_note_002_343_21" xml:id="start_com_4941"/>erbärmlichen Brief<ref xml:id="end_com_4941"/> geschrieben, 
+<anchor xml:id="GB03_1_BR549_0_343_022"/>dass ihre Pension ausbleibt, und <ref target="gb:note#GB03_2_BR549_0_note_003_343_22" xml:id="start_com_4942"/>Bauer<ref xml:id="end_com_4942"/> keine Ordre hat ihr das Geld 
+<anchor xml:id="GB03_1_BR549_0_343_023"/>zu zahlen. Sey so gut die Sache gleich zu berichtigen, das arme Mädgen 
+<anchor xml:id="GB03_1_BR549_0_344_001"/>ist in groser Verlegenheit. Wir sind hier glücklich und gesund <ref target="gb:note#GB03_2_BR549_0_note_004_344_1-2" xml:id="start_com_4943"/>angekommen<ref xml:id="end_com_4943"/>. 
+<anchor xml:id="GB03_1_BR549_0_344_002"/>Wenig fehlt so haben wir alles interessante der <ref target="gb:note#GB03_2_BR549_0_note_005_344_2" xml:id="start_com_4944"/>Schw.<ref xml:id="end_com_4944"/> Gegenden 
+<anchor xml:id="GB03_1_BR549_0_344_003"/>gesehen. Leb wohl! dass wir wenigstens nicht <ref target="gb:note#GB03_2_BR549_0_note_006_344_3-4" xml:id="start_com_4945"/>nach Italien gehen<ref xml:id="end_com_4945"/>, 
+<anchor xml:id="GB03_1_BR549_0_344_004"/>sondern wie recht enthaltsame Leute <ref target="gb:note#GB03_2_BR549_0_note_007_344_4" xml:id="start_com_4946"/>auf dem Gotthart<ref xml:id="end_com_4946"/>
+        <anchor xml:id="GB03_1_BR549_0_344_005"/>umgekehrt sind, werdet ihr uns hoff ich Danck wissen, und uns 
+<anchor xml:id="GB03_1_BR549_0_344_006"/>freundlich und <ref target="gb:note#GB03_2_BR549_0_note_008_344_6" xml:id="start_com_4947"/>artig<ref xml:id="end_com_4947"/>
+        <ref target="gb:note#GB03_2_BR549_0_note_009_344_6" xml:id="start_com_4948"/>empfangen<ref xml:id="end_com_4948"/> – Adieu.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR549_0_344_007"/>
+        <signed rend="signature" rendition="#einrueck12">Goethe.</signed>
+      </closer>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR549_0_344_008"/>Ihre Adresse</p>
+        <p rendition="#einrueck8">
+          <anchor xml:id="GB03_1_BR549_0_344_009"/>
+          <emph rendition="#latin">Metz</emph>
+        </p>
+        <p rendition="#einrueck9">
+          <anchor xml:id="GB03_1_BR549_0_344_010"/>
+          <emph rendition="#latin">a <ref xml:id="start_com_4949" target="gb:note#GB03_2_BR549_0_note_010_344_10-11"/>l’abbaye Royale</emph>
+        </p>
+        <p rendition="#einrueck9">
+          <anchor xml:id="GB03_1_BR549_0_344_011"/>
+          <emph rendition="#latin">des Dame de la Magdeleine</emph><ref xml:id="end_com_4949"/>
+        </p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#11355/25698" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11355/25699"/>
+    <pb n="4" facs="gb:digitalisate#11355/25700" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11355_comment">
+<body>
+<div type="metadata" xml:id="gb11355_comment_com88">
+  <ab type="numberAddressee"><label>549.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79740">Zürich</placeName>, 20. November 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11355_comment_com2132">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#220965">GSA 6/628</ref>. – Doppelblatt 18,9(–19,2) × 22,7 cm, 1 S. beschr., egh., Tinte; S. 3 Reste eines roten Siegels (Inschrift teilweise lesbar: „<gap quantity="3" reason="editorial"/> ΔΎΝΑΤ <gap quantity="3" reason="editorial"/> ΤΩ <gap quantity="3" reason="editorial"/> ΠΙΣΤΕΥΟ <gap quantity="3" reason="editorial"/>“, vermutlich: „πάντα δυνατὰ τῷ πιστεύοντι“. – Alles vermag, wer glaubt [Markus 9,23]) und Adresse von Schreiberhd (Seidel): <quote type="G">An Herrn Rath Bertuch / nach / Weimar</quote>.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> IV (1883), 198, Nr 2 (Ludwig Geiger).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 138 f., Nr 867.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11355_comment_com3928">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Während der Kavalierstour, die Herzog Carl August von Sachsen-Weimar und Eisenach als 17-jähriger Erbprinz 1774/75 mit seinem Bruder Constantin sowie den Erziehern Johann Eustach Graf von Schlitz gen. von Goertz und Carl Ludwig von Knebel nach Paris unternahm, hatte er in Epernay in der Champagne eine Mademoiselle Jeanette Brossard kennen gelernt. Aus einer Affäre mit ihr war vermutlich ein Kind hervorgegangen. Jedenfalls erhielt sie seither aus Carl Augusts Privatschatulle, später aus der Kammerkasse, eine jährliche Pension von 500 Livres; dies entsprach nach der von Bertuch geführten „Jahres-Rechnung der Herzoglichen Scatol. vom 1 Oct: 1778 bis 1 Octobr: 1779“ einem Betrag von 135 Reichstalern 11 Groschen (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1077, Bl. 14v). Die Zahlungen erfolgten bis ins Jahr 1804. Briefe wie den von Goethe erwähnten (vgl. <ref target="gb:text#GB03_1_BR549_0_343_021 #GB03_1_BR549_0_343_023">343,21–23</ref>), in denen sie um Auszahlung ihrer offenbar unregelmäßig eingehenden Pension bittet, hat Jeanette Brossard wiederholt an Goethe geschrieben; soweit sie überliefert sind, stammt der erste vom 7. Oktober 1792 (vgl. <ref target="ra:dokument#507">RA 1, 181, Nr 470</ref>), der letzte vom 16. August 1804 (vgl. <ref target="ra:dokument#6396">RA 4, 512, Nr 1650</ref>). Auch an den Herzog selbst wandte sie sich:</p>
+  <floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56474_source" corresp="#gb56474_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck5">
+        <anchor xml:id="GB03_2_FB041_0_1053_001"/>Mon Seigneur!</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB041_0_1053_002"/>C’est une infortunée, qui n’a d’autre existence <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_FB041_0_note_283_1053_2" xml:id="start_com_7299"/>depuis vingt ans<ref xml:id="end_com_7299"/>
+        </hi> que celle, 
+<anchor xml:id="GB03_2_FB041_0_1053_003"/>que Votre Altesse lui fait et qui n’oublira jamais, combien Votre coeur e<supplied>s</supplied>t bon et 
+<anchor xml:id="GB03_2_FB041_0_1053_004"/>conpatissant, c’est ce qui me decide à oser m’adresser directement à Mon Seigneur 
+<anchor xml:id="GB03_2_FB041_0_1053_005"/>pour le supplier de me faire payer Sa pension viagere, que vous avez bien voulu 
+<anchor xml:id="GB03_2_FB041_0_1053_006"/>m’accorder.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB041_0_1053_007"/>Recevez avec Votre bien veillence ordinere les assurences du respect profond avec 
+<anchor xml:id="GB03_2_FB041_0_1053_008"/>le quelle je <supplied>ne</supplied> cesseres d’etre de Votre Altesse Serenisime</p>
+      <table>
+        <row>
+          <cell rend="six">
+            <p> </p>
+          </cell>
+          <cell rend="six">
+            <p>
+              <anchor xml:id="GB03_2_FB041_0_1053_009"/>La tres humble</p>
+          </cell>
+        </row>
+        <row>
+          <cell rend="six">
+            <p rendition="#einrueck4">
+              <anchor xml:id="GB03_2_FB041_0_1053_010"/>8bre</p>
+          </cell>
+          <cell rend="six">
+            <p>et tres obeissente</p>
+          </cell>
+        </row>
+        <row>
+          <cell rend="six">
+            <p>
+              <anchor xml:id="GB03_2_FB041_0_1053_011"/>Epernay le 26</p>
+          </cell>
+          <cell rend="six">
+            <p>servante Jeanette</p>
+          </cell>
+        </row>
+        <row>
+          <cell rend="six">
+            <p rendition="#einrueck4">
+              <anchor xml:id="GB03_2_FB041_0_1053_012"/>1791.</p>
+          </cell>
+          <cell rend="six">
+            <p rendition="#einrueck1">Brossard</p>
+          </cell>
+        </row>
+      </table>
+      <lb/>
+      <p>
+        <anchor xml:id="GB03_2_FB041_0_1053_013"/>Si ces 500 Livre pouvoit seullement s’ogmenté cette année, j’amais je n’en eu si 
+<anchor xml:id="GB03_2_FB041_0_1053_014"/>grand besoin mes dettes payée, il me restera si peu de chose que je ne sais.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56474_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56474_comment_com84825">
+  <p>(Zitiert nach: <ref target="sndb:sigle#1266">GJb</ref> VI [1885], 354. – Der grammatisch und orthographisch fehlerhafte Text könnte wie folgt übersetzt werden: Mein Herr! / Es ist eine Leidgeprüfte, die seit zwanzig Jahren keine andere Existenz hat als die, welche Eure Hoheit ihr gewährt, und die nie vergessen wird, wie sehr Euer Herz ein gutes und mitfühlendes ist. Das ist es, was mich veranlasst, es zu wagen, mich direkt an meinen Herrn zu wenden, um ihn inständig zu bitten, mir ihre Pension auszahlen zu lassen, die Ihr mir freundlicherweise bewilligt habt. / Empfangt mit Eurem gewöhnlichen Wohlwollen die Zusicherungen der tiefen Hochachtung, mit welcher ich <supplied>nicht</supplied> aufhören werde zu sein Euer Durchlaucht / sehr ergebene / und sehr gehorsame / Dienerin Jeanette / Brossard / Epernay, den 26. Oktober 1791 // Wenn diese 500 Livres sich wenigstens in diesem Jahr erhöhen könnten; nie habe ich es so dringend benötigt, meine Schulden zu bezahlen; es wird mir sowieso nur so wenig übrig bleiben, dass ich nicht weiß<supplied>, wie ich weiterleben soll</supplied>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56474_comment_com84826">
+<label xml:id="GB03_2_FB041_0_note_283_1053_2" copyOf="#start_com_7299"><hi rendition="#normal">1053,2</hi><hi rendition="#hervor1">depuis vingt ans</hi></label>
+<p>Die Affäre mit Carl August ereignete sich Anfang 1775 (vgl. die einleitende <ref target="gb:note#gb11355_comment_com3928">Erläuterung</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11355_comment_com84827">
+<label xml:id="GB03_2_BR549_0_note_001_343_21" copyOf="#start_com_4940"><hi rendition="#fett">343,21</hi>von Mez</label>
+<p>Jeanette Brossard, in Thionville an der Mosel geboren, lebte von etwa 1778 bis 1781 in Metz, Zweibrücken und Meisenheim, später – von etwa 1782 bis 1787 – in Erfurt und von 1787 bis 1789 sowie erneut um 1793/94 in Berlin, die übrige Zeit wohl zumeist in Epernay.</p>
+</note>
+<note xml:id="gb11355_comment_com84828">
+<label xml:id="GB03_2_BR549_0_note_002_343_21" copyOf="#start_com_4941"><hi rendition="#fett">343,21</hi>erbärmlichen Brief</label>
+<p>‚Erbärmlich‘ hier im Sinn von ‚Mitleid erregend, heischend‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 231).</p>
+</note>
+<note xml:id="gb11355_comment_com84829">
+<label xml:id="GB03_2_BR549_0_note_003_343_22" copyOf="#start_com_4942"><hi rendition="#fett">343,22</hi>Bauer</label>
+<p>Vermutlich ist der Verleger und Buchhändler Johann Gottfried Bauer in Straßburg gemeint, der auch als Kommissionär für Wielands „Teutschen Merkur“ tätig war.</p>
+</note>
+<note xml:id="gb11355_comment_com84830">
+<label xml:id="GB03_2_BR549_0_note_004_344_1-2" copyOf="#start_com_4943"><hi rendition="#fett">344,1-2</hi>angekommen</label>
+<p>Goethe war mit seiner Reisegesellschaft am 18. November 1779 in Zürich angekommen; er wohnte bei Johann Caspar Lavater und blieb dort bis zum Beginn der Rückreise nach Weimar am 2. Dezember 1779.</p>
+</note>
+<note xml:id="gb11355_comment_com84831">
+<label xml:id="GB03_2_BR549_0_note_005_344_2" copyOf="#start_com_4944"><hi rendition="#fett">344,2</hi>Schw.</label>
+<p>Schweizer(ischen).</p>
+</note>
+<note xml:id="gb11355_comment_com84832">
+<label xml:id="GB03_2_BR549_0_note_006_344_3-4" copyOf="#start_com_4945"><hi rendition="#fett">344,3-4</hi>nach Italien gehen</label>
+<p>Über Goethes Wunsch, nach Italien zu reisen, vgl. <ref target="gb:note#GB02_2_BR254_0_note_035_207_4-5">GB 2 II, zu 207,4–5</ref>. Er verwirklichte ihn erst 1786.</p>
+</note>
+<note xml:id="gb11355_comment_com84833">
+<label xml:id="GB03_2_BR549_0_note_007_344_4" copyOf="#start_com_4946"><hi rendition="#fett">344,4</hi>auf dem Gotthart</label>
+<p>Dort war Goethe am 13./14. November 1779 gewesen.</p>
+</note>
+<note xml:id="gb11355_comment_com84834">
+<label xml:id="GB03_2_BR549_0_note_008_344_6" copyOf="#start_com_4947"><hi rendition="#fett">344,6</hi>artig</label>
+<p>Im 18. Jahrhundert Modewort; hier im Sinn von ‚auf gehörige Art und Weise‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 839).</p>
+</note>
+<note xml:id="gb11355_comment_com84835">
+<label xml:id="GB03_2_BR549_0_note_009_344_6" copyOf="#start_com_4948"><hi rendition="#fett">344,6</hi>empfangen</label>
+<p>Goethe traf am 14. Januar 1780 wieder in Weimar ein.</p>
+</note>
+<note xml:id="gb11355_comment_com14988">
+<label xml:id="GB03_2_BR549_0_note_010_344_10-11" copyOf="#start_com_4949"><hi rendition="#fett">344,10-11</hi><emph rendition="#latin">l’abbaye Royale des Dame de la Magdeleine</emph></label>
+<p>Das Hôpital Royal de Sainte Madeleine in Metz war ein Kranken- und Arbeitshaus insbesondere für Frauen und Mädchen, die an (Geschlechts-)Krankheiten litten oder zu einer Haftstrafe verurteilt waren.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

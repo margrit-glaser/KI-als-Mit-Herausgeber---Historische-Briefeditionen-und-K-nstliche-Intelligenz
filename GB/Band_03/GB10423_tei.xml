@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10423" n="GB 3, Nr. 12">
+  <teiHeader xml:id="gb10423_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>12.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84872">Stedten bei Erfurt</placeName>, 2. <supplied>Januar</supplied> 1776. <supplied>Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10423_tei.xml</idno>
+        <idno type="URI">gb10423</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR012_0</idno>
+        <idno type="KSW-ID">10423</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="13" to="14">13-14</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="42" to="45">42-45</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10423_header_hwit837" corresp="#gb10423_source_hwit837" sameAs="#gb10423_comment_hwit837" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10423,,837/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Heut kann ich dir schon Hoffnung geben, was ich vorgestern nicht konnte</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84872">Stedten bei Erfurt</placeName>
+            <date when="1776-01-02">2. <supplied>Januar</supplied> 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <placeName key="sndb:ort#87434">Bückeburg</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10423_source_hwit837" corresp="#gb10423_header_hwit837" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10423/18401"/>
+      <opener>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR012_0_013_011"/>
+          <ref target="gb:note#GB03_2_BR012_0_note_001_13_11" xml:id="start_com_0180"/>Steten<ref xml:id="end_com_0180"/> bey Erfurt d<g ref="#typoSuspension"/>. 2 <hi rendition="#sup">ten 76.</hi>
+        </dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR012_0_013_012"/>
+        <ref target="gb:note#GB03_2_BR012_0_note_002_13_12" xml:id="start_com_0181"/>Heut kann ich dir schon Hoffnung geben<ref xml:id="end_com_0181"/>, <ref target="gb:note#GB03_2_BR012_0_note_003_13_12-13" xml:id="start_com_0182"/>was ich vorgestern nicht 
+<anchor xml:id="GB03_1_BR012_0_013_013"/>konnte<ref xml:id="end_com_0182"/>. Und das thu ich gleich nicht um dein, sondern<ptr n="1" target="#a001_13.13"/> der <ref target="gb:note#GB03_2_BR012_0_note_004_13_13" xml:id="start_com_0183"/>Frau<ref xml:id="end_com_0183"/> willen. 
+<anchor xml:id="GB03_1_BR012_0_013_014"/>Ich bin mit Wielanden hier bey <ref target="gb:note#GB03_2_BR012_0_note_005_13_14" xml:id="start_com_0184"/>liebenden Menschen<ref xml:id="end_com_0184"/>. Du musst 
+<anchor xml:id="GB03_1_BR012_0_013_015"/>ihm auch helfen <ref target="gb:note#GB03_2_BR012_0_note_006_13_15" xml:id="start_com_0185"/>seinen Merckur stärcken<ref xml:id="end_com_0185"/> davon sein Auskommen, 
+<anchor xml:id="GB03_1_BR012_0_013_016"/>und seiner Kinder Glück abhängt. Er wünscht dich her, hatte eh die 
+<anchor xml:id="GB03_1_BR012_0_013_017"/>Idee als ich. <ref target="gb:note#GB03_2_BR012_0_note_007_13_17" xml:id="start_com_0186"/>Weis aber nicht was iezt vorgeht.<ref xml:id="end_com_0186"/> Ich hoffe du sollst s 
+<anchor xml:id="GB03_1_BR012_0_013_018"/>allein durch mich, und aus freyer Wahl des Herzogs haben; – <ref target="gb:note#GB03_2_BR012_0_note_008_13_18-19" xml:id="start_com_0187"/>der 
+<anchor xml:id="GB03_1_BR012_0_013_019"/>Stadhalter von Erfurt hat das beste von dir gesagt<ref xml:id="end_com_0187"/>, und bestätigt dem 
+<anchor xml:id="GB03_1_BR012_0_013_020"/>iungen Fürsten deinen Geist und Kraft, ich habe für deine politische 
+<anchor xml:id="GB03_1_BR012_0_013_021"/>Klugheit in geistlichen Dingen gut gesagt, denn der Herzog will absolut 
+<anchor xml:id="GB03_1_BR012_0_013_022"/>keine Pfaffen <ref target="gb:note#GB03_2_BR012_0_note_009_13_22" xml:id="start_com_0188"/>Trakasserien<ref xml:id="end_com_0188"/> über Orthodoxie und den Teufel, und 
+<anchor xml:id="GB03_1_BR012_0_014_001"/>da haben <ref target="gb:note#GB03_2_BR012_0_note_010_14_1" xml:id="start_com_0189"/>die Bahrdte<ref xml:id="end_com_0189"/> euer<ptr n="2" target="#a002_14.1"/> Geschlecht<ptr n="3" target="#a003_14.1"/>
+        <ref target="gb:note#GB03_2_BR012_0_note_011_14_1" xml:id="start_com_0190"/>stinckend gemacht<ref xml:id="end_com_0190"/> – Ich wunsche 
+<anchor xml:id="GB03_1_BR012_0_014_002"/>Dich meinem Herzog und ihn dir. Es wird euch beyden wohl 
+<anchor xml:id="GB03_1_BR012_0_014_003"/>thun, und – ia lieber Bruder ich muss das stifften <ref target="gb:note#GB03_2_BR012_0_note_012_14_3" xml:id="start_com_0191"/>eh ich scheide<ref xml:id="end_com_0191"/>. Leb 
+<anchor xml:id="GB03_1_BR012_0_014_004"/>wohl. Wie die Sache rückt sollst du<ptr n="4" target="#a004_14.4"/> Nachricht haben. <ref target="gb:note#GB03_2_BR012_0_note_013_14_4-5" xml:id="start_com_0192"/>Zerreiss meine 
+<anchor xml:id="GB03_1_BR012_0_014_005"/>Zettel<ref xml:id="end_com_0192"/> wie ich gewissenhafft die deinigen.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR012_0_014_006"/>
+        <signed rend="paraph" rendition="#einrueck24">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10423/18402" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10423/18403" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10423/18404"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10423_comment">
+<body>
+<div type="metadata" xml:id="gb10423_comment_com483">
+  <ab type="numberAddressee"><label>12.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84872">Stedten bei Erfurt</placeName>, 2. <supplied>Januar</supplied> 1776 → <placeName key="sndb:ort#87434">Bückeburg</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb10423_comment_com1631">
+  <p>Die fehlende Angabe des Monats lässt sich nach dem Absendeort (vgl. zu <ref target="gb:note#GB03_2_BR012_0_note_001_13_11">13,11</ref>) und dem Inhalt des Briefes ergänzen.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10423_comment_com2527">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – Doppelblatt 19,2 × 23,7 cm, &#xBE; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">Herrn / Consistorialrath Herder / nach / Bückeburg</quote>, darunter Postvermerk von fremder Hd: „<hi rendition="#hervor1">Fr. Cassel</hi>.“, unter der Adresse rotes Siegel: „ALLES UM LIEBE“; Bl. 2 am Rand ausgerissen durch Öffnen des Siegels; S. 1 am oberen Rand links von fremder Hd, Bleistift: „10“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(15)“.</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 55 f., Nr 15 (ausgelassen: <quote type="G">Bahrdte euer Geschlecht stinckend</quote> [<ref target="gb:text#GB03_1_BR012_0_014_001">14,1</ref>]).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 13, Nr 377.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10423_comment_com4323">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10423_comment_com8470">
+<label xml:id="GB03_2_BR012_0_note_001_13_11" copyOf="#start_com_0180"><hi rendition="#fett">13,11</hi>Steten</label>
+<p>Stedten (heute Bischleben-Stedten) im Geratal südwestlich von Erfurt. Dort traf Goethe, von Erfurt kommend, mit Wieland auf dem Gut des 1766 verstorbenen gothaischen Geheimrats Christoph Dietrich von Keller zusammen. Er hielt sich vom 1. bis 4. Januar 1776 dort auf.</p>
+
+</note>
+<note xml:id="gb10423_comment_com17181">
+<label xml:id="GB03_2_BR012_0_note_002_13_12" copyOf="#start_com_0181"><hi rendition="#fett">13,12</hi>Heut kann ich dir schon Hoffnung geben</label>
+<p>Es ging um Herders Berufung als sachsen-weimarischer Generalsuperintendent (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref>). Die <quote type="G">Hoffnung</quote> gründete sich auf Gespräche mit dem kurmainzischen Statthalter Carl Theodor von Dalberg in Erfurt, den Goethe und Herzog Carl August vom 29. bis 31. Dezember 1775 besucht hatten. Dalberg hatte sich günstig über Herder geäußert (vgl. <ref target="gb:text#GB03_1_BR012_0_013_018 #GB03_1_BR012_0_013_020">13,18–20</ref>).</p>
+
+</note>
+<note xml:id="gb10423_comment_com8471">
+<label xml:id="GB03_2_BR012_0_note_003_13_12-13" copyOf="#start_com_0182"><hi rendition="#fett">13,12-13</hi>was ich vorgestern nicht konnte</label>
+<p>Im Brief vom 31. Dezember 1775 (<ref target="gb:dokument#10678">Nr 10</ref>).</p>
+
+</note>
+<note xml:id="gb10423_comment_com8472">
+<label xml:id="GB03_2_BR012_0_note_004_13_13" copyOf="#start_com_0183"><hi rendition="#fett">13,13</hi>Frau</label>
+<p>Herders Frau Caroline.</p>
+
+</note>
+<note xml:id="gb10423_comment_com8473">
+<label xml:id="GB03_2_BR012_0_note_005_13_14" copyOf="#start_com_0184"><hi rendition="#fett">13,14</hi>liebenden Menschen</label>
+<p>Wieland hatte 1771 die Familie der Witwe Auguste von Keller kennen gelernt und unterhielt freundschaftliche Beziehungen zur Mutter und zur ältesten Tochter Juliane (Julie), die seit 1774 mit dem späteren Eisenacher Kanzler und Landschaftsdirektor Johann Ludwig von Mauchenheim gen. Bechtolsheim verheiratet war. Auf Julies Einladung hatte er sich mit einem Brief vom 21. Dezember 1775 bei deren Mutter in Stedten für Anfang Januar 1776 zu einem Besuch angesagt und angefragt: „Darf ich Ihnen einen der herrlichsten, größten, besten Menschen, <hi rendition="#hervor1">meinen Göthe</hi>, mitbringen? Den ich so stolz, und doch unendl. mehr glückselig als stolz bin, <hi rendition="#hervor1">Mein</hi> zu nennen! Ja, Sie müßen das edle Geschöpf kennen lernen, und Er, Sie.“ (<ref target="sndb:sigle#141">WB</ref> 5, 455.) Am 11. Januar 1776 schilderte Wieland den Besuch in einem Brief an Sophie La Roche: „Drey wonnigliche Tage, die ersten in diesem Jahre, haben wir zu Steden bei der Frau von <supplied>Keller</supplied> und meiner Julie gelebt. Beide empfehlen sich Ihnen aufs Beste. <hi rendition="#hervor1">Göthe</hi> war so <hi rendition="#hervor1">gut</hi>, so <hi rendition="#hervor1">lieb</hi>, so unsäglich lieb, daß wir alle wie die Närrchen in ihn verliebt wurden. So gehts nun unserm guten jungen <supplied>Carl August</supplied> (?) auch. Göthe ist sein Alles; und folglich werdet Ihr sein Angesicht sobald nicht wieder zu sehen bekommen.“ (<ref target="sndb:sigle#141">WB</ref> 5, 463.) Im Rückblick erzählte Wieland (nach Carl August Böttigers Bericht am 19. Januar 1797) in ähnlicher Weise über Goethe: „Wir fuhren im Jahre [17]76 im Winter nach Stetten zu der Mutter der Frau v. Bechtolsheim <gap quantity="3" reason="editorial"/>. Da freute ich mich recht innig, wenn er so auf alle Leute einen recht großen Eindruck machte, und besang ihn in einem Liede an die Frau v. Bechtolsheim <gap quantity="3" reason="editorial"/>, das in dem T[eutschen] Merkur in jener Periode steht.“ (Böttiger, Literarische Zustände, 213.) Gemeint ist Wielands Gedicht „An Psyche“ (so nannte er Julie von Mauchenheim gen. Bechtolsheim), das im Januar-Heft des „Teutschen Merkur“ 1776 (S. 12–18) erschien.</p>
+
+</note>
+<note xml:id="gb10423_comment_com8474">
+<label xml:id="GB03_2_BR012_0_note_006_13_15" copyOf="#start_com_0185"><hi rendition="#fett">13,15</hi>seinen Merckur stärcken</label>
+<p>Wieland war unzufrieden mit dem Fach der Literaturkritik in seinem Journal, das von Christian Heinrich Schmid vertreten wurde. Um Abhilfe zu schaffen, hatte er sich deswegen Ende 1775 auch an Johann Heinrich Merck gewandt, um ihn als Mitarbeiter zu gewinnen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10569_comment_com4226">Nr 16</ref>).</p>
+
+</note>
+<note xml:id="gb10423_comment_com14822">
+<label xml:id="GB03_2_BR012_0_note_007_13_17" copyOf="#start_com_0186"><hi rendition="#fett">13,17</hi>Weis aber nicht was iezt vorgeht.</label>
+<p>Goethe rechnete mit Schwierigkeiten, Herders Berufung bei der Weimarer Geistlichkeit durchzusetzen.</p>
+
+</note>
+<note xml:id="gb10423_comment_com14837">
+<label xml:id="GB03_2_BR012_0_note_008_13_18-19" copyOf="#start_com_0187"><hi rendition="#fett">13,18-19</hi>der Stadhalter <gap quantity="3" reason="editorial"/> das beste von dir gesagt</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR012_0_note_002_13_12">13,12</ref>.</p>
+
+</note>
+<note xml:id="gb10423_comment_com8488">
+<label xml:id="GB03_2_BR012_0_note_009_13_22" copyOf="#start_com_0188"><hi rendition="#fett">13,22</hi>Trakasserien</label>
+<p>Franz. tracasserie: Schikane, Komplikation, „Stänkerey“ (<ref target="sndb:sigle#2965">Krünitz</ref> 186, 540).</p>
+
+</note>
+<note xml:id="gb10423_comment_com17249">
+<label xml:id="GB03_2_BR012_0_note_010_14_1" copyOf="#start_com_0189"><hi rendition="#fett">14,1</hi>die Bahrdte</label>
+<p>Gemeint sind Theologen wie Carl Friedrich Bahrdt, das „enfant terrible der deutschen Aufklärungstheologie“ (Neue Deutsche Biographie. Bd 1. Berlin 1953, S. 542). Er war bis 1775 Professor der Theologie in Gießen gewesen, bevor er zum wiederholten Mal wegen unorthodoxer theologischer Auffassungen, streitsüchtigen Verhaltens und unbürgerlichen Lebenswandels sein Amt verlor. Er hatte schon in Frankfurt Goethes Unwillen hervorgerufen. In seinem satirischen „Prolog zu den neuesten Offenbahrungen Gottes“ (Anfang 1774 im Selbstverlag erschienen) verspottete Goethe die ersten beiden Bände von Bahrdts Schrift „Die neusten Offenbarungen Gottes in Briefen und Erzählungen“ (4 Bde. Riga 1773–1774). Herder kritisierte Bahrdts naturalistische, ‚modernisierende‘ Übersetzung des Neuen Testaments in seinen „Gefundenen Blättern aus den neuesten Deutschen Litteraturannalen von 1773“: „<hi rendition="#hervor1">Bahrd</hi> schrieb <hi rendition="#hervor1">neue Offenbahrungen Gottes</hi> im achtzehnden Jahrhundert, d. i. <hi rendition="#hervor1">wie die alten abgelebten Offenbahrungen</hi> durch Christum, Evangelisten und Apostel, <hi rendition="#hervor1">wenn sie durch Bahrdt sprechen sollten, sprechen würden</hi>.“ (<ref target="sndb:sigle#2173">Suphan</ref> 5, 268.)</p>
+
+</note>
+<note xml:id="gb10423_comment_com8489">
+<label xml:id="GB03_2_BR012_0_note_011_14_1" copyOf="#start_com_0190"><hi rendition="#fett">14,1</hi>stinckend gemacht</label>
+<p>Im Sinn von ‚verhasst gemacht‘, nach 1 Mose 34,30: „Und Jacob sprach zu Simeon und Levi: Ihr habt mir unglück zugerichtet, daß ich stincke vor den einwohnern dieses landes“ (Luther-Bibel 1772 AT, 32).</p>
+
+</note>
+<note xml:id="gb10423_comment_com8490">
+<label xml:id="GB03_2_BR012_0_note_012_14_3" copyOf="#start_com_0191"><hi rendition="#fett">14,3</hi>eh ich scheide</label>
+<p>Goethe plante zum damaligen Zeitpunkt noch, nach Frankfurt zurückzukehren.</p>
+
+</note>
+<note xml:id="gb10423_comment_com8491">
+<label xml:id="GB03_2_BR012_0_note_013_14_4-5" copyOf="#start_com_0192"><hi rendition="#fett">14,4-5</hi>Zerreiss meine Zettel</label>
+<p>Gemeint sind wohl diejenigen Briefe, die Herders Berufung nach Weimar zum Gegenstand haben. Die Angelegenheit sollte vertraulich bleiben; vgl. auch Goethes Mahnung in <ref target="gb:dokument#10912">Nr 20</ref> (<ref target="gb:text#GB03_1_BR020_0_020_009 #GB03_1_BR020_0_020_010">20,9–10</ref>). Herder ist Goethes Aufforderung nicht gefolgt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

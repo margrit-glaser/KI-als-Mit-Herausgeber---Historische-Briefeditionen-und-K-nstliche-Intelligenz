@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1860"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11205" n="GB 3, Nr. 184">
+  <teiHeader xml:id="gb11205_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>184.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 8. November 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:13Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11205_tei.xml</idno>
+        <idno type="URI">gb11205</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR184_0</idno>
+        <idno type="KSW-ID">11205</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="116" to="116">116</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="419" to="420">419-420</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11205_header_hwit1097" corresp="#gb11205_source_hwit1097" sameAs="#gb11205_comment_hwit1097" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 37</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11205,,1097/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich war verlegen welcher der Jahrstag wäre dass ich in Weimar bin. Gestern war er liebste Frau!</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-11-08">8. November 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11205_source_hwit1097" corresp="#gb11205_header_hwit1097" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11205/22480"/>
+      <p>
+        <anchor xml:id="GB03_1_BR184_0_116_010"/>Ich war verlegen welcher <ref target="gb:note#GB03_2_BR184_0_note_001_116_10" xml:id="start_com_1761"/>der Jahrstag<ref xml:id="end_com_1761"/> wäre dass ich in <ref target="gb:note#GB03_2_BR184_0_note_002_116_10" xml:id="start_com_1762"/>Weim<ref xml:id="end_com_1762"/> bin. Gestern 
+<anchor xml:id="GB03_1_BR184_0_116_011"/>war er liebste Frau! <ref target="gb:note#GB03_2_BR184_0_note_003_116_11" xml:id="start_com_1763"/>Und wie gefreyert!<ref xml:id="end_com_1763"/> – und wie <ref target="gb:note#GB03_2_BR184_0_note_004_116_11" xml:id="start_com_1764"/>beschenckt<ref xml:id="end_com_1764"/>! – 
+<anchor xml:id="GB03_1_BR184_0_116_012"/>Was Ihre <ref target="gb:note#GB03_2_BR184_0_note_005_116_12" xml:id="start_com_1765"/>Bedencklichkeiten<ref xml:id="end_com_1765"/> aufgespaart hatten, alles auf einmal, und 
+<anchor xml:id="GB03_1_BR184_0_116_013"/>eben in dem Augenblick wo ich alles so fühlen konnte, so zu fühlen 
+<anchor xml:id="GB03_1_BR184_0_116_014"/>bedurfte. Ich musste <ref target="gb:note#GB03_2_BR184_0_note_006_116_14" xml:id="start_com_1766"/>mein Tagbuch<ref xml:id="end_com_1766"/> nachsehen um <ref target="gb:note#GB03_2_BR184_0_note_007_116_14" xml:id="start_com_1767"/>Ihre Zettelgen<ref xml:id="end_com_1767"/> zu 
+<anchor xml:id="GB03_1_BR184_0_116_015"/>verstehen hier und da, und fand alles. Wieviel wieder lebendig wurde! 
+<anchor xml:id="GB03_1_BR184_0_116_016"/>Ach <ref target="gb:note#GB03_2_BR184_0_note_008_116_16" xml:id="start_com_1768"/>die acht Wochen<ref xml:id="end_com_1768"/> haben doch viel verschüttet in mir, und ich 
+<anchor xml:id="GB03_1_BR184_0_116_017"/>bleib immer der ganz <ref target="gb:note#GB03_2_BR184_0_note_009_116_17" xml:id="start_com_1769"/>sinnliche Mensch<ref xml:id="end_com_1769"/>. <ref target="gb:note#GB03_2_BR184_0_note_010_116_17" xml:id="start_com_1770"/>Meine Landschafft<ref xml:id="end_com_1770"/> will ich 
+<anchor xml:id="GB03_1_BR184_0_116_018"/>
+        <ref target="gb:note#GB03_2_BR184_0_note_011_116_18" xml:id="start_com_1771"/>durch Wasser ziehen<ref xml:id="end_com_1771"/> und für geendigt abgeben. Ich soll nichts endigen. 
+<anchor xml:id="GB03_1_BR184_0_116_019"/>Was Sie von mir haben ist so, und wenn Sie nicht wären wärsauch 
+<anchor xml:id="GB03_1_BR184_0_116_020"/>nicht so weit.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR184_0_116_021"/>Freytag d<g ref="#typoSuspension"/>. 8 Nov. 76.   Was macht <ref target="gb:note#GB03_2_BR184_0_note_012_116_21" xml:id="start_com_1772"/>der Fus<ref xml:id="end_com_1772"/>.<ptr n="1" target="#a001_116.21"/>
+      </p>
+      <closer>
+        <anchor xml:id="GB03_1_BR184_0_116_022"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11205_comment">
+<body>
+<div type="metadata" xml:id="gb11205_comment_com655">
+  <ab type="numberAddressee"><label>184.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 8. November 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11205_comment_com2699">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 37. – 1 Bl. 17,2(–17,4) × 10,8 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „93“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 93), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 69.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 118 f., Nr 525.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11205_comment_com4495">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11205_comment_com10594">
+<label xml:id="GB03_2_BR184_0_note_001_116_10" copyOf="#start_com_1761"><hi rendition="#fett">116,10</hi>der Jahrstag</label>
+<p>Der 7. November 1775 als Ankunftstag Goethes in Weimar wird auch durch einen Brief Wielands an Friedrich Heinrich Jacobi vom 10. November 1775 belegt (vgl. <ref target="sndb:sigle#141">WB</ref> 5, Nr 471). Von Goethe selbst stammende Dokumente, aus denen das genaue Ankunftsdatum hervorgeht, sind bis auf den vorliegenden Brief, dem daher in dieser Hinsicht besondere Bedeutung zukommt, nicht überliefert. An Augusta zu Stolberg hatte Goethe am 22. November 1775 lediglich geschrieben, er sei <quote type="G">Schon fast vierzehn Tage hier</quote> <supplied>in Weimar</supplied><quote type="G">, im Treiben und Weben des Hofs.</quote> (<ref target="gb:text#GB03_1_BR002_0_004_015 #GB03_1_BR002_0_004_016">4,15–16</ref>.)</p>
+
+</note>
+<note xml:id="gb11205_comment_com10595">
+<label xml:id="GB03_2_BR184_0_note_002_116_10" copyOf="#start_com_1762"><hi rendition="#fett">116,10</hi>Weim</label>
+<p>Weimar; Abbruch des Wortes am Zeilenende.</p>
+
+</note>
+<note xml:id="gb11205_comment_com15664">
+<label xml:id="GB03_2_BR184_0_note_003_116_11" copyOf="#start_com_1763"><hi rendition="#fett">116,11</hi>Und wie gefreyert!</label>
+<p>‚Gefreyert‘ versehentlich für ‚gefeiert‘. – Laut Tagebuch hat Goethe am 7. November 1776 <quote type="G">mit &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">gessen</quote> (<ref target="gt:dokument#198">GT I 1, 29</ref>). Aufschluss darüber, auf welche Weise der ‚Jahrestag‘ seiner Ankunft gefeiert wurde, gibt das Tagebuch nicht. Statt dessen zitiert Goethe Psalm 8,5: <quote type="G">Was ist der Mensch dass du sein gedenckst und das Menschenkind dass Du Dich sein annimmst.</quote> (Ebd.)</p>
+
+</note>
+<note xml:id="gb11205_comment_com10596">
+<label xml:id="GB03_2_BR184_0_note_004_116_11" copyOf="#start_com_1764"><hi rendition="#fett">116,11</hi>beschenckt</label>
+<p>Mit Bezug auf die im Folgenden erwähnten <quote type="G">Zettelgen</quote>.</p>
+
+</note>
+<note xml:id="gb11205_comment_com10570">
+<label xml:id="GB03_2_BR184_0_note_005_116_12" copyOf="#start_com_1765"><hi rendition="#fett">116,12</hi>Bedencklichkeiten</label>
+<p>Anspielung auf Charlotte von Steins Scheu, Goethe Einblick in ihre Aufzeichnungen aus dem ersten Jahr ihrer Bekanntschaft zu gewähren.</p>
+
+</note>
+<note xml:id="gb11205_comment_com15834">
+<label xml:id="GB03_2_BR184_0_note_006_116_14" copyOf="#start_com_1766"><hi rendition="#fett">116,14</hi>mein Tagbuch</label>
+<p>Goethes überliefertes Tagebuch aus der Zeit seiner Bekanntschaft mit Charlotte von Stein setzt erst am 11. März 1776 ein (vgl. <ref target="gt:dokument#15">GT I 1, 17</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com15122">
+<label xml:id="GB03_2_BR184_0_note_007_116_14" copyOf="#start_com_1767"><hi rendition="#fett">116,14</hi>Ihre Zettelgen</label>
+<p>Nicht überliefert. – Wahrscheinlich die schon im Juni erwähnten Tagebuchaufzeichnungen (vgl. zu <ref target="gb:note#GB03_2_BR135_0_note_014_78_15-16">78,15-16</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com10571">
+<label xml:id="GB03_2_BR184_0_note_008_116_16" copyOf="#start_com_1768"><hi rendition="#fett">116,16</hi>die acht Wochen</label>
+<p>Die Zeit der Trennung von Charlotte von Stein, die sich von Anfang September bis zum 31. Oktober in Kochberg aufgehalten hatte, wo Goethe sie nicht besuchte (vgl. zu <ref target="gb:note#GB03_2_BR172_0_note_005_109_6-7">109,6-7</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com10572">
+<label xml:id="GB03_2_BR184_0_note_009_116_17" copyOf="#start_com_1769"><hi rendition="#fett">116,17</hi>sinnliche Mensch</label>
+<p>Hier: der auf die Sinne, auf Sinneswahrnehmungen angewiesene Mensch; die Wendung findet sich gelegentlich in den frühen Briefen Goethes (vgl. <ref target="gb:text#GB01_1_BR122_0_249_005">GB 1 I, 249,5</ref>; <ref target="gb:text#GB02_1_BR059_0_047_022 #GB02_1_BR059_0_047_023">GB 2 I, 47,22–23</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com17672">
+<label xml:id="GB03_2_BR184_0_note_010_116_17" copyOf="#start_com_1770"><hi rendition="#fett">116,17</hi>Meine Landschafft</label>
+<p>Möglicherweise die Zeichnung „Stützerbacher Grund“ (vgl. <ref target="gb:digitalisate#11128/64253">Abb. 5</ref> im Textband, S. 95), die Goethe als Beilage zum Brief vom 10. August 1776 (<ref target="gb:dokument#11128">Nr 152</ref>) mitgeschickt und, da sie noch <quote type="G">unvollendet</quote> (<ref target="gb:text#GB03_1_BR152_0_094_004 #GB03_1_BR152_0_094_005">94,4–5</ref>) war, in Weimar zurückerbeten haben könnte, um sie fertigzustellen (vgl. zu <ref target="gb:note#GB03_2_BR152_0_note_001_94_4-5">94,4-5</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com10573">
+<label xml:id="GB03_2_BR184_0_note_011_116_18" copyOf="#start_com_1771"><hi rendition="#fett">116,18</hi>durch Wasser ziehen</label>
+<p>Lavieren: waschen, wischen, d. h. Farbe in sehr dünner Konsistenz auftragen; der „Stützerbacher Grund“ ist mit Bleistift gezeichnet und mit Tusche laviert (vgl. Überlieferung zu <ref target="gb:note#gb11128_comment_com2096">Nr 152</ref>).</p>
+
+</note>
+<note xml:id="gb11205_comment_com10581">
+<label xml:id="GB03_2_BR184_0_note_012_116_21" copyOf="#start_com_1772"><hi rendition="#fett">116,21</hi>der Fus</label>
+<p>Sowohl in weiterer Bedeutung für ‚Bein‘ wie auch nur für ‚Fuß‘ (vgl. die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR154_0_note_003_97_1">97,1</ref>). – Eine Bein- oder Fußerkrankung Charlotte von Steins wird später nicht wieder erwähnt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

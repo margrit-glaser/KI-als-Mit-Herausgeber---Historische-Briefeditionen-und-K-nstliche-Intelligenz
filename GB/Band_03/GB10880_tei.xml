@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1020"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10880" n="GB 3, Nr. 102">
+  <teiHeader xml:id="gb10880_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>102.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 14. Mai 1776. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10880_tei.xml</idno>
+        <idno type="URI">gb10880</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR102_0</idno>
+        <idno type="KSW-ID">10880</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="62" to="62">62</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="237" to="241">237-241</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10880_header_hwit963" corresp="#gb10880_source_hwit963" sameAs="#gb10880_comment_hwit963" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 16</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10880,,963/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wieland bey dem ich bin hat heute veranstaltet in seinen Garten zu gehn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-14">14. Mai 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10880_source_hwit963" corresp="#gb10880_header_hwit963" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10880/22331"/>
+      <p>
+        <anchor xml:id="GB03_1_BR102_0_062_001"/>Wieland bey dem ich bin hat heute <ref target="gb:note#GB03_2_BR102_0_note_001_62_1" xml:id="start_com_0968"/>veranstaltet<ref xml:id="end_com_0968"/><ptr n="1" target="#a001_62.1"/>
+        <ref target="gb:note#GB03_2_BR102_0_note_002_62_1" xml:id="start_com_0969"/>in seinen Garten<ref xml:id="end_com_0969"/> zu 
+<anchor xml:id="GB03_1_BR102_0_062_002"/>gehn. Drum lassen wir Sie fragen ob Sie nicht statt dahin dorthin 
+<anchor xml:id="GB03_1_BR102_0_062_003"/>gehen wollen, hoffe es soll auch recht seyn. So hohlen wir Sie ab. 
+<anchor xml:id="GB03_1_BR102_0_062_004"/>
+        <ref target="gb:note#GB03_2_BR102_0_note_003_62_4" xml:id="start_com_0970"/>Mein Garten<ref xml:id="end_com_0970"/>
+        <ref target="gb:note#GB03_2_BR102_0_note_004_62_4" xml:id="start_com_0971"/>Sieht so noch raupig aus<ref xml:id="end_com_0971"/> — Es war nur weil ich <hi rendition="#hervor1">Sie</hi>
+        <anchor xml:id="GB03_1_BR102_0_062_005"/>heut in freyer Lufft sehen musste. Wir haben <ref target="gb:note#GB03_2_BR102_0_note_005_62_5-6" xml:id="start_com_0972"/>was von Lenz vorzulesen<ref xml:id="end_com_0972"/>.
+<anchor xml:id="GB03_1_BR102_0_062_006"/>   Ade — Engel <ref target="gb:note#GB03_2_BR102_0_note_006_62_6" xml:id="start_com_0973"/>glück zum Bad<ref xml:id="end_com_0973"/>! treiben Sie’s nur nicht zu arg 
+<anchor xml:id="GB03_1_BR102_0_062_007"/>Addio.     G.     d<g ref="#typoSuspension"/>. 14 May 76.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10880_comment">
+<body>
+<div type="metadata" xml:id="gb10880_comment_com665">
+  <ab type="numberAddressee"><label>102.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 14. Mai 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10880_comment_com2709">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 16. – 1 Bl. 18 × 11 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte, flüchtig geschrieben, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „41.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 41), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 31.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 60, Nr 453.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10880_comment_com4505">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10880_comment_com14022">
+<label xml:id="GB03_2_BR102_0_note_001_62_1" copyOf="#start_com_0968"><hi rendition="#fett">62,1</hi>veranstaltet</label>
+<p>Hier in der älteren Bedeutung „des umständlicheren vorbereitens, ins werk setzens einer sache“ (<ref target="sndb:sigle#2890">Grimm</ref> 12 I, 78).</p>
+
+</note>
+<note xml:id="gb10880_comment_com9955">
+<label xml:id="GB03_2_BR102_0_note_002_62_1" copyOf="#start_com_0969"><hi rendition="#fett">62,1</hi>in seinen Garten</label>
+<p>Wieland hatte einige Wochen vor Goethe, am 16. März 1776, einen Garten erworben und damit auch das Weimarer Bürgerrecht. Wielands Garten befand sich am „Wilden Graben“ vor dem Erfurter Tor, südwestlich der Weimarer „Vorstadt vor dem Frauenthore“ (Plan der Stadt Weimar 1784).</p>
+
+</note>
+<note xml:id="gb10880_comment_com9956">
+<label xml:id="GB03_2_BR102_0_note_003_62_4" copyOf="#start_com_0970"><hi rendition="#fett">62,4</hi>Mein Garten</label>
+<p>Goethes Garten oberhalb des „Sterns“, des ältesten Teils des Schlossparks, den er laut Tagebuch am 21. April 1776 <quote type="G">in besiz genommen</quote> (<ref target="gt:dokument#22">GT I 1, 17</ref>) hatte, war Teil eines ursprünglich viel größeren Grundstücks an den Ilmhängen, wo schon in früheren Jahrhunderten Wein und Obst angebaut worden waren (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>). Der Höhenzug oberhalb der Ilm trug den Namen „das Horn“. Nach seinen wechselnden Vorbesitzern wurde das von Goethe erworbene Grundstück mit Gartenhaus auch als „Rugischer“, „Börnerscher“ oder „Köhlerscher Garten“ bezeichnet. Die letzte Vorbesitzerin Caroline Christiane Börner verwitwete Köhler, Frau des fürstlichen Kammerdieners und Leibschneiders Christian Nicolaus Börner, war 1775 verstorben. Es ist anzunehmen, dass das Grundstück verwildert und das Gartenhaus verfallen war, als die Börnerschen Erben das Anwesen Anfang Oktober 1775, im Februar und zuletzt im März 1776 durch den Rat der Stadt Weimar in den „Weimarischen Wöchentlichen Anzeigen“ zur öffentlichen Versteigerung anboten. Entgegen der in der älteren biographischen Goetheliteratur verbreiteten Erzählung, wonach Herzog Carl August den Garten von Friedrich Justin Bertuch für Goethe gekauft habe, befand sich das Grundstück niemals in Bertuchs Besitz (vgl. C. A. H. Burkhardt: Kritische Bemerkungen zu Goethe’s Biographieen. 1. Die Erwerbung des Gartens. In: Die Grenzboten 32 [1873], Nr 2, S. 142–147). Dagegen bemühte sich Bertuch im März 1776 zugleich mit Goethe um den Erwerb des „Börnerschen Gartens“, wodurch der Kaufpreis in die Höhe getrieben wurde. Der Herzog bewog Bertuch, vom Kauf abzusehen, und bot ihm zum Ausgleich den damals in herzoglichem Besitz befindlichen so genannten Baumgarten an (heute Schwanseepark hinter der Weimarhalle und dem Bertuchhaus). Goethe erwarb den „Börnerschen Garten“ schließlich für 600 Taler. Der Kaufvertrag stammt vom 26. April 1776 (<ref target="archivdb:dokument#12637">GSA 30/31</ref>). Wie die Schatullrechnungen belegen, sind „Sämmtℓ. Kosten des auf Serenℓ. Befehl für Hℓ. Geh. Legℓ. Rath Goethen erkauften Gartens, darinn gemachten Anlagen, und angeschafften Ameublements“ in einer Gesamthöhe von 1312 Reichstalern und 37 Groschen vom Herzog bezahlt worden, und zwar einschließlich der Kaufsumme von 600 Reichstalern (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1059, Bl. 67). Allerdings erhielten die Verkäufer ihr Geld erst am 26. Oktober 1776, weshalb dafür noch einmal 15 Reichstaler an Zinsen anfielen, die gleichfalls der Herzog übernahm (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1063, Bl. 168 und 275). Am 26. April 1776 wurde der Erwerb von Haus und Garten durch den Bürgermeister Traugott Lebrecht Schwabe im Weimarer Grundstücksregister eingetragen. Damit war Goethe zugleich auch Weimarer Bürger, wie ein im Goethe- und Schiller-Archiv überliefertes „Diplom der Stadt Weimar“ belegt:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56429_source" corresp="#gb56429_comment">
+  <body>
+    <div>
+      <p>Demnach Herr Johann Wolffgang Goethe, beyder Rechten Doctor, bey Erkauffung des Börnerischen Gartens, Sich zugleich zu Gewinnung des Burger-Rechts anverstanden; Alß hat wohlgedachtem Herrn D. Göthe der allhiesige Rath das Burger-Recht nicht nur conferiret, sondern auch gegenwärtige Urkunde unter des Raths Innsiegel darüber ausgestellet. Weimar, den 26<hi rendition="#sup">ten</hi> April. 1776.</p>
+      <lb/>
+      <p rendition="#einrueck16">Der Rath daselbst:</p>
+      <p rendition="#einrueck16">Traugott Lebrecht Schwabe</p>
+    </div>
+  </body>
+</text>
+<text type="comment" xml:id="gb56429_comment">
+  <body><p/></body>
+</text>
+</group>
+
+</floatingText>
+<p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#12604">GSA 30/4</ref>.) – Die für den Kauf und den Erwerb des Bürgerrechts anfallenden Gebühren (26 Reichstaler, 22 Groschen, 6 Pfennige) trug wiederum der Herzog (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1063, Bl. 916). – Schon am 25. April hatte Goethe Charlotte von Stein in seinen Garten eingeladen (vgl. zu <ref target="gb:note#GB03_2_BR091_0_note_001_57_9">57,9</ref>), worüber diese in einem Brief an Johann Georg Zimmermann berichtete (vgl. S. 240, Zeile 26–27).</p>
+
+</note>
+<note xml:id="gb10880_comment_com9957">
+<label xml:id="GB03_2_BR102_0_note_004_62_4" copyOf="#start_com_0971"><hi rendition="#fett">62,4</hi>Sieht so noch raupig aus</label>
+<p>‚Raupig‘ in Anspielung auf den verwilderten Zustand des Gartens, Wortschöpfung Goethes; bei <ref target="sndb:sigle#2753">Adelung</ref> und <ref target="sndb:sigle#2890">Grimm</ref> nicht belegt. – Nach dem Erwerb des Gartens wurden mit Unterstützung des von Carl August beauftragten herzoglichen Hofgärtners Johann Reichert Terrassen und Stützmauern angelegt, steinerne Stufen verlegt und Wege verbessert (vgl. <ref target="sndb:sigle#2785">Burkhardt, Weimarischer Park</ref>, 3).</p>
+
+</note>
+<note xml:id="gb10880_comment_com17529">
+<label xml:id="GB03_2_BR102_0_note_005_62_5-6" copyOf="#start_com_0972"><hi rendition="#fett">62,5-6</hi>was von Lenz vorzulesen</label>
+<p>In Frage kommen verschiedene kleinere Arbeiten für Heinrich Christian Boies „Musenalmanach“ oder Wielands „Teutschen Merkur“. Außerdem war im Verlag der Meyerschen Buchhandlung in Lemgo gerade die Komödie „Die Freunde machen den Philosophen“ erschienen, die Lenz Anfang Mai durch den in Hannover lebenden Boie erhalten hatte (vgl. Boie an Lenz, 30. April 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 246 f., Nr 164). Über sein Drama „Der Engländer“, das ein Jahr später bei Reich in Leipzig erschien, schreibt Lenz Ende Mai 1776 an Boie, es sei „hier <supplied>in Weimar</supplied> sehr goutirt worden“ (ebd., 264). Weniger zum Vorlesen geeignet war sicherlich die Abhandlung „Über die Soldatenehen“, an der Lenz zu dieser Zeit gleichfalls arbeitete, wie sein Brief an Johann Georg Zimmermann in Hannover von Ende Mai belegt, in dem er „Freund Boje“ einen Beitrag für dessen „Deutsches Museum“ in Aussicht stellt, der „hier am Hof <supplied>in Weimar</supplied> viel Sensation gemacht hat“. Fraglich ist, ob damit die „Epistel eines Einsiedlers an Wieland“ gemeint ist, der einzige Beitrag von Lenz, der 1776 noch im „Deutschen Museum“ erschien (12. Stück. Dezember 1776, S. 1099–1102). Ein Gedicht von Lenz auf Goethes Garten erwähnt Catharina Elisabeth Goethe in einem Brief an Friedrich Maximilian Klinger vom 23.? Mai 1776: „Der Doctor ist Vergnügt u Wohl in seinem Weimar, hat gleich vor der Stadt einen herrlichen Garten welcher dem Hertzog gehört bezogen, Lenz hat den selbigen poetisch beschrieben, und mir zum Durchlesen zugeschikt. Der Poet sizt auch dort als wenn er angenagelt wäre, Weimar muß Vors Wiedergehn ein gefährlicher Ort seyn, alles bleibt dort, nun wenns dem Völklein wohl ist, so gesegnes ihnen Gott.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 402.) – Über das Weimarer Leben von Lenz zu dieser Zeit vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>.</p>
+
+</note>
+<note xml:id="gb10880_comment_com17533">
+<label xml:id="GB03_2_BR102_0_note_006_62_6" copyOf="#start_com_0973"><hi rendition="#fett">62,6</hi>glück zum Bad</label>
+<p>Anspielung auf die bevorstehende Badereise Charlotte von Steins nach Pyrmont, die sie zwar erst am 25. Juni antrat (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_001_81_22">81,22</ref>), deren Termin aber schon feststand, wie der nachfolgend mitgeteilte Brief belegt. – Pyrmont, im Weserbergland gelegen und zum Fürstentum Waldeck-Pyrmont gehörend, war wegen seiner Mineralquellen, insbesondere der kohlensäurereichen Solquellen, berühmt, die gleichermaßen zu Trink- und Badekuren gegen vielerlei Erkrankungen verordnet wurden, darunter gegen Gicht, Rheumatismus, Nervenerkrankungen und Frauenleiden. Im 18. Jahrhundert zählte es zu den beliebtesten Kur- und Erholungsorten des europäischen Adels.</p>
+
+
+</note>
+</div>
+<div xml:id="gb10880_comment_com84492">
+  <p>Charlotte von Stein an Johann Georg Zimmermann in Hannover:</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56430_source" corresp="#gb56430_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB006_0_240_001"/>Weimar den 10<hi rendition="#sup">ten</hi> May 76</p>
+      <lb/>
+      <p>
+        <anchor xml:id="GB03_2_FB006_0_240_002"/>Lieber Zimmermann ich bin böß auf Sie; ich freue mich wie mir Goethe <ref target="gb:note#GB03_2_FB006_0_note_032_240_2-3" xml:id="start_com_7031"/>Ihren 
+<anchor xml:id="GB03_2_FB006_0_240_003"/>Brief<ref xml:id="end_com_7031"/> giebt, und nun nicht <ref target="gb:note#GB03_2_FB006_0_note_033_240_3" xml:id="start_com_7032"/>ein Wort von Ihnen<ref xml:id="end_com_7032"/> drinn.      <ref target="gb:note#GB03_2_FB006_0_note_034_240_3-4" xml:id="start_com_7033"/>Auf Johanni kom ich 
+<anchor xml:id="GB03_2_FB006_0_240_004"/>nach Hannovre<ref xml:id="end_com_7033"/> Sie zu sehn und geh alsden nach Pyrmont. Ich bitte diesen inligenden 
+<anchor xml:id="GB03_2_FB006_0_240_005"/>Brief an <ref target="gb:note#GB03_2_FB006_0_note_035_240_5" xml:id="start_com_7034"/>die junge Frau<ref xml:id="end_com_7034"/> zu bestellen, weil ich nicht weis wo ich ihn hinschicke.
+<anchor xml:id="GB03_2_FB006_0_240_006"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB006_0_240_007"/>Mir gehts mit Goethen <ref target="gb:note#GB03_2_FB006_0_note_036_240_6" xml:id="start_com_7035"/>wunderbar<ref xml:id="end_com_7035"/>, nach acht Tagen wie er mich so hefftig verlaßen 
+<anchor xml:id="GB03_2_FB006_0_240_008"/>hat, komt er mit einen Ubermaas von Liebe wieder.      Ich hab zu mancherley 
+<anchor xml:id="GB03_2_FB006_0_240_009"/>Betrachtungen durch Goethen Anlaß bekommen; jemehr ein Mensch faßen 
+<anchor xml:id="GB03_2_FB006_0_240_010"/>kan, deucht mir, je dunckler anstößger wird ihn das Ganze je eher fehlt mann den 
+<anchor xml:id="GB03_2_FB006_0_240_011"/>ruhigen Weg, gewiß hatten die gefallnen Engel mehr Verstand wie die übrigen.
+<anchor xml:id="GB03_2_FB006_0_240_012"/>      Schreiben Sie mir nur ein Wort ob Sie um Johanni in Hannovre sind, oder 
+<anchor xml:id="GB03_2_FB006_0_240_013"/>laßen mirs durch Goethen sagen, Ich bin durch unßern lieben Goethe ins deutsch 
+<anchor xml:id="GB03_2_FB006_0_240_014"/>schreiben gekommen wie Sie sehen, und ich dancks ihm, was wird er wohl noch 
+<anchor xml:id="GB03_2_FB006_0_240_015"/>mehr aus mir machen? den wen er hier, lebt er immer um mich herum; jetz nenn 
+<anchor xml:id="GB03_2_FB006_0_240_016"/>ich ihn <ref target="gb:note#GB03_2_FB006_0_note_037_240_16" xml:id="start_com_7039"/>meinen Heiligen<ref xml:id="end_com_7039"/> und darüber ist er mir unsichtbar worden, seit einigen 
+<anchor xml:id="GB03_2_FB006_0_240_017"/>Tagen verschwunden, und <ref target="gb:note#GB03_2_FB006_0_note_038_240_17" xml:id="start_com_7036"/>lebt in der Erde fünff meilen von hier in Bergwercke<ref xml:id="end_com_7036"/> / 
+<anchor xml:id="GB03_2_FB006_0_240_018"/>Wieland ist wohl nebst seinen ganzen Hauß, vor einigen Wochen hat er aber viel 
+<anchor xml:id="GB03_2_FB006_0_240_019"/>wegen seiner Kinder Kranckheit gelitten es ist ein zärtlicher Vater. Ich weis nicht ob 
+<anchor xml:id="GB03_2_FB006_0_240_020"/>ich Ihnen schon geschrieben daß Goethe und ich haben bey ihn zu gevatter gestanden, 
+<anchor xml:id="GB03_2_FB006_0_240_021"/>
+        <ref target="gb:note#GB03_2_FB006_0_note_039_240_21" xml:id="start_com_7037"/>unßer Pathgen<ref xml:id="end_com_7037"/> ist ein liebes hübsches Mädgen, es sieht völlig aus wie eine 
+<anchor xml:id="GB03_2_FB006_0_240_022"/>Tochter die ich verlohren habe und die ich sehr liebte, ich bilde mir ein sie ist bey 
+<anchor xml:id="GB03_2_FB006_0_240_023"/>Wielanden wieder auf die Welt gekommen, und darüber ist mirs nicht anders als 
+<anchor xml:id="GB03_2_FB006_0_240_024"/>wens mein Kind wär.      <ref target="gb:note#GB03_2_FB006_0_note_040_240_24" xml:id="start_com_7038"/>Lenz, Goethens Freund ist hier<ref xml:id="end_com_7038"/>, aber es ist kein 
+<anchor xml:id="GB03_2_FB006_0_240_025"/>Goethe.      Goethe, und Wieland, haben sich alle beyde hier Gärdens gekaufft, 
+<anchor xml:id="GB03_2_FB006_0_240_026"/>sind aber nicht Nachbarn sondern liegen an verschiedne Thore, in Goethens Garden 
+<anchor xml:id="GB03_2_FB006_0_240_027"/>hab ich schon einmahl Caffé getruncken und von seinen Spargel gegeßen den 
+<anchor xml:id="GB03_2_FB006_0_240_028"/>er selbst gestochen und in seinen Zieh brunnen gewaschen hatte, in Goethens Garden 
+<anchor xml:id="GB03_2_FB006_0_240_029"/>ist die schönste Aussicht die hier zu haben ist, er liegt an einen Berg und 
+<anchor xml:id="GB03_2_FB006_0_240_030"/>unten ist Wiese die von einen kleinen Fluß durchschlungen wird. Gute Nacht 
+<anchor xml:id="GB03_2_FB006_0_240_031"/>lieber Zimmerman, ich bit um Vergebung wegen vielen unützen Zeug daß ich 
+<anchor xml:id="GB03_2_FB006_0_240_032"/>geschwätz habe.</p>
+      <p rendition="#einrueck20">
+        <anchor xml:id="GB03_2_FB006_0_240_033"/>Von Stein geb<g ref="#typoSuspension"/> von</p>
+      <p rendition="#einrueck22">
+        <anchor xml:id="GB03_2_FB006_0_240_034"/>Schardt. /</p>
+      <lb/>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB006_0_240_035"/>A Monsieur</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB006_0_240_036"/>Monsieur Zimmerman</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB006_0_240_037"/>Premier Medecin de Sa</p>
+           <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB006_0_241_038"/>Majesté Britannique</p>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB006_0_241_039"/>á</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_2_FB006_0_241_040"/>fr                       Hannovre</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56430_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56430_comment_com84482">
+  <p>(H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 7183. – E: Goethe/Stein-Zimmermann [1904], 174 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56430_comment_com84483">
+<label xml:id="GB03_2_FB006_0_note_032_240_2-3" copyOf="#start_com_7031"><hi rendition="#normal">240,2-3</hi>Ihren Brief</label>
+<p>Nicht überliefert.</p>
+</note>
+<note xml:id="gb56430_comment_com84484">
+<label xml:id="GB03_2_FB006_0_note_033_240_3" copyOf="#start_com_7032"><hi rendition="#normal">240,3</hi>ein Wort von Ihnen</label>
+<p>Wahrscheinlich verkürzt für ‚ein Wort von Ihnen an mich‘.</p>
+</note>
+<note xml:id="gb56430_comment_com84485">
+<label xml:id="GB03_2_FB006_0_note_034_240_3-4" copyOf="#start_com_7033"><hi rendition="#normal">240,3-4</hi>Auf Johanni kom ich nach Hannovre</label>
+<p>Am 24. Juni; Charlotte von Stein reiste schließlich nicht nach Hannover, sondern gleich nach Pyrmont (vgl. ihren Brief an Zimmermann vom 17. Juni 1776; abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10965_comment_com84526">Nr 133</ref>).</p>
+</note>
+<note xml:id="gb56430_comment_com84486">
+<label xml:id="GB03_2_FB006_0_note_035_240_5" copyOf="#start_com_7034"><hi rendition="#normal">240,5</hi>die junge Frau</label>
+<p>Vielleicht eine der vielen adligen Patientinnen Zimmermanns; Näheres nicht ermittelt.</p>
+</note>
+<note xml:id="gb56430_comment_com84487">
+<label xml:id="GB03_2_FB006_0_note_036_240_6" copyOf="#start_com_7035"><hi rendition="#normal">240,7</hi>wunderbar</label>
+<p>Hier ‚sonderbar‘, ‚merkwürdig‘, „auf erlebnisse und innere vorgänge bezogen“ (<ref target="sndb:sigle#2890">Grimm</ref> 14 II, 1846).</p>
+</note>
+<note xml:id="gb56430_comment_com84488">
+<label xml:id="GB03_2_FB006_0_note_037_240_16" copyOf="#start_com_7039"><hi rendition="#normal">240,16</hi>meinen Heiligen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR094_0_note_002_58_5-6">58,5-6</ref>. </p>
+</note>
+<note xml:id="gb56430_comment_com84489">
+<label xml:id="GB03_2_FB006_0_note_038_240_17" copyOf="#start_com_7036"><hi rendition="#normal">240,17</hi>lebt in der Erde fünff meilen von hier in Bergwercke</label>
+<p>In der Nähe von Ilmenau, etwa 50 km von Weimar entfernt; mit ‚Meilen‘ sind historische (sächsische) Postmeilen von etwas mehr als 9 km gemeint (vgl. zu <ref target="gb:note#GB03_2_BR097_0_note_001_59_7">59,7</ref>).</p>
+</note>
+<note xml:id="gb56430_comment_com84490">
+<label xml:id="GB03_2_FB006_0_note_039_240_21" copyOf="#start_com_7037"><hi rendition="#normal">240,21</hi>unser Pathgen</label>
+<p>Die 1776 geborene Charlotte Wilhelmine Wieland, spätere Frau des Zürcher Buchhändlers und Verlegers Heinrich Geßner.</p>
+</note>
+<note xml:id="gb56430_comment_com84491">
+<label xml:id="GB03_2_FB006_0_note_040_240_24" copyOf="#start_com_7038"><hi rendition="#normal">240,24</hi>Lenz, Goethens Freund ist hier</label>
+<p>Lenz hielt sich seit dem 1. April 1776 in Weimar auf (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR075_0_note_002_50_2">50,2</ref>).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+   </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

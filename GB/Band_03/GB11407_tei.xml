@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2540"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11407" n="GB 3, Nr. 251">
+  <teiHeader xml:id="gb11407_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>251.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. April 1777. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:39Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11407_tei.xml</idno>
+        <idno type="URI">gb11407</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR251_0</idno>
+        <idno type="KSW-ID">11407</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="141" to="142">141-142</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="511" to="513">511-513</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11407_header_hwit1184" corresp="#gb11407_source_hwit1184" sameAs="#gb11407_comment_hwit1184" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 91</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11407,,1184/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dancke recht sehr für den Meß Catalog, und bitte mir eine Chur Sächsische Accis Ordnung</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-04-28">28. April 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11407_source_hwit1184" corresp="#gb11407_header_hwit1184" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11407/13894"/>
+      <p>
+        <anchor xml:id="GB03_1_BR251_0_141_016"/>Dancke recht sehr für den <ref target="gb:note#GB03_2_BR251_0_note_001_141_16" xml:id="start_com_2190"/>Meß Catalog<ref xml:id="end_com_2190"/>, und bitte mir eine <ref target="gb:note#GB03_2_BR251_0_note_002_141_16-18" xml:id="start_com_2191"/>Chur 
+<anchor xml:id="GB03_1_BR251_0_141_017"/>Sächsische Accis Ordnung zu überschicken, auch wo möglich eine 
+<anchor xml:id="GB03_1_BR251_0_141_018"/>Preusische<ref xml:id="end_com_2191"/><ptr n="1" target="#a001_141.18"/>. Dann hab ich schon seit geraumer Zeit ein Paar Duzzend 
+<anchor xml:id="GB03_1_BR251_0_141_019"/>
+        <ref target="gb:note#GB03_2_BR251_0_note_003_141_18" xml:id="start_com_2192"/>Lieder mit Melodien, von Kaysern<ref xml:id="end_com_2192"/> in Zürch daliegen, ich weis dass es 
+<anchor xml:id="GB03_1_BR251_0_141_020"/>nicht die angenehmste Waare ist, drum hab ich bisher nichts davon 
+<anchor xml:id="GB03_1_BR251_0_141_021"/>gesagt. <ref target="gb:note#GB03_2_BR251_0_note_004_141_21" xml:id="start_com_2193"/>Er erinnert mich aber wieder dran<ref xml:id="end_com_2193"/>, und so wollt ich fragen ob 
+<anchor xml:id="GB03_1_BR251_0_141_022"/>Sie sie brauchen, oder mir sonst <ref target="gb:note#GB03_2_BR251_0_note_005_141_22" xml:id="start_com_2194"/>einen Verleger<ref xml:id="end_com_2194"/> finden könnten. Sie 
+<anchor xml:id="GB03_1_BR251_0_141_023"/>sind wo ich sie gezeigt habe immer mit viel Vergnügen gespielt und 
+<anchor xml:id="GB03_1_BR251_0_141_024"/>gesungen worden. <ref target="gb:note#GB03_2_BR251_0_note_006_141_24" xml:id="start_com_2195"/>Wenn Klinger in Leipzig ist<ref xml:id="end_com_2195"/>, und Sie<ptr n="2" target="#a002_141.24"/> hätten die 
+<anchor xml:id="GB03_1_BR251_0_142_001"/>Güte ihm ein Wort davon zu sagen, könnte der sich auch wohl nach 
+<anchor xml:id="GB03_1_BR251_0_142_002"/>iemanden<ptr n="3" target="#a003_142.2"/> umthun der sie<ptr n="4" target="#a004_142.2"/> übernähme.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR251_0_142_003"/>W. d<g ref="#typoSuspension"/>. 28 Apr. 77.          </dateline>
+        <signed rend="signature">Goethe</signed>
+        <lb/><dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR251_0_142_004"/>
+          <graphic url="gb:digitalisate#11407/70169" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11407/13895" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11407/13896" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11407/13897"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11407_comment">
+<body>
+<div type="metadata" xml:id="gb11407_comment_com1301">
+  <ab type="numberAddressee"><label>251.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. April 1777 → <placeName key="sndb:ort#78408">Leipzig</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11407_comment_com3345">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 91. – Doppelblatt 19,5 × 27,6 cm, &#x2154; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">Herrn Buchhändler / Reich / nach / Leipzig / fr</quote>, rotes Siegel: stehende weibliche Figur; Empfangs- und Antwortvermerk, Tinte: „1777 2<hi rendition="#sup">n</hi> May. Weimar / Goethe. / B<g ref="#typoSuspension"/>“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>); S. 1 unter dem Brieftext von fremder Hd (Reich?), Tinte: „beyde 2. 16“ (möglicherweise Preisangabe, bezogen auf Reichstaler und Groschen oder Gulden und Kreuzer, für die beiden gewünschten Akziseordnungen; vgl. zu <ref target="gb:note#GB03_2_BR251_0_note_002_141_16-18">141,16-18</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2879">Goethes Briefe an Leipziger Freunde</ref> (1849), 229, Nr 18.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 151, Nr 594.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11407_comment_com5141">
+  <p>Der Bezugsbrief, der die Katalogsendung möglicherweise begleitet hat (vgl. <ref target="gb:note#GB03_2_BR306_0_note_006_177_13">177,13</ref>), ist nicht überliefert. – Der Antwortbrief (vgl. <ref target="gb:note#gb11407_comment_com3345">Überlieferung</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: Unter dem 27. April 1777 ist ein <quote type="G">B. H<g ref="#typoSuspension"/> Reich fr. Leipz.</quote> vermerkt (<ref target="sndb:sigle#4225">GR/RB 1777,1</ref>, Bl. 5v); wahrscheinlich handelt es sich um den vorliegenden Brief, der aus Versehen bereits sonntags eingetragen worden sein könnte.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11407_comment_com14270">
+<label xml:id="GB03_2_BR251_0_note_001_141_16" copyOf="#start_com_2190"><hi rendition="#fett">141,16</hi>Meß Catalog</label>
+<p>Allgemeines Verzeichniß derer Bücher, welche in der Frankfurter und Leipziger Ostermesse des 1777 Jahres entweder ganz neu gedruckt, oder sonst verbessert, wieder aufgeleget worden sind, auch inskünftige noch herauskommen sollen. Leipzig, bey M. G. Weidmanns Erben und Reich.</p>
+
+</note>
+<note xml:id="gb11407_comment_com13884">
+<label xml:id="GB03_2_BR251_0_note_002_141_16-18" copyOf="#start_com_2191"><hi rendition="#fett">141,16-18</hi>Chur Sächsische Accis Ordnung <gap quantity="3" reason="editorial"/> eine Preusische</label>
+<p>Akzise: Warensteuer. – Goethe war seit Juni 1776 als Geheimer Legationsrat Mitglied des Geheimen Consiliums, der höchsten Landesbehörde. In dieser Funktion gehörte er einer Kommission an, die sich seit Juli 1776 mit finanziellen Problemen der weimarischen Kammer zu befassen hatte. Das Gremium ermittelte, dass in der Kasse der Kammer etwa 10 000 Taler für die Hofhaltung und den Marstall fehlten. Kammerpräsident Johann August von Kalb hatte in einer Denkschrift vom 5. November 1776 den Plan einer Steuerreform unterbreitet, die eine Entlastung von Kleinbauern, Strumpfwirkern und anderen sozialen Gruppen mit geringem Einkommen sowie eine steuerliche Belastung der Vermögenden vorsah. Diese sollte durch eine Erhöhung von Verbrauchssteuern erfolgen, u. a. durch die Besteuerung von Luxusgütern und aus dem Ausland importierten Produkten. Aus der Aktenlage lässt sich der Fortgang der Steuerpläne von Kalbs nicht im Einzelnen nachvollziehen, ebenso wenig, wie Goethe diese Vorschläge bewertete. Dass Goethe sich damit beschäftigte, geht aus dem vorliegenden Brief hervor. Wann Reich ihm die erbetenen Akzise-Ordnungen zuschickte, ist nicht bekannt. Überliefert ist eine von Herzog Carl August und Christian Friedrich Schnauß korrigierte Tabelle von der Hand Goethes mit einer Gegenüberstellung der unterschiedlichen Akzisetarife in Preußen und Sachsen und den in Weimar vorgesehenen: „Vergleichung des Preusischen und Sächsischen Tariffs mit dem vorgeschlagnen“ (H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Landschaft und Landtag B 114, Bl. 363 f.; <ref target="sndb:sigle#32">AS</ref> 1, 30–33). – Am 18. Dezember 1777 bestellte Goethe bei Reich weitere Verordnungen; die Akzise-Ordnung, schreibt er, besitze er bereits (vgl. <ref target="gb:text#GB03_1_BR313_0_187_019 #GB03_1_BR313_0_187_020">187,19–20</ref>). Am 16. November hatte er bereits in einem Brief an seine Mutter um Zusendung weiterer finanzpolitischer Fachbücher gebeten (vgl. zu <ref target="gb:note#GB03_2_BR306_0_note_006_177_13">177,13</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR306_0_note_007_177_14">177,14</ref>).</p>
+
+</note>
+<note xml:id="gb11407_comment_com17946">
+<label xml:id="GB03_2_BR251_0_note_003_141_18" copyOf="#start_com_2192"><hi rendition="#fett">141,19</hi>Lieder mit Melodien, von Kaysern</label>
+<p>Es handelt sich um Kompositionen von Goethes Jugendfreund Philipp Christoph Kayser, der seit Frühjahr 1775 als Musiklehrer in Zürich tätig war. Goethe hatte die Kompositionen vermutlich schon im Sommer 1776 erhalten. Er hatte im Brief an Kayser vom 15. August 1776 darum gebeten, ihm die Komposition des Liedes „Ihr verblühet süße Rosen“ aus seinem Singspiel „Erwin und Elmire“ zuzusenden (vgl. <ref target="gb:text#GB03_1_BR155_0_097_007 #GB03_1_BR155_0_097_008">97,7–8</ref>). Vermutlich schickte ihm Kayser daraufhin nicht nur das gewünschte Lied. Die Beförderungsdauer der Post zwischen Zürich und Frankfurt betrug etwa 6 bis 8 Tage. (Auf Goethes Brief vom 6. März 1776 [<ref target="gb:dokument#10665">Nr 56</ref>] antwortete Lavater am 12. März im Brief an Wieland [vgl. <ref target="sndb:sigle#141">WB</ref> 6 III, 1519]; Wielands Brief vom 5. Februar 1776 [<ref target="sndb:sigle#141">WB</ref> 5, 469 f.] erhielt Lavater am 13. Februar [vgl. <ref target="sndb:sigle#141">WB</ref> 5, 471,25; <ref target="sndb:sigle#141">WB</ref> 6 III, 1506].) Demnach könnte es sich bei den in Goethes Brief an Charlotte von Stein vom 26. August 1776 erwähnten <quote type="G">Melodien</quote> (<ref target="gb:text#GB03_1_BR158_0_098_007">98,7</ref>) um die Kompositionen handeln, von denen im vorliegenden Brief die Rede ist, ebenso bei der  <quote type="G">Musick</quote>, für die Goethe Kayser am 30. August 1776 durch Lavater danken ließ (vgl. <ref target="gb:text#GB03_1_BR160_0_099_032">99,32</ref>). – Goethe ließ die Liedkompositionen, die er aus Zürich erhalten hatte, in der Zeit von Oktober 1777 bis März 1778 von dem Weimarer Hofmusiker Johann Michael Wiener abschreiben und in einer Notensammlung in Form eines Liederbuches zusammenstellen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>). Dieses Liederbuch enthält 71 Kompositionen von Kayser, außerdem vierzehn weitere von Carl Friedrich Sigmund von Seckendorff (<ref target="archivdb:dokument#64900">GSA 32/1477</ref>). Ebenso fanden die Kompositionen Eingang in Kaysers „Gesänge, mit Begleitung des Claviers“ (Leipzig und Winterthur), die Ende 1777 erschienen. – Vgl. zur Sache insgesamt die Datierung zu <ref target="gb:note#gb11675_comment_com1647">Nr 326</ref>.</p>
+
+</note>
+<note xml:id="gb11407_comment_com10739">
+<label xml:id="GB03_2_BR251_0_note_004_141_21" copyOf="#start_com_2193"><hi rendition="#fett">141,21</hi>Er erinnert mich aber wieder dran</label>
+<p>Ein entsprechender Brief Philipp Christoph Kaysers an Goethe ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11407_comment_com14987">
+<label xml:id="GB03_2_BR251_0_note_005_141_22" copyOf="#start_com_2194"><hi rendition="#fett">141,22</hi>einen Verleger</label>
+<p>Kaysers „Gesänge, mit Begleitung des Claviers“ erschienen 1777 bei Johann Heinrich Steiner und Compagnie in Winterthur und Leipzig.</p>
+
+</note>
+<note xml:id="gb11407_comment_com17956">
+<label xml:id="GB03_2_BR251_0_note_006_141_24" copyOf="#start_com_2195"><hi rendition="#fett">141,24</hi>Wenn Klinger in Leipzig ist</label>
+<p>Friedrich Maximilian Klinger, Goethes Freund und Protegé aus der Frankfurter Zeit (vgl. <ref target="gb:note#GB02_2_BR106_0_note_001_83_5">GB 2 II, zu 83,5</ref>), war von Juni bis Ende September 1776 in Weimar gewesen (vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>), in der vergeblichen Hoffnung, dort eine Anstellung zu erhalten. Nachdem sich auch Pläne zerschlagen hatten, als Offizier in der preußischen Armee oder in den deutschen Söldnertruppen in Amerika zu dienen, hatte er im Oktober 1776 ein Engagement als Theaterdichter bei der Schauspieltruppe von Abel Seyler in Leipzig und Dresden angetreten. Aus Klingers Briefen an Ernst Christian Friedrich Adam Schleiermacher vom 3. und vom 15. April 1777 geht hervor, dass er um den 20. März 1777 von Dresden nach Leipzig zurückgekehrt war und Mitte April mit Seyler nach Wolfenbüttel zu Lessing gereist war (vgl. <ref target="sndb:sigle#763">Rieger, Klinger 1</ref>, 407 f.). Von dort begab sich Klinger über Göttingen nach Mannheim, wo Seyler wegen eines Engagements für seine Truppe am Nationaltheater verhandelte.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

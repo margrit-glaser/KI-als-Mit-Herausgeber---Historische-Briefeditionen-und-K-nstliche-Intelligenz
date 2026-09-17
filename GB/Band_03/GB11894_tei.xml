@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3970"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11894" n="GB 3, Nr. 388">
+  <teiHeader xml:id="gb11894_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>388.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 5. August 1778. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:24Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11894_tei.xml</idno>
+        <idno type="URI">gb11894</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR388_0</idno>
+        <idno type="KSW-ID">11894</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="219" to="224">219-224</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="753" to="763">753-763</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11894_header_hwit1382" corresp="#gb11894_source_hwit1382" sameAs="#gb11894_comment_hwit1382" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>Cambridge/MA</placeName>
+            </settlement>
+            <institution key="sndb:standort#72">Harvard University, Houghton Library</institution>
+            <idno type="shelfmark">bMS Eng 870 (69A)</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11894,,1382/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Es hält jetzt sehr schwer, daß ich aus mir herausgehe; an dem ruhigen Abend</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+            <accMat>
+              <bibl type="attachment" xml:id="gb11894_header_hwit56141" corresp="#gb11894_source_hwit56141" sameAs="#gb11894_comment_hwit56141" subtype="authorisedLetter">
+                <msIdentifier>
+                  <country>D</country>
+                  <settlement>
+                    <placeName>Weimar</placeName>
+                  </settlement>
+                  <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+                  <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+                  <idno type="shelfmark">GSA 25/W 96</idno>
+                  <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349404</idno>
+                  <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11894,,56141/manifest</idno>
+                </msIdentifier>
+              </bibl>
+            </accMat>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11894_header_acc732" corresp="gb11894_comment_acc732">
+            <objectIdentifier>
+              <objectName>Gedicht</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-08-05">5. August 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text type="source" xml:id="gb11894_source">
+<group>
+<text xml:space="preserve"  xml:id="gb11894_source_hwit1382" corresp="#gb11894_header_hwit1382" type="letter" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11894/54279"/>
+      <p>
+        <anchor xml:id="GB03_1_BR388_0_219_016"/>Es hält iezt sehr schweer dass ich aus mir heraus gehe, <ref target="gb:note#GB03_2_BR388_0_note_001_219_16-17" xml:id="start_com_3326"/>an dem ruhigen 
+<anchor xml:id="GB03_1_BR388_0_219_017"/>Abend<ref xml:id="end_com_3326"/> sollst du doch ein Paar Worte haben. <ref target="gb:note#GB03_2_BR388_0_note_002_219_17-19" xml:id="start_com_3327"/>Wie ich hörte dass du mit 
+<anchor xml:id="GB03_1_BR388_0_219_018"/>der Herzoginn wärst reist ich immer mit euch, denn ich wust was unter 
+<anchor xml:id="GB03_1_BR388_0_219_019"/>euch werden würde<ref xml:id="end_com_3327"/>, und wie du ihnen würdest leben helfen und 
+<anchor xml:id="GB03_1_BR388_0_219_020"/>geniessen.      Und du hast denn auch wieder einmal Athem geschöpft, 
+<anchor xml:id="GB03_1_BR388_0_219_021"/>es geht nun wieder eine Weile im Leben weg. <ref target="gb:note#GB03_2_BR388_0_note_003_219_21-220_2" xml:id="start_com_3328"/>Wenn du mit der Mutter 
+<anchor xml:id="GB03_1_BR388_0_220_001"/>auf künftig Früjahr kommen kannst; so richts ein, sie sagen vom 
+<anchor xml:id="GB03_1_BR388_0_220_002"/>Winter, das ist nichts.<ref xml:id="end_com_3328"/> <ref target="gb:note#GB03_2_BR388_0_note_004_220_2" xml:id="start_com_3329"/>In meinem Tahl<ref xml:id="end_com_3329"/> wirds immer schöner, das heist 
+<anchor xml:id="GB03_1_BR388_0_220_003"/>es wird mir näher, und andern und mir geniesbaarer, <ref target="gb:note#GB03_2_BR388_0_note_005_220_3-6" xml:id="start_com_3330"/>da ich die vernachlässtigten 
+<anchor xml:id="GB03_1_BR388_0_220_004"/>Pläzgen alle mit Händen der Liebe polstre und puzze, 
+<anchor xml:id="GB03_1_BR388_0_220_005"/>und iederzeit mit gröster Sorgfalt die Fugen der Kunst der lieben immer 
+<anchor xml:id="GB03_1_BR388_0_220_006"/>bindenden Natur zu befestigen und zu decken übergebe<ref xml:id="end_com_3330"/>.     Das 
+<anchor xml:id="GB03_1_BR388_0_220_007"/>herzige Spielwerck ist <ref target="gb:note#GB03_2_BR388_0_note_006_220_7-8" xml:id="start_com_3331"/>ein Kahn auf dem ich offt über flache Gegenden 
+<anchor xml:id="GB03_1_BR388_0_220_008"/>meines Zustandes<ptr n="1" target="#a001_220.8"/> wegschwimme<ref xml:id="end_com_3331"/>. Im innersten aber geht mir alles 
+<anchor xml:id="GB03_1_BR388_0_220_009"/>nach Wunsch. Das Element in dem ich schwebe hat alle Ahnlichkeit 
+<anchor xml:id="GB03_1_BR388_0_220_010"/>mit dem Wasser. es zieht ieden an, und doch versagt dem der auch nur 
+<anchor xml:id="GB03_1_BR388_0_220_011"/>an die Brust hineinspringt im Anfange<ptr n="2" target="#a002_220.11"/> der Athem, muss er nun gar 
+<anchor xml:id="GB03_1_BR388_0_220_012"/>gleich Tauchen so verschwinden ihm Himmel und Erde.     Hält man’s 
+<anchor xml:id="GB03_1_BR388_0_220_013"/>denn eine Weile aus und kriegt nur das Gefühl dass einen das Element 
+<anchor xml:id="GB03_1_BR388_0_220_014"/>Trägt und dass man doch nicht untersinckt wenn man gleich nur mit 
+<anchor xml:id="GB03_1_BR388_0_220_015"/>der Nase hervorkuckt, nun so findet sich im Men<pb n="2" facs="gb:digitalisate#11894/58396"/>schen auch Glied 
+<anchor xml:id="GB03_1_BR388_0_220_016"/>und Geschick zum Froschwesen, und man lernt mit wenig Bewegung 
+<anchor xml:id="GB03_1_BR388_0_220_017"/>viel thun. Bäume pflanz ich iezt <ref target="gb:note#GB03_2_BR388_0_note_007_220_17" xml:id="start_com_3332"/>wie die Kinder Israel Steine legten<ref xml:id="end_com_3332"/>
+        <anchor xml:id="GB03_1_BR388_0_220_018"/>zum Zeugniss. und <ref target="gb:note#GB03_2_BR388_0_note_008_220_18" xml:id="start_com_3333"/>apropos vom Baum Pflanzen zum H<g ref="#typoSuspension"/>. Oheim<ref xml:id="end_com_3333"/>. Du 
+<anchor xml:id="GB03_1_BR388_0_220_019"/>weisst dass er mir lieb seyn muss und ich bitte dich endig ihn rund 
+<anchor xml:id="GB03_1_BR388_0_220_020"/>und ohne etwaige fremde Ingredienzien<ptr n="3" target="#a003_220.20"/> wie es einem am Schlusse leider 
+<anchor xml:id="GB03_1_BR388_0_220_021"/>offt geht. Und dann erlaub mir dass ich ihn hier zusammen drucken 
+<anchor xml:id="GB03_1_BR388_0_220_022"/>lasse. In dem <ref target="gb:note#GB03_2_BR388_0_note_009_220_22" xml:id="start_com_3334"/>Sau Merckur<ref xml:id="end_com_3334"/> ists doch als ob man was in eine 
+<anchor xml:id="GB03_1_BR388_0_220_023"/>Cloack würfe, es ist recht der Vergessenheit gewidmet und so Schnizzelweis 
+<anchor xml:id="GB03_1_BR388_0_220_024"/>geniest kein Mensch was. Auch hab ich eine Bitte dass <ref target="gb:note#GB03_2_BR388_0_note_010_220_24-25" xml:id="start_com_3335"/>wenn 
+<anchor xml:id="GB03_1_BR388_0_220_025"/>du mehr so was schreibst<ref xml:id="end_com_3335"/> dass du mir<ptr n="4" target="#a004_220.25"/> weder direckte noch indireckte 
+<anchor xml:id="GB03_1_BR388_0_220_026"/>ins Theatralische Gehege kommst, indem ich <ref target="gb:note#GB03_2_BR388_0_note_011_220_26-27" xml:id="start_com_3336"/>das ganze Theater wesen 
+<anchor xml:id="GB03_1_BR388_0_220_027"/>in einem Roman<ref xml:id="end_com_3336"/> wovon <ref target="gb:note#GB03_2_BR388_0_note_012_220_27-28" xml:id="start_com_3337"/>das erste Buch dessen Anfang du gesehn hast<ref xml:id="end_com_3337"/>  
+<anchor xml:id="GB03_1_BR388_0_220_028"/>fertig ist vorzutragen bereit bin.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR388_0_220_029"/>Von meinen Reisen muss ich dir auch was sagen. Lezten Winter hat 
+<anchor xml:id="GB03_1_BR388_0_220_030"/>mir eine <ref target="gb:note#GB03_2_BR388_0_note_013_220_30" xml:id="start_com_3338"/>Reise auf den Harz<ref xml:id="end_com_3338"/> das reinste Vergnügen geben. Du weisst 
+<anchor xml:id="GB03_1_BR388_0_220_031"/><ref target="gb:note#GB03_2_BR388_0_note_014_220_31-32" xml:id="start_com_3339"/>dass so sehr ich hasse wenn man das natürliche abenteuerlich machen 
+<anchor xml:id="GB03_1_BR388_0_220_032"/>will, so wohl ist mirs wenn das abenteuerlichste natürlich zugeht<ref xml:id="end_com_3339"/>. <ref target="gb:note#GB03_2_BR388_0_note_015_220_32-33" xml:id="start_com_3340"/>Ich 
+<anchor xml:id="GB03_1_BR388_0_220_033"/>machte mich allein auf etwa den lezten November zu Pferde<ref xml:id="end_com_3340"/> mit einem 
+<anchor xml:id="GB03_1_BR388_0_220_034"/><ref target="gb:note#GB03_2_BR388_0_note_016_220_34" xml:id="start_com_3341"/>Mantelsack<ref xml:id="end_com_3341"/> und ritt durch <ref target="gb:note#GB03_2_BR388_0_note_017_220_34" xml:id="start_com_3342"/>Schlossen<ref xml:id="end_com_3342"/> Frost <pb n="3" facs="gb:digitalisate#11894/58397"/> und <ref target="gb:note#GB03_2_BR388_0_note_018_220_34" xml:id="start_com_3343"/>Koth<ptr n="5" target="#a005_220.34"/><ref xml:id="end_com_3343"/> auf Nordhausen 
+<anchor xml:id="GB03_1_BR388_0_221_001"/>den Harz hinein in der <ref target="gb:note#GB03_2_BR388_0_note_019_221_1" xml:id="start_com_3344"/>Baumanshöle<ref xml:id="end_com_3344"/> über Wernigerode Goslar 
+<anchor xml:id="GB03_1_BR388_0_221_002"/>auf den hohen Harz, das detail erzähl ich dir einmal und überwand alle 
+<anchor xml:id="GB03_1_BR388_0_221_003"/>Schwürigkeiten und stand <ref target="gb:note#GB03_2_BR388_0_note_020_221_3-4" xml:id="start_com_3345"/>den 8 ten Dez. glaub ich, Mittags um eins 
+<anchor xml:id="GB03_1_BR388_0_221_004"/>auf dem Brocken<ref xml:id="end_com_3345"/> oben in der heitersten brennendsten Sonne über 
+<anchor xml:id="GB03_1_BR388_0_221_005"/>dem anderthalb Ellen hohen<ptr n="6" target="#a006_221.5"/> Schnee und sah die Gegend von Teutschland 
+<anchor xml:id="GB03_1_BR388_0_221_006"/>unter mir alles von Wolcken bedeckt.     Dass <ref target="gb:note#GB03_2_BR388_0_note_021_221_6" xml:id="start_com_3346"/>der Förster<ref xml:id="end_com_3346"/> den ich 
+<anchor xml:id="GB03_1_BR388_0_221_007"/>mit Mühe <ref target="gb:note#GB03_2_BR388_0_note_022_221_7" xml:id="start_com_3347"/>persvadirt<ptr n="7" target="#a007_221.7"/><ref xml:id="end_com_3347"/> hatte mich zu führen selbst vor Verwundrung 
+<anchor xml:id="GB03_1_BR388_0_221_008"/>ausser sich kam, sich da zu sehn, da er viel Jahre am Fus wohnend das 
+<anchor xml:id="GB03_1_BR388_0_221_009"/>immer unmöglich geglaubt hatte. Da war ich vierzehn Tage allein dass 
+<anchor xml:id="GB03_1_BR388_0_221_010"/>kein Mensch wusste wo ich war von <ref target="gb:note#GB03_2_BR388_0_note_023_221_10-11" xml:id="start_com_3348"/>tausend Gedancken in der Einsamkeit 
+<anchor xml:id="GB03_1_BR388_0_221_011"/>findest<ptr n="8" target="#a008_221.11"/> du auf beyliegendem Blat<ref xml:id="end_com_3348"/> fliegende Streifen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR388_0_221_012"/><ref target="gb:note#GB03_2_BR388_0_note_024_221_12" xml:id="start_com_3349"/>Auch in Berlin war ich im Früjahr<ref xml:id="end_com_3349"/> <ref target="gb:note#GB03_2_BR388_0_note_025_221_12" xml:id="start_com_3350"/>ein ganz ander Schauspiel<ref xml:id="end_com_3350"/>. Wir 
+<anchor xml:id="GB03_1_BR388_0_221_013"/>waren wenige Tage da, und ich guckte nur drein wie das Kind in 
+<anchor xml:id="GB03_1_BR388_0_221_014"/><ref target="gb:note#GB03_2_BR388_0_note_026_221_14" xml:id="start_com_3351"/>Schone raritäten Kasten<ref xml:id="end_com_3351"/>. Aber du weist wie ich im Anschaun lebe es 
+<anchor xml:id="GB03_1_BR388_0_221_015"/>sind mir tausend Lichter aufgangen. Und <ref target="gb:note#GB03_2_BR388_0_note_027_221_15-16" xml:id="start_com_3352"/>dem alten Friz bin ich recht 
+<anchor xml:id="GB03_1_BR388_0_221_016"/>nah worden<ref xml:id="end_com_3352"/> da <ref target="gb:note#GB03_2_BR388_0_note_028_221_16" xml:id="start_com_3353"/>ich hab sein Wesen gesehn<ref xml:id="end_com_3353"/>, sein <ref target="gb:note#GB03_2_BR388_0_note_029_221_16-17" xml:id="start_com_3354"/>Gold Silber Marmor 
+<anchor xml:id="GB03_1_BR388_0_221_017"/>Affen Papageyen und zerrissne Vorhänge<ref xml:id="end_com_3354"/>, und hab über den grosen 
+<anchor xml:id="GB03_1_BR388_0_221_018"/>Menschen <ref target="gb:note#GB03_2_BR388_0_note_030_221_18" xml:id="start_com_3355"/>seine eigne Lumpenhunde<ref xml:id="end_com_3355"/> <pb n="4" facs="gb:digitalisate#11894/54281"/> raisonniren hören. Einen grosen 
+<anchor xml:id="GB03_1_BR388_0_221_019"/>Theil von <ref target="gb:note#GB03_2_BR388_0_note_031_221_19" xml:id="start_com_3356"/>Pr. Heinrichs Armee<ref xml:id="end_com_3356"/> den wir <ref target="gb:note#GB03_2_BR388_0_note_032_221_19" xml:id="start_com_3357"/>passirt<ref xml:id="end_com_3357"/> sind, <ref target="gb:note#GB03_2_BR388_0_note_033_221_19" xml:id="start_com_3358"/>Maneuvres<ref xml:id="end_com_3358"/> – 
+<anchor xml:id="GB03_1_BR388_0_221_020"/>und die Gestalten der Generale die ich hab halb duzzend weis <ref target="gb:note#GB03_2_BR388_0_note_034_221_20-21" xml:id="start_com_3359"/>bey 
+<anchor xml:id="GB03_1_BR388_0_221_021"/>Tisch gegenüber gehabt<ref xml:id="end_com_3359"/>, machen mich auch bey <ref target="gb:note#GB03_2_BR388_0_note_035_221_21" xml:id="start_com_3360"/>dem iezzigen Kriege<ref xml:id="end_com_3360"/>
+        <anchor xml:id="GB03_1_BR388_0_221_022"/>gegenwärtiger. <ref target="gb:note#GB03_2_BR388_0_note_036_221_22-23" xml:id="start_com_3361"/>Mit Menschen hab ich sonst gar nichts zu verkehren 
+<anchor xml:id="GB03_1_BR388_0_221_023"/>gehabt<ref xml:id="end_com_3361"/> und hab in Preusischen Staaten <ref target="gb:note#GB03_2_BR388_0_note_037_221_23-24" xml:id="start_com_3362"/>kein laut Wort hervorgebracht 
+<anchor xml:id="GB03_1_BR388_0_221_024"/>das sie nicht könnten drucken lassen<ref xml:id="end_com_3362"/>.     Dafür ich gelegentlich <ref target="gb:note#GB03_2_BR388_0_note_038_221_24-25" xml:id="start_com_3363"/>als stolz 
+<anchor xml:id="GB03_1_BR388_0_221_025"/>pp ausgeschrien<ref xml:id="end_com_3363"/> bin. ———</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR388_0_221_026"/><ref target="gb:note#GB03_2_BR388_0_note_039_221_26" xml:id="start_com_3364"/>Die Raphaels die mir die H. mitgebracht hat<ref xml:id="end_com_3364"/> machen mir viel Freude. 
+<anchor xml:id="GB03_1_BR388_0_221_027"/>Ich treib iezt allerley Bildnerey. Nah hier hab ich einen <ref target="gb:note#GB03_2_BR388_0_note_040_221_27-28" xml:id="start_com_3365"/>alten Steinbruch<ref xml:id="end_com_3365"/>
+        <anchor xml:id="GB03_1_BR388_0_221_028"/>wieder aufgerührt den wohl seit hundert iahren niemand gebraucht, 
+<anchor xml:id="GB03_1_BR388_0_221_029"/>am Alten Schloss waren <ref target="gb:note#GB03_2_BR388_0_note_041_221_29" xml:id="start_com_3366"/>Quadraturen<ref xml:id="end_com_3366"/> davon an Portals, in den 
+<anchor xml:id="GB03_1_BR388_0_221_030"/>Stein lässt sich mit der höchsten <ref target="gb:note#GB03_2_BR388_0_note_042_221_30" xml:id="start_com_3367"/>Delikatesse<ref xml:id="end_com_3367"/> arbeiten was du willt, er 
+<anchor xml:id="GB03_1_BR388_0_221_031"/>ist sehr hart lässt sich aber leicht schaben und rasspeln, hat keine Klüfte, 
+<anchor xml:id="GB03_1_BR388_0_221_032"/>nimmt kein Wasser an und seine Farbe ist das schöne grau dem man so 
+<anchor xml:id="GB03_1_BR388_0_221_033"/>ängstlich nachläuft und es so selten findt. <ref target="gb:note#GB03_2_BR388_0_note_043_221_33" xml:id="start_com_3368"/>Französche Dosen<ref xml:id="end_com_3368"/> habens es 
+<anchor xml:id="GB03_1_BR388_0_221_034"/>ist nicht<ptr n="9" target="#a009_221.34"/> blau noch gilblich.<hi rendition="#sup">#</hi> Adieu alter nun hast du wieder was von 
+<anchor xml:id="GB03_1_BR388_0_222_001"/>mir. Sag mir auch was behalt mich lieb. <ref target="gb:note#GB03_2_BR388_0_note_044_222_1" xml:id="start_com_3369"/>Wenns nicht Krieg giebt<ref xml:id="end_com_3369"/> <ref target="gb:note#GB03_2_BR388_0_note_045_222_1-2" xml:id="start_com_3370"/>besuch 
+<anchor xml:id="GB03_1_BR388_0_222_002"/>ich euch<ref xml:id="end_com_3370"/> wohl.     d<g ref="#typoSuspension"/> 5 Aug 78.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR388_0_222_003"/># es ist ein Kalckstein die Mittelsorte zwischen dem gemeinen und 
+<anchor xml:id="GB03_1_BR388_0_222_004"/>dem Marmor.</p>
+    </div>
+    
+  </body>
+</text>
+
+<text xml:space="preserve"  xml:id="gb11894_source_hwit56141" corresp="#gb11894_header_hwit56141" type="attachment" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="5" facs="gb:digitalisate#11894/28221"/>
+      <head><supplied>Beilage</supplied></head>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR388_0_222_005"/><head rendition="#einrueck8">
+        <ref target="gb:note#GB03_2_BR388_0_note_046_222_5-6" xml:id="start_com_3371"/>Auf dem Harz</head>      
+        <anchor xml:id="GB03_1_BR388_0_222_006"/><head rendition="#einrueck7">im Dezember. 1778.<ref xml:id="end_com_3371"/>
+      </head>
+      <space quantity="1" unit="lines"/>
+      <lg n="1">
+        <anchor xml:id="GB03_1_BR388_0_222_007"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR388_0_note_047_222_7" xml:id="start_com_3372"/>Dem Geier gleich<ref xml:id="end_com_3372"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_222_008"/>
+        <l rendition="#einrueck6">Der auf Morgenschlossen Wolken</l>
+        <anchor xml:id="GB03_1_BR388_0_222_009"/>
+        <l rendition="#einrueck6">Mit sanftem Fittich ruhend</l>
+        <anchor xml:id="GB03_1_BR388_0_222_010"/>
+        <l rendition="#einrueck6">Nach Beute schaut,</l>
+        <anchor xml:id="GB03_1_BR388_0_222_011"/>
+        <l rendition="#einrueck6">Schwebe mein Lied!</l>
+        <anchor xml:id="GB03_1_BR388_0_222_012"/>
+        <l rendition="#einrueck6">Denn ein Gott hat</l>
+        <anchor xml:id="GB03_1_BR388_0_222_013"/>
+        <l rendition="#einrueck6">Jedem seine Bahn</l>
+        <anchor xml:id="GB03_1_BR388_0_222_014"/>
+        <l rendition="#einrueck6">Vorgezeichnet</l>
+        <anchor xml:id="GB03_1_BR388_0_222_015"/>
+        <l rendition="#einrueck6">Die der Glükliche<ptr n="10" target="#a010_222.15"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_222_016"/>
+        <l rendition="#einrueck6">Rasch zum freudigen Ziel läuft</l>
+        <anchor xml:id="GB03_1_BR388_0_222_017"/>
+        <l rendition="#einrueck6">Aber wem<ptr n="11" target="#a011_222.17"/> Unglük</l>
+        <anchor xml:id="GB03_1_BR388_0_222_018"/>
+        <l rendition="#einrueck6">Das Herz zusammenzog</l>
+        <anchor xml:id="GB03_1_BR388_0_222_019"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR388_0_note_048_222_19" xml:id="start_com_3373"/>Sträubt<ref xml:id="end_com_3373"/> vergebens</l>
+        <anchor xml:id="GB03_1_BR388_0_222_020"/>
+        <l rendition="#einrueck6">Gegen die Schranken</l>
+        <anchor xml:id="GB03_1_BR388_0_222_021"/>
+        <l rendition="#einrueck6">Des <ref target="gb:note#GB03_2_BR388_0_note_049_222_21" xml:id="start_com_3374"/>ehrenen<ref xml:id="end_com_3374"/> Fadens</l>
+        <anchor xml:id="GB03_1_BR388_0_222_022"/>
+        <l rendition="#einrueck6">Den die bittre Scheere</l>
+        <anchor xml:id="GB03_1_BR388_0_222_023"/>
+        <l rendition="#einrueck6">Nur einmal löst.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="2"><anchor xml:id="GB03_1_BR388_0_222_024"/>
+        <l rendition="#einrueck6">In <ref target="gb:note#GB03_2_BR388_0_note_050_222_24" xml:id="start_com_3375"/>dichigts Schauer<ref xml:id="end_com_3375"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_222_025"/>
+        <l rendition="#einrueck6">Drängt sich <ref target="gb:note#GB03_2_BR388_0_note_051_222_25" xml:id="start_com_3376"/>das rauhe Wild<ref xml:id="end_com_3376"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_222_026"/>
+        <l rendition="#einrueck6">Und mit den Sperlingen</l>
+        <anchor xml:id="GB03_1_BR388_0_222_027"/>
+        <l rendition="#einrueck6">Haben längst die Reichen</l>
+        <anchor xml:id="GB03_1_BR388_0_222_028"/>
+        <l rendition="#einrueck6">In ihre Sümpfe sich gesenkt.</l>
+        <anchor xml:id="GB03_1_BR388_0_223_001"/>
+        <l rendition="#einrueck6">Leicht ists, folgen dem <ref target="gb:note#GB03_2_BR388_0_note_052_223_1-2" xml:id="start_com_3377"/>Wagen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_002"/>
+        <l rendition="#einrueck6">Den Fortuna führt<ref xml:id="end_com_3377"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_223_003"/>
+        <l rendition="#einrueck6">Wie der gemächliche Tross</l>
+        <anchor xml:id="GB03_1_BR388_0_223_004"/>
+        <l rendition="#einrueck6">Auf gebesserten Weegen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_005"/>
+        <l rendition="#einrueck6">Hinter des Fürsten Einzug</l>
+        <anchor xml:id="GB03_1_BR388_0_223_006"/>
+        <l rendition="#einrueck6">Aber abseits wer ists</l>
+        <anchor xml:id="GB03_1_BR388_0_223_007"/>
+        <l rendition="#einrueck6">Ins Gebüsch verliert sich sein Pfad</l>
+        <anchor xml:id="GB03_1_BR388_0_223_008"/>
+        <l rendition="#einrueck6">Hinter ihm schlagen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_009"/>
+        <l rendition="#einrueck6">Die Sträüche zusammen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_010"/>
+        <l rendition="#einrueck6">Das Gras steht wieder auf</l>
+        <anchor xml:id="GB03_1_BR388_0_223_011"/>
+        <l rendition="#einrueck6">Die Oede verschlingt ihn. <pb n="6" facs="gb:digitalisate#11894/28222"/></l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3"><anchor xml:id="GB03_1_BR388_0_223_012"/>
+        <l rendition="#einrueck6">Ach, wer heilet die Schmerzen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_013"/>
+        <l rendition="#einrueck6">Dess’, dem Balsam zu Gift ward</l>
+        <anchor xml:id="GB03_1_BR388_0_223_014"/>
+        <l rendition="#einrueck6">Der sich Menschenhass</l>
+        <anchor xml:id="GB03_1_BR388_0_223_015"/>
+        <l rendition="#einrueck6">Aus der Fülle der Liebe trank;</l>
+        <anchor xml:id="GB03_1_BR388_0_223_016"/>
+        <l rendition="#einrueck6">Erst verachtet, nun ein Verächter</l>
+        <anchor xml:id="GB03_1_BR388_0_223_017"/>
+        <l rendition="#einrueck6">Zehrt er heimlich auf</l>
+        <anchor xml:id="GB03_1_BR388_0_223_018"/>
+        <l rendition="#einrueck6">Seinen eigenen Werth</l>
+        <anchor xml:id="GB03_1_BR388_0_223_019"/>
+        <l rendition="#einrueck6">In ungnügender Selbstsucht.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3"><anchor xml:id="GB03_1_BR388_0_223_020"/>
+        <l rendition="#einrueck6">Ist auf deinem <ref target="gb:note#GB03_2_BR388_0_note_053_223_20" xml:id="start_com_3378"/>Psalter<ref xml:id="end_com_3378"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_223_021"/>
+        <l rendition="#einrueck6">Vater der Liebe ein Thon</l>
+        <anchor xml:id="GB03_1_BR388_0_223_022"/>
+        <l rendition="#einrueck6">Seinem Ohre vernehmlich</l>
+        <anchor xml:id="GB03_1_BR388_0_223_023"/>
+        <l rendition="#einrueck6">So erquike dies Herz.</l>
+        <anchor xml:id="GB03_1_BR388_0_223_024"/>
+        <l rendition="#einrueck6">Oefne den umwölkten Blik</l>
+        <anchor xml:id="GB03_1_BR388_0_223_025"/>
+        <l rendition="#einrueck6">Ueber die tausend Quellen</l>
+        <anchor xml:id="GB03_1_BR388_0_223_026"/>
+        <l rendition="#einrueck6">Neben dem Durstenden</l>
+        <anchor xml:id="GB03_1_BR388_0_223_027"/>
+        <l rendition="#einrueck6">In der Wüste.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="4"><anchor xml:id="GB03_1_BR388_0_223_028"/>
+        <l rendition="#einrueck6">Der du der Freuden viel schaffst</l>
+        <anchor xml:id="GB03_1_BR388_0_223_029"/>
+        <l rendition="#einrueck6">Iedem ein überfliessend Maas,</l>
+        <anchor xml:id="GB03_1_BR388_0_223_030"/>
+        <l rendition="#einrueck6">Seegne die Brüder der Jagd</l>
+        <anchor xml:id="GB03_1_BR388_0_223_031"/>
+        <l rendition="#einrueck6">Auf der Fährte des Schweins</l>
+        <anchor xml:id="GB03_1_BR388_0_223_032"/>
+        <l rendition="#einrueck6">Mit iugendlichem Uebermuth</l>
+        <anchor xml:id="GB03_1_BR388_0_223_033"/>
+        <l rendition="#einrueck6">Fröhlicher Mordsucht!</l>
+        <anchor xml:id="GB03_1_BR388_0_223_034"/>
+        <l rendition="#einrueck6">Späte Rächer des Unbills,</l>
+        <anchor xml:id="GB03_1_BR388_0_224_001"/>
+        <l rendition="#einrueck6">Dem schon<ptr n="12" target="#a012_224.1"/> Jahre vergeblich</l>
+        <anchor xml:id="GB03_1_BR388_0_224_002"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR388_0_note_054_224_2" xml:id="start_com_3379"/>Wehr’t mit Knütteln der Bauer<ref xml:id="end_com_3379"/>.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="5"><anchor xml:id="GB03_1_BR388_0_224_003"/>
+        <l rendition="#einrueck6">Aber den einsamen hüll</l>
+        <anchor xml:id="GB03_1_BR388_0_224_004"/>
+        <l rendition="#einrueck6">In deine Goldwolken.</l>
+        <anchor xml:id="GB03_1_BR388_0_224_005"/>
+        <l rendition="#einrueck6">Umgieb mit Wintergrün</l>
+        <anchor xml:id="GB03_1_BR388_0_224_006"/>
+        <l rendition="#einrueck6">Bis die Rose wieder heranreift</l>
+        <anchor xml:id="GB03_1_BR388_0_224_007"/>
+        <l rendition="#einrueck6">Die feuchten Haare</l>
+        <anchor xml:id="GB03_1_BR388_0_224_008"/>
+        <l rendition="#einrueck6">O Liebe deines Dichters.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="6"><anchor xml:id="GB03_1_BR388_0_224_009"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR388_0_note_055_224_9" xml:id="start_com_3380"/>Mit der dämmernden Fakel<ref xml:id="end_com_3380"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_224_010"/>
+        <l rendition="#einrueck6">Leuchtest du ihm<ptr n="13" target="#a013_224.10"/></l>
+        <anchor xml:id="GB03_1_BR388_0_224_011"/>
+        <l rendition="#einrueck6">Durch die Fuhrten bei Nacht</l>
+        <anchor xml:id="GB03_1_BR388_0_224_012"/>
+        <l rendition="#einrueck6">Ueber die grundlosen Weege <pb n="7" facs="gb:digitalisate#11894/28223"/></l>
+        <anchor xml:id="GB03_1_BR388_0_224_013"/>
+        <l rendition="#einrueck6">Auf oden Gefilden.</l>
+        <anchor xml:id="GB03_1_BR388_0_224_014"/>
+        <l rendition="#einrueck6">Mit dem tausendfarbigen Morgen</l>
+        <anchor xml:id="GB03_1_BR388_0_224_015"/>
+        <l rendition="#einrueck6">Lachst du ins Herz ihm</l>
+        <anchor xml:id="GB03_1_BR388_0_224_016"/>
+        <l rendition="#einrueck6">Mit dem beizenden Sturm</l>
+        <anchor xml:id="GB03_1_BR388_0_224_017"/>
+        <l rendition="#einrueck6">Trägst du ihn hoch empor</l>
+        <anchor xml:id="GB03_1_BR388_0_224_018"/>
+        <l rendition="#einrueck6">Winterströhme stürzen vom Felsen</l>
+        <anchor xml:id="GB03_1_BR388_0_224_019"/>
+        <l rendition="#einrueck6">In seinen Psalmen.</l>
+        <anchor xml:id="GB03_1_BR388_0_224_020"/>
+        <l rendition="#einrueck6">Und <ref target="gb:note#GB03_2_BR388_0_note_056_224_20" xml:id="start_com_3381"/>Altar des lieblichsten Danks<ref xml:id="end_com_3381"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_224_021"/>
+        <l rendition="#einrueck6">Wird ihm des gefürchteten Gipfels</l>
+        <anchor xml:id="GB03_1_BR388_0_224_022"/>
+        <l rendition="#einrueck6">Schneebehangner Scheitel</l>
+        <anchor xml:id="GB03_1_BR388_0_224_023"/>
+        <l rendition="#einrueck6">Den mit Geisterreihen</l>
+        <anchor xml:id="GB03_1_BR388_0_224_024"/>
+        <l rendition="#einrueck6">Kränzten ahndende Völker</l>
+        <anchor xml:id="GB03_1_BR388_0_224_025"/>
+        <l rendition="#einrueck6">Du stehst unerforscht die <ref target="gb:note#GB03_2_BR388_0_note_057_224_25" xml:id="start_com_3382"/>Geweide<ref xml:id="end_com_3382"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_224_026"/>
+        <l rendition="#einrueck6">Geheimnissvoll offenbaar</l>
+        <anchor xml:id="GB03_1_BR388_0_224_027"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR388_0_note_058_224_27-28" xml:id="start_com_3383"/>Ueber der erstaunten Welt</l>
+        <anchor xml:id="GB03_1_BR388_0_224_028"/>
+        <l rendition="#einrueck6">Und schaust aus Wolken<ref xml:id="end_com_3383"/>
+        </l>
+        <anchor xml:id="GB03_1_BR388_0_224_029"/>
+        <l rendition="#einrueck6">Auf ihre Reiche und Herrlichkeit</l>
+        <anchor xml:id="GB03_1_BR388_0_224_030"/>
+        <l rendition="#einrueck6">Die du aus den Adern deiner Brüder</l>
+        <anchor xml:id="GB03_1_BR388_0_224_031"/>
+        <l rendition="#einrueck6">Neben dir wässerst.</l></lg>
+      </lg>
+    <pb n="8" facs="gb:digitalisate#11894/28224" type="empty"/>
+    </div>
+  </body>
+</text>
+
+</group>
+</text>
+
+<text xml:space="preserve" type="comment" xml:id="gb11894_comment">
+<body>
+<div type="metadata" xml:id="gb11894_comment_com1109">
+  <ab type="numberAddressee"><label>388.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 5. August 1778 → <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11894_comment_com3153">
+  <p>1) Brief:</p>
+  <p>H: Houghton Library of Harvard University, Cambridge/Mass. (USA), Sign.: bMS Eng 870 (69a). – Doppelblatt 19,7 × 27,7 cm, 4 S. beschr., egh., Tinte; S. 1 oben links von fremder Hd: „N<hi rendition="#sup #u">o</hi> 4“.</p>
+  <p>E: <ref target="sndb:sigle#2992">Merck, Briefe<hi rendition="#sup">1</hi></ref> (1835), 136–140, Nr 57.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 237–240, Nr 729 (ohne Beilage; nach E).</p>
+  <p>2) Beilage (Gedicht):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#349404">GSA 25/W 96</ref>. – Doppelblatt 18,9 × 28 cm, 2 &#xBD; S. beschr., Schreiberhd (Philipp Seidel), Tinte; S. 1 oben links von fremder Hd: „N<hi rendition="#sup #u">o</hi> 5.“ – Faksimile der 1. Seite: <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 19.</p>
+  <p>E: Goethe’s Schriften. Bd 8. Leipzig 1789, S. 193–197 (unter dem Titel „Harzreise im Winter“).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 2 (1888), 61–64 (nach der egh. Druckvorlage der Gedichte in E [<ref target="archivdb:dokument#349269">GSA 25/W 2</ref>, Bl. 11–13r]).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11894_comment_com4949">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist, wenn die Neudatierung des Briefes <ref target="gb:dokument#41">Nr 298</ref> korrekt ist (vgl. dessen <ref target="gb:note#gb41_comment_com1855">Datierung</ref>), der letzte überlieferte Brief Goethes an Merck vor einer Pause von über einem Jahr. Der nächste überlieferte Brief an ihn stammt vom 17. <supplied>19.</supplied> Oktober 1779 (<ref target="gb:dokument#63">Nr 540</ref>). Es ist allerdings nicht auszuschließen, dass es Briefe aus diesem Zeitraum gegeben hat, die nicht überliefert sind. Außerdem begegneten sich Goethe und Merck während dessen Besuchs in Weimar von Ende Mai bis Mitte Juli 1779 persönlich. Goethe selbst hat die von Merck empfangenen Briefe zum größten Teil vernichtet (vgl. einleitende Erläuterung zu <ref target="gb:note#gb10501_comment_com4276">GB 2, Nr 94</ref>). Dass es zu einer längeren Unterbrechung der Korrespondenz vor Mercks Weimaraufenthalt kam, ist indes nicht unwahrscheinlich. Nachdem Goethe im vorliegenden Brief Merck zur Verschiebung von dessen geplanter Reise vom Winter 1778 aufs Frühjahr 1779 geraten hatte, fühlte sich dieser zurückgewiesen und war verärgert und gekränkt, wie aus Briefen an Wieland hervorgeht (vgl. des Näheren zu <ref target="gb:note#GB03_2_BR388_0_note_003_219_21-220_2">219,21-220,2</ref>). Wahrscheinlich ist diese Missstimmung der Grund für das lange Aussetzen der Korrespondenz.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11894_comment_com18048">
+<label xml:id="GB03_2_BR388_0_note_001_219_16-17" copyOf="#start_com_3326"><hi rendition="#fett">219,16-17</hi>an dem ruhigen Abend</label>
+<p>Goethe hielt sich in seinem Gartenhaus an den Ilmhängen auf; auch im Brief an Charlotte von Stein vom 6. August 1778 heißt es: <quote type="G">In der Ruhe werd ich an Sie dencken</quote> (<ref target="gb:text#GB03_1_BR390_0_225_007 #GB03_1_BR390_0_225_008">225,7–8</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11419">
+<label xml:id="GB03_2_BR388_0_note_002_219_17-19" copyOf="#start_com_3327"><hi rendition="#fett">219,17-19</hi>Wie ich hörte <gap quantity="3" reason="editorial"/> was unter euch werden würde</label>
+<p>Merck hatte die Herzoginmutter Anna Amalia als Cicerone auf einer Bildungsreise in die Rheingegenden begleitet. Er war am 16. Juni 1778 in Frankfurt zu der Reisegesellschaft gestoßen, der u. a. auch Anna Amalias Gesellschafterin Louise von Göchhausen, der Kammerherr Friedrich Hildebrand von Einsiedel und der Hofmaler Georg Melchior Kraus angehörten. Der Weg führte über viele Zwischenstationen rheinabwärts bis Düsseldorf und wieder zurück nach Frankfurt, wo sich Merck am 20. Juli von der Gesellschaft verabschiedete. Über seine Eindrücke verfasste er den Bericht „Eine mahlerische Reise nach Cöln, Bensberg und Düsseldorf. (Auszüge aus Briefen an den Herausgeber.)“ und publizierte ihn im August-Heft des „Teutschen Merkur“ 1778 (S. 113–128). Die persönliche Begegnung stiftete ein freundschaftliches Verhältnis zwischen Merck und der Herzoginmutter. Schon Anfang Juli 1778 schrieb jener an Wieland: „Ihr seyd alle Esel, denn Ihr habt mir nicht ein Wort genugthuendes über die Herzogin gesagt, wenn ich die Gegenwart mit Eurer Beschreibung vergleiche. <gap quantity="3" reason="editorial"/> Du hast recht gesagt: Sie stiehlt die Herzen.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 114.) Und am 20. Juli, nach Beendigung der Reise, heißt es: „Ich kan dir jezt ohnmöglich sagen was ich für Freude auf der Reise gehabt habe. Die Herzogin hat so gut wie Ihr Sohn mein ganzes armes Herz weggenommen, u. wohl Euch Ihr leute, daß Ihr solchen FürstenKindern zugehört.“ (Ebd. 2, 119.) Auch Anna Amalia war voller Sympathie für Merck; Wieland berichtete in einem Brief an diesen vom 3. August 1778: „Du hast einen mächtigen Stein im Brett bey der Herzogin. Sie konnte gar kein Ende finden Gutes von Dir zu sagen <gap quantity="3" reason="editorial"/>. Ich soll dir schreiben, Sie laße dir 1000 Complimente machen und Sie rechne völlig darauf daß du ihr dein Versprechen halten und diesen Winter zu uns kommen werdest.“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 109.) Selber dankte sie Merck in ihrem Brief vom 14. August 1778 in Erinnerung an die schöne Reise mit folgenden Worten: „<gap quantity="3" reason="editorial"/> gewiß werd ich nie vergeßen wie viel Ihre Gegenwarth zu dem allem beytrug; wie gut es das Schicksal mit mir meinte, mich einen Freund finden zu laßen wie Sie sind, der bey so wunderbaren, gewiß oft zu Boden drükenden Vorfallenheiten des Lebens, seinem Herzen und dem Glauben an Warheit und Güte so treu bleibt, dieß alles ins Innerste seines Herzens schließt und mit Muth und Leichtigkeit trägt, was des Herren wille ist. – Gewiß, Lieber Merk ist jetzt in meiner Einsamkeit, Andenken an dieß alles, eine meiner liebsten Beschäftigungen.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 147 f.) Wie verbunden sich die Herzogin mit Merck fühlte, zeigte sich auch im folgenden Frühjahr, als sie den Besuch des Darmstädter Kriegsrates erwartete; Louise von Göchhausen schrieb am 21. Mai 1779 an Catharina Elisabeth Goethe: „Jetzt leben wir in beständiger Erwarthung unsers Mercks. Beym Erwachen und beym Schlafengehn dencken wir seiner; und wenn’s regent <supplied>sic</supplied> oder der Wind ein bißgen stärcker bläßt, solten Sie das Lamento hören! Der Arme Merck! jetzt ist er vielleicht naß! Der Wind wird ihm auf seinem Fuchs das Reiten sauer machen! und scheint die Sonne, so freut sie jetzt doppelt seintwegen. So gehts den ganzen Tag.“ (Die Göchhausen. Briefe einer Hofdame aus dem klassischen Weimar. Zum ersten Male gesammelt und hrsg. von Werner Deetjen. Berlin 1923, S. 22.)</p>
+
+</note>
+<note xml:id="gb11894_comment_com11420">
+<label xml:id="GB03_2_BR388_0_note_003_219_21-220_2" copyOf="#start_com_3328"><hi rendition="#fett">219,21-220,2</hi>Wenn du <gap quantity="3" reason="editorial"/> das ist nichts.</label>
+<p>Herzoginmutter Anna Amalia hatte Merck zu einem Besuch in Weimar im Winter 1778/79 eingeladen (vgl. Wielands Brief an Merck vom 3. August 1778, zitiert in der vorhergehenden <ref target="gb:note#GB03_2_BR388_0_note_002_219_17-19">Erläuterung</ref>). In seinem Brief an Wieland vom 1. August 1778 hatte Merck angekündigt: „Ich besuche dich gewiß künftigen Winter oder Frühjahr mit Mutter Aja <supplied>Catharina Elisabeth Goethe</supplied> in Gesellschaft“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 124). Ein solcher gemeinsamer Besuch kam nicht zustande. Goethe stand diesem Plan offenbar ablehnend gegenüber. Dies geht auch aus einem Brief von Johann Caspar Bölling an Wieland von Ende November 1778 hervor: „Der Doktor Faust <supplied>Goethe</supplied> soll sich nicht so verinngrimmen, über meinen Vorschlag der bewusten Excursion. Es würd’ ihm dabey sicher wohl werden.“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 140.) Demnach ist anzunehmen, dass Wieland Bölling, auf den der Mercksche Reiseplan zurückzugehen scheint, über Bedenken Goethes gegen diesen Besuch unterrichtet hatte. Merck kam schließlich allein von Ende Mai bis 13. Juli 1779 nach Ettersburg und Weimar. Auch wenn Goethe im vorliegenden Brief nur eine Verschiebung des Besuchs wünschte, so fühlte sich Merck dennoch durch die ablehnende Haltung getroffen; am 11. September 1778 schrieb er an Wieland mit Bezug auf den vorliegenden Brief: „Gothe hat mir einen langen und guten Brief geschrieben. Allein zuweilen muß ich nicht über das alles reflectiren. Es kan mich weder Wärme noch Güte noch Freundschafft leider mehr erwärmen, u. mir den geringsten Grad SelbstVertrauens einflössen.“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 2, 158.) Als sich der Termin seiner Reise näherte, kommentierte Merck die Vorbehalte in Weimar in ironischer Weise: „Ich werde kommen, wenns schiklich ist, u. aus den Anstalten von Bertuch u. Krause sehe ich gar wohl, daß die Reise des Herrn Joh. Heinrich Merk auch ein politisch Ding ist, das ich nicht wußte, oder nicht dachte. <gap quantity="3" reason="editorial"/> meine Reise geht eigentlich zu der verwittweten Frau Herzogin, die es nun einmal haben will, und die über mich gebieten könnte, ein bißchen nach Amerika zu gehen.“ (Ebd. 2, 214.) Welche „Anstalten“ in Weimar gemacht wurden, konnte nicht ermittelt werden. Was aber Goethe angeht, so war ihm der Freund möglicherweise nicht oder noch nicht willkommen, weil sich Gerüchte in der Stadt verbreitet hatten, von denen Wieland in einem Brief vom 2. und 3. August auch Merck berichtete: „Die Leute hier in der Stadt sagten: die Herzogin würde einen neuen <hi rendition="#hervor1">schönen Geist</hi> den sie unterwegs aufgegabelt hätte, mitbringen, der sich  <hi rendition="#hervor1">Marks</hi> nennte, und (in Gemäsheit eines so kräftigen Nahmen) gar ein gewaltiger Kerl wäre pp. Du kannst dir einbilden, daß man sich schon zum voraus auf mancherley lustige Scenen gefaßt machte, die es absetzen würde, wenn alle die Marksen, alte und Neue, sich miteinander herum bißen; oder vielmehr <gap quantity="3" reason="editorial"/> war man nur begierig zu sehen, ob der neue Marksbein über den, der nun bald 3 Jahre in Possession ist, den Sieg davon tragen oder ob dieser sich in der possession mainteniren <supplied>franz.: aufrechterhalten</supplied> und jenen wieder wegbeißen würde. Denn im Grunde kanst du dir kaum vorstellen wie verhaßt hier der Nahme eines schönen Geistes ist und was für ein verdammtes Galimathias <supplied>lat./griech.: Geschwätz</supplied> von confusen Begriffen die Leute mit diesem Nahmen verbinden.“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 109.) An den vom Weimarer Publikum erwarteten ‚lustigen Scenen‘ zwischen ‚neuem‘ und ‚altem Marksbein‘, also zwischen Merck und Goethe, konnte diesem wenig gelegen sein. Vermutlich hoffte er, dass durch die Verschiebung des Besuchs ins Frühjahr der Klatsch zur Ruhe kommen würde.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11421">
+<label xml:id="GB03_2_BR388_0_note_004_220_2" copyOf="#start_com_3329"><hi rendition="#fett">220,2</hi>In meinem Tahl</label>
+<p>Das Ilmtal, an dessen Hängen Goethes Gartengrundstück lag (vgl. zu <ref target="gb:note#GB03_2_BR365_0_note_001_211_9">211,9</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com15515">
+<label xml:id="GB03_2_BR388_0_note_005_220_3-6" copyOf="#start_com_3330"><hi rendition="#fett">220,3-6</hi>da ich die vernachlässtigten Pläzgen <gap quantity="3" reason="editorial"/> übergebe</label>
+<p>Im Rahmen der Umgestaltung des Parks und des angrenzenden Ilmtals waren im Jahr 1778 auf Goethes Initiative zwei <quote type="G">Pläzgen</quote> entstanden: die Felsentreppe am linken Steilufer der Ilm zur Erinnerung an den Freitod der 17-jährigen Christiane von Laßberg am 16. Januar 1778 und das so genannte Louisenkloster, ein Ensemble aus einem alten Pulverturm, einer ehemaligen Schießmauer, die zur Ruine umgebaut wurde, und einer neu erbauten strohbedeckten Holzhütte (vgl. Goethes Zeichnung; <ref target="sndb:sigle#1248">Corpus</ref> I, 78, Nr 204), wo am 9. Juli 1778 aus Anlass des Namenstages der Herzogin „Das Louisenfest“ stattgefunden hatte, dem Goethe in seinem späteren Aufsatz dieses Titels ein literarisches Denkmal setzte (vgl. <ref target="sndb:sigle#1157">WA</ref> I 36, 233–242). Wieland beschrieb die Felsentreppe und ihre Umgebung im Brief an Merck vom 6. Juni 1778 als eine „wunderbar Künstlich Kunstlose anmuthig wilde, einsiedlerische und doch nicht abgeschiedene Art von Felsen und Grottenwerk“ (<ref target="sndb:sigle#141">WB</ref> 7 I, 74). Mit dieser in sich widersprüchlichen Beschreibung charakterisiert er den als Landschaftsgarten angelegten Park und den Versuch, in ihm die Kluft zwischen <quote type="G">Kunst</quote> und <quote type="G">Natur</quote> aufzuheben. – ‚Vernachlässtigten‘: Schreibfehler.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11422">
+<label xml:id="GB03_2_BR388_0_note_006_220_7-8" copyOf="#start_com_3331"><hi rendition="#fett">220,7-8</hi>ein Kahn auf dem ich <gap quantity="3" reason="editorial"/> wegschwimme</label>
+<p>Das Bild der Seefahrt als Metapher für das menschliche Leben gebrauchte Goethe schon in seiner Frankfurter Zeit (vgl. u. a. seinen Brief an Herder, etwa 10. Juli 1772; <ref target="gb:text#GB01_1_BR098_0_230_006">GB 1 I, 230,6</ref>); im vorliegenden Band findet es sich in <ref target="gb:dokument#10446">Nr 11</ref> und <ref target="gb:dokument#10665">Nr 56</ref> (vgl. <ref target="gb:text#GB03_1_BR011_0_013_007 #GB03_1_BR011_0_013_008">13,7–8</ref> und <ref target="gb:text#GB03_1_BR056_0_040_021 #GB03_1_BR056_0_040_024">40,21–24</ref>) und in poetischer Form in dem (später „Seefahrt“ genannten) Gedicht in Goethes Brief an Johann Caspar Lavater vom 16. September 1776 (vgl. <ref target="gb:text#GB03_1_BR170_0_106_017 #GB03_1_BR170_0_107_029">106,17–107,29</ref>). In den folgenden Zeilen wird es ergänzt um das Bild des Schwimmens und Tauchens.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11434">
+<label xml:id="GB03_2_BR388_0_note_007_220_17" copyOf="#start_com_3332"><hi rendition="#fett">220,17</hi>wie die Kinder Israel Steine legten</label>
+<p>Vgl. u. a. das 4. Buch Josua; dort wird berichtet, dass das Volk Israel nach der Überquerung des Jordans zur Besetzung des Landes zwölf Steine zum Gedenken aufgestellt habe. Dies taten die Israeliten auf Geheiß von Moses (vgl. 5 Mose 27,4).</p>
+
+</note>
+<note xml:id="gb11894_comment_com14306">
+<label xml:id="GB03_2_BR388_0_note_008_220_18" copyOf="#start_com_3333"><hi rendition="#fett">220,18</hi>apropos vom Baum Pflanzen zum H<g ref="#typoSuspension"/>. Oheim</label>
+<p>Mercks Erzählung „Geschichte des Herrn Oheims“ bietet eine Darstellung des natürlichen Landlebens im Gegensatz zum gesellschaftlichen Leben in der Stadt. Sie erschien im „Teutschen Merkur“ 1778 in sechs Teilen (vgl. die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR336_0_note_011_199_13">199,13</ref>). Sie wurde nicht, wie Goethe es wünschte, selbstständig als Buch veröffentlicht, wohl aber zusammenhängend in der „Auswahl der besten zerstreuten prosaischen Aufsäze der Deutschen“ (Bd 2. Leipzig 1780, S. 3–98). Im Jahr darauf ließ Merck im „Teutschen Merkur“ eine Art Selbstpersiflage der Erzählung folgen: „Herr Oheim der Jüngere, eine wahre Geschichte“ (November- und Dezember-Heft 1781, S. 144–166 und S. 193–211; Februar-Heft 1782, S. 123–138). Darin scheitert der Sekretär Strephon beim Versuch, ein Bauerngut zu bewirtschaften.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11435">
+<label xml:id="GB03_2_BR388_0_note_009_220_22" copyOf="#start_com_3334"><hi rendition="#fett">220,22</hi>Sau Merckur</label>
+<p>Wieland selbst, der Herausgeber des „Teutschen Merkur“, machte sich Sorgen um das Renommee seines Journals: „Die Meynung, daß der Merkur immer schlechter werde, nimmt überhand“ (Brief an Merck, 14. Mai 1778; <ref target="sndb:sigle#141">WB</ref> 7 I, 60). Ein Grund dafür war seiner Meinung nach die Konzeption der Zeitschrift: „Ein Hauptmangel unsres Journals däucht mich, ist, daß ich nie im Stande gewesen bin, alle Artikel die ich versprochen hatte, zu geben und zu <hi rendition="#hervor1">continuiren</hi>.“ (Ebd.)</p>
+
+</note>
+<note xml:id="gb11894_comment_com18030">
+<label xml:id="GB03_2_BR388_0_note_010_220_24-25" copyOf="#start_com_3335"><hi rendition="#fett">220,24-25</hi>wenn du mehr so was schreibst</label>
+<p>Bis zum August 1778 waren vier Teile von Mercks Erzählung erschienen, der letzte im Juni-Heft des „Teutschen Merkur“ (S. 212–227), der vorletzte im April-Heft (S. 51–65). Vom ‚Theaterwesen‘ ist dort nur beiläufig die Rede: Der junge Oheim, der sich dem einfachen Landleben verschrieben hat, berichtet kritisch über das vornehme Stadtleben, u. a. von einem Theaterbesuch: „Es war eine Art weinerlicher Comödie mit Gesang.“ (S. 58.) Vermutlich bezog Goethe sich mit seiner Bemerkung nicht auf Mercks aktuelle Erzählung, sondern auf die Gattung überhaupt: ‚Wenn du mehr Erzählungen oder Romane schreibst‘.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11436">
+<label xml:id="GB03_2_BR388_0_note_011_220_26-27" copyOf="#start_com_3336"><hi rendition="#fett">220,26-27</hi>das ganze Theater wesen in einem Roman</label>
+<p>Gemeint ist „Wilhelm Meisters theatralische Sendung“; der Fragment gebliebene Roman entstand im Wesentlichen zwischen 1777 und 1786.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11684">
+<label xml:id="GB03_2_BR388_0_note_012_220_27-28" copyOf="#start_com_3337"><hi rendition="#fett">220,27</hi>das erste Buch dessen Anfang du gesehn hast</label>
+<p>Das 1. Buch des Romans war nach Goethes Mitteilung im Tagebuch am 2. Januar 1778 fertiggestellt (vgl. <ref target="gt:dokument#504">GT I 1, 59</ref>). Ob Merck den Anfang des Romans während der gemeinsamen Tage auf der Wartburg (21. bis 28. September 1777) im Manuskript gelesen hat oder erst später in Darmstadt als Beilage zu einem nicht überlieferten Brief, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18083">
+<label xml:id="GB03_2_BR388_0_note_013_220_30" copyOf="#start_com_3338"><hi rendition="#fett">220,30</hi>Reise auf den Harz</label>
+<p>Vom 29. November bis 16. Dezember 1777 hatte Goethe eine Reise in den Harz unternommen; vgl. seine Briefe an Charlotte von Stein aus dieser Zeit (<ref target="gb:dokument#11735">Nr 308</ref>, <ref target="gb:dokument#11798">309</ref>, <ref target="gb:dokument#11800">310</ref>, <ref target="gb:dokument#10661">311</ref>, <ref target="gb:dokument#11808">312</ref>) sowie die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11685">
+<label xml:id="GB03_2_BR388_0_note_014_220_31-32" copyOf="#start_com_3339"><hi rendition="#fett">220,31-32</hi>dass <gap quantity="3" reason="editorial"/> das abenteuerlichste natürlich zugeht</label>
+<p>Über das Verhältnis des ‚Abenteuerlichen‘ und des ‚Natürlichen‘ äußerte sich Goethe auch in mehreren Briefen an Charlotte von Stein aus dem Jahr 1777: im Brief vom 13. bis 17. September (vgl. <ref target="gb:text#GB03_1_BR289_0_167_032 #GB03_1_BR289_0_167_033">167,32–33</ref>), im Brief vom 2. Dezember (vgl. <ref target="gb:text#GB03_1_BR309_0_178_010 #GB03_1_BR309_0_178_012">178,10–12</ref>) und – fast gleichlautend mit der vorliegenden Stelle – im Brief vom 9. Dezember 1777 (vgl. <ref target="gb:text#GB03_1_BR311_0_183_012 #GB03_1_BR311_0_183_014">183,12–14</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18084">
+<label xml:id="GB03_2_BR388_0_note_015_220_32-33" copyOf="#start_com_3340"><hi rendition="#fett">220,32-33</hi>Ich machte mich allein auf <gap quantity="3" reason="editorial"/> zu Pferde</label>
+<p>Auf seiner Reise, die Goethe im Morgengrauen des 29. November 1777 antrat und am 16. Dezember in Weimar beendete, legte er, von zwei Fahrten mit der Postkutsche abgesehen, rund 450 km zu Pferd und zu Fuß zurück (vgl. die Übersicht zur Reiseroute in der einleitenden Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11686">
+<label xml:id="GB03_2_BR388_0_note_016_220_34" copyOf="#start_com_3341"><hi rendition="#fett">220,34</hi>Mantelsack</label>
+<p>Ein Reisesack zum Transport insbesondere des Mantels und anderer Kleidung (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 68; <ref target="sndb:sigle#2890">Grimm</ref> 12, 1614).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18091">
+<label xml:id="GB03_2_BR388_0_note_017_220_34" copyOf="#start_com_3342"><hi rendition="#fett">220,34</hi>Schlossen</label>
+<p>Hagelschauer; die Schloße: Hagelkorn (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1539; <ref target="sndb:sigle#2890">Grimm</ref> 15, 775). Vgl. Vers 2 des Gedichts „Auf dem Harz“ in der Beilage zum vorliegenden Brief sowie ferner Goethes Tagebuchnotizen unter dem 29. November 1777 über den Aufbruch zu seiner Reise: <quote type="G">Früh gegen sieben ab übern Ettersberg in scharfen Schlossen</quote> (<ref target="gt:dokument#483">GT I 1, 52</ref>). Auch im Brief an Charlotte von Stein vom 4. Dezember 1777 berichtet Goethe von <quote type="G">Sturm Schnee, Schlossen, Regen</quote> (<ref target="gb:text#GB03_1_BR309_0_179_012">179,12</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11694">
+<label xml:id="GB03_2_BR388_0_note_018_220_34" copyOf="#start_com_3343"><hi rendition="#fett">220,34</hi>Koth</label>
+<p>Hier allgemein im Sinn von ‚Schmutz‘, besonders ‚Straßenschmutz‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11, 1892).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11695">
+<label xml:id="GB03_2_BR388_0_note_019_221_1" copyOf="#start_com_3344"><hi rendition="#fett">221,1</hi>Baumanshöle</label>
+<p>Tropfsteinhöhle in der zu Elbingerode gehörenden Ortschaft Rübeland (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_009_186_6">186,6</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11696">
+<label xml:id="GB03_2_BR388_0_note_020_221_3-4" copyOf="#start_com_3345"><hi rendition="#fett">221,3-4</hi>den 8 ten Dez. <gap quantity="3" reason="editorial"/> auf dem Brocken</label>
+<p>Goethe hatte den Brocken am 10. Dezember 1777 bestiegen (vgl. <ref target="gb:text#GB03_1_BR312_0_186_024 #GB03_1_BR312_0_186_025">186,24–25</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11697">
+<label xml:id="GB03_2_BR388_0_note_021_221_6" copyOf="#start_com_3346"><hi rendition="#fett">221,6</hi>der Förster</label>
+<p>Christoph Degen, Förster und Gastwirt in der Siedlung Torfhaus etwa 8 km westlich des Brockens.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11698">
+<label xml:id="GB03_2_BR388_0_note_022_221_7" copyOf="#start_com_3347"><hi rendition="#fett">221,7</hi>persvadirt</label>
+<p>Lat. persuadere: überreden.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11699">
+<label xml:id="GB03_2_BR388_0_note_023_221_10-11" copyOf="#start_com_3348"><hi rendition="#fett">221,10-11</hi>tausend Gedancken <gap quantity="3" reason="editorial"/> auf beyliegendem Blat</label>
+<p>Vgl. die <ref target="gb:dokument#11894">Beilage</ref>.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11707">
+<label xml:id="GB03_2_BR388_0_note_024_221_12" copyOf="#start_com_3349"><hi rendition="#fett">221,12</hi>Auch in Berlin war ich im Früjahr</label>
+<p>Vom 10. Mai bis zum 1. Juni 1778 hatte Goethe als Begleiter des Herzogs Carl August eine Reise über Leipzig, Wörlitz und Potsdam nach Berlin unternommen. Dort hielten sie sich vom 15. bis 20. Mai auf. Anlass der Reise war der Wunsch des Herzogs, die politische Lage im Vorfeld des drohenden Bayerischen Erbfolgekriegs zwischen Preußen und Österreich zu sondieren. Vgl. die Schilderung des Berlin-Besuchs im Brief an Charlotte von Stein vom 17. bis 24. Mai 1778 (<ref target="gb:text#GB03_1_BR363_0_209_005 #GB03_1_BR363_0_209_019">209,5–19</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11712">
+<label xml:id="GB03_2_BR388_0_note_025_221_12" copyOf="#start_com_3350"><hi rendition="#fett">221,12</hi>ein ganz ander Schauspiel</label>
+<p>Die <quote type="G">Pracht der Konigstadt</quote> (<ref target="gb:text#GB03_1_BR363_0_209_015 #GB03_1_BR363_0_209_016">209,15–16</ref>) und die vielfältigen <quote type="G">Zurüstungen</quote> (<ref target="gb:text#GB03_1_BR363_0_209_018">209,18</ref>) zum Krieg (Brief an Charlotte von Stein, 17. bis 24. Mai 1778) machten auf Goethe einen befremdenden Eindruck (vgl. zu <ref target="gb:note#GB03_2_BR363_0_note_002_209_1-2">209,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18097">
+<label xml:id="GB03_2_BR388_0_note_026_221_14" copyOf="#start_com_3351"><hi rendition="#fett">221,14</hi>Schone raritäten Kasten</label>
+<p>Ein Raritäten- oder Guckkasten war ein meist auf Jahrmärkten vorgeführter Schaukasten, oft mit mechanischen Vorrichtungen versehen, „in welchem diese oder jene alte oder neue Geschichte im kleinen und durch darzu verfertigtes Puppenwerck, so gezogen werden kan, vorgestellet wird. Es pflegen gemeine Leute, so mehrentheils Italiäner von Geburth, mit solchen Kasten die Messen in Deutschland zu besuchen, auf den Gassen herum zu lauffen und durch ein erbärmliches Geschrey: <hi rendition="#hervor1">Schöne Rarität! Schöne Spielwerck!</hi> Liebhaber an sich zu locken, die vors Geld hinein sehen. Weil nun solche Dinge mehr vor Kinder als erwachsene und angesehene Leute gehören, so pfleget man daher Dinge, die man herunter und lächerlich machen will, Schöne Raritäten, schöne Spielwercke zu nennen.“ (<ref target="sndb:sigle#3152">Zedler</ref> 30, 891.)</p>
+
+</note>
+<note xml:id="gb11894_comment_com11713">
+<label xml:id="GB03_2_BR388_0_note_027_221_15-16" copyOf="#start_com_3352"><hi rendition="#fett">221,15-16</hi>dem alten Friz bin ich recht nah worden</label>
+<p>In Potsdam und Berlin. Friedrich II. (der Große), König von Preußen, befand sich zur Zeit von Goethes Aufenthalt in Berlin im Feldlager im schlesischen Schönwalde (heute Budzów, Polen). Vgl. die im Hauptquartier zu Schönwalde zahlreich geschriebenen Briefe Friedrichs in: Politische Correspondenz Friedrich’s des Großen. 41. Bd. Mai bis Oktober 1778. Bearbeitet von Gustav Berthold Volz. Leipzig 1929.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18108">
+<label xml:id="GB03_2_BR388_0_note_028_221_16" copyOf="#start_com_3353"><hi rendition="#fett">221,16</hi>ich hab sein Wesen gesehn</label>
+<p>Im Brief an Charlotte von Stein vom 17. bis 24. Mai 1778 fasst Goethe seine Eindrücke von der Berliner Hofgesellschaft mit den Worten zusammen: <quote type="G">So viel kann ich sagen ie gröser die Welt desto garstiger wird die Farce</quote> (<ref target="gb:text#GB03_1_BR363_0_210_001 #GB03_1_BR363_0_210_002">210,1–2</ref>; vgl. auch <ref target="gb:text#GB03_1_BR363_0_209_020 #GB03_1_BR363_0_209_023">209,20–23</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11722">
+<label xml:id="GB03_2_BR388_0_note_029_221_16-17" copyOf="#start_com_3354"><hi rendition="#fett">221,16-17</hi>Gold Silber <gap quantity="3" reason="editorial"/> und zerrissne Vorhänge</label>
+<p>Mit Bezug auf den Besuch in Potsdam am 15. Mai 1778 und die Besichtigung von Schloss Sanssouci am Nachmittag dieses Tages. Im Chinesischen Haus im Park des Schlosses sind Deckenmalereien mit Papageien, Affen und sitzenden Buddhafiguren zu sehen, an den mit Stuckmarmor überzogenen Wänden gleichfalls in Stuck gearbeitete Affen mit Instrumenten sowie vergoldete Kerzenhalter und ein mit Blattgold überzogener Kronleuchter. Von den Hunden des Königs zerrissene Vorhänge, beschädigte Sofas und Sessel gab es im Schloss selbst.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11723">
+<label xml:id="GB03_2_BR388_0_note_030_221_18" copyOf="#start_com_3355"><hi rendition="#fett">221,18</hi>seine eigne Lumpenhunde</label>
+<p>Offiziere des Prinzen Heinrich, die dem König und seinen Kriegsplänen kritisch gegenüberstanden.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18157">
+<label xml:id="GB03_2_BR388_0_note_031_221_19" copyOf="#start_com_3356"><hi rendition="#fett">221,19</hi>Pr. Heinrichs Armee</label>
+<p>Prinz Heinrich von Preußen, dem Goethe persönlich begegnet war (vgl. <ref target="gb:text#GB03_1_BR363_0_209_003">209,3</ref>), erfolgreicher Heerführer im Siebenjährigen Krieg und geschickter Diplomat, war der ungeliebte Bruder Friedrichs II. Dieser hatte ihm Schloss Rheinsberg in Brandenburg als Residenz überlassen. Prinz Heinrich machte es zu einer Stätte von Kunst und freisinniger Geselligkeit, von der sich aufklärerische Ideen ausbreiteten, sowie zum Sammelpunkt der militärischen Opposition gegen den König. Als Feldherr führte er seine Truppen weit defensiver und mit weniger Verlusten als sein Bruder. Auch vor dem Bayerischen Erbfolgekrieg versuchte der König zunächst vergeblich, seinen Bruder, der auf eine Verhandlungslösung setzte, von der Notwendigkeit zu überzeugen, in Böhmen die militärische Auseinandersetzung mit den Österreichern zu suchen und eine Entscheidung herbeizuführen. Schließlich nahm Heinrich als Generalleutnant am Krieg teil, verhielt sich jedoch weitgehend passiv.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11724">
+<label xml:id="GB03_2_BR388_0_note_032_221_19" copyOf="#start_com_3357"><hi rendition="#fett">221,19</hi>passirt</label>
+<p>‚Passieren‘ hier im Sinne von ‚hindurchreisen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 667).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18115">
+<label xml:id="GB03_2_BR388_0_note_033_221_19" copyOf="#start_com_3358"><hi rendition="#fett">221,19</hi>Maneuvres</label>
+<p>Die Rückreise führte Goethe durch die aufmarschierten Truppen des Prinzen Heinrich. Bei Aken an der Elbe (westlich von Dessau) beobachtete er am 27. Mai 1778 ein <quote type="G">schön Maneuvre</quote> (<ref target="gb:text#GB03_1_BR364_0_210_027 #GB03_1_BR364_0_210_028">210,27–28</ref>; vgl. <ref target="gt:dokument#588">GT I 1, 64</ref>). Zuvor war Goethe schon am 19. Mai bei einem <quote type="G">Maneuvre</quote> (<ref target="gt:dokument#580">GT I 1, 64</ref>) zugegen gewesen, vielleicht auf dem Exerzierplatz im nordöstlichen Tiergarten oder auf dem Tempelhofer Feld südlich der Stadt (vgl. <ref target="sndb:sigle#2805">Detemple</ref>, 79).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11734">
+<label xml:id="GB03_2_BR388_0_note_034_221_20-21" copyOf="#start_com_3359"><hi rendition="#fett">221,20-21</hi>bey Tisch gegenüber gehabt</label>
+<p>Offenbar bei Gelegenheit des Manöverbesuchs am 27. Mai 1778 (vgl. die vorhergehende <ref target="gb:note#GB03_2_BR388_0_note_033_221_19">Erläuterung</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11735">
+<label xml:id="GB03_2_BR388_0_note_035_221_21" copyOf="#start_com_3360"><hi rendition="#fett">221,21</hi>dem iezzigen Kriege</label>
+<p>Der bevorstehende Bayerische Erbfolgekrieg.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11736">
+<label xml:id="GB03_2_BR388_0_note_036_221_22-23" copyOf="#start_com_3361"><hi rendition="#fett">221,22-23</hi>Mit Menschen <gap quantity="3" reason="editorial"/> nichts zu verkehren gehabt</label>
+<p>Über die Begegnungen, die Goethe in Berlin hatte, vgl. zu <ref target="gb:note#GB03_2_BR363_0_note_006_209_5">209,5</ref>.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18122">
+<label xml:id="GB03_2_BR388_0_note_037_221_23-24" copyOf="#start_com_3362"><hi rendition="#fett">221,23-24</hi>kein laut Wort <gap quantity="3" reason="editorial"/> nicht könnten drucken lassen</label>
+<p>Goethes Zurückhaltung im gesellschaftlichen Umgang war eine Vorsichtsmaßnahme (vgl. zu <ref target="gb:note#GB03_2_BR363_0_note_001_209_1">209,1</ref>; zu <ref target="gb:note#GB03_2_BR363_0_note_013_209_22">209,22</ref>), brachte ihm aber den Vorwurf der Arroganz ein (vgl. die folgende <ref target="gb:note#GB03_2_BR388_0_note_038_221_24-25">Erläuterung</ref>). Im Brief an Charlotte von Stein vom 17. bis 24. Mai 1778 benutzt er das Bild von <quote type="G">eisernen Reifen mit denen mein Herz eingefasst wird</quote> (<ref target="gb:text#GB03_1_BR363_0_209_025 #GB03_1_BR363_0_209_026">209,25–26</ref>); zuvor heißt es, es welke <quote type="G">die Blüte des Vertrauens der Offenheit, der hingebenden Liebe täglich mehr</quote> dahin (<ref target="gb:text#GB03_1_BR363_0_209_008 #GB03_1_BR363_0_209_009">209,8–9</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18176">
+<label xml:id="GB03_2_BR388_0_note_038_221_24-25" copyOf="#start_com_3363"><hi rendition="#fett">221,24-25</hi>als stolz pp ausgeschrien</label>
+<p>Diesen Eindruck hatte vor allem der preußische Kammerherr Reichsgraf Ernst Ahasverus Heinrich von Lehndorff, der am 17. Mai 1778 Goethes Tischnachbar beim Prinzen Heinrich war (vgl. zu <ref target="gb:note#GB03_2_BR363_0_note_003_209_3">209,3</ref>). – Johann Wilhelm Ludwig Gleim schrieb rückblickend in einem Brief an Caroline Herder vom 14. Februar 1787: „Den Berlinern kam er stolz vor, und wurde deswegen nicht eben überall gut aufgenommen. Sie wissen, daß er einst mir auch so vorkam. Also mögen die Berliner nicht ganz unrecht haben.“ (<ref target="bug:dokument#5623">BuG 2, 81</ref>.) Anna Louisa Karsch erklärte sich den Eindruck, den Goethe zurückließ, in einem Brief vom 27. Mai 1778 an ihren Förderer Gleim folgendermaßen: „<gap quantity="3" reason="editorial"/> unns gefiel Er gut, Codowiekyn auch, aber die anndern Herren sind gar nicht zufrieden mitt Ihm, <gap quantity="3" reason="editorial"/> Er ist Eines Tages bey Einem Baron auffm Concert gewesen, und da hatt Ihm die gannze Versammlung sehr Stolz gefunden, weill Er nicht bükerling und Hanndkuß vertheiltte“ (<ref target="sndb:sigle#2185">Karsch-Gleim</ref> 2, 119 f.). In ähnlichem Sinn äußerte sich auch Georg Forster in einem Brief an Friedrich Heinrich Jacobi vom 28. April 1779 nach einem Besuch in Berlin: „Das sonderbarste ist, daß die Berliner durchaus diese Biegsamkeit des Charakters (wobei der Mensch so leicht zum Schurken und Spitzbuben wird) von einem Fremden erfordern. Was Wunder also daß Göthe dort so sehr, so allgemein misfallen hat, und seiner Seits auch mit der verdorbenen Brut so unzufrieden gewesen ist!“ (<ref target="sndb:sigle#2941">JB</ref> I 2, 94.)</p>
+
+</note>
+<note xml:id="gb11894_comment_com11748">
+<label xml:id="GB03_2_BR388_0_note_039_221_26" copyOf="#start_com_3364"><hi rendition="#fett">221,26</hi>Die Raphaels <gap quantity="3" reason="editorial"/> mitgebracht hat</label>
+<p>Merck war für Herzog Carl August, Herzoginmutter Anna Amalia und auch für Goethe als Kunstagent tätig. Vor allem vermittelte er den Kauf von Druckgraphik (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10969_comment_com5152">Nr 292</ref>). Hier ist die Rede von Kupferstichen nach Vorlagen Raffaels, die Merck beschafft und Anna Amalia von ihrer Rheinreise (vgl. zu <ref target="gb:note#GB03_2_BR388_0_note_002_219_17-19">219,17-19</ref>) mitgebracht hatte. Vermutlich waren sie nicht für Goethe bestimmt, sondern für den Herzog; denn in den Schatullrechnungen des Weimarer Hofs findet sich mit Bezug auf den Frankfurter Aufenthalt der Reisegesellschaft Anna Amalias im Juli 1778 der Posten: „Für Kupferstiche an Merck bezahlt 30 Kopfstücke“ (zitiert nach: Johann Heinrich Mercks Briefe <gap quantity="3" reason="editorial"/>. Hrsg. von Hans Gerhard Gräf. Leipzig 1911, S. 268).</p>
+
+</note>
+<note xml:id="gb11894_comment_com15522">
+<label xml:id="GB03_2_BR388_0_note_040_221_27-28" copyOf="#start_com_3365"><hi rendition="#fett">221,27-28</hi>alten Steinbruch</label>
+<p>Der Steinbruch bei der Ortschaft Oettern südlich von Weimar. Dort hat sich die Ilm tief in den Kalkstein eingegraben. In dem Steinbruch wurde der so genannte Oetternsche Stein gebrochen, der als ‚Thüringer Marmor‘ galt, d. h. als Ersatz für den teuren (echten) Marmor. <gap quantity="3" reason="editorial"/> <quote type="G">wie schwer es hält einen Marmorblock bis nach Weimar zu bringen, haben wir schon erfahren</quote>, schreibt Goethe noch am 27. Mai 1816 an Herzog Carl August (<ref target="sndb:sigle#1157">WA</ref> IV 27, 30). Der Oetternsche Stein wird auch im Brief an Lavater vom 3. bis 5. Dezember 1779 (vgl. <ref target="gb:text#GB03_1_BR557_0_364_010 #GB03_1_BR557_0_364_012">364,10–12</ref>) erwähnt. Er wurde im 17. Jahrhundert beim Bau des (1774 abgebrannten) Weimarer Schlosses als Ornamentstein verwendet. Aus diesem Stein schuf Martin Gottlieb Klauer auch die 1780 bzw. 1781 entstandenen Büsten von Goethe (in Tiefurt) und Herder (im Rokokosaal der Anna Amalia Bibliothek).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11761">
+<label xml:id="GB03_2_BR388_0_note_041_221_29" copyOf="#start_com_3366"><hi rendition="#fett">221,29</hi>Quadraturen</label>
+<p>Hier sind quadratische Ornamente gemeint.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11762">
+<label xml:id="GB03_2_BR388_0_note_042_221_30" copyOf="#start_com_3367"><hi rendition="#fett">221,30</hi>Delikatesse</label>
+<p>Franz.: Zartheit, Feingefühl.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11763">
+<label xml:id="GB03_2_BR388_0_note_043_221_33" copyOf="#start_com_3368"><hi rendition="#fett">221,33</hi>Französche Dosen</label>
+<p>So genannte ‚Lackarbeiten‘. Besonderen Rang hatten die Produkte aus der Pariser Werkstatt der Lackkünstler-Familie Martin; der Begriff ‚Vernis-Martin‘ bezeichnete im 18. Jahrhundert stark glänzende Lackarbeiten vor allem auf Holz (Täfelungen, Möbel, Dosen u. Ä.).</p>
+
+</note>
+<note xml:id="gb11894_comment_com18038">
+<label xml:id="GB03_2_BR388_0_note_044_222_1" copyOf="#start_com_3369"><hi rendition="#fett">222,1</hi>Wenns nicht Krieg giebt</label>
+<p>Der Konflikt um die Bayerische Erbfolgeregelung wurde auf Vermittlung Russlands und Frankreichs durch Verhandlungen zwischen Preußen und Österreich beigelegt, die am 13. Mai 1779 zum Frieden von Teschen (östlicher Teil der heutigen polnisch-tschechischen Grenzstadt Cieszyn/Ceský Tešín im Süden Polens) führten. Größere Kampfhandlungen hatten nicht stattgefunden. Für seinen Verzicht auf Bayern erhielt Österreich das Innviertel (zwischen Salzburg und Linz).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11764">
+<label xml:id="GB03_2_BR388_0_note_045_222_1-2" copyOf="#start_com_3370"><hi rendition="#fett">222,1-2</hi>besuch ich euch</label>
+<p>Auf der Reise in die Schweiz besuchten Goethe und Herzog Carl August vom 18. bis 22. September 1779 Frankfurt. Dort sahen sie Merck wieder, der ihnen auf der Weiterreise bis Eberstadt das Geleit gab.</p>
+
+</note>
+<note xml:id="gb11894_comment_com15530">
+<label xml:id="GB03_2_BR388_0_note_046_222_5-6" copyOf="#start_com_3371"><hi rendition="#fett">222,5-6</hi>Auf dem Harz im Dezember. 1778.</label>
+<p>Die Jahreszahl 1778 bezieht sich wohl nicht auf die vorangehende Monatsangabe <quote type="G">Dezember</quote>, also nicht auf die Entstehung des Gedichts (im Dezember 1777), sondern auf den Zeitpunkt der Abschrift durch Seidel (im Jahr 1778). Dies mag auch den Punkt zwischen <quote type="G">Dezember</quote> und <quote type="G">1778</quote> erklären. – Das von Philipp Seidel als Beilage niedergeschriebene Gedicht ist die älteste autorisierte Textüberlieferung der „Harzreise im Winter“ (vgl. Eva Beck: Zur handschriftlichen Überlieferung der „Harzreise im Winter“. In: <ref target="sndb:sigle#1266">GJb</ref> 98 [1981], S. 259 f.). Es erschien erstmals im 8. Band von „Goethe’s Schriften“ (Leipzig 1789, S. 193–197). – Im Folgenden können nur einige Sacherläuterungen gegeben werden. Zum Verständnis des Gedichts hat Goethe selbst in einer Erwiderung auf die Schrift „Über Goethe’s Harzreise im Winter“ (Prenzlau 1820) von Karl Ludwig Kannegießer Hinweise gegeben, erschienen in „Über Kunst und Alterthum“ (Dritten Bandes zweytes Heft 1821, S. 43–59; vgl. <ref target="sndb:sigle#1157">WA</ref> I 41.1, 328–339). Zur Deutung vgl. darüber hinaus die Anmerkungen und Literaturhinweise von Bernd Leistner in: <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 1, 159–163, insbesondere aber Schöne, Harzreise.</p>
+
+</note>
+<note xml:id="gb11894_comment_com15248">
+<label xml:id="GB03_2_BR388_0_note_047_222_7" copyOf="#start_com_3372"><hi rendition="#fett">222,7</hi>Dem Geier gleich</label>
+<p>Diese Verszeile findet sich im selben Wortlaut in Goethes Tagebuch unter dem 1. Dezember 1777 (vgl. <ref target="gt:dokument#485">GT I 1, 53</ref>). Über die Bezeichnung ‚Geier‘ vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_007_186_3">186,3</ref>.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11778">
+<label xml:id="GB03_2_BR388_0_note_048_222_19" copyOf="#start_com_3373"><hi rendition="#fett">222,19</hi>Sträubt</label>
+<p>Transitiver Gebrauch von ‚sträuben‘ im Sinn von ‚sich wehren‘ auch zeitgenössisch selten (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 425).</p>
+
+</note>
+<note xml:id="gb11894_comment_com14127">
+<label xml:id="GB03_2_BR388_0_note_049_222_21" copyOf="#start_com_3374"><hi rendition="#fett">222,21</hi>ehrenen</label>
+<p>Verschrieben für ‚ehernen‘.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11779">
+<label xml:id="GB03_2_BR388_0_note_050_222_24" copyOf="#start_com_3375"><hi rendition="#fett">222,24</hi>dichigts Schauer</label>
+<p>In späteren Fassungen heißt es ‚Dickichts-Schauer‘.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18058">
+<label xml:id="GB03_2_BR388_0_note_051_222_25" copyOf="#start_com_3376"><hi rendition="#fett">222,25</hi>das rauhe Wild</label>
+<p>Vermutlich nach der Waidmannssprache „von thieren, deren fell struppichte haare hat“, und überhaupt „vom thiere, dessen fell ein pelz ist“ (<ref target="sndb:sigle#2890">Grimm</ref> 14, 264), wie in der Bezeichnung ‚Rauchwaren‘. – Herzog Carl August befand sich im November/Dezember 1777 auf der Wildschweinjagd in der Nähe von Eisenach. Aus dem Harz zurückkehrend, schloss sich Goethe am 15. Dezember der Jagdgesellschaft an (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com16150">
+<label xml:id="GB03_2_BR388_0_note_052_223_1-2" copyOf="#start_com_3377"><hi rendition="#fett">223,1-2</hi>Wagen / Den Fortuna führt</label>
+<p>Zu den Attributen der römischen Glücksgöttin Fortuna gehört auch die Deichsel eines Wagens (vgl. <ref target="sndb:sigle#2906">Hederich</ref>, 1125), ähnlich wie das Attribut des Steuerruders Symbol dafür, dass sie die „Regierung aller Dinge“ (<ref target="sndb:sigle#2906">Hederich</ref>, 1127), insbesondere die des menschlichen Schicksals, in Händen hält.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11790">
+<label xml:id="GB03_2_BR388_0_note_053_223_20" copyOf="#start_com_3378"><hi rendition="#fett">223,20</hi>Psalter</label>
+<p>Psalterium: mittelalterliches Saiteninstrument; Vorläufer von Zither und Harfe.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11791">
+<label xml:id="GB03_2_BR388_0_note_054_224_2" copyOf="#start_com_3379"><hi rendition="#fett">224,2</hi>Wehr’t mit Knütteln der Bauer</label>
+<p>Da die Hochwildjagd zu den Privilegien des Adels gehörte, durfte der Bauer Wildschweine nur mit Knütteln von seinen Äckern fernhalten.</p>
+
+</note>
+<note xml:id="gb11894_comment_com18067">
+<label xml:id="GB03_2_BR388_0_note_055_224_9" copyOf="#start_com_3380"><hi rendition="#fett">224,9</hi>Mit der dämmernden Fakel</label>
+<p>Mit biographischem Bezug; im Tagebuch heißt es unter dem 30. November 1777: <quote type="G">Auf Sachswerben, wo ich einen Boten mit einer Laterne nehmen musste, um durch die tiefe Finsterniss hierher <hi rendition="#hervor1">Ilefeld</hi> zu kommen.</quote> (<ref target="gt:dokument#484">GT I 1, 53</ref>.)</p>
+
+</note>
+<note xml:id="gb11894_comment_com15719">
+<label xml:id="GB03_2_BR388_0_note_056_224_20" copyOf="#start_com_3381"><hi rendition="#fett">224,20</hi>Altar des lieblichsten Danks</label>
+<p>Ähnlich in Goethes Brief an Charlotte von Stein vom 30. November bis 15. Dezember 1777 (vgl. <ref target="gb:text#GB03_1_BR311_0_184_024 #GB03_1_BR311_0_184_026">184,24–26</ref>).</p>
+
+</note>
+<note xml:id="gb11894_comment_com11792">
+<label xml:id="GB03_2_BR388_0_note_057_224_25" copyOf="#start_com_3382"><hi rendition="#fett">224,25</hi>Geweide</label>
+<p>Eingeweide; von Goethe nur einige Mal im Jahr 1777 gebraucht.</p>
+
+</note>
+<note xml:id="gb11894_comment_com11793">
+<label xml:id="GB03_2_BR388_0_note_058_224_27-28" copyOf="#start_com_3383"><hi rendition="#fett">224,27-28</hi>Ueber der erstaunten Welt / Und schaust aus Wolken</label>
+<p>Ähnlich in Goethes Brief an Charlotte von Stein vom 30. November bis 15. Dezember 1777 (vgl. <ref target="gb:text#GB03_1_BR312_0_186_025 #GB03_1_BR312_0_186_026">186,25–26</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="810"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10708" n="GB 3, Nr. 81">
+  <teiHeader xml:id="gb10708_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>81.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 13. April 1776. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10708_tei.xml</idno>
+        <idno type="URI">gb10708</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR081_0</idno>
+        <idno type="KSW-ID">10708</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="52" to="52">52</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="204" to="205">204-205</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10708_header_hwit932" corresp="#gb10708_source_hwit932" sameAs="#gb10708_comment_hwit932" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 12</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10708,,932/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Frau hier ein Zettelgen da ich selbst nicht komme. Wie haben Sie geschlafen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-13">13. April 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10708_source_hwit932" corresp="#gb10708_header_hwit932" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10708/22306"/>
+      <p>
+        <anchor xml:id="GB03_1_BR081_0_052_005"/>Liebe Frau hier ein Zettelgen <ref target="gb:note#GB03_2_BR081_0_note_001_52_5" xml:id="start_com_0812"/>da ich selbst nicht komme<ref xml:id="end_com_0812"/>. Wie haben 
+<anchor xml:id="GB03_1_BR081_0_052_006"/>Sie geschlafen auf <ref target="gb:note#GB03_2_BR081_0_note_002_52_6" xml:id="start_com_0813"/>das gestrige Schwärmen<ref xml:id="end_com_0813"/>? Mir ists wohl, und im 
+<anchor xml:id="GB03_1_BR081_0_052_007"/>Herzen, dass ich’s nicht sagen kann, voll <ref target="gb:note#GB03_2_BR081_0_note_003_52_7" xml:id="start_com_0814"/>Ahndung<ptr n="1" target="#a001_52.7"/> und Hoffnung<ref xml:id="end_com_0814"/> im 
+<anchor xml:id="GB03_1_BR081_0_052_008"/>gegenwärtigen. Doch wollt ich dass mich einmal wieder was zu lachen 
+<anchor xml:id="GB03_1_BR081_0_052_009"/>machte, und dass mir ein Affisches Wesen wieder ins Blut käm. 
+<anchor xml:id="GB03_1_BR081_0_052_010"/>Addio. <ref target="gb:note#GB03_2_BR081_0_note_004_52_10" xml:id="start_com_0815"/>Zeichnen Sie brav<ref xml:id="end_com_0815"/> ich will auch heut an Sie dencken Nur 
+<anchor xml:id="GB03_1_BR081_0_052_011"/>hierauf ein Wort, bitte bitte</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR081_0_052_012"/>d<g ref="#typoSuspension"/>. 13 Apr. 76.                                    </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10708_comment">
+<body>
+<div type="metadata" xml:id="gb10708_comment_com37">
+  <ab type="numberAddressee"><label>81.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 13. April 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10708_comment_com2081">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 12. – 1 Bl. 16,8 × 10,2 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#xBE; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „31.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 31), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 23.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 51, Nr 436.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10708_comment_com3877">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10708_comment_com9798">
+<label xml:id="GB03_2_BR081_0_note_001_52_5" copyOf="#start_com_0812"><hi rendition="#fett">52,5</hi>da ich selbst nicht komme</label>
+<p>Wahrscheinlich war Goethe noch immer bei dem erkrankten Herzog Carl August, den er in diesen Tagen kaum verließ (vgl. zu <ref target="gb:note#GB03_2_BR080_0_note_002_52_2">52,2</ref>).</p>
+
+</note>
+<note xml:id="gb10708_comment_com17527">
+<label xml:id="GB03_2_BR081_0_note_002_52_6" copyOf="#start_com_0813"><hi rendition="#fett">52,6</hi>das gestrige Schwärmen</label>
+<p>Eine private Geselligkeit; laut Fourierbuch nahmen am Abend des 12. April 1776 neben der Herzogin und deren beiden Hofdamen nur sieben Personen an der fürstlichen Tafel teil, Charlotte von Stein und deren Mann waren nicht darunter, aber deren Mutter „Frau Gehr. v. Schard“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 111). – Offenbar auf einem Irrtum beruht die auf Düntzer zurückgehende Vermutung, dass Charlotte von Stein am 12. April „bei der Feier des Geburtstages ihres ältern, noch ledigen Bruders, des Regierungsrathes von Schardt“ gewesen sei (<ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref>, 31, Anm. 6; so auch bei <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 560, zu Nr 39). Der Geburtstag Carl von Schardts, des älteren der beiden Brüder Charlotte von Steins, fiel nicht auf den 12., sondern auf den 2. April. Er war 1744 geboren, also zwei Jahre jünger als Charlotte.</p>
+
+</note>
+<note xml:id="gb10708_comment_com9799">
+<label xml:id="GB03_2_BR081_0_note_003_52_7" copyOf="#start_com_0814"><hi rendition="#fett">52,7</hi>Ahndung und Hoffnung</label>
+<p>‚Ahndung‘ hier als ‚Vorahnung des persönlichen Schicksals‘ mit positiver Konnotation (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 298), mit Bezug auf die Zukunftsaussichten Goethes am Weimarer Hof (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb10708_comment_com17538">
+<label xml:id="GB03_2_BR081_0_note_004_52_10" copyOf="#start_com_0815"><hi rendition="#fett">52,10</hi>Zeichnen Sie brav</label>
+<p>Goethe, der als Leipziger Student Privatschüler Adam Friedrich Oesers, des Direktors der Leipziger Zeichenakademie, gewesen war, berichtet in seinen frühen Briefen wiederholt von seiner Leidenschaft für das Zeichnen und Malen (vgl. u. a. <ref target="gb:text#GB01_1_BR124_0_251_017 #GB01_1_BR124_0_251_022">GB 1 I, 251,17–22</ref>; <ref target="gb:note#GB01_2_BR119_0_note_002_246_24-247_1">GB 1 II, zu 246,24–247,1</ref>). Dass er auch Charlotte von Stein für das Zeichnen zu begeistern suchte, belegen seine Briefe an sie, in denen etwa seit Juni 1776 verstärkt die Rede davon ist (vgl. <ref target="gb:text#GB03_1_BR122_0_072_013 #GB03_1_BR122_0_072_014">72,13–14</ref>; <ref target="gb:text#GB03_1_BR125_0_074_014">74,14</ref>; <ref target="gb:text#GB03_1_BR135_0_078_014 #GB03_1_BR135_0_078_015">78,14–15</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

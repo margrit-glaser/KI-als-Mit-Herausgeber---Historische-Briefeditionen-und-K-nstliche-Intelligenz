@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1580"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11946" n="GB 3, Nr. 156">
+  <teiHeader xml:id="gb11946_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>156.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, etwa 15. August 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:56Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11946_tei.xml</idno>
+        <idno type="URI">gb11946</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR156_0</idno>
+        <idno type="KSW-ID">11946</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="97" to="97">97</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="366" to="368">366-368</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11946_header_hwit1039" corresp="#gb11946_source_hwit1039" sameAs="#gb11946_comment_hwit1039" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 19</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11946,,1039/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier einige Knospen und Blüten die der Frühling 1769 trieb. Schicken</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11946_header_acc270" corresp="gb11946_comment_acc270">
+            <objectIdentifier>
+              <objectName>Wahrscheinlich die Gedichtsammlung „Neue Lieder“ </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-08-15"><supplied>etwa 15. August 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11946_source_hwit1039" corresp="#gb11946_header_hwit1039" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11946/22434"/>
+      <p>
+        <anchor xml:id="GB03_1_BR156_0_097_013"/>Hier einige <ref target="gb:note#GB03_2_BR156_0_note_001_97_13" xml:id="start_com_1503"/>Knospen und Blüten die der Frühling 1769 trieb<ref xml:id="end_com_1503"/>. Schicken 
+<anchor xml:id="GB03_1_BR156_0_097_014"/>Sie mir <ref target="gb:note#GB03_2_BR156_0_note_002_97_14" xml:id="start_com_1504"/>die Phisiognomick<ref xml:id="end_com_1504"/><ptr n="1" target="#a001_97.14"/> wieder, Ich will sie<ptr n="2" target="#a002_97.14"/>
+        <ref target="gb:note#GB03_2_BR156_0_note_003_97_14" xml:id="start_com_1505"/>binden lassen<ref xml:id="end_com_1505"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR156_0_097_015"/>
+        <ref target="gb:note#GB03_2_BR156_0_note_004_97_15" xml:id="start_com_1506"/>Gestern Nacht<ref xml:id="end_com_1506"/> wurd ich von Ihnen ausgehend <ref target="gb:note#GB03_2_BR156_0_note_005_97_15-16" xml:id="start_com_1507"/>von Vagabunden 
+<anchor xml:id="GB03_1_BR156_0_097_016"/>attakirt<ref xml:id="end_com_1507"/>. Adieu! Liebste Frau, mein Herz sagt mir nicht ob ich Sie 
+<anchor xml:id="GB03_1_BR156_0_097_017"/>heute sehn werde, es ist einmal wieder in Bewegung und weis nicht 
+<anchor xml:id="GB03_1_BR156_0_097_018"/>warum. Wie aber geschrieben steht, <ref target="gb:note#GB03_2_BR156_0_note_006_97_18-19" xml:id="start_com_1508"/>so ihr stille wärt würde euch geholfen<ref xml:id="end_com_1508"/>, 
+<anchor xml:id="GB03_1_BR156_0_097_019"/>so will ich still seyn</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR156_0_097_020"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11946_comment">
+<body>
+<div type="metadata" xml:id="gb11946_comment_com813">
+  <ab type="numberAddressee"><label>156.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>etwa 15. August 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11946_comment_com1767">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd II) ist der vorliegende Brief in den August 1779 eingeordnet. Seit dem Erstdruck wird er ins Jahr 1776 gesetzt, bei Schöll in die Zeit zwischen dem 22. und 25. April, bei Fielitz in den August (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 50, Nr 84), in der WA folgt er unmittelbar dem Brief an Philipp Christoph Kayser vom 15. August 1776 (<ref target="gb:dokument#11146">Nr 155</ref>; vgl. <ref target="sndb:sigle#1157">WA</ref> IV 3, 287–289; datiert von Eduard von der Hellen, vgl. ebd., 272). Diese Datierung, die von allen späteren Ausgaben übernommen wurde, erscheint am plausibelsten: Für 1776 spricht das Briefpapier (vgl. <ref target="gb:note#gb11946_comment_com2857">Überlieferung</ref>), das Goethe etwa von 1774 bis Mitte 1776 verwendete (vgl. Datierung zu Nr 25). Dass der Brief etwa am 15. August geschrieben sein könnte, legt die sprachliche Parallele zum datierten Brief an Kayser vom selben Tag nahe (vgl. zu <ref target="gb:note#GB03_2_BR155_0_note_003_97_6-7">97,6-7</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11946_comment_com2857">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 19. – 1 Bl. 16,8 × 10,8 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#xBE; S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „39.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 40), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 28.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 288, Nr 498a.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11946_comment_com3681">
+  <p>Wahrscheinlich die Gedichtsammlung „Neue Lieder“ (vgl. zu <ref target="gb:note#GB03_2_BR156_0_note_001_97_13">97,13</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11946_comment_com4653">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11946_comment_com11625">
+<label xml:id="GB03_2_BR156_0_note_001_97_13" copyOf="#start_com_1503"><hi rendition="#fett">97,13</hi>Knospen und Blüten die der Frühling 1769 trieb</label>
+<p>Wahrscheinlich die „Neuen Lieder in Melodien gesetzt von Bernhard Theodor Breitkopf“ (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 1, 292–305), Goethes erste gedruckte Gedichtsammlung. Sie enthielt 20 Gedichte, die teilweise schon in Leipzig entstanden waren. Sie erschien zur Herbstmesse 1769, und zwar mit der Jahresangabe 1770 und ohne Nennung von Goethes Namen.</p>
+
+</note>
+<note xml:id="gb11946_comment_com18033">
+<label xml:id="GB03_2_BR156_0_note_002_97_14" copyOf="#start_com_1504"><hi rendition="#fett">97,14</hi>die Phisiognomick</label>
+<p>Wahrscheinlich ein Exemplar des Mitte Mai 1776 erschienenen 2. Bandes von Lavaters „Physiognomischen Fragmenten“. Nachdem Goethe ein erstes Exemplar erhalten hatte, bat er am 16. Mai 1776 den Verleger Philipp Erasmus Reich in Leipzig um <quote type="G">2 komplete Exemplare</quote> (<ref target="gb:text#GB03_1_BR105_0_063_003">63,3</ref>), von denen er eines wahrscheinlich in der ersten Hälfte des Juni Charlotte von Stein gab (vgl. zu <ref target="gb:note#GB03_2_BR129_0_note_002_75_17">75,17</ref>).</p>
+
+</note>
+<note xml:id="gb11946_comment_com11632">
+<label xml:id="GB03_2_BR156_0_note_003_97_14" copyOf="#start_com_1505"><hi rendition="#fett">97,14</hi>binden lassen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR044_0_note_002_32_2">32,2</ref>.</p>
+
+</note>
+<note xml:id="gb11946_comment_com15677">
+<label xml:id="GB03_2_BR156_0_note_004_97_15" copyOf="#start_com_1506"><hi rendition="#fett">97,15</hi>Gestern Nacht</label>
+<p>Am 14. August war Goethe von Ilmenau kommend <quote type="G">Abends</quote> <supplied>in Weimar</supplied> <quote type="G">angelangt</quote> (<ref target="gt:dokument#120">GT I 1, 24</ref>). Im Tagebuch ist zwar kein Besuch bei Charlotte von Stein vermerkt, doch ist anzunehmen, dass sich Goethe nach seiner Ankunft bei ihr gemeldet hat. Da der vorliegende Brief nicht zwingend am 15. August geschrieben worden sein muss, könnte hier auch einer der nächsten Abende gemeint sein (vgl. <ref target="gb:note#gb11946_comment_com1767">Datierung</ref>). Vom 15. bis 19. August fehlen Tagebuchaufzeichnungen, sie werden erst am 20. August fortgesetzt.</p>
+
+</note>
+<note xml:id="gb11946_comment_com11633">
+<label xml:id="GB03_2_BR156_0_note_005_97_15-16" copyOf="#start_com_1507"><hi rendition="#fett">97,15-16</hi>von Vagabunden attakirt</label>
+<p>Näheres dazu nicht bekannt.</p>
+
+</note>
+<note xml:id="gb11946_comment_com11634">
+<label xml:id="GB03_2_BR156_0_note_006_97_18-19" copyOf="#start_com_1508"><hi rendition="#fett">97,18-19</hi>so ihr stille wärt würde euch geholfen</label>
+<p>In Anlehnung an Jesaja 30,15. – Wörtliche Parallele zum Brief an Philipp Christoph Kayser vom 15. August 1776 (vgl. <ref target="gb:text#GB03_1_BR155_0_097_006 #GB03_1_BR155_0_097_007">97,6–7</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

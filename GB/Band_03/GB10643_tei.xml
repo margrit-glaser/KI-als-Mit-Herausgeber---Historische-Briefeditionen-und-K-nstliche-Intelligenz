@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="140"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10643" n="GB 3, Nr. 14">
+  <teiHeader xml:id="gb10643_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>14.</label> An <persName key="sndb:person#42917">Johann Georg von Zimmermann</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>kurz vor dem oder am 22. Dezember 1775</supplied> und 5. Januar 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:05Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10643_tei.xml</idno>
+        <idno type="URI">gb10643</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR014_0</idno>
+        <idno type="KSW-ID">10643</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="14" to="15">14-15</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="46" to="49">46-49</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10643_header_hwit841" corresp="#gb10643_source_hwit841" sameAs="#gb10643_comment_hwit841" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-9697</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10643,,841/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wenn ich euch nicht gleich antworte lieber Freund und Herr, kriegt Ihr wohl schweerlich</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" notBefore="1775-12-19" notAfter="1775-12-21"><supplied>kurz vor dem 22. Dezember 1775</supplied></date> und
+            <date when="1776-01-05">5. Januar 1776</date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-12-22"><supplied>am 22. Dezember 1775</supplied></date>
+            <note>
+              <date type="WA" when="1776-01-05">5. Januar 1776</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#42917">Zimmermann, Johann Georg von</persName>
+            <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10643_source_hwit841" corresp="#gb10643_header_hwit841" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10643/21868"/>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_014_013"/>Wenn ich Euch nicht gleich antworte lieber Freund und Herr, kriegt 
+<anchor xml:id="GB03_1_BR014_0_014_014"/>Ihr wohl schweerlich vorm iüngsten Gericht Nachricht von mir. Also 
+<anchor xml:id="GB03_1_BR014_0_014_015"/>heut den ganzen Tag <ref target="gb:note#GB03_2_BR014_0_note_001_14_15" xml:id="start_com_0198"/>auf dem Eis<ref xml:id="end_com_0198"/>, nach Tische <ref target="gb:note#GB03_2_BR014_0_note_002_14_15" xml:id="start_com_0199"/>ein Packet von Franckf.<ref xml:id="end_com_0199"/>
+        <anchor xml:id="GB03_1_BR014_0_014_016"/>darinn auch euer Brief und nun an der Fr v. Stein Schreibtisch und 
+<anchor xml:id="GB03_1_BR014_0_014_017"/>einen guten Abend. Sie kommt eben herein, hat eine grose <ref target="gb:note#GB03_2_BR014_0_note_003_14_17" xml:id="start_com_0200"/>Sozietät<ref xml:id="end_com_0200"/>
+        <anchor xml:id="GB03_1_BR014_0_014_018"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_004_14_18" xml:id="start_com_0201"/>Kinder<ref xml:id="end_com_0201"/>, die heut Abend<ptr n="1" target="#a001_14.18"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_005_14_18" xml:id="start_com_0202"/>Comödie<ref xml:id="end_com_0202"/> probirt haben, und Streiche treiben. 
+<anchor xml:id="GB03_1_BR014_0_014_019"/>Ich bin anders wo hin geladen und versprochen werd aber wohl 
+<anchor xml:id="GB03_1_BR014_0_014_020"/>dableiben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_014_021"/>Danck Euch für alles! für die <ref target="gb:note#GB03_2_BR014_0_note_006_14_21" xml:id="start_com_0203"/>Silhouetten<ref xml:id="end_com_0203"/>! <ref target="gb:note#GB03_2_BR014_0_note_007_14_21" xml:id="start_com_0204"/>Lotten<ref xml:id="end_com_0204"/> hab ich nicht erkannt 
+<anchor xml:id="GB03_1_BR014_0_014_022"/>und nachher herzlich über ihr statliches<ptr n="2" target="#a002_14.22"/> Unterkinn gelacht. 
+<anchor xml:id="GB03_1_BR014_0_014_023"/>Dancke für <ref target="gb:note#GB03_2_BR014_0_note_008_14_23" xml:id="start_com_0205"/>den Chymischen Brief<ref xml:id="end_com_0205"/>. Grüsen Sie den Schreiber herzlich. 
+<anchor xml:id="GB03_1_BR014_0_015_001"/>Die Antworten haben mich in vielem bestärckt, und ich spüre wohl 
+<anchor xml:id="GB03_1_BR014_0_015_002"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_009_15_2" xml:id="start_com_0206"/>dass Chymie mir eine herrliche Aussicht bleibt<ref xml:id="end_com_0206"/>. <pb n="2" facs="gb:digitalisate#10643/21869"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_015_003"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_010_15_3" xml:id="start_com_0207"/>Mit Lavatern steh ich Lakonisch<ref xml:id="end_com_0207"/>, also auch <ref target="gb:note#GB03_2_BR014_0_note_011_15_3" xml:id="start_com_0208"/>Danck dafür<ref xml:id="end_com_0208"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_015_004"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_012_15_4" xml:id="start_com_0209"/>Hier bin ich herzlich wohl.<ref xml:id="end_com_0209"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_005"/>
+        <graphic url="gb:digitalisate#10643/70145" width="60px"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_006"/>d<g ref="#typoSuspension"/> 5<hi rendition="#sup">t<g ref="#typoSuspension"/></hi> Jenner.   1776.   Weimar<ptr n="3" target="#a003_15.6"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_007"/>Weis Gott wann ich das vorige schrieb. <ref target="gb:note#GB03_2_BR014_0_note_013_15_7" xml:id="start_com_0210"/>heut ist aber d<g ref="#typoSuspension"/>. 5<ptr n="4" target="#a004_15.7"/>. Jan.<ref xml:id="end_com_0210"/> Und 
+<anchor xml:id="GB03_1_BR014_0_015_008"/>ich treibe was tüchtigs auf dem Erdboden hin und her.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_009"/>
+        <graphic url="gb:digitalisate#10643/70145" width="60px"/> <ref target="gb:note#GB03_2_BR014_0_note_014_15_9" xml:id="start_com_0211"/>Schritt und Schlittenbahn<ref xml:id="end_com_0211"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_010"/>
+        <graphic url="gb:digitalisate#10643/70145" width="60px"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_015_011"/>und <ref target="gb:note#GB03_2_BR014_0_note_015_15_11" xml:id="start_com_0212"/>Phisiognomick<ref xml:id="end_com_0212"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_015_012"/>
+        <graphic url="gb:digitalisate#10643/70145" width="60px"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR014_0_015_013"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_016_15_13" xml:id="start_com_0213"/>Schreiben Sie mir hierher.<ref xml:id="end_com_0213"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_017_15_13" xml:id="start_com_0214"/>Wieland Grüsst ich schreib bey ihm.<ref xml:id="end_com_0214"/> Addio.
+<anchor xml:id="GB03_1_BR014_0_015_014"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR014_0_015_015"/>Grüssen Sie Lotten. O ich bitte noch um ein Schattenbild von ihr. 
+<anchor xml:id="GB03_1_BR014_0_015_016"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_018_15_16" xml:id="start_com_0215"/>Wies von der Wand kommt.<ref xml:id="end_com_0215"/>
+        <ref target="gb:note#GB03_2_BR014_0_note_019_15_16" xml:id="start_com_0216"/>Die taugen all nichts<ref xml:id="end_com_0216"/><ptr n="5" target="#a005_15.16"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10643_comment">
+<body>
+<div type="metadata" xml:id="gb10643_comment_com399">
+  <ab type="numberAddressee"><label>14.</label> An <persName key="sndb:person#42917">Johann Georg von Zimmermann</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, <supplied>kurz vor dem 22. Dezember 1775</supplied> oder 5. Januar 1776 und <supplied>am 22. Dezember 1775</supplied> → <supplied><placeName key="sndb:ort#78040">Hannover</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10643_comment_com1578">
+  <p>Goethe beantwortet einen nicht überlieferten Brief Zimmermanns, den er in seinem Brief an Johann Caspar Lavater vom 22. Dezember 1775 (<ref target="gb:dokument#10642">Nr 7</ref>) erwähnt (vgl. <ref target="gb:text#GB03_1_BR007_0_007_021 #GB03_1_BR007_0_007_022">7,21–22</ref>). Auch diesen Tag verbrachte Goethe, ähnlich wie im vorliegenden Brief berichtet, <quote type="G">meist in freyer Luft</quote> (<ref target="gb:text#GB03_1_BR007_0_007_001 #GB03_1_BR007_0_007_002">7,1–2</ref>) und auf dem Eis (vgl. <ref target="gb:text#GB03_1_BR007_0_007_003">7,3</ref>). Er schreibt an Lavater, er habe den <quote type="G">Nach Mittag mit Wielanden zugebracht</quote> (<ref target="gb:text#GB03_1_BR007_0_007_002 #GB03_1_BR007_0_007_003">7,2–3</ref>), an Zimmermann, es sei <quote type="G">Abend</quote> (<ref target="gb:text#GB03_1_BR014_0_014_017">14,17</ref>) und er schreibe an Charlotte von Steins Schreibtisch (vgl. <ref target="gb:text#GB03_1_BR014_0_014_016">14,16</ref>). Wenn es sich dabei nicht um den Abend desselben Tages, des 22. Dezember, handelt, dürfte der erste Teil des vorliegenden Briefes doch an einem der Tage kurz zuvor geschrieben worden sein. Für die zeitliche Nähe der Briefe an Zimmermann und an Lavater spricht auch, dass Goethe in beiden den Begriff <quote type="G">Lakonisch</quote> (<ref target="gb:text#GB03_1_BR007_0_007_029">7,29</ref> und <ref target="gb:text#GB03_1_BR014_0_015_003">15,3</ref>) benutzt, um seine Korrespondenz mit Lavater zu charakterisieren. Nach dem 22. Dezember war Goethe verreist (Aufenthalt in Waldeck, 23.–27. Dezember, sowie in Erfurt und Stedten, 29. Dezember 1775–4. Januar 1776).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10643_comment_com2443">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 9697. – 1 Bl. ca. 13,2 &#xD7; 18,6 cm, 2 S. beschr., egh., Tinte, Unterschrift fehlt, Briefteil vom 5. Januar 1776 in großer Eile geschrieben, in der Datumszeile Angaben <quote type="G">d<g ref="#typoSuspension"/> 5<hi rendition="#sup">t<g ref="#typoSuspension"/></hi> Jenner.</quote> und <quote type="G">Weimar</quote> (<ref target="gb:text#GB03_1_BR014_0_015_006">15,6</ref>) dem Schriftduktus nach später hinzugefügt (vgl. Varianten). – Beischluss zu Wielands Brief an Zimmermann vom 8. Januar 1776 (<ref target="sndb:sigle#141">WB</ref> 5, 461 f., Nr 498; vgl. dazu Johann Georg Zimmermanns Brief an Herder vom 11. Januar 1776: „Gestern den 10. Januar hatte ich Briefe von Lavater, Goethe und Wieland, unter des letztern Couvert. Goethe schrieb auf der Frau von Stein Schreibtisch.“ [<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 353.]).</p>
+  <p>E: <ref target="sndb:sigle#4460/1240">Goethe/Stein-Zimmermann</ref> (1904), 171 f., Nr 2.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 30 (1905), 7 f., Nr 380a.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10643_comment_com4239">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Zimmermanns. Dieser könnte von Mitte Dezember 1775 oder kurz danach stammen, denn Goethe beantwortet ihn <quote type="G">gleich</quote> (<ref target="gb:text#GB03_1_BR014_0_014_013">14,13</ref>) nach Empfang, und der vorliegende Brief ist am 22. Dezember oder kurz davor begonnen worden (vgl. <ref target="gb:note#gb10643_comment_com1578">Datierung</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Johann Georg Zimmermann (1728–1795), Mediziner und Schriftsteller aus der Schweiz, war seit 1768 königlich britischer Leibarzt in Hannover. Über seine Beziehung zu Goethe vgl. die einleitende Erläuterung zum Brief vom 3. Mai 1775 (<ref target="gb:note#gb10677_comment_com4488">GB 2 II, Nr 236</ref>). Zimmermann gehörte zu denjenigen, die sich am Klatsch über die angeblich ungebührlichen ‚Weimarer Verhältnisse‘ beteiligten. So versuchte er Herder vor einer Übersiedlung nach Weimar zu warnen, indem er ihm aus Briefen von Charlotte von Stein ein abschreckendes Bild vom Treiben am Weimarer Hof malte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>). Goethe löste daraufhin die ohnehin nur lose Verbindung zu Zimmermann (vgl. seinen Brief an Charlotte von Stein vom 25. Juni bis 9. Juli 1776 [<ref target="gb:dokument#11096">Nr 140</ref>], Briefteil vom 5. Juli).</p>
+  <p rendition="#einrueck1">Im vorliegenden Band sind zwei der insgesamt drei überlieferten Briefe Goethes an Zimmermann gedruckt, außer dem vorliegenden noch Brief <ref target="gb:dokument#10659">Nr 57</ref>. (Aus der zweiten Hälfte 1775 sind zudem fünf Briefe verloren; vgl. <ref target="gb:dokument#15685">GB 2 I, EB 221</ref>, <ref target="gb:dokument#15688">225</ref>, <ref target="gb:dokument#15693">231</ref>, <ref target="gb:dokument#51213">234</ref>, <ref target="gb:dokument#51214">235</ref>.) Briefe von Zimmermann an Goethe sind nicht überliefert, obwohl jener nach Beginn der persönlichen Bekanntschaft im Juli 1775 mehrfach geschrieben hatte. Möglicherweise hat Goethe sie wie viele andere seit 1772 an ihn gerichteten Briefe im Jahr 1797 verbrannt (vgl. dazu sein Tagebuch unter dem 9. Juli 1797 [<ref target="gt:dokument#1747">GT II 1, 120</ref>] und die „Tag- und Jahres-Hefte“ für 1797 [<ref target="sndb:sigle#1157">WA</ref> I 35, 73]).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10643_comment_com17356">
+<label xml:id="GB03_2_BR014_0_note_001_14_15" copyOf="#start_com_0198"><hi rendition="#fett">14,15</hi>auf dem Eis</label>
+<p>Goethe war passionierter Schlittschuhläufer (vgl. die Erwähnungen in seinen Briefen an Odon Nicolas Lœillot Demars, Juni? 1773; an Johanna Fahlmer, 2.? Januar 1774; an Sophie La Roche, 21. Januar 1774; an Johann Lorenz Böckmann, 14. und 15. November 1774; an Johanna Fahlmer, 15. November 1774; an Johann Christian Kestner, 20.? und 21. November 1774; <ref target="gb:text#GB02_1_BR045_0_034_024">GB 2 I, 34,24</ref>, <ref target="gb:text#GB02_1_BR086_0_066_019">66,19</ref>, <ref target="gb:text#GB02_1_BR093_0_072_024">72,24</ref>, <ref target="gb:text#GB02_1_BR157_0_135_001">135,1</ref>, <ref target="gb:text#GB02_1_BR158_0_136_001">136,1</ref> und <ref target="gb:text#GB02_1_BR160_0_139_021">139,21</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9652">
+<label xml:id="GB03_2_BR014_0_note_002_14_15" copyOf="#start_com_0199"><hi rendition="#fett">14,15</hi>ein Packet von Franckf.</label>
+<p>Das Paket aus Frankfurt dürfte von Goethes Eltern abgeschickt worden sein. Es enthielt außer Zimmermanns Bezugsbrief auch einen Brief von Jacob Ludwig Passavant, dem Freund und Amtsgehilfen Lavaters in Zürich, seit November in Hamburg (vgl. im Einzelnen die einleitende Erläuterung zu <ref target="gb:note#gb15318_comment_com4855">GB 2 II, Nr 131</ref>), den Brief eines Unbekannten (vgl. zu <ref target="gb:note#GB03_2_BR014_0_note_008_14_23">14,23</ref>) sowie von Zimmermann übersandte Silhouetten (vgl. <ref target="gb:text#GB03_1_BR014_0_014_021">14,21</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9653">
+<label xml:id="GB03_2_BR014_0_note_003_14_17" copyOf="#start_com_0200"><hi rendition="#fett">14,17</hi>Sozietät</label>
+<p>Hier allgemein: Gesellschaft.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9654">
+<label xml:id="GB03_2_BR014_0_note_004_14_18" copyOf="#start_com_0201"><hi rendition="#fett">14,18</hi>Kinder</label>
+<p>Darunter wohl auch Charlotte von Steins eigene Kinder: Carl (10 Jahre) und Ernst (7 Jahre); der jüngste Sohn Fritz war erst 3 Jahre alt.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9655">
+<label xml:id="GB03_2_BR014_0_note_005_14_18" copyOf="#start_com_0202"><hi rendition="#fett">14,18</hi>Comödie</label>
+<p>Im 18. Jahrhundert auch in weitester Bedeutung ‚Schauspiel‘, ‚Theater‘.</p>
+
+</note>
+<note xml:id="gb10643_comment_com17357">
+<label xml:id="GB03_2_BR014_0_note_006_14_21" copyOf="#start_com_0203"><hi rendition="#fett">14,21</hi>Silhouetten</label>
+<p>Der Begriff, von Goethe synonym gebraucht mit ‚Schattenriss‘, ‚Schattenbild‘ oder ‚Schatten‘, geht zurück auf Étienne de Silhouettes, einen besonders sparsamen Finanzminister unter Ludwig XV. Die Anfertigung von Porträtsilhouetten war billiger als die von Gemälden, ihr Austausch im Freundes- und Bekanntenkreis im 18. Jahrhundert sehr beliebt (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR340_0_note_002_201_5">201,5</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com17285">
+<label xml:id="GB03_2_BR014_0_note_007_14_21" copyOf="#start_com_0204"><hi rendition="#fett">14,21</hi>Lotten</label>
+<p>Charlotte Kestner, Tochter des Amtmanns Henrich Adam Buff in Wetzlar, in die sich Goethe während seiner Praktikantenzeit am dortigen Reichskammergericht verliebt hatte. Sie war seit 1773 die Frau Johann Christian Kestners. – Um welche Porträtsilhouette es sich hier handelt, konnte nicht ermittelt werden. Goethe besaß bereits einen Schattenriss der Porträtierten (vgl. <ref target="gb:note#GB01_2_BR104_0_note_006_235_22">GB 1 II, zu 235,22</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9455">
+<label xml:id="GB03_2_BR014_0_note_008_14_23" copyOf="#start_com_0205"><hi rendition="#fett">14,23</hi>den Chymischen Brief</label>
+<p>Weder ist dieser Brief überliefert noch sein Absender bekannt. – Die vorliegende Stelle ist ein Indiz für das neu erwachende Interesse Goethes an chemischen Fragen. Erste Begegnungen mit diesem Gebiet hatten schon 1768/69 in Frankfurt während der Freundschaft mit Susanna von Klettenberg (vgl. <ref target="gb:note#GB02_2_BR251_0_note_002_202_12">GB 2 II, zu 202,12</ref>) sowie 1770/71 in Straßburg stattgefunden, als Goethe die Vorlesungen des Mediziners und Chemikers Jacob Reinbold Spielmann besuchte.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9456">
+<label xml:id="GB03_2_BR014_0_note_009_15_2" copyOf="#start_com_0206"><hi rendition="#fett">15,2</hi>dass Chymie mir eine herrliche Aussicht bleibt</label>
+<p>Wenngleich Goethe dazu auch keine einschlägigen Schriften verfasste, so beschäftigte er sich doch lebenslang mit diesem besonderen Teil der Naturlehre.</p>
+
+</note>
+<note xml:id="gb10643_comment_com17291">
+<label xml:id="GB03_2_BR014_0_note_010_15_3" copyOf="#start_com_0207"><hi rendition="#fett">15,3</hi>Mit Lavatern steh ich Lakonisch</label>
+<p>In seinem Brief vom 22. Dezember 1775 an Lavater mahnt Goethe: <quote type="G">Sey mir nicht gar zu Lakonisch.</quote> (<ref target="gb:text#GB03_1_BR007_0_007_029">7,29</ref>.) Vgl. weiter die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_020_7_29">7,29</ref>.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9457">
+<label xml:id="GB03_2_BR014_0_note_011_15_3" copyOf="#start_com_0208"><hi rendition="#fett">15,3</hi>Danck dafür</label>
+<p>Wie aus Goethes Brief an Lavater vom 22. Dezember 1775 (<ref target="gb:dokument#10642">Nr 7</ref>) hervorgeht, hatte Zimmermann in seinem Bezugsbrief vermutlich über Auseinandersetzungen zwischen Lavater und den Zürcher Theologen und Philologen Johann Jakob Hottinger und Johann Jakob Steinbrüchel berichtet (vgl. zu <ref target="gb:note#GB03_2_BR007_0_note_015_7_23">7,23</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com18780">
+<label xml:id="GB03_2_BR014_0_note_012_15_4" copyOf="#start_com_0209"><hi rendition="#fett">15,4</hi>Hier bin ich herzlich wohl.</label>
+<p>Mit einer fast gleich lautenden Versicherung beginnt Goethe seinen Brief an Zimmermann vom 6. März 1776 (vgl. <ref target="gb:text#GB03_1_BR057_0_041_004">41,4</ref>). Zu diesem Zeitpunkt war Zimmermann bereits am Klatsch über die ‚Weimarer Verhältnisse‘ und das angeblich wilde Leben des Herzogs und Goethes beteiligt (vgl. des Näheren die einleitende Erläuterung zu <ref target="gb:note#gb10677_comment_com4488">GB 2 II, Nr 236</ref>). Ob Goethe mit seiner Bemerkung auf den Bezugsbrief eingeht, in dem Zweifel an Goethes ‚Wohlbefinden‘ geäußert worden sein könnten, ist ungewiss. Zimmermann hatte durch Charlotte von Stein Nachrichten von Goethes Eintritt in Weimar. In seinem Brief an sie vom 29. Dezember 1775 schreibt er: „Je ne suis du tout point surpris que M<hi rendition="#sup">&#xA0;r.</hi> Göthe ait plû generalement à Weimar.“ Wenig später heißt es: „Ne critiquons point ces grands hommes.   S’il manquoit un trait à ce quils ont fait, il leur manqueroit außitot tout ce que nous admirons de plus en eux.“ (H: Archiv der BBAW. – Es überrascht mich gar nicht, daß Herr Goethe in Weimar allgemein Anklang gefunden hat. <gap quantity="3" reason="editorial"/> Kritisieren wir diese großen Männer doch nicht. Wenn bei dem, was sie tun, ein bestimmter Charakterzug fehlt, fehlte ihnen bald alles, was wir sonst an ihnen bewundern. – Transkription und Übersetzung von Wolf-Dieter Lange, Bonn.)</p>
+
+</note>
+<note xml:id="gb10643_comment_com9465">
+<label xml:id="GB03_2_BR014_0_note_013_15_7" copyOf="#start_com_0210"><hi rendition="#fett">15,7</hi>heut ist aber d<g ref="#typoSuspension"/>. 5. Jan.</label>
+<p>Am Vortag war Goethe von einer knapp zweiwöchigen Reise zurückgekehrt (vgl. <ref target="gb:note#gb10643_comment_com1578">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9466">
+<label xml:id="GB03_2_BR014_0_note_014_15_9" copyOf="#start_com_0211"><hi rendition="#fett">15,9</hi>Schritt und Schlittenbahn</label>
+<p>Eine ‚Schrittbahn‘ war eine zum Gleiten auf ‚Schrittschuhen‘ (Schlittschuhen) präparierte Eisfläche (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 17; <ref target="gb:note#GB02_2_BR157_0_note_008_135_22">GB 2 II, zu 135,22</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9467">
+<label xml:id="GB03_2_BR014_0_note_015_15_11" copyOf="#start_com_0212"><hi rendition="#fett">15,11</hi>Phisiognomick</label>
+<p>Goethe war an der Herausgabe von Lavaters „Physiognomischen Fragmenten“ beteiligt (vgl. zu <ref target="gb:note#GB03_2_BR007_0_note_003_7_5">7,5</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10446_comment_com5044">Nr 11</ref>).</p>
+
+</note>
+<note xml:id="gb10643_comment_com9468">
+<label xml:id="GB03_2_BR014_0_note_016_15_13" copyOf="#start_com_0213"><hi rendition="#fett">15,13</hi>Schreiben Sie mir hierher.</label>
+<p>Nach Weimar und nicht nach Frankfurt, wohin Goethe zunächst wieder zurückzukehren beabsichtigt hatte.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9431">
+<label xml:id="GB03_2_BR014_0_note_017_15_13" copyOf="#start_com_0214"><hi rendition="#fett">15,13</hi>Wieland Grüsst ich schreib bey ihm.</label>
+<p>Auch der Brief an Johann Heinrich Merck vom 5. Januar 1776 (<ref target="gb:dokument#10569">Nr 16</ref>) und wohl ebenso der Brief an Johanna Fahlmer vom selben Tag (<ref target="gb:dokument#10636">Nr 15</ref>) wurden bei Wieland geschrieben.</p>
+
+</note>
+<note xml:id="gb10643_comment_com17313">
+<label xml:id="GB03_2_BR014_0_note_018_15_16" copyOf="#start_com_0215"><hi rendition="#fett">15,16</hi>Wies von der Wand kommt.</label>
+<p>Gemeint ist eine so genannte Original-Silhouette, ein Profilporträt nach dem wirklichen Schattenbild in Lebensgröße. Das Verfahren zur Anfertigung einer Original-Silhouette bestand darin, die Zeichenunterlage direkt an einer Wand zu befestigen, auf die der Schatten der zu porträtierenden Person projiziert wurde. Dazu dienten auch verschiedene Hilfsvorrichtungen, ein ,Silhouettierbrett‘, ein ,Stehrahmen‘ oder ein ,Silhouettierstuhl‘ (vgl. weiter <ref target="gb:note#GB02_2_BR188_0_note_007_160_24">GB 2 II, zu 160,24</ref>). Goethe schätzte diese großen Silhouetten mehr als die (u. a. mittels eines Pantographen oder ‚Storchschnabels‘) verkleinerten Exemplare, weil sie ihm authentischer erschienen.</p>
+
+</note>
+<note xml:id="gb10643_comment_com9477">
+<label xml:id="GB03_2_BR014_0_note_019_15_16" copyOf="#start_com_0216"><hi rendition="#fett">15,16</hi>Die taugen all nichts</label>
+<p>Der Satz ist aus Platzmangel teilweise an den Blattrand geschrieben (vgl. Var. 15,16) und offenbar verkürzt für: ‚Die verkleinerten Schattenbilder, die ich habe, taugen alle nichts.‘</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

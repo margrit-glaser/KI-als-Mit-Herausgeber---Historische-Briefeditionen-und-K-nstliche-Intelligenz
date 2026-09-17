@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="960"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10727" n="GB 3, Nr. 96">
+  <teiHeader xml:id="gb10727_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>96.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 2. Mai? 1776. Donnerstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10727_tei.xml</idno>
+        <idno type="URI">gb10727</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR096_0</idno>
+        <idno type="KSW-ID">10727</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="59" to="59">59</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="227" to="228">227-228</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10727_header_hwit962" corresp="#gb10727_source_hwit962" sameAs="#gb10727_comment_hwit962" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 71 a</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10727,,962/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dank, lieber Steinauer - So seys dann - laßt die Schnupftücher! und kauft das Kleid allein</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-02"><supplied>2. Mai? 1776</supplied></date>
+            <note> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-05-01"><supplied>1. Mai 1776</supplied></date> oder
+              <date type="WA" exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-05-13"><supplied>13. Mai 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#59746">Steinauer, Christian Wilhelm</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10727_source_hwit962" corresp="#gb10727_header_hwit962" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10727/13788"/>
+      <p>
+        <anchor xml:id="GB03_1_BR096_0_059_001"/>Danck lieber Steinauer – So sey’s dann. lasst die Schnupftücher<ptr n="1" target="#a001_59.1"/>! und 
+<anchor xml:id="GB03_1_BR096_0_059_002"/>kaufft das Kleid allein. Habt mich lieb. Die Wagen rasseln schon die 
+<anchor xml:id="GB03_1_BR096_0_059_003"/>Pferde <ref target="gb:note#GB03_2_BR096_0_note_001_59_3" xml:id="start_com_0904"/>klappen<ref xml:id="end_com_0904"/> es geht nach <ref target="gb:note#GB03_2_BR096_0_note_002_59_3" xml:id="start_com_0905"/>Diefurt<ref xml:id="end_com_0905"/>.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR096_0_059_004"/>Schicken Sie aber auch <ref target="gb:note#GB03_2_BR096_0_note_003_59_4" xml:id="start_com_0906"/>der S. Briefe<ref xml:id="end_com_0906"/> grad an mich – Sonst machts 
+<anchor xml:id="GB03_1_BR096_0_059_005"/>auch <ref target="gb:note#GB03_2_BR096_0_note_004_59_5" xml:id="start_com_0907"/>Aufenthalt<ref xml:id="end_com_0907"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck21">
+          <anchor xml:id="GB03_1_BR096_0_059_006"/>
+          <graphic url="gb:digitalisate#10727/70160" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10727/13789" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10727/13790" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10727/13791" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10727_comment">
+<body>
+<div type="metadata" xml:id="gb10727_comment_com1034">
+  <ab type="numberAddressee"><label>96.</label> An <persName key="sndb:person#59746">Christian Wilhelm Steinauer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>2. Mai? 1776</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10727_comment_com1866">
+  <p>Der Brief folgt offenbar dem Brief vom 18.? April 1776 (<ref target="gb:dokument#10877">Nr 87</ref>), in dem die hier erwähnten <quote type="G">Schnupftücher</quote> (<ref target="gb:text#GB03_1_BR096_0_059_001">59,1</ref>) bestellt worden waren. Laut Rechnungsbüchern ging der nächste Brief an Steinauer nach <ref target="gb:dokument#10877">Nr 87</ref> am 2. Mai 1776 ab (vgl. Postsendungen). Es ist anzunehmen, dass es sich um den vorliegenden handelt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10727_comment_com3078">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 71 a. – Doppelblatt 11,5(–11,7) &#xD7; 19 cm, &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 59, Nr 452 (Friedrich Strehlke). – Incipit zuvor schon in: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 233 (<ref target="gb:text#GB03_1_BR096_0_059_001">59,1</ref> <quote type="G">Danck lieber Steinauer – So sey&#8217;s dann</quote>).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10727_comment_com4874">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief, der eine Sendung Steinauers begleitet haben könnte, die am 2. Mai 1776 in Weimar eintraf: <quote type="G">P. empfangen v. Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 5v). Möglich ist auch, dass Steinauer einen separaten Brief geschrieben hatte, den Goethe am 29. April 1776 erhielt: <quote type="G">Brief v. Leipzig</quote> (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 5r). – Der Antwortbrief Steinauers, auf den <ref target="gb:dokument#10883">Nr 101</ref> antwortet, ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 2. Mai 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 5v).</p>
+  <p rendition="#einrueck1">Die Schnupftücher und das Kleid waren für Corona Schröter bestimmt. Goethe hatte sie am 18.? Mai 1776 mit <ref target="gb:dokument#10877">Nr 87</ref> bestellt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10727_comment_com9997">
+<label xml:id="GB03_2_BR096_0_note_001_59_3" copyOf="#start_com_0904"><hi rendition="#fett">59,3</hi>klappen</label>
+<p>Klappern (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 1602 f.).</p>
+
+</note>
+<note xml:id="gb10727_comment_com9998">
+<label xml:id="GB03_2_BR096_0_note_002_59_3" copyOf="#start_com_0905"><hi rendition="#fett">59,3</hi>Diefurt</label>
+<p>Im nahe gelegenen Tiefurt wurde für den Prinzen Constantin und seinen Erzieher Carl Ludwig von Knebel eine Wohnung im Pächterhaus hergerichtet. Der <quote type="G">Einzug</quote> (<ref target="gt:dokument#46">GT I 1, 18</ref>), den Goethe in seinem Tagebuch notierte, fand am 20. Mai 1776 statt (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_050_68_22-23">68,22-23</ref>). Möglicherweise stand Goethes Ritt nach Tiefurt mit den vorbereitenden Arbeiten an dem Haus in Zusammenhang.</p>
+
+</note>
+<note xml:id="gb10727_comment_com17558">
+<label xml:id="GB03_2_BR096_0_note_003_59_4" copyOf="#start_com_0906"><hi rendition="#fett">59,4</hi>der S. Briefe</label>
+<p>Briefe von Corona Schröter an Goethe aus Leipzig vor ihrer Übersiedlung nach Weimar sind nicht überliefert, hingegen einige an Friedrich Justin Bertuch von 1774 bis 1776 und einer aus dem Jahr 1794 (<ref target="archivdb:dokument#215166">GSA 6/1721</ref>). In ihrem Brief vom 13. Dezember 1774 heißt es, „unser würdige <supplied>sic</supplied> Steinauer“ werde ihr „noch theurer werden“, „weil er der Urheber dieser mir schätzbaren Freundschafft <supplied>mit Bertuch</supplied> ist“, und in einem vermutlich aus dem Jahr 1776 stammenden Brief: „Wie freue ich mich auf die Zeit die mich zu Euch würdigen guten Menschen bringen wird.“</p>
+
+</note>
+<note xml:id="gb10727_comment_com10007">
+<label xml:id="GB03_2_BR096_0_note_004_59_5" copyOf="#start_com_0907"><hi rendition="#fett">59,5</hi>Aufenthalt</label>
+<p>Verzögerung (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 484).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

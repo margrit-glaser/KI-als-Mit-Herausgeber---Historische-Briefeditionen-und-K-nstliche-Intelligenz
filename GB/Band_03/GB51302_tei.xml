@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="8580"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb51302" n="GB 3, Nr. Z 3">
+  <teiHeader xml:id="gb51302_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>Z 3.</label> An <persName key="sndb:person#45394" cert="low">Charlotte von Stein?</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78160">Ilmenau</placeName>, 21. Juli 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:23:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb51302_tei.xml</idno>
+        <idno type="URI">gb51302</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_ZB003_0</idno>
+        <idno type="KSW-ID">51302</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="444" to="444">444</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1104" to="1105">1104-1105</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb51302_header_hwit51415" corresp="#gb51302_source_hwit51415" sameAs="#gb51302_comment_hwit51415" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 403</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349707</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/51302,,51415/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Zwischen Felsen wuchsen hier</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb51302_header_acc374" corresp="gb51302_comment_acc374">
+            <objectIdentifier>
+              <objectName><quote type="G">Blumen</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78160">Ilmenau</placeName>
+            <date when="1776-07-21">21. Juli 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394" cert="low">? Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb51302_source_hwit51415" corresp="#gb51302_header_hwit51415" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#51302/28088"/>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_ZB003_0_444_019"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_ZB003_0_note_001_444_19" xml:id="start_com_5251"/>Zwischen Felsen wuchsen hier<ref xml:id="end_com_5251"/>
+        </l>
+        <anchor xml:id="GB03_1_ZB003_0_444_020"/>
+        <l rendition="#einrueck6">Diese Blumen die <ref target="gb:note#GB03_2_ZB003_0_note_002_444_20" xml:id="start_com_5252"/>wir<ref xml:id="end_com_5252"/> treu dir reichen</l>
+        <anchor xml:id="GB03_1_ZB003_0_444_021"/>
+        <l rendition="#einrueck6">Verwelckliche Zeichen</l>
+        <anchor xml:id="GB03_1_ZB003_0_444_022"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_ZB003_0_note_003_444_22" xml:id="start_com_5253"/>Der ewigen Liebe zu dir<ref xml:id="end_com_5253"/>.</l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline rendition="#einrueck9">
+          <anchor xml:id="GB03_1_ZB003_0_444_023"/>
+          <ref target="gb:note#GB03_2_ZB003_0_note_004_444_23" xml:id="start_com_5254"/>Ilmenau d<g ref="#typoSuspension"/>. 21. Jul. 76.<ref xml:id="end_com_5254"/>
+        </dateline>
+      </closer>
+      <!--<figure><graphic url="abb16.tif"/><p rendition="#einrueck1">Abb. 16: Brücke in Kranichfeld</p><p rendition="#einrueck1">(Z <ref target="#GB03_ZB004_0">4</ref>)</p></figure>-->
+      <!--<figure><graphic url="abb17.tif"/><p rendition="#einrueck1">Abb. 17: Dornburger Schlösser</p><p rendition="#einrueck1">(Z <ref target="#GB03_ZB005_0">5</ref>)</p></figure>-->
+    <pb n="2" facs="gb:digitalisate#51302/28089" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#51302/28090" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#51302/28091" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb51302_comment">
+<body>
+<div type="metadata" xml:id="gb51302_comment_com1092">
+  <ab type="numberAddressee"><label>Z 3.</label> An <persName key="sndb:person#45394" cert="low">? Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78160">Ilmenau</placeName>, 21. Juli 1776 → <supplied><placeName key="sndb:ort#78959">Pyrmont</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb51302_comment_com3136">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#349707">GSA 25/W 403</ref>. – Doppelblatt 13,9 × 19,7 cm, &#x2153; S. beschr., egh., Tinte; unten rechts von fremder Hd, Bleistift: „Riemers Nachl.“</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> I 4 (1891), 208 (Gustav von Loeper). – Als Brief zuerst gedruckt bei <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1 (1899), 44, Nr 79.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb51302_comment_com3769">
+  <p><quote type="G">Blumen</quote> (<ref target="gb:text#GB03_1_ZB003_0_444_020">444,20</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb51302_comment_com4932">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der vorliegende Vierzeiler gelangte vermutlich aus dem Nachlass Friedrich Wilhelm Riemers ins GSA (vgl. <ref target="gb:note#gb51302_comment_com3136">Überlieferung</ref>). Er wurde zuerst 1891 in der WA unter den Gedichten „Aus dem Nachlaß / An Personen“ (<ref target="sndb:sigle#1157">WA</ref> I 4, 208) gedruckt. Für die Zuschreibung „An Frau von Stein“ (ebd.), die in der Handschrift fehlt, findet sich in den „Lesarten zu Band 4“ keine Begründung (vgl. <ref target="sndb:sigle#1157">WA</ref> I 5.2, 127). Wahrscheinlich erfolgte sie nach der Datierung <quote type="G">Ilmenau d<g ref="#typoSuspension"/>. 21. Jul. 76.</quote> (<ref target="gb:text#GB03_1_ZB003_0_444_023">444,23</ref>) und der Annahme, dass die Verse auf Grund der Liebesbeteuerung in der letzten Zeile in dieser Zeit nur an Charlotte von Stein gerichtet sein konnten (vgl. aber zu <ref target="gb:note#GB03_2_ZB003_0_note_003_444_22">444,22</ref>). Es ist zwar nicht ganz auszuschließen, dass das Gedicht an Frau von Stein nach Pyrmont geschickt wurde, wo diese sich seit Ende Juni aufhielt. Nicht auszuschließen ist außerdem, dass es eine Beilage zum Brief vom 22. und 24. Juli (<ref target="gb:dokument#11106">Nr 145</ref>) war. Im Unterschied zu diesem Brief wie auch zu anderen der Freundin gewidmeten Gedichten sind die vorliegenden Verse aber nicht im Konvolut der Briefe an Charlotte von Stein überliefert. Zudem verweist der Inhalt darauf, dass der Vierzeiler offenbar aus einem ganz konkreten Anlass entstanden und zusammen mit Blumen direkt überreicht worden ist, und zwar von mindestens zwei Personen (vgl. <ref target="gb:text#GB03_1_ZB003_0_444_020">444,20</ref>). Dies könnte aus verschiedenen Anlässen am Abend des 21. Juli geschehen sein. Charlotte von Stein aber befand sich an diesem Tag noch immer in Pyrmont. Der Briefcharakter wie auch die Adressatin müssen daher als zweifelhaft gelten.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb51302_comment_com12674">
+<label xml:id="GB03_2_ZB003_0_note_001_444_19" copyOf="#start_com_5251"><hi rendition="#fett">444,19</hi>Zwischen Felsen wuchsen hier</label>
+<p>Laut Tagebuch vom 21. Juli 1776 hat Goethe <quote type="G">früh gezeichnet an der Aussicht nach der Frohn Feste</quote> <supplied>dem Ilmenauer Amtsgefängnis</supplied> (<ref target="gt:dokument#96">GT I 1, 22</ref>), wo wahrscheinlich auch die vorliegenden Verse entstanden sind.</p>
+
+</note>
+<note xml:id="gb51302_comment_com13757">
+<label xml:id="GB03_2_ZB003_0_note_002_444_20" copyOf="#start_com_5252"><hi rendition="#fett">444,20</hi>wir</label>
+<p>Goethe hielt sich seit dem 18. Juli zusammen mit Herzog Carl August in Ilmenau auf, zu dessen Begleitung noch zahlreiche weitere Personen gehörten (vgl. zu <ref target="gb:note#GB03_2_BR144_0_note_002_86_8">86,8</ref>).</p>
+
+</note>
+<note xml:id="gb51302_comment_com17540">
+<label xml:id="GB03_2_ZB003_0_note_003_444_22" copyOf="#start_com_5253"><hi rendition="#fett">444,22</hi>Der ewigen Liebe zu dir</label>
+<p>Das Formelhafte der Liebesbeteuerung spricht gegen Charlotte von Stein als Adressatin des Gelegenheitsgedichtes. Ihr gegenüber äußerte Goethe seine Gefühle sehr viel einfacher und unmittelbarer, unter Vermeidung sprachlicher Klischees und ohne jedes Pathos.</p>
+
+</note>
+<note xml:id="gb51302_comment_com13758">
+<label xml:id="GB03_2_ZB003_0_note_004_444_23" copyOf="#start_com_5254"><hi rendition="#fett">444,23</hi>Ilmenau d<g ref="#typoSuspension"/>. 21. Jul. 76.</label>
+<p>Laut Goethes Tagebuch vom 21. Juli 1776 fand an diesem Tag <quote type="G">nach Tische bey</quote> <supplied>August Wilhelm Ferdinand von</supplied> <quote type="G">Staff</quote> ein Scheibenschießen statt; danach <quote type="G">Tanz des leidigen geschlechts.</quote> (<ref target="gt:dokument#96">GT I 1, 22</ref>.) Beschlossen wurde der Tag durch eine Nachtmusik der Ilmenauer Bergleute für Staff (vgl. ebd.).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

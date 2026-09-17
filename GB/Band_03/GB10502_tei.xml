@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="190"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10502" n="GB 3, Nr. 19">
+  <teiHeader xml:id="gb10502_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>19.</label> An <persName key="sndb:person#39177">Heinrich Julius von Lindau</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Januar 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10502_tei.xml</idno>
+        <idno type="URI">gb10502</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR019_0</idno>
+        <idno type="KSW-ID">10502</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="19" to="20">19-20</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="86" to="92">86-92</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10502_header_hwit844" corresp="#gb10502_source_hwit844" sameAs="#gb10502_comment_hwit844" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 992/1967</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10502,,844/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieber Lindau nur ein Wort auf diesem Brief. Seegne dich Gott ferner</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10502_header_acc135" corresp="gb10502_comment_acc135">
+            <objectIdentifier>
+              <objectName>Zu Schlossers Brief: Brief Johann Georg Schlossers an Carl von Kniestedt </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb10502_header_acc564" corresp="gb10502_comment_acc564">
+            <objectIdentifier>
+              <objectName>Zu Lenz’ Brief: <quote type="G">Einschluß</quote> von Jacob Michael Reinhold Lenz für Goethe.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-01-08">8. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39177">Lindau, Heinrich Julius von</persName>
+            <supplied><placeName key="sndb:ort#87365" cert="low">? Celle</placeName></supplied>
+            <supplied><placeName key="sndb:ort#78244" cert="low">? Kassel</placeName></supplied>
+            <supplied><placeName key="sndb:ort#96843" cert="low">? Wommen</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10502_source_hwit844" corresp="#gb10502_header_hwit844" type="source" rend="authorisedLetter">
+  <body>
+    <head><supplied>Aufschrift auf einen Brief Johann Georg Schlossers und Jacob Michael Reinhold Lenz’</supplied></head>
+    <space quantity="1" unit="lines"/>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10502/28778"/>
+      <head><supplied>Von Johann Georg Schlossers Hand</supplied></head>
+      <space quantity="1" unit="lines"/>
+      <div type="relatedLetter" subtype="von_johann_georg_schlossers_hand">
+        <p>
+          <anchor xml:id="GB03_1_BR019_0_019_001"/>Mein lieber Lindau; <ref target="gb:note#GB03_2_BR019_0_note_001_19_1" xml:id="start_com_0293"/><gap reason="damage" unit="chars" quantity="3"/><ref xml:id="end_com_0293"/> zu <ref target="gb:note#GB03_2_BR019_0_note_002_19_1" xml:id="start_com_0294"/>Herrn v. Kniestätt<ref xml:id="end_com_0294"/>. Er ist der einzige am Hof den ich 
+<anchor xml:id="GB03_1_BR019_0_019_002"/>kenne, und der wird Sie mit allen ehrlichen Leuten bekannt machen! – Ich küße 
+<anchor xml:id="GB03_1_BR019_0_019_003"/>Sie herzlich; hier haben Sie einen <ref target="gb:note#GB03_2_BR019_0_note_003_19_3" xml:id="start_com_0295"/>Brief für ihn<ref xml:id="end_com_0295"/>. – Leben Sie wohl.   Schl.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR019_0_019_004"/>
+          <ref target="gb:note#GB03_2_BR019_0_note_004_19_4" xml:id="start_com_0296"/>E.<ref xml:id="end_com_0296"/> d<g ref="#typoSuspension"/> 23<ptr n="1" target="#a001_19.4"/> Dec. 1775.</p>
+      </div>
+    </div>  
+    <space quantity="1" unit="lines"/>
+    <div>  
+      <head><supplied>Von Jacob Michael Reinhold Lenz’ Hand</supplied></head>
+      <space quantity="1" unit="lines"/>
+      <div type="relatedLetter" subtype="von_jacob_michael_reinhold_lenz’_hand">
+        <p>
+          <anchor xml:id="GB03_1_BR019_0_019_005"/>Hier bester Lindau ein Paar Zeilen von Schlossern von denen ich wünschte, daß 
+<anchor xml:id="GB03_1_BR019_0_019_006"/>sie dich noch vor Carlsruh ereilten. Ich hatte die Nacht mit jungen Franzosen 
+<anchor xml:id="GB03_1_BR019_0_019_007"/>geschwärmt und nach der <ref target="gb:note#GB03_2_BR019_0_note_005_19_7" xml:id="start_com_0297"/>Mette<ref xml:id="end_com_0297"/> mit ihnen frühstücken müssen. Nach dem Frühstück 
+<anchor xml:id="GB03_1_BR019_0_019_008"/>legt’ ich mich schlaffen und erwachte erst um zehn, da ichs <unclear reason="illegible">denn</unclear> für zu spät 
+<anchor xml:id="GB03_1_BR019_0_019_009"/>hielt, zu dir zu gehen. Deine <ref target="gb:note#GB03_2_BR019_0_note_006_19_9" xml:id="start_com_0298"/>Bestellungen<ref xml:id="end_com_0298"/> zeugen von der Güte deines Herzens, 
+<anchor xml:id="GB03_1_BR019_0_019_010"/>leyder hab ich bey all unsern <ref target="gb:note#GB03_2_BR019_0_note_007_19_10" xml:id="start_com_0299"/>drey Buchhändlern<ref xml:id="end_com_0299"/> nach den angezeigten Büchern 
+<anchor xml:id="GB03_1_BR019_0_019_011"/>vergebens gefragt. Einer aber hat mir versprochen, sie mir aufs höchste in drey 
+<anchor xml:id="GB03_1_BR019_0_019_012"/>Wochen aus Leipzig kommen zu lassen. Solltest du deine Meynung ändern, so 
+<anchor xml:id="GB03_1_BR019_0_019_013"/>schreib mirs, daß ich Schlossern das Geld abgeben kann. Er kommt vielleicht auf 
+<anchor xml:id="GB03_1_BR019_0_019_014"/>die Neujahr hieher.</p>
+        <p>
+          <anchor xml:id="GB03_1_BR019_0_019_015"/>Ich habe auch noch das Original <ref target="gb:note#GB03_2_BR019_0_note_008_19_15-16" xml:id="start_com_0300"/>des Briefes von deinem treflichen Freunde 
+<anchor xml:id="GB03_1_BR019_0_019_016"/>Greven<ref xml:id="end_com_0300"/> hier, von dem du mir erlauben wirst eine Kopey zu nehmen. <ref target="gb:note#GB03_2_BR019_0_note_009_19_16-17" xml:id="start_com_0301"/>Ich schick 
+<anchor xml:id="GB03_1_BR019_0_019_017"/>es dir durch Goethen<ref xml:id="end_com_0301"/>, versiegels wieder; ich habe ihn 2, 3 mal durchgelesen und 
+<anchor xml:id="GB03_1_BR019_0_019_018"/>kann mich nicht genu〈g〉 weiden daran. <ref target="gb:note#GB03_2_BR019_0_note_010_19_18" xml:id="start_com_0302"/>Dein Peter<ref xml:id="end_com_0302"/> ist mir auch immer vor den 
+<anchor xml:id="GB03_1_BR019_0_019_019"/>Augen und ich beneide dich um den ganzen Stolz<ptr n="2" target="#a002_19.19"/> solch eines Funds und <ref target="gb:note#GB03_2_BR019_0_note_011_19_19-20" xml:id="start_com_0303"/>solch 
+<anchor xml:id="GB03_1_BR019_0_019_020"/>eines Projeckts<ref xml:id="end_com_0303"/>. Denk an mich, wenn du <ref target="gb:note#GB03_2_BR019_0_note_012_19_20" xml:id="start_com_0304"/>deine Schwester<ref xml:id="end_com_0304"/> umarmst. Hernach vergiß 
+<anchor xml:id="GB03_1_BR019_0_019_021"/>mich, ich werde drum nie weniger seyn aus ganzer Seele dein Freund Lenz</p>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR019_0_019_022"/>Den <ref target="gb:note#GB03_2_BR019_0_note_013_19_22" xml:id="start_com_0305"/>Einschluß<ref xml:id="end_com_0305"/> gieb doch Zuckerpüppgen unserm Goethe ab. <ref target="gb:note#GB03_2_BR019_0_note_014_19_22-23" xml:id="start_com_0306"/>Sollt er noch nicht 
+<anchor xml:id="GB03_1_BR019_0_019_023"/>da seyn<ref xml:id="end_com_0306"/>, laß es nur seinen Eltern</p>
+        <p rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR019_0_019_024"/>
+          <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR019_0_note_015_19_24" xml:id="start_com_0307"/>vive St. Thomas!</emph>
+          <ref xml:id="end_com_0307"/>
+        </p>
+      </div>
+    </div>
+    <pb n="2" facs="gb:digitalisate#10502/28779"/>  
+      <div type="brief">
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR019_0_019_025"/>Lieber Lindau nur ein Wort auf diesem Brief. Seegne dich Gott ferner 
+<anchor xml:id="GB03_1_BR019_0_019_026"/>mit gutem Glauben und Freude<ptr n="3" target="#a003_19.26"/> an dir selbst. <ref target="gb:note#GB03_2_BR019_0_note_016_19_26-20_1" xml:id="start_com_0308"/>Wir sehn einander wohl 
+<anchor xml:id="GB03_1_BR019_0_020_001"/>wieder.<ref xml:id="end_com_0308"/>
+          <ref target="gb:note#GB03_2_BR019_0_note_017_20_1" xml:id="start_com_0309"/>Schreib mir nur ein Wort<ref xml:id="end_com_0309"/> hierher wie dir’s geht, und wohin 
+<anchor xml:id="GB03_1_BR019_0_020_002"/>du ziehst grüse den <ref target="gb:note#GB03_2_BR019_0_note_018_20_2" xml:id="start_com_0310"/>Engel<ref xml:id="end_com_0310"/>. Weimar d<g ref="#typoSuspension"/>. 8. Jan 1776.</p>
+      </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10502_comment">
+<body>
+<div type="metadata" xml:id="gb10502_comment_com435">
+  <ab type="numberAddressee"><label>19.</label> An <persName key="sndb:person#39177">Heinrich Julius von Lindau</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Januar 1776 → <supplied><placeName key="sndb:ort#87365" cert="low">? Celle</placeName></supplied>, <supplied><placeName key="sndb:ort#78244" cert="low">? Kassel</placeName></supplied> und <supplied><placeName key="sndb:ort#96843" cert="low">? Wommen</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10502_comment_com2479">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 992/1967. – 1 Bl. 19 × 24,5 cm; auf der Vs. egh. Brieftexte von Johann Georg Schlosser und Jacob Michael Reinhold Lenz, Tinte (Petitdruck); dessen Text <quote type="G">auch immer vor den Augen <gap quantity="3" reason="editorial"/> Freund Lenz</quote> (<ref target="gb:text#GB03_1_BR019_0_019_018 #GB03_1_BR019_0_019_021">19,18–21</ref>) am linken Seitenrand quer zur Schreibrichtung, die Nachschrift <quote type="G">Den Einschluß <gap quantity="3" reason="editorial"/> <emph rendition="#latin">vive St. Thomas!</emph></quote> (<ref target="gb:text#GB03_1_BR019_0_019_022 #GB03_1_BR019_0_019_024">19,22–24</ref>) zwischen den Brieftexten Schlossers und Lenz’; auf der Rs. des zum Kuvert gefalteten Blatts im Adressenfeld unter der von Schlosser geschriebenen Adresse: „An / H<g ref="#typoSuspension"/>B. von Lindau.“ Goethes Text, egh., Tinte; Siegelreste; Bl. unten und oben in der Mitte ausgerissen durch Öffnen des Siegels, Textverlust (vgl. <ref target="gb:text#GB03_1_BR019_0_019_001">19,1</ref> und <ref target="gb:text#GB03_1_BR019_0_019_018">19,18</ref>).</p>
+  <p>E: Josefine Rumpf: Unbekannte Goethe-Briefe aus dem Besitz des Freien Deutschen Hochstifts. In: <ref target="sndb:sigle#491">JbFDH</ref> 1967, S. 3 (Goethes Brief) und 56 (Briefe Schlossers und Lenz’).</p>
+  <p><ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 49, Nr 381a.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10502_comment_com3549">
+  <p>1) Zu Schlossers Brief: Brief Johann Georg Schlossers an Carl von Kniestedt (vgl. <ref target="gb:text#GB03_1_BR019_0_019_003">19,3</ref>).</p>
+  <p>2) Zu Lenz’ Brief: <quote type="G">Einschluß</quote> (<ref target="gb:text#GB03_1_BR019_0_019_022">19,22</ref>) von Jacob Michael Reinhold Lenz für Goethe.</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10502_comment_com4275">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Entstehung und Weg des vorliegenden Briefes, der offenbar wiederholt als Einschluss eines anderen Briefes oder ‚mit Gelegenheit‘, also persönlich durch einen Dritten, befördert wurde, scheinen folgendermaßen gewesen zu sein: Lindau hatte sich am „Freitag vor Christtag“ 1775, also am 22. Dezember, in Emmendingen aufgehalten. Dies geht aus einem dort geschriebenen Brief Lindaus an Lavater unter diesem Datum hervor, in dem er diesen bittet, ihm Post unter Lenz’ Adresse nach Straßburg zu schicken (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 88). Einen Tag später schrieb Johann Georg Schlosser seinen kurzen Brief an den abgereisten Lindau und ließ ihn an den befreundeten Jacob Michael Reinhold Lenz in Straßburg gelangen, der den Brief dort übergeben sollte. Lenz, der keine Gelegenheit zur persönlichen Übergabe hatte (vgl. <ref target="gb:text#GB03_1_BR019_0_019_008 #GB03_1_BR019_0_019_009">19,8–9</ref>), benutzte das Blatt seinerseits zu einer brieflichen Mitteilung an Lindau und schickte den gesiegelten Brief vermutlich kurz nach Weihnachten 1775 nach Frankfurt. Darauf lässt die Erwähnung von Goethes Eltern schließen (vgl. <ref target="gb:text#GB03_1_BR019_0_019_023">19,23</ref>). Dort, in Frankfurt, vermutete Lenz den Adressaten und Goethe, den er aus Weimar zurückgekehrt glaubte. Dass Lindau sich Ende Dezember 1775 tatsächlich dort aufhielt, geht aus seinem in Frankfurt geschriebenen Brief an Lavater vom „letzten Tag im Jahre 1775“ hervor (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 89). Auch diesmal wurde Schlossers und Lenz’ Brief offenbar nicht persönlich übergeben; Goethes Eltern dürften ihn nach Weimar weitergeschickt haben, wo sich Lindau Ende Januar zu einem Besuch aufhielt (vgl. <ref target="gb:text#GB03_1_BR032_0_025_024">25,24</ref>). Zuvor nutzte Goethe die Außenseite des zum Kuvert gefalteten Briefes, um Lindau ebenfalls ein paar Zeilen zu schreiben. Wohin er dann das Blatt mit den Briefen von drei Absendern weitersandte, ist nicht klar. Nach der Rückkehr aus der Schweiz, wo er sich etwa von Mai bis Ende Oktober 1775 aufgehalten hatte, reiste Lindau kreuz und quer durch Deutschland und machte bei Verwandten und Freunden Station. Lenz’ Brief ist zu entnehmen, dass er eine <quote type="G">Schwester</quote> (<ref target="gb:text#GB03_1_BR019_0_019_020">19,20</ref>), möglicherweise Wilhelmine in Celle, besuchen wollte. Ein Brief von Lenz an Lindau von Januar 1776 ist nach Kassel adressiert (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 170). In einem Brief Lindaus an Lavater vom 31. Januar 1776 heißt es: „Ich komme heute von Weimar zurück.“ (<ref target="sndb:sigle#241">Ernst</ref>, 89.) Da dieser Brief in Wommen bei Herleshausen geschrieben wurde, kann angenommen werden, dass sich Lindau auch schon zuvor dort auf dem Gut seiner Tante Wilhelmine Henriette von Lindau aufgehalten hat, wo (seit 1775) auch die beiden jüngeren Schwestern lebten (vgl. Lindaus Brief an Jacob Michael Reinhold Lenz vom 16. Februar 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 180).</p>
+  <p rendition="#einrueck1">Heinrich Julius von Lindau (1754–1776 oder 1777), in Celle geboren, war der Sohn des hessen-kasselischen Kammerherrn und Kriegsrats Philipp Heinrich Julius von Lindau und seiner Frau Henriette Baldine geb. Henry de Cheusses. Nach dem frühen Tod der Eltern (1762 bzw. 1769) wuchs Lindau gemeinsam mit drei jüngeren Schwestern (Wilhelmine, 1774 verh. von Beaulieu-Marconnay; Marie Ulrike Friederike, 1779 verh. von Düring; Caroline Luise, später verh. von Marschalck) unter der Obhut eines Vormundes auf. Als 17-Jähriger verliebte er sich unglücklich in die 14-jährige Magdalena (Menon) Poel (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 79). Deren Vater, ein reicher Kaufmann, schlug ihm die Bitte um die Hand der Tochter ab. Lindau empfand diese Zurückweisung so tief, dass er in eine frühe Lebenskrise geriet. Seine Schwester Marie Ulrike von Düring, deren Erinnerungen nicht in jeder Hinsicht zuverlässig sind (vgl. die einleitende Erläuterung zum vorliegenden Brief weiter unten [S. 90]), berichtet etwas anderes; sie nennt eine „unglückliche Liebe für Charlotte Barckhaus in Frankfurt und hauptsächlich schlechte Gesellschaft“ als Ursache dafür, dass „der liebenswürdige junge Mann <gap quantity="3" reason="editorial"/> von dem unglücklichen, sentimentalen Fieber ergriffen“ worden sei, welches damals, ausgelöst durch „Schriftsteller, wie Klopstock, Goethe, Lavater, die Stolbergs und andere“, „solch traurige Verwüstungen in den überspannten und schwärmerisch veranlagten Köpfen der deutschen Jugend anrichtete.“ (Lebensbilder und Lebenserinnerungen. Bielefeld 1916, S. 53.) Um seiner Melancholie zu entgehen, zog sich Lindau, dem Vorbild des St. Preux in Rousseaus Roman „Julie, ou la nouvelle Héloïse“ (1761) folgend, den er damals las, ins Hochgebirge zurück, um dort seine Leidenschaft zu bekämpfen. Er ging in die Schweizer Alpen. Einer seiner Bekannten dort, der Zürcher Philologe Johann Jakob Hottinger, entwarf im dritten seiner „Briefe von Selkhof an Welmar“ (Zürich 1777) folgendes Bild von Lindau: „Dieser Baron war ein ganz besondrer Mann. Französische Lebensart im äussern, Schweitzerischer Freyheitssinn, Deutsche Festigkeit, Englische Caprice, voreilige Güte, überspanntes Gefühl im Herzen; und im Kopf, ein beständig abwechselndes Wetterleuchten und Dunkel von Trug und Wahrheit, Windmüllen, Luftschlösser, eine idealische Welt neben der wirklichen, und diese hinter einem Zauberglas, wo das unterste zu oberst erschien.“ (3. Brief, S. 33.)</p>
+  <p>In Zürich lernte Lindau Lavater kennen und im Juni 1775 auch Goethe, der sich auf seiner ersten Schweizer Reise befand, ebenfalls bewegt von einer Liebe, der schwierigen Beziehung zu Anna Elisabeth (Lili) Schönemann. Lindaus Wunsch, ihn auf der weiteren Reise zu begleiten, lehnte Goethe ab, besuchte ihn aber nach der Rückkehr vom Sankt Gotthard Ende Juni 1775 noch einmal im Sihltal westlich des Zürcher Sees; nach Goethes Lebenserinnerungen geschah dies, <quote type="G">um seinen Verdruß zu beschwichtigen</quote> wegen <quote type="G">einer von mir früher gleich zuerst in Zürch nicht aufs freundlichste und schicklichste abgelehnten Begegnung. <gap quantity="3" reason="editorial"/> Die eifersüchtige Freundschaft des trefflichen Passavant war eigentlich Ursach an dem Ablehnen einer zwar lieben aber doch unbequemen Gegenwart.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 620 [19. Buch].) Vermutlich Lindaus weiteres Schicksal veranlasste Goethe, sein damaliges Verhalten gar als <quote type="G">Versündigung gegen den jungen Lindau</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 2, 618 [Paralipomenon 138]) zu bezeichnen. Gleichfalls 1775 begegnete Lindau dem Hirtenjungen Peter im Baumgarten, den er zu sich nahm, um für seine Erziehung und Schulausbildung zu sorgen (vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). Aufschlussreich für Lindaus eigene Persönlichkeit ist ein von ihm eigenhändig in Französisch geschriebener „Plan pour effectuer la resurection de Henri Jules présenté à ses amis par leur très humble &amp; très obeissant Serviteur Lindau“ (Faksimile: <ref target="sndb:sigle#241">Ernst</ref>, zwischen 80 und 81. – „Auferstehungsplan für Heinrich Julius, seinen Freunden unterbreitet durch ihren sehr ergebenen und sehr gehorsamen Diener Lindau“ [<ref target="sndb:sigle#241">Ernst</ref>, 20]). In diesem „Plan“ heißt es: „Pieux Enfans de la Nature! Vos coeurs ne s’attendrirent t’ils point sur le sort d’un de vos frères? Henri Jules n’est plus. <gap quantity="3" reason="editorial"/> Pleurez la mort du tendre Henri, o vous qui le chérissiez! <gap quantity="3" reason="editorial"/> qu’un autre accomplisse lex doux rêves de son enfance! Jules aima un enfant qui peut remplir encore la belle carrière où lui même entra trop tard. Ouvrez la carrière à cet enfant, o fils de la Nature!“(Faksimile: <ref target="sndb:sigle#241">Ernst</ref>, zwischen 80 und 81. –„Fromme Kinder der Natur! Wird Euer Herz sich nicht erweichen über dem Los eines Eurer Brüder? Heinrich Julius ist nicht mehr. <gap quantity="3" reason="editorial"/> Beweint den Tod des zarten Heinrich, o Ihr, die Ihr ihn liebtet. <gap quantity="3" reason="editorial"/> ein andrer verwirkliche die süßen Träume seiner Kindheit. Julius liebte ein Kind, das den schönen Lebensweg zu Ende schreiten kann, den er selbst zu spät betrat. Öffnet diesem Kind den Lebensweg, o Söhne der Natur!“ [<ref target="sndb:sigle#241">Ernst</ref>, 20 f.])</p>
+  <p>Daraus scheint zweierlei hervorzugehen: Peter im Baumgarten war das Alter ego Lindaus: „Eure Imagination trägt das in den Jungen hinein was in eurer Seele liegt, ihr seyd der Peter“, schreibt Lenz in seinem Brief an Lindau von April 1776 (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 225). Ferner lässt der „Plan“ im vorweggenommenen Tod den Ausweg sichtbar werden, den Lindau suchte, um seinem Unglück zu entkommen. Sein Freund Lenz sagte ihm im zitierten Brief auf den Kopf zu: „Wollt ihr euch todtschießen lassen oder juckt euch die Haut so das Leben zu verlieren so geht nach Amerika u. verliert es auf eine edle Art.“ (Ebd., 224.) Nach seinem Aufenthalt in der Schweiz reiste Lindau unstet durch Deutschland „auf dem Lande herum“ (Brief an Lenz, 9. Februar 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 176), ohne seinem Leben eine Perspektive geben zu können. Unter anderem besuchte er Ende Januar 1776 Goethe in Weimar (vgl. <ref target="gb:text#GB03_1_BR032_0_025_024">25,24</ref>). In dieser Zeit, Anfang des Jahres 1776, entschloss er sich, tatsächlich nach Amerika zu gehen und am amerikanischen Unabhängigkeitskrieg teilzunehmen, auf Seiten der Briten. Darauf schrieb ihm Lavater am 14. Februar 1776 in einem Brief: „Du in Amerika? Du wider die ehrlichen Kolonisten? Du so ferne, ach! ein unglücklicher Gang“ (zitiert nach: <ref target="sndb:sigle#241">Ernst</ref>, 90). Mit Patent vom 3. März 1776 wurde Lindau Secondelieutenant im hessischen Regiment Wutgenau und brach mit diesem Ende Mai 1776 nach Amerika auf. Kurz vor dem 15. März 1776 traf Lindau mit Johann Georg Zimmermann in Hannover zusammen, der seinen Eindruck von ihm in einem Brief an Lavater vom genannten Datum wiedergab: „Dieser Mensch hat ein Übermaß von Kraft und Schwachheit, beides in gleichem Grade. Das Resultat davon ist eine Phantasterei, die oft nahe an den Wahnwitz zu grenzen scheint. <gap quantity="3" reason="editorial"/> Nun ist er durch seine Schwachheit ein unbrauchbarer und höchst unglücklicher Mensch, und dieser Zustand (dessen Ursache ich gleich erriet) kömmt von der Manustupration, die er vom neunten bis ins siebzehnte Jahr getrieben hat. Wer eine philosophische Geschichte der Schwärmer in manchem Fache schreiben wollte, würde in dem finstern tappen, wenn er nichts von den Wirkungen der Manustupration auf die Seele des Menschen verstünde.“ (<ref target="sndb:sigle#241">Ernst</ref>, 96.)</p>
+  <p>Als Lindau Hannover besuchte, war er bereits Offizier; was ihn nach Amerika trieb, geht aus einem Gespräch hervor, über das Zimmermann im eben zitierten Brief berichtet: „Er fragte mich unter anderm auch, was ich von Totschießen halte, und bewies mir sodann, daß er dieses am Anfang dieses Monats habe tun wollen? Ich sagte ihm, Totschießen sei in einigen Fällen gut; in seinem Tollheit. Er war sehr besänftiget, als ich ihm dieses bewiesen hatte.“ (<ref target="sndb:sigle#241">Ernst</ref>, 96.) Dennoch ist anzunehmen, dass Lindau den Tod im Feld suchte. Zuvor war sein Ziehsohn Peter im Baumgarten zu versorgen, den er seit Herbst 1775 auf seine Kosten im Philanthropin zu Marschlins untergebracht hatte. Sein Vorhaben, ihn als „Reisegefährten“ (Brief an Jacob Michael Reinhold Lenz, 9. Februar 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 177) mit nach Amerika zu nehmen oder ihn nachkommen zu lassen, führte er nicht aus (vgl. ebd. sowie Lenz’ undatierten Brief [März 1776?] an Lindau [ebd., 200]). In einem Testament vom 17. Mai 1776, „peu d’heures avant de partir pour l’Amérique“ (<ref target="sndb:sigle#241">Ernst</ref>, 100. – wenige Stunden vor dem Aufbruch nach Amerika), bestimmte er ihm „la somme de 2000 écus en Louis d’or“ (<ref target="sndb:sigle#241">Ernst</ref>, 99. – die Summe von 2000 Talern in Louisdor). Über die Schwierigkeiten, die sich bei der richtigen Auszahlung dieser Mittel ergaben, sowie über das Scheitern des Erziehungs- und Bildungsprojekts vgl. die Briefe <ref target="gb:dokument#11696">Nr 489</ref>, <ref target="gb:dokument#11666">490</ref>, <ref target="gb:dokument#53">491</ref> und die Erläuterungen dazu. Der letzte überlieferte Brief Lindaus stammt vom 21. August, 1. und 11. September 1776; er ist auf der Überfahrt nach Amerika an Bord der „Concordia“ geschrieben und an Lavater gerichtet; darin heißt es: „Vergraben, halb leblos und erstarret unter den Eisschollen, die mich umgeben, denke ich an Dich, Lavater, an Euch allen <supplied>sic</supplied>, Ihr Brüder, Ihr Feuerseelen, und will mit Euch mich unterreden. <gap quantity="3" reason="editorial"/> O mein Peter! mein Peter! mein Peter! Auf dir ergieße der schreckliche Herr der Natur die Kraft, die mir fehlet, ohne welche ich verschmachte.“ (<ref target="sndb:sigle#241">Ernst</ref>, 101.)</p>
+  <p>Nur zwei Monate später, am 16. November 1776, wurde Lindau bei der Erstürmung von Fort Washington auf der Insel Manhattan verwundet und starb, vermutlich Ende 1776 oder Anfang 1777, an den Folgen. – In der Regimentsliste vom März 1777 heißt es, Lindau sei „unter unbewußtem Dato verstorben“ (<ref target="sndb:sigle#241">Ernst</ref>, 29). Der hessische Kammerherr Wilhelm Freiherr von Canitz und Dallwitz berichtete Johann Georg Zimmermann schon am 30. Januar, „Lindau sei tot“ (<ref target="sndb:sigle#241">Ernst</ref>, 103). Dazu passt, was Lindaus Freund Greven in einem undatierten Brief an Lavater schrieb: „Der gute, l: Lindau – ist Tot! <gap quantity="3" reason="editorial"/> Er bekam seine Todeswunde indem er das Fort Washington stürmte, hat 6. Wochen nachher, recht elend gelebt – – Gott! sonst weiß ich wenig von den besondern Umständen seines Todes. Von ihm selbst keine Silbe – er muß also erschreklich gelitten haben.“ (h: Zentralbibliothek Zürich, FA Lav Ms 593.52. – Das von Marie Ulrike von Düring mitgeteilte Todesdatum 31. Juli 1777 beruht demnach auf einem Irrtum [vgl. Lebensbilder und Lebenserinnerungen. Bielefeld 1916, S. 81]; ebenso unzutreffend ist etwa ihre Angabe, Lindau sei aus der Schweiz erst „nach einigen Jahren“ [ebd., S. 53] zurückgekehrt.) Einem handschriftlichen Familienstammbaum, der in der Universitäts- und Landesbibliothek Kassel aufbewahrt wird, ist zu entnehmen, Lindau sei „am 31. Januar 1777“ gestorben. In der Personendatei von Philipp Losch, ebenfalls in der Universitäts- und Landesbibliothek Kassel, lautet eine handschriftliche Eintragung: „Starb anfangs 1777 an seinen Wunden und wurde in der lutherischen Kirche zu Newyork begraben.“ Eine zweite: „Wurde 28. 1. 1777 begraben.“ – Der vorliegende Brief ist der einzige überlieferte Brief Goethes an Lindau; einige wenige Briefe sind erschlossen worden (vgl. <ref target="gb:dokument#15750">EB 56</ref>; <ref target="gb:dokument#15684">GB 2 I, EB 220</ref>). Von Lindau ist kein Brief an Goethe überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10502_comment_com8700">
+<label xml:id="GB03_2_BR019_0_note_001_19_1" copyOf="#start_com_0293"><hi rendition="#fett">19,1</hi><gap reason="damage" unit="chars" quantity="3"/></label>
+<p>Nach den wenigen vom verlorenen Text übriggebliebenen Schriftresten könnte es geheißen haben: ‚gehen Sie‘.</p>
+
+</note>
+<note xml:id="gb10502_comment_com14745">
+<label xml:id="GB03_2_BR019_0_note_002_19_1" copyOf="#start_com_0294"><hi rendition="#fett">19,1</hi>Herrn v. Kniestätt</label>
+<p>Carl Ludwig Christoph Freiherr von Kniestedt-Schaubeck, Wirklicher Hofrat am badischen Hof zu Karlsruhe. Wann sich Lindau in Karlsruhe aufhielt, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8713">
+<label xml:id="GB03_2_BR019_0_note_003_19_3" copyOf="#start_com_0295"><hi rendition="#fett">19,3</hi>Brief für ihn</label>
+<p>Der Brief, vermutlich ein Empfehlungsschreiben für Lindau, ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8714">
+<label xml:id="GB03_2_BR019_0_note_004_19_4" copyOf="#start_com_0296"><hi rendition="#fett">19,4</hi>E.</label>
+<p>Emmendingen, wo Schlosser Oberamtmann war.</p>
+
+</note>
+<note xml:id="gb10502_comment_com13836">
+<label xml:id="GB03_2_BR019_0_note_005_19_7" copyOf="#start_com_0297"><hi rendition="#fett">19,7</hi>Mette</label>
+<p>Weihnachtliche Christmette in der Heiligen Nacht vom 24. auf den 25. Dezember. ‚Mette‘ von kirchenlat. matutina vigilia: frühmorgendlicher Gottesdienst.</p>
+
+</note>
+<note xml:id="gb10502_comment_com17206">
+<label xml:id="GB03_2_BR019_0_note_006_19_9" copyOf="#start_com_0298"><hi rendition="#fett">19,9</hi>Bestellungen</label>
+<p>Offenbar Bücher; möglicherweise waren darunter Werke des griechischen Geschichtsschreibers Diodorus Siculus und Plutarchs „Parallelbiographien“. Dies geht aus einem Brief Schlossers an Lenz vom 13. Januar 1776 hervor (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 162). Im selben Brief schrieb Schlosser, offensichtlich nachdem Lindau ihn in Emmendingen besucht hatte: „Lindau ist ein Stokfisch. Ich habe ihm keinen Langhorn gegeben. Er soll sich besser erklären.“ (Ebd.) – ‚Stockfisch‘: „ein dummer, auch steifer, ungelenker mensch“ (<ref target="sndb:sigle#2890">Grimm</ref> 19, 95; vgl. auch <ref target="sndb:sigle#2753">Adelung</ref> 4, 394), aber auch „sinnbild der erdgebundenen melancholie“ (<ref target="sndb:sigle#2890">Grimm</ref> 19, 94).</p>
+
+</note>
+<note xml:id="gb10502_comment_com8715">
+<label xml:id="GB03_2_BR019_0_note_007_19_10" copyOf="#start_com_0299"><hi rendition="#fett">19,10</hi>drey Buchhändlern</label>
+<p>Zu den ältesten Buchhandlungen in Straßburg gehörte die von Johann Heinrich Heitz (III), der gleichzeitig die Universitätsdruckerei betrieb.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8716">
+<label xml:id="GB03_2_BR019_0_note_008_19_15-16" copyOf="#start_com_0300"><hi rendition="#fett">19,15-16</hi>des Briefes von deinem treflichen Freunde Greven</label>
+<p>Der vermutlich an Lindau gerichtete Brief ist nicht überliefert. – Friedrich Joseph Greven war als Inspektor des Philanthropins von Ulysses von Salis in Marschlins (Graubünden) tätig und als solcher für die Organisation eines reibungslosen Tagesablaufs in dem Institut verantwortlich.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8717">
+<label xml:id="GB03_2_BR019_0_note_009_19_16-17" copyOf="#start_com_0301"><hi rendition="#fett">19,16-17</hi>Ich schick es dir durch Goethen</label>
+<p>Weder ist ein entsprechender Brief von Lenz an Goethe noch ein solcher von Goethe an Lindau überliefert.</p>
+
+</note>
+<note xml:id="gb10502_comment_com14759">
+<label xml:id="GB03_2_BR019_0_note_010_19_18" copyOf="#start_com_0302"><hi rendition="#fett">19,18</hi>Dein Peter</label>
+<p>Peter im Baumgarten, der Schweizer Hirtenjunge, den Lindau als Pflegesohn angenommen hatte; vgl. über ihn ausführlich die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8731">
+<label xml:id="GB03_2_BR019_0_note_011_19_19-20" copyOf="#start_com_0303"><hi rendition="#fett">19,19-20</hi>solch eines Projeckts</label>
+<p>Lindau wollte dem Ziegenhirten zu einem ‚besseren‘ Leben verhelfen und ließ ihn auf eigene Kosten im Philanthropinum zu Marschlins erziehen und ausbilden.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8732">
+<label xml:id="GB03_2_BR019_0_note_012_19_20" copyOf="#start_com_0304"><hi rendition="#fett">19,20</hi>deine Schwester</label>
+<p>Gemeint ist vermutlich Lindaus Lieblingsschwester Wilhelmine, die als Frau des hannoverschen Jägermeisters Friedrich Georg Christian von Beaulieu-Marconnay in Celle lebte.</p>
+
+</note>
+<note xml:id="gb10502_comment_com14760">
+<label xml:id="GB03_2_BR019_0_note_013_19_22" copyOf="#start_com_0305"><hi rendition="#fett">19,22</hi>Einschluß</label>
+<p>Nicht ermittelt; möglicherweise lässt sich vom Ausdruck <quote type="G">Zuckerpüppgen</quote> (<ref target="gb:text#GB03_1_BR019_0_019_022">19,22</ref>) auf Süßigkeiten schließen.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8733">
+<label xml:id="GB03_2_BR019_0_note_014_19_22-23" copyOf="#start_com_0306"><hi rendition="#fett">19,22-23</hi>Sollt er noch nicht da seyn</label>
+<p>Goethes Aufenthalt in Weimar seit dem 7. November 1775 war zunächst nur als Besuch geplant. Lenz rechnete damit, dass er wieder zurück in Frankfurt sein könne.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8734">
+<label xml:id="GB03_2_BR019_0_note_015_19_24" copyOf="#start_com_0307"><hi rendition="#fett">19,24</hi><emph rendition="#latin">vive St. Thomas!</emph></label>
+<p>Bezieht sich möglicherweise auf den französischen Schriftsteller Antoine-Léonard Thomas (vgl. Josefine Rumpfs Anmerkungen zum Erstdruck; JbFDH 1967, S. 6; über Lindaus Vorliebe für Thomas vgl. Ernst, 17). In Johann Jacob Hottingers Roman „Briefe von Selkhof an Welmar“ (Zürich 1777) heißt es: „Sein <supplied>des Barons von Lindau</supplied> Lieblingsbuch waren les éloges de M. Thomas.“ (S. 33.)</p>
+
+</note>
+<note xml:id="gb10502_comment_com14761">
+<label xml:id="GB03_2_BR019_0_note_016_19_26-20_1" copyOf="#start_com_0308"><hi rendition="#fett">19,26-20,1</hi>Wir sehn einander wohl wieder.</label>
+<p>Lindau kam Ende Januar 1776 nach Weimar (vgl. die einleitende <ref target="gb:note#gb10502_comment_com4275">Erläuterung</ref>). Ende Februar war er noch einmal dort; dies geht aus seinem in Weimar geschriebenen Brief an Ulysses von Salis vom 26. Februar 1776 hervor (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 95). Von Goethe gibt es darüber kein Zeugnis.</p>
+
+</note>
+<note xml:id="gb10502_comment_com8749">
+<label xml:id="GB03_2_BR019_0_note_017_20_1" copyOf="#start_com_0309"><hi rendition="#fett">20,1</hi>Schreib mir nur ein Wort</label>
+<p>Ein Brief Lindaus an Goethe ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10502_comment_com13615">
+<label xml:id="GB03_2_BR019_0_note_018_20_2" copyOf="#start_com_0310"><hi rendition="#fett">20,2</hi>Engel</label>
+<p>Ob damit Lindaus Schwester Wilhelmine gemeint ist (vgl. Josefine Rumpfs Anmerkungen zum Erstdruck; <ref target="sndb:sigle#491">JbFDH</ref> 1967, S. 6) oder Peter im Baumgarten (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 52, 90, zu Nr 381a), ist unsicher.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

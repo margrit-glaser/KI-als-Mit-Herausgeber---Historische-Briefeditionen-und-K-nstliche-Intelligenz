@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11451" n="GB 3, Nr. 210">
+  <teiHeader xml:id="gb11451_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>210.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Januar 1777. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:38Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11451_tei.xml</idno>
+        <idno type="URI">gb11451</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR210_0</idno>
+        <idno type="KSW-ID">11451</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="125" to="126">125-126</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="464" to="467">464-467</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11451_header_hwit1136" corresp="#gb11451_source_hwit1136" sameAs="#gb11451_comment_hwit1136" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 83</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11451,,1136/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich habe zwey Packete von dir erhalten, dazwischen eine Lücke war, das erste enthielt Revision</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-01-08">8. Januar 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11451_source_hwit1136" corresp="#gb11451_header_hwit1136" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11451/13871"/>
+      <p>
+        <anchor xml:id="GB03_1_BR210_0_125_020"/>
+        <ref target="gb:note#GB03_2_BR210_0_note_001_125_20" xml:id="start_com_1936"/>Ich habe zwey Packete von dir erhalten<ref xml:id="end_com_1936"/>, dazwischen eine Lücke war, 
+<anchor xml:id="GB03_1_BR210_0_125_021"/>das erste enthielt Revision und <ref target="gb:note#GB03_2_BR210_0_note_002_125_21" xml:id="start_com_1937"/>ist fort<ref xml:id="end_com_1937"/>. <ref target="gb:note#GB03_2_BR210_0_note_003_125_21" xml:id="start_com_1938"/>Das andre geht an <emph rendition="#latin">pag</emph> 39<ref xml:id="end_com_1938"/> mit 
+<anchor xml:id="GB03_1_BR210_0_125_022"/>dem dritten Fragment. <ref target="gb:note#GB03_2_BR210_0_note_004_125_22" xml:id="start_com_1939"/>Du schreibst<ref xml:id="end_com_1939"/> du hättest etwas <ref target="gb:note#GB03_2_BR210_0_note_005_125_22-126_1" xml:id="start_com_1940"/>grad nach Leipzig<ref xml:id="end_com_1940"/>
+        <anchor xml:id="GB03_1_BR210_0_126_001"/>geschickt also <ref target="gb:note#GB03_2_BR210_0_note_006_126_1" xml:id="start_com_1941"/>wids<ref xml:id="end_com_1941"/> wohl richtig seyn, bey mir ists iezzo bis 
+<anchor xml:id="GB03_1_BR210_0_126_002"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR210_0_note_007_126_2" xml:id="start_com_1942"/>pag.</emph> 72. Diomed und Ulysses<ref xml:id="end_com_1942"/>. soll nicht aufgehalten werden. Es sind 
+<anchor xml:id="GB03_1_BR210_0_126_003"/>herrliche Sachen drinne die mir wohl gemacht haben. Wenn mir nur<ptr n="1" target="#a001_126.3"/>
+        <anchor xml:id="GB03_1_BR210_0_126_004"/>nicht der <ref target="gb:note#GB03_2_BR210_0_note_008_126_4" xml:id="start_com_1943"/>Lavaterianismus<ref xml:id="end_com_1943"/>: das Hezzen, Trümfe drauf sezzen, Schimpfen, 
+<anchor xml:id="GB03_1_BR210_0_126_005"/>Angstlichkeit, mit Wolcken fechten, mir gleich wieder den guten 
+<anchor xml:id="GB03_1_BR210_0_126_006"/>Eindruck verschunden hätten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR210_0_126_007"/>Ausgestrichen hab ich die <ref target="gb:note#GB03_2_BR210_0_note_009_126_7" xml:id="start_com_1944"/>Anzeige was von mir sey<ref xml:id="end_com_1944"/>, ich weis gar 
+<anchor xml:id="GB03_1_BR210_0_126_008"/>nicht was es bedeuten soll. <ref target="gb:note#GB03_2_BR210_0_note_010_126_8-9" xml:id="start_com_1945"/>Mit der Dedication mags fortgehen, die ist 
+<anchor xml:id="GB03_1_BR210_0_126_009"/>nun schon gedruckt, verspaarts biss auf den vierten etwa<ref xml:id="end_com_1945"/> – In meinem 
+<anchor xml:id="GB03_1_BR210_0_126_010"/>iezzigen Leben weichen alle entfernte Freunde in Nebel,<ptr n="2" target="#a002_126.10"/> es mag so 
+<anchor xml:id="GB03_1_BR210_0_126_011"/>lang währen als es will so hab ich doch ein Musterstückgen<ptr n="3" target="#a003_126.11"/> des bunten 
+<anchor xml:id="GB03_1_BR210_0_126_012"/>Treibens der Welt<ptr n="4" target="#a004_126.12"/> recht herzlich mit genossen. Verdruss Hoffnung, 
+<anchor xml:id="GB03_1_BR210_0_126_013"/>Liebe, Arbeit, Noth, Abenteuer Langeweile, Hass, Albernheiten, 
+<anchor xml:id="GB03_1_BR210_0_126_014"/>Thorheit, Freude, Erwartetes und Unversehnes<ptr n="5" target="#a005_126.14"/>, Flaches und Tiefes, 
+<anchor xml:id="GB03_1_BR210_0_126_015"/>wie die Würfel fallen, mit Festen <pb n="2" facs="gb:digitalisate#11451/13872"/> Tänzen, Schellen, Seide und Flitter 
+<anchor xml:id="GB03_1_BR210_0_126_016"/>ausstaffirt es ist eine treffliche <ref target="gb:note#GB03_2_BR210_0_note_011_126_16" xml:id="start_com_1946"/>Wirthschafft<ref xml:id="end_com_1946"/>. Und bey dem Allen 
+<anchor xml:id="GB03_1_BR210_0_126_017"/>l. Br. Gott sey Danck in mir, und in meinen wahren Entzwecken ganz 
+<anchor xml:id="GB03_1_BR210_0_126_018"/>glücklich. Ich habe keine Wünsche als die ich würcklich mit schönem 
+<anchor xml:id="GB03_1_BR210_0_126_019"/>Wanderschritt mir entgegen kommen sehe.     Es ist dein Schicksaal<ptr n="6" target="#a006_126.19"/>
+        <anchor xml:id="GB03_1_BR210_0_126_020"/>
+        <ref target="gb:note#GB03_2_BR210_0_note_012_126_20" xml:id="start_com_1947"/>dass in an dir diese Freude nicht erleben soll<ref xml:id="end_com_1947"/>. Leb wohl grüs alles. Vor<ptr n="7" target="#a007_126.20"/>
+        <anchor xml:id="GB03_1_BR210_0_126_021"/>Weimar <ref target="gb:note#GB03_2_BR210_0_note_013_126_21" xml:id="start_com_1948"/>im Garten<ref xml:id="end_com_1948"/>.</p>
+      <closer>
+        <dateline>
+          <anchor xml:id="GB03_1_BR210_0_126_022"/>d<g ref="#typoSuspension"/>. 8 Jan. 77     </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p rendition="#einrueck2_voll">
+          <anchor xml:id="GB03_1_BR210_0_126_023"/>Dein <ref target="gb:note#GB03_2_BR210_0_note_014_126_23" xml:id="start_com_1949"/>Durst nach Crist.<ref xml:id="end_com_1949"/> hat mich gejammert. Du bist übler dran 
+<anchor xml:id="GB03_1_BR210_0_126_024"/>als wir Heiden uns erscheinen doch in der Noth unsre Götter.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11451_comment">
+<body>
+<div type="metadata" xml:id="gb11451_comment_com565">
+  <ab type="numberAddressee"><label>210.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 8. Januar 1777 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11451_comment_com2609">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 83. – 1 Bl. 17(–17,2) × 20,2 cm, 1 &#xBD; S. beschr., egh., Tinte; Text <quote type="G">das erste <gap quantity="3" reason="editorial"/> den vierten etwa</quote> (<ref target="gb:text#GB03_1_BR210_0_125_021 #GB03_1_BR210_0_126_009">125,21–126,9</ref>) mit runden Klammern eingeklammert von fremder Hd, Bleistift.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 27 f., Nr 10.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 130 f., Nr 549.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11451_comment_com4405">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Lavaters (vgl. <ref target="gb:text#GB03_1_BR210_0_125_022 #GB03_1_BR210_0_126_001">125,22–126,1</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11451_comment_com10743">
+<label xml:id="GB03_2_BR210_0_note_001_125_20" copyOf="#start_com_1936"><hi rendition="#fett">125,20</hi>Ich habe zwey Packete von dir erhalten</label>
+<p>Die erste Sendung mit Manuskript zum 3. Band der „Physiognomischen Fragmente“ hatte Lavater in seinem Brief an Herder und Goethe vom 7. Dezember 1776 für die Mitte des Monats angekündigt (vgl. <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 72). Wenn nach Goethes Worten dieses Paket die <quote type="G">Revision</quote> (<ref target="gb:text#GB03_1_BR210_0_125_021">125,21</ref>), das andere Paket bereits das 3. Fragment enthielt, war wohl keine <quote type="G">Lücke</quote> (<ref target="gb:text#GB03_1_BR210_0_125_020">125,20</ref>) in den Sendungen eingetreten, denn die Revision der ersten beiden Bände füllt sowohl das 1. als auch das 2. Fragment, im gedruckten Band die Seiten 5–29. Das 3. Fragment beginnt mit Seite 30, im Manuskript mit Seite 39 (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR210_0_note_003_125_21">125,21</ref>).</p>
+
+</note>
+<note xml:id="gb11451_comment_com10720">
+<label xml:id="GB03_2_BR210_0_note_002_125_21" copyOf="#start_com_1937"><hi rendition="#fett">125,21</hi>ist fort</label>
+<p>Vgl. Philipp Seidels in Goethes Auftrag geschriebenen Brief an Philipp Erasmus Reich vom 2. Januar 1777 (<ref target="gb:dokument#52382">Nr 203</ref>).</p>
+
+</note>
+<note xml:id="gb11451_comment_com10752">
+<label xml:id="GB03_2_BR210_0_note_003_125_21" copyOf="#start_com_1938"><hi rendition="#fett">125,21</hi>Das andre geht an <emph rendition="#latin">pag</emph> 39</label>
+<p>Das 3. Fragment im 3. Band der „Physiognomischen Fragmente“ umfasst im Druck die Seiten 30–39: „Physiognomik, Pfeiler der Freundschaft und Achtung“.</p>
+
+</note>
+<note xml:id="gb11451_comment_com14995">
+<label xml:id="GB03_2_BR210_0_note_004_125_22" copyOf="#start_com_1939"><hi rendition="#fett">125,22</hi>Du schreibst</label>
+<p>Der entsprechende Brief Lavaters an Goethe ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11451_comment_com10753">
+<label xml:id="GB03_2_BR210_0_note_005_125_22-126_1" copyOf="#start_com_1940"><hi rendition="#fett">125,22-126,1</hi>grad nach Leipzig</label>
+<p>Vermutlich enthielt die direkt an Reich geschickte Sendung das Manuskript zu dem Fragment, in dem Lavater Goethe charakterisierte (vgl. im Einzelnen zu <ref target="gb:note#GB03_2_BR228_0_note_006_133_14">133,14</ref>).</p>
+
+</note>
+<note xml:id="gb11451_comment_com10724">
+<label xml:id="GB03_2_BR210_0_note_006_126_1" copyOf="#start_com_1941"><hi rendition="#fett">126,1</hi>wids</label>
+<p>Flüchtig für ‚wird’s‘.</p>
+
+</note>
+<note xml:id="gb11451_comment_com17795">
+<label xml:id="GB03_2_BR210_0_note_007_126_2" copyOf="#start_com_1942"><hi rendition="#fett">126,2</hi><emph rendition="#latin">pag.</emph> 72. Diomed und Ulysses</label>
+<p>Die Manuskriptseite 72 entspricht der Druckseite 57. Dort findet sich auf der letzten Seite im 5. Fragment des 3. Bandes der „Physiognomischen Fragmente“ (Ueber griechische Gesichter, S. 48–57) eine Vignette mit zwei männlichen Profilen und deren Kommentierung unter dem Titel „Zwey griechische Profile. Diomedes und Ulysses“. Die Kupferstiche stammen von Johann Heinrich Lips. – Diomedes war ein Gefährte des Odysseus (lat. Ulysses), mit dem er während des Trojanischen Krieges einige Heldentaten vollbrachte.</p>
+
+</note>
+<note xml:id="gb11451_comment_com10754">
+<label xml:id="GB03_2_BR210_0_note_008_126_4" copyOf="#start_com_1943"><hi rendition="#fett">126,4</hi>Lavaterianismus</label>
+<p>Lavaters emotional aufgeladener, hyperbolischer Schreibstil; schon ein Jahr zuvor hatte Goethe in seinem Brief an Lavater vom 20. Februar 1776 die Hoffnung geäußert, dass <quote type="G">der Ton deines dritten Theils <gap quantity="3" reason="editorial"/> weniger <hi rendition="#hervor1">zitternd</hi> und <hi rendition="#hervor1">bebend</hi> seyn</quote> werde (<ref target="gb:text#GB03_1_BR048_0_035_016 #GB03_1_BR048_0_035_017">35,16–17</ref>).</p>
+
+</note>
+<note xml:id="gb11451_comment_com17800">
+<label xml:id="GB03_2_BR210_0_note_009_126_7" copyOf="#start_com_1944"><hi rendition="#fett">126,7</hi>Anzeige was von mir sey</label>
+<p>Johann Georg Zimmermann hatte in einem Brief an Lavater von Ende Januar 1776 angeregt, diese Anzeige (schon in den 2. Band der „Fragmente“) einzufügen „und Goethen die Ehre wiederfahren zu lassen die ihm gebührt“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 345). Obwohl Goethe die entsprechenden Angaben tilgte, finden sich im 3. Band der „Physiognomischen Fragmente“ Mitteilungen über seine Beiträge in der Revision der ersten beiden Bände (vgl. <ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 14, 16, 21, 28). Vermutlich hat Goethe die im Manuskript verstreut vorkommenden Hinweise übersehen oder nicht deutlich genug ausgestrichen (vgl. <ref target="sndb:sigle#3122">von der Hellen</ref>, 228).</p>
+
+</note>
+<note xml:id="gb11451_comment_com10764">
+<label xml:id="GB03_2_BR210_0_note_010_126_8-9" copyOf="#start_com_1945"><hi rendition="#fett">126,8-9</hi>Mit der Dedication <gap quantity="3" reason="editorial"/> biss auf den vierten etwa</label>
+<p>Über die Frage nach dem Adressaten der Widmung war es zum Dissens gekommen. So hatte Johann Georg Zimmermann am 27. Dezember 1776 an Lavater geschrieben: „Der Teufel hohle die deutschen Fürsten, denen Du Deine Physiognomik dedicirst, wenn Dir nicht jeder diese Ehre mit hundert Dukaten erwiedert.“ (<ref target="sndb:sigle#417">Hegner</ref>, 90.) Den 1. Band der „Physiognomischen Fragmente“ hatte Lavater dem Markgrafen Karl Friedrich von Baden gewidmet, den 2. Band der Herzogin Louise von Sachsen-Weimar und Eisenach. Von beiden hatte er keine Zuwendungen erhalten. Die Widmung des 3. Bandes ist „An Herrn Friedrich Ludwig Wilhelm Christian, regierenden Landgrafen zu Hessen-Homburg“ gerichtet; möglicherweise war auch über andere Personen gesprochen worden, die Goethe nun für den 4. Band ‚aufzusparen‘ empfiehlt. – Die Widmung lautet:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56443_source" corresp="#gb56443_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck1">
+        <hi rendition="#hervor1">Bester Fürst</hi>,</p>
+      <lb/>
+      <p>Nichts will ich mit dieser Zueignung, als mir den angenehmen Gedanken verschaffen: – – „Der liebenswürdige Landgraf von Hessen-Homburg liest diesen Band in Stunden, die ihm wichtigere Geschäffte übrig lassen, an der Seite seiner aufmerksamen Gemahlinn, mit lebhafterer Vergegenwärtigung meiner; läßt sich seyn – Er habe Tafel nach Tafel in der Hand, und Lavater sitze vor ihm und les’ ihm Fragment für Fragment vor“ – Mehr will ich nicht! Nur um so viel näher möcht’ ich Ihnen einige Stunden <hi rendition="#hervor1">scheinen</hi> – da ich’s nicht <hi rendition="#hervor1">seyn</hi> kann – wann einmal wieder <hi rendition="#hervor1">seyn</hi>? – In <hi rendition="#hervor1">Homburg</hi> vor der Höhe? In <hi rendition="#hervor1">Zürich</hi>? oder – in jener Welt, wohin wir mit schneller Eile eilen – weiß unser Vater im Himmel. Ich küß’ Ihnen, bester Fürst, im Geiste die Hand – ruh’ einige Augenblicke schweigend an der edeln Hand und lisple – „Ermüden Sie nicht, alle Ihre wichtigen Tage mit edeln Thaten zu bezeichnen – und lassen Sie mich dann und wann ein Wort Ihrer edeln unverdienten Liebe hören.“ –</p>
+      <p rendition="#einrueck1">Zürich, den 7. Oct. 1776.</p>
+      <lb/>
+      <p rendition="#einrueck15">
+        <hi rendition="#hervor1">Johann Caspar Lavater,</hi>
+      </p>
+      <p rendition="#einrueck16">Pfarrer am Waysenhause.</p>
+    </div>
+  </body>
+</text>
+<text type="comment" xml:id="gb56443_comment">
+  <body><p/></body>
+</text>
+</group>
+
+</floatingText>
+<p>Lavater hatte den Landgrafen am 1. August 1774 auf seiner Emser Reise in Homburg kennen gelernt; in sein Tagebuch notierte er: „Ins Schloß zum Landgrafen. Er stottert immer, wenn er was sagen will; ist freylich nicht sehr tief, intereßierte sich aber doch weit mehr, als sein erster Anblik vermuthen läßt, für gute Sachen“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 319). Landgraf Friedrich V. von Hessen-Homburg hatte noch im September desselben Jahres seinerseits Lavater in Zürich besucht. Dieser schrieb Mitte September 1774 an Goethe: „Diese Woche hatt’ ich mit den Prinzeßinnen von Homburg u. Darmstadt – und dem überaus liebenswürdigen Landgrafen Freüde. Ich sahe sie in Kleinjoggs stube u. communicirte ihnen sein Brod“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 38). – Über den Besuch des Landgrafen und seiner Frau Carolina in Begleitung der Prinzessin Louise von Hessen-Darmstadt vgl. auch Lavaters Brief an Herder vom 14. September 1774 (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 116); über den Bauern Hans Jakob Gujer in Wermatswil bei Uster im Kanton Zürich, genannt Chlijogg (Kleinjogg), vgl. <ref target="gb:note#GB02_2_BR216_0_note_001_180_10">GB 2 II, zu 180,10</ref>.</p>
+
+</note>
+<note xml:id="gb11451_comment_com10765">
+<label xml:id="GB03_2_BR210_0_note_011_126_16" copyOf="#start_com_1946"><hi rendition="#fett">126,16</hi>Wirthschafft</label>
+<p>Hier Bezeichnung für die „Handhabung eines jeden Geschäftes“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb11451_comment_com16030">
+<label xml:id="GB03_2_BR210_0_note_012_126_20" copyOf="#start_com_1947"><hi rendition="#fett">126,20</hi>dass in an dir diese Freude nicht erleben soll</label>
+<p>In <ref target="gb:dokument#11180">Nr 170</ref> hatte Goethe <quote type="G">Ständigkeit</quote> bei Lavater vermisst; vgl. des Weiteren zu <ref target="gb:note#GB03_2_BR170_0_note_002_105_24">105,24</ref>. – ‚In‘ versehentlich für ‚ich‘.</p>
+
+</note>
+<note xml:id="gb11451_comment_com10766">
+<label xml:id="GB03_2_BR210_0_note_013_126_21" copyOf="#start_com_1948"><hi rendition="#fett">126,21</hi>im Garten</label>
+<p>Im Gartengrundstück am „Stern“, das Herzog Carl August Goethe im April 1776 geschenkt hatte (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11451_comment_com14997">
+<label xml:id="GB03_2_BR210_0_note_014_126_23" copyOf="#start_com_1949"><hi rendition="#fett">126,23</hi>Durst nach Crist.</label>
+<p>Gemeint ist Lavaters Gedicht „Durst nach Christuserfahrung“, das als Einzeldruck (o. O. <supplied>Zürich 1776</supplied>) mit dem Datum „1776. Im November“ unter Lavaters Freunden kursierte. Es erschien unter dem Titel „Durst nach Gotteserfahrung / 1776.“ in Lavaters „Poesieen“ (Bd 1. Leipzig 1781, S. 7–17).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

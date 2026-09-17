@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="280"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10672" n="GB 3, Nr. 28">
+  <teiHeader xml:id="gb10672_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>28.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 22. Januar? 1776. Montag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10672_tei.xml</idno>
+        <idno type="URI">gb10672</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR028_0</idno>
+        <idno type="KSW-ID">10672</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="24" to="24">24</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="106" to="109">106-109</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10672_header_hwit851" corresp="#gb10672_source_hwit851" sameAs="#gb10672_comment_hwit851" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 9</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10672,,851/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Einen guten Morgen liebste Frau. Herzogin Louise lässt Ihnen sagen: Sie möchten bald</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10672_header_acc467" corresp="gb10672_comment_acc467">
+            <objectIdentifier>
+              <objectName>Brief Goethes an Cornelia Schlosser etwa vom 21. Januar 1776.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-22"><supplied>22. Januar? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-01-11" to="1776-01-20"><supplied>Mitte Januar 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10672_source_hwit851" corresp="#gb10672_header_hwit851" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10672/22243"/>
+      <p>
+        <anchor xml:id="GB03_1_BR028_0_024_001"/>Einen guten Morgen liebste Frau. <ref target="gb:note#GB03_2_BR028_0_note_001_24_1" xml:id="start_com_0376"/>Herzogin Louise<ref xml:id="end_com_0376"/> lässt Ihnen sagen: 
+<anchor xml:id="GB03_1_BR028_0_024_002"/>Sie möchten <ref target="gb:note#GB03_2_BR028_0_note_002_24_2" xml:id="start_com_0377"/>bald wieder gesund<ref xml:id="end_com_0377"/> werden, denn ohne Sie sey kein Auskommens. 
+<anchor xml:id="GB03_1_BR028_0_024_003"/>Hier der <ref target="gb:note#GB03_2_BR028_0_note_003_24_3" xml:id="start_com_0378"/>Brief an m. Schw.<ref xml:id="end_com_0378"/> Gehen Sie in die <ref target="gb:note#GB03_2_BR028_0_note_004_24_3" xml:id="start_com_0379"/>Comödie<ref xml:id="end_com_0379"/>? Ich 
+<anchor xml:id="GB03_1_BR028_0_024_004"/>bitte nur um ein Wort, Besänftigerinn! Ich komme wahrscheinlich 
+<anchor xml:id="GB03_1_BR028_0_024_005"/>heute noch, denn mir ist s nicht wie Ihrem <ref target="gb:note#GB03_2_BR028_0_note_005_24_5" xml:id="start_com_0380"/>Friz<ref xml:id="end_com_0380"/>. Addio.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10672_comment">
+<body>
+<div type="metadata" xml:id="gb10672_comment_com1206">
+  <ab type="numberAddressee"><label>28.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>22. Januar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10672_comment_com1926">
+  <p>Entgegen seiner Einordnung im Konvolut der Briefe an Charlotte von Stein (Bd I) Anfang März 1776 verweist der Inhalt des Briefes auf eine etwas frühere Datierung: Bei der Beilage (vgl. <ref target="gb:text#GB03_1_BR028_0_024_003">24,3</ref>) könnte es sich um den nicht überlieferten Brief an die Schwester Cornelia Schlosser handeln (vgl. <ref target="gb:dokument#52547">EB 27</ref>), den Goethe mit seinem Brief vom 22. Januar 1776 an Merck schickte mit der Bitte, ihn weiterzuleiten (vgl. <ref target="gb:text#GB03_1_BR027_0_023_024 #GB03_1_BR027_0_023_025">23,24–25</ref>). Außerdem erkundigt sich Goethe, ob die Adressatin <quote type="G">in die Comödie</quote> (<ref target="gb:text#GB03_1_BR028_0_024_003">24,3</ref>) geht. Laut Fourierbuch fand am Abend des 22. Januar „Franzö<supplied>s</supplied>ische Commedia“ statt (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 27). Aus den vorangehenden Eintragungen geht zudem hervor, dass Charlotte von Stein seit dem 18. Januar nicht mehr an der Hoftafel teilgenommen hatte (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 21–27), was auf eine Erkrankung oder Unpässlichkeit verweist und mit dem zu Beginn ausgesprochenen Wunsch, die Adressatin möge <quote type="G">bald wieder gesund werden</quote> (<ref target="gb:text#GB03_1_BR028_0_024_002">24,2</ref>), korrespondiert. Der vorliegende Brief könnte demnach am Morgen des 22. Januar 1776 geschrieben worden sein.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10672_comment_com3250">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 9. – 1 Bl. 16,8 × 10,9(–11,1) cm, Bordüre mit gereihtem Dreiblatt auf drei Balken (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 4), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „23.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 23), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 4.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 19 f., Nr 387.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10672_comment_com3791">
+  <p>Brief Goethes an Cornelia Schlosser etwa vom 21. Januar 1776 (EB 27; vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR028_0_note_003_24_3">24,3</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10672_comment_com5046">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10672_comment_com14148">
+<label xml:id="GB03_2_BR028_0_note_001_24_1" copyOf="#start_com_0376"><hi rendition="#fett">24,1</hi>Herzogin Louise</label>
+<p>Zwischen der knapp 19-jährigen Herzogin Louise, einer geborenen Prinzessin von Hessen-Darmstadt, seit dem 3. Oktober 1775 mit Carl August von Sachsen-Weimar und Eisenach verheiratet, und der 15 Jahre älteren Charlotte von Stein muss sich schon kurz nach der Ankunft des herzoglichen Paares in Weimar am 17. Oktober 1775 ein freundschaftliches Verhältnis entwickelt haben. Ähnlich wie bei der Bekanntschaft mit Goethe hatte auch in diesem Fall Johann Georg Zimmermann, der sich vom 5. bis 7. Juli 1775 am Hof in Darmstadt aufgehalten hatte, als Mittler gewirkt, wie aus seinem Brief an Charlotte von Stein vom 22. Oktober 1775 aus Hannover hervorgeht:
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56424_source" corresp="#gb56424_comment">
+  <body>
+    <div>
+      <p>Le caractére le plus Sublime que j’aye vû pendant mon Voyage, l’ame la plus belle et la plus honnete, est celle de la Princesse Louise de Darmstadt, aprésent Duchesse regnante de Weimar.</p>
+      <p>J’ay beaucoup parlé de vous, Madame à cette Princesse. Je l’ay supplié de vous rechercher dès son arrivée à Weimar, je lui ai promis qu’elle trouvera en Vous l’amie <hi rendition="#hervor1">dont elle avoit besoin</hi>; je lui ai fait dire tout cela aussi par une Dame de Hanover avec la quelle elle est intimement liée, et qui est une des Femmes du monde que j’aime et que je respecte le plus, Madame la Grande Chambellane de Löw.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56424_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56424_comment_com84447">
+  <p>(H: Archiv der BBAW. – Das edelste Wesen, das ich auf meiner Reise gesehen habe, die anmutigste und achtbarste Seele gehört der Prinzessin Louise von Darmstadt, die jetzt Regierende Herzogin von Weimar ist. / Ich habe, gnädige Frau, viel mit der Prinzessin über Sie gesprochen. Ich habe sie eindringlich gebeten, Sie gleich nach ihrer Ankunft in Weimar aufzusuchen; ich habe ihr versichert, dass sie in Ihnen die Freundin finden werde, <hi rendition="#hervor1">die sie benötigt</hi>; das alles habe ich ihr auch von einer Dame aus Hannover sagen lassen, mit der sie eng verbunden ist, die eine jener Damen von Welt ist, die ich am meisten liebe und schätze, Frau Oberkammerherrin von Löw. – Transkription und Übersetzung von Wolf-Dieter Lange, Bonn.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+ Weiter vgl. den Brief Charlotte von Steins an Zimmermann vom 6. März 1776, abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>, sowie den Brief der Herzogin Louise an Charlotte von Stein vom 19. August 1777, abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb9221_comment_com84669">Nr 280</ref>.</p>
+
+</note>
+<note xml:id="gb10672_comment_com9794">
+<label xml:id="GB03_2_BR028_0_note_002_24_2" copyOf="#start_com_0377"><hi rendition="#fett">24,2</hi>bald wieder gesund</label>
+<p>Vgl. <ref target="gb:note#gb10672_comment_com1926">Datierung</ref>; laut Fourierbuch nahm „Fr. Oberstmstr v. Stein“ erst am Abend des 23. Januar wieder an der fürstlichen Tafel teil (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 28).</p>
+
+</note>
+<note xml:id="gb10672_comment_com17607">
+<label xml:id="GB03_2_BR028_0_note_003_24_3" copyOf="#start_com_0378"><hi rendition="#fett">24,3</hi>Brief an m. Schw.</label>
+<p>Nicht überliefert (<ref target="gb:dokument#52547">EB 27</ref>). – Bereits in seinem ersten überlieferten Brief an Charlotte von Stein vom 7. Januar 1776 hatte Goethe den Erhalt von ‚lieben Briefen‘ erwähnt, die ihn quälten und bei denen es sich um einen Brief von der Schwester Cornelia Schlosser gehandelt haben könnte (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_007_18_20">18,20</ref>). Wie aus der späteren Korrespondenz mit Charlotte von Stein hervorgeht, bat Goethe diese, seiner Schwester zu schreiben, weihte die Weimarer Freundin also offenbar schon zu Beginn ihrer Bekanntschaft in sein enges, gleichwohl aber schwieriges Verhältnis zu Cornelia ein, die sich im fernen Emmendingen zunehmend unglücklich fühlte und schon seit der Geburt ihrer Tochter Louise am 28. Oktober 1774 krank und meist ans Bett gefesselt war (vgl. zu <ref target="gb:note#GB03_2_BR110_0_note_002_64_19-20">64,19-20</ref>). – Mit seinem Brief vom 22. Januar 1776 an Merck in Darmstadt (<ref target="gb:dokument#10641">Nr 27</ref>) sandte Goethe einen Brief und eine Beilage, die der Freund an die Schwester weiterschicken sollte (vgl. <ref target="gb:text#GB03_1_BR027_0_023_024 #GB03_1_BR027_0_023_025">23,24–25</ref>). Es könnte sich hierbei um denselben Brief an Cornelia Schlosser handeln, der mit dem vorliegenden Billett an Charlotte von Stein geschickt wurde, und zwar mit der unausgesprochenen Bitte, ihn vor dem Absenden zu lesen. Die Briefpost nach Frankfurt und in den südwestdeutschen Raum ging jeweils „Dienstags Morgens 5 Uhr“ ab (<ref target="sndb:sigle#3024">Post-Bericht</ref> 1776, o. S.), der Brief an Merck mitsamt den Beilagen wurde also wahrscheinlich am Dienstag, dem 23. Januar, abgeschickt.</p>
+
+</note>
+<note xml:id="gb10672_comment_com9802">
+<label xml:id="GB03_2_BR028_0_note_004_24_3" copyOf="#start_com_0379"><hi rendition="#fett">24,3</hi>Comödie</label>
+<p>Vgl. <ref target="gb:note#gb10672_comment_com1926">Datierung</ref>. – Hier für Schauspiel überhaupt (vgl. <ref target="sndb:sigle#397">GWb</ref> 5, 542); auch in der Bedeutung „Theatergebäude, Schauspielhaus“ gebraucht (ebd.; vgl. auch <ref target="gb:note#GB01_2_BR009_0_note_071_28_10">GB 1 II, zu 28,10</ref>). Gemeint ist hier offenbar eine Aufführung des fürstlichen Liebhabertheaters unter Leitung des Grafen von Putbus, Oberhofmeisters der Herzoginmutter Anna Amalia, das in der frühen Zeit seines Bestehens ausschließlich französische Schau- und Singspiele aufführte. Das Liebhabertheater war nach dem Weimarer Schlossbrand im Mai 1774 als Ersatz für das frühere Hoftheater gegründet worden. Nach dem Brand des im östlichen Flügel des Schlosses untergebrachten Theaters war auch das Ensemble, die Seylersche Gesellschaft, entlassen worden. – Als Ersatzspielstätte diente seit Ende 1775 das von dem herzoglichen Hofjäger und Bauunternehmer Anton Georg Hauptmann an der Esplanade (heute Schillerstraße) erbaute so genannte Redoutenhaus (zu den Schauspielern des Liebhabertheaters vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_006_29_13">29,13</ref>). – Wahrscheinlich wurde am 22. Januar ein Stück mit dem Titel „Adelaide“ aufgeführt. Die Vorstellung sollte laut Schatullrechnung zwar schon am 21. Januar stattfinden (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 131); wie die Eintragung im Fourierbuch nahelegt, fand sie möglicherweise aber erst einen Tag später statt. – Nähere Angaben zu diesem Stück wurden bislang nicht ermittelt. Zu denken wäre an Voltaires Tragödie „Adélaïde Du Gueclin“ (Paris 1765). Bereits im Oktober 1775 war zum Empfang des herzoglichen Paares Voltaires „Nanine“ aufgeführt worden (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 130 f.).</p>
+
+</note>
+<note xml:id="gb10672_comment_com17616">
+<label xml:id="GB03_2_BR028_0_note_005_24_5" copyOf="#start_com_0380"><hi rendition="#fett">24,5</hi>Friz</label>
+<p>Friedrich von Stein, der sich häufig bei Goethe aufhielt, wollte dem Kontext zufolge vielleicht an diesem Tag nicht nach Hause gehen. – Er war der jüngste, damals erst dreijährige Sohn Charlottes von Steins, zu dem sie ein besonders enges und liebevolles Verhältnis gehabt haben soll. Friedrich von Stein führt dies in seiner Lebensbeschreibung vor allem auf eine Ursache zurück: „Obgleich das sechste Kind meiner Eltern, war ich doch das einzige, welches meine Mutter selbst stillte. Eine vorzügliche Liebe meiner Mutter war die Folge davon und sie ist mir immer, nachdem vier Schwestern, alle unter dem Alter eines Jahres gestorben, vor meinen Brüdern geblieben.“ (<ref target="sndb:sigle#1116">Briefe an Fritz von Stein</ref>, 3.) Für Mütter aus der aristokratischen Oberschicht galt es damals geradezu als unschicklich, selbst zu stillen. Wohl unter dem Einfluss Rousseaus, der u. a. in seinem Roman „Émile, ou de l’éducation“ (Paris 1762) für das mütterliche Stillen eintrat, begannen Anfang der 1770er Jahre auch in Weimar einige wenige adlige Frauen damit, darunter offenbar auch Charlotte von Stein (vgl. <ref target="sndb:sigle#2095">Berger, Anna Amalia</ref>, 110).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

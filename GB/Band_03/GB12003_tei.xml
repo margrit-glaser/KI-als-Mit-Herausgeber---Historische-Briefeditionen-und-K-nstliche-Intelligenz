@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5230"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12003" n="GB 3, Nr. 513">
+  <teiHeader xml:id="gb12003_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>513.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 4. Juli <supplied>1779. Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:27Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12003_tei.xml</idno>
+        <idno type="URI">gb12003</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR513_0</idno>
+        <idno type="KSW-ID">12003</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="284" to="284">284</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="933" to="933">933</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12003_header_hwit1500" corresp="#gb12003_source_hwit1500" sameAs="#gb12003_comment_hwit1500" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 16</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12003,,1500/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich weis nicht ob der 5. Jul. auch in Ihrem Kalender mit    Charlotte bezeichnet</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb12003_header_acc184" corresp="gb12003_comment_acc184">
+            <objectIdentifier>
+              <objectName><quote type="G">Hausrath</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-07-04">4. Juli <supplied>1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12003_source_hwit1500" corresp="#gb12003_header_hwit1500" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12003/23084"/>
+      <p>
+        <anchor xml:id="GB03_1_BR513_0_284_007"/>Ich weis <hi rendition="#hervor1">nicht</hi> ob der 5 Jul auch in ihrem Calender mit <hi rendition="#hervor1">Charlotte</hi>
+        <anchor xml:id="GB03_1_BR513_0_284_008"/>bezeichnet ist, <ref target="gb:note#GB03_2_BR513_0_note_001_284_8" xml:id="start_com_4092"/>in meinem stehts so<ref xml:id="end_com_4092"/> und ich hatte gehofft ihnen zum 
+<anchor xml:id="GB03_1_BR513_0_284_009"/>Morgengrus ein <ref target="gb:note#GB03_2_BR513_0_note_002_284_9" xml:id="start_com_4093"/>Zeichen einer anhaltenden Beschafftigung für sie<ref xml:id="end_com_4093"/> zu 
+<anchor xml:id="GB03_1_BR513_0_284_010"/>schicken. Es wollte mir nicht gelingen, drum schick ich Ihnen <ref target="gb:note#GB03_2_BR513_0_note_003_284_10-11" xml:id="start_com_4094"/>das 
+<anchor xml:id="GB03_1_BR513_0_284_011"/>schönste von meinem Hausrath<ref xml:id="end_com_4094"/>. Ich kan diesen mir so <ref target="gb:note#GB03_2_BR513_0_note_004_284_11" xml:id="start_com_4095"/>ominosen<ref xml:id="end_com_4095"/>
+        <anchor xml:id="GB03_1_BR513_0_284_012"/>NahmensTag nicht vorbeygehn lassen ohne Ihnen anders als alle Tage 
+<anchor xml:id="GB03_1_BR513_0_284_013"/>zu sagen dass ich sie liebe.     d<g ref="#typoSuspension"/>. 4 Jul     Nachts.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR513_0_284_014"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#12003/23085" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#12003/23086" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#12003/23087"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12003_comment">
+<body>
+<div type="metadata" xml:id="gb12003_comment_com854">
+  <ab type="numberAddressee"><label>513.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 4. Juli <supplied>1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb12003_comment_com1781">
+  <p>Das Jahr ist nach der Einordnung des Briefes im Konvolut der Briefe an Charlotte von Stein (Bd II) unmittelbar nach <ref target="gb:dokument#12001">Nr 512</ref> sowie seinem Inhalt zu ergänzen (vgl. zu <ref target="gb:note#GB03_2_BR513_0_note_002_284_9">284,9</ref>). Seit dem Erstdruck wird der Brief auf den 4. Juli 1779 datiert.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12003_comment_com2898">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 16. – Doppelblatt 16,8 × 16,8(–17) cm, 1 S. beschr., egh., Tinte, zunehmend flüchtig geschrieben; S. 4 Adresse: <quote type="G">An Fr. v. Stein</quote>, rotes Gemmensiegel: Shakespeare (vgl. <ref target="sndb:sigle#267">Femmel/Heres</ref>, 11 f.); Bl. 2 obere rechte Ecke Siegelausriss; S. 1 oben rechts von fremder Hd, Tinte: „34“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 35), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 230.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 44, Nr 830.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb12003_comment_com3697">
+  <p><quote type="G">Hausrath</quote> (<ref target="gb:text#GB03_1_BR513_0_284_011">284,11</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb12003_comment_com4694">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12003_comment_com12014">
+<label xml:id="GB03_2_BR513_0_note_001_284_8" copyOf="#start_com_4092"><hi rendition="#fett">284,8</hi>in meinem stehts so</label>
+<p>Seit 1776 benutzte Goethe für seine Tagebuchführung vorgedruckte und mit unbeschriebenen Blättern durchschossene Kalender, 1778 und 1779 in Leipzig gedruckte „Verbesserte / Calender / Vor / Seiner Churfürstlichen Durchlauchtigkeit / zu Sachsen / Churfürstenthum, incorporirt- und andere Lande“. Der 5. Juli war jeweils als Namenstag für „Charlotte“ angegeben.</p>
+
+</note>
+<note xml:id="gb12003_comment_com18166">
+<label xml:id="GB03_2_BR513_0_note_002_284_9" copyOf="#start_com_4093"><hi rendition="#fett">284,9</hi>Zeichen einer anhaltenden Beschafftigung für sie</label>
+<p>Seit Anfang des Jahres 1779 ließ Goethe nach eigenem Entwurf bei dem Weimarer Tischler Johann Franz Andreas Preller einen Schreibtisch für Charlotte von Stein anfertigen. Erste Rechnungen sind aus dem April 1779 überliefert. Auch die für die Herstellung benötigten Materialien besorgte Goethe selbst. Der Schreibtisch wurde allerdings erst im November fertig (vgl. <ref target="gb:text#GB03_1_BR555_0_358_011 #GB03_1_BR555_0_358_021">358,11–21</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR555_0_note_003_358_10">358,10</ref>).</p>
+
+</note>
+<note xml:id="gb12003_comment_com12015">
+<label xml:id="GB03_2_BR513_0_note_003_284_10-11" copyOf="#start_com_4094"><hi rendition="#fett">284,10-11</hi>das schönste von meinem Hausrath</label>
+<p>Näheres dazu nicht ermittelt; möglicherweise eine Gegengabe zu Geschenken Charlotte von Steins (vgl. zu <ref target="gb:note#GB03_2_BR509_0_note_002_282_17">282,17</ref>).</p>
+
+</note>
+<note xml:id="gb12003_comment_com12016">
+<label xml:id="GB03_2_BR513_0_note_004_284_11" copyOf="#start_com_4095"><hi rendition="#fett">284,11</hi>ominosen</label>
+<p>‚Ominös‘ hier ohne negative Konnotation, etwa im Sinne von ‚symbolträchtig‘, ‚bedeutend‘, ‚wichtig‘.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

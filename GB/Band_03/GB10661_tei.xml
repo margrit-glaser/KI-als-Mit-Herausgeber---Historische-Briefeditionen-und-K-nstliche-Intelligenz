@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3180"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10661" n="GB 3, Nr. 311">
+  <teiHeader xml:id="gb10661_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>311.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77598">Clausthal</placeName>, 7.&#x2012;9., <placeName key="sndb:ort#77247">Altenau</placeName>, 9. und 10., <placeName key="sndb:ort#84959">Torfhaus</placeName>, 10., <placeName key="sndb:ort#77598">Clausthal</placeName>, 11. Dezember <supplied>1777. Sonntag&#x2012;Dienstag, Mittwoch und Donnerstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:53Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10661_tei.xml</idno>
+        <idno type="URI">gb10661</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR311_0</idno>
+        <idno type="KSW-ID">10661</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="181" to="185">181-185</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="615" to="626">615-626</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10661_header_hwit1281" corresp="#gb10661_source_hwit1281" sameAs="#gb10661_comment_hwit1281" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 104 und Bl. 66</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10661,,1281/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>**l. d. 7. Dez. Abends. Schöne Mondnacht und alles weis im    Schnee. Sie sehen wohl dass</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77598">Clausthal</placeName> und
+            <placeName key="sndb:ort#77247">Altenau</placeName> und
+            <placeName key="sndb:ort#84959">Torfhaus</placeName> und
+            <placeName key="sndb:ort#77598">Clausthal</placeName>
+            <date from="1777-12-07" to="1777-12-09">7.-9. Dezember <supplied>1777</supplied></date> und
+            <date when="1777-12-09">9. Dezember <supplied>1777</supplied></date> und
+            <date when="1777-12-10">10. Dezember <supplied>1777</supplied></date> und
+            <date when="1777-12-11">11. Dezember <supplied>1777</supplied></date>
+            <note>
+              <date type="WA" from="1777-12-07" to="1777-12-09">7.-9. Dezember <supplied>1777</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10661_source_hwit1281" corresp="#gb10661_header_hwit1281" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10661/22745"/>
+      <opener>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR311_0_181_014"/>
+          <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15" xml:id="start_com_2734"/>Clausthal.<ptr n="1" target="#a001_181.14"/>
+        </dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR311_0_181_015"/>
+        <hi rendition="#sub">* * </hi>l. d<g ref="#typoSuspension"/>. 7 Dez Abends.<ref xml:id="end_com_2734"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_002_181_15" xml:id="start_com_2735"/>Schöne Mondnacht<ref xml:id="end_com_2735"/> und alles weis im Schnee. 
+<anchor xml:id="GB03_1_BR311_0_181_016"/>Sie sehen wohl dass ich auf den Bergen bin <ref target="gb:note#GB03_2_BR311_0_note_003_181_16-17" xml:id="start_com_2736"/>weil ich in so wenig Stunden<ptr n="2" target="#a002_181.17"/>
+        <anchor xml:id="GB03_1_BR311_0_181_017"/>das Clima so sehr verändern kann<ref xml:id="end_com_2736"/>. Aber nicht allein Clima. Ich 
+<anchor xml:id="GB03_1_BR311_0_181_018"/>hab Ihnen viel zu erzählen wenn ich wiederkomme. Wenn ich nur hernach 
+<anchor xml:id="GB03_1_BR311_0_181_019"/>erzählen kan. Den <ref target="gb:note#GB03_2_BR311_0_note_004_181_19" xml:id="start_com_2737"/>sonderbaaren<ref xml:id="end_com_2737"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_005_181_19-20" xml:id="start_com_2738"/>Dramatisch-ministerialischen 
+<anchor xml:id="GB03_1_BR311_0_181_020"/>Effeckt<ref xml:id="end_com_2738"/> den die Welt auf mich macht durch die ich ziehe!! Das schönste 
+<anchor xml:id="GB03_1_BR311_0_181_021"/>von dieser <ref target="gb:note#GB03_2_BR311_0_note_006_181_21" xml:id="start_com_2739"/>Wallfahrt<ref xml:id="end_com_2739"/> ist dass ich meine Ideen bestätigt finde auf 
+<anchor xml:id="GB03_1_BR311_0_181_022"/>iedem Schritt, über Wirthschafft<ptr n="3" target="#a003_181.22"/>, es sey ein Bauergut oder ein Fürstenthum,<ptr n="4" target="#a004_181.23"/> 
+<anchor xml:id="GB03_1_BR311_0_181_023"/>und dass sie so simpel sind, dass man gar nicht zu reisen brauchte 
+<anchor xml:id="GB03_1_BR311_0_181_024"/>wenn man <hi rendition="#hervor1">bey sich</hi> was lernte<ptr n="5" target="#a005_181.24"/>. Nur die Einsamkeit will mir doch 
+<anchor xml:id="GB03_1_BR311_0_181_025"/>nicht recht, ich habs sonst besser gekonnt, bey euch verwöhn ich 
+<anchor xml:id="GB03_1_BR311_0_181_026"/>mich, ich möchte doch in manchen Stunden wieder zu Hause seyn.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_182_001"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_007_182_1" xml:id="start_com_2740"/>d<g ref="#typoSuspension"/> 8 Dez. Nachts.<ref xml:id="end_com_2740"/> Diesmal bring ich Sie um eine Menge toller Ideen. 
+<anchor xml:id="GB03_1_BR311_0_182_002"/>Heute den ganzen Tag schwäzz ich mit Ihnen was ich des Abends 
+<anchor xml:id="GB03_1_BR311_0_182_003"/>schreiben wollte. Und nun unterhält mich <ref target="gb:note#GB03_2_BR311_0_note_008_182_3" xml:id="start_com_2741"/>die Menschen wirthschafft<ref xml:id="end_com_2741"/>
+        <anchor xml:id="GB03_1_BR311_0_182_004"/>durcheinander so sehr dass ich nur gute Nacht sagen kann. Gutte Nacht 
+<anchor xml:id="GB03_1_BR311_0_182_005"/>Liebste. <pb n="2" facs="gb:digitalisate#10661/22746"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR311_0_182_006"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_009_182_6" xml:id="start_com_2742"/>d<g ref="#typoSuspension"/>. 9.<ref xml:id="end_com_2742"/> Es ist gar schön. Der Nebel legt sich in leichte Schnewolcken 
+<anchor xml:id="GB03_1_BR311_0_182_007"/>zusammen, die Sonne sieht durch, und <ref target="gb:note#GB03_2_BR311_0_note_010_182_7-8" xml:id="start_com_2743"/>der Schnee über alles macht 
+<anchor xml:id="GB03_1_BR311_0_182_008"/>wieder das Gefühl von Fröhligkeit<ref xml:id="end_com_2743"/>. <ref target="gb:note#GB03_2_BR311_0_note_011_182_8" xml:id="start_com_2744"/>In meiner Verkappung<ref xml:id="end_com_2744"/> seh ich täglich 
+<anchor xml:id="GB03_1_BR311_0_182_009"/>wie leicht es ist ein Schelm zu seyn, und wieviel Vortheile einer 
+<anchor xml:id="GB03_1_BR311_0_182_010"/>der sich im Augenblick verläugnet, über die harmlose Selbstigkeit der 
+<anchor xml:id="GB03_1_BR311_0_182_011"/>Menschen gewinnen kann. Niemand macht mir mehr Freude als die 
+<anchor xml:id="GB03_1_BR311_0_182_012"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_012_182_12" xml:id="start_com_2745"/>Hundsfütter<ref xml:id="end_com_2745"/>, die ich nun so ganz vor mir gewähren, und ihr Rolle 
+<anchor xml:id="GB03_1_BR311_0_182_013"/>gemächlich ausspielen lasse. Der Nuzzen aber den das auf meinen 
+<anchor xml:id="GB03_1_BR311_0_182_014"/>phantastischen Sinn<ptr n="6" target="#a006_182.14"/> hat, mit lauter <ref target="gb:note#GB03_2_BR311_0_note_013_182_14-15" xml:id="start_com_2746"/>Menschen umzugehn die ein bestimmtes, 
+<anchor xml:id="GB03_1_BR311_0_182_015"/>einfaches, daurendes, wichtiges Geschäfft<ptr n="7" target="#a007_182.15"/> haben<ref xml:id="end_com_2746"/>, ist unsäglich. 
+<anchor xml:id="GB03_1_BR311_0_182_016"/>Es ist wie ein kaltes Bad, das einen aus einer bürgerlich <ref target="gb:note#GB03_2_BR311_0_note_014_182_16-17" xml:id="start_com_2747"/>wollüstigen<ref xml:id="end_com_2747"/>
+        <anchor xml:id="GB03_1_BR311_0_182_017"/>Abspannung, wieder zu einem neuen kräfftigen Leben zusammen 
+<anchor xml:id="GB03_1_BR311_0_182_018"/>zieht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_182_019"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_015_182_19" xml:id="start_com_2748"/>d 9 Dez. Abends <hi rendition="#sub">* * * </hi>au. Altenau<ref xml:id="end_com_2748"/><ptr n="8" target="#a008_182.19"/> Was <ref target="gb:note#GB03_2_BR311_0_note_016_182_19" xml:id="start_com_2749"/>die Unruhe<ref xml:id="end_com_2749"/> ist die in mir 
+<anchor xml:id="GB03_1_BR311_0_182_020"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_017_182_20" xml:id="start_com_2750"/>stickt<ref xml:id="end_com_2750"/> mag ich nicht untersuchen, auch nicht untersucht haben. Wenn 
+<anchor xml:id="GB03_1_BR311_0_182_021"/>ich so allein bin, erkenn ich mich recht wieder wie ich in meiner 
+<anchor xml:id="GB03_1_BR311_0_182_022"/>ersten Jugend war, da ich so ganz allein unter der Welt umhertrieb. 
+<anchor xml:id="GB03_1_BR311_0_182_023"/>Die Menschen kommen mir noch eben so vor, nur macht ich heut 
+<anchor xml:id="GB03_1_BR311_0_182_024"/>eine Betrachtung. Solang ich im Druck lebte, solang niemand für das 
+<anchor xml:id="GB03_1_BR311_0_182_025"/>was in mir auf und abstieg einig Gefühl hatte, vielmehr wie’s geschieht, 
+<anchor xml:id="GB03_1_BR311_0_182_026"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_018_182_26-29" xml:id="start_com_2751"/>die Menschen erst mich nicht achteten, dann wegen einiger 
+<anchor xml:id="GB03_1_BR311_0_182_027"/>widerrennender <pb n="4" facs="gb:digitalisate#10661/22747"/> Sonderbaarkeiten scheel ansahen, hatte<ptr n="9" target="#a009_182.27"/> ich mit aller 
+<anchor xml:id="GB03_1_BR311_0_182_028"/>Lauterkeit meines Herzens eine Menge falscher, schiefer Prätensionen<ref xml:id="end_com_2751"/>
+        <anchor xml:id="GB03_1_BR311_0_182_029"/>—<ptr n="10" target="#a010_182.29"/> Es lässt sich nicht so sagen, ich müsste ins Detail gehn — da war 
+<anchor xml:id="GB03_1_BR311_0_182_030"/>ich elend, genagt, gedrückt, verstümmelt wie Sie wollen. Jezt ists kurios 
+<anchor xml:id="GB03_1_BR311_0_182_031"/>besonders die Tage her in der freywilligen Entäuserung was da für 
+<anchor xml:id="GB03_1_BR311_0_182_032"/>Lieblichkeit für Glück drinne steckt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_001"/>Die Menschen <ref target="gb:note#GB03_2_BR311_0_note_019_183_1" xml:id="start_com_2752"/>streichen sich recht auf mir auf<ref xml:id="end_com_2752"/>, wie auf einem Probirstein, 
+<anchor xml:id="GB03_1_BR311_0_183_002"/>Ihre Gefälligkeit, Gleichgültigkeit, Hartleibigkeit und Grobheit, 
+<anchor xml:id="GB03_1_BR311_0_183_003"/>eins mit dem andern macht mir Spas – <ref target="gb:note#GB03_2_BR311_0_note_020_183_3" xml:id="start_com_2753"/>Summa Summarum<ref xml:id="end_com_2753"/> es 
+<anchor xml:id="GB03_1_BR311_0_183_004"/>ist die Prätension aller Prätensionen keine zu haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_005"/>Liebes <ref target="gb:note#GB03_2_BR311_0_note_021_183_5" xml:id="start_com_2754"/>Gold<ref xml:id="end_com_2754"/>! <ref target="gb:note#GB03_2_BR311_0_note_022_183_5" xml:id="start_com_2755"/>Ich hab an keinem Orte Ruh<ref xml:id="end_com_2755"/>, ich habe mich tiefer 
+<anchor xml:id="GB03_1_BR311_0_183_006"/>ins Gebürg gesenckt, und will morgen von<ptr n="11" target="#a011_183.6"/> da <ref target="gb:note#GB03_2_BR311_0_note_023_183_6-7" xml:id="start_com_2756"/>in seltsame Gegenden 
+<anchor xml:id="GB03_1_BR311_0_183_007"/>streifen<ref xml:id="end_com_2756"/>, wenn ich <ref target="gb:note#GB03_2_BR311_0_note_024_183_7" xml:id="start_com_2757"/>einen Führer durch den Schnee<ref xml:id="end_com_2757"/> finde. Um halb 
+<anchor xml:id="GB03_1_BR311_0_183_008"/>viere fangts schon hier an Nacht zu seyn, und das<ptr n="12" target="#a012_183.8"/> ist nach der Uhr des 
+<anchor xml:id="GB03_1_BR311_0_183_009"/>platten Lands gewiss erst drey.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_010"/>Ich <ref target="gb:note#GB03_2_BR311_0_note_025_183_10" xml:id="start_com_2758"/>dencke des Tags hundertmal an den Herzog<ref xml:id="end_com_2758"/> und wünsche ihm 
+<anchor xml:id="GB03_1_BR311_0_183_011"/>den Mitgenuss so eines Lebens, aber den rechten leckern Geschmack 
+<anchor xml:id="GB03_1_BR311_0_183_012"/>davon kan er noch<ptr n="13" target="#a013_183.12"/> nicht haben, er gefällt sich noch zu sehr <ref target="gb:note#GB03_2_BR311_0_note_026_183_12-14" xml:id="start_com_2759"/>das natürliche 
+<anchor xml:id="GB03_1_BR311_0_183_013"/>zu was abenteuerlichem zu machen, statt dass es einem erst wohl 
+<anchor xml:id="GB03_1_BR311_0_183_014"/>thut wenn das abenteuerliche natürlich wird<ref xml:id="end_com_2759"/>. <pb n="5" facs="gb:digitalisate#10661/22748"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_015"/>Es ist eben um die Zeit, wenig Tage <ref target="gb:note#GB03_2_BR311_0_note_027_183_15" xml:id="start_com_2760"/>auf ab<ref xml:id="end_com_2760"/>, dass ich <ref target="gb:note#GB03_2_BR311_0_note_028_183_15-16" xml:id="start_com_2761"/>vor neun Jahren 
+<anchor xml:id="GB03_1_BR311_0_183_016"/>kranck zum Todte<ref xml:id="end_com_2761"/> war, <ref target="gb:note#GB03_2_BR311_0_note_029_183_16-17" xml:id="start_com_2762"/>meine Mutter schlug damals in der äusersten 
+<anchor xml:id="GB03_1_BR311_0_183_017"/>Noth ihres Herzens ihre Bibel auf<ref xml:id="end_com_2762"/> und fand, wie sie mir nachher erzählt 
+<anchor xml:id="GB03_1_BR311_0_183_018"/>hat: <ref target="gb:note#GB03_2_BR311_0_note_030_183_18-19" xml:id="start_com_2763"/>„Man wird wiederum Weinberge pflanzen an den Bergen 
+<anchor xml:id="GB03_1_BR311_0_183_019"/>Samariä, pflanzen wird man und dazu pfeifen.“<ref xml:id="end_com_2763"/> Sie<ptr n="14" target="#a014_183.19"/> fand für den Augenblick 
+<anchor xml:id="GB03_1_BR311_0_183_020"/>Trost, und in der Folge manche Freude an dem Spruche.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_021"/>Sie sehn was für Zeug mir durcheinander einfällt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_183_022"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_031_183_22" xml:id="start_com_2764"/>Dass ich iezt um und in Bergwercken lebe<ref xml:id="end_com_2764"/>, werden Sie vielleicht 
+<anchor xml:id="GB03_1_BR311_0_183_023"/>schon errathen haben. <ref target="gb:note#GB03_2_BR311_0_note_032_183_23-24" xml:id="start_com_2765"/>Gestern Liebste hat mir das Schicksaal wieder 
+<anchor xml:id="GB03_1_BR311_0_183_024"/>ein gros Compliment gemacht.<ref xml:id="end_com_2765"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_033_183_24" xml:id="start_com_2766"/>Der Geschworne<ref xml:id="end_com_2766"/> ward einen Schritt 
+<anchor xml:id="GB03_1_BR311_0_183_025"/>vor mir von einem<ptr n="15" target="#a015_183.25"/> Stück Gebürg das sich ablöste zu Boden geschlagen, 
+<anchor xml:id="GB03_1_BR311_0_183_026"/>da er ein sehr robuster Mann war so stemmte er sich da es auf 
+<anchor xml:id="GB03_1_BR311_0_183_027"/>ihn fiel,<ptr n="16" target="#a016_183.27"/> dass es sich in mehr Stücken auseinander brach, und an ihm 
+<anchor xml:id="GB03_1_BR311_0_183_028"/>hinabrutschte es überwältigte ihn aber doch, und ich glaubte es würde 
+<anchor xml:id="GB03_1_BR311_0_183_029"/>ihm wenigstens die<ptr n="17" target="#a017_183.29"/> Füsse sehr beschädigt haben, es ging aber so hin, 
+<anchor xml:id="GB03_1_BR311_0_183_030"/>einen Augenblick später so stund ich an dem Fleck, denn es war eben<ptr n="18" target="#a018_183.30"/>
+        <anchor xml:id="GB03_1_BR311_0_183_031"/>vor einem Ort den er mir zeigen<ptr n="19" target="#a019_183.31"/> wollte<ptr n="20" target="#a020_183.31"/>, und <ref target="gb:note#GB03_2_BR311_0_note_034_183_31" xml:id="start_com_2767"/>meine schwancke Person<ref xml:id="end_com_2767"/>
+        <anchor xml:id="GB03_1_BR311_0_183_032"/>hätt es gleich niedergedrückt, und mit der volligen Last gequetscht. Es 
+<anchor xml:id="GB03_1_BR311_0_183_033"/>war immer ein Stück von fünf; sechs Zentnern. <ref target="gb:note#GB03_2_BR311_0_note_035_183_33-34" xml:id="start_com_2768"/>Also dass Ihre Liebe 
+<anchor xml:id="GB03_1_BR311_0_183_034"/>bey mir bleibe, und die Liebe der Götter./</p>
+      <p>
+        <anchor xml:id="GB03_1_BR311_0_184_001"/>d<g ref="#typoSuspension"/> 10  Vor Tag. eh ich <ref target="gb:note#GB03_2_BR311_0_note_036_184_1" xml:id="start_com_2769"/>wieder hier aufbreche<ref xml:id="end_com_2769"/> noch einen guten Morgen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_002"/>Nachts gegen 7.   <ref target="gb:note#GB03_2_BR311_0_note_037_184_2-3" xml:id="start_com_2770"/>Was soll ich vom Herren sagen mit Federspulen, 
+<anchor xml:id="GB03_1_BR311_0_184_003"/>was für ein Lied soll ich von ihm singen?<ref xml:id="end_com_2770"/> im Augenblick wo mir alle 
+<anchor xml:id="GB03_1_BR311_0_184_004"/>Prose zur Poesie und alle Poesie zur Prose wird. Es ist schon nicht 
+<anchor xml:id="GB03_1_BR311_0_184_005"/>möglich mit der Lippe zu sagen was mir widerfahren<ptr n="21" target="#a021_184.5"/> ist wie soll ichs 
+<anchor xml:id="GB03_1_BR311_0_184_006"/>mit dem <ref target="gb:note#GB03_2_BR311_0_note_038_184_6" xml:id="start_com_2771"/>spizzen Ding<ref xml:id="end_com_2771"/> hervorbringen. Liebe Frau. <ref target="gb:note#GB03_2_BR311_0_note_039_184_6-9" xml:id="start_com_2772"/>Mit mir<ptr n="22" target="#a022_184.6"/> verfährt 
+<anchor xml:id="GB03_1_BR311_0_184_007"/>Gott wie mit seinen alten Heiligen, und ich weis nicht woher mir’s 
+<anchor xml:id="GB03_1_BR311_0_184_008"/>kommt. Wenn ich zum Befestigungs Zeichen bitte dass möge das Fell 
+<anchor xml:id="GB03_1_BR311_0_184_009"/>Trocken seyn und die Tenne nass so ists so, und umgekehrt auch<ref xml:id="end_com_2772"/>,<ptr n="23" target="#a023_184.9"/> und 
+<anchor xml:id="GB03_1_BR311_0_184_010"/>mehr als alles die <ref target="gb:note#GB03_2_BR311_0_note_040_184_10" xml:id="start_com_2773"/>übermütterliche Leitung<ref xml:id="end_com_2773"/> zu meinen Wünschen. Das 
+<anchor xml:id="GB03_1_BR311_0_184_011"/>Ziel meines Verlangens ist erreicht, <ref target="gb:note#GB03_2_BR311_0_note_041_184_11-12" xml:id="start_com_2774"/>es hängt an vielen Fäden, und 
+<anchor xml:id="GB03_1_BR311_0_184_012"/>viele Fäden hingen davon<ref xml:id="end_com_2774"/>, Sie wissen <ref target="gb:note#GB03_2_BR311_0_note_042_184_12-13" xml:id="start_com_2775"/>wie simbolisch mein Daseyn 
+<anchor xml:id="GB03_1_BR311_0_184_013"/>ist<ref xml:id="end_com_2775"/> —— —— Und die Demuth die sich die Götter zu verherrlichen 
+<anchor xml:id="GB03_1_BR311_0_184_014"/>einen Spas machen, und die Hingebenheit<ptr n="24" target="#a024_184.14"/> von Augenblick zu Augenblick, 
+<anchor xml:id="GB03_1_BR311_0_184_015"/>die ich habe, und die vollste Erfüllung meiner Hoffnungen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_016"/>Ich will Ihnen entdecken |:sagen Sie s niemand:| dass meine Reise 
+<anchor xml:id="GB03_1_BR311_0_184_017"/>auf den Harz war, dass ich wünschte den Brocken zu besteigen, und 
+<anchor xml:id="GB03_1_BR311_0_184_018"/>nun liebste <ref target="gb:note#GB03_2_BR311_0_note_043_184_18" xml:id="start_com_2776"/>bin ich heut oben gewesen<ref xml:id="end_com_2776"/>, ganz natürlich, <ref target="gb:note#GB03_2_BR311_0_note_044_184_18-19" xml:id="start_com_2777"/>ob mir’s schon 
+<anchor xml:id="GB03_1_BR311_0_184_019"/>seit 8 Tagen alle Menschen als unmöglich versichern<ref xml:id="end_com_2777"/>. Aber das <hi rendition="#hervor1">Wie</hi><ptr n="25" target="#a025_184.19"/>, 
+<anchor xml:id="GB03_1_BR311_0_184_020"/>von allem<ptr n="26" target="#a026_184.20"/>, das warum, soll aufgehoben seyn wenn ich Sie wiedersehe.    </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_021"/>wie gerne schrieb ich iezt nicht. /</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_022"/>Ich sagte: <ref target="gb:note#GB03_2_BR311_0_note_045_184_22" xml:id="start_com_2778"/>ich hab einen Wunsch auf den Vollmond!<ref xml:id="end_com_2778"/> – Nun Liebste 
+<anchor xml:id="GB03_1_BR311_0_184_023"/>tret ich vor<ptr n="27" target="#a027_184.23"/> die Thüre hinaus da liegt <ref target="gb:note#GB03_2_BR311_0_note_046_184_23" xml:id="start_com_2779"/>der Brocken<ref xml:id="end_com_2779"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_047_184_23-24" xml:id="start_com_2780"/>im hohen herrlichen 
+<anchor xml:id="GB03_1_BR311_0_184_024"/>Mondschein<ref xml:id="end_com_2780"/> über den Fichten vor mir und <ref target="gb:note#GB03_2_BR311_0_note_048_184_24" xml:id="start_com_2781"/>ich war oben heut<ref xml:id="end_com_2781"/>
+        <anchor xml:id="GB03_1_BR311_0_184_025"/>und habe auf dem <ref target="gb:note#GB03_2_BR311_0_note_049_184_25" xml:id="start_com_2782"/>Teufels Altar<ref xml:id="end_com_2782"/> meinem Gott <ref target="gb:note#GB03_2_BR311_0_note_050_184_25-26" xml:id="start_com_2783"/>den liebsten Danck geopfert<ref xml:id="end_com_2783"/>.
+<anchor xml:id="GB03_1_BR311_0_184_026"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_027"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_051_184_27" xml:id="start_com_2784"/>Ich will die Nahmen ausfüllen der Orte.<ref xml:id="end_com_2784"/> Jetzt bin ich auf dem sogenannten<ptr n="28" target="#a028_184.28"/>
+        <anchor xml:id="GB03_1_BR311_0_184_028"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_052_184_28" xml:id="start_com_2785"/>Torfhause<ref xml:id="end_com_2785"/>, <ref target="gb:note#GB03_2_BR311_0_note_053_184_28" xml:id="start_com_2786"/>eines Försters Wohnung<ref xml:id="end_com_2786"/> zwey Stunden vom 
+<anchor xml:id="GB03_1_BR311_0_184_029"/>Brocken.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_030"/>Clausthal d<g ref="#typoSuspension"/>. 11. Abends, heut früh bin ich <ref target="gb:note#GB03_2_BR311_0_note_054_184_30-31" xml:id="start_com_2787"/>vom Torfhause über die 
+<anchor xml:id="GB03_1_BR311_0_184_031"/>Altenau<ref xml:id="end_com_2787"/> wieder zurück und habe Ihnen viel erzählt unter weegs, o ich 
+<anchor xml:id="GB03_1_BR311_0_184_032"/>bin <ref target="gb:note#GB03_2_BR311_0_note_055_184_32" xml:id="start_com_2788"/>ein gesprächiger Mensch wenn ich allein bin<ref xml:id="end_com_2788"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_184_033"/>Nur ein Wort zur Erinnrung. wie ich gestern zum Torfhause kam 
+<anchor xml:id="GB03_1_BR311_0_184_034"/>sas der Forster bey seinem Morgenschluck in Hemdsermeln, und <ref target="gb:note#GB03_2_BR311_0_note_056_184_34-185_1" xml:id="start_com_2789"/>diskursive<ref xml:id="end_com_2789"/>
+        <anchor xml:id="GB03_1_BR311_0_185_001"/>redete<ptr n="29" target="#a029_185.1"/> ich vom Brocken und er versicherte die Unmöglichkeit 
+<anchor xml:id="GB03_1_BR311_0_185_002"/>hinauf zu gehn, und wie offt er Sommers<ptr n="30" target="#a030_185.2"/> droben gewesen wäre und 
+<anchor xml:id="GB03_1_BR311_0_185_003"/>wie leichtfertig es wäre iezt es zu versuchen – Die Berge waren im 
+<anchor xml:id="GB03_1_BR311_0_185_004"/>Nebel man sah nichts, und so sagt er ists auch iezt oben, nicht drey 
+<anchor xml:id="GB03_1_BR311_0_185_005"/>Schritte vorwärts können Sie sehn. Und wer nicht alle Tritte<ptr n="31" target="#a031_185.5"/> weis ppp. 
+<anchor xml:id="GB03_1_BR311_0_185_006"/>Da sas ich mit / schweerem Herzen, mit halben Gedancken wie ich 
+<anchor xml:id="GB03_1_BR311_0_185_007"/>zurückkehren wollte. Und ich kam mir vor <ref target="gb:note#GB03_2_BR311_0_note_057_185_7-8" xml:id="start_com_2790"/>wie der König den der Prophet 
+<anchor xml:id="GB03_1_BR311_0_185_008"/>mit dem Bogen schlagen heisst und der zu wenig schlägt<ref xml:id="end_com_2790"/>. Ich war 
+<anchor xml:id="GB03_1_BR311_0_185_009"/>still und bat die Götter das Herz dieses Menschen<ptr n="32" target="#a032_185.9"/> zu wenden und das 
+<anchor xml:id="GB03_1_BR311_0_185_010"/>Wetter, und war still. So sagt er zu mir: nun konnen sie den Brocken 
+<anchor xml:id="GB03_1_BR311_0_185_011"/>sehn, ich trat ans Fenster und er lag vor mir klar wie mein Gesicht im 
+<anchor xml:id="GB03_1_BR311_0_185_012"/>Spiegel, da ging mir das Herz auf und ich rief: Und ich sollte nicht 
+<anchor xml:id="GB03_1_BR311_0_185_013"/>hinaufkommen! haben sie keinen Knecht, niemanden — Und er sagte 
+<anchor xml:id="GB03_1_BR311_0_185_014"/>
+        <ref target="gb:note#GB03_2_BR311_0_note_058_185_14" xml:id="start_com_2791"/>ich will mit Ihnen gehn<ref xml:id="end_com_2791"/>. — — Ich habe ein <ref target="gb:note#GB03_2_BR311_0_note_059_185_14" xml:id="start_com_2792"/>Zeichen<ref xml:id="end_com_2792"/> ins Fenster geschnitten 
+<anchor xml:id="GB03_1_BR311_0_185_015"/>zum Zeugniss meiner Freuden Trähnen und wärs nicht an 
+<anchor xml:id="GB03_1_BR311_0_185_016"/>Sie hielt ich’s für Sünde<ptr n="33" target="#a033_185.16"/> es zu schreiben. Ich habs nicht geglaubt biss 
+<anchor xml:id="GB03_1_BR311_0_185_017"/>auf der obersten Klippe. <ref target="gb:note#GB03_2_BR311_0_note_060_185_17-18" xml:id="start_com_2793"/>Alle Nebel lagen unten, und oben war herrliche 
+<anchor xml:id="GB03_1_BR311_0_185_018"/>Klarheit<ref xml:id="end_com_2793"/> und heute Nacht bis früh war er im Mondschein sichtbaar 
+<anchor xml:id="GB03_1_BR311_0_185_019"/>und finster auch in der Morgendämmrung da ich aufbrach. Adieu. 
+<anchor xml:id="GB03_1_BR311_0_185_020"/>Morgen geh ich von hier weg. Sie hören nun aus andren Gegenden 
+<anchor xml:id="GB03_1_BR311_0_185_021"/>von mir. /</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_185_022"/>Fühlen Sie etwa <ref target="gb:note#GB03_2_BR311_0_note_061_185_22" xml:id="start_com_2794"/>Beruf<ref xml:id="end_com_2794"/> mir zu schreiben geben Sie’s nur <ref target="gb:note#GB03_2_BR311_0_note_062_185_22" xml:id="start_com_2795"/>Philippen<ref xml:id="end_com_2795"/>, 
+<anchor xml:id="GB03_1_BR311_0_185_023"/>dem hab ich eine Adresse gemeldet.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR311_0_185_024"/>Adieu Liebste. Grüsen Sie <ref target="gb:note#GB03_2_BR311_0_note_063_185_24" xml:id="start_com_2796"/>Steinen<ref xml:id="end_com_2796"/> und <ref target="gb:note#GB03_2_BR311_0_note_064_185_24" xml:id="start_com_2797"/>die Waldnern<ref xml:id="end_com_2797"/>, aber niemanden 
+<anchor xml:id="GB03_1_BR311_0_185_025"/>wo ich bin.    Adieu.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR311_0_185_026"/>
+        <signed rend="paraph" rendition="#einrueck13">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10661_comment">
+<body>
+<div type="metadata" xml:id="gb10661_comment_com358">
+  <ab type="numberAddressee"><label>311.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77598">Clausthal</placeName>, <placeName key="sndb:ort#77247">Altenau</placeName>, <placeName key="sndb:ort#84959">Torfhaus</placeName> und <placeName key="sndb:ort#77598">Clausthal</placeName>, 7.-9. Dezember <supplied>1777</supplied> und 9. Dezember <supplied>1777</supplied> und 10. Dezember <supplied>1777</supplied> und 11. Dezember <supplied>1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10661_comment_com1551">
+  <p>Der Briefteil vom 7. bis 9. Dezember ist im Konvolut der Briefe an Charlotte von Stein (Bd I) in das Jahr 1778 eingeordnet. Absendeorte, Inhalt und Parallelen zum Tagebuch belegen, dass er auf der am 29. November 1777 angetretenen Harzreise geschrieben wurde (vgl. u. a. zu <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15">181,14-15</ref>) und ins Jahr 1777 gehört. Die im Konvolut vorgenommene Einordnung des zweiten Briefteils vom 10. und 11. Dezember ins Jahr 1777 wird durch Absendeorte (vgl. <ref target="gb:text#GB03_1_BR311_0_184_028">184,28</ref>; <ref target="gb:text#GB03_1_BR311_0_184_030">184,30</ref>), Inhalt und Parallelen zum Tagebuch bestätigt. Beide Briefteile wurden bislang auch so datiert, allerdings unter getrennten Nummern gedruckt. Dass beide Teile gemeinsam versandt wurden und daher als ein Brief wiederzugeben sind, folgt aus Goethes Angabe im Teil vom 10. und 11. Dezember, nun erst die Absendeorte im Briefteil vom 7. bis 9. ergänzt zu haben, den er folglich noch nicht abgeschickt haben konnte (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_051_184_27">184,27</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10661_comment_com2402">
+  <p>1) Briefteil vom 7. bis 9. Dezember (<ref target="gb:text#GB03_1_BR311_0_181_014 #GB03_1_BR311_0_183_034">181,14–183,34</ref> <quote type="G">Clausthal.  <gap quantity="3" reason="editorial"/> Liebe der Götter.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 104. – Doppelblatt 16,8(–17) × 20,7(–21) cm, Büttenrand, 4 S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd, Tinte: „63.“, unten rechts von fremder Hd, Bleistift: „ist 1777“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 65), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 134–138.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 193–197, Nr 653.</p>
+  <p>2) Briefteil vom 10. und 11. Dezember (<ref target="gb:text#GB03_1_BR311_0_184_001 #GB03_1_BR311_0_185_026">184,1–185,26</ref> <quote type="G">d<g ref="#typoSuspension"/> 10 Vor Tag <gap quantity="3" reason="editorial"/> Adieu. G.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 66. – Doppelblatt ca. 17 × 20,6 cm, 3 &#xBC; S. beschr., egh., Tinte, flüchtig geschrieben; S. 1 oben rechts von fremder Hd, Tinte: „58<hi rendition="#sup #u">b</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 62), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 138–141.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 199–201, Nr 655.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10661_comment_com4198">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10661_comment_com17387">
+<label xml:id="GB03_2_BR311_0_note_001_181_14-15" copyOf="#start_com_2734"><hi rendition="#fett">181,14-15</hi>Clausthal. <hi rendition="#sub">* *</hi> l. d<g ref="#typoSuspension"/>. 7 Dez Abends.</label>
+<p>Wie in den vorangehenden Briefen hatte Goethe zunächst den Absendeort noch geheimhalten wollen und nur dessen letzten Buchstaben angegeben (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_001_178_9">178,9</ref>); den vollen Ortsnamen ergänzte er erst nach der gelungenen Brockenbesteigung (vgl. <ref target="gb:text#GB03_1_BR311_0_184_027">184,27</ref>). – Clausthal (heute Clausthal-Zellerfeld) war eine der im 16. Jahrhundert gegründeten sieben Freien Bergstädte des Oberharzes, Sitz des kurfürstlich braunschweigischen (‚kur-hannoverschen‛) Bergamtes; es gehörte zum so genannten ‚Einseitigen Harz‛, im Unterschied zum ‚Communion-Harz‛, dessen Bergwerke und Hütten von den Herzögen von Braunschweig-Lüneburg gemeinsam verwaltet wurden. Sitz des herzoglich braunschweigischen Bergamtes war Zellerfeld. – In Clausthal soll Goethe ein Zimmer im Rathaus oder in der „Goldenen Krone“ bewohnt haben (vgl. <ref target="sndb:sigle#2800">Denecke</ref>, 43).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9482">
+<label xml:id="GB03_2_BR311_0_note_002_181_15" copyOf="#start_com_2735"><hi rendition="#fett">181,15</hi>Schöne Mondnacht</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR310_0_note_006_180_27">180,27</ref>.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9483">
+<label xml:id="GB03_2_BR311_0_note_003_181_16-17" copyOf="#start_com_2736"><hi rendition="#fett">181,16-17</hi>weil ich <gap quantity="3" reason="editorial"/> das Clima so sehr verändern kann</label>
+<p>Versehentlich für ‚weil sich <gap quantity="3" reason="editorial"/> verändern kann‛. – Klima: im 18. Jahrhundert noch für „Erdstrich, Himmelsstrich, Erdgürtel, <gap quantity="3" reason="editorial"/> Zone“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1629); hier in der weiteren Bedeutung für ‚Witterung‛, ‚Wetter‛ (vgl. ebd.).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9484">
+<label xml:id="GB03_2_BR311_0_note_004_181_19" copyOf="#start_com_2737"><hi rendition="#fett">181,19</hi>sonderbaaren</label>
+<p>Sonderbar: hier wohl in verstärkendem Sinne von ‚besonders‛, ‚außerordentlich‛ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR310_0_note_002_180_19">180,19</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17314">
+<label xml:id="GB03_2_BR311_0_note_005_181_19-20" copyOf="#start_com_2738"><hi rendition="#fett">181,19-20</hi>Dramatisch-ministerialischen Effeckt</label>
+<p>Anspielung sowohl auf die Wirkung der Naturschauspiele der Harzer Berge und Höhlen wie auch auf den Nutzen, den Goethe für seine Aufgaben als Mitglied der Bergwerkskommission aus den Besuchen der Bergwerke und Hütten, insbesondere des Rammelsberger Reviers und der Erzhütten an der Oker, zog. – Effekt: sonst bei Goethe überwiegend auf den künstlerischen Bereich beschränkt, hier im allgemeineren Sinne von ‚Wirkung‘, ‚Resultat‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1374). – Für Charlotte von Stein dürfte sich die Bedeutung dieser wie vieler anderer Stellen in Goethes Briefen wohl erst erschlossen haben, nachdem sie über Ziel und Zweck der Reise aufgeklärt worden war.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9498">
+<label xml:id="GB03_2_BR311_0_note_006_181_21" copyOf="#start_com_2739"><hi rendition="#fett">181,21</hi>Wallfahrt</label>
+<p>Hier für die gesamte Harzreise, deren Höhepunkt die Brockenbesteigung werden sollte. – Auch Zückert bezeichnet die von ihm als ungewöhnlich erwähnte winterliche Brockenbesteigung von Christlob Mylius als „Wallfahrt“ (<ref target="sndb:sigle#3155">Zückert, Unterharz</ref>, 11).</p>
+
+</note>
+<note xml:id="gb10661_comment_com14734">
+<label xml:id="GB03_2_BR311_0_note_007_182_1" copyOf="#start_com_2740"><hi rendition="#fett">182,1</hi>d<g ref="#typoSuspension"/> 8 Dez. Nachts.</label>
+<p>Am 8. Dezember war Goethe in die Clausthaler Gruben eingefahren (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_029_186_19">186,19</ref>) und übernachtete wieder in Clausthal.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9499">
+<label xml:id="GB03_2_BR311_0_note_008_182_3" copyOf="#start_com_2741"><hi rendition="#fett">182,3</hi>die Menschen wirthschafft</label>
+<p>Vgl. den Tagebucheintrag vom 8. Dezember: <quote type="G">Spazieren und Spas mit den Fremden.</quote> (<ref target="gt:dokument#492">GT I 1, 54</ref>.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com13993">
+<label xml:id="GB03_2_BR311_0_note_009_182_6" copyOf="#start_com_2742"><hi rendition="#fett">182,6</hi>d<g ref="#typoSuspension"/>. 9.</label>
+<p>Am 9. Dezember besuchte Goethe die Silberhütte in Clausthal (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR312_0_note_034_186_22">186,22</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17328">
+<label xml:id="GB03_2_BR311_0_note_010_182_7-8" copyOf="#start_com_2743"><hi rendition="#fett">182,7-8</hi>der Schnee <gap quantity="3" reason="editorial"/> Gefühl von Fröhligkeit</label>
+<p>Noch in der „Campagne in Frankreich 1792“ erinnert sich Goethe, wie <quote type="G">Alles Winterwesen <gap quantity="3" reason="editorial"/> in jener Zeit</quote> der ersten Harzreise für ihn <quote type="G">große Reize</quote> gehabt hätte (<ref target="sndb:sigle#1157">WA</ref> I 33, 214).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9500">
+<label xml:id="GB03_2_BR311_0_note_011_182_8" copyOf="#start_com_2744"><hi rendition="#fett">182,8</hi>In meiner Verkappung</label>
+<p>Hier mit Bezug auf Goethes Inkognito (vgl. zu <ref target="gb:note#GB03_2_BR310_0_note_004_180_21">180,21</ref>). – Verkappen: „Figürlich nennt man jemanden verkappt, wenn er sich aus böser Absicht unter einem falschen Nahmen verbirget.“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1067.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com9501">
+<label xml:id="GB03_2_BR311_0_note_012_182_12" copyOf="#start_com_2745"><hi rendition="#fett">182,12</hi>Hundsfütter</label>
+<p>Hundsfott: besonders feiger, nichtswürdiger Mensch; nach <ref target="sndb:sigle#2753">Adelung</ref> ein „sehr niedriges Schimpfwort <gap quantity="3" reason="editorial"/>, welches für die höchste wörtliche Beschimpfung gehalten wird“ (2, 1322).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17335">
+<label xml:id="GB03_2_BR311_0_note_013_182_14-15" copyOf="#start_com_2746"><hi rendition="#fett">182,14-15</hi>Menschen <gap quantity="3" reason="editorial"/> Geschäfft haben</label>
+<p>Wohl vor allem mit Bezug auf die Bergleute, mit denen Goethe u. a. in die Clausthaler Gruben eingefahren war und von denen er im Folgenden berichtet; mit gemeint sein könnte auch der im Tagebuch erwähnte Apotheker Ilsemann (vgl. die <ref target="gb:note#GB03_2_BR312_0_note_035_186_22">zweite</ref> und <ref target="gb:note#GB03_2_BR312_0_note_036_186_22">dritte</ref> Erläuterung zu 186,22).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9509">
+<label xml:id="GB03_2_BR311_0_note_014_182_16-17" copyOf="#start_com_2747"><hi rendition="#fett">182,16-17</hi>wollüstigen</label>
+<p>‚Wollüstig‘ hier im allgemeineren Sinn ‚dem Wohlleben ergeben‘, ‚bequem‘, ‚träge‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 14 II, 1404).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17340">
+<label xml:id="GB03_2_BR311_0_note_015_182_19" copyOf="#start_com_2748"><hi rendition="#fett">182,19</hi>d 9 Dez. Abends <hi rendition="#sub">* * * </hi>au. Altenau</label>
+<p>Der volle Ortsname wurde erst am 10. Dezember nach der Brockenbesteigung nachgetragen. – Altenau war die jüngste der sieben im 16. Jahrhundert gegründeten Freien Bergstädte im Oberharz und gehörte zum ‚Einseitigen Harz‛ (Kur-Hannover). Bereits 1762 war der Altenauer Bergbau wieder eingestellt worden. Für die nicht sehr ergiebige Silber- und Eisenerzhütte, die 1777 noch betrieben wurde, scheint sich Goethe nicht interessiert zu haben. Die auf etwa 460 m Höhe in Sichtweite zum etwa 12 km entfernten Brocken gelegene Bergstadt war für ihn der Ausgangspunkt für seine Brockenbesteigung. Sein Quartier bezog er im Rathaus (Markt) (vgl. <ref target="sndb:sigle#2800">Denecke</ref>, 47 f.).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9510">
+<label xml:id="GB03_2_BR311_0_note_016_182_19" copyOf="#start_com_2749"><hi rendition="#fett">182,19</hi>die Unruhe</label>
+<p>Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9511">
+<label xml:id="GB03_2_BR311_0_note_017_182_20" copyOf="#start_com_2750"><hi rendition="#fett">182,20</hi>stickt</label>
+<p>Sticken: alte Nebenform zu ‚stecken‛ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 10 II 1, 1319); Goethe war vor allem die flektierte Form ‚stickt‛ geläufig, in seinen Briefen noch bis in die 1820er Jahre belegt.</p>
+
+</note>
+<note xml:id="gb10661_comment_com15994">
+<label xml:id="GB03_2_BR311_0_note_018_182_26-29" copyOf="#start_com_2751"><hi rendition="#fett">182,26-29</hi>die Menschen erst mich nicht achteten <gap quantity="3" reason="editorial"/> schiefer Prätensionen</label>
+<p>Vgl. dazu die vierte Strophe des „Harzreise“-Gedichts, besonders deren Verse 5–8: <quote type="G">Erst verachtet, nun ein Verächter / Zehrt er heimlich auf / Seinen eigenen Werth / In ungnügender Selbstsucht.</quote> (<ref target="gb:text#GB03_1_BR388_0_223_016 #GB03_1_BR388_0_223_019">223,16–19</ref>.) – Prätension: eigentlich ein juristisch begründeter Anspruch (vgl. <ref target="sndb:sigle#3152">Zedler</ref> 29, 128); hier im Sinne von franz. prétention: Anspruch, Anmaßung, Hochmut.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9759">
+<label xml:id="GB03_2_BR311_0_note_019_183_1" copyOf="#start_com_2752"><hi rendition="#fett">183,1</hi>streichen sich recht auf mir auf</label>
+<p>Aufstreichen: hier im übertragenen Sinn, wie bei der Probe von Edelmetallen, „ab-, entlangstreichen auf dem Probierstein (zur Ermittlung des Feingehalts)“ (<ref target="sndb:sigle#397">GWb</ref> 1, 1029).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9760">
+<label xml:id="GB03_2_BR311_0_note_020_183_3" copyOf="#start_com_2753"><hi rendition="#fett">183,3</hi>Summa Summarum</label>
+<p>Lat.: alles in allem.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9761">
+<label xml:id="GB03_2_BR311_0_note_021_183_5" copyOf="#start_com_2754"><hi rendition="#fett">183,5</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9750">
+<label xml:id="GB03_2_BR311_0_note_022_183_5" copyOf="#start_com_2755"><hi rendition="#fett">183,5</hi>Ich hab an keinem Orte Ruh</label>
+<p>Vgl. den Überblick über Goethes Reiseroute in der einleitenden Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9762">
+<label xml:id="GB03_2_BR311_0_note_023_183_6-7" copyOf="#start_com_2756"><hi rendition="#fett">183,6-7</hi>in seltsame Gegenden streifen</label>
+<p>Anspielung auf die geplante Besteigung des Brockens, von der Goethe erst im folgenden Briefteil vom 10. Dezember berichtet (vgl. <ref target="gb:text#GB03_1_BR311_0_184_023 #GB03_1_BR311_0_184_026">184,23–26</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17559">
+<label xml:id="GB03_2_BR311_0_note_024_183_7" copyOf="#start_com_2757"><hi rendition="#fett">183,7</hi>einen Führer durch den Schnee</label>
+<p>Wie aus dem folgenden Briefteil hervorgeht, fand sich schließlich der Förster Johann Christoph Degen bereit, Goethe zu begleiten. – Zeitgenössische Beschreibungen des so genannten ‚Oberharzes‛ heben die strengen und schneereichen Winter hervor, so auch Zückert: „In den Monaten October, November, December, Januarius und Februarius schneiet es hier fast beständig, und nicht selten drey bis vier und mehr Tage ohne Aufhören hinter einander, daß der Schnee in den Städten bis an die Fenster des untersten Stockwercks reichet, und die Thäler bis an die Höhe der Berge anfüllet.“ (<ref target="sndb:sigle#3154">Zückert, Ober-Harz</ref>, 178.) Generell waren im 18. Jahrhundert im Vergleich zu heute nicht nur im Harz die Winter kälter, schneereicher und länger, eine der Auswirkungen der so genannten Kleinen Eiszeit, einer Phase vergleichsweise kühlen Klimas, die, wenngleich mit großen Schwankungen, etwa vom Anfang des 15. bis in das 19. Jahrhundert hinein dauerte.</p>
+
+</note>
+<note xml:id="gb10661_comment_com8269">
+<label xml:id="GB03_2_BR311_0_note_025_183_10" copyOf="#start_com_2758"><hi rendition="#fett">183,10</hi>dencke <gap quantity="3" reason="editorial"/> an den Herzog</label>
+<p>Herzog Carl August war seit dem 27. November auf der Schweinejagd (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>); ein literarischer Bezug findet sich auch in der sechsten Strophe des „Harzreise“-Gedichts: <quote type="G">Seegne die Brüder der Jagd / Auf der Fährte des Schweins / Mit iugendlichem Uebermuth / Fröhlicher Mordsucht!</quote> (<ref target="gb:text#GB03_1_BR388_0_223_030 #GB03_1_BR388_0_223_033">223,30–33</ref>.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com9772">
+<label xml:id="GB03_2_BR311_0_note_026_183_12-14" copyOf="#start_com_2759"><hi rendition="#fett">183,12-14</hi>das natürliche zu was abenteuerlichem <gap quantity="3" reason="editorial"/> natürlich wird</label>
+<p>So schon im Brief vom 2. Dezember (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_002_178_10-12">178,10-12</ref>). Noch deutlicher macht Goethe seine Abneigung, <quote type="G">das natürliche abenteuerlich</quote> (<ref target="gb:text#GB03_1_BR388_0_220_031">220,31</ref>) zu machen, im Brief an Merck vom 5. August 1778, in dem er über seine <quote type="G">Reise auf den Harz</quote> (<ref target="gb:text#GB03_1_BR388_0_220_030">220,30</ref>) berichtet (vgl. <ref target="gb:text#GB03_1_BR388_0_220_030 #GB03_1_BR388_0_220_032">220,30–32</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9773">
+<label xml:id="GB03_2_BR311_0_note_027_183_15" copyOf="#start_com_2760"><hi rendition="#fett">183,15</hi>auf ab</label>
+<p>Hier im zeitlichen Sinn: ungefähr, gegen (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 908).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17509">
+<label xml:id="GB03_2_BR311_0_note_028_183_15-16" copyOf="#start_com_2761"><hi rendition="#fett">183,15-16</hi>vor neun Jahren kranck zum Todte</label>
+<p>Goethe hatte als Leipziger Student im Frühsommer 1768 einen so genannten ‚Blutsturz‘ erlitten, von dem er sich nur langsam erholte. Nach seiner Rückkehr ins Elternhaus brach Anfang Dezember die Krankheit erneut und in noch schwererer Form aus, so dass die Angehörigen um sein Leben fürchteten (vgl. <ref target="gb:note#GB01_2_BR053_0_note_002_152_18-19">GB 1 II, zu 152,18–19</ref>). – Zu Goethes Rekonvaleszenz in den Jahren 1768/69 vgl. <ref target="sndb:sigle#2986">Matouschek</ref>, 35–43.</p>
+
+</note>
+<note xml:id="gb10661_comment_com17516">
+<label xml:id="GB03_2_BR311_0_note_029_183_16-17" copyOf="#start_com_2762"><hi rendition="#fett">183,16-17</hi>meine Mutter schlug <gap quantity="3" reason="editorial"/> ihre Bibel auf</label>
+<p>Das willkürliche ‚Aufschlagen‛ einer Bibelstelle als eine Art Orakelbefragung war bei den Pietisten, insbesondere bei den Herrnhutern, sehr beliebt und gehörte zu den festen Ritualen ihres Glaubens. Das ‚Aufschlagen‛ von Bibelstellen und frommen Sprüchen wurde auch von Goethes Mutter und zeitweise von Goethe selbst praktiziert (vgl. <ref target="gb:note#GB01_2_BR068_0_note_005_189_20-21">GB 1 II, zu 189,20–21</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9786">
+<label xml:id="GB03_2_BR311_0_note_030_183_18-19" copyOf="#start_com_2763"><hi rendition="#fett">183,18-19</hi>„Man wird wiederum Weinberge pflanzen <gap quantity="3" reason="editorial"/> dazu pfeifen.“</label>
+<p>Jeremia 31,5. – Im Briefwechsel mit der Mutter begegnet dieser Bibel-Vers mehrfach, so im Brief Goethes vom 7. Dezember 1783: <quote type="G">Hätte man Ihnen in dem bösen Winter von 69 in einem Spiegel vorausgezeigt, daß man wieder auf solche Weise an den Bergen Samariä Weinberge pflanzen und dazu pfeifen würde, mit welchem Jubel würden Sie es angenommen haben.</quote> (<ref target="gb:text#GB05_1_BR509_0_290_022 #GB05_1_BR509_0_290_025">GB 5 I, 290,22-25</ref>; vgl. <ref target="gb:text#GB03_1_BR519_0_288_017 #GB03_1_BR519_0_288_021">288,17–21</ref>.) Catharina Elisabeth Goethe beginnt mit diesem Vers einen ihrer letzten Briefe an den Sohn: „Dein Brief vom 9ten May hat mich erquickt und hoch erfreut – Ja Ja man pflantzt noch Weinberge an den Bergen Samarie – man pflantzt und pfeift!“ (3. Juni 1808; <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 882.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com9787">
+<label xml:id="GB03_2_BR311_0_note_031_183_22" copyOf="#start_com_2764"><hi rendition="#fett">183,22</hi>Dass ich iezt um und in Bergwercken lebe</label>
+<p>In Vorbereitung seiner Reise hatte Goethe Bücher über das Berg- und Hüttenwesen sowie die „Naturgeschichte“ des Harzes erworben. Aus einer Rechnung des Weimarer Buchhändlers Carl Ludolf Hoffmann geht hervor, dass er am 1. November 1777 „Voigts Bergwerksstaat“ und „Zückerts Bergwerksverfaßung“ gekauft und am 12. März 1778 bezahlt hat (<ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 21). Es handelt sich im ersten Fall um Johann Gottlieb Voigts „Bergwerksstaat des Ober- und Unterhaarzes“ mit Anmerkungen von Julius Johann Madihn (Braunschweig 1771), überliefert in Goethes Bibliothek (<ref target="sndb:sigle#1117">Ruppert</ref>, 747, Nr 5213). Auch Johann Friedrich Zückerts Werk „Die Naturgeschichte und Bergwercksverfassung des Ober-Hartzes“ (Berlin 1762) ist noch in Goethes Bibliothek vorhanden (<ref target="sndb:sigle#1117">Ruppert</ref>, 753, Nr 5305). Mit eingebunden in das Exemplar ist zudem ein weiteres Buch desselben Autors, „Die Naturgeschichte einiger Provinzen des Unterharzes nebst einem Anhange von den Mannsfeldischen Kupferschiefern“ (Berlin 1763; <ref target="sndb:sigle#1117">Ruppert</ref>, 753, Nr 5306), das offenbar zugleich mit dem oben genannten erworben wurde (nach der Buchbinderrechnung vom 21. März 1778; <ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 26). – Voigts Buch ist ein zeitgenössisches Kompendium des Harzer Bergwesens, das nach Meinung des Autors „ohnstreitig unter die vorzüglichsten in Europa“ gehört (Voigt/Mahdin, Bergwerksstaat, 9). Zückerts Ansatz ist dagegen umfassender, er möchte „den Leser und forschenden Reisenden in den Stand“ setzen, „die Naturgeschichte des <hi rendition="#hervor1">Hartzes</hi> mit leichterer Mühe zu erweitern; und den letztern hoffe ich noch dadurch einen Dienst zu leisten, daß sie jetzt ein Buch haben, worin sie alles, was bisher vom Hartz beobachtet worden, und was in andern Büchern steht, allhier vereint und erweitert finden“ (<ref target="sndb:sigle#3154">Zückert, Ober-Harz</ref>, Vorbericht, o. S.). – Goethe wählte seine Reiseroute so, dass er die als die reichsten und ergiebigsten beschriebenen Gruben und Hüttenwerke vor allem im Rammelsberger Revier bei Goslar und in der Umgebung von Clausthal besuchen konnte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR312_0_note_016_186_11">186,11</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR312_0_note_018_186_12">186,12</ref>). Bis zum Aufenthalt in Clausthal standen der Bergbau und das Hüttenwesen eindeutig im Mittelpunkt von Goethes Interesse, unterbrochen wurden die Besichtigungen nur durch den Besuch bei Plessing in Wernigerode. In Altenau dagegen war Goethe ausschließlich mit dem bevorstehenden Brockenaufstieg befasst.</p>
+
+</note>
+<note xml:id="gb10661_comment_com17521">
+<label xml:id="GB03_2_BR311_0_note_032_183_23-24" copyOf="#start_com_2765"><hi rendition="#fett">183,23-24</hi>Gestern <gap quantity="3" reason="editorial"/> Compliment gemacht.</label>
+<p>Am 8. Dezember hatte Goethe im Clausthaler Revier die Gruben <q>Dorothee</q>, „Caroline“ und <q>Benedicte</q> besichtigt (vgl. <ref target="gt:dokument#492">GT I 1, 53</ref>); der im Folgenden beschriebene Steinschlag ereignete sich wahrscheinlich in der „Dorothee“ (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_029_186_19">186,19</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9788">
+<label xml:id="GB03_2_BR311_0_note_033_183_24" copyOf="#start_com_2766"><hi rendition="#fett">183,24</hi>Der Geschworne</label>
+<p>Ein vom Bergherrn eingesetzter und vereidigter Aufseher über eine bestimmte Zeche.</p>
+
+</note>
+<note xml:id="gb10661_comment_com14009">
+<label xml:id="GB03_2_BR311_0_note_034_183_31" copyOf="#start_com_2767"><hi rendition="#fett">183,31</hi>meine schwancke Person</label>
+<p>Schwank: schwankend, dünn, biegsam; hier übertragen auf die menschliche Gestalt: schlank, schmächtig (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 9, 2246 f.).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9789">
+<label xml:id="GB03_2_BR311_0_note_035_183_33-34" copyOf="#start_com_2768"><hi rendition="#fett">183,33-34</hi>Also dass Ihre Liebe <gap quantity="3" reason="editorial"/> die Liebe der Götter.</label>
+<p>Auch der glückliche Ausgang dieses Ereignisses wird für Goethe zu einem Zeichen, das er in seinem Sinne auslegt.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9800">
+<label xml:id="GB03_2_BR311_0_note_036_184_1" copyOf="#start_com_2769"><hi rendition="#fett">184,1</hi>wieder hier aufbreche</label>
+<p>Von Altenau nach dem etwa 8 km entfernten Torfhaus, von wo aus Goethe den Brocken bestieg (vgl. <ref target="gb:text#GB03_1_BR312_0_186_023 #GB03_1_BR312_0_186_024">186,23–24</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17601">
+<label xml:id="GB03_2_BR311_0_note_037_184_2-3" copyOf="#start_com_2770"><hi rendition="#fett">184,2-3</hi>Was soll ich vom Herren sagen <gap quantity="3" reason="editorial"/> von ihm singen?</label>
+<p>Dies und das Folgende im Hochgefühl des gelungenen Brocken-Aufstiegs und in Anklang an die Sprache der Bibel; möglicherweise auch als Abwandlung der 1. Strophe des Weihnachts-Liedes von Martin Luther:
+<space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck6">Vom Himmel hoch da komm ich her,</l>
+    <l rendition="#einrueck6">ich bring euch gute neue Mär;</l>
+    <l rendition="#einrueck6">der guten Mär bring ich so viel,</l>
+    <l rendition="#einrueck6">davon ich sing’n und sagen will.</l>
+  </lg>
+<space unit="lines" quantity="1"/>
+‚Federspule‛ für ‚Federkiel‘: eigentlich der „untere hohle Theil an den größern Federkielen, und hernach auch eine jede ungeschnittene Feder mit ihrem Kiele, eine Spule <gap quantity="3" reason="editorial"/>. Federspulen, Gänsespulen, Schwanenspulen u. s. f.“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 250).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9777">
+<label xml:id="GB03_2_BR311_0_note_038_184_6" copyOf="#start_com_2771"><hi rendition="#fett">184,6</hi>spizzen Ding</label>
+<p>Schreibfeder.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9801">
+<label xml:id="GB03_2_BR311_0_note_039_184_6-9" copyOf="#start_com_2772"><hi rendition="#fett">184,6-9</hi>Mit mir verfährt Gott <gap quantity="3" reason="editorial"/> umgekehrt auch</label>
+<p>In Anspielung auf die doppelte Anrufung des Herrn durch Gideon im Alten Testament: „Und Gideon sprach zu Gott: Willt du Israel durch meine hand erlösen, wie du geredet hast: / So will ich ein fell mit der wolle auf die tenne legen. Wird der thau auf dem fell allein seyn, und auf der gantzen erden trocken, so will ich mercken, daß du Israel erlösen wirst durch meine hand, wie du geredet hast. / Und es geschah also. Und da er des andern morgens frühe aufstund, drückete er den thau aus von dem fell, und füllete eine schaale voll des wassers. / Und Gideon sprach zu Gott: Dein zorn ergrimme nicht wider mich, daß ich noch einmal rede. Ich wills nur noch einmal versuchen mit dem fell: Es sey allein auf dem fell trocken, und thau auf der gantzen erden. / Und Gott thät also dieselbe nacht, daß trocken war allein auf dem fell, und thau auf der gantzen erden.“ (Buch der Richter 6,36–40; Luther-Bibel 1772 AT, 219.) – Befestigungszeichen: Zustimmungszeichen, das auf das gute Gelingen eines Vorhabens vorausweist, im Sinne der „auguria impetrativa“, der erbetenen Zeichen, der Römer (bei Deutung der Auspizien); hier mit Bezug auf die gelungene Besteigung des Brockens.</p>
+
+</note>
+<note xml:id="gb10661_comment_com17539">
+<label xml:id="GB03_2_BR311_0_note_040_184_10" copyOf="#start_com_2773"><hi rendition="#fett">184,10</hi>übermütterliche Leitung</label>
+<p>Übermütterlich: Hapaxlegomenon Goethes; hier möglicherweise mit Bezug auf die Glücks- oder Schicksalsgöttin Fortuna, die griechische (Agathe) Tyche. Sie galt sowohl als ‚Orakelgöttin‛ (Antias) wie auch als eine der Parzen, „die aber ihre Schwestern weit an Macht übertroffen habe“ (<ref target="sndb:sigle#2906">Hederich</ref>, 1123). Im zeitlich parallel entstandenen Gedicht „Auf dem Harz“ (später „Harzreise im Winter“) heißt es zu Beginn der dritten Strophe (der frühesten überlieferten Fassung): <quote type="G">Leicht ists, folgen dem Wagen / Den Fortuna führt</quote> (<ref target="gb:text#GB03_1_BR388_0_223_001 #GB03_1_BR388_0_223_002">223,1–2</ref>). – Bezüge zu Fortuna/Tyche finden sich bei Goethe 1776/77 im Zusammenhang mit dem im April 1777 in seinem Garten aufgestellten ‚Stein des guten Glücks‛, welcher der (Agathe) Tyche gewidmet war (vgl. zu <ref target="gb:note#GB03_2_BR248_0_note_001_140_11">140,11</ref>). Kurz zuvor, am 25. Dezember 1776, dem 34. Geburtstag Charlotte von Steins, hatte Goethe <quote type="G">αγαθη τυχη</quote> <supplied>Agathe Tyche</supplied> das erste Mal in seinem Tagebuch erwähnt (<ref target="gt:dokument#243">GT I 1, 31</ref>). Als <quote type="G">die launische Freundinn und Belohnerinn keker Unternehmungen</quote> (<ref target="gb:text#GB03_1_BR557_0_361_026 #GB03_1_BR557_0_361_027">361,26–27</ref>) beschreibt er sie im Brief an Lavater auf der Rückreise von der Schweiz Anfang Dezember 1779.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9810">
+<label xml:id="GB03_2_BR311_0_note_041_184_11-12" copyOf="#start_com_2774"><hi rendition="#fett">184,11-12</hi>es hängt an vielen Fäden <gap quantity="3" reason="editorial"/> hingen davon</label>
+<p>In Anklang an den ‚Lebensfaden‛, der von den Parzen geknüpft, fortgesponnen, gemessen und abgeschnitten wird.</p>
+
+</note>
+<note xml:id="gb10661_comment_com85652">
+<label xml:id="GB03_2_BR311_0_note_042_184_12-13" copyOf="#start_com_2775"><hi rendition="#fett">184,12-13</hi>wie simbolisch mein Daseyn ist</label>
+<p>Symbolisch: frühester Beleg in Goethes Briefen für den Gebrauch des Begriffes; im Sinne, dass sich an der eigenen besonderen Existenz zugleich auch das Allgemeine, auf alle Menschen Zutreffende ablesen lässt. – Zur Bedeutung der Harzreise und insbesondere der Erfahrung der gelungenen Brockenbesteigung für Goethes Symboltheorie vgl. die Hinweise bei <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 47 f.</p>
+</note>
+<note xml:id="gb10661_comment_com17453">
+<label xml:id="GB03_2_BR311_0_note_043_184_18" copyOf="#start_com_2776"><hi rendition="#fett">184,18</hi>bin ich heut oben gewesen</label>
+<p>Der eigentliche Aufstieg bleibt sowohl in Goethes Briefen wie auch in den Tagebuchaufzeichnungen ausgespart, während die vorangehenden und nachfolgenden Erlebnisse detailliert geschildert werden. – Eine knappe Schilderung seines Gipfelerlebnisses gibt Goethe im Brief an Merck vom 5. August 1778 (vgl. <ref target="gb:text#GB03_1_BR388_0_221_002 #GB03_1_BR388_0_221_006">221,2–6</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17545">
+<label xml:id="GB03_2_BR311_0_note_044_184_18-19" copyOf="#start_com_2777"><hi rendition="#fett">184,18-19</hi>ob mir’s schon seit 8 Tagen <gap quantity="3" reason="editorial"/> versichern</label>
+<p>Demnach hätte Goethe den Plan einer Brockenbesteigung spätestens am 2. Dezember, also unmittelbar nach Reiseantritt, gefasst. Wahrscheinlicher ist aber, dass er bereits mit dieser Absicht aufgebrochen war. Möglicherweise spornte ihn gerade die Tatsache an, dass es vor ihm noch kaum jemandem gelungen war, den Brocken im Winter zu besteigen, wie auch Zückert versichert: „Ich bin zweymahl in der Nachbarschaft des Brocken, ja dicht am Fuß desselben gewesen, aber die Rauhigkeit der Jahrszeit verstattete mir niemals ihn zu besteigen. Ich habe darinn mit dem Brückmann, Rohr, und andern begierigen Naturforschern ein gleiches Schicksal gehabt. Nur ein Mylius konnte es wagen, im Aprilmonat eine Wallfahrt nach diesem Berge anzustellen. Allein er hat auch von dieser Reise damals, da der Schnee noch über drey Fuß hoch lag, mehr Beschwerlichkeit als Vergnügen und Nutzen gehabt, und nicht viel erhebliches beobachten können.“ (<ref target="sndb:sigle#3155">Zückert, Unterharz</ref>, 11.) – Auch Goethe berichtet in seinem Brief an Merck von <quote type="G">anderthalb Ellen</quote> (also knapp einem Meter) <quote type="G">hohen Schnee</quote> (<ref target="gb:text#GB03_1_BR388_0_221_005">221,5</ref>) auf dem Gipfel des Brockens (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_024_183_7">183,7</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9818">
+<label xml:id="GB03_2_BR311_0_note_045_184_22" copyOf="#start_com_2778"><hi rendition="#fett">184,22</hi>ich hab einen Wunsch auf den Vollmond!</label>
+<p>Im Briefteil vom 6. Dezember (vgl. zu <ref target="gb:note#GB03_2_BR310_0_note_007_180_27-28">180,27-28</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9819">
+<label xml:id="GB03_2_BR311_0_note_046_184_23" copyOf="#start_com_2779"><hi rendition="#fett">184,23</hi>der Brocken</label>
+<p>Die mit 1141 m höchste Erhebung im Harz und zugleich der höchste Berg Norddeutschlands, gelegen in der Grafschaft Wernigerode (heute Landkreis Harz, Sachsen-Anhalt). Gleich das erste Kapitel von Zückerts „Naturgeschichte einiger Provinzen des Unterharzes“ handelt ausführlich „Von dem Brocken oder Brockenberge“ (S. 11). Verwiesen wird ausdrücklich auf die Brockenbeschreibung von Albert Ritter (Relatio historico-curiosa de iterato itinere in Hercyniae montem famosissimum Bructerum. Helmstedt 1740; in deutscher Übersetzung: Historische Nachricht von einer doppelten Reise Nach dem auf dem Harze belegenen so berühmten Berge, gemeiniglich Blocksberg genandt. Magdeburg 1744). Sie sei „von den Gespenster- und Teufels-Geschichten und andern fabelhaften Erzählungen übernatürlicher Begebenheiten frey <gap quantity="3" reason="editorial"/>, womit die andern Bücher, besonders die eines Prätorius und Philanders, den Aberglauben unterhalten.“ Nach Zückert seien „Bocksberg, Blocksberg, Brockerberg, Blockersberg <gap quantity="3" reason="editorial"/> lauter sonderbare und falsche Benennungen“: „Sein eigentlicher Name, den ihm die Härzer beylegen, ist Brocken: Mons Bructerus, oder, wie ihn Thalius nennt, Broccenbergus.“ (<ref target="sndb:sigle#3155">Zückert, Unterharz</ref>, 12 f., 14.) – Dass Goethe 1777 im Allgemeinen mit dem Sagen- und Mythenkreis, der sich mit dem Brocken und der Walpurgisnacht verbindet, bekannt war, ist zwar anzunehmen. Ein direkter Bezug zur „Faust“-Dichtung lässt sich für seine erste Harzreise aber nicht herstellen. Die „Walpurgisnacht“-Szene des „Faust I“ entstand sehr viel später, ihre früheste Konzeption fällt wahrscheinlich ins Jahr 1797. Erst ab Dezember 1800 lässt sich ein ausführliches Quellenstudium nachweisen (vgl.<ref target="sndb:sigle#4665">Witkowski, Walpurgisnacht</ref>, bes. S. 12 f. und 18). Den <quote type="G">Mißgestalten liebenden</quote> Johannes Praetorius und dessen „Anthropodemus Plutonicus, Das ist, Eine Neue Welt-beschreibung Von allerley Wunderbahren Menschen“ (Magdeburg 1666) erwähnt Goethe erst in den „Tag- und Jahres-Heften“ von 1805 (<ref target="sndb:sigle#1157">WA</ref> I 35, 243). Für seine Lektüre von Praetorius’ „Blockes-Berges Verrichtung Oder Ausfuehrlicher Geographischer Bericht von den hohen trefflich alt- und beruehmten Blockes-Berge“ (Leipzig 1668) gibt es keinen expliziten Nachweis, es gilt aber als sicher, dass er das Buch, das in der Weimarer Bibliothek vorhanden war, ebenfalls kannte, allerdings auch erst seit etwa 1805 (vgl. <ref target="sndb:sigle#4665">Witkowski, Walpurgisnacht</ref>, 23–27).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9821">
+<label xml:id="GB03_2_BR311_0_note_047_184_23-24" copyOf="#start_com_2780"><hi rendition="#fett">184,23-24</hi>im hohen herrlichen Mondschein</label>
+<p>Wahrscheinlich entstand Goethes Zeichnung „Brocken im Mondlicht, vom Torfhaus gesehen“ (<ref target="sndb:sigle#1248">Corpus</ref> I, 74, Nr 190) am Abend des 10. Dezember (vgl. <ref target="gb:digitalisate#10661/64259">Abb. 5</ref> im Kommentarband, S. 616); außerdem hat sich eine Zeichnung erhalten, die einen Blick mutmaßlich vom Brocken zur Heinrichshöhe festhält und gleichfalls vom Dezember 1777 stammen könnte (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 74 f., Nr 191).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9833">
+<label xml:id="GB03_2_BR311_0_note_048_184_24" copyOf="#start_com_2781"><hi rendition="#fett">184,24</hi>ich war oben heut</label>
+<p>Nach seinen Tagebuchaufzeichnungen brauchten Goethe und sein Begleiter von Torfhaus bis zum Brocken drei Stunden (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_039_186_24-25">186,24-25</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9834">
+<label xml:id="GB03_2_BR311_0_note_049_184_25" copyOf="#start_com_2782"><hi rendition="#fett">184,25</hi>Teufels Altar</label>
+<p>In Abwandlung zu ‚Teufelskanzel‛ und ‚Hexenaltar‛; Namen zweier Gesteinsformationen auf dem Brocken. – Im 18. Jahrhundert wurden die Felsen noch für künstliche, von Menschen errichtete Opferstätten gehalten. In Zückerts Brocken-Kapitel findet sich die folgende Beschreibung: „Oben auf demselben am Rande des <hi rendition="#hervor1">grossen Brocken</hi> findet man zwey grosse und ungeheure Steingerüste gegen Süden und Südwesten, welche aus sehr breiten und flachen Felssteinen bestehen, die gerade auf einander gethürmet sind. Das eine davon heißt der <hi rendition="#hervor1">Hexen</hi>- oder <hi rendition="#hervor1">Teufels-Altar</hi>, welcher nach <hi rendition="#hervor1">Ritters</hi> Angabe 16 Fuß lang und eben so breit, und 10 Fuß hoch ist. Das andre Steingerüste heißt die <hi rendition="#hervor1">Teufels Kanzel</hi>. <gap quantity="3" reason="editorial"/> Diese Steine haben ohne Zweifel denen heydnischen Deutschen, und wie einige meynen, denen betagten Weibern, zu Altären gedienet, um welchen sie zu gewissen Zeiten ihre heilige Versammlungen gehalten, und worauf sie ihren Göttern die im Kriege gefangene Menschen opferten. <hi rendition="#hervor1">Sprengel</hi> hält diese Steingerüste, in dem <hi rendition="#hervor1">Sendschreiben von dem Alterthum derselben</hi>, vor ein Werk der mühsamesten Menschenkunst, weil die Lage der Steine zu regelmäßig ist, als daß man sie vor die Würkungen einer wilden Wasserflut halten, oder glauben könnte, daß sie von Natur in solcher Lage gewachsen.“ (Zückert, Unterharz, 18 f.) – Dazu hat sich die folgende Lektürebemerkung Goethes erhalten, die allerdings erst aus dem Jahr 1784 stammt: <quote type="G">Brocken v. Zückert. /Naturgesch. des Unterharzes von demselben / S. 19 Denso hält Teufels kanzel und Teufels Altar für mühsames Menschenwerck pp</quote> (<ref target="archivdb:dokument#416878">GSA 26/LXIV,5,1:1</ref>, Bl. 4; vgl. <ref target="sndb:sigle#1321">LA</ref> II 7, 7, M 4). – Sprengels „Sendschreiben“ ist in den von Joan Daniel Denso herausgegebenen „Monatlichen Beiträgen zur Naturkunde“ erschienen (6. Stück, Berlin 1752).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17560">
+<label xml:id="GB03_2_BR311_0_note_050_184_25-26" copyOf="#start_com_2783"><hi rendition="#fett">184,25-26</hi>den liebsten Danck geopfert</label>
+<p>Für die gelungene Brockenbesteigung, die damals im Winter als überaus gefährlich galt und von Goethe als Zeichen der ‚Zustimmung der Götter‛ gedeutet wird; möglicherweise nicht nur im übertragenen Sinne gemeint (vgl. <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 44). – Noch in dem 1785 nach der dritten Harzreise entstandenen Aufsatz über den Granit klingen metaphorisch die Eindrücke der ersten Brockenbesteigung an: <quote type="G">Auf einem hohen nackten Gipfel sitzend und eine weite Gegend überschauend kann ich mir sagen: Hier ruhst du unmittelbar auf einem Grunde, der bis zu den tiefsten Orten der Erde hinreicht <gap quantity="3" reason="editorial"/> . So einsam sage ich zu mir selber indem ich diesen ganz nackten Gipfel hinab sehe <gap quantity="3" reason="editorial"/> wird es dem Menschen zu Mute der nur den ältsten ersten tiefsten Gefühlen der Wahrheit seine Seele eröffnen will. Ja er kann zu sich sagen: hier auf dem ältesten ewigen Altare der unmittelbar auf die Tiefe der Schöpfung gebaut ist bring ich dem Wesen aller Wesen ein Opfer.</quote> (Granit II; <ref target="sndb:sigle#1321">LA</ref> I 11, 12.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com9835">
+<label xml:id="GB03_2_BR311_0_note_051_184_27" copyOf="#start_com_2784"><hi rendition="#fett">184,27</hi>Ich will die Nahmen ausfüllen der Orte.</label>
+<p>Die Angaben der Absendeorte <quote type="G">Clausthal</quote> (<ref target="gb:text#GB03_1_BR311_0_181_014">181,14</ref>) und <quote type="G">Altenau</quote> (<ref target="gb:text#GB03_1_BR311_0_182_019">182,19</ref>) im Briefteil vom 7. und 9. Dezember vervollständigte Goethe demnach erst am Abend des 10. Dezember nach der gelungenen Brockenbesteigung und seinem brieflichen Bericht darüber.</p>
+
+</note>
+<note xml:id="gb10661_comment_com17478">
+<label xml:id="GB03_2_BR311_0_note_052_184_28" copyOf="#start_com_2785"><hi rendition="#fett">184,28</hi>Torfhause</label>
+<p>Torfhaus: eigentlich eine Siedlung im Oberharz, auf einer Höhe von 800 m gelegen und zu Goethes Zeit der höchste auch im Winter bewohnte Ort des Harzes (heute Ortsteil von Altenau). In der zeitgenössischen Literatur wird der Ort meist als ‚Communion-Torfhaus‛ erwähnt, da er bis 1788 zu dem von den Braunschweiger Herzögen gemeinschaftlich verwalteten Teil des Harzes gehörte (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_001_181_14-15">181,14-15</ref>). – Hier mit Bezug auf das Forst- und Gasthaus des Ortes, den „Borkenkrug“, der 1869 durch Feuer zerstört wurde (nach <ref target="sndb:sigle#2803">Dennert</ref>, 14, Anm. 3).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9849">
+<label xml:id="GB03_2_BR311_0_note_053_184_28" copyOf="#start_com_2786"><hi rendition="#fett">184,28</hi>eines Försters Wohnung</label>
+<p>Johann Christoph Degen, damals 41 Jahre alt, Förster und Gastwirt des Forsthauses „Borkenkrug“ in Torfhaus (nach <ref target="sndb:sigle#2803">Dennert</ref>, 14, Anm. 3); als so genannter ‚gehender Förster‛ war Degen für die Bewachung des Waldes zuständig, er zählte im Harz auch zur Bergbeamtenschaft.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9850">
+<label xml:id="GB03_2_BR311_0_note_054_184_30-31" copyOf="#start_com_2787"><hi rendition="#fett">184,30-31</hi>vom Torfhause über die Altenau</label>
+<p>Torfhaus ist etwa 8 km östlich von Altenau gelegen.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9851">
+<label xml:id="GB03_2_BR311_0_note_055_184_32" copyOf="#start_com_2788"><hi rendition="#fett">184,32</hi>ein gesprächiger Mensch wenn ich allein bin</label>
+<p>Zu Charlotte von Steins Klagen über Goethes ‚Schweigsamkeit‘ vgl. zu <ref target="gb:note#GB03_2_BR113_0_note_002_66_2">66,2</ref>.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9822">
+<label xml:id="GB03_2_BR311_0_note_056_184_34-185_1" copyOf="#start_com_2789"><hi rendition="#fett">184,34-185,1</hi>diskursive</label>
+<p>Hier: zwanglos‚ beiläufig; in dieser Form nur zweimal bei Goethe belegt (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1219).</p>
+
+</note>
+<note xml:id="gb10661_comment_com17482">
+<label xml:id="GB03_2_BR311_0_note_057_185_7-8" copyOf="#start_com_2790"><hi rendition="#fett">185,7-8</hi>wie der König <gap quantity="3" reason="editorial"/> der zu wenig schlägt</label>
+<p>Anspielung auf König Joas von Israel, der, von den Syrern bedrängt, den Propheten Elisa anruft: „Und er <supplied>Prophet Elisa</supplied> sprach: Nimm die pfeile. Und da er sie nahm, sprach er zum könige Israel: Schlage die erde; und er schlug dreymal; und stund stille. / Da ward der mann Gottes zornig auf ihn, und sprach: Hättest du fünff oder sechsmal geschlagen, so würdest du die Syrer geschlagen haben, bis sie aufgerieben wären; nun aber wirst du sie dreymal schlagen.“ (2 Könige, 13,18 f.; Luther-Bibel 1772 AT, 338.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com17483">
+<label xml:id="GB03_2_BR311_0_note_058_185_14" copyOf="#start_com_2791"><hi rendition="#fett">185,14</hi>ich will mit Ihnen gehn</label>
+<p>Vgl. dazu die Erinnerungen des Mineralogen und Zellerfelder Berghauptmanns Friedrich Wilhelm von Trebra, den Goethe im September 1783 besuchte: „Von Zellerfeld aus <gap quantity="3" reason="editorial"/> ging ich diesmal auf das sogenannte <hi rendition="#hervor1">Communion Torfhaus</hi> zu, an der Hauptstraße von Nordhaußen nach Braunschweig gelegen. Das Forst- und zugleich Wirthshaus allhier, bewohnte der gehende Förster Degen, mir schon aus mehrern gehaltenen Forstämtern, als eifrigster Diener, allemal auf haltbarer Wahrheit stehend, in ziemlich platten Ernst, und durch muntre Laune <gap quantity="3" reason="editorial"/> bekannt. Vor seinem kleinen Hause, bey heitern Wetter ietzt im Freyen, richteten wir unser mitgebrachtes Mittagsmahl vor. Er war sehr geschäftig bey so seltnen Besuche <gap quantity="3" reason="editorial"/>. Sein Augenmerk nur immer auf mich gerichtet, <gap quantity="3" reason="editorial"/> fielen nur spät erst seine Augen auf den, mich begleitenden Fremden <supplied>Goethe</supplied>. / Ihn erblickend, sah er ihm erst noch forschender ins Gesicht, sprach dann: Nun! da kommen Sie dann doch noch einmal, in einer beßern Jahrszeit den Brocken zu besuchen. Ja! sie würden dorten, als sie mitten im Winter von mir begehrten, daß ich sie auf den Brocken führen sollte, mich mit allen ihren guten Worten – er gab ihm einen Louisd’or – doch gewiß nicht beredet haben, ihr Führer zu seyn, wenn nicht eben durch den gar starken Frost, eine harte Rinde über den tiefen Schnee gezogen gewesen wäre, die uns tragen konnte. Aber noch nie hatte ein Fremder das von mir begehrt, auch würde ich mit keinem das Wagstück unternommen haben, wiewohl es diesmal gut ablief; und wir in guter Zeit von der Spitze des unbewohnten großen Brockens, wieder hier waren, nachdem wir eine gar seltene heitere Aussicht in der Runde umher genoßen hatten.“ (Lebensverhältnisse mit Ober-Berghauptmann von Trebra. 1813. In: <ref target="sndb:sigle#1266">GJb</ref> IX [1888], 16 f.)</p>
+
+</note>
+<note xml:id="gb10661_comment_com9852">
+<label xml:id="GB03_2_BR311_0_note_059_185_14" copyOf="#start_com_2792"><hi rendition="#fett">185,14</hi>Zeichen</label>
+<p>Möglicherweise Charlotte von Steins (vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_006_92_21">92,21</ref>) oder seine eigenen Initialen; als ein ‚Befestigungszeichen‘, das ihm das Gelingen seiner Brockenbesteigung gleichsam auf Dauer bestätigen sollte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9861">
+<label xml:id="GB03_2_BR311_0_note_060_185_17-18" copyOf="#start_com_2793"><hi rendition="#fett">185,17-18</hi>Alle Nebel <gap quantity="3" reason="editorial"/> herrliche Klarheit</label>
+<p>Wohl auch im übertragenen Sinn mit Bezug auf seine innere Verfassung.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9862">
+<label xml:id="GB03_2_BR311_0_note_061_185_22" copyOf="#start_com_2794"><hi rendition="#fett">185,22</hi>Beruf</label>
+<p>Hier: „Neigung, innerlicher Trieb“ (<ref target="sndb:sigle#2753">Adelung</ref> 1, 886).</p>
+
+</note>
+<note xml:id="gb10661_comment_com9863">
+<label xml:id="GB03_2_BR311_0_note_062_185_22" copyOf="#start_com_2795"><hi rendition="#fett">185,22</hi>Philippen</label>
+<p>Philipp Seidel.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9864">
+<label xml:id="GB03_2_BR311_0_note_063_185_24" copyOf="#start_com_2796"><hi rendition="#fett">185,24</hi>Steinen</label>
+<p>Josias von Stein.</p>
+
+</note>
+<note xml:id="gb10661_comment_com9865">
+<label xml:id="GB03_2_BR311_0_note_064_185_24" copyOf="#start_com_2797"><hi rendition="#fett">185,24</hi>die Waldnern</label>
+<p>Louise Adelaide Waldner von Freundstein, Hofdame der Herzogin Louise, eine Freundin Charlotte von Steins.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

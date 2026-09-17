@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3170"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11800" n="GB 3, Nr. 310">
+  <teiHeader xml:id="gb11800_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>310.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77958" evidence="conjecture">Goslar</placeName></supplied>, 6. und 7. Dezember 1777. Samstag und Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:52Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11800_tei.xml</idno>
+        <idno type="URI">gb11800</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR310_0</idno>
+        <idno type="KSW-ID">11800</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="180" to="181">180-181</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="613" to="615">613-615</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11800_header_hwit1280" corresp="#gb11800_source_hwit1280" sameAs="#gb11800_comment_hwit1280" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 65</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11800,,1280/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Mir ists eine sonderbaare Empfindung, unbekannt in der Welt    herumzuziehen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#77958">Goslar</placeName></supplied>
+            <date when="1777-12-06">6. Dezember 1777</date> und
+            <date when="1777-12-07">7. Dezember 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11800_source_hwit1280" corresp="#gb11800_header_hwit1280" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11800/22742"/>
+      <opener>
+        <dateline rendition="#right">
+          <anchor xml:id="GB03_1_BR310_0_180_017"/>
+          <ref target="gb:note#GB03_2_BR310_0_note_001_180_17" xml:id="start_com_2718"/>– r<ref xml:id="end_com_2718"/> d<g ref="#typoSuspension"/> 6 Dez<lb/>
+        
+          <anchor xml:id="GB03_1_BR310_0_180_018"/>77.<space dim="horizontal" unit="chars" quantity="7"/></dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR310_0_180_019"/>Mir ists eine <ref target="gb:note#GB03_2_BR310_0_note_002_180_19" xml:id="start_com_2719"/>sonderbaare<ref xml:id="end_com_2719"/> Empfindung, <ref target="gb:note#GB03_2_BR310_0_note_003_180_19" xml:id="start_com_2720"/>unbekannt<ref xml:id="end_com_2720"/> in der Welt herumzuziehen, 
+<anchor xml:id="GB03_1_BR310_0_180_020"/>es ist mir als wenn ich mein Verhältniss zu den Menschen 
+<anchor xml:id="GB03_1_BR310_0_180_021"/>und den Sachen weit wahrer fühlte. <ref target="gb:note#GB03_2_BR310_0_note_004_180_21" xml:id="start_com_2721"/>Ich heise Weber, bin ein Mahler<ref xml:id="end_com_2721"/>, 
+<anchor xml:id="GB03_1_BR310_0_180_022"/>habe <emph rendition="#latin">iura</emph> studirt, oder ein Reisender überhaupt, betrage mich sehr 
+<anchor xml:id="GB03_1_BR310_0_180_023"/>höflich gegen iedermann, und bin überall wohl aufgenommen. Mit 
+<anchor xml:id="GB03_1_BR310_0_180_024"/><ref target="gb:note#GB03_2_BR310_0_note_005_180_24" xml:id="start_com_2722"/>Frauens<ref xml:id="end_com_2722"/> hab ich noch gar nichts zu schaffen gehabt. Eine reine Ruh 
+<anchor xml:id="GB03_1_BR310_0_180_025"/>und Sicherheit umgiebt mich, bisher ist mir noch alles zu Glück geschlagen, 
+<anchor xml:id="GB03_1_BR310_0_180_026"/>die Lufft hellt sich aus, es wird diese Nacht sehr frieren. Es 
+<anchor xml:id="GB03_1_BR310_0_180_027"/>ist <ref target="gb:note#GB03_2_BR310_0_note_006_180_27" xml:id="start_com_2723"/>erstes viertel<ref xml:id="end_com_2723"/>. <ref target="gb:note#GB03_2_BR310_0_note_007_180_27-28" xml:id="start_com_2724"/>ich hab einen Wunsch auf den Vollmond wenn ihn 
+<anchor xml:id="GB03_1_BR310_0_180_028"/>die Götter erhöhren, wärs grosen dancks werth.<ref xml:id="end_com_2724"/> Ich nehm auch nur 
+<anchor xml:id="GB03_1_BR310_0_180_029"/>mit der Hälfte vorlieb. Heut <ref target="gb:note#GB03_2_BR310_0_note_008_180_29" xml:id="start_com_2725"/>wollt ich zeichnen<ref xml:id="end_com_2725"/>, ein lieblich Fleck, es 
+<anchor xml:id="GB03_1_BR310_0_180_030"/>ging gar nicht. Mir ists ein vor alle mal unbegreiflich, dass ich Stunden 
+<anchor xml:id="GB03_1_BR310_0_180_031"/>habe wo ich so ganz und gar nichts hervorbringe. —— ——</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR310_0_181_001"/>Ich drehe mich auf einem sehr kleinen aber sehr <ref target="gb:note#GB03_2_BR310_0_note_009_181_1" xml:id="start_com_2726"/>merckwürdigen<ref xml:id="end_com_2726"/>
+        <anchor xml:id="GB03_1_BR310_0_181_002"/>Fleckgen Welt herum. Die kurzen Tage machen alles weiter. Und es 
+<anchor xml:id="GB03_1_BR310_0_181_003"/>ist gar ein schon Gefühl <ref target="gb:note#GB03_2_BR310_0_note_010_181_3-4" xml:id="start_com_2727"/>wenn von Plaz zu Plaz aus Abend und Morgen 
+<anchor xml:id="GB03_1_BR310_0_181_004"/>Ein Tag wird<ref xml:id="end_com_2727"/>. —— Schlafen thu ich ganz ohne Maas</p>
+      <p>
+        <anchor xml:id="GB03_1_BR310_0_181_005"/>d<g ref="#typoSuspension"/> 7.   Heute früh hab ich wahrhafftig schon <ref target="gb:note#GB03_2_BR310_0_note_011_181_5" xml:id="start_com_2728"/>heimweh<ref xml:id="end_com_2728"/>, es ist mir als 
+<anchor xml:id="GB03_1_BR310_0_181_006"/>wenn mir <ref target="gb:note#GB03_2_BR310_0_note_012_181_6" xml:id="start_com_2729"/>mein Thal<ref xml:id="end_com_2729"/> wie ein Kloz an gebunden wäre. Ich bin immer 
+<anchor xml:id="GB03_1_BR310_0_181_007"/>um unsre Gegenden. und treffe Sie vermuthlich da an. Es ist kalt und 
+<anchor xml:id="GB03_1_BR310_0_181_008"/>heitrer Himmel, <ref target="gb:note#GB03_2_BR310_0_note_013_181_8-9" xml:id="start_com_2730"/>heut will ich hier weg, und rücke Ihnen schon wieder 
+<anchor xml:id="GB03_1_BR310_0_181_009"/>einigermassen näher<ref xml:id="end_com_2730"/>. <pb n="2" facs="gb:digitalisate#11800/22743"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR310_0_181_010"/>um 10 Uhr.    Mir ist ganz wunderlich als wenn <ref target="gb:note#GB03_2_BR310_0_note_014_181_10" xml:id="start_com_2731"/>mich<supplied>s</supplied><ref xml:id="end_com_2731"/> von hier 
+<anchor xml:id="GB03_1_BR310_0_181_011"/>wegpeitschte. Ich hab das Essen <ref target="gb:note#GB03_2_BR310_0_note_015_181_11" xml:id="start_com_2732"/>frühe<supplied>r</supplied><ref xml:id="end_com_2732"/> bestellt und will gleich 
+<anchor xml:id="GB03_1_BR310_0_181_012"/>fort.    Adieu    Dieser Brief geht erst Morgen ab.    Adieu.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR310_0_181_013"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11800_comment">
+<body>
+<div type="metadata" xml:id="gb11800_comment_com525">
+  <ab type="numberAddressee"><label>310.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77958">Goslar</placeName></supplied>, 6. Dezember 1777 und 7. Dezember 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11800_comment_com2569">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 65. – 1 Bl. ca. 17 × 21,6(–22,1) cm, 1 &#x2155; S. beschr., egh., Tinte; Rs. quer zum Brieftext Adresse: <quote type="G">Frau v. Stein</quote>, Reste eines roten Siegels; am linken und rechten Rand auf Falz geklebt, geringfügiger Buchstabenverlust (vgl. <ref target="gb:text#GB03_1_BR310_0_181_010">181,10</ref>; <ref target="gb:text#GB03_1_BR310_0_181_011">181,11</ref>); Vs. oben rechts von fremder Hd, Tinte: „58.<hi rendition="#sup #u">a</hi>“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 61), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 132 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 192 f., Nr 652.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11800_comment_com4365">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11800_comment_com18089">
+<label xml:id="GB03_2_BR310_0_note_001_180_17" copyOf="#start_com_2718"><hi rendition="#fett">180,17</hi>– r</label>
+<p>Goslar, wo Goethe am 4. Dezember eingetroffen war und bis zum 7. Dezember blieb (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_026_179_21">179,21</ref> und die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>). Seinen Aufenthaltsort und somit auch die Reiseroute hielt er noch immer vor Charlotte von Stein geheim (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_001_178_9">178,9</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com15670">
+<label xml:id="GB03_2_BR310_0_note_002_180_19" copyOf="#start_com_2719"><hi rendition="#fett">180,19</hi>sonderbaare</label>
+<p>Sonderbar: hier wohl in der Ende des 18. Jahrhunderts bereits zurückgedrängten Bedeutung von „besondere von andern sich vorzüglich auszeichnende Eigenschaften an sich habend, ohne ihre Beschaffenheit weiter zu bestimmen“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 141 f.).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11538">
+<label xml:id="GB03_2_BR310_0_note_003_180_19" copyOf="#start_com_2720"><hi rendition="#fett">180,19</hi>unbekannt</label>
+<p>Hier im Sinne von ‚unerkannt‘, ‚inkognito‘.</p>
+
+</note>
+<note xml:id="gb11800_comment_com18099">
+<label xml:id="GB03_2_BR310_0_note_004_180_21" copyOf="#start_com_2721"><hi rendition="#fett">180,21</hi>Ich heise Weber, bin ein Mahler</label>
+<p>Als Johann Wilhelm Weber aus Darmstadt trug sich Goethe auch am 8. Dezember im Gästebuch der Grube „Dorothee“ bei Clausthal ein (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_032_186_21">186,21</ref>). Der Nachname ist eine Übersetzung von Textor (lat.: Weber), des Familiennamens seiner Frankfurter Großeltern mütterlicherseits. – In der ‚Plessing-Episode‘ der „Campagne in Frankreich 1792“ aus den Jahren 1821/22 dagegen schreibt der Dichter, er habe sich bei Friedrich Victor Leberecht Plessing in Wernigerode als <quote type="G">Zeichenkünstler von Gotha</quote> eingeführt, der <quote type="G">wegen Familienangelegenheiten in dieser unfreundlichen Jahrszeit Schwester und Schwager in Braunschweig zu besuchen habe.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 33, 219; vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>.) Schon früher war Goethe verschiedentlich unter fremdem Namen gereist, so bei seinem ersten Besuch der Pfarrersfamilie Brion in Sesenheim (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 357 [10. Buch]); seine Reise nach Italien trat er als Johann Philipp Möller an (vgl. <ref target="gb:note#GB06_2_BR375_0_note_014_242_24">GB 6 II, zu 242,24</ref>). Im Brief an Schiller vom 9. Juli 1796 erklärt Goethe diese Neigung zur Camouflage aus seiner <quote type="G">innersten Natur, aus einem gewissen realistischen Tic</quote>, durch den er seine <quote type="G">Existenz</quote>, seine <quote type="G">Handlungen</quote>, seine <quote type="G">Schriften den Menschen aus den Augen zu rücken behaglich</quote> fände: <quote type="G">So werde ich immer gerne incognito reisen, das geringere Kleid vor dem bessern wählen, und, in der Unterredung mit Fremden oder Halbbekannten, den unbedeutendern Gegenstand oder doch den weniger bedeutenden Ausdruck vorziehen, mich leichtsinniger betragen als ich bin und mich so, ich möchte sagen, zwischen mich selbst und zwischen meine eigne Erscheinung stellen.</quote> (<ref target="gb:text#GB11_1_BR077_0_084_011 #GB11_1_BR077_0_084_019">GB 11 I, 84,11-19</ref>.)</p>
+
+</note>
+<note xml:id="gb11800_comment_com11551">
+<label xml:id="GB03_2_BR310_0_note_005_180_24" copyOf="#start_com_2722"><hi rendition="#fett">180,24</hi>Frauens</label>
+<p>Dativ Plural zur oberdeutschen Form ‚Fraue‘; in der Schriftsprache im ausgehenden 18. Jahrhundert veraltet (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 271).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11552">
+<label xml:id="GB03_2_BR310_0_note_006_180_27" copyOf="#start_com_2723"><hi rendition="#fett">180,27</hi>erstes viertel</label>
+<p>Am 6. Dezember 1777 war zunehmender Halbmond, Abschluss des astronomischen ‚ersten Viertels‘ (bezogen auf den vollen Mondzyklus).</p>
+
+</note>
+<note xml:id="gb11800_comment_com17083">
+<label xml:id="GB03_2_BR310_0_note_007_180_27-28" copyOf="#start_com_2724"><hi rendition="#fett">180,27-28</hi>ich hab einen Wunsch <gap quantity="3" reason="editorial"/> grosen dancks werth.</label>
+<p>Das Gelingen der Brockenbesteigung, die, wie der Kontext nahelegt, wiederum als Zeichen der Zustimmung für etwas Umfassenderes, die Richtung der eigenen Existenz Betreffendes gelten sollte (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_039_184_6-9">184,6-9</ref>); Vollmond war im Dezember 1777 erst am 14., Goethes Brockenwanderung fand schon am 10. statt (vgl. <ref target="gb:text#GB03_1_BR311_0_184_018">184,18</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11564">
+<label xml:id="GB03_2_BR310_0_note_008_180_29" copyOf="#start_com_2725"><hi rendition="#fett">180,29</hi>wollt ich zeichnen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_006_178_13-14">178,13-14</ref>.</p>
+
+</note>
+<note xml:id="gb11800_comment_com11565">
+<label xml:id="GB03_2_BR310_0_note_009_181_1" copyOf="#start_com_2726"><hi rendition="#fett">181,1</hi>merckwürdigen</label>
+<p>‚Merkwürdig‘ im 18. Jahrhundert meist im Wortsinn „würdig, oder werth, gemerket, d. i. im Gedächtnisse behalten zu werden“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 183).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11566">
+<label xml:id="GB03_2_BR310_0_note_010_181_3-4" copyOf="#start_com_2727"><hi rendition="#fett">181,3-4</hi>wenn <gap quantity="3" reason="editorial"/> aus Abend und Morgen Ein Tag wird</label>
+<p>In Anklang an 1 Mose 1,5: „Da ward aus abend und morgen der erste tag.“ (Luther-Bibel 1772 AT, 1.)</p>
+
+</note>
+<note xml:id="gb11800_comment_com18105">
+<label xml:id="GB03_2_BR310_0_note_011_181_5" copyOf="#start_com_2728"><hi rendition="#fett">181,5</hi>heimweh</label>
+<p>So beginnt auch die Tagebucheintragung: <quote type="G">d. 7. Heimweh.</quote> (<ref target="gt:dokument#491">GT I 1, 53</ref>.) Schon im Herbst 1777 war Goethe während seines Aufenthaltes in Eisenach und Umgebung vom Heimweh nach Weimar geplagt worden (vgl. zu <ref target="gb:note#GB03_2_BR291_0_note_003_170_3">170,3</ref>). – Zudem war der 7. Dezember auch der Geburtstag von Goethes im Juni verstorbener Schwester (vgl. <ref target="gb:text#GB03_1_BR312_0_186_017 #GB03_1_BR312_0_186_018">186,17–18</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11567">
+<label xml:id="GB03_2_BR310_0_note_012_181_6" copyOf="#start_com_2729"><hi rendition="#fett">181,6</hi>mein Thal</label>
+<p>Das Ilmtal; sowohl mit Bezug auf die Stadt Weimar wie auch auf Goethes Garten mit Blick auf das Tal (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11568">
+<label xml:id="GB03_2_BR310_0_note_013_181_8-9" copyOf="#start_com_2730"><hi rendition="#fett">181,8-9</hi>heut will ich hier weg <gap quantity="3" reason="editorial"/> einigermassen näher</label>
+<p>Am 7. Dezember ritt Goethe von Goslar in das etwa 21 km südwestlich gelegene Clausthal (vgl. <ref target="gb:text#GB03_1_BR312_0_186_014">186,14</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11580">
+<label xml:id="GB03_2_BR310_0_note_014_181_10" copyOf="#start_com_2731"><hi rendition="#fett">181,10</hi>mich<supplied>s</supplied></label>
+<p>Buchstabenverlust (vgl. <ref target="gb:note#gb11800_comment_com2569">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb11800_comment_com11581">
+<label xml:id="GB03_2_BR310_0_note_015_181_11" copyOf="#start_com_2732"><hi rendition="#fett">181,11</hi>frühe<supplied>r</supplied></label>
+<p>Buchstabenverlust (vgl. <ref target="gb:note#gb11800_comment_com2569">Überlieferung</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

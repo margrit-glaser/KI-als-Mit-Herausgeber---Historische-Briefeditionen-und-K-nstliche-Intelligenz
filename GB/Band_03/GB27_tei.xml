@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3340"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb27" n="GB 3, Nr. 325">
+  <teiHeader xml:id="gb27_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>325.</label> An <persName key="sndb:person#38559">Johann Christian Kestner</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 23. Januar 1778. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:21Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb27_tei.xml</idno>
+        <idno type="URI">gb27</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR325_0</idno>
+        <idno type="KSW-ID">27</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="194" to="194">194</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="653" to="654">653-654</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb27_header_hwit1300" corresp="#gb27_source_hwit1300" sameAs="#gb27_comment_hwit1300" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/264,I,4 Bl. 4</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8285</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/27,,1300/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dancke recht sehr für das überschickte, und bitt euch besonders um die Abänderungen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-01-23">23. Januar 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38559">Kestner, Johann Christian</persName>
+            <placeName key="sndb:ort#78040">Hannover</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb27_source_hwit1300" corresp="#gb27_header_hwit1300" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#27/11917"/>
+      <p>
+        <anchor xml:id="GB03_1_BR325_0_194_001"/>Dancke recht sehr fur das <ref target="gb:note#GB03_2_BR325_0_note_001_194_1" xml:id="start_com_2952"/>uberschicke<ref xml:id="end_com_2952"/> und bitt euch besonders um<ptr n="1" target="#a001_194.1"/> die 
+<anchor xml:id="GB03_1_BR325_0_194_002"/>
+        <ref target="gb:note#GB03_2_BR325_0_note_002_194_2" xml:id="start_com_2953"/>Abändrungen und Verbesserungen<ref xml:id="end_com_2953"/>, weil mir daran am meisten gelegen 
+<anchor xml:id="GB03_1_BR325_0_194_003"/>ist. Was es kostet will ich gern ersezzen es sey was es wolle.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR325_0_194_004"/>Viel Glück zur <ref target="gb:note#GB03_2_BR325_0_note_003_194_4" xml:id="start_com_2954"/>Vermehrung und Entblatterung der Famielie<ref xml:id="end_com_2954"/>. Es 
+<anchor xml:id="GB03_1_BR325_0_194_005"/>wird doch artig seyn, <ref target="gb:note#GB03_2_BR325_0_note_004_194_5" xml:id="start_com_2955"/>wenn ich euch einmal besuche<ref xml:id="end_com_2955"/><ptr n="2" target="#a002_194.5"/> und ihr mir mit 
+<anchor xml:id="GB03_1_BR325_0_194_006"/>einem habbduzzend solcher Figürgen aufwarten könnt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR325_0_194_007"/>Grüse <ref target="gb:note#GB03_2_BR325_0_note_005_194_7" xml:id="start_com_2956"/>Lotten<ref xml:id="end_com_2956"/>, und wenn ich auch im Styl<ptr n="3" target="#a003_194.7"/> mit unter <ref target="gb:note#GB03_2_BR325_0_note_006_194_7" xml:id="start_com_2957"/>GehR.isch<ref xml:id="end_com_2957"/>
+        <anchor xml:id="GB03_1_BR325_0_194_008"/>
+        <ref target="gb:note#GB03_2_BR325_0_note_007_194_8" xml:id="start_com_2958"/>wer<supplied>de</supplied><ref xml:id="end_com_2958"/> so bleibt doch leider das ubrige ziemlich im alten. Grüse <ref target="gb:note#GB03_2_BR325_0_note_008_194_8-9" xml:id="start_com_2959"/>Sophien<ref xml:id="end_com_2959"/>.
+<anchor xml:id="GB03_1_BR325_0_194_009"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR325_0_194_010"/>Adiech. d<g ref="#typoSuspension"/> 23 Jan 78        </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR325_0_194_011"/>Apropos <ref target="gb:note#GB03_2_BR325_0_note_009_194_11" xml:id="start_com_2960"/>ist denn Lotte immer noch so schnippisch<ref xml:id="end_com_2960"/>? Schickt mir doch 
+<anchor xml:id="GB03_1_BR325_0_194_012"/>einmal <ref target="gb:note#GB03_2_BR325_0_note_010_194_12" xml:id="start_com_2961"/>Eure Silhouetten<ref xml:id="end_com_2961"/>, und Sophies und der Kinder.</p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#27/11918"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb27_comment">
+<body>
+<div type="metadata" xml:id="gb27_comment_com967">
+  <ab type="numberAddressee"><label>325.</label> An <persName key="sndb:person#38559">Johann Christian Kestner</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 23. Januar 1778 → <placeName key="sndb:ort#78040">Hannover</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb27_comment_com3011">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8285">GSA 29/264,I,4</ref>, Bl. 4. – 1 Bl. 18,8 × 27,4(–27,7) cm, &#x2158; S. beschr., egh., Tinte, flüchtig geschrieben; Rs. Adresse, quer geschr.: <quote type="G">Herrn Archivsekretarius / Kestner / nach / Hannover / fr.</quote>, Reste eines roten Initialsiegels: „G“; Vs. rechter Rand Mitte Buchstaben durch Öffnen des Siegels verdeckt (vgl. <ref target="gb:text#GB03_1_BR325_0_194_008">194,8</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2874">Goethe und Werther<hi rendition="#sup">1</hi></ref> (1854), 250, Nr 117.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 208, Nr 667.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb27_comment_com4807">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Johann Christian Kestners (vgl. zu <ref target="gb:text#GB03_1_BR325_0_194_001">194,1</ref>; zu <ref target="gb:note#GB03_2_BR325_0_note_003_194_4">194,4</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 24. Januar 1778 (vgl. <ref target="sndb:sigle#4229">GR/RB 1778,1</ref>, Bl. 5r).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb27_comment_com5253">
+<label xml:id="GB03_2_BR325_0_note_001_194_1" copyOf="#start_com_2952"><hi rendition="#fett">194,1</hi>uberschicke</label>
+<p>Flüchtig für ‚Überschickte‘. – Mit Bezug auf einen nicht überlieferten Brief Kestners, der wahrscheinlich einer Paketsendung beilag.</p>
+
+</note>
+<note xml:id="gb27_comment_com5254">
+<label xml:id="GB03_2_BR325_0_note_002_194_2" copyOf="#start_com_2953"><hi rendition="#fett">194,2</hi>Abändrungen und Verbesserungen</label>
+<p>Wie der Kontext nahelegt, hatte Goethe über Kestner eine Bestellung aufgegeben. Möglicherweise hatte Kestner eine Art Muster oder Probe geschickt mit Angeboten, an dem Bestellten noch verschiedene Änderungen vorzunehmen. Zu denken wäre an Bekleidung oder an Einrichtungsgegenstände. Näheres dazu konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb27_comment_com15640">
+<label xml:id="GB03_2_BR325_0_note_003_194_4" copyOf="#start_com_2954"><hi rendition="#fett">194,4</hi>Vermehrung und Entblatterung der Famielie</label>
+<p>Am 28. November 1777 war der vierte Sohn der Familie, August Kestner, geboren worden (vgl. zu <ref target="gb:note#GB03_2_BR142_0_note_006_85_13">85,13</ref>). – ‚Entblatterung‘ hier für ‚Impfung gegen die Blattern‘ (zeitgenössisch für ‚Pocken‘). Die so genannte Varisation oder Inokulation, der Vorläufer der Pockenschutzimpfung, wurde etwa seit den 1720er Jahren in England und dann auch auf dem europäischen Kontinent angewandt. Dabei wurden Pockenviren unmittelbar vom kranken auf den gesunden Menschen übertragen, womit ein hohes Risiko verbunden war. Erst Ende des 18. Jahrhunderts wurde aus den so genannten Kuhpocken ein wirksamerer und ungefährlicherer Impfstoff entwickelt.</p>
+
+</note>
+<note xml:id="gb27_comment_com5255">
+<label xml:id="GB03_2_BR325_0_note_004_194_5" copyOf="#start_com_2955"><hi rendition="#fett">194,5</hi>wenn ich euch einmal besuche</label>
+<p>Diese vermutlich nicht ganz ernst gemeinte Ankündigung wurde von Goethe niemals eingelöst; zum einzigen Wiedersehen mit Charlotte Kestner kam es im Oktober 1816, als diese sich zu einem Besuch in Weimar aufhielt.</p>
+
+</note>
+<note xml:id="gb27_comment_com5256">
+<label xml:id="GB03_2_BR325_0_note_005_194_7" copyOf="#start_com_2956"><hi rendition="#fett">194,7</hi>Lotten</label>
+<p>Charlotte Kestner.</p>
+
+</note>
+<note xml:id="gb27_comment_com5257">
+<label xml:id="GB03_2_BR325_0_note_006_194_7" copyOf="#start_com_2957"><hi rendition="#fett">194,7</hi>GehR.isch</label>
+<p>Geheimrätisch. – Anspielung auf den Kanzleistil, dessen sich Goethe in Ausübung seiner amtlichen Tätigkeit bedienen musste und der ihm selbst seit seiner Studienzeit, wie auch dem Juristen Kestner, vertraut war. – Goethe war seit Juni 1776 Geheimer Legationsrat, Geheimer Rat wurde er erst im September 1779.</p>
+
+</note>
+<note xml:id="gb27_comment_com5258">
+<label xml:id="GB03_2_BR325_0_note_007_194_8" copyOf="#start_com_2958"><hi rendition="#fett">194,8</hi>wer<supplied>de</supplied></label>
+<p>Buchstaben durch Siegelrest verdeckt.</p>
+
+</note>
+<note xml:id="gb27_comment_com5259">
+<label xml:id="GB03_2_BR325_0_note_008_194_8-9" copyOf="#start_com_2959"><hi rendition="#fett">194,8-9</hi>Sophien</label>
+<p>Sophie Buff, die Schwester Charlotte Kestners (vgl. zu <ref target="gb:note#GB03_2_BR290_0_note_011_169_25">169,25</ref>).</p>
+
+</note>
+<note xml:id="gb27_comment_com14244">
+<label xml:id="GB03_2_BR325_0_note_009_194_11" copyOf="#start_com_2960"><hi rendition="#fett">194,11</hi>ist denn Lotte immer noch so schnippisch</label>
+<p>Vgl. auch Kestners Brief vom 28. November 1772 an August von Hennings: „Allein Lotte wußte ihn <supplied>Goethe</supplied> so kurz zu halten und auf eine solche Art zu behandeln, daß keine Hoffnung bey ihm aufkeimen konnte, und er sie, in ihrer Art zu verfahren, noch selbst bewundern mußte.“ (<ref target="sndb:sigle#69">Goethe-Kestner</ref>, 111.)</p>
+
+</note>
+<note xml:id="gb27_comment_com14245">
+<label xml:id="GB03_2_BR325_0_note_010_194_12" copyOf="#start_com_2961"><hi rendition="#fett">194,12</hi>Eure Silhouetten</label>
+<p>In Goethes Nachlass ist eine Silhouette überliefert, die das Ehepaar Kestner mit ihren fünf ältesten Söhnen zeigt (<ref target="sndb:sigle#3162">KSW</ref>, Direktion Museen, Inv.-Nr KSi/AK Nr 2701). Sie gelangte wahrscheinlich erst Anfang 1783 nach Weimar (vgl. Goethe an Kestner, 15. März 1783; <ref target="gb:dokument#3603">GB 5, Nr 360</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

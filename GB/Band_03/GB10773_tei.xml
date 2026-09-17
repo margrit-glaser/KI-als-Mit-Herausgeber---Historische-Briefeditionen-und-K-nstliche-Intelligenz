@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1050"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10773" n="GB 3, Nr. 105">
+  <teiHeader xml:id="gb10773_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>105.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 16. Mai? 1776. Donnerstag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10773_tei.xml</idno>
+        <idno type="URI">gb10773</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR105_0</idno>
+        <idno type="KSW-ID">10773</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="63" to="63">63</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="243" to="244">243-244</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10773_header_hwit964" corresp="#gb10773_source_hwit964" sameAs="#gb10773_comment_hwit964" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 73</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10773,,964/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich empfange ein Exemplar 2ten Theils. Ist es für mich? - und lassen Sie das Dedikations</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-05-16"><supplied>16. Mai? 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10773_source_hwit964" corresp="#gb10773_header_hwit964" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10773/13798"/>
+      <p>
+        <anchor xml:id="GB03_1_BR105_0_063_001"/>Ich empfange ein <ref target="gb:note#GB03_2_BR105_0_note_001_63_1" xml:id="start_com_0987"/>Exemplar 2 ten Theils<ref xml:id="end_com_0987"/>. Ist es für mich? – und lassen 
+<anchor xml:id="GB03_1_BR105_0_063_002"/>Sie das <ref target="gb:note#GB03_2_BR105_0_note_002_63_2" xml:id="start_com_0988"/>Dedikations Exemplar<ref xml:id="end_com_0988"/> binden? – Ausser dem seyn Sie so 
+<anchor xml:id="GB03_1_BR105_0_063_003"/>gütig mir 2 komplete Exemplare dieses Wercks <ref target="gb:note#GB03_2_BR105_0_note_003_63_3-4" xml:id="start_com_0989"/>baldigst zu übermachen<ref xml:id="end_com_0989"/>.
+<anchor xml:id="GB03_1_BR105_0_063_004"/>     Donnerst.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR105_0_063_005"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR105_0_063_006"/>
+          <ref target="gb:note#GB03_2_BR105_0_note_004_63_6" xml:id="start_com_0990"/>Mir fehlt auch zu dem geringen Exemplar <hi rendition="#hervor1">Beschluss</hi>.<ref xml:id="end_com_0990"/>
+        </p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#10773/13799" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10773_comment">
+<body>
+<div type="metadata" xml:id="gb10773_comment_com685">
+  <ab type="numberAddressee"><label>105.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>16. Mai? 1776</supplied> → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10773_comment_com1716">
+  <p>Am 25. April 1776 hatte Goethe die letzte Manuskriptsendung für den 2. Band von Lavaters „Physiognomischen Fragmenten“ an Reich geschickt (vgl. <ref target="gb:dokument#11393">Nr 90</ref>). Aus seinem <q>Rechnungsbuch</q> geht hervor, dass er danach am 29. April und am 16. Mai weitere Briefe an Reich schrieb (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 5r und 6v). Da im vorliegenden Brief der Empfang eines Exemplars des fertigen Bandes bestätigt wird, ist anzunehmen, dass es sich um den späteren der beiden Briefe, den Brief vom 16. Mai, handelt. Der Brief vom 29. April ist nicht überliefert.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10773_comment_com2729">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 73. – 1 Bl. 10 × 8,7 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 60 f., Nr 455 (Friedrich Strehlke). – Incipit zuvor schon in: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 185 (<ref target="gb:text#GB03_1_BR105_0_063_001">63,1</ref> <quote type="G">Ich empfange <gap quantity="3" reason="editorial"/> für mich?</quote>).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10773_comment_com4525">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. Mai 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 6v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10773_comment_com15003">
+<label xml:id="GB03_2_BR105_0_note_001_63_1" copyOf="#start_com_0987"><hi rendition="#fett">63,1</hi>Exemplar 2 ten Theils</label>
+<p>Physiognomische Fragmente, zur Beförderung der Menschenkenntniß und Menschenliebe, von Johann Caspar Lavater. Zweyter Versuch. Leipzig und Winterthur 1776. Bey Weidmanns Erben und Reich, und Heinrich Steiner und Compagnie.</p>
+
+</note>
+<note xml:id="gb10773_comment_com17572">
+<label xml:id="GB03_2_BR105_0_note_002_63_2" copyOf="#start_com_0988"><hi rendition="#fett">63,2</hi>Dedikations Exemplar</label>
+<p>Der 2. Band der „Fragmente“ ist Herzogin Louise von Sachsen-Weimar und Eisenach gewidmet. Die Widmung ist abgedruckt in der zweiten Erläuterung zu <ref target="gb:note#GB03_2_BR090_0_note_002_57_5">57,5</ref>. In der <ref target="sndb:sigle#400">HAAB</ref> (Bb 2: 111 [b]) wird ein Exemplar des Bandes aufbewahrt, auf dessen Ledereinband die Initialen der Herzogin eingeprägt sind. Ob es sich um das Widmungsexemplar handelt, ist nicht geklärt.</p>
+
+</note>
+<note xml:id="gb10773_comment_com10025">
+<label xml:id="GB03_2_BR105_0_note_003_63_3-4" copyOf="#start_com_0989"><hi rendition="#fett">63,3-4</hi>baldigst zu übermachen</label>
+<p>Wann Goethe die Bücher erhielt, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10773_comment_com10026">
+<label xml:id="GB03_2_BR105_0_note_004_63_6" copyOf="#start_com_0990"><hi rendition="#fett">63,6</hi>Mir fehlt auch zu dem geringen Exemplar <hi rendition="#hervor1">Beschluss.</hi></label>
+<p>Den „Beschluss“ des 2. Bandes bildet Lavaters Gedicht „Erreicht, erreicht also den zweyten Ruhpunkt! <gap quantity="3" reason="editorial"/>“ (S. 289–291). – Goethe wiederholte die Bitte um den Beschluss des Bandes in seinen Briefen vom 19. September (<ref target="gb:dokument#11182">Nr 175</ref>) und vom 14. Oktober 1776 (<ref target="gb:dokument#11394">Nr 179</ref>). – Die „Physiognomischen Fragmente“ erschienen u. a. in Exemplaren auf einfachem <quote type="G">Druckpapier</quote> (<ref target="gb:text#GB03_1_BR175_0_110_013">110,13</ref>), welches im Unterschied zu Post- oder Velinpapier nicht geleimt und daher weniger glatt und weniger hart war (vgl. <ref target="sndb:sigle#3152">Zedler</ref> 26, 640), weshalb diese Exemplare auch billiger waren.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

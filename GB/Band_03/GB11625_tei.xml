@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2400"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11625" n="GB 3, Nr. 237">
+  <teiHeader xml:id="gb11625_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>237.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 19. März 1777. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:02Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11625_tei.xml</idno>
+        <idno type="URI">gb11625</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR237_0</idno>
+        <idno type="KSW-ID">11625</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="136" to="137">136-137</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="496" to="497">496-497</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11625_header_hwit1169" corresp="#gb11625_source_hwit1169" sameAs="#gb11625_comment_hwit1169" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11625,,1169/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Sagen Sie doch der Mama ich bäte sie, mir, wenn die schöne Zeit kommt, wieder einige Krüge</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-03-19">19. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11625_source_hwit1169" corresp="#gb11625_header_hwit1169" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11625/62357"/>
+      <p>
+        <anchor xml:id="GB03_1_BR237_0_136_017"/>Sagen Sie doch der Mama ich bäte sie, mir, wenn die schöne Zeit 
+<anchor xml:id="GB03_1_BR237_0_136_018"/>kommt, wieder einige Krüge <ref target="gb:note#GB03_2_BR237_0_note_001_136_18" xml:id="start_com_2116"/>alten Wein zu schicken<ref xml:id="end_com_2116"/>. Auch wär mir’s 
+<anchor xml:id="GB03_1_BR237_0_136_019"/>sehr lieb wenn sie den Vater disponirte dass er mir ein <ref target="gb:note#GB03_2_BR237_0_note_002_136_19-137_1" xml:id="start_com_2117"/>Geschenck von 
+<anchor xml:id="GB03_1_BR237_0_137_001"/>ein Paar Ohm<ref xml:id="end_com_2117"/> |:<ptr n="1" target="#a001_137.1"/> nicht aus seinem Keller:| machte. Es müsste so etwa 
+<anchor xml:id="GB03_1_BR237_0_137_002"/>
+        <ref target="gb:note#GB03_2_BR237_0_note_003_137_2" xml:id="start_com_2118"/>ein 62 od<g ref="#typoSuspension"/>. 66ger<ref xml:id="end_com_2118"/> seyn, aber was extra feines,<ptr n="2" target="#a002_137.2"/> wenn man sich umthut 
+<anchor xml:id="GB03_1_BR237_0_137_003"/>muss man ihn wohl bey euch gut kriegen können.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR237_0_137_004"/>
+        <ref target="gb:note#GB03_2_BR237_0_note_004_137_4" xml:id="start_com_2119"/>Georg Jakobi war bey uns<ref xml:id="end_com_2119"/>, ich hab ihn nur den lezten Abend bey 
+<anchor xml:id="GB03_1_BR237_0_137_005"/>
+        <ref target="gb:note#GB03_2_BR237_0_note_005_137_5" xml:id="start_com_2120"/>Wiel.<ref xml:id="end_com_2120"/> gesehen, er ging ungerne weg.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR237_0_137_006"/>Schreib sie mir doch wieder einmal Täntgen! Mir ist so wohl und 
+<anchor xml:id="GB03_1_BR237_0_137_007"/>so manichfaltig <ref target="gb:note#GB03_2_BR237_0_note_006_137_7" xml:id="start_com_2121"/>dass nun kein Mensch mehr von mir hört<ref xml:id="end_com_2121"/>.     W. d<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR237_0_137_008"/>19 März 77.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR237_0_137_009"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11625/62358" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11625/62359"/>
+    <pb n="4" facs="gb:digitalisate#11625/62360" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11625_comment">
+<body>
+<div type="metadata" xml:id="gb11625_comment_com566">
+  <ab type="numberAddressee"><label>237.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 19. März 1777 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11625_comment_com2610">
+  <p>H: Privatbesitz, Deutschland. – Doppelblatt 13,8(–14) × 19,5(–19,7) cm, &#xBE; S. beschr., egh., Tinte; S. 3 Adresse von Philipp Seidels Hd: <quote type="G">an / Mamsell <hi rendition="#hervor1">Fahlmer.</hi></quote>; S. 2 rotes Siegel (Psyche?); Bl. 2 rechter Rand Mitte Siegelausschnitt; S. 1 oben Mitte von fremder Hd, Bleistift: „47“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 119 f., Nr 47.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 144, Nr 578 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11625_comment_com4406">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11625_comment_com11122">
+<label xml:id="GB03_2_BR237_0_note_001_136_18" copyOf="#start_com_2116"><hi rendition="#fett">136,18</hi>alten Wein zu schicken</label>
+<p>Darum hatte Goethe bereits im vorhergehenden Brief an Johanna Fahlmer vom 21. Februar 1777 gebeten (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR222_0_note_004_131_6">131,6</ref>). Dass Goethe das Gewünschte erhielt, geht aus Philipp Seidels Brief an Catharina Elisabeth Goethe vom 14. Januar 1778 hervor: „Der Hr. Geh. Leg. Rath ersucht die Frau Räthin ihme doch aufs Frühiahr wieder einige Bouteillen oder Krüge <hi rendition="#hervor2">ganz</hi> <hi rendition="#hervor1">alten</hi> Wein in seinen Keller zu schaffen. Er hat am Sonntag den alten Ekhof zu Gaste gehabt und mit dem alten Wein regalirt und da hat sich gefunden daß er biß auf einige Schoppen zu Ende ist.“ (<ref target="sndb:sigle#517">Frau Rath</ref>, 102.)</p>
+
+</note>
+<note xml:id="gb11625_comment_com11123">
+<label xml:id="GB03_2_BR237_0_note_002_136_19-137_1" copyOf="#start_com_2117"><hi rendition="#fett">136,19-137,1</hi>Geschenck von ein Paar Ohm</label>
+<p>Ein Ohm entspricht einer Menge von etwa 143,5 Litern, im Großherzogtum Hessen einer Menge von 160 Litern (vgl. Georg Kaspar Chelius: Maß- und Gewichtsbuch. Dritte, von dem Verfasser selbst ganz umgearbeitete und sehr vermehrte Auflage. Nach dessen Tode hrsg. und mit Nachträgen begleitet von Johann Friedrich Hauschild. Frankfurt a. M. 1830, S. 11 und 196).</p>
+
+</note>
+<note xml:id="gb11625_comment_com17902">
+<label xml:id="GB03_2_BR237_0_note_003_137_2" copyOf="#start_com_2118"><hi rendition="#fett">137,2</hi>ein 62 od<g ref="#typoSuspension"/>. 66ger</label>
+<p>Ob Goethe den Wein aus dem Jahr 1762 oder 1766 erhielt, geht aus Briefen und Tagebüchern nicht hervor. Beide Jahrgänge lieferten ungewöhnlichen Wein; über den Jahrgang 1762 heißt es: „Sehr warmer Sommer mit vielen Gewitterregen, viel und vortrefflicher Wein. <gap quantity="3" reason="editorial"/> Ein Fass, das sonst 8 fl. kostete, steigt auf 30 fl. <gap quantity="3" reason="editorial"/> Viele Weinbergsbesitzer <gap quantity="3" reason="editorial"/> verschließen <gap quantity="3" reason="editorial"/> bald die Fässer, als sie bemerken, wie außerordentlich gut der Wein wird.“ (Friedrich von Bassermann-Jordans: Geschichte des Weinbaus. 2. wesentlich erweiterte Aufl. Frankfurt a. M. 1923 [Nachdruck als 3. Aufl. Neustadt a. d. W. 1975]. Bd 2, S. 1005.) Über den Jahrgang 1766: „Winter sehr kalt, März bis Juli warm, August bis Dezember große Trockenheit, bedeutender Wassermangel. Viel und sehr guter Wein, von Anfang hart, später sehr angenehm.“ (Ebd., S. 1006.)</p>
+
+</note>
+<note xml:id="gb11625_comment_com17971">
+<label xml:id="GB03_2_BR237_0_note_004_137_4" copyOf="#start_com_2119"><hi rendition="#fett">137,4</hi>Georg Jakobi war bey uns</label>
+<p>Am 13. März 1777 war Johann Georg Jacobi während einer Gesellschaft bei Wieland mit Goethe zusammengetroffen (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR233_0_note_003_135_10">135,10</ref>). Im Brief an Charlotte von Stein vom Tag darauf hatte dieser sich wenig günstig über den Besuch geäußert (vgl. <ref target="gb:text#GB03_1_BR233_0_135_010 #GB03_1_BR233_0_135_011">135,10–11</ref>). Am 14. März hatte Jacobi Weimar nach einigen Tagen Aufenthalts wieder verlassen.</p>
+
+</note>
+<note xml:id="gb11625_comment_com10914">
+<label xml:id="GB03_2_BR237_0_note_005_137_5" copyOf="#start_com_2120"><hi rendition="#fett">137,5</hi>Wiel.</label>
+<p>Wieland. – Dieser schrieb am 24. März 1777 einen Brief an Johann Georg Jacobi, in dem er auf dessen Weimarer Besuch eingeht. In dem Brief heißt es: „Deine Idee deine <hi rendition="#hervor1">Reise nach Weimar</hi> zu schreiben gefällt mir sehr“ (<ref target="sndb:sigle#141">WB</ref> 5, 601). Vermutlich hatte Jacobi die (nicht ausgeführte) Absicht, einen Reisebericht zu verfassen, als Gegendarstellung zu den wilden Gerüchten über die ‚Weimarer Verhältnisse‘ (vgl. darüber die einleitenden Erläuterungen zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref> und <ref target="gb:note#gb10525_comment_com4230">112</ref>).</p>
+
+</note>
+<note xml:id="gb11625_comment_com10915">
+<label xml:id="GB03_2_BR237_0_note_006_137_7" copyOf="#start_com_2121"><hi rendition="#fett">137,7</hi>dass nun kein Mensch mehr von mir hört</label>
+<p>Ähnliches findet sich im Brief an Johann Caspar Lavater vom 19. Februar 1777 (vgl. <ref target="gb:text#GB03_1_BR220_0_130_008 #GB03_1_BR220_0_130_009">130,8–9</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

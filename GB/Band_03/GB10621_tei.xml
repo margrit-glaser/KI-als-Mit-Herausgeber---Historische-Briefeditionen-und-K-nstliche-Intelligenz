@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="230"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10621" n="GB 3, Nr. 23">
+  <teiHeader xml:id="gb10621_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>23.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 16. Januar 1776. Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10621_tei.xml</idno>
+        <idno type="URI">gb10621</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR023_0</idno>
+        <idno type="KSW-ID">10621</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="21" to="21">21</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="96" to="98">96-98</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10621_header_hwit853" corresp="#gb10621_source_hwit853" sameAs="#gb10621_comment_hwit853" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 10</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10621,,853/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>So gehts denn liebe Frau durch Frost und Schnee und Nacht. Es scheint sich unser Beruf</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-16"><supplied>16. Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10621_source_hwit853" corresp="#gb10621_header_hwit853" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10621/22240"/>
+      <p>
+        <anchor xml:id="GB03_1_BR023_0_021_007"/>So gehts denn liebe Frau durch Frost und Schnee und Nacht. Es 
+<anchor xml:id="GB03_1_BR023_0_021_008"/>scheint sich unser <ref target="gb:note#GB03_2_BR023_0_note_001_21_8" xml:id="start_com_0326"/>Beruf<ref xml:id="end_com_0326"/><ptr n="1" target="#a001_21.8"/> zu Abentheuern mehr zu bekräfftigen. Ein 
+<anchor xml:id="GB03_1_BR023_0_021_009"/>Bisgen ungern bin ich aufgestanden denn <ref target="gb:note#GB03_2_BR023_0_note_002_21_9" xml:id="start_com_0327"/>um 12 erst kam ich zu Bett<ref xml:id="end_com_0327"/>. 
+<anchor xml:id="GB03_1_BR023_0_021_010"/>Es ist mir als wenn mich’s muntrer machte Ihnen zu schreiben, denn 
+<anchor xml:id="GB03_1_BR023_0_021_011"/>gewiss wenn’s nach <ref target="gb:note#GB03_2_BR023_0_note_003_21_11" xml:id="start_com_0328"/>Kochberg<ref xml:id="end_com_0328"/> ginge wär ich muntrer. —— —— Ich hab 
+<anchor xml:id="GB03_1_BR023_0_021_012"/>meine Weinsuppe <ref target="gb:note#GB03_2_BR023_0_note_004_21_12" xml:id="start_com_0329"/>gessen<ref xml:id="end_com_0329"/> —— Liebe Frau ich weis auch Zeiten wo ich 
+<anchor xml:id="GB03_1_BR023_0_021_013"/>früh aufgestanden bin, und aufwachen und aufspringen eins war —— 
+<anchor xml:id="GB03_1_BR023_0_021_014"/>aber <ref target="gb:note#GB03_2_BR023_0_note_005_21_14" xml:id="start_com_0330"/>wenn man in der weiten Welt nichts aufzutreiben weis als Hasen<ref xml:id="end_com_0330"/>. 
+<anchor xml:id="GB03_1_BR023_0_021_015"/>ndash; Ich versäume mein Anziehen – Und wenn ich’s nicht als <ref target="gb:note#GB03_2_BR023_0_note_006_21_15" xml:id="start_com_0331"/>Vorbild<ref xml:id="end_com_0331"/>
+        <anchor xml:id="GB03_1_BR023_0_021_016"/>künftiger Abenteuer ansähe, und <ref target="gb:note#GB03_2_BR023_0_note_007_21_16-17" xml:id="start_com_0332"/>der Mensch nun doch einmal 
+<anchor xml:id="GB03_1_BR023_0_021_017"/>nichts taugt der nicht geschoren wird<ref xml:id="end_com_0332"/> – Es ist fünfe dencken Sie an mich 
+<anchor xml:id="GB03_1_BR023_0_021_018"/>und Ade.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR023_0_021_019"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10621/22241"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10621_comment">
+<body>
+<div type="metadata" xml:id="gb10621_comment_com346">
+  <ab type="numberAddressee"><label>23.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>16. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10621_comment_com1542">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief Ende März 1776 eingeordnet (vor <ref target="gb:dokument#10714">Nr 74</ref>). Die Jahreszahl wird durch das Siegel bestätigt, das sich sonst nur noch auf zwei Briefen Goethes an Herder aus dem Januar 1776 findet (vgl. Überlieferung zu <ref target="gb:note#gb10423_comment_com2527">Nr 12</ref> und <ref target="gb:note#gb10912_comment_com2644">20</ref>). Der Inhalt verweist auf ein etwas früheres Datum als den März: Der vorliegende Brief wurde bei <quote type="G">Frost und Schnee</quote> (<ref target="gb:text#GB03_1_BR023_0_021_007">21,7</ref>), d. h. in der kalten Jahreszeit, am frühen Morgen um <quote type="G">fünfe</quote> (<ref target="gb:text#GB03_1_BR023_0_021_017">21,17</ref>) offenbar kurz vor dem Aufbruch zur Hasenjagd (vgl. zu <ref target="gb:note#GB03_2_BR023_0_note_005_21_14">21,14</ref>) geschrieben. Laut Fourierbuch vom 16. Januar 1776 brach Goethe an diesem Tag „früh um 5. Uhr“ gemeinsam mit Herzog Carl August sowie einer zahlreichen Gesellschaft zur Jagd nach Schwansee auf (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 19). All dies spricht dafür, dass der vorliegende Brief an diesem Tag geschrieben wurde.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10621_comment_com2390">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 10. – 1 Bl. 18,2(–18,4) × 16,5(–16,7) cm, 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Fr. v. Stein</quote>, rotes Siegel: „ALLES UM LIEBE“, unterer Rand Mitte Siegelausriss; Vs. oben rechts von fremder Hd, Tinte: „26.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 26), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 75 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 19, Nr 386.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10621_comment_com4186">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10621_comment_com9214">
+<label xml:id="GB03_2_BR023_0_note_001_21_8" copyOf="#start_com_0326"><hi rendition="#fett">21,8</hi>Beruf</label>
+<p>Hier noch in der älteren Bedeutung: „Neigung, innerlicher Trieb“ (<ref target="sndb:sigle#2753">Adelung</ref> 1, 886).</p>
+
+</note>
+<note xml:id="gb10621_comment_com9215">
+<label xml:id="GB03_2_BR023_0_note_002_21_9" copyOf="#start_com_0327"><hi rendition="#fett">21,9</hi>um 12 erst kam ich zu Bett</label>
+<p>Laut Fourierbuch vom 15. Januar 1776 war am Vorabend der Jagd anstelle der Hoftafel ein abendliches „Picknick in der Stadt“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 18) veranstaltet worden, an dem Goethe sehr wahrscheinlich teilgenommen hatte.</p>
+
+</note>
+<note xml:id="gb10621_comment_com17024">
+<label xml:id="GB03_2_BR023_0_note_003_21_11" copyOf="#start_com_0328"><hi rendition="#fett">21,11</hi>Kochberg</label>
+<p>Goethe war Anfang Dezember 1775 zum ersten Mal auf Schloss Kochberg, eigentlich Großkochberg, dem Landgut der Familie von Stein, zu Gast gewesen. Wahrscheinlich stand sein Besuch im Zusammenhang mit dem Aufenthalt Herzog Carl Augusts am Rudolstädter Hof vom 4. bis 7. Dezember 1775, wohin ihn Moritz von Wedel und Josias von Stein begleitet hatten. Goethe hat ihn offenbar in Kochberg erwartet. Dafür spricht zumindest das Datum einer Gravur auf dem Schreibtisch Charlotte von Steins, der sich noch heute im Schloss Kochberg befindet: <quote type="G">Goethe d. 6. Dcbr. 75</quote> (Klassik Stiftung Weimar, Museen, Inv.-Nr 231877/KMo.) – Das von einem Wassergraben umgebene Renaissance-Schloss, erbaut um 1600, war samt umfangreichen bis Rudolstadt sich erstreckenden Ländereien seit 1733 im Besitz der Familie von Stein. Schloss und Dorf Großkochberg lagen an der Straße von Weimar nach Rudolstadt, etwa 8 km nördlich der Residenz des Fürstentums Schwarzburg-Rudolstadt, gehörten aber (bis 1826) als Exklave zum Herzogtum Sachsen-Gotha und Altenburg.</p>
+
+</note>
+<note xml:id="gb10621_comment_com9216">
+<label xml:id="GB03_2_BR023_0_note_004_21_12" copyOf="#start_com_0329"><hi rendition="#fett">21,12</hi>gessen</label>
+<p>Oberdt. Form des Partizips Perfekt (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 1973); bei Goethe nur bis etwa 1780 vor allem in den Briefen und Tagebüchern belegt; vgl. auch „Faust I“, Kerker-Szene, Vers 4415.</p>
+
+</note>
+<note xml:id="gb10621_comment_com17351">
+<label xml:id="GB03_2_BR023_0_note_005_21_14" copyOf="#start_com_0330"><hi rendition="#fett">21,14</hi>wenn man <gap quantity="3" reason="editorial"/> nichts aufzutreiben weis als Hasen</label>
+<p>Anspielung auf die bevorstehende Jagd, in der winterlichen Jahreszeit die Enten- und Hasenjagd. Laut Fourierbuch fand sie in Schwansee, einem Ort etwa 25 km nordöstlich von Weimar, statt und dauerte bis zum 18. Januar (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 19). In Schwansee-Kleinruderstadt befand sich in der Nähe eines Teiches ein Wasser- und Jagdschloss. – Goethe konnte sich der Teilnahme an diesen fürstlichen Vergnügungen nur schwer entziehen (vgl. zu <ref target="gb:note#GB03_2_BR036_0_note_001_27_12">27,12</ref>). Das Fourierbuch vermerkt außer dem Herzog und Goethe 18 weitere Personen, die zur Jagdgesellschaft gehörten, darunter Carl Ludwig von Knebel, Friedrich Justin Bertuch und der Erfurter Statthalter Carl Theodor von Dalberg.</p>
+
+</note>
+<note xml:id="gb10621_comment_com9231">
+<label xml:id="GB03_2_BR023_0_note_006_21_15" copyOf="#start_com_0331"><hi rendition="#fett">21,15</hi>Vorbild</label>
+<p>Hier in zeitlicher Bedeutung in dem Sinne, „dasz ein vorausgehendes auf ein nachfolgendes hinweist, hindeutet“ (<ref target="sndb:sigle#2890">Grimm</ref> 12 II, 911).</p>
+
+</note>
+<note xml:id="gb10621_comment_com9232">
+<label xml:id="GB03_2_BR023_0_note_007_21_16-17" copyOf="#start_com_0332"><hi rendition="#fett">21,16-17</hi>der Mensch <gap quantity="3" reason="editorial"/> der nicht geschoren wird</label>
+<p>‚Scheren‘ hier im übertragenen Sinn: „plagen, belästigen, quälen, placken, <gap quantity="3" reason="editorial"/> verdrusz machen“ (<ref target="sndb:sigle#2890">Grimm</ref> 8, 2575). – In Anlehnung an eine auf Menander zurückgehende Sentenz: Der nicht geschundene Mensch wird nicht erzogen. Den Vers notierte Goethe am 30. April 1809 in griechischer Sprache ohne Angabe des Autors im Tagebuch (vgl. <ref target="gt:dokument#4993">GT IV 1, 32</ref>) und verwandte ihn später als Motto zum ersten Teil von „Dichtung und Wahrheit“ (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 7). Er stammt aus einer fragmentarisch erhaltenen Komödie Menanders (vgl. August Meineke: Fragmenta comicorum Graecorum. Bd 4: Fragmenta Poetarum Comoediae Novae. Berlin 1841, Menandri Monosticha, Nr 422, S. 352).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

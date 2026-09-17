@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3350"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11675" n="GB 3, Nr. 326">
+  <teiHeader xml:id="gb11675_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>326.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zwischen Oktober/ November 1777 und Ende Januar 1778?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:09Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11675_tei.xml</idno>
+        <idno type="URI">gb11675</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR326_0</idno>
+        <idno type="KSW-ID">11675</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="194" to="195">194-195</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="654" to="660">654-660</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11675_header_hwit1325" corresp="#gb11675_source_hwit1325" sameAs="#gb11675_comment_hwit1325" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 86</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11675,,1325/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Füllest wieder 's liebe Thal</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1777-10-01" to="1778-01-31"><supplied>zwischen Oktober/ November 1777 und Ende Januar 1778?</supplied></date>
+            <note>
+              <date type="WA" from="1778-01-01" to="1778-12-31"><supplied>Erste Märzhälfte 1778?</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11675_source_hwit1325" corresp="#gb11675_header_hwit1325" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11675/22806" type="empty"/>
+    <pb n="2" facs="gb:digitalisate#11675/22807"/>
+      <p rendition="#c"><note type="editor"><supplied>Vgl. Faksimile</supplied></note></p>
+      <space quantity="1" unit="lines"/>
+      <lg>
+        <anchor xml:id="GB03_1_BR326_0_194_013"/>
+        <l rendition="#einrueck4">
+          <ref target="gb:note#GB03_2_BR326_0_note_001_194_13-14" xml:id="start_com_2963"/>Füllest wieder ’s liebe Thal, still mit Nebel Glanz</l>
+        <anchor xml:id="GB03_1_BR326_0_194_014"/>
+        <l rendition="#einrueck4">Lösest endlich auch einmal meine Seele ganz<ref xml:id="end_com_2963"/> <pb n="3" facs="gb:digitalisate#11675/22808"/></l>
+      </lg>
+      <space quantity="2" unit="lines"/>
+      <lg type="poem">
+      
+        <anchor xml:id="GB03_1_BR326_0_194_015"/><head rendition="#einrueck9">
+        <ref target="gb:note#GB03_2_BR326_0_note_002_194_15" xml:id="start_com_2964"/>An den Mond<ref xml:id="end_com_2964"/>
+      </head>
+      <space quantity="1" unit="lines"/>
+      <lg n="1">
+        <anchor xml:id="GB03_1_BR326_0_194_016"/>
+        <l rendition="#einrueck7">Füllest wieder <ref target="gb:note#GB03_2_BR326_0_note_003_194_16" xml:id="start_com_2965"/>’s liebe Thal<ref xml:id="end_com_2965"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_194_017"/>
+        <l rendition="#einrueck7">Still mit Nebelglanz</l>
+        <anchor xml:id="GB03_1_BR326_0_194_018"/>
+        <l rendition="#einrueck7">Lösest endlich auch einmal</l>
+        <anchor xml:id="GB03_1_BR326_0_194_019"/>
+        <l rendition="#einrueck7">Meine Seele ganz</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="2"><anchor xml:id="GB03_1_BR326_0_195_001"/>
+        <l rendition="#einrueck7">Breitest über mein <ref target="gb:note#GB03_2_BR326_0_note_004_195_1" xml:id="start_com_2966"/>Gefild<ref xml:id="end_com_2966"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_195_002"/>
+        <l rendition="#einrueck7">Lindernd deinen Blick</l>
+        <anchor xml:id="GB03_1_BR326_0_195_003"/>
+        <l rendition="#einrueck7">Wie <ref target="gb:note#GB03_2_BR326_0_note_005_195_3" xml:id="start_com_2967"/>der Liebsten Auge<ptr n="1" target="#a001_195.3"/>
+          <ref xml:id="end_com_2967"/>, mild</l>
+        <anchor xml:id="GB03_1_BR326_0_195_004"/>
+        <l rendition="#einrueck7">Uber mein Geschick.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3">
+        <anchor xml:id="GB03_1_BR326_0_195_005"/>
+        <l rendition="#einrueck7">
+          <ref target="gb:note#GB03_2_BR326_0_note_006_195_5-6" xml:id="start_com_2968"/>Das du so beweglich kennst</l>
+        <anchor xml:id="GB03_1_BR326_0_195_006"/>
+        <l rendition="#einrueck7">Dieses Herz im Brand<ref xml:id="end_com_2968"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_195_007"/>
+        <l rendition="#einrueck7">Haltet ihr <ref target="gb:note#GB03_2_BR326_0_note_007_195_7" xml:id="start_com_2969"/>wie ein Gespenst<ref xml:id="end_com_2969"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_195_008"/>
+        <l rendition="#einrueck7">An den Fluss gebannt</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="4"><anchor xml:id="GB03_1_BR326_0_195_009"/>
+        <l rendition="#einrueck7">Wenn in öder Winternacht</l>
+        <anchor xml:id="GB03_1_BR326_0_195_010"/>
+        <l rendition="#einrueck7">
+          <ref target="gb:note#GB03_2_BR326_0_note_008_195_10" xml:id="start_com_2970"/>Er von<ptr n="2" target="#a002_195.10"/> Todte schwillt<ref xml:id="end_com_2970"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_195_011"/>
+        <l rendition="#einrueck7">Und bey <ref target="gb:note#GB03_2_BR326_0_note_009_195_11" xml:id="start_com_2971"/>Frühlingslebens<unclear reason="illegible">P</unclear>racht<ref xml:id="end_com_2971"/>
+        </l>
+        <anchor xml:id="GB03_1_BR326_0_195_012"/>
+        <l rendition="#einrueck7">An den Knospen quillt.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="5"><anchor xml:id="GB03_1_BR326_0_195_013"/>
+        <l rendition="#einrueck7">Seelig wer sich vor der Welt</l>
+        <anchor xml:id="GB03_1_BR326_0_195_014"/>
+        <l rendition="#einrueck7">Ohne Hass verschliesst</l>
+        <anchor xml:id="GB03_1_BR326_0_195_015"/>
+        <l rendition="#einrueck7">Einen Mann am Busen hält</l>
+        <anchor xml:id="GB03_1_BR326_0_195_016"/>
+        <l rendition="#einrueck7">Und mit dem geniest,<ptr n="3" target="#a003_195.16"/>
+        </l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="6">
+        <anchor xml:id="GB03_1_BR326_0_195_017"/>
+        <l rendition="#einrueck7">Was den Menschen unbewust</l>
+        <anchor xml:id="GB03_1_BR326_0_195_018"/>
+        <l rendition="#einrueck7">Oder wohl veracht</l>
+        <anchor xml:id="GB03_1_BR326_0_195_019"/>
+        <l rendition="#einrueck7">Durch das Labyrinth der Brust</l>
+        <anchor xml:id="GB03_1_BR326_0_195_020"/>
+        <l rendition="#einrueck7">Wandelt in der Nacht.</l>
+      </lg></lg>
+    <pb n="4" facs="gb:digitalisate#11675/22809" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11675_comment">
+<body>
+<div type="metadata" xml:id="gb11675_comment_com513">
+  <ab type="numberAddressee"><label>326.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zwischen Oktober/ November 1777 und Ende Januar 1778?</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11675_comment_com1647">
+  <p>Die vorliegende Reinschrift des Gedichts „An den Mond“ mit den Noten zum Text der ersten Strophe wurde im Konvolut der Briefe an Charlotte von Stein (Bd I) nach dem Brief vom 17. Juni 1778 (<ref target="gb:dokument#11861">Nr 374</ref>) eingeordnet.</p>
+  <p rendition="#einrueck1">Seit Schöll wird das Gedicht aufgrund einer Bemerkung Friedrich von Steins in Bezug zum Tod Christiane von Laßbergs gebracht, die am 16. Januar 1778 in der Ilm ertrunken war (vgl. zu <ref target="gb:note#GB03_2_BR326_0_note_008_195_10">195,10</ref>). Im Erstdruck erscheinen Gedicht und Noten daher unmittelbar nach dem Brief vom 19. Januar 1778 (<ref target="gb:dokument#11817">Nr 324</ref>). Als Komponist der Melodie wurde Sigmund von Seckendorff vermutet (vgl. Schöll, Goethe-Stein 1, 156, Anm. 3). Die WA, die den Text ohne Noten nur in ihre erste Abteilung als Gedicht aufgenommen hat, folgt offenbar Schölls Datierung, auch wenn als Datum des Briefes, zu dem das Gedicht eine Beilage gewesen sei, der 19. Februar 1778 angegeben wird (vgl. <ref target="sndb:sigle#1157">WA</ref> I 1, 393; vom 19. Februar 1778 ist kein Brief Goethes an die Adressatin überliefert). Bis zu Petersen setzen alle nachfolgenden Herausgeber Gedicht und Noten ohne überzeugende Begründung ins Frühjahr 1778, Fielitz und Wahle in den Mai, Fränkel in den März (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 124 f., Nr 237; <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 118 f., Nr 239; <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 103–105, Nr 223). In der zweiten Auflage seiner Ausgabe behält Fränkel zwar die Einordnung der Handschrift bei (vgl. <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 1, 103, Nr 223), räumt aber ein, das Gedicht könne schon im Sommer 1777 entstanden sein (vgl. <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 3, 42, zu Nr 223). In diesem Punkt folgt er Petersen (vgl. zu <ref target="gb:note#GB03_2_BR280_0_note_001_155_10">155,10</ref>), der als erster zwischen der Entstehung des Gedichts und der vorliegenden Reinschrift mit Noten für Charlotte von Stein unterscheidet. Petersen stellt diese in den Kontext des Liederbuches, für das der Weimarer Hofmusiker Johann Michael Wiener in Goethes Auftrag etwa seit Ende Oktober 1777 handschriftliche und gedruckte Vorlagen kopierte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>). Am 11. November 1777 erbat sich Goethe von der Freundin Handschriften und eine gedruckte Sammlung mit Kompositionen Philipp Christoph Kaysers, die allem Anschein nach zum Kopieren an Wiener weitergegeben werden sollten (vgl. die zweite und dritte Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_006_175_14">175,14</ref>; zu <ref target="gb:note#GB03_2_BR303_0_note_008_175_14-15">175,14-15</ref>). Das Gedicht „An den Mond“ und die Komposition dazu waren nicht darunter. Doch im selben Brief vom 11. November kündigte Goethe an: <quote type="G">Ich bring auch wieder ein lieblich Lied von ihm</quote> <supplied>Kayser</supplied> <quote type="G">mit.</quote> (<ref target="gb:text#GB03_1_BR303_0_175_015 #GB03_1_BR303_0_175_016">175,15–16</ref>.) Nach Petersen könnte damit die vorliegende Gedichtreinschrift mit der nachweislich von Kayser (s. unten) und nicht von Seckendorff stammenden Melodie gemeint sein, die daher unmittelbar nach Brief <ref target="gb:dokument#11790">Nr 303</ref> vom 11. November 1777 eingeordnet wird (vgl. <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 90 f., Nr 198; 576–578). In seiner Begründung geht Petersen von der Annahme aus, dass Goethe sein „Mond“-Gedicht im August 1777 an Kayser geschickt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR281_0_note_008_159_16">159,16</ref>) und einige Zeit danach, spätestens Anfang November, von diesem die Vertonung erhalten habe.</p>
+  <p rendition="#einrueck1">Petersens Argumentation berücksichtigt allerdings nicht, dass Kayser die Melodie ursprünglich für ein Gedicht von Heinrich Leopold Wagner geschrieben hat. Es trägt ebenfalls den Titel „An den Mond“ und besteht aus sechs jeweils vierzeiligen Strophen mit je zwei vier- und je zwei dreihebigen Versen im Kreuzreim (Chevy-Chase-Strophe, vgl. zu <ref target="gb:note#GB03_2_BR326_0_note_001_194_13-14">194,13-14</ref>). Die Übereinstimmung von Titel, Vers- und Strophenform sowie Anzahl der Strophen, auf die zuerst Josef Körner hingewiesen hat, können kein Zufall sein (vgl. <ref target="sndb:sigle#732/788">Körner, Mondlied</ref>, 9–11). Vielmehr ist anzunehmen, dass Wagners „An den Mond“ und Kaysers Melodie Goethe zu seinem eigenen Gedicht anregten. Kaysers Vertonung des Wagnerschen Textes kannte Goethe wahrscheinlich schon seit Ende August 1776 (vgl. zu <ref target="gb:note#GB03_2_BR158_0_note_002_98_7">98,7</ref>), spätestens aber seit Anfang 1777 (vgl. zu <ref target="gb:note#GB03_2_BR251_0_note_003_141_18">141,18</ref>). – Goethes „An den Mond“ mit der Melodie Kaysers wurde an 68. Stelle in das von Wiener geschriebene Buch aufgenommen, das insgesamt 85 Lieder enthält. Es gehört somit zu dem Teil, dessen Vorlagen der Kopist wahrscheinlich bis etwa Anfang Februar 1778 abschrieb. Spätestens zu dieser Zeit muss Goethes Text vorgelegen haben. Sowohl das Gedicht wie auch die vorliegende Reinschrift mit den Noten für Charlotte von Stein können daher zwar schon seit Ende August 1776 entstanden sein. Da es Goethe aber erst in der letzten Tranche der Vorlagen zum Kopieren an Wiener gab, ist anzunehmen, dass die vorliegende Reinschrift aus dem Zeitraum von Oktober/November 1777 bis Ende Januar 1778 stammt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11675_comment_com2557">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 86. – Doppelblatt 18,5(–18,8) × 28(–28,3) cm, Büttenrand, 1 &#xBD; S. (S. 2 Noten zum Text der 1. Strophe [vgl. zu <ref target="gb:note#GB03_2_BR326_0_note_001_194_13-14">194,13-14</ref>], S. 3 Gedicht) beschr., egh., Tinte, Noten einschließlich der 1. Strophe sowie 1./2. Strophe mit spitzerer Feder in einem Zug geschrieben, 3.–6. Strophe in leicht verändertem Duktus und stärkerer Tinte geschrieben; oben rechts von fremder Hd, Tinte: „28.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 29), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>. – Faksimile der 2. und 3. Seite: <ref target="gb:digitalisate#11675/22807">Abb. 13</ref>–<ref target="gb:digitalisate#11675/22808">14</ref> im Textband (S. 192 f.).</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 155–157.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 1 (1887), 393 (Gedicht).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11675_comment_com4353">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p>Da die vorliegende eigenhändige Reinschrift unter den Briefen Goethes an Charlotte von Stein überliefert ist, werden Text und Melodie in der Briefausgabe mitgeteilt. Die Reinschrift mit den Noten für Charlotte von Stein gibt das Gedicht in der frühesten bekannten Fassung wieder, die zu Lebzeiten Goethes nicht veröffentlicht worden ist. Unter demselben Titel, doch stark überarbeitet und um drei Strophen erweitert, erschien es zuerst 1789 in Band 8 der Göschen-Ausgabe von „Goethe’s Schriften“ (S. 153 f.; vgl. <ref target="sndb:sigle#1157">WA</ref> I 1, 100 f.). Von der vorliegenden frühen Fassung haben sich verschiedene Abschriften erhalten, darunter eine Abschrift im Goethe-Museum Düsseldorf von der Hand Charlotte von Steins. Wann diese entstanden ist, lässt sich nicht klären. Auf der Rückseite des Blattes ist ein Gedicht Charlotte von Steins überliefert, dessen resigniert verbitterter Ton auf eine Entstehung nach dem Bruch mit Goethe 1789 verweist. Formal lehnt es sich stark an Goethes „Mond“-Gedicht an und übernimmt dessen Strophenform (Chevy-Chase). Der Überschrift nach könnte es an die Herzogin Louise gerichtet sein:</p>
+  <floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56450_source" corresp="#gb56450_comment">
+  <body>
+    <div>
+      <lg>
+        <l rendition="#einrueck10">
+          <hi rendition="#hervor1">An Louise</hi>
+        </l>
+        <l rendition="#einrueck6">Wenn mich Lebens Eckel greift,</l>
+        <l rendition="#einrueck6">denck ich nur an dich</l>
+        <l rendition="#einrueck6">und so gleich noch einmal reift</l>
+        <l rendition="#einrueck6">eine Frucht vor mich.</l>
+        <lb/>
+        <l rendition="#einrueck6"/>
+        <l rendition="#einrueck6">Wenn der Jugend Freude flieht</l>
+        <l rendition="#einrueck6">und des Lebens Schertz</l>
+        <l rendition="#einrueck6">und mir alles sinckt, verblüht,</l>
+        <l rendition="#einrueck6">halt mir nur dein Hertz.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56450_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56450_comment_com84676">
+  <p>(H: <ref target="sndb:sigle#1267">GMD</ref>, Sign.: K. K. 127.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Unter dem Titel „An den Mond nach meiner Manier“ hat Charlotte von Stein außerdem eine eigene Version des Goetheschen Gedichts geschrieben, deren Datierung ebenfalls ungeklärt ist. Nach Petersen soll die Freundin sie Anfang 1787 an Goethe nach Italien gesandt haben, der sie seiner späteren Fassung des „Mond“-Gedichts zugrunde gelegt hätte (vgl. <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 578–580; <ref target="gb:note#GB07_2_BR056_0_note_053_94_6">GB 7 II, zu 94,6</ref>). Wie inzwischen überzeugend dargestellt wurde, muss Charlotte von Stein die spätere Fassung von Goethes Gedicht, die wohl zwischen 1784 und August 1786 entstanden ist, schon gekannt haben, als sie ihre eigene Version schrieb (vgl. <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 1, 181).</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56451_source" corresp="#gb56451_comment">
+  <body>
+    <div>
+        <lg type="poem">
+          <head rendition="#einrueck9">
+            <lb/><hi rendition="#hervor1">An den Mond</hi>
+            <lb/><hi rendition="#einrueck8">nach meiner Manier</hi>
+          </head>
+          <space unit="lines" quantity="1"/>
+          <lg n="1">
+            <l rendition="#einrueck6">Füllest wieder Busch und Thal</l>
+            <l rendition="#einrueck6">Still mit Nebelglanz,</l>
+            <l rendition="#einrueck6">Lösest endlich auch einmal</l>
+            <l rendition="#einrueck6">meine Seele ganz.</l>
+          </lg>
+          <lg n="2">
+            <l rendition="#einrueck6">Breitest über mein Gefild</l>
+            <l rendition="#einrueck6">Lindernd deinen Blick,</l>
+            <l rendition="#einrueck6">Da des Freundes Auge mild</l>
+            <l rendition="#einrueck6">Nie mehr kehrt zurück.</l>
+          </lg>
+          <lg n="3">
+            <l rendition="#einrueck6">Lösch&#8217; das Bild aus meinem Herz</l>
+            <l rendition="#einrueck6">Vom geschiednen Freund,</l>
+            <l rendition="#einrueck6">Dem unausgesprochner Schmerz</l>
+            <l rendition="#einrueck6">Stille Thräne weint.</l>
+          </lg>
+          <lg n="4">
+            <l rendition="#einrueck6">Mischet euch in diesen Fluß!</l>
+            <l rendition="#einrueck6">Nimmer werdʼ ich froh.</l>
+            <l rendition="#einrueck6">So verrauschte Scherz und Kuß,</l>
+            <l rendition="#einrueck6">Und die Treue so.</l>
+          </lg>
+          <lg n="5">
+            <l rendition="#einrueck6">Jeden Nachklang in der Brust</l>
+            <l rendition="#einrueck6">Froh- und trüber Zeit,</l>
+            <l rendition="#einrueck6">Wandle ich nun unbewußt</l>
+            <l rendition="#einrueck6">In der Einsamkeit.</l>
+          </lg>
+          <lg n="6">
+            <l rendition="#einrueck6">Selig, wer sich vor der Welt</l>
+            <l rendition="#einrueck6">Ohne Haß verschließt,</l>
+            <l rendition="#einrueck6">Seine Seele rein erhält,</l>
+            <l rendition="#einrueck6">Ahndungsvoll genießt,</l>
+          </lg>
+          <lg n="7">
+            <l rendition="#einrueck6">Was, den Menschen unbekannt</l>
+            <l rendition="#einrueck6">Oder wohl veracht,</l>
+            <l rendition="#einrueck6">In dem himmlischen Gewand</l>
+            <l rendition="#einrueck6">Glänzet bei der Nacht.</l>
+          </lg>
+        </lg>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56451_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56451_comment_com84677">
+  <p>(Handschrift unbekannt; zitiert nach: <ref target="sndb:sigle#1227">Düntzer, Charlotte von Stein</ref> 1, 267 f.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11675_comment_com10988">
+<label xml:id="GB03_2_BR326_0_note_001_194_13-14" copyOf="#start_com_2963"><hi rendition="#fett">194,13-14</hi> Füllest wieder <gap quantity="3" reason="editorial"/> ganz</label>
+<p>Die Melodie von Kayser wurde in der Sammlung „Gesänge, mit Begleitung des Claviers“ gedruckt, und zwar zu einem Text von Heinrich Leopold Wagner:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck10">An den Mond</l>
+    <space unit="lines" quantity="1"/>
+    <l rendition="#einrueck8">Unbewölktes Silberlicht,</l>
+    <l rendition="#einrueck8">Heiligkeuscher Mond!</l>
+    <l rendition="#einrueck8">Leuchte keinem Bösewicht,</l>
+    <l rendition="#einrueck8">In dem Falschheit thront.</l>
+    <space unit="lines" quantity="1"/>
+    <l rendition="#einrueck8"><gap quantity="3" reason="editorial"/></l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+(Zitiert nach: Gesänge, mit Begleitung des Claviers. Leipzig und Winterthur 1777, S. 18.) – Die „Gesänge“ erschienen ohne Nennung des Komponisten und mit der Jahresangabe 1777 bei Heinrich Steiner &amp; Compagnie in Winterthur und Leipzig. Sie enthalten insgesamt 19 Lieder zu Gedichten von Goethe, Miller, Klinger, Wagner und Kayser selbst. Dass Goethe diesen Druck im Herbst 1777 schon kannte, als er bei Wiener die Abschriften für sein Liederbuch in Auftrag gab, erscheint zweifelhaft (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>). Bis auf die erste Komposition zu einer Arie aus Goethes „Erwin und Elmire“ („Ein Schauspiel für Götter, zween Liebende <gap quantity="3" reason="editorial"/>“) und den Text des Wagnerschen Mondliedes finden sich zwar alle übrigen Lieder auch in der für Goethe geschriebenen Sammlung, doch in gänzlich veränderter Reihenfolge mit z. T. abweichenden Titeln. Sie wurden folglich nicht nach dem Druck in den „Gesängen“ kopiert, sondern nach einzelnen wahrscheinlich handschriftlichen Vorlagen. Denn in auffallendem Unterschied dazu wurden die aus Kaysers gedruckter Sammlung „Vermischte Lieder mit Melodien“ von 1775 stammenden Lieder, die sich Goethe von Charlotte von Stein erbat, vom Kopisten Wiener als zusammenhängender Teil und in identischer Reihenfolge aufgenommen (vgl. zu <ref target="gb:note#GB03_2_BR303_0_note_008_175_14-15">175,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11675_comment_com17881">
+<label xml:id="GB03_2_BR326_0_note_002_194_15" copyOf="#start_com_2964"><hi rendition="#fett">194,15</hi>An den Mond</label>
+<p>Goethes erstes Gedicht mit diesem Titel („Schwester von dem ersten Licht <gap quantity="3" reason="editorial"/>“) erschien 1769 (vordatiert auf 1770) in den „Neuen Liedern in Melodien“, die im Titel allerdings nur den Namen des Komponisten Bernhard Theodor Breitkopf tragen. – Die Anregung zum vorliegenden Gedicht dieses Titels ging aber offenbar von der Komposition Kaysers zu Wagners „Mond“-Gedicht aus.</p>
+
+</note>
+<note xml:id="gb11675_comment_com10989">
+<label xml:id="GB03_2_BR326_0_note_003_194_16" copyOf="#start_com_2965"><hi rendition="#fett">194,16</hi>’s liebe Thal</label>
+<p>Als ‚mein Tal‘ oder ‚mein liebliches Tal‘ bezeichnet Goethe in seinen Briefen das Ilmtal, an dessen Hängen sein Gartengrundstück lag (vgl. <ref target="gb:text#GB03_1_BR365_0_211_009 #GB03_1_BR365_0_211_010">211,9–10</ref>; <ref target="gb:text#GB03_1_BR538_0_318_017">318,17</ref>).</p>
+
+</note>
+<note xml:id="gb11675_comment_com10990">
+<label xml:id="GB03_2_BR326_0_note_004_195_1" copyOf="#start_com_2966"><hi rendition="#fett">195,1</hi>Gefild</label>
+<p>Gefilde: hier übertragen für ‚innere Zustände‘, ‚inneres Leben‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1226); begegnet in dieser Bedeutung auch im Brief an Charlotte von Stein vom 21. Mai 1777 (vgl. <ref target="gb:text#GB03_1_BR264_0_146_016 #GB03_1_BR264_0_146_017">146,16–17</ref>).</p>
+
+</note>
+<note xml:id="gb11675_comment_com10991">
+<label xml:id="GB03_2_BR326_0_note_005_195_3" copyOf="#start_com_2967"><hi rendition="#fett">195,3</hi>der Liebsten Auge</label>
+<p>In der späteren Fassung verändert zu <quote type="G">des Freundes Auge</quote> (<ref target="sndb:sigle#1157">WA</ref> I 1, 100).</p>
+
+</note>
+<note xml:id="gb11675_comment_com17882">
+<label xml:id="GB03_2_BR326_0_note_006_195_5-6" copyOf="#start_com_2968"><hi rendition="#fett">195,5-6</hi>Das du so beweglich kennst / Dieses Herz im Brand</label>
+<p>Wie der im Titel apostrophierte Mond, der ab- und zunehmend sich gleichfalls ständig verändert. – Damit scheint der Vorwurf der Unbeständigkeit des Herzens zu korrespondieren, den Charlotte von Stein Goethe vor allem in der Anfangszeit ihrer Bekanntschaft machte (vgl. zu <ref target="gb:note#GB03_2_BR267_0_note_005_147_17-18">147,17-18</ref>).</p>
+
+</note>
+<note xml:id="gb11675_comment_com10992">
+<label xml:id="GB03_2_BR326_0_note_007_195_7" copyOf="#start_com_2969"><hi rendition="#fett">195,7</hi>wie ein Gespenst</label>
+<p>Hier möglicherweise „in Aufnahme des Volksaberglaubens, daß Gespenster magisch an einen festen Ort gebunden sind“ (<ref target="sndb:sigle#397">GWb</ref> 4, 107).</p>
+
+</note>
+<note xml:id="gb11675_comment_com17785">
+<label xml:id="GB03_2_BR326_0_note_008_195_10" copyOf="#start_com_2970"><hi rendition="#fett">195,10</hi>Er von Todte schwillt</label>
+<p>Auf die vierte Strophe und insbesondere deren zweiten Vers wird seit dem Erstdruck die von Schöll mitgeteilte Anmerkung Friedrich von Steins bezogen, die lange Zeit als Grundlage der Datierung galt: „In der gedruckten Umarbeitung dieses Gedichts ist die lokale Beziehung auf die unglücklich liebende Christel verlöscht.     v. St.“ (<ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 [1848], 156, Anm. 2.) – Wie wenig diese Erläuterung geeignet ist, zum Verständnis des Textes beizutragen, der durch den damit hergestellten irrtümlichen biographischen Bezug geradezu „Sinn und Folgerichtigkeit“ verliert, hat Josef Körner überzeugend nachgewiesen (<ref target="sndb:sigle#732/788">Körner, Mondlied</ref>, 7).</p>
+
+</note>
+<note xml:id="gb11675_comment_com11005">
+<label xml:id="GB03_2_BR326_0_note_009_195_11" copyOf="#start_com_2971"><hi rendition="#fett">195,11</hi>Frühlingslebens<unclear reason="illegible">P</unclear>racht</label>
+<p>Hapaxlegomenon Goethes. – Der graphische Befund spricht für diese Lesung, wobei nicht mit letzter Sicherheit ausgeschlossen werden kann, dass anstelle des verschliffenen großen ‚P‘ in ‚Pracht‘ ein kleines ‚f‘ geschrieben wurde; zu lesen wäre dann also ‚Frühlingslebensfracht‘ (‚Fracht‘ möglicherweise im Sinne von ‚Fülle‘ [vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 260]). In der späteren Fassung änderte Goethe die Stelle zu <quote type="G">Frühlingspracht</quote>, wobei hier in der eigenhändigen Reinschrift zweifelsfrei ein kleines ‚p‘ steht  (H: <ref target="archivdb:dokument#349268">GSA 25/W 1</ref>, 52; <ref target="sndb:sigle#1157">WA</ref> I, 101).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

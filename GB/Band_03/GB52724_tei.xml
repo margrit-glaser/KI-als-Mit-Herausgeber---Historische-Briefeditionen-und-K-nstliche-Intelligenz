@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4570"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb52724" n="GB 3, Nr. 448">
+  <teiHeader xml:id="gb52724_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>448.</label> An <persName key="sndb:person#45684">Johanna Marianne Henriette Woellwarth</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 1. Januar 1779. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:22:18Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb52724_tei.xml</idno>
+        <idno type="URI">gb52724</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR448_0</idno>
+        <idno type="KSW-ID">52724</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="253" to="253">253</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="837" to="838">837-838</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb52724_header_hwit52896" corresp="#gb52724_source_hwit52896" sameAs="#gb52724_comment_hwit52896" type="draft">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 342 S. 4</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349648</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/52724,,52896/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Hofnung macht wachsen Besonders in Sachsen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#41490">Seckendorff, Carl Friedrich Sigmund von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-01-01"><supplied>1. Januar 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45684">Woellwarth, Johanna Marianne Henriette</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb52724_source_hwit52896" corresp="#gb52724_header_hwit52896" type="source" rend="draft">
+  <body>
+    <div>
+      <head><supplied>Konzept</supplied></head>
+      <pb n="1" facs="gb:digitalisate#52724/12443"/>
+      <lg type="poem">
+              <anchor xml:id="GB03_1_BR448_0_253_001"/><head rendition="#einrueck7">Fräu<g ref="#typoSuspension"/> v. Wöllwarth</head>
+      <space quantity="1" unit="lines"/>
+              <anchor xml:id="GB03_1_BR448_0_253_002"/>
+        <l rendition="#einrueck6">Hofnung macht wachsen</l>
+        <anchor xml:id="GB03_1_BR448_0_253_003"/>
+        <l rendition="#einrueck6">Besonders in Sachsen</l>
+        <anchor xml:id="GB03_1_BR448_0_253_004"/>
+        <l rendition="#einrueck6">Du wärst <ref target="gb:note#GB03_2_BR448_0_note_001_253_4" xml:id="start_com_3698"/>in Schwaben<ref xml:id="end_com_3698"/>
+        </l>
+        <anchor xml:id="GB03_1_BR448_0_253_005"/>
+        <l rendition="#einrueck6">Langst schon begraben</l>
+        <anchor xml:id="GB03_1_BR448_0_253_006"/>
+        <l rendition="#einrueck6">Hier giebts noch Herzen</l>
+        <anchor xml:id="GB03_1_BR448_0_253_007"/>
+        <l rendition="#einrueck6">Brennend wie Kerzen</l>
+        <anchor xml:id="GB03_1_BR448_0_253_008"/>
+        <l rendition="#einrueck6">Wenn sie verloschen sind</l>
+        <anchor xml:id="GB03_1_BR448_0_253_009"/>
+        <l rendition="#einrueck6">Flugs mit ein wenig Wind<ptr n="1" target="#a001_253.9"/>
+        </l>
+        <anchor xml:id="GB03_1_BR448_0_253_010"/>
+        <l rendition="#einrueck6">Bläst du zusammen</l>
+        <anchor xml:id="GB03_1_BR448_0_253_011"/>
+        <l rendition="#einrueck6">Feuer und Flammen.</l>
+        <anchor xml:id="GB03_1_BR448_0_253_012"/>
+        <l rendition="#einrueck6">Wohl dir wenns gut gerath</l>
+        <anchor xml:id="GB03_1_BR448_0_253_013"/>
+        <l rendition="#einrueck6">Erhörter Wunsch kommt nie zu spät.</l>
+      </lg>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb52724_comment">
+<body>
+<div type="metadata" xml:id="gb52724_comment_com1358">
+  <ab type="numberAddressee"><label>448.</label> An <persName key="sndb:person#45684">Johanna Marianne Henriette Woellwarth</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>1. Januar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb52724_comment_com2003">
+  <p>Vgl. zu <ref target="gb:note#GB03_2_BR428_0_note_001_244_6-7">244,6-7</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb52724_comment_com3402">
+  <p>H: Verbleib unbekannt.</p>
+  <p>K: GSA Weimar, Sign.: <ref target="archivdb:dokument#349648">GSA 25/W 342</ref>. – Auf einem Doppelblatt, S. 4 (vgl. weiter Überlieferung zu <ref target="gb:note#gb52743_comment_com3068">Nr 429</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1266/762">Burkhardt, Neujahrs-Possen, 1904</ref>, 61.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref>: Nicht gedruckt.</p>
+  <p>Textgrundlage: K.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb52724_comment_com5198">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Zum Anlass des Gedichtbriefs vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52743_comment_com4864">Nr 429</ref>. – Johanna Marianne Henriette von Woellwarth-Essingen (1750–1815), Tochter des württembergischen Generals Friedrich Carl von Woellwarth und der Wilhelmine Dorothea geb. von Schlitz, war 1775 als Hofdame der Herzogin Louise nach Weimar gekommen. Vermutlich hatte ihr Onkel Johann Eustach Graf von Schlitz gen. von Goertz, bis 1775 Prinzenerzieher am Weimarer Hof, ihr diese Stellung vermittelt. 1782 heiratete Marianne von Woellwarth den Kammerherrn und Oberforstmeister Otto Joachim Moritz von Wedel, nachdem dieser ihr lange den Hof gemacht hatte (vgl. <ref target="sndb:sigle#2983">Lyncker</ref>, 62). Das Ehepaar lebte im Ostflügel des Hauses von Charlotte von Stein, wo Marianne auch nach dem Tod ihres Mannes 1794 wohnen blieb. Trotz ihrer Heirat behielt sie ihre Funktion als Hofdame bei und übernahm 1804 das Amt der Oberhofmeisterin bei der Herzogin Louise. Im Gegensatz zu ihrem Onkel und der Oberhofmeisterin Giannini (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52727_comment_com4833">Nr 445</ref>), denen sie sich dennoch verbunden fühlte, gehörte sie zum freundschaftlich-geselligen Kreis um Goethe und den Herzog und war Mitglied des Liebhabertheaters. (Zur Person vgl. <ref target="sndb:sigle#4161/1120">Huschke, Klassisches Weimar</ref>, 77; <ref target="sndb:sigle#2839">FrauenGestalten</ref>, 376 f.) – Der vorliegende Gedichtbrief wurde wahrscheinlich nicht abgeschickt, da im Gegensatz zu den meisten anderen Konzepten der Erledigungsstrich fehlt (vgl. Überlieferung zu <ref target="gb:note#gb52743_comment_com3068">Nr 429</ref>). Ein sporadischer Briefwechsel mit Goethe setzte erst nach der Hochzeit von Marianne von Woellwarth mit Moritz von Wedel ein. Von Goethe sind zwei Briefe an sie überliefert, der eine vom 23. Dezember 1796 (<ref target="gb:dokument#10018">GB 11, Nr A 57</ref>), der auch an Georg Lebrecht von Luck gerichtet war, der andere von Ende September 1813 (<ref target="sndb:sigle#1157">WA</ref> IV 24, Nr 6619). Von Marianne von Wedel sind jeweils zwei Briefe aus den Jahren 1797 und 1813 erhalten.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb52724_comment_com13628">
+<label xml:id="GB03_2_BR448_0_note_001_253_4" copyOf="#start_com_3698"><hi rendition="#fett">253,4</hi>in Schwaben</label>
+<p>Anspielung auf Marianne von Woellwarths württembergische Herkunft; sie wurde in Stuttgart geboren.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

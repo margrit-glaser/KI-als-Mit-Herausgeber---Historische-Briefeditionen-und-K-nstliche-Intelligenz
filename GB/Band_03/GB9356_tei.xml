@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2800"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9356" n="GB 3, Nr. 276">
+  <teiHeader xml:id="gb9356_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>276.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. Juni 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:40Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9356_tei.xml</idno>
+        <idno type="URI">gb9356</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR276_0</idno>
+        <idno type="KSW-ID">9356</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="151" to="151">151</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="535" to="539">535-539</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9356_header_hwit1222" corresp="#gb9356_source_hwit1222" sameAs="#gb9356_comment_hwit1222" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>37 Goethe Familie</collection>
+            <idno type="shelfmark">GSA 37/I,9,3 Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:229157</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9356,,1222/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich kan Ihr nichts sagen, als dass das Glück sich gegen mich immer gleich bezeigt, dass mir der todt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-06-28">28. Juni 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43781">Goethe, Catharina Elisabeth</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9356_source_hwit1222" corresp="#gb9356_header_hwit1222" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9356/12346"/>
+      <p>
+        <anchor xml:id="GB03_1_BR276_0_151_011"/>Ich kan ihr nichts sagen als dass<ptr n="1" target="#a001_151.11"/> das Glück sich gegen mich immer 
+<anchor xml:id="GB03_1_BR276_0_151_012"/>gleich bezeigt<ptr n="2" target="#a002_151.12"/>, dass mir der <ref target="gb:note#GB03_2_BR276_0_note_001_151_12" xml:id="start_com_2321"/>Todt der Schwester<ref xml:id="end_com_2321"/>
+        <ref target="gb:note#GB03_2_BR276_0_note_002_151_12-13" xml:id="start_com_2322"/>nur desto schmerzlicher 
+<anchor xml:id="GB03_1_BR276_0_151_013"/>ist da er mich in so glücklichen Zeiten<ref xml:id="end_com_2322"/> überrascht. Ich kan nur 
+<anchor xml:id="GB03_1_BR276_0_151_014"/>menschlich fühlen, und lasse mich der Natur die uns heftigen 
+<anchor xml:id="GB03_1_BR276_0_151_015"/>Schmerz nur kurze Zeit, Trauer lang empfinden lässt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR276_0_151_016"/>Lebe Sie glücklich, sorge Sie für des <ref target="gb:note#GB03_2_BR276_0_note_003_151_16" xml:id="start_com_2323"/>Vaters<ref xml:id="end_com_2323"/> Gesundheit, wir sind 
+<anchor xml:id="GB03_1_BR276_0_151_017"/>nur Einmal<ptr n="3" target="#a003_151.17"/> so beysammen. Die <ref target="gb:note#GB03_2_BR276_0_note_004_151_17" xml:id="start_com_2324"/>Zeichnung von Krausen<ref xml:id="end_com_2324"/> ist fertig und 
+<anchor xml:id="GB03_1_BR276_0_151_018"/>wird bald kommen. Adieu. liebe Mutter.     Grüse Sie <ref target="gb:note#GB03_2_BR276_0_note_005_151_18-19" xml:id="start_com_2325"/>den armen 
+<anchor xml:id="GB03_1_BR276_0_151_019"/>Schlosser<ref xml:id="end_com_2325"/> auch von mir.     W. d<g ref="#typoSuspension"/>. 28 Jun 77</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR276_0_151_020"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9356/12347" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#9356/12348" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#9356/12349" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9356_comment">
+<body>
+<div type="metadata" xml:id="gb9356_comment_com1202">
+  <ab type="numberAddressee"><label>276.</label> An <persName key="sndb:person#43781">Catharina Elisabeth Goethe</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 28. Juni 1777 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9356_comment_com3246">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#229157">GSA 37/I,9,3</ref>, Bl. 1. – Doppelblatt 11,5 × 18,5 cm, &#xBD; S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#517">Frau Rath</ref> (1871), 80.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 161, Nr 617.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9356_comment_com5042">
+  <p>Der Brief beantwortet wahrscheinlich einen nicht überlieferten Brief Catharina Elisabeth Goethes von frühestens dem 14. Juni 1777 (vgl. zu <ref target="gb:note#GB03_2_BR276_0_note_001_151_12">151,12</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Catharina Elisabeth Goethe (1731–1808) war die älteste Tochter des Kaiserlichen Rats Johann Wolfgang Textor, der 1738 Bürgermeister von Frankfurt, seit 1747 Reichs-, Stadt- und Gerichtsschultheiß und höchster Beamter der Stadt war, und seiner Frau Anna Margaretha geb. Lindheimer. Sie hatte acht Geschwister, von denen außer ihr selbst nur ein Bruder und drei Schwestern das Erwachsenenalter erreichten. Ihre Schulbildung war nach eigener Aussage unzureichend; ihren achtjährigen Enkel August ermahnte sie in einem Brief vom 21. Juli 1798, seinen Eltern für die gute Erziehung dankbar zu sein, indem sie ihn darauf hinwies, „wie elend die Kinder zu der Zeit meiner Jugend erzogen wurden“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 747). Ihre zeitlebens sehr unkonventionelle Orthographie kommentierte sie noch im Alter selbstironisch in einem Brief an Christiane von Goethe vom 16. Mai 1807: „Daß das Bustawiren und gerade Schreiben nicht zu meinen sonstigen Talenten gehört – müßt Ihr verzeihen – der Fehler lage am Schulmeister“ (ebd., 854). Außer im Lesen, Schreiben und Rechnen wurde Catharina Elisabeth Goethe in Handarbeiten und Religion unterwiesen. Was auch immer sie lernte, lernte sie ‚non scholae, sed vitae‘. Lesen diente ihr zur Unterhaltung, Schreiben ersetzte das persönliche Gespräch („Alle Briefe von Goethes Mutter sind gesprochene Rede“ [Ernst Beutler, in: ebd., 291]), mit Handarbeiten beschäftigte sie sich in freien Stunden („Spitzen klöpplen“ machte sie noch im Alter „Seelenfroh“ [Brief an Christiane Vulpius vom 7. Mai 1798; ebd., 744]), und die Religion half ihr bei der Bewältigung von Lebenskrisen (wie dem Tod ihrer Tochter Cornelia: „Ohne den Felsenfesten Glauben an Gott <gap quantity="3" reason="editorial"/> wäre so etwas ohnmöglich auszuhalten“ [Brief an Johann Caspar Lavater vom 23. Juni 1777; ebd., 413]). Im August 1748 heiratete Catharina Elisabeth Textor mit siebzehn Jahren den zwanzig Jahre älteren Juristen und Kaiserlichen Rat Johann Caspar Goethe und lebte fortan in dessen Haus am Großen Hirschgraben. Dort wohnte sie bis zum Verkauf des Hauses; 1795 zog sie in eine Wohnung am Rossmarkt um. Goethes Mutter hat die Stadt Frankfurt so gut wie nie verlassen. Nach dem Sohn Johann Wolfgang 1749 und der Tochter Cornelia 1750 brachte sie bis 1760 vier weitere Kinder zur Welt, die das Kindesalter nicht überlebten.</p>
+  <p rendition="#einrueck1">Goethe hat über seine Mutter wenig mitgeteilt. Einige Frauengestalten in seinen Werken gelten als ihr Abbild: die Elisabeth im „Götz von Berlichingen“ sowie die Mutterfiguren im 1. Buch von „Wilhelm Meisters Lehrjahren“ und in „Hermann und Dorothea“. In seiner Lebensbeschreibung „Dichtung und Wahrheit“ ist mehr über seinen Vater als über seine Mutter zu erfahren. Auch sein Plan ihrer Würdigung in einer „Aristeia der Mutter“, den er noch im Herbst 1831 hegte (vgl. Friedrich Wilhelm Riemer: Mittheilungen über Goethe. Aus mündlichen und schriftlichen, gedruckten und ungedruckten Quellen. Bd 2, S. 726), ist über einen Entwurf nicht hinausgekommen (vgl. <ref target="sndb:sigle#1157">WA</ref> I 29, 231–238). In diesem Fall stützt er sich im Übrigen auf Berichte Bettine von Arnims, die von 1806 an Erzählungen Catharina Elisabeth Goethes über Kindheit und Jugend ihres Sohnes ausschmückend und idealisierend aufzeichnete. Das gilt auch für einzelne Passagen in „Dichtung und Wahrheit“. Dass Goethes Diktum, er habe <quote type="G">Von Mütterchen die Frohnatur / Und Lust zu fabuliren</quote> (Zahme Xenien IV; <ref target="sndb:sigle#1157">WA</ref> I 3, 368), zum Sprichwort wurde, daran hat Bettine von Arnims Stilisierung von Catharina Elisabeth Goethe zur ‚Mutter‘ und ‚Lebenskünstlerin‘ großen Anteil.</p>
+  <p rendition="#einrueck1">Authentisches über Mutter und Sohn bieten lediglich die Briefe beider. Aber auch diese sind nur lückenhaft überliefert. Von den Briefen Catharina Elisabeth Goethes, die sich erhalten haben (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 395–888), sind rund 170 an den Sohn gerichtet. Darunter befinden sich bemerkenswerterweise weder Briefe aus Goethes Studienzeit in Leipzig und Straßburg 1765 bis 1768 bzw. 1770/71 noch über den Tod der Tochter Cornelia 1777; auch über die Ehe Johann Georg Schlossers mit Johanna Fahlmer seit 1778 oder über den Tod des Ehemannes 1782 sind keine brieflichen Zeugnisse an Goethe erhalten. Der erste überlieferte Brief der Mutter an den Sohn stammt vom 23. März 1780 (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 470 f.; <ref target="ra:dokument#127">RA 1, 79, Nr 114</ref>); er enthält eine Dankrede auf Weimar und die herzogliche Familie und zeigt eine frohe und glückliche Briefschreiberin. Ähnlich verhält es sich mit dem zweiten überlieferten Brief vom 17. bis 19. Juni 1781 (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 491 f.; <ref target="ra:dokument#161">RA 1, 88 f., Nr 148</ref>). Abgesehen von einem Billett von Ende Februar 1786 (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 552; <ref target="ra:dokument#239">RA 1, 106, Nr 208</ref>) findet sich dann erst wieder nach einer Pause von fünf Jahren ein weiterer Brief; er stammt vom 17. November 1786 (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 555 f.; <ref target="ra:dokument#252">RA 1, 109, Nr 220</ref>) und bringt überschwänglich die Freude der Absenderin über den Italienaufenthalt des Sohnes zum Ausdruck. Alle anderen Briefe der Mutter vor 1792 hat Goethe vermutlich vernichtet (vgl. sein Tagebuch, <ref target="gt:dokument#1741">2.</ref> und <ref target="gt:dokument#1747">9.</ref> Juli 1797 [GT II 1, 119 und 120] sowie die „Tag- und Jahres-Hefte“ für 1797 [<ref target="sndb:sigle#1157">WA</ref> I 35, 73]). So zeigt sich am Anfang das ungetrübte Bild der glücklichen Mutter, die sich am Lebensgang ihres Sohnes erfreut. Catharina Elisabeth Goethe stand dem Sohn vom Alter her näher als dem Ehegatten; sie solidarisierte sich mit ihm. Wiederholt setzte sie sich vermittelnd dem Vater gegenüber für ihn ein, etwa, als dieser auf die Rückkehr Goethes aus Leipzig ohne Studienabschluss mit Enttäuschung und auf den Wechsel in den Weimarer Fürstendienst mit Groll reagierte. Die Typisierung der Mutter als ‚Frohnatur‘, die durch das Bild des strengen, pedantischen Vaters, der nur <quote type="G">Des Lebens ernstes Führen</quote> (Zahme Xenien IV; <ref target="sndb:sigle#1157">WA</ref> I 3, 368) im Sinn hat, noch verstärkt wird, ist mit Vorsicht zu betrachten. Dennoch erwächst aus Catharina Elisabeth Goethes Briefen, auch außerhalb der an den Sohn gerichteten, der Eindruck einer lebenstüchtigen Frau voller Humor, Lebensfreude, Selbstbewusstsein und Vorurteilslosigkeit. Sie habe, schreibt sie am 14. November 1785 an Charlotte von Stein, „die Gnade von Gott, daß noch keine Menschenseele mißvergnügt von mir weggegangen ist – weß Standes, alters, und Geschlecht sie auch geweßen ist – Ich habe die Menschen sehr lieb – <gap quantity="3" reason="editorial"/> bemoralisire niemand – suche immer die gute seite auszuspähen – <gap quantity="3" reason="editorial"/>, und bey dieser Medote befinde ich mich wohl, glücklich und vergnügt.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 549.)</p>
+  <p rendition="#einrueck1">Catharina Elisabeth Goethe identifizierte sich von Anfang an – seit Erscheinen des „Götz von Berlichingen“ und des „Werthers“ – mit dem literarischen Erfolg des Sohnes. Mit Freude und Genugtuung empfing sie dessen Freunde und Verehrer in ihrem Haus. In ihrem Brief an Johann Georg Zimmermann vom 16. Februar 1776 sprach sie von ihrem „Glück noch viele Söhne und Töchter zu haben“ außer den eigenen und nennt die Brüder Stolberg, Lavater, Wieland, Knebel, Kalb u. a. Auch mit der herzoglichen Familie in Weimar entwickelte sich eine freundschaftliche Beziehung, vor allem zu Herzoginmutter Anna Amalia. Dass Catharina Elisabeth ihren geliebten Sohn nicht ein einziges Mal in Weimar besuchte, erscheint daher schwer verständlich. Dass sie keine Lust hatte – „das Reisen war nie meine Sache“ (Brief an Fritz von Stein, 2. Juli 1784; <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 534) –, weil sie mit Frankfurt <quote type="G">ganz eigentlich zusammengewachsen war</quote> (<ref target="sndb:sigle#1157">WA</ref> I 35, 29), wie Goethe in den „Tag- und Jahres-Heften“ für 1794 schrieb, mag ebenso zutreffen wie die Feststellung, dass er einen Besuch offenbar nicht entschieden genug förderte. Auch Goethes Besuche in Frankfurt waren selten; sie fanden stets aus Anlass anderer Reisen statt. Nach seinem Eintreffen in Weimar dauerte es fast vier Jahre, bis er auf seiner zweiten Reise in die Schweiz im September 1779 und Januar 1780 seine Mutter in Frankfurt wiedersah; es folgten zu ihren Lebzeiten lediglich drei weitere Aufenthalte in seiner Vaterstadt (1792, 1793 und 1797); als Catharina Elisabeth 1808 starb, hatte Goethe sie neun Jahre lang nicht mehr gesehen.</p>
+  <p>Dieser Zurückhaltung entspricht seine spärliche Korrespondenz mit der Mutter. Nicht mehr als knapp anderthalb Dutzend Briefe Goethes an die Mutter aus dem Zeitraum von 1776 bis 1808 sind  überliefert, etwa drei Dutzend Briefe konnten bisher erschlossen werden. Der erste überlieferte Brief  ist der vorliegende, der erst vom 28. Juni 1777 stammt. Zuvor findet sich noch ein Brief vom 6. November 1776, der gleichzeitig an Johanna Fahlmer und Johann Caspar Bölling gerichtet ist (<ref target="gb:dokument#11204">Nr 183</ref>). Dass Goethe jedoch bereits in den ersten Monaten nach der Ankunft in Weimar im November 1775 etliche Briefe an seine Mutter geschrieben hat, zeigen die erschlossenen Briefe (vgl. <ref target="gb:dokument#15711">EB 10</ref>, <ref target="gb:dokument#15725">22</ref>, <ref target="gb:dokument#15887">28</ref>, <ref target="gb:dokument#15730">30</ref>, <ref target="gb:dokument#15731">32</ref>, <ref target="gb:dokument#15739">38</ref>). Aus früherer Zeit, etwa aus Goethes Studentenjahren, hat sich kein Brief erhalten; ein einziger Brief (von Anfang April 1770) aus Straßburg hat sich erschließen lassen (vgl. <ref target="gb:dokument#51072">GB 1 I, EB 15</ref>). Die im vorliegenden Band abgedruckten vier Briefe an Catharina Elisabeth Goethe beziehen sich auf den Tod der Schwester und die Eheschließung Johann Georg Schlossers mit Johanna Fahlmer sowie die Ankündigung des Besuchs der Reisegesellschaft um Goethe und Herzog Carl August in Frankfurt auf dem Weg in die Schweiz.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9356_comment_com16879">
+<label xml:id="GB03_2_BR276_0_note_001_151_12" copyOf="#start_com_2321"><hi rendition="#fett">151,12</hi>Todt der Schwester</label>
+<p>Cornelia Schlosser war am 8. Juni 1777, vier Wochen nach der Geburt ihrer zweiten Tochter, im badischen Emmendingen gestorben. Der Anfang des Briefes bezieht sich offenbar auf einen nicht überlieferten Brief Catharina Elisabeth Goethes, in dem sie die Todesnachricht übermittelte, die sie selbst erst nach dem 13. Juni erhalten hatte (vgl. zu <ref target="gb:note#GB03_2_BR274_0_note_002_151_3">151,3</ref>). Einen Eindruck davon, wie sie und Johann Caspar Goethe den Tod ihrer einzigen Tochter aufgenommen haben, vermittelt ihr Brief an Johann Caspar Lavater vom 23. Juni 1777: „Er gibt den müden Kraft und Stärcke genung den ohnvermögenden – was Er zusagt hält Er gewiß. Ein neuer, lebendiger, dastehnender Zeuge sind wir, die wir unsre Cornelia unsere eintzige Tochter nun im Grabe wissen – – und zwar gantz ohnvermuthet, Blitz und Schlag war eins. O lieber Lavater! die arme Mutter hatte viel viel zu tragen, mein Mann war den gantzen Winter kranck, das harte zuschlagen einer Stubenthüre erschröckte ihn, und dem Mann muste ich der Todes Bote seyn von seiner Tochter die er über alles liebte – mein Hertz war wie zermahlt, aber der Gedancke, ist auch ein Unglück in der Stadt, das der Herr nicht thut hielte mich daß ich dem Schmertz nicht erlag. Ohne den Felsenfesten Glauben an Gott – an den Gott, der die Haare zehlet dem kein Sperling fehlet – der nicht schläfft noch schlummert, der nicht verreißt ist – der den Gedancken meines Hertzens kent ehe er noch da ist <gap quantity="3" reason="editorial"/>, der mit einem Wort die Liebe ist – ohne Glauben an den wäre so etwas ohnmöglich auszuhalten <gap quantity="3" reason="editorial"/>.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 413.)</p>
+
+</note>
+<note xml:id="gb9356_comment_com7276">
+<label xml:id="GB03_2_BR276_0_note_002_151_12-13" copyOf="#start_com_2322"><hi rendition="#fett">151,12-13</hi>nur desto schmerzlicher <gap quantity="3" reason="editorial"/> glücklichen Zeiten</label>
+<p>Ähnlich äußert sich Goethe im Brief an Augusta zu Stolberg am 17. Juli 1777 (vgl. <ref target="gb:text#GB03_1_BR279_0_154_019 #GB03_1_BR279_0_154_022">154,19–22</ref>; <ref target="gb:text#GB03_1_BR279_0_154_025 #GB03_1_BR279_0_155_003">154,25–155,3</ref>).</p>
+
+</note>
+<note xml:id="gb9356_comment_com7289">
+<label xml:id="GB03_2_BR276_0_note_003_151_16" copyOf="#start_com_2323"><hi rendition="#fett">151,16</hi>Vaters</label>
+<p>Johann Caspar Goethe.</p>
+
+</note>
+<note xml:id="gb9356_comment_com16769">
+<label xml:id="GB03_2_BR276_0_note_004_151_17" copyOf="#start_com_2324"><hi rendition="#fett">151,17</hi>Zeichnung von Krausen</label>
+<p>Der aus Frankfurt stammende Maler Georg Melchior Kraus war seit Oktober 1775 Zeichenmeister Herzog Carl Augusts und seit 1776 Direktor der Weimarer Zeichenschule. Am 1. Juli 1777 sind in Goethes Rechnungsbuch ein Brief und eine Paketsendung an <quote type="G">Fr. R. Goethe</quote> (<ref target="sndb:sigle#4226">GR/RB 1777,2</ref>, Bl. 6r) verzeichnet (vgl. <ref target="gb:dokument#52593">EB 149</ref>). Kraus schuf 1776 ein Bleistiftporträt Goethes ohne Perücke und mit zu einem Zopf gebundenen Haaren (<ref target="sndb:sigle#3162">KSW</ref>, Direktion Museen, Inv.-Nr KHz1993/00370), das im selben Jahr von Daniel Nikolaus Chodowiecki gestochen wurde (<ref target="sndb:sigle#3162">KSW</ref>, Direktion Museen, Inv.-Nr KGr/01562).</p>
+
+</note>
+<note xml:id="gb9356_comment_com7290">
+<label xml:id="GB03_2_BR276_0_note_005_151_18-19" copyOf="#start_com_2325"><hi rendition="#fett">151,18-19</hi>den armen Schlosser</label>
+<p>Cornelias Ehemann Johann Georg Schlosser. An Lavater hatte Goethes Mutter am 23. Juni 1777 geschrieben: „<gap quantity="3" reason="editorial"/> noch eins, ich habe zwey herrliche Briefe von meinem lieben Sohn Schlosser bekommen Er duldet wie ein Christ u Mann und – – glaubt an Gott“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 414).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

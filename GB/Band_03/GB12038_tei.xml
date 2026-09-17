@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5560"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12038" n="GB 3, Nr. 543">
+  <teiHeader xml:id="gb12038_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>543.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77909">Genf</placeName>, 28. und 29. Oktober 1779. Donnerstag und Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:34Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12038_tei.xml</idno>
+        <idno type="URI">gb12038</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR543_0</idno>
+        <idno type="KSW-ID">12038</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="329" to="337">329-337</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1035" to="1042">1035-1042</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12038_header_hwit1534" corresp="#gb12038_source_hwit1534" sameAs="#gb12038_comment_hwit1534" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 35 und Bl. 36</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12038,,1534/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Wir haben diese Tage her einen sehr glüklichen Seitenweeg auf    die höchsten Gipfel</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77909">Genf</placeName>
+            <date when="1779-10-28">28. Oktober 1779</date> und
+            <date when="1779-10-29">29. Oktober 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12038_source_hwit1534" corresp="#gb12038_header_hwit1534" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12038/23161"/>
+      <opener>
+        <dateline rendition="#einrueck9">
+          <anchor xml:id="GB03_1_BR543_0_329_006"/>Genf den 28 Oktbr. 1779.</dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR543_0_329_007"/>Wir haben diese Tage her einen sehr glüklichen <ref target="gb:note#GB03_2_BR543_0_note_001_329_7-8" xml:id="start_com_4747"/>Seitenweeg auf die 
+<anchor xml:id="GB03_1_BR543_0_329_008"/>höchsten Gipfel des Jura<ref xml:id="end_com_4747"/> gemacht, davon ich eine eilige <ref target="gb:note#GB03_2_BR543_0_note_002_329_8" xml:id="start_com_4748"/>Beschreibung<ref xml:id="end_com_4748"/>
+        <anchor xml:id="GB03_1_BR543_0_329_009"/>zusammen diktiren will.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_329_010"/>Die grosse Bergkette, die von Basel biss Genf, Schweiz und Frankreich 
+<anchor xml:id="GB03_1_BR543_0_329_011"/>scheidet, wird, wie ihnen bekannt, der Jura genannt; die grössten 
+<anchor xml:id="GB03_1_BR543_0_329_012"/>Höhen davon ziehen sich über <emph rendition="#latin">Lausanne</emph> biss ohngefehr über Rolle 
+<anchor xml:id="GB03_1_BR543_0_329_013"/>und Nion. Auf diesen höchsten Rüken ist ein merkwürdiges Thal 
+<anchor xml:id="GB03_1_BR543_0_329_014"/>von der Natur eingegraben, ich mögte sagen, eingeschwemmt, da auf 
+<anchor xml:id="GB03_1_BR543_0_329_015"/>allen diesen <ref target="gb:note#GB03_2_BR543_0_note_003_329_15" xml:id="start_com_4749"/>Kalchhöhen<ref xml:id="end_com_4749"/> die Würkungen der uralten Gewässer sichtbar 
+<anchor xml:id="GB03_1_BR543_0_329_016"/>sind, das <emph rendition="#latin">la vallée de<ptr n="1" target="#a001_329.16"/> Joux</emph> genannt wird, welcher Nahme, da <emph rendition="#latin">Joux</emph>
+        <anchor xml:id="GB03_1_BR543_0_329_017"/>in der Landsprache einen Felsen oder Berg bedeutet, Teutsch<ptr n="2" target="#a002_329.17"/> das 
+<anchor xml:id="GB03_1_BR543_0_329_018"/>Bergthal hiesse<ptr n="3" target="#a003_329.18"/>. Eh ich zur Beschreibung unsrer Reise fortgehe, will 
+<anchor xml:id="GB03_1_BR543_0_329_019"/>ich mit wenigem die Lage davon geographisch angeben. Seine Länge 
+<anchor xml:id="GB03_1_BR543_0_329_020"/><ref target="gb:note#GB03_2_BR543_0_note_004_329_20" xml:id="start_com_4750"/>streicht<ref xml:id="end_com_4750"/>, wie das Gebürg selbst, ziemlich <ref target="gb:note#GB03_2_BR543_0_note_005_329_20" xml:id="start_com_4751"/>von Mitag gegen Mitternacht<ref xml:id="end_com_4751"/>
+        <anchor xml:id="GB03_1_BR543_0_329_021"/>und wird an iener Seite von den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_006_329_21" xml:id="start_com_4752"/>sept moncels</emph><ref xml:id="end_com_4752"/> und an dieser von der 
+<anchor xml:id="GB03_1_BR543_0_329_022"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_007_329_22" xml:id="start_com_4753"/>dent de vaulion</emph><ref xml:id="end_com_4753"/>, welche <ref target="gb:note#GB03_2_BR543_0_note_008_329_22" xml:id="start_com_4754"/>nach der <emph rendition="#latin">Dole</emph> der höchste Gipfel des Jura<ref xml:id="end_com_4754"/> ist, 
+<anchor xml:id="GB03_1_BR543_0_329_023"/>begränzt und hat, nach der Sage des Landes, neun kleine, nach unsrer 
+<anchor xml:id="GB03_1_BR543_0_329_024"/>ohngefehren Reiserechnung aber <ref target="gb:note#GB03_2_BR543_0_note_009_329_24" xml:id="start_com_4755"/>sechs starke Stunden<ref xml:id="end_com_4755"/>. Der Berg, der 
+<anchor xml:id="GB03_1_BR543_0_329_025"/>es die Länge hin <ref target="gb:note#GB03_2_BR543_0_note_010_329_25" xml:id="start_com_4756"/>an der Morgenseite<ref xml:id="end_com_4756"/> begränzt und auch von dem flachen 
+<anchor xml:id="GB03_1_BR543_0_329_026"/>Land herauf sichtbar ist, heisst <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_011_329_26" xml:id="start_com_4757"/>le noir mont</emph><ref xml:id="end_com_4757"/>. Gegen Abend 
+<anchor xml:id="GB03_1_BR543_0_329_027"/><ref target="gb:note#GB03_2_BR543_0_note_012_329_27" xml:id="start_com_4758"/>streicht<ref xml:id="end_com_4758"/> <ref target="gb:note#GB03_2_BR543_0_note_013_329_27" xml:id="start_com_4759"/>der <emph rendition="#latin">Risou</emph><ref xml:id="end_com_4759"/> hin und verliert sich almählich gegen die <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_014_329_27-28" xml:id="start_com_4760"/>franche 
+<anchor xml:id="GB03_1_BR543_0_329_028"/>comté<ref xml:id="end_com_4760"/></emph>. Frankreich und Bern theilen sich ziemlich gleich in dieses 
+<anchor xml:id="GB03_1_BR543_0_329_029"/>Thal, so dass ienes <ref target="gb:note#GB03_2_BR543_0_note_015_329_29" xml:id="start_com_4761"/>die obere<ref xml:id="end_com_4761"/> schlechte Helfte und dieses die untere 
+<anchor xml:id="GB03_1_BR543_0_330_001"/>bessere besizt, welche leztere eigentlich <emph rendition="#latin">la vallé du <ref target="gb:note#GB03_2_BR543_0_note_016_330_1" xml:id="start_com_4762"/>lac de Joux</emph><ref xml:id="end_com_4762"/> genannt 
+<anchor xml:id="GB03_1_BR543_0_330_002"/>wird. Ganz zu oben in dem Thal, gegen den Fus der <emph rendition="#latin">sept moncels</emph> liegt 
+<anchor xml:id="GB03_1_BR543_0_330_003"/>der <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_017_330_3" xml:id="start_com_4763"/>Lac des rousses</emph><ref xml:id="end_com_4763"/>, der keinen sichtlichen einzelnen Ursprung 
+<anchor xml:id="GB03_1_BR543_0_330_004"/>hat, sondern sich aus quelligtem Boden und den überall auslaufenden 
+<anchor xml:id="GB03_1_BR543_0_330_005"/>Brunnen sammlet, aus demselben fliesst die Orbe, durchstreicht das 
+<anchor xml:id="GB03_1_BR543_0_330_006"/>ganze französische und einen grossen Theil des Berner Gebiets, biss 
+<anchor xml:id="GB03_1_BR543_0_330_007"/>sie wieder unten gegen den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_018_330_7" xml:id="start_com_4764"/>Dens de vaulion</emph><ref xml:id="end_com_4764"/> sich zum <emph rendition="#latin">Lac de Joux</emph><anchor xml:id="GB03_1_BR543_0_330_008"/>bildet, der seitwärts in einen <ref target="gb:note#GB03_2_BR543_0_note_019_330_8" xml:id="start_com_4765"/>kleinen See<ref xml:id="end_com_4765"/> abfällt, woraus das Wasser 
+<anchor xml:id="GB03_1_BR543_0_330_009"/>endlich sich<ptr n="4" target="#a004_330.9"/> unter der Erde verliert. Die Breite des Thals ist verschieden<ptr n="5" target="#a005_330.10"/>, 
+<anchor xml:id="GB03_1_BR543_0_330_010"/>oben beim <emph rendition="#latin">Lac des rousses</emph> etwa<ptr n="6" target="#a006_330.10"/> <ref target="gb:note#GB03_2_BR543_0_note_020_330_10-12" xml:id="start_com_4766"/>eine halbe Stunde, alsdann verengert 
+<anchor xml:id="GB03_1_BR543_0_330_011"/>sich’s und läuft wieder unten aus einander, wo etwa die gröste 
+<anchor xml:id="GB03_1_BR543_0_330_012"/>Breite anderthalb Stunden<ref xml:id="end_com_4766"/> wird. So viel zum bessern Verständniss des 
+<anchor xml:id="GB03_1_BR543_0_330_013"/>folgenden, wobei ich sie einen Blik auf die Carte zu thun bitte.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_330_014"/><ref target="gb:note#GB03_2_BR543_0_note_021_330_14" xml:id="start_com_4767"/>Den 24 Okt.<ref xml:id="end_com_4767"/> ritten wir, in Begleitung eines <ref target="gb:note#GB03_2_BR543_0_note_022_330_14-15" xml:id="start_com_4768"/>Hauptmanns und 
+<anchor xml:id="GB03_1_BR543_0_330_015"/>Oberforstmeisters<ref xml:id="end_com_4768"/> dieser Gegenden erstlich <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_023_330_15" xml:id="start_com_4769"/>mont</emph><ref xml:id="end_com_4769"/> durch die Weinberge 
+<anchor xml:id="GB03_1_BR543_0_330_016"/>und Landhäuser hinan. Das Wetter war sehr hell, wir hatten,<ptr n="7" target="#a007_330.16"/> wenn wir 
+<anchor xml:id="GB03_1_BR543_0_330_017"/>uns umkehrten, die Aussicht auf den Genfersee, die Savoier und Wallisgebürge, 
+<anchor xml:id="GB03_1_BR543_0_330_018"/>konnten <emph rendition="#latin">Lausanne</emph> erkennen und durch einen leichten Nebel 
+<anchor xml:id="GB03_1_BR543_0_330_019"/>auch die Gegend von Genf. Der <emph rendition="#latin">mont blanc</emph>, der über alle Gebürge 
+<anchor xml:id="GB03_1_BR543_0_330_020"/>des <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_024_330_20" xml:id="start_com_4770"/>faucigné</emph><ref xml:id="end_com_4770"/><ptr n="8" target="#a008_330.20"/> ragt<ptr n="9" target="#a009_330.20"/>, kam immermehr hervor. Die Sonne ging klar unter, 
+<anchor xml:id="GB03_1_BR543_0_330_021"/>es war so ein grosser Anblik, dass ein menschlich Auge nicht dazu hinreicht. 
+<anchor xml:id="GB03_1_BR543_0_330_022"/>Der fast volle Mond kam herauf und wir immer höher. Durch 
+<anchor xml:id="GB03_1_BR543_0_330_023"/>Fichtenwälder stiegen wir weiter den Jura hinan, und sahen den See 
+<anchor xml:id="GB03_1_BR543_0_330_024"/>im Duft und den Wiederschein des Monds drinn. Es wurd immer heller. 
+<anchor xml:id="GB03_1_BR543_0_330_025"/>Der Weeg ist eine wohlgemachte <emph rendition="#latin">Chaussée</emph>, nur angelegt um das 
+<anchor xml:id="GB03_1_BR543_0_330_026"/>Holz aus dem Gebürg bequemer in das Land herunter zu bringen. 
+<anchor xml:id="GB03_1_BR543_0_330_027"/>Wir waren wohl drei Stunden gestiegen, als es hinterwärts sachte wieder 
+<anchor xml:id="GB03_1_BR543_0_330_028"/>hinab zu gehen anfing<ptr n="10" target="#a010_330.28"/>. Wir glaubten unter uns <ref target="gb:note#GB03_2_BR543_0_note_025_330_28" xml:id="start_com_4771"/>einen grossen See<ref xml:id="end_com_4771"/>
+        <anchor xml:id="GB03_1_BR543_0_330_029"/>zu erbliken, indem ein tiefer Nebel das ganze Thal, was wir übersehen 
+<anchor xml:id="GB03_1_BR543_0_330_030"/>konnten, ausfüllte. Wir kamen ihm endlich näher, sahen einen weisen 
+<anchor xml:id="GB03_1_BR543_0_330_031"/>Bogen, den der Mond drinn bildete und wurden bald ganz vom Nebel 
+<anchor xml:id="GB03_1_BR543_0_330_032"/>eingewikelt. <pb n="2" facs="gb:digitalisate#12038/23162"/> Die Begleitung des Hauptmanns<ptr n="11" target="#a011_330.32"/> verschafte uns Quartier 
+<anchor xml:id="GB03_1_BR543_0_330_033"/><ref target="gb:note#GB03_2_BR543_0_note_026_330_33" xml:id="start_com_4772"/>in einem Hause,<ref xml:id="end_com_4772"/> wo man sonst nicht Fremde aufzunehmen pflegt. 
+<anchor xml:id="GB03_1_BR543_0_330_034"/>Es unterschied sich in der innern Bauart von gewöhnlichen Gebäuden<ptr n="12" target="#a012_330.34"/>
+        <anchor xml:id="GB03_1_BR543_0_331_001"/>in nichts, als dass der grosse Raum mitten inne<ptr n="13" target="#a013_331.1"/> zugleich Küche, Versammlungsplaz, 
+<anchor xml:id="GB03_1_BR543_0_331_002"/>Vorsaal ist und man von da in die Zimmer gleicher 
+<anchor xml:id="GB03_1_BR543_0_331_003"/>Erde und auch die Treppe hinauf geht. Auf der einen Seite war an 
+<anchor xml:id="GB03_1_BR543_0_331_004"/>dem Boden auf steinernen Platten das Feuer angezündet, davon ein 
+<anchor xml:id="GB03_1_BR543_0_331_005"/>weiter Schornstein, mit Brettern dauerhaft und sauber ausgeschlagen, 
+<anchor xml:id="GB03_1_BR543_0_331_006"/>den Rauch aufnahm. In der Eke waren die Thüren zu den Baköfen, 
+<anchor xml:id="GB03_1_BR543_0_331_007"/>der ganze Fussboden übrigens gedielet, biss auf ein kleines Ekgen am 
+<anchor xml:id="GB03_1_BR543_0_331_008"/>Fenster um den Spühlstein, gepflastert<ptr n="14" target="#a014_331.8"/>, übrigens rings herum, auch in 
+<anchor xml:id="GB03_1_BR543_0_331_009"/>der Höhe über den Balken, eine Menge Hausrath und Geräthschaften 
+<anchor xml:id="GB03_1_BR543_0_331_010"/>in schöner Ordnung angebracht, alles nicht unreinlich gehalten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_331_011"/><ref target="gb:note#GB03_2_BR543_0_note_027_331_11" xml:id="start_com_4773"/>Den 25.<ref xml:id="end_com_4773"/> Morgens war helles kaltes Wetter, die Wiesen bereift. Hier 
+<anchor xml:id="GB03_1_BR543_0_331_012"/>und da zogen leichte Nebel, wir konnten den untern Theil des Thals 
+<anchor xml:id="GB03_1_BR543_0_331_013"/>ziemlich übersehen, unser Haus lag am Fus des östlichen <emph rendition="#latin">noir monts</emph><ptr n="15" target="#a015_331.13"/>. 
+<anchor xml:id="GB03_1_BR543_0_331_014"/>Gegen achte ritten wir ab, und um der Sonne gleich zu geniesen, an 
+<anchor xml:id="GB03_1_BR543_0_331_015"/>der Abendseite hin. Der Theil des Thals an dem wir hinritten, besteht 
+<anchor xml:id="GB03_1_BR543_0_331_016"/>in abgetheilten Wiesen, die gegen den See zu etwas sumpfiger werden. 
+<anchor xml:id="GB03_1_BR543_0_331_017"/>Die Orbe fliesst in der Mitte durch. Die Einwohner haben sich theils 
+<anchor xml:id="GB03_1_BR543_0_331_018"/>in einzelnen Häusern an der Seite angebaut, theils sind sie in Dörfern 
+<anchor xml:id="GB03_1_BR543_0_331_019"/>näher zusammengerukt, die einfache Namen von ihrer Lage führen. 
+<anchor xml:id="GB03_1_BR543_0_331_020"/><ref target="gb:note#GB03_2_BR543_0_note_028_331_20" xml:id="start_com_4774"/>Das erste, wodurch wir kamen, war <emph rendition="#latin">le sentier</emph>.<ref xml:id="end_com_4774"/> Wir sahen von weitem 
+<anchor xml:id="GB03_1_BR543_0_331_021"/>die <emph rendition="#latin">dent du vaulion</emph>, über einem Nebel der auf dem<ptr n="16" target="#a016_331.21"/> See stand hervorsehen, 
+<anchor xml:id="GB03_1_BR543_0_331_022"/>das Thal wird breiter, wir kamen hinter einen Felsgrat, der uns 
+<anchor xml:id="GB03_1_BR543_0_331_023"/>den See verdekte, durch ein ander Dorf <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_029_331_23" xml:id="start_com_4775"/>le lieu</emph><ref xml:id="end_com_4775"/> genannt, die Nebel 
+<anchor xml:id="GB03_1_BR543_0_331_024"/>stiegen und fielen wechselsweise vor der Sonne. Hier nahe bei ist <ref target="gb:note#GB03_2_BR543_0_note_030_331_24-25" xml:id="start_com_4776"/>ein 
+<anchor xml:id="GB03_1_BR543_0_331_025"/>kleiner See<ref xml:id="end_com_4776"/>, der keinen Zu- und Abfluss zu haben scheint.<ptr n="17" target="#a017_331.25"/> Das Wetter 
+<anchor xml:id="GB03_1_BR543_0_331_026"/>klärte sich völlig auf und wir kamen gegen den Fus der <emph rendition="#latin">dent de</emph><ptr n="18" target="#a018_331.26"/> <emph rendition="#latin">vaulion</emph>
+        <anchor xml:id="GB03_1_BR543_0_331_027"/>und trafen hier an’s nordliche Ende des grossen Sees, der, indem er sich 
+<anchor xml:id="GB03_1_BR543_0_331_028"/>westwärts wendet, in den kleinen, durch einen Damm, unter einer 
+<anchor xml:id="GB03_1_BR543_0_331_029"/>Brüke weg seinen Ausfluss hat. Das Dorf drüben heisst <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_031_331_29" xml:id="start_com_4777"/>le pont</emph><ref xml:id="end_com_4777"/>. Die 
+<anchor xml:id="GB03_1_BR543_0_331_030"/>Lage des kleinen Sees ist wie in einem eigenen kleinen Thal, was man 
+<anchor xml:id="GB03_1_BR543_0_331_031"/>niedlich sagen kann. An dem westlichen Ende ist eine <ref target="gb:note#GB03_2_BR543_0_note_032_331_31-32" xml:id="start_com_4778"/>merkwürdige 
+<anchor xml:id="GB03_1_BR543_0_331_032"/>Mühle<ref xml:id="end_com_4778"/> in einer Felskluft<ptr n="19" target="#a019_331.32"/> angebracht, die ehemals der kleine See ausfüllte, 
+<anchor xml:id="GB03_1_BR543_0_331_033"/>nunmehr ist er abgedämmt, und die <ref target="gb:note#GB03_2_BR543_0_note_033_331_33" xml:id="start_com_4779"/>Mühle in die Tiefe<ref xml:id="end_com_4779"/> gebaut, 
+<anchor xml:id="GB03_1_BR543_0_331_034"/>das Wasser läuft durch Schleussen auf die Räder, es stürzt sich von da 
+<anchor xml:id="GB03_1_BR543_0_332_001"/>in Felsrizen, <ref target="gb:note#GB03_2_BR543_0_note_034_332_1" xml:id="start_com_4780"/>wo es eingeschlukt wird<ref xml:id="end_com_4780"/> und erst eine Stunde von da in 
+<anchor xml:id="GB03_1_BR543_0_332_002"/><emph rendition="#latin">Valorbe</emph> hervorkommt, wo es wieder den Namen des Orbeflusses führet. 
+<anchor xml:id="GB03_1_BR543_0_332_003"/>Diese Abzüge, |:<emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_035_332_3" xml:id="start_com_4781"/>entonnoirs</emph><ref xml:id="end_com_4781"/>:| müssen rein gehalten werden, sonst 
+<anchor xml:id="GB03_1_BR543_0_332_004"/>würde der See steigen, die Kluft wieder ausfüllen und über die Mühle 
+<anchor xml:id="GB03_1_BR543_0_332_005"/>weggehen, wie es schon mehr geschehen ist, sie waren stark in der Arbeit 
+<anchor xml:id="GB03_1_BR543_0_332_006"/>begriffen, den morschen Kalchfelsen, theils wegzuschaffen, theils 
+<anchor xml:id="GB03_1_BR543_0_332_007"/>zu befestigen. Wir ritten zurük über die Brüke nach <emph rendition="#latin">Pont</emph>, nahmen 
+<anchor xml:id="GB03_1_BR543_0_332_008"/>einen <ref target="gb:note#GB03_2_BR543_0_note_036_332_8" xml:id="start_com_4782"/>Weegweiser<ref xml:id="end_com_4782"/> auf <emph rendition="#latin">la dent</emph>. Im Aufsteigen sahen wir nunmehr den 
+<anchor xml:id="GB03_1_BR543_0_332_009"/><ref target="gb:note#GB03_2_BR543_0_note_037_332_9" xml:id="start_com_4783"/>grossen See<ref xml:id="end_com_4783"/> völlig hinter uns. Ostwärts ist der <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_038_332_9" xml:id="start_com_4784"/>noir mont</emph><ref xml:id="end_com_4784"/> seine Gränze, 
+<anchor xml:id="GB03_1_BR543_0_332_010"/>hinter dem<ptr n="20" target="#a020_332.10"/> der kahle <ref target="gb:note#GB03_2_BR543_0_note_039_332_10" xml:id="start_com_4785"/>Gipfel der Dole<ref xml:id="end_com_4785"/><ptr n="21" target="#a021_332.10"/> hervorkommt, westwärts hält 
+<anchor xml:id="GB03_1_BR543_0_332_011"/>ihn <ref target="gb:note#GB03_2_BR543_0_note_040_332_11" xml:id="start_com_4786"/>der Felsrüken<ref xml:id="end_com_4786"/>, der gegen den See ganz nakt ist, zusammen. Die 
+<anchor xml:id="GB03_1_BR543_0_332_012"/>Sonne schien heiss, es war zwischen eilf<ptr n="22" target="#a022_332.12"/> und Mittag. Nach und nach 
+<anchor xml:id="GB03_1_BR543_0_332_013"/>übersahen wir das ganze Thal, konnten in der Ferne den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_041_332_13-14" xml:id="start_com_4787"/>Lac 
+<anchor xml:id="GB03_1_BR543_0_332_014"/>des Rousses<ref xml:id="end_com_4787"/></emph> erkennen, und weiter her biss zu unsern Füssen, die <ref target="gb:note#GB03_2_BR543_0_note_042_332_14-15" xml:id="start_com_4788"/>Gegend durch 
+<anchor xml:id="GB03_1_BR543_0_332_015"/>die wir gekommen waren<ref xml:id="end_com_4788"/> und den Weeg der uns rükwärts noch überblieb. 
+<anchor xml:id="GB03_1_BR543_0_332_016"/>Im Aufsteigen wur<pb n="3" facs="gb:digitalisate#12038/23163"/>de von der grossen Streke Landes und den 
+<anchor xml:id="GB03_1_BR543_0_332_017"/><ref target="gb:note#GB03_2_BR543_0_note_043_332_17" xml:id="start_com_4789"/>Herrschaften<ref xml:id="end_com_4789"/> die man oben unterscheiden<ptr n="23" target="#a023_332.17"/> könnte, gesprochen, und in 
+<anchor xml:id="GB03_1_BR543_0_332_018"/>solchen Gedancken betraten wir den Gipfel<ptr n="24" target="#a024_332.18"/> allein uns war ein ander 
+<anchor xml:id="GB03_1_BR543_0_332_019"/>Schauspiel zubereitet. Nur die hohen Gebürgketten waren unter einem 
+<anchor xml:id="GB03_1_BR543_0_332_020"/>klaren und heitern Himmel sichtbar, alle niederen Gegenden mit 
+<anchor xml:id="GB03_1_BR543_0_332_021"/>einem weisen wolkigten Nebelmeer überdekt, das sich von Genf bis 
+<anchor xml:id="GB03_1_BR543_0_332_022"/>nordwärts an den Horizont erstrekte und in<ptr n="25" target="#a025_332.22"/> der Sonne glänzte. Daraus 
+<anchor xml:id="GB03_1_BR543_0_332_023"/>stieg ostwärts die ganze reine Reihe aller <ref target="gb:note#GB03_2_BR543_0_note_044_332_23" xml:id="start_com_4790"/>Schnee- und Eissgebürge<ref xml:id="end_com_4790"/>, 
+<anchor xml:id="GB03_1_BR543_0_332_024"/>ohne Unterschied von Namen der<ptr n="26" target="#a026_332.24"/> Völker und Fürsten, die sie zu besizen 
+<anchor xml:id="GB03_1_BR543_0_332_025"/>glauben, nur Einem<ptr n="27" target="#a027_332.25"/> grossen Herrn und dem Blik der Sonne unterworffen, 
+<anchor xml:id="GB03_1_BR543_0_332_026"/>der sie schön röthete. Der <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_045_332_26" xml:id="start_com_4791"/>mont blanc</emph><ref xml:id="end_com_4791"/> gegen uns über 
+<anchor xml:id="GB03_1_BR543_0_332_027"/>schien der höchste, die Eisgebürge des Wallis<ptr n="28" target="#a028_332.27"/> und des <ref target="gb:note#GB03_2_BR543_0_note_046_332_27" xml:id="start_com_4792"/>Oberlandes<ref xml:id="end_com_4792"/> folgten, 
+<anchor xml:id="GB03_1_BR543_0_332_028"/>zulezt schlossen niedere Berge des Canton Berns. <ref target="gb:note#GB03_2_BR543_0_note_047_332_28" xml:id="start_com_4793"/>Gegen Abend<ref xml:id="end_com_4793"/>
+        <anchor xml:id="GB03_1_BR543_0_332_029"/>war an einem Plaze das Nebelmeer unbegränzt, zur linken in der weitsten 
+<anchor xml:id="GB03_1_BR543_0_332_030"/>Ferne zeigten sich sodann die Gebirge 
+<anchor xml:id="GB03_1_BR543_0_332_031"/>von <ref target="gb:note#GB03_2_BR543_0_note_048_332_31" xml:id="start_com_4794"/>Solothurn<ref xml:id="end_com_4794"/>, näher die von <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_049_332_31" xml:id="start_com_4795"/>Neufchatel</emph><ref xml:id="end_com_4795"/>, gleich vor uns einige niedere Gipfel des Jura, unter<ptr n="29" target="#a029_332.31"/>
+        <anchor xml:id="GB03_1_BR543_0_332_032"/>uns lagen einige Häuser von <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_050_332_32" xml:id="start_com_4796"/>Vaulion</emph><ref xml:id="end_com_4796"/> dahin <ref target="gb:note#GB03_2_BR543_0_note_051_332_32" xml:id="start_com_4797"/>der Zahn<ref xml:id="end_com_4797"/> gehört, und daher 
+<anchor xml:id="GB03_1_BR543_0_332_033"/>er den Namen hat. Gegen Abend schließt die 
+          <ref target="gb:note#GB03_2_BR543_0_note_052_332_33" xml:id="start_com_4798"/><emph rendition="#latin">franche comté</emph><ref xml:id="end_com_4798"/>mit 
+<anchor xml:id="GB03_1_BR543_0_333_001"/>flachstreichenden waldigten Bergen den ganzen Horizont, wovon ein 
+<anchor xml:id="GB03_1_BR543_0_333_002"/>einziger ganz in der Ferne gegen nordwest sich unterschied. Grad ab 
+<anchor xml:id="GB03_1_BR543_0_333_003"/>war ein schöner Anblik. Hier ist die Spize die diesem Gipfel den Namen 
+<anchor xml:id="GB03_1_BR543_0_333_004"/>eines Zahns giebt, er geht steil und eher etwas einwärts hinunter, 
+<anchor xml:id="GB03_1_BR543_0_333_005"/>in der tiefe schliesst ein kleines Fichtenthal an mit schönen Graspläzen, 
+<anchor xml:id="GB03_1_BR543_0_333_006"/>gleich<ptr n="30" target="#a030_333.6"/> drüber liegt das Thal <emph rendition="#latin">valorbe</emph> genannt, <ref target="gb:note#GB03_2_BR543_0_note_053_333_6-7" xml:id="start_com_4799"/>wo man die Orbe aus 
+<anchor xml:id="GB03_1_BR543_0_333_007"/>dem Felsen kommen sieht<ref xml:id="end_com_4799"/> und rükwärts zum <ref target="gb:note#GB03_2_BR543_0_note_054_333_7" xml:id="start_com_4800"/>kleinen See<ref xml:id="end_com_4800"/> ihren unterirrdischen 
+<anchor xml:id="GB03_1_BR543_0_333_008"/>Lauf in Gedanken verfolgen kann. <ref target="gb:note#GB03_2_BR543_0_note_055_333_8" xml:id="start_com_4801"/>Das Stadtgen <emph rendition="#latin">Valorbe</emph><ref xml:id="end_com_4801"/><ptr n="31" target="#a031_333.8"/>
+        <anchor xml:id="GB03_1_BR543_0_333_009"/>liegt auch in diesem Thal. Ungern schieden wir ab. Einige Stunden 
+<anchor xml:id="GB03_1_BR543_0_333_010"/>länger, indem der Nebel um diese Zeit sich zu zerstreuen pflegt, hätten 
+<anchor xml:id="GB03_1_BR543_0_333_011"/>uns<ptr n="32" target="#a032_333.11"/> das tiefere Land mit dem See entdeken lassen, so aber musste, 
+<anchor xml:id="GB03_1_BR543_0_333_012"/>damit der Genuss vollkommen werde, noch etwas zu wünschen übrig 
+<anchor xml:id="GB03_1_BR543_0_333_013"/>bleiben. Abwärts hatten wir unser ganzes Thal in aller Klarheit vor 
+<anchor xml:id="GB03_1_BR543_0_333_014"/>uns, stiegen bei <emph rendition="#latin">Pont</emph> zu Pferde, ritten an der Ostseite den See hinauf, 
+<anchor xml:id="GB03_1_BR543_0_333_015"/>kamen durch <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_056_333_15" xml:id="start_com_4802"/>l’Abbaye de<ptr n="33" target="#a033_333.15"/> Joux</emph><ref xml:id="end_com_4802"/>, welches iezo ein Dorf ist, ehemals aber 
+<anchor xml:id="GB03_1_BR543_0_333_016"/>ein Siz der Geistlichen war, denen das ganze Thal zugehörte. Gegen 
+<anchor xml:id="GB03_1_BR543_0_333_017"/>viere langten wir in <ref target="gb:note#GB03_2_BR543_0_note_057_333_17" xml:id="start_com_4803"/>unserm Wirthshaus<ref xml:id="end_com_4803"/> an, und fanden ein Essen, wovon 
+<anchor xml:id="GB03_1_BR543_0_333_018"/>uns <ref target="gb:note#GB03_2_BR543_0_note_058_333_18" xml:id="start_com_4804"/>die Wirthin<ref xml:id="end_com_4804"/> versicherte, dass es um Mitag gut gewesen sei, 
+<anchor xml:id="GB03_1_BR543_0_333_019"/>aber auch <ref target="gb:note#GB03_2_BR543_0_note_059_333_19" xml:id="start_com_4805"/>übergar<ref xml:id="end_com_4805"/> treflich schmekte.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_333_020"/>Dass ich noch einiges, wie man mir es erzählt, hinzufüge. Wie ich 
+<anchor xml:id="GB03_1_BR543_0_333_021"/>eben erwähnte, soll ehedem das Thal an Mönche gehört haben, die es 
+<anchor xml:id="GB03_1_BR543_0_333_022"/>denn wieder <ref target="gb:note#GB03_2_BR543_0_note_060_333_22" xml:id="start_com_4806"/>vereinzelt<ref xml:id="end_com_4806"/>, und zu Zeiten der <emph rendition="#latin">Reformation</emph> mit den übrigen 
+<anchor xml:id="GB03_1_BR543_0_333_023"/>ausgetrieben worden, iezo<ptr n="34" target="#a034_333.23"/> gehört es zum Canton Bern und sind 
+<anchor xml:id="GB03_1_BR543_0_333_024"/>die Gebürge umher die Holzkammer von dem <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_061_333_24" xml:id="start_com_4807"/>païs de vaud</emph><ref xml:id="end_com_4807"/>. Die meisten 
+<anchor xml:id="GB03_1_BR543_0_333_025"/><ref target="gb:note#GB03_2_BR543_0_note_062_333_25" xml:id="start_com_4808"/>Hölzer<ref xml:id="end_com_4808"/> sind Privatbesizungen, werden unter Aufsicht geschlagen 
+<anchor xml:id="GB03_1_BR543_0_333_026"/>und so ins Land gefahren. Auch werden hier die <ref target="gb:note#GB03_2_BR543_0_note_063_333_26" xml:id="start_com_4809"/>Dauben<ref xml:id="end_com_4809"/> zu fichtenen 
+<anchor xml:id="GB03_1_BR543_0_333_027"/>Fässern geschnitten, Eimer, Bottge und allerlei hölzerne Gefäse verfertiget. 
+<anchor xml:id="GB03_1_BR543_0_333_028"/>Die Leute sind gut gebildet und gesittet, neben dem Holzverkauf 
+<anchor xml:id="GB03_1_BR543_0_333_029"/>treiben sie die Viehzucht, sie haben kleines Vieh und machen gute 
+<anchor xml:id="GB03_1_BR543_0_333_030"/>Käse, sie sind geschäftig und ein Erdschollen ist ihnen viel werth, wir 
+<anchor xml:id="GB03_1_BR543_0_333_031"/>fanden einen, der die wenige aus einem Gräbgen aufgeworfene Erde 
+<anchor xml:id="GB03_1_BR543_0_333_032"/>mit Pferd und Karren<ptr n="35" target="#a035_333.32"/> in einige Vertiefungen eben der Wiese führte, 
+<anchor xml:id="GB03_1_BR543_0_333_033"/>die Steine legen sie sorgfältig zusammen und bringen sie auf kleine 
+<anchor xml:id="GB03_1_BR543_0_333_034"/>Haufen. Es sind viele Steinschleifer hier, die für Genfer und andere 
+<anchor xml:id="GB03_1_BR543_0_334_001"/>Kaufleute arbeiten, womit auch die Frauen<ptr n="36" target="#a036_334.1"/> und Kinder sich beschäftigen. 
+<anchor xml:id="GB03_1_BR543_0_334_002"/>Die Häuser sind dauerhaft und sauber gebaut, die Form und Einrichtung 
+<anchor xml:id="GB03_1_BR543_0_334_003"/>nach dem Bedürfniss der Gegend und der Bewohner, vor iedem 
+<anchor xml:id="GB03_1_BR543_0_334_004"/>Hause <pb n="4" facs="gb:digitalisate#12038/23164"/> läuft ein Brunnen und durchaus spürt man Fleiss, 
+<anchor xml:id="GB03_1_BR543_0_334_005"/>Rührigkeit und Wohlstand. Über alles aber muss man die schöne 
+<anchor xml:id="GB03_1_BR543_0_334_006"/>Weege preissen<ptr n="37" target="#a037_334.6"/>, für die, in diesen entfernten Gegenden, <ref target="gb:note#GB03_2_BR543_0_note_064_334_6-7" xml:id="start_com_4810"/>der Stand 
+<anchor xml:id="GB03_1_BR543_0_334_007"/>Bern<ref xml:id="end_com_4810"/>, wie durch den ganzen übrigen Canton sorgt. Es geht eine 
+<anchor xml:id="GB03_1_BR543_0_334_008"/><emph rendition="#latin">Chaussée</emph> um das ganze Thal herum, nicht übermässig breit, aber wohl 
+<anchor xml:id="GB03_1_BR543_0_334_009"/>unterhalten, so dass die Einwohner mit der grössten Bequemlichkeit 
+<anchor xml:id="GB03_1_BR543_0_334_010"/>ihr Gewerbe treiben, mit kleinen Pferden und leichten Wagen fortkommen 
+<anchor xml:id="GB03_1_BR543_0_334_011"/>können. Die Luft ist sehr rein<ptr n="38" target="#a038_334.11"/> und gesund.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_334_012"/>den 26<hi rendition="#sup">t<g ref="#typoSuspension"/></hi> ward beim Frühstük überlegt, welchen Weeg man zurük 
+<anchor xml:id="GB03_1_BR543_0_334_013"/>nehmen wolle? Da wir hörten dass <ref target="gb:note#GB03_2_BR543_0_note_065_334_13-14" xml:id="start_com_4811"/>die <emph rendition="#latin">Dole</emph>, der höchste Gipfel des 
+<anchor xml:id="GB03_1_BR543_0_334_014"/>Jura nicht weit von dem obern Ende des Thals<ref xml:id="end_com_4811"/> läge, da<ptr n="39" target="#a039_334.14"/> das Wetter sich 
+<anchor xml:id="GB03_1_BR543_0_334_015"/>auf das herrlichste anlies und wir hoffen konnten, was uns gestern 
+<anchor xml:id="GB03_1_BR543_0_334_016"/>noch gefehlt, heute vom Glük alles zu erlangen, so wurde dahin zu 
+<anchor xml:id="GB03_1_BR543_0_334_017"/>gehen beschlossen. Wir pakten einem Boten Käs, Butter Brod und 
+<anchor xml:id="GB03_1_BR543_0_334_018"/>Wein auf, und ritten gegen achte ab. Unser Weeg ging nun durch den 
+<anchor xml:id="GB03_1_BR543_0_334_019"/>obern Theil des Thals, in dem Schatten des <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_066_334_19" xml:id="start_com_4812"/>noir mont</emph>s<ref xml:id="end_com_4812"/> hin. Es war sehr 
+<anchor xml:id="GB03_1_BR543_0_334_020"/>kalt, hatte gereift und gefrohren, wir hatten noch eine Stunde im Bernischen 
+<anchor xml:id="GB03_1_BR543_0_334_021"/>zu reiten, wo man eben die <emph rendition="#latin">Chaussée</emph> zu Ende zu bringen beschäftiget 
+<anchor xml:id="GB03_1_BR543_0_334_022"/>ist. Durch einen kleinen Fichtenwald rükten wir ins französche 
+<anchor xml:id="GB03_1_BR543_0_334_023"/>Gebiet ein. Hier veränderte sich der Schauplaz sehr. Was wir 
+<anchor xml:id="GB03_1_BR543_0_334_024"/>zuerst bemerkten waren die schlechte Weege, der Boden ist sehr steinigt, 
+<anchor xml:id="GB03_1_BR543_0_334_025"/>überall liegen sehr grosse Hauffen zusammen gelesen, wieder ist 
+<anchor xml:id="GB03_1_BR543_0_334_026"/>er eines Theils sehr morastig und quelligt, die Waldungen umher sind 
+<anchor xml:id="GB03_1_BR543_0_334_027"/>sehr ruiniret, den Häusern und Einwohnern sieht man, ich will nicht 
+<anchor xml:id="GB03_1_BR543_0_334_028"/>sagen Mangel, aber doch bald ein <ref target="gb:note#GB03_2_BR543_0_note_067_334_28" xml:id="start_com_4813"/>sehr enges Bedürfniss<ref xml:id="end_com_4813"/> an, sie gehören 
+<anchor xml:id="GB03_1_BR543_0_334_029"/>fast als Leibeigne an die <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_068_334_29" xml:id="start_com_4814"/>Canonicos</emph><ref xml:id="end_com_4814"/><ptr n="40" target="#a040_334.29"/> von <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_069_334_29" xml:id="start_com_4815"/>St Claude</emph><ref xml:id="end_com_4815"/>, sie sind an die Erde 
+<anchor xml:id="GB03_1_BR543_0_334_030"/>gebunden, viele Abgaben liegen auf ihnen, <ref xml:id="start_com_4816" target="gb:note#GB03_2_BR543_0_note_070_334_30-31"/><emph rendition="#latin">sujets à la main morte et au 
+<anchor xml:id="GB03_1_BR543_0_334_031"/>droit de la suite</emph><ref xml:id="end_com_4816"/>, wovon mündlich ein mehreres, wie auch von dem 
+<anchor xml:id="GB03_1_BR543_0_334_032"/>neusten <ref target="gb:note#GB03_2_BR543_0_note_071_334_32" xml:id="start_com_4817"/>Edikt des Königs<ref xml:id="end_com_4817"/>, wodurch das <emph rendition="#latin">droit de la suite</emph> aufgehoben 
+<anchor xml:id="GB03_1_BR543_0_334_033"/>wird, die Eigenthümer und Besizer aber eingeladen werden, gegen ein 
+<anchor xml:id="GB03_1_BR543_0_334_034"/>gewisses Geld sich von der <emph rendition="#latin">main morte</emph> zu entsagen. Doch ist auch 
+<anchor xml:id="GB03_1_BR543_0_335_001"/>dieser Theil des Thals sehr angebaut, sie nähren sich mühsam und <ref target="gb:note#GB03_2_BR543_0_note_072_335_1-2" xml:id="start_com_4818"/>lieben lieben<ref xml:id="end_com_4818"/>
+        <anchor xml:id="GB03_1_BR543_0_335_002"/>doch ihr Vaterland sehr, stehlen gelegentlich den Bernern<ptr n="41" target="#a041_335.2"/>
+        <anchor xml:id="GB03_1_BR543_0_335_003"/>Holz und verkaufen’s wieder in’s Land. Der erste <ref target="gb:note#GB03_2_BR543_0_note_073_335_3" xml:id="start_com_4819"/>Sprengel<ref xml:id="end_com_4819"/> heist <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_074_335_3-4" xml:id="start_com_4820"/>le<ptr n="42" target="#a042_335.3"/> bois 
+<anchor xml:id="GB03_1_BR543_0_335_004"/>d’amont</emph><ref xml:id="end_com_4820"/>, durch den<ptr n="43" target="#a043_335.4"/> wir in das <ref target="gb:note#GB03_2_BR543_0_note_075_335_4" xml:id="start_com_4821"/>Kirchspiel<ref xml:id="end_com_4821"/> <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_076_335_4" xml:id="start_com_4822"/>les Rousses</emph><ref xml:id="end_com_4822"/> kamen, wo wir 
+<anchor xml:id="GB03_1_BR543_0_335_005"/>den kleinen <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_077_335_5" xml:id="start_com_4823"/>Lac des Rousses</emph> und <emph rendition="#latin">les sept moncels</emph><ref xml:id="end_com_4823"/>, sieben kleine, verschieden 
+<anchor xml:id="GB03_1_BR543_0_335_006"/><ref target="gb:note#GB03_2_BR543_0_note_078_335_6" xml:id="start_com_4824"/>gestallte<ref xml:id="end_com_4824"/> und verbundene Hügel, die <ref target="gb:note#GB03_2_BR543_0_note_079_335_6" xml:id="start_com_4825"/>mittägige<ref xml:id="end_com_4825"/> Gränze des 
+<anchor xml:id="GB03_1_BR543_0_335_007"/>Thals, vor uns sahen. Wir kamen bald auf die neue <ref target="gb:note#GB03_2_BR543_0_note_080_335_7-8" xml:id="start_com_4826"/>Strasse die aus dem 
+<anchor xml:id="GB03_1_BR543_0_335_008"/><emph rendition="#latin">païs de vaud</emph> nach Paris führt<ref xml:id="end_com_4826"/>, wir folgten ihr eine Weile abwärts, und 
+<anchor xml:id="GB03_1_BR543_0_335_009"/>waren nunmehro von unserm Thale geschieden, der kahle Gipfel der 
+<anchor xml:id="GB03_1_BR543_0_335_010"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_081_335_10" xml:id="start_com_4827"/>Dole</emph><ref xml:id="end_com_4827"/> lag vor uns, wir stiegen ab und Wedel ging mit den Pferden auf 
+<anchor xml:id="GB03_1_BR543_0_335_011"/>der Strase voraus nach <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_082_335_11" xml:id="start_com_4828"/>Sergues</emph><ref xml:id="end_com_4828"/> und wir <ref target="gb:note#GB03_2_BR543_0_note_083_335_11" xml:id="start_com_4829"/>stiegen die <emph rendition="#latin">Dole</emph> hinan<ref xml:id="end_com_4829"/>. Es war 
+<anchor xml:id="GB03_1_BR543_0_335_012"/>gegen Mitag, die Sonne schien heiss, aber es wechselte ein kühler 
+<anchor xml:id="GB03_1_BR543_0_335_013"/><ref target="gb:note#GB03_2_BR543_0_note_084_335_13" xml:id="start_com_4830"/>Mitagswind<ref xml:id="end_com_4830"/>. Wenn wir, auszuruhen, uns umsahen, hatten wir <emph rendition="#latin">les sept 
+<anchor xml:id="GB03_1_BR543_0_335_014"/>moncels</emph> hinter uns, wir sahen noch einen Theil<ptr n="44" target="#a044_335.14"/> des <emph rendition="#latin">Lac des Rousses</emph>
+        <anchor xml:id="GB03_1_BR543_0_335_015"/>und um ihn die zerstreuten Häuser des<ptr n="45" target="#a045_335.15"/> Kirchspiels, der <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_085_335_15" xml:id="start_com_4831"/>noir mont</emph><ref xml:id="end_com_4831"/>
+        <anchor xml:id="GB03_1_BR543_0_335_016"/>dekte uns das übrige ganze Thal, höher sahen wir<ptr n="46" target="#a046_335.16"/> wieder ungefehr die 
+<anchor xml:id="GB03_1_BR543_0_335_017"/>gestrige Aussicht in die <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_086_335_17" xml:id="start_com_4832"/>franche comté</emph><ref xml:id="end_com_4832"/> und näher bei uns, gegen <ref target="gb:note#GB03_2_BR543_0_note_087_335_17" xml:id="start_com_4833"/>Mitag<ref xml:id="end_com_4833"/>, 
+<anchor xml:id="GB03_1_BR543_0_335_018"/>die lezten Berge und Thäler des Jura. Sorgfältig hüteten wir uns, nicht 
+<anchor xml:id="GB03_1_BR543_0_335_019"/>durch einen <ref target="gb:note#GB03_2_BR543_0_note_088_335_19" xml:id="start_com_4834"/>Bug<ref xml:id="end_com_4834"/> der Hügel uns nach der Gegend umzusehen, um 
+<anchor xml:id="GB03_1_BR543_0_335_020"/>derent willen wir eigentlich herauf stiegen. Ich war in einiger Sorge 
+<anchor xml:id="GB03_1_BR543_0_335_021"/>wegen des Nebels, doch zog ich aus der Gestalt des obern Himmels 
+<anchor xml:id="GB03_1_BR543_0_335_022"/>einige gute Vorbedeutungen. Wir betraten endlich den obern Gipfel 
+<anchor xml:id="GB03_1_BR543_0_335_023"/>und sahen mit grösstem Vergnügen uns heute gegönnt, was uns gestern 
+<anchor xml:id="GB03_1_BR543_0_335_024"/>versagt war. Das ganze <emph rendition="#latin">Païs de vaud</emph> und <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_089_335_24" xml:id="start_com_4835"/>de Gex</emph><ref xml:id="end_com_4835"/> lag wie eine 
+<anchor xml:id="GB03_1_BR543_0_335_025"/>Fluhrkarte unter uns, alle Besizungen mit grünen Zäunen abgeschnitten, 
+<anchor xml:id="GB03_1_BR543_0_335_026"/>wie die Beete eines <ref target="gb:note#GB03_2_BR543_0_note_090_335_26" xml:id="start_com_4836"/>Parterrs<ref xml:id="end_com_4836"/>. Wir waren so hoch, dass die Höhen 
+<anchor xml:id="GB03_1_BR543_0_335_027"/>und Vertiefungen des vordern Landes gar nicht er<pb n="5" facs="gb:digitalisate#12038/23165"/>schienen. Dörfer, 
+<anchor xml:id="GB03_1_BR543_0_335_028"/>Städtgen, Landhäuser, Weinberge und höher herauf, wo Wald und Alpen 
+<anchor xml:id="GB03_1_BR543_0_335_029"/>angehen, Sennhütten, meist weis und hell angestrichen, leuchteten 
+<anchor xml:id="GB03_1_BR543_0_335_030"/>gegen die Sonne; vom See hatte sich der Nebel schon zurüke gezogen, 
+<anchor xml:id="GB03_1_BR543_0_335_031"/>wir sahen den nächsten Theil an unsrer Küste deutlich, den 
+<anchor xml:id="GB03_1_BR543_0_335_032"/>sogenannten <ref target="gb:note#GB03_2_BR543_0_note_091_335_32" xml:id="start_com_4837"/>kleinen See<ref xml:id="end_com_4837"/>, wo sich der grosse verenget und gegen Genf 
+<anchor xml:id="GB03_1_BR543_0_335_033"/>zu geht, dem wir gegen über waren, ganz, und gegen über klärte sich 
+<anchor xml:id="GB03_1_BR543_0_335_034"/>das Land auf, das ihn einschliesst. Ueber alles aber behauptete der Anblik 
+<anchor xml:id="GB03_1_BR543_0_336_001"/>über die <ref target="gb:note#GB03_2_BR543_0_note_092_336_1" xml:id="start_com_4838"/>Eis- und Schneeberge<ref xml:id="end_com_4838"/> seine Rechte. Wir sezten uns vor 
+<anchor xml:id="GB03_1_BR543_0_336_002"/>der kühlen Luft in Schuz hinter Felsen, liessen uns von der Sonne bescheinen, 
+<anchor xml:id="GB03_1_BR543_0_336_003"/>das Essen und Trinken schmekte treflich. Wir sahen dem 
+<anchor xml:id="GB03_1_BR543_0_336_004"/>Nebel zu, der sich nach und nach verzog, ieder entdekte etwas, oder 
+<anchor xml:id="GB03_1_BR543_0_336_005"/>glaubte was zu entdeken, wir sahen nach und nach <emph rendition="#latin">Lausanne</emph> mit allen 
+<anchor xml:id="GB03_1_BR543_0_336_006"/>Gartenhäusern umher, <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_093_336_6" xml:id="start_com_4839"/>Vevay</emph><ref xml:id="end_com_4839"/> und das <ref target="gb:note#GB03_2_BR543_0_note_094_336_6" xml:id="start_com_4840"/>Schloss von <emph rendition="#latin">Chillon</emph><ref xml:id="end_com_4840"/><ptr n="47" target="#a047_336.6"/> ganz deutlich, 
+<anchor xml:id="GB03_1_BR543_0_336_007"/>das Gebirg, das uns den Eingang vom Wallis<ptr n="48" target="#a048_336.7"/> verdekte, biss in den 
+<anchor xml:id="GB03_1_BR543_0_336_008"/>See, von da an der <ref target="gb:note#GB03_2_BR543_0_note_095_336_8" xml:id="start_com_4841"/>Savoier Küste<ref xml:id="end_com_4841"/>
+        <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_096_336_8" xml:id="start_com_4842"/>Evian</emph>, <emph rendition="#latin">Ripaille</emph>, <emph rendition="#latin">Tonon</emph><ref xml:id="end_com_4842"/>, Dörfgen und 
+<anchor xml:id="GB03_1_BR543_0_336_009"/>Häusgen zwischen inne, Genf kam endlich rechts auch aus dem Nebel, 
+<anchor xml:id="GB03_1_BR543_0_336_010"/>aber weiter gegen <ref target="gb:note#GB03_2_BR543_0_note_097_336_10" xml:id="start_com_4843"/>Mitag<ref xml:id="end_com_4843"/>, gegen den <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_098_336_10" xml:id="start_com_4844"/>mont Crédo</emph><ptr n="49" target="#a049_336.10"/><ref xml:id="end_com_4844"/> und <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_099_336_10" xml:id="start_com_4845"/>mont vauche</emph><ref xml:id="end_com_4845"/>, 
+<anchor xml:id="GB03_1_BR543_0_336_011"/>wo das <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_100_336_11" xml:id="start_com_4846"/>fort l’ecluse</emph><ref xml:id="end_com_4846"/> inne liegt, zog er sich gar nicht weg. Wendeten 
+<anchor xml:id="GB03_1_BR543_0_336_012"/>wir uns wieder links so lag das ganze Land von <emph rendition="#latin">Lausanne</emph> biss Solothurn 
+<anchor xml:id="GB03_1_BR543_0_336_013"/>in leichtem Duft, die nähere Berge und Höhen, auch alles, was 
+<anchor xml:id="GB03_1_BR543_0_336_014"/>weise Häuser hatte, konnten wir erkennen, man zeigte uns das <ref target="gb:note#GB03_2_BR543_0_note_101_336_14-15" xml:id="start_com_4847"/>Schloss 
+<anchor xml:id="GB03_1_BR543_0_336_015"/><emph rendition="#latin">Chanvan</emph><ref xml:id="end_com_4847"/> blinken, das vom Neuburgersee links liegt, woraus wir seine 
+<anchor xml:id="GB03_1_BR543_0_336_016"/>Lage muthmassen, ihn aber in dem blauen Duft nicht erkennen konnten.
+<anchor xml:id="GB03_1_BR543_0_336_017"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_336_018"/>Es sind keine Worte für die Grösse und Schöne dieses Anbliks, man i
+<anchor xml:id="GB03_1_BR543_0_336_019"/>st sich im Augenblik selbst kaum bewusst, dass man sieht, man ruft 
+<anchor xml:id="GB03_1_BR543_0_336_020"/>sich nur gern die Namen und alten Gestalten, der bekannten Städte 
+<anchor xml:id="GB03_1_BR543_0_336_021"/>und Orte zurük und freut sich in einer taumelnden Erkenntniss, dass 
+<anchor xml:id="GB03_1_BR543_0_336_022"/>das eben die weisen Punkte sind, die man vor sich hat.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_336_023"/>Und immer wieder zog die Reihe der glänzenden Eisgebürge das 
+<anchor xml:id="GB03_1_BR543_0_336_024"/>Aug’ und die Seele an sich. Die Sonne wendete sich mehr gegen 
+<anchor xml:id="GB03_1_BR543_0_336_025"/><ref target="gb:note#GB03_2_BR543_0_note_102_336_25" xml:id="start_com_4848"/>Abend<ref xml:id="end_com_4848"/> und erleuchtete ihre grössere Flächen gegen uns zu. Schon was 
+<anchor xml:id="GB03_1_BR543_0_336_026"/>vom See auf für schwarze Felsrüken, Zähne, Thürme und Mauern in 
+<anchor xml:id="GB03_1_BR543_0_336_027"/>vielfachen Reihen vor ihnen aufsteigen! wilde, ungeheure, undurchdringliche 
+<anchor xml:id="GB03_1_BR543_0_336_028"/>Vorhöfe bilden! wann sie dann erst selbst in der Reinheit 
+<anchor xml:id="GB03_1_BR543_0_336_029"/>und Klarheit in der freien Luft mannichfaltig da liegen; man giebt da 
+<anchor xml:id="GB03_1_BR543_0_336_030"/>gern iede <ref target="gb:note#GB03_2_BR543_0_note_103_336_30" xml:id="start_com_4849"/>Prätension<ref xml:id="end_com_4849"/> an’s Unendliche auf, da man nicht einmal mit 
+<anchor xml:id="GB03_1_BR543_0_336_031"/>dem Endlichen im Anschauen und Gedanken fertig werden kann.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_336_032"/>Vor uns sahen wir ein fruchtbar bewohntes Land, der Boden, worauf 
+<anchor xml:id="GB03_1_BR543_0_336_033"/>wir stunden, ein hohes, kahles Gebürge, trägt noch Gras, Futter 
+<anchor xml:id="GB03_1_BR543_0_336_034"/>für Thiere, von denen der Mensch Nuzen zieht, das kann sich der <ref target="gb:note#GB03_2_BR543_0_note_104_336_34-337_1" xml:id="start_com_4850"/>einbildische<ref xml:id="end_com_4850"/><ptr n="50" target="#a050_337.1"/>
+        <anchor xml:id="GB03_1_BR543_0_337_001"/>Herr der Welt noch zueignen; Aber iene sind wie eine heilige 
+<anchor xml:id="GB03_1_BR543_0_337_002"/>Reihe von Jungfrauen, die der Geist des Himmels in unzugänglichen 
+<anchor xml:id="GB03_1_BR543_0_337_003"/>Gegenden, vor<ptr n="51" target="#a051_337.3"/> unsern Augen, für sich allein, in ewiger Reinheit 
+<anchor xml:id="GB03_1_BR543_0_337_004"/>aufbewahrt. Wir blieben und reizten einander wechselsweise Städte, 
+<anchor xml:id="GB03_1_BR543_0_337_005"/>Berge und Gegenden bald mit blossem Auge, bald mit dem Teleskop, 
+<anchor xml:id="GB03_1_BR543_0_337_006"/>zu entdeken und gingen nicht eher abwärts, als biss die Sonne im Weichen, 
+<anchor xml:id="GB03_1_BR543_0_337_007"/>den Nebel seinen Abendhauch über den See breiten lies. Wir 
+<anchor xml:id="GB03_1_BR543_0_337_008"/>kamen mit Sonnen Untergang auf die Ruinen des <emph rendition="#latin"><ref target="gb:note#GB03_2_BR543_0_note_105_337_8" xml:id="start_com_4851"/>fort de St. Sergues</emph><ref xml:id="end_com_4851"/>. 
+<anchor xml:id="GB03_1_BR543_0_337_009"/>Auch<ptr n="52" target="#a052_337.9"/> näher am Thal, waren unsre Augen nur auf die Eisgebürge<ptr n="53" target="#a053_337.9"/> gegen 
+<anchor xml:id="GB03_1_BR543_0_337_010"/>über gerichtet. Die lezten, links im <ref target="gb:note#GB03_2_BR543_0_note_106_337_10" xml:id="start_com_4852"/>Oberland<ref xml:id="end_com_4852"/>, schienen in einem 
+<anchor xml:id="GB03_1_BR543_0_337_011"/>leichten Feuerdampf aufzuschmelzen, die nächsten standen noch mit 
+<anchor xml:id="GB03_1_BR543_0_337_012"/>wohl bestimmten rothen Seiten gegen uns, nach und nach wurden 
+<anchor xml:id="GB03_1_BR543_0_337_013"/>iene weis-grün-graulich. Es sah fast ängstlich aus. Wie ein gewaltiger 
+<anchor xml:id="GB03_1_BR543_0_337_014"/>Körper von aussen gegen das Herz zu abstirbt, so erblassten alle langsam 
+<anchor xml:id="GB03_1_BR543_0_337_015"/>gegen den <emph rendition="#latin">mont blanc</emph> zu, dessen weiter Busen noch immer <pb n="6" facs="gb:digitalisate#12038/23166"/> roth 
+<anchor xml:id="GB03_1_BR543_0_337_016"/>herüber glänzte und auch zulezt uns noch einen röthlichen Schein zu 
+<anchor xml:id="GB03_1_BR543_0_337_017"/>behalten schien, wie man den Tod des<ptr n="54" target="#a054_337.17"/> Geliebten nicht gleich bekennen, 
+<anchor xml:id="GB03_1_BR543_0_337_018"/>und den Augenblik, wo der Puls zu schlagen aufhört, nicht abschneiden 
+<anchor xml:id="GB03_1_BR543_0_337_019"/>will. Auch nun gingen wir ungern weg, <ref target="gb:note#GB03_2_BR543_0_note_107_337_19-20" xml:id="start_com_4853"/>die Pferde fanden 
+<anchor xml:id="GB03_1_BR543_0_337_020"/>wir in <emph rendition="#latin">St. Sergues</emph><ref xml:id="end_com_4853"/>, und dass nichts fehle, stieg der Mond auf und leuchtete 
+<anchor xml:id="GB03_1_BR543_0_337_021"/>uns nach <ref target="gb:note#GB03_2_BR543_0_note_108_337_21" xml:id="start_com_4854"/>Nion<ref xml:id="end_com_4854"/>, wo unter Weegs unsere gespannten Sinnen sich 
+<anchor xml:id="GB03_1_BR543_0_337_022"/>wieder lieblich falten konnten, wieder freundlich wurden und mit frischer 
+<anchor xml:id="GB03_1_BR543_0_337_023"/>Lust aus den Fenstern des Wirtshausses<ptr n="55" target="#a055_337.23"/> den breitschwimmenden<ptr n="56" target="#a056_337.23"/>
+        <anchor xml:id="GB03_1_BR543_0_337_024"/>Wiederglanz des Monds im ganz reinen See geniesen konnten.<pb n="7" facs="gb:digitalisate#12038/23167" type="empty"/><pb n="8" facs="gb:digitalisate#12038/23168" type="empty"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+      <pb n="9" facs="gb:digitalisate#12038/23170"/>
+        <anchor xml:id="GB03_1_BR543_0_337_025"/>Genf d<g ref="#typoSuspension"/>. 29 Oktbr.      Vorgestern sind wir endlich hier angekommen, 
+<anchor xml:id="GB03_1_BR543_0_337_026"/>und werden abwarten wo es mit dem Regen hinwill der sich seit 
+<anchor xml:id="GB03_1_BR543_0_337_027"/>heute Nacht eingelegt hat.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR543_0_337_028"/>Adieu liebe. Ich hoffe Sie werden sich an <ref target="gb:note#GB03_2_BR543_0_note_109_337_28" xml:id="start_com_4855"/>Philipps Petitschrifft<ref xml:id="end_com_4855"/> erbauen. 
+<anchor xml:id="GB03_1_BR543_0_337_029"/>Hier hab ich <ref target="gb:note#GB03_2_BR543_0_note_110_337_29" xml:id="start_com_4856"/>noch keinen Brief von Ihnen<ref xml:id="end_com_4856"/> gefunden, vielleicht 
+<anchor xml:id="GB03_1_BR543_0_337_030"/>ist er sehr nahe, doch werd ich ihn späte erhalten, denn in <ref target="gb:note#GB03_2_BR543_0_note_111_337_30-31" xml:id="start_com_4857"/>die Gegenden 
+<anchor xml:id="GB03_1_BR543_0_337_031"/>wo wir hingehen<ref xml:id="end_com_4857"/> folgt kein Bote.     Adieu auf eine</p>
+      <closer>
+        <dateline rendition="#einrueck5">
+          <anchor xml:id="GB03_1_BR543_0_337_032"/>Weile.                         </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12038_comment">
+<body>
+<div type="metadata" xml:id="gb12038_comment_com529">
+  <ab type="numberAddressee"><label>543.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77909">Genf</placeName>, 28. Oktober 1779 und 29. Oktober 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied> und <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12038_comment_com2573">
+  <p>Aus dem von Goethe geschriebenen Briefteil vom 29. Oktober 1779 geht hervor, dass er diesen zusammen mit dem Reisebericht, den er am 28. Oktober Philipp Seidel diktiert hatte, abgeschickt hat (vgl. <ref target="gb:text#GB03_1_BR543_0_337_028 #GB03_1_BR543_0_337_029">337,28–29</ref>). Aus diesem Grund werden beide als Teile eines einzigen Briefes verstanden und nicht wie bisher als zwei selbstständige Briefe gedruckt.</p>
+ <space unit="lines" quantity="1"/>
+  <p>1) Briefteil vom 28. Oktober 1779:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 35. – 2 ineinandergelegte Doppelblätter 18,5 × 24 cm, Büttenrand, S. 1–5 ganz, S. 6 mit 8 Zeilen (etwa &#x2155; S.) beschr., Schreiberhd (Seidel), sehr kleine Schrift, mit Korrekturen Seidels nach egh. Korrekturen in der Abschrift Seidels, die Beilage zu einem Brief an Catharina Elisabeth Goethe war (vgl. <ref target="gb:dokument#52708">EB 273</ref>; Beilage weitergegeben an Anna Amalia von Sachsen-Weimar und Eisenach), Tinte; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „9“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 57), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 269 (Teildruck: <ref target="gb:text#GB03_1_BR543_0_329_007 #GB03_1_BR543_0_329_010">329,7–10</ref> <quote type="G">Wir haben diese Tage <gap quantity="3" reason="editorial"/> grosse Bergkette</quote>).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1 (1883), 203–211, Nr 354.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 97–110, Nr 858.</p>
+ <space unit="lines" quantity="1"/>
+  <p>2) Briefteil vom 29. Oktober 1779:</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 36. – 1 Bl. 17,1 × 10,7(–10,9) cm, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „10.“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 58), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 269 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 114, Nr 860.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12038_comment_com4369">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Eine Abschrift des Briefteils vom 28. Oktober 1779 von der Hand Philipp Seidels ging (vermutlich mit einem nicht überlieferten Brief) an Catharina Elisabeth Goethe (vgl. <ref target="gb:dokument#52708">EB 273</ref>), die den Bericht mit einem Begleitbrief vom 5. November 1779 an Herzogin Anna Amalia nach Weimar weitersandte (vgl. <ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 461). Bei der Abschrift (<ref target="archivdb:dokument#8525">GSA 29/409a</ref>) handelt es sich demnach nicht um einen selbstständigen Brief, wie eine Notiz von fremder Hand auf der Handschrift nahelegen könnte: „Göthe an Amalie“. Eine weitere Abschrift schickte Goethe mit seinem Brief vom 16. November 1779 (<ref target="gb:dokument#2622">Nr 548</ref>) von Luzern aus an Johanna Schlosser (vgl. zu <ref target="gb:note#GB03_2_BR548_0_note_004_343_7">343,7</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12038_comment_com12081">
+<label xml:id="GB03_2_BR543_0_note_001_329_7-8" copyOf="#start_com_4747"><hi rendition="#fett">329,7-8</hi>Seitenweeg auf die höchsten Gipfel des Jura</label>
+<p>Am 25. Oktober 1779 bestieg Goethe die Dent de Vaulion, am 26. Oktober die Dôle; die Schilderung der Reise mit den beiden Wanderungen hatte Goethe im Brief vom 20. bis 27. Oktober 1779 angekündigt (vgl. <ref target="gb:text#GB03_1_BR541_0_326_003 #GB03_1_BR541_0_326_005">326,3–5</ref>; <ref target="gb:text#GB03_1_BR541_0_326_019 #GB03_1_BR541_0_326_020">326,19–20</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15208">
+<label xml:id="GB03_2_BR543_0_note_002_329_8" copyOf="#start_com_4748"><hi rendition="#fett">329,8</hi>Beschreibung</label>
+<p>Die folgende Schilderung (<ref target="gb:text#GB03_1_BR543_0_329_010 #GB03_1_BR543_0_337_024">329,10–337,24</ref>) findet sich leicht verändert in der 2. Abteilung von Goethes „Briefen aus der Schweiz“ (<ref target="sndb:sigle#1157">WA</ref> I 19, 226–240).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12082">
+<label xml:id="GB03_2_BR543_0_note_003_329_15" copyOf="#start_com_4749"><hi rendition="#fett">329,15</hi>Kalchhöhen</label>
+<p>Kalch: mundartlich (mittel- und oberdeutsch) geprägte Schreibweise für ‚Kalk‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11, 64).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12092">
+<label xml:id="GB03_2_BR543_0_note_004_329_20" copyOf="#start_com_4750"><hi rendition="#fett">329,20</hi>streicht</label>
+<p>‚Streichen‘ hier im Sinne von ‚sich erstrecken‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 435).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12093">
+<label xml:id="GB03_2_BR543_0_note_005_329_20" copyOf="#start_com_4751"><hi rendition="#fett">329,20</hi>von Mitag gegen Mitternacht</label>
+<p>Von Süden nach Norden.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15221">
+<label xml:id="GB03_2_BR543_0_note_006_329_21" copyOf="#start_com_4752"><hi rendition="#fett">329,21</hi><emph rendition="#latin">sept moncels</emph></label>
+<p>Franz./altfranz.: sieben Hügel. – Gemeint sind die sieben Hügel, die das Dorf Les Rousses im Süden des Vallée de Joux umgeben. 17 km (Luftlinie) südwestlich von Les Rousses liegt die Gemeinde Septmoncels.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12094">
+<label xml:id="GB03_2_BR543_0_note_007_329_22" copyOf="#start_com_4753"><hi rendition="#fett">329,22</hi><emph rendition="#latin">dent de vaulion</emph></label>
+<p>Berg nordwestlich des Lac de Joux (vgl. <ref target="gb:text#GB03_1_BR543_0_331_026 #GB03_1_BR543_0_331_027">331,26–27</ref>). ‚Dent‘ (franz. la dent: Zahn, Zacken) dient in den schweizerisch-französischen Alpen häufig zur Bezeichnung eines Berggipfels.</p>
+
+</note>
+<note xml:id="gb12038_comment_com14014">
+<label xml:id="GB03_2_BR543_0_note_008_329_22" copyOf="#start_com_4754"><hi rendition="#fett">329,22</hi>nach der <emph rendition="#latin">Dole</emph> der höchste Gipfel des Jura</label>
+<p>Die Dent de Vaulion ist 1483 m hoch, die Dôle (franz. La Dôle) 1677 m.</p>
+
+</note>
+<note xml:id="gb12038_comment_com18301">
+<label xml:id="GB03_2_BR543_0_note_009_329_24" copyOf="#start_com_4755"><hi rendition="#fett">329,24</hi>sechs starke Stunden</label>
+<p>Gemeint sind ‚reichlich bemessene‘ Stunden (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 17, 883), also mehr als sechs Zeitstunden. – Die Zeitangabe bezieht sich demnach vermutlich auf einen Fußmarsch. Die Entfernung zwischen Les Rousses im Südwesten und der Dent de Vaulion im Nordosten des Tals beträgt ungefähr 35 km, so dass von einer Marschgeschwindigkeit von gut 5 km in der Stunde ausgegangen werden kann.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12095">
+<label xml:id="GB03_2_BR543_0_note_010_329_25" copyOf="#start_com_4756"><hi rendition="#fett">329,25</hi>an der Morgenseite</label>
+<p>An der Ostseite.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12096">
+<label xml:id="GB03_2_BR543_0_note_011_329_26" copyOf="#start_com_4757"><hi rendition="#fett">329,26</hi><emph rendition="#latin">le noir mont</emph></label>
+<p>Le Noirmont (1567 m) ist ein Berggipfel östlich von Les Rousses am Südende des Vallée de Joux. Goethe bezieht den Namen hier auf den gesamten Höhenrücken, der von Südwest nach Nordost parallel zum Vallée de Joux verläuft und dieses nach Osten hin begrenzt. Höchster Gipfel ist der Mont Tendre (1679 m).</p>
+
+</note>
+<note xml:id="gb12038_comment_com13725">
+<label xml:id="GB03_2_BR543_0_note_012_329_27" copyOf="#start_com_4758"><hi rendition="#fett">329,27</hi>streicht</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR543_0_note_004_329_20">329,20</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15222">
+<label xml:id="GB03_2_BR543_0_note_013_329_27" copyOf="#start_com_4759"><hi rendition="#fett">329,27</hi>der <emph rendition="#latin">Risou</emph></label>
+<p>Die Bergkette des Forêt du Risoux, die von Südwest nach Nordost parallel zum Vallée de Joux verläuft und dieses nach Westen hin begrenzt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12107">
+<label xml:id="GB03_2_BR543_0_note_014_329_27-28" copyOf="#start_com_4760"><hi rendition="#fett">329,27-28</hi><emph rendition="#latin">franche comté</emph></label>
+<p>Die frühere ‚Freie Grafschaft‘ Burgund, die seit dem Frieden von Nijmegen 1678 zu Frankreich gehörte.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15675">
+<label xml:id="GB03_2_BR543_0_note_015_329_29" copyOf="#start_com_4761"><hi rendition="#fett">329,29</hi>die obere</label>
+<p>Die südwestliche Hälfte.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12108">
+<label xml:id="GB03_2_BR543_0_note_016_330_1" copyOf="#start_com_4762"><hi rendition="#fett">330,1</hi><emph rendition="#latin">lac de Joux</emph></label>
+<p>9 km langer und durchschnittlich 1000 m breiter See im unteren (nordöstlichen) Vallée de Joux.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15223">
+<label xml:id="GB03_2_BR543_0_note_017_330_3" copyOf="#start_com_4763"><hi rendition="#fett">330,3</hi><emph rendition="#latin">Lac des rousses</emph></label>
+<p>Nordöstlich von Les Rousses gelegener, 2 km langer und 500 m breiter See; er wird von verschiedenen Bächen gespeist, darunter als größtem dem Bief Noir.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12109">
+<label xml:id="GB03_2_BR543_0_note_018_330_7" copyOf="#start_com_4764"><hi rendition="#fett">330,7</hi><emph rendition="#latin">Dens de vaulion</emph></label>
+<p>Dent de Vaulion (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR543_0_note_007_329_22">329,22</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12110">
+<label xml:id="GB03_2_BR543_0_note_019_330_8" copyOf="#start_com_4765"><hi rendition="#fett">330,8</hi>kleinen See</label>
+<p>Der Lac Brenet, ein 1,5 km langer und 500 m breiter See am nordöstlichen Ende des Lac de Joux, von dem er durch einen Überlauf gespeist wird.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15676">
+<label xml:id="GB03_2_BR543_0_note_020_330_10-12" copyOf="#start_com_4766"><hi rendition="#fett">330,10-12</hi>eine halbe Stunde <gap quantity="3" reason="editorial"/> anderthalb Stunden</label>
+<p>Bezogen auf einen Fußmarsch. – Das Vallée de Joux besitzt einen flachen Talboden von 1 bis 1,5 km Breite; das gesamte Talbecken einschließlich der Hänge ist 4 bis 5 km breit.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12122">
+<label xml:id="GB03_2_BR543_0_note_021_330_14" copyOf="#start_com_4767"><hi rendition="#fett">330,14</hi>Den 24 Okt.</label>
+<p>Über die an diesem Tag unternommene Tour hatte Goethe bereits im vorangegangenen Brief an Charlotte von Stein vom 20. bis 27. Oktober 1779 berichtet (vgl. <ref target="gb:text#GB03_1_BR541_0_324_020 #GB03_1_BR541_0_325_027">324,20–325,27</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12123">
+<label xml:id="GB03_2_BR543_0_note_022_330_14-15" copyOf="#start_com_4768"><hi rendition="#fett">330,14-15</hi>Hauptmanns und Oberforstmeisters</label>
+<p>Jacques Arpeau, ein Schwager Johann Heinrich Mercks, den Goethe in Mont-sur-Rolle traf; er hatte angeboten, die Reisenden zu begleiten.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12124">
+<label xml:id="GB03_2_BR543_0_note_023_330_15" copyOf="#start_com_4769"><hi rendition="#fett">330,15</hi><emph rendition="#latin">mont</emph></label>
+<p>Mont-sur-Rolle in der La côte genannten Weinbauregion am Nordufer des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15239">
+<label xml:id="GB03_2_BR543_0_note_024_330_20" copyOf="#start_com_4770"><hi rendition="#fett">330,20</hi><emph rendition="#latin">faucigné</emph></label>
+<p>Faucigny, Landschaft im damaligen Savoyen im oberen und mittleren Gebiet der Arve, die bei Genf in die Rhone fließt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12125">
+<label xml:id="GB03_2_BR543_0_note_025_330_28" copyOf="#start_com_4771"><hi rendition="#fett">330,28</hi>einen grossen See</label>
+<p>Lac de Joux.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12126">
+<label xml:id="GB03_2_BR543_0_note_026_330_33" copyOf="#start_com_4772"><hi rendition="#fett">330,33</hi>in einem Hause</label>
+<p>Im Haus von Jacques David Rochat in Le Brassus (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_056_325_25-26">325,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15250">
+<label xml:id="GB03_2_BR543_0_note_027_331_11" copyOf="#start_com_4773"><hi rendition="#fett">331,11</hi>Den 25.</label>
+<p>Den folgenden Bericht über die Tour zur Dent de Vaulion (<ref target="gb:text#GB03_1_BR543_0_331_011 #GB03_1_BR543_0_334_011">331,11–334,11</ref>) hatte Goethe in <ref target="gb:dokument#12036">Nr 541</ref> angekündigt (vgl. <ref target="gb:text#GB03_1_BR541_0_326_003 #GB03_1_BR541_0_326_005">326,3–5</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com13875">
+<label xml:id="GB03_2_BR543_0_note_028_331_20" copyOf="#start_com_4774"><hi rendition="#fett">331,20</hi>Das erste <gap quantity="3" reason="editorial"/><emph rendition="#latin">le sentier</emph>.</label>
+<p>Dieser Angabe zufolge lag Goethes Quartier im Vallée de Joux vom 24. bis 26. Oktober 1779 in Le Brassus. Denn Le Sentier ist von dort das nächste Dorf in Richtung Lac de Joux. (Heute gehören beide Dörfer, Le Brassus und Le Sentier, zur Großgemeinde Le Chenit.)</p>
+
+</note>
+<note xml:id="gb12038_comment_com12142">
+<label xml:id="GB03_2_BR543_0_note_029_331_23" copyOf="#start_com_4775"><hi rendition="#fett">331,23</hi><emph rendition="#latin">le lieu</emph></label>
+<p>Die Gemeinde Le Lieu am nördlichen Ufer des Lac de Joux auf der Hälfte der Strecke zwischen dessen beiden Enden.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12143">
+<label xml:id="GB03_2_BR543_0_note_030_331_24-25" copyOf="#start_com_4776"><hi rendition="#fett">331,24-25</hi>ein kleiner See</label>
+<p>Lac Brenet (vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_019_330_8">330,8</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15268">
+<label xml:id="GB03_2_BR543_0_note_031_331_29" copyOf="#start_com_4777"><hi rendition="#fett">331,29</hi><emph rendition="#latin">le pont</emph></label>
+<p>Dorf zwischen dem Nordostende des Lac de Joux und dem Lac Brenet.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12144">
+<label xml:id="GB03_2_BR543_0_note_032_331_31-32" copyOf="#start_com_4778"><hi rendition="#fett">331,31-32</hi>merkwürdige Mühle</label>
+<p>‚Merkwürdig‘ im 18. Jahrhundert noch im Wortsinn: ‚wert, bemerkt oder beachtet zu werden‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 183).</p>
+
+</note>
+<note xml:id="gb12038_comment_com18224">
+<label xml:id="GB03_2_BR543_0_note_033_331_33" copyOf="#start_com_4779"><hi rendition="#fett">331,33</hi>Mühle in die Tiefe</label>
+<p>Franz. moulin souterrain: unterirdische Mühle. – Auch an anderen Stellen des Jura wurden solche Höhlenmühlen betrieben, um die Wasserkraft von Flüssen zu nutzen, die wenig Gefälle und eine geringe Fließgeschwindigkeit haben; so bereits im 16. Jahrhundert im Tal von Le Locle (westlich von Neuchâtel).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12145">
+<label xml:id="GB03_2_BR543_0_note_034_332_1" copyOf="#start_com_4780"><hi rendition="#fett">332,1</hi>wo es eingeschlukt wird</label>
+<p>Der Jura gehört zu den Karstlandschaften, die einen stark unterirdischen Wasserhaushalt aufweisen. Das Wasser des Lac Brenet floss wie in anderen Seen des Jura (z. B. im Lac de Narlay) lange Zeit durch Versickerungstrichter ab, die durch Korrosion entstanden. Es trat 4 km weiter nordöstlich bei Vallorbe in der Source de l’Orbe wieder hervor. Heute sind diese Trichter abgedichtet; das Wasser des Sees wird durch einen Stollen zum Kraftwerk Vallorbe geleitet.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12136">
+<label xml:id="GB03_2_BR543_0_note_035_332_3" copyOf="#start_com_4781"><hi rendition="#fett">332,3</hi><emph rendition="#latin">entonnoirs</emph></label>
+<p>Franz.: Trichter.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15686">
+<label xml:id="GB03_2_BR543_0_note_036_332_8" copyOf="#start_com_4782"><hi rendition="#fett">332,8</hi>Weegweiser</label>
+<p>Hier ist ein Führer gemeint (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1435).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12158">
+<label xml:id="GB03_2_BR543_0_note_037_332_9" copyOf="#start_com_4783"><hi rendition="#fett">332,9</hi>grossen See</label>
+<p>Lac de Joux.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12149">
+<label xml:id="GB03_2_BR543_0_note_038_332_9" copyOf="#start_com_4784"><hi rendition="#fett">332,9</hi><emph rendition="#latin">noir mont</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_011_329_26">329,26</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12156">
+<label xml:id="GB03_2_BR543_0_note_039_332_10" copyOf="#start_com_4785"><hi rendition="#fett">332,10</hi>Gipfel der Dole</label>
+<p>Er liegt in Luftlinie 35 km südsüdwestlich von der Dent de Vaulion entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12159">
+<label xml:id="GB03_2_BR543_0_note_040_332_11" copyOf="#start_com_4786"><hi rendition="#fett">332,11</hi>der Felsrüken</label>
+<p>Die Bergkette des Forêt du Risoux.</p>
+
+</note>
+<note xml:id="gb12038_comment_com14027">
+<label xml:id="GB03_2_BR543_0_note_041_332_13-14" copyOf="#start_com_4787"><hi rendition="#fett">332,13-14</hi><emph rendition="#latin">Lac des Rousses</emph></label>
+<p>Im oberen Vallée de Joux, von der Dent de Vaulion in Luftlinie etwa 30 km in südsüdöstlicher Richtung entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12160">
+<label xml:id="GB03_2_BR543_0_note_042_332_14-15" copyOf="#start_com_4788"><hi rendition="#fett">332,14-15</hi>Gegend durch die wir gekommen waren</label>
+<p>Auf dem Hinweg nahm Goethe die Route am westlichen Ufer des Lac de Joux entlang; auf dem Rückweg ging es am östlichen Ufer entlang.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12161">
+<label xml:id="GB03_2_BR543_0_note_043_332_17" copyOf="#start_com_4789"><hi rendition="#fett">332,17</hi>Herrschaften</label>
+<p>Hier ist unter ‚Herrschaft‘ das „Gebieth, über welches jemand Herr ist“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1138), zu verstehen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12157">
+<label xml:id="GB03_2_BR543_0_note_044_332_23" copyOf="#start_com_4790"><hi rendition="#fett">332,23</hi>Schnee- und Eissgebürge</label>
+<p>Die Berner und Walliser Alpen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12162">
+<label xml:id="GB03_2_BR543_0_note_045_332_26" copyOf="#start_com_4791"><hi rendition="#fett">332,26</hi><emph rendition="#latin">mont blanc</emph></label>
+<p>Der Montblanc in den Savoyer Alpen, mit 4810 m der höchste Berg der Alpen, gut 100 km südsüdöstlich von der Dent de Vaulion.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12163">
+<label xml:id="GB03_2_BR543_0_note_046_332_27" copyOf="#start_com_4792"><hi rendition="#fett">332,27</hi>Oberlandes</label>
+<p>Gemeint ist das Berner Oberland, die Region um Thuner- und Brienzer See.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12176">
+<label xml:id="GB03_2_BR543_0_note_047_332_28" copyOf="#start_com_4793"><hi rendition="#fett">332,28</hi>Gegen Abend</label>
+<p>Im Westen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12177">
+<label xml:id="GB03_2_BR543_0_note_048_332_31" copyOf="#start_com_4794"><hi rendition="#fett">332,31</hi>Solothurn</label>
+<p>107 km Luftlinie in nordöstlicher Richtung.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15282">
+<label xml:id="GB03_2_BR543_0_note_049_332_31" copyOf="#start_com_4795"><hi rendition="#fett">332,31</hi><emph rendition="#latin">Neufchatel</emph></label>
+<p>55 km Luftlinie in nordöstlicher Richtung.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12178">
+<label xml:id="GB03_2_BR543_0_note_050_332_32" copyOf="#start_com_4796"><hi rendition="#fett">332,32</hi><emph rendition="#latin">Vaulion</emph></label>
+<p>2,5 km östlich.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12179">
+<label xml:id="GB03_2_BR543_0_note_051_332_32" copyOf="#start_com_4797"><hi rendition="#fett">332,32</hi>der Zahn</label>
+<p>Die Dent (franz.: Zahn) de Vaulion.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12180">
+<label xml:id="GB03_2_BR543_0_note_052_332_33" copyOf="#start_com_4798"><hi rendition="#fett">332,33</hi><emph rendition="#latin">franche comté</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_014_329_27-28">329,27-28</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15283">
+<label xml:id="GB03_2_BR543_0_note_053_333_6-7" copyOf="#start_com_4799"><hi rendition="#fett">333,6-7</hi>wo man die Orbe aus dem Felsen kommen sieht</label>
+<p>In der Source de l’Orbe am Rand der Grottes de Vallorbe; Quelle und Höhlen liegen am westlichen Rand des Talkessels von Vallorbe zwischen der Dent de Vaulion im Süden und dem Mont d’Or im Norden.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15724">
+<label xml:id="GB03_2_BR543_0_note_054_333_7" copyOf="#start_com_4800"><hi rendition="#fett">333,7</hi>kleinen See</label>
+<p>Lac Brenet (vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_034_332_1">332,1</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12181">
+<label xml:id="GB03_2_BR543_0_note_055_333_8" copyOf="#start_com_4801"><hi rendition="#fett">333,8</hi>Das Stadtgen <emph rendition="#latin">Valorbe</emph></label>
+<p>Von der Source de l’Orbe 3,5 km talabwärts in östlicher Richtung gelegen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com18253">
+<label xml:id="GB03_2_BR543_0_note_056_333_15" copyOf="#start_com_4802"><hi rendition="#fett">333,15</hi><emph rendition="#latin">l’Abbaye de Joux</emph></label>
+<p>Am Ostufer des Lac de Joux, 3 km südlich von Le Pont. Die Geschichte des Ortes geht auf ein Prämonstratenserkloster zurück, das im 12. Jahrhundert gegründet wurde. Das Dorf entwickelte sich seit dem Spätmittelalter rund um das Kloster, dessen Mönche das Tal urbar gemacht hatten. Im Jahr 1536 eroberte Bern das Waadtland (franz. Pays de Vaud), führte die Reformation ein und säkularisierte das Kloster.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12192">
+<label xml:id="GB03_2_BR543_0_note_057_333_17" copyOf="#start_com_4803"><hi rendition="#fett">333,17</hi>unserm Wirthshaus</label>
+<p>In Le Brassus (vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_056_325_25-26">325,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com16084">
+<label xml:id="GB03_2_BR543_0_note_058_333_18" copyOf="#start_com_4804"><hi rendition="#fett">333,18</hi>die Wirthin</label>
+<p>Möglicherweise die Frau Jacques David Rochats, Jeanne Suzanne Charlotte. Ob die beiden damals knapp 18 bzw. 19 Jahre alten jungen Leute bereits verheiratet waren, konnte nicht ermittelt werden; ihr erstes Kind, Élize Suzanne, kam am 4. Oktober 1781 zur Welt. Vgl. zu <ref target="gb:note#GB03_2_BR541_0_note_056_325_25-26">325,25-26</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com14202">
+<label xml:id="GB03_2_BR543_0_note_059_333_19" copyOf="#start_com_4805"><hi rendition="#fett">333,19</hi>übergar</label>
+<p>Allzu gar gekocht (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 23, 250).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12193">
+<label xml:id="GB03_2_BR543_0_note_060_333_22" copyOf="#start_com_4806"><hi rendition="#fett">333,22</hi>vereinzelt</label>
+<p>Vereinzeln: in einzelne Besitzungen aufteilen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12194">
+<label xml:id="GB03_2_BR543_0_note_061_333_24" copyOf="#start_com_4807"><hi rendition="#fett">333,24</hi><emph rendition="#latin">païs de vaud</emph></label>
+<p>Franz.: Waadtland.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12195">
+<label xml:id="GB03_2_BR543_0_note_062_333_25" copyOf="#start_com_4808"><hi rendition="#fett">333,25</hi>Hölzer</label>
+<p>Gehölze, Waldungen (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1378).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12196">
+<label xml:id="GB03_2_BR543_0_note_063_333_26" copyOf="#start_com_4809"><hi rendition="#fett">333,26</hi>Dauben</label>
+<p>Seitenbretter runder hölzerner Gefäße.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12197">
+<label xml:id="GB03_2_BR543_0_note_064_334_6-7" copyOf="#start_com_4810"><hi rendition="#fett">334,6-7</hi>der Stand Bern</label>
+<p>Die Regierung des Kantons Bern.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12214">
+<label xml:id="GB03_2_BR543_0_note_065_334_13-14" copyOf="#start_com_4811"><hi rendition="#fett">334,13-14</hi>die <emph rendition="#latin">Dole</emph> <gap quantity="3" reason="editorial"/> nicht weit von dem obern Ende des Thals</label>
+<p>La Dôle, ein 1677 m hoher Berg, etwa 32 km südwestlich von Le Brassus.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12215">
+<label xml:id="GB03_2_BR543_0_note_066_334_19" copyOf="#start_com_4812"><hi rendition="#fett">334,19</hi><emph rendition="#latin">noir mont</emph>s</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_011_329_26">329,26</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12216">
+<label xml:id="GB03_2_BR543_0_note_067_334_28" copyOf="#start_com_4813"><hi rendition="#fett">334,28</hi>sehr enges Bedürfniss</label>
+<p>Hier in der Bedeutung: ‚sehr dürftige Lebensverhältnisse‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 784).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15305">
+<label xml:id="GB03_2_BR543_0_note_068_334_29" copyOf="#start_com_4814"><hi rendition="#fett">334,29</hi><emph rendition="#latin">Canonicos</emph></label>
+<p>Kanonikus: Mitglied eines Sifts oder Kapitels, hier die Mitglieder des Klosters von Saint Claude.</p>
+
+</note>
+<note xml:id="gb12038_comment_com18353">
+<label xml:id="GB03_2_BR543_0_note_069_334_29" copyOf="#start_com_4815"><hi rendition="#fett">334,29</hi><emph rendition="#latin">St Claude</emph></label>
+<p>30 km nordwestlich von Genf gelegene Stadt im französischen Hochjura; sie entwickelte sich um ein im 5. Jahrhundert gegründetes Kloster, seit 1742 Bischofssitz. Der Benediktinerorden behandelte die Bewohner der Umgebung widerrechtlich als Leibeigene. Zu den Repressalien gehörte, dass niemand ohne Erlaubnis das Land verlassen durfte, dass jeder zwei oder drei Tage pro Woche Frondienste zu leisten hatte, dass Eheschließungen nur mit Erlaubnis des Ordens möglich waren und Hab und Gut nicht an die Kinder vererbt werden konnte, sondern an den Orden fiel. Im Jahr 1770 wurde ein Dokument wieder aufgefunden, welches bestätigte, dass die Hörigkeit bereits 1390 aufgehoben worden war. Voltaire, der in Ferney nördlich von Genf lebte, unterstützte einige Dörfer in einem Prozess gegen das Kloster, der erfolglos blieb. Erst nach der Französischen Revolution wurde die Leibeigenschaft aufgehoben.</p>
+
+</note>
+<note xml:id="gb12038_comment_com101089">
+<label xml:id="GB03_2_BR543_0_note_070_334_30-31" copyOf="#start_com_4816"><hi rendition="#fett">334,30-31</hi><emph rendition="#latin">sujets à la main morte et au droit de la suite</emph></label>
+<p>Franz.: Gegenstände der Toten Hand und des Rechts auf Folge (Leibeigenschaft). – Das Recht der Toten Hand (lat. manus mortua) ist ein aus dem Feudalrecht hervorgegangener Rechtsbegriff. Er bezeichnet ein Eigentum von Korporationen, vor allem kirchlicher Stiftungen, an Grundbesitz und Rechten, das weder veräußert noch vererbt werden kann. Im Gegensatz zu Leibeigenen weltlicher Grundherren waren diejenigen, die zu kirchlichen Stiftungen gehörten, in einem doppelten Sinne gebunden. Da sie auf nach dem Recht der Toten Hand unveräußerlichen Grundstücken saßen, blieben sie ihrem Grundherrn gleichsam auf ewige Zeit unterworfen und konnten nicht aus der Leibeigenschaft entlassen werden.</p>
+</note>
+<note xml:id="gb12038_comment_com12229">
+<label xml:id="GB03_2_BR543_0_note_071_334_32" copyOf="#start_com_4817"><hi rendition="#fett">334,32</hi>Edikt des Königs</label>
+<p>Näheres zu dem Edikt Ludwigs XVI., seit 1774 König von Frankreich, nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12230">
+<label xml:id="GB03_2_BR543_0_note_072_335_1-2" copyOf="#start_com_4818"><hi rendition="#fett">335,1-2</hi>lieben lieben</label>
+<p>Versehentliche Doppelung.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15726">
+<label xml:id="GB03_2_BR543_0_note_073_335_3" copyOf="#start_com_4819"><hi rendition="#fett">335,3</hi>Sprengel</label>
+<p>Ursprünglich Gerät zum Sprengen geweihten Wassers in der katholischen Kirche, dann auch der Amtsbezirk eines Geistlichen, schließlich auch Bezirk allgemein, wie Gerichtssprengel u. a. (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 17, 26 f.).</p>
+
+</note>
+<note xml:id="gb12038_comment_com14045">
+<label xml:id="GB03_2_BR543_0_note_074_335_3-4" copyOf="#start_com_4820"><hi rendition="#fett">335,3-4</hi><emph rendition="#latin">le bois d’amont</emph></label>
+<p>Die französische Gemeinde Bois d’Amont im Tal der Orbe, 2 km hinter der schweizerisch-französischen Grenze gelegen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12231">
+<label xml:id="GB03_2_BR543_0_note_075_335_4" copyOf="#start_com_4821"><hi rendition="#fett">335,4</hi>Kirchspiel</label>
+<p>Kirchengemeinde, Pfarre; der zweite Wortteil geht vermutlich wie im Fall ‚Beispiel‘ auf mhd. spel (Rede, Erzählung) zurück (vgl. <ref target="sndb:sigle#2956">Kluge/Seebold</ref>, 443).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12232">
+<label xml:id="GB03_2_BR543_0_note_076_335_4" copyOf="#start_com_4822"><hi rendition="#fett">335,4</hi><emph rendition="#latin">les Rousses</emph></label>
+<p>Französische Gemeinde südwestlich vom Lac des Rousses, 7 km von Bois d’Amont entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12233">
+<label xml:id="GB03_2_BR543_0_note_077_335_5" copyOf="#start_com_4823"><hi rendition="#fett">335,5</hi><emph rendition="#latin">Lac des Rousses</emph> und <emph rendition="#latin">les sept moncels</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_017_330_3">330,3</ref>; zu <ref target="gb:note#GB03_2_BR543_0_note_006_329_21">329,21</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15956">
+<label xml:id="GB03_2_BR543_0_note_078_335_6" copyOf="#start_com_4824"><hi rendition="#fett">335,6</hi>gestallte</label>
+<p>‚Gestaltete‘, nur hier belegte Kurzform des Partizips Perfekt (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 129).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12243">
+<label xml:id="GB03_2_BR543_0_note_079_335_6" copyOf="#start_com_4825"><hi rendition="#fett">335,6</hi>mittägige</label>
+<p>Südliche.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15336">
+<label xml:id="GB03_2_BR543_0_note_080_335_7-8" copyOf="#start_com_4826"><hi rendition="#fett">335,7-8</hi>Strasse die aus dem <emph rendition="#latin">païs de vaud</emph> nach Paris führt</label>
+<p>Vermutlich die heutige Route de France, die von La Cure an der französisch-schweizerischen Grenze nach Saint Cergue führt. – Franz. Pays de Vaud: Waadtland, schweizerischer Kanton nördlich des Genfer Sees im schweizerisch-französischen Grenzgebiet.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12244">
+<label xml:id="GB03_2_BR543_0_note_081_335_10" copyOf="#start_com_4827"><hi rendition="#fett">335,10</hi><emph rendition="#latin">Dole</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_065_334_13-14">334,13-14</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12245">
+<label xml:id="GB03_2_BR543_0_note_082_335_11" copyOf="#start_com_4828"><hi rendition="#fett">335,11</hi><emph rendition="#latin">Sergues</emph></label>
+<p>Saint Cergue.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15728">
+<label xml:id="GB03_2_BR543_0_note_083_335_11" copyOf="#start_com_4829"><hi rendition="#fett">335,11</hi>stiegen die <emph rendition="#latin">Dole</emph> hinan</label>
+<p>Der Aufstieg auf den 1677 m hohen Gipfel der Dôle könnte von La Givrine oder Les Pralies begonnen worden sein.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12246">
+<label xml:id="GB03_2_BR543_0_note_084_335_13" copyOf="#start_com_4830"><hi rendition="#fett">335,13</hi>Mitagswind</label>
+<p>Südwind.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12247">
+<label xml:id="GB03_2_BR543_0_note_085_335_15" copyOf="#start_com_4831"><hi rendition="#fett">335,15</hi><emph rendition="#latin">noir mont</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_011_329_26">329,26</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12248">
+<label xml:id="GB03_2_BR543_0_note_086_335_17" copyOf="#start_com_4832"><hi rendition="#fett">335,17</hi><emph rendition="#latin">franche comté</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_014_329_27-28">329,27-28</ref>.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15337">
+<label xml:id="GB03_2_BR543_0_note_087_335_17" copyOf="#start_com_4833"><hi rendition="#fett">335,17</hi>Mitag</label>
+<p>Süden.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12261">
+<label xml:id="GB03_2_BR543_0_note_088_335_19" copyOf="#start_com_4834"><hi rendition="#fett">335,19</hi>Bug</label>
+<p>Biegung, Einbuchtung (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 939).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15339">
+<label xml:id="GB03_2_BR543_0_note_089_335_24" copyOf="#start_com_4835"><hi rendition="#fett">335,24</hi><emph rendition="#latin">de Gex</emph></label>
+<p>Pays de Gex; französische Landschaft mit dem Hauptort Gex, 16 km (Luftlinie) nordnordwestlich von Genf.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12262">
+<label xml:id="GB03_2_BR543_0_note_090_335_26" copyOf="#start_com_4836"><hi rendition="#fett">335,26</hi>Parterrs</label>
+<p>Franz. parterre, hier Begriff aus der Gartenbaukunst: „Luststücke, welche in Felder von verschiedenen Figuren getheilet und mit Blumen, geschnittenen Taxusbäumen u. s. f. ausgezieret werden“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 659).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12263">
+<label xml:id="GB03_2_BR543_0_note_091_335_32" copyOf="#start_com_4837"><hi rendition="#fett">335,32</hi>kleinen See</label>
+<p>Der westliche Teil des Genfer Sees, etwa von Nyon bis Genf.</p>
+
+</note>
+<note xml:id="gb12038_comment_com18273">
+<label xml:id="GB03_2_BR543_0_note_092_336_1" copyOf="#start_com_4838"><hi rendition="#fett">336,1</hi>Eis- und Schneeberge</label>
+<p>Die südlich des Genfer Sees gelegenen Savoyer Alpen mit dem Montblanc (4810 m), die Walliser Alpen mit Dufourspitze (4634 m), Weißhorn (4505 m) und Matterhorn (4478 m) sowie die Berner Alpen mit dem Finsterhaarhorn (4274 m) und der Jungfrau-Gruppe (Eiger, Mönch und Jungfrau, 3970 bis 4158 m). Die Gipfel liegen 90 bis 150 km von La Dôle entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com16085">
+<label xml:id="GB03_2_BR543_0_note_093_336_6" copyOf="#start_com_4839"><hi rendition="#fett">336,6</hi><emph rendition="#latin">Vevay</emph></label>
+<p>Gemeint ist Vevey am Nordostufer des Genfer Sees, 58 km (Luftlinie) von La Dôle entfernt; Goethe hatte am 23. Oktober 1779 von Lausanne aus einen Ausflug dorthin unternommen (vgl. <ref target="gb:text#GB03_1_BR541_0_324_002">324,2</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12264">
+<label xml:id="GB03_2_BR543_0_note_094_336_6" copyOf="#start_com_4840"><hi rendition="#fett">336,6</hi>Schloss von <emph rendition="#latin">Chillon</emph></label>
+<p>Das Wasserschloss liegt 5 km südöstlich von Montreux auf einer Felseninsel vor dem Ostufer des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12265">
+<label xml:id="GB03_2_BR543_0_note_095_336_8" copyOf="#start_com_4841"><hi rendition="#fett">336,8</hi>Savoier Küste</label>
+<p>Gemeint ist das Südufer des Genfer Sees.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12278">
+<label xml:id="GB03_2_BR543_0_note_096_336_8" copyOf="#start_com_4842"><hi rendition="#fett">336,8</hi><emph rendition="#latin">Evian</emph>, <emph rendition="#latin">Ripaille</emph>, <emph rendition="#latin">Tonon</emph></label>
+<p>Evian les bains, Chateau Ripaille und Thonon les bains am Südufer des Genfer Sees auf halber Strecke zwischen dem West- und dem Ostende des Sees, etwa 35 bis 40 km von La Dôle entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12279">
+<label xml:id="GB03_2_BR543_0_note_097_336_10" copyOf="#start_com_4843"><hi rendition="#fett">336,10</hi>Mitag</label>
+<p>Süden.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15353">
+<label xml:id="GB03_2_BR543_0_note_098_336_10" copyOf="#start_com_4844"><hi rendition="#fett">336,10</hi><emph rendition="#latin">mont Crédo</emph></label>
+<p>Der Juragipfel des Grand Crêt d’eau (1621 m) rechts der Rhone, westlich von Collonges, etwa 35 km südwestlich von La Dôle gelegen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com14053">
+<label xml:id="GB03_2_BR543_0_note_099_336_10" copyOf="#start_com_4845"><hi rendition="#fett">336,10</hi><emph rendition="#latin">mont vauche</emph></label>
+<p>Die Montagne de Vuache (höchster Punkt 1106 m) auf der linken Seite der Rhone, dem Grand Crêt d’eau gegenüber, etwa 42 km (Luftlinie) von La Dôle entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15740">
+<label xml:id="GB03_2_BR543_0_note_100_336_11" copyOf="#start_com_4846"><hi rendition="#fett">336,11</hi><emph rendition="#latin">fort l’ecluse</emph></label>
+<p>Das Fort (de) l’Écluse liegt in der Nähe von Collonges an einer natürlichen Engstelle der Rhone zwischen der Montagne de Vuache und den Jurabergen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12280">
+<label xml:id="GB03_2_BR543_0_note_101_336_14-15" copyOf="#start_com_4847"><hi rendition="#fett">336,14-15</hi>Schloss <emph rendition="#latin">Chanvan</emph></label>
+<p>Schloss und Gemeinde Champvent am Südwestende des Lac de Neuchâtel, 57 km (Luftlinie) in nordöstlicher Richtung von La Dôle entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12281">
+<label xml:id="GB03_2_BR543_0_note_102_336_25" copyOf="#start_com_4848"><hi rendition="#fett">336,25</hi>Abend</label>
+<p>Westen.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15354">
+<label xml:id="GB03_2_BR543_0_note_103_336_30" copyOf="#start_com_4849"><hi rendition="#fett">336,30</hi>Prätension</label>
+<p>Nach franz. prétention: Behauptung, Forderung, Anmaßung.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12282">
+<label xml:id="GB03_2_BR543_0_note_104_336_34-337_1" copyOf="#start_com_4850"><hi rendition="#fett">336,34-337,1</hi>einbildische</label>
+<p>Einbildisch: eingebildet, dünkelhaft (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1428; ferner <ref target="sndb:sigle#2890">Grimm</ref> 3, 152).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12295">
+<label xml:id="GB03_2_BR543_0_note_105_337_8" copyOf="#start_com_4851"><hi rendition="#fett">337,8</hi><emph rendition="#latin">fort de St. Sergues</emph></label>
+<p>Das Château de Saint Cergue, das 1476 während der Burgunderkriege zerstört wurde.</p>
+
+</note>
+<note xml:id="gb12038_comment_com12296">
+<label xml:id="GB03_2_BR543_0_note_106_337_10" copyOf="#start_com_4852"><hi rendition="#fett">337,10</hi>Oberland</label>
+<p>Berner Oberland (vgl. zu <ref target="gb:note#GB03_2_BR543_0_note_092_336_1">336,1</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com12297">
+<label xml:id="GB03_2_BR543_0_note_107_337_19-20" copyOf="#start_com_4853"><hi rendition="#fett">337,19-20</hi>die Pferde fanden wir in <emph rendition="#latin">St. Sergues</emph></label>
+<p>Moritz von Wedel, der La Dôle nicht bestiegen hatte, weil er zu Schwindel neigte, hatte die Pferde vorausgeführt (vgl. <ref target="gb:text#GB03_1_BR543_0_335_010 #GB03_1_BR543_0_335_011">335,10–11</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15358">
+<label xml:id="GB03_2_BR543_0_note_108_337_21" copyOf="#start_com_4854"><hi rendition="#fett">337,21</hi>Nion</label>
+<p>Nyon am Genfer See, 24 km von Genf entfernt.</p>
+
+</note>
+<note xml:id="gb12038_comment_com15779">
+<label xml:id="GB03_2_BR543_0_note_109_337_28" copyOf="#start_com_4855"><hi rendition="#fett">337,28</hi>Philipps Petitschrifft</label>
+<p>Bezieht sich auf den von Goethe diktierten Bericht von der Besteigung der Dent de Vaulion am 25. Oktober und der Dôle am 26. Oktober 1779 in der kleinen Handschrift Philipp Seidels (vgl. <ref target="gb:text#GB03_1_BR543_0_329_007 #GB03_1_BR543_0_337_024">329,7–337,24</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com14205">
+<label xml:id="GB03_2_BR543_0_note_110_337_29" copyOf="#start_com_4856"><hi rendition="#fett">337,29</hi>noch keinen Brief von Ihnen</label>
+<p>Goethe hatte bisher nur Charlotte von Steins (nicht überlieferten) Brief vom 25. September 1779 erhalten (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>). Erst am 24. November 1779 erwähnt er den Empfang eines weiteren Briefes, der vom 12. November 1779 stammte (vgl. <ref target="gb:text#GB03_1_BR550_0_344_020">344,20</ref>).</p>
+
+</note>
+<note xml:id="gb12038_comment_com15371">
+<label xml:id="GB03_2_BR543_0_note_111_337_30-31" copyOf="#start_com_4857"><hi rendition="#fett">337,30-31</hi>die Gegenden wo wir hingehen</label>
+<p>Am 3. November brachen Goethe und die übrigen Reiseteilnehmer von Genf in Richtung Savoyer Alpen auf.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

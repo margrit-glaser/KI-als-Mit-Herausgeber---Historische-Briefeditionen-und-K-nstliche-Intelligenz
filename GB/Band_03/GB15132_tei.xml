@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3710"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb15132" n="GB 3, Nr. 362">
+  <teiHeader xml:id="gb15132_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>362.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77650">Dessau</placeName>, 23. Mai 1778. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:53Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb15132_tei.xml</idno>
+        <idno type="URI">gb15132</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR362_0</idno>
+        <idno type="KSW-ID">15132</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="208" to="208">208</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="714" to="718">714-718</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb15132_header_hwit1356" corresp="#gb15132_source_hwit1356" sameAs="#gb15132_comment_hwit1356" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>New York</placeName>
+            </settlement>
+            <institution key="sndb:standort#5">The Morgan Library &amp; Museum</institution>
+            <idno type="shelfmark">Collection of the Heineman-Foundation</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/15132,,1356/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Zu Ende der Wo. denck ich wieder zu hause zu seyn, und hoff</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77650">Dessau</placeName>
+            <date when="1778-05-23">23. Mai 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45319">Seidel, Philipp</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb15132_source_hwit1356" corresp="#gb15132_header_hwit1356" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#15132/28409"/>
+      <p>
+        <anchor xml:id="GB03_1_BR362_0_208_013"/>
+        <ref target="gb:note#GB03_2_BR362_0_note_001_208_13" xml:id="start_com_3172"/>Zu Ende der Woch<supplied>e</supplied> denck ich wieder zuhause zu seyn<ref xml:id="end_com_3172"/>, und hoff<supplied>e</supplied> 
+<anchor xml:id="GB03_1_BR362_0_208_014"/>
+        <ref target="gb:note#GB03_2_BR362_0_note_002_208_14" xml:id="start_com_3173"/>alles<ref xml:id="end_com_3173"/> wohl anzutreffen. Gieb <ref target="gb:note#GB03_2_BR362_0_note_003_208_14" xml:id="start_com_3174"/>inliegendes<ref xml:id="end_com_3174"/> an die Adresse<ptr n="1" target="#a001_208.14"/> ab. <ref target="gb:note#GB03_2_BR362_0_note_004_208_14" xml:id="start_com_3175"/>Jentsch<ref xml:id="end_com_3175"/>
+        <anchor xml:id="GB03_1_BR362_0_208_015"/>wird manchmal <ref target="gb:note#GB03_2_BR362_0_note_005_208_15" xml:id="start_com_3176"/>im Garten<ref xml:id="end_com_3176"/> nachsehn was etwa zu versorgen ist. Was 
+<anchor xml:id="GB03_1_BR362_0_208_016"/>an mich einkommt lässt du liegen. Lebe wohl indessen    Dessau 
+<anchor xml:id="GB03_1_BR362_0_208_017"/>d<g ref="#typoSuspension"/>. 23 May 78</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR362_0_208_018"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#15132/28410" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb15132_comment">
+<body>
+<div type="metadata" xml:id="gb15132_comment_com1003">
+  <ab type="numberAddressee"><label>362.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77650">Dessau</placeName>, 23. Mai 1778 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb15132_comment_com3047">
+  <p>H: The Pierpont Morgan Library, New York, Collection of the Heineman-Foundation. – 1 Bl. 19 × 23 cm, &#xBC; S. beschr., egh., Tinte; Papier oben und unten in der Mitte ausgerissen (jeweils etwa 0,5 × 4 cm), restauriert, geringfügiger Buchstabenverlust (<ref target="gb:text#GB03_1_BR362_0_208_013">208,13</ref>). – Beischluss: wahrscheinlich <ref target="gb:dokument#11951">Nr 363</ref> (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR362_0_note_003_208_14">208,14</ref>).</p>
+  <p>E: Goethes Briefe an Philipp Seidel. Mit einer Einleitung von C<supplied>arl</supplied> A<supplied>ugust</supplied> H<supplied>ugo</supplied> Burkhardt. 2. Aufl. Wien 1909, S. 53, Nr 31 (irrtümliche Datierung: 23. Mai 1788).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref>: Nicht gedruckt.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb15132_comment_com4843">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Philipp Friedrich Seidel (1755–1820) war der Sohn eines Frankfurter Spenglers. Da der Vater früh verstarb, musste Seidel selbst für sein Auskommen sorgen. Er unterrichtete trotz einfacher Schulbildung in angesehenen Familien Frankfurts, war zeitweise einer der Hauslehrer Cornelia Goethes und versah Schreiberdienste für Goethes Vater. Zum Abschluss ihrer Ausbildung schenkte Cornelia Goethe Seidel ein Petschaft mit der Aufschrift „La liberté fait mon bonheur“, das er sein Leben lang benutzte. Schon in Frankfurt hatte Seidel für Goethe als Schreiber gearbeitet. Einige frühe Werke Goethes sind von seiner Hand überliefert, darunter die erste Fassung der „Iphigenie“, „Stella“ und „Triumph der Empfindsamkeit“. Seit April 1775 führte Seidel Goethes Rechnungsbücher (vgl. GR/GB). Im Herbst 1775 begleitete er Goethe bei seinem Weggang aus dem Frankfurter Elternhaus zunächst nach Heidelberg und dann nach Weimar, wo er bis Ende 1788 als Diener, Sekretär und Hausgenosse Goethes dessen uneingeschränktes Vertrauen genoss. Goethe verließ sich auf Seidels Treue und Verantwortungsgefühl und betraute ihn mit vielfältigen Aufgaben. So kümmerte sich Goethes „getreuer Schildknappe und Geheimschreiber“, wie Wieland ihn nannte (<ref target="sndb:sigle#141">WB</ref> 5, 578), neben seiner Arbeit als Sekretär um die Haushaltsführung. Während Goethes häufigen Abwesenheiten von Weimar besaß er weitgehende Vollmachten und war Mittler auch in vertraulichen Angelegenheiten. Mit Goethes Mutter stand Seidel im Briefwechsel. Er berichtete über das Leben in Weimar und übernahm Aufträge für sie. Goethe zog ihn bei seinen amtlichen Geschäften als Gehilfen und Mitarbeiter heran. Außerdem nahm Seidel regen Anteil an den literarischen und wissenschaftlichen Arbeiten Goethes und versuchte sich auch selbst als Schriftsteller. In Christoph Martin Wielands Zeitschrift „Der Teutsche Merkur“ erschien sein Gedicht „Nachtlied“ (Juni-Heft 1778, S. 203 f.). Seit 1786 arbeitete Seidel an einer historisch-systematischen Abhandlung über das Geld- und Münzwesen, dessen Manuskript sich im GSA Weimar erhalten hat (H: <ref target="archivdb:dokument#12677">GSA 30/65</ref>). Neben Herzog Carl August war Seidel der Einzige, den Goethe bei seinem Aufbruch nach Italien im September 1786 in seine Reisepläne einweihte (vgl. Goethe an Seidel, 2. September 1786; <ref target="gb:dokument#10428">GB 6 I, Nr 361</ref> und <ref target="gb:dokument#10279">371</ref>). Bis zu Goethes Rückkehr aus Italien führte er dessen Haus, kümmerte sich um die laufenden Geschäfte und Finanzen und hielt den Kontakt zu den verschiedenen Dienststellen am Hof sowie zu Freunden und Bekannten. Darüber hinaus war er der Bevollmächtigte für die Werkausgabe „Goethe’s Schriften“, die im Verlag von Georg Joachim Göschen in Leipzig erschien.</p>
+  <p rendition="#einrueck1">Carl von Lyncker schrieb in seinen Erinnerungen: „Spaßhaft genug hatte ihm das Schicksal einen Bedienten, nur unter dem Namen Philipp bekannt, zugeführt, der obgleich etwas kleiner dennoch fast eine gleiche Gestalt mit ihm hatte und seine Bewegungen so treu nachahmte, daß man oft versucht war, ihn von Weitem für Göthe selbst zu halten.“ (<ref target="sndb:sigle#2983">Lyncker</ref>, 41.) Über das gemeinsame Leben in Weimar berichtete Seidel am 15. Oktober 1777 seinem Freund Johann Adam Wolf:</p>
+ <floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56459_source" corresp="#gb56459_comment">
+  <body>
+    <div>
+      <p>Also ich will Dir lieber sagen, daß wir eine Köchin, und ich nunmehr eine ordentliche Haushaltung zu dirigiren haben. Ich habe nur so viele Freude über unsere Lebensart, gieb nur einmal acht, wie das weiter geht und, oder alle mein prophetisches Gefühl müßte mich betrügen, ob wir nicht die Anherrn und Erbauer eines Dörfgens, oder Vorstadt oder Burg wenigstens werden und man nicht nach ein paar Hundert Jahren sagen wird, da geht Goethes und seines Philipps Geist um, einander umschlungen führend.</p>
+      <p>O daß ich meine Seele aushauchen könnte in Liebe zu diesem Manne und würdig wäre dem Gott zu danken, der mir so viele Seeligkeit bei / ihm zu kosten giebt.</p>
+      <p>Wir haben das ganze Verhältniß wie Mann und Frau gegen einander. So lieb ich ihn, so er mich, so dien ich ihm, so viel Oberherrschaft äußert er über mich.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56459_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56459_comment_com84743">
+  <p>(h: <ref target="archivdb:dokument#280374">GSA 96/2698</ref>.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Seit November 1785 war Seidel zusätzlich als Kammerkalkulator bei der herzoglichen Kammerkommission angestellt. Noch aus Italien empfahl Goethe ihn dem Herzog für die Stelle des Sekretärs am Rentamt der herzoglichen Kammer (vgl. <ref target="gb:text#GB07_1_BR124_0_215_034 #GB07_1_BR124_0_216_013">GB 7 I, 215,34–216,13</ref>; <ref target="gb:text#GB07_1_BR135_0_238_025 #GB07_1_BR135_0_238_028">238,25–28</ref>), die Seidel im Mai 1789 antrat, nachdem er am 5. Januar desselben Jahres Dorothea Carolina geb. Franke geheiratet und einen eigenen Hausstand gegründet hatte. Mit seiner Tüchtigkeit brachte er es in den folgenden Jahren zu Ansehen und einem gewissen Wohlstand. 1795 erlangte er durch den Kauf eines Ackers das Weimarer Bürgerrecht und baute später ein eigenes Haus auf dem Schweinsmarkt, dessen Baupläne er mit Goethe erörterte.</p>
+  <p>Nach Goethes Rückkehr aus Italien, insbesondere nach der Verbindung mit Christiane Vulpius, lockerte sich das enge Verhältnis zu seinem Sekretär. Auch wenn Seidel nach dem Weggang aus Goethes Haus zunächst noch mit seinem ehemaligen Dienstherrn in Verbindung blieb und weiterhin Aufträge für ihn erledigte, trat doch eine spürbare Entfremdung ein, die seit der Jahrhundertwende zunahm. Für die Zeit nach 1800 sind keine Briefe Goethes an Seidel überliefert, auch im Tagebuch wird der ehemalige Hausgenosse und Sekretär, der nachmals viele Jahre an einer psychischen Krankheit litt, bis zu seinem Tod im Jenaer ‚Irrenhaus‘ am 19. November 1820 kaum noch erwähnt. – Zur Biographie Seidels vgl. Walter Schleif: Goethes Diener. Berlin und Weimar 1965, S. 25–89.</p>
+  <p>Der vorliegende Brief ist der erste von insgesamt 44 überlieferten Briefen Goethes an seinen Diener und Sekretär. Acht Briefe stammen aus der Zeit vor Goethes Reise nach Italien, als das Verhältnis zum Adressaten besonders eng war. Sie sind meist während einer Abwesenheit Goethes von Weimar geschrieben worden und enthalten Aufträge an Seidel. Von August 1786 bis zum Ende der italienischen Reise sind vier Briefe aus Karlsbad, die mit der Vorbereitung der Reise in Zusammenhang stehen, sowie 27 Briefe aus Italien überliefert. Aus der Zeit von 1788 bis zu Seidels Tod sind nur noch fünf Briefe erhalten, der letzte aus dem Jahr 1797. Für zwei Briefe, die bisher als an Seidel adressiert galten, wurden die Adressaten korrigiert (vgl. <ref target="gb:dokument#9849">Nr 561</ref>; GB Rep, WA-Nr 00262). – Von Philipp Seidel sind sieben Briefe an Goethe aus den Jahren 1789 bis 1799 überliefert sowie ein Brief an Christian Gottlob Voigt aus dem Jahr 1793 (<ref target="ra:dokument#687">RA 1, 288 f., Nr 650</ref>), in dem Seidel über einen für Goethe erledigten Auftrag berichtet.</p>
+</div>
+  
+<div type="singleExplanations">
+<note xml:id="gb15132_comment_com13585">
+<label xml:id="GB03_2_BR362_0_note_001_208_13" copyOf="#start_com_3172"><hi rendition="#fett">208,13</hi>Zu Ende der Woch<supplied>e</supplied> <gap quantity="3" reason="editorial"/> zu seyn</label>
+<p>Goethe war am 10. Mai 1778 mit Herzog Carl August und dem Kammerherrn Moritz von Wedel zu einer Reise aufgebrochen, die über Leipzig, Dessau und Wörlitz nach Potsdam und Berlin führte (zum Anlass und Verlauf der Reise vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11846_comment_com5148">Nr 359</ref>). Am 23. Mai war die Gesellschaft, zu der auch der regierende Fürst Leopold III. von Anhalt-Dessau hinzugestoßen war, nach Wörlitz zurückgekehrt. In Wörlitz, Dessau und Umgebung blieb die Reisegellschaft noch bis Ende des Monats. Goethe traf also nicht wie angekündigt am Ende der nächsten Woche, sondern erst am darauffolgenden Montag, dem 1. Juni, wieder in Weimar ein (vgl. <ref target="gt:dokument#590">GT I 1, 64</ref>).</p>
+
+</note>
+<note xml:id="gb15132_comment_com18665">
+<label xml:id="GB03_2_BR362_0_note_002_208_14" copyOf="#start_com_3173"><hi rendition="#fett">208,14</hi>alles</label>
+<p>Zu Goethes Haushalt im Gartenhaus am Stern, das er seit dem Mai 1776 bewohnte, gehörten 1778 neben Seidel noch der Hausdiener Christoph Erhard Sutor, der Laufbursche Georg Paul Götze, dessen Mutter Dorothea als Haushälterin und die Köchin Dorothee Wagenknecht. Seit August 1777 wohnte auch Goethes Zögling Peter im Baumgarten zeitweise im Haus. Seidel führte die Aufsicht über alle Hausangestellten und war für die Ein- und Ausgaben sowie die Bezahlung des Personals zuständig.</p>
+
+</note>
+<note xml:id="gb15132_comment_com18720">
+<label xml:id="GB03_2_BR362_0_note_003_208_14" copyOf="#start_com_3174"><hi rendition="#fett">208,14</hi>inliegendes</label>
+<p>Wahrscheinlich lag Goethes Brief an Charlotte von Stein vom 17. bis 24 Mai 1778 (<ref target="gb:dokument#11951">Nr 363</ref>) bei. Offenbar hatte Goethe den in Berlin und Potsdam begonnenen Brief, in dem er sich freimütig über Friedrich II. und das Leben in den preußischen Residenzen äußerte, erst aus der Hand geben wollen, nachdem er das preußische Territorium wieder verlassen hatte. Der letzte Teil des Briefes ist datiert: <quote type="G">Dessau Sonntag d<g ref="#typoSuspension"/>. 24.</quote> (<ref target="gb:text#GB03_1_BR363_0_210_015">210,15</ref>) und beginnt mit folgender Bemerkung: <quote type="G">Endlich kann ich Ihnen die Zettelgen schicken</quote> (<ref target="gb:text#GB03_1_BR363_0_210_015 #GB03_1_BR363_0_210_016">210,15–16</ref>). Es ist naheliegend, anzunehmen, dass Goethe seinen Vertrauten Seidel mit der Zustellung dieser Sendung beauftragte, die vermutlich zusammen mit dem für Seidel bestimmten Brief per herzoglicher Stafette nach Weimar befördert wurde.</p>
+
+</note>
+<note xml:id="gb15132_comment_com13595">
+<label xml:id="GB03_2_BR362_0_note_004_208_14" copyOf="#start_com_3175"><hi rendition="#fett">208,14</hi>Jentsch</label>
+<p>Gemeint ist der seit 1777 aus Altersgründen pensionierte Hofgärtner in Belvedere Johann Ernst Gentzsch oder Jentsch, bei Goethe auch unter dem Namen Rentsch erwähnt. Ihm war Goethe am 1. Mai, einige Tage vor Antritt seiner Reise, auf der Floßbrücke in der Nähe seines Gartenhauses begegnet: <quote type="G">Auf der Brücke Rentsch klagend.</quote> (<ref target="gt:dokument#570">GT I 1, 63</ref>.) Um Goethes vermeintliche Beteiligung an der Pensionierung des Hofgärtners hatte es im Sommer 1777 Gerüchte gegeben (vgl. <ref target="gt:dokument#384">GT I 1, 44</ref>; GT I 2, 432, zu 44,15–16). Die Begegnung auf der Brücke könnte für Goethe der Anlass gewesen sein, den alten Gärtner aus Gefälligkeit für die Zeit seiner bevorstehenden Abwesenheit mit der Aufsicht über seinen Garten zu beauftragen.</p>
+
+</note>
+<note xml:id="gb15132_comment_com13596">
+<label xml:id="GB03_2_BR362_0_note_005_208_15" copyOf="#start_com_3176"><hi rendition="#fett">208,15</hi>im Garten</label>
+<p>Goethes Garten am „Stern“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5740"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10846" n="GB 3, Nr. 560">
+  <teiHeader xml:id="gb10846_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>560.</label> An <persName key="sndb:person#38523">Philipp Christoph Kayser</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>, 29. Dezember 1779. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10846_tei.xml</idno>
+        <idno type="URI">gb10846</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR560_0</idno>
+        <idno type="KSW-ID">10846</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="367" to="368">367-368</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1079" to="1080">1079-1080</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10846_header_hwit1557" corresp="#gb10846_source_hwit1557" sameAs="#gb10846_comment_hwit1557" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/260,I Bl. 2-3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8270</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10846,,1557/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ich schike Ihnen hier, lieber Kaiser eine Operette die ich    unterweegs für Sie</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>
+            <date when="1779-12-29">29. Dezember 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38523">Kayser, Philipp Christoph</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10846_source_hwit1557" corresp="#gb10846_header_hwit1557" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10846/11652"/>
+      <opener>
+        <dateline rendition="#einrueck12">
+          <anchor xml:id="GB03_1_BR560_0_367_001"/>Frankfurt am Main den 29 Dez. 1779.</dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR560_0_367_002"/>Ich schike Ihnen hier, lieber Kaiser <ref target="gb:note#GB03_2_BR560_0_note_001_367_2" xml:id="start_com_5168"/>eine Operette<ref xml:id="end_com_5168"/> die ich unterweeges 
+<anchor xml:id="GB03_1_BR560_0_367_003"/>für sie gemacht habe. Es sind die aller einfachsten Umrisse, die 
+<anchor xml:id="GB03_1_BR560_0_367_004"/>Sie nunmehr mit Licht, Schatten und Farben herausheben müssen wenn 
+<anchor xml:id="GB03_1_BR560_0_367_005"/>sie <ref target="gb:note#GB03_2_BR560_0_note_002_367_5" xml:id="start_com_5169"/>frappiren<ref xml:id="end_com_5169"/> und gefallen sollen. Ueber das Stük selbst will ich Ihnen 
+<anchor xml:id="GB03_1_BR560_0_367_006"/>nichts sagen biss sie es gelesen haben, alsdann bitt’ ich dass Sie mir 
+<anchor xml:id="GB03_1_BR560_0_367_007"/>weitläufig schreiben ob Sie’s unternehmen<ptr n="1" target="#a001_367.7"/> wollen und wie Sie’s anzugreiffen<ptr n="2" target="#a002_367.8"/>
+        <anchor xml:id="GB03_1_BR560_0_367_008"/>gedenken. Sie werden ohne meine Erinnerung sehen, dass 
+<anchor xml:id="GB03_1_BR560_0_367_009"/>es mir drum zu thun war, eine Menge Gemüthsbewegungen in einer 
+<anchor xml:id="GB03_1_BR560_0_367_010"/>lebhaft fortgehenden Handlung vorzubringen, und sie in einer solchen 
+<anchor xml:id="GB03_1_BR560_0_367_011"/>Reihe folgen<ptr n="3" target="#a003_367.11"/> zu lassen, dass der Komponist sowohl in Uebergängen 
+<anchor xml:id="GB03_1_BR560_0_367_012"/>als Contrasten seine Meisterschaft zeigen kann. Hierüber ein 
+<anchor xml:id="GB03_1_BR560_0_367_013"/>mehrerers, wenn Sie mir selbst erst Ihre Gedanken geschrieben haben. 
+<anchor xml:id="GB03_1_BR560_0_367_014"/>Nur eins <pb n="2" facs="gb:digitalisate#10846/11653"/> muss ich noch vorläufig sagen: Ich bitte Sie darauf acht zu 
+<anchor xml:id="GB03_1_BR560_0_367_015"/>geben, dass eigentlich dreierlei Arten von Gesängen drinne vorkommen.
+<anchor xml:id="GB03_1_BR560_0_367_016"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR560_0_367_017"/>Erstlich Lieder, von denen man <ref target="gb:note#GB03_2_BR560_0_note_003_367_17" xml:id="start_com_5170"/>supponiret<ref xml:id="end_com_5170"/>, dass der Singende sie 
+<anchor xml:id="GB03_1_BR560_0_367_018"/>irgendwo auswendig gelernt und sie nun in ein und der andern Situation 
+<anchor xml:id="GB03_1_BR560_0_367_019"/>anbringt. Diese können und müssen eigne, bestimmte und runde 
+<anchor xml:id="GB03_1_BR560_0_367_020"/>Melodien haben, die<ptr n="4" target="#a004_367.20"/> auffallen und iedermann leicht behält.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR560_0_367_021"/>Zweitens Arien, wo die Person die Empfindung des Augenbliks 
+<anchor xml:id="GB03_1_BR560_0_367_022"/>ausdrükt und, ganz in ihr verlohren, aus dem Grunde des Herzens 
+<anchor xml:id="GB03_1_BR560_0_367_023"/>singt. Diese müssen einfach, wahr, rein vorgetragen werden, von der 
+<anchor xml:id="GB03_1_BR560_0_367_024"/>sanftesten biss zur heftigsten Empfindung. Melodie und <ref target="gb:note#GB03_2_BR560_0_note_004_367_24-25" xml:id="start_com_5171"/>Akkompagnement<ref xml:id="end_com_5171"/>
+        <anchor xml:id="GB03_1_BR560_0_367_025"/>müssen sehr gewissenhaft behandelt werden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR560_0_367_026"/>Drittens kommt <ref target="gb:note#GB03_2_BR560_0_note_005_367_26" xml:id="start_com_5172"/>der rytmische Dialog<ref xml:id="end_com_5172"/>, dieser giebt der ganzen Sache 
+<anchor xml:id="GB03_1_BR560_0_367_027"/>die Bewegung, durch diesen kann der Componist die Sache bald beschleunigen, 
+<anchor xml:id="GB03_1_BR560_0_367_028"/>bald wieder anhalten, ihn bald als<ptr n="5" target="#a005_367.28"/> Deklamation<ptr n="6" target="#a006_367.28"/> in zerrissnen 
+<anchor xml:id="GB03_1_BR560_0_367_029"/>Takten <ref target="gb:note#GB03_2_BR560_0_note_006_367_29" xml:id="start_com_5173"/>traktiren<ref xml:id="end_com_5173"/>, bald ihn in einer rol<pb n="3" facs="gb:digitalisate#10846/11654"/>lenden Melodie sich geschwind 
+<anchor xml:id="GB03_1_BR560_0_367_030"/>fortbewegen lassen. Dieser muss eigentlich der Stellung 
+<anchor xml:id="GB03_1_BR560_0_368_001"/>Handlung und Bewegung des Akteurs angemessen sein und der Komponist 
+<anchor xml:id="GB03_1_BR560_0_368_002"/>muss diesen immerfort vor Augen haben, damit er ihm die Pantomime 
+<anchor xml:id="GB03_1_BR560_0_368_003"/>und Aktion nicht erschweere. Dieser Dialog, werden Sie finden, 
+<anchor xml:id="GB03_1_BR560_0_368_004"/>hat in meinem Stük fast <ref target="gb:note#GB03_2_BR560_0_note_007_368_4" xml:id="start_com_5174"/>einerlei Sylbenmaas<ref xml:id="end_com_5174"/> und wenn Sie so 
+<anchor xml:id="GB03_1_BR560_0_368_005"/>glüklich sind ein Hauptthema zu finden, das<ptr n="7" target="#a007_368.5"/> sich gut dazu schikt, so 
+<anchor xml:id="GB03_1_BR560_0_368_006"/>werden Sie wohl thun solches immer wieder hervor kommen zu lassen 
+<anchor xml:id="GB03_1_BR560_0_368_007"/>und nur durch veränderte <ref target="gb:note#GB03_2_BR560_0_note_008_368_7" xml:id="start_com_5175"/>Modulation<ref xml:id="end_com_5175"/>, durch <ref target="gb:note#GB03_2_BR560_0_note_009_368_7" xml:id="start_com_5176"/>Major und Minor<ref xml:id="end_com_5176"/>, durch 
+<anchor xml:id="GB03_1_BR560_0_368_008"/>angehaltenes oder schneller fortgetriebenes <emph rendition="#latin">Tempo</emph> die einzelne Stellen 
+<anchor xml:id="GB03_1_BR560_0_368_009"/>zu nüanciren. Da gegen das Ende meines Stüks der Gesang anhaltend 
+<anchor xml:id="GB03_1_BR560_0_368_010"/>fortgehen soll, so werden Sie mich wohl verstehen was ich sage, denn 
+<anchor xml:id="GB03_1_BR560_0_368_011"/>man muss sich alsdenn in acht nehmen dass es nicht gar zu bunt wird. 
+<anchor xml:id="GB03_1_BR560_0_368_012"/>Der Dialog muss wie ein glatter goldner Ring sein, auf dem Arien und 
+<anchor xml:id="GB03_1_BR560_0_368_013"/>Lie<pb n="4" facs="gb:digitalisate#10846/11655"/>der wie Edelgesteine aufsizen. Es versteht sich dass ich hier nicht 
+<anchor xml:id="GB03_1_BR560_0_368_014"/>von dem vordern prosaischen Dialog rede, denn dieser muss nach meiner 
+<anchor xml:id="GB03_1_BR560_0_368_015"/>Intention gesprochen werden, ob Ihnen gleich frei bleibet nach 
+<anchor xml:id="GB03_1_BR560_0_368_016"/>Gefallen hier und da Akkompagnement einzuweben. Uebrigens werden 
+<anchor xml:id="GB03_1_BR560_0_368_017"/>Sie wohl von selbst finden, dass viel Gelegenheit da ist, manchfaltigen 
+<anchor xml:id="GB03_1_BR560_0_368_018"/>musikalischen Reichthum anzubringen. Sollten Sie sich entschliessen 
+<anchor xml:id="GB03_1_BR560_0_368_019"/>es zu komponiren, so muss ich bitten, sich fein balde drüber zu 
+<anchor xml:id="GB03_1_BR560_0_368_020"/>machen, damit es bei uns zu einer Zeit noch aufgeführet werden kann, 
+<anchor xml:id="GB03_1_BR560_0_368_021"/>wo das <ref target="gb:note#GB03_2_BR560_0_note_010_368_21" xml:id="start_com_5177"/>Interesse der Schweizererzählungen<ref xml:id="end_com_5177"/> noch nicht verraucht ist.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR560_0_368_022"/>Ich erwarte schleunige Antwort und verspare biss dahin was ich 
+<anchor xml:id="GB03_1_BR560_0_368_023"/>weiter zu sagen habe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR560_0_368_024"/>Leben Sie wohl.     <ref target="gb:note#GB03_2_BR560_0_note_011_368_24" xml:id="start_com_5178"/>Ihrem Vater<ref xml:id="end_com_5178"/> hab ich von Ihnen erzahlt, schicken 
+<anchor xml:id="GB03_1_BR560_0_368_025"/>Sie doch dem Manne etwas von Ihrer Composition, man muss den 
+<anchor xml:id="GB03_1_BR560_0_368_026"/>Menschen Freude machen solang sie leben.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR560_0_368_027"/>
+        <signed rend="signature" rendition="#einrueck20">Goethe</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10846_comment">
+<body>
+<div type="metadata" xml:id="gb10846_comment_com39">
+  <ab type="numberAddressee"><label>560.</label> An <persName key="sndb:person#38523">Philipp Christoph Kayser</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName>, 29. Dezember 1779 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10846_comment_com2083">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8270">GSA 29/260,I</ref>, Bl. 2–3. – Doppelblatt 19,2 × 23,4 cm, 4 S. beschr., Schreiberhd (Seidel), Tinte; Schluss (<ref target="gb:text#GB03_1_BR560_0_368_024 #GB03_1_BR560_0_368_027">368,24–27</ref> <quote type="G">Leben Sie wohl <gap quantity="3" reason="editorial"/> Goethe</quote>) egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 155–158, Nr 877 (Eduard von der Hellen).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10846_comment_com3879">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Einen direkten Antwortbrief hat es nicht gegeben, wie aus dem Anfang von Goethes nächstem Brief an Kayser vom 20. Januar 1780 hervorgeht (vgl. <ref target="gb:dokument#10834">GB 4, Nr 7</ref>).</p>
+  <p rendition="#einrueck1">Goethe überschickte mit dem vorliegenden Brief sein Singspiel „Jery und Bätely“. Das Idyll war, angeregt durch Eindrücke vom Bauernleben in den Schweizer Alpen, auf der Rückreise aus der Schweiz im November/Dezember 1779 entstanden, <quote type="G">da wir wieder in die flächere Schweiz gelangten <gap quantity="3" reason="editorial"/>; ich schrieb das Gedicht sogleich und konnte es völlig fertig mit nach Deutschland nehmen.</quote> (Tag- und Jahres-Hefte bis 1780; <ref target="sndb:sigle#1157">WA</ref> I 35, 7.) Am 20. Januar 1780 sandte Goethe Kayser ein zweites Exemplar des Textes, wieder mit Hinweisen zur Komposition sowohl im Begleitbrief (<ref target="sndb:sigle#1157">WA</ref> VI 4, Nr 884) als auch in Randbemerkungen auf dem Manuskript. Beide Exemplare sind nicht überliefert. Im Brief vom 3. März 1780 an Johann Caspar Lavater bat Goethe: <quote type="G">was Kayser dir giebt schick mir bald.</quote> (<ref target="gb:text#GB04_1_BR034_0_029_033">GB 4 I, 29,33</ref>.) Am 30. Juni 1780 heißt es dann im Brief an Charlotte von Stein, die Komposition <quote type="G">will noch nicht flott werden</quote> (<ref target="gb:text#GB04_1_BR118_0_079_006">GB 4 I, 79,6</ref>). Kayser brachte die gewünschte Komposition des Stücks nicht zustande. Die Musik komponierte schließlich Carl Friedrich Sigmund von Seckendorff. Die Uraufführung fand am 12. Juli 1780 durch das weimarische Liebhabertheater statt. Die Titelpartie sang Corona Schröter. Briefe Kaysers über das Singspiel sind nicht überliefert. So lässt sich lediglich vermuten, der vorliegende Brief könnte den Komponisten durch seine dezidierten Anweisungen an der schöpferischen Arbeit gehindert haben.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10846_comment_com9973">
+<label xml:id="GB03_2_BR560_0_note_001_367_2" copyOf="#start_com_5168"><hi rendition="#fett">367,2</hi>eine Operette</label>
+<p>„Jery und Bätely“.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9974">
+<label xml:id="GB03_2_BR560_0_note_002_367_5" copyOf="#start_com_5169"><hi rendition="#fett">367,5</hi>frappiren</label>
+<p>Faszinieren, in Erstaunen versetzen (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 868); von franz. frapper: schlagen.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9975">
+<label xml:id="GB03_2_BR560_0_note_003_367_17" copyOf="#start_com_5170"><hi rendition="#fett">367,17</hi>supponiret</label>
+<p>Supponieren: annehmen, unterstellen (von lat. supponere: unterlegen).</p>
+
+</note>
+<note xml:id="gb10846_comment_com14162">
+<label xml:id="GB03_2_BR560_0_note_004_367_24-25" copyOf="#start_com_5171"><hi rendition="#fett">367,24-25</hi>Akkompagnement</label>
+<p>Nach franz. accompagnement: (musikalische) Begleitung.</p>
+
+</note>
+<note xml:id="gb10846_comment_com17547">
+<label xml:id="GB03_2_BR560_0_note_005_367_26" copyOf="#start_com_5172"><hi rendition="#fett">367,26</hi>der rytmische Dialog</label>
+<p>Diese neben <quote type="G">Liedern</quote> und <quote type="G">Arien</quote> dritte musikalische Form soll offenbar aus einer Synthese von Arie und Rezitativ bestehen, also nicht nur aus der gewöhnlichen musikalisch unterlegten Deklamation. Da Goethe im weiteren Verlauf des Briefes von einem Dialog in <quote type="G">einerlei Sylbenmaas</quote> (<ref target="gb:text#GB03_1_BR560_0_368_004">368,4</ref>) spricht, könnte er sich auf den Schluss des Stücks in dessen 1. Fassung beziehen, wo zweihebige daktylische Verse vorherrschen, die er später in Prosa auflöste.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9976">
+<label xml:id="GB03_2_BR560_0_note_006_367_29" copyOf="#start_com_5173"><hi rendition="#fett">367,29</hi>traktiren</label>
+<p>Behandeln (von lat. tractare).</p>
+
+</note>
+<note xml:id="gb10846_comment_com15205">
+<label xml:id="GB03_2_BR560_0_note_007_368_4" copyOf="#start_com_5174"><hi rendition="#fett">368,4</hi>einerlei Sylbenmaas</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR560_0_note_005_367_26">367,26</ref>.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9985">
+<label xml:id="GB03_2_BR560_0_note_008_368_7" copyOf="#start_com_5175"><hi rendition="#fett">368,7</hi>Modulation</label>
+<p>Übergang von einer Tonart in eine andere.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9986">
+<label xml:id="GB03_2_BR560_0_note_009_368_7" copyOf="#start_com_5176"><hi rendition="#fett">368,7</hi>Major und Minor</label>
+<p>Die Tonarten Dur und Moll; nach ital. maggiore und minore, engl. major und minor.</p>
+
+</note>
+<note xml:id="gb10846_comment_com9987">
+<label xml:id="GB03_2_BR560_0_note_010_368_21" copyOf="#start_com_5177"><hi rendition="#fett">368,21</hi>Interesse der Schweizererzählungen</label>
+<p>Gemeint ist das Interesse an Schweizer Sujets in Weimar, erregt durch die Erzählungen der aus der Schweiz zurückkehrenden Reisenden.</p>
+
+</note>
+<note xml:id="gb10846_comment_com85721">
+<label xml:id="GB03_2_BR560_0_note_011_368_24" copyOf="#start_com_5178"><hi rendition="#fett">368,24</hi>Ihrem Vater</label>
+<p>Johann Matthäus Kayser, Organist und Kirchenmusiker an der St. Katharinenkirche in Frankfurt. Er starb 1810.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

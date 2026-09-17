@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3060"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11786" n="GB 3, Nr. 300">
+  <teiHeader xml:id="gb11786_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>300.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 8. November 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:09Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11786_tei.xml</idno>
+        <idno type="URI">gb11786</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR300_0</idno>
+        <idno type="KSW-ID">11786</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="174" to="174">174</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="591" to="593">591-593</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11786_header_hwit1264" corresp="#gb11786_source_hwit1264" sameAs="#gb11786_comment_hwit1264" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 61</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11786,,1264/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Die Bäume sind angekommen 30 an der Zahl, gute Kirschbäume auch wenige Obst Bäume guter Sorten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-08">8. November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11786_source_hwit1264" corresp="#gb11786_header_hwit1264" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11786/22722"/>
+      <p>
+        <anchor xml:id="GB03_1_BR300_0_174_006"/>
+        <ref target="gb:note#GB03_2_BR300_0_note_001_174_6" xml:id="start_com_2618"/>Die Bäume sind angekommen<ref xml:id="end_com_2618"/> 30 an der Zahl, gute Kirschbäume 
+<anchor xml:id="GB03_1_BR300_0_174_007"/>auch wenige ObstBäume guter Sorten. wie und wann sollen sie nach 
+<anchor xml:id="GB03_1_BR300_0_174_008"/>Kochberg? sie müssen <ref target="gb:note#GB03_2_BR300_0_note_002_174_8" xml:id="start_com_2619"/>wohl<ref xml:id="end_com_2619"/> gepflanzt und <ref target="gb:note#GB03_2_BR300_0_note_003_174_8" xml:id="start_com_2620"/>sonderlich<ref xml:id="end_com_2620"/> gegen die Haasen 
+<anchor xml:id="GB03_1_BR300_0_174_009"/>mit starcken Dornen verwahrt werden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR300_0_174_010"/>Gestern von Ihnen gehend hab ich noch wunderliche Gedancken 
+<anchor xml:id="GB03_1_BR300_0_174_011"/>gehabt, unter andern ob ich Sie auch wircklich liebe oder ob mich 
+<anchor xml:id="GB03_1_BR300_0_174_012"/>Ihre Nähe nur wie die Gegenwart eines so reinen Glases freut, darin 
+<anchor xml:id="GB03_1_BR300_0_174_013"/>sich s so gut sich bespiegeln lässt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR300_0_174_014"/>Hernach fand ich dass das Schicksaal da es mich hierher pflanzte 
+<anchor xml:id="GB03_1_BR300_0_174_015"/>vollkommen gemacht hat <ref target="gb:note#GB03_2_BR300_0_note_004_174_15-18" xml:id="start_com_2621"/>wie mans den Linden thut man scheidet 
+<anchor xml:id="GB03_1_BR300_0_174_016"/>ihnen den Gipfel weg und alle schöne Aste dass sie neuen Trieb kriegen<ptr n="1" target="#a001_174.17"/>
+        <anchor xml:id="GB03_1_BR300_0_174_017"/>sonst sterben sie von oben herein. Freylich stehn sie die ersten 
+<anchor xml:id="GB03_1_BR300_0_174_018"/>Jahre wie Stangen da.<ref xml:id="end_com_2621"/>    Adieu. Ich kam von ohngefahr über den <ref target="gb:note#GB03_2_BR300_0_note_005_174_18-19" xml:id="start_com_2622"/>Kalender<ref xml:id="end_com_2622"/>
+        <anchor xml:id="GB03_1_BR300_0_174_019"/>von <ref target="gb:note#GB03_2_BR300_0_note_006_174_19" xml:id="start_com_2623"/>vorm Jahr da stund beym 7 Novemb.<ref xml:id="end_com_2623"/>
+        <ref target="gb:note#GB03_2_BR300_0_note_007_174_19-20" xml:id="start_com_2624"/>Was<ptr n="2" target="#a002_174.19"/> ist der Mensch 
+<anchor xml:id="GB03_1_BR300_0_174_020"/>dass du sein gedenckest<ref xml:id="end_com_2624"/> pp. d<g ref="#typoSuspension"/>. 8 Nov 77.    G.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11786_comment">
+<body>
+<div type="metadata" xml:id="gb11786_comment_com1277">
+  <ab type="numberAddressee"><label>300.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 8. November 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11786_comment_com3321">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 61. – 1 Bl. 12,5 × 18,5 cm, Goldschnitt, 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „51“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 54), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 123.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 183 f., Nr 641.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11786_comment_com5117">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief vom 8. November 1777 (vgl. zu <ref target="gb:note#GB03_2_BR301_0_note_001_174_21">174,21</ref>) ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11786_comment_com15188">
+<label xml:id="GB03_2_BR300_0_note_001_174_6" copyOf="#start_com_2618"><hi rendition="#fett">174,6</hi>Die Bäume sind angekommen</label>
+<p>Für Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR301_0_174_021">174,21</ref>).</p>
+
+</note>
+<note xml:id="gb11786_comment_com11308">
+<label xml:id="GB03_2_BR300_0_note_002_174_8" copyOf="#start_com_2619"><hi rendition="#fett">174,8</hi>wohl</label>
+<p>Hier: der „Natur der Sache angemessen, auf gehörige Art“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1592).</p>
+
+</note>
+<note xml:id="gb11786_comment_com11309">
+<label xml:id="GB03_2_BR300_0_note_003_174_8" copyOf="#start_com_2620"><hi rendition="#fett">174,8</hi>sonderlich</label>
+<p>Besonders; im ausgehenden 18. Jahrhundert schon veraltet und auf die „vertrauliche Sprechart“ begrenzt (<ref target="sndb:sigle#2753">Adelung</ref> 4, 142).</p>
+
+</note>
+<note xml:id="gb11786_comment_com11310">
+<label xml:id="GB03_2_BR300_0_note_004_174_15-18" copyOf="#start_com_2621"><hi rendition="#fett">174,15-18</hi>wie mans den Linden thut <gap quantity="3" reason="editorial"/> wie Stangen da</label>
+<p>Wahrscheinlich in Anlehnung an die erste Fassung des Gedichts „Hoffnung“:</p>
+ <space unit="lines" quantity="1"/>
+ <lg>
+   <l rendition="#einrueck6"><quote type="G">Gib das tagwerck meiner Hande</quote></l>
+   <l rendition="#einrueck6"><quote type="G">Gutes Glück das ichs vollende</quote></l>
+   <l rendition="#einrueck6"><quote type="G">sei ein bild der Garten hier</quote></l>
+   <l rendition="#einrueck6"><quote type="G">Pflanzt ich ahndungsvolle Traume</quote></l>
+   <l rendition="#einrueck6"><quote type="G">Jetzt noch Stangen diese Bäume</quote></l>
+   <l rendition="#einrueck6"><quote type="G">Geben einst noch Schatten mir.</quote></l>
+ </lg>
+<p>(<ref target="gt:dokument#13">GT I 1, 9</ref>; in veränderter Fassung unter dem Titel „Hoffnung“ zuerst 1789 gedruckt in Band 8 der Göschen-Ausgabe von Goethes „Schriften“ [S. 160].) – Die frühe Fassung ist auf der letzten Seite des auf der Schweizer Reise 1775 angelegten Notiz- und Tagebuches überliefert. Sie entstand wahrscheinlich erst im November 1776 in Weimar, als Goethe in seinem Garten <quote type="G">Linden gepflanzt</quote> hat (<ref target="gt:dokument#191">GT I 1, 28</ref>; vgl. GT I 2, 381, zu 9,12–17). – Wie aus dem Kontext hervorgeht, las Goethe um den 7. November 1777 seine Tagebuchaufzeichnungen von 1776.</p>
+
+</note>
+<note xml:id="gb11786_comment_com11311">
+<label xml:id="GB03_2_BR300_0_note_005_174_18-19" copyOf="#start_com_2622"><hi rendition="#fett">174,18-19</hi>Kalender</label>
+<p>Gemeint ist das Tagebuch aus dem Jahr 1776, wofür Goethe, wie auch später, einen mit Durchschussblättern versehenen vorgedruckten „Sachsen-Weimarischen Calender“ verwendete (vgl. GT I 2, 384), überliefert im Goethe- und Schiller-Archiv (<ref target="archivdb:dokument#11302">GSA 27/2</ref>).</p>
+
+</note>
+<note xml:id="gb11786_comment_com11323">
+<label xml:id="GB03_2_BR300_0_note_006_174_19" copyOf="#start_com_2623"><hi rendition="#fett">174,19</hi>vorm Jahr <gap quantity="3" reason="editorial"/> beym 7 Novemb.</label>
+<p>Der erste Jahrestag der Ankunft Goethes in Weimar (vgl. zu <ref target="gb:note#GB03_2_BR184_0_note_001_116_10">116,10</ref>).</p>
+
+</note>
+<note xml:id="gb11786_comment_com13936">
+<label xml:id="GB03_2_BR300_0_note_007_174_19-20" copyOf="#start_com_2624"><hi rendition="#fett">174,19-20</hi>Was ist der Mensch dass du sein gedenckest</label>
+<p>Psalm 8,5 (vgl. auch Psalm 144,3). – Am 7. November 1776 hatte Goethe im Tagebuch vermerkt: <quote type="G">Was ist der Mensch dass du sein gedenckst und das Menschenkind dass Du Dich sein annimmst.</quote> (<ref target="gt:dokument#198">GT I 1, 29</ref>.) Auf der Brockenwanderung notierte Goethe am 10. Dezember 1777 den Psalm noch einmal in seinem Tagebuch (vgl. <ref target="gb:text#GB03_1_BR312_0_186_026 #GB03_1_BR312_0_186_027">186,26–27</ref>; zu <ref target="gb:note#GB03_2_BR312_0_note_040_186_25-27">186,25-27</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

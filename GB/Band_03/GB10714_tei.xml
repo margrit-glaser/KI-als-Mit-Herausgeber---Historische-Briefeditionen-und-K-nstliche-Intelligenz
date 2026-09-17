@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="740"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10714" n="GB 3, Nr. 74">
+  <teiHeader xml:id="gb10714_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>74.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78408">Leipzig</placeName>, 31. März 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10714_tei.xml</idno>
+        <idno type="URI">gb10714</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR074_0</idno>
+        <idno type="KSW-ID">10714</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="49" to="49">49</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="193" to="194">193-194</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10714_header_hwit916" corresp="#gb10714_source_hwit916" sameAs="#gb10714_comment_hwit916" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 11</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10714,,916/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Frau. Ihr Brief hat mich doch ein wenig gedrückt. Wenn ich nur den tiefen Unglauben Ihrer Seele</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+            <date when="1776-03-31">31. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10714_source_hwit916" corresp="#gb10714_header_hwit916" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10714/22300"/>
+      <p>
+        <anchor xml:id="GB03_1_BR074_0_049_011"/>Liebe Frau. <ref target="gb:note#GB03_2_BR074_0_note_001_49_11" xml:id="start_com_0762"/>Ihr Brief<ref xml:id="end_com_0762"/> hat mich doch ein wenig gedrückt. Wenn ich 
+<anchor xml:id="GB03_1_BR074_0_049_012"/>nur den tiefen <ref target="gb:note#GB03_2_BR074_0_note_002_49_12" xml:id="start_com_0763"/>Unglauben<ref xml:id="end_com_0763"/>
+        <anchor xml:id="GB03_1_BR074_0_049_013"/>Ihrer Seele an sich selbst begreifen könnte, Ihrer Seele,<ptr n="1" target="#a001_49.13"/> an die tausende glauben sollten um seelig zu werden. – 
+<anchor xml:id="GB03_1_BR074_0_049_014"/>Man soll eben in der Welt nichts begreifen seh ich ie länger iemehr. – 
+<anchor xml:id="GB03_1_BR074_0_049_015"/>Ihr Traum Liebste! und Ihre Trähnen! – Es ist nun so! Das Würckliche 
+<anchor xml:id="GB03_1_BR074_0_049_016"/>kann <ref target="gb:note#GB03_2_BR074_0_note_003_49_16" xml:id="start_com_0764"/>ich ich<ref xml:id="end_com_0764"/> so ziemlich meist tragen; Träume können mich 
+<anchor xml:id="GB03_1_BR074_0_049_017"/>weich machen wenns ihnen Beliebt. – Ich habe <ref target="gb:note#GB03_2_BR074_0_note_004_49_17" xml:id="start_com_0765"/>mein erstes Mädgen<ref xml:id="end_com_0765"/>
+        <anchor xml:id="GB03_1_BR074_0_049_018"/>wieder gesehen – Was das Schicksaal mit mir vorhaben mag! Wie viel 
+<anchor xml:id="GB03_1_BR074_0_049_019"/>Dinge lies es mich nicht auf dieser Reise in bestimmtester Klarheit 
+<anchor xml:id="GB03_1_BR074_0_049_020"/>sehn! Es ist als wenn diese Reise sollt <ref target="gb:note#GB03_2_BR074_0_note_005_49_20-21" xml:id="start_com_0766"/>mit meinem vergangenen Leben 
+<anchor xml:id="GB03_1_BR074_0_049_021"/>
+        <emph rendition="#latin">saldiren</emph><ref xml:id="end_com_0766"/><ptr n="2" target="#a002_49.21"/>. Und gleich knüpfts wieder neu an. Hab ich euch doch alle. 
+<anchor xml:id="GB03_1_BR074_0_049_022"/>
+        <ref target="gb:note#GB03_2_BR074_0_note_006_49_22" xml:id="start_com_0767"/>Bald komm ich.<ref xml:id="end_com_0767"/> Noch kann ich nicht von <ref target="gb:note#GB03_2_BR074_0_note_007_49_22" xml:id="start_com_0768"/>der Schrötern<ref xml:id="end_com_0768"/> weg.    Ade! 
+<anchor xml:id="GB03_1_BR074_0_049_023"/>Ade!</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR074_0_049_024"/>d<g ref="#typoSuspension"/>. lezten Merz 76. Leipzig.                                       </dateline>
+        <signed rend="paraph">G</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10714_comment">
+<body>
+<div type="metadata" xml:id="gb10714_comment_com1023">
+  <ab type="numberAddressee"><label>74.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78408">Leipzig</placeName>, 31. März 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10714_comment_com3067">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 11. – 1 Bl. 16,7 × 10,7 cm, Bordüre mit gereihtem Dreiblatt auf drei Balken (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 4), 1 S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „27“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 27), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 20 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 48, Nr 430.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10714_comment_com4863">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Charlotte von Steins von Ende März 1776 (vgl. zu <ref target="gb:note#GB03_2_BR074_0_note_001_49_11">49,11</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10714_comment_com9846">
+<label xml:id="GB03_2_BR074_0_note_001_49_11" copyOf="#start_com_0762"><hi rendition="#fett">49,11</hi>Ihr Brief</label>
+<p>Der nicht überlieferte Bezugsbrief beantwortet die wahrscheinlich gemeinsam abgesandten Briefe vom 24. und 25. März (<ref target="gb:dokument#10652">Nr 67</ref>, <ref target="gb:dokument#11922">68</ref>, <ref target="gb:dokument#11883">69</ref>, <ref target="gb:dokument#11923">71</ref>) sowie den Brief vom 26. März 1776 (<ref target="gb:dokument#10713">Nr 73</ref>). Unter Berücksichtigung des Postweges von Leipzig nach Weimar wurde er also frühestens am 28., eher wohl etwas später geschrieben.</p>
+
+</note>
+<note xml:id="gb10714_comment_com17477">
+<label xml:id="GB03_2_BR074_0_note_002_49_12" copyOf="#start_com_0763"><hi rendition="#fett">49,12</hi>Unglauben</label>
+<p>Hier im weiteren Sinn als „mangel an zutrauen, misztrauen, zweifel“ (<ref target="sndb:sigle#2890">Grimm</ref> 11 III, 958). – Der ‚Unglaube‘ Charlotte von Steins, vor allem auch in Bezug auf die Ernsthaftigkeit von Goethes Gefühlen ihr gegenüber, wird mehrfach im ersten Jahr der Bekanntschaft thematisiert (vgl. <ref target="gb:text#GB03_1_BR172_0_109_017 #GB03_1_BR172_0_109_018">109,17–18</ref>; zu <ref target="gb:note#GB03_2_BR296_0_note_001_172_5-6">172,5–6</ref>). Charlotte von Stein gesteht diesen grundlegenden Zweifel an der Dauerhaftigkeit von Goethes Gefühlen im Brief an Zimmermann vom 17. Juni 1776 (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10965_comment_com84526">Nr 133</ref>).</p>
+
+</note>
+<note xml:id="gb10714_comment_com9847">
+<label xml:id="GB03_2_BR074_0_note_003_49_16" copyOf="#start_com_0764"><hi rendition="#fett">49,16</hi>ich ich</label>
+<p>Versehentliche Dittographie nach Zeilenumbruch.</p>
+
+</note>
+<note xml:id="gb10714_comment_com17569">
+<label xml:id="GB03_2_BR074_0_note_004_49_17" copyOf="#start_com_0765"><hi rendition="#fett">49,17</hi>mein erstes Mädgen</label>
+<p>Anna (Annette) Catharina (Käthchen) Schönkopf, seit 1770 verh. Kanne, Tochter eines Leipziger Gastwirts und Weinhändlers, die Goethe in der Osterzeit 1766 kennen gelernt hatte. Über das wechselhafte, durch Goethes ständige Eifersucht belastete Verhältnis zu ihr geben seine Briefe an Ernst Wolfgang Behrisch Auskunft (vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10450_comment_com22565">GB 1 II, Nr 18</ref> und <ref target="gb:note#gb11823_comment_com5142">45</ref>). Etwa seit dem Frühjahr 1768 scheint sich Anna Catharina Schönkopf zurückgezogen zu haben, allerdings ohne dass es ganz zu einem Bruch gekommen wäre. In der ersten Zeit nach seiner Rückkehr ins Elternhaus stand Goethe im Briefwechsel mit ihr, der jedoch noch vor ihrer Verheiratung im Mai 1770 zum Erliegen kam (vgl. <ref target="gb:dokument#9367">GB 1 I, Nr 65</ref>). Die Wiederbegegnung im März 1776 in Leipzig blieb der letzte belegte persönliche Kontakt Goethes mit Anna Catharina Kanne.</p>
+
+</note>
+<note xml:id="gb10714_comment_com9848">
+<label xml:id="GB03_2_BR074_0_note_005_49_20-21" copyOf="#start_com_0766"><hi rendition="#fett">49,20-21</hi>mit meinem vergangenen Leben <emph rendition="#latin">saldiren</emph></label>
+<p>‚Saldiren‘, Begriff aus der Kaufmannssprache: den Saldo [Unterschiedsbetrag zwischen Soll und Haben] ermitteln. Hier übertragen auch im Sinn von ‚ausgleichen‘, ‚abschließen‘, insbesondere mit Bezug auf die Leipziger Zeit, die für Goethe abrupt und ohne regulären Studienabschluss endete. Er hatte sich weder von den Schönkopfs noch von anderen Leipziger Bekannten verabschiedet. Wahrscheinlich stand vor allem der Zeitpunkt der Abreise am 28. August 1768 in direktem Zusammenhang mit den zu erwartenden Folgen der Leipziger Studententumulte vom Sommer 1768 (vgl. <ref target="gb:note#GB01_2_BR044_0_note_003_132_12">GB 1 II, zu 132,12</ref>).</p>
+
+</note>
+<note xml:id="gb10714_comment_com14958">
+<label xml:id="GB03_2_BR074_0_note_006_49_22" copyOf="#start_com_0767"><hi rendition="#fett">49,22</hi>Bald komm ich.</label>
+<p>Goethe traf am 4. April 1776 wieder in Weimar ein (vgl. <ref target="gt:dokument#19">GT I 1, 17</ref>).</p>
+
+</note>
+<note xml:id="gb10714_comment_com9859">
+<label xml:id="GB03_2_BR074_0_note_007_49_22" copyOf="#start_com_0768"><hi rendition="#fett">49,22</hi>der Schrötern</label>
+<p>Wahrscheinlich hatte sich Corona Schröter noch nicht entschlossen, das Weimarer Engagement anzunehmen (vgl. zu <ref target="gb:note#GB03_2_BR070_0_note_014_47_24">47,24</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

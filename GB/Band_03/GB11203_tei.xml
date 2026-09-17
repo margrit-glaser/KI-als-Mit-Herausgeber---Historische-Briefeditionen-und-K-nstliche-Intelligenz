@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11203" n="GB 3, Nr. 59">
+  <teiHeader xml:id="gb11203_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>59.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. März 1776. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:25Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11203_tei.xml</idno>
+        <idno type="URI">gb11203</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR059_0</idno>
+        <idno type="KSW-ID">11203</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="42" to="42">42</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="171" to="172">171-172</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11203_header_hwit900" corresp="#gb11203_source_hwit900" sameAs="#gb11203_comment_hwit900" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 67</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11203,,900/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Das noch zu Beendung des XXII fragments abgehende Blat sende nächstens</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11203_header_acc369" corresp="gb11203_comment_acc369">
+            <objectIdentifier>
+              <objectName>Manuskript zum 2. Band von Lavaters „Physiognomischen Fragmenten“</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-03-10">10. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11203_source_hwit900" corresp="#gb11203_header_hwit900" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11203/13764"/>
+      <p>
+        <anchor xml:id="GB03_1_BR059_0_042_001"/>Das noch zu Beendung des <ref target="gb:note#GB03_2_BR059_0_note_001_42_1" xml:id="start_com_0651"/>XXII Fragments<ref xml:id="end_com_0651"/> abgehende Blat sende 
+<anchor xml:id="GB03_1_BR059_0_042_002"/>nächstens. Bitte mir zu melden <ref target="gb:note#GB03_2_BR059_0_note_002_42_2" xml:id="start_com_0652"/>wie viel Bogen abgedruckt sind<ref xml:id="end_com_0652"/> und 
+<anchor xml:id="GB03_1_BR059_0_042_003"/>wieweit Sie mit dem Msspt. kommen sind. Ich habe noch sehr viel in 
+<anchor xml:id="GB03_1_BR059_0_042_004"/>Händen und <ref target="gb:note#GB03_2_BR059_0_note_003_42_4" xml:id="start_com_0653"/>fürchte der zweyte Theil möge zu starck werden<ref xml:id="end_com_0653"/>. 
+<anchor xml:id="GB03_1_BR059_0_042_005"/>Weimar d<g ref="#typoSuspension"/>. 10 Merz 1776          Goethe.</p>
+      <closer>
+        <dateline rendition="#einrueck12">
+          <anchor xml:id="GB03_1_BR059_0_042_006"/>
+          <graphic url="gb:digitalisate#11203/70149" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11203/13765" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11203/13766" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11203/13767" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11203_comment">
+<body>
+<div type="metadata" xml:id="gb11203_comment_com1153">
+  <ab type="numberAddressee"><label>59.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 10. März 1776 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11203_comment_com3197">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 67. – Doppelblatt, 19 × 23,2 cm, &#xBC; S. beschr., egh., Tinte; S. 1 unter dem Brieftext von fremder Hd, Tinte: „20 Bogen sind abgedruckt, und ist nun noch zu drey gedruckten / Seiten Mspt. übrig geblieben, so daß das itzo erhaltene Mspt. auf der / vierten Seite des 22sten Bogens anfängt.“; S. 4 Empfangs- und Antwortvermerk, Tinte: „1776. 13. Marz Weimar / Goethe / B<g ref="#typoSuspension"/>“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>).</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 174.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 39, Nr 415.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11203_comment_com3780">
+  <p>Manuskript zum 2. Band von Lavaters „Physiognomischen Fragmenten“ (vgl. <ref target="gb:note#gb11203_comment_com3197">Überlieferung</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11203_comment_com4993">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. <ref target="gb:note#gb11203_comment_com3197">Überlieferung</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 10. März 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4r).</p>
+  <p rendition="#einrueck1">Der Brief bezieht sich wie <ref target="gb:dokument#11387">Nr 13</ref> und <ref target="gb:dokument#11390">21</ref> auf den Druck des 2. Bandes von Lavaters „Physiognomischen Fragmenten“ (weiter vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR013_0_note_002_14_8">14,8</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11203_comment_com10539">
+<label xml:id="GB03_2_BR059_0_note_001_42_1" copyOf="#start_com_0651"><hi rendition="#fett">42,1</hi>XXII Fragments</label>
+<p>Das 22. Fragment trägt den Titel „Eine Reihe Fürsten und Helden“ (S. 200–204; mit zehn Tafeln).</p>
+
+</note>
+<note xml:id="gb11203_comment_com10540">
+<label xml:id="GB03_2_BR059_0_note_002_42_2" copyOf="#start_com_0652"><hi rendition="#fett">42,2</hi>wie viel Bogen abgedruckt sind</label>
+<p>Nach der Notiz auf der Handschrift des Briefes waren 20 Bogen gedruckt (vgl. Überlieferung), im Quartformat der „Fragmente“ also S. 1–160 (wobei Tafeln und Seiten mit Abbildungen nicht mitgezählt sind). Der 20. Bogen endet mitten im 14. Fragment, „Menschenschädel“.</p>
+
+</note>
+<note xml:id="gb11203_comment_com10541">
+<label xml:id="GB03_2_BR059_0_note_003_42_4" copyOf="#start_com_0653"><hi rendition="#fett">42,4</hi>fürchte <gap quantity="3" reason="editorial"/> zu starck werden</label>
+<p>Diese Befürchtung hatte Goethe auch im Brief an Johann Caspar Lavater vom 6. März geäußert (vgl. zu <ref target="gb:note#GB03_2_BR056_0_note_003_40_19-20">40,19-20</ref>) und angekündigt, mit Reich über das Problem reden zu wollen. Der 1. Band der „Physiognomischen Fragmente“ umfasst 272 Seiten, der 2. Band 291 Seiten (jeweils exklusive Register, Subskribentenverzeichnis und Hinweise für den Buchbinder).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

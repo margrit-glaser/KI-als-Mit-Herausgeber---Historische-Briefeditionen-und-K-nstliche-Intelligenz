@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3030"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11677" n="GB 3, Nr. 297">
+  <teiHeader xml:id="gb11677_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>297.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 1. November 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:08Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11677_tei.xml</idno>
+        <idno type="URI">gb11677</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR297_0</idno>
+        <idno type="KSW-ID">11677</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="172" to="172">172</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="587" to="587">587</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11677_header_hwit1257" corresp="#gb11677_source_hwit1257" sameAs="#gb11677_comment_hwit1257" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 60</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11677,,1257/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich schicke Trauben aus meiner Heimath wie sie dies Jahr worden sind</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11677_header_acc185" corresp="gb11677_comment_acc185">
+            <objectIdentifier>
+              <objectName>Weintrauben </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-01">1. November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11677_source_hwit1257" corresp="#gb11677_header_hwit1257" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11677/22718"/>
+      <p>
+        <anchor xml:id="GB03_1_BR297_0_172_014"/>Ich schicke <ref target="gb:note#GB03_2_BR297_0_note_001_172_14" xml:id="start_com_2593"/>Trauben aus meiner Heimath<ref xml:id="end_com_2593"/> wie sie dies Jahr worden 
+<anchor xml:id="GB03_1_BR297_0_172_015"/>sind. Habe wohl gethan heut zu Hause zu bleiben denn es war <ref target="gb:note#GB03_2_BR297_0_note_002_172_15-16" xml:id="start_com_2594"/>eine 
+<anchor xml:id="GB03_1_BR297_0_172_016"/>Menge Wirthschafft<ref xml:id="end_com_2594"/>. Adieu liebe. Wie mags andern Menschen gehn 
+<anchor xml:id="GB03_1_BR297_0_172_017"/>da mirs so verworren geht. d<g ref="#typoSuspension"/>. 1 Nov. 77    G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11677_comment">
+<body>
+<div type="metadata" xml:id="gb11677_comment_com539">
+  <ab type="numberAddressee"><label>297.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 1. November 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11677_comment_com2583">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 60. – 1 Bl. 20,5(–20,7) × 5,2(–5,5) cm, &#x2154; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „49“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 52), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 121.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 182, Nr 639.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11677_comment_com3586">
+  <p>Weintrauben (vgl. zu <ref target="gb:note#GB03_2_BR297_0_note_001_172_14">172,14</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11677_comment_com4379">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11677_comment_com17792">
+<label xml:id="GB03_2_BR297_0_note_001_172_14" copyOf="#start_com_2593"><hi rendition="#fett">172,14</hi>Trauben aus meiner Heimath</label>
+<p>Laut Tagebuch vom 1. November 1777 erhielt Goethe eine Sendung von Merck aus Darmstadt: <quote type="G">kamen die Trauben <gap quantity="3" reason="editorial"/> von Mercken.</quote> (<ref target="gt:dokument#470">GT I 1, 51</ref>; vgl. auch Wieland an Merck, 26. Oktober 1777; <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 771.)</p>
+
+</note>
+<note xml:id="gb11677_comment_com17931">
+<label xml:id="GB03_2_BR297_0_note_002_172_15-16" copyOf="#start_com_2594"><hi rendition="#fett">172,15-16</hi>eine Menge Wirthschafft</label>
+<p>Vielleicht mit Bezug auf Peter im Baumgarten, der seit der Rückkehr Charlotte von Steins aus Kochberg in Goethes Haus lebte (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_001_159_18">159,18</ref>; zu <ref target="gb:note#GB03_2_BR291_0_note_011_170_9-10">170,9-10</ref>). Im Tagebuch finden sich seit dem 23. Oktober immer wieder Hinweise auf die Beschäftigung mit dem Jungen, der Goethe <quote type="G">zuschaffen</quote> (GT I 1, 51) machte. Auch am 1. November beginnt der Tagebucheintrag mit einer Bemerkung über den Zögling: <quote type="G">Petern über das Stelzen L.</quote> <supplied>Laufen</supplied> <quote type="G">durch die Stadt gefilzt</quote> <supplied>zurechtgewiesen</supplied>. (<ref target="gt:dokument#470">Ebd.</ref>)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

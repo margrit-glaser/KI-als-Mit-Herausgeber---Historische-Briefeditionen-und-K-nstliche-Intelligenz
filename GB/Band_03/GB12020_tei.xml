@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12020" n="GB 3, Nr. 546">
+  <teiHeader xml:id="gb12020_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>546.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#84871">Sankt Gotthard</placeName>, 13.  November 1779. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:44Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12020_tei.xml</idno>
+        <idno type="URI">gb12020</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR546_0</idno>
+        <idno type="KSW-ID">12020</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="341" to="342">341-342</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1048" to="1049">1048-1049</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12020_header_hwit1539" corresp="#gb12020_source_hwit1539" sameAs="#gb12020_comment_hwit1539" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 38</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12020,,1539/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Auf dem Gotthart bey den Capuzinern. Glücklich durch eine Kette Merckwürdiger Gegenden</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#84871">Sankt Gotthard</placeName>
+            <date when="1779-11-13">13.  November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12020_source_hwit1539" corresp="#gb12020_header_hwit1539" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12020/23177"/>
+      <opener>
+        <dateline rendition="#einrueck20">
+          <anchor xml:id="GB03_1_BR546_0_341_016"/>d<g ref="#typoSuspension"/> 13 Nov. 79.</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR546_0_341_017"/>
+        <ref target="gb:note#GB03_2_BR546_0_note_001_341_17" xml:id="start_com_4908"/>Auf dem Gotthart bey den Capuzinern.<ref xml:id="end_com_4908"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR546_0_341_018"/>Glücklich durch eine Kette Merckwürdiger Gegenden sind wir hier 
+<anchor xml:id="GB03_1_BR546_0_341_019"/>angekommen, was ich seit Genf aufgezeichnet will ich Philippen <ref target="gb:note#GB03_2_BR546_0_note_002_341_19-20" xml:id="start_com_4909"/>sobald 
+<anchor xml:id="GB03_1_BR546_0_341_020"/>ich ihn<ptr n="1" target="#a001_341.20"/> wieder treffe<ref xml:id="end_com_4909"/>
+        <ref target="gb:note#GB03_2_BR546_0_note_003_341_20" xml:id="start_com_4910"/>dicktiren<ref xml:id="end_com_4910"/>. Hier ist <ref target="gb:note#GB03_2_BR546_0_note_004_341_20" xml:id="start_com_4911"/>der Hezog mit mir allein<ref xml:id="end_com_4911"/>, 
+<anchor xml:id="GB03_1_BR546_0_341_021"/>und dem <ref target="gb:note#GB03_2_BR546_0_note_005_341_21" xml:id="start_com_4912"/>Jäger<ref xml:id="end_com_4912"/>. Auf dem Gipfel unsrer Reise. Bis Genf gings von Ihnen 
+<anchor xml:id="GB03_1_BR546_0_341_022"/>weg, bisher sind wir in der Queer ziemlich gleich weit weggeblieben, 
+<anchor xml:id="GB03_1_BR546_0_341_023"/>und von Morgen an geht <ref target="gb:note#GB03_2_BR546_0_note_006_341_23" xml:id="start_com_4913"/>ieder Schritt wieder zurück<ref xml:id="end_com_4913"/>. <ref target="gb:note#GB03_2_BR546_0_note_007_341_23-24" xml:id="start_com_4914"/>Zum zweitenmal<ref xml:id="end_com_4914"/>
+        <anchor xml:id="GB03_1_BR546_0_341_024"/>bin ich nun in dieser Stube, auf dieser Höhe, ich sage nicht mit 
+<anchor xml:id="GB03_1_BR546_0_341_025"/>was für Gedancken. <ref target="gb:note#GB03_2_BR546_0_note_008_341_25" xml:id="start_com_4915"/>Auch iezt reizt mich Italien <pb n="2" facs="gb:digitalisate#12020/23178"/> nicht.<ref xml:id="end_com_4915"/> Dass dem 
+<anchor xml:id="GB03_1_BR546_0_341_026"/>Herzog diese Reise nichts nüzzen würde iezzo, dass es nicht gut wäre 
+<anchor xml:id="GB03_1_BR546_0_341_027"/>länger von Hause zu bleiben, das ich Euch wiedersehen werde, alles 
+<anchor xml:id="GB03_1_BR546_0_341_028"/>wendet mein Auge zum zweitenmal vom gelobten Lande ab, ohne das 
+<anchor xml:id="GB03_1_BR546_0_341_029"/>zu sehen ich hoffentlich nicht sterben werde, und führt<ptr n="2" target="#a002_341.29"/> meinen Geist 
+<anchor xml:id="GB03_1_BR546_0_342_001"/>wieder nach meinem armen Dache, wo ich vergnügter als iemals Euch 
+<anchor xml:id="GB03_1_BR546_0_342_002"/>an meinem Camin haben, und einen guten<ptr n="3" target="#a003_342.2"/> Braten auftischen werde<ptr n="4" target="#a004_342.2"/>. 
+<anchor xml:id="GB03_1_BR546_0_342_003"/>Dabey sollen die Erzählungen die Abende kurz<ptr n="5" target="#a005_342.3"/> machen von braven 
+<anchor xml:id="GB03_1_BR546_0_342_004"/>Unternehmungen<ptr n="6" target="#a006_342.4"/> Entschlüssen, Freuden und Beschweerden. <pb n="3" facs="gb:digitalisate#12020/23179"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR546_0_342_005"/>Im Kurzen nur! <ref target="gb:note#GB03_2_BR546_0_note_009_342_5-8" xml:id="start_com_4916"/>Von Genf haben wir die Savoyer Eisgebürge durchstrichen, 
+<anchor xml:id="GB03_1_BR546_0_342_006"/>sind von da ins Wallis gefallen, haben dieses die ganze Länge 
+<anchor xml:id="GB03_1_BR546_0_342_007"/>hinauf durchzogen, und endlich über die Furcke auf den Gotthart gekomen.
+<anchor xml:id="GB03_1_BR546_0_342_008"/>
+        <ref xml:id="end_com_4916"/> Es ist diese Lienie auf dem Papier geschwind mit dem Finger 
+<anchor xml:id="GB03_1_BR546_0_342_009"/>gefahren, der Reichthum von Gegenständen aber unbeschreiblich, 
+<anchor xml:id="GB03_1_BR546_0_342_010"/>und das Glück in dieser Jahrszeit seinen Plan rein durchzuführen über 
+<anchor xml:id="GB03_1_BR546_0_342_011"/>allen Preis. Hier oben ist alles Schnee. seit gestern früh 11 Uhr haben 
+<anchor xml:id="GB03_1_BR546_0_342_012"/>wir keinen Baum gesehen. Es ist grimmig kalt, Himmel und Wolcken <pb n="4" facs="gb:digitalisate#12020/23180"/> 
+<anchor xml:id="GB03_1_BR546_0_342_013"/>Rein wie Saphir und Crystale. Der neu Mond ist unter gangen mit 
+<anchor xml:id="GB03_1_BR546_0_342_014"/>seltsamem Lichte<ptr n="7" target="#a007_342.14"/> auf dem Schnee. wir stecken im Hause beym Ofen.<ptr n="8" target="#a008_342.14"/>
+        <anchor xml:id="GB03_1_BR546_0_342_015"/>Morgen steht uns nun der herrliche Weeg den Gotthart hinab noch 
+<anchor xml:id="GB03_1_BR546_0_342_016"/>vor. Doch sind wir schon durch so vieles grose durchgegangen dass wir 
+<anchor xml:id="GB03_1_BR546_0_342_017"/>
+        <ref target="gb:note#GB03_2_BR546_0_note_010_342_17" xml:id="start_com_4917"/>wie Lewiathane sind die den Strom trincken<ref xml:id="end_com_4917"/> und<ptr n="9" target="#a009_342.17"/> sein nicht achten. 
+<anchor xml:id="GB03_1_BR546_0_342_018"/>Mehr oder weniger versteht sich. Gute Nacht. Diesen Brief geb ich auf 
+<anchor xml:id="GB03_1_BR546_0_342_019"/>die nächste Post die ich treffe. Wenn Sie ihn erhalten bin ich schon viel 
+<anchor xml:id="GB03_1_BR546_0_342_020"/>näher Adieu bestes.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR546_0_342_021"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12020_comment">
+<body>
+<div type="metadata" xml:id="gb12020_comment_com1289">
+  <ab type="numberAddressee"><label>546.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#84871">Sankt Gotthard</placeName>, 13.  November 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12020_comment_com3333">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 38. – Doppelblatt 11,7 × 18,5 cm, 4 S. beschr., egh., Tinte, flüchtig geschrieben; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „13“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 61), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 273–275.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 119–121, Nr 863.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12020_comment_com5129">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Am 3. November 1779 waren Goethe und Herzog Carl August ohne Moritz von Wedel und Philipp Seidel (vgl. die dritte Erläuterung zu <ref target="gb:text#GB03_1_BR548_0_343_006">343,6</ref>) von Genf aus in die Savoyer und Walliser Alpen aufgebrochen und hatten am 13. November den Sankt Gotthard östlich der Berner Alpen erreicht. Die Schilderung des ersten Teils dieser Reise von Genf bis Martigny (am westlichen Rand der Walliser Alpen) findet sich in Goethes Brief <ref target="gb:dokument#12043">Nr 550</ref> an Charlotte von Stein (vgl. <ref target="gb:text#GB03_1_BR550_0_345_023 #GB03_1_BR550_0_352_021">345,23–352,21</ref>). Der zweite Teil bis zur Ankunft auf dem Sankt Gotthard findet sich gedruckt in den „Briefen aus der Schweiz“ (2. Abteilung; <ref target="sndb:sigle#1157">WA</ref> I 19, 256–306).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12020_comment_com18791">
+<label xml:id="GB03_2_BR546_0_note_001_341_17" copyOf="#start_com_4908"><hi rendition="#fett">341,17</hi>Auf dem Gotthart bey den Capuzinern.</label>
+<p>Seit 1685 wurde das Hospiz auf dem Sankt Gotthard, ursprünglich eine Herberge für Rompilger, dann für Reisende jeder Art, auch zur Versorgung von mittellosen Reisenden, vom katholischen Männerorden der Kapuziner geführt. Das Hospiz wurde 1799 zerstört. – Überliefert ist eine Bleistiftzeichnung Goethes mit Tuschlavierung, auf der Rückseite versehen mit der eigenhändigen Bleistiftnotiz: <quote type="G">d. 22. Juni 1775 bey den Kapuzinern zu oberst auf dem Gotthart mitten in Schnee und Wolken.</quote> (<ref target="sndb:sigle#1248">Corpus</ref> I, 53, Nr 121.) Die Zeichnung stammt aber vermutlich von Goethes zweiter Schweizer Reise und wurde nachträglich auf 1775 datiert (vgl. Barbara Schnyder-Seidel: Goethe in der Schweiz: anders zu lesen. Von der Wahrheit in der Dichtung letztem Teil. Bern und Stuttgart 1989, S. 65).</p>
+
+</note>
+<note xml:id="gb12020_comment_com11841">
+<label xml:id="GB03_2_BR546_0_note_002_341_19-20" copyOf="#start_com_4909"><hi rendition="#fett">341,19-20</hi>sobald ich ihn wieder treffe</label>
+<p>In Luzern, wo er sich vom 16. bis 18. November 1779 aufhielt, traf Goethe wieder mit Philipp Seidel zusammen.</p>
+
+</note>
+<note xml:id="gb12020_comment_com11842">
+<label xml:id="GB03_2_BR546_0_note_003_341_20" copyOf="#start_com_4910"><hi rendition="#fett">341,20</hi>dicktiren</label>
+<p>Dies geschah vermutlich am 17. November in Luzern. Der niedergeschriebene Reisebericht gehört als zweiter Briefteil zu <ref target="gb:dokument#12043">Nr 550</ref> (vgl. <ref target="gb:text#GB03_1_BR550_0_345_008 #GB03_1_BR550_0_354_025">345,8–354,25</ref>).</p>
+
+</note>
+<note xml:id="gb12020_comment_com11843">
+<label xml:id="GB03_2_BR546_0_note_004_341_20" copyOf="#start_com_4911"><hi rendition="#fett">341,20</hi>der Hezog mit mir allein</label>
+<p>Sie wurden von zwei einheimischen Führern begleitet (vgl. <ref target="gb:text#GB03_1_BR550_0_350_013 #GB03_1_BR550_0_350_014">350,13–14</ref>). – ‚Hezog‘: Schreibversehen.</p>
+
+</note>
+<note xml:id="gb12020_comment_com11844">
+<label xml:id="GB03_2_BR546_0_note_005_341_21" copyOf="#start_com_4912"><hi rendition="#fett">341,21</hi>Jäger</label>
+<p>Über dessen Identität vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>.</p>
+
+</note>
+<note xml:id="gb12020_comment_com15299">
+<label xml:id="GB03_2_BR546_0_note_006_341_23" copyOf="#start_com_4913"><hi rendition="#fett">341,23</hi>ieder Schritt wieder zurück</label>
+<p>In nördliche Richtung nach Andermatt.</p>
+
+</note>
+<note xml:id="gb12020_comment_com11860">
+<label xml:id="GB03_2_BR546_0_note_007_341_23-24" copyOf="#start_com_4914"><hi rendition="#fett">341,23-24</hi>Zum zweitenmal</label>
+<p>Zum ersten Mal hatte Goethe den Sankt Gotthard am 21. Juni 1775 bestiegen; eine Schilderung gibt er im 18. Buch von „Dichtung und Wahrheit“ (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 615–619).</p>
+
+</note>
+<note xml:id="gb12020_comment_com15314">
+<label xml:id="GB03_2_BR546_0_note_008_341_25" copyOf="#start_com_4915"><hi rendition="#fett">341,25</hi>Auch iezt reizt mich Italien nicht.</label>
+<p>Im Sommer 1775 hatte ihn der Gedanke an Anna Elisabeth (Lili) Schönemann an der Fortsetzung der Reise nach Italien gehindert (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 618 f. [18. Buch]).</p>
+
+</note>
+<note xml:id="gb12020_comment_com16169">
+<label xml:id="GB03_2_BR546_0_note_009_342_5-8" copyOf="#start_com_4916"><hi rendition="#fett">342,5-8</hi>Von Genf <gap quantity="3" reason="editorial"/> auf den Gotthart gekomen.</label>
+<p>Vgl. zur Reiseroute die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref> sowie <ref target="gb:dokument#12043">Nr 550</ref> und die Erläuterungen dazu.</p>
+
+</note>
+<note xml:id="gb12020_comment_com11861">
+<label xml:id="GB03_2_BR546_0_note_010_342_17" copyOf="#start_com_4917"><hi rendition="#fett">342,17</hi>wie Lewiathane <gap quantity="3" reason="editorial"/> die den Strom trincken</label>
+<p>Im Buch Hiob (40,18) heißt es über das Nilpferd Behemot: „Siehe, er schlucket in sich den strom, und achtets nicht groß“ (Luther-Bibel 1772 AT, 464). Vom Leviathan, einem drachenartigen Untier, ist bei Hiob gleich im Anschluss an die Stelle die Rede.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

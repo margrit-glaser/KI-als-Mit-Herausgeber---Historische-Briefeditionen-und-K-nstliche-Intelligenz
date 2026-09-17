@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4910"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb50" n="GB 3, Nr. 481">
+  <teiHeader xml:id="gb50_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>481.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 26. März 1779. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:15Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb50_tei.xml</idno>
+        <idno type="URI">gb50</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR481_0</idno>
+        <idno type="KSW-ID">50</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="267" to="268">267-268</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="881" to="883">881-883</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb50_header_hwit1463" corresp="#gb50_source_hwit1463" sameAs="#gb50_comment_hwit1463" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 8</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/50,,1463/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Diesen Monat bin ich wenig nach Hause gekommen und finde    nunmehr Ihren Aufsatz</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb50_header_acc225" corresp="gb50_comment_acc225">
+            <objectIdentifier>
+              <objectName>Geld </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-03-26">26. März 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb50_source_hwit1463" corresp="#gb50_header_hwit1463" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#50/10977"/>
+      <p>
+        <anchor xml:id="GB03_1_BR481_0_267_013"/>
+        <ref target="gb:note#GB03_2_BR481_0_note_001_267_13" xml:id="start_com_3900"/>Diesen Monath bin ich wenig nach Hause gekommen<ref xml:id="end_com_3900"/> und finde nunmehr 
+<anchor xml:id="GB03_1_BR481_0_267_014"/>ihren Aufsaz. Ihrer Noth habe ich nicht vergessen. In Ilmenau 
+<anchor xml:id="GB03_1_BR481_0_267_015"/>hab ich mich nach einem Aufenthalt für Sie umgethan, und das nothwendige 
+<anchor xml:id="GB03_1_BR481_0_267_016"/>würden Sie daselbst für <ref target="gb:note#GB03_2_BR481_0_note_002_267_16" xml:id="start_com_3901"/>100 rh<ref xml:id="end_com_3901"/> haben, wofür ich mich von 
+<anchor xml:id="GB03_1_BR481_0_267_017"/>viertel zu vierteljahren verbürgen würde, einiges Taschengeld würde 
+<anchor xml:id="GB03_1_BR481_0_267_018"/>sich denn auch finden. Nur muss ich Ihnen aufrichtig wiederholen zu 
+<anchor xml:id="GB03_1_BR481_0_267_019"/>keinem <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR481_0_note_003_267_19" xml:id="start_com_3902"/>guten</hi> Dienste<ref xml:id="end_com_3902"/> kan ich Ihnen nicht Hoffnung machen, sollten 
+<anchor xml:id="GB03_1_BR481_0_267_020"/>Sie mir in <ref target="gb:note#GB03_2_BR481_0_note_004_267_20" xml:id="start_com_3903"/>herrschafft<g ref="#typoSuspension"/>. Aufträgen<ref xml:id="end_com_3903"/> deren ich in iener Gegend habe 
+<anchor xml:id="GB03_1_BR481_0_267_021"/>an Hand gehen können; so würde ich im Falle seyn Ihnen auch etwas 
+<anchor xml:id="GB03_1_BR481_0_267_022"/>dafür zu reichen, es wäre eine Erleichterung und ein Anfang. Vielleicht 
+<anchor xml:id="GB03_1_BR481_0_268_001"/>fügt sich etwas weiter. <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3" xml:id="start_com_3904"/>Ihre Wonung wäre in einem Bürger 
+<anchor xml:id="GB03_1_BR481_0_268_002"/>Haus, allein ihr Tisch auswärts bey andern recht denckenden braven 
+<anchor xml:id="GB03_1_BR481_0_268_003"/>Leuten<ref xml:id="end_com_3904"/>, iederman würde Ihnen gut begegnen und es wäre wenigstens 
+<anchor xml:id="GB03_1_BR481_0_268_004"/>ein Schritt näher. Denn in <ref target="gb:note#GB03_2_BR481_0_note_006_268_4" xml:id="start_com_3905"/>Lotterie Sachen<ref xml:id="end_com_3905"/> ist wohl schweerlich bey 
+<anchor xml:id="GB03_1_BR481_0_268_005"/>uns zu hoffen. Dabey gesteh ich Ihnen dass ich wünsche dass das wenige 
+<anchor xml:id="GB03_1_BR481_0_268_006"/>was Sie von mir haben in des Herzogs Landen verzehrt werde, da 
+<anchor xml:id="GB03_1_BR481_0_268_007"/>ich es von daher nehme. <pb n="2" facs="gb:digitalisate#50/10978"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR481_0_268_008"/>Hier schick ich<ptr n="1" target="#a001_268.8"/>
+        <ref target="gb:note#GB03_2_BR481_0_note_007_268_8" xml:id="start_com_3906"/>das Osterquartal<ref xml:id="end_com_3906"/>, sehe aber wohl dass Sie die Zeit 
+<anchor xml:id="GB03_1_BR481_0_268_009"/>her wieder schuldig worden seyn werden, und dass es höchstens <ref target="gb:note#GB03_2_BR481_0_note_008_268_9-10" xml:id="start_com_3907"/>zur 
+<anchor xml:id="GB03_1_BR481_0_268_010"/>Reise<ref xml:id="end_com_3907"/> hinreichen mag.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR481_0_268_011"/>Entschliesen Sie sich bald. Der Vorschlag wird Sie wenigstens<ptr n="2" target="#a002_268.11"/> der 
+<anchor xml:id="GB03_1_BR481_0_268_012"/>Ruhe näher bringen, wenn er Ihnen auch weiter keine Aussichten 
+<anchor xml:id="GB03_1_BR481_0_268_013"/>giebt, an äusserlicher Achtung und Wartung in Kranckheit wirds ihnen 
+<anchor xml:id="GB03_1_BR481_0_268_014"/>nicht fehlen.<ptr n="3" target="#a003_268.14"/> Wir hoffen dass <ref target="gb:note#GB03_2_BR481_0_note_009_268_14" xml:id="start_com_3908"/>das Bergwerck wieder in Umtrieb<ref xml:id="end_com_3908"/>
+        <anchor xml:id="GB03_1_BR481_0_268_015"/>kommen soll vielleicht giebts <ref target="gb:note#GB03_2_BR481_0_note_010_268_15" xml:id="start_com_3909"/>dabey etwas zu thun<ref xml:id="end_com_3909"/>. Um alsdenn empfohlen 
+<anchor xml:id="GB03_1_BR481_0_268_016"/>werden zu können, ists nothwendig<ptr n="4" target="#a004_268.16"/> dass Sie schon einige Zeit 
+<anchor xml:id="GB03_1_BR481_0_268_017"/>im Lande sind. Antworten sie mir bald, erkundigen Sie sich nach dem 
+<anchor xml:id="GB03_1_BR481_0_268_018"/>Weege.     Alsdenn sollen Sie das nähere von mir hören.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR481_0_268_019"/>
+        <ref target="gb:note#GB03_2_BR481_0_note_011_268_19" xml:id="start_com_3910"/>Ihre Schrifft über Lottos<ref xml:id="end_com_3910"/> ist recht sehr gut sie zeugt von Ihren guten 
+<anchor xml:id="GB03_1_BR481_0_268_020"/>Einsichten und Gesinnungen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR481_0_268_021"/>Ich darf Ihnen die Geduld empfehlen, da Sie überzeugt sind dass 
+<anchor xml:id="GB03_1_BR481_0_268_022"/>ich gern das mögliche für sie thue.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR481_0_268_023"/>Weimar d<g ref="#typoSuspension"/>. 26 März 1779</dateline>
+        <anchor xml:id="GB03_1_BR481_0_268_024"/>
+        <signed rend="paraph" rendition="#einrueck14">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb50_comment">
+<body>
+<div type="metadata" xml:id="gb50_comment_com92">
+  <ab type="numberAddressee"><label>481.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 26. März 1779 → <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb50_comment_com2136">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 8. – 1 Bl. 20,2 &#xD7; 27,3 cm, 2 S. beschr., egh., Tinte; Vs. oben Mitte von fremder Hd, Tinte: „79. Mertz. 26<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd (Schöll? vgl. E), Bleistift: „6“; Bl. nachträglich mit einem Falz an einem unbeschriebenen Bl. befestigt.</p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 173 f., Nr 6.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 24–26, Nr 802 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb50_comment_com3456">
+  <p>Geld (vgl. zu <ref target="gb:note#GB03_2_BR481_0_note_007_268_8">268,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb50_comment_com3932">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Kraffts (vgl. <ref target="gb:text#GB03_1_BR481_0_267_013 #GB03_1_BR481_0_267_014">267,13–14</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb50_comment_com5356">
+<label xml:id="GB03_2_BR481_0_note_001_267_13" copyOf="#start_com_3900"><hi rendition="#fett">267,13</hi>Diesen Monath <gap quantity="3" reason="editorial"/> wenig nach Hause gekommen</label>
+<p>Goethe war von Ende Februar bis zum 12. März 1779 dienstlich im Weimarer Umland unterwegs gewesen, vom 16. bis 20. März in Ilmenau und Umgebung. Die Reisen dienten der Straßeninspektion und der Rekrutenmusterung; vgl. Goethes Brief an Herzog Carl August vom 8. März 1779 (<ref target="gb:dokument#10219">Nr 474</ref>). Seit Januar 1779 war Goethe Mitglied der Kriegskommission und Leiter der Wegebaudirektion.</p>
+
+</note>
+<note xml:id="gb50_comment_com5357">
+<label xml:id="GB03_2_BR481_0_note_002_267_16" copyOf="#start_com_3901"><hi rendition="#fett">267,16</hi>100 rh</label>
+<p>Dies war die jährliche Summe, mit der Goethe Krafft unterstützte. Von 1781 an zahlte er 200 Reichstaler einschließlich Taschengeldes und aller anderen Nebenausgaben.</p>
+
+</note>
+<note xml:id="gb50_comment_com5358">
+<label xml:id="GB03_2_BR481_0_note_003_267_19" copyOf="#start_com_3902"><hi rendition="#fett">267,19</hi><hi rendition="#hervor1">guten</hi> Dienste</label>
+<p>‚Gut‘ hier im Sinn von ‚ansehnlich‘, ‚einträglich‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 573); vgl. Wendungen wie ‚sich gut stehen‘.</p>
+
+</note>
+<note xml:id="gb50_comment_com14247">
+<label xml:id="GB03_2_BR481_0_note_004_267_20" copyOf="#start_com_3903"><hi rendition="#fett">267,20</hi>herrschafft<g ref="#typoSuspension"/>. Aufträgen</label>
+<p>Aufträge einer landesherrlichen (herzoglichen) Behörde. – Seit Februar 1777 Vorsitzender der Bergwerkskommission, kümmerte sich Goethe um die Wiederbelebung des Ilmenauer Bergbaus.</p>
+</note>
+<note xml:id="gb50_comment_com16333">
+<label xml:id="GB03_2_BR481_0_note_005_268_1-3" copyOf="#start_com_3904"><hi rendition="#fett">268,1-3</hi>Ihre Wonung <gap quantity="3" reason="editorial"/> braven Leuten</label>
+<p>In Kraffts Berichten aus Ilmenau wird „der Rathsherr und Cämmerer Schnepp, ein Bruder des AmtsChirurgi, wo ich logirt habe“ (H: <ref target="archivdb:dokument#76032">GSA 62/37</ref>, Bl. 61r) erwähnt; bei dem Amtschirurgen handelt es sich um Johann Christian Schnepp, der in der damaligen Schlossgasse (heutigen Friedrich-Hofmann-Straße) wohnte. Es wird angenommen, dass Krafft nach seinem Umzug im Mai 1779 zunächst dort unterkam (vgl. <ref target="sndb:sigle#958">Voigt</ref>, 88). Kost erhielt er dagegen in einer anderen Familie. In einem vom 13. und 17. Juli 1779 stammenden Brief spricht Goethe im ersten Briefteil vom 13. Juli von einem Kontrakt, nach dem Krafft es <quote type="G">nunmehr allein mit Hoes zu thun</quote> (<ref target="gb:text#GB03_1_BR515_0_285_002">285,2</ref>) habe. Da im selben Zusammenhang davon die Rede ist, dass diese <quote type="G">Leute</quote> 100 Reichstaler jährlich verlangten, ist anzunehmen, dass Krafft bei ihnen sowohl Kost als auch Logis bekommen sollte. Dass die von Goethe hier erwähnten <quote type="G">braven Leute</quote> mit den später erwähnten <quote type="G">Hoes</quote> (vgl. zu <ref target="gb:note#GB03_2_BR515_0_note_002_285_2">285,2</ref>) identisch sind, ist möglich. Im zweiten Briefteil vom 17. Juli schließlich ist von einem Kontrakt die Rede, <quote type="G">den Sie mit Riethen auswechseln können</quote> (<ref target="gb:text#GB03_1_BR515_0_286_001 #GB03_1_BR515_0_286_002">286,1–2</ref>). Damit ist der Kaufmann Julius Michael Rieth in der Marktstraße gemeint. Am 21. August 1779 quittierte Rieth erstmals eine Zahlung über „für Herrn Krafft vierteljährige Contractmäßig ausgemachte Fünf und zwantzig Rthlr, für die Monath August, September und October“ (<ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 50r; vgl. <ref target="sndb:sigle#958">Voigt</ref>, 374). Aus welchen Gründen der Mietvertrag letztlich mit Rieth und nicht mit den <quote type="G">Hoes</quote> abgeschlossen wurde, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb50_comment_com5339">
+<label xml:id="GB03_2_BR481_0_note_006_268_4" copyOf="#start_com_3905"><hi rendition="#fett">268,4</hi>Lotterie Sachen</label>
+<p>Krafft, der Goethe eine <quote type="G">Schrifft über Lottos</quote> (<ref target="gb:text#GB03_1_BR481_0_268_019">268,19</ref>) geschickt hatte, wollte vermutlich – in der Hoffnung, dabei eine Anstellung zu finden – eine Lotterie in Sachsen-Weimar einrichten, wie heute ein unter Aufsicht des Staates stehendes Glücksspiel, dessen man sich „als eines Mittels zur Erhaltung der Armen, und Beförderung des gemeinen Bestens“ bediente (<ref target="sndb:sigle#3152">Zedler</ref> 18, 565).</p>
+
+</note>
+<note xml:id="gb50_comment_com13923">
+<label xml:id="GB03_2_BR481_0_note_007_268_8" copyOf="#start_com_3906"><hi rendition="#fett">268,8</hi>das Osterquartal</label>
+<p>Goethe übersandte Krafft vierteljährlich (Neujahr, Ostern, Johannis [24. Juni] und Michaelis [29. September]) eine Unterstützung von 25 Reichstalern (vgl. <ref target="gb:text#GB03_1_BR419_0_240_022 #GB03_1_BR419_0_240_024">240,22–24</ref>).</p>
+
+</note>
+<note xml:id="gb50_comment_com5340">
+<label xml:id="GB03_2_BR481_0_note_008_268_9-10" copyOf="#start_com_3907"><hi rendition="#fett">268,9-10</hi>zur Reise</label>
+<p>Nach Ilmenau.</p>
+
+</note>
+<note xml:id="gb50_comment_com5341">
+<label xml:id="GB03_2_BR481_0_note_009_268_14" copyOf="#start_com_3908"><hi rendition="#fett">268,14</hi>das Bergwerck wieder in Umtrieb</label>
+<p>Erst 1784 wurde der Bergbau in Ilmenau wieder aufgenommen. Krafft war an den Vorbereitungen nicht beteiligt.</p>
+
+</note>
+<note xml:id="gb50_comment_com5342">
+<label xml:id="GB03_2_BR481_0_note_010_268_15" copyOf="#start_com_3909"><hi rendition="#fett">268,15</hi>dabey etwas zu thun</label>
+<p>Goethe setzte Krafft u. a. ein, ihm Berichte über die wirtschaftlichen und sozialen Verhältnisse in Ilmenau zusammenzustellen (vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb38_comment_com4808">Nr 410</ref>).</p>
+
+</note>
+<note xml:id="gb50_comment_com5343">
+<label xml:id="GB03_2_BR481_0_note_011_268_19" copyOf="#start_com_3910"><hi rendition="#fett">268,19</hi>Ihre Schrifft über Lottos</label>
+<p>Sie ist nicht überliefert.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

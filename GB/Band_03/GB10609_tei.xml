@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="80"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10609" n="GB 3, Nr. 8">
+  <teiHeader xml:id="gb10609_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>8.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79598">Waldeck</placeName>, 23. und 24. Dezember 1775. Samstag und Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10609_tei.xml</idno>
+        <idno type="URI">gb10609</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR008_0</idno>
+        <idno type="KSW-ID">10609</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="8" to="11">8-11</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="28" to="36">28-36</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10609_header_hwit831" corresp="#gb10609_source_hwit831" sameAs="#gb10609_comment_hwit831" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/411,I Bl. 1-2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8528</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10609,,831/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dass mir in diesem Winckel der Welt, Nachts, in dieser Jahrszeit, mein alt Zigeunerlied</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79598">Waldeck</placeName>
+            <date when="1775-12-23">23. Dezember 1775</date> und
+            <date when="1775-12-24">24. Dezember 1775</date>
+            <note>
+              <date type="WA" from="1775-12-23" to="1775-12-26">23.-26. Dezember 1775</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#77961">Gotha</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#61">RA 1, Nr. 57</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10609_source_hwit831" corresp="#gb10609_header_hwit831" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10609/12254"/>
+      <lg type="poem">
+      <lg n="1">
+        <anchor xml:id="GB03_1_BR008_0_008_008"/>
+        <l rendition="#einrueck4"><ref target="gb:note#GB03_2_BR008_0_note_001_8_8" xml:id="start_com_0109"/>Im Nebelgeriesel, im tiefen Schnee<ref xml:id="end_com_0109"/>
+        </l>
+        <anchor xml:id="GB03_1_BR008_0_008_009"/>
+        <l rendition="#einrueck4">Im Wilden Wald in der Winternacht!</l>
+        <anchor xml:id="GB03_1_BR008_0_008_010"/>
+        <l rendition="#einrueck4">Ich hör der Wölfe Hungergeheul</l>
+        <anchor xml:id="GB03_1_BR008_0_008_011"/>
+        <l rendition="#einrueck4">Ich hör der Eulen schreyn.</l>
+        <anchor xml:id="GB03_1_BR008_0_008_012"/>
+        <l rendition="#einrueck8">Wille wau wau wau</l>
+        <anchor xml:id="GB03_1_BR008_0_008_013"/>
+        <l rendition="#einrueck8">Wille wo wo wo</l>
+        <anchor xml:id="GB03_1_BR008_0_008_014"/>
+        <l rendition="#einrueck8">Withe hu!</l>
+        <space quantity="1" unit="lines"/></lg>
+        <lg n="2">
+        <anchor xml:id="GB03_1_BR008_0_008_015"/>
+        <l rendition="#einrueck4">Mein Mann der schoss<ptr n="1" target="#a001_8.15"/> eine Kaz am Zaun</l>
+        <anchor xml:id="GB03_1_BR008_0_008_016"/>
+        <l rendition="#einrueck4">War Anne der Nachbrinn schwarze liebe Kaz</l>
+        <anchor xml:id="GB03_1_BR008_0_008_017"/>
+        <l rendition="#einrueck4">Da kamen des Nachts sieben <ref target="gb:note#GB03_2_BR008_0_note_002_8_17" xml:id="start_com_0110"/>Währwölf<ref xml:id="end_com_0110"/> zu mir</l>
+        <anchor xml:id="GB03_1_BR008_0_008_018"/>
+        <l rendition="#einrueck4">Waren sieben sieben Weiber vom Dorf</l>
+        <anchor xml:id="GB03_1_BR008_0_008_019"/>
+        <l rendition="#einrueck8">Wille wau wau wau</l>
+        <anchor xml:id="GB03_1_BR008_0_008_020"/>
+        <l rendition="#einrueck8">Wille wo wo wo</l>
+        <anchor xml:id="GB03_1_BR008_0_008_021"/>
+        <l rendition="#einrueck8">Withe hu!</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="3">
+        <anchor xml:id="GB03_1_BR008_0_008_022"/>
+        <l rendition="#einrueck4">Ich kannt sie all ich kannt sie wohl</l>
+        <anchor xml:id="GB03_1_BR008_0_008_023"/>
+        <l rendition="#einrueck4">’S war Anne und Ursel und Kätt</l>
+        <anchor xml:id="GB03_1_BR008_0_008_024"/>
+        <l rendition="#einrueck4">Und Reupel, Bärbel und Lies und Gret</l>
+        <anchor xml:id="GB03_1_BR008_0_008_025"/>
+        <l rendition="#einrueck4">Sie heulten im Kreis mich an</l>
+        <anchor xml:id="GB03_1_BR008_0_008_026"/>
+        <l rendition="#einrueck8">Wille wau wau wau</l>
+        <anchor xml:id="GB03_1_BR008_0_008_027"/>
+        <l rendition="#einrueck8">Wille wo wo wo</l>
+        <anchor xml:id="GB03_1_BR008_0_008_028"/>
+        <l rendition="#einrueck8">Withe hu!</l></lg>
+        <space quantity="1" unit="lines"/>
+        
+        <lg n="4">
+        <anchor xml:id="GB03_1_BR008_0_009_001"/><l rendition="#einrueck4">Da <ref target="gb:note#GB03_2_BR008_0_note_003_9_1" xml:id="start_com_0111"/>nannt ich sie all beym Nahmen laut<ref xml:id="end_com_0111"/>
+        </l>
+        <anchor xml:id="GB03_1_BR008_0_009_002"/>
+        <l rendition="#einrueck4">Was willst du Anne? was willst du Kett?</l>
+        <anchor xml:id="GB03_1_BR008_0_009_003"/>
+        <l rendition="#einrueck4">Sie rüttelten sich sie schüttelten sich</l>
+        <anchor xml:id="GB03_1_BR008_0_009_004"/>
+        <l rendition="#einrueck4">Und liefen und heulten davon.</l>
+        <anchor xml:id="GB03_1_BR008_0_009_005"/>
+        <l rendition="#einrueck8">Wille wau wau wau</l>
+        <anchor xml:id="GB03_1_BR008_0_009_006"/>
+        <l rendition="#einrueck8">Wille wo wo wo</l>
+        <anchor xml:id="GB03_1_BR008_0_009_007"/>
+        <l rendition="#einrueck8">Withe hu! <pb n="2" facs="gb:digitalisate#10609/12255"/></l></lg>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR008_0_009_008"/>Dass mir <ref target="gb:note#GB03_2_BR008_0_note_004_9_8" xml:id="start_com_0112"/>in diesem Winckel der Welt<ref xml:id="end_com_0112"/>, <ref target="gb:note#GB03_2_BR008_0_note_005_9_8" xml:id="start_com_0113"/>Nachts,<ref xml:id="end_com_0113"/> in dieser Jahrszeit, 
+<anchor xml:id="GB03_1_BR008_0_009_009"/><ref target="gb:note#GB03_2_BR008_0_note_006_9_9" xml:id="start_com_0114"/>mein alt Zigeunerlied<ref xml:id="end_com_0114"/> wieder einfällt, ist eben so natürlich lieber gnädiger 
+<anchor xml:id="GB03_1_BR008_0_009_010"/>Herr, als dass ich mich gleich hinsezze es Ihnen aufzuschreiben, 
+<anchor xml:id="GB03_1_BR008_0_009_011"/>und hinter drein einen Brief zu sudeln, denn ich vermisse Sie warrlich 
+<anchor xml:id="GB03_1_BR008_0_009_012"/>schon, ob wir gleich nicht zwölf<ptr n="2" target="#a002_9.12"/> Stunden aus einander sind.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR008_0_009_013"/>Drunten sizzen sie noch, nach aufgehobnem Tische, und schmauchen, 
+<anchor xml:id="GB03_1_BR008_0_009_014"/>und schwazzen dass ich’s durch den Boden höre, <ref target="gb:note#GB03_2_BR008_0_note_007_9_14-15" xml:id="start_com_0115"/>Einsiedels klingende 
+<anchor xml:id="GB03_1_BR008_0_009_015"/>Stimme<ref xml:id="end_com_0115"/> voraus. Ich bin heraufgangen, es ist halb neune.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR008_0_009_016"/>Wind und Wetter hat uns hergetrieben, auch Regen und was dran 
+<anchor xml:id="GB03_1_BR008_0_009_017"/>hängt. Die <ref target="gb:note#GB03_2_BR008_0_note_008_9_17" xml:id="start_com_0116"/>Klufft nach Jena hinein<ref xml:id="end_com_0116"/> hat mich in glücklichem Abendsonnenblick 
+<anchor xml:id="GB03_1_BR008_0_009_018"/>mit<ptr n="3" target="#a003_9.18"/> all ihrer dürren Herrlichkeit angelächelt. Die <ref target="gb:note#GB03_2_BR008_0_note_009_9_18-19" xml:id="start_com_0117"/>Lage 
+<anchor xml:id="GB03_1_BR008_0_009_019"/>von Jena<ref xml:id="end_com_0117"/> selbst mich gefreut<ptr n="4" target="#a004_9.19"/>, der Ort mich gedrückt, und zwischen da 
+<anchor xml:id="GB03_1_BR008_0_009_020"/>und hier war nicht viel Gaffens, es kam ein Regen aus Italien, wie 
+<anchor xml:id="GB03_1_BR008_0_009_021"/>uns <ref target="gb:note#GB03_2_BR008_0_note_010_9_21" xml:id="start_com_0118"/>ein Alter<ref xml:id="end_com_0118"/><ptr n="5" target="#a005_9.21"/> versicherte, der mit dem Schubekarrn an uns vorbeyfuhr: 
+<anchor xml:id="GB03_1_BR008_0_009_022"/>In Italien sey warm, da komme der warme Wind<ptr n="6" target="#a006_9.22"/> her, <ref target="gb:note#GB03_2_BR008_0_note_011_9_22-23" xml:id="start_com_0119"/>in den 
+<anchor xml:id="GB03_1_BR008_0_009_023"/>Dreysig<ref xml:id="end_com_0119"/> sey er da gewesen, erzählte er so ganz flüchtig weg. Hier liegen 
+<anchor xml:id="GB03_1_BR008_0_009_024"/>wir recht <ref target="gb:note#GB03_2_BR008_0_note_012_9_24" xml:id="start_com_0120"/>in den Fichten<ref xml:id="end_com_0120"/> drein. Bey natürlich guten Menschen. 
+<anchor xml:id="GB03_1_BR008_0_009_025"/>Ich hab Sie<ptr n="7" target="#a007_9.25"/> etliche mal auf dem Ritt gewünscht, auch hier, es würde 
+<anchor xml:id="GB03_1_BR008_0_009_026"/>Ihnen wohl seyn. Unterwegs haben wir in den Schencken <ref target="gb:note#GB03_2_BR008_0_note_013_9_26-27" xml:id="start_com_0121"/>den gedruckten 
+<anchor xml:id="GB03_1_BR008_0_009_027"/>Karl August gegrüst<ref xml:id="end_com_0121"/>, und haben gefühlt, wie Lieb wir Sie 
+<anchor xml:id="GB03_1_BR008_0_009_028"/>haben, dass uns Ihr Nahme auch neben dem <ref target="gb:note#GB03_2_BR008_0_note_014_9_28" xml:id="start_com_0122"/>(L. S.)<ref xml:id="end_com_0122"/> Freude machte. 
+<anchor xml:id="GB03_1_BR008_0_009_029"/>Einsiedel ist zu Bette. Sein Magen liegt schief, Kaffee und Brandwein 
+<anchor xml:id="GB03_1_BR008_0_009_030"/>wolltens nicht bessern. Ich will auch gehn. Gute herzliche Nacht<ptr n="8" target="#a008_9.30"/>. <pb n="3" facs="gb:digitalisate#10609/12256"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR008_0_009_031"/>Noch ein Wort eh ich schlafen gehe. Wie ich so in der Nacht gegen 
+<anchor xml:id="GB03_1_BR008_0_009_032"/>das Fichtengebürg ritt; kam das Gefühl der Vergangenheit, meines 
+<anchor xml:id="GB03_1_BR008_0_009_033"/>Schicksaals, und meiner Liebe über mich, und sang so bey mir selber:</p>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR008_0_010_001"/>
+        <l rendition="#einrueck5"><ref target="gb:note#GB03_2_BR008_0_note_015_10_1-4" xml:id="start_com_0123"/>Holde Lili warst so lang</l>
+        <anchor xml:id="GB03_1_BR008_0_010_002"/>
+        <l rendition="#einrueck5">All meine Lust und all mein Sang</l>
+        <anchor xml:id="GB03_1_BR008_0_010_003"/>
+        <l rendition="#einrueck5">Bist ach nun all mein Schmerz und doch</l>
+        <anchor xml:id="GB03_1_BR008_0_010_004"/>
+        <l rendition="#einrueck5">All mein Sang bist du noch.<ref xml:id="end_com_0123"/>
+        </l>
+      </lg>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_1_BR008_0_010_005"/>__________
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR008_0_010_006"/>Nun aber und abermal gute Nacht.</p>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR008_0_010_007"/>
+        <l rendition="#einrueck5"><ref target="gb:note#GB03_2_BR008_0_note_016_10_7" xml:id="start_com_0124"/>Gehab dich wohl bey den hundert Lichtern<ref xml:id="end_com_0124"/>
+        </l>
+        <anchor xml:id="GB03_1_BR008_0_010_008"/>
+        <l rendition="#einrueck5">Die dich umglänzen</l>
+        <anchor xml:id="GB03_1_BR008_0_010_009"/>
+        <l rendition="#einrueck5">Und all den Gesichtern</l>
+        <anchor xml:id="GB03_1_BR008_0_010_010"/>
+        <l rendition="#einrueck5">Die dich umschwänzen</l>
+        <anchor xml:id="GB03_1_BR008_0_010_011"/>
+        <l rendition="#einrueck5">Und umkredenzen.</l>
+        <anchor xml:id="GB03_1_BR008_0_010_012"/>
+        <l rendition="#einrueck5">Findst doch nur wahre Freud und Ruh</l>
+        <anchor xml:id="GB03_1_BR008_0_010_013"/>
+        <l rendition="#einrueck5">Bey Seelen grad und treu wie du</l>
+      </lg>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_1_BR008_0_010_014"/>__________
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR008_0_010_015"/>
+        <ref target="gb:note#GB03_2_BR008_0_note_017_10_15" xml:id="start_com_0125"/>Sontags früh bey Tags Anbruch.<ref xml:id="end_com_0125"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR008_0_010_016"/>Fatales Tauwetter und so der ganze Ton des Tags verstimmt, wollen 
+<anchor xml:id="GB03_1_BR008_0_010_017"/>sehn wie wir ihn wieder aufbringen. <ref target="gb:note#GB03_2_BR008_0_note_018_10_17" xml:id="start_com_0126"/>Der herrliche Morgenstern<ref xml:id="end_com_0126"/> den 
+<anchor xml:id="GB03_1_BR008_0_010_018"/>ich mir von nun an <ref target="gb:note#GB03_2_BR008_0_note_019_10_18" xml:id="start_com_0127"/>zum Wapen nehme<ref xml:id="end_com_0127"/>, steht hoch am Himmel. <ref target="gb:note#GB03_2_BR008_0_note_020_10_18" xml:id="start_com_0128"/>Eins.<ref xml:id="end_com_0128"/>
+        <anchor xml:id="GB03_1_BR008_0_010_019"/>ist<ptr n="9" target="#a009_10.19"/> in <ref target="gb:note#GB03_2_BR008_0_note_021_10_19" xml:id="start_com_0129"/>Geilheit<ref xml:id="end_com_0129"/> starck befangen, ich habe die ganze Nacht von Heerzügen 
+<anchor xml:id="GB03_1_BR008_0_010_020"/>geträumt die alle wohl abgelauffen sind, besonders von einer Reise 
+<anchor xml:id="GB03_1_BR008_0_010_021"/>aus der Schweiz nach Pohlen, die ich that den <ref target="gb:note#GB03_2_BR008_0_note_022_10_21" xml:id="start_com_0130"/>Marschall Saxe<ref xml:id="end_com_0130"/> zu 
+<anchor xml:id="GB03_1_BR008_0_010_022"/>sehen und unter ihm zu dienen, der eben in meiner Traum Welt noch 
+<anchor xml:id="GB03_1_BR008_0_010_023"/>lebte. Die Kirche geht an, in die wir nicht gehen werden, aber den 
+<anchor xml:id="GB03_1_BR008_0_010_024"/><ref target="gb:note#GB03_2_BR008_0_note_023_10_24" xml:id="start_com_0131"/>Pfarrer<ref xml:id="end_com_0131"/> lass ich fragen ob er die Odyssee nicht hat, und hat er sie nicht 
+<anchor xml:id="GB03_1_BR008_0_010_025"/>schick ich nach Jena. Denn unmöglich ist die zu entbehren hier in 
+<anchor xml:id="GB03_1_BR008_0_010_026"/>der homerisch einfachen Welt. Besonders fielen mir <pb n="4" facs="gb:digitalisate#10609/12257"/> <ref target="gb:note#GB03_2_BR008_0_note_024_10_26" xml:id="start_com_0132"/>einige Verse<ref xml:id="end_com_0132"/>
+        <anchor xml:id="GB03_1_BR008_0_010_027"/>ein, und<ptr n="10" target="#a010_10.27"/> recht auf, da ich heut früh lang ausgeschlafen hatte und es 
+<anchor xml:id="GB03_1_BR008_0_010_028"/>nicht Tag werden wollte<ptr n="11" target="#a011_10.28"/>, was ohngefähr heisst: Und in ihre Felle gehüllt 
+<anchor xml:id="GB03_1_BR008_0_010_029"/>lagen sie am glimmenden Heerde, über ihnen wehte der nasse 
+<anchor xml:id="GB03_1_BR008_0_010_030"/>Sturm durch die unendliche Nacht und lagen und schliefen den erquicklichen 
+<anchor xml:id="GB03_1_BR008_0_010_031"/>Schlaf biss zum spät dämmernden Morgen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR008_0_010_032"/>Ich muss <ref target="gb:note#GB03_2_BR008_0_note_025_10_32" xml:id="start_com_0133"/>nach Bürgel zum Recktor<ref xml:id="end_com_0133"/> schicken um den <ref target="gb:note#GB03_2_BR008_0_note_026_10_32" xml:id="start_com_0134"/>Homer<ref xml:id="end_com_0134"/>, hab 
+<anchor xml:id="GB03_1_BR008_0_010_033"/>indess in der Bibel gelesen. Hier ein Stück <ref target="gb:note#GB03_2_BR008_0_note_027_10_33-11_10" xml:id="start_com_0135"/>Jesaies: <ref target="gb:note#GB03_2_BR008_0_note_028_10_33" xml:id="start_com_0136"/>Sieher<ref xml:id="end_com_0136"/>, der Herr 
+<anchor xml:id="GB03_1_BR008_0_011_001"/>macht’s Land leer und wüste; und wirft um was drinnen ist, und zerstreuet 
+<anchor xml:id="GB03_1_BR008_0_011_002"/>seine Einwohner – der Most verschwindet, die<ptr n="12" target="#a012_11.2"/> Rebe verschmachtet, 
+<anchor xml:id="GB03_1_BR008_0_011_003"/>und alle die Herzlich froh waren, ächzen. Der Paucken 
+<anchor xml:id="GB03_1_BR008_0_011_004"/>Jubel feyert, das festliche <ref target="gb:note#GB03_2_BR008_0_note_029_11_4" xml:id="start_com_0137"/>Jauchen<ref xml:id="end_com_0137"/> verstummt und der Harfen Gesang 
+<anchor xml:id="GB03_1_BR008_0_011_005"/>ist dahin. Niemand singt mehr zum Weintrincken, das beste Getränck 
+<anchor xml:id="GB03_1_BR008_0_011_006"/>ist bitter dem Munde. Die leere Stadt ist zerbrochen, die Haüser sind<ptr n="13" target="#a013_11.6"/>
+        <anchor xml:id="GB03_1_BR008_0_011_007"/>verschlossen, niemand geht aus und ein. Eitel Wüstung ist in der 
+<anchor xml:id="GB03_1_BR008_0_011_008"/>Stadt, und die Tohre stehen öde. Denn im Land und im Volck gehts 
+<anchor xml:id="GB03_1_BR008_0_011_009"/>eben, als wenn ein Ohlbaum abgepflückt ist, als wenn man nachlieset 
+<anchor xml:id="GB03_1_BR008_0_011_010"/>so die Wein Erndte aus ist.<ref xml:id="end_com_0135"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR008_0_011_011"/>Nun muss ich einen Boten fortschicken der das nach Weimar trägt. 
+<anchor xml:id="GB03_1_BR008_0_011_012"/>Lassen Sie lieber gnädger Herr den Brief nicht sehen als <ref target="gb:note#GB03_2_BR008_0_note_030_11_12" xml:id="start_com_0138"/>Wedeln<ref xml:id="end_com_0138"/>. Alles 
+<anchor xml:id="GB03_1_BR008_0_011_013"/>was mich umgiebt, Einsiedel, <ref target="gb:note#GB03_2_BR008_0_note_031_11_13" xml:id="start_com_0139"/>Kalb<ref xml:id="end_com_0139"/>, <ref target="gb:note#GB03_2_BR008_0_note_032_11_13" xml:id="start_com_0140"/>Bertuch<ref xml:id="end_com_0140"/> das ganze Haus legt sich 
+<anchor xml:id="GB03_1_BR008_0_011_014"/>zu Füssen.</p>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR008_0_011_015"/>
+        <l rendition="#einrueck9"><ref target="gb:note#GB03_2_BR008_0_note_033_11_15-16" xml:id="start_com_0141"/>Der Pflicht vergessen</l>
+        <anchor xml:id="GB03_1_BR008_0_011_016"/>
+        <l rendition="#einrueck9">Wir Fische nie.<ref xml:id="end_com_0141"/>
+        </l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline rendition="#einrueck5">
+          <anchor xml:id="GB03_1_BR008_0_011_017"/>Waldeck d<g ref="#typoSuspension"/>. 24 Dez 1775.</dateline>
+        <anchor xml:id="GB03_1_BR008_0_011_018"/>
+        <signed rend="signature" rendition="#einrueck22">Goethe.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10609_comment">
+<body>
+<div type="metadata" xml:id="gb10609_comment_com405">
+  <ab type="numberAddressee"><label>8.</label> An <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79598">Waldeck</placeName>, 23. Dezember 1775 und 24. Dezember 1775 → <supplied><placeName key="sndb:ort#77961">Gotha</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10609_comment_com2449">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8528">GSA 29/411,I</ref>, Bl. 1–2. – Doppelblatt 18,2 × 23 cm, stark vergilbtes Papier, 4 S. beschr., egh., Tinte; einmal quer und einmal längs gefaltet, an den Brüchen restauriert.</p>
+  <p>E: Morgenblatt für gebildete Leser, 23. Mai 1846 (Nr 123), S. 490 f. (Hermann Hauff).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 7–10, Nr 374 (ohne das Gedicht <quote type="G">Im Nebelgeriesel <gap quantity="3" reason="editorial"/> Withe hu!</quote> [<ref target="gb:text#GB03_1_BR008_0_008_008 #GB03_1_BR008_0_009_007">8,8–9,7</ref>; vgl. <ref target="sndb:sigle#1157">WA</ref> I 1, 156 f.]; als erster Teil eines Briefes, als dessen zweiter Teil <ref target="gb:dokument#52762">Nr 9</ref> betrachtet wurde).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10609_comment_com4245">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Herzog Carl August antwortete am 25. Dezember 1775 (vgl. <ref target="ra:dokument#61">RA 1, 64, Nr 57</ref>).</p>
+  <p rendition="#einrueck1">Dieser und der folgende Brief <ref target="gb:dokument#52762">Nr 9</ref> wurden in der WA als ein Brief gedruckt. Hans Wahl jedoch betrachtete den vorliegenden Brief mit Recht als ein separates Schreiben; dies geht aus dem Antwortbrief des Herzogs hervor (vgl. <ref target="sndb:sigle#1159">Carl August-Goethe<hi rendition="#sup">2</hi></ref> 1, 6, Nr 3), der sich nur auf <ref target="gb:dokument#10609">Nr 8</ref> bezieht (vgl. <ref target="sndb:sigle#1159">Carl August-Goethe<hi rendition="#sup">2</hi></ref> 1, 356 f.). Der Antwortbrief wurde in Gotha geschrieben, wo sich Carl August vom 23. bis zum 29. Dezember 1775 zu Besuch aufhielt (vgl. <ref target="sndb:sigle#3941">FB 1775</ref>, S. 311 und 313). Wahl datiert ihn auf den 25. Dezember 1775. Offenbar nahm der Bote, der mehrfach erwähnt wird (vgl. <ref target="gb:text#GB03_1_BR008_0_011_011">11,11</ref>; <ref target="gb:text#GB03_1_BR009_0_011_019">11,19</ref>; <ref target="gb:text#GB03_1_BR009_0_012_001">12,1</ref>), den vorliegenden Brief noch am 24. Dezember mit nach Weimar, wie Goethe ankündigte (vgl. <ref target="gb:text#GB03_1_BR008_0_011_011">11,11</ref>), so dass der Herzog ihn schon am folgenden Tag in Gotha in Händen haben konnte.</p>
+  <p rendition="#einrueck1">Herzog Carl August von Sachsen-Weimar und Eisenach (1757–1828) wurde als Sohn des Herzogs Ernst August Constantin von Sachsen-Weimar und Eisenach und dessen Gemahlin Anna Amalia geb. Prinzessin von Braunschweig-Wolfenbüttel geboren. Nachdem der Vater, sowohl körperlich als auch seelisch von schwacher Konstitution, nach nur zweieinhalbjähriger Regentschaft 1758 gestorben war, übernahm die Mutter für den minderjährigen Sohn 17 Jahre lang die Vormundschaftsregierung. Die Erziehung des Prinzen Carl August lag zunächst in den Händen des Theologen Johann Wilhelm Seidler. Von 1762 an war Johann Eustach Graf von Schlitz gen. von Goertz für den Lehrplan verantwortlich, zu dem neben den gewöhnlichen Schulfächern Mathematik, Geschichte, Erdkunde, Französisch und Latein auch Musizieren und Tanzen, Fechten und Reiten gehörten. Im August 1772 schließlich übernahm Christoph Martin Wieland die Verantwortung für die Ausbildung des Erbprinzen. Zum Abschluss seiner Erziehung unternahm Carl August von Dezember 1774 bis Juni 1775 in Begleitung seines Bruders Constantin und dessen Erziehers Carl Ludwig von Knebel sowie des Grafen Goertz und des Stallmeisters Josias von Stein eine Bildungsreise nach Paris. Auf der Hinreise lernte der Erbprinz am 11. Dezember 1774 in Frankfurt Goethe kennen. Am 19. Dezember verlobte er sich mit Prinzessin Louise von Hessen-Darmstadt, die er am 3. Oktober 1775 in Karlsruhe heiratete. Vor den Hochzeitsfeierlichkeiten traf Carl August am 22. September in Frankfurt erneut mit Goethe zusammen und lud ihn zu einem Besuch nach Weimar ein. Diese Einladung wiederholte er auf der Rückreise am 12. Oktober. Goethe nahm die Einladung an, traf aber erst nach einigen Verzögerungen am 7. November 1775 in Weimar ein (vgl. den Brief Johann August von Kalbs an Catharina Elisabeth und Johann Caspar Goethe vom 16. März 1776, abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>).</p>
+  <p rendition="#einrueck1">Vor seiner Hochzeit hatte Carl August am 3. September 1775, an seinem 18. Geburtstag, die Regentschaft von seiner Mutter übernommen. Die Situation, die er vorfand, erwies sich als äußerst schwierig, befanden sich doch die Staatsfinanzen angesichts hoffnungsloser Überschuldung der herzoglichen Kammer in einem bedenklichen Zustand. Der junge Herzog verfügte nicht einmal über eine seiner fürstlichen Würde angemessene Residenz, da ein Brand das Weimarer Schloss im Mai 1774 vollständig zerstört hatte. Um seine Ideale von aufgeklärter Herrschaft trotz mangelnder Ressourcen zu verwirklichen, suchte er neue Wege jenseits der traditionellen Formen fürstlicher Repräsentation einzuschlagen. Wie er später in einem Brief an Christian Gottlob Voigt vom 18. Dezember 1792 schrieb, bestand sein Ehrgeiz darin, einer „ehrenvollen Existenz <supplied>zu</supplied> genießen mit Männern, deren werth mir und dem auslande bekannt sind u. die ihresgleichen weit suchen können, aber nicht finden werden.“ (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Familiennachlass Voigt, Nr 9, Bl. 67.) Indem er einen Kreis von renommierten, zumeist bürgerlichen Gelehrten und Schriftstellern um sich sammelte, gewann er zugleich vertraute Berater, die ihm halfen, sich als Regent gegen das politische Gewicht der von seiner Mutter übernommenen altgedienten Räte durchzusetzen.</p>
+  <p rendition="#einrueck1">So war auch die Ernennung des jungen Frankfurter Advokaten Goethe, der keinerlei Verwaltungserfahrungen besaß und nicht einmal dem Adelsstand angehörte, zum Mitglied des Geheimen Consiliums 1776 ein Bruch geltender Konventionen. Indem Goethe zum engsten Freund und Begleiter des Herzogs avancierte, erhielt er sehr genaue Einblicke in die Welt des Adels und der Höfe. Zugleich erlangten er und die anderen Weimarer Schriftsteller mit ihrer Bindung an den Hof eine Basis, ihren literarischen und nationalerzieherischen Projekten eine öffentliche Wahrnehmung zu verschaffen, die sie in einer bürgerlichen Existenz unter den Gegebenheiten des Alten Reichs niemals erreicht hätten. Aus dieser Beziehung von fürstlichem Repräsentationsbedürfnis und literarischer Kultur entwickelte sich eine einzigartige Konstellation, die dem kleinen Hof Carl Augusts im Verlaufe weniger Jahre den Nimbus verschaffte, ein Mittelpunkt des Geisteslebens in Deutschland zu sein.</p>
+  <p rendition="#einrueck1">Für Goethe begründete die Beziehung zu Carl August ein lebenslanges Freundschafts- und Treueverhältnis, wie auch umgekehrt der Herzog sein Vertrauen zu Goethe niemals verlor, auch wenn sich ihre Wege zeitweilig trennten und Goethe Carl Augusts politische Profilierungsversuche – wie z. B. die von ihm als abenteuerlich empfundene Fürstenbund-Diplomatie der 1780er Jahre – mitunter sehr kritisch betrachtete. Nach Goethes Rückkehr aus Italien 1788 und dem Scheitern der Fürstenbundpläne Carl Augusts gewann ihre Beziehung eine neue Grundlage, indem der Herzog Goethes Wunsch, künftig nicht mehr mit Aufgaben in der Landesadministration betraut zu werden und sich nur noch der Pflege von Wissenschaft und Kunst zu widmen, großzügig erfüllte und ihn unter Beibehaltung von Status und Gehalt als Mitglied des Geheimen Consiliums von der Verpflichtung zur ständigen Teilnahme an den Obliegenheiten dieses Gremiums dispensierte. <quote type="G">Unsre ganze Bedeutung bestand in einer gegen unsere Kräfte disproportionirten Beförderung der Künste und Wissenschaften</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 19, 428), schrieb Goethe am 7. Oktober 1807 an Johann Friedrich Cotta. Der kulturelle Ruf Weimars wurde zum moralischen Kapital, von dem Carl August in der Folgezeit auch in politischer Hinsicht ungemein profitierte. Mit der Heirat seines Sohnes Carl Friedrich mit der russischen Zarentochter Maria Pawlowna 1803 gewann er eine familiäre Bindung an die mächtigste Dynastie Europas, und nach der katastrophalen Niederlage Preußens in der Schlacht bei Jena und Auerstedt 1806 trug Weimars kultureller Nimbus wesentlich dazu bei, dass der Herzog, obwohl er am Feldzug der preußischen Armee gegen Napoleon aktiv teilgenommen hatte, seinen Thron behalten konnte und sogar in den Rheinbund aufgenommen wurde. Damit erlangte Weimar den Status eines völkerrechtlich souveränen Staates.</p>
+  <p rendition="#einrueck1">Die nun einsetzende Reformpolitik, die nach dem Ende der napoleonischen Ära und der Gründung des Deutschen Bundes zu einer umfassenden Neugestaltung aller staatlichen Verhältnisse des auf dem Wiener Kongress zum Großherzogtum erhobenen, auch territorial beträchtlich vergrößerten und in Sachsen-Weimar-Eisenach umbenannten Landes führte, machte Carl August zum Wegbereiter des frühen Konstitutionalismus in Deutschland. Erstmals in Deutschland wählte das Volk Sachsen-Weimar-Eisenachs im Herbst 1816 einen Landtag, der das Budgetrecht besaß und an der Landesgesetzgebung beteiligt werden musste. Weimars Rolle als Experimentierfeld liberal-nationaler Politik mit der Ambition, über den eigenen Staat hinaus auszustrahlen und damit die politische Modernisierung des Deutschen Bundes insgesamt voranzutreiben, endete nach Höhepunkten wie dem Erlass des Grundgesetzes vom 5. Mai 1816 und dem Wartburgfest der Studenten vom Oktober 1817 jedoch mit einer politischen Niederlage Carl Augusts in Gestalt der auch als „Lex Jena“ bezeichneten reaktionären Karlsbader Beschlüsse von 1819. Sein letztes Lebensjahrzehnt stand trotz hohen öffentlichen Ansehens im Zeichen politischer Resignation. Sein Verhältnis zu Goethe blieb unverändert eng, obgleich dieser die liberal-nationale Politik Carl Augusts in den Jahren nach 1813 sehr kritisch betrachtete und zeitweise sogar in offener Opposition dazu stand. Von Carl August mit der Leitung der „Oberaufsicht über die Anstalten für Wissenschaft und Kunst in Weimar und Jena“ betraut, behielt Goethe bis zu seinem Lebensende eine als ein Faktor sui generis respektierte Position im politischen System des weimarischen Großherzogtums, die der Kontrolle von Staatsministerium und Landtag nicht unterworfen war. – Literaturhinweise: Willy Andreas: Carl August von Weimar. Ein Leben mit Goethe. Stuttgart 1953; Hans Tümmler: Carl August von Weimar, Goethes Freund. Eine vorwiegend politische Biographie. Stuttgart 1978; Friedrich Sengle: Das Genie und sein Fürst. Die Geschichte der Lebensgemeinschaft Goethes mit dem Herzog Carl August von Sachsen-Weimar-Eisenach. Stuttgart 1993; Gerhard Müller: Goethe und Carl August. Freundschaft und Politik. In: Anna Amalia, Carl August und das Ereignis Weimar. Göttingen 2007, S. 132–164.</p>
+  <p rendition="#einrueck1">Die Korrespondenz zwischen Goethe und Herzog Carl August setzte – soweit sie überliefert ist – im Dezember 1775 ein und erstreckt sich bis kurz vor den Tod des Großherzogs am 14. Juni 1828. Von Goethe sind über 550 Briefe an Carl August überliefert, viele davon allerdings nur als Konzept. Von den Briefen des Herzogs an Goethe haben sich über 700 erhalten. Weitere Briefe aus der frühen Zeit hat Goethe vermutlich 1797 verbrannt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10422_comment_com22618">GB 1 II, Nr 4</ref>). So ist aus der Zeit von 1775 bis 1792 weniger als ein Dutzend Briefe Carl Augusts an Goethe überliefert; der erste stammt vom 25. Dezember 1775 und ist die Antwort auf den vorliegenden Brief. Nach 1792 pflegte Goethe einlaufende Briefe in Quartalheften zusammenzubinden, so dass die dort gesammelten Briefe des Herzogs der Vernichtung im Jahr 1797 entgangen sind. Nach den Editionsgrundsätzen unserer Ausgabe werden lediglich Briefe privaten Charakters abgedruckt, nicht aber amtliche Schreiben. Ausnahmen bilden diejenigen amtlichen Briefe, die in der WA abgedruckt sind. Im vorliegenden Band betrifft das drei Briefe (<ref target="gb:dokument#10363">A 1</ref>, <ref target="gb:dokument#51">A 2</ref>, <ref target="gb:dokument#55">A 3</ref>), darunter der politisch aufschlussreiche Brief Goethes vom 9. Februar 1779 mit seinem Votum zur preußischen Bitte um Soldatenwerbung auf weimarischem Territorium. Die privaten Briefe, vor allem die aus den ersten Monaten Goethes in Weimar (<ref target="gb:dokument#10609">Nr 8</ref>, <ref target="gb:dokument#52762">9</ref>, <ref target="gb:dokument#10700">70</ref>, <ref target="gb:dokument#10774">82</ref>), dokumentieren in ihrem ungezwungenen, launigen Ton das freundschaftliche Verhältnis zwischen Briefschreiber und Adressat, ebenso der Gedichtbrief <ref target="gb:dokument#51349">Z 1</ref>, der unter „Zweifelhaftes“ aufgenommen wurde, weil sein Briefcharakter unsicher ist.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10609_comment_com17338">
+<label xml:id="GB03_2_BR008_0_note_001_8_8" copyOf="#start_com_0109"><hi rendition="#fett">8,8</hi>Im Nebelgeriesel, im tiefen Schnee</label>
+<p>Das Gedicht war 1771 im Zusammenhang mit Goethes Drama „Geschichte Gottfriedens von Berlichingen mit der eisernen Hand dramatisirt“ entstanden. Im Stück wird es, mit leichten Varianten im Refrain, zu Beginn des 5. Aufzugs von Zigeunerinnen beim Feuer im nächtlichen Wald gesungen (vgl. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 2, 192 f.). In die spätere, 1773 erschienene Fassung des Schauspiels „Götz von Berlichingen mit der eisernen Hand“ wurde das Gedicht nicht übernommen.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9212">
+<label xml:id="GB03_2_BR008_0_note_002_8_17" copyOf="#start_com_0110"><hi rendition="#fett">8,17</hi>Währwölf</label>
+<p>Werwolf, zeitgenössisch auch ‚Wärwolf‘ und ‚Wehrwolf‘: in Mythologie, Volksaberglauben und Sage ein Mensch, der sich vorübergehend in einen Wolf verwandeln kann (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1350).</p>
+
+</note>
+<note xml:id="gb10609_comment_com9213">
+<label xml:id="GB03_2_BR008_0_note_003_9_1" copyOf="#start_com_0111"><hi rendition="#fett">9,1</hi>nannt ich sie all beym Nahmen laut</label>
+<p>Sie bei ihrem ‚richtigen‘ (Tauf-)Namen zu nennen, gehört zu den Abwehrzaubern gegen Geister und ihre Macht.</p>
+
+</note>
+<note xml:id="gb10609_comment_com17394">
+<label xml:id="GB03_2_BR008_0_note_004_9_8" copyOf="#start_com_0112"><hi rendition="#fett">9,8</hi>in diesem Winckel der Welt</label>
+<p>Goethe und seine Gefährten logierten im Forsthaus zu Waldeck, einem kleinen, etwa 20 km östlich von Jena gelegenen Ort im Amt Bürgel im östlichen Teil des Herzogtums Sachsen-Weimar und Eisenach. Während sich Carl August mit der Hofgesellschaft vom 23. bis zum 29. Dezember 1775 zu seiner Antrittsvisite bei der herzoglichen Familie in Gotha aufhielt, war Goethe gemeinsam mit Friedrich Hildebrand von Einsiedel, Johann August von Kalb und Friedrich Justin Bertuch zu Pferd nach Waldeck aufgebrochen, wo sie den mit Bertuch befreundeten herzoglichen Wildmeister Traugott Friedemann Slevoigt besuchten. Nach „Dichtung und Wahrheit“ war Goethe bereits 1774 in Frankfurt durch die Zeichnungen des Malers Georg Melchior Kraus auf die Reize der Landschaft um Bürgel aufmerksam gemacht worden: <quote type="G">Unter seinen Zeichnungen fanden sich mehrere, bezüglich auf die Wald und Berggegend um Bürgel. Ein wackerer Forstmann hatte daselbst, vielleicht mehr seinen anmuthigen Töchtern als sich selbst zu Liebe, rauhgestaltete Felspartien, Gebüsch und Waldstrecken, durch Brücken, Geländer und sanfte Pfade gesellig wandelbar gemacht; man sah die Frauenzimmer in weissen Kleidern auf anmuthigen Wegen, nicht ohne Begleitung. An dem einen jungen Manne sollte man Bertuch erkennen, dessen ernste Absichten auf die älteste nicht geläugnet wurden und Kraus nahm nicht übel wenn man einen zweyten jungen Mann auf ihn und seine aufkeimende Neigung für die Schwester zu beziehen wagte.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 639 [20. Buch].)</p>
+
+</note>
+<note xml:id="gb10609_comment_com9222">
+<label xml:id="GB03_2_BR008_0_note_005_9_8" copyOf="#start_com_0113"><hi rendition="#fett">9,8</hi>Nachts</label>
+<p>In der Nacht vom 23. auf den 24. Dezember 1775.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9223">
+<label xml:id="GB03_2_BR008_0_note_006_9_9" copyOf="#start_com_0114"><hi rendition="#fett">9,9</hi>mein alt Zigeunerlied</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR008_0_note_001_8_8">8,8</ref>.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9224">
+<label xml:id="GB03_2_BR008_0_note_007_9_14-15" copyOf="#start_com_0115"><hi rendition="#fett">9,14-15</hi>Einsiedels klingende Stimme</label>
+<p>Über Friedrich Hildebrand Freiherrn von Einsiedel-Scharfenstein vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11427_comment_com4469">Nr 124</ref>. Er gehörte zu den derberen der Begleiter Goethes (vgl. ebd.).</p>
+
+</note>
+<note xml:id="gb10609_comment_com9225">
+<label xml:id="GB03_2_BR008_0_note_008_9_17" copyOf="#start_com_0116"><hi rendition="#fett">9,17</hi>Klufft nach Jena hinein</label>
+<p>Die Straße von Weimar nach Jena – heute Teil der Bundesstraße 7 – führt durch das landschaftlich reizvolle, vom Leutrabach durchflossene Mühltal, dessen felsige Berghänge im 18. Jahrhundert noch nicht bewaldet waren. Auf einer Länge von etwa 7 km fällt es 200 m tief in das Saaletal ab.</p>
+
+</note>
+<note xml:id="gb10609_comment_com17359">
+<label xml:id="GB03_2_BR008_0_note_009_9_18-19" copyOf="#start_com_0117"><hi rendition="#fett">9,18-19</hi>Lage von Jena</label>
+<p>Die Schilderung der malerischen Lage Jenas im mittleren Saaletal zwischen etwa 200 m hohen, steil abfallenden Muschelkalkhängen ist ein Standardtopos in vielen zeitgenössischen Stadtbeschreibungen und Reiseführern. Goethe spricht noch 1818 in seinem Brief an Christian Gottlob Voigt vom 29. März von der <quote type="G">in Großherzoglichen Landen vielleicht einzigen An- und Aussicht</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 29, 117).</p>
+
+</note>
+<note xml:id="gb10609_comment_com9238">
+<label xml:id="GB03_2_BR008_0_note_010_9_21" copyOf="#start_com_0118"><hi rendition="#fett">9,21</hi>ein Alter</label>
+<p>Nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9239">
+<label xml:id="GB03_2_BR008_0_note_011_9_22-23" copyOf="#start_com_0119"><hi rendition="#fett">9,22-23</hi>in den Dreysig</label>
+<p>In den dreißiger Jahren (des 18. Jahrhunderts).</p>
+
+</note>
+<note xml:id="gb10609_comment_com9240">
+<label xml:id="GB03_2_BR008_0_note_012_9_24" copyOf="#start_com_0120"><hi rendition="#fett">9,24</hi>in den Fichten</label>
+<p>Der Landschaftscharakter des Thüringer Holzlandes, in dem Waldeck gelegen ist, wird durch ausgedehnte Buchen- und Fichtenwälder bestimmt.</p>
+
+</note>
+<note xml:id="gb10609_comment_com15731">
+<label xml:id="GB03_2_BR008_0_note_013_9_26-27" copyOf="#start_com_0121"><hi rendition="#fett">9,26-27</hi>den gedruckten Karl August gegrüst</label>
+<p>Der gedruckte Namenszug „Carl August, Herzog zu Sachsen“ befand sich auf Bekanntmachungen und Verordnungen, die in den Wirtshäusern ausgehängt werden mussten.</p>
+
+</note>
+<note xml:id="gb10609_comment_com14847">
+<label xml:id="GB03_2_BR008_0_note_014_9_28" copyOf="#start_com_0122"><hi rendition="#fett">9,28</hi>(L. S.)</label>
+<p>Abkürzung für lat. loco sigilli (Ort des Siegels); sie bezeichnet auf Abschriften oder Drucken von Urkunden die Stelle, an der sich auf dem Original das Siegel des Ausstellers befindet. Auf den gedruckten Verordnungen und Bekanntmachungen befand sie sich links neben dem Namenszug des Herzogs.</p>
+
+</note>
+<note xml:id="gb10609_comment_com14088">
+<label xml:id="GB03_2_BR008_0_note_015_10_1-4" copyOf="#start_com_0123"><hi rendition="#fett">10,1-4</hi>Holde Lili <gap quantity="3" reason="editorial"/> du noch.</label>
+<p>Anna Elisabeth Schönemann, genannt Lili, war 1775 die inoffizielle Verlobte Goethes gewesen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51217_comment_com4802">GB 2 II, Z 1</ref>). Goethe hatte die Einladung des Herzogs Carl August u. a. auch deshalb angenommen, um sich endgültig aus der Beziehung zu Lili zu lösen. Über die Entstehung des Gedichts (vgl. <ref target="sndb:sigle#1157">WA</ref> I 4, 204; 5 II, 126) gibt ein weiteres, themenverwandtes Gedicht Aufschluss, das als eigenhändige Widmung Goethes in einem Exemplar seiner im Januar 1776 erschienenen „Stella“ überliefert ist:
+ <space unit="lines" quantity="1"/>
+ <lg>
+    <l rendition="#einrueck4"><quote type="G">Im holden Thal auf schneebedeckten Höhen</quote></l>
+    <l rendition="#einrueck4"><quote type="G">War stets dein Bild mir nah</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Ich sah’s um mich in lichten Wolcken wehen</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Im Herzen war mir’s da.</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Empfinde hier wie mit allmächtgem Triebe</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Ein Herz das andre zieht,</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Und dass vergebens Liebe</quote></l>
+    <l rendition="#einrueck4"><quote type="G">Vor Liebe flieht.</quote></l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+(H: <ref target="archivdb:dokument#349705">GSA 25/W 401</ref>.)</p>
+
+</note>
+<note xml:id="gb10609_comment_com9241">
+<label xml:id="GB03_2_BR008_0_note_016_10_7" copyOf="#start_com_0124"><hi rendition="#fett">10,7</hi>Gehab dich wohl bey den hundert Lichtern</label>
+<p>Anspielung auf die Weihnachtsfestlichkeiten am Gothaer Hof. Das Motiv der <quote type="G">hundert Lichter</quote> verbindet die Verse mit früheren, Lili gewidmeten Gedichten; in den Versen „<supplied>An Belinden</supplied>“ heißt es: <quote type="G">Bin ich’s noch den du bey so viel Lichtern / An dem Spieltisch hältst </quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 28).</p>
+
+</note>
+<note xml:id="gb10609_comment_com9251">
+<label xml:id="GB03_2_BR008_0_note_017_10_15" copyOf="#start_com_0125"><hi rendition="#fett">10,15</hi>Sontags früh bey Tags Anbruch.</label>
+<p>Am frühen Morgen des 24. Dezember 1775.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9256">
+<label xml:id="GB03_2_BR008_0_note_018_10_17" copyOf="#start_com_0126"><hi rendition="#fett">10,17</hi>Der herrliche Morgenstern</label>
+<p>Unter ‚Morgenstern‘ wurde „die Venus“ verstanden, „wenn sie <gap quantity="3" reason="editorial"/> vor Sonnen Aufgang gesehen wird“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 289; vgl. ebenso <ref target="sndb:sigle#2890">Grimm</ref> 12, 2581).</p>
+
+</note>
+<note xml:id="gb10609_comment_com17366">
+<label xml:id="GB03_2_BR008_0_note_019_10_18" copyOf="#start_com_0127"><hi rendition="#fett">10,18</hi>zum Wapen nehme</label>
+<p>Ein so genanntes ‚sprechendes‘ Wappen nimmt auf den Träger oder dessen Namen allegorisch oder symbolisch Bezug. In welchem Sinn Goethe den Morgenstern zu seinem Wappen wählte, ist eine offene Frage. Dafür, dass die vorliegende Briefstelle Anlass zur Gestaltung des sechsstrahligen silbernen Sterns in Goethes Wappen für seine Nobilitierung im Jahr 1782 gewesen sei, gibt es keinen Beleg.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9257">
+<label xml:id="GB03_2_BR008_0_note_020_10_18" copyOf="#start_com_0128"><hi rendition="#fett">10,18</hi>Eins.</label>
+<p>Friedrich Hildebrand von Einsiedel, der für seine Liebesabenteuer bekannt war.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9258">
+<label xml:id="GB03_2_BR008_0_note_021_10_19" copyOf="#start_com_0129"><hi rendition="#fett">10,19</hi>Geilheit</label>
+<p>Der Begriff wurde im 18. Jahrhundert sowohl in einem engeren Sinn für ‚Lüsternheit‘ als auch in einem weiteren Sinn für „Uebermuth, Muthwillen“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 510) gebraucht.</p>
+
+</note>
+<note xml:id="gb10609_comment_com17410">
+<label xml:id="GB03_2_BR008_0_note_022_10_21" copyOf="#start_com_0130"><hi rendition="#fett">10,21</hi>Marschall Saxe</label>
+<p>Hermann Moritz Graf von Sachsen, genannt „Maréchal de Saxe“. Er war ein illegitimer Sohn August des Starken und der Maria Aurora Gräfin von Königsmarck, von 1726 bis 1729 Herzog von Kurland, dann in französischen Diensten. Wegen seiner glänzenden Siege bei Fontenoy, Roucoux, Lauffeld und Bergen op Zoom im österreichischen Erbfolgekrieg von 1745 bis 1747, die ihm den Ruf eines genialen Feldherrn und Kriegstheoretikers einbrachten, wurde er zum Marschall von Frankreich und Oberbefehlshaber in den Niederlanden ernannt. 1738 und 1743 stellte er ein sächsisches Freikorps („Volontaires de Saxe“) auf, das ihm als Privatarmee diente. – Traumphantasien wie die von den hier geschilderten Militärdiensten werfen ein Licht auf Goethes seelische Verfassung in der Zeit seines Weggangs von Frankfurt; die Perspektive auf ein Leben als Anwalt in seiner Heimatstadt erschien ihm als Einengung seines Wirkungskreises, der Schritt nach Weimar hingegen als Eröffnung einer <quote type="G">Weltrolle</quote> (<ref target="gb:text#GB03_1_BR027_0_023_016">23,16</ref>).</p>
+
+</note>
+<note xml:id="gb10609_comment_com18669">
+<label xml:id="GB03_2_BR008_0_note_023_10_24" copyOf="#start_com_0131"><hi rendition="#fett">10,24</hi>Pfarrer</label>
+<p>Johann Nikolaus Abendrot, von 1752 bis 1783 Pfarrer von Schöngleina. Das Dorf Waldeck besaß keinen eigenen Pfarrer und gehörte im Unterschied zu den anderen Orten des weimarischen Amts Bürgel auch nicht zur Superintendentur Bürgel, sondern war im Pfarrbezirk Schöngleina in Sachsen-Gotha und Altenburg eingepfarrt. Die Personenstandsregister für Waldeck wurden daher in den Kirchenbüchern von Schöngleina geführt.</p>
+
+</note>
+<note xml:id="gb10609_comment_com17413">
+<label xml:id="GB03_2_BR008_0_note_024_10_26" copyOf="#start_com_0132"><hi rendition="#fett">10,26</hi>einige Verse</label>
+<p>Vermutlich erinnert sich Goethe im Folgenden an den 14. Gesang von Homers Epos, in dem Odysseus’ Aufenthalt beim Schweinehirten Eumaios geschildert wird. Es ist eine stürmische Nacht; durch eine erdichtete Episode verschafft sich der in seine Heimat zurückkehrende Held, der als bettelnder Greis von Eumaios und den Seinen nicht erkannt wird, listig einen Mantel zur Decke; er erzählt, wie Odysseus ihn, den Erzähler, vor Troja einst mit einem warmen Mantel vor dem Erfrieren gerettet habe. Darauf antwortet Eumaios:
+ <space unit="lines" quantity="1"/>
+ <lg>
+    <l rendition="#einrueck3">Greis, untadelich ist das Gleichniß, so du erzählest;</l>
+    <l rendition="#einrueck3">Und kein unnüz Wort ist deinen Lippen entfallen.</l>
+    <l rendition="#einrueck3">Drum solls weder an Kleidung, noch etwas anderm, dir mangeln,</l>
+    <l rendition="#einrueck3">Was unglücklichen Fremden, die Hülfe suchen, gebühret,</l>
+    <l rendition="#einrueck3"><gap quantity="3" reason="editorial"/></l>
+    <l rendition="#einrueck3">Also sprach er, erhub sich, und sezte neben dem Feuer</l>
+    <l rendition="#einrueck3">Ihm ein Bette, bedeckt mit Fellen von Ziegen und Schafen.</l>
+    <l rendition="#einrueck3">Und Odüßeus legte sich hin. Da bedeckte der Sauhirt</l>
+    <l rendition="#einrueck3">Ihn mit dem großen wollichten Mantel, womit er sich pflegte</l>
+    <l rendition="#einrueck3">Umzukleiden, wenn draußen ein schrecklicher Winterorkan blies.</l>
+    <l rendition="#einrueck3">Also schlummerte dort Odüßeus; neben Odüßeus</l>
+    <l rendition="#einrueck3">Legten die Jünglinge sich zum Schlummer. <gap quantity="3" reason="editorial"/></l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+ (Verse 508–511 und 518–524; Homers Odüßee übersezt von Johann Heinrich Voß. Hamburg 1781, S. 282.)</p>
+
+</note>
+<note xml:id="gb10609_comment_com9270">
+<label xml:id="GB03_2_BR008_0_note_025_10_32" copyOf="#start_com_0133"><hi rendition="#fett">10,32</hi>nach Bürgel zum Recktor</label>
+<p>Rektor der Stadtschule in Bürgel (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR009_0_note_011_12_11">12,11</ref>) war damals Christlieb Valerius Grote. Er war dem Bürgeler Pfarrer und Superintendenten Samuel Gottfried Zickler subordiniert und versah zugleich das Amt des Organisten der Stadtkirche.</p>
+
+</note>
+<note xml:id="gb10609_comment_com17375">
+<label xml:id="GB03_2_BR008_0_note_026_10_32" copyOf="#start_com_0134"><hi rendition="#fett">10,32</hi>Homer</label>
+<p>Vermutlich ist eine Ausgabe in griechischer oder lateinischer Sprache gemeint. In den 1770er Jahren benutzte Goethe vor allem Johann August Ernestis griechisch-lateinische Gesamtausgabe des Homer: ΟΜΗΡΟΥ ΑΠΑΝΤΑ. <gap quantity="3" reason="editorial"/> Homeri Opera Omnia Ex Recensione Et Cum Notis Samuelis Clarkii <gap quantity="3" reason="editorial"/>. 5 Bde. Leipzig 1759–1764 (vgl. <ref target="gb:note#GB01_2_BR047_0_note_003_136_20-21">GB 1 II, zu 136,20–21</ref>).</p>
+
+</note>
+<note xml:id="gb10609_comment_com15732">
+<label xml:id="GB03_2_BR008_0_note_027_10_33-11_10" copyOf="#start_com_0135"><hi rendition="#fett">10,33-11,10</hi>Jesaies: Sieher <gap quantity="3" reason="editorial"/> aus ist.</label>
+<p>Fast wörtlich nach Jesaja 24,1, 7–10, 12 f.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9271">
+<label xml:id="GB03_2_BR008_0_note_028_10_33" copyOf="#start_com_0136"><hi rendition="#fett">10,33</hi>Sieher</label>
+<p>Versehentlich für ‚Siehe‘.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9272">
+<label xml:id="GB03_2_BR008_0_note_029_11_4" copyOf="#start_com_0137"><hi rendition="#fett">11,4</hi>Jauchen</label>
+<p>Verschrieben für ‚Jauchzen‘.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9273">
+<label xml:id="GB03_2_BR008_0_note_030_11_12" copyOf="#start_com_0138"><hi rendition="#fett">11,12</hi>Wedeln</label>
+<p>Otto Joachim Moritz von Wedel, Kammerherr und Oberforstmeister, enger Freund und häufiger Reisebegleiter des Herzogs Carl August, Mitglied des Geselligkeitskreises um die Herzoginmutter Anna Amalia und Mitwirkender am Liebhabertheater in Ettersburg und Tiefurt.</p>
+
+</note>
+<note xml:id="gb10609_comment_com9274">
+<label xml:id="GB03_2_BR008_0_note_031_11_13" copyOf="#start_com_0139"><hi rendition="#fett">11,13</hi>Kalb</label>
+<p>Johann August Alexander von Kalb, Vertrauter des Herzogs Carl August. Er hatte Goethe Anfang November 1775 auf seiner Reise nach Weimar begleitet.</p>
+
+</note>
+<note xml:id="gb10609_comment_com15747">
+<label xml:id="GB03_2_BR008_0_note_032_11_13" copyOf="#start_com_0140"><hi rendition="#fett">11,13</hi>Bertuch</label>
+<p>Friedrich Justin Bertuch (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11439_comment_com5015">Nr 200</ref>).</p>
+
+</note>
+<note xml:id="gb10609_comment_com13621">
+<label xml:id="GB03_2_BR008_0_note_033_11_15-16" copyOf="#start_com_0141"><hi rendition="#fett">11,15-16</hi>Der Pflicht vergessen / Wir Fische nie.</label>
+<p>Verse aus dem Chor der Fische im damals noch ungedruckten „Wintermährchen“ von Christoph Martin Wieland im „Teutschen Merkur“ (Erster Theil. Januar-Heft 1776, S. 61), das auf die Geschichte vom Fischer und dem Geist aus den Märchen aus Tausendundeiner Nacht zurückgeht. Möglicherweise war die zitierte Wendung nach einer Vorlesung allgemein bekannt (vgl. zu <ref target="gb:note#GB03_2_BR404_0_note_005_231_5">231,5</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1550"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11136" n="GB 3, Nr. 153">
+  <teiHeader xml:id="gb11136_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>153.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#78160" evidence="conjecture">Ilmenau</placeName></supplied>, 12. August 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:55Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11136_tei.xml</idno>
+        <idno type="URI">gb11136</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR153_0</idno>
+        <idno type="KSW-ID">11136</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="94" to="94">94</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="360" to="360">360</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11136_header_hwit1033" corresp="#gb11136_source_hwit1033" sameAs="#gb11136_comment_hwit1033" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 28</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11136,,1033/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Vergebens hab ich auf ein paar Worte von dir gewartet! Hier hast du die Aussicht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11136_header_acc229" corresp="gb11136_comment_acc229">
+            <objectIdentifier>
+              <objectName>Zeichnung </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>
+            <date when="1776-08-12">12. August 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11136_source_hwit1033" corresp="#gb11136_header_hwit1033" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11136/22430"/>
+      <p>
+        <anchor xml:id="GB03_1_BR153_0_094_015"/>Vergebens hab ich auf ein paar Worte von dir gewartet! Hier hast du 
+<anchor xml:id="GB03_1_BR153_0_094_016"/>
+        <ref target="gb:note#GB03_2_BR153_0_note_001_94_16" xml:id="start_com_1484"/>die Aussicht aus dem Pachthofe zu Unter Pörliz<ref xml:id="end_com_1484"/>
+        <ref target="gb:note#GB03_2_BR153_0_note_002_94_16-17" xml:id="start_com_1485"/>wo wir zusammen 
+<anchor xml:id="GB03_1_BR153_0_094_017"/>standen<ref xml:id="end_com_1485"/> als <ref target="gb:note#GB03_2_BR153_0_note_003_94_17" xml:id="start_com_1486"/>Krause<ref xml:id="end_com_1486"/> zeichnete. Ich hab am <ref target="gb:note#GB03_2_BR153_0_note_004_94_17" xml:id="start_com_1487"/>Falcken<ref xml:id="end_com_1487"/> geschrieben und 
+<anchor xml:id="GB03_1_BR153_0_094_018"/>hoffe was zusammen zu bringen.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR153_0_094_019"/>d<g ref="#typoSuspension"/>. 12 Aug. 76.                                                       </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11136_comment">
+<body>
+<div type="metadata" xml:id="gb11136_comment_com681">
+  <ab type="numberAddressee"><label>153.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>, 12. August 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11136_comment_com2725">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 28. – 1 Bl. 14,2(–14,4) × 14,6 cm, 1 S. beschr., egh., Tinte, flüchtig geschrieben; oben rechts von fremder Hd, Tinte: „71“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 71), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 54.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 96, Nr 496.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11136_comment_com3638">
+  <p>Zeichnung (vgl. zu <ref target="gb:note#GB03_2_BR153_0_note_001_94_16">94,16</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11136_comment_com4521">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11136_comment_com10358">
+<label xml:id="GB03_2_BR153_0_note_001_94_16" copyOf="#start_com_1484"><hi rendition="#fett">94,16</hi>die Aussicht <gap quantity="3" reason="editorial"/> zu Unter Pörliz</label>
+<p>Wahrscheinlich eine Zeichnung von Georg Melchior Kraus; Näheres dazu konnte nicht ermittelt werden. – Unterpörlitz am Nordhang der Pörlitzer Höhe, nordwestlich von Ilmenau, heute eingemeindet.</p>
+
+</note>
+<note xml:id="gb11136_comment_com10359">
+<label xml:id="GB03_2_BR153_0_note_002_94_16-17" copyOf="#start_com_1485"><hi rendition="#fett">94,16-17</hi>wo wir zusammen standen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_008_92_24">92,24</ref>.</p>
+
+</note>
+<note xml:id="gb11136_comment_com10353">
+<label xml:id="GB03_2_BR153_0_note_003_94_17" copyOf="#start_com_1486"><hi rendition="#fett">94,17</hi>Krause</label>
+<p>Der gleichfalls aus Frankfurt stammende Maler Georg Melchior Kraus, seit Oktober 1775 Zeichenmeister des Herzogs Carl August (vgl. zu <ref target="gb:note#GB03_2_BR009_0_note_022_12_26">12,26</ref>); er wird auch in Goethes Tagebuch vom 7. August erwähnt (vgl. <ref target="gt:dokument#113">GT I 1, 23</ref>).</p>
+
+</note>
+<note xml:id="gb11136_comment_com10360">
+<label xml:id="GB03_2_BR153_0_note_004_94_17" copyOf="#start_com_1487"><hi rendition="#fett">94,17</hi>Falcken</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_010_92_27">92,27</ref>; laut Tagebuch war Goethe am 12. August <quote type="G">Den ganzen Tag zu Hause</quote>, schrieb am „Falken“ und verbrachte <quote type="G">Nachts mit Einsiedel eine gute Stunde</quote> (<ref target="gt:dokument#118">GT I 1, 24</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

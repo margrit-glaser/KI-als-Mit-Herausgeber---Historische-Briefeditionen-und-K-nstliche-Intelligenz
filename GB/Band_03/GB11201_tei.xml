@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1880"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11201" n="GB 3, Nr. 186">
+  <teiHeader xml:id="gb11201_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>186.</label> An <persName key="sndb:person#35553">Johann Ludwig von Mauchenheim gen. Bechtolsheim</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 14. November 1776. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:37Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11201_tei.xml</idno>
+        <idno type="URI">gb11201</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR186_0</idno>
+        <idno type="KSW-ID">11201</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="117" to="117">117</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="422" to="425">422-425</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11201_header_hwit1099" corresp="#gb11201_source_hwit1099" sameAs="#gb11201_comment_hwit1099" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Frankfurt a. M.</placeName>
+            </settlement>
+            <institution key="sndb:standort#8">FDH/FGM</institution>
+            <idno type="shelfmark">Hs-27994</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11201,,1099/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wenn Sie mehr so was haben, schreiben Sie mir's nur gleich l. Bechtolsheim mit dem Bericht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-11-14">14. November 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#35553">Bechtolsheim, Johann Ludwig von Mauchenheim gen. Bechtolsheim</persName>
+            <placeName key="sndb:ort#77740">Eisenach</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11201_source_hwit1099" corresp="#gb11201_header_hwit1099" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11201/34790"/>
+      <p>
+        <anchor xml:id="GB03_1_BR186_0_117_005"/>Wenn Sie mehr <ref target="gb:note#GB03_2_BR186_0_note_001_117_5" xml:id="start_com_1781"/>so was<ref xml:id="end_com_1781"/> haben, <ref target="gb:note#GB03_2_BR186_0_note_002_117_5" xml:id="start_com_1782"/>schreiben Sie mirs<ref xml:id="end_com_1782"/> nur gleich l. Bechtolsheim 
+<anchor xml:id="GB03_1_BR186_0_117_006"/>mit dem Bericht wenn der ergeht. <ref target="gb:note#GB03_2_BR186_0_note_003_117_6" xml:id="start_com_1783"/>Die Sache<ref xml:id="end_com_1783"/> ist nicht so gar 
+<anchor xml:id="GB03_1_BR186_0_117_007"/>mild entschieden wie Sie sehn werden, ich hatte unter allen die 
+<anchor xml:id="GB03_1_BR186_0_117_008"/>schärfste Gesinung – . Das andre wegen <ref target="gb:note#GB03_2_BR186_0_note_004_117_8" xml:id="start_com_1784"/>
+        <unclear reason="illegible">Buching</unclear>
+        <ref xml:id="end_com_1784"/> will ich sehn was 
+<anchor xml:id="GB03_1_BR186_0_117_009"/>zu thun ist vor der Hand. Der <ref target="gb:note#GB03_2_BR186_0_note_005_117_9" xml:id="start_com_1785"/>Ausschuss Tag<ref xml:id="end_com_1785"/> wird auch bald werden. 
+<anchor xml:id="GB03_1_BR186_0_117_010"/>
+        <hi rendition="#hervor1">Sie</hi> kriegen nächstens <ref target="gb:note#GB03_2_BR186_0_note_006_117_10-11" xml:id="start_com_1786"/>eine saubre Commission den Aerariis den 
+<anchor xml:id="GB03_1_BR186_0_117_011"/>Wirrkopf zu kämmen<ref xml:id="end_com_1786"/>. Wünsche viel Geduld<ptr n="1" target="#a001_117.11"/>. Grüsen Sies <ref target="gb:note#GB03_2_BR186_0_note_007_117_11" xml:id="start_com_1787"/>Weibgen<ref xml:id="end_com_1787"/>, 
+<anchor xml:id="GB03_1_BR186_0_117_012"/>und <ref target="gb:note#GB03_2_BR186_0_note_008_117_12" xml:id="start_com_1788"/>denen Kleinen<ref xml:id="end_com_1788"/> auch was, iedem auf seine Art. Addio. Wenn<ptr n="2" target="#a002_117.12"/> wir 
+<anchor xml:id="GB03_1_BR186_0_117_013"/>
+        <ref target="gb:note#GB03_2_BR186_0_note_009_117_13" xml:id="start_com_1789"/>einander wiedersehn<ref xml:id="end_com_1789"/> werden wir uns viel zu erzählen haben.     Weimar 
+<anchor xml:id="GB03_1_BR186_0_117_014"/>d<g ref="#typoSuspension"/>. 14 Nov. 1776.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR186_0_117_015"/>
+        <signed rend="signature" rendition="#einrueck22">Goethe</signed>
+        <lb/><dateline rendition="#einrueck23">
+          <anchor xml:id="GB03_1_BR186_0_117_016"/>
+          <graphic url="gb:digitalisate#11201/70166" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11201/34791"/>
+    <pb n="3" facs="gb:digitalisate#11201/34792"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11201_comment">
+<body>
+<div type="metadata" xml:id="gb11201_comment_com645">
+  <ab type="numberAddressee"><label>186.</label> An <persName key="sndb:person#35553">Johann Ludwig von Mauchenheim gen. Bechtolsheim Bechtolsheim</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 14. November 1776 → <placeName key="sndb:ort#77740">Eisenach</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11201_comment_com2689">
+  <p>H: <ref target="sndb:sigle#3157">FDH/FGM</ref> Frankfurt a. M., Sign.: 27994. – Doppelblatt 19,8 × 27,4 cm, &#x2154; S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">Dem Herren / Vicekanzler von Bechtolsheim / nach / Eisenach / <hi rendition="#hervor1">fr</hi></quote>, Gemmensiegel: weibliche Figur. – Faksimile: <ref target="sndb:sigle#491">JbFDH</ref> 2002, nach S. 346.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 30 (1905), 10, Nr 526a (nach einer Abschrift von H; Carl Schüddekopf).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11201_comment_com4485">
+  <p>Der Brief beantwortet offenbar ein Schreiben Mauchenheims (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR186_0_note_001_117_5">117,5</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Johann Ludwig Freiherr von Mauchenheim gen. Bechtolsheim (1739–1806) stammte aus einer im rheinischen Franken ansässigen Familie aus deutschem Uradel. Der Name geht auf die Dörfer Mauchenheim und Bechtolsheim in der Nähe von Alzey (Rheinland-Pfalz) zurück, beide an der Selz, einem Nebenfluss des Rheins, gelegen. Seit dem 16. Jahrhundert heißt die Familie Mauchenheim gen. Bechtolsheim. Friedrich Ludwig von Mauchenheim gen. Bechtolsheim aus der älteren Linie des Hauses, der Vater des Adressaten, war auf Familienbesitzungen im hessisch-hanauischen Gebiet aufgewachsen, trat aber als herzoglicher Reisemarschall in gothaische Dienste und wurde fürstlicher Oberschenk auf Friedenstein und Amtshauptmann in Reinhardsbrunn im Thüringer Wald. Nach dem Tod seines älteren Bruders Philipp Reinhard (1726) und dem des Vaters Philipp Ludwig (1739) verlagerte sich der Mittelpunkt der Familie nach Thüringen. Johann Ludwig von Mauchenheims um sieben Jahre ältere Schwester Auguste Louise Eleonore heiratete 1749 den württembergischen Geheimen Rat Christoph Dietrich von Keller, Herr des Gutes Stedten südlich von Erfurt, und wurde Mutter von Juliane (Julie) Auguste Christine von Keller (vgl. zu <ref target="gb:note#GB03_2_BR016_0_note_002_16_12">16,12</ref>). Wie sein Vater machte Johann Ludwig von Mauchenheim zunächst Karriere in sachsen-gothaischen Diensten. 1757 Regierungsassessor in Gotha, wurde er 1759 Regierungsrat, 1764 Hofrat und ging 1765 als Oberamtshauptmann nach Georgenthal im Thüringer Wald. 1776 erhielt er das Amt des Vizekanzlers der sachsen-eisenachischen Regierung, 1778 zugleich die Oberaufsicht über das Polizeiwesen im Landesteil Eisenach. 1781 wurde er Kanzler und Oberkonsistorialpräsident in Eisenach, 1784 Geheimer Rat, 1802 Direktor des Ober-Steuer- und Kasse-Direktoriums und 1804 schließlich Wirklicher Geheimer Rat. 1774 heiratete er seine Nichte Julie von Keller. Das Paar wohnte am Jakobsplan in Eisenach im (später) so genannten ‚Kanzlerpalais‘, das dank der an Kunst und Poesie interessierten Hausherrin zu einem Treffpunkt der Eisenacher und Weimarer Gesellschaft wurde. Von pietistisch-herrnhutischer Lebensauffassung geprägt, temperamentvoll und unduldsam gegen Widerspruch, führte Johann Ludwig von Mauchenheim seine Ämter aus einer konservativen Grundhaltung. Er gehörte z. B. zu den Verfechtern einer strengen Kontrolle der mit der Französischen Revolution sympathisierenden Intellektuellen; es sei nötig, schrieb er etwa am 28. Januar 1793 an Herzog Carl August, „auf das Thun und Treiben der so genannten Aufklärung, deren Absichten und Folgen aus denen vorliegenden Beyspielen nicht zu verkennen sind, ein wachsames Auge zu deren Modification und Bezähmung zu halten.“ (Goethes Weimar und die Französische Revolution. Dokumente der Krisenjahre. Hrsg. von Daniel Wilson. Köln, Weimar, Wien 2004, S. 524.) – Goethe lernte Mauchenheim am Neujahrstag 1776 auf Gut Stedten kennen, wo Wieland ihn in die Familie von dessen Schwester (und Schwiegermutter) Auguste von Keller einführte (vgl. zu <ref target="gb:note#GB03_2_BR012_0_note_001_13_11">13,11</ref>; zu <ref target="gb:note#GB03_2_BR012_0_note_005_13_14">13,14</ref>). Von Mauchenheims Frau Julie fühlte sich Goethe sehr angezogen, seine Beziehung zum Adressaten selbst blieb dagegen auf den Bereich dienstlicher Angelegenheiten beschränkt. So hatten beide z. B. im Fall des Zillbacher Holzprozesses zwischen Sachsen-Meiningen und Sachsen-Weimar und Eisenach miteinander zu tun (vgl. Goethes Briefe an Mauchenheim vom 14. und vom 20. September 1780; <ref target="sndb:sigle#1158">WAN</ref> 1, 54–56, Nr 1016a und 1020a). Gelegentlich ergaben sich gegenseitige Besuche in Weimar und in Eisenach. Zu häufigeren Begegnungen kam es im September/Oktober 1777 während der Tagung der Eisenacher Landstände, als sich Goethe in Eisenach aufhielt. Goethes Tagebuch meldet auch Übernachtungen in Mauchenheims Haus (am <ref target="gt:dokument#439">19. September</ref> und <ref target="gt:dokument#455">7. Oktober</ref> 1777; vgl. GT I 1, 48 f.).</p>
+  <p rendition="#einrueck1">Von Goethe sind außer dem vorliegenden Brief an Mauchenheim nur die beiden genannten Briefe aus dem Jahr 1780 überliefert; hinzu kommen bis 1779 zwei erschlossene Briefe (vgl. <ref target="gb:dokument#15828">EB 141</ref>, <ref target="gb:dokument#52592">147</ref>) sowie drei erschlossene Briefe an seine Frau Julie von Mauchenheim (vgl. <ref target="gb:dokument#15832">EB 148</ref>, <ref target="gb:dokument#15849">168</ref>, <ref target="gb:dokument#52644">224</ref>). Briefe Johann Ludwig von Mauchenheims an Goethe haben sich nicht erhalten. – Literaturhinweis: Hermann Frhr. v. Mauchenheim gen. Bechtolsheim: Zusammenstellung der über die Familie der Freiherren von Mauchenheim gen. Bechtolsheim bekannten Nachrichten. Hrsg. von Hubert Frhr. v. Mauchenheim gen. Bechtolsheim. Zweite, vollständig überarbeitete und erweiterte Neuauflage. [Rattenkirchen] 1998.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11201_comment_com10714">
+<label xml:id="GB03_2_BR186_0_note_001_117_5" copyOf="#start_com_1781"><hi rendition="#fett">117,5</hi>so was</label>
+<p>Vermutlich schriftliche Mitteilungen Mauchenheims; Näheres nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb11201_comment_com10715">
+<label xml:id="GB03_2_BR186_0_note_002_117_5" copyOf="#start_com_1782"><hi rendition="#fett">117,5</hi>schreiben Sie mirs</label>
+<p>Briefe Mauchenheims an Goethe sind nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11201_comment_com15717">
+<label xml:id="GB03_2_BR186_0_note_003_117_6" copyOf="#start_com_1783"><hi rendition="#fett">117,6</hi>Die Sache</label>
+<p>Es handelte sich um den Beschluss des Geheimen Consiliums vom 8. November 1776, die Zahl der Ratsmitglieder in Eisenach nach und nach auf jeweils vier Bürgermeister und Kämmerer zu reduzieren (vgl. Reskript an die Regierung zu Eisenach, paraphiertes Konzept, 8. November 1776, Paraphen: Carl August, Jacob Friedrich Freiherr von Fritsch, Christian Friedrich Schnauß, Goethe; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Eisenacher Archiv, Ämter und Städte, Nr 1288, Bl. 181r–182v). Schon 1747 hatte Herzog Ernst August I. von Sachsen-Weimar und Eisenach angeordnet, die Zahl der Eisenacher Ratsmitglieder zu begrenzen, um nach dem Wegfall der Residenzfunktion Eisenachs, die zu einer starken Verminderung von Einwohnerzahl und  Steuereinnahmen führte, Einsparungen zu erreichen. Danach sollte der Rat nur noch aus den zwei Jahre amtierenden Vierleuten, sechs Bürgermeistern und sechs Kämmerern, von denen jährlich zwei in der Amtsausübung alternierten und die laufenden Geschäfte in Justiz und Verwaltung wahrzunehmen hatten, sowie dem Stadtschreiber und dem Polizeirat bestehen. Außerdem waren einzelne Ratsmitglieder mit speziellen Aufgaben der Stadtverwaltung betraut, wie z. B. Vormundschaftswesen, Kriegs- und Einquartierungswesen, Brotschätzung, Steuereinnahme, Almosensachen, Bauinspektion, Preiskontrollen, Brunnenaufsicht und Feuerpolizei. Zuvor waren diese Ämter doppelt besetzt gewesen. Bemühungen unter der Obervormundschaftsregierung Herzogin Anna Amalias, die Zahl der Ratsmitglieder weiter zu reduzieren, waren jedoch ergebnislos geblieben. Im Jahr 1776 griff Herzog Carl August die Sache wieder auf und ordnete eine Berichterstattung der Eisenacher Regierung an. Da nach diesem sich auf eine Befragung des Stadtrats stützenden Bericht von einer weiteren Verminderung des Stadtratspersonals keine wesentlichen Einsparungen beim Stadtkämmerei-Ärarium zu erwarten seien (vgl. Bericht der Regierung zu Eisenach, 31. Juli 1776; ebd., Bl. 177r–177v), befahl das Geheime Consilium die Einsendung der Eisenacher Ratsrechnungen (vgl. Reskript an die Regierung zu Eisenach, 13. August 1776; ebd., Bl. 178r, Konzept, Paraphen: Carl August, Christian Friedrich Schnauß, Goethe; Bearbeitungsvermerk: „Abgegangen d. 26. Aug. 1776“). Nach deren Eingang (vgl. Bericht der Regierung zu Eisenach, 9. September 1776; ebd., Bl. 179r–179v, Beilage: Spezifikation der Besoldung der regierenden Bürgermeister, Bl. 180r) wurde der Gegenstand am 8. November 1776 vom Geheimen Consilium beraten und votiert.</p>
+
+</note>
+<note xml:id="gb11201_comment_com15718">
+<label xml:id="GB03_2_BR186_0_note_004_117_8" copyOf="#start_com_1784"><hi rendition="#fett">117,8</hi><unclear reason="illegible">Buching</unclear></label>
+<p>Über den Träger dieses schwer lesbaren Namens konnte nichts ermittelt werden. Im Erstdruck wird „Bürsing“ gelesen; Angaben dazu werden nicht gemacht (vgl. Register; <ref target="sndb:sigle#1157">WA</ref> IV 30, 21).</p>
+
+</note>
+<note xml:id="gb11201_comment_com10716">
+<label xml:id="GB03_2_BR186_0_note_005_117_9" copyOf="#start_com_1785"><hi rendition="#fett">117,9</hi>Ausschuss Tag</label>
+<p>Vermutlich ist der Ausschusstag der Eisenacher Landstände gemeint; der nächste fand vom 8. bis 30. September 1777 statt (vgl. die Erläuterungen zu <ref target="gb:dokument#23">Nr 285</ref>).</p>
+
+</note>
+<note xml:id="gb11201_comment_com10717">
+<label xml:id="GB03_2_BR186_0_note_006_117_10-11" copyOf="#start_com_1786"><hi rendition="#fett">117,10-11</hi>eine saubre Commission <gap quantity="3" reason="editorial"/> Wirrkopf zu kämmen</label>
+<p>‚Kommission‘: Vollmacht, Auftrag; ‚sauber‘ hier im Sinn von „gründlich, völlig, ganz und gar“ (<ref target="sndb:sigle#2890">Grimm</ref> 14, 1851); lat. ‚Aerarius‘: Kammerbeamte (nach lat. aerarium: Staatsschatz, -kasse). – Das Geheime Consilium hatte in seiner Sitzung vom 8. November 1776 außer der Reduzierung der Ratsmitglieder beschlossen: „Nachdem aber dadurch der Sache noch nicht gänzlich abgeholfen, mithin darauf zu denken seyn wird, wie durch eine beßere Einrichtung der Raths-Wirthschaft die in vielen Capiteln, besonders das Rathsfuhrwesen, Bau-Wesen, Brauhäuser, Brunnen, Brücken, Wege und Stege betr. vorkommende zum Theil übertriebene Ausgaben vermindert werden mögen, indem durch die bisherige Monir- und Justificirung der Rechnungen um deswillen der vorgesetzte Endzweck nicht erreicht werden können, weilen alles nach dem einmahl angenommenen Plan fortgeführet worden, und, wenn die Belege von denen Raths-Gliedern, es mögen solche die Sache verstanden haben oder nicht, einmahl attestiret, moderiret und autorisiret gewesen, solche in Ausgabe passiret werden müssen, ohne daß hinlänglich untersucht werden können, ob die Ausgabe selbst nöthig und nützlich und das Geld verdient, oder die Sache es werth gewesen. Alß haben wir die Entschließung gefaßt, daß, wie in dem hiesigen, also auch in dem Eisenachischen Fürstenthum, die sämmtlichen Raths- und andere öffentliche Aeraria revidiret und die bey denenselben geführte Wirthschaft nach und nach untersucht, eine bessere Oeconomie und Ordnung eingeführet, die Ämter nach eines jeden Fähigkeit ausgetheilet und die Ausgabe so viel möglich eingeschränkt, auch damit bey dem Stadt Rath zu Eisenach der Anfang gemacht werden solle. Wie Wir nun zugleich resolviret, daß von Euch hierzu dem Vice-Canzler von Bechtolsheim und noch einem Rath, Eures Mittels, Auftrag ertheilet und von ihnen diese Untersuchung des fördersamsten vor die Hand genommen werden solle; Also begehren Wir hiermit gnädigst Ihr wollet nunmehr, dieser Unserer Intention gemäß, das weitere nöthige expediren.“ (Reskript an die Regierung zu Eisenach, paraphiertes Konzept, 8. November 1776, Paraphen: Carl August, Jacob Friedrich Freiherr von Fritsch, Christian Friedrich Schnauß, Goethe; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Eisenacher Archiv, Ämter und Städte, Nr 1288, Bl. 181r–182v.)</p>
+
+</note>
+<note xml:id="gb11201_comment_com10718">
+<label xml:id="GB03_2_BR186_0_note_007_117_11" copyOf="#start_com_1787"><hi rendition="#fett">117,11</hi>Weibgen</label>
+<p>Juliane (Julie) geb. von Keller.</p>
+
+</note>
+<note xml:id="gb11201_comment_com13883">
+<label xml:id="GB03_2_BR186_0_note_008_117_12" copyOf="#start_com_1788"><hi rendition="#fett">117,12</hi>denen Kleinen</label>
+<p>Wahrscheinlich mit Bezug auf den 1775 geborenen Sohn Carl Emil.</p>
+
+</note>
+<note xml:id="gb11201_comment_com10719">
+<label xml:id="GB03_2_BR186_0_note_009_117_13" copyOf="#start_com_1789"><hi rendition="#fett">117,13</hi>einander wiedersehn</label>
+<p>Soweit bekannt, traf Goethe aus Anlass des Eisenacher Ausschusstages am 7. September 1777 mit Mauchenheim zusammen (vgl. <ref target="gt:dokument#429">GT I 1, 47</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

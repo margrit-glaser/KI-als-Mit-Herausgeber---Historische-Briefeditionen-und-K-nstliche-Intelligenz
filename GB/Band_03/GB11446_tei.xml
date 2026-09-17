@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2230"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11446" n="GB 3, Nr. 220">
+  <teiHeader xml:id="gb11446_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>220.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 19. Februar 1777. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:14Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11446_tei.xml</idno>
+        <idno type="URI">gb11446</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR220_0</idno>
+        <idno type="KSW-ID">11446</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="130" to="130">130</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="477" to="480">477-480</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11446_header_hwit1149" corresp="#gb11446_source_hwit1149" sameAs="#gb11446_comment_hwit1149" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 85</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11446,,1149/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Da hast du von dem herrlichen Lindau einige Blätter. Zimmermann schreibt mir er sey todt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11446_header_acc490" corresp="gb11446_comment_acc490">
+            <objectIdentifier>
+              <objectName>Vermutlich Brief Heinrich Julius von Lindaus an Johann Caspar Lavater vom 21. August bis 11. September 1776 und ein weiterer an Johann Georg Zimmermann.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-02-19">19. Februar 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11446_source_hwit1149" corresp="#gb11446_header_hwit1149" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11446/13877"/>
+      <p>
+        <anchor xml:id="GB03_1_BR220_0_130_001"/>Da hast du <ref target="gb:note#GB03_2_BR220_0_note_001_130_1" xml:id="start_com_2003"/>von dem herrlichen Lindau einige Blätter<ref xml:id="end_com_2003"/>. <ref target="gb:note#GB03_2_BR220_0_note_002_130_1-2" xml:id="start_com_2004"/>Zimmerm. 
+<anchor xml:id="GB03_1_BR220_0_130_002"/>schreibt<ref xml:id="end_com_2004"/> mir <ref target="gb:note#GB03_2_BR220_0_note_003_130_2" xml:id="start_com_2005"/>er sey todt<ref xml:id="end_com_2005"/> ich glaube kein Wort davon.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_003"/>
+        <ref target="gb:note#GB03_2_BR220_0_note_004_130_3" xml:id="start_com_2006"/>Deine Phis. geht immer richtig durch meine Hände<ref xml:id="end_com_2006"/>, ich kann 
+<anchor xml:id="GB03_1_BR220_0_130_004"/>nichts dafür thun als hie und da ausstreichen. <ref target="gb:note#GB03_2_BR220_0_note_005_130_4-6" xml:id="start_com_2007"/>Bey Raphael hab ich 
+<anchor xml:id="GB03_1_BR220_0_130_005"/>einen grosen Schnitt gemacht, und mir selbst von einem Tag zum andern 
+<anchor xml:id="GB03_1_BR220_0_130_006"/>versprochen den Riss wieder auszufüllen es ging aber nicht.<ref xml:id="end_com_2007"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_007"/>Ich lebe ganz glücklich in anhaltendem Reiben und Treiben des 
+<anchor xml:id="GB03_1_BR220_0_130_008"/>Lebens, und bin stiller in mir als ie, <ref target="gb:note#GB03_2_BR220_0_note_006_130_8-9" xml:id="start_com_2008"/>schreibe niemanden, höre von 
+<anchor xml:id="GB03_1_BR220_0_130_009"/>niemanden, mich kümmert ausser meinem Kreis nun gar nichts<ref xml:id="end_com_2008"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_010"/>
+        <ref target="gb:note#GB03_2_BR220_0_note_007_130_10-11" xml:id="start_com_2009"/>Kaufm. ist wieder da, ich hab ihn nur einen Blick gesehn, er sizt 
+<anchor xml:id="GB03_1_BR220_0_130_011"/>bei Lynckern auf dem Gute.<ref xml:id="end_com_2009"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_012"/>
+        <ref target="gb:note#GB03_2_BR220_0_note_008_130_12" xml:id="start_com_2010"/>Lindaus Petern<ref xml:id="end_com_2010"/> erwart ich mit dem Frühjahr, ich will sehn, ob’s 
+<anchor xml:id="GB03_1_BR220_0_130_013"/>glückt <ref target="gb:note#GB03_2_BR220_0_note_009_130_13" xml:id="start_com_2011"/>was ich mit ihm vorhabe<ref xml:id="end_com_2011"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_014"/>Herder ist wohl und vergnügt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR220_0_130_015"/>Leb wohl grüs dein <ref target="gb:note#GB03_2_BR220_0_note_010_130_15" xml:id="start_com_2012"/>Wibele<ref xml:id="end_com_2012"/>, <ref target="gb:note#GB03_2_BR220_0_note_011_130_15" xml:id="start_com_2013"/>Bäben<ref xml:id="end_com_2013"/> u. <ref target="gb:note#GB03_2_BR220_0_note_012_130_15" xml:id="start_com_2014"/>Kaysern<ref xml:id="end_com_2014"/>.</p>
+      <closer>
+        <dateline rendition="#einrueck1"> <anchor xml:id="GB03_1_BR220_0_130_016"/>W. d<g ref="#typoSuspension"/>. 19 Febr. 77.</dateline>
+        <anchor xml:id="GB03_1_BR220_0_130_017"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR220_0_130_018"/>Nachts <ref target="gb:note#GB03_2_BR220_0_note_013_130_18" xml:id="start_com_2015"/>in meinem Garten<ref xml:id="end_com_2015"/>, in einem Warmen Stübgen, da mir draussen 
+<anchor xml:id="GB03_1_BR220_0_130_019"/>über Schnee und hellen Mondenschein, Waldhörner übers<ptr n="1" target="#a001_130.19"/> Thal 
+<anchor xml:id="GB03_1_BR220_0_130_020"/>herüber blasen.</p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#11446/13878" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11446_comment">
+<body>
+<div type="metadata" xml:id="gb11446_comment_com579">
+  <ab type="numberAddressee"><label>220.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 19. Februar 1777 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11446_comment_com2623">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 85. – 1 Bl. 18,8(–19,3) × 23,9(–24,2) cm, 1 S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 31 f., Nr 11.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 136, Nr 561.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11446_comment_com3600">
+  <p>Vermutlich Brief Heinrich Julius von Lindaus an Johann Caspar Lavater vom 21. August bis 11. September 1776 und ein weiterer an Johann Georg Zimmermann (vgl. zu <ref target="gb:note#GB03_2_BR220_0_note_001_130_1">130,1</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11446_comment_com4419">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11446_comment_com17925">
+<label xml:id="GB03_2_BR220_0_note_001_130_1" copyOf="#start_com_2003"><hi rendition="#fett">130,1</hi>von dem herrlichen Lindau einige Blätter</label>
+<p>Goethe übersandte offenbar zwei Briefe des Barons Heinrich Julius von Lindau (zur Person vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>). Darunter war vermutlich ein an Lavater gerichteter offener Brief, begonnen am 21. August 1776 „halb leblos und erstarret unter den Eisschollen“ (<ref target="sndb:sigle#241">Ernst</ref>, 101) an Bord der „Concordia“ auf der Fahrt nach Amerika, beendet am 11. September 1776. Diesen Brief hatte Lindau nicht direkt an Lavater, sondern mit einem nicht überlieferten Begleitbrief an Johann Georg Zimmermann geschickt, der seinerseits am 30. Januar 1777 einen Brief Lindaus vom 16. Oktober 1776 erhalten hatte, der ebenfalls nicht überliefert ist. In beiden Briefen berichtet Lindau nach Zimmermanns Darstellung von seinen Erlebnissen als hessischer Sekondeleutnant (Unterleutnant) im amerikanischen Unabhängigkeitskrieg. Die beiden Briefe hatte Zimmermann am 31. Januar 1777 Goethe zukommen lassen, weil er annahm, dass dieser sich mit einer Biographie Lindaus befasse. Dies hatte er von einem seiner Patienten, dem hessischen Kammerherrn Wilhelm Freiherrn von Canitz und Dallwitz, erfahren, wie er am 10. Februar 1777 an Lavater schrieb: „Herr von Canitz, der mit Goethe bekannt scheint, sagte, daß Goethe etwas über Lindaus Leben schreibe – dieses veranlaßte mich am 31. Januar, den Brief von Lindau an Dich und an mich an Goethe zu schicken, von dem Du Deinen Brief also haben kannst, wenn Du ihn verlangst.“ (<ref target="sndb:sigle#241">Ernst</ref>, 103.) Nachdem Goethe Lindaus Briefe Anfang Februar 1777 Charlotte von Stein gegeben hatte (vgl. Beilage zu <ref target="gb:note#gb11454_comment_com3602">Nr 213</ref>), schickte er sie nun mit dem vorliegenden Brief an Lavater. Mit Blick auf den zitierten Brief Zimmermanns, der nur von einem Brief spricht, ist allerdings nicht auszuschließen, dass Goethe lediglich Lindaus „sehr großen offenen Brief“ (<ref target="sndb:sigle#241">Ernst</ref>, 102) an Lavater vom 21. August bis 11. September 1776 nach Zürich sandte.</p>
+
+</note>
+<note xml:id="gb11446_comment_com10847">
+<label xml:id="GB03_2_BR220_0_note_002_130_1-2" copyOf="#start_com_2004"><hi rendition="#fett">130,1-2</hi>Zimmerm. schreibt</label>
+<p>Johann Georg Zimmermanns Brief an Goethe vom 31. Januar 1777, den Zimmermann im Brief an Lavater vom 10. Februar 1777 erwähnt (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 103), ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11446_comment_com17864">
+<label xml:id="GB03_2_BR220_0_note_003_130_2" copyOf="#start_com_2005"><hi rendition="#fett">130,2</hi>er sey todt</label>
+<p>Lindau hatte als hessischer Offizier auf britischer Seite am amerikanischen Unabhängigkeitskrieg teilgenommen. Bei der Erstürmung von Fort Washington am 16. November 1776 wurde er verwundet; es wird berichtet, „eine Canonkugel aus dem Fort Washington habe ihn <supplied>Lindau</supplied> gestreift und diese Wunde sei tötlich geworden.“ (Wilhelm von Canitz und Dallwitz nach Johann Georg Zimmermanns Brief an Lavater vom 10. Februar 1777; <ref target="sndb:sigle#241">Ernst</ref>, 103.) Wann genau Lindau starb, ist nicht bekannt (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>).</p>
+
+</note>
+<note xml:id="gb11446_comment_com10848">
+<label xml:id="GB03_2_BR220_0_note_004_130_3" copyOf="#start_com_2006"><hi rendition="#fett">130,3</hi>Deine Phis. geht <gap quantity="3" reason="editorial"/> durch meine Hände</label>
+<p>Lavater schickte Manuskripte zum 3. Band seiner „Physiognomischen Fragmente“ an Goethe, der sie durchsah und an Reich nach Leipzig weiterleitete; dort hatte Anfang Januar 1777 der Druck des Bandes begonnen.</p>
+
+</note>
+<note xml:id="gb11446_comment_com17934">
+<label xml:id="GB03_2_BR220_0_note_005_130_4-6" copyOf="#start_com_2007"><hi rendition="#fett">130,4-6</hi>Bey Raphael <gap quantity="3" reason="editorial"/> es ging aber nicht.</label>
+<p>Wie aus seinem Brief an Lavater vom 8. Januar 1777 hervorgeht, hatte Goethe seinerzeit zwei Paketsendungen empfangen, die Manuskripte mit Text bis zur Seite 57 im Druck enthielten (vgl. zu <ref target="gb:note#GB03_2_BR210_0_note_001_125_20">125,20</ref>; zu <ref target="gb:note#GB03_2_BR210_0_note_007_126_2">126,2</ref>). Eine dritte Manuskriptsendung, deren Ankunftsdatum nicht bekannt ist, muss den Artikel „Ueber Raphael“ enthalten haben, der sich im gedruckten Band auf den Seiten 58–60 findet. Möglicherweise nahm Goethe, der schon zum 1. Band die Artikel „Ein Kopf nach Raphael“ und „Ein zweyter Kopf nach Raphael“ (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 1, 198–201) beigetragen hatte (vgl. <ref target="gb:note#GB02_2_BR217_0_note_002_181_2">GB 2 II, zu 181,2</ref>), an der dezidiert religiösen Deutung des italienischen Malers Anstoß: „Raphael“, schreibt Lavater, „ist und bleibt in meinem Sinne ‚ein <hi rendition="#hervor1">apostolischer</hi>‘ Mann“ (<ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, 58). Dass Goethe den gestrichenen Teil des Beitrags nicht ersetzte, könnte eine Tagebucheintragung vom 13. Januar vermuten lassen, nach der es während eines Essens bei Charlotte von Stein mit Corona Schröter und Herzog Carl August <quote type="G">Streit über Raphael</quote> (<ref target="gt:dokument#262">GT I 1, 35</ref>) gegeben habe.</p>
+
+</note>
+<note xml:id="gb11446_comment_com10855">
+<label xml:id="GB03_2_BR220_0_note_006_130_8-9" copyOf="#start_com_2008"><hi rendition="#fett">130,8-9</hi>schreibe niemanden <gap quantity="3" reason="editorial"/> nun gar nichts</label>
+<p>Die beschriebene Situation der Zurückgezogenheit war von längerer Dauer. Noch am 14. Juni 1777 teilte Lavater in einem Brief an Johann Georg Zimmermann mit: „Goethe schreibt überall keiner Seele; verschließt sich allem; sezt seine ganze Stärke darin, in einem kleinen von ihm selbst beschränkten Kreise ganz und allein zu existieren.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 349 f.) Selbst seiner Schwester Cornelia, die am 8. Juni 1777 gestorben war, habe er „in acht Monaten keine Zeile“ geschrieben (ebd., 350). Auch das Verhältnis zu Wieland nahm in dieser Zeit Schaden; in seinem Brief an Johann Heinrich Merck vom 14. Juni 1777 schildert dieser die Beziehung zu Goethe: „Göthe und Herder sind für mich wenig besser als ob sie nicht da wären. Mit jenem – was für herrliche Stunden, u. halbe Tage lebt’ ich mit ihm im ersten Jahre! Nun ists als ob in den fatalen Verhältnißen worinn er steckt, ihn sein Genius ganz verlassen hätte – seine Einbildungskraft scheint erloschen – statt der allbelebenden Wärme die sonst von ihm ausging, ist politischer Ernst um ihn her.“ (<ref target="sndb:sigle#141">WB</ref> 5, 626 f.)</p>
+
+</note>
+<note xml:id="gb11446_comment_com17879">
+<label xml:id="GB03_2_BR220_0_note_007_130_10-11" copyOf="#start_com_2009"><hi rendition="#fett">130,10-11</hi>Kaufm. ist <gap quantity="3" reason="editorial"/> bei Lynckern auf dem Gute.</label>
+<p>Johann Christoph Kaufmann (über ihn vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>) hatte sich bereits vom 21. September bis 9. Oktober 1776 in Weimar aufgehalten und noch einmal Anfang November desselben Jahres. Wieland erwähnt ihn in seinem Brief an Friedrich Heinrich Jacobi vom 1. November 1776 (vgl. <ref target="sndb:sigle#141">WB</ref> 5, 565). Im Anschluss an einen Aufenthalt in Dessau unternahm Kaufmann von Ende 1776 bis Oktober 1777 eine Reise durch Süd- und Mitteldeutschland; in deren Verlauf war er in Begleitung des Oberkonsistorialpräsidenten Carl Friedrich Ernst von Lyncker ein weiteres Mal nach Weimar zurückgekehrt (vgl. Werner Milch: Christoph Kaufmann. Frauenfeld und Leipzig 1932, S. 82 f.). Lyncker besaß in Flurstedt bei Apolda ein Gut.</p>
+
+</note>
+<note xml:id="gb11446_comment_com13896">
+<label xml:id="GB03_2_BR220_0_note_008_130_12" copyOf="#start_com_2010"><hi rendition="#fett">130,12</hi>Lindaus Petern</label>
+<p>Peter im Baumgarten, Pflegesohn von Heinrich Julius von Lindau (weiter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). Dass Goethe ihn erwartete, könnte darauf hindeuten, dass er sich um eine Übersiedlung des Jungen aus der Schweiz nach Weimar gekümmert hatte, nachdem die Nachricht von Lindaus Tod eingetroffen war, auch wenn er sie für nicht zuverlässig hielt (vgl. <ref target="sndb:sigle#241">Ernst</ref>, 45). Peter traf erst am 12. August 1777 in Weimar ein.</p>
+
+</note>
+<note xml:id="gb11446_comment_com10866">
+<label xml:id="GB03_2_BR220_0_note_009_130_13" copyOf="#start_com_2011"><hi rendition="#fett">130,13</hi>was ich mit ihm vorhabe</label>
+<p>Goethe nahm Peter zunächst in sein Haus auf, gab ihn aber wegen zunehmender Erziehungsschwierigkeiten schließlich nach Ilmenau zu den herzoglichen Jägern (weiter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>).</p>
+
+</note>
+<note xml:id="gb11446_comment_com10867">
+<label xml:id="GB03_2_BR220_0_note_010_130_15" copyOf="#start_com_2012"><hi rendition="#fett">130,15</hi>dein Wibele</label>
+<p>Schweizerische Diminutivform von wib (Weib; Ehefrau); gemeint ist Anna Lavater geb. Schinz.</p>
+
+</note>
+<note xml:id="gb11446_comment_com10868">
+<label xml:id="GB03_2_BR220_0_note_011_130_15" copyOf="#start_com_2013"><hi rendition="#fett">130,15</hi>Bäben</label>
+<p>Barbara (Bäbe) Schultheß, eine Freundin Goethes und Lavaters in Zürich (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR155_0_note_006_97_9">97,9</ref>).</p>
+
+</note>
+<note xml:id="gb11446_comment_com10869">
+<label xml:id="GB03_2_BR220_0_note_012_130_15" copyOf="#start_com_2014"><hi rendition="#fett">130,15</hi>Kaysern</label>
+<p>Philipp Christoph Kayser, Jugendfreund Goethes, Komponist in Zürich.</p>
+
+</note>
+<note xml:id="gb11446_comment_com10870">
+<label xml:id="GB03_2_BR220_0_note_013_130_18" copyOf="#start_com_2015"><hi rendition="#fett">130,18</hi>in meinem Garten</label>
+<p>Das Grundstück mit Gartenhaus im Park an der Ilm, das Goethe seit April 1776 besaß.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

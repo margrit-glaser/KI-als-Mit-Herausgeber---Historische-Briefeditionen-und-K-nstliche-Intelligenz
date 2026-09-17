@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5570"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12032" n="GB 3, Nr. 544">
+  <teiHeader xml:id="gb12032_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>544.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77909">Genf</placeName>, 2. November 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:44Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12032_tei.xml</idno>
+        <idno type="URI">gb12032</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR544_0</idno>
+        <idno type="KSW-ID">12032</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="338" to="339">338-339</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1042" to="1045">1042-1045</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12032_header_hwit1538" corresp="#gb12032_source_hwit1538" sameAs="#gb12032_comment_hwit1538" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 36</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12032,,1538/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>d. 2. November. Genv. 79. Auch hier sind wir länger geblieben als wir dachten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77909">Genf</placeName>
+            <date when="1779-11-02">2. November 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12032_source_hwit1538" corresp="#gb12032_header_hwit1538" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12032/23172"/>
+      <p>
+        <anchor xml:id="GB03_1_BR544_0_338_001"/>d<g ref="#typoSuspension"/>. 2 November. <ref target="gb:note#GB03_2_BR544_0_note_001_338_1" xml:id="start_com_4859"/>Genv<ref xml:id="end_com_4859"/>. 79. Auch hier sind wir länger geblieben als 
+<anchor xml:id="GB03_1_BR544_0_338_002"/>wir dachten, und müssen doch noch leider interessante Personen und 
+<anchor xml:id="GB03_1_BR544_0_338_003"/>Sachen, ungekannt und ungesehn zurücklassen. Die Stadt selbst macht 
+<anchor xml:id="GB03_1_BR544_0_338_004"/>mir einen <ref target="gb:note#GB03_2_BR544_0_note_002_338_4" xml:id="start_com_4860"/>fatalen<ref xml:id="end_com_4860"/> Eindruck. Die Gegend ist mit Landhausern besäet, 
+<anchor xml:id="GB03_1_BR544_0_338_005"/>und offen, freundlich, und lebendig. Der Herzog hat sich von einem 
+<anchor xml:id="GB03_1_BR544_0_338_006"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR544_0_note_003_338_6" xml:id="start_com_4861"/>Juel</emph>
+        <ref xml:id="end_com_4861"/> mahlen lassen, wir haben <ref target="gb:note#GB03_2_BR544_0_note_004_338_6" xml:id="start_com_4862"/>Bonnet<ref xml:id="end_com_4862"/>, <ref target="gb:note#GB03_2_BR544_0_note_005_338_6" xml:id="start_com_4863"/>Diodati<ref xml:id="end_com_4863"/>, Mr <ref target="gb:note#GB03_2_BR544_0_note_006_338_6" xml:id="start_com_4864"/>de Chateauvieux<ref xml:id="end_com_4864"/>, 
+<anchor xml:id="GB03_1_BR544_0_338_007"/>
+        <ref target="gb:note#GB03_2_BR544_0_note_007_338_7" xml:id="start_com_4865"/>Hubern<ref xml:id="end_com_4865"/> gesehen und fahren noch heute zu <ref target="gb:note#GB03_2_BR544_0_note_008_338_7" xml:id="start_com_4866"/>Saussuren<ref xml:id="end_com_4866"/>. Waren in <ref target="gb:note#GB03_2_BR544_0_note_009_338_7-8" xml:id="start_com_4867"/>Furney<ref xml:id="end_com_4867"/>
+        <anchor xml:id="GB03_1_BR544_0_338_008"/>
+        <ref target="gb:note#GB03_2_BR544_0_note_010_338_8" xml:id="start_com_4868"/>Mad. Van der Borch<ref xml:id="end_com_4868"/> eine Bekanntschafft aus <ref target="gb:note#GB03_2_BR544_0_note_011_338_8" xml:id="start_com_4869"/>Pyrmont<ref xml:id="end_com_4869"/> hat sich 
+<anchor xml:id="GB03_1_BR544_0_338_009"/>nach Ihnen erkundigt. Nun haben wir einen wichtigen Weeg vor uns 
+<anchor xml:id="GB03_1_BR544_0_338_010"/>wo wir das Geleit des Glücks nötiger haben als iemals. Morgen solls 
+<anchor xml:id="GB03_1_BR544_0_338_011"/>nach den Savoyer Eisgebürgen und von da durch ins Wallis. Wenn es 
+<anchor xml:id="GB03_1_BR544_0_338_012"/>dort schon so aussähe wie man es uns hier mahlt so wärs ein Stieg in 
+<anchor xml:id="GB03_1_BR544_0_338_013"/>die Hölle. Man kennt aber schon die Poesie der Leute auf den Sophas 
+<anchor xml:id="GB03_1_BR544_0_338_014"/>und in den <ref target="gb:note#GB03_2_BR544_0_note_012_338_14" xml:id="start_com_4870"/>Cabriolets<ref xml:id="end_com_4870"/>. Etwas<ptr n="1" target="#a001_338.14"/> zu leiden sind wir bereit, und wenn es 
+<anchor xml:id="GB03_1_BR544_0_338_015"/>möglich ist <ref target="gb:note#GB03_2_BR544_0_note_013_338_15" xml:id="start_com_4871"/>im Dezember auf den Brocken<ref xml:id="end_com_4871"/> zu kommen, so müssen<ptr n="2" target="#a002_338.15"/>
+        <anchor xml:id="GB03_1_BR544_0_338_016"/>auch Anfangs November uns diese <ref target="gb:note#GB03_2_BR544_0_note_014_338_16" xml:id="start_com_4872"/>Pforten der Schröcknisse<ref xml:id="end_com_4872"/> auch 
+<anchor xml:id="GB03_1_BR544_0_338_017"/>noch durchlassen. Ich hoffe Schritt vor Schritt Ihnen erzählen zu konnen 
+<anchor xml:id="GB03_1_BR544_0_338_018"/>wohin wir gehn und was wir sehn. Beschrieben ists zwar schon 
+<anchor xml:id="GB03_1_BR544_0_338_019"/>besser, doch unser Schicksaal nicht. Adieu liebste. <ref target="gb:note#GB03_2_BR544_0_note_015_338_19-20" xml:id="start_com_4873"/>Vor 14 Tagen <pb n="2" facs="gb:digitalisate#12032/23173"/> kan 
+<anchor xml:id="GB03_1_BR544_0_338_020"/>ich nichts an Sie auf die Post geben<ref xml:id="end_com_4873"/>, also hören Sie vor 4 Wochen von 
+<anchor xml:id="GB03_1_BR544_0_338_021"/>heut an nichts von mir. Adieu Grüsen Sie <ref target="gb:note#GB03_2_BR544_0_note_016_338_21" xml:id="start_com_4874"/>Steinen<ref xml:id="end_com_4874"/> und alles, ich 
+<anchor xml:id="GB03_1_BR544_0_338_022"/>dencke <ref target="gb:note#GB03_2_BR544_0_note_017_338_22" xml:id="start_com_4875"/>Sie sind in der Stadt<ref xml:id="end_com_4875"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR544_0_338_023"/>Mich hat Genv ganz <ref target="gb:note#GB03_2_BR544_0_note_018_338_23" xml:id="start_com_4876"/>in mich hineingestimmt<ref xml:id="end_com_4876"/> um alles blieb ich 
+<anchor xml:id="GB03_1_BR544_0_338_024"/>nicht noch acht Tage <ref target="gb:note#GB03_2_BR544_0_note_019_338_24" xml:id="start_com_4877"/>in dem Loche<ref xml:id="end_com_4877"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR544_0_338_025"/>Dass man <ref target="gb:note#GB03_2_BR544_0_note_020_338_25" xml:id="start_com_4878"/>bey den Franzosen auch von meinem Werther <hi rendition="#hervor1">bezaubert</hi>
+        <ref xml:id="end_com_4878"/>
+        <anchor xml:id="GB03_1_BR544_0_338_026"/>ist hätt ich mir nicht vermuthet, man macht mir viel Complimente, 
+<anchor xml:id="GB03_1_BR544_0_338_027"/>und ich versichre dagegen dass es mir unerwartet ist, man fragt mich 
+<anchor xml:id="GB03_1_BR544_0_338_028"/>ob ich nicht mehr dergleichen schriebe, und ich sage: Gott möge 
+<anchor xml:id="GB03_1_BR544_0_338_029"/>mich behüten, dass ich nicht ie wieder in den Fall komme, einen zu 
+<anchor xml:id="GB03_1_BR544_0_338_030"/>schreiben und schreiben zu können. Indess giebt mir dieses Echo aus 
+<anchor xml:id="GB03_1_BR544_0_338_031"/>der Ferne doch einiges Intresse mehr an meinen Sachen, vielleicht 
+<anchor xml:id="GB03_1_BR544_0_339_001"/>bin ich künftig fleisiger und verpasse nicht wie bisher<ptr n="3" target="#a003_339.1"/> die guten Stunden.
+<anchor xml:id="GB03_1_BR544_0_339_002"/>      Ade <pb n="3" facs="gb:digitalisate#12032/23174"/></p>
+      <space quantity="2" unit="lines"/>
+      <p rendition="#einrueck15">
+        <anchor xml:id="GB03_1_BR544_0_339_003"/>Abends gegen 10.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR544_0_339_004"/>Auch hab ich mich heute bei schönem Wetter <ref target="gb:note#GB03_2_BR544_0_note_021_339_4" xml:id="start_com_4879"/>in der Rhone gebadet<ref xml:id="end_com_4879"/>
+        <anchor xml:id="GB03_1_BR544_0_339_005"/>wozu<ptr n="4" target="#a004_339.5"/> man ein gar artig Hausgen hat da das grüne Wasser unten 
+<anchor xml:id="GB03_1_BR544_0_339_006"/>durchfliesst. Und weil es denn überall <ref target="gb:note#GB03_2_BR544_0_note_022_339_6" xml:id="start_com_4880"/>Frau Basen<ref xml:id="end_com_4880"/> giebt, die<ptr n="5" target="#a005_339.6"/> vom Müssiggange 
+<anchor xml:id="GB03_1_BR544_0_339_007"/>mit dem Rechte beliehen sind sich um andrer Leute Sachen 
+<anchor xml:id="GB03_1_BR544_0_339_008"/>zu bekümmern, so wollte man hier den Herzog von der Reise in die 
+<anchor xml:id="GB03_1_BR544_0_339_009"/>Savoyischen Eisgebürge<ptr n="6" target="#a006_339.9"/> die er sich selbst <ref target="gb:note#GB03_2_BR544_0_note_023_339_9" xml:id="start_com_4881"/>imaginirt<ref xml:id="end_com_4881"/> hat und von der er<ptr n="7" target="#a007_339.9"/>
+        <anchor xml:id="GB03_1_BR544_0_339_010"/>sich viel Vergnügen verspricht mit den ernsthaftesten Protestationen 
+<anchor xml:id="GB03_1_BR544_0_339_011"/>abhalten. Man wollte eine Staats und Gewissenssache daraus machen, 
+<anchor xml:id="GB03_1_BR544_0_339_012"/>dass wir glaubten am besten zu thun, wenn wir uns erst des Raths 
+<anchor xml:id="GB03_1_BR544_0_339_013"/>eines erfahrenen Mannes versicherten. Wir <ref target="gb:note#GB03_2_BR544_0_note_024_339_13" xml:id="start_com_4882"/>kompromittirten<ref xml:id="end_com_4882"/><ptr n="8" target="#a008_339.13"/> daher auf 
+<anchor xml:id="GB03_1_BR544_0_339_014"/>den Professer <emph rendition="#latin">de Saussure</emph> und nahmen uns vor nichts zu thun oder zu 
+<anchor xml:id="GB03_1_BR544_0_339_015"/>lassen als <ref target="gb:note#GB03_2_BR544_0_note_025_339_15" xml:id="start_com_4883"/>was dieser zu oder abrathen würde<ref xml:id="end_com_4883"/>. Es fuhr <ref target="gb:note#GB03_2_BR544_0_note_026_339_15-16" xml:id="start_com_4884"/>iemand von der 
+<anchor xml:id="GB03_1_BR544_0_339_016"/>Gegenparthei<ref xml:id="end_com_4884"/> mit zu ihm hinaus und auf ein simples<ptr n="9" target="#a009_339.16"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR544_0_note_027_339_16" xml:id="start_com_4885"/>exposé</emph>
+        <ref xml:id="end_com_4885"/> entschied 
+<anchor xml:id="GB03_1_BR544_0_339_017"/>er zu unserm grossen Vergnügen, dass wir ohne d<supplied>ie</supplied> geringste <ref target="gb:note#GB03_2_BR544_0_note_028_339_17" xml:id="start_com_4886"/>Fahr<ref xml:id="end_com_4886"/>
+        <anchor xml:id="GB03_1_BR544_0_339_018"/>noch Sorge den<ptr n="10" target="#a010_339.18"/> Weeg in dieser so gut als in einer frühern Jahrszeit 
+<anchor xml:id="GB03_1_BR544_0_339_019"/>machen konnten. Er zeigte uns an was in den kurzen Tagen zu sehen 
+<anchor xml:id="GB03_1_BR544_0_339_020"/>würde möglich seyn, wie wir gehen und<ptr n="11" target="#a011_339.20"/> was für Vorsorge wir gebrauchen 
+<anchor xml:id="GB03_1_BR544_0_339_021"/>sollten. Er spricht nicht anders von diesen Gange als wie wir 
+<anchor xml:id="GB03_1_BR544_0_339_022"/>einem Fremden von <ref target="gb:note#GB03_2_BR544_0_note_029_339_22" xml:id="start_com_4887"/>Buffarthischen Schloss<ref xml:id="end_com_4887"/> oder von <ref target="gb:note#GB03_2_BR544_0_note_030_339_22-23" xml:id="start_com_4888"/>Etterischen 
+<anchor xml:id="GB03_1_BR544_0_339_023"/>Steinbruche<ref xml:id="end_com_4888"/> erzählen werden. Und das sind dünkt mich die Leute die 
+<anchor xml:id="GB03_1_BR544_0_339_024"/>man fragen muss, wenn man in der Welt fort kommen will</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <dateline rendition="#einrueck5">
+          <anchor xml:id="GB03_1_BR544_0_339_025"/>Sehr ungern nehm ich Abschied</dateline>
+        <dateline rendition="#einrueck12">
+          <anchor xml:id="GB03_1_BR544_0_339_026"/>adieu.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12032_comment">
+<body>
+<div type="metadata" xml:id="gb12032_comment_com1062">
+  <ab type="numberAddressee"><label>544.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77909">Genf</placeName>, 2. November 1779 → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12032_comment_com3106">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 36. – Doppelblatt 19 × 23,3 cm, 2 &#xBE; S. beschr., S. 1–2 egh., Tinte, S. 2 flüchtig geschrieben, S. 3 Schreiberhd (Seidel) mit egh. Schluss (<ref target="gb:text#GB03_1_BR544_0_339_025 #GB03_1_BR544_0_339_026">339,25–26</ref> <quote type="G">Sehr ungern <gap quantity="3" reason="editorial"/> adieu.</quote>), Tinte; S. 4 Adresse: <quote type="G">An Frau / Oberstallmeist v. Stein / nach / Weimar</quote>, Spuren eines roten Siegels; Bl. 2 Mitte zwei Siegelausrisse, geringer Buchstabenverlust (vgl. <ref target="gb:text#GB03_1_BR544_0_339_017">339,17</ref>); S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „11“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 59), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 270–273.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 117–119, Nr 862.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12032_comment_com4902">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12032_comment_com12091">
+<label xml:id="GB03_2_BR544_0_note_001_338_1" copyOf="#start_com_4859"><hi rendition="#fett">338,1</hi>Genv</label>
+<p>Nach franz. Genève.</p>
+
+</note>
+<note xml:id="gb12032_comment_com12105">
+<label xml:id="GB03_2_BR544_0_note_002_338_4" copyOf="#start_com_4860"><hi rendition="#fett">338,4</hi>fatalen</label>
+<p>Hier: unangenehm, unerfreulich; von Goethe vorwiegend in der voritalienischen Zeit verwendet (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 610).</p>
+
+</note>
+<note xml:id="gb12032_comment_com18316">
+<label xml:id="GB03_2_BR544_0_note_003_338_6" copyOf="#start_com_4861"><hi rendition="#fett">338,6</hi><emph rendition="#latin">Juel</emph></label>
+<p>Jens Juel; das Bildnis von Herzog Carl August befindet sich heute im Schlossmuseum Weimar (Inv.-Nr KGe/00888). Der dänische Maler porträtierte nicht nur den Herzog, sondern auch Goethe, wie aus dem Tagebuch des Herzogs hervorgeht: „<gap quantity="3" reason="editorial"/> um 7. Uhr kam der Mahler Juel und fing an Göthen mit Bleystift zu zeichnen“ (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 4r; vgl. auch <ref target="bug:dokument#6170">BuG 2, 168</ref>); vollendet wurde die Zeichnung am Tag darauf. Das Original des Goethe-Porträts ist nicht überliefert. Eine Kopie, eine vermutlich von Juel selbst hergestellte Kreidezeichnung, ging an Johann Caspar Lavater (Österreichische Nationalbibliothek Wien, Bildarchiv, Slg Lavater XXII/372/7408; Abbildung in: <ref target="sndb:sigle#3057">Schaeffer/Göres</ref>, 72, Nr 14). Nach dieser Zeichnung fertigte Johann Heinrich Lips einen Stich an, der im 3. Band von Lavaters „Physiognomischen Fragmenten“ (Leipzig und Winterthur, S. 224) erschien; Goethe nannte ihn <quote type="G">sehr fatal</quote> (Brief an Lavater, 5. Juni 1780; <ref target="gb:text#GB04_1_BR108_0_069_004">GB 4 I, 69,4</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12106">
+<label xml:id="GB03_2_BR544_0_note_004_338_6" copyOf="#start_com_4862"><hi rendition="#fett">338,6</hi>Bonnet</label>
+<p>Charles Bonnet, Naturforscher und vom englischen Empirismus beeinflusster Philosoph, von 1752 bis 1768 Mitglied des Großen Rates von Genf; in seinem Haus lebte damals der Maler Jens Juel. Bonnets Abhandlung „La palingénésie philosophique, ou Idées sur l’état passé et sur l’état futur des êtres vivans“ (2 Tle. Genf 1769) hatte Lavater unter dem Titel „Philosophische Palingenesie, Oder Gedanken über den vergangenen und künftigen Zustand lebender Wesen“ (Zürich 1769) übersetzt. Als Naturwissenschaftler vertrat Bonnet den evolutionistischen Gedanken der Präformation, der Vorausbildung sämtlicher Organe in Ei oder Samen; darüber hatten Lavater und Goethe schon auf der gemeinsamen Rheinreise im Sommer 1774 diskutiert (vgl. Lavaters Tagebuch unter dem 20. und 21 Juli 1774; <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 314 f.). Bonnets <quote type="G">Einschachtelungslehre</quote> fand Goethe <quote type="G">widerlich</quote> (Bildungstrieb, in: Zur Morphologie. Ersten Bandes Zweites Heft; <ref target="sndb:sigle#1321">LA</ref> I 9, 100). Goethe hatte Bonnet am 29. Oktober 1779 in dessen Landhaus in Genthod (8 km nördlich von Genf am See gelegen) besucht (vgl. <ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 3r; vgl. auch <ref target="bug:dokument#6167">BuG 2, 167</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com18211">
+<label xml:id="GB03_2_BR544_0_note_005_338_6" copyOf="#start_com_4863"><hi rendition="#fett">338,6</hi>Diodati</label>
+<p>Der Pfarrer und Bibliothekar Anton Josua Diodati war ein Bekannter Lavaters. Nach einem Besuch bei Diodati in Genf am 29. Oktober 1779 (vgl. <ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 3r; vgl. auch <ref target="bug:dokument#6167">BuG 2, 166</ref>) hatte dieser die Reisenden am 31. Oktober auf sein Landgut in Ferney zum Essen eingeladen (vgl. Herzog Carl Augusts Brief an seine Frau Louise, 2. November 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 119). Am 1. November begleitete Diodati Goethe und Carl August zu dem Landschaftsmaler Georg Hackert, dem jüngeren Bruder Jakob Philipp Hackerts; am 2. November traf Goethe noch einmal mit Diodati zusammen (vgl. <ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 4r; vgl. auch <ref target="bug:dokument#6171">BuG 2, 168</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12119">
+<label xml:id="GB03_2_BR544_0_note_006_338_6" copyOf="#start_com_4864"><hi rendition="#fett">338,6</hi>de Chateauvieux</label>
+<p>Der Genfer Politiker Michel Lullin, Sieur de Châteauvieux, hatte sich um die Verbesserung der Landwirtschaft verdient gemacht, u. a. durch die Erfindung einer Sämaschine. Goethe begegnete ihm unter dem Datum des vorliegenden Briefes (vgl. Herzog Carl Augusts Brief an seine Frau Louise, 2. November 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 119).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12120">
+<label xml:id="GB03_2_BR544_0_note_007_338_7" copyOf="#start_com_4865"><hi rendition="#fett">338,7</hi>Hubern</label>
+<p>Jean Huber, der Genfer Ratsherr, Zeichner und Kupferstecher, gehörte zum Freundeskreis Voltaires; von ihm stammen zahlreiche Bildnisse Voltaires. Goethe besuchte Huber, den er schätzte (vgl. <ref target="gb:text#GB03_1_BR550_0_345_026 #GB03_1_BR550_0_345_029">345,26–29</ref>), am 3. November 1779 nach dem Aufbruch aus Genf noch einmal.</p>
+
+</note>
+<note xml:id="gb12032_comment_com12121">
+<label xml:id="GB03_2_BR544_0_note_008_338_7" copyOf="#start_com_4866"><hi rendition="#fett">338,7</hi>Saussuren</label>
+<p>Horace Bénédict de Saussure, Professor der Naturgeschichte in Genf (vgl. auch zu <ref target="gb:note#GB03_2_BR545_0_note_003_340_3-4">340,3-4</ref>). Der Besuch fand am 2. November 1779 auf Saussures Landgut in Chambésy am Genfer See statt (vgl. <ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 4v; vgl. auch <ref target="bug:dokument#6171">BuG 2, 168</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com15684">
+<label xml:id="GB03_2_BR544_0_note_009_338_7-8" copyOf="#start_com_4867"><hi rendition="#fett">338,7-8</hi>Furney</label>
+<p>Ferney (seit 1878 Ferney-Voltaire), 4 km vom Genfer See entfernt, 9 km nördlich des Zentrums von Genf. Im Schloss von Ferney hatte Voltaire von 1759 bis Februar 1778, kurz vor seinem Tod, gelebt.</p>
+
+</note>
+<note xml:id="gb12032_comment_com18217">
+<label xml:id="GB03_2_BR544_0_note_010_338_8" copyOf="#start_com_4868"><hi rendition="#fett">338,8</hi>Mad. Van der Borch</label>
+<p>Anne van der Borch, Frau des niederländischen Kammerherrn und Diplomaten Jan Carl van der Borch, die von ihrem Mann getrennt in der Schweiz lebte. Goethe und Carl August hatten sie am 30. Oktober 1779 besucht: „Eine feine, gute Frau, welche hübsch wäre wenn man ihr nicht ihre Krancklichkeit gar zu sehr ansehe.“ (<ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 3v; vgl. auch <ref target="bug:dokument#6168">BuG 2, 167</ref>.) Goethe aß am 1. November bei ihr (vgl. <ref target="sndb:sigle#2533">Carl August, Tagebuch</ref>, Bl. 4r; vgl. auch <ref target="bug:dokument#6170">BuG 2, 168</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com15265">
+<label xml:id="GB03_2_BR544_0_note_011_338_8" copyOf="#start_com_4869"><hi rendition="#fett">338,8</hi>Pyrmont</label>
+<p>Das Bad im Weserbergland besuchte Charlotte von Stein seit Beginn der 1770er Jahre regelmäßig in den Sommermonaten (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_006_62_6">62,6</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12137">
+<label xml:id="GB03_2_BR544_0_note_012_338_14" copyOf="#start_com_4870"><hi rendition="#fett">338,14</hi>Cabriolets</label>
+<p>Leichte Fuhrwerke, gewöhnlich mit zwei Rädern und mit nur einem Pferd in einer Gabel bespannt. Der Kasten hing nicht wie bei Kutschen in Riemen oder Federn; um Stöße zu vermindern, wurde der Sitz auf Spiralfedern montiert (vgl. <ref target="sndb:sigle#2965">Krünitz</ref> 7, 503).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12138">
+<label xml:id="GB03_2_BR544_0_note_013_338_15" copyOf="#start_com_4871"><hi rendition="#fett">338,15</hi>im Dezember auf den Brocken</label>
+<p>Goethe hatte den Brocken am 10. Dezember 1777 bei hohem Schnee bestiegen (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_043_184_18">184,18</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com15266">
+<label xml:id="GB03_2_BR544_0_note_014_338_16" copyOf="#start_com_4872"><hi rendition="#fett">338,16</hi>Pforten der Schröcknisse</label>
+<p>Nach den biblischen „pforten der höllen“ (Matthäus 16,18; Luther-Bibel 1772 NT, 20).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12139">
+<label xml:id="GB03_2_BR544_0_note_015_338_19-20" copyOf="#start_com_4873"><hi rendition="#fett">338,19-20</hi>Vor 14 Tagen <gap quantity="3" reason="editorial"/> auf die Post geben</label>
+<p>Dasselbe kündigte Herzog Carl August seiner Frau und seiner Mutter an (vgl. seine Briefe an diese vom 28. Oktober 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 118; <ref target="sndb:sigle#76">Bergmann</ref>, 28).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12140">
+<label xml:id="GB03_2_BR544_0_note_016_338_21" copyOf="#start_com_4874"><hi rendition="#fett">338,21</hi>Steinen</label>
+<p>Charlotte von Steins Mann Ernst Josias von Stein.</p>
+
+</note>
+<note xml:id="gb12032_comment_com15267">
+<label xml:id="GB03_2_BR544_0_note_017_338_22" copyOf="#start_com_4875"><hi rendition="#fett">338,22</hi>Sie sind in der Stadt</label>
+<p>Gemeint ist: in Weimar und nicht in Kochberg. Charlotte von Stein hielt sich noch auf ihrem Gut auf; von dort stammt ihr (nicht überlieferter) Brief an Goethe vom 12. November 1779 (vgl. <ref target="gb:text#GB03_1_BR550_0_344_020">344,20</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12141">
+<label xml:id="GB03_2_BR544_0_note_018_338_23" copyOf="#start_com_4876"><hi rendition="#fett">338,23</hi>in mich hineingestimmt</label>
+<p>‚In mich verschlossen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1208).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12151">
+<label xml:id="GB03_2_BR544_0_note_019_338_24" copyOf="#start_com_4877"><hi rendition="#fett">338,24</hi>in dem Loche</label>
+<p>Goethes ungünstiges Urteil über die Stadt Genf mag u. a. zustande gekommen sein, weil die Altstadt damals von Festungsmauern umgeben war, die den Blick auf die Berge verhinderten. Die Stadt wirkte eng und düster, zumal bei schlechtem Wetter, wie es die Reisenden antrafen (vgl. Briefe des Herzogs Carl August an seine Frau Louise und an Herzoginmutter Anna Amalia, 28. Oktober 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 118; <ref target="sndb:sigle#76">Bergmann</ref>, 28).</p>
+
+</note>
+<note xml:id="gb12032_comment_com18331">
+<label xml:id="GB03_2_BR544_0_note_020_338_25" copyOf="#start_com_4878"><hi rendition="#fett">338,25</hi>bey den Franzosen <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">bezaubert</hi></label>
+<p>Goethes Roman „Die Leiden des jungen Werthers“ aus dem Jahr 1774 wurde bereits im Jahr darauf von Jean Rodolphe Sinner de Ballagues in französischer Sprache als Drama bearbeitet: „Les malheurs de l’amour“ (Bern 1775). Die erste Übersetzung erschien 1776 in Maastricht; sie stammt von Jacques Georges Deyverdun, ebenfalls einem Schweizer (vgl. weiter zu <ref target="gb:note#GB03_2_BR168_0_note_006_103_21-22">103,21-22</ref>). Im gleichen Jahr erschienen „Les souffrances du jeune Werther“ (Erlangen 1776) von Carl Friedrich Sigmund von Seckendorff. 1777 kam die am meisten verbreitete Übersetzung heraus: „Les passions du jeune Werther“ (Paris u. a.) von Aubry, d. i. Woldemar Friedrich von Schmettau. Bis 1797 erschienen siebzehn Ausgaben des „Werther“ in fünf französischen Übersetzungen (vgl. Pierre Grappin: Aspekte der Rezeption Werthers in Frankreich im 18. Jahrhundert. In: Historizität in Sprach- und Literaturwissenschaft. <gap quantity="3" reason="editorial"/> Hrsg. von Walter Müller-Seidel. München 1974, S. 411–421; hier S. 412).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12152">
+<label xml:id="GB03_2_BR544_0_note_021_339_4" copyOf="#start_com_4879"><hi rendition="#fett">339,4</hi>in der Rhone gebadet</label>
+<p>Von einem solchen Bad am Tag zuvor berichtete auch Herzog Carl August in seinem Tagebuch unter dem 1. November 1779 (Bl. 4r; vgl. auch <ref target="bug:dokument#6170">BuG 2, 168</ref>).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12153">
+<label xml:id="GB03_2_BR544_0_note_022_339_6" copyOf="#start_com_4880"><hi rendition="#fett">339,6</hi>Frau Basen</label>
+<p>Klatschbasen, neugierige Alte (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 80).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12154">
+<label xml:id="GB03_2_BR544_0_note_023_339_9" copyOf="#start_com_4881"><hi rendition="#fett">339,9</hi>imaginirt</label>
+<p>In der Phantasie entworfen, geplant (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1495).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12155">
+<label xml:id="GB03_2_BR544_0_note_024_339_13" copyOf="#start_com_4882"><hi rendition="#fett">339,13</hi>kompromittirten</label>
+<p>‚Kompromittieren‘ hier im lat. Wortsinn: übereinkommen, sich dem Ausspruch eines Schiedsrichters zu fügen (vgl. Kompromiss: Übereinkunft).</p>
+
+</note>
+<note xml:id="gb12032_comment_com18239">
+<label xml:id="GB03_2_BR544_0_note_025_339_15" copyOf="#start_com_4883"><hi rendition="#fett">339,15</hi>was dieser zu oder abrathen würde</label>
+<p>Nach dem Bericht von Herzog Carl August im Brief an seine Frau Louise vom 2. November 1779 sagte Horace Bénédict de Saussure, „daß, da noch kein Schnee auf denen Alpen läge, ich sicher hinreißen könnte, wo ich wollte, u. wenn auch Schnee fiele, er uns nie so übereilen könne, daß wir etwas von ihm zu befürchten hätten.“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 119.)</p>
+
+</note>
+<note xml:id="gb12032_comment_com12171">
+<label xml:id="GB03_2_BR544_0_note_026_339_15-16" copyOf="#start_com_4884"><hi rendition="#fett">339,15-16</hi>iemand von der Gegenparthei</label>
+<p>Anton Josua Diodati (vgl. Herzog Carl Augusts Brief an seine Frau Louise, 2. November 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 119).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12172">
+<label xml:id="GB03_2_BR544_0_note_027_339_16" copyOf="#start_com_4885"><hi rendition="#fett">339,16</hi><emph rendition="#latin">exposé</emph></label>
+<p>Hier: kurze mündliche Darlegung (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 503).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12173">
+<label xml:id="GB03_2_BR544_0_note_028_339_17" copyOf="#start_com_4886"><hi rendition="#fett">339,17</hi>Fahr</label>
+<p>Schon im 18. Jahrhundert veraltet: Gefahr (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 2, 14).</p>
+
+</note>
+<note xml:id="gb12032_comment_com12174">
+<label xml:id="GB03_2_BR544_0_note_029_339_22" copyOf="#start_com_4887"><hi rendition="#fett">339,22</hi>Buffarthischen Schloss</label>
+<p>Gemeint sind die Felsenhöhlen am Muschelkalksteilhang bei Buchfart an der Ilm (10 km südlich von Weimar). Es handelt sich um Kammern eines Bergschlosses oder einer Burg, die im 10. Jahrhundert in den Hang eingegraben wurden.</p>
+
+</note>
+<note xml:id="gb12032_comment_com14029">
+<label xml:id="GB03_2_BR544_0_note_030_339_22-23" copyOf="#start_com_4888"><hi rendition="#fett">339,22-23</hi>Etterischen Steinbruche</label>
+<p>Gemeint ist der Oetternsche Steinbruch (vgl. weiter zu <ref target="gb:note#GB03_2_BR388_0_note_040_221_27-28">221,27-28</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

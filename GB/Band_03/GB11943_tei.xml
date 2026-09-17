@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3600"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11943" n="GB 3, Nr. 351">
+  <teiHeader xml:id="gb11943_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>351.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 25. April 1778. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11943_tei.xml</idno>
+        <idno type="URI">gb11943</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR351_0</idno>
+        <idno type="KSW-ID">11943</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="204" to="205">204-205</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="691" to="692">691-692</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11943_header_hwit1344" corresp="#gb11943_source_hwit1344" sameAs="#gb11943_comment_hwit1344" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 122</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11943,,1344/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Aus dem Zauberthal dortnieden</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11943_header_acc199" corresp="gb11943_comment_acc199">
+            <objectIdentifier>
+              <objectName>Hyazinthe </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-04-25">25. April 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11943_source_hwit1344" corresp="#gb11943_header_hwit1344" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11943/22831"/>
+      <lg type="poem">
+              <anchor xml:id="GB03_1_BR351_0_204_010"/><head rendition="#einrueck8">
+        <ref target="gb:note#GB03_2_BR351_0_note_001_204_10" xml:id="start_com_3109"/>Mit einer Hiazynthe.<ref xml:id="end_com_3109"/>
+      </head>
+      <space quantity="1" unit="lines"/>
+      <lg n="1">
+        <anchor xml:id="GB03_1_BR351_0_204_011"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR351_0_note_002_204_11" xml:id="start_com_3110"/>Aus dem Zauberthal dortnieden<ref xml:id="end_com_3110"/>
+        </l>
+        <anchor xml:id="GB03_1_BR351_0_204_012"/>
+        <l rendition="#einrueck6">Das der Regen still umtrübt,</l>
+        <anchor xml:id="GB03_1_BR351_0_204_013"/>
+        <l rendition="#einrueck6">Aus dem Taumel der <ref target="gb:note#GB03_2_BR351_0_note_003_204_13" xml:id="start_com_3111"/>Gewässer<ref xml:id="end_com_3111"/>,</l>
+        <anchor xml:id="GB03_1_BR351_0_204_014"/>
+        <l rendition="#einrueck6">Sendet Blume Grus und Frieden</l>
+        <anchor xml:id="GB03_1_BR351_0_204_015"/>
+        <l rendition="#einrueck6">Der dich immer treu und besser</l>
+        <anchor xml:id="GB03_1_BR351_0_204_016"/>
+        <l rendition="#einrueck6">Als du glauben magst geliebt.</l></lg>
+        <space quantity="1" unit="lines"/>
+        <lg n="2">
+        <anchor xml:id="GB03_1_BR351_0_204_017"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR351_0_note_004_204_17-205_4" xml:id="start_com_3112"/>Diese Blume die ich pflücke</l>
+        <anchor xml:id="GB03_1_BR351_0_204_018"/>
+        <l rendition="#einrueck6">Neben<ptr n="1" target="#a001_204.18"/> mir vom Thau genährt</l>
+        <anchor xml:id="GB03_1_BR351_0_204_019"/>
+        <l rendition="#einrueck6">Lässt die Mutter still zurücke</l>
+        <anchor xml:id="GB03_1_BR351_0_204_020"/>
+        <l rendition="#einrueck6">Die sich in sich selbst vermehrt<ptr n="2" target="#a002_204.20"/>.</l>
+        <anchor xml:id="GB03_1_BR351_0_205_001"/>
+        <l rendition="#einrueck6">Lang entblättert und verborgen</l>
+        <anchor xml:id="GB03_1_BR351_0_205_002"/>
+        <l rendition="#einrueck6">Mit den Kindern an der Brust,</l>
+        <anchor xml:id="GB03_1_BR351_0_205_003"/>
+        <l rendition="#einrueck6">Wird an neuen Frühlingsmorgen</l>
+        <anchor xml:id="GB03_1_BR351_0_205_004"/>
+        <l rendition="#einrueck6">Vielfach sie des Gärtners Lust.<ref xml:id="end_com_3112"/>
+        </l>
+      </lg></lg>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <anchor xml:id="GB03_1_BR351_0_205_005"/>
+        <signed rend="paraph" rendition="#einrueck10">G.</signed>
+        <dateline>     d<g ref="#typoSuspension"/>. 25 Apr 78.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11943_comment">
+<body>
+<div type="metadata" xml:id="gb11943_comment_com8">
+  <ab type="numberAddressee"><label>351.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 25. April 1778 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11943_comment_com1393">
+  <p>Entgegen seiner Datierung wurde das vorliegende Gedicht im Konvolut der Briefe an Charlotte von Stein nach den undatierten Briefen am Ende des Jahrgangs 1778 eingeordnet, und zwar auf dem letzten Trägerblatt des ersten Bandes (vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>). Wahrscheinlich wurde es dem Jahrgang 1778 nachträglich angefügt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11943_comment_com2052">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 122. – 1 Bl. 13,4(–13,6) × 19,8(–20) cm, &#x2154; S. beschr., egh., Tinte, Blatt zweimal quer gefaltet; oben rechts von fremder Hd, Tinte: „109.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 111), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 163 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> I 4 (1891), 211 (Gedicht; Titel, Datum und Paraphe in den „Lesarten“; <ref target="sndb:sigle#1157">WA</ref> I 5.2, 129).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11943_comment_com3436">
+  <p>Hyazinthe (vgl. zu <ref target="gb:note#GB03_2_BR351_0_note_001_204_10">204,10</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11943_comment_com3848">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Da das vorliegende Gedicht unter den Briefen Goethes an Charlotte von Stein überliefert ist, wird es in der Briefausgabe mitgeteilt. Für den Briefcharakter sprechen zudem Datierung, Paraphe und die Faltung der Handschrift. Im Unterschied zu anderen Charlotte von Stein übersandten Gedichten wurde es zu Lebzeiten Goethes nicht veröffentlicht. Auch in die von Goethe selbst autorisierten Werkausgaben wurde es nicht aufgenommen. Es erschien erst 1848 in den Briefen an Charlotte von Stein (vgl. E). Als Gedicht wurde es zuerst in der WA gedruckt, im Textteil allerdings ohne Titel, Datierung und Paraphe, stattdessen mit der Überschrift „An Frau von Stein“ (<ref target="sndb:sigle#1157">WA</ref> I 4, 211).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11943_comment_com11818">
+<label xml:id="GB03_2_BR351_0_note_001_204_10" copyOf="#start_com_3109"><hi rendition="#fett">204,10</hi>Mit einer Hiazynthe.</label>
+<p>Lat. Hyacinthus. – Im Frühjahr 1778 legte Goethe seinen Briefen an Charlotte von Stein auffallend häufig Pflanzen aus seinem Garten bei, allerdings meist ohne deren botanische Namen zu erwähnen.</p>
+
+</note>
+<note xml:id="gb11943_comment_com11819">
+<label xml:id="GB03_2_BR351_0_note_002_204_11" copyOf="#start_com_3110"><hi rendition="#fett">204,11</hi>Aus dem Zauberthal dortnieden</label>
+<p>Durchaus auch mit Bezug auf das Ilmtal (vgl. <ref target="gb:text#GB03_1_BR326_0_194_016">194,16</ref>).</p>
+
+</note>
+<note xml:id="gb11943_comment_com15296">
+<label xml:id="GB03_2_BR351_0_note_003_204_13" copyOf="#start_com_3111"><hi rendition="#fett">204,13</hi>Gewässer</label>
+<p>Goethes Garten lag oberhalb des „Sterns“, der damals vollständig von Ilm und Floßgraben eingeschlossen war (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>).</p>
+
+</note>
+<note xml:id="gb11943_comment_com15443">
+<label xml:id="GB03_2_BR351_0_note_004_204_17-205_4" copyOf="#start_com_3112"><hi rendition="#fett">204,17-205,4</hi>Diese Blume <gap quantity="3" reason="editorial"/> Gärtners Lust.</label>
+<p>Anspielung auf die Vermehrung von Hyazinthen durch so genannte Brutzwiebeln. – Insbesondere die zweite Strophe verweist auf Goethes erwachende botanische Interessen, die zur Entstehungszeit des Gedichts eng mit seinem Leben im Gartenhaus und der Arbeit im Garten verknüpft waren.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

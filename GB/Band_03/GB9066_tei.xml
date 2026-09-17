@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5420"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9066" n="GB 3, Nr. 532">
+  <teiHeader xml:id="gb9066_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>532.</label> An <persName key="sndb:person#45398">Gottlob Ernst Josias Friedrich von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77853" evidence="conjecture">Frankfurt a. M.</placeName></supplied>, 20. September 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9066_tei.xml</idno>
+        <idno type="URI">gb9066</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR532_0</idno>
+        <idno type="KSW-ID">9066</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="298" to="298">298</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="984" to="985">984-985</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9066_header_hwit1522" corresp="#gb9066_source_hwit1522" sameAs="#gb9066_comment_hwit1522" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/496,I</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8672</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9066,,1522/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wollten Sie die Güte haben an Mstr Barckhofen 3 Carolins zu bezahlen, und ihm</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+            <date when="1779-09-20">20. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45398">Stein, Gottlob Ernst Josias Friedrich von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9066_source_hwit1522" corresp="#gb9066_header_hwit1522" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9066/25739"/>
+      <p>
+        <anchor xml:id="GB03_1_BR532_0_298_001"/>Wollten Sie die Güte haben an <ref target="gb:note#GB03_2_BR532_0_note_001_298_1" xml:id="start_com_4304"/>Mstr Barckhofen<ref xml:id="end_com_4304"/> 3 Carolins zu bezahlen, 
+<anchor xml:id="GB03_1_BR532_0_298_002"/>und ihm den <ref target="gb:note#GB03_2_BR532_0_note_002_298_2" xml:id="start_com_4305"/>Brief<ref xml:id="end_com_4305"/> zu schicken. Bey meiner Rückkunft ersez ich’s 
+<anchor xml:id="GB03_1_BR532_0_298_003"/>mit Danck.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR532_0_298_004"/>Wir sind recht glücklich <ref target="gb:note#GB03_2_BR532_0_note_003_298_4" xml:id="start_com_4306"/>angelangt<ref xml:id="end_com_4306"/> und <ref target="gb:note#GB03_2_BR532_0_note_004_298_4" xml:id="start_com_4307"/>wohl empfangen<ref xml:id="end_com_4307"/> worden. 
+<anchor xml:id="GB03_1_BR532_0_298_005"/>haben <ref target="gb:note#GB03_2_BR532_0_note_005_298_5" xml:id="start_com_4308"/>alles Gesund<ref xml:id="end_com_4308"/> angetroffen, und sind lustig und vergnügt. Adieu. 
+<anchor xml:id="GB03_1_BR532_0_298_006"/>d<g ref="#typoSuspension"/>. 20 Sept 1779</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR532_0_298_007"/>
+        <signed rend="paraph" rendition="#einrueck20">G</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#9066/25740"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9066_comment">
+<body>
+<div type="metadata" xml:id="gb9066_comment_com236">
+  <ab type="numberAddressee"><label>532.</label> An <persName key="sndb:person#45398">Gottlob Ernst Josias Friedrich von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>, 20. September 1779 → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9066_comment_com2280">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8672">GSA 29/496,I</ref>, Bl. 1. – 1 Bl. 19(–19,2) × 14,4(–15,3) cm, &#x2154; S. beschr., egh., Tinte; unten beschnitten, beim Öffnen beschädigt; Rs. rotes Siegel und Adresse: <quote type="G">An Herrn Ober-/Stallmeister v. Stein / nach / Weimar</quote>; Vs. unter dem Brieftext Quittung von fremder Hd (Gottlob Ernst Josias Friedrich von Stein?), mit drei Kreuzen unterzeichnet von <quote type="G">Mstr Barckhofen</quote> (<ref target="gb:text#GB03_1_BR532_0_298_001">298,1</ref>), Tinte: „Obige Drey Carolins habe richtig erhalten. / Weimar, den 2<hi rendition="#sup">ten</hi> Octobr: 1779. / XXX“; Vs. oben rechts von fremder Hd (Albert Leitzmann, Herausgeber von E?): „Nr. 848<hi rendition="#sup">a</hi>.“ – Beischluss: <ref target="gb:dokument#52702">EB 267</ref> (vgl. zu <ref target="gb:note#GB03_2_BR532_0_note_002_298_2">298,2</ref>); dieser und der vorliegende Brief waren Beischluss zu <ref target="gb:dokument#12017">Nr 533</ref>.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 18 (1895), 19, Nr 848a (Albert Leitzmann).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9066_comment_com4076">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9066_comment_com16822">
+<label xml:id="GB03_2_BR532_0_note_001_298_1" copyOf="#start_com_4304"><hi rendition="#fett">298,1</hi>Mstr Barckhofen</label>
+<p>Über diesen Handwerksmeister konnte nichts ermittelt werden, ebenso wenig über seine geschäftlichen Beziehungen zu Goethe. Wenn eine Verwechslung des Namens vorliegen sollte, könnte es sich um ein Mitglied der Familie Kalckofen handeln, der einige Schmiedemeister angehörten, u. a. Johann Melchior, Johann Christoph Sebald, Johann Daniel und Christoph Theodor Kalckofen. Die Namen der beiden Letztgenannten finden sich wiederholt in Goethes Rechnungen (vgl. <ref target="sndb:sigle#2588">GR/Belege 1787, 1</ref>, 30. Juni 1787; <ref target="sndb:sigle#4022">GR/Belege 1790, 2</ref>, 11. Februar 1790 u. ö.).</p>
+
+</note>
+<note xml:id="gb9066_comment_com7361">
+<label xml:id="GB03_2_BR532_0_note_002_298_2" copyOf="#start_com_4305"><hi rendition="#fett">298,2</hi>Brief</label>
+<p><ref target="gb:dokument#52702">EB 267</ref>.</p>
+
+</note>
+<note xml:id="gb9066_comment_com7362">
+<label xml:id="GB03_2_BR532_0_note_003_298_4" copyOf="#start_com_4306"><hi rendition="#fett">298,4</hi>angelangt</label>
+<p>Goethe war mit der übrigen Reisegesellschaft am 18. September 1779 in Frankfurt eingetroffen; sie blieben bis zum 22. September.</p>
+
+</note>
+<note xml:id="gb9066_comment_com16831">
+<label xml:id="GB03_2_BR532_0_note_004_298_4" copyOf="#start_com_4307"><hi rendition="#fett">298,4</hi>wohl empfangen</label>
+<p>Vgl. den Bericht in Goethes Brief an Charlotte von Stein vom selben Tag (<ref target="gb:dokument#12017">Nr 533</ref>), ferner die Schilderung von Catharina Elisabeth Goethe in ihrem Brief an Herzogin Anna Amalia vom 24. September 1779 (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 455; zitiert in der Erläuterung zu <ref target="gb:note#GB03_2_BR533_0_note_002_298_10-11">298,10-11</ref>).</p>
+
+</note>
+<note xml:id="gb9066_comment_com7380">
+<label xml:id="GB03_2_BR532_0_note_005_298_5" copyOf="#start_com_4308"><hi rendition="#fett">298,5</hi>alles Gesund</label>
+<p>Seinen Vater hatte Goethe allerdings <quote type="G">verändert angetroffen</quote> (<ref target="gb:text#GB03_1_BR533_0_298_014">298,14</ref>); vgl. die Mitteilungen in <ref target="gb:dokument#12017">Nr 533</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

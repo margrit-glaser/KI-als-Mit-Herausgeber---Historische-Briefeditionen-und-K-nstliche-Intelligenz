@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1520"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11125" n="GB 3, Nr. 150">
+  <teiHeader xml:id="gb11125_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>150.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78160">Ilmenau</placeName> und <placeName key="sndb:ort#92311">Gabelbach</placeName>, 8. August 1776. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:10Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11125_tei.xml</idno>
+        <idno type="URI">gb11125</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR150_0</idno>
+        <idno type="KSW-ID">11125</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="92" to="93">92-93</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="352" to="357">352-357</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11125_header_hwit1030" corresp="#gb11125_source_hwit1030" sameAs="#gb11125_comment_hwit1030" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 28</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11125,,1030/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Deine Gegenwart hat auf mein Herz eine wunderbaare Würckung gehabt, ich kann nicht sagen wie mir ist!</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78160">Ilmenau</placeName> und
+            <placeName key="sndb:ort#92311">Gabelbach</placeName>
+            <date when="1776-08-08">8. August 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11125_source_hwit1030" corresp="#gb11125_header_hwit1030" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11125/22416"/>
+      <p>
+        <anchor xml:id="GB03_1_BR150_0_092_007"/>
+        <ref target="gb:note#GB03_2_BR150_0_note_001_92_7" xml:id="start_com_1440"/>Deine Gegenwart<ref xml:id="end_com_1440"/> hat auf mein Herz<ptr n="1" target="#a001_92.7"/> eine wunderbaare Würckung 
+<anchor xml:id="GB03_1_BR150_0_092_008"/>gehabt, ich kann nicht sagen wie mir ist! mir ist wohl und doch so 
+<anchor xml:id="GB03_1_BR150_0_092_009"/>
+        <ref target="gb:note#GB03_2_BR150_0_note_002_92_9" xml:id="start_com_1441"/>träumig<ref xml:id="end_com_1441"/>. Zeichnen konnt ich gestern nicht. Ich sass <ref target="gb:note#GB03_2_BR150_0_note_003_92_9-10" xml:id="start_com_1442"/>auf Wizlebens 
+<anchor xml:id="GB03_1_BR150_0_092_010"/>Felsem<ref xml:id="end_com_1442"/>, die herrlich sind und konnt nichts hervorbringen da schrieb 
+<anchor xml:id="GB03_1_BR150_0_092_011"/>ich dir:</p>
+      <lg type="poem">
+        <anchor xml:id="GB03_1_BR150_0_092_012"/>
+        <l rendition="#einrueck6">Ach wie bist du mir,</l>
+        <anchor xml:id="GB03_1_BR150_0_092_013"/>
+        <l rendition="#einrueck6">Wie<ptr n="2" target="#a002_92.13"/> bin ich dir geblieben!</l>
+        <anchor xml:id="GB03_1_BR150_0_092_014"/>
+        <l rendition="#einrueck6">Nein an der Wahrheit</l>
+        <anchor xml:id="GB03_1_BR150_0_092_015"/>
+        <l rendition="#einrueck6">Verzweifl ich nicht mehr.</l>
+        <anchor xml:id="GB03_1_BR150_0_092_016"/>
+        <l rendition="#einrueck6">Ach wenn du da bist</l>
+        <anchor xml:id="GB03_1_BR150_0_092_017"/>
+        <l rendition="#einrueck6">Fühl ich, ich soll dich nicht lieben</l>
+        <anchor xml:id="GB03_1_BR150_0_092_018"/>
+        <l rendition="#einrueck6">Ach wenn du fern bist</l>
+        <anchor xml:id="GB03_1_BR150_0_092_019"/>
+        <l rendition="#einrueck6">Fühl ich, ich lieb dich so sehr.</l>
+      </lg>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR150_0_092_020"/>Heut will ich auf den <ref target="gb:note#GB03_2_BR150_0_note_004_92_20" xml:id="start_com_1443"/>Hermanstein<ref xml:id="end_com_1443"/>, und womöglich <ref target="gb:note#GB03_2_BR150_0_note_005_92_20-21" xml:id="start_com_1444"/>die Höhle zeichnen<ref xml:id="end_com_1444"/>
+        <anchor xml:id="GB03_1_BR150_0_092_021"/>hab auch Meisel und Hammer <ref target="gb:note#GB03_2_BR150_0_note_006_92_21" xml:id="start_com_1445"/>die Inschrifft<ref xml:id="end_com_1445"/> zu machen die sehr 
+<anchor xml:id="GB03_1_BR150_0_092_022"/>mystisch werden wird. <ref target="gb:note#GB03_2_BR150_0_note_007_92_22" xml:id="start_com_1446"/>Ihr Zettelgen<ref xml:id="end_com_1446"/> hab ich kriegt, hab mich viel gefreut 
+<anchor xml:id="GB03_1_BR150_0_092_023"/>– Ich schwöre dir ich weis nich<unclear reason="illegible">t</unclear> wie mir ist. Wenn ich so dencke 
+<anchor xml:id="GB03_1_BR150_0_092_024"/>
+        <ref target="gb:note#GB03_2_BR150_0_note_008_92_24" xml:id="start_com_1447"/>dass Sie mit in meiner Höhle war<ref xml:id="end_com_1447"/>, dass ich ihre Hand hielt indess sie 
+<anchor xml:id="GB03_1_BR150_0_092_025"/>sich bückte und ein Zeichen in den Staub schrieb!!! Es ist <ref target="gb:note#GB03_2_BR150_0_note_009_92_25-26" xml:id="start_com_1448"/>wie in der 
+<anchor xml:id="GB03_1_BR150_0_092_026"/>Geisterwelt<ref xml:id="end_com_1448"/>, ist mir auch wie in der Geisterwelt. Ein Gefühl ohne Gefühl. 
+<anchor xml:id="GB03_1_BR150_0_092_027"/>Lieber Engel! Ich hab an meinem <ref target="gb:note#GB03_2_BR150_0_note_010_92_27" xml:id="start_com_1449"/>Falcken<ref xml:id="end_com_1449"/> geschrieben, meine 
+<anchor xml:id="GB03_1_BR150_0_092_028"/>
+        <ref target="gb:note#GB03_2_BR150_0_note_011_92_28" xml:id="start_com_1450"/>Giowanna<ref xml:id="end_com_1450"/> wird viel von <ref target="gb:note#GB03_2_BR150_0_note_012_92_28" xml:id="start_com_1451"/>Lili<ref xml:id="end_com_1451"/> haben, du erlaubst mir aber doch dass ich 
+<anchor xml:id="GB03_1_BR150_0_092_029"/>einige Tropfen deines Wesen’s drein giesse, nur<ptr n="3" target="#a003_92.29"/> so viel es braucht um zu 
+<anchor xml:id="GB03_1_BR150_0_093_001"/>
+        <ref target="gb:note#GB03_2_BR150_0_note_013_93_1" xml:id="start_com_1452"/>tingiren<ref xml:id="end_com_1452"/>. <ref target="gb:note#GB03_2_BR150_0_note_014_93_1" xml:id="start_com_1453"/>dein Verhältniss zu mir ist so heilig<ref xml:id="end_com_1453"/> sonderbaar, dass ich erst 
+<anchor xml:id="GB03_1_BR150_0_093_002"/>recht bey dieser Gelegenheit fühlte: es kann nicht mit Worten ausgedrückt 
+<anchor xml:id="GB03_1_BR150_0_093_003"/>werden, Menschen <ref target="gb:note#GB03_2_BR150_0_note_015_93_3" xml:id="start_com_1454"/>könn<unclear reason="illegible">e</unclear>s<ref xml:id="end_com_1454"/> nicht sehen. Vielleicht <ref target="gb:note#GB03_2_BR150_0_note_016_93_3-5" xml:id="start_com_1455"/>macht mir’s 
+<anchor xml:id="GB03_1_BR150_0_093_004"/>einige Augenblicke wohl, meine verklungenen<ptr n="4" target="#a004_93.4"/> Leiden wieder als 
+<anchor xml:id="GB03_1_BR150_0_093_005"/>
+        <hi rendition="#hervor1">Drama zu verkehren</hi>
+        <ref xml:id="end_com_1455"/>.   Adieu liebe d<g ref="#typoSuspension"/>. 8 Aug 76.</p>
+      <closer>
+        <dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR150_0_093_006"/>Ilmenau. <pb n="2" facs="gb:digitalisate#11125/22417"/></dateline>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR150_0_093_007"/>Auf dem <ref target="gb:note#GB03_2_BR150_0_note_017_93_7" xml:id="start_com_1456"/>Gabelbach<ref xml:id="end_com_1456"/>.   Es ist bald 3 <ref target="gb:note#GB03_2_BR150_0_note_018_93_7" xml:id="start_com_1457"/>der Herzog<ref xml:id="end_com_1457"/> ist noch nicht von der 
+<anchor xml:id="GB03_1_BR150_0_093_008"/>Jagd er wird hier essen. Von meinem Morgen auf dem Hermannstein 
+<anchor xml:id="GB03_1_BR150_0_093_009"/>
+          <ref target="gb:note#GB03_2_BR150_0_note_019_93_9" xml:id="start_com_1458"/>sollst du was sehen, vielleicht<ptr n="5" target="#a005_93.9"/> auch was lesen<ref xml:id="end_com_1458"/>. Addio. du bist immer 
+<anchor xml:id="GB03_1_BR150_0_093_010"/>bey mir.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR150_0_093_011"/>
+          <ref target="gb:note#GB03_2_BR150_0_note_020_93_11" xml:id="start_com_1459"/>Stüzzerbach<ref xml:id="end_com_1459"/> Nachts bey Tisch. Ich hab heute den ganzen Tag für 
+<anchor xml:id="GB03_1_BR150_0_093_012"/>dich gezeichnet, nicht immer glücklich, aber immer warm. Heut aber 
+<anchor xml:id="GB03_1_BR150_0_093_013"/>
+          <ref target="gb:note#GB03_2_BR150_0_note_021_93_13" xml:id="start_com_1460"/>sass ich wieder hier auf dem Schlossberg<ref xml:id="end_com_1460"/> und hatte einen guten 
+<anchor xml:id="GB03_1_BR150_0_093_014"/>Augenblick. Wie erwünscht lag eben der Sonnenblick den Moment 
+<anchor xml:id="GB03_1_BR150_0_093_015"/>da ich aufstieg im Thal <ref target="gb:note#GB03_2_BR150_0_note_022_93_15" xml:id="start_com_1461"/>wie ich ihn aufs Papier fesseln mögt<ref xml:id="end_com_1461"/>. – Ich 
+<anchor xml:id="GB03_1_BR150_0_093_016"/>muss nur für dich zeichnen, du thust das dazu was ich nicht machen 
+<anchor xml:id="GB03_1_BR150_0_093_017"/>kann. ——</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR150_0_093_018"/>Von heute früh, von heut dem ganzen Tag! kann ich nichts sagen! 
+<anchor xml:id="GB03_1_BR150_0_093_019"/>Engel – <ref target="gb:note#GB03_2_BR150_0_note_023_93_19" xml:id="start_com_1462"/>Geh nur in die Schweiz<ref xml:id="end_com_1462"/> – Gute Nacht. gute Nacht.</p>
+        <closer>
+          <anchor xml:id="GB03_1_BR150_0_093_020"/>
+          <signed rend="paraph" rendition="#einrueck16">G</signed>
+        </closer>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11125_comment">
+<body>
+<div type="metadata" xml:id="gb11125_comment_com1326">
+  <ab type="numberAddressee"><label>150.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78160">Ilmenau</placeName> und <placeName key="sndb:ort#92311">Gabelbach</placeName>, 8. August 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11125_comment_com3370">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 28. – 1 Bl. 13,9 × 19,5 cm, 1 ⅔ S. beschr., egh., Tinte und Bleistift: <quote type="G">Auf dem Gabelbach <gap quantity="3" reason="editorial"/> bey mir.</quote> (<ref target="gb:text#GB03_1_BR150_0_093_007 #GB03_1_BR150_0_093_010">93,7–10</ref>); oben rechts von fremder Hd, Tinte: „70“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 70), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 51–53.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 93 f., Nr 493.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11125_comment_com5166">
+  <p>Der Bezugsbrief wahrscheinlich vom 7. August 1776 (vgl. <ref target="gb:text#GB03_1_BR150_0_092_022">92,22</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11125_comment_com10424">
+<label xml:id="GB03_2_BR150_0_note_001_92_7" copyOf="#start_com_1440"><hi rendition="#fett">92,7</hi>Deine Gegenwart</label>
+<p>Auf ihrer Rückreise von Pyrmont hatte Charlotte von Stein Goethe in Ilmenau besucht. Am 5. August 1776 vermerkte er in seinem Tagebuch ihre Ankunft: <quote type="G">Abends die Stein</quote> (<ref target="gt:dokument#111">GT I 1, 23</ref>), für den Abend des nächsten Tages die <quote type="G">Trenung</quote> (<ref target="gt:dokument#112">ebd.</ref>). Wahrscheinlich reiste Charlotte von Stein am Morgen des 7. August nach Weimar weiter.</p>
+
+</note>
+<note xml:id="gb11125_comment_com17671">
+<label xml:id="GB03_2_BR150_0_note_002_92_9" copyOf="#start_com_1441"><hi rendition="#fett">92,9</hi>träumig</label>
+<p>Verträumt, traumerfüllt (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 11 I 1, 1516); sonst bei Goethe nur noch im Singspiel „Claudine von Villa Bella“ (1775) belegt, wo über die Figur des Don Pedro gesagt wird, er sei <quote type="G">ein langweiliger träumiger Mensch</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 131).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10425">
+<label xml:id="GB03_2_BR150_0_note_003_92_9-10" copyOf="#start_com_1442"><hi rendition="#fett">92,9-10</hi>auf Wizlebens Felsem</label>
+<p>‚Felsem‘ wohl verschrieben. – Laut Tagebuch vom 7. August 1776 war Goethe <quote type="G">Gegen 19</quote> <supplied>recte: gegen 9</supplied> <quote type="G">auf Elgers burg</quote> (<ref target="gt:dokument#113">GT I 1, 23</ref>), wo er auch den Tag verbrachte: <quote type="G">gessen. <gap quantity="3" reason="editorial"/> nach Tisch hohen Felsen weeg! Allein.</quote> (Ebd.) Die Elgersburg auf einem hoch über dem gleichnamigen Ort gelegenen Felsen, etwa 7 km nordwestlich von Ilmenau, war im Besitz des Weimarer Oberhofmarschalls Friedrich Hartmann von Witzleben. Dieser hatte sich am 17. Juli vom Weimarer Hof „auf etl. Wochen“ beurlaubt und war nach seinem „Guthe auf die Burck <supplied>Elgersburg</supplied> gegangen“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 210).</p>
+
+</note>
+<note xml:id="gb11125_comment_com13856">
+<label xml:id="GB03_2_BR150_0_note_004_92_20" copyOf="#start_com_1443"><hi rendition="#fett">92,20</hi>Hermanstein</label>
+<p>Der Hermannstein nordwestlich des Kickelhahns (vgl. zu <ref target="gb:note#GB03_2_BR145_0_note_001_87_15">87,15</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com17684">
+<label xml:id="GB03_2_BR150_0_note_005_92_20-21" copyOf="#start_com_1444"><hi rendition="#fett">92,20-21</hi>die Höhle zeichnen</label>
+<p>Vgl. dazu Goethes Tagebucheintrag vom 8. August 1776: <quote type="G">aufm Hermanst. Die Höhle gezeichnet. </quote> (<ref target="gt:dokument#114">GT I 1, 23</ref>.) Überliefert ist die Zeichnung „Höhle am Hermannstein“, die möglicherweise mit Brief <ref target="gb:dokument#11128">Nr 152</ref> an Charlotte von Stein geschickt wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR152_0_note_005_94_8">94,8</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10438">
+<label xml:id="GB03_2_BR150_0_note_006_92_21" copyOf="#start_com_1445"><hi rendition="#fett">92,21</hi>die Inschrifft</label>
+<p>Wie der Brief Goethes vom 6. September 1780 nahelegt, brachte er 1776 lediglich die Initiale „S“ an für den Nachnamen der Freundin und wohl zugleich auch für ‚Sonne‘ (vgl. zu <ref target="gb:note#GB03_2_BR123_0_note_002_74_1-2">74,1-2</ref>): <quote type="G">Meine beste ich bin in die Hermannsteiner Höhle gestiegen, an den Plaz wo Sie mit mir waren und habe das S, das so frisch noch wie von gestern angezeichnet steht geküsst und wieder geküsst</quote> (<ref target="gb:text#GB04_1_BR170_0_119_008 #GB04_1_BR170_0_119_010">GB 4 I, 119,8-10</ref>). Wiederum etwa vier Jahre später, am 23. Juni 1784, schrieb Goethe aus Eisenach an die Freundin in Weimar: <gap quantity="3" reason="editorial"/> <quote type="G">eh ich weg gehe will ich noch ein Paar Tage dran wenden und die Gebürge durchstreichen. Wenn ich mir nur ein Andencken für dich irgendwo aussinnen könnte. Ich hatte vor in irgend einen Felsen einhauen zu lassen:</quote></p>
+ <space unit="lines" quantity="1"/>
+ <lg>
+   <l rendition="#einrueck2"><quote type="G">Was ich leugnend gestehe und offenbarend verberge</quote></l>
+   <l rendition="#einrueck2"><quote type="G">Ist mir das einzige Wohl, bleibt mir ein reichlicher Schatz</quote></l>
+  <l rendition="#einrueck2"><quote type="G">Ich vertrau es dem Felsen damit der Einsame rathe</quote></l>
+  <l rendition="#einrueck2"><quote type="G">Was in der Einsamkeit mich was in der Welt mich beglückt.</quote></l>
+ </lg>
+ <space unit="lines" quantity="1"/>
+ <p>(<ref target="gb:text#GB05_1_BR636_0_363_011 #GB05_1_BR636_0_363_019">GB 5 I, 363,11-19</ref>) – Am folgenden Tag fährt er fort: <quote type="G">Ich sinne noch immer wie und wo ich die Innschrift anbringen soll. Hier ist noch eine die ich der Herrmannsteiner Höhle zugedacht habe.</quote></p>
+ <space unit="lines" quantity="1"/>
+ <lg>
+   <l rendition="#einrueck2"><quote type="G">Felsen sollten nicht Felsen und Wüsten Wüsten nicht bleiben</quote></l>
+   <l rendition="#einrueck2"><quote type="G">Drum stieg Amor herab sieh und es lebte die Welt.</quote></l>
+   <l rendition="#einrueck2"><quote type="G">Auch belebt er mir die Höle mit himmlischem Lichte</quote></l>
+   <l rendition="#einrueck2"><quote type="G">Zwar der Hoffnung nur doch ward die Hoffnung erfüllt.</quote></l>
+ </lg>
+ <space unit="lines" quantity="1"/>
+ <p>(<ref target="gb:text#GB05_1_BR636_0_363_030 #GB05_1_BR636_0_363_035">Ebd., 363,30-35</ref>) – Die eisernen Schrifttafeln am Eingang der Höhle stammen aus späterer Zeit: die Tafel mit den Distichen <quote type="G">Was ich leugnend <gap quantity="3" reason="editorial"/></quote> wurde 1876 von dem Ilmenauer Bergmeister Hermann Philipp Bernhard Mahr angebracht. Die zweite Tafel mit dem von Goethe selbst der Hermannsteiner Höhle zugedachten Gedicht <quote type="G">Felsen sollten nicht Felsen <gap quantity="3" reason="editorial"/></quote> stiftete im September 1901 die Gemeinde Gabelbach (vgl. Paul Mitzschke: Der Große Hermannstein bei Ilmenau. <supplied>Ohne Ort</supplied> 1911, S. 12).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10439">
+<label xml:id="GB03_2_BR150_0_note_007_92_22" copyOf="#start_com_1446"><hi rendition="#fett">92,22</hi>Ihr Zettelgen</label>
+<p>Wahrscheinlich hatte Charlotte von Stein mit diesem nicht überlieferten Billett schon ihre Ankunft in Weimar gemeldet.</p>
+
+</note>
+<note xml:id="gb11125_comment_com17733">
+<label xml:id="GB03_2_BR150_0_note_008_92_24" copyOf="#start_com_1447"><hi rendition="#fett">92,24</hi>dass Sie mit in meiner Höhle war</label>
+<p>Über den gemeinsam mit Charlotte von Stein verbrachten Tag gibt Goethes Tagebuch vom 6. August Auskunft: <quote type="G">Früh nach Cammerb.</quote> <supplied>Kammerberg</supplied> <quote type="G">in den Stollen zum C.A. Schacht.</quote> <supplied>Carl-August-Schacht</supplied> <quote type="G">nach dem Herm.</quote> <supplied>Hermannstein</supplied> <quote type="G">In die Höhle. Zurück auf die Mühle in die Stadt nach Unterporliz zu Tische. Zeichn. Tanz. Gänse Hazze. Nach Haus gegen Abend zu Staff. Ins Amth.</quote> <supplied>Amtshaus</supplied> <quote type="G">Illum.</quote> <supplied>Illumination</supplied> <quote type="G">Musick. Trenung</quote> (<ref target="gt:dokument#112">GT I 1, 23</ref>). Vgl. auch Goethes Brief an Herder vom 9. August 1776 (<ref target="gb:dokument#11124">Nr 151</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10440">
+<label xml:id="GB03_2_BR150_0_note_009_92_25-26" copyOf="#start_com_1448"><hi rendition="#fett">92,25-26</hi>wie in der Geisterwelt</label>
+<p>Im Reich übersinnlicher, übernatürlicher Wesen, imaginierter Erscheinungen in der Natur (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1317; 1341 f.); wahrscheinlich Anklang an die Geistervorstellungen Swedenborgs (vgl. zu <ref target="gb:note#GB03_2_BR141_0_note_001_84_13">84,13</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com17740">
+<label xml:id="GB03_2_BR150_0_note_010_92_27" copyOf="#start_com_1449"><hi rendition="#fett">92,27</hi>Falcken</label>
+<p>Wie der Kontext belegt, bearbeitete Goethe den Stoff einer Novelle aus Giovanni Boccaccios „Decamerone“ (V, 9). Darin verliebt sich ein junger Adliger, ohne Gegenliebe zu finden, und verliert durch seine ritterliche Werbung sein Vermögen. Da er außer einem wertvollen Jagdfalken nichts mehr besitzt, setzt er diesen seiner Angebeteten zum Essen vor, als sie ihn besucht. Von seiner Großmut überwältigt, ändert diese ihre Gesinnung und nimmt ihn schließlich zum Mann. (Am Beispiel dieser Boccaccio-Novelle entwickelte etwa 1870 Paul Heyse seine als „Falken-Theorie“ in die Literaturgeschichte eingegangene Theorie der Novelle.) – Die Arbeit an einem ‚Falken‘-Drama wird im vorliegenden Brief zum ersten Mal erwähnt. In den folgenden Tagen finden sich mehrere das Werk betreffende Eintragungen in Goethes Tagebuch, so am 10. August: <quote type="G">Einsied.</quote> <supplied>Friedrich Hildebrand von Einsiedel</supplied>  <quote type="G">vom Falben</quote> <supplied>wohl verschrieben für ‚Falken‘</supplied> <quote type="G">erzählt</quote> (<ref target="gt:dokument#116">GT I 1, 23</ref>); am 11. August: <quote type="G">Den Vortrag des Falcken erfunden gleich zur Probe geschrieben</quote> (<ref target="gt:dokument#117">ebd.</ref>), und am 12. August: <quote type="G">Den ganzen Tag zu Hause. am Falcke geschrie</quote><supplied>ben</supplied> (<ref target="gt:dokument#118">ebd., 24</ref>). Fast gleichlautend ist die Formulierung im Brief an Charlotte von Stein ebenfalls vom 12. August (vgl. <ref target="gb:text#GB03_1_BR153_0_094_017 #GB03_1_BR153_0_094_018">94,17–18</ref>). Danach wird der ‚Falke‘ weder in den überlieferten Briefen noch in den Tagebüchern wieder erwähnt. – In Goethes Nachlass hat sich unter den „Varia“ ein Blatt mit einem eigenhändigen Konzept erhalten (<ref target="archivdb:dokument#391147">GSA 25/W 2846</ref>), das mutmaßlich aus den letzten Frankfurter oder den ersten Weimarer Jahren stammt und zuerst unter den „Spänen“ in der WA veröffentlicht wurde (vgl. <ref target="sndb:sigle#1157">WA</ref> I 38 [1897], 493, Nr 24). Die dort geäußerte Vermutung, dass dieses „rasch hingeworfene Bruchstück etwa jenem auf Boccaccios Decameron <gap quantity="3" reason="editorial"/> gegründeten <gap quantity="3" reason="editorial"/> Drama ‚Der <hi rendition="#hervor1">Falke‘</hi> angehören“ (ebd.) könnte, ist zweifelhaft und nicht zu belegen (vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> I 5, 1462–1465; <ref target="sndb:sigle#1338">EGW</ref> 4, 246 f.).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10452">
+<label xml:id="GB03_2_BR150_0_note_011_92_28" copyOf="#start_com_1450"><hi rendition="#fett">92,28</hi>Giowanna</label>
+<p>Name der weiblichen Hauptfigur in Boccaccios Novelle.</p>
+
+</note>
+<note xml:id="gb11125_comment_com15064">
+<label xml:id="GB03_2_BR150_0_note_012_92_28" copyOf="#start_com_1451"><hi rendition="#fett">92,28</hi>Lili</label>
+<p>Anna Elisabeth (Lili) Schönemann, mit der Goethe in Frankfurt 1775 für kurze Zeit inoffiziell verlobt gewesen war und von deren zweiter Verlobung er gerade erfahren hatte (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_014_82_14-15">82,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com18018">
+<label xml:id="GB03_2_BR150_0_note_013_93_1" copyOf="#start_com_1452"><hi rendition="#fett">93,1</hi>tingiren</label>
+<p>Tingieren (von lat. tingere: eintauchen, färben); hier sinnbildlich, wahrscheinlich noch in Anklang an die hermetisch-alchemistische Bedeutung: „den geringern Metallen die Farbe und Güte des Goldes oder Silbers mittheilen, oder sie in diese verwandeln“ (<ref target="sndb:sigle#3152">Zedler</ref> 44, 368). Goethe hatte in Frankfurt 1769/70 gemeinsam mit Susanna von Klettenberg und unter Anleitung des pietistischen Arztes Johann Friedrich Metz alchemistische Experimente durchgeführt und sich mit dem Studium mystischer und hermetisch-alchemistischer Werke beschäftigt (vgl. <ref target="gb:note#GB01_2_BR043_0_note_004_130_15-16">GB 1 II, zu 130,15–16</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com10463">
+<label xml:id="GB03_2_BR150_0_note_014_93_1" copyOf="#start_com_1453"><hi rendition="#fett">93,1</hi>dein Verhältnis <gap quantity="3" reason="editorial"/> so heilig</label>
+<p>Vgl. aber <ref target="gb:text#GB03_1_BR094_0_058_005">58,5–6</ref>.</p>
+
+</note>
+<note xml:id="gb11125_comment_com10464">
+<label xml:id="GB03_2_BR150_0_note_015_93_3" copyOf="#start_com_1454"><hi rendition="#fett">93,3</hi>könn<unclear reason="illegible">e</unclear>s</label>
+<p>Verkürzt für ‚können’s‘ oder ‚können es‘.</p>
+
+</note>
+<note xml:id="gb11125_comment_com17696">
+<label xml:id="GB03_2_BR150_0_note_016_93_3-5" copyOf="#start_com_1455"><hi rendition="#fett">93,3-5</hi>macht mir’s <gap quantity="3" reason="editorial"/> als <hi rendition="#hervor1">Drama zu verkehren</hi></label>
+<p>Anspielung auf frühere Liebesbeziehungen, vor allem wohl auf das spannungsreiche Verhältnis zu Anna Elisabeth Schönemann, von der sich Goethe erst unmittelbar vor seinem Weggang aus Frankfurt im Herbst 1775 getrennt hatte (vgl. die einleitende Erläuterung zu <ref target="gb:notegb51217_comment_com4802#">GB 2 II, Z 1</ref>). – Ähnlich, wenn auch weit weniger von Skepsis getragen, heißt es im Brief an Augusta zu Stolberg vom 7. bis 10. März 1775: <quote type="G">O wenn ich iezt nicht dramas schriebe ich ging zu Grund.</quote> (<ref target="gb:text#GB02_1_BR207_0_170_027 #GB02_1_BR207_0_170_028">GB 2 I, 170,27-28</ref>.)</p>
+
+</note>
+<note xml:id="gb11125_comment_com10465">
+<label xml:id="GB03_2_BR150_0_note_017_93_7" copyOf="#start_com_1456"><hi rendition="#fett">93,7</hi>Gabelbach</label>
+<p>Nebenfluss der Ilm; hier mit Bezug auf den oberen Abschnitt des Gabelbachtals unterhalb des Kickelhahns, wo 1783 das herzogliche Jagdhaus gebaut wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR148_0_note_006_91_11">91,11</ref>). Im Tagebuch ist dazu unter dem 8. August 1776 vermerkt: <quote type="G">aufn Gabelbach wo gessen wurde erst gegen 3.</quote> (<ref target="gt:dokument#114">GT I 1, 23</ref>.)</p>
+
+</note>
+<note xml:id="gb11125_comment_com10466">
+<label xml:id="GB03_2_BR150_0_note_018_93_7" copyOf="#start_com_1457"><hi rendition="#fett">93,7</hi>der Herzog</label>
+<p>Carl August.</p>
+
+</note>
+<note xml:id="gb11125_comment_com10474">
+<label xml:id="GB03_2_BR150_0_note_019_93_9" copyOf="#start_com_1458"><hi rendition="#fett">93,9</hi>sollst du was sehen, vielleicht auch was lesen</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR150_0_note_006_92_21">92,21</ref>; zu <ref target="gb:note#GB03_2_BR152_0_note_005_94_8">94,8</ref>.</p>
+
+</note>
+<note xml:id="gb11125_comment_com10475">
+<label xml:id="GB03_2_BR150_0_note_020_93_11" copyOf="#start_com_1459"><hi rendition="#fett">93,11</hi>Stüzzerbach</label>
+<p>Stützerbach (vgl. zu <ref target="gb:note#GB03_2_BR147_0_note_007_91_1">91,1</ref>).</p>
+
+</note>
+<note xml:id="gb11125_comment_com17714">
+<label xml:id="GB03_2_BR150_0_note_021_93_13" copyOf="#start_com_1460"><hi rendition="#fett">93,13</hi>sass ich wieder hier auf dem Schlossberg</label>
+<p>Bis zur Mitte des 18. Jahrhunderts gab es in Stützerbach ein herzogliches Jagdschloss („Dianenburg“), von dem sich bis heute terrassenförmige Wallanlagen erhalten haben. – Schon am Morgen des 3. August hatte Goethe <quote type="G">aufm Schlossberg gez.</quote> (<ref target="gt:dokument#109">GT I 1, 23</ref>), wobei das später im Brief an Lavater vom 25. bis 30. August 1776 mitgeteilte Gedicht <quote type="G">Dem Schicksaal</quote> (<ref target="gb:text#GB03_1_BR160_0_099_016 #GB03_1_BR160_0_099_031">99,16–31</ref>) entstanden ist.</p>
+
+</note>
+<note xml:id="gb11125_comment_com10476">
+<label xml:id="GB03_2_BR150_0_note_022_93_15" copyOf="#start_com_1461"><hi rendition="#fett">93,15</hi>wie ich ihn aufs Papier fesseln mögt</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR152_0_note_001_94_4-5">94,4-5</ref>.</p>
+
+</note>
+<note xml:id="gb11125_comment_com10477">
+<label xml:id="GB03_2_BR150_0_note_023_93_19" copyOf="#start_com_1462"><hi rendition="#fett">93,19</hi>Geh nur in die Schweiz</label>
+<p>Charlotte von Stein plante demnach eine Reise in die Schweiz, möglicherweise auf Anregung Johann Georg Zimmermanns, eines gebürtigen Schweizers, den sie in Pyrmont wiedergetroffen hatte. Wahrscheinlich wollte Charlotte von Stein auf ihrer Reise auch Cornelia Schlosser im badischen Emmendingen besuchen, wie deren Brief vom 20. Oktober 1776 belegt:</p>
+<space dim="vertical" unit="lines" quantity="1"/>
+  <p>Cornelia Schlosser an Charlotte von Stein</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56437_source" corresp="#gb56437_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_2_FB016_0_355_001"/>Emmeding, d. 20. Oct.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB016_0_355_002"/>Ich kann Ihnen nicht beschreiben beste Frau was die Nachricht dass Sie künfftigen 
+<anchor xml:id="GB03_2_FB016_0_355_003"/>Sommer hierherkommen werden für eine sonderbare Wirkung auf mich gethan hat 
+<anchor xml:id="GB03_2_FB016_0_355_004"/>– ich hielts biss jezt für ganz unmöglich Sie jemals in dieser Welt zu sehn, denn 
+<anchor xml:id="GB03_2_FB016_0_355_005"/>die entfernteste Hoffnung wär unwahrscheinlich gewesen, und nun sagen Sie mir 
+<anchor xml:id="GB03_2_FB016_0_355_006"/>auf einmal – ich komme ––</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB016_0_355_007"/>Schon zwanzigmahl hab ich heut <ref target="gb:note#GB03_2_FB016_0_note_097_356_6" xml:id="start_com_7105"/>Ihren lieben Brief<ref xml:id="end_com_7105"/> gelesen um gewiss versichert 
+<anchor xml:id="GB03_2_FB016_0_355_008"/>zu seyn dass ich mich nicht betriege – und doch sobald er mir aus den Augen 
+<anchor xml:id="GB03_2_FB016_0_355_009"/>ist, fang ich wieder an zu zweiflen ––</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB016_0_355_010"/><ref target="gb:note#GB03_2_FB016_0_note_098_356_9" xml:id="start_com_7106"/>Ihre Silhouette<ref xml:id="end_com_7106"/> wird jezt mit weit mehr Aufmercksamkeit studiert wie sonst – 
+<anchor xml:id="GB03_2_FB016_0_355_011"/>aber um Gottes Willen / <ref target="gb:note#GB03_2_FB016_0_note_099_356_11-12" xml:id="start_com_7107"/>wie kann Zimmermann eine Gleichheit zwischen uns 
+<anchor xml:id="GB03_2_FB016_0_355_012"/>beyden finden<ref xml:id="end_com_7107"/> ––</p>
+        <p>
+        <anchor xml:id="GB03_2_FB016_0_356_013"/>Es ist mir diesen Sommer <ref target="gb:note#GB03_2_FB016_0_note_100_357_13" xml:id="start_com_7108"/>eine Fatalität<ref xml:id="end_com_7108"/> begegnet die ich gar nicht vergessen kann – 
+<anchor xml:id="GB03_2_FB016_0_356_014"/>ich war ganz gesund – und just bey <ref target="gb:note#GB03_2_FB016_0_note_101_357_14" xml:id="start_com_7109"/>Lavaters u. des jungen Zimmermanns<ref xml:id="end_com_7109"/> Ankunft 
+<anchor xml:id="GB03_2_FB016_0_356_015"/>überfällt mich ein entsezlicher <ref target="gb:note#GB03_2_FB016_0_note_102_357_15" xml:id="start_com_7110"/>Paroxismus<ref xml:id="end_com_7110"/> von Gliederschmerzen an dem ich 
+<anchor xml:id="GB03_2_FB016_0_356_016"/>aber selbst Schuld war weil ich mich erkältet, ermüdet, und der feuchten Lufft ausgesezt 
+<anchor xml:id="GB03_2_FB016_0_356_017"/>hatte –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB016_0_357_018"/>Gleich den Tag darauf durch ein einziges Bad kam ich völlig wieder zurecht, 
+<anchor xml:id="GB03_2_FB016_0_356_019"/>und seitdem spür ich nicht das mindste davon – / Urtheilen Sie nun selbst ob mir 
+<anchor xml:id="GB03_2_FB016_0_356_020"/>das nicht höchst empfindlich seyn muste, dass mich der junge Mensch in dem critischen 
+<anchor xml:id="GB03_2_FB016_0_356_021"/>Augenblick sah –– und nur in dem Augenblick ––</p>
+      <lb/>
+      <p>
+        <anchor xml:id="GB03_2_FB016_0_356_022"/>Für <ref target="gb:note#GB03_2_FB016_0_note_103_357_22" xml:id="start_com_7111"/>Ihre Musick<ref xml:id="end_com_7111"/> meine Liebste kann ich Ihnen nicht genug dancken ob ich schon 
+<anchor xml:id="GB03_2_FB016_0_356_023"/>nur den kleinsten Schatten davon auszuführen im Stand binn. Das Recitativ vom 
+<anchor xml:id="GB03_2_FB016_0_356_024"/>Orpheus muss eine erstaunende Würkung thun ich glaub ich käm von Sinnen 
+<anchor xml:id="GB03_2_FB016_0_356_025"/>wenn ich einmal wieder so was hörte hier sind wir abgeschnitten von allem was gut 
+<anchor xml:id="GB03_2_FB016_0_356_026"/>und schön in der Welt ist. ––</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56437_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56437_comment_com84572">
+  <p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 59. – In einem gebundenen Handschriftenkonvolut [Bd I, Jg 1776, Nr 45], vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56437_comment_com84573">
+<label xml:id="GB03_2_FB016_0_note_097_356_6" copyOf="#start_com_7105"><hi rendition="#normal">355,7</hi>Ihren lieben Brief</label>
+<p>Nicht überliefert. – Mit diesem Brief hatte Charlotte von Stein wahrscheinlich Cornelia Schlossers Brief von Juni 1776 beantwortet (vgl. Beilage 1 zu <ref target="gb:note#gb10967_comment_com3624">Nr 135</ref>). Der Brief könnte noch in Pyrmont geschrieben worden sein, wo Johann Georg Zimmermann Charlotte von Stein vielleicht an ihr Versprechen, Cornelia zu schreiben, erinnert hat. </p>
+</note>
+<note xml:id="gb56437_comment_com84574">
+<label xml:id="GB03_2_FB016_0_note_098_356_9" copyOf="#start_com_7106"><hi rendition="#normal">355,10</hi>Ihre Silhouette</label>
+<p>Demnach hatte Charlotte von Stein ihrem Brief an Cornelia eine Porträtsilhouette von sich beigelegt. </p>
+</note>
+<note xml:id="gb56437_comment_com84575">
+<label xml:id="GB03_2_FB016_0_note_099_356_11-12" copyOf="#start_com_7107"><hi rendition="#normal">355,11-12</hi>wie kann Zimmermann <gap quantity="3" reason="editorial"/> finden</label>
+<p>Wahrscheinlich mit Bezug auf eine Mitteilung in Charlotte von Steins nicht überliefertem Bezugsbrief. – Das vergleichende Charakterisieren von zwei oder mehr Porträts war eine beliebte Methode nach dem Vorbild Lavaters, der seine physiognomischen Deutungen vor allem anhand von Silhouetten vornahm, die er über künstlerische Porträts stellte und in großer Zahl in den „Physiognomischen Fragmenten“ publizierte (vgl. <ref target="gb:note#GB02_2_BR207_0_note_012_170_23-24">GB 2 II, zu 170,23–24</ref>). Zimmermann, der Freund und Mitstreiter Lavaters, beteiligte sich nicht nur am Sammeln, sondern auch an der physiognomischen Ausdeutung der Silhouetten. </p>
+</note>
+<note xml:id="gb56437_comment_com84576">
+<label xml:id="GB03_2_FB016_0_note_100_357_13" copyOf="#start_com_7108"><hi rendition="#normal">356,13</hi>eine Fatalität</label>
+<p>Hier: unglücklicher Zufall. </p>
+</note>
+<note xml:id="gb56437_comment_com84577">
+<label xml:id="GB03_2_FB016_0_note_101_357_14" copyOf="#start_com_7109"><hi rendition="#normal">356,14</hi>Lavaters u. des jungen Zimmermanns</label>
+<p>Johann Caspar Lavater und Johann Jacob Zimmermann, der Sohn Johann ­Georg Zimmermanns, die von Zürich aus die Familie Schlosser im nahe gelegenen Emmendingen besuchten.</p>
+</note>
+<note xml:id="gb56437_comment_com84578">
+<label xml:id="GB03_2_FB016_0_note_102_357_15" copyOf="#start_com_7110"><hi rendition="#normal">356,15</hi>Paroxismus</label>
+<p>Paroxysmus; im zeitgenössischen Verständnis „die Zeit, in welcher eine Kranckheit ihre Macht durch allerhand Zufälle ausübet; als in den Fiebern, wenn selbige den Patienten anfallen, nennet man es den febrilischen Paroxysmum“ (<ref target="sndb:sigle#3152">Zedler</ref> 26, 1014).</p>
+</note>
+<note xml:id="gb56437_comment_com84579">
+<label xml:id="GB03_2_FB016_0_note_103_357_22" copyOf="#start_com_7111"><hi rendition="#normal">356,22</hi>Ihre Musick</label>
+<p>Offenbar von Charlotte von Stein in ihrem nicht überlieferten Bezugsbrief übersandt. Die Art, wie sich Cornelia Schlosser bedankt, lässt vermuten, dass die Komposition von der Adressatin selbst stammte. Näheres dazu ist nicht bekannt. Dass Charlotte von Stein die damals in ihren Kreisen übliche musikalische Ausbildung genossen hatte und selbst ein Instrument spielte, scheint unzweifelhaft. Wiederholt schickte ihr Goethe  <quote type="G">Melodien </quote> (<ref target="gb:text#GB03_1_BR158_0_098_007">98,7</ref>), darunter auch die zu seinem Gedicht „An den Mond“ (vgl. <ref target="gb:dokument#11675">Nr 326</ref>). Als er im Herbst 1777 ein handschriftliches Liederbuch in Auftrag gab, bat er die Freundin um Liedkompositionen Philipp Christoph Kaysers für den Noten-Kopisten Johann Michael Wiener (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>). </p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

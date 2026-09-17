@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1900"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11199" n="GB 3, Nr. 188">
+  <teiHeader xml:id="gb11199_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>188.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. November 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:16Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11199_tei.xml</idno>
+        <idno type="URI">gb11199</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR188_0</idno>
+        <idno type="KSW-ID">11199</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="118" to="118">118</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="428" to="429">428-429</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11199_header_hwit54527" corresp="#gb11199_source_hwit54527" sameAs="#gb11199_comment_hwit54527" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>München</placeName>
+            </settlement>
+            <institution key="sndb:standort#2009">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11199,,54527/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich hab heute Bölling geschrieben, er soll dir 400 fl. auszahlen mir wärs lieb wenn du</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-11-22">22. November 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11199_source_hwit54527" corresp="#gb11199_header_hwit54527" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11199/34590"/>
+      <p>
+        <anchor xml:id="GB03_1_BR188_0_118_012"/>
+        <ref target="gb:note#GB03_2_BR188_0_note_001_118_12" xml:id="start_com_1804"/>Ich hab heute Boll. geschrieben<ref xml:id="end_com_1804"/> er soll dir <ref target="gb:note#GB03_2_BR188_0_note_002_118_12" xml:id="start_com_1805"/>400 f<ref xml:id="end_com_1805"/> auszahlen mir wärs 
+<anchor xml:id="GB03_1_BR188_0_118_013"/>lieb wenn du mit dem Rest bis neuJahr warten könntest,<ptr n="1" target="#a001_118.13"/> wo aber 
+<anchor xml:id="GB03_1_BR188_0_118_014"/>nicht so <ref target="gb:note#GB03_2_BR188_0_note_003_118_14" xml:id="start_com_1806"/>schreib<ref xml:id="end_com_1806"/>, und ich will sehn wie ichs mache. Denck doch wieder 
+<anchor xml:id="GB03_1_BR188_0_118_015"/>auf ein halb Stückgen oder <ref target="gb:note#GB03_2_BR188_0_note_004_118_15" xml:id="start_com_1807"/>ein Stück<ref xml:id="end_com_1807"/> extra fein wie der erste <ref target="gb:note#GB03_2_BR188_0_note_005_118_15" xml:id="start_com_1808"/>53<ref xml:id="end_com_1808"/>
+        <anchor xml:id="GB03_1_BR188_0_118_016"/>war. Dass ich wieder was habe wenn der all ist.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR188_0_118_017"/>
+        <ref target="gb:note#GB03_2_BR188_0_note_006_118_17" xml:id="start_com_1809"/>Dein Schicksaal<ref xml:id="end_com_1809"/> drückt mich, da ich so rein glücklich bin, <ref target="gb:note#GB03_2_BR188_0_note_007_118_17-18" xml:id="start_com_1810"/>Ich 
+<anchor xml:id="GB03_1_BR188_0_118_018"/>wohne noch im Garten<ref xml:id="end_com_1810"/> und <ref target="gb:note#GB03_2_BR188_0_note_008_118_18" xml:id="start_com_1811"/>balge<ptr n="2" target="#a002_118.18"/> mich mit der Jahrszeit herum<ref xml:id="end_com_1811"/> und 
+<anchor xml:id="GB03_1_BR188_0_118_019"/>die Abwechslungen der Witterung und der Welthändel um mich, frischen 
+<anchor xml:id="GB03_1_BR188_0_118_020"/>mich immer wieder neu an, ich bin weder Geschäfftsmann, 
+<anchor xml:id="GB03_1_BR188_0_118_021"/>noch Hofmann und komm in beyden fort. Der <ref target="gb:note#GB03_2_BR188_0_note_009_118_21" xml:id="start_com_1812"/>Hrz-<ref xml:id="end_com_1812"/> und ich kriegen 
+<anchor xml:id="GB03_1_BR188_0_118_022"/>uns täglich lieber, werden täglich ganzer zusammen, ihm wirds immer 
+<anchor xml:id="GB03_1_BR188_0_118_023"/>wohler und ist eben eine Creatur<ptr n="3" target="#a003_118.23"/> wie’s keine wieder giebt. Ubrigens 
+<anchor xml:id="GB03_1_BR188_0_118_024"/>ist <ref target="gb:note#GB03_2_BR188_0_note_010_118_24" xml:id="start_com_1813"/>eine tolle Compagnie von Volck<ref xml:id="end_com_1813"/> hier beysammen, auf so einem 
+<anchor xml:id="GB03_1_BR188_0_118_025"/>kleinen Fleck, wie in Einer Famielie findt sichs nicht wieder so. Adieu 
+<anchor xml:id="GB03_1_BR188_0_118_026"/>lieber Bruder. d<g ref="#typoSuspension"/>. 22 Nov 76. W.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR188_0_118_027"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11199_comment">
+<body>
+<div type="metadata" xml:id="gb11199_comment_com210">
+  <ab type="numberAddressee"><label>188.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. November 1776 → <supplied><placeName key="sndb:ort#77639">Darmstadt</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11199_comment_com2254">
+  <p>H: Privatbesitz, München. – 1 Bl. 21,3 × 17,7(–17,9) cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. (fast vollständig) beschr., egh., Tinte. – Faksimile: Walter Gunzert: Darmstadt zur Goethezeit. Portraits, Kulturbilder, Dokumente zwischen 1770 und 1830. Darmstadt 1982, S. 95.</p>
+  <p>E: <ref target="sndb:sigle#2993">Merck, Briefe<hi rendition="#sup">2</hi></ref> (1838), 85 f., Nr 37.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 121 f., Nr 530.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11199_comment_com4050">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Mercks (vgl. zu <ref target="gb:note#GB03_2_BR188_0_note_006_118_17">118,17</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 22. November 1776 (vgl. <ref target="sndb:sigle#4224">GR/RB 1776,3</ref>, Bl. 6r).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11199_comment_com10680">
+<label xml:id="GB03_2_BR188_0_note_001_118_12" copyOf="#start_com_1804"><hi rendition="#fett">118,12</hi>Ich hab heute Boll. geschrieben</label>
+<p>Goethes Brief an Johann Caspar Bölling vom 22. November 1776, in den Rechnungsbüchern zusammen mit dem vorliegenden vermerkt (vgl. <ref target="sndb:sigle#4224">GR/RB 1776,3</ref>, Bl. 6r), ist nicht überliefert (vgl. <ref target="gb:dokument#11244">EB 121</ref>).</p>
+
+</note>
+<note xml:id="gb11199_comment_com17861">
+<label xml:id="GB03_2_BR188_0_note_002_118_12" copyOf="#start_com_1805"><hi rendition="#fett">118,12</hi>400 f</label>
+<p>Die 400 Gulden, die Goethe über Friedrich Justin Bertuch – nach <ref target="gb:dokument#11443">Nr 207</ref> am 9. Dezember 1776 (vgl. <ref target="gb:text#GB03_1_BR207_0_124_021 #GB03_1_BR207_0_124_022">124,21–22</ref>), nach <ref target="gb:dokument#11439">Nr 200</ref> erst am 11. Dezember (vgl. <ref target="gb:text#GB03_1_BR200_0_122_012">122,12</ref>) oder kurz danach – an Johann Caspar Bölling überweisen ließ (vgl. <ref target="gb:dokument#11439">Nr 200</ref>), waren offensichtlich zur Bezahlung der Weinlieferung bestimmt, die Merck nach Weimar hatte schicken lassen. Über deren Ankunft in Weimar ist in Goethes Brief vom 16. September 1776 die Rede (vgl. <ref target="gb:text#GB03_1_BR171_0_108_001">108,1</ref>). Eine neue Bestellung erfolgt noch im selben Absatz des vorliegenden Briefes.</p>
+
+</note>
+<note xml:id="gb11199_comment_com10681">
+<label xml:id="GB03_2_BR188_0_note_003_118_14" copyOf="#start_com_1806"><hi rendition="#fett">118,14</hi>schreib</label>
+<p>Ein entsprechender Brief Mercks ist nicht bekannt. Doch geht aus Goethes Brief an Merck vom 5. Januar 1777 (<ref target="gb:dokument#11443">Nr 207</ref>) hervor, dass am 5. Januar 1777 eine weitere Geldsendung nach Darmstadt abging. Über deren Verwendungszweck ist im Einzelnen nichts bekannt.</p>
+
+</note>
+<note xml:id="gb11199_comment_com10682">
+<label xml:id="GB03_2_BR188_0_note_004_118_15" copyOf="#start_com_1807"><hi rendition="#fett">118,15</hi>ein Stück</label>
+<p>Traditionelles Fassmaß, das im Allgemeinen 1000–1200 Litern entsprach. Nach <ref target="sndb:sigle#2753">Adelung</ref> (4, 466) und <ref target="sndb:sigle#2890">Grimm</ref> (20, 206) enthielt ein ‚Stückfass‘ 7 &#xBD; Ohm, bei einem Volumen von etwa 143,5 Liter pro Ohm (vgl. zu <ref target="gb:note#GB03_2_BR237_0_note_002_136_19-137_1">136,19-137,1</ref>) also etwa 1076 Liter. Die Größe dieses Hohlmaßes schwankte allerdings regional erheblich.</p>
+
+</note>
+<note xml:id="gb11199_comment_com17862">
+<label xml:id="GB03_2_BR188_0_note_005_118_15" copyOf="#start_com_1808"><hi rendition="#fett">118,15</hi>53</label>
+<p>Wein des Jahrgangs 1753. – „Große Hitze“ während des Sommers, aber „Gutes Herbstwetter“ führten zu folgender Klassifizierung des ‚1753ers‘ in Friedrich von Bassermann-Jordans „Geschichte des Weinbaus“ (2. wesentlich erweiterte Aufl. Frankfurt a. M. 1923 [Nachdruck als 3. Aufl. Neustadt a. d. W. 1975]. Bd 2, S. 1004): „Vortrefflicher Wein in nicht sehr großer Menge (der noch viele Jahre hindurch in allen Gasthäusern ausgeschenkt wird).“</p>
+
+</note>
+<note xml:id="gb11199_comment_com10691">
+<label xml:id="GB03_2_BR188_0_note_006_118_17" copyOf="#start_com_1809"><hi rendition="#fett">118,17</hi>Dein Schicksaal</label>
+<p>Im nicht überlieferten Bezugsbrief hatte Merck offenbar vom Tod seiner Tochter Franziska Charlotte berichtet. Sie war am 26. Oktober 1776 im Alter von 14 Monaten an den Pocken gestorben. Auch Wieland sprach in seinem Brief vom selben Tag Merck sein Mitgefühl aus: „Die Art wie das Schicksal mit Ihnen umgeht, geht mir sehr zu Herzen. Ich weiß auch, was Hauskreuz ist.“ (<ref target="sndb:sigle#141">WB</ref> 5, 571.)</p>
+
+</note>
+<note xml:id="gb11199_comment_com10692">
+<label xml:id="GB03_2_BR188_0_note_007_118_17-18" copyOf="#start_com_1810"><hi rendition="#fett">118,17-18</hi>Ich wohne noch im Garten</label>
+<p>Im Gartenhaus im Park an der Ilm, das Goethe im April 1776 von Herzog Carl August zum Geschenk erhalten hatte. Goethe war mit dessen Renovierung und mit der Umgestaltung der Außenanlagen beschäftigt (vgl. zu <ref target="gb:note#GB03_2_BR183_0_note_003_115_12-13">115,12-13</ref>).</p>
+
+</note>
+<note xml:id="gb11199_comment_com17905">
+<label xml:id="GB03_2_BR188_0_note_008_118_18" copyOf="#start_com_1811"><hi rendition="#fett">118,18</hi>balge mich mit der Jahrszeit herum</label>
+<p>Ähnlich heißt es in Goethes Tagebuch unter dem 7. November 1776: <quote type="G">Feldzug gegen die Jahrs zeit</quote> (<ref target="gt:dokument#198">GT I 1, 29</ref>). Einen Tag später notierte Goethe: <quote type="G">im Garten. aufgeräumt und Anstalt zu winterbleiben.</quote> (<ref target="gt:dokument#199">Ebd.</ref>) Im Brief an Charlotte von Stein vom 19. oder 20. November 1776 berichtet er, dass er Fenster und Türen abdichte, um sich <quote type="G">gegen die Unbilden der Wittrung</quote> (<ref target="gb:text#GB03_1_BR187_0_118_007">118,7</ref>) zu schützen. Im Tagebuch finden sich den ganzen Winter 1776/77 über bis ins Frühjahr hinein immer wieder Einträge über Aufenthalte im Gartenhaus und den Fortgang der Bauarbeiten.</p>
+
+</note>
+<note xml:id="gb11199_comment_com85643">
+<label xml:id="GB03_2_BR188_0_note_009_118_21" copyOf="#start_com_1812"><hi rendition="#fett">118,21</hi>Hrz-</label>
+<p>Herzog. – Trennstrich am Ende der Zeile wohl versehentlich</p>
+</note>
+<note xml:id="gb11199_comment_com17914">
+<label xml:id="GB03_2_BR188_0_note_010_118_24" copyOf="#start_com_1813"><hi rendition="#fett">118,24</hi>eine tolle Compagnie von Volck</label>
+<p>Möglicherweise dachte Goethe hier vor allem an die Mitglieder der ‚Schauspielkompanie‘ des Weimarer Liebhabertheaters, die – mit Goethe als Wilhelm – am Vorabend seinen Einakter „Die Geschwister“ zur ersten Aufführung gebracht hatten: die 17-jährige Amalie Kotzebue als Marianne, den Geheimen Registrator Johannes Schmidt als Fabrice, vermutlich auch August Kotzebue als Briefträger (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 140). Es könnte außerdem der Kreis um Goethe und Herzog Carl August – <quote type="G">viel gute Jungens</quote> (<ref target="gb:text#GB03_1_BR043_0_031_025">31,25</ref>) – gemeint sein (Carl Ludwig von Knebel, Friedrich Hildebrand von Einsiedel, Johann August von Kalb, Moritz von Wedel, Friedrich Justin Bertuch u. a.), schließlich auch die unkonventionell auftretenden Freunde Jacob Michael Reinhold Lenz und Friedrich Maximilian Klinger.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

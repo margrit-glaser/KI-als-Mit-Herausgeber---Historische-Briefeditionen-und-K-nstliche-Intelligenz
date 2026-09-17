@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="50"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10600" n="GB 3, Nr. 5">
+  <teiHeader xml:id="gb10600_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>5.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 30. November, 1. oder 3. Dezember 1775? Donnerstag, Freitag oder Sonntag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10600_tei.xml</idno>
+        <idno type="URI">gb10600</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR005_0</idno>
+        <idno type="KSW-ID">10600</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="6" to="6">6</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="19" to="21">19-21</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10600_header_hwit822" corresp="#gb10600_source_hwit822" sameAs="#gb10600_comment_hwit822" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe, Ms. Germ. Qu. 521</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10600,,822/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich höre von den Grafen dass sie heut Abend nicht von der Parthie sind. Ist</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-11-30"><supplied>30. November 1775?</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-12-01"><supplied>1. Dezember 1775?</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1775-12-03"><supplied>3. Dezember 1775?</supplied></date>
+            <note>
+              <date type="WA" when="1775-12-03"><supplied>zwischen 27. November  und 3. Dezember 1775</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44242">Knebel, Carl Ludwig von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10600_source_hwit822" corresp="#gb10600_header_hwit822" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10600/17369"/>
+      <p>
+        <anchor xml:id="GB03_1_BR005_0_006_007"/>Ich<ptr n="1" target="#a001_6.7"/> höre von den <ref target="gb:note#GB03_2_BR005_0_note_001_6_7" xml:id="start_com_0073"/>Grafen<ref xml:id="end_com_0073"/>, dass sie heut Abend nicht von der <ref target="gb:note#GB03_2_BR005_0_note_002_6_7" xml:id="start_com_0074"/>Parthie<ref xml:id="end_com_0074"/>
+        <anchor xml:id="GB03_1_BR005_0_006_008"/>sind. Ist das ein Versehn, oder hats Ursachen? Mich dauern die Jungens 
+<anchor xml:id="GB03_1_BR005_0_006_009"/>dass sie ihren Abend allein <ref target="gb:note#GB03_2_BR005_0_note_003_6_9" xml:id="start_com_0075"/>verhunzen<ref xml:id="end_com_0075"/> sollen. Allenfalls bleib ich 
+<anchor xml:id="GB03_1_BR005_0_006_010"/>mit Ihnen. Ein Wort Antwort.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR005_0_006_011"/>
+        <signed rend="paraph" rendition="#einrueck24">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10600/17370" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10600_comment">
+<body>
+<div type="metadata" xml:id="gb10600_comment_com881">
+  <ab type="numberAddressee"><label>5.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>30. November 1775?</supplied> oder <supplied>1. Dezember 1775?</supplied> oder <supplied>3. Dezember 1775?</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10600_comment_com1792">
+  <p>Der Brief wurde während des Aufenthalts der Grafen Friedrich Leopold und Christian zu Stolberg in Weimar geschrieben, der vom 26. November bis zum 4. Dezember 1775 währte. Es geht offensichtlich um eine Verabredung Knebels (und Goethes) mit den Brüdern am <quote type="G">Abend</quote> (<ref target="gb:text#GB03_1_BR005_0_006_007">6,7</ref>). Dem Inhalt nach kann der Brief nicht am Ankunftstag der Stolbergs geschrieben worden sein, ebenso nicht am 27. und 28. November, da Goethe zum Gefolge des Herzogs gehörte, das am 27. November in Erfurt übernachtete und laut Fourierbuch erst in der folgenden Nacht „um 2. Uhr“ wieder in Weimar eintraf (FB 1775, S. 285). Am 29. November waren die Stolbergs abends zur fürstlichen Tafel geladen (vgl. FB 1775, S. 286); den Abend des 2. Dezember verbrachten sie bei Prinz Constantin und den Abend des 3. Dezember, den Vorabend ihrer Abreise, allein mit Goethe und Wieland (vgl. Friedrich Leopold zu Stolberg an Henriette von Bernstorff, 6. Dezember 1775; Janssen 1, 63). Für die abendliche Verabredung kämen demnach der 30. November sowie der 1. und der 3. Dezember 1775 in Frage. Am letzten Tag ihres Aufenthalts in Weimar waren die Stolbergs bei Hof zur Mittagstafel gebeten, zusammen mit Knebel und ohne Goethe (vgl. FB 1775, S. 290). Bei dieser Gelegenheit hätten sie von Knebel erfahren können, dass dieser am Abend verhindert sei, und Goethe hätte ein gemeinsames Abendessen mit den Stolbergs und Wieland arrangieren können. Möglicherweise also stammt der vorliegende Brief vom 3. Dezember 1775; nicht auszuschließen ist jedoch, dass er bereits am 30. November oder am 1. Dezember 1775 geschrieben wurde.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10600_comment_com2925">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin, Sign.: Ms. Germ. 4°. 521, Bl. 8. – 1 Bl. 16,7 × 10,8 cm, Bordüre mit gereihtem Dreiblatt auf drei Balken (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 4), &#xBD; S. beschr., egh., Tinte; Vs. oben links von fremder Hd, Bleistift: „8.“, in der Mitte von fremder Hd, Tinte: „No 1“, rechts von fremder Hd, Bleistift: „8“, am linken Seitenrand quer zur Schreibrichtung von fremder Hd, Tinte: „51“, rechts neben der Paraphe von fremder Hd, Tinte: „erste Zeit in / W.“ – In einem 6,5(–8,5) cm starken Konvolut mit schwarzem Ledereinband (23,5 × 29 cm). Auf dem vorderen Deckel des Konvoluts das Wappen der königlich preußischen Bibliothek. Auf dem Rücken des Konvoluts oben in Goldprägung „GOETHE / Briefe / an / Knebel.“; unten ein rotes Lederschildchen mit der Signatur: „Ms. Germ. / Quart. 521.“ Auf der Innenseite des vorderen Deckels mit Tinte: „Acc. 3083.“, auf dem Vorsatzblatt oben ebenfalls mit Tinte: „Ms. Germ. 4°. 521.“ Kein Titelblatt. 22 eingebundene (nicht paginierte) starke Zwischenblätter mit Jahreszahlen. 485 Blätter; Paginierung oben rechts mit Bleistift, oben links Nummerierung meist mit Bleistift nach Guhrauers Druck 1851 (vgl. E). Blätter einzeln auf Falz geklebt; Papier mürbe, teilweise mit aufgeklebten, durchsichtigen Papierstreifen restauriert. Wasserschäden, besonders in den Jahrgängen 1828–1830. Siegel auf den Adress-Seiten oft dreieckig ausgeschnitten, Ausschnitt meist unter der Adresse aufgeklebt. Nach Bl. 467 unpaginiertes Zwischenblatt mit der Aufschrift in Tinte: „Undatirte Briefe, No. 1–4, als Nachtrag gedruckt, auf pag. 411. 412. des Briefwechsels zwischen Göthe und Knebel [vgl. E], Bd 2. Leipz. 1851. 8°; und No. 5–14, ungedruckte“. Auf der Innenseite des hinteren Deckels mit Bleistift: „482 gez Bll. / 485 gez Bll; dazu Bll. 441<hi rendition="#sup #uu">a</hi> u. 449<hi rendition="#sup #uu">a</hi>“.</p>
+  <p>E: <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1 (1851), 9, Nr 8.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 4, Nr 371.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10600_comment_com4721">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Carl Ludwig von Knebel (1744–1834), seit Oktober 1774 Erzieher des weimarischen Prinzen Constantin, war in den ersten zehn Weimarer Jahren Goethes vertrautester Freund, sein <quote type="G">Urfreund</quote> (<ref target="sndb:sigle#1157">WA</ref> I 4, 83), was u. a. an einer Eigenschaft Knebels lag, die Goethe im Brief an Charlotte von Stein vom 29. Oktober 1780 <quote type="G">Mittlerschafft</quote> (<ref target="gb:text#GB04_1_BR188_0_155_005">GB 4 I, 155,5</ref>) nannte. Vgl. weiter  die einleitende Erläuterung zum Brief vom 28. Dezember 1774 (<ref target="gb:note#gb10351_comment_com5051">GB 2 II, Nr 175</ref>). – Der vorliegende Band enthält acht Briefe an Knebel. Bisher wurde diesem Zeitraum ein weiterer Brief zugewiesen, der im Erstdruck auf „1775?“ datiert wurde (vgl. <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1, 10, Nr 9), in der WA „zwischen 27. November und 3. Dezember 1775“ (<ref target="sndb:sigle#1157">WA</ref> IV 3, 3, Nr 370):</p>
+  <p><quote type="G">Frau v Stein hat jetzt schon Antwort von mir. Heute thun wir alle wohl in unsern Höhlen zu bleiben. – Es geht eins nach dem andern hin, singt die christliche Kirche. Unser Dichter von der Ostsee ist zu diesen trüben u kurzen Tagen recht erwünscht gekommen.     Lebe recht wohl.</quote>
+  </p>
+  <p rendition="#einrueck25"><quote type="G">G</quote>    
+  </p>
+  <space unit="lines" quantity="1"/>
+  <p>(H: Biblioteka Jagiellonska Kraków [Krakau], Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin.) – Dieser Brief wurde immer wieder herangezogen, um zu belegen, dass Goethe bereits vor dem 7. Januar 1776 (vgl. <ref target="gb:dokument#10706">Nr 18</ref>) Briefe an Charlotte von Stein geschrieben habe. Die Datierung auf Ende November/Anfang Dezember 1775 ist jedoch falsch. Der Brief stammt von Dezember 1807; bei dem <quote type="G">Dichter von der Ostsee</quote> handelt es sich nicht, wie bisher angenommen, um Friedrich Leopold zu Stolberg, sondern um Zacharias Werner. Vgl. im Einzelnen die Datierung des Briefes in GB Rep (WA-Nr 00370).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10600_comment_com13991">
+<label xml:id="GB03_2_BR005_0_note_001_6_7" copyOf="#start_com_0073"><hi rendition="#fett">6,7</hi>Grafen</label>
+<p>Friedrich Leopold und Christian zu Stolberg-Stolberg, die auf der Rückreise aus der Schweiz in Weimar Station machten. Die Hinreise im Mai 1775 hatten sie in Begleitung Goethes angetreten.</p>
+
+</note>
+<note xml:id="gb10600_comment_com9404">
+<label xml:id="GB03_2_BR005_0_note_002_6_7" copyOf="#start_com_0074"><hi rendition="#fett">6,7</hi>Parthie</label>
+<p>Was geplant war, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb10600_comment_com14921">
+<label xml:id="GB03_2_BR005_0_note_003_6_9" copyOf="#start_com_0075"><hi rendition="#fett">6,9</hi>verhunzen</label>
+<p>Verstümmeln, verderben; „nur in den niedrigen Sprecharten üblich“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1065).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

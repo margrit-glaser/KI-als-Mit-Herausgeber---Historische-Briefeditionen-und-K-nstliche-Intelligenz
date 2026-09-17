@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2940"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11779" n="GB 3, Nr. 289">
+  <teiHeader xml:id="gb11779_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>289.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79615">Wartburg <supplied>bei Eisenach</supplied></placeName>, 13.&#x2012;16. September 1777. Samstag&#x2012;Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:41Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11779_tei.xml</idno>
+        <idno type="URI">gb11779</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR289_0</idno>
+        <idno type="KSW-ID">11779</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="166" to="168">166-168</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="570" to="573">570-573</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11779_header_hwit1239" corresp="#gb11779_source_hwit1239" sameAs="#gb11779_comment_hwit1239" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 58</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11779,,1239/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wartburg d. 13. S. 77 abends 9. Hier wohn ich nun liebste, und singe Psalmen dem Herrn</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11779_header_acc158" corresp="gb11779_comment_acc158">
+            <objectIdentifier>
+              <objectName>Zeichnungen Goethes</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79615">Wartburg [bei Eisenach]</placeName>
+            <date from="1777-09-13" to="1777-09-16">13.-16. September 1777</date>
+            <note>
+              <date type="WA" from="1777-09-13" to="1777-07-17">13.-17. September 1777</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11779_source_hwit1239" corresp="#gb11779_header_hwit1239" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11779/22672"/>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_166_008"/>
+        <ref target="gb:note#GB03_2_BR289_0_note_001_166_8" xml:id="start_com_2499"/>Wartburg<ref xml:id="end_com_2499"/> d<g ref="#typoSuspension"/>. 13<ptr n="1" target="#a001_166.8"/>. S. 77. abends 9. <ref target="gb:note#GB03_2_BR289_0_note_002_166_8" xml:id="start_com_2500"/>Hier wohn ich nun<ref xml:id="end_com_2500"/> liebste, und <ref target="gb:note#GB03_2_BR289_0_note_003_166_8-9" xml:id="start_com_2501"/>singe 
+<anchor xml:id="GB03_1_BR289_0_166_009"/>Psalmen dem Herrn<ref xml:id="end_com_2501"/> der mich <ref target="gb:note#GB03_2_BR289_0_note_004_166_9" xml:id="start_com_2502"/>aus Schmerzen<ref xml:id="end_com_2502"/> und Enge wieder <ref target="gb:note#GB03_2_BR289_0_note_005_166_9-10" xml:id="start_com_2503"/>in 
+<anchor xml:id="GB03_1_BR289_0_166_010"/>höhe und Herrlichkeit<ref xml:id="end_com_2503"/> gebracht hat. Der Herzog hat mich veranlasst 
+<anchor xml:id="GB03_1_BR289_0_166_011"/>heraufzuziehen, ich habe mit <ref target="gb:note#GB03_2_BR289_0_note_006_166_11" xml:id="start_com_2504"/>den Leuten unten<ref xml:id="end_com_2504"/>, die ganz gute Leute 
+<anchor xml:id="GB03_1_BR289_0_166_012"/>seyn mögen nichts gemein, und sie nichts mit mir, einige sogar bilden 
+<anchor xml:id="GB03_1_BR289_0_166_013"/>sich ein, sie liebten mich, es ist aber nicht gar so.   Liebste diesen 
+<anchor xml:id="GB03_1_BR289_0_166_014"/>Abend denck ich mir sie <ref target="gb:note#GB03_2_BR289_0_note_007_166_14" xml:id="start_com_2505"/>in Ihrer tiefe um Ihren Graben<ref xml:id="end_com_2505"/> im Mondschein 
+<anchor xml:id="GB03_1_BR289_0_166_015"/>beym Wachfeuer denn es ist kühl. In <ref target="gb:note#GB03_2_BR289_0_note_008_166_15" xml:id="start_com_2506"/>Wilhelmsthal<ref xml:id="end_com_2506"/> ist mir s zu 
+<anchor xml:id="GB03_1_BR289_0_166_016"/>tief und zu eng, und ich darf doch noch in der Kühle und Nässe nicht 
+<anchor xml:id="GB03_1_BR289_0_166_017"/>in die Wälder die ersten Tage. Hieroben! Wenn ich Ihnen nur diesen 
+<anchor xml:id="GB03_1_BR289_0_166_018"/>Blick der mich nur kostet aufzustehn vom Stuhl hinüberseegnen 
+<anchor xml:id="GB03_1_BR289_0_166_019"/>könnte. In dem grausen linden Dämmer des Monds die tiefen Gründe, 
+<anchor xml:id="GB03_1_BR289_0_166_020"/>Wiesgen Büsche, Wälder und Waldblösen, die Felsen Abgänge davor, 
+<anchor xml:id="GB03_1_BR289_0_166_021"/>und hinten die Wände, und wie der Schatten des Schlossbergs 
+<anchor xml:id="GB03_1_BR289_0_166_022"/>und Schlosses unten alles finster hält und drüben an den sachten Wänden 
+<anchor xml:id="GB03_1_BR289_0_166_023"/>sich noch anfasst wie die nackten Felsspizzen im Monde röthen 
+<anchor xml:id="GB03_1_BR289_0_166_024"/>und die lieblichen Auen und Thäler ferner hinunter, und das weite 
+<anchor xml:id="GB03_1_BR289_0_166_025"/>Thüringen hinterwärts im Dämmer sich dem Himmel mischt. Liebste 
+<anchor xml:id="GB03_1_BR289_0_166_026"/>ich hab eine rechte Fröhlichkeit dran, ob ich gleich sagen mag dass 
+<anchor xml:id="GB03_1_BR289_0_166_027"/>der belebende Genuss mir heute mangelt, wie der lang gebundne reck 
+<anchor xml:id="GB03_1_BR289_0_166_028"/>ich erst meine Glieder. <pb n="2" facs="gb:digitalisate#11779/22673"/> Aber mit dem ächten Gefühl von Danck, 
+<anchor xml:id="GB03_1_BR289_0_167_001"/>wie der Durstige ein Glas Wasser nimmt, und die heiligkeit des Brunnens, 
+<anchor xml:id="GB03_1_BR289_0_167_002"/>und die Liebheit der Welt, nur nebenweg schaut.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_167_003"/>Wenns möglich ist zu zeichnen, wähl ich mir ein beschränckt Eckgen, 
+<anchor xml:id="GB03_1_BR289_0_167_004"/>denn die Natur ist zu weit herrlich hier auf ieden Blick hinaus! 
+<anchor xml:id="GB03_1_BR289_0_167_005"/>Aber auch was für Eckgens<ptr n="2" target="#a002_167.5"/> hier! – O man sollte weder zeichnen noch 
+<anchor xml:id="GB03_1_BR289_0_167_006"/>schreiben! – Indess wollt<ptr n="3" target="#a003_167.6"/> ich doch dass Sie wüssten dass ich lebe, und 
+<anchor xml:id="GB03_1_BR289_0_167_007"/>sie gleich wieder recht liebe da mirs anfängt wieder wohl zu seyn – 
+<anchor xml:id="GB03_1_BR289_0_167_008"/>Und zu Trost in der Oede bild ich mir ein, Sie freuen sich über einen 
+<anchor xml:id="GB03_1_BR289_0_167_009"/>Brief oder sonst ein Gekrizel von mir.</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR289_0_167_010"/>Sontags d<g ref="#typoSuspension"/>. 14<ptr n="4" target="#a004_167.10"/> Nach Tische</p>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_167_011"/>Da hab ich einen Einfall: mir ists <ref target="gb:note#GB03_2_BR289_0_note_009_167_11-12" xml:id="start_com_2507"/>als wenn das Zeichnen mir ein Saugläppgen<ptr n="5" target="#a005_167.12"/>
+        <anchor xml:id="GB03_1_BR289_0_167_012"/>wäre<ref xml:id="end_com_2507"/>, dem Kind in Mund gegeben, dass es schweige, und in 
+<anchor xml:id="GB03_1_BR289_0_167_013"/>eingebildeter Nahrung ruhe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_167_014"/>Diese Wohnung ist das herrlichste was ich erlebt habe, so hoch und 
+<anchor xml:id="GB03_1_BR289_0_167_015"/>froh, dass man hier nur Gast seyn muss, man würde sonst für Höhe 
+<anchor xml:id="GB03_1_BR289_0_167_016"/>und Frölichkeit zu nicht werden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_167_017"/>Den ganzen Morgen hab ich <ref target="gb:note#GB03_2_BR289_0_note_010_167_17" xml:id="start_com_2508"/>für Sie gekrabelt auf dem Papiere<ref xml:id="end_com_2508"/>. O 
+<anchor xml:id="GB03_1_BR289_0_167_018"/>der Armuth! – Wenn ich mir einen der Meister dencke, die vor so 
+<anchor xml:id="GB03_1_BR289_0_167_019"/>alten Trümmern sassen, und zeichneten und mahlten, als wenn sie die 
+<anchor xml:id="GB03_1_BR289_0_167_020"/>Zeit selbst wären, die das so abgestumpft, und in die Lieblichkeit der 
+<anchor xml:id="GB03_1_BR289_0_167_021"/>Natur wieder, aus dem rauhen groben Menschensinn, verbunden hätten. 
+<anchor xml:id="GB03_1_BR289_0_167_022"/><pb n="3" facs="gb:digitalisate#11779/22674"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_167_023"/>Lieber Gott! Die Pfade der Zeit, des Bedürfnisses wie unbemerckbaar 
+<anchor xml:id="GB03_1_BR289_0_167_024"/>den Menschen und den Künstlern. In uns ist Leben und —— ich weis 
+<anchor xml:id="GB03_1_BR289_0_167_025"/>wohl was ich will aber<ptr n="6" target="#a006_167.25"/> wie <hi rendition="#hervor1">sagen</hi>?</p>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_167_026"/>════</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_167_027"/>Eben krieg ich <ref target="gb:note#GB03_2_BR289_0_note_011_167_27" xml:id="start_com_2509"/>Ihr Briefgen vom. 11ten<ref xml:id="end_com_2509"/>.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_167_028"/>════</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_167_029"/>
+        <ref target="gb:note#GB03_2_BR289_0_note_012_167_29" xml:id="start_com_2510"/>Nachts halb 12.   Eben komm ich wieder aus der Stadt herauf.<ref xml:id="end_com_2510"/>
+        <anchor xml:id="GB03_1_BR289_0_167_030"/>Noch eine gute Nacht. – Im Mondschein <ref target="gb:note#GB03_2_BR289_0_note_013_167_30" xml:id="start_com_2511"/>den herrlichen Stieg<ref xml:id="end_com_2511"/> auf 
+<anchor xml:id="GB03_1_BR289_0_167_031"/>die Burg! – Gestern sagt ichs dem Herzog als er hoben bey mir war: 
+<anchor xml:id="GB03_1_BR289_0_167_032"/>Es sey mir merckwürdig: dass, in unsrer <ref target="gb:note#GB03_2_BR289_0_note_014_167_32" xml:id="start_com_2512"/>Wirthschafft<ref xml:id="end_com_2512"/>, <ref target="gb:note#GB03_2_BR289_0_note_015_167_32-33" xml:id="start_com_2513"/>alles abenteuerliche 
+<anchor xml:id="GB03_1_BR289_0_167_033"/>natürlich werde<ref xml:id="end_com_2513"/>. So seltsam mirs vor 4 Wochen geklungen hatte 
+<anchor xml:id="GB03_1_BR289_0_168_001"/>auf der Wartburg zu wohnen, so natürlich ist mir’s iezt, und ich bin 
+<anchor xml:id="GB03_1_BR289_0_168_002"/>schon wieder so zu hause wie im Nest.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_168_003"/>Mont. d<g ref="#typoSuspension"/>. 15. Nachts! wieder herauf! Wenn Sie nur einmal zum 
+<anchor xml:id="GB03_1_BR289_0_168_004"/>Fenster hinaus mit mir sehen könnten! heut haben wir unser <ref target="gb:note#GB03_2_BR289_0_note_016_168_4-5" xml:id="start_com_2514"/>Vogelschiesen<ref xml:id="end_com_2514"/>
+        <anchor xml:id="GB03_1_BR289_0_168_005"/>dum geendigt. ohngefähr auf den funfzigten Schuß lag <ref target="gb:note#GB03_2_BR289_0_note_017_168_5-6" xml:id="start_com_2515"/>ein 
+<anchor xml:id="GB03_1_BR289_0_168_006"/>Bursche, von den Zuschauern, auf der Erde, so todt<ref xml:id="end_com_2515"/> als ie einer, und 
+<anchor xml:id="GB03_1_BR289_0_168_007"/>ein andrer verwundt am Arm. Und hätte, nach den Umständen, ieder 
+<anchor xml:id="GB03_1_BR289_0_168_008"/>von uns können todt schiesen und todt geschossen werden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_168_009"/>
+        <ref target="gb:note#GB03_2_BR289_0_note_018_168_9" xml:id="start_com_2516"/>Morgen hab ich Misels heraufgebeten.<ref xml:id="end_com_2516"/> Sie versichern mir alle dass 
+<anchor xml:id="GB03_1_BR289_0_168_010"/>sie mich lieb haben, und ich versichere sie sie seyen <ref target="gb:note#GB03_2_BR289_0_note_019_168_10" xml:id="start_com_2517"/>Charmant<ptr n="7" target="#a007_168.10"/>
+        <ref xml:id="end_com_2517"/>. <ref target="gb:note#GB03_2_BR289_0_note_020_168_10-11" xml:id="start_com_2518"/>Eigentlich 
+<anchor xml:id="GB03_1_BR289_0_168_011"/>aber mögte iede, so einen von uns, wer<ptr n="8" target="#a008_168.11"/> er auch seye, haben<ref xml:id="end_com_2518"/>, 
+<anchor xml:id="GB03_1_BR289_0_168_012"/>und dadrüber werden sie keinen kriegen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_168_013"/>Dienst. d<g ref="#typoSuspension"/>. 16. Heute früh war wieder alles neu. <ref target="gb:note#GB03_2_BR289_0_note_021_168_13" xml:id="start_com_2519"/>Philip<ref xml:id="end_com_2519"/> weckte 
+<anchor xml:id="GB03_1_BR289_0_168_014"/>mich und lies mich ans Fenster gehn! es lagen<ptr n="9" target="#a009_168.14"/> unten alle Thäler im 
+<anchor xml:id="GB03_1_BR289_0_168_015"/>gleichen Nebel, und es war völlig See<ptr n="10" target="#a010_168.15"/>, wo die vielen Gebürge, als 
+<anchor xml:id="GB03_1_BR289_0_168_016"/>Ufer, hervorsahen<ptr n="11" target="#a011_168.16"/>. Darnach hab ich gezeichnet. wenn ichs <pb n="4" facs="gb:digitalisate#11779/22675"/> fertig 
+<anchor xml:id="GB03_1_BR289_0_168_017"/>nicht verderbe <ref target="gb:note#GB03_2_BR289_0_note_022_168_17" xml:id="start_com_2520"/>werden Sie Freude dran haben<ref xml:id="end_com_2520"/>.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR289_0_168_018"/>═══ Mir ist gestern was auf gefallen<ptr n="12" target="#a012_168.18"/>. in meinem <ref target="gb:note#GB03_2_BR289_0_note_023_168_18" xml:id="start_com_2521"/>Diarium<ref xml:id="end_com_2521"/> steht so 
+<anchor xml:id="GB03_1_BR289_0_168_019"/>offt: <hi rendition="#hervor1">ich habe gezeichnet</hi>, und es will sich immer nichts finden 
+<anchor xml:id="GB03_1_BR289_0_168_020"/>was ich gezeichnet habe, auser den Paar Dingen die Sie haben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_168_021"/>Adieu. Ich weis dass Sie an mich dencken, denn sonst dächt <ref target="gb:note#GB03_2_BR289_0_note_024_168_21-22" xml:id="start_com_2522"/>nicht 
+<anchor xml:id="GB03_1_BR289_0_168_022"/>nicht<ref xml:id="end_com_2522"/> so viel an Sie. Ich weis dass Sie mich lieben, ich spürs daran dass 
+<anchor xml:id="GB03_1_BR289_0_168_023"/>Ich<ptr n="13" target="#a013_168.23"/> Sie so lieb habe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR289_0_168_024"/>Adieu <ref target="gb:note#GB03_2_BR289_0_note_025_168_24" xml:id="start_com_2523"/>Gold<ref xml:id="end_com_2523"/>. <ref target="gb:note#GB03_2_BR289_0_note_026_168_24" xml:id="start_com_2524"/>Ihr Seegen ist eingetroffen<ref xml:id="end_com_2524"/>, Eisenach und die Sau 
+<anchor xml:id="GB03_1_BR289_0_168_025"/>Wirthschafft<ptr n="14" target="#a014_168.25"/> schindt mich nicht. Ich sehe täglich mehr dass <hi rendition="#hervor1">weniger</hi>
+        <anchor xml:id="GB03_1_BR289_0_168_026"/>aber <hi rendition="#hervor1">länger</hi> zu leiden ist in diesem <ref target="gb:note#GB03_2_BR289_0_note_027_168_26" xml:id="start_com_2525"/>Mansch<ref xml:id="end_com_2525"/>. Schreiben Sie mir was 
+<anchor xml:id="GB03_1_BR289_0_168_027"/>von <ref target="gb:note#GB03_2_BR289_0_note_028_168_27" xml:id="start_com_2526"/>den kleinen<ref xml:id="end_com_2526"/> und <ref target="gb:note#GB03_2_BR289_0_note_029_168_27" xml:id="start_com_2527"/>Petern<ref xml:id="end_com_2527"/>. Sagen Sie <ref target="gb:note#GB03_2_BR289_0_note_030_168_27" xml:id="start_com_2528"/>Kästnern<ref xml:id="end_com_2528"/> ich wollte noch <ref target="gb:note#GB03_2_BR289_0_note_031_168_27-28" xml:id="start_com_2529"/>einen 
+<anchor xml:id="GB03_1_BR289_0_168_028"/>Tag Zahnweh<ref xml:id="end_com_2529"/> haben das viel gesagt ist, wenn ich ihm könnte den Spas 
+<anchor xml:id="GB03_1_BR289_0_168_029"/>machen, den folgenden hieroben mit mir zuzubringen, wenn er besonders 
+<anchor xml:id="GB03_1_BR289_0_168_030"/>so herrlich wäre wie heut ist.    Addio.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR289_0_168_031"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11779_comment">
+<body>
+<div type="metadata" xml:id="gb11779_comment_com504">
+  <ab type="numberAddressee"><label>289.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79615">Wartburg [bei Eisenach]</placeName>, 13.-16. September 1777 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11779_comment_com1643">
+  <p>Nach den Datumsangaben im Brief (vgl. <ref target="gb:text#GB03_1_BR289_0_166_008">166,8</ref>; <ref target="gb:text#GB03_1_BR289_0_167_010">167,10</ref>; <ref target="gb:text#GB03_1_BR289_0_168_003">168,3</ref>; <ref target="gb:text#GB03_1_BR289_0_168_013">168,13</ref>) wurde dieser vom 13. bis 16. September geschrieben, wobei die Korrektur zu Beginn (vgl. Var. zu <ref target="gb:text#GB03_1_BR289_0_166_008">166,8</ref>) möglicherweise von Charlotte von Stein stammt. Seit dem Erstdruck wurde der Brief mit der Datierung 13. bis 16. September 1777 gedruckt. Lediglich die <ref target="sndb:sigle#1157">WA</ref> nimmt an, dass der Schlussteil, beginnend mit <quote type="G">Mir ist gestern</quote> (<ref target="gb:text#GB03_1_BR289_0_168_018">168,18</ref>), am 17. September 1777 geschrieben wurde, was weder durch den Inhalt noch von der Überlieferung her gestützt wird.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11779_comment_com2548">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 58. – Doppelblatt 18,6 × 23 cm, 3 &#x2154; S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd, Tinte: „44<hi rendition="#sup #uu">b.</hi>“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 47), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 115–119.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 175–179, Nr 632.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11779_comment_com3576">
+  <p>Möglicherweise Zeichnungen Goethes (vgl. zu <ref target="gb:note#GB03_2_BR289_0_note_010_167_17">167,17</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11779_comment_com4344">
+  <p>Der Schluss des Briefteils vom 14. September 1777 (vgl. <ref target="gb:text#GB03_1_BR289_0_167_027">167,27</ref>) beantwortet einen nicht überlieferten Brief Charlotte von Steins vom 11. September 1777; der Teil vom 16. September antwortet auf eine nicht näher bestimmbare Sendung Charlotte von Steins etwa vom 12. September 1777 (vgl. <ref target="gb:text#GB03_1_BR289_0_168_024">168,24</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11779_comment_com11172">
+<label xml:id="GB03_2_BR289_0_note_001_166_8" copyOf="#start_com_2499"><hi rendition="#fett">166,8</hi>Wartburg</label>
+<p>Mittelalterliche Burganlage bei Eisenach, als deren Erbauer der Thüringer Graf Ludwig der Springer gilt, der sie um 1067 gegründet haben soll.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11173">
+<label xml:id="GB03_2_BR289_0_note_002_166_8" copyOf="#start_com_2500"><hi rendition="#fett">166,8</hi>Hier wohn ich nun</label>
+<p>Laut Tagebuch war Goethe erst an diesem Tag <quote type="G">nach Tisch auf die Wartburg gezogen</quote> (<ref target="gt:dokument#435">GT I 1, 48</ref>).</p>
+
+</note>
+<note xml:id="gb11779_comment_com11174">
+<label xml:id="GB03_2_BR289_0_note_003_166_8-9" copyOf="#start_com_2501"><hi rendition="#fett">166,8-9</hi>singe Psalmen dem Herrn</label>
+<p>Mit Bezug auf Herzog Carl August, dem Goethe seinen Umzug zu verdanken hatte, und in Anlehnung an Jakobus 5,13: „Leidet jemand unter euch, der bete: ist jemand gutes muths, der singe psalmen.“ (Luther-Bibel 1772 NT, 247.)</p>
+
+</note>
+<note xml:id="gb11779_comment_com11175">
+<label xml:id="GB03_2_BR289_0_note_004_166_9" copyOf="#start_com_2502"><hi rendition="#fett">166,9</hi>aus Schmerzen</label>
+<p>Wohl nicht nur metaphorisch gemeint, sondern auch wörtlich mit Bezug auf die Zahnschmerzen, unter denen Goethe seit dem 5. September litt.</p>
+
+</note>
+<note xml:id="gb11779_comment_com17908">
+<label xml:id="GB03_2_BR289_0_note_005_166_9-10" copyOf="#start_com_2503"><hi rendition="#fett">166,9-10</hi>in höhe und Herrlichkeit</label>
+<p>Anspielung auf die Lage der Wartburg auf einem etwa 400 m hohen Felsplateau südwestlich der Stadt. Der sprachliche Anklang an die Bibel ist möglicherweise eine Anspielung auf die Geschichte der Wartburg, die 1521/22 der Zufluchtsort Martin Luthers war, der dort das Neue Testament aus dem Griechischen ins Deutsche übersetzte.</p>
+
+</note>
+<note xml:id="gb11779_comment_com17918">
+<label xml:id="GB03_2_BR289_0_note_006_166_11" copyOf="#start_com_2504"><hi rendition="#fett">166,11</hi>den Leuten unten</label>
+<p>In der Stadt oder im Schloss; wer im Einzelnen gemeint sein könnte, lässt sich nicht klären; erwähnt werden im vorhergehenden Brief namentlich der Landschaftssyndikus Wilhelm Carl Appelius (vgl. zu <ref target="gb:note#GB03_2_BR288_0_note_021_166_3">166,3</ref>) sowie im Tagebuch vom 14. September Johann Ludwig Freiherr von Mauchenheim gen. Bechtolsheim und die Familie Rath (vgl. zu <ref target="gb:note#GB03_2_BR289_0_note_012_167_29">167,29</ref>).</p>
+
+</note>
+<note xml:id="gb11779_comment_com11187">
+<label xml:id="GB03_2_BR289_0_note_007_166_14" copyOf="#start_com_2505"><hi rendition="#fett">166,14</hi>in Ihrer tiefe um Ihren Graben</label>
+<p>Im Unterschied zur Wartburg liegt Schloss Kochberg nicht erhöht und ist von einem Wassergraben umgeben.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11188">
+<label xml:id="GB03_2_BR289_0_note_008_166_15" copyOf="#start_com_2506"><hi rendition="#fett">166,15</hi>Wilhelmsthal</label>
+<p>Herzogliches Jagdschloss südlich von Eisenach.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11189">
+<label xml:id="GB03_2_BR289_0_note_009_167_11-12" copyOf="#start_com_2507"><hi rendition="#fett">167,11-12</hi>als wenn das Zeichnen mir ein Saugläppgen wäre</label>
+<p>Analog dazu vermerkt Goethe am 14. September im Tagebuch: <quote type="G">Gezeichnet, in mir gelebt.</quote> (<ref target="gt:dokument#436">GT I 1, 48</ref>.) – ‚Saugläppchen‘ zeitgenössisch für ‚Beruhigungssauger‘ (Schnuller).</p>
+
+</note>
+<note xml:id="gb11779_comment_com17922">
+<label xml:id="GB03_2_BR289_0_note_010_167_17" copyOf="#start_com_2508"><hi rendition="#fett">167,17</hi>für Sie gekrabelt auf dem Papiere</label>
+<p>Am 29. September 1777 schrieb Wieland an Merck: „Unser <hi rendition="#hervor1">Göthe</hi> ist noch immer in der Wartburg und zeichnet aus seinen Fenstern – <hi rendition="#hervor1">den Mönch und die Nonne</hi>.“ (<ref target="sndb:sigle#141">WB</ref> 5, 661.) Die beiden Kohlezeichnungen „Wartburg mit Mönch und Nonne“ (Felsgruppe) und „Mönch und Nonne“ waren 1861 im Besitz einer Nachfahrin Charlotte von Steins, könnten also dem Brief beigelegen haben oder der Freundin später in Weimar geschenkt worden sein (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 71 f., Nr 180 und 181). Auf der Wartburg entstanden im September 1777 außerdem noch weitere Zeichnungen Goethes, deren Provenienz allerdings nicht auf den Nachlass Charlotte von Steins verweist (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 71, Nr 179; 72 f., Nr 182–184).</p>
+
+</note>
+<note xml:id="gb11779_comment_com13627">
+<label xml:id="GB03_2_BR289_0_note_011_167_27" copyOf="#start_com_2509"><hi rendition="#fett">167,27</hi>Ihr Briefgen vom. 11ten</label>
+<p>Aus Kochberg; nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11779_comment_com16251">
+<label xml:id="GB03_2_BR289_0_note_012_167_29" copyOf="#start_com_2510"><hi rendition="#fett">167,29</hi>Nachts halb 12. <gap quantity="3" reason="editorial"/> aus der Stadt herauf.</label>
+<p>Laut Tagebuch vom 14. September war Goethe <quote type="G">Abends hinunter zu Rathens, zu Becht.</quote> <supplied>Bechtolsheim</supplied> gegangen und <quote type="G">Nachts halb 12 im hohen Mondschein oben angelangt.</quote> (<ref target="gt:dokument#436">GT I 1, 48</ref>.) – Mit der Familie des Eisenacher Vizekanzlers Johann Ludwig von Mauchenheim gen. von Bechtolsheim war Goethe schon seit Anfang 1776 bekannt (vgl. zu <ref target="gb:note#GB03_2_BR030_0_note_005_24_19-20">24,19-20</ref>); bei <quote type="G">Rathens</quote> könnte es sich um die Familie des 1770 verstorbenen Eisenacher Oberkonsistorialpräsidenten Emanuel Leberecht von Rath handeln (vgl. GT I 2, 438, zu 48,11).</p>
+
+</note>
+<note xml:id="gb11779_comment_com14061">
+<label xml:id="GB03_2_BR289_0_note_013_167_30" copyOf="#start_com_2511"><hi rendition="#fett">167,30</hi>den herrlichen Stieg</label>
+<p>Der steile und von Bäumen gesäumte letzte Teil des Aufstiegs zur Wartburg.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11201">
+<label xml:id="GB03_2_BR289_0_note_014_167_32" copyOf="#start_com_2512"><hi rendition="#fett">167,32</hi>Wirthschafft</label>
+<p>In engerer Bedeutung: Verwaltung der materiellen Güter und Bedürfnisse (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 14 II, 679); hier mit Bezug auf die zwangloseren und einfacheren Formen der ‚Wirtschaft‛ auf Reisen.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11202">
+<label xml:id="GB03_2_BR289_0_note_015_167_32-33" copyOf="#start_com_2513"><hi rendition="#fett">167,32-33</hi>alles abenteuerliche natürlich werde</label>
+<p>‚Abenteuerlich‘ hier in der Bedeutung ‚vom Gewohnten, Alltäglichen abweichend‘; beim jungen Goethe häufig in Korrelation zu ‚natürlich‘ gebraucht (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 42), so auch in Brief <ref target="gb:dokument#11798">Nr 309</ref> (vgl. <ref target="gb:text#GB03_1_BR309_0_178_010 #GB03_1_BR309_0_178_012">178,10–12</ref>).</p>
+
+</note>
+<note xml:id="gb11779_comment_com15111">
+<label xml:id="GB03_2_BR289_0_note_016_168_4-5" copyOf="#start_com_2514"><hi rendition="#fett">168,4-5</hi>Vogelschiesen</label>
+<p>An dem volkstümlichen Schützenfest nahm offenbar auch der Herzog teil (vgl. <ref target="gt:dokument#437">GT I 1, 48</ref>).</p>
+
+</note>
+<note xml:id="gb11779_comment_com11203">
+<label xml:id="GB03_2_BR289_0_note_017_168_5-6" copyOf="#start_com_2515"><hi rendition="#fett">168,5-6</hi>ein Bursche <gap quantity="3" reason="editorial"/> todt</label>
+<p>Auch im Tagebuch wird das Unglück vom 15. September 1777 erwähnt: <quote type="G">Vogelschiesen. <gap quantity="3" reason="editorial"/> Ward ein Mensch erschossen.</quote> (<ref target="gt:dokument#437">GT I 1, 48</ref>.)</p>
+
+</note>
+<note xml:id="gb11779_comment_com17932">
+<label xml:id="GB03_2_BR289_0_note_018_168_9" copyOf="#start_com_2516"><hi rendition="#fett">168,9</hi>Morgen <gap quantity="3" reason="editorial"/> Misels heraufgebeten.</label>
+<p>Am 16. September vermerkte Goethe im Tagebuch: <quote type="G">Die Gesellschafft der Mädgens auf Wartburg.</quote> (<ref target="gt:dokument#438">GT I 1, 48</ref>.) – Zum Wortgebrauch von ‚Misel‘ vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>.</p>
+
+</note>
+<note xml:id="gb11779_comment_com17941">
+<label xml:id="GB03_2_BR289_0_note_019_168_10" copyOf="#start_com_2517"><hi rendition="#fett">168,10</hi>Charmant</label>
+<p>Modewort des 18. Jahrhunderts; sonst in den Briefen an Charlotte von Stein nicht verwendet. – In der Satire „Triumph der Empfindsamkeit“, an deren früher Fassung Goethe damals arbeitete (vgl. zu <ref target="gb:note#GB03_2_BR288_0_note_016_165_21-22">165,21-22</ref>), lässt er Merkulo, den Kavalier des empfindsamen Prinzen Oronaro (ursprünglich Radegiki), auf den Ausruf einer Hofdame antworten: <quote type="G">Scharmant! Allerliebst! das könnten Sie allenfalls auch von einer Florschürze, von einem Häubchen sagen.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 17, 22.)</p>
+
+</note>
+<note xml:id="gb11779_comment_com11215">
+<label xml:id="GB03_2_BR289_0_note_020_168_10-11" copyOf="#start_com_2518"><hi rendition="#fett">168,10-11</hi>Eigentlich aber mögte iede <gap quantity="3" reason="editorial"/> haben</label>
+<p>Vgl. dazu den Dialog Merkulos mit seinem Herrn über den Charakter der ‚wahren Liebe‘: <quote type="G">Eine wahre Liebe ist z. E. was Vortreffliches; aber eine wahre Liebe mit einem wohlgespickten Beutel, darüber geht gar nichts. So auch, was den Stand betrifft – </quote> (<ref target="sndb:sigle#1157">WA</ref> I 17, 28).</p>
+
+</note>
+<note xml:id="gb11779_comment_com17995">
+<label xml:id="GB03_2_BR289_0_note_021_168_13" copyOf="#start_com_2519"><hi rendition="#fett">168,13</hi>Philip</label>
+<p>Wie diese Erwähnung belegt, begleitete Goethes Diener und Hausgenosse Philipp Seidel seinen Herrn nach Eisenach. Von ihm hat sich ein Brief an Johann Adam Wolf, einen Frankfurter Freund, erhalten, in dem er das Leben auf der Wartburg schildert:
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56448_source" corresp="#gb56448_comment">
+  <body>
+    <div>
+<p>Lieber Bruder. Von Eisenach aus habe ich dir geschrieben, aber noch nicht von der Wartenburg. Vorgestern sind wir mit Sak und Pak herauf gezogen, und wohnen nun ganz ordentlich oben. Da ich so gut ein Feldteufel bin als mein Herr, also ists gar keine Frage, ob ich mich hier gut befinde. Ich warte auf einen Brief von dir, schreib doch. Es ist ein herrlich Leben daß ich iezt führe und wenn ich einmal böse Tage habe, darf ich mirs nicht verdrießen laßen. Alle Sonntag ist tanz hier oben und ich mache immer tapfer mit, so knollig die Figurn sind die da erscheinen. Sie tanzen lauter englisch <supplied>englischer Tanz, vgl. zu <ref target="gb:note#GB03_2_BR521_0_note_006_291_8-9">291, 8-9</ref></supplied>, daß mir nicht ansteht, weils eine herkulische Arbeit ist so ein plumpes Ding durch die Reihe zu zerren, besonders da der Herr Vortänzer die Touren sehr bunt schoisirt <supplied>franz. choisir: auswählen</supplied>. Wenn ich hier so über das große Gebirg sehe nach Frankfurt zu, so denke ich eurer alle. Lebt wohl und behaltet mich lieb.    Wartenburg den 15 7br. 1777.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56448_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56448_comment_com84672">
+  <p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#280374">GSA 96/2698</ref>.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</p>
+
+</note>
+<note xml:id="gb11779_comment_com11216">
+<label xml:id="GB03_2_BR289_0_note_022_168_17" copyOf="#start_com_2520"><hi rendition="#fett">168,17</hi>werden Sie Freude dran haben</label>
+<p>Vgl. <ref target="gb:note#gb11779_comment_com3576">Beilagen</ref>.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11228">
+<label xml:id="GB03_2_BR289_0_note_023_168_18" copyOf="#start_com_2521"><hi rendition="#fett">168,18</hi>Diarium</label>
+<p>Lat.: Tagebuch; hier mit Bezug auf den vorliegenden Tagebuchbrief.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11227">
+<label xml:id="GB03_2_BR289_0_note_024_168_21-22" copyOf="#start_com_2522"><hi rendition="#fett">168,21-22</hi>nicht nicht</label>
+<p>Versehentliche Dittographie für ‚ich nicht‘.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11229">
+<label xml:id="GB03_2_BR289_0_note_025_168_24" copyOf="#start_com_2523"><hi rendition="#fett">168,24</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11230">
+<label xml:id="GB03_2_BR289_0_note_026_168_24" copyOf="#start_com_2524"><hi rendition="#fett">168,24</hi>Ihr Seegen ist eingetroffen</label>
+<p>Mit Bezug auf eine nicht überlieferte Brief- oder Geschenksendung Charlotte von Steins aus Kochberg.</p>
+
+</note>
+<note xml:id="gb11779_comment_com15126">
+<label xml:id="GB03_2_BR289_0_note_027_168_26" copyOf="#start_com_2525"><hi rendition="#fett">168,26</hi>Mansch</label>
+<p>Thüringisch-sächsische Umgangssprache: Matsch, Schlamm, Dreck; hier im übertragenen Sinn.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11231">
+<label xml:id="GB03_2_BR289_0_note_028_168_27" copyOf="#start_com_2526"><hi rendition="#fett">168,27</hi>den kleinen</label>
+<p>Carl, Ernst und Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb11779_comment_com15771">
+<label xml:id="GB03_2_BR289_0_note_029_168_27" copyOf="#start_com_2527"><hi rendition="#fett">168,27</hi>Petern</label>
+<p>Peter im Baumgarten (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_001_159_18">159,18</ref>).</p>
+
+</note>
+<note xml:id="gb11779_comment_com11232">
+<label xml:id="GB03_2_BR289_0_note_030_168_27" copyOf="#start_com_2528"><hi rendition="#fett">168,27</hi>Kästnern</label>
+<p>Johann Friedrich Kästner, Hauslehrer der Familie von Stein.</p>
+
+</note>
+<note xml:id="gb11779_comment_com11233">
+<label xml:id="GB03_2_BR289_0_note_031_168_27-28" copyOf="#start_com_2529"><hi rendition="#fett">168,27-28</hi>einen Tag Zahnweh</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR286_0_note_006_164_1-2">164,1-2</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

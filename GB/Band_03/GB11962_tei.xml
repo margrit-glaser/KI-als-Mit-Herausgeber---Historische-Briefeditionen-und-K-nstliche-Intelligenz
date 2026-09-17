@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3450"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11962" n="GB 3, Nr. 336">
+  <teiHeader xml:id="gb11962_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>336.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 18. März 1778. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:06Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11962_tei.xml</idno>
+        <idno type="URI">gb11962</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR336_0</idno>
+        <idno type="KSW-ID">11962</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="199" to="199">199</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="672" to="675">672-675</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11962_header_hwit1329" corresp="#gb11962_source_hwit1329" sameAs="#gb11962_comment_hwit1329" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>München</placeName>
+            </settlement>
+            <institution key="sndb:standort#2050">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11962,,1329/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Die Kupfer hab ich wohl erhalten - die Dürers kriegst du zurück der Herzog</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11962_header_acc405" corresp="gb11962_comment_acc405">
+            <objectIdentifier>
+              <objectName>Abschrift von Goethes Lustspiel „Die Empfindsamen“ </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb11962_header_acc584" corresp="gb11962_comment_acc584">
+            <objectIdentifier>
+              <objectName>Zeichnung Goethes? </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-03-18">18. März 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39571">Merck, Johann Heinrich</persName>
+            <placeName key="sndb:ort#77639">Darmstadt</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11962_source_hwit1329" corresp="#gb11962_header_hwit1329" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_1_BR336_0_199_005"/>
+        <ref target="gb:note#GB03_2_BR336_0_note_001_199_5" xml:id="start_com_3021"/>Die Kupfer hab ich wohl erhalten<ref xml:id="end_com_3021"/> – <ref target="gb:note#GB03_2_BR336_0_note_002_199_5" xml:id="start_com_3022"/>die Dürers<ref xml:id="end_com_3022"/> kriegst du zurück der 
+<anchor xml:id="GB03_1_BR336_0_199_006"/>Herzog hat sie schon. <ref target="gb:note#GB03_2_BR336_0_note_003_199_6" xml:id="start_com_3023"/>Geld<ref xml:id="end_com_3023"/> auch bald. Ich will auch <ref target="gb:note#GB03_2_BR336_0_note_004_199_6" xml:id="start_com_3024"/>Bertuccio<ref xml:id="end_com_3024"/> schinden.
+<anchor xml:id="GB03_1_BR336_0_199_007"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR336_0_199_008"/>Beyliegend kriegst du <ref target="gb:note#GB03_2_BR336_0_note_005_199_8" xml:id="start_com_3025"/>von der Mutter meine neuste Tollheit<ref xml:id="end_com_3025"/>, daraus 
+<anchor xml:id="GB03_1_BR336_0_199_009"/>du sehn wirst dass der Teufel der parodie mich noch reitet. Denck dir 
+<anchor xml:id="GB03_1_BR336_0_199_010"/>nun dazu alle Ackteurs bis zur Carrikatur phisiognomisch. Von den 
+<anchor xml:id="GB03_1_BR336_0_199_011"/>Kleidern sieh ein <ref target="gb:note#GB03_2_BR336_0_note_006_199_11" xml:id="start_com_3026"/>Echantillon<ref xml:id="end_com_3026"/> bey der Mutter auf einer <ref target="gb:note#GB03_2_BR336_0_note_007_199_11-12" xml:id="start_com_3027"/>Zeichnung 
+<anchor xml:id="GB03_1_BR336_0_199_012"/>von Krause<ref xml:id="end_com_3027"/>. Adieu <ref target="gb:note#GB03_2_BR336_0_note_008_199_12" xml:id="start_com_3028"/>das Blättgen von mir<ref xml:id="end_com_3028"/> du meynst doch die Ruinen 
+<anchor xml:id="GB03_1_BR336_0_199_013"/>für <ref target="gb:note#GB03_2_BR336_0_note_009_199_13" xml:id="start_com_3029"/>Schr.<ref xml:id="end_com_3029"/>
+        <ref target="gb:note#GB03_2_BR336_0_note_010_199_13" xml:id="start_com_3030"/>sollst du haben<ref xml:id="end_com_3030"/>. <ref target="gb:note#GB03_2_BR336_0_note_011_199_13" xml:id="start_com_3031"/>Dein <hi rendition="#hervor1">Oheim</hi> ist sehr gut.<ref xml:id="end_com_3031"/> Besonders da 
+<anchor xml:id="GB03_1_BR336_0_199_014"/>mir in der Folge die <ref target="gb:note#GB03_2_BR336_0_note_012_199_14" xml:id="start_com_3032"/>Ostentation<ref xml:id="end_com_3032"/> der <ref target="gb:note#GB03_2_BR336_0_note_013_199_14" xml:id="start_com_3033"/>Einfalt<ptr n="1" target="#a001_199.14"/> der Leute<ref xml:id="end_com_3033"/> in der Manier 
+<anchor xml:id="GB03_1_BR336_0_199_015"/>des Geschichtschreibers und nicht in ihnen lag.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR336_0_199_016"/>Neuerdings Bruder hab ich überhaupt <ref target="gb:note#GB03_2_BR336_0_note_014_199_16-17" xml:id="start_com_3034"/>über allerley Kunst schöne 
+<anchor xml:id="GB03_1_BR336_0_199_017"/>Aufschlüsse<ref xml:id="end_com_3034"/> die ich dir mögt in allerley<ptr n="2" target="#a002_199.17"/> Wercklein sehn lassen. Auch 
+<anchor xml:id="GB03_1_BR336_0_199_018"/>mach ich manches in der <ref target="gb:note#GB03_2_BR336_0_note_015_199_18" xml:id="start_com_3035"/>Dumpfheit<ref xml:id="end_com_3035"/> das wohl oft das beste ist. <ref target="gb:note#GB03_2_BR336_0_note_016_199_18-19" xml:id="start_com_3036"/>Hast du 
+<anchor xml:id="GB03_1_BR336_0_199_019"/>ein Lustspiel in<ptr n="3" target="#a003_199.19"/> I Ackt von mir gesehn? <hi rendition="#hervor1">Die Geschwister</hi>?<ref xml:id="end_com_3036"/> ———__</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR336_0_199_020"/>Jezt macht uns aber <ref target="gb:note#GB03_2_BR336_0_note_017_199_20" xml:id="start_com_3037"/>der Eindringende Krieg<ref xml:id="end_com_3037"/> ein ander wesen. da 
+<anchor xml:id="GB03_1_BR336_0_199_021"/>
+        <ref target="gb:note#GB03_2_BR336_0_note_018_199_21" xml:id="start_com_3038"/>unser Kahn auch zwischen den Orlogschiffen gequetscht<ref xml:id="end_com_3038"/> werden 
+<anchor xml:id="GB03_1_BR336_0_199_022"/>wird. Gott sey danck ich hab schönen Muth, und freyes Leben.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR336_0_199_023"/>d<g ref="#typoSuspension"/>. 18 März 78.                                         </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11962_comment">
+<body>
+<div type="metadata" xml:id="gb11962_comment_com1268">
+  <ab type="numberAddressee"><label>336.</label> An <persName key="sndb:person#39571">Johann Heinrich Merck</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 18. März 1778 → <placeName key="sndb:ort#77639">Darmstadt</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11962_comment_com3312">
+  <p>H: Privatbesitz, München. – 1 Bl. 19,4(–19,6) × 27,3(–27,5) cm, 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">Herrn Kriegsrath / Merck nach / Darmstadt.</quote>, Reste eines roten Siegels; über und unter der Adresse Federstriche wie zur Prüfung der Schreibstärke, möglicherweise von Goethe, der den zweiten Teil des Briefes – <ref target="gb:text#GB03_1_BR336_0_199_012 #GB03_1_BR336_0_199_023">199,12–23</ref> <quote type="G">von Krause <gap quantity="3" reason="editorial"/> G.</quote> – mit einer anderen (schmaleren) Feder schrieb.</p>
+  <p>E: <ref target="sndb:sigle#2993">Merck, Briefe<hi rendition="#sup">2</hi></ref> (1838), 125, Nr 58.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 214 f., Nr 682.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11962_comment_com3807">
+  <p>1) Abschrift von Goethes Lustspiel „Die Empfindsamen“ (vgl. zu <ref target="gb:note#GB03_2_BR336_0_note_005_199_8">199,8</ref>).</p>
+  <p>2) Zeichnung Goethes? (vgl. zu <ref target="gb:note#GB03_2_BR336_0_note_008_199_12">199,12</ref> und die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR336_0_note_010_199_13">199,13</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11962_comment_com5108">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11962_comment_com15278">
+<label xml:id="GB03_2_BR336_0_note_001_199_5" copyOf="#start_com_3021"><hi rendition="#fett">199,5</hi>Die Kupfer hab ich wohl erhalten</label>
+<p>Möglicherweise – nach den Sendungen an Friedrich Justin Bertuch mit Begleitbriefen Mercks vom 3. Januar und vom 4. Februar 1778 (vgl. <ref target="sndb:sigle#2251">Merck, Briefwechsel</ref>, 28 f. und 49) – eine dritte Lieferung von Kupferstichen. In Mercks Brief an Bertuch vom 4. Februar ist von Dürer nicht die Rede.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11805">
+<label xml:id="GB03_2_BR336_0_note_002_199_5" copyOf="#start_com_3022"><hi rendition="#fett">199,5</hi>die Dürers</label>
+<p>Um welche Blätter es sich im Einzelnen handelte, konnte nicht ermittelt werden. Dürer war in den folgenden Jahren neben Rembrandt ein Schwerpunkt der Weimarer Sammeltätigkeit (vgl. <ref target="sndb:sigle#2155">Grave</ref>, 60).</p>
+
+</note>
+<note xml:id="gb11962_comment_com11806">
+<label xml:id="GB03_2_BR336_0_note_003_199_6" copyOf="#start_com_3023"><hi rendition="#fett">199,6</hi>Geld</label>
+<p>Hier ist die Bezahlung von Kupferstichen gemeint, für Blätter, die in Goethes eigenem Besitz blieben.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11807">
+<label xml:id="GB03_2_BR336_0_note_004_199_6" copyOf="#start_com_3024"><hi rendition="#fett">199,6</hi>Bertuccio</label>
+<p>Italianisierte Form des Namens Bertuch. Gemeint ist Friedrich Justin Bertuch, Schatullverwalter des Herzogs Carl August, der dessen Rechnungen beglich.</p>
+
+</note>
+<note xml:id="gb11962_comment_com18090">
+<label xml:id="GB03_2_BR336_0_note_005_199_8" copyOf="#start_com_3025"><hi rendition="#fett">199,8</hi>von der Mutter meine neuste Tollheit</label>
+<p>Goethes Lustspiel „Die Empfindsamen“, in dem der Empfindsamkeitskult, an dem sich Goethe selbst in seiner Frankfurter Zeit beteiligt hatte, parodistisch behandelt wird (vgl. zu <ref target="gb:note#GB03_2_BR288_0_note_016_165_21-22">165,21-22</ref>). Das Stück war zum Geburtstag der Herzogin Louise am 30. Januar 1778 vom Weimarer Liebhabertheater uraufgeführt worden (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 147 f.). – Der vorliegende Brief nahm offenbar den Weg über Frankfurt und wurde von Catharina Elisabeth Goethe mitsamt der Abschrift des Stückes an Merck weitergeschickt. In ihrem Brief an Johann Caspar Lavater vom 20. März 1778 heißt es, Goethe habe „ein schön stück Arbeit von einem Drama“ verfertigt: „Er hat es uns zum durchlesen zugeschickt, denn es wird schwerlich gedruckt werden.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 420.)</p>
+
+</note>
+<note xml:id="gb11962_comment_com11820">
+<label xml:id="GB03_2_BR336_0_note_006_199_11" copyOf="#start_com_3026"><hi rendition="#fett">199,11</hi>Echantillon</label>
+<p>Franz.: Muster, Probestück.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11821">
+<label xml:id="GB03_2_BR336_0_note_007_199_11-12" copyOf="#start_com_3027"><hi rendition="#fett">199,11-12</hi>Zeichnung von Krause</label>
+<p>Vermutlich eine Figurine, ein Kostümentwurf von Georg Melchior Kraus; nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11822">
+<label xml:id="GB03_2_BR336_0_note_008_199_12" copyOf="#start_com_3028"><hi rendition="#fett">199,12</hi>das Blättgen von mir</label>
+<p>Welche Zeichnung von <quote type="G">Ruinen</quote> (<ref target="gb:text#GB03_1_BR336_0_199_012">199,12</ref>) gemeint ist, konnte nicht ermittelt werden; unter Goethes Zeichnungen aus der Zeit bis Anfang 1778 gibt es etliche mit solcher Motivik (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 35, 64, 68 f; Nr 63, 155, 166, 169, 170).</p>
+
+</note>
+<note xml:id="gb11962_comment_com11823">
+<label xml:id="GB03_2_BR336_0_note_009_199_13" copyOf="#start_com_3029"><hi rendition="#fett">199,13</hi>Schr.</label>
+<p>Schrautenbach. – Gemeint ist Ludwig Karl von Weitolshausen gen. Schrautenbach, Freund Mercks, 1773 mit diesem Teilnehmer an der Reise nach Russland im Gefolge der hessischen Landgräfin Henriette Karoline; Weitolshausen war auch Mitarbeiter an den „Frankfurter gelehrten Anzeigen“ gewesen (vgl. <ref target="gb:note#GB01_2_BR122_0_note_015_249_31">GB 1 II, zu 249,31</ref>).</p>
+
+</note>
+<note xml:id="gb11962_comment_com15297">
+<label xml:id="GB03_2_BR336_0_note_010_199_13" copyOf="#start_com_3030"><hi rendition="#fett">199,13</hi>sollst du haben</label>
+<p>Ob Goethes Zeichnung bereits dem vorliegenden Brief beigelegt oder dessen spätere Zusendung angekündigt wurde, geht aus dem Wortlaut nicht eindeutig hervor.</p>
+
+</note>
+<note xml:id="gb11962_comment_com15442">
+<label xml:id="GB03_2_BR336_0_note_011_199_13" copyOf="#start_com_3031"><hi rendition="#fett">199,13</hi>Dein <hi rendition="#hervor1">Oheim</hi> ist sehr gut.</label>
+<p>Mercks Erzählung „Geschichte des Herrn Oheims“; deren Anfang und erste Fortsetzung waren 1778 im Januar- und Februar-Heft des „Teutschen Merkur“ (S. 30–48, 151–172) erschienen. Der letzte Teil folgte im Dezember-Heft 1778 (S. 239–248 [recte: S. 241–250]).</p>
+
+</note>
+<note xml:id="gb11962_comment_com11611">
+<label xml:id="GB03_2_BR336_0_note_012_199_14" copyOf="#start_com_3032"><hi rendition="#fett">199,14</hi>Ostentation</label>
+<p>Lat./franz.: Prahlerei, zur Schau Stellen.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11612">
+<label xml:id="GB03_2_BR336_0_note_013_199_14" copyOf="#start_com_3033"><hi rendition="#fett">199,14</hi>Einfalt der Leute</label>
+<p>Mercks Erzählung behandelt die „Geschichte eines Mannes der die sonderbare Entschließung gefaßt, und die blendende Scene von Ansehn und Gewalt gegen das Leben des Landmanns vertauscht, und zwar freywillig vertauscht hatte.“ (Teutscher Merkur 1778. Januar-Heft, S. 30 f.)</p>
+
+</note>
+<note xml:id="gb11962_comment_com11613">
+<label xml:id="GB03_2_BR336_0_note_014_199_16-17" copyOf="#start_com_3034"><hi rendition="#fett">199,16-17</hi>über allerley Kunst schöne Aufschlüsse</label>
+<p>Ähnliches hatte Goethe im Brief vom 11. Januar 1778 geschrieben (vgl. zu <ref target="gb:note#GB03_2_BR320_0_note_010_190_3-4">190,3-4</ref>).</p>
+
+</note>
+<note xml:id="gb11962_comment_com11614">
+<label xml:id="GB03_2_BR336_0_note_015_199_18" copyOf="#start_com_3035"><hi rendition="#fett">199,18</hi>Dumpfheit</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>.</p>
+
+</note>
+<note xml:id="gb11962_comment_com18026">
+<label xml:id="GB03_2_BR336_0_note_016_199_18-19" copyOf="#start_com_3036"><hi rendition="#fett">199,18-19</hi>Hast du ein Lustpiel <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">Die Geschwister</hi>?</label>
+<p>Goethes Einakter war in äußerst kurzer Zeit entstanden, vom 26. bis 29. Oktober 1776, und am 21. November 1776 vom Weimarer Liebhabertheater uraufgeführt worden (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 140). Die Frage an Merck legt die Vermutung nahe, Catharina Elisabeth Goethe habe auch von diesem Stück eine Abschrift besessen, die sie Merck hätte ausleihen können.</p>
+
+</note>
+<note xml:id="gb11962_comment_com18156">
+<label xml:id="GB03_2_BR336_0_note_017_199_20" copyOf="#start_com_3037"><hi rendition="#fett">199,20</hi>der Eindringende Krieg</label>
+<p>Mit Bezug auf den sich zuspitzenden Konflikt zwischen Preußen und Österreich, ausgelöst durch den Tod des bayerischen Kurfürsten Maximilian III. Joseph am 30. Dezember 1777, der ohne männliche Nachkommen geblieben war. Am 3. Januar 1778 hatte der an erster Stelle erbberechtigte Kurfürst Carl Theodor von der Pfalz – gegen finanzielle und territoriale Entschädigung – der Wiener Konvention zugestimmt, wonach die bayerischen Reichslehen an den Kaiser, den Habsburger Joseph II., zurückfallen sollten. Kurz darauf rückten österreichische Truppen in der Oberpfalz, in Niederbayern sowie in Böhmen und Mähren ein. Herzog Carl von Pfalz-Zweibrücken, Zweiter in der Erbfolge, protestierte beim Reichstag gegen die Abtretung der Gebiete, außerdem erhob auch Kursachsen Ansprüche auf Teile Bayerns, vor allem aber sah der preußische König Friedrich II. seine Macht bedroht. Kurz bevor der vorliegende Brief geschrieben wurde, hatte er die preußische Armee in den Mobilmachungszustand versetzt (vgl. Friedrich II. von Preußen an seinen Bruder Prinz Heinrich, Befehlshaber der preußisch-sächsischen Armee, wahrscheinlich 18. März 1778; <ref target="sndb:sigle#2805">Detemple</ref>, 23). Die sich anschließenden monatelangen Verhandlungen führten nicht zur Beilegung des Konfliktes; am 3. Juli erklärte Preußen Österreich den Krieg, am 5. Juli marschierten preußische Truppen in Böhmen ein, und der Bayerische Erbfolgekrieg begann.</p>
+
+</note>
+<note xml:id="gb11962_comment_com11626">
+<label xml:id="GB03_2_BR336_0_note_018_199_21" copyOf="#start_com_3038"><hi rendition="#fett">199,21</hi>unser Kahn auch zwischen den Orlogschiffen gequetscht</label>
+<p>Die deutschen Territorialfürsten, darunter auch der Herzog von Sachsen-Weimar und Eisenach, fürchteten, in die Auseinandersetzung der Großmächte hineingezogen zu werden. In einem Votum, die „Aufforderung Preußens zu gemeinsamen Schritten in der Regelung der bayrischen Erbfolgefrage“ betreffend, das vom selben Datum stammt wie der vorliegende Brief, schloss sich Goethe der von Jacob Friedrich von Fritsch und Christian Friedrich Schnauß zuvor dargelegten Auffassung an, es sei in der Auseinandersetzung zwischen den Großmächten Zurückhaltung und Abwarten zu empfehlen (vgl. <ref target="sndb:sigle#32">AS</ref> 1, 36–38). Aus Goethes Tagebuch geht hervor, dass er sich Sorgen machte, Herzog Carl August könne eine solche Haltung aufgeben; unter dem 27. März 1778 notierte er: <quote type="G">&#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">war viel in Milit. gedancken</quote> (<ref target="gt:dokument#551">GT I 1, 62</ref>); Anfang April heißt es: <quote type="G">Weiter vegetirt in tausend Gedancken an unsre Verhältnisse und unser Schicksaal. Unruhe des &#x2643;. erwachend Kriegsgefühl.</quote> (<ref target="gt:dokument#555">Ebd.</ref>) – Orlogschiffe: Kriegsschiffe; nach ‚Orlog‘, einem schon im 18. Jahrhundert nur noch im Niederdeutschen gebrauchten, aus dem Holländischen und Niedersächsischen stammenden Wort für ‚Krieg‘.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

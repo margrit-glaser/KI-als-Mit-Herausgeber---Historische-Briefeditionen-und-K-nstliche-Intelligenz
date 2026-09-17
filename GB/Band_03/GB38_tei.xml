@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4190"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb38" n="GB 3, Nr. 410">
+  <teiHeader xml:id="gb38_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>410.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 2. November 1778. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:30Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb38_tei.xml</idno>
+        <idno type="URI">gb38</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR410_0</idno>
+        <idno type="KSW-ID">38</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="233" to="234">233-234</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="786" to="793">786-793</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb38_header_hwit1405" corresp="#gb38_source_hwit1405" sameAs="#gb38_comment_hwit1405" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 1-2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/38,,1405/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Dem, der sich mit den Wellen herumarbeitet, ist's wohl der schlimmste Herzensstos</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb38_header_acc460" corresp="gb38_comment_acc460">
+            <objectIdentifier>
+              <objectName>Geld </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1778-11-02">2. November 1778</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb38_source_hwit1405" corresp="#gb38_header_hwit1405" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#38/10965"/>
+      <p>
+        <anchor xml:id="GB03_1_BR410_0_233_008"/>Dem der sich mit den Wellen herumarbeitet, ist’s wohl der schlimmste 
+<anchor xml:id="GB03_1_BR410_0_233_009"/>Herzensstos wenn der willige am Ufer nicht Kräffte genug hat alle zu 
+<anchor xml:id="GB03_1_BR410_0_233_010"/>retten die der Sturm gegen seine Küste treibt. Wenn der dem ein 
+<anchor xml:id="GB03_1_BR410_0_233_011"/>Menschengeschöpf die reichste Beute des Strandrechts wäre, mit wenigen 
+<anchor xml:id="GB03_1_BR410_0_233_012"/>sich begnügen und die andern untergehn sehn muss.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_233_013"/>In der Vorstellung die ich mir von Ihnen aus den Briefen mache, 
+<anchor xml:id="GB03_1_BR410_0_233_014"/>glaub ich mich nicht zu betrügen, und was mir am wehsten thut, ist <pb n="2" facs="gb:digitalisate#38/10966"/> 
+<anchor xml:id="GB03_1_BR410_0_233_015"/>dass ich einem Mann der so genügsam verlangt, weder Hülfe noch 
+<anchor xml:id="GB03_1_BR410_0_233_016"/>Hoffnung geben kan.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_233_017"/>
+        <ref target="gb:note#GB03_2_BR410_0_note_001_233_17-19" xml:id="start_com_3531"/>Um diesen Teich den ein Engel nur selten bewegt harren hunderte, 
+<anchor xml:id="GB03_1_BR410_0_233_018"/>viele Jahre her, nur wenige können genesen, und ich bin der Mann 
+<anchor xml:id="GB03_1_BR410_0_233_019"/>nicht zwischen der Zeit zu sagen: steh auf und wandle.<ref xml:id="end_com_3531"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_233_020"/>Nehmen Sie das wenige <ref target="gb:note#GB03_2_BR410_0_note_002_233_20" xml:id="start_com_3532"/>was ich Ihnen geben kan<ref xml:id="end_com_3532"/>, als ein Bret das 
+<anchor xml:id="GB03_1_BR410_0_233_021"/>ich Ihnen in dem Augenblick zuwerfe um Zeit zu gewinnen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_233_022"/>
+        <ref target="gb:note#GB03_2_BR410_0_note_003_233_22" xml:id="start_com_3533"/>Bleiben Sie in der Jahrszeit wo Sie sind<ref xml:id="end_com_3533"/>, ich will in <pb n="3" facs="gb:digitalisate#38/10967"/> der Folge gern 
+<anchor xml:id="GB03_1_BR410_0_233_023"/>für eine kleine Beyhülfe sorgen. <ref target="gb:note#GB03_2_BR410_0_note_004_233_23-24" xml:id="start_com_3534"/>Melden Sie mir die Ankunft des 
+<anchor xml:id="GB03_1_BR410_0_233_024"/>Gelds<ref xml:id="end_com_3534"/> und wie weit Sie damit zu reichen dencken.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_233_025"/>Ist Ihnen mit einem <ref target="gb:note#GB03_2_BR410_0_note_005_233_25" xml:id="start_com_3535"/>Kleid, Uberrock, Stiefeln, warmen Strümpfen<ref xml:id="end_com_3535"/>
+        <anchor xml:id="GB03_1_BR410_0_233_026"/>gedient, so schreiben Sie, ich habe zu entbehren.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR410_0_234_001"/>Nehmen Sie diese Tropfen <ref target="gb:note#GB03_2_BR410_0_note_006_234_1" xml:id="start_com_3536"/>Balsams<ref xml:id="end_com_3536"/> aus der <ref target="gb:note#GB03_2_BR410_0_note_007_234_1" xml:id="start_com_3537"/>kompendiosen<ref xml:id="end_com_3537"/> Reise 
+<anchor xml:id="GB03_1_BR410_0_234_002"/>apotheck<ptr n="1" target="#a001_234.2"/>
+        <ref target="gb:note#GB03_2_BR410_0_note_008_234_2" xml:id="start_com_3538"/>des dienstfertigen Samariters<ref xml:id="end_com_3538"/>, wie ich sie gebe.</p>
+      <closer>
+        <dateline rendition="#einrueck18">
+          <anchor xml:id="GB03_1_BR410_0_234_003"/>W. d<g ref="#typoSuspension"/>. 2 Nov. 78.</dateline>
+        <anchor xml:id="GB03_1_BR410_0_234_004"/>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    <pb n="4" facs="gb:digitalisate#38/10968" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb38_comment">
+<body>
+<div type="metadata" xml:id="gb38_comment_com968">
+  <ab type="numberAddressee"><label>410.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 2. November 1778 → <supplied><placeName key="sndb:ort#77914">Gera</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb38_comment_com3012">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 1–2. – Doppelblatt 11,5 &#xD7; 18,4 cm, 3 S. beschr., egh., Tinte; S. 1 oben von fremder Hd, Tinte: „78. Nov. 2<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd (Schöll?, vgl. E), Bleistift: „1“; S. 4. nachträglich mit unbeschriebenem Bl. überklebt.
+  </p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 166 f., Nr 1.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 251 f., Nr 752 (nach E).</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb38_comment_com3729">
+  <p>Geld (vgl. zu <ref target="gb:note#GB03_2_BR410_0_note_002_233_20">233,20</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb38_comment_com4808">
+  <p>Der Brief beantwortet wahrscheinlich zwei nicht überlieferte <quote type="G">Briefe</quote> (<ref target="gb:text#GB03_1_BR410_0_233_013">233,13</ref>) Kraffts, die von Mitte oder Ende Oktober 1778 stammen dürften. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p>Über die Person, die sich hinter dem Pseudonym Johann Friedrich Krafft (gest. 1785) verbarg, ist wenig bekannt, u. a. dies, was Goethe in seinen „Tag- und Jahres-Heften“ für 1794 mitteilt: <quote type="G">Ein wundersamer, durch verwickelte Schicksale nicht ohne seine Schuld verarmter Mann, hielt sich durch meine Unterstützung in Ilmenau unter fremdem Namen auf. Er war mir sehr nützlich, da er mir in Bergwerks- und Steuersachen durch unmittelbare Anschauung, als gewandter, obgleich hypochondrischer Geschäftsmann, mehreres überlieferte, was ich selbst nicht hätte bis auf den Grad einsehen und mir zu eigen machen können.</quote> (<ref target="sndb:sigle#1157">WA</ref> I 35, 37.) Selbst diese Informationen scheinen unzuverlässig, denn Goethe datiert aus großer zeitlicher Distanz den Aufenthalt Kraffts in Ilmenau, der von 1779 bis 1785 währte, um ein Jahrzehnt zu spät. Auch dass dieser in Bergwerksangelegenheiten berichtet habe, ist nicht bekannt. Es ist anzunehmen, dass Goethe alle Krafft betreffenden Akten, Schriftstücke und persönlichen Briefe – wie so viele andere – im Sommer 1797 vor seiner Reise in die Schweiz verbrannt hat. Einiges vernichtete er auch schon vorher. Anfang Januar 1794 schreibt er an Christian Gottlob Voigt: <quote type="G">Hier folgen Kraftiana genug <gap quantity="3" reason="editorial"/>. Bey der Gelegenheit da ich diese Papiere suchte habe ich noch manches gefunden und theils verbrannt, theils aufgehoben um es durch Ihre Hände zum Vulcan gelangen zu lassen.</quote> (<ref target="sndb:sigle#1157">WA</ref> IV 18, 14; datiert nach dem Bezugsbrief, ebenfalls von Anfang Januar 1794 [vgl. <ref target="ra:dokument#881">RA 1, 276, Nr 844</ref>].) Zu dem, was verloren ist, gehören vermutlich Kraffts Briefe an Goethe aus dem Herbst 1778, in denen er um Hilfe gebeten hatte, ferner die autobiographischen Aufzeichnungen, zu denen Goethe ihn in seinem Brief vom 11. Dezember 1778 ermunterte (vgl. <ref target="gb:text#GB03_1_BR419_0_241_004">241,4</ref>), sowie die Ausfertigungen der Berichte aus Ilmenau, die Krafft in Briefform an Goethe schickte, schließlich eine <quote type="G">Schrifft über Lottos</quote> (<ref target="gb:text#GB03_1_BR481_0_268_019">268,19</ref>), für deren Übersendung Goethe am 26. März 1779 dankt. Da Goethe erklärte, Kraffts Lebensumstände seien ihm als Einzigem bekannt gewesen (vgl. seinen Brief an Gottlieb Theodor Weber, 26. August 1785; <ref target="gb:dokument#1577">GB 6, Nr 133</ref>), ist die Forschung auf das angewiesen, was indirekt aus den überlieferten Briefen Goethes an Krafft hervorgeht sowie aus dessen Berichten aus Ilmenau, deren Konzepte sich erhalten haben. Sie finden sich in einer Kladde mit grün-gelb-rot marmoriertem Deckel und folgendem Inhalt (H: <ref target="archivdb:dokument#76032">GSA 62/37</ref>; im Folgenden abgekürzt „Berichte“):</p>
+  <table>
+    <row>
+      <cell><p>Bl. 1–17</p></cell>
+      <cell><p>Kurtzer Begriff der Beschaffenheit von Ilmenau</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 18–33</p></cell>
+      <cell><p>2<hi rendition="#sup">ter</hi> Beytrag zur Ilmenauischen Geschichte</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 34–35</p></cell>
+      <cell><p>Noch etwas zur Zugabe</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 36</p></cell>
+      <cell><p>vacat</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 37–39</p></cell>
+      <cell><p>Noch was von Ilmenau, gehört nicht für aller augen</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 40</p></cell>
+      <cell><p>vacat</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 41–52</p></cell>
+      <cell><p>Beyträge zu den Ilmenauischen Sachen</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 53–73</p></cell>
+      <cell><p>Vom neuen Amtmann</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 74</p></cell>
+      <cell><p>vacat</p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 75–80</p></cell>
+      <cell><p>Ilmenau den 28<hi rendition="#sup">t</hi> Octobr. 1779 <supplied>Brief an Goethe; vgl. <ref target="ra:dokument#115">RA 1, 75, Nr 103</ref></supplied></p></cell>
+    </row>
+    <row>
+      <cell><p>Bl. 81–82</p></cell>
+      <cell><p>Ilmenau den 1<hi rendition="#sup">t</hi> Novbr. 1779 <supplied>Brief an Goethe; vgl. <ref target="ra:dokument#116">RA 1, 75 f., Nr 104</ref></supplied></p></cell>
+    </row>
+    <row>
+      <cell><p>alte Paginierung:</p></cell>
+    </row>
+    <row>
+      <cell><p>S. 1–24</p></cell>
+      <cell><p>Ilmenau den 29<hi rendition="#sup">t</hi> Novbr. 1779 <supplied>Brief an Goethe; vgl. <ref target="ra:dokument#117">RA 1, 76, Nr 105</ref></supplied></p></cell>
+    </row>
+  </table>
+  <space unit="lines" quantity="1"/>
+  <p>Einige Informationen über Krafft sind auch den Vorarbeiten zu einer von Goethe geplanten Biographie des Herzogs Bernhard von Sachsen-Weimar (H: <ref target="archivdb:dokument#5433">GSA 25/W 3595</ref> sowie <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Historische Drucke und Schriften F 47–50) zu entnehmen, die Krafft im Auftrag Goethes anfertigte. Was sich auf diese Weise zusammentragen lässt, ist dies: Aus Ilmenau schrieb Krafft, er komme aus einer „<hi rendition="#hervor1">feineren</hi>, den <hi rendition="#hervor1">Geist nährenden</hi>“ Umgebung (Berichte, Bl. 31v), vermutlich aus einer Großstadt, denn nach eigener Angabe war er „kleiner Städte Lebensarth überhaubt nicht gewohnt“ (ebd.). Vielleicht kam er aus Berlin. Jedenfalls berichtete er in seinem Brief an Goethe vom 11. November 1780, dass er in den 1760er Jahren dort war und mit dem Verleger und Schriftsteller Friedrich Nicolai zu tun hatte (in den Auszügen zu einer Biographie des Herzogs Bernhard; H: <ref target="archivdb:dokument#5433">GSA 25/W 3595</ref>; vgl. auch <ref target="ra:dokument#141">RA 1, 83, Nr 128</ref>), möglicherweise als einer der Mitarbeiter an dessen „Beschreibung der Königlichen Residenzstädte Berlin und Potsdam“ (Berlin 1769). Er scheint ein Amt in preußischen Diensten bekleidet zu haben: Goethe riet ihm in seinem Brief vom 11. November 1778, sein Inkognito zu wahren, aber <quote type="G">den Titel Sekretair</quote> (<ref target="gb:text#GB03_1_BR413_0_236_012">236,12</ref>) zu behalten. Dazu passt, dass Krafft selbst in seinen Berichten schreibt: „So oft <hi rendition="#hervor1">ich</hi> was unternommen, ein Geschäffte verrichtet habe, habe ich mich <hi rendition="#hervor1">niemahls an</hi> Regeln des <hi rendition="#hervor1">Collegii</hi> gebunden. Ich habe nach <hi rendition="#hervor1">der</hi> Sache mich gerichtet, mir erst den möglichst deutlichen Begriff davon zu wege bringen gesucht, und dann, so wie es meine gesunde Vernunft mich lehrte, solche behandelt. Ich bin immer gut dabey gefahren, noch nie hat ein Minister geklagt daß ich was nicht ordentlich besorgt hätte“ (Berichte, Bl. 15v). An anderer Stelle heißt es: „Meine Käntniße von hier <supplied>Ilmenau</supplied> muß ich nur nach und nach erlangen. Bey andern Ländern halff mir meine Verbindung mit angesehenen Personen, meine ziemlich ansehnliche Aemter und Stellen die ich bekleidete, und da, wo ich nicht in Diensten war, mein Rang, der mir überall Zutrit und Bekandtschafft machte, und der starcke Aufwand den ich machen konte.“ (Berichte, Bl. 18r.) Demnach ist Krafft gereist; dafür sprechen auch die volkswirtschaftlichen Ausführungen in seinen Berichten aus Ilmenau, denen genaue Kenntnis der Verhältnisse in verschiedenen deutschen Städten zugrunde liegt (vgl. Berichte, Bl. 32r, 63r).</p>
+  <p>Dass Krafft sich mit ökonomischen Fragen beschäftigt hatte, zeigen nicht nur seine detaillierten Analysen der wirtschaftlichen Missstände in Ilmenau, sondern auch eine <quote type="G">Schrifft über Lottos </quote> (<ref target="gb:text#GB03_1_BR481_0_268_019">268,19</ref>), die er verfasste (vgl. zu <ref target="gb:note#GB03_2_BR481_0_note_011_268_19">268,19</ref>), sowie sein Goethe unterbreitetes Angebot, er könne ihm als verdeckter ‚Inspektor‘ dienlich sein: „Was ich wolte daß denn zum Besten des Herzog<g ref="#typoSuspension"/>. Intereße und des landes geschähe, wäre dies: Es müßte iemand das <hi rendition="#hervor1">gantze</hi> land durchreisen, doch ohne Caracter, nur als privat Person. So viel er als privat Person könnte, Acht haben, wo Fehler stäcken, und wo Unordnungen <gap quantity="3" reason="editorial"/> in die Machine des Staats Rads gekommen <gap quantity="3" reason="editorial"/>. Freylich müste dann ein solcher Mann nicht mit denen Collegiis sondern nur mit <hi rendition="#hervor1">einem</hi> zu thun haben, der Macht hätte die gesamlete Käntniße zu nutzen.“ (Berichte, Bl. 47r.) Seine Briefe und Berichte weisen Krafft schließlich als gebildeten und belesenen Mann aus, dem lateinische Zitate ebenso zur Verfügung stehen (vgl. Berichte, Bl. 12r, 24r, 46v, 61v) wie die Bezugnahme auf Literatur (vgl. Berichte, Bl. 35r, 45r, 80v).</p>
+  <p>Welches Schicksal ihn getroffen und worin seine Mitschuld an seiner Notlage bestanden hat, bleibt im Dunkeln. Seine „Berichte“ enthalten lediglich einige Andeutungen: „Viele solcher Collegien würden an mir einen strengen Richter finden, da ich nicht zu heucheln, oder langsahm eine Sache zu treiben gewohnt bin. Ich schicke mich deswegen heutiges <unclear reason="illegible">tages</unclear> gar nicht zu einem Dienst großer Herrn, Ich würde alle Augenblick Anstoß haben, und nicht lange bleiben. Die Menge mit der ich gewiß streiten müste um diese lernæische Schlange in denen Collegiis auszurotten, würde mich bald unterdrücken.“ (Berichte, Bl. 2v/3r.) Dem entspricht das Bekenntnis: „<gap quantity="3" reason="editorial"/> ich leide zu viel bey Ungerechtigkeiten, wenn sie mich gleich selbst nicht betreffen, meine Seele hat nun einmahl diese Richtung“ (Berichte, Bl. 46v). In Goethes Brief an ihn vom 10. Februar 1780 heißt es: <quote type="G">Sie haben den Fehler der zu großen Ängstlichkeit und daß Ihre immer geschäftige Imagination alles aneinander hängt, und überall Sturz und Fall und das Ende aller Dinge zu sehen gewohnt ist.</quote> (<ref target="gb:text#GB04_1_BR015_0_015_019 #GB04_1_BR015_0_016_001">GB 4 I, 15,19-16,1</ref>.) Damit korrespondiert folgende Feststellung in Goethes Brief vom 31. Januar 1781: <gap quantity="3" reason="editorial"/> <quote type="G">diese unselige Unruhe, die Sie jetzt martert, hat das Unglück Ihres ganzen Lebens gemacht, und Sie sind mit 1000 Thalern nie zufriedener gewesen als jetzt mit den 200, weil Ihnen immer noch was zu wünschen übrig blieb, und Sie sich nie gewöhnt haben, Ihre Seele in den Gränzen der Nothwendigkeit zu halten.</quote> (<ref target="gb:text#GB04_1_BR269_0_198_004 #GB04_1_BR269_0_198_008">GB 4 I, 198,4-8</ref>.)</p>
+  <p>Dieser Unbekannte hielt sich im Herbst 1778 in Gera auf und hatte von dort Goethe brieflich um Hilfe gebeten. Aus welchem Grund er Goethe zum Adressaten seines Hilfegesuchs machte, ist nicht bekannt. Möglicherweise gründete sich sein Vertrauen auf Goethe als Autor der „Leiden des jungen Werthers“, wie es im Jahr zuvor bei Friedrich Victor Leberecht Plessing der Fall gewesen war, der auch Rat suchende Briefe an Goethe geschrieben hatte (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>). Bekannt ist ebenso wenig, was Goethe bewog, dem ihm völlig Unbekannten, den er erst zwei Jahre später, am 5. September 1780 in Ilmenau, persönlich kennen lernte, allein aufgrund der <quote type="G">Vorstellung</quote> von ihm, die er sich <quote type="G">aus den Briefen</quote> (<ref target="gb:text#GB03_1_BR410_0_233_013">233,13</ref>) machte, Unterstützung in erheblichem Umfang zu gewähren. Goethe selbst nannte in seinem Brief an Krafft vom 23. November 1778 <quote type="G">iugendlichen guten Willen, Muth und Leichtsinn</quote> (<ref target="gb:text#GB03_1_BR416_0_238_019">238,19</ref>) als Motive seiner Hilfeleistung, die nicht nur in Zuspruch und Rat bestand, sondern auch in der Übersendung von Kleidung, Stiefeln und Strümpfen (vgl. <ref target="gb:text#GB03_1_BR413_0_236_001">236,1</ref>) sowie Büchern (vgl. <ref target="gb:text#GB03_1_BR499_0_278_016">278,16</ref>; <ref target="gb:text#GB03_1_BR508_0_282_010 #GB03_1_BR508_0_282_011">282,10–11</ref>), Zeitungen (vgl. <ref target="gb:text#GB03_1_BR517_0_287_010">287,10</ref>) und Schreibutensilien (vgl. <ref target="gb:text#GB03_1_BR515_0_285_005 #GB03_1_BR515_0_285_006">285,5–6</ref>). Vor allem aber gewährte Goethe ihm jahrelang finanzielle Zuwendungen, die zunächst 100 Reichstaler im Jahr betrugen, von 1781 an 200 Reichstaler, eine beträchtliche Summe, die dem Einkommen eines mittleren Weimarer Kanzleibeamten entsprach. Darüber hinaus dürfte sich Goethe an der Grenze zur Illegalität bewegt haben, wenn er einem Mann, der sich offensichtlich den Behörden entziehen wollte, zu einer neuen Identität und einem Versteck verhalf (vgl. <ref target="gb:dokument#39">Nr 413</ref>). Seinem Vorschlag, ihn unauffällig in Jena unterzubringen (vgl. <ref target="gb:text#GB03_1_BR413_0_236_003 #GB03_1_BR413_0_236_006">236,3–6</ref>; <ref target="gb:text#GB03_1_BR416_0_237_020 #GB03_1_BR416_0_238_003">237,20–238,3</ref>; <ref target="gb:text#GB03_1_BR419_0_239_017 #GB03_1_BR419_0_240_021">239,17–240,21</ref>), mochte Krafft, durch <quote type="G">hypochondrische Angstlichkeit</quote> (<ref target="gb:text#GB03_1_BR419_0_239_016 #GB03_1_BR419_0_239_017">239,16–17</ref>) gehindert, nicht folgen. Es gelang Goethe aber, ihn im Mai 1779 (vgl. Berichte, Bl. 41r]) zur Übersiedlung nach Ilmenau zu bewegen, wo er von August an im Haus des Kaufmanns Julius Michael Rieth wohnte (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR515_0_note_010_286_1">286,1</ref>; außerdem zu <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3">268,1-3</ref>).</p>
+  <p>Um Krafft zu beschäftigen, bat Goethe ihn, sich einen Überblick über die desolaten sozialen und ökonomischen Verhältnisse in Ilmenau zu verschaffen und ihm die gewonnenen Informationen in Form von Berichten zur Verfügung zu stellen. Drei Berichte dieser Art sind im Konzept überliefert (<ref target="archivdb:dokument#76032">GSA 62/37</ref>; s. o.), zu Briefen an Goethe vom 28. Oktober, 1. November und 29. November 1779 (vgl. <ref target="ra:dokument#115">RA 1, 75 f., Nr 103</ref>, <ref target="ra:dokument#116">104</ref> und <ref target="ra:dokument#117">105</ref>). Darüber hinaus ließ Goethe seinen Schützling für eine geplante, jedoch nicht zustande gekommene Biographie Auszüge aus Akten, das Leben des Herzogs Bernhard von Sachsen-Weimar betreffend, anfertigen (vgl. oben; ferner <ref target="ra:dokument#141">RA 1, 83 f., Nr 128</ref>, <ref target="ra:dokument#142">129</ref>, <ref target="ra:dokument#144">131</ref> und <ref target="ra:dokument#145">132</ref>). Schließlich betraute Goethe Krafft im Juli 1779 mit der Aufsicht über Peter im Baumgarten (vgl. <ref target="gb:dokument#57">Nr 515</ref>), den schwer erziehbaren Schweizer Hirtenjungen, der in Ilmenau zum Jäger ausgebildet werden sollte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>). Auch über ihn lieferte Krafft Berichte und machte Vorschläge, wie auf dessen weitere Entwicklung Einfluss genommen werden könne (vgl. seine Briefe an Goethe vom 28. Oktober und vom 29. November 1779 [H: <ref target="archivdb:dokument#76032">GSA 62/37</ref>, Bl. 78 f. und 23; vgl. <ref target="ra:dokument#115">RA 1, 75 f., Nr 103</ref> und <ref target="ra:dokument#117">105</ref>]). Krafft scheint sich auch um einen anderen Jungen gekümmert zu haben, Carl Ackermann, den Sohn des Ilmenauer Amtmanns Heinrich Anton Ackermann. Dessen ältester Sohn Ernst Wilhelm Ackermann berichtet überaus kritisch: „Dieser weit herum gewesene Mann <supplied>Krafft</supplied> nahm unsern Karl ganz ein, hatte ihn Tagelang bei sich, und unterrichtete ihn in mancherlei Zweigen des Wissens, mag aber, wie wir später eingesehn, dem empfänglichen Gemüth heillose Grundsätze, vielleicht auch lascive Verirrungen beigebracht haben. Der Knabe wurde sehr verschlossen, und was er an Kenntnißen gewann, ging an Tugend verloren.“ (Lebensabriß E. Chr. W. Ackermann’s <gap quantity="3" reason="editorial"/> nach eigenhändigen Niederschreibungen und aus den Papieren des Verewigten <gap quantity="3" reason="editorial"/> entworfen von dessen jüngstem Sohne. Jena 1836, S. 42. – Näheres zu den Vorwürfen konnte nicht ermittelt werden.) Bei aller Hilfe ließ es Goethe in einem Punkt an Unterstützung fehlen: bei Kraffts Wunsch, irgendein Amt im Herzogtum zu bekommen. Ein Grund dafür war dessen Veranlagung; in Goethes Tagebuch heißt es im Mai 1780: <quote type="G">Für Krafft ists schade er sieht die Mängel gut, und weis selbst nicht eine Warze wegzunehmen. Wenn er ein Amt hätte würf er alles mit dem besten Vorsaz durcheinander, daher auch seine Schicksaale</quote> (<ref target="gt:dokument#855">GT I 1, 111</ref>); er sei zwar <quote type="G">ein edler Mensch</quote>, aber: <quote type="G">In der Nähe ists unangenehm so einen Nagewurm zu haben der, untätig einem immer vorjammert was nicht ist wie es seyn sollte.</quote> (<ref target="gt:dokument#855">Ebd.</ref>) Einen weiteren Grund lieferte Krafft, als Ende 1779 eine Untersuchung des Konsistoriums gegen ihn in Gang kam, die zu einer Geldstrafe führte. Vermutlich ging es um die Beziehung zu einer verheirateten Frau; Goethe notierte unter dem 17. Januar 1780 in sein Tagebuch: <quote type="G">Kraffts Epistel p sexti.</quote> (<ref target="gt:dokument#789">GT I 1, 103</ref>; puncto sexti: bezüglich des christlichen Sechsten Gebots [nach der lutherischen und der römisch-katholischen Tradition], das den Ehebruch verbietet.) Statt auf Goethes Rat die Strafe stillschweigend zu zahlen, beantragte Krafft Straferlass; die Sache kam vor das Geheime Consilium, das dem Antrag stattgab. Damit aber war für Krafft der Weg in ein öffentliches Amt versperrt. Als er einige Jahre später noch einmal den Versuch unternahm, eine Anstellung zu erhalten, beschied Goethe ihn in einem Brief vom 3. September 1783: <quote type="G"><gap quantity="3" reason="editorial"/> es ist für Ihren Gemüthszustand besser, daß Sie in der Stille leben.</quote> (<ref target="gb:text#GB05_1_BR460_0_267_006 #GB05_1_BR460_0_267_007">GB 5 I, 267,6-7</ref>.) Dies tat Krafft zwei weitere Jahre in Ilmenau; Ende März 1785 ging er nach Jena, aus welchem Grund, ist nicht bekannt. Dort traf ihn bereits am 23. Juli ein Schlaganfall, an dem er am selben Tag starb. Goethe übernahm die Kosten für die Beerdigung, die am folgenden Tag stattfand; im Jenaer Kirchenbuch für 1785 heißt es:</p>
+  <space unit="lines" quantity="1"/>
+  <table type="akkolade">
+    <row>
+      <cell rend="three">
+        <p>23. Julius gestorben</p>
+      </cell>
+      <cell rend="one">
+        <p></p>
+      </cell>
+      <cell rend="eight">
+        <p>Herr Johann Friedrich</p>
+      </cell>
+    </row>
+    <row>
+      <cell rend="three">
+        <p>24.    “     beerdigt</p>
+      </cell>
+      <cell rend="one">
+        <p></p>
+      </cell>
+      <cell rend="eight">
+        <p>Kraft, weder</p>
+      </cell>
+    </row>
+  </table>
+  <p>sein eigenthümlicher Geburtsort, noch übrige Lebens-Umstände, auch Ehren-Stand, sind von ihm nicht bekannt gemacht worden; welcher seint <supplied>sint, seit</supplied> &#xBC; Jahr von Weimar hieher gekommen, und für sich gelebet, starb schnell an einen Schlagfluß und wurde im Bette unvermuthet tod gefunden.</p>
+  <p>(Abschrift in Hermann Mahrs Notizen zum Aufsatz „Kraffts Aufenthalt in Ilmenau“; <ref target="archivdb:dokument#75851">GSA 62/5</ref>. – Darüber, dass sich Krafft in Weimar aufgehalten hat, bevor er in Jena eintraf, ist nichts weiter bekannt.)</p>
+  <p>Von der Korrespondenz Goethes mit Krafft aus den Jahren 1778 bis 1783 sind 21 Briefe Goethes überliefert, zwölf davon aus dem Zeitraum des vorliegenden Bandes; acht weitere – aus der Zeit von Mai 1780 bis Juli 1781 – können aus Goethes Rechnungsbüchern erschlossen werden (vgl. <ref target="sndb:sigle#2654">GR/RB 1780, 3</ref>, Bl. 3r; <ref target="sndb:sigle#2660">GR/RB 1781/82</ref>, Bl. 18r, 25r, 32r, 46r). Von Krafft sind acht Briefe an Goethe aus den Jahren 1779 bis 1781 überliefert; sie enthalten die Berichte aus Ilmenau und die Exzerpte zur Biographie des Herzogs Bernhard von Sachsen-Weimar; der einzige persönliche Brief, der überliefert ist, stammt vom 26. oder 27. Dezember 1781 (vgl. <ref target="ra:dokument#168">RA 1, 90, Nr 154</ref>). Nicht überliefert sind dagegen rund 22 Briefe Kraffts an Goethe, die sich aus dessen Antwortbriefen erschließen lassen (vgl. die Angaben zu Bezugsbriefen im vorliegenden und in den folgenden Bänden, ferner: Rudolf Diezel: Goethes geheimnisvoller Schützling Johann Friedrich Krafft. In: Jahrbuch des Wiener Goethe-Vereins 94 [1990], S. 25, Anm. 17). Goethes Briefe sind offenbar aus Kraffts Nachlass an Charlotte von Stein gekommen; sie wurden zuerst von Adolf Schöll aus dem Kochberger Familienarchiv herausgegeben (vgl. Briefe und Aufsätze von Goethe, 166–189). Seit 1925/26 werden die Handschriften im GSA aufbewahrt. – Literaturhinweis: <ref target="sndb:sigle#958">Voigt</ref>,  84–107.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb38_comment_com15601">
+<label xml:id="GB03_2_BR410_0_note_001_233_17-19" copyOf="#start_com_3531"><hi rendition="#fett">233,17-19</hi>Um diesen Teich <gap quantity="3" reason="editorial"/> wandle.</label>
+<p>Im Johannes-Evangelium 5,1–9 wird vom Teich Bethesda in Jerusalem erzählt. In fünf Säulenhallen warteten dort viele Kranke darauf, durch ein Bad in dem Wasser geheilt zu werden. Ein Engel des Herrn stieg zu bestimmten Zeiten in den Teich hinab und ließ das Wasser aufwallen. Wer dann als Erster ins Wasser stieg, wurde gesund. Einen der Kranken, der schon Jahrzehnte krank war, aber ohne Hilfe das Wasser nicht erreichen konnte, heilte Jesus, indem er sagte: „Stehe auf, nimm dein bette, und gehe hin.“ (Luther-Bibel 1772 NT, 98.)</p>
+
+</note>
+<note xml:id="gb38_comment_com5291">
+<label xml:id="GB03_2_BR410_0_note_002_233_20" copyOf="#start_com_3532"><hi rendition="#fett">233,20</hi>was ich Ihnen geben kan</label>
+<p>Als Soforthilfe schickte Goethe Krafft offenbar einen kleineren Geldbetrag, bevor er ihm von Januar 1779 an 25 Reichstaler pro Quartal zur Verfügung stellte (vgl. <ref target="gb:text#GB03_1_BR419_0_240_022 #GB03_1_BR419_0_240_024">240,22–24</ref>).</p>
+
+</note>
+<note xml:id="gb38_comment_com5281">
+<label xml:id="GB03_2_BR410_0_note_003_233_22" copyOf="#start_com_3533"><hi rendition="#fett">233,22</hi>Bleiben Sie <gap quantity="3" reason="editorial"/> wo Sie sind</label>
+<p>In Gera.</p>
+
+</note>
+<note xml:id="gb38_comment_com5282">
+<label xml:id="GB03_2_BR410_0_note_004_233_23-24" copyOf="#start_com_3534"><hi rendition="#fett">233,23-24</hi>Melden Sie mir die Ankunft des Gelds</label>
+<p>Ein entsprechender Brief Kraffts ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb38_comment_com5283">
+<label xml:id="GB03_2_BR410_0_note_005_233_25" copyOf="#start_com_3535"><hi rendition="#fett">233,25</hi>Kleid, Uberrock, Stiefeln, warmen Strümpfen</label>
+<p>Mit seinem Brief vom 11. November 1778 (<ref target="gb:dokument#39">Nr 413</ref>) sandte Goethe diese Sachen nach Gera; der Brief traf allerdings eher ein als das dazugehörige Paket, das aus Versehen liegen geblieben war (vgl. <ref target="gb:text#GB03_1_BR413_0_236_019 #GB03_1_BR413_0_236_020">236,19–20</ref>).</p>
+
+</note>
+<note xml:id="gb38_comment_com5284">
+<label xml:id="GB03_2_BR410_0_note_006_234_1" copyOf="#start_com_3536"><hi rendition="#fett">234,1</hi>Balsams</label>
+<p>Dem wohlriechenden Harz des arabischen Balsambaumes, angebaut auch in Palästina, wurde „eine heilende Kraft“ (<ref target="sndb:sigle#2753">Adelung</ref> 1, 706) zugesprochen.</p>
+
+</note>
+<note xml:id="gb38_comment_com5285">
+<label xml:id="GB03_2_BR410_0_note_007_234_1" copyOf="#start_com_3537"><hi rendition="#fett">234,1</hi>kompendiosen</label>
+<p>Hier: sparsam, bescheiden (lat. compendium: [u. a.] Ersparnis).</p>
+
+</note>
+<note xml:id="gb38_comment_com5286">
+<label xml:id="GB03_2_BR410_0_note_008_234_2" copyOf="#start_com_3538"><hi rendition="#fett">234,2</hi>des dienstfertigen Samariters</label>
+<p>Im Evangelium des Lukas 10,29–37 fragt ein Gesetzeslehrer Jesus, wer denn sein Nächster sei, den er lieben solle wie sich selbst. Darauf erzählt Jesus die Geschichte eines von Räubern halbtot geschlagenen Mannes, dem weder von einem Priester noch von einem Leviten, die vorüberkamen, geholfen wurde. Erst ein Mann aus Samaria nahm sich seiner an.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

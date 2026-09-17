@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2990"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11775" n="GB 3, Nr. 293">
+  <teiHeader xml:id="gb11775_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>293.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 29. Oktober 1777. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11775_tei.xml</idno>
+        <idno type="URI">gb11775</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR293_0</idno>
+        <idno type="KSW-ID">11775</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="171" to="171">171</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="582" to="583">582-583</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11775_header_hwit1253" corresp="#gb11775_source_hwit1253" sameAs="#gb11775_comment_hwit1253" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 60</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11775,,1253/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich habe mich heut den ganzen Tag geplagt Ihnen was zu zeichnen. Durch plagen kommt man</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11775_header_acc382" corresp="gb11775_comment_acc382">
+            <objectIdentifier>
+              <objectName>Grußkarten.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-10-29">29. Oktober 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11775_source_hwit1253" corresp="#gb11775_header_hwit1253" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11775/22681"/>
+      <p>
+        <anchor xml:id="GB03_1_BR293_0_171_008"/>Ich habe mich heut <ref target="gb:note#GB03_2_BR293_0_note_001_171_8" xml:id="start_com_2566"/>den ganzen Tag geplagt<ref xml:id="end_com_2566"/> ihnen was zu zeichnen.
+<anchor xml:id="GB03_1_BR293_0_171_009"/>Durch plagen kommt man zu nichts seh ich wohl. Dancke für <ref target="gb:note#GB03_2_BR293_0_note_002_171_9-10" xml:id="start_com_2567"/>alles 
+<anchor xml:id="GB03_1_BR293_0_171_010"/>überschickte<ref xml:id="end_com_2567"/>, und wünsche dass die <ref target="gb:note#GB03_2_BR293_0_note_003_171_10" xml:id="start_com_2568"/>Misels<ref xml:id="end_com_2568"/> alle Spuren von mir mögen 
+<anchor xml:id="GB03_1_BR293_0_171_011"/>ausgelöscht haben. <ref target="gb:note#GB03_2_BR293_0_note_004_171_11" xml:id="start_com_2569"/>Weise Karten<ref xml:id="end_com_2569"/> kommen hier. <ref target="gb:note#GB03_2_BR293_0_note_005_171_11" xml:id="start_com_2570"/>Heut Abend lang<ref xml:id="end_com_2570"/>
+        <anchor xml:id="GB03_1_BR293_0_171_012"/>zum erstenmal hab ich auch wieder <ref target="gb:note#GB03_2_BR293_0_note_006_171_12" xml:id="start_com_2571"/>griechische Worte<ref xml:id="end_com_2571"/> geschrieben. 
+<anchor xml:id="GB03_1_BR293_0_171_013"/>Es ist still still bey mir, eigentlich um mich. Den ums Herz ists nicht 
+<anchor xml:id="GB03_1_BR293_0_171_014"/>gar so. Ade</p>
+      <closer>
+        <dateline rendition="#einrueck10">
+          <anchor xml:id="GB03_1_BR293_0_171_015"/>d<g ref="#typoSuspension"/>. 29 Okbr 77.</dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11775/22682"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11775_comment">
+<body>
+<div type="metadata" xml:id="gb11775_comment_com1144">
+  <ab type="numberAddressee"><label>293.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 29. Oktober 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11775_comment_com3188">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 60. – 1 Bl. 8,2 × 5,7 cm, Pappkärtchen, 1 S. beschr., egh., Tinte; Rs. colorierte französische Spielkarte (Karo Bube): Rückenansicht einer männlichen Figur in Rüstung mit Hellebarde in der rechten Hand, Kopf nach rechts gewendet, darunter: „HECTOR“ (vgl. <ref target="gb:digitalisate#11775/22682">Digitalisat</ref>); Vs. oben rechts von fremder Hd, Tinte: „47.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 50), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 120 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 181, Nr 636.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11775_comment_com3778">
+  <p>Grußkarten (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR293_0_note_004_171_11">171,11</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11775_comment_com4984">
+  <p>Der Brief bezieht sich auf eine Sendung Charlotte von Steins, der ein Begleitbillett beigelegen haben könnte (vgl. <ref target="gb:text#GB03_1_BR293_0_171_009 #GB03_1_BR293_0_171_010">171,9–10</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist der erste überlieferte und datierte Brief nach Charlotte von Steins Rückkehr aus Kochberg, die wahrscheinlich am 23. Oktober 1777 erfolgte (vgl. zu <ref target="gb:note#GB03_2_BR291_0_note_011_170_9-10">170,9-10</ref>). Schon im September war in der Korrespondenz eine ungewöhnlich lange Pause eingetreten, zumindest legen dies die überlieferten und sicher zu datierenden Briefe nahe (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11795_comment_com4935">Nr 291</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11775_comment_com15454">
+<label xml:id="GB03_2_BR293_0_note_001_171_8" copyOf="#start_com_2566"><hi rendition="#fett">171,8</hi>den ganzen Tag geplagt</label>
+<p>Im Tagebuch findet sich unter dem 29. Oktober 1777 kein Eintrag; am <ref target="gt:dokument#467">28.</ref> hatte Goethe an der Sitzung des Geheimen Consiliums teilgenommen; Besuche bei Charlotte von Stein sind am <ref target="gt:dokument#463">24.</ref>, <ref target="gt:dokument#465">26.</ref> und <ref target="gt:dokument#469">30.</ref> vermerkt (vgl. GT I 1, 51).</p>
+
+</note>
+<note xml:id="gb11775_comment_com13705">
+<label xml:id="GB03_2_BR293_0_note_002_171_9-10" copyOf="#start_com_2567"><hi rendition="#fett">171,9-10</hi>alles überschickte</label>
+<p>Nicht ermittelt; gemeint sein könnten Lebensmittel, aber auch Manuskripte oder Bücher.</p>
+
+</note>
+<note xml:id="gb11775_comment_com18055">
+<label xml:id="GB03_2_BR293_0_note_003_171_10" copyOf="#start_com_2568"><hi rendition="#fett">171,10</hi>Misels</label>
+<p>Junge Mädchen (vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>); möglicherweise die Schwestern Sophie und Caroline von Ilten (vgl. zu <ref target="gb:note#GB03_2_BR097_0_note_010_59_16">59,16</ref>), die im Frühjahr 1777 in Goethes Tagebuch häufig zusammen mit Charlotte von Stein erwähnt werden, so am <ref target="gt:dokument#358">20.</ref>, <ref target="gt:dokument#359">21.</ref> und <ref target="gt:dokument#361">23.</ref> Mai (vgl. GT I 1, 42); unter dem 2. Juni findet sich im Tagebuch der Eintrag <quote type="G">die Misels</quote> (<ref target="gt:dokument#367">ebd.</ref>), womit offenbar ebenfalls die Schwestern von Ilten gemeint sind.</p>
+
+</note>
+<note xml:id="gb11775_comment_com11345">
+<label xml:id="GB03_2_BR293_0_note_004_171_11" copyOf="#start_com_2569"><hi rendition="#fett">171,11</hi>Weise Karten</label>
+<p>Hier wahrscheinlich unbedruckte oder einseitig bedruckte Kärtchen in der Art wie die Karte, auf die der vorliegende Brief geschrieben wurde (vgl. <ref target="gb:note#gb11775_comment_com3188">Überlieferung</ref>).</p>
+
+</note>
+<note xml:id="gb11775_comment_com11346">
+<label xml:id="GB03_2_BR293_0_note_005_171_11" copyOf="#start_com_2570"><hi rendition="#fett">171,11</hi>Heut Abend lang</label>
+<p>Im Sinne von ‚den ganzen Abend lang‛.</p>
+
+</note>
+<note xml:id="gb11775_comment_com11347">
+<label xml:id="GB03_2_BR293_0_note_006_171_12" copyOf="#start_com_2571"><hi rendition="#fett">171,12</hi>griechische Worte</label>
+<p>Was Goethe schrieb, ist nicht zu klären (zu Goethes Griechisch-Studium vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_005_29_12">29,12</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1570"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11146" n="GB 3, Nr. 155">
+  <teiHeader xml:id="gb11146_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>155.</label> An <persName key="sndb:person#38523">Philipp Christoph Kayser</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 15. August 1776. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:15:56Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11146_tei.xml</idno>
+        <idno type="URI">gb11146</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR155_0</idno>
+        <idno type="KSW-ID">11146</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="97" to="97">97</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="361" to="366">361-366</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11146_header_hwit1035" corresp="#gb11146_source_hwit1035" sameAs="#gb11146_comment_hwit1035" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/260,I Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8270</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11146,,1035/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wir gehen nicht nach Italien. Dieß zu deiner Beruhigung. Ich trag dich immer im Herzen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-08-15">15. August 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38523">Kayser, Philipp Christoph</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11146_source_hwit1035" corresp="#gb11146_header_hwit1035" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11146/11650"/>
+      <p>
+        <anchor xml:id="GB03_1_BR155_0_097_005"/>
+        <ref target="gb:note#GB03_2_BR155_0_note_001_97_5" xml:id="start_com_1495"/>Wir<ptr n="1" target="#a001_97.5"/> gehn nicht nach Italien.<ref xml:id="end_com_1495"/> Dies zu deiner Beruhigung. Ich trag dich 
+<anchor xml:id="GB03_1_BR155_0_097_006"/>immer am Herzen. <ref target="gb:note#GB03_2_BR155_0_note_002_97_6" xml:id="start_com_1496"/>Schick mir offt was.<ref xml:id="end_com_1496"/> Bleib ruhig in Zürch! <ref target="gb:note#GB03_2_BR155_0_note_003_97_6-7" xml:id="start_com_1497"/>So ihr 
+<anchor xml:id="GB03_1_BR155_0_097_007"/>stille wäret würde euch geholfen<ref xml:id="end_com_1497"/> – – – Schick mir doch das:</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR155_0_097_008"/>
+        <ref target="gb:note#GB03_2_BR155_0_note_004_97_8" xml:id="start_com_1498"/>Ihr verblühet süse Rosen<ref xml:id="end_com_1498"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR155_0_097_009"/>Nach der <ref target="gb:note#GB03_2_BR155_0_note_005_97_9" xml:id="start_com_1499"/>französchen Melodie<ref xml:id="end_com_1499"/> die Du zugerichtet hast. Grüss <ref target="gb:note#GB03_2_BR155_0_note_006_97_9" xml:id="start_com_1500"/>Bäben<ref xml:id="end_com_1500"/>. 
+<anchor xml:id="GB03_1_BR155_0_097_010"/>
+        <ref target="gb:note#GB03_2_BR155_0_note_007_97_10" xml:id="start_com_1501"/>Lenz ist hier.<ref xml:id="end_com_1501"/> Leb wohl. es wird uns allen noch gut seyn.</p>
+      <closer>
+        <dateline rendition="#einrueck20">
+          <anchor xml:id="GB03_1_BR155_0_097_012"/>
+          <anchor xml:id="GB03_1_BR155_0_097_011"/>d<g ref="#typoSuspension"/>. 15. Aug 76.</dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11146/11651" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11146_comment">
+<body>
+<div type="metadata" xml:id="gb11146_comment_com1334">
+  <ab type="numberAddressee"><label>155.</label> An <persName key="sndb:person#38523">Philipp Christoph Kayser</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 15. August 1776 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11146_comment_com3378">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8270">GSA 29/260,I</ref>, Bl. 1. – 1 Bl. 10,5 × 17,8 cm, Bordüre mit zwei Balken, umwunden von einer Ranke (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 5), 1 S. beschr., egh., Tinte; Rs. Empfangsvermerk, rote Tinte: „v Göthe d. 15 Augst 76“; Vs. <quote type="G">Grüss Bäben</quote> (<ref target="gb:text#GB03_1_BR155_0_097_009">97,9</ref>) von fremder Hd (Riemer?) durch Tintenschlingen unleserlich gemacht (vgl. <ref target="gb:note#GB06_2_BR199_0_note_013_129_16">GB 6 II, zu 129,16</ref>), oben links über dem Text von fremder Hd, Tinte: „N<hi rendition="#sup #u">o</hi> 1“.</p>
+  <p>E: <ref target="sndb:sigle#2784">Burkhardt, Goethe/Kayser</ref> (1879), 60, Nr 1.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 97, Nr 498 (nach einer Abschrift von Riemer sowie E; Hinweis auf H und Textkorrekturen in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11146_comment_com5174">
+  <p>Aus dem Inhalt des Briefes scheint hervorzugehen, dass er auf einen Brief Kaysers antwortet (vgl. zu <ref target="gb:note#GB03_2_BR155_0_note_001_97_5">97,5</ref>); dieser ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p>Philipp Christoph Kayser (1755–1823) war der Sohn des an der St. Katharinenkirche in Frankfurt tätigen Organisten Johann Matthäus Kayser und dessen Frau Christine Philippine geb. Kayser. Schon vor seinem Besuch des Frankfurter Gymnasiums von 1762 bis 1768 erwies sich der Junge als außergewöhnlich guter Klavierspieler. Deshalb gab ihn der Vater nach der Schulzeit zur weiteren Ausbildung in die Obhut des Reuß-Plauischen Hoforganisten Georg Andreas Sorge in Lobenstein (Thüringen). 1770 wieder nach Frankfurt zurückgekehrt, arbeitete Kayser als Klavierlehrer; er schloss sich dem Freundeskreis um Goethe, Friedrich Maximilian Klinger, den er vom Gymnasium her kannte, und Heinrich Leopold Wagner an. Von ihnen angeregt, betätigte er sich nicht nur als Komponist, sondern versuchte sich auch in der Poesie. Ende 1775 erschien im von Johann Heinrich Voß herausgegebenen „Musenalmanach für das Jahr 1776“ (S. 104) ein Gedicht Kaysers, es folgten einige weitere in Schubarts „Deutscher Chronik“ (102. Stück. 21. Dezember 1775, S. 814) und 1776 im September-Heft des „Teutschen Merkur“ (S. 200–203). Dasselbe Heft brachte Kaysers Aufsatz „Empfindungen eines Jüngers in der Kunst vor Ritter Glucks Bildniße“ (S. 233–247; vgl. die Sammlung von Volkmar Braunbehrens: Gedichte und Aufsätze Kaysers, mit Nachweisen und Varianten. In: Busch-Salmen, Ph. Ch. Kayser, 293–340). Goethe schätzte ihn als Klavierspieler und Komponisten und vermittelte den Druck seiner Kompositionen, so der „Vermischten Lieder mit Melodien aufs Clavier“ (Winterthur 1775). Er ermunterte ihn, einige seiner Gedichte zu vertonen; die Kompositionen erschienen in einer Sammlung von 85 Gesängen mit Klavierbegleitung, die Goethe 1777/78 in ein privates Notenbuch abschreiben ließ (<ref target="archivdb:dokument#64900">GSA 32/1477</ref>; 72 Bl., 143 beschriebene Seiten); die ersten 71 Kompositionen dieser Sammlung stammen vermutlich von Kayser (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR303_0_note_005_175_14">175,14</ref>). Auch Kaysers „Gesänge, mit Begleitung des Claviers“ (Leipzig und Winterthur 1777) enthalten Kompositionen zu Gedichten Goethes.</p>
+  <p>Im Frühjahr 1775 ging Kayser, vermutlich um den Absichten seines Vaters, der ihn zum Kirchenmusiker machen wollte, zu entkommen und sich gleichzeitig aus einer vom Vater missbilligten Beziehung zu lösen, auf Empfehlung Goethes zu Lavater nach Zürich, wo er bis zu seinem Tod blieb. Er arbeitete als Musiklehrer – er unterrichtete u. a. die Töchter von Barbara Schultheß, einer Freundin Lavaters und Goethes –, spielte in verschiedenen Orchestern und trat als Mitglied der Zürcher Loge „Modestia cum libertate“ dem Orden der Freimaurer bei, als deren Sekretär und Archivar er sich verdient machte. Jedoch introvertiert und zur Melancholie neigend, erwarb er sich den Ruf eines „edeln Sonderlings“; so nannte ihn der mit ihm befreundete Zürcher Schriftsteller und Politiker David Hess (Flüchtige Notitzen über P. C. Kayser gesammelt von Dav. Heß. Januar 1824; H: Zentralbibliothek Zürich, FA David Hess 39.1, S. 13). Schon 1776 scheint er sich mit Selbstmordgedanken getragen zu haben; in einem Brief Christian Friedrich Daniel Schubarts an Kayser von Mai 1776 heißt es: „Dein Brief, lieber Kaiser ist wie der Monolog eines Menschen, der sich eben morden will. Tausend Gottswillen! was haben dir die Menschen gethan, daß du sie sogar mit Timons Wuth verwünschest?“ (<ref target="sndb:sigle#3082">Schubart, Briefwechsel</ref> 1, 280.) Als Goethe den Frankfurter Freund im November/Dezember 1779 auf seiner zweiten Reise in die Schweiz in Zürich wiedersah, trug er ihm die Komposition des soeben entstandenen Singspiels „Jery und Bätely“ auf. Im Brief vom 29. Dezember 1779 (<ref target="gb:dokument#10846">Nr 560</ref>) geht Goethe ausführlich darauf ein. Kayser brachte diese Arbeit ebenso wenig zustande wie spätere Kompositionen im Auftrag Goethes, der einen Aufenthalt des Musikers in Weimar von Januar bis Mai 1781 dazu nutzte, mit ihm weitere Singspiele zu planen. Goethes Wunsch, <quote type="G">sein</quote> <supplied>Kaysers</supplied> <quote type="G">Leben hier soll ihn geschmeidiger machen</quote> (Brief an Lavater, 19. Februar 1781; <ref target="gb:text#GB04_1_BR291_0_209_027 #GB04_1_BR291_0_209_028">GB 4 I, 209,27-28</ref>), erfüllte sich nicht. Kayser fand sich in Gesellschaft und am Hof nicht zurecht. So fasste Goethe den Gedanken, ihm mit Hilfe des Herzogs Carl August den Weg nach Wien zu ebnen, um ihm die Möglichkeit zu verschaffen, sich im Umkreis Glucks weiterzuentwickeln. Dieses Angebot nahm Kayser nicht an, sei es aus Unentschlossenheit, sei es, weil Gluck in einem Brief vom 21. August 1781 an den Herzog mitgeteilt hatte, er sei krank und könne sich persönlich wenig um den jungen Komponisten kümmern (vgl. <ref target="sndb:sigle#2784">Burkhardt, Goethe/Kayser</ref>, 18 f.). Im April 1785 sandte Goethe ihm sein Singspiel „Scherz, List und Rache“, mit dem er, anknüpfend an die italienische Opera buffa, der deutschen Oper neue Impulse verleihen, zugleich aber Kayser in Zürich Gelegenheit verschaffen wollte, sich mit einer musterhaften Komposition des Singspiels einen Namen zu machen. Dieser lieferte jedoch bis zum nächsten Jahr eine Musik, welche die hohen Erwartungen nicht zu erfüllen vermochte, auch nicht nach einer Umarbeitung im Jahr 1787 und ebenso wenig nach vereinten Bemühungen während des gemeinsamen Aufenthalts in Rom von Oktober 1787 bis April 1788. Auch andere Kompositionspläne der italienischen Zeit, die Neubearbeitung von Goethes Singspielen „Erwin und Elmire“ und „Claudine von Villa Bella“ betreffend, führten nicht zu Ergebnissen. In Rom gewann Kayser Interesse an der alten italienischen Kirchenmusik (Giovanni Pierluigi da Palestrina), nahm deren Studium auf und sammelte Notenmaterial. Er kehrte mit Goethe im Juni 1788 nach Weimar zurück. Dort fand sich allerdings erneut keine Möglichkeit, ihn dauerhaft zu versorgen. Statt dessen sollte er als Musiksachverständiger die Herzoginmutter Anna Amalia auf deren Italienreise begleiten, zu der sie Mitte August 1788 aufbrach. Wieder aber fühlte er sich in dieser Gesellschaft unwohl, so dass er sich bereits nach wenigen Wochen von ihr trennte und im September 1788 von Bozen aus nach Zürich zurückkehrte und sein Leben als Musiklehrer wieder aufnahm.</p>
+  <p>Noch einmal, Ende 1792, versuchte er vergeblich, mit Goethes Hilfe nach Frankfurt zurückzukehren und das Amt eines Kapellmeisters zu übernehmen; am 29. Dezember 1792 schrieb er an Goethe: „Ich bin sehr erweicht worden, und überhaupt ruhet, seitdem ich Sie vor vier Jahren so unbesonnen in Weimar verliess, kein Segen mehr auf mir. Soll ich an mir selbst verzweifeln, oder gibt es noch eine Hülfe für mich?“ (<ref target="sndb:sigle#1266">GJb</ref> XIII [1892], 26 f.) Sein ferneres Leben verbrachte er in Zürich mit Musikunterricht, dem Studium von Literaturgeschichte und Gelehrtenbiographien (vgl. David Heß: Flüchtige Notitzen, S. 18) sowie mit einer umfangreichen Sammeltätigkeit (die sich ebenso auf Bücher wie auf Alltagsgegenstände wie Kataloge, Rezepte, ja sogar auf Schuhschwärze erstreckte), gewissermaßen als „eine lebendige Encyclopädie“ (ebd.). Daneben engagierte er sich als Freimaurer und nahm gelegentlich am Zürcher Musikleben teil. Von sich selbst sagte Kayser, er sei ein „großer Schwärmer und ein unordentlicher Mensch <gap quantity="3" reason="editorial"/>, der seinen Vortheil nicht verstand. Eine, mit Zürich und mit andern menschlichen Verhältnissen amalgamirte bloße Künstlererziehung, mag vielleicht der Grund dazu gewesen seyn.“ (Brief an Wilhelm Gottlieb Becker, 4. September 1796; Regine Zeller: Kayser-Dokumente im Goethe-Museum Düsseldorf Anton-und Katharina-Kippenberg-Stiftung. In: Busch-Salmen, Ph. Ch. Kayser, 364.) Sein Frankfurter Freund Friedrich Maximilian Klinger zog nach Kaysers Tod in einem Brief an David Hess vom 24. Februar 1824 folgendes Resümee: „Ja er war ein eigner, aber reiner u edler Mensch – gebildet aus, durch u für sich selbst aus seinem Innern – sein stiller Geist, sein reines Herz waren seine Lehrer u Leiter, u führten ihn zum stillen Leben, für das er allein geschaffen war“ (H: Zentralbibliothek Zürich, FA David Hess 41.65).</p>
+  <p>Goethe war an Kayser, wie er Carl Ludwig von Knebel schrieb, <quote type="G">von Jugend auf interessirt </quote> (Brief vom 30. Dezember 1785; <ref target="gb:text#GB06_1_BR226_0_143_008 #GB06_1_BR226_0_143_009">GB 6 I, 143,8-9</ref>); obwohl nur sechs Jahre älter, trat er in der Beziehung zu dem Frankfurter Freund von Anfang an in der Rolle eines Mentors auf. Kayser seinerseits akzeptierte dieses Verhältnis und verehrte Goethe schwärmerisch: „<gap quantity="3" reason="editorial"/> er ist ein Gott! aber ist noch ein besserer Mensch“, heißt es in seinem Brief an seine Schwester Dorothea vom 1. Juli 1775 (zitiert nach: Otto Heuer: Ph. Chr. Kayser, Goethe und Klinger. In: Berichte des Freien Deutschen Hochstifts. N. F. Bd 7 [1891], S. 444). Auch von den Zeitgenossen wurde Kayser als „Göthes protégé“ – so der Darmstädter Hofprediger Georg Wilhelm Petersen in einem Brief an Friedrich Nicolai vom 12. Januar 1778 – wahrgenommen; Kayser werde „als das größte musikalische Genie herausgepriesen. Dieser Mensch treibt die Sucht, Göthen nachzuahmen biß zur Manie, <gap quantity="3" reason="editorial"/> schreibt mit eben solchen stumpfen Kielen, schreibt Göthes Hand so natürlich, daß er einen falschen Wechsel auf ihn machen könnte“ (Hermann Bräuning-Oktavio: Aus Briefen der Wertherzeit IV. In: Die Grenzboten 70 (1911). Nr 13, S. 612). Goethe selbst schätzte ihn differenzierter ein: <quote type="G">Sein Kopf steht gut. Irr ich nicht sehr; so fehlts am Herzen, das zum grosen Menschen, zur That wie zum Kunstwerck unentbehrlich, und durch Vernunft nicht zu ersezzen ist.</quote> (Brief an Lavater, 9.? April 1781; <ref target="gb:text#GB04_1_BR363_0_253_005 #GB04_1_BR363_0_253_007">GB 4 I, 253,5-7</ref>.) Seine jahrelangen Bemühungen, <quote type="G">dem iungen Künstler ein Stück Geld zu verschaffen und ihn in der Teutschen Welt bekannt zu machen</quote> (Brief an Knebel, 18. November 1785; <ref target="gb:text#GB06_1_BR184_0_120_001 #GB06_1_BR184_0_120_002">GB 6 I, 120,1-2</ref>), wurden durch dessen <quote type="G">stilles zurückhaltendes Wesen</quote> (Brief an Knebel, 30. Dezember 1785; <ref target="gb:text#GB06_1_BR226_0_143_009">GB 6 I, 143,9</ref>) immer wieder erschwert. Aus Rom schrieb Goethe am 8. Dezember 1787 über Kayser an Herzog Carl August: <quote type="G">Einen männlichern, solideren Künstler habe ich nie gekannt und dabey hat er in der Vorstellungs Art eine Geschmeidigkeit, in seinem Umgang eine Grazie, die man erst nach und nach entdeckt und gewahr wird. Sein Aufenthalt hier wird ihn ganz zur Reife bringen.</quote> (<ref target="gb:text#GB07_1_BR124_0_217_029 #GB07_1_BR124_0_217_033">GB 7 I, 217,29-33</ref>.) Diese Prognose erwies sich als falsch, wie Kaysers missglückter Aufenthalt in Weimar im Sommer 1788 erkennen ließ. Nach dessen überraschendem Rückzug aus der Reisegesellschaft Anna Amalias im September desselben Jahres, durch den sich Goethe persönlich kompromittiert fühlen musste, legte er seine Mentorschaft nieder. Kayser seinerseits wird Goethes Verpflichtung von Johann Friedrich Reichardt als Komponisten von „Claudine von Villa Bella“ und „Erwin und Elmire“ enttäuscht aufgenommen haben. Ob sich Goethe noch einmal für ihn einsetzte, als Kayser 1792/93 nach Frankfurt gehen wollte, ist nicht bekannt; seine Antwort vom 24. Januar 1793 (vgl. <ref target="gt:dokument#1269">GT II 1, 29</ref>) auf Kaysers Anfrage ist nicht überliefert. Nach 1795 brach die Beziehung ab. Als Goethe 1797 zum dritten Mal die Schweiz bereiste, suchte er Kayser nicht mehr auf. Während der Arbeit an seiner „Italiänischen Reise“ erinnerte sich Goethe an den Komponisten; am 4. Mai 1814 schickte er den Anfang von Kaysers Partitur zu „Scherz, List und Rache“ mit der Bitte um Begutachtung an Carl Friedrich Zelter und schrieb erläuternd dazu: <quote type="G">er war mit mir in Italien und lebt noch ein abstruses Leben in Zürich</quote> (Goethe-Zelter 1, 347), Letzteres vermutlich mit Bezug auf Kaysers freimaurerische Betätigungen (vgl. Edgar Refardt: Der „Goethe-Kayser“. <gap quantity="3" reason="editorial"/> Zürich 1950, S. 41). Dieser aber verehrte Goethe nach dem Zeugnis seines Freundes Hess fortdauernd: „Von <hi rendition="#hervor1">Goethe</hi> aber als Mensch und Schriftsteller, sprach <hi rendition="#hervor1">Kayser</hi>, obgleich er mit ihm gespannt war und blieb, immer mit der größten Hochachtung, und ließ sich nie merken, daß das frühere freundschaftliche Verhältniß gestört worden sey. <hi rendition="#hervor1">Göthe</hi> dagegen schien <hi rendition="#hervor1">Kaysern</hi> vergessen zu haben, oder sich nicht mehr um ihn zu bekümmern, wenigstens erwiederte er, als ihm dessen abnehmende Gesundheit im Jahr 1821 gelegentlich bekannt gemacht wurde, in einer weitläufigen Antwort keine Sylbe über diese Nachricht.“ (David Heß: Flüchtige Notitzen, S. 22. – Auf welche Briefe sich Hess hier am Schluss bezieht, ist nicht geklärt.)</p>
+  <p>In seinen Briefen an Kayser wechselt Goethe bereits nach dem vorliegenden ersten überlieferten Brief vom vertrauten ‚Du‘ zum distanzierten ‚Sie‘ in <ref target="gb:dokument#10846">Nr 560</ref>. Insgesamt sind 32 Briefe Goethes überliefert; der letzte stammt vom 3. Dezember 1795. Drei Briefe wurden erschlossen, einer aus dem Zeitraum des vorliegenden Bandes (vgl. <ref target="gb:dokument#15759">EB 61</ref>). Von Kaysers Briefen an Goethe haben sich lediglich sechs erhalten; der letzte, vom 25. Dezember 1795, ist die Antwort auf den letztgenannten Brief Goethes; es geht um Kaysers Kollektaneen zum italienischen Musikwesen. Die meisten der überlieferten Briefe Goethes stammen aus den Jahren 1785–1787 und behandeln die Komposition von „Scherz, List und Rache“.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11146_comment_com15052">
+<label xml:id="GB03_2_BR155_0_note_001_97_5" copyOf="#start_com_1495"><hi rendition="#fett">97,5</hi>Wir gehn nicht nach Italien.</label>
+<p>Kayser hatte offenbar eine anderslautende Information, von der im Bezugsbrief die Rede war. Von Plänen zu einer Italienreise im Jahr 1776 ist sonst nichts bekannt.</p>
+
+</note>
+<note xml:id="gb11146_comment_com9572">
+<label xml:id="GB03_2_BR155_0_note_002_97_6" copyOf="#start_com_1496"><hi rendition="#fett">97,6</hi>Schick mir offt was.</label>
+<p>Dies geschah. Im Brief an Johann Caspar Lavater vom 25. bis 30. August 1776 lässt Goethe (im Briefteil vom 30. August) Kayser für überschickte Musik danken (vgl. <ref target="gb:text#GB03_1_BR160_0_099_032">99,32</ref>); im Brief an Charlotte von Stein vom 11. November 1777 ist davon die Rede, dass er <quote type="G">wieder ein lieblich Lied von ihm</quote> <supplied>Kayser</supplied> (<ref target="gb:text#GB03_1_BR303_0_175_015 #GB03_1_BR303_0_175_016">175,15–16</ref>) mitbringen werde. Vgl. auch zu <ref target="gb:note#GB03_2_BR251_0_note_003_141_18">141,18</ref>.</p>
+
+</note>
+<note xml:id="gb11146_comment_com17692">
+<label xml:id="GB03_2_BR155_0_note_003_97_6-7" copyOf="#start_com_1497"><hi rendition="#fett">97,6-7</hi>So ihr stille wäret würde euch geholfen</label>
+<p>Im Buch Jesaja (30,15) spricht der Herr zum Volk Israel: „Wenn ihr stille bleibet, so würde euch geholfen: durch stille-seyn und hoffen würdet ihr starck sein.“ (Luther-Bibel 1772 AT, 580.) Möglicherweise auch eine Anspielung auf die ‚Stillen im Lande‘, wie die Pietisten genannt wurden (vgl. <ref target="gb:note#GB01_2_BR043_0_note_008_130_25">GB 1 II, zu 130,25</ref>).</p>
+
+</note>
+<note xml:id="gb11146_comment_com14212">
+<label xml:id="GB03_2_BR155_0_note_004_97_8" copyOf="#start_com_1498"><hi rendition="#fett">97,8</hi>Ihr verblühet süse Rosen</label>
+<p>Das Lied stammt aus dem 1. Auftritt des 2. Aufzugs von „Erwin und Elmire“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 11, 308; <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 48 f.).</p>
+
+</note>
+<note xml:id="gb11146_comment_com10453">
+<label xml:id="GB03_2_BR155_0_note_005_97_9" copyOf="#start_com_1499"><hi rendition="#fett">97,9</hi>französchen Melodie</label>
+<p>Kaysers Komposition nach der Melodie der Arie „Rose chérie, aimable fleur“ aus der Oper „Zémire et Azor, la belle et la bête“ (1771) von André Grétry erschien in Goethes Notenbuch (<ref target="archivdb:dokument#64900">GSA 32/1477</ref>, Nr 63).</p>
+
+</note>
+<note xml:id="gb11146_comment_com10454">
+<label xml:id="GB03_2_BR155_0_note_006_97_9" copyOf="#start_com_1500"><hi rendition="#fett">97,9</hi>Bäben</label>
+<p>Barbara Schultheß, die mit Goethe und Lavater befreundete Frau eines Zürcher Seidenfabrikanten, deren Töchter Kayser in Klavier, Gesang, Harfe und Musiktheorie unterrichtete. Goethe hatte sie auf seiner ersten Schweizer Reise 1775 kennen gelernt. In ihrem Haus im Schönenhof in der Zürcher Vorstadt verkehrten bedeutende Persönlichkeiten und  Besucher der Stadt. Goethe schickte ihr in späteren Jahren immer wieder Manuskripte, die sie abschrieb; in einigen Fällen sind Werke Goethes nur in Abschriften von Barbara Schultheß überliefert, so z. B. „Wilhelm Meisters theatralische Sendung“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 51, 283).</p>
+
+</note>
+<note xml:id="gb11146_comment_com10455">
+<label xml:id="GB03_2_BR155_0_note_007_97_10" copyOf="#start_com_1501"><hi rendition="#fett">97,10</hi>Lenz ist hier.</label>
+<p>Seit dem 3. April; vgl. weiter die einleitende Erläuterung zu <ref target="gb:note#gb10966_comment_com4479">Nr 136</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5380"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb62" n="GB 3, Nr. 528">
+  <teiHeader xml:id="gb62_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>528.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 9. September 1779. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:15Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb62_tei.xml</idno>
+        <idno type="URI">gb62</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR528_0</idno>
+        <idno type="KSW-ID">62</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="295" to="296">295-296</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="964" to="965">964-965</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb62_header_hwit1517" corresp="#gb62_source_hwit1517" sameAs="#gb62_comment_hwit1517" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/283,I Bl. 14</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8318</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/62,,1517/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Was Sie an Petern thun, dank Ihnen vielmals, denn der Junge    liegt mir am Herzen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb62_header_acc376" corresp="gb62_comment_acc376">
+            <objectIdentifier>
+              <objectName>Geld </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-09-09">9. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38802">Krafft, Johann Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb62_source_hwit1517" corresp="#gb62_header_hwit1517" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#62/10989"/>
+      <p>
+        <anchor xml:id="GB03_1_BR528_0_295_027"/>
+        <ref target="gb:note#GB03_2_BR528_0_note_001_295_27" xml:id="start_com_4261"/>Was Sie an Petern thun<ref xml:id="end_com_4261"/> danck ich Ihnen vielmals, denn der Junge liegt 
+<anchor xml:id="GB03_1_BR528_0_295_028"/>mir am Herzen, es ist ein <ref target="gb:note#GB03_2_BR528_0_note_002_295_28" xml:id="start_com_4262"/>Vermächtniss des unglücklichen Lindaus<ref xml:id="end_com_4262"/>. 
+<anchor xml:id="GB03_1_BR528_0_295_029"/>Thun Sie nur gelassen gutes an ihm. Wie Sie <ref target="gb:note#GB03_2_BR528_0_note_003_295_29" xml:id="start_com_4263"/>ihm ankommen<ref xml:id="end_com_4263"/> können! 
+<anchor xml:id="GB03_1_BR528_0_295_030"/>Ob er liest, ob er französch treibt, zeichnet pp mir ist alles recht nur 
+<anchor xml:id="GB03_1_BR528_0_296_001"/>dass er<ptr n="1" target="#a001_296.1"/> für die Zeit etwas thue und dass ich von<ptr n="2" target="#a002_296.1"/> ihm höre <ref target="gb:note#GB03_2_BR528_0_note_004_296_1-2" xml:id="start_com_4264"/>wie Sie ihn 
+<anchor xml:id="GB03_1_BR528_0_296_002"/>finden, und was Sie über ihn dencken<ref xml:id="end_com_4264"/>. Gegenwärtig lassen Sie ihn ia 
+<anchor xml:id="GB03_1_BR528_0_296_003"/>den Jägerstand als sein erstes und leztes betrachten, und hören Sie von 
+<anchor xml:id="GB03_1_BR528_0_296_004"/>Ihm wie er sich dabey benimmt was ihm behagt, was nicht und was 
+<anchor xml:id="GB03_1_BR528_0_296_005"/>weiter. – Denn glauben Sie mir der Mensch muss ein <hi rendition="#hervor1">Handwerck</hi>
+        <anchor xml:id="GB03_1_BR528_0_296_006"/>haben das ihn nähre. Auch der Künstler wird nie bezahlt sondern der 
+<anchor xml:id="GB03_1_BR528_0_296_007"/>Handwercker. <ref target="gb:note#GB03_2_BR528_0_note_005_296_7" xml:id="start_com_4265"/>Chodowiecki<ref xml:id="end_com_4265"/> der Künstler den wir bewundern ässe 
+<anchor xml:id="GB03_1_BR528_0_296_008"/>schmale bissen, aber Chodowiecki der Handwercker, der die elendsten<ptr n="3" target="#a003_296.8"/>
+        <anchor xml:id="GB03_1_BR528_0_296_009"/>
+        <ref target="gb:note#GB03_2_BR528_0_note_006_296_9" xml:id="start_com_4266"/>Sudeleyen mit seinen Kupfern <emph rendition="#latin">illuminirt</emph>
+        <ref xml:id="end_com_4266"/> wird bezahlt. Wähnen Sie ia 
+<anchor xml:id="GB03_1_BR528_0_296_010"/>nicht Peter habe <ref target="gb:note#GB03_2_BR528_0_note_007_296_10" xml:id="start_com_4267"/>die Gedult und das ausharren zum Künstler<ref xml:id="end_com_4267"/>, iezt da 
+<anchor xml:id="GB03_1_BR528_0_296_011"/>er in den Wald soll will er zeichnen, er würde eine Begier nach dem 
+<anchor xml:id="GB03_1_BR528_0_296_012"/>Holz<ptr n="4" target="#a004_296.12"/> haben wenn er an die Staffeley sollte. <pb n="2" facs="gb:digitalisate#62/10990"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR528_0_296_013"/>
+        <ref target="gb:note#GB03_2_BR528_0_note_008_296_13" xml:id="start_com_4268"/>Ich verreise<ref xml:id="end_com_4268"/> von hier auf einige Wochen und schicke <ref target="gb:note#GB03_2_BR528_0_note_009_296_13-14" xml:id="start_com_4269"/>etwas klein 
+<anchor xml:id="GB03_1_BR528_0_296_014"/>Geld<ref xml:id="end_com_4269"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR528_0_296_015"/>
+        <ref target="gb:note#GB03_2_BR528_0_note_010_296_15" xml:id="start_com_4270"/>Castr.<ref xml:id="end_com_4270"/> hat den Auftrag die <ref target="gb:note#GB03_2_BR528_0_note_011_296_15" xml:id="start_com_4271"/>25 rh an Rieds<ref xml:id="end_com_4271"/> zu bezahlen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR528_0_296_016"/>Wenn ich wiederkomme <ref target="gb:note#GB03_2_BR528_0_note_012_296_16" xml:id="start_com_4272"/>sollen Sie von mir hören<ref xml:id="end_com_4272"/>.</p>
+      <closer>
+        <dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR528_0_296_017"/>W d<g ref="#typoSuspension"/>. 9 Sept. 1779</dateline>
+        <anchor xml:id="GB03_1_BR528_0_296_018"/>
+        <signed rend="paraph" rendition="#einrueck20">G</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb62_comment">
+<body>
+<div type="metadata" xml:id="gb62_comment_com1106">
+  <ab type="numberAddressee"><label>528.</label> An <persName key="sndb:person#38802">Johann Friedrich Krafft</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 9. September 1779 → <supplied><placeName key="sndb:ort#78160">Ilmenau</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb62_comment_com3150">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8318">GSA 29/283,I</ref>, Bl. 14. – 1 Bl. 19,8 × 27,5 cm, 1 &#xBC; S. beschr., egh., Tinte, flüchtig geschrieben; Vs. oben links von fremder Hd, Tinte: „79 Septbr. 9<hi rendition="#sup">tn</hi>“, oben rechts von fremder Hd (Schöll?, vgl. E), Bleistift: „12“; Bl. nachträglich mit einem Falz an einem unbeschriebenen Bl. befestigt.</p>
+  <p>E: Briefe und Aufsätze von Goethe (1846), 180 f., Nr 12.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 59–60, Nr 844 (nach E).</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb62_comment_com3771">
+  <p>Geld (vgl. zu <ref target="gb:note#GB03_2_BR528_0_note_009_296_13-14">296,13-14</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb62_comment_com4946">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 9. September 1779 (vgl. <ref target="sndb:sigle#2651">GR/RB 1779, 3</ref>, Bl. 11v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb62_comment_com15909">
+<label xml:id="GB03_2_BR528_0_note_001_295_27" copyOf="#start_com_4261"><hi rendition="#fett">295,27</hi>Was Sie an Petern thun</label>
+<p>Goethe hatte in seinem Brief vom 13. und 17. Juli 1779 den Vorschlag gemacht, Krafft könne seinem Schützling Peter im Baumgarten, der seit April 1778 in Ilmenau zum Jäger ausgebildet werden sollte, Sprachunterricht erteilen und sich um dessen Erziehung kümmern (vgl. <ref target="gb:text#GB03_1_BR515_0_285_011 #GB03_1_BR515_0_285_019">285,11–19</ref>). Über Peter im Baumgarten vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref>.</p>
+
+</note>
+<note xml:id="gb62_comment_com5445">
+<label xml:id="GB03_2_BR528_0_note_002_295_28" copyOf="#start_com_4262"><hi rendition="#fett">295,28</hi>Vermächtniss des unglücklichen Lindaus</label>
+<p>Heinrich Julius von Lindau, dem Goethe auf seiner ersten Schweizer Reise im Sommer 1775 begegnet war, hatte den jungen Peter als Pflegesohn angenommen. In seinem Testament verfügte er eine Summe von 2000 Reichstalern, die für dessen weitere Erziehung aufgewendet werden sollten. Nachdem Lindau als hessischer Offizier (vermutlich Ende 1776/Anfang 1777) im amerikanischen Unabhängigkeitskrieg gefallen war, kümmerte sich Goethe um die Ausbildung des Jungen. Über Lindau vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>, über sein Legat für Peter im Baumgarten Goethes Briefe an Carl Ludwig August von Scholley, Wilhelmine von Beaulieu-Marconnay und Carl Ulysses von Salis-Marschlins vom 26. April 1779 (<ref target="gb:dokument#11696">Nr 489</ref>, <ref target="gb:dokument#11666">490</ref>, <ref target="gb:dokument#53">491</ref>) sowie die Erläuterungen dazu.</p>
+
+</note>
+<note xml:id="gb62_comment_com5446">
+<label xml:id="GB03_2_BR528_0_note_003_295_29" copyOf="#start_com_4263"><hi rendition="#fett">295,29</hi>ihm ankommen</label>
+<p>Im Sinne von ‚ihm beikommen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 596).</p>
+
+</note>
+<note xml:id="gb62_comment_com15914">
+<label xml:id="GB03_2_BR528_0_note_004_296_1-2" copyOf="#start_com_4264"><hi rendition="#fett">296,1-2</hi>wie Sie ihn finden <gap quantity="3" reason="editorial"/> über ihn dencken</label>
+<p>Kraffts Briefe an Goethe vom 28. Oktober und vom 29. November 1779 enthalten solche Berichte über Peter im Baumgarten (vgl. <ref target="ra:dokument#115">RA 1, 75 f., Nr 103</ref> und <ref target="ra:dokument#117">105</ref>); vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb11755_comment_com4983">Nr 281</ref> sowie zu <ref target="gb:note#GB03_2_BR515_0_note_006_285_12">285,12</ref>.</p>
+
+</note>
+<note xml:id="gb62_comment_com7334">
+<label xml:id="GB03_2_BR528_0_note_005_296_7" copyOf="#start_com_4265"><hi rendition="#fett">296,7</hi>Chodowiecki</label>
+<p>Daniel Nikolaus Chodowiecki, Maler, Radierer und Zeichner in Berlin.</p>
+
+</note>
+<note xml:id="gb62_comment_com5447">
+<label xml:id="GB03_2_BR528_0_note_006_296_9" copyOf="#start_com_4266"><hi rendition="#fett">296,9</hi>Sudeleyen <gap quantity="3" reason="editorial"/> <emph rendition="#latin">illuminirt</emph></label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR168_0_note_006_103_21-22">103,21-22</ref>.</p>
+
+</note>
+<note xml:id="gb62_comment_com5418">
+<label xml:id="GB03_2_BR528_0_note_007_296_10" copyOf="#start_com_4267"><hi rendition="#fett">296,10</hi>die Gedult <gap quantity="3" reason="editorial"/> zum Künstler</label>
+<p>Goethe selbst ließ Peter in den 1780er Jahren in Weimar Unterricht im Kupferstechen geben. Das Berkaer Kirchenbuch bezeichnet ihn am 28. August 1790 als „Kupferstecher allhier“ (Berka’sches Kirchenbuch. Bd V. Vom Jahr 1764 bis 1811 incl., Bl. 155v des Geburtenregisters).</p>
+
+</note>
+<note xml:id="gb62_comment_com5417">
+<label xml:id="GB03_2_BR528_0_note_008_296_13" copyOf="#start_com_4268"><hi rendition="#fett">296,13</hi>Ich verreise</label>
+<p>Am 12. September 1779 brach Goethe mit Herzog Carl August und einer kleinen Reisegesellschaft zu seiner zweiten Reise in die Schweiz auf. Am 14. Januar 1780 kehrte er nach Weimar zurück.</p>
+
+</note>
+<note xml:id="gb62_comment_com5419">
+<label xml:id="GB03_2_BR528_0_note_009_296_13-14" copyOf="#start_com_4269"><hi rendition="#fett">296,13-14</hi>etwas klein Geld</label>
+<p>Laut Rechnungsbuch von 1779 übersandte Goethe am 9. September 8 Reichstaler und 16 Groschen (vgl. <ref target="sndb:sigle#2651">GR/RB 1779, 3</ref>, Bl. 11v).</p>
+
+</note>
+<note xml:id="gb62_comment_com7287">
+<label xml:id="GB03_2_BR528_0_note_010_296_15" copyOf="#start_com_4270"><hi rendition="#fett">296,15</hi>Castr.</label>
+<p>Jean Antoine Joseph de Castrop, weimarischer Artilleriehauptmann; er hatte auch schon früher finanzielle Angelegenheiten Kraffts erledigt (vgl. <ref target="gb:text#GB03_1_BR499_0_278_020 #GB03_1_BR499_0_278_024">278,20–24</ref>; <ref target="gb:text#GB03_1_BR515_0_285_001 #GB03_1_BR515_0_285_002">285,1–2</ref>).</p>
+
+</note>
+<note xml:id="gb62_comment_com14355">
+<label xml:id="GB03_2_BR528_0_note_011_296_15" copyOf="#start_com_4271"><hi rendition="#fett">296,15</hi>25 rh an Rieds</label>
+<p>Kraffts Hauswirt Julius Michael Rieth erhielt eine Miete von 25 Reichstalern im Vierteljahr. Bis Oktober 1779 war die Miete bereits bezahlt (vgl. zu <ref target="gb:note#GB03_2_BR481_0_note_005_268_1-3">268,1-3</ref>).</p>
+
+</note>
+<note xml:id="gb62_comment_com5420">
+<label xml:id="GB03_2_BR528_0_note_012_296_16" copyOf="#start_com_4272"><hi rendition="#fett">296,16</hi>sollen Sie von mir hören</label>
+<p>Den nächsten Brief an Krafft begann Goethe am 17. Januar 1780 (<ref target="gb:dokument#66">GB 4, Nr 4</ref>), nur wenige Tage nach seiner Rückkunft aus der Schweiz; beendet wurde der Brief offenbar später.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

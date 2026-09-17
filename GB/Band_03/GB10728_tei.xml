@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="780"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10728" n="GB 3, Nr. 78">
+  <teiHeader xml:id="gb10728_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>78.</label> An <persName key="sndb:person#48315">Auguste Louisa Gräfin zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 10. April 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10728_tei.xml</idno>
+        <idno type="URI">gb10728</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR078_0</idno>
+        <idno type="KSW-ID">10728</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="51" to="51">51</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="199" to="200">199-200</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10728_header_hwit930" corresp="#gb10728_source_hwit930" sameAs="#gb10728_comment_hwit930" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 70</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10728,,930/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Kranck Gustgen! dem Todte nah! Gerettet liebster Engel, und das mir alles auf einmal</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-10">10. April 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Auguste Louisa Gräfin zu</persName>
+            <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10728_source_hwit930" corresp="#gb10728_header_hwit930" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10728/13779"/>
+      <p>
+        <anchor xml:id="GB03_1_BR078_0_051_001"/>
+        <ref target="gb:note#GB03_2_BR078_0_note_001_51_1" xml:id="start_com_0788"/>Kranck<ref xml:id="end_com_0788"/> Gustgen! dem Todte nah! Gerettet liebster Engel, und das 
+<anchor xml:id="GB03_1_BR078_0_051_002"/>mir alles auf einmal – zu einer Zeit wo ich immer dachte warum 
+<anchor xml:id="GB03_1_BR078_0_051_003"/>schreibt Gustgen nicht? Ist sie nicht mehr wie sonst, <ref target="gb:note#GB03_2_BR078_0_note_002_51_3-4" xml:id="start_com_0789"/>hat ihr Stella 
+<anchor xml:id="GB03_1_BR078_0_051_004"/>nicht gezeugt<ref xml:id="end_com_0789"/> dass ich <ref target="gb:note#GB03_2_BR078_0_note_003_51_4" xml:id="start_com_0790"/>ihr Alter<ref xml:id="end_com_0790"/><ptr n="1" target="#a001_51.4"/> bin, obschon ich <ref target="gb:note#GB03_2_BR078_0_note_004_51_4-5" xml:id="start_com_0791"/>nicht schreibe<ptr n="2" target="#a002_51.4"/>, denn 
+<anchor xml:id="GB03_1_BR078_0_051_005"/>wie ich iezt lebe<ref xml:id="end_com_0791"/> – Ach Engel es ist Lästrung wenn ich mit dir rede! 
+<anchor xml:id="GB03_1_BR078_0_051_006"/>ich will lieber gar nicht beten als mit fremden Gedancken<ptr n="3" target="#a003_51.6"/> gemischt 
+<anchor xml:id="GB03_1_BR078_0_051_007"/>— Auch<ptr n="4" target="#a004_51.7"/> dies schreib ich <ref target="gb:note#GB03_2_BR078_0_note_005_51_7-8" xml:id="start_com_0792"/>in des Herzogs Zimmer den ich fast nicht 
+<anchor xml:id="GB03_1_BR078_0_051_008"/>verlasse<ref xml:id="end_com_0792"/>. Mein Herz mein Kopf – ich weis nicht wo ich anfangen 
+<anchor xml:id="GB03_1_BR078_0_051_009"/>soll <ref target="gb:note#GB03_2_BR078_0_note_006_51_9" xml:id="start_com_0793"/>so tausendfach sind meine Verhältnisse<ref xml:id="end_com_0793"/> und neu, und wechselnd 
+<anchor xml:id="GB03_1_BR078_0_051_010"/>aber gut – Gustgen nur Eine Zeile von deiner Hand, nur Ein Wort 
+<anchor xml:id="GB03_1_BR078_0_051_011"/>dass du auch <hi rendition="#hervor1">mir</hi> wieder lebst. Adieu Liebe! Liebe     <ref target="gb:note#GB03_2_BR078_0_note_007_51_11-12" xml:id="start_com_0794"/>Mittwoch nach 
+<anchor xml:id="GB03_1_BR078_0_051_012"/>Ostern<ref xml:id="end_com_0794"/> 76.              G.</p>
+    <pb n="2" facs="gb:digitalisate#10728/13780" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10728_comment">
+<body>
+<div type="metadata" xml:id="gb10728_comment_com955">
+  <ab type="numberAddressee"><label>78.</label> An <persName key="sndb:person#48315">Auguste Louisa Gräfin zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 10. April 1776 → <supplied><placeName key="sndb:ort#87955">Uetersen</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10728_comment_com1826">
+  <p>Der <quote type="G">Mittwoch nach Ostern 76</quote> (<ref target="gb:text#GB03_1_BR078_0_051_011 #GB03_1_BR078_0_051_012">51,11–12</ref>) fiel 1776 auf den 10. April.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10728_comment_com2999">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 70. – 1 Bl. 16,6(–16,8) × 20,1 cm, egh., Tinte; am linken Rand aufgeklebt auf Trägerblatt (Pappe).</p>
+  <p>E: <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> (1839), 115 f., Nr 12.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 49 f., Nr 433.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10728_comment_com4795">
+  <p>Der Brief beantwortet möglicherweise einen nicht überlieferten Brief Augusta zu Stolbergs von Anfang April 1776 (vgl. zu <ref target="gb:note#GB03_2_BR078_0_note_001_51_1">51,1</ref>). – Der Antwortbrief wahrscheinlich von Anfang Mai 1776 ist nicht überliefert (vgl. zu <ref target="gb:note#GB03_2_BR104_0_note_001_62_12">62,12</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10728_comment_com17562">
+<label xml:id="GB03_2_BR078_0_note_001_51_1" copyOf="#start_com_0788"><hi rendition="#fett">51,1</hi>Kranck</label>
+<p>Wohl mit Bezug auf einen Brief Augusta zu Stolbergs (oder ihrer Brüder), aus dem Goethe von der Erkrankung und Genesung der Adressatin erfuhr. – Erst Anfang Dezember 1775 hatte sich Augusta zu Stolberg von einer Krankheit erholt, wie sie ihrem Bruder Christian am 9. Dezember 1775 schrieb: „<gap quantity="3" reason="editorial"/> ich bin krank gewesen mein Christel, habe viel gelitten, freute mich aber oft, daß ihr mich nicht leiden saht – izt bin ich beßer, kan nur noch nichts eßen“ (Brief vollständig abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10638_comment_com84086">Nr 2</ref>). Anfang 1776 muss sie einen schweren Rückfall erlitten haben. Auch wenn sie Anfang April nicht mehr in Lebensgefahr schwebte, zog sich die Krankheit noch einige Zeit hin (vgl. <ref target="sndb:sigle#1266/448">Schumann, Auguste Stolberg</ref>, 289 f.).</p>
+
+</note>
+<note xml:id="gb10728_comment_com10008">
+<label xml:id="GB03_2_BR078_0_note_002_51_3-4" copyOf="#start_com_0789"><hi rendition="#fett">51,3-4</hi>hat ihr Stella nicht gezeugt</label>
+<p>Stella. Ein Schauspiel für Liebende. – Ende Januar 1776 hatte Goethe die ersten Exemplare des soeben bei Mylius in Berlin erschienenen Stückes erhalten (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>). Wie die Nachfrage im vorliegenden Brief belegt, muss der Dichter auch an Augusta zu Stolberg ein Exemplar geschickt haben (vgl. Beilage zu <ref target="gb:note#gb10683_comment_com3747">Nr 40</ref>). Die Adressatin scheint sich über ihre Lektüre aber nicht geäußert zu haben. Wahrscheinlich nahm sie Anstoß am Schluss des Stückes, der ebenso wie der im „Werther“ thematisierte Freitod zeitgenössische Konventionen sprengte (vgl. zu <ref target="gb:note#GB03_2_BR037_0_note_003_27_19">27,19</ref>).</p>
+
+</note>
+<note xml:id="gb10728_comment_com10009">
+<label xml:id="GB03_2_BR078_0_note_003_51_4" copyOf="#start_com_0790"><hi rendition="#fett">51,4</hi>ihr Alter</label>
+<p>Hier mit Bezug auf Goethe selbst im Sinne von „nicht verändert <gap quantity="3" reason="editorial"/> gleichbleibend, gewohnt, altbekannt“ (<ref target="sndb:sigle#397">GWb</ref> 1, 416). Ganz ähnlich verabschiedet sich Goethe auch im Brief vom 16. Mai 1776 von Augusta (vgl. <ref target="gb:text#GB03_1_BR104_0_062_019">62,19</ref>).</p>
+
+</note>
+<note xml:id="gb10728_comment_com15004">
+<label xml:id="GB03_2_BR078_0_note_004_51_4-5" copyOf="#start_com_0791"><hi rendition="#fett">51,4-5</hi>nicht schreibe <gap quantity="3" reason="editorial"/> ich iezt lebe</label>
+<p>Schon in seinem letzten kurzen Schreiben an Augusta vom 11. Februar 1776 (<ref target="gb:dokument#10683">Nr 40</ref>) hatte Goethe betont, dass er ihr sein Leben in Weimar nicht schildern könne (vgl. zu <ref target="gb:note#GB03_2_BR040_0_note_001_30_1">30,1</ref>).</p>
+
+</note>
+<note xml:id="gb10728_comment_com10023">
+<label xml:id="GB03_2_BR078_0_note_005_51_7-8" copyOf="#start_com_0792"><hi rendition="#fett">51,7-8</hi>in des Herzogs Zimmer <gap quantity="3" reason="editorial"/> nicht verlasse</label>
+<p>Herzog Carl August war Ende März ernsthaft erkrankt, litt an Rheumatismus, Fieber- und Schwindelanfällen und musste eine Reise nach Leipzig und Dessau absagen (vgl. <ref target="gb:text#GB03_1_BR070_0_048_001 #GB03_1_BR070_0_048_002">48,1–2</ref>). Etwa bis Mitte April konnte er sein Zimmer nicht verlassen. Goethe übernachtete wiederholt in den Räumen des Herzogs (vgl. <ref target="gb:text#GB03_1_BR080_0_052_002">52,2</ref>; <ref target="gb:text#GB03_1_BR086_0_055_015">55,15</ref>). Am 17. April konnte Carl August mit Goethe <quote type="G">zum erstenmal wieder</quote> ausfahren (<ref target="gt:dokument#21">GT I 1, 17</ref>).</p>
+
+</note>
+<note xml:id="gb10728_comment_com15015">
+<label xml:id="GB03_2_BR078_0_note_006_51_9" copyOf="#start_com_0793"><hi rendition="#fett">51,9</hi>so tausendfach sind meine Verhältnisse</label>
+<p>Vgl. Goethes zusammenfassende Darstellung seines frühen Weimarer Lebens im Brief an Johanna Fahlmer vom 14. Februar 1776 (<ref target="gb:text#GB03_1_BR043_0_031_010 #GB03_1_BR043_0_031_027">31,10–27</ref>).</p>
+
+</note>
+<note xml:id="gb10728_comment_com14040">
+<label xml:id="GB03_2_BR078_0_note_007_51_11-12" copyOf="#start_com_0794"><hi rendition="#fett">51,11-12</hi>Mittwoch nach Ostern</label>
+<p>Vgl. <ref target="gb:note#gb10728_comment_com1826">Datierung</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

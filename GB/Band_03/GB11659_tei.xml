@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2610"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11659" n="GB 3, Nr. 257">
+  <teiHeader xml:id="gb11659_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>257.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 3. Mai 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:12Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11659_tei.xml</idno>
+        <idno type="URI">gb11659</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR257_0</idno>
+        <idno type="KSW-ID">11659</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="144" to="144">144</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="517" to="518">517-518</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11659_header_hwit1195" corresp="#gb11659_source_hwit1195" sameAs="#gb11659_comment_hwit1195" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 48</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11659,,1195/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Guten Morgen mit Spargels. Wie ists Ihnen gestern gegangen. Mir hat Philipp noch einen Eyerkuchen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11659_header_acc483" corresp="gb11659_comment_acc483">
+            <objectIdentifier>
+              <objectName>Spargel </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-05-03">3. Mai 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11659_source_hwit1195" corresp="#gb11659_header_hwit1195" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11659/22594"/>
+      <p>
+        <anchor xml:id="GB03_1_BR257_0_144_011"/>Guten Morgen mit <ref target="gb:note#GB03_2_BR257_0_note_001_144_11" xml:id="start_com_2224"/>Spargels<ref xml:id="end_com_2224"/>. Wie ists Ihnen gestern gegangen. Mir 
+<anchor xml:id="GB03_1_BR257_0_144_012"/>hat <ref target="gb:note#GB03_2_BR257_0_note_002_144_12" xml:id="start_com_2225"/>Philipp<ref xml:id="end_com_2225"/> noch einen Eyerkuchen gebacken und drauf hab ich mich 
+<anchor xml:id="GB03_1_BR257_0_144_013"/>in <ref target="gb:note#GB03_2_BR257_0_note_003_144_13" xml:id="start_com_2226"/>blauen Mantel<ref xml:id="end_com_2226"/> gehüllt auf <ref target="gb:note#GB03_2_BR257_0_note_004_144_13" xml:id="start_com_2227"/>die Altan<ref xml:id="end_com_2227"/>, an den Boden in ein trocken 
+<anchor xml:id="GB03_1_BR257_0_144_014"/>Winckelgen gelegt und <ref target="gb:note#GB03_2_BR257_0_note_005_144_14" xml:id="start_com_2228"/>im Bliz Donner und Regen<ref xml:id="end_com_2228"/> herrlich geschlummert, 
+<anchor xml:id="GB03_1_BR257_0_144_015"/>dass mir sogar mein Bett nachher fatal war. Wenn <ref target="gb:note#GB03_2_BR257_0_note_006_144_15" xml:id="start_com_2229"/>Stein<ref xml:id="end_com_2229"/>
+        <anchor xml:id="GB03_1_BR257_0_144_016"/>noch zu Haus ist sagen Sie ihm <ref target="gb:note#GB03_2_BR257_0_note_007_144_16-17" xml:id="start_com_2230"/>ich möchte gern das neue Pferdgen 
+<anchor xml:id="GB03_1_BR257_0_144_017"/>stallmeisterlich ausreiten<ref xml:id="end_com_2230"/> er möchte es doch satteln lassen und mir’s 
+<anchor xml:id="GB03_1_BR257_0_144_018"/>schicken und wenn s ihm nicht zuwider wäre mich abholen.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR257_0_144_019"/>d<g ref="#typoSuspension"/>. 3 May 77.   G     <ref target="gb:note#GB03_2_BR257_0_note_008_144_19" xml:id="start_com_2231"/>Zu Tisch komm ich<ref xml:id="end_com_2231"/> wohl liebstes<ptr n="1" target="#a001_144.19"/>.</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR257_0_144_020"/>Ich <ref target="gb:note#GB03_2_BR257_0_note_009_144_20" xml:id="start_com_2232"/>erziehe<ref xml:id="end_com_2232"/> schon die ganze Woche an einem Straus für</p>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_1_BR257_0_144_021"/>Sie auf Morgen.</p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11659_comment">
+<body>
+<div type="metadata" xml:id="gb11659_comment_com507">
+  <ab type="numberAddressee"><label>257.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 3. Mai 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11659_comment_com2551">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 48. – 1 Bl. 19,5 × 9,5 cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Reste eines roten Siegels, obere Ecken Siegelausriss; Vs. oben rechts von fremder Hd, Tinte: „24“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 24), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 97 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 153 f., Nr 598.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb11659_comment_com3579">
+  <p>Spargel (vgl. zu <ref target="gb:note#GB03_2_BR257_0_note_001_144_11">144,11</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11659_comment_com4347">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11659_comment_com10967">
+<label xml:id="GB03_2_BR257_0_note_001_144_11" copyOf="#start_com_2224"><hi rendition="#fett">144,11</hi>Spargels</label>
+<p>Plural nach <ref target="sndb:sigle#2753">Adelung</ref> (4, 167) schon im ausgehenden 18. Jahrhundert ungebräuchlich. – Mit selbst gezogenem Spargel hatte Goethe schon im Jahr zuvor die Freundin beschenkt (vgl. Charlotte von Stein an Johann Georg Zimmermann, 10. Mai 1776; abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10880_comment_com84492">Nr 102</ref>).</p>
+
+</note>
+<note xml:id="gb11659_comment_com10968">
+<label xml:id="GB03_2_BR257_0_note_002_144_12" copyOf="#start_com_2225"><hi rendition="#fett">144,12</hi>Philipp</label>
+<p>Philipp Seidel.</p>
+
+</note>
+<note xml:id="gb11659_comment_com17880">
+<label xml:id="GB03_2_BR257_0_note_003_144_13" copyOf="#start_com_2226"><hi rendition="#fett">144,13</hi>blauen Mantel</label>
+<p>Möglicherweise das im November 1776 von Charlotte von Stein geborgte Kleidungsstück, das Goethe ihr zwar zunächst zurückgegeben hat (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR185_0_note_002_116_23">116,23</ref>), dann vielleicht aber erneut ausborgte; der ‚blaue Mantel‘ wird ausdrücklich auch im Brief vom 20. Mai erwähnt (vgl. <ref target="gb:text#GB03_1_BR263_0_146_010">146,10</ref>).</p>
+
+</note>
+<note xml:id="gb11659_comment_com10983">
+<label xml:id="GB03_2_BR257_0_note_004_144_13" copyOf="#start_com_2227"><hi rendition="#fett">144,13</hi>die Altan</label>
+<p>Der Altan an der Südseite des Gartenhauses (vgl. zu <ref target="gb:note#GB03_2_BR236_0_note_001_136_5">136,5</ref>). – Goethes Verwendung des Wortes als Femininum (nach ital. altana) entspricht dem oberdeutschen Gebrauch (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 235).</p>
+
+</note>
+<note xml:id="gb11659_comment_com10984">
+<label xml:id="GB03_2_BR257_0_note_005_144_14" copyOf="#start_com_2228"><hi rendition="#fett">144,14</hi>im Bliz Donner und Regen</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR256_0_note_001_144_2">144,2</ref>.</p>
+
+</note>
+<note xml:id="gb11659_comment_com10985">
+<label xml:id="GB03_2_BR257_0_note_006_144_15" copyOf="#start_com_2229"><hi rendition="#fett">144,15</hi>Stein</label>
+<p>Josias von Stein.</p>
+
+</note>
+<note xml:id="gb11659_comment_com10986">
+<label xml:id="GB03_2_BR257_0_note_007_144_16-17" copyOf="#start_com_2230"><hi rendition="#fett">144,16-17</hi>ich möchte <gap quantity="3" reason="editorial"/> ausreiten</label>
+<p>Die Bitte steht im Zusammenhang mit Josias von Steins Stellung als Oberstallmeister; laut Tagebuch ritt Goethe am 3. Mai 1777 <quote type="G">Mit</quote> <supplied>Josias von</supplied> <quote type="G">Stein nach Belveder.</quote> (<ref target="gt:dokument#345">GT I 1, 41</ref>.)</p>
+
+</note>
+<note xml:id="gb11659_comment_com10987">
+<label xml:id="GB03_2_BR257_0_note_008_144_19" copyOf="#start_com_2231"><hi rendition="#fett">144,19</hi>Zu Tisch komm ich</label>
+<p>Laut Tagebuch hat Goethe am 3. Mai bei Charlotte von Stein gegessen (vgl. <ref target="gt:dokument#345">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb11659_comment_com15163">
+<label xml:id="GB03_2_BR257_0_note_009_144_20" copyOf="#start_com_2232"><hi rendition="#fett">144,20</hi>erziehe</label>
+<p>‚Erziehen‘ hier: Pflanzen ziehen, zum Wachsen, Blühen bringen.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

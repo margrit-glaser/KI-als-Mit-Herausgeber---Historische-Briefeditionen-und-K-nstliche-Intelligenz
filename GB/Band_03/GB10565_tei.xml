@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="40"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10565" n="GB 3, Nr. 4">
+  <teiHeader xml:id="gb10565_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>4.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 22. November 1775. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:11:59Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10565_tei.xml</idno>
+        <idno type="URI">gb10565</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR004_0</idno>
+        <idno type="KSW-ID">10565</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="5" to="6">5-6</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="15" to="19">15-19</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10565_header_hwit815" corresp="#gb10565_source_hwit815" sameAs="#gb10565_comment_hwit815" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>Princeton/NJ</placeName>
+            </settlement>
+            <institution key="sndb:standort#51">Princeton University Library</institution>
+            <idno type="shelfmark">C0314, Box 1, Folder 10</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10565,,815/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Lieb Täntgen! Wie eine Schlittenfahrt geht mein Leben, rasch weg und klingelnd</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1775-11-22">22. November 1775</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10565_source_hwit815" corresp="#gb10565_header_hwit815" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10565/28144"/>
+      <p>
+        <anchor xml:id="GB03_1_BR004_0_005_013"/>Lieb Täntgen! <ref target="gb:note#GB03_2_BR004_0_note_001_5_13" xml:id="start_com_0048"/>Wie eine Schlittenfahrt geht mein Leben<ref xml:id="end_com_0048"/>, rasch weg 
+<anchor xml:id="GB03_1_BR004_0_005_014"/>und klingelnd und promenirend auf und ab. Gott weis wozu ich noch 
+<anchor xml:id="GB03_1_BR004_0_005_015"/>bestimmt bin, dass ich <ref target="gb:note#GB03_2_BR004_0_note_002_5_15" xml:id="start_com_0049"/>solche Schulen<ref xml:id="end_com_0049"/> durchgeführt werde. Diese 
+<anchor xml:id="GB03_1_BR004_0_005_016"/>giebt meinem Leben <ref target="gb:note#GB03_2_BR004_0_note_003_5_16" xml:id="start_com_0050"/>neuen Schwung<ref xml:id="end_com_0050"/>, und es wird alles gut werden. 
+<anchor xml:id="GB03_1_BR004_0_005_017"/>Ich kann nichts von meiner <ref target="gb:note#GB03_2_BR004_0_note_004_5_17" xml:id="start_com_0051"/>Wirthschafft<ref xml:id="end_com_0051"/> sagen, sie ist zu verwickelt, 
+<anchor xml:id="GB03_1_BR004_0_005_018"/>aber alles geht erwünscht, <ref target="gb:note#GB03_2_BR004_0_note_005_5_18" xml:id="start_com_0052"/>wunderlich Aufsehn machts<ptr n="1" target="#a001_5.18"/> hier<ref xml:id="end_com_0052"/> wie natürlich. 
+<anchor xml:id="GB03_1_BR004_0_005_019"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_006_5_19" xml:id="start_com_0053"/>Schreiben Sie mir ein Wort.<ref xml:id="end_com_0053"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_007_5_19" xml:id="start_com_0054"/>Wieland ist gar lieb<ref xml:id="end_com_0054"/>, wir stecken 
+<anchor xml:id="GB03_1_BR004_0_005_020"/>immer zusammen, und gar zu gern bin ich unter <ref target="gb:note#GB03_2_BR004_0_note_008_5_20" xml:id="start_com_0055"/>seinen Kindern<ref xml:id="end_com_0055"/>. 
+<anchor xml:id="GB03_1_BR004_0_005_021"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_009_5_21" xml:id="start_com_0056"/>Sein Weib<ref xml:id="end_com_0056"/> ist herze brav, und gleicht der <ref target="gb:note#GB03_2_BR004_0_note_010_5_21" xml:id="start_com_0057"/>la Roche<ref xml:id="end_com_0057"/>. Adieu. Bitten Sie 
+<anchor xml:id="GB03_1_BR004_0_005_022"/>die <ref target="gb:note#GB03_2_BR004_0_note_011_5_22" xml:id="start_com_0058"/>Mama<ref xml:id="end_com_0058"/> alle <ref target="gb:note#GB03_2_BR004_0_note_012_5_22" xml:id="start_com_0059"/>Briefe mit französchem Couvert<ref xml:id="end_com_0059"/> aufzubrechen. <ref target="gb:note#GB03_2_BR004_0_note_013_5_22-26" xml:id="start_com_7404"/>Hier
+        <anchor xml:id="GB03_1_BR004_0_005_023"/>kommt <ref target="gb:note#GB03_2_BR004_0_note_014_5_23" xml:id="start_com_0060"/>einer<ref xml:id="end_com_0060"/> zurück. Geben Sie ihn dem <ref target="gb:note#GB03_2_BR004_0_note_015_5_23" xml:id="start_com_0061"/>Papa<ref xml:id="end_com_0061"/>, mit der Bitte das benötigte 
+<anchor xml:id="GB03_1_BR004_0_005_024"/>in meinem Nahmen<ptr n="3" target="#a003_5.24"/> zu besorgen, mit den H<g ref="#typoSuspension"/>. <ref target="gb:note#GB03_2_BR004_0_note_016_5_24" xml:id="start_com_0062"/>Diakres<ref xml:id="end_com_0062"/> über 
+<anchor xml:id="GB03_1_BR004_0_005_025"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_017_5_25" xml:id="start_com_0063"/>die Sache<ref xml:id="end_com_0063"/> handeln<ptr n="4" target="#a004_5.25"/> zu lassen und <ref target="gb:note#GB03_2_BR004_0_note_018_5_25" xml:id="start_com_0064"/>das Trumbachische Geld<ref xml:id="end_com_0064"/> zu sich zu 
+<anchor xml:id="GB03_1_BR004_0_005_026"/>nehmen, hier ist ein <ref target="gb:note#GB03_2_BR004_0_note_019_5_26" xml:id="start_com_0065"/>Brief an sie<ref xml:id="end_com_0065"/>, den er ihnen schicken ma<supplied>g.</supplied><ref xml:id="end_com_7404"/><ptr n="2" target="#a002_5.22"/> Adieu. 
+<anchor xml:id="GB03_1_BR004_0_005_027"/>Grüsen Sie die lieben <ref target="gb:note#GB03_2_BR004_0_note_020_5_27" xml:id="start_com_0066"/>Gerocks<ref xml:id="end_com_0066"/>, und die <ref target="gb:note#GB03_2_BR004_0_note_021_5_27" xml:id="start_com_0067"/>Max<ref xml:id="end_com_0067"/>. Schreiben Sie mir was 
+<anchor xml:id="GB03_1_BR004_0_006_001"/>von den Schicksaalen dieser unglücklichen. Adieu. Es wird uns<ptr n="5" target="#a005_6.1"/> doch 
+<anchor xml:id="GB03_1_BR004_0_006_002"/>noch wohl zusammen auf dieser Erde – –</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR004_0_006_003"/>Lassen Sie nur<ptr n="6" target="#a006_6.3"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_022_6_3" xml:id="start_com_0068"/>obige bestellung an Papa<ref xml:id="end_com_0068"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_023_6_3-4" xml:id="start_com_0069"/>ich will ihm selbst schreiben<ref xml:id="end_com_0069"/>. 
+<anchor xml:id="GB03_1_BR004_0_006_004"/>
+        <ref target="gb:note#GB03_2_BR004_0_note_024_6_4" xml:id="start_com_0070"/>Friz war kranck<ref xml:id="end_com_0070"/> hör ich die holde Seele. Wieland hat ihm viel 
+<anchor xml:id="GB03_1_BR004_0_006_005"/>geschrieben. <ref target="gb:note#GB03_2_BR004_0_note_025_6_5" xml:id="start_com_0071"/>Ich schreib ihm auch wohl noch heut.<ref xml:id="end_com_0071"/> d<g ref="#typoSuspension"/>. 22 Nov 75.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR004_0_006_006"/>Geben Sie den Brief der Mama zu lesen.      G.</p>
+    <pb n="2" facs="gb:digitalisate#10565/28145"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10565_comment">
+<body>
+<div type="metadata" xml:id="gb10565_comment_com930">
+  <ab type="numberAddressee"><label>4.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 22. November 1775 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10565_comment_com2974">
+  <p>H: Princeton University Library, Sign.: Bx 1, F 10. – 1 Bl. 19 × 23 cm, 1 S. beschr., egh., Tinte; Rs. rechter Rand rotes Siegel und Adresse: <quote type="G">Msll. Fahlmer</quote>; Vs. unter dem Text am linken Rand quer zur Schreibrichtung von Johanna Fahlmers Hd, Tinte: „Nro 1“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775); Rs. linker Rand Beschädigung des Papiers durch Öffnen des Siegels, geringer Textverlust (vgl. <ref target="gb:text#GB03_1_BR004_0_005_026">5,26</ref>). – Beischlüsse: Brief <quote type="G">mit französchem Couvert</quote> (<ref target="gb:text#GB03_1_BR004_0_005_022">5,22</ref>; vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR004_0_note_014_5_23">5,23</ref>). – Faksimile: Auktions-Katalog von C. G. Boerner, Auktion 87 am 19./20. Februar 1907, S. 34.</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 99–101, Nr 38.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 1 f., Nr 367.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10565_comment_com4770">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Johanna Fahlmer (1744–1821), die Stieftante der Brüder Johann Georg und Friedrich Heinrich Jacobi, im Familienkreis und von Goethe ‚Tante‘ oder ‚Täntchen‘ genannt, lebte seit Juni 1772 in Frankfurt und verkehrte dort mit Goethes Eltern und im Freundeskreis um Goethes Schwester Cornelia. Bis zu ihrer Heirat mit Johann Georg Schlosser im Jahr 1777 nach dem Tod Cornelias unterhielt Goethe ein freundschaftlich-vertrauliches Verhältnis zu ihr; danach kühlte die Beziehung auf beiden Seiten ab. Der Brief vom 16. November 1777 (<ref target="gb:dokument#11770">Nr 305</ref>) zeugt von Goethes Irritation über die Nachricht von Johanna Fahlmers Verlobung mit Schlosser. – Vgl. des Weiteren die einleitende Erläuterung zum Brief aus der zweiten Hälfte März (?) 1773 (<ref target="gb:note#gb10586_comment_com4208">GB 2 II, Nr 19</ref>).</p>
+  <p rendition="#einrueck1">In GB 2 I sind 38 Briefe Goethes an die Adressatin aus dem Zeitraum von März 1773 bis Oktober 1775 von insgesamt 50 überlieferten gedruckt; der vorliegende Band enthält die übrigen 12 Briefe, deren letzter vom 16. November 1777 stammt. Briefe von Johanna Fahlmer an Goethe haben sich nicht erhalten; Goethe hat sie vermutlich verbrannt (vgl. sein Tagebuch, <ref target="gt:dokument#1741">2.</ref> und <ref target="gt:dokument#1747">9.</ref> Juli 1797 [GT II 1, 119 und 120] sowie die „Tag- und Jahres-Hefte“ für 1797 [<ref target="sndb:sigle#1157">WA</ref> I 35, 73]).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10565_comment_com17134">
+<label xml:id="GB03_2_BR004_0_note_001_5_13" copyOf="#start_com_0048"><hi rendition="#fett">5,13</hi>Wie eine Schlittenfahrt geht mein Leben</label>
+<p>Erste Beschreibung von Goethes Weimarer Leben. Erst gut zwei Wochen zuvor, am 7. November 1775, war er auf Einladung des Herzogs Carl August von Sachsen-Weimar und Eisenach in der Stadt eingetroffen. Anfang des Monats hatte er sich noch auf der Reise nach Italien befunden, da der weimarische Kammerherr Johann August Alexander von Kalb, der Goethe nach Weimar begleiten sollte, erst verspätet in Frankfurt eintraf (vgl. <ref target="gb:note#GB02_2_BR266_0_note_012_219_17">GB 2 II, zu 219,17</ref>). – Das Bild der Schlittenfahrt hatte Goethe schon im Brief an Anna Catharina Fabricius? vom 14. Oktober 1770 benutzt: <quote type="G">Genung mein ietziges Leben ist vollkommen wie eine Schlittenfahrt, prächtig und klinglend, aber eben so wenig fürs Herz, als es für Augen und Ohren viel ist.</quote> (<ref target="gb:text#GB01_1_BR077_0_204_012 #GB01_1_BR077_0_204_015">GB 1 I, 204,12-15</ref>.)</p>
+
+</note>
+<note xml:id="gb10565_comment_com8977">
+<label xml:id="GB03_2_BR004_0_note_002_5_15" copyOf="#start_com_0049"><hi rendition="#fett">5,15</hi>solche Schulen</label>
+<p>Hier mit Bezug auf die Weimarer Erfahrungen umfassender für ‚Schulen des Lebens‘; analog zu „Schule der Geduld, des Gehorsams“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1678; vgl. auch <ref target="gb:text#GB03_1_BR114_0_067_014 #GB03_1_BR114_0_067_015">67,14–15</ref>).</p>
+
+</note>
+<note xml:id="gb10565_comment_com8992">
+<label xml:id="GB03_2_BR004_0_note_003_5_16" copyOf="#start_com_0050"><hi rendition="#fett">5,16</hi>neuen Schwung</label>
+<p>In seinen Briefen an Johanna Fahlmer aus den Monaten vor der Abreise nach Weimar Anfang November 1775 hatte Goethe sein Leben immer wieder als Folge unauflösbar scheinender <quote type="G">Verworrenheiten</quote> (<ref target="gb:text#GB02_1_BR259_0_210_011">GB 2 I, 210,11</ref>) beschrieben, mit Blick auf seine berufliche Zukunft in der ungeliebten Advokatentätigkeit, vor allem aber bezogen auf seine schwierige Beziehung zu seiner inoffiziellen Verlobten Anna Elisabeth Schönemann: <quote type="G">Mein Herz immer wie ein Strumpf, das äussre zu innerst, das innre zu äuserst gekehrt.</quote> (<ref target="gb:text#GB02_1_BR262_0_212_026 #GB02_1_BR262_0_213_001">GB 2 I, 212,26-213,1</ref>) Im Brief an Gottfried August Bürger vom 18. Oktober 1775 spricht Goethe zusammenfassend von den <quote type="G">zerstreutesten, verworrensten, ganzesten, vollsten, leersten, kräfftigsten und läppischten drey Vierteliahren die ich in meinem Leben gehabt habe. Was die menschliche Natur nur von Wiedersprüchen sammeln kann, hat mir die Fee Hold oder Unhold <gap quantity="3" reason="editorial"/> zum Neujahrsgeschenck von 75 gereicht <gap quantity="3" reason="editorial"/></quote>. (<ref target="gb:text#GB02_1_BR269_0_222_016 #GB02_1_BR269_0_222_021">GB 2 I, 222,16-21</ref>.)</p>
+
+</note>
+<note xml:id="gb10565_comment_com14947">
+<label xml:id="GB03_2_BR004_0_note_004_5_17" copyOf="#start_com_0051"><hi rendition="#fett">5,17</hi>Wirthschafft</label>
+<p>Hier im Sinn von ‚Lebensführung‘, ‚Lebensverhältnisse‘; in Anlehnung an die im 18. Jahrhundert noch verbreitete Bedeutung des Wortes: „Inbegriff <gap quantity="3" reason="editorial"/> aller häuslichen Geschäfte“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1577).</p>
+
+</note>
+<note xml:id="gb10565_comment_com17241">
+<label xml:id="GB03_2_BR004_0_note_005_5_18" copyOf="#start_com_0052"><hi rendition="#fett">5,18</hi>wunderlich Aufsehn machts hier</label>
+<p>Goethe, dessen Aufenthalt in Weimar anfangs nur als Besuch geplant war, fand zunächst eine gute Aufnahme, nicht nur bei Wieland, der enthusiastisch urteilte, Goethe sei „der beste liebenswertheste Mensch, den ich kenne“ (Brief an Johann Georg Meusel, 16. November 1776; <ref target="sndb:sigle#141">WB</ref> 5, 442), sondern allgemein: „Je ne suis du tout point surpris que Mr. Göthe ait plû generalement à Weimar.“ (H: Archiv der BBAW. – Es überrascht mich gar nicht, daß Herr Goethe in Weimar allgemein Anklang gefunden hat.) So antwortete Johann Georg Zimmermann am 29. Dezember 1775 auf einen entsprechenden Bericht in einem nicht überlieferten Brief Charlotte von Steins. Dies änderte sich, als klar wurde, dass Goethe ein ungewöhnlich vertrautes Verhältnis mit Herzog Carl August verband und dass er in Weimar bleiben werde. Nicht nur sein ‚kraftgenialisches‘ Treiben mit dem Herzog stieß auf Befremden und Ablehnung (vgl. u. a. Charlotte von Steins Brief an Johann Georg Zimmermann vom 6. März 1776, abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>), die ihn bevorzugende Behandlung durch den Herzog führte auch dazu, dass der Neuankömmling in den etablierten Kreisen des Hofes und der Beamtenschaft als missliebiger Konkurrent wahrgenommen wurde, wie z. B. vom Wirklichen Geheimen Rat Jacob Friedrich von Fritsch, dem Vorsitzenden des Geheimen Consiliums, der aus Protest gegen die Aufnahme Goethes in dieses Gremium im April 1776 zunächst seinen Rücktritt erklärte.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9006">
+<label xml:id="GB03_2_BR004_0_note_006_5_19" copyOf="#start_com_0053"><hi rendition="#fett">5,19</hi>Schreiben Sie mir ein Wort.</label>
+<p>Briefe von Johanna Fahlmer an Goethe sind nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9007">
+<label xml:id="GB03_2_BR004_0_note_007_5_19" copyOf="#start_com_0054"><hi rendition="#fett">5,19</hi>Wieland ist gar lieb</label>
+<p>Dies war nicht selbstverständlich, nachdem Goethe Wieland wiederholt angegriffen hatte, etwa in seiner Farce „Götter Helden und Wieland“ (1773). Goethes Verhältnis zu Wieland war ambivalent gewesen. Einerseits erkannte er ihn (neben Shakespeare und Adam Friedrich Oeser) als einen seiner <quote type="G">ächten Lehrer</quote> an (Brief an Philipp Erasmus Reich, 20. Februar 1770; <ref target="gb:text#GB01_1_BR067_0_188_018">GB 1 I, 188,18</ref>). Andererseits mochte Goethe den als herablassend empfundenen „Vater-Ton“ Wielands ihm gegenüber nicht (vgl. Johanna Fahlmers Brief an Friedrich Heinrich Jacobi, etwa 6. oder 7. Mai 1774; <ref target="sndb:sigle#2941">JB</ref> I 1, 230). Aber es gab auch poetische Differenzen. So richtete sich die genannte Farce gegen Wielands Art der Rezeption der Antike: <quote type="G">Ich turlupinire ihn auf eine garstige Weise über seine moderne Mattherzigkeit in darstellung iener Riesengestalten der marckigen Fabelwelt.</quote> (Brief an Gottlob Friedrich Ernst Schönborn vom 1. Juni bis 4. Juli 1774; <ref target="gb:text#GB02_1_BR123_0_096_010 #GB02_1_BR123_0_096_012">GB 2 I, 96,10-12</ref>.) Als Goethe sich Mitte Dezember 1774 in einem nicht überlieferten Brief aus Mainz, wo er sich mit Herzog Carl August und dessen Bruder Constantin aufhielt, erstmals persönlich an Wieland wandte, teilte er diesem lediglich mit, „daß Gn. die Bratwürste mit den Prinzchen vortreflich schmeckten, u. daß er wünsche, liebden Wieland wären auch dabei“ (aufgezeichnet im Tagebuch von Carl Bertuch unter dem 14. Oktober 1809; H: <ref target="archivdb:dokument#529">GSA 6/3069</ref>; vgl. weiter <ref target="gb:note#GB02_2_BR172_0_note_004_149_14">GB 2 II, zu 149,14</ref>). Wieland nahm dies auf, wie es gemeint war, nämlich als Zeugnis dafür, „que le Seigneur Goethe n’a eu d’autre ideé que de se mocquer de moy.“ (Brief an Carl Ludwig von Knebel, 24. Dezember 1774; <ref target="sndb:sigle#141">WB</ref> 5, 322. – dass der große Herr Goethe nichts anderes im Sinne gehabt hat, als sich über mich lustig zu machen.) Vgl. auch die einleitende Erläuterung zu <ref target="gb:note#gb10882_comment_com4512">Nr 84</ref>.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9018">
+<label xml:id="GB03_2_BR004_0_note_008_5_20" copyOf="#start_com_0055"><hi rendition="#fett">5,20</hi>seinen Kindern</label>
+<p>1775 lebten vier Kinder in Wielands Familie: Sophie Catharina Susanne (damals 7 Jahre alt), Maria Carolina Friederika (5 Jahre), Regina Dorothea (4 Jahre), Amalia Augusta (zweieinhalb Jahre).</p>
+
+</note>
+<note xml:id="gb10565_comment_com9019">
+<label xml:id="GB03_2_BR004_0_note_009_5_21" copyOf="#start_com_0056"><hi rendition="#fett">5,21</hi>Sein Weib</label>
+<p>Anna Dorothea geb. Hillenbrand.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9020">
+<label xml:id="GB03_2_BR004_0_note_010_5_21" copyOf="#start_com_0057"><hi rendition="#fett">5,21</hi>la Roche</label>
+<p>Sophie von La Roche; mit ihr war Wieland von 1750 bis 1752 verlobt.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9021">
+<label xml:id="GB03_2_BR004_0_note_011_5_22" copyOf="#start_com_0058"><hi rendition="#fett">5,22</hi>Mama</label>
+<p>Catharina Elisabeth. – Auch Sophie von La Roche pflegte Goethe in seinen Briefen ‚Mama‘ zu nennen.</p>
+
+</note>
+<note xml:id="gb10565_comment_com17987">
+<label xml:id="GB03_2_BR004_0_note_012_5_22" copyOf="#start_com_0059"><hi rendition="#fett">5,22</hi>Briefe mit französchem Couvert</label>
+<p>Vermutlich handelte es sich um ‚französische Briefe‘, also um Briefe aus Frankreich. ‚Couverts‘ wurden jeweils individuell für jeden Brief gefaltet. Konfektionierte Briefumschläge wurden erst ab 1820 verwendet; spezifisch französische oder andere Umschläge gab es nicht (nach freundlicher Mitteilung von Frank Gnegel, Museum für Kommunikation Frankfurt a. M.). In Goethes Postsendelisten sind Briefe unter dem 11. Oktober 1775 an einen Monsieur Michel Ainé Bertrandt et Compagnie (vgl. <ref target="gb:dokument#15698">GB 2 I, EB 237</ref>) sowie unter dem 10. bzw. 14. November 1775 an einen Monsieur Georg und einen Monsieur Schenck (vgl. <ref target="gb:dokument#15707">EB 3</ref> und <ref target="gb:dokument#52542">EB 6</ref>) verzeichnet.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9033">
+<label xml:id="GB03_2_BR004_0_note_013_5_22-26" copyOf="#start_com_7404"><hi rendition="#fett">5,22-26</hi>Hier kommt <gap quantity="3" reason="editorial"/> schicken ma<supplied>g.</supplied></label>
+<p>Der Text wurde von Goethe mit zwei Klammern und drei dünnen diagonalen Strichen als obsolet gekennzeichnet, nachdem er sich, wie aus dem Schluss des Briefes hervorgeht, entschlossen hatte, die beiden erwähnten Briefe nicht als Beilagen zum vorliegenden Brief zu versenden, sondern seinem nicht überlieferten Brief an seinen Vater vom selben Datum (<ref target="gb:dokument#15707">EB 3</ref>) beizulegen.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9034">
+<label xml:id="GB03_2_BR004_0_note_014_5_23" copyOf="#start_com_0060"><hi rendition="#fett">5,23</hi>einer</label>
+<p>Es scheint sich um einen Brief von Philipp Rudolf von Trümbach zu handeln (vgl. zu <ref target="gb:note#GB03_2_BR003_0_note_003_4_28-5_1">4,28-5,1</ref>), der mit dem Testament Susanna von Klettenbergs zu tun hat; er ist nicht überliefert.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9035">
+<label xml:id="GB03_2_BR004_0_note_015_5_23" copyOf="#start_com_0061"><hi rendition="#fett">5,23</hi>Papa</label>
+<p>Johann Caspar Goethe.</p>
+
+</note>
+<note xml:id="gb10565_comment_com14964">
+<label xml:id="GB03_2_BR004_0_note_016_5_24" copyOf="#start_com_0062"><hi rendition="#fett">5,24</hi>Diakres</label>
+<p>Die Diakone der deutschen reformierten Gemeinde in Frankfurt (vgl. zu <ref target="gb:note#GB03_2_BR003_0_note_002_4_27-28">4,27-28</ref> sowie die einleitende Erläuterung zu <ref target="gb:note#gb10576_comment_com4244">Nr 3</ref>). – Franz. diacre: Diakon.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9036">
+<label xml:id="GB03_2_BR004_0_note_017_5_25" copyOf="#start_com_0063"><hi rendition="#fett">5,25</hi>die Sache</label>
+<p>Susanna von Klettenbergs Testament (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10576_comment_com4244">Nr 3</ref>).</p>
+
+</note>
+<note xml:id="gb10565_comment_com9037">
+<label xml:id="GB03_2_BR004_0_note_018_5_25" copyOf="#start_com_0064"><hi rendition="#fett">5,25</hi>das Trumbachische Geld</label>
+<p>Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10576_comment_com4244">Nr 3</ref>.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9052">
+<label xml:id="GB03_2_BR004_0_note_019_5_26" copyOf="#start_com_0065"><hi rendition="#fett">5,26</hi>Brief an sie</label>
+<p><ref target="gb:dokument#10576">Nr 3</ref>.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9053">
+<label xml:id="GB03_2_BR004_0_note_020_5_27" copyOf="#start_com_0066"><hi rendition="#fett">5,27</hi>Gerocks</label>
+<p>Die Familie Johann Georg Gerocks. Die Töchter, vor allem Antoinette Gerock, gehörten zu den Jugendfreundinnen Goethes und seiner Schwester Cornelia.</p>
+
+</note>
+<note xml:id="gb10565_comment_com17172">
+<label xml:id="GB03_2_BR004_0_note_021_5_27" copyOf="#start_com_0067"><hi rendition="#fett">5,27</hi>die Max</label>
+<p>Maximiliane Brentano geb. La Roche. Goethe hatte die Tochter Sophie von La Roches 1772 kennen gelernt und sich in sie verliebt. Seit Januar 1774 war sie mit dem Frankfurter Kaufmann Peter Anton Brentano unglücklich verheiratet (vgl. <ref target="gb:note#GB02_2_BR117_0_note_004_92_3-4">GB 2 II, zu 92,3–4</ref>; zu <ref target="gb:note#GB02_2_BR122_0_note_002_95_3">95,3</ref>).</p>
+
+</note>
+<note xml:id="gb10565_comment_com9054">
+<label xml:id="GB03_2_BR004_0_note_022_6_3" copyOf="#start_com_0068"><hi rendition="#fett">6,3</hi>obige bestellung an Papa</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR004_0_005_023 #GB03_1_BR004_0_005_026">5,23–26</ref>.</p>
+
+</note>
+<note xml:id="gb10565_comment_com9055">
+<label xml:id="GB03_2_BR004_0_note_023_6_3-4" copyOf="#start_com_0069"><hi rendition="#fett">6,3-4</hi>ich will ihm selbst schreiben</label>
+<p>Vgl. <ref target="gb:dokument#15710">EB 9</ref>.</p>
+
+</note>
+<note xml:id="gb10565_comment_com15693">
+<label xml:id="GB03_2_BR004_0_note_024_6_4" copyOf="#start_com_0070"><hi rendition="#fett">6,4</hi>Friz war kranck</label>
+<p>Friedrich Heinrich Jacobi war Anfang November 1775 lebensgefährlich erkrankt. Vgl. seinen Brief an Wieland vom 23. November 1775 (<ref target="sndb:sigle#2941">JB</ref> I 2, 32) sowie Elisabeth Jacobis Brief an Heinrich Arnold Kopstadt vom 29. November 1775 (<ref target="sndb:sigle#2941">JB</ref> II 2, 28).</p>
+
+</note>
+<note xml:id="gb10565_comment_com9056">
+<label xml:id="GB03_2_BR004_0_note_025_6_5" copyOf="#start_com_0071"><hi rendition="#fett">6,5</hi>Ich schreib ihm auch wohl noch heut.</label>
+<p>Ein solcher Brief an Friedrich Heinrich Jacobi ist nicht überliefert. Goethes nächster überlieferter Brief an ihn stammt erst vom 2. Oktober 1782.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

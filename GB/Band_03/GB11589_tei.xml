@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2320"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11589" n="GB 3, Nr. 229">
+  <teiHeader xml:id="gb11589_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>229.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 11. März 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:39Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11589_tei.xml</idno>
+        <idno type="URI">gb11589</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR229_0</idno>
+        <idno type="KSW-ID">11589</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="134" to="134">134</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="489" to="490">489-490</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11589_header_hwit1160" corresp="#gb11589_source_hwit1160" sameAs="#gb11589_comment_hwit1160" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 43</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11589,,1160/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wie der herrliche Morgen auf den gestrigen Nebel wohlthut, können Sie dencken</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb11589_header_acc188" corresp="gb11589_comment_acc188">
+            <objectIdentifier>
+              <objectName><quote type="G">Beutel</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-03-11">11. März 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11589_source_hwit1160" corresp="#gb11589_header_hwit1160" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11589/22544"/>
+      <p>
+        <anchor xml:id="GB03_1_BR229_0_134_001"/>Wie der herrliche Morgen auf den gestrigen Nebel wohlthut, konnen 
+<anchor xml:id="GB03_1_BR229_0_134_002"/>Sie dencken. Und ich mögte nun wissen ob Sie <ref target="gb:note#GB03_2_BR229_0_note_001_134_2" xml:id="start_com_2075"/>das böse Kopfweh<ref xml:id="end_com_2075"/>
+        <anchor xml:id="GB03_1_BR229_0_134_003"/>verlassen hat. Heut ist zwar <ref target="gb:note#GB03_2_BR229_0_note_002_134_3" xml:id="start_com_2076"/>Session<ref xml:id="end_com_2076"/> ich hoffe aber doch um ein Uhr 
+<anchor xml:id="GB03_1_BR229_0_134_004"/>fertig zu seyn, denn es ist nicht viel. <ref target="gb:note#GB03_2_BR229_0_note_003_134_4" xml:id="start_com_2077"/>Und komme also.<ref xml:id="end_com_2077"/>
+        <ref target="gb:note#GB03_2_BR229_0_note_004_134_4-5" xml:id="start_com_2078"/>Denn Nachmittag 
+<anchor xml:id="GB03_1_BR229_0_134_005"/>giebts wieder was zu thun.<ref xml:id="end_com_2078"/> Abends hingegen sind die <ref target="gb:note#GB03_2_BR229_0_note_005_134_5" xml:id="start_com_2079"/>Grasaffen<ref xml:id="end_com_2079"/>
+        <anchor xml:id="GB03_1_BR229_0_134_006"/>zum <ref target="gb:note#GB03_2_BR229_0_note_006_134_6" xml:id="start_com_2080"/>Feuer werck<ref xml:id="end_com_2080"/> eingeladen.    d<g ref="#typoSuspension"/>. 11 Merz 77</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR229_0_134_007"/>
+        <signed rend="paraph" rendition="#einrueck17">G.</signed>
+      </closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR229_0_134_008"/>Hier schick ich einen <ref target="gb:note#GB03_2_BR229_0_note_007_134_8" xml:id="start_com_2081"/>Beutel<ref xml:id="end_com_2081"/>, beym <emph rendition="#latin">
+            <ref target="gb:note#GB03_2_BR229_0_note_008_134_8" xml:id="start_com_2082"/>vignt un</emph>
+          <ref xml:id="end_com_2082"/> an mich zu dencken.</p>
+      </postscript>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11589_comment">
+<body>
+<div type="metadata" xml:id="gb11589_comment_com544">
+  <ab type="numberAddressee"><label>229.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 11. März 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11589_comment_com2588">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 43. – 1 Bl. 19,5 × 13,6(–13,9) cm, &#xBD; S. beschr., egh., Tinte; Rs. Rest einer Verschlussoblate?; Vs. oben rechts von fremder Hd, Tinte: „8“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 8), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 88.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 141, Nr 570.</p>
+</div>
+
+</div>
+<div type="attachment" xml:id="gb11589_comment_com3589">
+  <p><quote type="G">Beutel</quote> (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR229_0_note_007_134_8">134,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb11589_comment_com4384">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11589_comment_com13908">
+<label xml:id="GB03_2_BR229_0_note_001_134_2" copyOf="#start_com_2075"><hi rendition="#fett">134,2</hi>das böse Kopfweh</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR227_0_note_003_133_2">133,2</ref>.</p>
+
+</note>
+<note xml:id="gb11589_comment_com15041">
+<label xml:id="GB03_2_BR229_0_note_002_134_3" copyOf="#start_com_2076"><hi rendition="#fett">134,3</hi>Session</label>
+<p>Dienstags tagte das Geheime Consilium (vgl. <ref target="gt:dokument#308">GT I 1, 39</ref>).</p>
+
+</note>
+<note xml:id="gb11589_comment_com11038">
+<label xml:id="GB03_2_BR229_0_note_003_134_4" copyOf="#start_com_2077"><hi rendition="#fett">134,4</hi>Und komme also.</label>
+<p>Zwischen den beiden Sitzungen des Consiliums kam Goethe am <quote type="G">Mittag zu &#x2609;</quote> <supplied>Charlotte von Stein</supplied> (<ref target="gt:dokument#308">GT I 1, 39</ref>).</p>
+
+</note>
+<note xml:id="gb11589_comment_com17807">
+<label xml:id="GB03_2_BR229_0_note_004_134_4-5" copyOf="#start_com_2078"><hi rendition="#fett">134,4-5</hi>Denn Nachmittag <gap quantity="3" reason="editorial"/> was zu thun.</label>
+<p>Siehe Goethes Tagebucheintrag vom 11. März 1777: <quote type="G">Nachmittag Bau Session.</quote> (<ref target="gt:dokument#308">GT I 1, 39</ref>.) Beraten wurde über den Wiederaufbau des im Mai 1774 abgebrannten Stadtschlosses. Am Nachmittag des nächsten Tages fand eine <quote type="G">Bau Visitation im alten Schloss</quote> statt (ebd.).</p>
+
+</note>
+<note xml:id="gb11589_comment_com11039">
+<label xml:id="GB03_2_BR229_0_note_005_134_5" copyOf="#start_com_2079"><hi rendition="#fett">134,5</hi>Grasaffen</label>
+<p>Wahrscheinlich die Söhne Charlotte von Steins (vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>).</p>
+
+</note>
+<note xml:id="gb11589_comment_com11040">
+<label xml:id="GB03_2_BR229_0_note_006_134_6" copyOf="#start_com_2080"><hi rendition="#fett">134,6</hi>Feuer werck</label>
+<p>Siehe Tagebuch vom 11. März 1777: <quote type="G">Abends Feuerwerck.</quote> (<ref target="gt:dokument#308">GT I 1, 39</ref>.)</p>
+
+</note>
+<note xml:id="gb11589_comment_com15053">
+<label xml:id="GB03_2_BR229_0_note_007_134_8" copyOf="#start_com_2081"><hi rendition="#fett">134,8</hi>Beutel</label>
+<p>Ein Geldbeutel nur für Münzen, wohl vor allem für den Einsatz beim Kartenspiel (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 580).</p>
+
+</note>
+<note xml:id="gb11589_comment_com11041">
+<label xml:id="GB03_2_BR229_0_note_008_134_8" copyOf="#start_com_2082"><hi rendition="#fett">134,8</hi><emph rendition="#latin">vignt un</emph></label>
+<p>Verschrieben für franz. ‚Vingt (et) un‘ (Einundzwanzig), französisches Kartenspiel, das am Hof Ludwigs XV. sehr beliebt war. – Kartenspielen gehörte auch in Weimar zum bevorzugten Zeitvertreib der höfischen Gesellschaft.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

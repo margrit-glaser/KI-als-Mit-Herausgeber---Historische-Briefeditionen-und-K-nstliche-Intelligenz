@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1280"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10628" n="GB 3, Nr. 127">
+  <teiHeader xml:id="gb10628_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>127.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 9. Juni 1776.  Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:25Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10628_tei.xml</idno>
+        <idno type="URI">gb10628</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR127_0</idno>
+        <idno type="KSW-ID">10628</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="75" to="75">75</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="292" to="293">292-293</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10628_header_hwit1008" corresp="#gb10628_source_hwit1008" sameAs="#gb10628_comment_hwit1008" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 68</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10628,,1008/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Das konnten Sie mir also thun, und gestern von Tiefurt bleiben. Freylich was Sie thun muss</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10628_header_acc335" corresp="gb10628_comment_acc335">
+            <objectIdentifier>
+              <objectName>Bilderrahmen </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-06-09"><supplied>9. Juni 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-06-21">21. Juni 1776 ?</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10628_source_hwit1008" corresp="#gb10628_header_hwit1008" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10628/22386"/>
+      <p>
+        <anchor xml:id="GB03_1_BR127_0_075_006"/>Das konnten Sie mir also thun, und <ref target="gb:note#GB03_2_BR127_0_note_001_75_6" xml:id="start_com_1177"/>gestern von Tiefurt bleiben<ref xml:id="end_com_1177"/>. Freylich 
+<anchor xml:id="GB03_1_BR127_0_075_007"/>was Sie thun muss mir recht seyn!! Es machte mich nur traurig. – 
+<anchor xml:id="GB03_1_BR127_0_075_008"/>Hier sind <ref target="gb:note#GB03_2_BR127_0_note_002_75_8" xml:id="start_com_1178"/>die Rahmen<ref xml:id="end_com_1178"/>, bewahren Sie sie biss ich komme <ref target="gb:note#GB03_2_BR127_0_note_003_75_8" xml:id="start_com_1179"/>die Bilder<ref xml:id="end_com_1179"/>
+        <anchor xml:id="GB03_1_BR127_0_075_009"/>einzumachen. <ref target="gb:note#GB03_2_BR127_0_note_004_75_9" xml:id="start_com_1180"/>Heut mag ich nicht aus meinem Garten.<ref xml:id="end_com_1180"/>    Leben Sie 
+<anchor xml:id="GB03_1_BR127_0_075_010"/>wohl und sey sie so glücklich als Sie lieb mir sind. Was<ptr n="1" target="#a001_75.10"/> macht <ref target="gb:note#GB03_2_BR127_0_note_005_75_10" xml:id="start_com_1181"/>Friz<ptr n="2" target="#a002_75.10"/>
+        <ref xml:id="end_com_1181"/>.</p>
+    <pb n="2" facs="gb:digitalisate#10628/22387" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10628_comment">
+<body>
+<div type="metadata" xml:id="gb10628_comment_com372">
+  <ab type="numberAddressee"><label>127.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>9. Juni 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10628_comment_com1560">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief am Ende des Jahrgangs 1777 eingeordnet. Der Brief schließt inhaltlich und im Ton an die Briefe des Frühsommers 1776 an und wird seit dem Erstdruck in den Juni 1776 gesetzt. Auf den 9. Juni 1776 wurde er zuerst von Wahle datiert (vgl. <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 37, Nr 66). Für diese Datierung sprechen Inhalt und Tagebuch (vgl. zu <ref target="gb:note#GB03_2_BR127_0_note_001_75_6">75,6</ref>; zu <ref target="gb:note#GB03_2_BR127_0_note_004_75_9">75,9</ref>; zu <ref target="gb:note#GB03_2_BR127_0_note_002_75_8">75,8</ref>). Eine vergleichbare Konstellation findet sich zwar auch am 21. Juni 1776 (so datiert in: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 39 f., Nr 67 und <ref target="sndb:sigle#1157">WA</ref>). An diesem Tag hielt sich Goethe ebenfalls in seinem Garten auf und war am Vortag in Tiefurt gewesen (vgl. <ref target="gt:dokument#76">GT I 1, 19</ref>). Die Bemerkung <quote type="G">Wiedergefordertes Armband</quote> (ebd.) verweist allerdings darauf, dass am 20. Juni Charlotte von Stein zur Tiefurter Gesellschaft gehört hatte (vgl. zu <ref target="gb:note#GB03_2_BR111_0_note_003_65_4">65,4</ref>); im vorliegenden Brief wird das für den Vortag ausgeschlossen (vgl. <ref target="gb:text#GB03_1_BR127_0_075_006">75,6</ref>). Weiterhin spricht die Übersendung der <quote type="G">Rahmen</quote> (vgl. <ref target="gb:note#gb10628_comment_com3527">Beilage</ref>), die Goethe schon am 7. Juni angekündigt hatte (vgl. <ref target="gb:text#GB03_1_BR125_0_074_015 #GB03_1_BR125_0_074_016">74,15–16</ref>), dafür, dass der vorliegende Brief am 9. Juni und nicht erst mehr als eine Woche später geschrieben wurde.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10628_comment_com2416">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 68. – 1 Bl. 17,8 × 10,9 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Reste eines roten Siegels, untere rechte Ecke ausgerissen durch Siegelöffnung; Vs. oben rechts von fremder Hd, Tinte: „62“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 66), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 37.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 76, Nr 478.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10628_comment_com3527">
+  <p>Bilderrahmen (vgl. zu <ref target="gb:note#GB03_2_BR127_0_note_002_75_8">75,8</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10628_comment_com4212">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10628_comment_com14937">
+<label xml:id="GB03_2_BR127_0_note_001_75_6" copyOf="#start_com_1177"><hi rendition="#fett">75,6</hi>gestern von Tiefurt bleiben</label>
+<p>Der letzte der kurzen Tagebucheinträge vom 8. Juni 1776 lautet: <quote type="G">nach Tiefurth.</quote> (<ref target="gt:dokument#65">GT I 1, 19</ref>.)</p>
+
+</note>
+<note xml:id="gb10628_comment_com14116">
+<label xml:id="GB03_2_BR127_0_note_002_75_8" copyOf="#start_com_1178"><hi rendition="#fett">75,8</hi>die Rahmen</label>
+<p>Die versprochenen Bilderrahmen für Goethes Zeichnungen (vgl. zu <ref target="gb:note#GB03_2_BR125_0_note_011_74_16">74,16</ref>).</p>
+
+</note>
+<note xml:id="gb10628_comment_com9450">
+<label xml:id="GB03_2_BR127_0_note_003_75_8" copyOf="#start_com_1179"><hi rendition="#fett">75,8</hi>die Bilder</label>
+<p>Goethes Zeichnungen vom Brand in Utenbach (vgl. zu <ref target="gb:note#GB03_2_BR122_0_note_002_72_13">72,13</ref>).</p>
+
+</note>
+<note xml:id="gb10628_comment_com15944">
+<label xml:id="GB03_2_BR127_0_note_004_75_9" copyOf="#start_com_1180"><hi rendition="#fett">75,9</hi>Heut <gap quantity="3" reason="editorial"/> nicht aus meinem Garten.</label>
+<p>Laut Tagebuch vom 9. Juni 1776 hielt sich Goethe an diesem Tag in seinem Garten auf, wo er verschiedene Besucher empfing, darunter Lenz und Friedrich Hildebrand von Einsiedel, die nach einem Spaziergang über Oberweimar, Taubach und Ehringsdorf auch bei ihm im Garten übernachteten (vgl. <ref target="gt:dokument#66">GT I 1, 19</ref>).</p>
+
+</note>
+<note xml:id="gb10628_comment_com9451">
+<label xml:id="GB03_2_BR127_0_note_005_75_10" copyOf="#start_com_1181"><hi rendition="#fett">75,10</hi>Friz</label>
+<p>Friedrich von Stein.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

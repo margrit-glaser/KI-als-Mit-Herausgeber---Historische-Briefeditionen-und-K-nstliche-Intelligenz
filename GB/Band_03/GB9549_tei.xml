@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4770"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb9549" n="GB 3, Nr. 468">
+  <teiHeader xml:id="gb9549_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>468.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77679">Dornburg</placeName>, 2. März <supplied>1779. Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb9549_tei.xml</idno>
+        <idno type="URI">gb9549</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR468_0</idno>
+        <idno type="KSW-ID">9549</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="260" to="260">260</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="862" to="863">862-863</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb9549_header_hwit1445" corresp="#gb9549_source_hwit1445" sameAs="#gb9549_comment_hwit1445" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/469,I Bl. 1</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:343268</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/9549,,1445/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Der Bote muß warten bis du von der Frau v. Stein Antwort kriegst, sollte etwas</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77679">Dornburg</placeName>
+            <date when="1779-03-02">2. März <supplied>1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45319">Seidel, Philipp</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb9549_source_hwit1445" corresp="#gb9549_header_hwit1445" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#9549/12304"/>
+      <p>
+        <anchor xml:id="GB03_1_BR468_0_260_023"/>
+        <ref target="gb:note#GB03_2_BR468_0_note_001_260_23" xml:id="start_com_3790"/>Der Bote muss warten bis du von der Fr v. Stein Antwort kriegst<ref xml:id="end_com_3790"/>, 
+<anchor xml:id="GB03_1_BR468_0_260_024"/>sollte etwas vorgefallen seyn so melde mirs, und schicke <ref target="gb:note#GB03_2_BR468_0_note_002_260_24-25" xml:id="start_com_3791"/>ein Packet das 
+<anchor xml:id="GB03_1_BR468_0_260_025"/>von Gera gekommen ist<ref xml:id="end_com_3791"/> zugleich mit.    Dornburg d<g ref="#typoSuspension"/>. 2 März     G.</p>
+    <pb n="2" facs="gb:digitalisate#9549/12305" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb9549_comment">
+<body>
+<div type="metadata" xml:id="gb9549_comment_com943">
+  <ab type="numberAddressee"><label>468.</label> An <persName key="sndb:person#45319">Philipp Seidel</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77679">Dornburg</placeName>, 2. März <supplied>1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb9549_comment_com1819">
+  <p>Das Jahr wurde ergänzt nach Goethes Tagebucheintrag vom 2. März 1779. Goethe unternahm vom 28. Februar bis zum 12. März 1779 eine Dienstreise nach Jena, Dornburg, Apolda und Buttstädt (vgl. zu <ref target="gb:note#GB03_2_BR466_0_note_001_259_7">259,7</ref>) und kam am 2. März 1779 <quote type="G">Abends 6</quote> (<ref target="gt:dokument#679">GT I 1, 76</ref>) in Dornburg an.</p>
+</div>
+
+<div type="addressee" xml:id="gb9549_comment_com2037">
+  <p>Der vorliegende Brief befand sich in den 1880er Jahren unter den Briefen Goethes an Friedrich Justin Bertuch im „Bertuch-Froriepschen Archiv“ in Weimar, das geschlossen ins GSA gelangte. Ludwig Geiger, der Herausgeber des Erstdrucks der Briefe an Bertuch, nimmt zwar an, dass vorliegendes Billett an Philipp Seidel gerichtet war, schließt aber Bertuch als Adressat nicht völlig aus. In der <ref target="sndb:sigle#1157">WA</ref> wurde der Brief als zweifelsfrei an Seidel gerichtet abgedruckt. Für diese Zuschreibung spricht, dass Seidel als Goethes Diener und Sekretär während der Abwesenheiten seines Herrn dessen Haus und Stadtwohnung beaufsichtigte und weitgehende Vollmachten besaß (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb15132_comment_com4843">Nr 362</ref>). So wird auch Seidel und nicht Bertuch die von Goethe erwartete <quote type="G">Antwort</quote> (<ref target="gb:text#GB03_1_BR468_0_260_023">260,23</ref>) Charlotte von Steins entgegengenommen haben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb9549_comment_com2987">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#343268">GSA 29/469,I</ref>, Bl. 1. – 1 Bl. ca. 18,1 &#xD7; 20,1(–20,3) cm, &#xBD; S. beschr., egh., Tinte. – Beischluss: <ref target="gb:dokument#11681">Nr 467</ref> (vgl. zu <ref target="gb:note#GB03_2_BR468_0_note_001_260_23">260,23</ref>).</p>
+  <p>E: Ludwig Geiger: Goethes Briefe an Bertuch. In: <ref target="sndb:sigle#1266">GJb</ref> IV (1883), 227 f., Nr 33.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 14, Nr 787.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb9549_comment_com4783">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb9549_comment_com7549">
+<label xml:id="GB03_2_BR468_0_note_001_260_23" copyOf="#start_com_3790"><hi rendition="#fett">260,23</hi>Der Bote muss warten bis du <gap quantity="3" reason="editorial"/> Antwort kriegst</label>
+<p>Demnach übersandte Goethe den vorliegenden Brief mit dem an Charlotte von Stein gerichteten vom selben Tag (<ref target="gb:dokument#11681">Nr 467</ref>) durch einen Boten (vgl. <ref target="gb:text#GB03_1_BR467_0_260_015 #GB03_1_BR467_0_260_017">260,15–17</ref>). – Einen Antwortbrief Charlotte von Steins erhielt Goethe allerdings erst am 5. März 1779 in Apolda (vgl. <ref target="gb:text#GB03_1_BR469_0_261_022 #GB03_1_BR469_0_261_025">261,22–25</ref>).</p>
+
+</note>
+<note xml:id="gb9549_comment_com16865">
+<label xml:id="GB03_2_BR468_0_note_002_260_24-25" copyOf="#start_com_3791"><hi rendition="#fett">260,24-25</hi>ein Packet das von Gera gekommen ist</label>
+<p>Vielleicht ein Paket von Johann Friedrich Krafft, der sich noch in Gera aufhielt, bevor er mit Goethes Hilfe nach Ilmenau umzog (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb38_comment_com4808">Nr 410</ref>). Am 26. März 1779 schrieb Goethe an Krafft: <quote type="G">Diesen Monath bin ich wenig nach Hause gekommen und finde nunmehr ihren Aufsaz.</quote> (<ref target="gb:text#GB03_1_BR481_0_267_013 #GB03_1_BR481_0_267_014">267,13–14</ref>.) Am 11. Dezember 1778 hatte er Krafft gebeten: <quote type="G">Fangen Sie bald an Ihr Leben zu beschreiben und schicken mir’s stückweise</quote> (<ref target="gb:text#GB03_1_BR419_0_241_004 #GB03_1_BR419_0_241_005">241,4–5</ref>). Den Erhalt einer ersten Sendung vermerkte Goethe im Tagebuch nach dem 15. und vor dem 30. Dezember 1778: <quote type="G">Kriegte die Lebens beschr.</quote> <supplied>Lebensbeschreibung</supplied> <quote type="G">von Kr.</quote> <supplied>Krafft</supplied> (<ref target="gt:dokument#656">GT I 1, 69</ref>). Am 3. Januar 1779 schrieb er an Krafft: <quote type="G">Ich erwarte die Fortsezzung Ihres Lebens</quote> (<ref target="gb:text#GB03_1_BR452_0_255_003">255,3</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4580"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb52723" n="GB 3, Nr. 449">
+  <teiHeader xml:id="gb52723_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>449.</label> An <persName key="sndb:person#57692">Sophie Marie Caroline von Lichtenberg</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 1. Januar 1779. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:22:17Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb52723_tei.xml</idno>
+        <idno type="URI">gb52723</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR449_0</idno>
+        <idno type="KSW-ID">52723</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="253" to="254">253-254</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="838" to="839">838-839</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb52723_header_hwit52895" corresp="#gb52723_source_hwit52895" sameAs="#gb52723_comment_hwit52895" type="draft">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>25 Goethe, Johann Wolfgang / Werke</collection>
+            <idno type="shelfmark">GSA 25/W 342 S. 4</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:349648</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/52723,,52895/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Das schnell dir dieses Jahr verging</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#41490">Seckendorff, Carl Friedrich Sigmund von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-01-01"><supplied>1. Januar 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#57692">Lichtenberg, Sophie Marie Caroline von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb52723_source_hwit52895" corresp="#gb52723_header_hwit52895" type="source" rend="draft">
+  <body>
+    <div>
+      <head><supplied>Konzept</supplied></head>
+      <pb n="1" facs="gb:digitalisate#52723/12444"/>
+      <lg type="poem">
+              <anchor xml:id="GB03_1_BR449_0_253_014"/><head rendition="#einrueck8">Frau von Lichtenberg.</head>
+      <space quantity="1" unit="lines"/>
+              <anchor xml:id="GB03_1_BR449_0_253_015"/>
+        <l rendition="#einrueck5">Dass schnell dir dieses Jahr verging</l>
+        <anchor xml:id="GB03_1_BR449_0_253_016"/>
+        <l rendition="#einrueck5">Ist eben wohl kein Wunderding;</l>
+        <anchor xml:id="GB03_1_BR449_0_253_017"/>
+        <l rendition="#einrueck5">Mit gutem Appetit geniesen</l>
+        <anchor xml:id="GB03_1_BR449_0_253_018"/>
+        <l rendition="#einrueck5">Vom Morgen bis zum Abend küssen</l>
+        <anchor xml:id="GB03_1_BR449_0_253_019"/>
+        <l rendition="#einrueck5">Und fest sich an den Schnurrbart schliessen</l>
+        <anchor xml:id="GB03_1_BR449_0_253_020"/>
+        <l rendition="#einrueck5">Kann lange Nächte<ptr n="1" target="#a001_253.20"/> leicht versüssen</l>
+        <anchor xml:id="GB03_1_BR449_0_254_001"/>
+        <l rendition="#einrueck5">Fast weis man nicht bei deinem Wohl</l>
+        <anchor xml:id="GB03_1_BR449_0_254_002"/>
+        <l rendition="#einrueck5">Was man dir weiter wünschen soll</l>
+        <anchor xml:id="GB03_1_BR449_0_254_003"/>
+        <l rendition="#einrueck5">Als etwa nach vollendeten Redouten</l>
+        <anchor xml:id="GB03_1_BR449_0_254_004"/>
+        <l rendition="#einrueck5">Einen kleinen schreienden Rekroutten.</l>
+      </lg>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb52723_comment">
+<body>
+<div type="metadata" xml:id="gb52723_comment_com1357">
+  <ab type="numberAddressee"><label>449.</label> An <persName key="sndb:person#57692">Sophie Marie Caroline von Lichtenberg</persName> mit <persName key="sndb:person#41490">Carl Friedrich Sigmund von Seckendorff</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>1. Januar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb52723_comment_com2002">
+  <p>Vgl. zu <ref target="gb:note#GB03_2_BR428_0_note_001_244_6-7">244,6-7</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb52723_comment_com3401">
+  <p>H: Verbleib unbekannt.</p>
+  <p>K: GSA Weimar, Sign.: <ref target="archivdb:dokument#349648">GSA 25/W 342</ref>. – Auf einem Doppelblatt, S. 4 (vgl. weiter Überlieferung zu <ref target="gb:note#gb52743_comment_com3068">Nr 429</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1266/762">Burkhardt, Neujahrs-Possen, 1904</ref>, 61.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref>: Nicht gedruckt.</p>
+  <p>Textgrundlage: K.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb52723_comment_com5197">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Zum Anlass des Gedichtbriefs vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52743_comment_com4864">Nr 429</ref>. – Sophie Marie Caroline von Lichtenberg geb. von Ilten (1755–1794) war die ältere Schwester Caroline von Iltens (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52739_comment_com5212">Nr 433</ref>). Am 22. Juni 1778 hatte sie in Kalbsrieth in Anwesenheit Charlotte von Steins den herzoglichen Adjutanten und Husaren-Rittmeister Carl Friedrich von Lichtenberg geheiratet (vgl. zu <ref target="gb:note#GB03_2_BR374_0_note_004_215_11">215,11</ref>). Aus dieser Ehe ging 1783 nach zwei Totgeburten eine Tochter hervor, die durch eine „Aufsehen erregende Operation“ (<ref target="sndb:sigle#4161/1120">Huschke, Klassisches Weimar</ref>, 96) des Jenaer Arztes und Professors Johann Christian Stark lebend zur Welt kam. Nach dem Tod ihres Mannes 1790 heiratete Sophie 1791 den Weimarer Hauptmann und Kammerherrn Johann Georg Lebrecht von Luck, der nach ihrem Tod die gemeinsame Tochter Louise mit in seine zweite Ehe mit Augusta von Kalb brachte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb52743_comment_com4864">Nr 429</ref>; vgl. <ref target="sndb:sigle#4161/1120">Huschke, Klassisches Weimar</ref>, 96). – Sophie von Lichtenberg gehörte vor ihrer Heirat wie ihre Schwester zu den von Goethe oft erwähnten <quote type="G">Misels</quote> (<ref target="gb:text#GB03_1_BR253_0_142_021">142,21</ref>; vgl. zu <ref target="gb:note#GB03_2_BR253_0_note_003_142_21">142,21</ref>). Die Verse spielen auf die ein halbes Jahr zurückliegende Hochzeit mit Carl Friedrich von Lichtenberg an. – Der vorliegende Gedichtbrief wurde wahrscheinlich nicht abgeschickt, da im Gegensatz zu den meisten anderen Konzepten der Erledigungsstrich fehlt (vgl. Überlieferung zu <ref target="gb:note#gb52743_comment_com3068">Nr 429</ref>). Goethe, der Frau von Lichtenberg später aus Italien grüßen lässt (vgl. <ref target="gb:text#GB07_1_BR142_0_252_024 #GB07_1_BR142_0_252_027">GB 7 I, 252,24-27</ref>), hat ihr vermutlich auch selbst aus Italien geschrieben (vgl. <ref target="gb:dokument#52164">GB 7 I, EB 57</ref>).</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

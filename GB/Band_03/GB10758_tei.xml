@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="790"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10758" n="GB 3, Nr. 79">
+  <teiHeader xml:id="gb10758_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>79.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 10. April 1776. Mittwoch</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10758_tei.xml</idno>
+        <idno type="URI">gb10758</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR079_0</idno>
+        <idno type="KSW-ID">10758</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="51" to="51">51</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="201" to="203">201-203</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10758_header_hwit925" corresp="#gb10758_source_hwit925" sameAs="#gb10758_comment_hwit925" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10758,,925/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante lohn euch alles Gott. Mir ist wieder hier ganz wohl. NB. Brauchte ein schön</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-04-10"><supplied>10. April 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10758_source_hwit925" corresp="#gb10758_header_hwit925" type="source" rend="authorisedLetter">
+  <body>
+    <div><pb n="1" facs="gb:digitalisate#10758/62349"/>
+      <p>
+        <anchor xml:id="GB03_1_BR079_0_051_013"/>Liebe Tante. <ref target="gb:note#GB03_2_BR079_0_note_001_51_13" xml:id="start_com_0796"/>lohn euch alles Gott.<ref xml:id="end_com_0796"/> Mir ist <ref target="gb:note#GB03_2_BR079_0_note_002_51_13" xml:id="start_com_0797"/>wieder hier<ref xml:id="end_com_0797"/> ganz wohl. <g ref="#NB"/>&#xA0;. 
+<anchor xml:id="GB03_1_BR079_0_051_014"/>Brauchte ein schön Duzzend<ptr n="1" target="#a001_51.14"/>
+        <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR079_0_note_003_51_14" xml:id="start_com_0798"/>Holländische Schnupftücher</hi><ref xml:id="end_com_0798"/>
+        <anchor xml:id="GB03_1_BR079_0_051_015"/>recht gros, <ref target="gb:note#GB03_2_BR079_0_note_004_51_15" xml:id="start_com_0799"/>und und<ref xml:id="end_com_0799"/>
+        <hi rendition="#hervor1">ein Paar recht gute <ref target="gb:note#GB03_2_BR079_0_note_005_51_15" xml:id="start_com_0800"/>Manschetten</hi><ref xml:id="end_com_0800"/> Mittel 
+<anchor xml:id="GB03_1_BR079_0_051_016"/>sorte hab genug. Lebt wohl und froh.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR079_0_051_017"/>
+        <ref target="gb:note#GB03_2_BR079_0_note_006_51_17" xml:id="start_com_0801"/>Von Lili nichts mehr<ref xml:id="end_com_0801"/>, sie ist abgethan, ich hasse <ref target="gb:note#GB03_2_BR079_0_note_007_51_17" xml:id="start_com_0802"/>das Volck<ref xml:id="end_com_0802"/> lang im 
+<anchor xml:id="GB03_1_BR079_0_051_018"/>Tiefsten Grunde. <hi rendition="#hervor1"><ref target="gb:note#GB03_2_BR079_0_note_008_51_18" xml:id="start_com_0803"/>Der Zug</hi><ref xml:id="end_com_0803"/> war noch der Schlussstein. Hol sie der 
+<anchor xml:id="GB03_1_BR079_0_051_019"/>Teufel. Das arme Geschöpf bedaur ich dass sie unter so einer <ref target="gb:note#GB03_2_BR079_0_note_009_51_19" xml:id="start_com_0804"/>Race<ref xml:id="end_com_0804"/>
+        <anchor xml:id="GB03_1_BR079_0_051_020"/>gebohren ist. Adieu Tante du bist immer die liebe, gleiche! – Grüs 
+<anchor xml:id="GB03_1_BR079_0_051_021"/><ref target="gb:note#GB03_2_BR079_0_note_010_51_21" xml:id="start_com_0805"/>Frizzen<ref xml:id="end_com_0805"/>. Nächstens einen <ref target="gb:note#GB03_2_BR079_0_note_011_51_21-22" xml:id="start_com_0806"/>Brief von mir an den Vater von erhabner 
+<anchor xml:id="GB03_1_BR079_0_051_022"/>Composition<ref xml:id="end_com_0806"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck22">
+          <anchor xml:id="GB03_1_BR079_0_051_023"/>
+          <graphic url="gb:digitalisate#10758/70158" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10758/62350" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10758_comment">
+<body>
+<div type="metadata" xml:id="gb10758_comment_com638">
+  <ab type="numberAddressee"><label>79.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>10. April 1776</supplied> → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10758_comment_com1696">
+  <p>Die Erwähnung Anna Elisabeth (Lili) Schönemanns (vgl. <ref target="gb:text#GB03_1_BR079_0_051_017">51,17</ref>) verweist auf das Jahr 1776, die Bitte um die <quote type="G"><hi rendition="#hervor1">Manschetten</hi></quote> (<ref target="gb:text#GB03_1_BR079_0_051_015">51,15</ref>) auf Goethes Brief an Johanna Fahlmer vom 18. März 1776 (<ref target="gb:dokument#10693">Nr 62</ref>), der Anfang des Briefes –  <quote type="G">wieder hier</quote> (<ref target="gb:text#GB03_1_BR079_0_051_013">51,13</ref>) – auf die Rückkehr von der Reise nach Leipzig (24. März bis 4. April 1776). In Goethes Rechnungsbüchern ist am 10. April 1776 ein Brief an Johanna Fahlmer verzeichnet; offenbar handelt es sich um den vorliegenden.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10758_comment_com2682">
+  <p>H: Privatbesitz, Deutschland. – 1 Bl. 10,8 &#xD7; 16,5(–16,8) cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte, flüchtig geschrieben; Vs. oben links von Johanna Fahlmers Hd, Tinte: <quote>Nr 7</quote> (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), in der Mitte von fremder Hd, Bleistift: <quote>44</quote> (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 113 f., Nr 44.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 50, Nr 434 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10758_comment_com4478">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Johanna Fahlmers (vgl. <ref target="gb:text#GB03_1_BR079_0_051_013">51,13</ref> und <ref target="gb:text#GB03_1_BR079_0_051_017">51,17</ref>). – Ein Antwortbrief ist nicht bekannt. Schon am 12. April 1776 schrieb Goethe erneut an die Adressatin; der Brief ist nicht überliefert (vgl. <ref target="gb:dokument#15755">EB 57</ref>).</p>
+  <p rendition="#einrueck1">Postsendungen: 10. April 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 3v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10758_comment_com17543">
+<label xml:id="GB03_2_BR079_0_note_001_51_13" copyOf="#start_com_0796"><hi rendition="#fett">51,13</hi>lohn euch alles Gott</label>
+<p>In den vorhergehenden Briefen hatte Goethe Johanna Fahlmer um die Erledigung verschiedener Aufträge an seine Eltern gebeten. Es ging u. a. um finanzielle Hilfe durch den Vater und Unterstützung bei der Ausstattung seiner neuen Wohnung (vgl. <ref target="gb:dokument#10691">Nr 55</ref> und die Erläuterungen dazu). Wofür er sich hier im Einzelnen bedankt, ließ sich nicht ermitteln.</p>
+
+</note>
+<note xml:id="gb10758_comment_com9970">
+<label xml:id="GB03_2_BR079_0_note_002_51_13" copyOf="#start_com_0797"><hi rendition="#fett">51,13</hi>wieder hier</label>
+<p>Goethe hatte vom 24. März bis zum 4. April 1776 eine Reise nach Leipzig unternommen (vgl. zu <ref target="gb:note#GB03_2_BR066_0_note_001_45_1">45,1</ref>). Er berichtet darüber in Briefen an Charlotte von Stein (<ref target="gb:dokument#10652">Nr 67</ref>, <ref target="gb:dokument#11922">68</ref>, <ref target="gb:dokument#11883">69</ref>, <ref target="gb:dokument#11923">71</ref>, <ref target="gb:dokument#10713">73</ref>, <ref target="gb:dokument#10714">74</ref>) und Herzog Carl August (<ref target="gb:dokument#10700">Nr 70</ref> und <ref target="gb:dokument#10397">72</ref>).</p>
+
+</note>
+<note xml:id="gb10758_comment_com17544">
+<label xml:id="GB03_2_BR079_0_note_003_51_14" copyOf="#start_com_0798"><hi rendition="#fett">51,14</hi><hi rendition="#hervor1">Holländische Schnupftücher</hi></label>
+<p>Sie waren von besonders guter Qualität. Tuchmacherei wurde „vornehmlich in Holland und Engelland getrieben, von dannen die meisten Tücher in alle Theile der Welt verführet“ wurden (<ref target="sndb:sigle#3152">Zedler</ref> 45, 1411). Vor allem die Produkte der Tuch-Manufakturen in Leiden „übertreffen <gap quantity="3" reason="editorial"/> nunmehro fast die Frantzosen und Italiäner“ (<ref target="sndb:sigle#3152">Zedler</ref> 52, 68).</p>
+
+</note>
+<note xml:id="gb10758_comment_com9971">
+<label xml:id="GB03_2_BR079_0_note_004_51_15" copyOf="#start_com_0799"><hi rendition="#fett">51,15</hi>und und</label>
+<p>Versehentliche Dittographie.</p>
+
+</note>
+<note xml:id="gb10758_comment_com9983">
+<label xml:id="GB03_2_BR079_0_note_005_51_15" copyOf="#start_com_0800"><hi rendition="#fett">51,15</hi><hi rendition="#hervor1">Manschetten</hi></label>
+<p>Johanna Fahlmer ließ Goethes Aufträge erledigen. – Nicht nur Goethe, sondern auch Johann August von Kalb ließ sich Wäsche, u. a. Manschetten, aus Frankfurt kommen; in seinem Brief an Goethes Eltern vom 16. März 1776 (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>) meldete er, der „Kasten mit der Wäsche und denen Manschetten“ sei „richtig ankommen“. Dass sich dieser Hinweis nicht, wie gelegentlich angenommen (vgl. H<supplied>einrich</supplied> Düntzer: Freundesbilder aus Goethe’s Leben. Studien zum Leben des Dichters. Leipzig 1853, S. 460; <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref>, 114), auf eine Bestellung Goethes wie die vorliegende bezieht, ergibt sich aus einem Brief Catharina Elisabeth Goethes an Philipp Seidel vom 17. Januar 1777, in dem sie mitteilt, am 3. Januar sei „der Kasten mit dem Tuch vor Herrn von <gap quantity="3" reason="editorial"/> Kalb <gap quantity="3" reason="editorial"/> nach Weimar abgegangen.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 405.)</p>
+
+</note>
+<note xml:id="gb10758_comment_com17552">
+<label xml:id="GB03_2_BR079_0_note_006_51_17" copyOf="#start_com_0801"><hi rendition="#fett">51,17</hi>Von Lili nichts mehr</label>
+<p>Der Bezugsbrief hatte offenbar Nachrichten über Anna Elisabeth (Lili) Schönemann enthalten, mit der Goethe im Jahr zuvor eine Zeitlang inoffiziell verlobt gewesen war. Über die schwierige, von beiden Familien abgelehnte Beziehung zu der Frankfurter Bankierstochter vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51217_comment_com4802">GB 2 II, Z 1</ref>. Noch Ende 1775 hatte Goethe im Brief an Herzog Carl August vom 23. Dezember Verse auf seine Freundin gemacht (vgl. <ref target="gb:text#GB03_1_BR008_0_010_001 #GB03_1_BR008_0_010_004">10,1–4</ref>), von der er nun nichts mehr wissen will. Ludwig Urlichs vermutete: „Vielleicht hatten ihre Verwandten jetzt, als G’s Loos sich glänzend gestaltete, durch Johanna das abgebrochene Verhältniß anknüpfen wollen.“ (<ref target="sndb:sigle#2857">Goethe-Fahlmer</ref>, 114, Anm. 3.)</p>
+
+</note>
+<note xml:id="gb10758_comment_com9984">
+<label xml:id="GB03_2_BR079_0_note_007_51_17" copyOf="#start_com_0802"><hi rendition="#fett">51,17</hi>das Volck</label>
+<p>Hier abwertend für die Bankiersfamilie Schönemann, von der Goethe als nicht angemessene Partie für ihre Tochter betrachtet worden war.</p>
+
+</note>
+<note xml:id="gb10758_comment_com17630">
+<label xml:id="GB03_2_BR079_0_note_008_51_18" copyOf="#start_com_0803"><hi rendition="#fett">51,18</hi><hi rendition="#hervor1">Der Zug</hi></label>
+<p>Hier im Sinne von ‚guter Schachzug‘ in Ableitung „vom ziehen beim brettspiel“ (<ref target="sndb:sigle#2890">Grimm</ref> 16, 380): die von der Familie betriebene Verlobung Anna Elisabeth Schönemanns mit einem „jungen Herrn Bernard aus Straßburg, der wohl ein Verwandter des <gap quantity="3" reason="editorial"/> in Offenbach begüterten ‚Onkel <supplied>Nicolaus</supplied> Bernard‘ war.“ (Franz Servaes: Goethes Lili. 3. Aufl. Bielefeld und Leipzig 1926, S. 101.) Er war Besitzer von Hüttenwerken in der Nähe von Straßburg und galt als vermögend. Die Verlobung kam im Frühsommer 1776 zustande. Als Bernard jedoch eine Inspektion seiner Hüttenanlagen durchführte, fand er sie in desolatem Zustand vor. Bernard floh vor dem drohenden Bankrott und blieb lange Zeit verschollen (vgl. ebd., S. 101–103). Nach Ernst Beutler soll sich der Bräutigam aus Scham darüber, dass „das elsässische Hüttenwerk, von dessen Erträgen das Ehepaar zu leben hatte, keinen Gewinn mehr abwarf“ zurückgezogen und später auf Jamaika den Tod gefunden haben (Ernst Beutler: Lili / Wiederholte Spiegelungen. In: Ders.: Essays um Goethe. Erweiterte Frankfurter Ausgabe. Hrsg. von Christian Beutler. Frankfurt a. M. 1995, S. 198).</p>
+
+</note>
+<note xml:id="gb10758_comment_com9999">
+<label xml:id="GB03_2_BR079_0_note_009_51_19" copyOf="#start_com_0804"><hi rendition="#fett">51,19</hi>Race</label>
+<p>Schreibweise nach dem Französischen; hier: Geschlecht, Familie.</p>
+
+</note>
+<note xml:id="gb10758_comment_com10000">
+<label xml:id="GB03_2_BR079_0_note_010_51_21" copyOf="#start_com_0805"><hi rendition="#fett">51,21</hi>Frizzen</label>
+<p>Friedrich Heinrich Jacobi, dessen Stieftante Johanna Fahlmer war.</p>
+
+</note>
+<note xml:id="gb10758_comment_com16037">
+<label xml:id="GB03_2_BR079_0_note_011_51_21-22" copyOf="#start_com_0806"><hi rendition="#fett">51,21-22</hi>Brief von mir <gap quantity="3" reason="editorial"/> Composition</label>
+<p>Gemeint ist wohl ein Brief Goethes mit Nachrichten an die Eltern über seine Anstellung als Geheimer Legationsrat in weimarischen Diensten. Ein solcher Brief ist nicht überliefert. Goethes Eltern hatten davon bereits durch Johann August von Kalbs ausführlichen Brief vom 16. März 1776 erfahren (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

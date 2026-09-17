@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4340"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11917" n="GB 3, Nr. 425">
+  <teiHeader xml:id="gb11917_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>425.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77280">Apolda</placeName>, 30. und 31. Dezember <supplied>1778. Mittwoch und Donnerstag</supplied> </title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:54Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11917_tei.xml</idno>
+        <idno type="URI">gb11917</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR425_0</idno>
+        <idno type="KSW-ID">11917</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="243" to="243">243</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="808" to="809">808-809</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11917_header_hwit1421" corresp="#gb11917_source_hwit1421" sameAs="#gb11917_comment_hwit1421" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 110</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11917,,1421/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Warum ich Ihnen einen Boten schicke weis ich nicht, ich hatte    ihn eh bestellt</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77280">Apolda</placeName>
+            <date when="1778-12-30">30. Dezember <supplied>1778</supplied></date> und
+            <date when="1778-12-31">31. Dezember <supplied>1778</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11917_source_hwit1421" corresp="#gb11917_header_hwit1421" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11917/22973"/>
+      <p>
+        <anchor xml:id="GB03_1_BR425_0_243_001"/>
+        <ref target="gb:note#GB03_2_BR425_0_note_001_243_1" xml:id="start_com_3647"/>Apolde d<g ref="#typoSuspension"/>. 30 nachts halb zwölfe.<ref xml:id="end_com_3647"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR425_0_243_002"/>Warum ich Ihnen einen Boten schicke weis<ptr n="1" target="#a001_243.2"/> ich nicht, ich hatte ihn eh 
+<anchor xml:id="GB03_1_BR425_0_243_003"/>bestelt als ich wusste was ich Ihnen sagen wollte also wirds wohl beym 
+<anchor xml:id="GB03_1_BR425_0_243_004"/>alten bleiben. <ref target="gb:note#GB03_2_BR425_0_note_002_243_4" xml:id="start_com_3648"/>Sie waren sehr gut dass Sie mir was mitgaben<ref xml:id="end_com_3648"/>, ich war 
+<anchor xml:id="GB03_1_BR425_0_243_005"/>gekommen Sie drum zu bitten und schämte mich vor ihrer <ref target="gb:note#GB03_2_BR425_0_note_003_243_5" xml:id="start_com_3649"/>Mutter<ref xml:id="end_com_3649"/>. 
+<anchor xml:id="GB03_1_BR425_0_243_006"/>Eigentlich hätt ich ein halstuch gern gehabt, doch wollt ich nichts sagen 
+<anchor xml:id="GB03_1_BR425_0_243_007"/>und die <ref target="gb:note#GB03_2_BR425_0_note_004_243_7" xml:id="start_com_3650"/>Schleife<ref xml:id="end_com_3650"/> war mir auch lieb, und iezt sehr lieb da ich von 
+<anchor xml:id="GB03_1_BR425_0_243_008"/>ihnen weg bin. Es ist <ref target="gb:note#GB03_2_BR425_0_note_005_243_8" xml:id="start_com_3651"/>alles zu Bette<ref xml:id="end_com_3651"/>. <ref target="gb:note#GB03_2_BR425_0_note_006_243_8" xml:id="start_com_3652"/>Seckendorf<ref xml:id="end_com_3652"/> raucht noch eine Pfeife,<anchor xml:id="GB03_1_BR425_0_243_009"/><ptr n="2" target="#a002_243.9"/> und ich will auch schlafen. Geben Sie dem Boten nichts mit er trifft 
+<anchor xml:id="GB03_1_BR425_0_243_010"/>uns nicht mehr.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR425_0_243_011"/>
+        <ref target="gb:note#GB03_2_BR425_0_note_007_243_11" xml:id="start_com_3653"/>Den lezten früh halb sieben.<ref xml:id="end_com_3653"/> Wir sind wieder <ref target="gb:note#GB03_2_BR425_0_note_008_243_11" xml:id="start_com_3654"/>fix<ref xml:id="end_com_3654"/> und erwarten den 
+<anchor xml:id="GB03_1_BR425_0_243_012"/>Tag. Ihrer Schleife hab ich einen schönen Guten Morgen aufgeküsst, 
+<anchor xml:id="GB03_1_BR425_0_243_013"/>und den lieben Knopfgen, indess die Geschwister mit Ihnen noch ruhen. 
+<anchor xml:id="GB03_1_BR425_0_243_014"/>Adieu liebste. Ich hoffe Sie recht wohl wieder zu finden. <ref target="gb:note#GB03_2_BR425_0_note_009_243_14-15" xml:id="start_com_3655"/>Grüsen 
+<anchor xml:id="GB03_1_BR425_0_243_015"/>Sie Stein.<ref xml:id="end_com_3655"/> und <ref target="gb:note#GB03_2_BR425_0_note_010_243_15" xml:id="start_com_3656"/>Frizzen<ref xml:id="end_com_3656"/>. Adieu beste.</p>
+      <closer>
+        <signed rend="paraph" rendition="#einrueck17">
+          <anchor xml:id="GB03_1_BR425_0_243_016"/>G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11917/22974" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11917/22975" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11917/22976"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11917_comment">
+<body>
+<div type="metadata" xml:id="gb11917_comment_com871">
+  <ab type="numberAddressee"><label>425.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77280">Apolda</placeName>, 30. Dezember <supplied>1778</supplied> und 31. Dezember <supplied>1778</supplied> → <placeName key="sndb:ort#79627">Weimar</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb11917_comment_com1788">
+  <p>Das Jahr wurde nach dem Inhalt des Briefes und der Übereinstimmung mit dem Tagebuch ergänzt (vgl. zu <ref target="gb:note#GB03_2_BR425_0_note_001_243_1">243,1</ref>) und wird durch die Jahresangabe der Empfängerin bestätigt (vgl. <ref target="gb:note#gb11917_comment_com2915">Überlieferung</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11917_comment_com2915">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 110. – Doppelblatt 18 × 26 cm, &#xBE; S. beschr., egh., Tinte; Briefteil vom 31. Dezember 1778 (<ref target="gb:text#GB03_1_BR425_0_243_011 #GB03_1_BR425_0_243_016">243,11–16</ref>) sorgfältiger geschrieben; S. 4 Adresse: <quote type="G">An die Frau Oberstallmeist. / von Stein / nach / Weimar.</quote>, Reste eines roten Siegels; S. 1 unten rechts von Charlotte von Steins Hd, Bleistift: „78“ (korrigiert aus „79“), oben rechts von fremder Hd, Tinte: „77“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 79), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 191 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 266 f., Nr 769.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11917_comment_com4711">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11917_comment_com18043">
+<label xml:id="GB03_2_BR425_0_note_001_243_1" copyOf="#start_com_3647"><hi rendition="#fett">243,1</hi>Apolde d<g ref="#typoSuspension"/>. 30 nachts halb zwölfe.</label>
+<p>Laut Fourierbuch vom 30. Dezember 1778 gingen an diesem Tag „Durch<g ref="#typoSuspension"/>. Herzog mit et<g ref="#typoSuspension"/>. Cava<g ref="#typoSuspension"/>. auf die Jagd nach Apolde“ (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 233). Goethes Tagebuch zufolge war er <quote type="G">d 30 Nachm. nach Apolda mit Seckend. gefahren. War die Jagd Parthie vergnügt.</quote> (<ref target="gt:dokument#657">GT I 1, 69</ref>.) – Über Apolda vgl. zu <ref target="gb:note#GB03_2_BR469_0_note_013_261_22">261,22</ref>.</p>
+
+</note>
+<note xml:id="gb11917_comment_com11766">
+<label xml:id="GB03_2_BR425_0_note_002_243_4" copyOf="#start_com_3648"><hi rendition="#fett">243,4</hi>Sie waren sehr gut <gap quantity="3" reason="editorial"/> was mitgaben</label>
+<p>Kurz bevor Goethe den vorliegenden Brief schrieb, bemerkte er im Tagebuch über sein Verhältnis zur Adressatin: <quote type="G">Mir war die &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">sehr lieb </quote> (<ref target="gt:dokument#656">GT I 1, 69</ref>).</p>
+
+</note>
+<note xml:id="gb11917_comment_com11767">
+<label xml:id="GB03_2_BR425_0_note_003_243_5" copyOf="#start_com_3649"><hi rendition="#fett">243,5</hi>Mutter</label>
+<p>Concordia von Schardt.</p>
+
+</note>
+<note xml:id="gb11917_comment_com11768">
+<label xml:id="GB03_2_BR425_0_note_004_243_7" copyOf="#start_com_3650"><hi rendition="#fett">243,7</hi>Schleife</label>
+<p>Eine „Halsschleife“ aus Band oder Schnüren (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1516).</p>
+
+</note>
+<note xml:id="gb11917_comment_com11769">
+<label xml:id="GB03_2_BR425_0_note_005_243_8" copyOf="#start_com_3651"><hi rendition="#fett">243,8</hi>alles zu Bette</label>
+<p>Der Herzog und seine Begleitung.</p>
+
+</note>
+<note xml:id="gb11917_comment_com11780">
+<label xml:id="GB03_2_BR425_0_note_006_243_8" copyOf="#start_com_3652"><hi rendition="#fett">243,8</hi>Seckendorf</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR428_0_note_001_244_6-7">244,6-7</ref>.</p>
+
+</note>
+<note xml:id="gb11917_comment_com18065">
+<label xml:id="GB03_2_BR425_0_note_007_243_11" copyOf="#start_com_3653"><hi rendition="#fett">243,11</hi>Den lezten früh halb sieben.</label>
+<p>Im Tagebuch vom 31. Dezember hielt Goethe fest: <quote type="G">31 Morgens halb sechs auf. gegen neun auf die Jagd leidlich geschossen vergnügt Abends zu Pferd schnell herein.</quote> (<ref target="gt:dokument#658">GT I 1, 69</ref>.)</p>
+
+</note>
+<note xml:id="gb11917_comment_com11781">
+<label xml:id="GB03_2_BR425_0_note_008_243_11" copyOf="#start_com_3654"><hi rendition="#fett">243,11</hi>fix</label>
+<p>‚Fix sein‘ hier im Sinne von ‚fertig sein‘, ‚bereit sein‘; nach <ref target="sndb:sigle#2753">Adelung</ref> in dieser Bedeutung „nur in den gemeinen Mundarten Ober- und Niederdeutschlandes üblich“ (2, 176).</p>
+
+</note>
+<note xml:id="gb11917_comment_com11782">
+<label xml:id="GB03_2_BR425_0_note_009_243_14-15" copyOf="#start_com_3655"><hi rendition="#fett">243,14-15</hi>Grüsen Sie Stein.</label>
+<p>Josias von Stein muss Goethe kurz zuvor einen Freundschaftsdienst erwiesen haben, wie der Eintrag im Tagebuch aus der Zeit nach dem 15. Dezember 1778 nahelegt: <quote type="G">Gutheit von Steinen. Warnung solcher Menschen gut, aber nur selten.</quote> (<ref target="gt:dokument#656">GT I 1, 69</ref>.)</p>
+
+</note>
+<note xml:id="gb11917_comment_com11783">
+<label xml:id="GB03_2_BR425_0_note_010_243_15" copyOf="#start_com_3656"><hi rendition="#fett">243,15</hi>Frizzen</label>
+<p>Friedrich von Stein (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR427_0_note_001_244_1">244,1</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

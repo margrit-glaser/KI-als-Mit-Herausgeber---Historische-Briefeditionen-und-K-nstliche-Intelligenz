@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="260"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10650" n="GB 3, Nr. 26">
+  <teiHeader xml:id="gb10650_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>26.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. Januar 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10650_tei.xml</idno>
+        <idno type="URI">gb10650</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR026_0</idno>
+        <idno type="KSW-ID">10650</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="22" to="23">22-23</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="100" to="102">100-102</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10650_header_hwit855" corresp="#gb10650_source_hwit855" sameAs="#gb10650_comment_hwit855" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 64</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10650,,855/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Der Herzog hat mir sechs Schädel kommen lassen, habe herrliche Bemerkungen gemacht</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-01-22">22. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10650_source_hwit855" corresp="#gb10650_header_hwit855" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10650/13755"/>
+      <p>
+        <anchor xml:id="GB03_1_BR026_0_022_014"/>
+        <ref target="gb:note#GB03_2_BR026_0_note_001_22_14" xml:id="start_com_0347"/>Der Herzog<ref xml:id="end_com_0347"/> hat mir sechs Schädel kommen lassen, <ref target="gb:note#GB03_2_BR026_0_note_002_22_14-15" xml:id="start_com_0348"/>habe herrliche Bemerckung
+<anchor xml:id="GB03_1_BR026_0_022_015"/>
+        <unclear reason="illegible">en</unclear> gemacht<ref xml:id="end_com_0348"/> die Ew Hochwürden zu Diensten stehn, wenn 
+<anchor xml:id="GB03_1_BR026_0_022_016"/>die selben sie nicht ohne mich fanden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR026_0_022_017"/>Grüs <ref target="gb:note#GB03_2_BR026_0_note_003_22_17" xml:id="start_com_0349"/>Bäben<ref xml:id="end_com_0349"/> u. alles.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR026_0_022_018"/>
+        <ref target="gb:note#GB03_2_BR026_0_note_004_22_18-19" xml:id="start_com_0350"/>Wenn <hi rendition="#hervor2">ich</hi> ihn<ptr n="1" target="#a001_22.18"/> ein andermal um was frage; so antwort er <hi rendition="#hervor2">mir</hi>! – 
+<anchor xml:id="GB03_1_BR026_0_022_019"/>Warum wegen Herders an Louisen?!!!<ref xml:id="end_com_0350"/> – <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR026_0_note_005_22_19-20" xml:id="start_com_0351"/>Transeat cum ceteris propheticis 
+<anchor xml:id="GB03_1_BR026_0_022_020"/>erroribus</emph>
+        <ref xml:id="end_com_0351"/> – – —————</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR026_0_022_021"/>
+        <ref target="gb:note#GB03_2_BR026_0_note_006_22_21" xml:id="start_com_0352"/>Schick nur immer was du hast.<ref xml:id="end_com_0352"/> ich kann auch nicht <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR026_0_note_007_22_21" xml:id="start_com_0353"/>auf</hi> den Stuz<ref xml:id="end_com_0353"/>
+        <anchor xml:id="GB03_1_BR026_0_022_022"/>arbeiten. <pb n="2" facs="gb:digitalisate#10650/13756"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR026_0_023_001"/>
+        <ref target="gb:note#GB03_2_BR026_0_note_008_23_1-2" xml:id="start_com_0354"/>Haben so viel <hi rendition="#hervor1">Krieger</hi> im <hi rendition="#hervor1">Kupfer</hi> das Schwerdt in der lincken 
+<anchor xml:id="GB03_1_BR026_0_023_002"/>Faust<ref xml:id="end_com_0354"/> – <ref target="gb:note#GB03_2_BR026_0_note_009_23_2-3" xml:id="start_com_0355"/>Mag<ptr n="2" target="#a002_23.2"/> wohl unser Engel den <hi rendition="#hervor1">Stern</hi> auf der rechten Brust haben<ref xml:id="end_com_0355"/>
+        <anchor xml:id="GB03_1_BR026_0_023_003"/>
+      </p>
+      <closer>
+        <dateline rendition="#right">
+          <anchor xml:id="GB03_1_BR026_0_023_004"/>
+          <graphic url="gb:digitalisate#10650/70147" width="60px"/>
+        </dateline>
+        <lb/>
+        <dateline>
+          <anchor xml:id="GB03_1_BR026_0_023_005"/>
+          <ref target="gb:note#GB03_2_BR026_0_note_010_23_4" xml:id="start_com_0356"/>Immer die Briefe an mich hierher.<ref xml:id="end_com_0356"/>
+        </dateline>
+        <lb/>
+        <dateline rendition="#einrueck3">
+          <anchor xml:id="GB03_1_BR026_0_023_006"/>Weimar</dateline>
+        <lb/>
+        <dateline rendition="#einrueck5">
+          <anchor xml:id="GB03_1_BR026_0_023_007"/>══</dateline>
+        <lb/>
+        <dateline rendition="#einrueck3">
+          <anchor xml:id="GB03_1_BR026_0_023_008"/>
+          <ref target="gb:note#GB03_2_BR026_0_note_011_23_4" xml:id="start_com_0357"/>Wielands Stube<ref xml:id="end_com_0357"/>
+        </dateline>
+        <lb/>
+        <dateline rendition="#einrueck3">
+          <anchor xml:id="GB03_1_BR026_0_023_009"/>d<g ref="#typoSuspension"/>. 22. Jan 76<ptr n="3" target="#a003_23.9"/>
+        </dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10650_comment">
+<body>
+<div type="metadata" xml:id="gb10650_comment_com1261">
+  <ab type="numberAddressee"><label>26.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 22. Januar 1776 → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10650_comment_com3305">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 64. – 1 Bl. 11,4 × 18,9 cm, 1 &#xBE; S. beschr., egh., Tinte, zunehmend flüchtig geschrieben.</p>
+  <p>E<hi rendition="#sup">1</hi>: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 81 (Teildruck: <ref target="gb:text#GB03_1_BR026_0_023_001 #GB03_1_BR026_0_023_003">23,1-3</ref> <quote type="G">Haben so viel <gap quantity="3" reason="editorial"/> Brust haben</quote>; als Nachschrift zu Goethes Brief an Lavater vom 1. Mai 1780).</p>
+  <p>E<hi rendition="#sup">2</hi>: <ref target="sndb:sigle#417">Hegner</ref> (1836), 71 (Teildruck: <ref target="gb:text#GB03_1_BR026_0_022_018 #GB03_1_BR026_0_022_020">22,18-20</ref> <quote type="G">Wenn <hi rendition="#hervor2">ich</hi> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">erroribus</emph></quote>).</p>
+  <p>E<hi rendition="#sup">3</hi>: Zur Hausandacht für die stille Gemeinde am 28. August 1871, S. 12, Nr 2 c.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 20, Nr 388.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10650_comment_com5101">
+  <p>Der Brief beantwortet Lavaters Brief an Herzogin Louise von Sachsen-Weimar und Eisenach vom 3. Januar 1776 (vgl. zu <ref target="gb:note#GB03_2_BR026_0_note_004_22_18-19">22,18-19</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 22. Januar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10650_comment_com9567">
+<label xml:id="GB03_2_BR026_0_note_001_22_14" copyOf="#start_com_0347"><hi rendition="#fett">22,14</hi>Der Herzog</label>
+<p>Carl August von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb10650_comment_com17378">
+<label xml:id="GB03_2_BR026_0_note_002_22_14-15" copyOf="#start_com_0348"><hi rendition="#fett">22,14-15</hi>habe herrliche Bemerckung<unclear reason="illegible">en</unclear> gemacht</label>
+<p>Goethes Anmerkungen über „Thierschädel“ wurden als 13. Fragment in den 2. Abschnitt des 2. Bandes von Lavaters „Physiognomischen Fragmenten“ aufgenommen (S. 139–142; vgl. auch <ref target="sndb:sigle#1157">WA</ref> I 37, 346–352). Die Bemerkungen zum „Eingang“ (S. 137 f.) des 2. Abschnittes über den <quote type="G">Geschlechtsunterschied des Menschen von den Thieren <gap quantity="3" reason="editorial"/> im Knochenbau</quote> (S. 137) sind ein früher Hinweis auf Goethes anatomische Studien, die er in den folgenden Jahren intensivierte und die ihn 1784 zur Entdeckung des Zwischenkieferknochens beim Menschen führten.</p>
+
+</note>
+<note xml:id="gb10650_comment_com9568">
+<label xml:id="GB03_2_BR026_0_note_003_22_17" copyOf="#start_com_0349"><hi rendition="#fett">22,17</hi>Bäben</label>
+<p>Barbara (Bäbe) Schultheß, eine Freundin Lavaters und Goethes in Zürich.</p>
+
+</note>
+<note xml:id="gb10650_comment_com17440">
+<label xml:id="GB03_2_BR026_0_note_004_22_18-19" copyOf="#start_com_0350"><hi rendition="#fett">22,18-19</hi>Wenn <hi rendition="#hervor2">ich</hi> <gap quantity="3" reason="editorial"/> an Louisen?!!!</label>
+<p>Im Brief vom 21. oder 22. Dezember 1775 (<ref target="gb:dokument#10642">Nr 7</ref>) hatte Goethe auf Bitte des Herzogs Carl August angefragt, ob Lavater ihm einen Kandidaten für das Amt eines Generalsuperintendenten nennen könne. Seinen Antwortbrief vom 3. Januar hatte Lavater an Herzogin Louise gerichtet (teilweise abgedruckt in der Erläuterung zu <ref target="gb:note#GB03_2_BR007_0_note_011_7_16-17">7,16-17</ref>). Zur Begründung schreibt er in seinem Brief: „Da Goethe mir im Namen des vortrefflichen Herzogen <gap quantity="3" reason="editorial"/> eine Frage vorlegt, und vielleicht nicht mehr in Weymar ist, wenn meine Antwort ankommen könnte, so leg ich die Antwort auf die Frage hier bey.“ (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 399.) Ein anderer Grund, sich an Louise zu wenden, mag darin bestanden haben, dass Lavater die Gelegenheit nutzen wollte, um die Herzogin um Erlaubnis zu bitten, ihr den 2. Band seiner „Physiognomischen Fragmente“ widmen zu dürfen: „Vortrefflichste, Beste! In Ansehung der <hi rendition="#hervor1">Zueignung?</hi> – Nur auch Eine Zeile <hi rendition="#hervor1">Ja</hi>; nein; Lavater, wie du willst – durch Wieland, Goethe … oder <hi rendition="#hervor1">Louise</hi>.“ (Ebd.) Die Widmung ist abgedruckt in der zweiten Erläuterung zu <ref target="gb:note#GB03_2_BR090_0_note_002_57_5">57,5</ref>. In seinem Brief vom 20. Februar 1776 bringt Goethe ein weiteres Mal seine Verärgerung über Lavaters Brief an Herzogin Louise zum Ausdruck (vgl. <ref target="gb:text#GB03_1_BR048_0_035_012 #GB03_1_BR048_0_035_014">35,12–14</ref>).</p>
+
+</note>
+<note xml:id="gb10650_comment_com9579">
+<label xml:id="GB03_2_BR026_0_note_005_22_19-20" copyOf="#start_com_0351"><hi rendition="#fett">22,19-20</hi><emph rendition="#latin">Transeat</emph> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">erroribus</emph></label>
+<p>Lat.: Darüber sei hinweggegangen wie über die anderen prophetischen Irrtümer.</p>
+
+</note>
+<note xml:id="gb10650_comment_com9564">
+<label xml:id="GB03_2_BR026_0_note_006_22_21" copyOf="#start_com_0352"><hi rendition="#fett">22,21</hi>Schick <gap quantity="3" reason="editorial"/> was du hast.</label>
+<p>Gemeint ist Manuskript zum 2. Band der „Physiognomischen Fragmente“. Am 4. Februar traf die nächste Sendung ein (vgl. Wielands Brief an Lavater, 5. Februar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 470).</p>
+
+</note>
+<note xml:id="gb10650_comment_com9580">
+<label xml:id="GB03_2_BR026_0_note_007_22_21" copyOf="#start_com_0353"><hi rendition="#fett">22,21</hi><hi rendition="#hervor1">auf</hi> den Stuz</label>
+<p>Im Sinn von „in kürzester zeit“ (<ref target="sndb:sigle#2890">Grimm</ref> 10 IV, 737), nach dem Adjektiv/Adverb ‚stutz‘: „plötzlich, heftig, stoszweise“ (<ref target="sndb:sigle#2890">Grimm</ref> 10 IV, 735).</p>
+
+</note>
+<note xml:id="gb10650_comment_com9590">
+<label xml:id="GB03_2_BR026_0_note_008_23_1-2" copyOf="#start_com_0354"><hi rendition="#fett">23,1-2</hi>Haben so viel <gap quantity="3" reason="editorial"/> in der lincken Faust</label>
+<p>In den „Physiognomischen Fragmenten“ tragen in einigen Abbildungen Krieger Schwert und Lanze in der linken statt in der rechten Hand, weil der Abdruck der Kupferplatten ein negatives Bild ergab (vgl. <ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 1, Tafel zwischen S. 100 und 101; Fragmente 3, Tafel zwischen S. 76 und 77; Fragmente 4, Vignette auf S. 420). Demnach kannte Goethe die in den späteren Bänden erschienenen Abbildungen bereits.</p>
+
+</note>
+<note xml:id="gb10650_comment_com9591">
+<label xml:id="GB03_2_BR026_0_note_009_23_2-3" copyOf="#start_com_0355"><hi rendition="#fett">23,2-3</hi>Mag wohl <gap quantity="3" reason="editorial"/> auf der rechten Brust haben</label>
+<p>In der Abbildung „Louise von Hessen“ trägt die Dargestellte, Herzogin Louise von Sachsen-Weimar und Eisenach, einen Orden fälschlich auf der linken Seite (vgl. <ref target="sndb:sigle#3017">Physiognomische Fragmente</ref> 3, Tafel vor S. 327). Lavater bittet daher in der Beschreibung der Abbildung um „Verzeihung – für mehr als die unrechte Seite des Sterns! – Verzeihung für’s Ganze!“ (S. 327.)</p>
+
+</note>
+<note xml:id="gb10650_comment_com17300">
+<label xml:id="GB03_2_BR026_0_note_010_23_4" copyOf="#start_com_0356"><hi rendition="#fett">23,5</hi>Immer die Briefe an mich hierher.</label>
+<p>Nicht nach Frankfurt, wohin Goethe ursprünglich von Weimar aus wieder hatte zurückkehren wollen. Dort hätte Lavater ihn auch lieber gesehen, weil er fürchtete, Goethes Aufenthalt in Weimar könne seiner Mitarbeit an den „Physiognomischen Fragmenten“ hinderlich sein (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10446_comment_com5044">Nr 11</ref>).</p>
+
+</note>
+<note xml:id="gb10650_comment_com9592">
+<label xml:id="GB03_2_BR026_0_note_011_23_4" copyOf="#start_com_0357"><hi rendition="#fett">23,8</hi>Wielands Stube</label>
+<p>Auch den Brief vom 21. oder 22. Dezember 1775 (<ref target="gb:dokument#10642">Nr 7</ref>) hatte Goethe in Wielands Wohnung geschrieben. Wieland wohnte von 1773 bis 1777 in der Luthergasse 1.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

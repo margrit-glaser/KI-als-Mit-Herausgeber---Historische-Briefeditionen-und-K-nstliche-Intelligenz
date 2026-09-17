@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2070"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10398" n="GB 3, Nr. 205">
+  <teiHeader xml:id="gb10398_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>205.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 3. Januar 1777. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:10Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10398_tei.xml</idno>
+        <idno type="URI">gb10398</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR205_0</idno>
+        <idno type="KSW-ID">10398</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="124" to="124">124</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="454" to="456">454-456</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10398_header_hwit1132" corresp="#gb10398_source_hwit1132" sameAs="#gb10398_comment_hwit1132" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 39</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10398,,1132/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dancke für die Magenstärckung und Stärckung im Glauben. Die Farbe ist wohl recht nur</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10398_header_acc468" corresp="gb10398_comment_acc468">
+            <objectIdentifier>
+              <objectName><quote type="G">Band</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-01-03"><supplied>3. Januar 1777</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10398_source_hwit1132" corresp="#gb10398_header_hwit1132" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10398/22512"/>
+      <p>
+        <anchor xml:id="GB03_1_BR205_0_124_001"/>Dancke für die <ref target="gb:note#GB03_2_BR205_0_note_001_124_1" xml:id="start_com_1897"/>Magenstärckung<ref xml:id="end_com_1897"/> und <ref target="gb:note#GB03_2_BR205_0_note_002_124_1" xml:id="start_com_1898"/>Stärckung im Glauben<ref xml:id="end_com_1898"/>. Die <ref target="gb:note#GB03_2_BR205_0_note_003_124_1-2" xml:id="start_com_1899"/>Farbe<ref xml:id="end_com_1899"/>
+        <anchor xml:id="GB03_1_BR205_0_124_002"/>ist wohl recht nur muss man sehn wie sie sich zu Nacht ausnimmt 
+<anchor xml:id="GB03_1_BR205_0_124_003"/>und dass sie recht gleich gefärbt wird. Heut hab ich in der Schwachheit 
+<anchor xml:id="GB03_1_BR205_0_124_004"/>meiner Sinne <ref target="gb:note#GB03_2_BR205_0_note_004_124_4" xml:id="start_com_1900"/>den ersten Ackt<ref xml:id="end_com_1900"/> verfertigt. Addio. beste. Grüsen Sie 
+<anchor xml:id="GB03_1_BR205_0_124_005"/>den Freund <ref target="gb:note#GB03_2_BR205_0_note_005_124_5" xml:id="start_com_1901"/>Oger<ref xml:id="end_com_1901"/>.</p>
+      <closer>
+        <dateline rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR205_0_124_006"/>
+          <ref target="gb:note#GB03_2_BR205_0_note_006_124_6" xml:id="start_com_1902"/>d<g ref="#typoSuspension"/>. 3 Dez. 76<ref xml:id="end_com_1902"/>    </dateline>
+        <signed rend="paraph">G.</signed>
+      </closer>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR205_0_124_007"/>Darf ich Sie bitten auf der <ref target="gb:note#GB03_2_BR205_0_note_007_124_7" xml:id="start_com_1903"/>Redoute<ptr n="1" target="#a001_124.7"/>
+          <ref xml:id="end_com_1903"/>
+          <ref target="gb:note#GB03_2_BR205_0_note_008_124_7" xml:id="start_com_1904"/>dies Band mir zum Gedächtniss<ref xml:id="end_com_1904"/>
+          <anchor xml:id="GB03_1_BR205_0_124_008"/>zu tragen</p>
+      </postscript>
+    <pb n="2" facs="gb:digitalisate#10398/22513" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10398_comment">
+<body>
+<div type="metadata" xml:id="gb10398_comment_com1230">
+  <ab type="numberAddressee"><label>205.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>3. Januar 1777</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10398_comment_com1941">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief nach der eigenhändigen Datumsangabe <quote type="G">d<g ref="#typoSuspension"/>. 3 Dez. 76 </quote> (<ref target="gb:text#GB03_1_BR205_0_124_006">124,6</ref>) eingeordnet. Diese ist offensichtlich verschrieben. Am 3. Dezember 1776 befand sich Goethe in Leipzig und auf der Reise von dort nach Wörlitz (vgl. <ref target="gt:dokument#221">GT I 1, 30</ref>). Nach den Parallelen zum Tagebuch und den Bezügen zu <ref target="gb:dokument#10648">Nr 204</ref> wurde der vorliegende Brief am 3. Januar 1777 in Weimar geschrieben (vgl. zu <ref target="gb:note#GB03_2_BR205_0_note_004_124_4">124,4</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR205_0_note_001_124_1">124,1</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR205_0_note_007_124_7">124,7</ref>). Während Schöll den Brief im Erstdruck unter dem 3. Dezember 1776 einordnet, erscheint er seit dem Abdruck bei Fielitz mit der korrigierten Datierung unter dem 3. Januar 1777 (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 70, Nr 113).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10398_comment_com3274">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 39. –1 Bl. 10,8 × 8,6 cm, Bordüre mit zwei Balken, in weiten Abständen umwunden von einer Rocaille (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 7), 1 S. beschr., egh., Tinte; Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „97“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 98), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 74.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 128, Nr 545.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10398_comment_com3797">
+  <p><quote type="G">Band</quote> (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR205_0_note_008_124_7">124,7</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10398_comment_com5070">
+  <p>Möglicherweise antwortet der vorliegende Brief auf einen Brief Charlotte von Steins vom selben Tag (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR205_0_note_001_124_1">124,1</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10398_comment_com14820">
+<label xml:id="GB03_2_BR205_0_note_001_124_1" copyOf="#start_com_1897"><hi rendition="#fett">124,1</hi>Magenstärckung</label>
+<p>Vielleicht mit einem Billett Charlotte von Steins überschickt, mit dem sie auf Goethes vorhergehenden Brief vom selben Tag (<ref target="gb:dokument#10648">Nr 204</ref>) reagierte; zur Sache vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR204_0_note_001_123_12">123,12</ref>.</p>
+
+</note>
+<note xml:id="gb10398_comment_com8449">
+<label xml:id="GB03_2_BR205_0_note_002_124_1" copyOf="#start_com_1898"><hi rendition="#fett">124,1</hi>Stärckung im Glauben</label>
+<p>Näheres nicht ermittelt.</p>
+
+</note>
+<note xml:id="gb10398_comment_com17158">
+<label xml:id="GB03_2_BR205_0_note_003_124_1-2" copyOf="#start_com_1899"><hi rendition="#fett">124,1-2</hi>Farbe</label>
+<p>Der Kontext legt nahe, dass damit die Farbe der Kostüme für die „Lila“-Aufführung am 30. Januar 1777 gemeint ist; kurz darauf wandte sich Goethe wegen der Dekorationen an Adam Friedrich Oeser (vgl. <ref target="gb:text#GB03_1_BR208_0_125_001 #GB03_1_BR208_0_125_005">125,1–5</ref>). Die in Weimar uraufgeführte 1. Fassung ist nicht überliefert, lediglich einzelne „Gesänge“ des von Sigmund von Seckendorff vertonten Stückes haben sich erhalten (vgl. Gesänge aus Lilla, einem Schauspiel von Göthe, aufgeführt auf dem Privattheater zu Weimar 1777. In: Olla Potrida 1778. Zweyter Vierteljahrgang. April, May, Juni. Berlin, S. 205–211; vgl. <ref target="sndb:sigle#1157">WA</ref> I 12, 341–343; gedruckt in: <ref target="sndb:sigle#1240">FA/Goethe</ref> I 5, 29–34).</p>
+
+</note>
+<note xml:id="gb10398_comment_com8450">
+<label xml:id="GB03_2_BR205_0_note_004_124_4" copyOf="#start_com_1900"><hi rendition="#fett">124,4</hi>den ersten Ackt</label>
+<p>Dass er <quote type="G">Den 1. Ackt dicktirt</quote> habe, vermerkt Goethe auch im Tagebuch vom 3. Januar 1777 (<ref target="gt:dokument#252">GT I 1, 35</ref>); wie auch der Kontext der vorliegenden Erwähnung belegt, kann sich dies nur auf die Arbeit am Singspiel „Lila“ beziehen (vgl. zu <ref target="gb:note#GB03_2_BR202_0_note_004_123_3">123,3</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR206_0_note_002_124_9">124,9</ref>).</p>
+
+</note>
+<note xml:id="gb10398_comment_com17174">
+<label xml:id="GB03_2_BR205_0_note_005_124_5" copyOf="#start_com_1901"><hi rendition="#fett">124,5</hi>Oger</label>
+<p>Menschenfresser (von franz. ogre); sagenhafter menschenähnlicher Unhold; in einen Oger verwandelt sich Graf von Altenstein, eine Figur in Goethes Singspiel „Lila“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 12, 74); der Oger ist Teil des Feen- und Märchenspiels im Stück, mit dessen Hilfe die unter Wahnvorstellungen leidende Titelfigur geheilt werden soll. – Hier wahrscheinlich mit Bezug auf Charlottes Mann, den Oberstallmeister Josias von Stein. Ob er in der Rolle des Grafen Altenstein/Oger an der Uraufführung vom 30. Januar 1777 mitwirkte, ist allerdings nicht sicher zu belegen (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 143 f.). – Goethe spielte bei der Aufführung die Rolle des Baron Sternthal (vgl. <ref target="gt:dokument#274">GT I 1, 36</ref>).</p>
+
+</note>
+<note xml:id="gb10398_comment_com8464">
+<label xml:id="GB03_2_BR205_0_note_006_124_6" copyOf="#start_com_1902"><hi rendition="#fett">124,6</hi>d<g ref="#typoSuspension"/>. 3 Dez. 76</label>
+<p>Verschrieben für 3. Januar 1777 (vgl. <ref target="gb:note#gb10398_comment_com1941">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10398_comment_com8465">
+<label xml:id="GB03_2_BR205_0_note_007_124_7" copyOf="#start_com_1903"><hi rendition="#fett">124,7</hi>Redoute</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR204_0_note_003_123_14">123,14</ref>.</p>
+
+</note>
+<note xml:id="gb10398_comment_com8466">
+<label xml:id="GB03_2_BR205_0_note_008_124_7" copyOf="#start_com_1904"><hi rendition="#fett">124,7</hi>dies Band mir zum Gedächtniss</label>
+<p>Als Zeichen der Erinnerung, der persönlichen Verbundenheit, des Gedenkens; ‚Gedächtnis‘ hier noch in dieser älteren, bei Goethe selten belegten Bedeutung (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1176 und 1178); nicht überliefert.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

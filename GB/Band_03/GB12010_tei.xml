@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5370"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12010" n="GB 3, Nr. 527">
+  <teiHeader xml:id="gb12010_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>527.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 7. September 1779. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:03Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12010_tei.xml</idno>
+        <idno type="URI">gb12010</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR527_0</idno>
+        <idno type="KSW-ID">12010</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="294" to="295">294-295</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="961" to="963">961-963</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12010_header_hwit1516" corresp="#gb12010_source_hwit1516" sameAs="#gb12010_comment_hwit1516" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 24</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12010,,1516/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ihre Weste trag ich bey ieder Feyerlichkeit, ich möchte ein    ganz Gewand</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb12010_header_acc224" corresp="gb12010_comment_acc224">
+            <objectIdentifier>
+              <objectName>Teilmanuskript des „Egmont“? </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb12010_header_acc611" corresp="gb12010_comment_acc611">
+            <objectIdentifier>
+              <objectName>Manuskripte Goethes </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1779-09-07">7. September 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12010_source_hwit1516" corresp="#gb12010_header_hwit1516" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12010/23112"/>
+      <p>
+        <anchor xml:id="GB03_1_BR527_0_294_024"/>
+        <ref target="gb:note#GB03_2_BR527_0_note_001_294_24" xml:id="start_com_4239"/>Ihre Veste<ref xml:id="end_com_4239"/> trag ich <ref target="gb:note#GB03_2_BR527_0_note_002_294_24" xml:id="start_com_4240"/>bey ieder Feyerlichkeit<ref xml:id="end_com_4240"/>, ich möchte ein ganz Gewand 
+<anchor xml:id="GB03_1_BR527_0_294_025"/>haben das Sie gesponnen und gewürckt hätten<ptr n="1" target="#a001_294.25"/> um mich drein 
+<anchor xml:id="GB03_1_BR527_0_294_026"/>zu wickeln.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR527_0_295_001"/>Ich schicke Ihnen <ref target="gb:note#GB03_2_BR527_0_note_003_295_1" xml:id="start_com_4241"/>was von Egmont fertig ist<ref xml:id="end_com_4241"/>, und alle <ref target="gb:note#GB03_2_BR527_0_note_004_295_1-2" xml:id="start_com_4242"/>meine andre 
+<anchor xml:id="GB03_1_BR527_0_295_002"/>Sachen<ref xml:id="end_com_4242"/>, heben Sie mir sie auf. Da ich zulezt von Ihnen ging schied ich 
+<anchor xml:id="GB03_1_BR527_0_295_003"/>ungerner als Sie mich liessen, denn ich wusste dass ich Sie sobald nicht 
+<anchor xml:id="GB03_1_BR527_0_295_004"/>wiedersehen würde. <ref target="gb:note#GB03_2_BR527_0_note_005_295_4" xml:id="start_com_4243"/>Wir verreisen<ref xml:id="end_com_4243"/> und zwar eine gewünschte und gehoffte 
+<anchor xml:id="GB03_1_BR527_0_295_005"/>Reise, wie wir einen Schritt vorsezzen <ref target="gb:note#GB03_2_BR527_0_note_006_295_5-6" xml:id="start_com_4244"/>sollen Sie Nachricht haben<ref xml:id="end_com_4244"/>. 
+<anchor xml:id="GB03_1_BR527_0_295_006"/>Und Sie schreiben mir auch hoff ich. Leben Sie wohl. und recht 
+<anchor xml:id="GB03_1_BR527_0_295_007"/>wohl.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR527_0_295_008"/>Gestern hab ich der <ref target="gb:note#GB03_2_BR527_0_note_007_295_8" xml:id="start_com_4245"/>Herzoginn L.<ref xml:id="end_com_4245"/> eine <ref target="gb:note#GB03_2_BR527_0_note_008_295_8" xml:id="start_com_4246"/>Zeichnung<ref xml:id="end_com_4246"/> von mir gegeben, 
+<anchor xml:id="GB03_1_BR527_0_295_009"/>da ich bey der lezten <ref target="gb:note#GB03_2_BR527_0_note_009_295_9" xml:id="start_com_4247"/>Aufstellung<ref xml:id="end_com_4247"/> nichts vorlegen konnte. Sie verzeihen 
+<anchor xml:id="GB03_1_BR527_0_295_010"/>mir die Untreue. Dafür <ref target="gb:note#GB03_2_BR527_0_note_010_295_10-11" xml:id="start_com_4248"/>sollen Sie von der Reise manches sehen<ref xml:id="end_com_4248"/>, 
+<anchor xml:id="GB03_1_BR527_0_295_011"/>wills Gott. Gestern war <ref target="gb:note#GB03_2_BR527_0_note_011_295_11" xml:id="start_com_4249"/>in Ettersburg Euridice<ref xml:id="end_com_4249"/> eine Parodie, 
+<anchor xml:id="GB03_1_BR527_0_295_012"/>nach dem Englischen von Einsiedel. es machte sich recht hübsch und 
+<anchor xml:id="GB03_1_BR527_0_295_013"/>
+        <ref target="gb:note#GB03_2_BR527_0_note_012_295_13" xml:id="start_com_4250"/>Wedel<ptr n="2" target="#a002_295.13"/> spielte den Orpheus<ref xml:id="end_com_4250"/><ptr n="3" target="#a003_295.13"/> recht brav. Weil doch ieder auf sich zurückkehrt, 
+<anchor xml:id="GB03_1_BR527_0_295_014"/>so hoff ich er soll künftig den <ref target="gb:note#GB03_2_BR527_0_note_013_295_14" xml:id="start_com_4251"/>Crugantino<ref xml:id="end_com_4251"/> spielen, so haben 
+<anchor xml:id="GB03_1_BR527_0_295_015"/>wir <ref target="gb:note#GB03_2_BR527_0_note_014_295_15" xml:id="start_com_4252"/>die ganze Claudine besezt<ref xml:id="end_com_4252"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR527_0_295_016"/>
+        <g ref="#NB"/> der Herzog hat <ref target="gb:note#GB03_2_BR527_0_note_015_295_16" xml:id="start_com_4253"/>Schnausen<ref xml:id="end_com_4253"/>, <ref target="gb:note#GB03_2_BR527_0_note_016_295_16" xml:id="start_com_4254"/>Lynckern<ref xml:id="end_com_4254"/> und mir <ref target="gb:note#GB03_2_BR527_0_note_017_295_16-17" xml:id="start_com_4255"/>den Geheimden
+<anchor xml:id="GB03_1_BR527_0_295_017"/> raths Titel<ref xml:id="end_com_4255"/> gegeben, es kommt mir wunderbaar vor dass ich so wie 
+<anchor xml:id="GB03_1_BR527_0_295_018"/>im Traum, mit dem 30ten Jahre die höchste Ehrenstufe die ein<ptr n="4" target="#a004_295.18"/> Bürger 
+<anchor xml:id="GB03_1_BR527_0_295_019"/>in Teutschland erreichen kan, betrete. <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR527_0_note_018_295_19-20" xml:id="start_com_4256"/>On ne va jamais plus loin que 
+<anchor xml:id="GB03_1_BR527_0_295_020"/>quand on ne scait ou l’on va.<ref xml:id="end_com_4256"/>
+        </emph>Sagte <pb n="2" facs="gb:digitalisate#12010/23113"/> <ref target="gb:note#GB03_2_BR527_0_note_019_295_20" xml:id="start_com_4257"/>ein groser Kletterer<ref xml:id="end_com_4257"/> dieser Erde.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR527_0_295_021"/>Adieu, wenn Sie <ref target="gb:note#GB03_2_BR527_0_note_020_295_21" xml:id="start_com_4258"/>noch in Kochberg sind wenn wir zurückkommen<ref xml:id="end_com_4258"/>, 
+<anchor xml:id="GB03_1_BR527_0_295_022"/>seh ich Sie gleich. Grüsen Sie alles. Adieu.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR527_0_295_023"/>
+        <ref target="gb:note#GB03_2_BR527_0_note_021_295_23" xml:id="start_com_4259"/>Wir gehen erst künftigen Sonntag<ref xml:id="end_com_4259"/> also erwart ich noch ein Wort 
+<anchor xml:id="GB03_1_BR527_0_295_024"/>von Ihnen.</p>
+      <closer>
+        <dateline rendition="#einrueck4">
+          <anchor xml:id="GB03_1_BR527_0_295_025"/>W. d<g ref="#typoSuspension"/>. 7 Sept. 1779</dateline>
+        <anchor xml:id="GB03_1_BR527_0_295_026"/>
+        <signed rend="paraph" rendition="#einrueck19">G.</signed>
+      </closer>
+    <pb n="3" facs="gb:digitalisate#12010/23114" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12010_comment">
+<body>
+<div type="metadata" xml:id="gb12010_comment_com81">
+  <ab type="numberAddressee"><label>527.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 7. September 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12010_comment_com2125">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 24. – Doppelblatt 20 × 27,5 cm, 1 &#xBC; S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd, Tinte: „44.“ – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 46), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 235 f.; 238.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 58 f., Nr 843.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb12010_comment_com3455">
+  <p>1) Teilmanuskript des „Egmont“? (Vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_003_295_1">295,1</ref>.)</p>
+  <p>2) Manuskripte Goethes (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_004_295_1-2">295,1-2</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb12010_comment_com3921">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12010_comment_com11938">
+<label xml:id="GB03_2_BR527_0_note_001_294_24" copyOf="#start_com_4239"><hi rendition="#fett">294,24</hi>Ihre Veste</label>
+<p>Eine Weste, die Charlotte von Stein Goethe im August geschenkt hatte (vgl. <ref target="gb:text#GB03_1_BR521_0_291_007 #GB03_1_BR521_0_291_008">291,7–8</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com11939">
+<label xml:id="GB03_2_BR527_0_note_002_294_24" copyOf="#start_com_4240"><hi rendition="#fett">294,24</hi>bey ieder Feyerlichkeit</label>
+<p>Wahrscheinlich mit Bezug auf die Übergabe des Ernennungsdekrets zum Geheimen Rat an Goethe, die laut Tagebuch am 6. September 1779 stattfand (vgl. zu <ref target="gb:note#GB03_2_BR527_0_note_017_295_16-17">295,16-17</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com15383">
+<label xml:id="GB03_2_BR527_0_note_003_295_1" copyOf="#start_com_4241"><hi rendition="#fett">295,1</hi>was von Egmont fertig ist</label>
+<p>Vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR501_0_note_003_279_16">279,16</ref>. – Die Art der Erwähnung lässt offen, ob Goethe das Manuskript dem Brief beilegen wollte oder die Sendung nur ankündigte.</p>
+
+</note>
+<note xml:id="gb12010_comment_com11940">
+<label xml:id="GB03_2_BR527_0_note_004_295_1-2" copyOf="#start_com_4242"><hi rendition="#fett">295,1-2</hi>meine andre Sachen</label>
+<p>Auch die so genannte „Erste Weimarer Gedichtsammlung“ von 1777/78, die sich Goethe mehrmals von Charlotte von Stein zurückgeben ließ, könnte unter dem Überschickten gewesen sein (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR315_0_note_007_188_4">188,4</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com18141">
+<label xml:id="GB03_2_BR527_0_note_005_295_4" copyOf="#start_com_4243"><hi rendition="#fett">295,4</hi>Wir verreisen</label>
+<p>Damit kündigt Goethe seine bereits seit Anfang August geplante Reise mit dem Herzog, zu der sie am 12. September aufbrachen, der Freundin gegenüber zum ersten Mal an, allerdings ohne nähere Angaben über Ziel und Zweck zu machen (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>). Wie die Briefe an Charlotte von Stein aus dem August nahelegen, hielt er die Reisepläne vor der Freundin geheim.</p>
+
+</note>
+<note xml:id="gb12010_comment_com11941">
+<label xml:id="GB03_2_BR527_0_note_006_295_5-6" copyOf="#start_com_4244"><hi rendition="#fett">295,5-6</hi>sollen Sie Nachricht haben</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR529_0_296_019 #GB03_1_BR529_0_296_020">296,19–20</ref>.</p>
+
+</note>
+<note xml:id="gb12010_comment_com15386">
+<label xml:id="GB03_2_BR527_0_note_007_295_8" copyOf="#start_com_4245"><hi rendition="#fett">295,8</hi>Herzoginn L.</label>
+<p>Louise von Sachsen-Weimar und Eisenach.</p>
+
+</note>
+<note xml:id="gb12010_comment_com11956">
+<label xml:id="GB03_2_BR527_0_note_008_295_8" copyOf="#start_com_4246"><hi rendition="#fett">295,8</hi>Zeichnung</label>
+<p>Es könnte die Zeichnung von der Rückansicht des Gartenhauses gewesen sein, die sich heute im <ref target="sndb:sigle#2147">GNM</ref> befindet und aus dem Nachlass der Herzogin Louise stammen soll (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 83, Nr 220).</p>
+
+</note>
+<note xml:id="gb12010_comment_com15398">
+<label xml:id="GB03_2_BR527_0_note_009_295_9" copyOf="#start_com_4247"><hi rendition="#fett">295,9</hi>Aufstellung</label>
+<p>‚Aufstellen‘ hier im Sinne von ‚etwas offen zur Schau stellen‘, ‚ausstellen‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 543). – Die Ausstellung der „Fürstlichen freyen Zeichenschule“ vom 3. September (vgl. zu <ref target="gb:note#GB03_2_BR526_0_note_002_294_4">294,4</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com11957">
+<label xml:id="GB03_2_BR527_0_note_010_295_10-11" copyOf="#start_com_4248"><hi rendition="#fett">295,10-11</hi>sollen Sie von der Reise manches sehen</label>
+<p>Von Goethes zweiter Schweizer Reise haben sich nur wenige Zeichnungen erhalten (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 82 f., Nr 216–219; 85, Nr 228; <ref target="sndb:sigle#1248">Corpus</ref> VIa, 67, Nr 243–245), darunter eine von der Heidelberger Schlossruine, datiert vom 23. September 1779 (<ref target="sndb:sigle#1248">Corpus</ref> I, 81, Nr 214). Einige Zeichnungen mit Schweizer Motiven sind möglicherweise erst später aus der Erinnerung oder nach Vorlagen entstanden. Unsicher ist die Entstehungszeit einer Zeichnung vom Besuch der Kapuziner auf dem Sankt Gotthard (vgl. zu <ref target="gb:note#GB03_2_BR546_0_note_001_341_17">341,17</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com15399">
+<label xml:id="GB03_2_BR527_0_note_011_295_11" copyOf="#start_com_4249"><hi rendition="#fett">295,11</hi>in Ettersburg Euridice</label>
+<p>Am 6. September 1779 wurde in Ettersburg Friedrich Hildebrand von Einsiedels Einakter „Orpheus und Eurydike“ mit Vertonungen von Carl Friedrich Sigmund von Seckendorff aufgeführt (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 158).</p>
+
+</note>
+<note xml:id="gb12010_comment_com16177">
+<label xml:id="GB03_2_BR527_0_note_012_295_13" copyOf="#start_com_4250"><hi rendition="#fett">295,13</hi>Wedel spielte den Orpheus</label>
+<p>Neben Moritz von Wedel in der Titelrolle spielte wahrscheinlich die Herzoginmutter Anna Amalia die Eurydike. Auch Johann Joachim Christoph Bode, die Gräfin Charitas Emilie von Bernstorff und Carl Ludwig von Knebel sollen an der Aufführung beteiligt gewesen sein (vgl. <ref target="sndb:sigle#854">ebd.</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com11958">
+<label xml:id="GB03_2_BR527_0_note_013_295_14" copyOf="#start_com_4251"><hi rendition="#fett">295,14</hi>Crugantino</label>
+<p>Der adlige Vagabund Crugantino, eine Figur aus Goethes „Claudine von Villa Bella“.</p>
+
+</note>
+<note xml:id="gb12010_comment_com18237">
+<label xml:id="GB03_2_BR527_0_note_014_295_15" copyOf="#start_com_4252"><hi rendition="#fett">295,15</hi>die ganze Claudine besezt</label>
+<p>„Claudine von Villa Bella. Ein Schauspiel mit Gesang“ war im Wesentlichen im April und Mai 1775 entstanden. Die Handschrift der ersten Fassung (Prosadialoge mit Liedeinlagen) ist nicht überliefert. Das Stück erschien zuerst 1776 bei Mylius in Berlin (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 121, Nr 128), wahrscheinlich nach einer Abschrift Philipp Seidels. Die von Goethe geplante Aufführung durch das Weimarer Liebhabertheater mit Vertonungen Seckendorffs kam nicht zustande. Eine erste nachweisbare Aufführung des Stücks mit Kompositionen Ignaz von Beeckes fand am 13. Juni 1780 am Wiener Burgtheater statt. – In Italien arbeitete Goethe das Stück von November 1787 bis Februar 1788 zu einem Libretto für eine durchkomponierte Oper um und versifizierte die Handlung durchgehend (in Blankversen). Die zweite Fassung erschien zuerst in Band 5 von „Goethe’s Schriften“ (Leipzig 1788, S. 199–324) und wurde 1789 in Berlin in der Vertonung Johann Friedrich Reichardts uraufgeführt. Die einzige Aufführung der „Claudine“ (zweite Fassung) in Weimar fand unter Goethes Theaterleitung am 30. Mai 1795 statt (zu den Unterschieden der beiden Fassungen vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> I 4, 1032 f.).</p>
+
+</note>
+<note xml:id="gb12010_comment_com11971">
+<label xml:id="GB03_2_BR527_0_note_015_295_16" copyOf="#start_com_4253"><hi rendition="#fett">295,16</hi>Schnausen</label>
+<p>Christian Friedrich Schnauß, seit 1772 als Geheimer Assistenzrat Mitglied im Geheimen Consilium.</p>
+
+</note>
+<note xml:id="gb12010_comment_com11972">
+<label xml:id="GB03_2_BR527_0_note_016_295_16" copyOf="#start_com_4254"><hi rendition="#fett">295,16</hi>Lynckern</label>
+<p>Carl Freiherr von Lyncker, Oberkonsistorialrat und Landschaftsdirektor in Weimar.</p>
+
+</note>
+<note xml:id="gb12010_comment_com11973">
+<label xml:id="GB03_2_BR527_0_note_017_295_16-17" copyOf="#start_com_4255"><hi rendition="#fett">295,16-17</hi>den Geheimden raths Titel</label>
+<p>Am 6. September 1779 waren Goethe und die beiden zuvor Erwähnten zu Geheimen Räten ernannt worden. Das Dekret stammt vom 5. September 1779 (<ref target="archivdb:dokument#12602">GSA 30/2</ref>, Bl. 7; gedruckt bei <ref target="sndb:sigle#1205">Bradish</ref>, 215 f., Nr 17). Herzog Carl August hatte Goethe die Ernennung schon zu dessen Geburtstag angekündigt (vgl. zu <ref target="gb:note#GB03_2_BR524_0_note_017_293_17">293,17</ref>). Am 6. September, dem Tag der Übergabe des Dekrets, vermerkt Goethe im Tagebuch: <quote type="G">Der Wirbel der irrdischen Dinge auch allerley anstosende Personliche Gefühle griffen mich an. / Es ziemt sich nicht diese innern Bewegungen aufzuschreiben. – Bemerckung eines Politischen Fehlers den ich an mir habe, der auch schwer zu tilgen ist –</quote> (<ref target="gt:dokument#769">GT I 1, 89</ref>).</p>
+
+</note>
+<note xml:id="gb12010_comment_com18244">
+<label xml:id="GB03_2_BR527_0_note_018_295_19-20" copyOf="#start_com_4256"><hi rendition="#fett">295,19-20</hi><emph rendition="#latin">On ne va jamais</emph> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">ne scait ou l’on va.</emph></label>
+<p>Franz.: Man geht nie weiter, als wenn man nicht weiß, wohin man geht. – Die Sentenz findet sich in leicht abgewandelter Form in den Erinnerungen des Kardinals Jean-François Paul de Gondi Retz, und zwar als eine Mitteilung von Pomponne de Bellièvre, der einen Ausspruch von Oliver Cromwell zitiert: „Il me disoit un jour, que l‘on ne montoit jamais si haut, que quand on ne sçait ou l’on va.“ (Mémoires du Cardinal de Retz <gap quantity="3" reason="editorial"/>. Nouvelle Edition exactement revue &amp; corrigée. Bd 2. Genf 1779, S. 528. – Er <supplied>Cromwell</supplied> sagte mir eines Tages, dass man niemals so hoch steigt, als wenn man nicht weiß, wohin man geht.) Die „Mémoires du Cardinal de Retz“ wurden seit ihrer postumen Erstveröffentlichung 1717 bis ins 19. Jahrhundert hinein immer wieder nachgedruckt und galten als Meisterwerk der Memoirenliteratur. Nachweisbar ist Goethes Lektüre allerdings erst für den März/April 1819 (vgl. <ref target="sndb:sigle#2950">Keudell</ref>, 194 f., Nr 1217 und 1218). – In abgewandelter Form auf Deutsch und ohne Hinweis auf die wahrscheinliche Quelle findet sich die Sentenz in Goethes Brief an Zelter vom 3. Dezember 1812 (vgl. <ref target="sndb:sigle#1157">WA</ref> IV 23, 188) sowie auf einem Durchschussblatt im Tagebuch von 1815 unter dem Datum 28. Mai (vgl. GT V I, 239). Nach dem Wortlaut des Tagebuchs wurde sie in die „Maximen und Reflexionen“ aufgenommen (vgl. <ref target="sndb:sigle#2905">Hecker</ref>, Nr 901; vgl. auch <ref target="sndb:sigle#1240">FA/Goethe</ref> I 13, 285, *3.78).</p>
+
+</note>
+<note xml:id="gb12010_comment_com11987">
+<label xml:id="GB03_2_BR527_0_note_019_295_20" copyOf="#start_com_4257"><hi rendition="#fett">295,20</hi>ein groser Kletterer</label>
+<p>Oliver Cromwell. – Offenbar war das Zitat als Ausspruch Cromwells bekannt und wurde später ohne Quellenangabe als Aphorismus in zeitgenössischen Periodika gedruckt, so z. B. in der Zeitschrift „Aurora“: „Man steigt nie höher, sagte Cromwell zu dem H. von Bellievre, als wenn man nicht weiß, wo der Weg hinführt.“ (Nr 7, 16. Januar 1804, S. 28.)</p>
+
+</note>
+<note xml:id="gb12010_comment_com11988">
+<label xml:id="GB03_2_BR527_0_note_020_295_21" copyOf="#start_com_4258"><hi rendition="#fett">295,21</hi>noch in Kochberg sind wenn wir zurückkommen</label>
+<p>Die Reise, welche Goethe und die herzogliche Gesellschaft über Frankfurt und Süddeutschland schließlich in die Schweiz führte, dauerte sehr viel länger als ursprünglich geplant (vgl. die einleitende Erläuterung zu <ref target="gb:dokument#12015">Nr 530</ref>). Erst am 14. Januar 1780 war Goethe wieder in Weimar.</p>
+
+</note>
+<note xml:id="gb12010_comment_com17457">
+<label xml:id="GB03_2_BR527_0_note_021_295_23" copyOf="#start_com_4259"><hi rendition="#fett">295,23</hi>Wir gehen erst künftigen Sonntag</label>
+<p>Am Sonntag, dem 12. September 1779, reisten Goethe, der Herzog, der Kammerherr Moritz von Wedel und deren Bedienstete <quote type="G">früh halbsechse von Ettersburg</quote> (<ref target="gt:dokument#773">GT I 1, 93</ref>) ab und gingen über Erfurt, Gotha und Eisenach zunächst nach Kassel.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

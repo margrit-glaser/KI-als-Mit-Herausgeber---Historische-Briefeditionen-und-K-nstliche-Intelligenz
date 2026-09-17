@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="440"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10690" n="GB 3, Nr. 44">
+  <teiHeader xml:id="gb10690_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>44.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende Januar/erste Hälfte Februar? 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:45Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10690_tei.xml</idno>
+        <idno type="URI">gb10690</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR044_0</idno>
+        <idno type="KSW-ID">10690</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="32" to="32">32</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="138" to="144">138-144</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10690_header_hwit888" corresp="#gb10690_source_hwit888" sameAs="#gb10690_comment_hwit888" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 118</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10690,,888/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich weis kein Wort von! Geben Sie sie auch nicht, wärs auch nur darum weil</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-01-21" to="1776-01-31"><supplied>Ende Januar 1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1776-02-01" to="1776-02-14"><supplied>erste Hälfte Februar? 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-03-01" to="1776-03-10"><supplied>Anfang März 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10690_source_hwit888" corresp="#gb10690_header_hwit888" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10690/22275"/>
+      <p>
+        <anchor xml:id="GB03_1_BR044_0_032_001"/>Ich weis kein Wort von! <ref target="gb:note#GB03_2_BR044_0_note_001_32_1" xml:id="start_com_0517"/>Geben Sie sie auch nicht<ref xml:id="end_com_0517"/>, wärs auch nur darum 
+<anchor xml:id="GB03_1_BR044_0_032_002"/>
+        <ref target="gb:note#GB03_2_BR044_0_note_002_32_2" xml:id="start_com_0518"/>weil das Exemplar nicht gebunden ist<ref xml:id="end_com_0518"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR044_0_032_003"/>Mir ists heiter und wovon ich heut Nacht träumte müssen Sie fühlen. 
+<anchor xml:id="GB03_1_BR044_0_032_004"/>Ich schickte Ihnen gern <ref target="gb:note#GB03_2_BR044_0_note_003_32_4" xml:id="start_com_0519"/>meine Matinees<ref xml:id="end_com_0519"/> aber <ref target="gb:note#GB03_2_BR044_0_note_004_32_4" xml:id="start_com_0520"/>Einsiedel<ref xml:id="end_com_0520"/> solls selbst 
+<anchor xml:id="GB03_1_BR044_0_032_005"/>thun</p>
+      <closer>
+        <dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR044_0_032_006"/>Adieu liebe Frau.</dateline>
+        <lb/>
+        <dateline rendition="#einrueck14">
+          <anchor xml:id="GB03_1_BR044_0_032_007"/>
+          <graphic url="gb:digitalisate#10690/70144" width="60px"/>
+        </dateline>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10690_comment">
+<body>
+<div type="metadata" xml:id="gb10690_comment_com1213">
+  <ab type="numberAddressee"><label>44.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende Januar 1776</supplied> oder <supplied>erste Hälfte Februar? 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10690_comment_com1931">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) befindet sich der vorliegende Brief unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Seit dem Erstdruck wurde er in den März 1776 eingeordnet. Fränkel setzte ihn in die Zeit nach Goethes Rückkehr von seiner Reise nach Erfurt vom 3. bis 6. Februar 1776 (vgl. <ref target="sndb:sigle#2836">Fränkel, Goethe-Stein<hi rendition="#sup">1</hi></ref> 1, 7, Nr 17; ebenso in der 2. Auflage). Düntzer datierte vermutungsweise auf Ende April 1776 (vgl. <ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref>, 34, Nr 37; vgl. zu <ref target="gb:note#GB03_2_BR044_0_note_002_32_2">32,2</ref>). Für die Datierung ins Jahr 1776 spricht vor allem die Ankündigung der <quote type="G">Matinees</quote> (<ref target="gb:text#GB03_1_BR044_0_032_004">32,4</ref>), die außer im vorliegenden Brief nur noch im Brief an Merck vom 8. März 1776 erwähnt werden, in dem sich ebenfalls der Bezug zu <quote type="G">Einsiedel</quote> (<ref target="gb:text#GB03_1_BR044_0_032_004">32,4</ref>) findet (vgl. zu <ref target="gb:note#GB03_2_BR058_0_note_004_41_14-15">41,14-15</ref>). Goethe bittet darin um die Rücksendung der <quote type="G"><emph rendition="#latin">Matinees</emph></quote> (<ref target="gb:text#GB03_1_BR058_0_041_013">41,13</ref>), die er wahrscheinlich einige Wochen zuvor, also Ende Januar oder in der ersten Hälfte Februar 1776, an Merck geschickt hatte. Der vorliegende Brief könnte daher in dieser Zeit geschrieben worden sein.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10690_comment_com3257">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 118. – 1 Bl. 16,5(–16,7) × 11,2(–11,6) cm, &#xBD; S. beschr., egh., Tinte; oben rechts von fremder Hd, Tinte: „97.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 100), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 14.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 36, Nr 411.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10690_comment_com5053">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10690_comment_com17398">
+<label xml:id="GB03_2_BR044_0_note_001_32_1" copyOf="#start_com_0517"><hi rendition="#fett">32,1</hi>Geben Sie sie auch nicht</label>
+<p>Wahrscheinlich verkürzt für ‚geben Sie sie auch nicht weiter‘, nämlich an Weimarer Freunde. – Wenn der Brief, wie angenommen, Ende Januar oder in der ersten Februarhälfte 1776 geschrieben wurde, dann könnte Goethes „Stella“ gemeint sein, die Ende Januar im Druck erschienen war (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>).</p>
+
+</note>
+<note xml:id="gb10690_comment_com17452">
+<label xml:id="GB03_2_BR044_0_note_002_32_2" copyOf="#start_com_0518"><hi rendition="#fett">32,2</hi>weil das Exemplar nicht gebunden ist</label>
+<p>Ein Exemplar der gerade erschienenen „Stella“ hatte Goethe am 30.? Januar 1776 an Charlotte von Stein geschickt (vgl. Beilage zu <ref target="gb:note#gb10681_comment_com3631">Nr 35</ref>). – Noch bis zum Ende des 19. Jahrhunderts war es üblich, dass broschierte Bände, d. h. Buchblöcke mit flexiblen Umschlägen ohne Einbanddeckel, ausgeliefert wurden, die vom Käufer selbst mit Einbänden versehen werden konnten. Auch der Autor bekam seine Belegexemplare, wenn nicht anders ausgehandelt, in dieser Form. – Düntzer dagegen nimmt an, es seien hier einzelne Aushängebogen des 2. Bandes von Lavaters „Physiognomischen Fragmenten“ gemeint (vgl. <ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref> 34, Anm. 6), die Goethe mit <ref target="gb:dokument#10723">Nr 86</ref> vom 16. April 1776 übersandte (vgl. <ref target="gb:text#GB03_1_BR086_0_055_016">55,16</ref>). Goethe hätte in diesem Fall allerdings kaum von einem <quote type="G">Exemplar</quote> gesprochen, zudem stützt sich Düntzers Datierung ausschließlich auf diese Vermutung, während die inhaltlichen Bezüge zum Brief an Merck vom 8. März unberücksichtigt bleiben (vgl. <ref target="gb:note#gb10690_comment_com1931">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb10690_comment_com14007">
+<label xml:id="GB03_2_BR044_0_note_003_32_4" copyOf="#start_com_0519"><hi rendition="#fett">32,4</hi>meine Matinees</label>
+<p>Von franz. matinée: Morgenzeit, Morgen; hier Bezeichnung für ‚scherzhafte Gedichte‘, ‚scherzhafte Versdialoge‘, und zwar in Knittelversen, in dieser besonderen Bedeutung offenbar nur in der Weimarer Hofgesellschaft gebräuchlich, wie auch der Brief von Lenz an Merck vom 8. März 1776 belegt: „Von Goethen hab’ ich allerley hübsche u. gute Sachen. <gap quantity="3" reason="editorial"/> Sie schreiben jezt dort Farcen (sub Rosa) die sie Matinees nennen, haben Sie nichts davon?“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 628.) Petersen vermutet, dass „solche Gelegenheitsdichtungen bei den Vormittagsgesellschaften des Herzogs vorgelesen wurden“ oder „daß das ursprüngliche Thema die satirische Darstellung der intimen Morgenstunden des Verspotteten war, etwa in der Art wie später Schiller ‚Körners Vormittag‘ schilderte“ (<ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 557, Anm. zu Nr 15). – Von Goethe selbst ist keine Dichtung mit dieser Genrebezeichnung erhalten, doch bediente er sich schon seit seiner frühesten Zeit der Knittelversform (vgl. <ref target="gb:note#GB02_2_BR014_0_note_018_11_26-12_20">GB 2 II, zu 11,26–12,20</ref>), so in scherzhaften Gedichtbriefen (vgl. <ref target="gb:dokument#10522">GB 2 I, Nr 44</ref> und <ref target="gb:dokument#10501">94</ref>) oder in der Posse „Das Jahrmarkts-Fest zu Plundersweilern“, dessen erste Fassung Anfang 1773 entstand. Im Goethe-Bestand des GSA ist ein Konvolut mit dem Titel „Tiefurter Spässe“ überliefert, in dem als Sammelstücke einige der von Einsiedel verfassten Matinéen enthalten sind (vgl. die folgende <ref target="gb:note#GB03_2_BR044_0_note_004_32_4">Erläuterung</ref>). Auch Charlotte von Steins „Rino“, ebenfalls aus dem Jahr 1776, fällt in dieses Genre (vgl. zu <ref target="gb:note#GB03_2_BR135_0_note_004_78_5-6">78,5-6</ref>). Ein für Carl August in Ilmenau bestimmtes Kollektivgedicht von Anna Amalia, Knebel, Louise von Göchhausen, dem Prinzen Constantin und dem Grafen von Putbus, dessen satirische Knittelverse auf die Weimarer Hofgesellschaft den Hauptteil ausmachen (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_004_29_10-11">29,10–11</ref>), wurde 1911 unter dem Titel „Eine Tiefurter Matinée vom Hofe der Herzogin Anna Amalia aus dem Jahre 1776“ von Carl Schüddekopf veröffentlicht. Nach Friedrich von Müller war die heute im Goethe-Museum Düsseldorf aufbewahrte Sammelhandschrift erst 1824 wieder aufgefunden und am 2. Februar dem Erbgroßherzog Carl Friedrich zu dessen Geburtstag überreicht worden, wobei Goethe selbst dazu eine „zierliche Dedikation im Lapidarstil, eine erklärende Einleitung, ein Verzeichniß der verschiedenen Verfasser, gleichsam einen Theaterzettel“ verfasste (<ref target="sndb:sigle#3110">Tiefurter Matinée 1776</ref>, 14; H: <ref target="sndb:sigle#1267">GMD</ref>, Sign.: KK 82; erneut gedruckt in: Der Weimarer Musenhof, 170 f.).</p>
+
+</note>
+<note xml:id="gb10690_comment_com9674">
+<label xml:id="GB03_2_BR044_0_note_004_32_4" copyOf="#start_com_0520"><hi rendition="#fett">32,4</hi>Einsiedel</label>
+<p>Der damals 26-jährige Friedrich Hildebrand von Einsiedel, seit 1776 Kammerherr der Herzoginmutter, gehörte zum engeren Freundeskreis um Herzog Carl August. Musikalisch und literarisch begabt, verfasste er Singspiele, kleine Theaterstücke, Gedichte und Erzählungen und war eine der Stützen des höfischen Liebhabertheaters (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_006_29_13">29,13</ref>). Von Einsiedel haben sich einige so genannte Matineen erhalten, darunter in Goethes Nachlass unter den <q>Tiefurter Späßen</q> die Abschrift der „Matinee eines Israeliten“ (<ref target="archivdb:dokument#390113">GSA 25/W 2878</ref>) sowie die folgende Knittelverssatire auf die Weimarer Hofgesellschaft von Anfang 1776, zu der Goethe später eigenhändige Fußnoten hinzufügte:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56425_source" corresp="#gb56425_comment">
+  <body>
+    <div>
+      <lg>
+        <lb/><l rendition="#einrueck4">Schreiben eines Politikers</l>
+        <l rendition="#einrueck7">an die</l>
+        <l rendition="#einrueck4">Gesellschafft am 6 Jan. 76.</l>
+        <l rendition="#einrueck9">÷</l>
+        <l rendition="#einrueck4">Ihr lieben Herren allerseit</l>
+        <l rendition="#einrueck4">Wie ihr so eb&#8217;n versammlet heut,</l>
+        <l rendition="#einrueck4">Ich bitt&#8217; euch hört gelaßen an</l>
+        <l rendition="#einrueck4">Ein Wort von einem weisen Mann;</l>
+        <l rendition="#einrueck4">Der in der Welt sich was versucht</l>
+        <l rendition="#einrueck4">Die großen Höf&#8217; hat all besucht,</l>
+        <l rendition="#einrueck4">Weiß Lebensart polit und fein</l>
+        <l rendition="#einrueck4">Spricht sein Französisch obendrein,</l>
+        <l rendition="#einrueck4">Könnt&#8217; all Tag Reisemarschall seyn.</l>
+        <l rendition="#einrueck4">Der Pflicht er sich entledigt gern,</l>
+        <l rendition="#einrueck4">Lobt sich dabey das Dunkelfern:</l>
+        <l rendition="#einrueck4">Denn so der Mittagssonne Licht</l>
+        <l rendition="#einrueck4">Ist allemal sein casus nicht. ––</l>
+        <l rendition="#einrueck4">Doch ohne länger zu verweilen /</l>
+        <lb/>
+        <l rendition="#einrueck4">Woll&#8217;n wir zur Sache selber eilen.</l>
+        <l rendition="#einrueck4">Ihr wißt, und es ist sonnenklahr,</l>
+        <l rendition="#einrueck4">Bewiesen durch viel tausend Jahr,</l>
+        <l rendition="#einrueck4">Gesagt von Grichen Römern Britten:</l>
+        <l rendition="#einrueck4">Daß böse Gesellschaft, verderbe die Sitten.</l>
+        <l rendition="#einrueck4">Dieß alte Sprichwort kurz und rund,</l>
+        <l rendition="#einrueck4">Soll abgeb&#8217;n meines Schreibens Grund;</l>
+        <l rendition="#einrueck4">Wie ich&#8217;s gedenk zu appliciren</l>
+        <l rendition="#einrueck4">Sollt ihr gleich in der Folge spühren. ––</l>
+        <l rendition="#einrueck4">Die Fama mit den tausend Ohren,</l>
+        <l rendition="#einrueck4">Der ihr umsonst thut Esel bohren,</l>
+        <l rendition="#einrueck4">Verkündigt viel zu eurer Schmach</l>
+        <l rendition="#einrueck4">Von euerm Jucks am Sammestag:</l>
+        <l rendition="#einrueck4">Drum ich aus Mitleid euch will führen</l>
+        <l rendition="#einrueck4">Lehre Guts und Böses separiren,</l>
+        <l rendition="#einrueck4">Und wenn&#8217;s beliebt, zum neuen Jahr,</l>
+        <l rendition="#einrueck4">Den Staar euch stechen ganz und gar. ——</l>
+        <l rendition="#einrueck4">&#8217;s Versteht sich, und ist wohl vergönnt,</l>
+        <l rendition="#einrueck4">Wenn euch die Langeweile brennt, /</l>
+        <lb/>
+        <l rendition="#einrueck4">Zuweilen Spaß für euch zu treiben;</l>
+        <l rendition="#einrueck4">Nur muß er stets im Schranken bleiben,</l>
+        <l rendition="#einrueck4">Und nicht wie&#8217;s leider von euch kund</l>
+        <l rendition="#einrueck4">Das Ding all werden gar zu bunt:</l>
+        <l rendition="#einrueck4">Kann solch ein Wesen nicht bestehn</l>
+        <l rendition="#einrueck4">Müßt alle so zum Teufel gehn. ——</l>
+        <l rendition="#einrueck4">Der Wahrheit euch zu überführen,</l>
+        <l rendition="#einrueck4">Sollt ihr die Must&#8217;rung all passiren</l>
+        <l rendition="#einrueck4">Werd Mann für Mann genau skitzziren</l>
+        <l rendition="#einrueck4">Daß nicht mehr gilt ein X für U,</l>
+        <l rendition="#einrueck4">Tritt keiner in des andern Schuh.</l>
+        <l rendition="#einrueck4">Hoff&#8217;, da ihr trinkt viel Punsch und Wein</l>
+        <l rendition="#einrueck4">&#8217;s wird unter euch kein&#8217; Rangsucht seyn. —— ——</l>
+        <l rendition="#einrueck4">Zuerst also: von ohngefehr</l>
+        <l rendition="#einrueck4">Läuft mir e&#8217;n langer <hi rendition="#sup">+</hi>Bursch die Queer</l>
+        <l rendition="#einrueck4">Von ungeschlachter roher Arth</l>
+        <l rendition="#einrueck4">Thut altklug schon: hat kaum e&#8217;n Barth,</l>
+        <l rendition="#einrueck4">Sein Äußerlichs natürlich und schlecht</l>
+        <l rendition="#einrueck4">Ist alle gut, ist alle recht</l>
+        <l rendition="#einrueck4">&#8217;s wird aber nichts durch effectuirt /</l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck2">
+          <quote type="G">
+            <emph rendition="#latin">+</emph> Oberforstmeister und Cammerher von Wedel</quote>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <lg>
+        <pb n="142"/>
+        <l rendition="#einrueck4">Die große Welt will&#8217;s modulirt.</l>
+        <l rendition="#einrueck4">Weil er so läuft auf der tollen Bahn</l>
+        <l rendition="#einrueck4">Sieht ihn drum keine Hofdam&#8217; an,</l>
+        <l rendition="#einrueck4">Bleibt ein Geselle plump und grob,</l>
+        <l rendition="#einrueck4">Hat für den bon ton keinen Kop&#8217;:</l>
+        <l rendition="#einrueck4">Mag indeß eine Weil so springen,</l>
+        <l rendition="#einrueck4">Ein Weib ihn zur raison wird bringen. ——</l>
+        <l rendition="#einrueck4">Wend mich nun dorthin, weiter unten</l>
+        <l rendition="#einrueck4">Zu einem andern Vagabunden.</l>
+        <l rendition="#einrueck4">
+            <quote type="G">
+              <emph rendition="#latin">+</emph>
+            </quote>
+          Der Knabe mit der platten Stirn,</l>
+        <l rendition="#einrueck4">Hält Wunderding von seinem Gehirn.</l>
+        <l rendition="#einrueck4">Der Narr weil&#8217;r mit Gelehrten lebt</l>
+        <l rendition="#einrueck4">Meynt drum er sey auch e&#8217;n Adept:</l>
+        <l rendition="#einrueck4">Glaubt er hiel&#8217; den Teufel beym Schwanz</l>
+        <l rendition="#einrueck4">Wenn er sich deckt mit andrer Glanz.</l>
+        <l rendition="#einrueck4">Könnt er für Trägheit selbst was schaffen,</l>
+        <l rendition="#einrueck4">Thät er nicht allen Quark begaffen</l>
+        <l rendition="#einrueck4">In allen Dreck seine Nase stecken,</l>
+        <l rendition="#einrueck4">Und dann posaunen an allen Ecken. –</l>
+        <l rendition="#einrueck4">Er treibt mit Zucht und Ordnung Spott,</l>
+        <l rendition="#einrueck4">Lebt wie ein Schwein, ohn all Geboth, /</l>
+      </lg>
+      <lb/>
+      <p rendition="#einrueck2">
+          <quote type="G">
+            <emph rendition="#latin">+</emph> Hofrath von Einsiedel der Autor selbst.</quote>
+      </p>
+      <lb/>
+      <lg>
+        <l rendition="#einrueck4">Schleicht jämmerlich bey Hofe rum:</l>
+        <l rendition="#einrueck4">Ist halb verrückt, halb toll, halb dumm. ——</l>
+        <l rendition="#einrueck4">Doch schlimmer als die allesammt,</l>
+        <l rendition="#einrueck4">Ist jener dort:<hi rendition="#sup">+</hi> zur Höll&#8217; verdammt;</l>
+        <l rendition="#einrueck4">Der seine Schand selbst etalirt</l>
+        <l rendition="#einrueck4">Das Ärgst&#8217; von sich im Munde führt.</l>
+        <l rendition="#einrueck4">Der gelebt in Sodom lange Jahr,</l>
+        <l rendition="#einrueck4">Ist drum an ihm kein gutes Haar;</l>
+        <l rendition="#einrueck4">Von einem gallicht-ranz&#8217;gem Spleen</l>
+        <l rendition="#einrueck4">Auch ihn die Mädgens alle fliehn.</l>
+        <l rendition="#einrueck4">Wär gern zuweil&#8217;n &#8217;n Bösewicht:</l>
+        <l rendition="#einrueck4">Da fehlt&#8217;s dem Kerl am Schnellgewicht,</l>
+        <l rendition="#einrueck4">Dann wider e&#8217;n empfindsam Schaaf:</l>
+        <l rendition="#einrueck4">Da hindert ihn der Dumpfheit Schlaf,</l>
+        <l rendition="#einrueck4">Drum er in ew&#8217;ger Tollheit rennt</l>
+        <l rendition="#einrueck4">Weiß nicht was&#8217;n auf den Wirbel brennt. ——</l>
+        <l rendition="#einrueck4">Auch misbehäglich mich ansticht,</l>
+        <pb n="143"/>
+        <l rendition="#einrueck4">Der Philosophen Angesicht;</l>
+        <l rendition="#einrueck4">♀Der eine schwärmt und Unsinn schwätzt,</l>
+        <l rendition="#einrueck4">Euch auf sein Steckenpferdlein setzt</l>
+        <l rendition="#einrueck4">Und eure Fantasie rum hetzt; /</l>
+      </lg>
+      <lb/>
+      <p rendition="#einrueck2">
+          <quote type="G">
+            <emph rendition="#latin">+</emph> Hauptman v. Knebel</quote>
+      </p>
+      <p rendition="#einrueck2">
+          <quote type="G">♀ Wieland</quote>
+      </p>
+      <lb/>
+      <lg>
+        <l rendition="#einrueck4">Beliebts euch, das nicht zu goutiren</l>
+        <l rendition="#einrueck4">Thut er euch launisch exorciren.</l>
+        <l rendition="#einrueck4">#Der Andre analitisch kalt,</l>
+        <l rendition="#einrueck4">Braucht an der Sinnlichkeit Gewalt;</l>
+        <l rendition="#einrueck4">Nie seinen spitzen Reden traut,</l>
+        <l rendition="#einrueck4">Auch sichs dabey gar schlecht verdaut. ——</l>
+        <l rendition="#einrueck4">
+            <quote type="G">
+              <emph rendition="#latin">+</emph>
+            </quote>
+          Den Ausbund aller, dort von Weiten</l>
+        <l rendition="#einrueck4">Möcht&#8217; ich auch ein Süpplein zubereiten,</l>
+        <l rendition="#einrueck4">Fürcht nur sein ungeschliffnes Reiten;</l>
+        <l rendition="#einrueck4">Denn sein verfluchter Galgenwitz</l>
+        <l rendition="#einrueck4">Fährt aus ihm wie Geschoß und Blitz.</l>
+        <l rendition="#einrueck4">&#8217;s ist ein Genie, von Geist und Kraft:</l>
+        <l rendition="#einrueck4">(Wie eb&#8217;n unser Herr Gott Kurzweil schafft)</l>
+        <l rendition="#einrueck4">Meynt, er könn uns all übersehn</l>
+        <l rendition="#einrueck4">Thäten für ihn rum auf Vieren gehn,</l>
+        <l rendition="#einrueck4">Wenn der Fratz so mit einem spricht</l>
+        <l rendition="#einrueck4">Schaut er einem stier ins Angesicht,</l>
+        <l rendition="#einrueck4">Glaubt er könns fein richen an,</l>
+        <l rendition="#einrueck4">Was wäre hinter jedermann.</l>
+        <l rendition="#einrueck4">Mit seinen Schriften unsinnsvoll</l>
+        <l rendition="#einrueck4">Macht er die halbe Welt itzt toll, /</l>
+      </lg>
+      <lb/>
+      <p rendition="#einrueck2">
+          <quote type="G"># Hofrath Albrecht</quote>
+      </p>
+      <p rendition="#einrueck2">+ 
+          <quote type="G">Ich.</quote>
+      </p>
+      <lb/>
+      <lg>
+        <l rendition="#einrueck4">Schreibt &#8217;n Buch von ein&#8217;m albern Tropf,</l>
+        <l rendition="#einrueck4">Der heiler Haut sich schießt vorn Kopf:</l>
+        <l rendition="#einrueck4">Meynt wunder was er ausgedacht,</l>
+        <l rendition="#einrueck4">Wenn ihr einem Mädel Herzweh macht.</l>
+        <l rendition="#einrueck4">Parodirt sich drauf als Docter Faust,</l>
+        <l rendition="#einrueck4">Daß&#8217;m Teufel selber vor ihm graußt.</l>
+        <l rendition="#einrueck4">Mir könnt&#8217; er all gut seyn im Ganzen,</l>
+        <l rendition="#einrueck4">(Thät mich hinter meinen Damm verschanzen)</l>
+        <pb n="144"/>
+        <l rendition="#einrueck4">Aber wär ich der Herr im Land</l>
+        <l rendition="#einrueck4">Würd&#8217; er, und all sein Zeugs verbannt. —— ——</l>
+        <l rendition="#einrueck4">#Nun denk man sich e&#8217;n Fürstensohn</l>
+        <l rendition="#einrueck4">Der so vergißt Geburth und Thron,</l>
+        <l rendition="#einrueck4">Und lebt mit solchen lockern Gesellen</l>
+        <l rendition="#einrueck4">Die dem lieben Gott die Zeit abprellen;</l>
+        <l rendition="#einrueck4">Die thun als wärn sie seines Gleichen,</l>
+        <l rendition="#einrueck4">Ihm nicht einmal den Fuchsschwanz streichen,</l>
+        <l rendition="#einrueck4">
+            <quote type="G">
+              <emph rendition="#latin">+</emph>
+            </quote>
+          Die des Bruders Respeckt, so ganz verkennen,</l>
+        <l rendition="#einrueck4">
+          <emph rendition="#latin">Tout court</emph> ihn Bruder Herz thun nennen,</l>
+        <l rendition="#einrueck4">Glaub&#8217;n es wohne da Menschenverstand</l>
+        <l rendition="#einrueck4">Wo man all <emph rendition="#latin">étiquette</emph> verbannt. /</l>
+      </lg>
+      <p/>
+      <lb/>
+      <p rendition="#einrueck2">
+          <quote type="G"># Herzog</quote>
+      </p>
+      <p rendition="#einrueck2">+ 
+          <quote type="G">Prinz Constantin.</quote>
+      </p>
+      <lb/>
+      <lg>
+        <l rendition="#einrueck4">Sprech&#8217;n immer aus vollem Herz</l>
+        <l rendition="#einrueck4">Treib&#8217;n mit der heilgen Staatskunst Scherz,</l>
+        <l rendition="#einrueck4">Sind ohne Plan, und Politick</l>
+        <l rendition="#einrueck4">Verhunz&#8217;n unser bestes Meisterstück;</l>
+        <l rendition="#einrueck4">Daß es ist ein Jammer anzusehn</l>
+        <l rendition="#einrueck4">Wie all Projecte ärschlings gehn. ——</l>
+        <l rendition="#einrueck4">Hoff aber ich hab sie schön curirt,</l>
+        <l rendition="#einrueck4">Sie weidlich all prostituirt;</l>
+        <l rendition="#einrueck4">Daß jederman wird danken fein,</l>
+        <l rendition="#einrueck4">Der saubern Herrn Colleg zu seyn.</l>
+      </lg>
+      <p/>
+      <lb/>
+      <p rendition="#einrueck12">
+        <hi rendition="#hervor1">Mephistopheles.</hi>
+      </p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56425_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56425_comment_com84448">
+  <p>(H: GSA Weimar, Sign.: <ref target="archivdb:dokument#390113">GSA 25/W 2878</ref>. – 2 ineinandergelegte Doppelblätter 13,7 &#xD7; 20 cm, einmal quer gefaltet, 7 &#xBD; S. beschr., zeitgenössischer Schreiber, Tinte; ab S. 3 jeweils unter dem Text egh. Fußnoten mit Einfügungszeichen, Bleistift; S. 1 unter dem Titel Rest eines roten Siegels, oben links spätere Ergänzung von Kräuters Hd, Tinte: <q>Tiefurter Späße.</q> – Format und Faltung sowie der Siegelrest deuten darauf hin, dass die Handschrift entweder selbst als Brief versandt wurde oder Beilage zu einem Brief war. Möglicherweise hat Goethe das Gedicht einem seiner Briefe z. B. an Merck beigelegt und von diesem dann zurückerbeten [vgl. <ref target="gb:text#GB03_1_BR058_0_041_012 #GB03_1_BR058_0_041_013">41,12–13</ref>]).</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

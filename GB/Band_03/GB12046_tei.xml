@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5730"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12046" n="GB 3, Nr. 559">
+  <teiHeader xml:id="gb12046_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>559.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78240">Karlsruhe</placeName>, 20. Dezember, <placeName key="sndb:ort#78508">Mannheim</placeName>, 22. Dezember 1779. Montag und Mittwoch </title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:33Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12046_tei.xml</idno>
+        <idno type="URI">gb12046</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR559_0</idno>
+        <idno type="KSW-ID">12046</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="365" to="366">365-366</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1076" to="1078">1076-1078</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12046_header_hwit1556" corresp="#gb12046_source_hwit1556" sameAs="#gb12046_comment_hwit1556" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 43</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12046,,1556/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Weil uns die Briefe nicht mehr in die Schweiz folgen durften,    ist ein gros Packet</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78240">Karlsruhe</placeName> und
+            <placeName key="sndb:ort#78508">Mannheim</placeName>
+            <date when="1779-12-20">20. Dezember 1779</date> und
+            <date when="1779-12-22">22. Dezember 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12046_source_hwit1556" corresp="#gb12046_header_hwit1556" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12046/23204"/>
+      <opener>
+        <dateline rendition="#einrueck17">
+          <anchor xml:id="GB03_1_BR559_0_365_017"/>Carlsruh, d<g ref="#typoSuspension"/>. 20 Dez. 79.</dateline>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR559_0_365_018"/>Weil uns die Briefe nicht mehr in die Schweiz folgen durften, ist ein 
+<anchor xml:id="GB03_1_BR559_0_365_019"/>gros Packet in Franckfurt liegen blieben, und hier erhalt ich also <ref target="gb:note#GB03_2_BR559_0_note_001_365_19-20" xml:id="start_com_5144"/>vier 
+<anchor xml:id="GB03_1_BR559_0_365_020"/>Ihrer Briefe auf einmal<ref xml:id="end_com_5144"/>. Sie sind recht Lieb und gut dass Sie fortfahren 
+<anchor xml:id="GB03_1_BR559_0_365_021"/>mir zu schreiben. Ich habe vergebens etlichemal angesezt <ref target="gb:note#GB03_2_BR559_0_note_002_365_21-22" xml:id="start_com_5145"/>meine ReiseBeschreibung 
+<anchor xml:id="GB03_1_BR559_0_365_022"/>ins<ptr n="1" target="#a001_365.22"/> reine zu bringen<ref xml:id="end_com_5145"/>, ieder Tag, war wieder so ganz 
+<anchor xml:id="GB03_1_BR559_0_365_023"/>besezt dass ich leider zurückbleiben muss.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR559_0_366_001"/>Hier freut mich <ref target="gb:note#GB03_2_BR559_0_note_003_366_1" xml:id="start_com_5146"/>die kleine Staff<ref xml:id="end_com_5146"/><ptr n="2" target="#a002_366.1"/> am meisten, doch ist die arme Seele 
+<anchor xml:id="GB03_1_BR559_0_366_002"/>auch schon stiller und in sich gebracht, es geht ihr in so fern wohl 
+<anchor xml:id="GB03_1_BR559_0_366_003"/>und sie weis sich ziemlich zu schicken. In Stuttgard haben wir den 
+<anchor xml:id="GB03_1_BR559_0_366_004"/>
+        <ref target="gb:note#GB03_2_BR559_0_note_004_366_4" xml:id="start_com_5147"/>Feyerlichkeiten des Jahrstags der Militar Akademie<ref xml:id="end_com_5147"/> beygewohnt, <ref target="gb:note#GB03_2_BR559_0_note_005_366_4-5" xml:id="start_com_5148"/>der 
+<anchor xml:id="GB03_1_BR559_0_366_005"/>Herzog<ref xml:id="end_com_5148"/> war äuserst galant gegen den unsrigen, und ohne <ref target="gb:note#GB03_2_BR559_0_note_006_366_5-6" xml:id="start_com_5149"/>das 
+<anchor xml:id="GB03_1_BR559_0_366_006"/>
+        <emph rendition="#latin">incognito</emph>
+        <ref xml:id="end_com_5149"/> <pb n="2" facs="gb:digitalisate#12046/23205"/> zu brechen hat er ihm die möglichste Aufmercksamkeit 
+<anchor xml:id="GB03_1_BR559_0_366_007"/>bezeigt.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR559_0_366_008"/>Uns andre hat er auch sehr <ref target="gb:note#GB03_2_BR559_0_note_007_366_8" xml:id="start_com_5150"/>artig<ref xml:id="end_com_5150"/> behandelt, und in allem Betracht 
+<anchor xml:id="GB03_1_BR559_0_366_009"/>war dieser achttägige Aufenthalt sehr <ref target="gb:note#GB03_2_BR559_0_note_008_366_9" xml:id="start_com_5151"/>merckwürdig<ref xml:id="end_com_5151"/> und <hi rendition="#hervor1">instrucktiv
+<anchor xml:id="GB03_1_BR559_0_366_010"/>
+        </hi> für uns.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR559_0_366_011"/>Nun gehts über Mannheim auf Franckfurt. <ref target="gb:note#GB03_2_BR559_0_note_009_366_11-12" xml:id="start_com_5152"/>Von da sollen Sie weiter 
+<anchor xml:id="GB03_1_BR559_0_366_012"/>hören.<ref xml:id="end_com_5152"/> Hier findet man den Herzog wohl aussehend, doch hat sich 
+<anchor xml:id="GB03_1_BR559_0_366_013"/>bisher noch keine Herzlichkeit zwischen den hohen Herzen spüren 
+<anchor xml:id="GB03_1_BR559_0_366_014"/>lassen. Es muss sich heute geben oder nie denn morgen früh verreisen 
+<anchor xml:id="GB03_1_BR559_0_366_015"/>wir. Adieu beste grüsen Sie <ref target="gb:note#GB03_2_BR559_0_note_010_366_15" xml:id="start_com_5153"/>Steinen<ref xml:id="end_com_5153"/><ptr n="3" target="#a003_366.15"/>. <ref target="gb:note#GB03_2_BR559_0_note_011_366_15-16" xml:id="start_com_5154"/>Dancken Sie der Herzoginn für 
+<anchor xml:id="GB03_1_BR559_0_366_016"/>ihre Antwort.<ref xml:id="end_com_5154"/>
+        <ref target="gb:note#GB03_2_BR559_0_note_012_366_16" xml:id="start_com_5155"/>Der Waldnern für das Zettelgen<ref xml:id="end_com_5155"/> u.s.w. <ref target="gb:note#GB03_2_BR559_0_note_013_366_16" xml:id="start_com_5156"/>Die Grasaffen<ref xml:id="end_com_5156"/>
+        <anchor xml:id="GB03_1_BR559_0_366_017"/>werden wohl gewachsen seyn, und <ref target="gb:note#GB03_2_BR559_0_note_014_366_17" xml:id="start_com_5157"/>das durchlauchtige Grasäffgen<ref xml:id="end_com_5157"/>
+        <anchor xml:id="GB03_1_BR559_0_366_018"/>auch. Hier sind <ref target="gb:note#GB03_2_BR559_0_note_015_366_18" xml:id="start_com_5158"/>die Kinder<ref xml:id="end_com_5158"/> <pb n="3" facs="gb:digitalisate#12046/23206"/> schön und allerliebst. Der Marckgr. gefällig 
+<anchor xml:id="GB03_1_BR559_0_366_019"/>und unterhaltend. Die Marckgräfin<ptr n="4" target="#a004_366.19"/> gefallig und gesprächig, der 
+<anchor xml:id="GB03_1_BR559_0_366_020"/>Erbprinz <ref target="gb:note#GB03_2_BR559_0_note_016_366_20" xml:id="start_com_5159"/>in seine Augbrauen retranchirt<ref xml:id="end_com_5159"/> aber gutwillig, die Erbprinzess 
+<anchor xml:id="GB03_1_BR559_0_366_021"/>sehr passiv am Gängelbande der <ref target="gb:note#GB03_2_BR559_0_note_017_366_21" xml:id="start_com_5160"/>Frau Schwiegermama<ref xml:id="end_com_5160"/>. <ref target="gb:note#GB03_2_BR559_0_note_018_366_21-22" xml:id="start_com_5161"/>Der zweite 
+<anchor xml:id="GB03_1_BR559_0_366_022"/>Prinz<ref xml:id="end_com_5161"/> artig und möchte gern, <ref target="gb:note#GB03_2_BR559_0_note_019_366_22" xml:id="start_com_5162"/>der iüngste<ref xml:id="end_com_5162"/> ganz <ref target="gb:note#GB03_2_BR559_0_note_020_366_22" xml:id="start_com_5163"/>ins Fleisch gebacken<ref xml:id="end_com_5163"/>. 
+<anchor xml:id="GB03_1_BR559_0_366_023"/>So viel von der unterthänigsten <ref target="gb:note#GB03_2_BR559_0_note_021_366_23" xml:id="start_com_5164"/>Sensation<ref xml:id="end_com_5164"/> des ersten Tags. Nochmals 
+<anchor xml:id="GB03_1_BR559_0_366_024"/>Adieu.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR559_0_366_025"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR559_0_366_026"/>Mannh. d<g ref="#typoSuspension"/>. 22 Dez.   Von Carlsruh sind wir gestern früh ab. Die 
+<anchor xml:id="GB03_1_BR559_0_366_027"/>Langeweile hat sich von Stund zu stund verstärckt. Von der armen <ref target="gb:note#GB03_2_BR559_0_note_022_366_27-28" xml:id="start_com_5165"/>Albertine<ref xml:id="end_com_5165"/>
+          <anchor xml:id="GB03_1_BR559_0_366_028"/>hab ich sehr zartlichen Abschied genommen, so ein Würmgen 
+<anchor xml:id="GB03_1_BR559_0_366_029"/>ist doch recht übel dran. Adieu <ref target="gb:note#GB03_2_BR559_0_note_023_366_29" xml:id="start_com_5166"/>Gold<ref xml:id="end_com_5166"/>. Gott im Himmel was ist Weimar 
+<anchor xml:id="GB03_1_BR559_0_366_030"/>für ein Paradies!.</p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12046_comment">
+<body>
+<div type="metadata" xml:id="gb12046_comment_com1125">
+  <ab type="numberAddressee"><label>559.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78240">Karlsruhe</placeName> und <placeName key="sndb:ort#78508">Mannheim</placeName>, 20. Dezember 1779 und 22. Dezember 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12046_comment_com3169">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 43. – Doppelblatt 15,4 × 20(–20,3) cm, 3 S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „18“ (vgl. Überlieferung zu <ref target="gb:note#gb12030_comment_com2847">Nr 536</ref>). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 66), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 280 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 154 f., Nr 876.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb12046_comment_com4965">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Der letzte Brief an Charlotte von Stein von der eigentlichen Schweizer Reise stammt aus Schaffhausen vom 7. Dezember 1779, von wo aus der Heimweg durch die Schwäbische Alb über Tübingen nach Stuttgart führte. Dort hielten sich die Reisenden vom 11. Dezember an eine Woche lang auf und wurden von Herzog Carl Eugen von Württemberg zuvorkommend aufgenommen. Nach Besuchen in Kornwestheim, Ludwigsburg und auf dem Hohenasperg, wo Christian Friedrich Daniel Schubart inhaftiert war, ging es am 18. Dezember weiter nach Karlsruhe und am 21. Dezember nach Mannheim. Über den Aufenthalt in Karlsruhe, der Goethe <quote type="G">Langeweile</quote> (<ref target="gb:text#GB03_1_BR559_0_366_027">366,27</ref>) verursachte, urteilte Herzog Carl August ebenso: „Zwei Tage brachte ich da <supplied>in Karlsruhe</supplied> nicht unter den seligsten Empfindungen der Freundschaft und des Wohllebens, sondern, wie ehmals, langweilig zu.“ (Brief an Herzogin Anna Amalia, 26. Dezember 1779; <ref target="sndb:sigle#76">Bergmann</ref>, 33.) Grund dafür war das wenig herzliche Verhältnis zum Markgrafen Karl Friedrich von Baden, dem Mann von Herzogin Louises Tante Caroline Louise Markgräfin von Baden, der Carl August schon Ende 1774, als er um die damalige Prinzessin Louise von Hessen-Darmstadt warb, fremd geblieben war: „Le margrave est connu par sa bonne renommée; c’est un homme de bonne mine, mais excessivement froid au premier abord. <gap quantity="3" reason="editorial"/> La cour est triste et très ennuyante“ (Brief an Herzogin Anna Amalia, 18. Dezember 1774; <ref target="sndb:sigle#76">Bergmann</ref>, 5 f. – Der Markgraf ist bekannt durch seinen guten Ruf; er ist ein Mann von gutem Aussehen, aber übermäßig kalt auf den ersten Blick. <gap quantity="3" reason="editorial"/> Der Hof ist trist und sehr langweilig.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12046_comment_com18231">
+<label xml:id="GB03_2_BR559_0_note_001_365_19-20" copyOf="#start_com_5144"><hi rendition="#fett">365,19-20</hi>vier Ihrer Briefe auf einmal</label>
+<p>Soweit aus Goethes Briefen hervorgeht, hatte er während der Schweizer Reise lediglich drei Briefe von Charlotte von Stein bekommen: einen Brief vom 25. September 1779 (vgl. <ref target="gb:text#GB03_1_BR538_0_311_019">311,19</ref>), einen Brief vom 12. November 1779 aus Kochberg (vgl. <ref target="gb:text#GB03_1_BR550_0_344_020">344,20</ref>) sowie einen Brief aus Weimar (vgl. <ref target="gb:text#GB03_1_BR555_0_358_009">358,9</ref>). Wie sämtliche Briefe Charlotte von Steins an Goethe aus dessen erstem Weimarer Jahrzehnt sind auch diese Briefe nicht überliefert.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12164">
+<label xml:id="GB03_2_BR559_0_note_002_365_21-22" copyOf="#start_com_5145"><hi rendition="#fett">365,21-22</hi>meine ReiseBeschreibung ins reine zu bringen</label>
+<p>Goethe hatte sich während des Reisens Aufzeichnungen gemacht, die er in Abständen zu einer fortlaufenden Schilderung zusammenfügte, indem er sie Philipp Seidel diktierte. Zuletzt hatte er auf diese Weise die Reise durch das Tal von Chamonix bis Martigny geschildert (in Brief <ref target="gb:dokument#12043">Nr 550</ref>); trotz wiederholter Ankündigung (vgl. <ref target="gb:text#GB03_1_BR555_0_359_016 #GB03_1_BR555_0_359_018">359,16–18</ref>; <ref target="gb:text#GB03_1_BR558_0_365_002 #GB03_1_BR558_0_365_003">365,2–3</ref>) gab es jedoch keine Fortsetzung.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12165">
+<label xml:id="GB03_2_BR559_0_note_003_366_1" copyOf="#start_com_5146"><hi rendition="#fett">366,1</hi>die kleine Staff</label>
+<p>Albertine von Staff, Tochter des Weimarer Oberjägermeisters Johann Ernst Wilhelm von Staff; sie war als Hofdame an den Hof in Karlsruhe gegangen. 1809 kehrte sie nach Weimar zurück.</p>
+
+</note>
+<note xml:id="gb12046_comment_com18335">
+<label xml:id="GB03_2_BR559_0_note_004_366_4" copyOf="#start_com_5147"><hi rendition="#fett">366,4</hi>Feyerlichkeiten des Jahrstags der Militar Akademie</label>
+<p>Die Stuttgarter Militär-Akademie ging auf das am 14. Dezember 1770 gegründete Militärwaisenhaus zurück, das bereits zwei Monate später zur „Militär-Pflanzschule“ erweitert wurde. Seit 1773 wurde die Schule als „Militär-Akademie“ geführt. Am 12. Dezember waren Goethe und Herzog Carl August „fast den ganzen Tag in seiner <supplied>des Herzogs Carl Eugen</supplied> Gesellschaft in der Militär-Akademie“ (Carl August an seine Mutter, 13. Dezember 1779; <ref target="sndb:sigle#76">Bergmann</ref>, 32); am Stiftungstag, dessen Feierlichkeiten alljährlich die etwa zwei Wochen andauernden Schlussprüfungen der Akademie beendeten, wohnten sie der Vergabe von Preisen für besondere Leistungen an die Zöglinge bei, unter denen sich auch Friedrich Schiller befand (vgl. den Bericht in der Autobiographie Friedrich Wilhelm von Hovens; <ref target="bug:dokument#6283">BuG 2, 209</ref>). Zu einer persönlichen Begegnung mit Schiller kam es damals nicht.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12166">
+<label xml:id="GB03_2_BR559_0_note_005_366_4-5" copyOf="#start_com_5148"><hi rendition="#fett">366,4-5</hi>der Herzog</label>
+<p>Carl Eugen von Württemberg, seit 1744 absolutistisch regierender Kleinstaatenfürst, der verschwenderischen Aufwand betrieben hatte, seinen Hof zu einem der prunkvollsten Europas zu machen.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12182">
+<label xml:id="GB03_2_BR559_0_note_006_366_5-6" copyOf="#start_com_5149"><hi rendition="#fett">366,5-6</hi>das <emph rendition="#latin">incognito</emph></label>
+<p>Herzog Carl August schrieb am 13. Dezember 1779 an seine Mutter: „Wir wollten hier auch im Inkognito bleiben, der Herzog erlaubte es auch, bestellte aber, alles uns sehn zu lassen“ (<ref target="sndb:sigle#76">Bergmann</ref>, 32). Carl August reiste als Baron von Wedel (vgl. zu <ref target="gb:note#GB03_2_BR531_0_note_004_297_8-9">297,8-9</ref>).</p>
+
+</note>
+<note xml:id="gb12046_comment_com15284">
+<label xml:id="GB03_2_BR559_0_note_007_366_8" copyOf="#start_com_5150"><hi rendition="#fett">366,8</hi>artig</label>
+<p>Modewort des 18. Jahrhunderts, hier im Sinne von ‚auf gehörige Art und Weise‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 839).</p>
+
+</note>
+<note xml:id="gb12046_comment_com85720">
+<label xml:id="GB03_2_BR559_0_note_008_366_9" copyOf="#start_com_5151"><hi rendition="#fett">366,9</hi>merckwürdig</label>
+<p>Im 18. Jahrhundert noch im wörtlichen Sinn: ‚wert, bemerkt oder beachtet zu werden‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 183)</p>
+</note>
+<note xml:id="gb12046_comment_com14189">
+<label xml:id="GB03_2_BR559_0_note_009_366_11-12" copyOf="#start_com_5152"><hi rendition="#fett">366,11-12</hi>Von da sollen Sie weiter hören.</label>
+<p>Aus Frankfurt ist kein Brief Goethes an Charlotte von Stein überliefert, wohl aber aus Darmstadt vom 1. Januar 1780 (vgl. <ref target="gb:dokument#12065">GB 4, Nr 1</ref>).</p>
+
+</note>
+<note xml:id="gb12046_comment_com12183">
+<label xml:id="GB03_2_BR559_0_note_010_366_15" copyOf="#start_com_5153"><hi rendition="#fett">366,15</hi>Steinen</label>
+<p>Charlotte von Steins Mann Ernst Josias von Stein.</p>
+
+</note>
+<note xml:id="gb12046_comment_com15285">
+<label xml:id="GB03_2_BR559_0_note_011_366_15-16" copyOf="#start_com_5154"><hi rendition="#fett">366,15-16</hi>Dancken Sie der Herzoginn für ihre Antwort.</label>
+<p>Ein entsprechender Brief ist nicht überliefert. Er dürfte von Herzoginmutter Anna Amalia geschrieben worden sein, denn ein Brief Goethes an Herzogin Louise von der Schweizer Reise, der einen Antwortbrief von ihr veranlasst haben könnte, ist nicht bekannt.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12184">
+<label xml:id="GB03_2_BR559_0_note_012_366_16" copyOf="#start_com_5155"><hi rendition="#fett">366,16</hi>Der Waldnern für das Zettelgen</label>
+<p>Das Billett, das möglicherweise dem erwähnten Antwortbrief der <quote type="G">Herzoginn</quote> beigelegen hatte, ist nicht überliefert. Es stammte von Louise Adelaide Waldner von Freundstein, der Hofdame von Herzogin Louise.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12185">
+<label xml:id="GB03_2_BR559_0_note_013_366_16" copyOf="#start_com_5156"><hi rendition="#fett">366,16</hi>Die Grasaffen</label>
+<p>Die Söhne Charlotte von Steins (vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>).</p>
+
+</note>
+<note xml:id="gb12046_comment_com12198">
+<label xml:id="GB03_2_BR559_0_note_014_366_17" copyOf="#start_com_5157"><hi rendition="#fett">366,17</hi>das durchlauchtige Grasäffgen</label>
+<p>Die zehn Monate alte Prinzessin Louise Auguste Amalie, Carl Augusts und Louises Tochter.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12199">
+<label xml:id="GB03_2_BR559_0_note_015_366_18" copyOf="#start_com_5158"><hi rendition="#fett">366,18</hi>die Kinder</label>
+<p>Gemeint sind wohl die Kinder des Erbprinzen von Baden Carl Ludwig und dessen Frau Amalie Friederike, der Schwester der Weimarer Herzogin Louise: die fast dreieinhalb Jahre alten Zwillingstöchter Amalie Christiane und Friederike Caroline Wilhelmine und die knapp 11 Monate alte Tochter Luise Marie Auguste.</p>
+
+</note>
+<note xml:id="gb12046_comment_com15303">
+<label xml:id="GB03_2_BR559_0_note_016_366_20" copyOf="#start_com_5159"><hi rendition="#fett">366,20</hi>in seine Augbrauen retranchirt</label>
+<p>Nach franz. (se) retrancher: sich verschanzen. Demnach machte der Erbprinz wohl eine ‚verschlossene Miene‘.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12200">
+<label xml:id="GB03_2_BR559_0_note_017_366_21" copyOf="#start_com_5160"><hi rendition="#fett">366,21</hi>Frau Schwiegermama</label>
+<p>Caroline Louise Markgräfin von Baden.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12201">
+<label xml:id="GB03_2_BR559_0_note_018_366_21-22" copyOf="#start_com_5161"><hi rendition="#fett">366,21-22</hi>Der zweite Prinz</label>
+<p>Friedrich Prinz von Baden.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12202">
+<label xml:id="GB03_2_BR559_0_note_019_366_22" copyOf="#start_com_5162"><hi rendition="#fett">366,22</hi>der iüngste</label>
+<p>Ludwig Prinz von Baden.</p>
+
+</note>
+<note xml:id="gb12046_comment_com15304">
+<label xml:id="GB03_2_BR559_0_note_020_366_22" copyOf="#start_com_5163"><hi rendition="#fett">366,22</hi>ins Fleisch gebacken</label>
+<p>Gemeint ist vermutlich ‚geistlos‘, „im Körperlichen verhaftet“ (<ref target="sndb:sigle#397">GWb</ref> 2, 8). Zu den ausgeprägten Interessen des späteren Großherzogs Ludwig I. von Baden sollen Schauspielerinnen, Tänzerinnen und Pferde gehört haben.</p>
+
+</note>
+<note xml:id="gb12046_comment_com14044">
+<label xml:id="GB03_2_BR559_0_note_021_366_23" copyOf="#start_com_5164"><hi rendition="#fett">366,23</hi>Sensation</label>
+<p>Hier wie im Französischen: Empfindung, Eindruck. Vgl. Goethes Brief an Johann Heinrich Merck vom 28.? März 1781: <quote type="G">Der Herzog hatte gute Tage in Cassel und Göttingen gehabt, <gap quantity="3" reason="editorial"/> ich denke, er hat auch da auf die Menschen gute Sensation gemacht.</quote> (<ref target="gb:text#GB04_1_BR349_0_245_006 #GB04_1_BR349_0_245_009">GB 4 I, 245,6-9</ref>.)</p>
+
+</note>
+<note xml:id="gb12046_comment_com12203">
+<label xml:id="GB03_2_BR559_0_note_022_366_27-28" copyOf="#start_com_5165"><hi rendition="#fett">366,27-28</hi>Albertine</label>
+<p>Albertine von Staff.</p>
+
+</note>
+<note xml:id="gb12046_comment_com12217">
+<label xml:id="GB03_2_BR559_0_note_023_366_29" copyOf="#start_com_5166"><hi rendition="#fett">366,29</hi>Gold</label>
+<p>Über diese oft verwendete Anrede für Charlotte von Stein vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

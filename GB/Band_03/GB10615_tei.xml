@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="880"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10615" n="GB 3, Nr. 88">
+  <teiHeader xml:id="gb10615_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>88.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, zwischen 16. und 21.? April 1776. Zwischen Dienstag und Sonntag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:53Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10615_tei.xml</idno>
+        <idno type="URI">gb10615</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR088_0</idno>
+        <idno type="KSW-ID">10615</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="56" to="56">56</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="219" to="219">219</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10615_header_hwit940" corresp="#gb10615_source_hwit940" sameAs="#gb10615_comment_hwit940" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 5</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10615,,940/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich bin noch eben so ungewiss ob ich recht hatte zu gehen, als ich gestern unentschlossen war</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-04-16" to="1776-04-21"><supplied>zwischen 16. und 21.? April 1776</supplied></date>
+            <note>
+              <date type="WA" when="1776-04-20"><supplied>20. April 1776 ?</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10615_source_hwit940" corresp="#gb10615_header_hwit940" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10615/22313"/>
+      <p>
+        <anchor xml:id="GB03_1_BR088_0_056_014"/>Ich bin noch eben <ref target="gb:note#GB03_2_BR088_0_note_001_56_14-15" xml:id="start_com_0871"/>so ungewiss ob ich recht hatte zu gehen, als ich 
+<anchor xml:id="GB03_1_BR088_0_056_015"/>gestern unentschlossen war<ref xml:id="end_com_0871"/>. Nur ein einzig Wort ich bitte Sie. Wenn 
+<anchor xml:id="GB03_1_BR088_0_056_016"/>Sie wollen nur Ihren Nahmen auf ein Zettelgen dass ich nur was von 
+<anchor xml:id="GB03_1_BR088_0_056_017"/>ihnen sehe. Sie fühlen dass ich heute kommen muss.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR088_0_056_018"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10615_comment">
+<body>
+<div type="metadata" xml:id="gb10615_comment_com1253">
+  <ab type="numberAddressee"><label>88.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>zwischen 16. und 21.? April 1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10615_comment_com1954">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief in den Februar 1776 eingeordnet. In den bisherigen Ausgaben wurde er auf den Zeitraum zwischen dem 14. und 16. April 1776 datiert (so bei <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1, 26; <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 32, Nr 37; <ref target="sndb:sigle#981">Wahle, Goethe-Stein</ref> 1, 31, Nr 40; <ref target="sndb:sigle#712">Petersen, Goethe-Stein</ref> 1, 19, Nr 41). Strehlke in der WA setzt ihn unmittelbar nach Brief <ref target="gb:dokument#10723">Nr 86</ref> vom 16. und vor Brief <ref target="gb:dokument#10764">Nr 89</ref> vom 22. April 1776. Dahin scheint er dem Inhalt und Tonfall nach am ehesten zu gehören (vgl. zu <ref target="gb:note#GB03_2_BR088_0_note_001_56_14-15">56,14-15</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10615_comment_com3297">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 5. – 1 Bl. 16,7(–16,9) × 10,7 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), &#xBD; S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „10.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 10), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 26.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 53, Nr 440.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10615_comment_com5093">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10615_comment_com9289">
+<label xml:id="GB03_2_BR088_0_note_001_56_14-15" copyOf="#start_com_0871"><hi rendition="#fett">56,14-15</hi>so ungewiss <gap quantity="3" reason="editorial"/> als ich gestern unentschlossen war</label>
+<p>Möglicherweise noch mit Bezug auf das im Brief vom 16. April 1776 angedeutete Missverständnis (vgl. <ref target="gb:text#GB03_1_BR086_0_055_016 #GB03_1_BR086_0_055_017">55,16–17</ref>). Aber auch in den darauffolgenden Tagen muss Goethes ‚Ungewissheit‘ noch angedauert haben (vgl. <ref target="gb:text#GB03_1_BR089_0_057_001 #GB03_1_BR089_0_057_002">57,1–2</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4800"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11703" n="GB 3, Nr. 470">
+  <teiHeader xml:id="gb11703_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>470.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></title>
+        <title type="sub"><placeName key="sndb:ort#77280">Apolda</placeName>, 5. <supplied>März 1779. Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:11Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11703_tei.xml</idno>
+        <idno type="URI">gb11703</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR470_0</idno>
+        <idno type="KSW-ID">11703</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="262" to="262">262</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="867" to="868">867-868</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11703_header_hwit1448" corresp="#gb11703_source_hwit1448" sameAs="#gb11703_comment_hwit1448" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe, Ms. Germ. Qu. 521</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11703,,1448/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ehrlicher alter Herr König ich muss dir gestehen dass ich als    ambulirender Poeta</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#77280">Apolda</placeName>
+            <date when="1779-03-05">5. <supplied>März 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#44242">Knebel, Carl Ludwig von</persName>
+            <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11703_source_hwit1448" corresp="#gb11703_header_hwit1448" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11703/17373"/>
+      <p>
+        <anchor xml:id="GB03_1_BR470_0_262_016"/><ref target="gb:note#GB03_2_BR470_0_note_001_262_16" xml:id="start_com_3816"/>Ehrlicher alter H<g ref="#typoSuspension"/>. König<ref xml:id="end_com_3816"/> ich muss dir gestehen dass ich als <emph rendition="#latin"><ref target="gb:note#GB03_2_BR470_0_note_002_262_16-17" xml:id="start_com_3817"/>ambulirender 
+<anchor xml:id="GB03_1_BR470_0_262_017"/>Poeta</emph><ref xml:id="end_com_3817"/> sehr geschunden bin, und hätt ich <ref target="gb:note#GB03_2_BR470_0_note_003_262_17-18" xml:id="start_com_3818"/>die paar schönen Tage 
+<anchor xml:id="GB03_1_BR470_0_262_018"/>in dem ruhigen und überlieblichen Dornburger<ptr n="1" target="#a001_262.18"/> Schlössgen<ref xml:id="end_com_3818"/> nicht gehabt 
+<anchor xml:id="GB03_1_BR470_0_262_019"/>so wäre <ref target="gb:note#GB03_2_BR470_0_note_004_262_19" xml:id="start_com_3819"/>das Ey<ref xml:id="end_com_3819"/> halb angebrütet verfault.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR470_0_262_020"/>Denn von hier an seh ich keine gute Hoffnung, vielleicht <ref target="gb:note#GB03_2_BR470_0_note_005_262_20" xml:id="start_com_3820"/>in Alstädt<ref xml:id="end_com_3820"/>! 
+<anchor xml:id="GB03_1_BR470_0_262_021"/>Doch<ptr n="2" target="#a002_262.21"/> sind die guten Geister offt zu hause wo man sie nicht vermuthet. 
+<anchor xml:id="GB03_1_BR470_0_262_022"/>Hier machen mich den ganzen Abend <ref target="gb:note#GB03_2_BR470_0_note_006_262_22" xml:id="start_com_3821"/>ein paar Hunde<ref xml:id="end_com_3821"/> toll, die ich mit 
+<anchor xml:id="GB03_1_BR470_0_262_023"/>Befehlen und Trinckgeldern nicht stillen kan. Lass etwas von dir hören. 
+<anchor xml:id="GB03_1_BR470_0_262_024"/>Montags den 8 ten bin ich in<ref target="gb:note#GB03_2_BR470_0_note_007_262_24" xml:id="start_com_3822"/> Buttstädt<ref xml:id="end_com_3822"/>, sag es der Stein <ref target="gb:note#GB03_2_BR470_0_note_008_262_24-25" xml:id="start_com_3823"/>vielleicht 
+<anchor xml:id="GB03_1_BR470_0_262_025"/>giebt sie was mit<ref xml:id="end_com_3823"/>, dahin <ref target="gb:note#GB03_2_BR470_0_note_009_262_25" xml:id="start_com_3824"/>schick mir etwa einen Boten<ref xml:id="end_com_3824"/> mit irgend einer 
+<anchor xml:id="GB03_1_BR470_0_262_026"/>Narrensposse, dass meine Seele ergözt werde. Dafür bring ich euch 
+<anchor xml:id="GB03_1_BR470_0_262_027"/><ref target="gb:note#GB03_2_BR470_0_note_010_262_26-27" xml:id="start_com_3825"/>auch was mit<ref xml:id="end_com_3825"/> <ref target="gb:note#GB03_2_BR470_0_note_011_262_27-28" xml:id="start_com_3826"/>dass der Konig und die Koniginn sagen sollen mein liebes 
+<anchor xml:id="GB03_1_BR470_0_262_028"/>Lowgen brülle noch einmal<ref xml:id="end_com_3826"/>.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR470_0_262_029"/>
+        <signed rend="paraph" rendition="#einrueck14">G</signed>
+        <dateline>          <ref target="gb:note#GB03_2_BR470_0_note_012_262_29" xml:id="start_com_3827"/>Apolde<ref xml:id="end_com_3827"/> d<g ref="#typoSuspension"/>. 5.<hi rendition="#sup">tn</hi> Abends</dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11703/17374"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11703_comment">
+<body>
+<div type="metadata" xml:id="gb11703_comment_com569">
+  <ab type="numberAddressee"><label>470.</label> An <persName key="sndb:person#44242">Carl Ludwig von Knebel</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#77280">Apolda</placeName>, 5. <supplied>März 1779</supplied> → <supplied><placeName key="sndb:ort#79469">Tiefurt</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11703_comment_com1671">
+  <p>Monat und Jahr, deren Angabe fehlt, ergeben sich aus dem Inhalt des Briefes sowie aus Goethes Tagebuch; dort heißt es unter dem 5. März 1779: <quote type="G">früh gearbeitet, Abends Apolde</quote> (<ref target="gt:dokument#682">GT I 1, 76</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11703_comment_com2613">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin, Sign.: Ms. Germ. 4°. 521, Bl. 14. – 1 Bl. 19 × 24 cm, 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">H<g ref="#typoSuspension"/>. v. Knebel</quote>, rotes Gemmensiegel: „wahrscheinlich antike Gemme mit einer geflügelten weiblichen Gestalt in faltenreichem Gewand, die Füllhorn und Blüten in den Händen hält“ (<ref target="sndb:sigle#267">Femmel/Heres</ref>, 12; wie <ref target="gb:dokument#11921">Nr 471</ref> und <ref target="gb:dokument#11971">473</ref>); Vs. oben links von Gottschalk Eduard Guhrauers Hd, Bleistift: „17“ (vgl. E), oben über der linken Seitenhälfte von fremder Hd, Tinte: „<hi rendition="#hervor1">No 49</hi>“, unten rechts von fremder Hd, Bleistift: „März 1779“; Rs. zwischen Adresse und Siegel von fremder Hd, Bleistift: „Bei der Rekruten / Aushebung in Buttstadt / saß Göthe am Tisch von / den ××××××× Bauern umgeben / u. – schrieb an seiner Iphige<supplied>nie</supplied>“, neben dem Siegel von fremder Hd, Tinte: „No 12“; Bl. am linken Rand in der Mitte ausgeschnitten. – In einem Konvolut mit schwarzem Ledereinband (vgl. weiter Überlieferung zu <ref target="gb:note#gb10600_comment_com2925">Nr 5</ref>).</p>
+  <p>E: <ref target="sndb:sigle#1280">Goethe-Knebel</ref> 1 (1851), 13 f., Nr 17.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 16, Nr 789.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11703_comment_com4409">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11703_comment_com17982">
+<label xml:id="GB03_2_BR470_0_note_001_262_16" copyOf="#start_com_3816"><hi rendition="#fett">262,16</hi>Ehrlicher alter H<g ref="#typoSuspension"/>. König</label>
+<p>Knebel war bei der Aufführung (der ersten Prosafassung) der „Iphigenie auf Tauris“ für die Rolle des Königs Thoas vorgesehen (vgl. zu <ref target="gb:note#GB03_2_BR476_0_note_002_266_2-4">266,2-4</ref>). Goethes Drama wurde vom Weimarer Liebhabertheater zum ersten Mal am 6. April 1779 aufgeführt, mit Corona Schröter in der Titelrolle und Goethe als Orestes (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 154 f.).</p>
+
+</note>
+<note xml:id="gb11703_comment_com18040">
+<label xml:id="GB03_2_BR470_0_note_002_262_16-17" copyOf="#start_com_3817"><hi rendition="#fett">262,16-17</hi><emph rendition="#latin">ambulirender Poeta</emph></label>
+<p>Lat./dt.: umherreisender Poet (von lat. ambulare: herumgehen, reisen). – Vom 28. Februar bis 12. März 1779 war Goethe in seiner im Januar 1779 übernommenen Funktion als leitendes Mitglied der Kriegs- sowie der Wegebaudirektion im Herzogtum unterwegs (vgl. zu <ref target="gb:note#GB03_2_BR466_0_note_001_259_7">259,7</ref>). Die Dienstreise führte über Jena, Dornburg, Apolda, Buttstädt, Allstedt und Kalbsrieth und diente der Straßeninspektion und der Musterung von Rekruten. Während der Reise setzte Goethe die am 14. Februar 1779 begonnene Arbeit an der „Iphigenie auf Tauris“ fort. Die Auslesung von Rekruten fand turnusmäßig alle drei Jahre statt. Im vorliegenden Fall hatte es außerdem ein Ersuchen Preußens vom Dezember 1778 gegeben, entweder die Anwerbung von Soldaten für preußische Dienste auf dem Gebiet Sachsen-Weimars zu gestatten oder diese Aufgabe selbst zu übernehmen. Goethe hatte dazu in einem Brief an Herzog Carl August vom 9. Februar 1779 ausführlich Stellung genommen (vgl. <ref target="gb:dokument#10363">A 1</ref>). Vgl. ferner Goethes Äußerungen im Brief an Charlotte von Stein vom 6. März 1779 (<ref target="gb:dokument#11921">Nr 471</ref>; <ref target="gb:text#GB03_1_BR471_0_263_007 #GB03_1_BR471_0_263_009">263,7–9</ref>). Eine Szene der Rekrutenmusterung hielt Goethe in einer Zeichnung fest (vgl. <ref target="gb:digitalisate#10219/64268">Abb. 11</ref> im Kommentarband, S. 874; <ref target="sndb:sigle#1248">Corpus</ref> I, 107, Nr 307).</p>
+
+</note>
+<note xml:id="gb11703_comment_com11328">
+<label xml:id="GB03_2_BR470_0_note_003_262_17-18" copyOf="#start_com_3818"><hi rendition="#fett">262,17-18</hi>die paar schönen Tage <gap quantity="3" reason="editorial"/> Dornburger Schlössgen</label>
+<p>Goethe hielt sich vom 2. bis zum 5. März 1779 in Dornburg auf und wohnte dort im Rokokoschloss, dem mittleren der drei Schlösser (vgl. zu <ref target="gb:note#GB03_2_BR469_0_note_004_261_3-4">261,3-4</ref>). Am 5. März war er nach Apolda gereist, wo er wieder seinen Amtspflichten nachkommen musste.</p>
+
+</note>
+<note xml:id="gb11703_comment_com18047">
+<label xml:id="GB03_2_BR470_0_note_004_262_19" copyOf="#start_com_3819"><hi rendition="#fett">262,19</hi>das Ey</label>
+<p>Gemeint ist „Iphigenie“, das Drama, an dem Goethe arbeitete. Am 2. März 1779 hatte Goethe an Charlotte von Stein geschrieben, er wolle sich <quote type="G">in das neue Schloss sperren und einige Tage an meinen Figuren posseln</quote> (<ref target="gb:text#GB03_1_BR467_0_260_008 #GB03_1_BR467_0_260_009">260,8–9</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com11339">
+<label xml:id="GB03_2_BR470_0_note_005_262_20" copyOf="#start_com_3820"><hi rendition="#fett">262,20</hi>in Alstädt</label>
+<p>Nach Allstedt, der Weimarer Exklave südöstlich von Sangerhausen, kam Goethe am 9. März und blieb bis zum 12. März 1779. Noch am Tag seiner Ankunft vermerkte er im Tagebuch: <quote type="G">Die Drey Ackte zusammen gearbeitet.</quote> (<ref target="gt:dokument#687">GT I 1, 77</ref>.)</p>
+
+</note>
+<note xml:id="gb11703_comment_com11340">
+<label xml:id="GB03_2_BR470_0_note_006_262_22" copyOf="#start_com_3821"><hi rendition="#fett">262,22</hi>ein paar Hunde</label>
+<p>Über diese klagt Goethe auch im Brief an Charlotte von Stein vom selben Tag (vgl. <ref target="gb:text#GB03_1_BR469_0_262_001">262,1</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com15214">
+<label xml:id="GB03_2_BR470_0_note_007_262_24" copyOf="#start_com_3822"><hi rendition="#fett">262,24</hi>Buttstädt</label>
+<p>Von Apolda ritt Goethe in Begleitung des Unteroffiziers Johann Christian Venus am Morgen des 7. März 1779 in nordwestlicher Richtung nach Buttstädt. Über die dortige Musterung vgl. Goethes Brief an Herzog Carl August vom 8. März 1779 (<ref target="gb:dokument#10219">Nr 474</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com15805">
+<label xml:id="GB03_2_BR470_0_note_008_262_24-25" copyOf="#start_com_3823"><hi rendition="#fett">262,24-25</hi>vielleicht giebt sie was mit</label>
+<p>Darum hatte Goethe im Brief an Charlotte von Stein vom 7. März 1779 gebeten (vgl. <ref target="gb:text#GB03_1_BR473_0_264_008 #GB03_1_BR473_0_264_009">264,8–9</ref>). Ob die Bitte erfüllt wurde, ist nicht bekannt.</p>
+
+</note>
+<note xml:id="gb11703_comment_com11341">
+<label xml:id="GB03_2_BR470_0_note_009_262_25" copyOf="#start_com_3824"><hi rendition="#fett">262,25</hi>schick mir etwa einen Boten</label>
+<p>Knebel kam am 8. März selbst (vgl. <ref target="gt:dokument#686">GT I 1, 77</ref> sowie <ref target="gb:text#GB03_1_BR474_0_265_019">265,19</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com11342">
+<label xml:id="GB03_2_BR470_0_note_010_262_26-27" copyOf="#start_com_3825"><hi rendition="#fett">262,26-27</hi>auch was mit</label>
+<p>Die „Iphigenie“ in der frühen Prosafassung (vgl. zu <ref target="gb:note#GB03_2_BR462_0_note_003_258_3">258,3</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com15215">
+<label xml:id="GB03_2_BR470_0_note_011_262_27-28" copyOf="#start_com_3826"><hi rendition="#fett">262,27-28</hi>dass der Konig <gap quantity="3" reason="editorial"/> brülle noch einmal</label>
+<p>Anspielung auf Shakespeares „Sommernachtstraum“, die sich auch in Goethes Brief an Johann Heinrich Merck vom 5. Januar 1776 findet (vgl. weiter zu <ref target="gb:note#GB03_2_BR016_0_note_030_17_16-17">17,16-17</ref>).</p>
+
+</note>
+<note xml:id="gb11703_comment_com11352">
+<label xml:id="GB03_2_BR470_0_note_012_262_29" copyOf="#start_com_3827"><hi rendition="#fett">262,29</hi>Apolde</label>
+<p>In Apolda hielt sich Goethe vom 5. März bis zum Morgen des 7. März 1779 auf. Vgl. auch die Briefe an Charlotte von Stein vom 5. und 6. März 1779 (<ref target="gb:dokument#11967">Nr 469</ref> und <ref target="gb:dokument#11921">471</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

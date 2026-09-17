@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="150"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10636" n="GB 3, Nr. 15">
+  <teiHeader xml:id="gb10636_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>15.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 5. Januar 1776.  Freitag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:04Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10636_tei.xml</idno>
+        <idno type="URI">gb10636</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR015_0</idno>
+        <idno type="KSW-ID">10636</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="15" to="16">15-16</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="49" to="52">49-52</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10636_header_hwit838" corresp="#gb10636_source_hwit838" sameAs="#gb10636_comment_hwit838" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10636,,838/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante, ich sollt an meine Mutter schreiben, drum schreib ich an Sie dass ihr zusammen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-05"><supplied>5. Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10636_source_hwit838" corresp="#gb10636_header_hwit838" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10636/62333"/>
+      <p>
+        <anchor xml:id="GB03_1_BR015_0_015_017"/>Liebe Tante, ich sollt an meine Mutter schreiben, drum schreib ich an 
+<anchor xml:id="GB03_1_BR015_0_015_018"/>Sie dass ihr zusammen meinen Brief <ref target="gb:note#GB03_2_BR015_0_note_001_15_18" xml:id="start_com_0218"/>geniesst<ref xml:id="end_com_0218"/> und verdaut. <ref target="gb:note#GB03_2_BR015_0_note_002_15_18-19" xml:id="start_com_0219"/>Ich bin immer 
+<anchor xml:id="GB03_1_BR015_0_015_019"/>fort in der wünschenswerthsten Lage der Welt.<ref xml:id="end_com_0219"/> Schwebe über all 
+<anchor xml:id="GB03_1_BR015_0_015_020"/>den ersten, größten Verhältnissen, habe glücklichen Einfluss, und geniesse 
+<anchor xml:id="GB03_1_BR015_0_015_021"/>und lerne und so weiter. Jezt nun aber <ref target="gb:note#GB03_2_BR015_0_note_003_15_21" xml:id="start_com_0220"/>brauch ich Geld <ref xml:id="end_com_0220"/>– denn 
+<anchor xml:id="GB03_1_BR015_0_015_022"/>
+        <ref target="gb:note#GB03_2_BR015_0_note_004_15_22" xml:id="start_com_0221"/>niemand lebt vom Winde<ref xml:id="end_com_0221"/> – so wollt ich nur sagen Täntgen überleg 
+<anchor xml:id="GB03_1_BR015_0_015_023"/>sie s mit der Mutter, ob der Vater Sinn und Gefühl, ob all der abglänzenden 
+<anchor xml:id="GB03_1_BR015_0_015_024"/>
+        <ref target="gb:note#GB03_2_BR015_0_note_005_15_24" xml:id="start_com_0222"/>Herrlichkeit seines Sohns<ref xml:id="end_com_0222"/> hat, mir 200 f zu geben oder einen 
+<anchor xml:id="GB03_1_BR015_0_015_025"/>Theil davon. <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26" xml:id="start_com_0223"/>Mag das nicht gehn so soll die Mutter <hi rendition="#hervor1">Mercken</hi>
+        <anchor xml:id="GB03_1_BR015_0_015_026"/>schreiben dass der mir’s schickt.<ref xml:id="end_com_0223"/> Das schicklichste wär, <ref target="gb:note#GB03_2_BR015_0_note_007_15_26" xml:id="start_com_0224"/>in Golde<ref xml:id="end_com_0224"/><ptr n="1" target="#a001_15.26"/> mit 
+<anchor xml:id="GB03_1_BR015_0_015_027"/>dem Postwagen, unter andern Sachen<ptr n="2" target="#a002_15.27"/> – Nimm Sie liebe Tante das auf 
+<anchor xml:id="GB03_1_BR015_0_015_028"/>die Schultern. Und macht mir’s <hi rendition="#hervor2">richtig</hi>. Denn <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR015_0_note_008_15_28-16_1" xml:id="start_com_0225"/>ich muss seyn</hi>
+        <anchor xml:id="GB03_1_BR015_0_016_001"/>
+        <hi rendition="#hervor1">in dem was meines Vaters ist</hi>.<ref xml:id="end_com_0225"/> Ich kann nichts einzeln schreiben. 
+<anchor xml:id="GB03_1_BR015_0_016_002"/>Die Zeit mags lehren. <ref target="gb:note#GB03_2_BR015_0_note_009_16_2" xml:id="start_com_0226"/>Schreiben Sie mir manch mal was<ref xml:id="end_com_0226"/>, ich 
+<anchor xml:id="GB03_1_BR015_0_016_003"/>bitte!<ptr n="3" target="#a003_16.3"/> denn so<ptr n="4" target="#a004_16.3"/> wohl mir’s geht, ists doch manchmal noth. Addio Grus 
+<anchor xml:id="GB03_1_BR015_0_016_004"/>an <ref target="gb:note#GB03_2_BR015_0_note_010_16_4" xml:id="start_com_0227"/>Frizzen<ref xml:id="end_com_0227"/>.</p>
+      <p rendition="#einrueck2_voll">
+        <anchor xml:id="GB03_1_BR015_0_016_005"/>Eben krieg ich die <ref target="gb:note#GB03_2_BR015_0_note_011_16_5" xml:id="start_com_0228"/>Schachtel mit dem Vorrath<ref xml:id="end_com_0228"/>. Mama soll mir 
+<anchor xml:id="GB03_1_BR015_0_016_006"/>mit Gelegenheit die <ref target="gb:note#GB03_2_BR015_0_note_012_16_6" xml:id="start_com_0229"/>Schrifften Hamans<ref xml:id="end_com_0229"/> schicken die von <hi rendition="#hervor1">Reich</hi>
+        <anchor xml:id="GB03_1_BR015_0_016_007"/>gekomen sind.</p>
+    <pb n="2" facs="gb:digitalisate#10636/62334" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10636_comment">
+<body>
+<div type="metadata" xml:id="gb10636_comment_com385">
+  <ab type="numberAddressee"><label>15.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>5. Januar 1776</supplied> → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10636_comment_com1570">
+  <p>Im Brief an Johann Heinrich Merck vom 5. Januar 1776 (<ref target="gb:dokument#10569">Nr 16</ref>) nimmt Goethe Bezug auf den vorliegenden Brief (vgl. <ref target="gb:text#GB03_1_BR016_0_017_023 #GB03_1_BR016_0_017_024">17,23–24</ref>). Dieser muss demnach vorher geschrieben worden sein. Die erwähnte <quote type="G">Schachtel</quote> (<ref target="gb:text#GB03_1_BR015_0_016_005">16,5</ref>) seiner Mutter, vermutlich mit Neujahrsgebäck, kann Goethe frühestens am 4. Januar 1776 erhalten haben; zuvor hatte er sich mit Wieland vom 1. bis zum 3. Januar in Stedten „drey wonnigliche Tage, die ersten in diesem Jahre“ (Wielands Brief an Sophie von La Roche, 11. Januar 1776; <ref target="sndb:sigle#141">WB</ref> 5, 463) bei Auguste von Keller aufgehalten und war am 4. Januar nach Weimar zurückgekehrt. Aller Wahrscheinlichkeit nach wurde der vorliegende Brief wie <ref target="gb:dokument#10569">Nr 16</ref> am 5. Januar 1776 geschrieben. Unter diesem Datum ist vermutlich auch seine Absendung vermerkt (vgl. die Angaben zu den Postsendungen). Auch von <quote type="G">Schachtel und Briefporto</quote> (<ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4r) ist dort die Rede. Dies könnte sich auf die von Catharina Elisabeth Goethe übersandte Schachtel beziehen, für die der Empfänger einen Teil des Portos zu zahlen hatte.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10636_comment_com2429">
+  <p>H: Privatbesitz, Deutschland. – 1 Bl. 18,9 × 22,9 cm, 1 S. beschr., egh., Tinte; Rs. Anfang einer Adresse: <quote type="G">An</quote>, Reste eines roten Siegels; Blatt am rechten Rand und auf der linken Seitenhälfte in der Mitte ausgerissen durch Öffnen des Siegels; Vs. links unten quer zur Schreibrichtung von Johanna Fahlmers Hd, Tinte: „N<hi rendition="#sup #uu">&#xA0;r</hi> 2“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775); Vs. oben auf der rechten Seitenhälfte von fremder Hd, Bleistift: „39)“ (vgl. E). – Möglicherweise Beischluss zu <ref target="gb:dokument#15724">EB 19</ref>.</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 102 f., Nr 39.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 14 f., Nr 379 (nach E; Textkorrektur in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10636_comment_com4225">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 5. Januar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4r). – Der vorliegende Brief, der ausdrücklich auch an Goethes Mutter gerichtet ist, war möglicherweise ein Beischluss zu <ref target="gb:dokument#15724">EB 19</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10636_comment_com9612">
+<label xml:id="GB03_2_BR015_0_note_001_15_18" copyOf="#start_com_0218"><hi rendition="#fett">15,18</hi>geniesst</label>
+<p>‚Genießen‘ hier im Sinn von ‚etwas in sich aufnehmen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1462).</p>
+
+</note>
+<note xml:id="gb10636_comment_com9613">
+<label xml:id="GB03_2_BR015_0_note_002_15_18-19" copyOf="#start_com_0219"><hi rendition="#fett">15,18-19</hi>Ich bin <gap quantity="3" reason="editorial"/> in der wünschenswerthsten Lage der Welt.</label>
+<p>Ähnlich enthusiastisch hatte sich Goethe bereits im ersten Brief an Johanna Fahlmer aus Weimar vom 22. November 1775 geäußert (vgl. <ref target="gb:dokument#10565">Nr 4</ref>).</p>
+
+</note>
+<note xml:id="gb10636_comment_com17315">
+<label xml:id="GB03_2_BR015_0_note_003_15_21" copyOf="#start_com_0220"><hi rendition="#fett">15,21</hi>brauch ich Geld</label>
+<p>In Weimar hatte Goethe zunächst keine Einkünfte aus eigener Arbeit. Die Honorare für die Tätigkeit als Anwalt, die er in Frankfurt erhalten hatte, fehlten ihm. Die Unterstützung durch den Vater reichte für das aufwändige Leben in Weimar mit Reisen, Ausflügen und Feiern nicht aus. Erst mit seiner Ernennung zum Geheimen Legationsrat im Juni 1776 gelangte Goethe zu eigenem Einkommen (vgl. Jochen Klauß: Genie und Geld. Goethes Finanzen. Düsseldorf 2009, S. 28–32; vgl. auch zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR055_0_note_007_40_9">40,9</ref>; zu <ref target="gb:note#GB03_2_BR055_0_note_008_40_11-12">40,11-12</ref>).</p>
+
+</note>
+<note xml:id="gb10636_comment_com9614">
+<label xml:id="GB03_2_BR015_0_note_004_15_22" copyOf="#start_com_0221"><hi rendition="#fett">15,22</hi>niemand lebt vom Winde</label>
+<p>In vielen romanisch-germanischen Sprachen vorkommendes mittelalterliches Sprichwort (vgl. Thesaurus proverbiorum medii aevi. Sprichwörter des romanisch-germanischen Mittelalters. Bd 13. Berlin, New York 2002, S. 112).</p>
+
+</note>
+<note xml:id="gb10636_comment_com9615">
+<label xml:id="GB03_2_BR015_0_note_005_15_24" copyOf="#start_com_0222"><hi rendition="#fett">15,24</hi>Herrlichkeit seines Sohns</label>
+<p>Mit biblischer Konnotation; am Anfang des Johannes-Evangeliums (1,14) heißt es: „Und das wort ward fleisch, und wohnete unter uns, und wir sahen seine herrlichkeit, eine herrlichkeit als des eingebohrnen Sohns vom Vatter, voller gnade und wahrheit.“ (Luther-Bibel 1772 NT, 94.)</p>
+
+</note>
+<note xml:id="gb10636_comment_com17405">
+<label xml:id="GB03_2_BR015_0_note_006_15_25-26" copyOf="#start_com_0223"><hi rendition="#fett">15,25-26</hi>Mag das nicht gehn <gap quantity="3" reason="editorial"/> der mir’s schickt.</label>
+<p>Goethe hatte deswegen Grund zu der Annahme, sein Vater, der ihm Zuschüsse nur „widerwillig“ (<ref target="sndb:sigle#2979">Liber domesticus<hi rendition="#sup">2</hi></ref> 2, XXI) nach Weimar schickte, könnte ihm die finanzielle Unterstützung versagen, weil dieser den Aufenthalt seines Sohnes an einem Fürstenhof immer noch mit Argwohn betrachtete. Er fürchtete, poetisches Talent und persönliche Reputation Goethes könnten an einem solchen Ort Schaden nehmen. Als im Oktober 1775 die angekündigte Kutsche ausblieb, die Goethe nach Weimar bringen sollte (vgl. <ref target="gb:note#GB02_2_BR267_0_note_001_221_1-2">GB 2 II, zu 221,1–2</ref>; zu <ref target="gb:note#GB02_2_BR270_0_note_002_223_6">223,6</ref>), hatte er dies, wie Goethe in seinen Lebenserinnerungen schreibt, <quote type="G">als einen lustigen Hofstreich</quote> interpretiert, den man inszeniert habe, um ihn <quote type="G">zu kränken und zu beschämen,</quote> wenn er <quote type="G">nunmehr statt jener gehofften Ehre schimpflich sitzen geblieben</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 645 [20. Buch]). Der Vater hätte es lieber gesehen, Goethe wäre Ende Oktober 1775 auf seine Kosten nach Italien gegangen. Offenbar wandte sich Goethes Mutter tatsächlich an Johann Heinrich Merck, denn am 19. Januar erhielt Goethe von diesem Geld (vgl. <ref target="gb:text#GB03_1_BR027_0_023_010">23,10</ref>). In der Folgezeit wurde er durch Geldgeschenke des Herzogs unterstützt (vgl. Goethe an Johanna Fahlmer, 6. März 1776; <ref target="gb:dokument#10691">Nr 55</ref>), der ihm im April 1776 darüber hinaus das Gartenhaus an der Ilm samt Mobiliar zum Geschenk machte. Auch die Mutter übernahm Ausgaben für den Sohn, wie aus Goethes Brief an Johanna Fahlmer vom 18. März 1776 (<ref target="gb:dokument#10693">Nr 62</ref>) hervorgeht (vgl. <ref target="gb:text#GB03_1_BR062_0_043_011 #GB03_1_BR062_0_043_012">43,11–12</ref>). Johann Caspar Goethe verlor seine Skepsis erst im Lauf der Zeit. Vom Weimarer Kammerrat Johann August Alexander von Kalb erfuhr er in einem Brief vom 16. März 1776 (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10692_comment_com84473">Nr 61</ref>), dass Herzog Carl August seinen Sohn unter sehr vorteilhaften Bedingungen mit einem Jahresgehalt von 1200 Reichstalern zum Legationsrat ernennen werde. In einem Brief vom 24. Juli 1776 an Gottlob Friedrich Ernst Schönborn teilte Johann Caspar Goethe voll Genugtuung mit, der Herzog in Weimar habe seinen Sohn so unentbehrlich gefunden, „daß Er ihn endlich zu seinem geheim. Legations Rath mit Sitz und Stimme im geheim. Conseil und 1200 Thlr. Besoldung ernante. Da sizt nun der Poet und fügt sich in sein neües Fach bestmöglichst.“ (<ref target="sndb:sigle#715">Pfeiffer-Belli</ref>, 314 f.)</p>
+
+</note>
+<note xml:id="gb10636_comment_com14784">
+<label xml:id="GB03_2_BR015_0_note_007_15_26" copyOf="#start_com_0224"><hi rendition="#fett">15,26</hi>in Golde</label>
+<p>In Louisdor oder Carolin (vgl. <ref target="gb:dokument#56921">Münze und Geldrechnung in Goethes Briefen 1775–1779</ref>, S. LIII).</p>
+
+</note>
+<note xml:id="gb10636_comment_com17341">
+<label xml:id="GB03_2_BR015_0_note_008_15_28-16_1" copyOf="#start_com_0225"><hi rendition="#fett">15,28-16,1</hi><hi rendition="#hervor1">ich muss seyn</hi> <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">meines Vaters ist</hi></label>
+<p>Wie zuvor <ref target="gb:text#GB03_1_BR015_0_015_024">15,24</ref> in Anlehnung an die Bibel. Im Lukas-Evangelium (2,48 f.) wird vom zwölfjährigen Jesus berichtet, er sei in Jerusalem zurückgeblieben, während seine Eltern nach Nazareth zurückkehrten. Als sie ihn vermissten, suchten sie nach ihm. Sie fanden ihn nach drei Tagen im Tempel zu Jerusalem mitten unter den Schriftgelehrten. Seine Mutter sagte zu ihm: „Mein sohn, warum hast du uns das gethan? Siehe, dein vatter und ich haben dich mit schmertzen gesuchet.“ (Luther-Bibel 1772 NT, 61.) Jesus antwortete ihr: „Was ists, daß ihr mich gesucht habt? Wisset ihr nicht, daß ich seyn muß in dem, das meines Vatters ist?“ (Ebd.)</p>
+
+</note>
+<note xml:id="gb10636_comment_com9637">
+<label xml:id="GB03_2_BR015_0_note_009_16_2" copyOf="#start_com_0226"><hi rendition="#fett">16,2</hi>Schreiben Sie mir manch mal was</label>
+<p>Briefe von Johanna Fahlmer an Goethe sind nicht überliefert. Vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10565_comment_com4770">Nr 4</ref>.</p>
+
+</note>
+<note xml:id="gb10636_comment_com9638">
+<label xml:id="GB03_2_BR015_0_note_010_16_4" copyOf="#start_com_0227"><hi rendition="#fett">16,4</hi>Frizzen</label>
+<p>Gemeint ist Friedrich Heinrich Jacobi. Soweit bekannt, hatte Goethe zuletzt am 3. Oktober 1775 an ihn geschrieben (vgl. <ref target="gb:dokument#15690">GB 2 I, EB 227</ref>). Auch dieser hatte ihn finanziell unterstützt, wie Goethes Brief an ihn vom 2. Oktober 1782 belegt, in dem von einer alten <quote type="G">Schuld</quote> die Rede ist: <quote type="G">Du halfst mir damals aus einer grosen Verlegenheit und ich will es nicht entschuldigen daß ich der Sache so lang nicht erwähnte.</quote> (<ref target="sndb:sigle#2941">JB</ref> I 3, 53; vgl. auch <ref target="gb:text#GB05_1_BR241_0_150_015 #GB05_1_BR241_0_150_016">GB 5 I, 150,15-16</ref>.) Johanna Fahlmer war die Stieftante der Brüder Johann Georg und Friedrich Heinrich Jacobi.</p>
+
+</note>
+<note xml:id="gb10636_comment_com9639">
+<label xml:id="GB03_2_BR015_0_note_011_16_5" copyOf="#start_com_0228"><hi rendition="#fett">16,5</hi>Schachtel mit dem Vorrath</label>
+<p>Aus Catharina Elisabeth Goethes Brief an Philipp Seidel vom 2. Januar 1778 geht hervor, dass auch im Jahr 1777, und zwar am 26. Dezember, eine „Schachtel an den Docter <supplied>Goethe</supplied>“ abging (Die Briefe der Frau Rath Goethe. Gesammelt und hrsg. von Albert Köster. Leipzig 1923, S. 24). Sie könnte wie die hier erwähnte Schachtel Süßigkeiten und Gebäck zu Neujahr enthalten haben.</p>
+
+</note>
+<note xml:id="gb10636_comment_com17342">
+<label xml:id="GB03_2_BR015_0_note_012_16_6" copyOf="#start_com_0229"><hi rendition="#fett">16,6</hi>Schrifften Hamans</label>
+<p>Ende Oktober 1775 hatte Goethe bei dem Leipziger Verleger Philipp Erasmus Reich eine Reihe von Schriften Johann Georg Hamanns bestellt (vgl. im Einzelnen <ref target="gb:dokument#11679">GB 2 I, Nr 272</ref> sowie die Erläuterungen dazu [GB 2 II, 563 f.], ferner die einleitende Erläuterung zu <ref target="gb:note#gb11746_comment_com5106">Nr 1</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

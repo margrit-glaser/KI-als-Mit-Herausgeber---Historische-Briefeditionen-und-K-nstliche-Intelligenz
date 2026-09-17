@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="200"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10912" n="GB 3, Nr. 20">
+  <teiHeader xml:id="gb10912_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>20.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, kurz vor dem oder am 15. Januar 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:18:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10912_tei.xml</idno>
+        <idno type="URI">gb10912</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR020_0</idno>
+        <idno type="KSW-ID">10912</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="20" to="20">20</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="92" to="94">92-94</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10912_header_hwit849" corresp="#gb10912_source_hwit849" sameAs="#gb10912_comment_hwit849" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10912,,849/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Antworte mir schnell wie stehst du mit Jerusalem, ein guter Brief von ihm würde viel thun</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" notBefore="1776-01-13" notAfter="1776-01-14"><supplied>kurz vor dem 15. Januar 1776</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" when="1776-01-15"><supplied>am 15. Januar 1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38024">Herder, Johann Gottfried</persName>
+            <placeName key="sndb:ort#87434">Bückeburg</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10912_source_hwit849" corresp="#gb10912_header_hwit849" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10912/18423"/>
+      <p>
+        <anchor xml:id="GB03_1_BR020_0_020_003"/>Antworte mir schnell wie stehst du mit <ref target="gb:note#GB03_2_BR020_0_note_001_20_3" xml:id="start_com_0312"/>Jerusalem<ref xml:id="end_com_0312"/>, ein guter Brief von 
+<anchor xml:id="GB03_1_BR020_0_020_004"/>ihm würde<ptr n="1" target="#a001_20.4"/> viel thun. Lieber Bruder, wir habens von ieher mit den 
+<anchor xml:id="GB03_1_BR020_0_020_005"/>
+        <ref target="gb:note#GB03_2_BR020_0_note_002_20_5" xml:id="start_com_0313"/>Scheiskerlen<ref xml:id="end_com_0313"/> verdorben, und die Scheiskerle sizzen überall auf dem 
+<anchor xml:id="GB03_1_BR020_0_020_006"/>Fasse. Der Herzog will und wünscht dich, aber <ref target="gb:note#GB03_2_BR020_0_note_003_20_6-7" xml:id="start_com_0314"/>alles ist hier gegen 
+<anchor xml:id="GB03_1_BR020_0_020_007"/>dich<ref xml:id="end_com_0314"/>. Indess ist hier die Rede von Einrichtung auf ein gut Leben und 
+<anchor xml:id="GB03_1_BR020_0_020_008"/>
+        <ref target="gb:note#GB03_2_BR020_0_note_004_20_8" xml:id="start_com_0315"/>2000 rh.<ref xml:id="end_com_0315"/> Einkünfte. Ich<ptr n="2" target="#a002_20.8"/> lass <ref target="gb:note#GB03_2_BR020_0_note_005_20_8" xml:id="start_com_0316"/>nit<ref xml:id="end_com_0316"/> los, wenns nit gar dumm geht. Leb 
+<anchor xml:id="GB03_1_BR020_0_020_009"/>wohl und schreib und <ref target="gb:note#GB03_2_BR020_0_note_006_20_9-10" xml:id="start_com_0317"/>siegle die Briefe wohl und gieb auf die Siegel 
+<anchor xml:id="GB03_1_BR020_0_020_010"/>der meinigen acht<ref xml:id="end_com_0317"/>.</p>
+    <pb n="2" facs="gb:digitalisate#10912/18424" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10912/18425"/>
+    <pb n="4" facs="gb:digitalisate#10912/18426" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10912_comment">
+<body>
+<div type="metadata" xml:id="gb10912_comment_com600">
+  <ab type="numberAddressee"><label>20.</label> An <persName key="sndb:person#38024">Johann Gottfried Herder</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>kurz vor dem 15. Januar 1776</supplied> oder <supplied>am 15. Januar 1776</supplied> → <placeName key="sndb:ort#87434">Bückeburg</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb10912_comment_com1685">
+  <p>Vgl. Datierung zu <ref target="gb:note#gb10962_comment_com1984">Nr 17</ref>.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10912_comment_com2644">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – Doppelblatt 17,2(–17,4)× 20,8(–21) cm, &#x2154; S. beschr., egh., Tinte; S. 3 Adresse: <quote type="G">Herrn / Consistorialrath Herder / nach / Bückeburg</quote>, links neben dem Bestimmungsort von fremder Hd, Tinte: „<hi rendition="#hervor1">Fr. Cassel.</hi>“, über der Adresse Postvermerke; Bl. 2 Reste eines roten Siegels: „<gap quantity="3" reason="editorial"/> A <gap quantity="3" reason="editorial"/>“ (vermutlich ALLES UM LIEBE, vgl. Überlieferung zu <ref target="gb:note#gb10423_comment_com2527">Nr 12</ref>), in der Mitte und am Rand Siegelausrisse; S. 1 oben links von fremder Hd, Bleistift: „8.“, rechts daneben Stempel: „Herder.“, in der Mitte von fremder Hd (Heinrich Düntzer oder Ferdinand Gottfried von Herder?, Herausgeber von E), Bleistift: „(16)“.</p>
+  <p>E: <ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1 (1856), 56, Nr 16.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 17, Nr 383.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10912_comment_com4440">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. Hinweis zum Bezugsbrief von <ref target="gb:dokument#10682">Nr 29</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 15. Januar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 4v).</p>
+  <p rendition="#einrueck1">Über Herders Berufung nach Weimar als Generalsuperintendent vgl. die einleitende Erläuterung zu <ref target="gb:dokument#10610">Nr 6</ref>.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10912_comment_com17591">
+<label xml:id="GB03_2_BR020_0_note_001_20_3" copyOf="#start_com_0312"><hi rendition="#fett">20,3</hi>Jerusalem</label>
+<p>Johann Friedrich Wilhelm Jerusalem, Konsistorialvizepräsident und Hofprediger am Hof zu Braunschweig-Wolfenbüttel zur Zeit Anna Amalias; er war der Vater von Carl Wilhelm Jerusalem, dessen Freitod 1772 Goethe u. a. zum „Werther“ angeregt hatte. Im vorangegangenen Brief (<ref target="gb:dokument#10962">Nr 17</ref>) hatte Goethe erklärt, es bedürfe des Empfehlungsschreibens eines Gewährsmannes für Herder, um den Widerstand der konservativen Geistlichkeit in Weimar zu brechen, die Bedenken wegen Herders Rechtgläubigkeit hatte. Im folgenden Brief (<ref target="gb:dokument#10682">Nr 29</ref>) konnte Goethe mitteilen, dies sei nicht mehr nötig.</p>
+
+</note>
+<note xml:id="gb10912_comment_com10137">
+<label xml:id="GB03_2_BR020_0_note_002_20_5" copyOf="#start_com_0313"><hi rendition="#fett">20,5</hi>Scheiskerlen</label>
+<p>Schon in Goethes Brief an Herder vom 1. April 1775 heißt es ähnlich grob: <quote type="G">Sieh da die Welt so voll Scheiskerle ist, sollten wir doch miteinander, tissiren und scheisen.</quote> (<ref target="gb:text#GB02_1_BR221_0_182_002 #GB02_1_BR221_0_182_003">GB 2 I, 182,2–3</ref>.) – Im Knittelvers-Brief an Herder etwa vom 20. Februar 1776 vergleicht Goethe Herders Eintritt in Weimar mit Jesu Einzug in Jerusalem auf einem Esel: <quote type="G">So werdet ihr in diesen Zeiten / Auf hundert und funfzig Esel reiten</quote> (<ref target="gb:text#GB03_1_BR047_0_033_013 #GB03_1_BR047_0_033_014">33,13–14</ref>). Damit sind die orthodoxen thüringischen Theologen und Kirchenleute gemeint, die sich gegen Herders Berufung zur Wehr setzten.</p>
+
+</note>
+<note xml:id="gb10912_comment_com10138">
+<label xml:id="GB03_2_BR020_0_note_003_20_6-7" copyOf="#start_com_0314"><hi rendition="#fett">20,6-7</hi>alles ist hier gegen dich</label>
+<p>Vgl. die einleitenden Erläuterungen zu <ref target="gb:note#gb10610_comment_com4246">Nr 6</ref> und <ref target="gb:note#gb10962_comment_com5157">Nr 17</ref> sowie die Erläuterung zu <ref target="gb:note#GB03_2_BR108_0_note_003_64_2-3">64,2-3</ref>.</p>
+
+</note>
+<note xml:id="gb10912_comment_com17625">
+<label xml:id="GB03_2_BR020_0_note_004_20_8" copyOf="#start_com_0315"><hi rendition="#fett">20,8</hi>2000 rh.</label>
+<p>Herder erhielt aufgrund seiner verschiedenen Ämter Bezüge aus mehreren Quellen: als Generalsuperintendent, Oberhofprediger und Beichtvater aus der Fürstlichen Kammer, als Oberpfarrer aus Mitteln der Stadt. Von Zulagen abgesehen, betrug sein Grundgehalt rund 825 Reichstaler im Jahr. Hinzu kamen Naturalien wie vier Malter Gerste, ein Malter Hafer, 17 Klafter Holz (vgl. <ref target="sndb:sigle#2949">Keßler</ref> 1, 106). Alles in allem wurde die von Goethe hier in Aussicht gestellte Summe bei weitem nicht erreicht. In den „Erinnerungen“ seiner Frau heißt es, dass Herders Jahreseinkommen „<hi rendition="#hervor1">im Durchschnitt</hi> damals doch nur 1200 <supplied>Reichstaler</supplied>“ (<ref target="sndb:sigle#2794">Caroline Herder, Erinnerungen</ref> 2, 22) betragen habe. In Bückeburg verdiente Herder weniger als 1000 Reichstaler (vgl. seine Briefe an Christian Gottlob Heyne von Ende April 1775 und an Heinrich Spring vom 4. Mai 1776; <ref target="sndb:sigle#2904">HB</ref> 3, 178 und 266).</p>
+
+</note>
+<note xml:id="gb10912_comment_com17603">
+<label xml:id="GB03_2_BR020_0_note_005_20_8" copyOf="#start_com_0316"><hi rendition="#fett">20,8</hi>nit</label>
+<p>Altdt.: nicht (Kaspar Stieler: Teutscher Sprachschatz. Bd 2. Nürnberg 1691, S. 1357). – Goethe benutzt das Wort auch in seinem Brief an Herder vom 1. April 1775 (vgl. <ref target="gb:text#GB02_1_BR221_0_182_007">GB 2 I, 182,7</ref>); ebenso findet es sich im „Götz von Berlichingen“ im Mund von Bauern und Knechten (1. Fassung; vgl. z. B. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 2, 89,20; 90,10; 91,3; 157,16).</p>
+
+</note>
+<note xml:id="gb10912_comment_com10147">
+<label xml:id="GB03_2_BR020_0_note_006_20_9-10" copyOf="#start_com_0317"><hi rendition="#fett">20,9-10</hi>siegle die Briefe <gap quantity="3" reason="editorial"/> acht</label>
+<p>Im Brief vom 2. Januar 1776 (<ref target="gb:dokument#10423">Nr 12</ref>) hatte Goethe geraten, die Briefe – der Vertraulichkeit wegen – zu zerreißen (vgl. <ref target="gb:text#GB03_1_BR012_0_014_004 #GB03_1_BR012_0_014_005">14,4–5</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

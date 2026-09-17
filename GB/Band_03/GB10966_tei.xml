@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1370"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10966" n="GB 3, Nr. 136">
+  <teiHeader xml:id="gb10966_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>136.</label> An <persName key="sndb:person#39093">Jakob Michael Reinhold Lenz</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, vermutlich Anfang Juli 1776</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10966_tei.xml</idno>
+        <idno type="URI">gb10966</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR136_0</idno>
+        <idno type="KSW-ID">10966</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="78" to="78">78</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="311" to="319">311-319</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10966_header_hwit1013" corresp="#gb10966_source_hwit1013" sameAs="#gb10966_comment_hwit1013" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/298,I</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8340</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10966,,1013/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Hier ist der Guibert die andern Bücher sind nicht zu haben. Da ist eine Louisdor</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10966_header_acc512" corresp="gb10966_comment_acc512">
+            <objectIdentifier>
+              <objectName>Jacques Antoine Hippolyte de Guiberts „Essai général de tactique“ </objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb10966_header_acc571" corresp="gb10966_comment_acc571">
+            <objectIdentifier>
+              <objectName><quote type="G">Louisdor</quote>.</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-07-01" to="1776-07-10"><supplied>vermutlich Anfang Juli 1776</supplied></date>
+            <note>
+              <date type="WA" from="1776-06-01" to="1776-08-31"><supplied>Sommer 1776</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39093">Lenz, Jakob Michael Reinhold</persName>
+            <supplied><placeName key="sndb:ort#77383">Berka</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#72">RA 1, Nr. 67</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10966_source_hwit1013" corresp="#gb10966_header_hwit1013" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10966/11169"/>
+      <p>
+        <anchor xml:id="GB03_1_BR136_0_078_017"/>
+        <ref target="gb:note#GB03_2_BR136_0_note_001_78_17" xml:id="start_com_1246"/>Hier ist der <emph rendition="#latin">Guibert</emph>
+        <ptr n="1" target="#a001_78.17"/> die andern Bücher sind nicht zu haben.<ref xml:id="end_com_1246"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR136_0_078_018"/>Da ist <ref target="gb:note#GB03_2_BR136_0_note_002_78_18" xml:id="start_com_1247"/>eine Louisdor<ref xml:id="end_com_1247"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR136_0_078_019"/>
+        <ref target="gb:note#GB03_2_BR136_0_note_003_78_19" xml:id="start_com_1248"/>Deine Zeichnungen<ref xml:id="end_com_1248"/> sind brav fahre nur fort wie du kannst.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR136_0_078_020"/>Leb wohl und arbeite dich aus wie du kannst und magst.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR136_0_078_021"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10966/11170" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10966_comment">
+<body>
+<div type="metadata" xml:id="gb10966_comment_com639">
+  <ab type="numberAddressee"><label>136.</label> An <persName key="sndb:person#39093">Jakob Michael Reinhold Lenz</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>vermutlich Anfang Juli 1776</supplied> → <supplied><placeName key="sndb:ort#77383">Berka</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10966_comment_com1697">
+  <p>Am 27. Juni 1776 zog sich Lenz aus Weimar nach Berka zurück. Im Bezugsbrief bat er Philipp Seidel bei der Abreise, ihm einige Bücher zukommen zu lassen, darunter auch das von Goethe genannte Werk Guiberts (vgl. <ref target="gb:text#GB03_1_BR136_0_078_017">78,17</ref>). Inzwischen hatte Lenz bereits einige <quote type="G">Zeichnungen</quote> (<ref target="gb:text#GB03_1_BR136_0_078_019">78,19</ref>) gesandt, so dass angenommen werden kann, der vorliegende Brief sei Anfang Juli 1776 geschrieben worden.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10966_comment_com2683">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8340">GSA 29/298,I</ref>. – 1 Bl. 16,4 × 10,4 cm, &#xBD; S. beschr., egh., Tinte. </p>
+  <p>E: Chronik des Wiener Goethe-Vereins 2 (1887). Nr 5, 15. Februar, S. 27 (Karl Weinhold).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 7 (1891), 355, Nr 481a.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10966_comment_com3621">
+  <p>1) Jacques Antoine Hippolyte de Guiberts „Essai général de tactique“ (vgl. zu <ref target="gb:note#GB03_2_BR136_0_note_001_78_17">78,17</ref>).</p>
+  <p>2) 1 <quote type="G">Louisdor</quote> (<ref target="gb:text#GB03_1_BR136_0_078_018">78,18</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10966_comment_com4479">
+  <p>Der Brief beantwortet Lenz’ Brief an Goethe und Philipp Seidel vom 27. Juni 1776 (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 3–5; vgl. <ref target="ra:dokument#72">RA 1, 66, Nr 67</ref>). – Aus dem Juli 1776 sind zwei Briefe von Lenz an Goethe überliefert, die nicht genau datiert werden können (vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 10 f., 12; <ref target="ra:dokument#73">RA 1, 66 f., Nr 68</ref> und <ref target="ra:dokument#74">69</ref>). Keiner von beiden ist als unmittelbare Antwort auf den vorliegenden Brief zu betrachten.</p>
+  <p rendition="#einrueck1">Jacob Michael Reinhold Lenz (1751–1792) war der Sohn des livländischen Pfarrers Christian David Lenz in Dorpat (heute Tartu, Estland), der seine Kinder als autoritärer Patriarch streng pietistisch erzog. Für seinen Sohn Jacob hatte er eine theologische Karriere vorgesehen. 1768 bezog Lenz daher die Universität in Königsberg. Als er jedoch das Theologiestudium abbrach und sich Literatur und Philosophie zuwandte, kam es zum Bruch mit dem Vater, mit dem sich Lenz sein ganzes Leben lang nicht wieder versöhnen konnte. Zunächst als Befreiung erlebt, führte der Verlust familiärer Bindungen Lenz sehr bald in Abhängigkeiten und materielle Not.</p>
+  <p>Im Frühjahr 1771 kam Lenz als Begleiter der livländischen Barone Friedrich Georg und Ernst Nikolaus von Kleist nach Straßburg, wo die adligen Brüder in französische Militärdienste traten. In Straßburg verbrachte er die nächsten fünf Jahre. Goethe verließ die Stadt am 9. August 1771, um nach Beendigung seiner juristischen Studien nach Frankfurt zurückzukehren. Beide begegneten sich in der studentischen Tischgesellschaft des Aktuars Johann Daniel Salzmann (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb15072_comment_com22671">GB 1 II, Nr 81</ref>). Im 11. Buch von „Dichtung und Wahrheit“ berichtet Goethe rückblickend: <quote type="G">Ich lernte ihn</quote> <supplied>Lenz</supplied> <quote type="G">erst gegen das Ende meines Straßburger Aufenthalts kennen. Wir sahen uns selten; seine Gesellschaft war nicht die meine, aber wir suchten doch Gelegenheit uns zu treffen, und theilten uns einander gern mit, weil wir, als gleichzeitige Jünglinge, ähnliche Gesinnungen hegten.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 409.) Der beiderseitige Austausch betraf Shakespeare, Ossian, Homer, sie alle Vorbilder einer Erneuerung der deutschen Literatur: <quote type="G">Will Jemand unmittelbar erfahren, was damals <gap quantity="3" reason="editorial"/> gedacht, gesprochen und verhandelt worden, der lese den Aufsatz <hi rendition="#hervor1">Herders über Shakspeare</hi>, <gap quantity="3" reason="editorial"/> ferner <hi rendition="#hervor1">Lenzens Anmerkungen über’s Theater</hi></quote> (ebd., 408 f.). Von Anfang an suchte Lenz – intellektuell und persönlich – Goethes Nähe. Dieser war für ihn eine Mentorfigur, wie es für Goethe seinerseits Männer wie Johann Heinrich Merck, Johann Gottfried Herder, Johann Daniel Salzmann oder früher schon Ernst Wolfgang Behrisch waren. Goethe übernahm diese Funktion zunächst bereitwillig, nahm Anteil am Schaffen des Freundes und förderte ihn; so half er etwa bei der Veröffentlichung der „Lustspiele nach dem Plautus fürs deutsche Theater“ (Frankfurt und Leipzig 1774), der Dramen „Der Hofmeister“ (Leipzig 1774) und „Der Neue Menoza“ (Leipzig 1774) sowie der „Anmerkungen übers Theater“ (Leipzig 1774). Lenz andererseits feierte Goethes „Götz von Berlichingen“ und „Die Leiden des jungen Werthers“; über beide Werke schrieb er bedeutende Rezensionen (Über Goetz von Berlichingen [erstmals gedruckt 1901]; Briefe über die Moralität der Leiden des jungen Werthers [erstmals gedruckt 1918]). Goethe erkannte die Gemeinsamkeit mit Lenz in ästhetischen Fragen durchaus an; so erwähnt er in seiner kleinen Schrift „Dritte Wallfahrt nach Erwins Grabe im Juli 1775“ Lenz namentlich und beschreibt eine kongeniale Unterredung mit ihm über die <quote type="G">Schöpfungskraft im Künstler</quote>, welche ein <quote type="G">aufschwellendes Gefühl der Verhältnisse, Maase und des Gehörigen</quote> sei, und nur durch sie könne <quote type="G">ein selbstständig Werk, wie andere Geschöpfe durch ihre individuelle Keimkraft hervorgetrieben werden.</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 240.)</p>
+  <p>Sosehr dies auch nach dem Bekenntnis einer Seelenverwandtschaft mit Lenz klingen mag, Monate später entstand mit Goethes Wechsel nach Weimar und seinem Eintritt in herzogliche Dienste doch zunehmend ein Bruch zwischen den Freunden. Abgesehen von dem nun noch deutlicher als zuvor zu Tage tretenden sozialen Gegensatz zwischen dem gut situierten herzoglichen Beamten und dem mittellosen Dichter, empfand Lenz Goethes Assimilation an die Weimarer Verhältnisse als Verrat früherer gemeinsamer Überzeugungen. Goethe war – so darf vermutet werden – in Lenz’ Augen dabei, als Mitglied der etablierten Gesellschaft Freiheit und Dichterberuf aufzugeben.</p>
+  <p>Lenz traf am 3. April 1776 in Weimar ein. Er befand sich in großen materiellen Schwierigkeiten und erhoffte sich durch die „Gegenwart meines Freundes Goethe“ (Brief an Knebel vom 6. März 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 189) Hilfe. Der Ankömmling wurde in Weimar freundlich aufgenommen, Goethe vermittelte ihm finanzielle Unterstützung durch den Herzog (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR075_0_note_002_50_2">50,2</ref>) und die Freundschaft Wielands, gegen dessen Poesie und Sitten verderbenden Epikureismus Lenz in seinen Satiren „Menalk und Mopsus“ (Frankfurt a. M. 1775) und „Eloge de feu Monsieur <hi rendition="#sup">xx</hi>nd“ (Hanau 1775) zuvor heftig zu Felde gezogen war. Lenz genoss den Aufenthalt; Ende Mai 1776 berichtete er an Johann Georg Zimmermann: „Wieland Goethe und ich leben in einer seeligen Gemeinschaft, erstere beyde Morgens in ihren Gärten, ich auf der Wiese wo die Soldaten exerziren, nachmittags treffen wir uns oben beym Herzog, der mit einer auserlesenen Gesellschaft guter Leute an seinem Hofe <gap quantity="3" reason="editorial"/> seine meisten und angenehmsten Abende zubringt. Goethe ist unser Hauptmann.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 266.) Diese idyllische Beschreibung verschweigt, dass Lenz von Anfang seines Aufenthalts an immer wieder mit dem Hof und der Weimarer Gesellschaft in Konflikt geriet. Sein unangepasstes Verhalten verstieß gegen Etikette und Konvention und führte wiederholt zu mehr oder weniger großen Skandalen. Goethe beschreibt Lenz’ Auftreten folgendermaßen: <quote type="G">Für seine Sinnesart wüßte ich nur das englische Wort whimsical</quote> <supplied>wunderlich, schrullig</supplied><quote type="G">, welches, wie das Wörterbuch ausweist, gar manche Seltsamkeiten in einem Begriff zusammenfaßt.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 409 [11. Buch].) Zeitgenossen berichten z. B. über Hofbälle, zu denen Lenz uneingeladen und in unpassender Kleidung erschien und sich unschicklich betrug (vgl. <ref target="bug:dokument#1514">BuG 1, 487 f.</ref>). Schon am 25. April 1776 heißt es in Goethes Brief an Charlotte von Stein: <quote type="G">Lenzens Eseley von gestern Nacht, hat ein Lachfieber gegeben. Ich kann mich gar nicht erhohlen.</quote> (<ref target="gb:text#GB03_1_BR091_0_057_012 #GB03_1_BR091_0_057_013">57,12–13</ref>.) Am 13. Mai schrieb Wieland an Johann Heinrich Merck: „<hi rendition="#hervor1">Lenz am Hofe</hi> – Was dünkt euch dazu? Seit er hier ist, ist kaum ein Tag vergangen, wo er nicht einen oder andern Streich hätte ausgeführt, der jeden andern als ihn in die Luft gesprengt hätte. <gap quantity="3" reason="editorial"/> Ein herrlicher Junge, das weiß Gott“ (<ref target="sndb:sigle#141">WB</ref> 5, 505). Solche und ähnliche Berichte enthalten Wielands Briefe das ganze Jahr über; am 13. Januar 1777 heißt es schließlich im Brief an Merck: „Lenz ist ein heteroclites Geschöpf; gut und fromm wie ein Kind, aber zugleich voller Affenstreiche, daher er oft ein schlimmerer Kerl scheint, als er ist“ (<ref target="sndb:sigle#141">WB</ref> 5, 583). Diese „seltsame Composition von Genie und Kindheit“ (Wieland an Merck, 9. September 1776; <ref target="sndb:sigle#141">WB</ref> 5, 548) dürfte erklären, dass sich Lenz nicht schon zu Beginn seines Aufenthalts in Weimar ‚in die Luft gesprengt‘ hat: „Wir lieben ihn Alle, wie unser eigen Kind“ (ebd.).</p>
+  <p>Goethe, der sich nicht nur um Lenz kümmerte, sondern von Ende Juni an auch um Friedrich Maximilian Klinger (vgl. zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>), geriet wegen seiner Freunde in manche Verlegenheit. Entspannung trat ein, als Lenz Ende Juni, wenige Tage nachdem Goethe (am 25. Juni) ins Geheime Consilium eingetreten war, aufs Land nach Berka zog, „in eine Einsiedeley“ (Brief an Johann Georg Zimmermann, Ende Mai 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 266); dies nicht nur, um seine „Arbeit zu Stande zu bringen“ (ebd.), sondern gewiss auch, um auf Distanz zu gehen. Er war sich bewusst, in Weimar die Funktion zu haben, „den Göttern zur Farce zu dienen“, wie es voller Selbstironie in seinem in Berka entstandenen Dramolett „Tantalus“ heißt (<ref target="sndb:sigle#2977">Lenz, Werke und Briefe</ref> 3, 204). Charlotte von Stein erklärte er in einem Brief von Anfang September 1776, er wolle in Weimar nicht mehr „faire le plaisant“ <supplied>den Narren machen</supplied> (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 31). In Berka arbeitete Lenz an seiner Prosadichtung „Der Waldbruder ein Pendant zu Werthers Leiden“, die schon im Titel den Bezug zu Goethe herstellt. Auch in diesem Werk geht es um Distanzierung, in diesem Fall zu Goethe. In den gegnsätzlichen Figuren Herz und Rothe lassen sich unschwer Lenz und Goethe erkennen. Letzteren schildert Lenz als Typus des erfolgreichen Angepassten und realistischen Pragmatikers, der von sich sagt: „Man nötigt mich überall hin und ich bin überall willkommen, weil ich mich überall hinzupassen und aus allem Vorteil zu ziehen weiß.“ (<ref target="sndb:sigle#2977">Lenz, Werke und Briefe</ref> 2, 386.) Herz dagegen lässt der Verfasser durch Rothe wiederholt als „Narren“ bezeichnen mit „offenbaren Zeichen des Wahnsinns“ (ebd., 385), weil er sich gegen alle Versuche sträube, sich zu einem „brauchbaren Menschen machen“ zu lassen (ebd., 387).</p>
+  <p>An den Aufenthalt in Berka schlossen sich einige Wochen an, die Lenz in Kochberg verbrachte. Dort lebte er in der Zeit vom 12. September bis Ende Oktober 1776 als Englischlehrer Charlotte von Steins. Von Kochberg kehrte Lenz für wenige Tage nach Weimar zurück und ging am 1. November noch einmal nach Berka (vgl. <ref target="gt:dokument#191">GT I 1, 28</ref>). In der zweiten Hälfte des November war er wieder in Weimar, und dann geschah am 26. November etwas, das Goethe als <quote type="G">Lenzens Eseley</quote> (<ref target="gt:dokument#214">GT I 1, 30</ref>) bezeichnete, einer von jenen „Affenstreichen“, der ihn nun doch, wie Wieland sich ausdrückte, ‚in die Luft sprengte‘. Was genau vorfiel, ist nicht sicher bekannt. (Über die bisher angestellten Vermutungen informieren Werner H. Preuß: „Lenzens Eseley“: „Der Tod der Dido“. In: <ref target="sndb:sigle#1266">GJb</ref> 106 [1989], S. 53–90; Egon Menz: Lenzens Weimarer Eselei. Ebd., S. 91–105; Hans-Gerd Winter: Jacob Michael Reinhold Lenz. Stuttgart, Weimar 2000, S. 84 f.; vgl. ferner zu <ref target="gb:note#GB03_2_BR196_0_note_001_121_1">121,1</ref>.) Offenbar aber ging es nicht um einen erneuten ‚Streich‘ am Hof oder in Gesellschaft, sondern um einen Vorfall, den Goethe ihm persönlich übel nahm. Am 29. oder 30. November 1776 schrieb Lenz an Herder, er sei sich sicher, dass Goethe sich für ihn beim Herzog einsetzen werde, und fügte hinzu: „<gap quantity="3" reason="editorial"/> so sehr ich ihn beleidigt habe.“ (<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 57.) Wie sehr sich Goethe getroffen fühlte, erhellt aus einer Äußerung im Brief an Charlotte von Stein vom 1. Dezember: <quote type="G">Die ganze Sache reisst so an meinem innersten, dass ich erst dadran wieder spüre dass es tüchtig ist und was aushalten kann.</quote> (<ref target="gb:text#GB03_1_BR196_0_121_002 #GB03_1_BR196_0_121_004">121,2–4</ref>.) Auf jeden Fall führten die Umstände zum völligen Bruch zwischen Goethe und Lenz. Dieser wurde durch Carl August aus Weimar ausgewiesen und verließ sehr wahrscheinlich am 1. Dezember 1776 die Stadt, „ausgestossen aus dem Himmel als ein Landläuffer, Rebell, Pasquillant.“ (Brief an Herder, 29. oder 30. November 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 56.) Offensichtlich gab es gegen die Behandlung Lenzens von verschiedenen Seiten Widerstand. Dies geht u. a. aus Goethes Brief an Friedrich Hildebrand von Einsiedel vom 30.? November (<ref target="gb:dokument#11340">Nr 191</ref>) hervor, der wohl ein gutes Wort für Lenz eingelegt hatte; Goethe gab sich kompromisslos und bestand auf der Ausweisung: <quote type="G">Lenz wird reisen.</quote> (<ref target="gb:text#GB03_1_BR191_0_119_014">119,14</ref>.)</p>
+  <p>Jener Vorfall dürfte allerdings bloß Anlass für den Abbruch der Beziehung gewesen sein; denn auch früher schon hatte Lenz sich so betragen, dass Goethe von <quote type="G">Eseley</quote> (<ref target="gb:text#GB03_1_BR091_0_057_012">57,12</ref>) sprach. Die Ursachen für den Bruch mit Lenz waren grundsätzlicher Art und lagen auf literarischer und weltanschaulicher Ebene. Goethe trennte sich nicht nur von seinem früheren Freund, sondern auch von seiner eigenen Vergangenheit, die er überwunden und hinter sich gelassen hatte. Dies wird noch aus der psychologischen Diagnose des Falles Lenz in „Dichtung und Wahrheit“ deutlich. Dort führt Goethe aus, Lenzens <quote type="G">Selbstquälerey</quote> und sein <quote type="G">Abarbeiten in der Selbstbeobachtung</quote> habe zu einem unaufhörlichen inneren <quote type="G">Streit</quote> geführt: <quote type="G">Diesen zu führen und zu unterhalten übertraf nun Lenz alle übrigen Un- oder Halbbeschäftigten, welche ihr Innerstes untergruben, und so litt er im Allgemeinen von der Zeitgesinnung, welche durch die Schilderung Werther’s abgeschlossen seyn sollte</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 493 f. [14. Buch]). Ein solcher ‚Wertherismus‘ – Introspektion und Selbstzweifel, Rückzug ins eigene Ich und Isolation von der Gesellschaft – war für den weimarischen Geheimen Legationsrat Goethe sowohl persönlich als auch schriftstellerisch obsolet geworden. Aus seiner Lebensbeschreibung geht weiter hervor, dass er Lenz – wohl zu Unrecht – der <quote type="G">Intrigue</quote> (ebd., 494) verdächtigte: Dieser habe sich von Friederike Brion seine, Goethes, Briefe zu verschaffen und ihm durch die Veröffentlichung der Posse „Götter Helden und Wieland“ zu schaden gesucht (vgl. <ref target="sndb:sigle#2747">AA DuW</ref> 1, 535 [15. Buch] und 2, 485 [Paralipomenon 8.4]; vgl. ferner „Lenz“ in den „Biographischen Einzelnheiten“; <ref target="sndb:sigle#1157">WA</ref> I 36, 229–231). So kommt es – bei aller Anerkennung von Lenz <quote type="G">Talent</quote>, das ihm aus <quote type="G">wahrhafter Tiefe</quote> und <quote type="G">unerschöpflicher Productivität</quote> hervorzugehen schien (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 494 [14. Buch]) – zu Goethes Resümee: <quote type="G">Lenz <gap quantity="3" reason="editorial"/> , als ein vorübergehendes Meteor, zog nur augenblicklich über den Horizont der deutschen Literatur hin und verschwand plötzlich, ohne im Leben eine Spur zurückzulassen</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 497 [14. Buch]) – ein Urteil, das bis heute nachwirkt.</p>
+  <p>Nach der Ausweisung aus Weimar ging Lenz nach Emmendingen zu Johann Georg Schlosser. Ende 1777 traten Anfälle psychischer Störungen auf. Von Januar 1778 an kümmerte sich Schlosser um den Kranken. Im Sommer 1779 holte ihn der Bruder Carl Heinrich Gottlob Lenz nach Hause. Der Plan, Lenz eine Rektorstelle an der Domschule in Riga zu verschaffen, zerschlug sich, nicht zuletzt durch Herders Votum: „Mit Lenzen ist nichts: er taugt nicht zur Stelle, so lieb ich ihn habe.“ (Brief an Friedrich Hartknoch, Dezember 1779; <ref target="sndb:sigle#2904">HB</ref> 4, 106.) Daraufhin wurde Lenz von seinem Vater, inzwischen Generalsuperintendent von Livland, an den Hof von Petersburg geschickt, wo er sich von Februar bis September 1780 aufhielt und erneut scheiterte. Im Herbst 1781 schließlich vermittelte ihm der russische Staatsrat Gerhard Friedrich Müller Arbeit als Privatlehrer in Moskau. Dort verbrachte Lenz das letzte Jahrzehnt seines Lebens, wie früher als Hauslehrer, auch als Lehrer an öffentlichen Schulen, doch stets ohne feste Anstellung und ohne fixes Einkommen. Aus einem Brief Lavaters an den mit Lenz befreundeten russischen Schriftsteller Nikolai Michailowitsch Karamsin vom 30. März 1787 geht hervor, dass sich Lenz gegen Ende seines Lebens noch einmal an Goethe gewandt hat: „<hi rendition="#hervor1">Goethe</hi> ist jetzt in Neapel oder Rom <gap quantity="3" reason="editorial"/>. Wenn er bald herkommt, will ich Deinen Auftrag mündlich ausrichten.“ (Briefwechsel zwischen Karamsin und Lavater mitgeteilt von Fr<supplied>anz</supplied> Waldmann zum Drucke vorbereitet von Jakob Grot. St. Petersburg 1893, S. 33.) Näheres ist nicht bekannt. Goethe vermied auf der Rückreise von Italien einen Besuch Lavaters in Zürich; für ihn blieb die Beziehung zu beiden, Lavater und Lenz, abgebrochen. Am 23. oder 24. Mai 1792 wurde Lenz tot auf einer Moskauer Straße aufgefunden.</p>
+  <p>Der vorliegende Brief ist der einzige überlieferte Brief Goethes an Jacob Michael Reinhold Lenz. Einige weitere Briefe konnten erschlossen werden (vgl. <ref target="gb:dokument#51115">GB 2 I, EB 14</ref>, <ref target="gb:dokument#51148">40</ref>, <ref target="gb:dokument#15571">84</ref>, <ref target="gb:dokument#15581">95</ref>, <ref target="gb:dokument#15596">116</ref>, <ref target="gb:dokument#15631">159</ref>, <ref target="gb:dokument#15654">185</ref>). Goethes Briefe sollen von Lenz Charlotte von Stein anvertraut worden sein; jedenfalls teilte deren Sohn Fritz in seinen „Erläuterungen zu einer Sammlung von Briefen von Goethe von 1776 bis 1821“ mit: „Doch kam Lenz <supplied>nach seiner Ausweisung aus Weimar Ende November 1776</supplied> noch einmal durch Weimar und gab alle von Goethe empfangenen Briefe meiner Mutter, in die er ein großes Vertrauen setzte.“ (<ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, X; vgl. auch Joh. Froitzheim: Lenz und Goethe. <gap quantity="3" reason="editorial"/> Stuttgart, Leipzig, Berlin, Wien 1891, S. 57.) (Dass diese Darstellung zutrifft, wird jedoch in Zweifel gezogen; vgl. <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, VIII, Anm. 1.) Andererseits haben sich insgesamt 12 Briefe von Lenz an Goethe erhalten; sie stammen alle aus den Jahren von 1774 bis 1776.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10966_comment_com10113">
+<label xml:id="GB03_2_BR136_0_note_001_78_17" copyOf="#start_com_1246"><hi rendition="#fett">78,17</hi>Hier ist der <emph rendition="#latin">Guibert</emph><gap quantity="3" reason="editorial"/> nicht zu haben.</label>
+<p>Im Bezugsbrief hatte Lenz um folgende Bücher – vermutlich als Leihgabe – gebeten:</p>
+<floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56436_source" corresp="#gb56436_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB015_0_317_001"/>Alle Bücher auf dem Stuhl</p>
+      <table>
+        <row>
+          <cell rend="four">
+            <p>
+              <anchor xml:id="GB03_2_FB015_0_317_002"/>
+              <ref target="gb:note#GB03_2_FB015_0_note_001_317_2" xml:id="start_com_7086"/>Polyb<ref xml:id="end_com_7086"/>
+            </p>
+          </cell>
+          <cell rend="four">
+            <p>
+              <ref target="gb:note#GB03_2_FB015_0_note_002_317_2" xml:id="start_com_7087"/>vies des peintres<ref xml:id="end_com_7087"/>
+            </p>
+          </cell>
+          <cell rend="four"/>
+        </row>
+        <row>
+          <cell rend="four">
+            <p>
+              <anchor xml:id="GB03_2_FB015_0_317_003"/>
+              <ref target="gb:note#GB03_2_FB015_0_note_003_317_3" xml:id="start_com_7088"/>Stuart<ref xml:id="end_com_7088"/>
+            </p>
+          </cell>
+          <cell rend="four">
+            <p>
+              <ref target="gb:note#GB03_2_FB015_0_note_004_317_3" xml:id="start_com_7089"/>Büschings Geographie<ref xml:id="end_com_7089"/>
+            </p>
+          </cell>
+          <cell rend="four"/>
+        </row>
+        <row>
+          <cell rend="four">
+            <p>
+              <anchor xml:id="GB03_2_FB015_0_317_004"/>
+              <ref target="gb:note#GB03_2_FB015_0_note_005_317_4" xml:id="start_com_7090"/>Comte de Saxe.<ref xml:id="end_com_7090"/>
+            </p>
+          </cell>
+          <cell rend="four">
+            <p rendition="#einrueck1">der Theil v. Frankreich</p>
+          </cell>
+          <cell rend="four"/>
+        </row>
+        <row>
+          <cell rend="four">
+            <p>
+              <anchor xml:id="GB03_2_FB015_0_317_005"/>
+              <ref target="gb:note#GB03_2_FB015_0_note_006_317_5" xml:id="start_com_7091"/>Dictionnaire<ref xml:id="end_com_7091"/>
+            </p>
+          </cell>
+          <cell rend="three">
+            <p>
+              <ref target="gb:note#GB03_2_FB015_0_note_007_317_5" xml:id="start_com_7092"/>Einige Karten<ref xml:id="end_com_7092"/>
+            </p>
+          </cell>
+          <cell rend="one">⎱</cell>
+          <cell rend="four">
+            <p rendition="#einrueck1">
+              <ref target="gb:note#GB03_2_FB015_0_note_010_317_5-6" xml:id="start_com_7095"/>die mir</p>
+          </cell>
+        </row>
+        <row>
+          <cell rend="four">
+            <p>
+              <anchor xml:id="GB03_2_FB015_0_317_006"/>
+              <ref target="gb:note#GB03_2_FB015_0_note_008_317_6" xml:id="start_com_7093"/>Girards Grammaire<ref xml:id="end_com_7093"/>
+            </p>
+          </cell>
+          <cell rend="three">
+            <p>
+              <ref target="gb:note#GB03_2_FB015_0_note_009_317_6" xml:id="start_com_7094"/>Abbt St. Pierre<ref xml:id="end_com_7094"/>
+            </p>
+          </cell>
+          <cell rend="one">⎰</cell>
+          <cell rend="four">
+            <p>Bertuch verschafft.<ref xml:id="end_com_7095"/>
+            </p>
+          </cell>
+        </row>
+      </table>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_007"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_011_317_7" xml:id="start_com_7096"/>Hamilton<ref xml:id="end_com_7096"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_008"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_012_317_8" xml:id="start_com_7097"/>Crebillon<ref xml:id="end_com_7097"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_009"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_013_317_9" xml:id="start_com_7098"/>Guibert<ref xml:id="end_com_7098"/> (wozu ich wenns seyn kann, den 1 sten Theil u. die Kupfer)</p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_010"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_014_317_10" xml:id="start_com_7099"/>Instruktion der französischen Truppen<ref xml:id="end_com_7099"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_011"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_015_317_11" xml:id="start_com_7100"/>Chevalier d’Eon<ref xml:id="end_com_7100"/>.     Vor allen Dingen</p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_012"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_016_317_12" xml:id="start_com_7101"/>Kriegsbaukunst<ref xml:id="end_com_7101"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_013"/>
+        <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_FB015_0_note_017_317_13" xml:id="start_com_7102"/>Homer<ref xml:id="end_com_7102"/>
+        </hi>
+      </p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_014"/>
+        <hi rendition="#hervor1">Das Pack mit meinen 2 Brieftaschen</hi> (unaufgemacht)</p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_015"/>
+        <hi rendition="#hervor1">Das Päckgen <ref target="gb:note#GB03_2_FB015_0_note_018_317_15" xml:id="start_com_7103"/>Catharina v. Siena<ref xml:id="end_com_7103"/>
+        </hi> vor allen Dingen und unaufgemacht.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB015_0_317_016"/>
+        <ref target="gb:note#GB03_2_FB015_0_note_019_317_16" xml:id="start_com_7104"/>Julius Caesar<ref xml:id="end_com_7104"/>
+      </p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56436_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56436_comment_com84550">
+  <p>(<ref target="sndb:sigle#299">Lenz, Briefe</ref> 2, 3 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56436_comment_com84551">
+<label xml:id="GB03_2_FB015_0_note_001_317_2" copyOf="#start_com_7086"><hi rendition="#normal">317,2</hi>Polyb</label>
+<p>Was genau Lenz wünschte, ist unklar. Er beschäftigte sich sowohl mit dem griechischen Geschichtsschreiber Polybios selbst als auch mit dem Werk des französischen Militärtheoretikers Jean Charles de Folard „Nouvelles découvertes sur la guerre dans une dissertation sur Polybe“ (Paris u. a. 1724 u. ö.).</p>
+</note>
+<note xml:id="gb56436_comment_com84552">
+<label xml:id="GB03_2_FB015_0_note_002_317_2" copyOf="#start_com_7087"><hi rendition="#normal">317,2</hi>vies de peintres</label>
+<p>„Les vies des meilleurs peintres, sculpteurs et architectes“, eine (nicht näher ermittelte) französische Ausgabe von Giorgio Vasaris „Le vite de’ più eccellenti architetti, pittori, et scultori Italiani“ (Florenz 1550).</p>
+</note>
+<note xml:id="gb56436_comment_com84553">
+<label xml:id="GB03_2_FB015_0_note_003_317_3" copyOf="#start_com_7088"><hi rendition="#normal">317,3</hi>Stuart</label>
+<p>Vermutlich das zuerst 1767 erschienene Werk „Untersuchung der Grund-Säze von der Staats-Wirthschaft“ (5 Bde. Tübingen 1769–1772) des schottischen Nationalökonomen James Denham-Steuart. Im Brief vom 16. November 1777 bittet Goethe seine Mutter:  <quote type="G">Schlosser soll mir das Buch <emph rendition="#latin">Stuarts Finanz</emph> System von Lenzen <gap quantity="3" reason="editorial"/> schicken.</quote> (<ref target="gb:text#GB03_1_BR306_0_177_013 #GB03_1_BR306_0_177_014">177,13–14</ref>.) Lenz hatte es nach seiner Abreise aus Weimar Ende 1776 mit nach Emmendingen genommen. </p>
+</note>
+<note xml:id="gb56436_comment_com84554">
+<label xml:id="GB03_2_FB015_0_note_004_317_3" copyOf="#start_com_7089"><hi rendition="#normal">317,3</hi>Büschings Geographie</label>
+<p>Anton Friedrich Büschings „Neue Erdbeschreibung“ (Hamburg), Teil 1–11 von Büsching selbst 1754–1792 herausgegeben; die Einzelbände erlebten viele Auflagen. Der 2. Teil (1754) enthält die Geographie Frankreichs.</p>
+</note>
+<note xml:id="gb56436_comment_com84555">
+<label xml:id="GB03_2_FB015_0_note_005_317_4" copyOf="#start_com_7090"><hi rendition="#normal">317,4</hi>Comte de Saxe.</label>
+<p>Moritz von Sachsens Werk „Les rêveries, ou Mémoires sur l’art de la guerre“ (Den Haag 1756).</p>
+</note>
+<note xml:id="gb56436_comment_com84556">
+<label xml:id="GB03_2_FB015_0_note_006_317_5" copyOf="#start_com_7091"><hi rendition="#normal">317,5</hi>Dictionnaire</label>
+<p>Mit Blick auf den im Folgenden erwähnten französischen Grammatiker Gabriel Girard möglicherweise dessen „Synonymes français, leur différentes significations et le choix qu’il en faut faire pour parler avec justesse“ (Paris 1718).</p>
+</note>
+<note xml:id="gb56436_comment_com84557">
+<label xml:id="GB03_2_FB015_0_note_007_317_5" copyOf="#start_com_7092"><hi rendition="#normal">317,5</hi>Einige Karten</label>
+<p>Nicht ermittelt.</p>
+</note>
+<note xml:id="gb56436_comment_com84558">
+<label xml:id="GB03_2_FB015_0_note_008_317_6" copyOf="#start_com_7093"><hi rendition="#normal">317,6</hi>Girards Grammaire</label>
+<p>Eine (nicht näher ermittelte) Ausgabe von Abbé Gabriel Girards Werk „Les vrais principes de la langue françoise“ (Paris 1747).</p>
+</note>
+<note xml:id="gb56436_comment_com84559">
+<label xml:id="GB03_2_FB015_0_note_009_317_6" copyOf="#start_com_7094"><hi rendition="#normal">317,6</hi>Abbt St. Pierre</label>
+<p>Charles Irénée Castel Abbé de Saint-Pierre, Verfasser der Schrift „Projet pour rendre la paix perpétuelle entre les potentats de l’Europe“ (3 Bde. Utrecht 1713) und der „Annales politiques“ (London [i. e. Paris] 1757; entstanden 1694).</p>
+</note>
+<note xml:id="gb56436_comment_com84560">
+<label xml:id="GB03_2_FB015_0_note_010_317_5-6" copyOf="#start_com_7095"><hi rendition="#normal">317,5-6</hi>die mir Bertuch verschafft</label>
+<p>Darüber ist nichts weiter ermittelt worden.</p>
+</note>
+<note xml:id="gb56436_comment_com84561">
+<label xml:id="GB03_2_FB015_0_note_011_317_7" copyOf="#start_com_7096"><hi rendition="#normal">317,7</hi>Hamilton</label>
+<p>Antoine Hamilton, Verfasser der Lebensgeschichte seines Schwagers „Mémoires de la vie du Comte de Gramont“ (Köln 1713; zahlreiche weitere Ausgaben) und der „Contes“ (entstanden zwischen 1695 und 1715; erschienen in zahlreichen Ausgaben).</p>
+</note>
+<note xml:id="gb56436_comment_com84562">
+<label xml:id="GB03_2_FB015_0_note_012_317_8" copyOf="#start_com_7097"><hi rendition="#normal">317,8</hi>Crebillon</label>
+<p>Claude Prosper Jolyot de Crébillon (d. J.), Verfasser erotischer Romane (u. a. „Le sopha, conte moral“ [Paris 1742]).</p>
+</note>
+<note xml:id="gb56436_comment_com84563">
+<label xml:id="GB03_2_FB015_0_note_013_317_9" copyOf="#start_com_7098"><hi rendition="#normal">317,9</hi>Guibert</label>
+<p>Jacques Antoine Hippolyte de Guibert, französischer General und Schriftsteller; Lenz studierte dessen „Essai général de tactique“ (2 Bde. Paris [u. a.] 1772; mit Kupferstichen). Er hatte ihn offenbar seinem Freund Johann Gottfried Roederer zur Verfügung gestellt (vgl. dessen Brief an Lenz vom 23. Mai 1776; Lenz, Briefe 1, 255). Vermutlich deshalb lieh er sich Goethes Exemplar aus; dieser hatte das Werk mit seinem Brief an Christian Wilhelm Steinauer vom 15. April 1776 bestellt (vgl. <ref target="gb:text#GB03_1_BR083_0_054_016 #GB03_1_BR083_0_054_018">54,16–18</ref>). Im Brief an Augusta Louise zu Stolberg vom 17. bis 24. Mai 1776 berichtet er – im Briefteil vom 19. Mai – von der Lektüre des Buches (vgl. <ref target="gb:text#GB03_1_BR114_0_068_011">68,11</ref>).</p>
+</note>
+<note xml:id="gb56436_comment_com84564">
+<label xml:id="GB03_2_FB015_0_note_014_317_10" copyOf="#start_com_7099"><hi rendition="#normal">317,10</hi>Instruktion der französischen Truppen</label>
+<p>Nicht ermittelt. </p>
+</note>
+<note xml:id="gb56436_comment_com84565">
+<label xml:id="GB03_2_FB015_0_note_015_317_11" copyOf="#start_com_7100"><hi rendition="#normal">317,11</hi>Chevalier d’Eon.</label>
+<p>Charles Geneviève Louis Auguste André Timothée d’Éon de Beaumont; 1775 waren in Amsterdam seine gesammelten Werke erschienen: Les loisirs sur divers sujets importants d’administration (13 Bde).</p>
+</note>
+<note xml:id="gb56436_comment_com84566">
+<label xml:id="GB03_2_FB015_0_note_016_317_12" copyOf="#start_com_7101"><hi rendition="#normal">317,12</hi>Kriegsbaukunst</label>
+<p>Nicht ermittelt.</p>
+</note>
+<note xml:id="gb56436_comment_com84567">
+<label xml:id="GB03_2_FB015_0_note_017_317_13" copyOf="#start_com_7102"><hi rendition="#normal">317,13</hi><hi rendition="#hervor1">Homer</hi></label>
+<p>Offenbar war eine Homer-Ausgabe von Lenz in Straßburg verblieben, ebenso wie Werke Shakespeares (vgl. Johann Gottfried Röderer an Lenz, 23. Mai 1776; <ref target="sndb:sigle#299">Lenz, Briefe</ref> 1, 256).</p>
+</note>
+<note xml:id="gb56436_comment_com84568">
+<label xml:id="GB03_2_FB015_0_note_018_317_15" copyOf="#start_com_7103"><hi rendition="#normal">317,15</hi><hi rendition="#hervor1">Catharina v. Siena</hi></label>
+<p>Manuskript von Lenz’ Drama, das Fragment blieb. </p>
+</note>
+<note xml:id="gb56436_comment_com84569">
+<label xml:id="GB03_2_FB015_0_note_019_317_16" copyOf="#start_com_7104"><hi rendition="#normal">317,16</hi>Julius Caesar</label>
+<p>Möglicherweise das Shakespeare-Drama (vgl. die <ref target="gb:note#gb56436_comment_com84567">Erläuterung</ref> zu Homer).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+</note>
+<note xml:id="gb10966_comment_com84570">
+<label xml:id="GB03_2_BR136_0_note_002_78_18" copyOf="#start_com_1247"><hi rendition="#fett">78,18</hi>eine Louisdor</label>
+<p>Gegen den sonst üblichen Gebrauch verwendet Goethe das Wort gelegentlich als Femininum (vgl. auch <ref target="gb:text#GB01_1_BR007_0_019_014 #GB01_1_BR007_0_019_015">GB 1 I, 19,14-15</ref>; <ref target="gb:text#GB01_1_BR068_0_189_014">189,14</ref>; <ref target="gb:text#GB01_1_BR085_0_213_030 #GB01_1_BR085_0_213_031">213,30–31</ref>).</p>
+</note>
+<note xml:id="gb10966_comment_com84571">
+<label xml:id="GB03_2_BR136_0_note_003_78_19" copyOf="#start_com_1248"><hi rendition="#fett">78,19</hi>Deine Zeichnungen</label>
+<p>Welche Zeichnungen Lenz geschickt hatte, ist nicht bekannt. Eine seiner Zeichnungen von Oktober 1776, eine Landschaft (Bruchau, Flurstück bei Kochberg), ist in Goethes Kunstsammlungen überliefert (<ref target="sndb:sigle#2147">GNM</ref>, Inv.-Nr KHz, Ident-Nr: 215148).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

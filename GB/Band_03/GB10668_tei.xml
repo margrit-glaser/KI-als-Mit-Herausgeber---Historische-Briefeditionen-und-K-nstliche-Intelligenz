@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3480"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10668" n="GB 3, Nr. 339">
+  <teiHeader xml:id="gb10668_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>339.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, 20.?  März 1778. Freitag?</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:13Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10668_tei.xml</idno>
+        <idno type="URI">gb10668</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR339_0</idno>
+        <idno type="KSW-ID">10668</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="201" to="201">201</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="680" to="681">680-681</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10668_header_hwit1333" corresp="#gb10668_source_hwit1333" sameAs="#gb10668_comment_hwit1333" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 7</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10668,,1333/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Willkommen liebe Frau. Der Mann ist von Ehringsdorf und heist    Helfer</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-03-20"><supplied>20.?  März 1778</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10668_source_hwit1333" corresp="#gb10668_header_hwit1333" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10668/22811"/>
+      <p>
+        <anchor xml:id="GB03_1_BR339_0_201_001"/>
+        <ref target="gb:note#GB03_2_BR339_0_note_001_201_1" xml:id="start_com_3055"/>Willkommen liebe Frau.<ref xml:id="end_com_3055"/> Der Mann ist von <ref target="gb:note#GB03_2_BR339_0_note_002_201_1" xml:id="start_com_3056"/>Ehringsdorf<ref xml:id="end_com_3056"/> und heist 
+<anchor xml:id="GB03_1_BR339_0_201_002"/>
+        <ref target="gb:note#GB03_2_BR339_0_note_003_201_2" xml:id="start_com_3057"/>Helfer<ref xml:id="end_com_3057"/>. <ref target="gb:note#GB03_2_BR339_0_note_004_201_2" xml:id="start_com_3058"/>Edelsheim ist ankommen<ref xml:id="end_com_3058"/> und <ref target="gb:note#GB03_2_BR339_0_note_005_201_2" xml:id="start_com_3059"/>Grüst sie<ref xml:id="end_com_3059"/>.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR339_0_201_003"/>
+        <signed rend="paraph" rendition="#einrueck13">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10668_comment">
+<body>
+<div type="metadata" xml:id="gb10668_comment_com1200">
+  <ab type="numberAddressee"><label>339.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>20.?  März 1778</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10668_comment_com1924">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief Ende Februar 1776 eingeordnet. Seit dem Erstdruck bei Fielitz wird er nach dem Inhalt und den Übereinstimmungen mit Goethes Tagebuch und dem Fourierbuch auf den 20. März 1778 datiert (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR339_0_note_001_201_1">201,1</ref>; die <ref target="gb:note#GB03_2_BR339_0_note_004_201_2">zweite</ref> und <ref target="gb:note#GB03_2_BR339_0_note_005_201_2">dritte</ref> Erläuterung zu 201,2). Da es keine weiteren Anhaltspunkte für die zeitliche Einordnung des Briefes gibt und die Argumente von Fielitz plausibel erscheinen, wird die bisherige Datierung beibehalten.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10668_comment_com3244">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 7. – 1 Bl. 15,9(–16,1) × 11,5 cm, 3 Zeilen beschr., egh., Bleistift, flüchtig geschrieben; oben rechts von fremder Hd, Tinte. „17.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 17), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1 (1883), 121, Nr 223.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 216, Nr 685.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10668_comment_com5040">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10668_comment_com9699">
+<label xml:id="GB03_2_BR339_0_note_001_201_1" copyOf="#start_com_3055"><hi rendition="#fett">201,1</hi>Willkommen liebe Frau.</label>
+<p>Die Begrüßung deutet auf eine vorangegangene Abwesenheit der Freundin von Weimar. Wenn der Brief, wie angenommen, vom 20. März 1778 stammt, war die Familie von Stein an diesem Tag von einer kurzen Reise zurückgekehrt, zu der sie laut Goethes Tagebuch zwei Tage zuvor aufgebrochen war: <quote type="G">d. 18 Mit Steins bis Roschleben</quote> <supplied>Roldisleben</supplied> <quote type="G">geritten.</quote> (<ref target="gt:dokument#545">GT I 1, 61</ref>.) – Roldisleben liegt etwa 30 km nördlich von Weimar in der Nähe von Buttstädt. Am 20. März war Josias von Stein Gast an der fürstlichen Abendtafel (vgl. <ref target="sndb:sigle#3944">FB 1778</ref>, S. 55).</p>
+
+</note>
+<note xml:id="gb10668_comment_com14924">
+<label xml:id="GB03_2_BR339_0_note_002_201_1" copyOf="#start_com_3056"><hi rendition="#fett">201,1</hi>Ehringsdorf</label>
+<p>Dorf südlich von Weimar (heute Ortsteil).</p>
+
+</note>
+<note xml:id="gb10668_comment_com9763">
+<label xml:id="GB03_2_BR339_0_note_003_201_2" copyOf="#start_com_3057"><hi rendition="#fett">201,2</hi>Helfer</label>
+<p>Näheres zur Person konnte nicht ermittelt werden; in Goethes Briefen und im Tagebuch wird der Name nicht wieder erwähnt.</p>
+
+</note>
+<note xml:id="gb10668_comment_com17564">
+<label xml:id="GB03_2_BR339_0_note_004_201_2" copyOf="#start_com_3058"><hi rendition="#fett">201,2</hi>Edelsheim ist ankommen</label>
+<p>Wilhelm von Edelsheim, badischer Wirklicher Geheimer Rat und Minister für auswärtige Angelegenheiten, war laut Fourierbuch am 20. März 1778 „gegen Abend um 4. Uhr“ in Weimar angekommen (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 56; vgl. auch <ref target="gt:dokument#546">GT I 1, 61</ref>). Wahrscheinlich war er in diplomatischer Mission in Weimar, um in der Zeit eines drohenden Krieges zwischen den Großmächten Preußen und Österreich (Bayerischer Erbfolgekrieg) die Optionen der kleineren Fürstentümer aufeinander abzustimmen (vgl. zu <ref target="gb:note#GB03_2_BR336_0_note_017_199_20">199,20</ref>). Herzog Carl August, der Edelsheim spätestens seit 1774 persönlich kannte, hatte 1775 versucht, ihn als Minister für Sachsen-Weimar zu gewinnen. Goethe war möglicherweise ebenfalls schon seit 1775 mit ihm bekannt (vgl. GB 2 II, zu 191,1). Am 21. März jedenfalls hält Goethe im Tagebuch fest: <quote type="G">früh kam &#x2643;</quote> <supplied>Herzog Carl August</supplied> <quote type="G">mit ihm</quote> <supplied>Edelsheim</supplied> <quote type="G">in Garten</quote> (<ref target="gt:dokument#547">GT I 1, 61</ref>), am 23. März: <quote type="G">Abends zu &#x2643; wo Edelsheim war, viel geschwäzzt.</quote> (<ref target="gt:dokument#549">Ebd., 61 f.</ref>)</p>
+
+</note>
+<note xml:id="gb10668_comment_com9764">
+<label xml:id="GB03_2_BR339_0_note_005_201_2" copyOf="#start_com_3059"><hi rendition="#fett">201,2</hi>Grüst sie</label>
+<p>Demnach hatte Edelsheim Charlotte von Stein ebenfalls schon kennen gelernt, wahrscheinlich bei seinem ersten Besuch in Weimar vom 16. bis 28. Mai 1776, der in Goethes Tagebuch erwähnt wird (vgl. GT I 1, 18). Dass auch 1776 schon Wilhelm von Edelsheim und nicht dessen jüngerer Bruder Georg Ludwig gemeint ist (so in GT I 2, 843), belegt das Fourierbuch vom 16. Mai 1776, das die Ankunft des „H<g ref="#typoSuspension"/>. Gehrat von Edelsheim von KarlsRuh“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 148) vermerkt. Der jüngere Georg Ludwig von Edelsheim war erst seit 1784 in badischen Diensten in Karlsruhe (vgl. Allgemeine Deutsche Biographie. Bd 48. Leipzig 1904, S. 261 f.).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

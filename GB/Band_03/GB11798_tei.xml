@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3150"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11798" n="GB 3, Nr. 309">
+  <teiHeader xml:id="gb11798_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>309.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#77744" evidence="conjecture">Elbingerode</placeName></supplied>, 2. Dezember <supplied>1777</supplied>, <supplied><placeName key="sndb:ort#77958" evidence="conjecture">Goslar</placeName></supplied>, 4. und 5. Dezember 1777. <supplied>Dienstag</supplied>, Donnerstag und  Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:20:41Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11798_tei.xml</idno>
+        <idno type="URI">gb11798</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR309_0</idno>
+        <idno type="KSW-ID">11798</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="178" to="180">178-180</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="604" to="613">604-613</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11798_header_hwit1277" corresp="#gb11798_source_hwit1277" sameAs="#gb11798_comment_hwit1277" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 103 und Bl. 64</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11798,,1277/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>d. 2. Dez. Nur die Freude die ich habe wie ein Kind sollten Sie im Spiegel sehn können!</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#77744">Elbingerode</placeName></supplied> und
+            <supplied><placeName key="sndb:ort#77958">Goslar</placeName></supplied>
+            <date when="1777-12-02">2. Dezember <supplied>1777</supplied></date> und
+            <date from="1777-12-04" to="1777-12-05">4. und 5. Dezember 1777</date>
+            <note>
+              <date type="WA" when="1777-12-02">2. Dezember <supplied>1777</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11798_source_hwit1277" corresp="#gb11798_header_hwit1277" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11798/22734"/>
+      <p>
+        <anchor xml:id="GB03_1_BR309_0_178_009"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_001_178_9" xml:id="start_com_2684"/>d<g ref="#typoSuspension"/>. 2 Dez.<ref xml:id="end_com_2684"/> Nur die Freude die ich habe wie ein Kind sollten Sie im 
+<anchor xml:id="GB03_1_BR309_0_178_010"/>Spiegel sehn können! <ref target="gb:note#GB03_2_BR309_0_note_002_178_10-12" xml:id="start_com_2685"/>Wie doch nichts abenteuerlich ist als das natürliche, 
+<anchor xml:id="GB03_1_BR309_0_178_011"/>und nichts gros als das natürliche und nichts pppppppppp. als das 
+<anchor xml:id="GB03_1_BR309_0_178_012"/>natürliche!!!!!<ref xml:id="end_com_2685"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_003_178_12" xml:id="start_com_2686"/>Heut wie ich auf einer<ptr n="1" target="#a001_178.12"/> Klippe sas<ref xml:id="end_com_2686"/> –. <ref target="gb:note#GB03_2_BR309_0_note_004_178_12" xml:id="start_com_2687"/>Sie sollen sie sehn<ref xml:id="end_com_2687"/> – 
+<anchor xml:id="GB03_1_BR309_0_178_013"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_005_178_13" xml:id="start_com_2688"/>Wo mich Götter und Menschen nicht gesucht hätten.<ref xml:id="end_com_2688"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_006_178_13-14" xml:id="start_com_2689"/>Ich zeichne wieder 
+<anchor xml:id="GB03_1_BR309_0_178_014"/>den ganzen Tag und werde doch nichts mitbringen<ref xml:id="end_com_2689"/>, wie gewöhnlich. 
+<anchor xml:id="GB03_1_BR309_0_178_015"/>Ich hab Sie wohl sehr lieb. In der ungeheuern Natur da ich krizzelte 
+<anchor xml:id="GB03_1_BR309_0_178_016"/>und mirs <pb n="2" facs="gb:digitalisate#11798/22735"/> sehr wohl war, fiel mir’s ein: wenn du’s nur auch heut 
+<anchor xml:id="GB03_1_BR309_0_178_017"/>Abend <ref target="gb:note#GB03_2_BR309_0_note_007_178_17" xml:id="start_com_2690"/>in der Grünen Stube<ref xml:id="end_com_2690"/> aufhängen könntest! Da ists freylich besser 
+<anchor xml:id="GB03_1_BR309_0_178_018"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_008_178_18" xml:id="start_com_2691"/>im Stern<ref xml:id="end_com_2691"/> zeichnen. Aber dafür auch!!! Lieb <ref target="gb:note#GB03_2_BR309_0_note_009_178_18" xml:id="start_com_2692"/>Gold<ref xml:id="end_com_2692"/>, Weege mit unter!! 
+<anchor xml:id="GB03_1_BR309_0_178_019"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_010_178_19" xml:id="start_com_2693"/>Im Dreckigen Jerusalem Schwedenborgs<ref xml:id="end_com_2693"/> ists nicht gröber. Und wenn 
+<anchor xml:id="GB03_1_BR309_0_178_020"/>nun gleich die allzugefällige Nacht einem sich an Rücken hängt!! – 
+<anchor xml:id="GB03_1_BR309_0_178_021"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_011_178_21" xml:id="start_com_2694"/>Die Trauer an den langen seichten Wassern hin in der Dämmrung!<ref xml:id="end_com_2694"/>   –   <pb n="3" facs="gb:digitalisate#11798/22736"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR309_0_178_022"/>Mich ärgert <ref target="gb:note#GB03_2_BR309_0_note_012_178_22-23" xml:id="start_com_2695"/>dass ich das Messer und ein Paar dicke Strümpfe nicht 
+<anchor xml:id="GB03_1_BR309_0_178_023"/>von Ihnen habe<ref xml:id="end_com_2695"/>, denn das sind Freunde in der Noth! – Zwar hab ich 
+<anchor xml:id="GB03_1_BR309_0_179_001"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_013_179_1" xml:id="start_com_2696"/>Ihren Handschuh<ref xml:id="end_com_2696"/>, aber ich bin so ein <ref target="gb:note#GB03_2_BR309_0_note_014_179_1" xml:id="start_com_2697"/>ehmännischer Liebhaber<ref xml:id="end_com_2697"/> dass das 
+<anchor xml:id="GB03_1_BR309_0_179_002"/>nicht recht fruchten will. Ohne den mindsten Unfall bin ich bis<ptr n="2" target="#a002_179.2"/> hier. 
+<anchor xml:id="GB03_1_BR309_0_179_003"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_015_179_3" xml:id="start_com_2698"/>Einige Frazzen wo der Poete sich nicht verläugnet<ref xml:id="end_com_2698"/> ausgenommen, so 
+<anchor xml:id="GB03_1_BR309_0_179_004"/>sehr ich mit <ref target="gb:note#GB03_2_BR309_0_note_016_179_4" xml:id="start_com_2699"/>Kaufmanns Diener Aufmercksamkeit<ptr n="3" target="#a003_179.4"/>
+        <ref xml:id="end_com_2699"/> auf das meinige, zu 
+<anchor xml:id="GB03_1_BR309_0_179_005"/>reisen bemüht bin!   –   Gar hübsch ists <pb n="4" facs="gb:digitalisate#11798/22737"/> <ref target="gb:note#GB03_2_BR309_0_note_017_179_5" xml:id="start_com_2700"/>Auf seinem Pferde<ref xml:id="end_com_2700"/> mit 
+<anchor xml:id="GB03_1_BR309_0_179_006"/>dem <ref target="gb:note#GB03_2_BR309_0_note_018_179_6" xml:id="start_com_2701"/>Mantelsackgen<ref xml:id="end_com_2701"/>, wie auf einem Schiffe herumzukreuzen. Gute 
+<anchor xml:id="GB03_1_BR309_0_179_007"/>Nacht. /</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR309_0_179_008"/>Donnerst d<g ref="#typoSuspension"/> 4 Dez. 77. <ref target="gb:note#GB03_2_BR309_0_note_019_179_8" xml:id="start_com_2702"/>×××××r<ref xml:id="end_com_2702"/>
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR309_0_179_009"/>Von hier wollt ich Ihnen zu erst schreiben, sie<ptr n="4" target="#a004_179.9"/> sehn aber aus dem <ref target="gb:note#GB03_2_BR309_0_note_020_179_9-10" xml:id="start_com_2703"/>Bleystifft 
+<anchor xml:id="GB03_1_BR309_0_179_010"/>Blättgen<ref xml:id="end_com_2703"/> dass ich früher laut worden bin. Ein ganz <ref target="gb:note#GB03_2_BR309_0_note_021_179_10-11" xml:id="start_com_2704"/>entsezlich Wetter<ptr n="5" target="#a005_179.11"/>
+        <anchor xml:id="GB03_1_BR309_0_179_011"/>hab ich heut ausgestanden<ref xml:id="end_com_2704"/> was die Stürme für Zeugs in diesen Gebürgen 
+<anchor xml:id="GB03_1_BR309_0_179_012"/>ausbrauen ist unsäglich, Sturm Schnee, <ref target="gb:note#GB03_2_BR309_0_note_022_179_12" xml:id="start_com_2705"/>Schlossen<ref xml:id="end_com_2705"/>, Regen<ptr n="6" target="#a006_179.12"/>, und 
+<anchor xml:id="GB03_1_BR309_0_179_013"/>zwey Meilen <ref target="gb:note#GB03_2_BR309_0_note_023_179_13" xml:id="start_com_2706"/>an einer Nordwand eines Waldgebürgs<ref xml:id="end_com_2706"/> her, alles fast ist 
+<anchor xml:id="GB03_1_BR309_0_179_014"/>nass, und erhohlt haben sich meine Sinne kaum nach Essen, Trincken, 
+<anchor xml:id="GB03_1_BR309_0_179_015"/>drey stunden Ruhe u.s.w. — — <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18" xml:id="start_com_2707"/>Mein Abenteuer hab ich bestanden, 
+<anchor xml:id="GB03_1_BR309_0_179_016"/>schön, ganz, wie ich mir’s vorauserzählt, wie sie’s sehr vergnügen wird 
+<anchor xml:id="GB03_1_BR309_0_179_017"/>zu hören, denn Sie allein dürfens hören, auch der Herzog und so muss 
+<anchor xml:id="GB03_1_BR309_0_179_018"/>es Geheimniss seyn.<ref xml:id="end_com_2707"/> Es ist niedrig aber schön, es ist nichts und viel, – 
+<anchor xml:id="GB03_1_BR309_0_179_019"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_025_179_19-20" xml:id="start_com_2708"/>die Götter wissen allein was sie wollen, und was sie mit uns wollen, ihr Wille<ptr n="7" target="#a007_179.20"/>
+        <anchor xml:id="GB03_1_BR309_0_179_020"/>geschehe<ref xml:id="end_com_2708"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR309_0_179_021"/>Hier bin ich nun wieder <ref target="gb:note#GB03_2_BR309_0_note_026_179_21" xml:id="start_com_2709"/>in Mauern und Dächern des Alterthums<ref xml:id="end_com_2709"/>
+        <anchor xml:id="GB03_1_BR309_0_179_022"/>versenckt. <ref target="gb:note#GB03_2_BR309_0_note_027_179_22" xml:id="start_com_2710"/>Bey einem Wirthe<ref xml:id="end_com_2710"/> der gar viel väterlichs hat, es ist eine 
+<anchor xml:id="GB03_1_BR309_0_179_023"/>schöne <ref target="gb:note#GB03_2_BR309_0_note_028_179_23" xml:id="start_com_2711"/>Philisterey<ref xml:id="end_com_2711"/> im Hause, es wird einem ganz wohl. — — Wie sehr 
+<anchor xml:id="GB03_1_BR309_0_179_024"/>ich wieder, auf diesem duncklen Zug, Liebe zu der Classe von Menschen 
+<anchor xml:id="GB03_1_BR309_0_179_025"/>gekriegt habe! die man die niedere nennt!<ptr n="8" target="#a008_179.25"/> die aber gewiss für 
+<anchor xml:id="GB03_1_BR309_0_179_026"/>Gott die höchste ist. Da sind doch alle Tugenden Beysammen, Beschräncktheit, 
+<anchor xml:id="GB03_1_BR309_0_179_027"/>Genügsamkeit, Grader Sinn, Treue, Freude über das 
+<anchor xml:id="GB03_1_BR309_0_179_028"/>leidlichste Gute, Harmlosigkeit, Dulden – Dulden – Ausharren in 
+<anchor xml:id="GB03_1_BR309_0_179_029"/>und ————</p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR309_0_179_030"/>ich will mich nicht in Ausrufen verlieren. /</p>
+      <p>
+        <anchor xml:id="GB03_1_BR309_0_179_031"/>—— Ich trockne nun ietzt an meinen Sachen! – sie hängen um den 
+<anchor xml:id="GB03_1_BR309_0_179_032"/>Ofen. Wie <hi rendition="#hervor1">wenig</hi> der Mensch bedarf, und wie lieb es ihm wird 
+<anchor xml:id="GB03_1_BR309_0_179_033"/>wenn er fühlt wie <hi rendition="#hervor1">sehr</hi> er das <hi rendition="#hervor1">wenige</hi> bedarf. – Wenn Sie mir 
+<anchor xml:id="GB03_1_BR309_0_180_001"/>künftig <ref target="gb:note#GB03_2_BR309_0_note_029_180_1-2" xml:id="start_com_2712"/>was schencken, lassen Sie’s etwas seyn was man auf so einer 
+<anchor xml:id="GB03_1_BR309_0_180_002"/>Reise braucht<ref xml:id="end_com_2712"/>. – Nur das stück Papier wo die Zwiebacke <ref target="gb:note#GB03_2_BR309_0_note_030_180_2" xml:id="start_com_2713"/>in<ref xml:id="end_com_2713"/> gewickelt 
+<anchor xml:id="GB03_1_BR309_0_180_003"/>waren, zu wievielerley mir’s gedient hat! – Es kan nicht fehlen dass 
+<anchor xml:id="GB03_1_BR309_0_180_004"/>Sie hier nicht lachen und sagen: Schlieslich wirds also den Weeg alles 
+<anchor xml:id="GB03_1_BR309_0_180_005"/>Papiers gehn! – Genug es ist so! — — — Ihre Uhr ist denn doch ein 
+<anchor xml:id="GB03_1_BR309_0_180_006"/>hübsch Vermächtniss. ——————————————————————————————</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR309_0_180_007"/>Ich weis nun noch nicht wie sich diese Irrfahrt endigen wird, so 
+<anchor xml:id="GB03_1_BR309_0_180_008"/>gewohnt bin ich mich vom Schicksaale leiten zu lassen; dass ich gar 
+<anchor xml:id="GB03_1_BR309_0_180_009"/>keine Hast mehr in mir spüre, nur manchmal dämmern leise Träume 
+   <anchor xml:id="GB03_1_BR309_0_180_010"/>von <ref target="gb:note#GB03_2_BR309_0_note_031_180_10" xml:id="start_com_2714"/>Sorglichkeit<ref xml:id="end_com_2714"/> wieder auf, die werden aber auch schwinden. |:<g ref="#NB"/>. 
+<anchor xml:id="GB03_1_BR309_0_180_011"/>ich rede hier von einer kindischen Sorglichkeit, nie übers ganze, sondern 
+<anchor xml:id="GB03_1_BR309_0_180_012"/>über einzelne kleine Fälle:|</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR309_0_180_013"/>
+        <ref target="gb:note#GB03_2_BR309_0_note_032_180_13" xml:id="start_com_2715"/>d<g ref="#typoSuspension"/> 5. Dez.<ref xml:id="end_com_2715"/> Guten Morgen noch bey Lichte. Es regnet gar arg, und 
+<anchor xml:id="GB03_1_BR309_0_180_014"/>niemand reisst ausser wen Noth treibt, und dringend Geschäfft, und 
+<anchor xml:id="GB03_1_BR309_0_180_015"/>mich treiben seltsame Gedancken in der Welt herum.   Adieu. Grüsen 
+<anchor xml:id="GB03_1_BR309_0_180_016"/>Sie <ref target="gb:note#GB03_2_BR309_0_note_033_180_16" xml:id="start_com_2716"/>steinen<ref xml:id="end_com_2716"/>
+      </p>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11798_comment">
+<body>
+<div type="metadata" xml:id="gb11798_comment_com519">
+  <ab type="numberAddressee"><label>309.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#77744">Elbingerode</placeName></supplied> und <supplied><placeName key="sndb:ort#77958">Goslar</placeName></supplied>, 2. Dezember <supplied>1777</supplied> und 4. und 5. Dezember 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11798_comment_com1650">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) wurde der Briefteil vom 2. Dezember in das Jahr 1778 eingeordnet. Der Inhalt, die Übereinstimmungen mit dem Tagebuch und der Bezug zum vollständig datierten Briefteil vom 4. und 5. Dezember 1777 (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_020_179_9-10">179,9-10</ref>) verweisen darauf, dass er auf der am 29. November 1777 angetretenen Harzreise geschrieben wurde (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR309_0_note_003_178_12">178,12</ref>) und ins Jahr 1777 gehört. So wird er seit dem Erstdruck auch in den Ausgaben der Briefe an Charlotte von Stein datiert. – Mit dem Brief vom 4. und 5. Dezember 1777 wurde ein <quote type="G">Bleystifft Blättgen</quote> (<ref target="gb:text#GB03_1_BR309_0_179_009 #GB03_1_BR309_0_179_010">179,9–10</ref>) mitgeschickt, das nach Antritt der Reise, doch vor dem 4. Dezember verfasst worden sein muss. Damit ist aller Wahrscheinlichkeit nach der mit Bleistift geschriebene Brief vom 2. Dezember gemeint, der demnach gemeinsam mit dem Brief vom 4. und 5. Dezember 1777 versandt wurde. Beide Briefteile werden daher im Unterschied zu den bisherigen Ausgaben unter einer Nummer mitgeteilt.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11798_comment_com2563">
+  <p>1) Briefteil vom 2. Dezember (<ref target="gb:text#GB03_1_BR309_0_178_009 #GB03_1_BR309_0_179_007">178,9–179,7</ref> <quote type="G">d<g ref="#typoSuspension"/>. 2 Dez. <gap quantity="3" reason="editorial"/> Gute Nacht.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 103. – Doppelblatt 9,8 &#xD7; 16,5 cm, 3 &#xBC; S. beschr., egh., Bleistift, flüchtig geschrieben; S. 1 oben rechts von fremder Hd, Tinte: „62.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 64), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 128 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 189 f., Nr 650.</p>
+  <p>2) Briefteil vom 4. und 5. Dezember 1777 (<ref target="gb:text#GB03_1_BR309_0_179_008 #GB03_1_BR309_0_180_016">179,8–180,16</ref> <quote type="G">Donnerst d<g ref="#typoSuspension"/> 4 Dez.  <gap quantity="3" reason="editorial"/> Sie steinen</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 64. – 1 Bl. 17,5 &#xD7; 21,3 cm, von einem Doppelblatt abgetrennt, am linken Rand Reststreifen (etwa 0,7 cm) des zweiten Blattes, 1 &#x2158; S. beschr., egh., Tinte; Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „57.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 60), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 130–132.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 190–192, Nr 651.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11798_comment_com4359">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Am 29. November 1777 brach Goethe allein und inkognito zu einer Reise in den Harz auf (vgl. <ref target="gb:text#GB03_1_BR388_0_220_032 #GB03_1_BR388_0_220_033">220,32–33</ref>). Den Plan dazu muss er schon einige Zeit früher, spätestens jedoch zwei Wochen zuvor, gefasst haben. Am 16. November vermerkte er im Tagebuch: <quote type="G">Projeckte zur heimlichen Reise.</quote> (<ref target="gt:dokument#480">GT I 1, 52</ref>.) Über das Ziel ließ er seine Umgebung, darunter Charlotte von Stein, zunächst im Ungewissen (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_001_178_9">178,9</ref>), wenn auch davon auszugehen ist, dass er die Reise mit Erlaubnis des Herzogs antrat. Dieser war mit seinem Gefolge bereits am 27. November zur „Schweinsjagd nach Marcksuhl“, einem Jagdrevier südlich von Eisenach, aufgebrochen (<ref target="sndb:sigle#3943">FB 1777</ref>, S. 223). Goethe schloss sich der herzoglichen Jagdgesellschaft erst reichlich zwei Wochen später, am 15. Dezember, in Eisenach an. Am 16. Dezember war er wieder in Weimar. – Wie er mehr als vierzig Jahre später in der „Campagne in Frankreich 1792“ schrieb, habe er seine Reise in den Harz angetreten, um <quote type="G">das Bergwesen in seinem ganzen Complex, und wär’ es auch nur flüchtig, mit Augen zu sehen und mit dem Geiste zu fassen</quote> (<ref target="sndb:sigle#1157">WA</ref> I 33, 214). Seit Gründung der herzoglichen Kommission zur Wiederaufnahme des Ilmenauer Kupferschieferbergbaus am 18. Februar 1777 gehörte Goethe zu deren Mitgliedern, besaß aber damals <quote type="G">nur die allgemeinsten Begriffe von Bergbau</quote> (ebd.). Zeitlich fällt die erste Erwähnung seines Reiseplans zusammen mit der Erweiterung des Zuständigkeitsbereichs dieser Kommission auf „sämtliche Bergwerks-Angelegenheiten“ in Ilmenau, die am 14. November 1777 beschlossen wurde (<ref target="sndb:sigle#1205">Bradish</ref>, 202; vgl. insgesamt ebd., 201–203, Nr 7). Schon für Anfang November ist die Erwerbung von Büchern über den Harz und das Harzer Bergwesen belegt, deren Lektüre Goethes Reiseplan befördert haben dürfte (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_031_183_22">183,22</ref>). Die Möglichkeiten, das Harzer Berg- und Hüttenwesen zu studieren, bestimmten daher den Reiseverlauf vor allem des ersten Teils der Reise bis nach Clausthal. Geplant war sicher von vornherein auch der Besuch bei Friedrich Victor Leberecht Plessing in Wernigerode, der sich 1777 mehrfach Rat suchend an den ihm persönlich unbekannten Dichter in Weimar gewandt hatte (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_024_179_15-18">179,15-18</ref>). Nach Goethes später Erinnerung habe die Absicht, seinen <quote type="G">wunderlichen Correspondenten persönlich zu sehen und zu prüfen</quote>, seinem Entschluss zur Harzreise <quote type="G">wohl die Hälfte des Gewichtes</quote> hinzugefügt  (Campagne in Frankreich 1792; <ref target="sndb:sigle#1157">WA</ref> I 33, 214). Die Briefe und Tagebuchaufzeichnungen spätestens seit dem Sommer 1777 belegen aber auch, dass es außer diesen äußeren Anlässen noch andere, möglicherweise weitaus gewichtigere Gründe gab, die Goethe zu seinem winterlichen Ausflug ins Gebirge trieben (vgl. zu <ref target="gb:note#GB03_2_BR308_0_note_004_178_6">178,6</ref>; <ref target="gb:text#GB03_1_BR311_0_183_005">183,5</ref>). Wie zuletzt im Frühjahr und Sommer 1775 vor seinem endgültigen Abschied aus Frankfurt befand er sich gegen Ende seines zweiten Weimarer Jahres in einer existenziellen Krise. Die Ursachen dafür waren vielfältiger Natur. Neben der Zunahme seiner Amtsgeschäfte war es vor allem das Verhältnis zu Charlotte von Stein, das Goethe einerseits beglückte und fest an seinen neuen Wohnort band, ihm andererseits aber immer wieder trübe Stunden bereitete und ihn in einen Zustand <quote type="G">stiller Traurigkeit</quote> (<ref target="gb:text#GB03_1_BR264_0_146_016 #GB03_1_BR264_0_146_017">146,16–17</ref>) versetzte. In der Einsamkeit der winterlichen Berge suchte er daher Abstand zu gewinnen und sich Klarheit über seinen künftigen Lebensweg zu verschaffen. Die <quote type="G">heimliche Reise</quote> (<ref target="gt:dokument#480">GT I 1, 52</ref>) war somit der vorläufig letzte Versuch, für eine kurze Zeit aus der vorgezeichneten Lebensbahn als herzoglicher Minister, Freund und Berater Carl Augusts und Mitglied der Weimarer Hofgesellschaft auszubrechen. Vieles spricht dafür, dass die Brockenbesteigung von Anfang an geplant, wenn nicht sogar das eigentliche Ziel der Reise war, selbst wenn Goethe nicht sicher sein konnte, ob sie in der winterlichen Jahreszeit gelingen würde (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_001_178_9">178,9</ref>; <ref target="gb:text#GB03_1_BR311_0_184_016 #GB03_1_BR311_0_184_019">184,16–19</ref>). Die Briefe an Charlotte von Stein (<ref target="gb:dokument#11798">Nr 309</ref>, <ref target="gb:dokument#11800">310</ref>, <ref target="gb:dokument#10661">311</ref>) wie auch die Tagebuchaufzeichnungen in <ref target="gb:dokument#11808">Nr 312</ref> belegen, dass der Aufstieg zum Brocken für Goethe zu einem ‚Orakel‛ wurde, „welches ihm die höhere Zustimmung verbürgte für das, was in Weimar vor ihm lag“ (<ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 44). Dass er dieses ‚Abenteuer‛ im Winter unternahm, einer Jahreszeit, die in den klimatisch ohnehin raueren Gebirgsgegenden des Harzes das Reisen besonders erschwerte und eine Bergbesteigung als äußerst schwierig erscheinen ließ (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_044_184_18-19">184,18-19</ref>), unterstreicht die außerordentliche persönliche Bedeutung, die Goethe der <quote type="G">Wallfahrt</quote> (<ref target="gb:text#GB03_1_BR311_0_181_021">181,21</ref>) zum winterlichen Brocken beimaß. Dies zeigt sich in den Briefen auf sprachlich-stilistischer Ebene in der Vielzahl metaphorischer Vergleiche und Anspielungen sowohl auf die Bibel als auch die antike Mythologie, wobei beide Bereiche in auffallender Weise verschmelzen (vgl. u. a. <ref target="gb:text#GB03_1_BR309_0_179_019 #GB03_1_BR309_0_179_020">179,19–20</ref>; <ref target="gb:text#GB03_1_BR311_0_184_006 #GB03_1_BR311_0_184_010">184,6–10</ref>). Vielfältige Bezüge bestehen zudem zwischen den Briefen und dem wahrscheinlich ganz oder zu Teilen auf der Reise entstandenen Gedicht „Auf dem Harz im Dezember. 1778 <supplied>recte 1777</supplied>“ (zuerst 1789 veröffentlicht unter dem Titel „Harzreise im Winter“ in Goethe’s Schriften. Bd 8, S. 61–64), im vorliegenden Band in der frühesten erhaltenen Fassung als Beilage zum Brief an Merck vom 5. August 1778 mitgeteilt (<ref target="gb:text#GB03_1_BR388_0_222_005 #GB03_1_BR388_0_224_031">222,5–224,31</ref>; zum Gedicht vgl. u. a. <ref target="sndb:sigle#3080">Schöne, Harzreise</ref>, 20–52; Wolf von Engelhardt: Goethes Harzreise im Winter 1777. In: <ref target="sndb:sigle#1266">GJb</ref> 104 [1987], 192–211). – Der Reiseverlauf lässt sich aus den Briefen an Charlotte von Stein sowie den Tagebuchaufzeichnungen rekonstruieren (im Einzelnen vgl. vor allem die Erläuterungen zu <ref target="gb:dokument#11808">Nr 312</ref>):</p>
+ <space unit="lines" quantity="1"/>
+  <p rendition="#c">Goethes Harzreise</p>
+  <p rendition="#c">29. November–15. Dezember 1777</p>
+ <space unit="lines" quantity="1"/>
+  <table>
+    <row>
+      <cell><p>29. November</p></cell>
+      <cell><p>Weimar, Ettersberg, Weißensee, Greußen</p></cell>
+      <cell><p>etwa 50 km</p></cell>
+    </row>
+    <row>
+      <cell><p>30. November</p></cell>
+      <cell><p>Greußen, Sondershausen, Sundhausen, Nordhausen, Niedersachswerfen, Ilfeld</p></cell>
+      <cell><p>etwa 50 km</p></cell>
+    </row>
+    <row>
+      <cell><p>1. Dezember</p></cell>
+      <cell><p>Ilfeld, Elbingerode, Rübeland (Baumannshöhle), Elbingerode</p></cell>
+      <cell><p>etwa 40–50 km</p></cell>
+    </row>
+    <row>
+      <cell><p>2. Dezember</p></cell>
+      <cell><p>Elbingerode, Rübeland (Baumannshöhle), Elbingerode</p></cell>
+      <cell><p>etwa 8 km</p></cell>
+    </row>
+    <row>
+      <cell><p>3. Dezember</p></cell>
+      <cell><p>Elbingerode, Wernigerode</p></cell>
+      <cell><p>etwa 12 km</p></cell>
+    </row>
+    <row>
+      <cell><p>4. Dezember</p></cell>
+      <cell><p>Wernigerode, Ilsenburg, Goslar</p></cell>
+      <cell><p>etwa 42 km</p></cell>
+    </row>
+    <row>
+      <cell><p>5. Dezember</p></cell>
+      <cell><p>Goslar, Rammelsberger Bergrevier (Erzbergwerk), Goslar</p></cell>
+      <cell><p>etwa 5 km</p></cell>
+    </row>
+    <row>
+      <cell><p>6. Dezember</p></cell>
+      <cell><p>Goslar, Erzhütten an der Oker (Blei-Kupfer-Hütte; Messinghütte), Goslar</p></cell>
+      <cell><p>etwa 16 km</p></cell>
+    </row>
+    <row>
+      <cell><p>7. Dezember</p></cell>
+      <cell><p>Goslar, Clausthal</p></cell>
+      <cell><p>etwa 21 km</p></cell>
+    </row>
+    <row>
+      <cell><p>8. Dezember</p></cell>
+      <cell><p>Clausthal, Erzgruben (Caroline, Dorothee, Benedikte)</p></cell>
+      <cell><p>etwa 3 km</p></cell>
+    </row>
+    <row>
+      <cell><p>9. Dezember</p></cell>
+      <cell><p>Clausthal (Silberhütte), Altenau</p></cell>
+      <cell><p>etwa 12 km</p></cell>
+    </row>
+    <row>
+      <cell><p>10. Dezember</p></cell>
+      <cell><p>Altenau, Torfhaus, Brocken, Torfhaus</p></cell>
+      <cell><p>etwa 19 km</p></cell>
+    </row>
+    <row>
+      <cell><p>11. Dezember</p></cell>
+      <cell><p>Torfhaus, Altenau, Clausthal</p></cell>
+      <cell><p>etwa 23 km</p></cell>
+    </row>
+    <row>
+      <cell><p>12. Dezember</p></cell>
+      <cell><p>Clausthal, Dammhaus, Bruchberg, Sankt Andreasberg</p></cell>
+      <cell><p>etwa 21 km</p></cell>
+    </row>
+    <row>
+      <cell><p>13. Dezember</p></cell>
+      <cell><p>Sankt Andreasberg, Lauterberg (Königshütte), Silkerode, Duderstadt</p></cell>
+      <cell><p>etwa 40 km</p></cell>
+    </row>
+    <row>
+      <cell><p>14. Dezember</p></cell>
+      <cell><p>Duderstadt, Mühlhausen</p></cell>
+      <cell><p>etwa 50 km</p></cell>
+    </row>
+    <row>
+      <cell><p>15. Dezember</p></cell>
+      <cell><p>Mühlhausen, Eisenach</p></cell>
+      <cell><p>etwa 35 km</p></cell>
+    </row>
+  </table>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11798_comment_com17988">
+<label xml:id="GB03_2_BR309_0_note_001_178_9" copyOf="#start_com_2684"><hi rendition="#fett">178,9</hi>d<g ref="#typoSuspension"/>. 2 Dez.</label>
+<p>Der vorliegende Brief wurde laut Tagebuch in Elbingerode geschrieben (vgl. <ref target="gb:note#gb11798_comment_com1650">Datierung</ref>  und <ref target="gt:dokument#486">GT I 1, 53</ref>), der Absendeort jedoch von Goethe bewusst verschwiegen. Erst nach seiner gelungenen Brockenbesteigung am 10. Dezember gab er der Freundin Aufschluss über das Ziel seiner Reise (vgl. <ref target="gb:text#GB03_1_BR311_0_184_016 #GB03_1_BR311_0_184_018">184,16–18</ref>) und trug im ersten Teil des Briefes vom 7. bis 11. Dezember die Ortsnamen <quote type="G">Clausthal</quote> (<ref target="gb:text#GB03_1_BR311_0_181_014">181,14</ref>) und <quote type="G">Altenau</quote> (<ref target="gb:text#GB03_1_BR311_0_182_019">182,19</ref>) nach (vgl. <ref target="gb:text#GB03_1_BR311_0_184_027">184,27</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11190">
+<label xml:id="GB03_2_BR309_0_note_002_178_10-12" copyOf="#start_com_2685"><hi rendition="#fett">178,10-12</hi>Wie doch nichts abenteuerlich <gap quantity="3" reason="editorial"/> das natürliche!!!!!</label>
+<p>‚Abenteuerlich‘ hier ‚vom Gewohnten, Alltäglichen abweichend‘; beim jungen Goethe häufig in Korrelation zu ‚natürlich‘ gebraucht (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 42), so auch in den Briefen <ref target="gb:dokument#11779">Nr 289</ref> (vgl. <ref target="gb:text#GB03_1_BR289_0_167_032 #GB03_1_BR289_0_167_033">167,32–33</ref>), <ref target="gb:dokument#10661">Nr 311</ref> (vgl. <ref target="gb:text#GB03_1_BR311_0_183_014">183,14</ref>) sowie noch am 5. August 1778 im Brief an Merck über die Harzreise (<ref target="gb:text#GB03_1_BR388_0_220_031 #GB03_1_BR388_0_220_032">220,31–32</ref>). – Hier mit Bezug auf den Beginn der winterlichen Reise durch das Harzgebirge. Unmittelbar vor Augen standen Goethe die Eindrücke seiner beiden Besuche in der Baumannshöhle am 1. und 2. Dezember, von denen Charlotte von Stein aber erst durch die für sie bestimmten Tagebuchaufzeichnungen erfuhr (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_008_186_5-6">186,5-6</ref>; zu <ref target="gb:note#GB03_2_BR312_0_note_009_186_6">186,6</ref>). Die Baumannshöhle „mit ihren geheimnisvollen Abgründen, ihren seltsamen unterirdischen Tropfsteinbildungen und den <gap quantity="3" reason="editorial"/> mit allen möglichen Kräften ausgestatteten Versteinerungen“ gehörte im 18. Jahrhundert – neben dem Brocken – auch deshalb zu den bevorzugten Zielen im Harz, weil die Reisenden nicht so sehr „landschaftliche Schönheit“ suchten, „sondern vornehmlich das Abenteuerliche, Seltsame und Geheimnisvolle“ (<ref target="sndb:sigle#4237/1186">Bürger</ref>, 45.)</p>
+
+</note>
+<note xml:id="gb11798_comment_com18789">
+<label xml:id="GB03_2_BR309_0_note_003_178_12" copyOf="#start_com_2686"><hi rendition="#fett">178,12</hi>Heut wie ich auf einer Klippe sas</label>
+<p>Möglicherweise die Christinenklippe in der Nähe von Rübeland, eine Felswand an der Bode, in historischen Reiseführern als besondere Sehenswürdigkeit gerühmt: „Noch mehr aber ist er der Schreckenfels. Diesen zu besuchen rathe ich Jedem an, der einen schauderhaft schönen Eindruck genießen und die Aussicht einer wahren Schweizerparthie haben will.“ (<ref target="sndb:sigle#2887">Gottschalck</ref>, 379.) Nicht auszuschließen ist, dass eine Stelle in der Baumannshöhle gemeint ist, wo sich Goethe am 2. Dezember <quote type="G">Den ganzen Tag</quote> (<ref target="gb:text#GB03_1_BR312_0_186_007">186,7</ref>) über aufgehalten hat; infrage kommt das so genannte „Roß“, „ein Felsen zwischen der ersten und zweiten Höhlenkammer, der sich nach oben gratartig verengte und auf der einen Seite zu einem steilen Abgrunde harabsenkte, so daß die Besucher ihn nur im Reitsitz rutschend und nicht ohne Gefahr überschreiten konnten“ (<ref target="sndb:sigle#4237/1186">Bürger</ref>, 51 f.).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11204">
+<label xml:id="GB03_2_BR309_0_note_004_178_12" copyOf="#start_com_2687"><hi rendition="#fett">178,12</hi>Sie sollen sie sehn</label>
+<p>Von der Umgebung Rübelands wie auch aus dem Inneren der Baumannshöhle sind keine Zeichnungen Goethes überliefert.</p>
+
+</note>
+<note xml:id="gb11798_comment_com16038">
+<label xml:id="GB03_2_BR309_0_note_005_178_13" copyOf="#start_com_2688"><hi rendition="#fett">178,13</hi>Wo mich Götter <gap quantity="3" reason="editorial"/> nicht gesucht hätten.</label>
+<p>Könnte sich sowohl auf die Christinenklippe bei Rübeland beziehen wie auch auf das Innere der Baumannshöhle, von der Goethe so beeindruckt gewesen sein muss, dass er nach einer ersten kürzeren Besichtigung am Nachmittag des 1. Dezember den gesamten folgenden Tag dort verbrachte (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_009_186_6">186,6</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11205">
+<label xml:id="GB03_2_BR309_0_note_006_178_13-14" copyOf="#start_com_2689"><hi rendition="#fett">178,13-14</hi>Ich zeichne <gap quantity="3" reason="editorial"/> nichts mitbringen</label>
+<p>Lediglich zwei Zeichnungen Goethes haben sich erhalten, die möglicherweise vom Eingang der Baumannshöhle stammen und auf der ersten Harzreise entstanden sein könnten (vgl. <ref target="sndb:sigle#1248">Corpus</ref> I, 73 f., Nr 188 und 189).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11206">
+<label xml:id="GB03_2_BR309_0_note_007_178_17" copyOf="#start_com_2690"><hi rendition="#fett">178,17</hi>in der Grünen Stube</label>
+<p>Im ersten Stock der neuen Wohnung der Familie von Stein an der Ackerwand (vgl. zu <ref target="gb:note#GB03_2_BR304_0_note_001_175_18">175,18</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11207">
+<label xml:id="GB03_2_BR309_0_note_008_178_18" copyOf="#start_com_2691"><hi rendition="#fett">178,18</hi>im Stern</label>
+<p>Im Weimarer Schlosspark unterhalb von Goethes Garten (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11683">
+<label xml:id="GB03_2_BR309_0_note_009_178_18" copyOf="#start_com_2692"><hi rendition="#fett">178,18</hi>Gold</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR031_0_note_006_25_19">25,19</ref>.</p>
+
+</note>
+<note xml:id="gb11798_comment_com18170">
+<label xml:id="GB03_2_BR309_0_note_010_178_19" copyOf="#start_com_2693"><hi rendition="#fett">178,19</hi>Im Dreckigen Jerusalem Schwedenborgs</label>
+<p>Mit Bezug auf die von Emanuel Swedenborg in den „Arcana Coelestia“ beschriebene „spurca Hierosolyma“, die Hölle der Geizigen. Goethe kannte das Werk in der Übersetzung Friedrich Christoph Oetingers, die er wahrscheinlich auch an Charlotte von Stein weitergegeben hatte (vgl. Beilage 2 zu <ref target="gb:note#gb11209_comment_com3764">Nr 187</ref>). Darin findet sich im Kapitel „Von der Hölle“ im dritten Abschnitt unter dem Titel „Von den Höllen der Geitzigen, von dem unsaubern Jerusalem <gap quantity="3" reason="editorial"/>“ die folgende Schilderung: „In dieser Hölle sind größten theils Juden, welche garstige Geitzhälse gewesen sind <gap quantity="3" reason="editorial"/>. Weil sie sich bey Leibes Leben eingebildet, und sich in der Phantasie verhärtet haben, daß sie nach Jerusalem und in das heilige Land, welches sie besitzen sollten, kommen würden, und nicht haben wissen wollen, daß durch das neue Jerusalem das Reich des HErrn in den Himmeln und auf den Erden verstanden werde, so erscheinet ihnen, wann sie in das andere Leben kommen zur lincken der heissen Feuerhölle, ein wenig vorwärts, eine Stadt, in welcher sie Hauffenweiß ankommen, es ist aber eine kothige und stinckende Stadt, deßwegen sie auch das unsaubere Jerusalem heißt, daselbst lauffen sie auf den Gassen im Schlamm und Koth bis über die Knöchel herum, klagen und heulen.“ (Swedenborgs und anderer Irrdische und himmlische Philosophie, zur Prüfung des Besten ans Licht gestellt von Friedrich Christoph Oetinger. Frankfurt und Leipzig 1765. S. 136 f.)</p>
+
+</note>
+<note xml:id="gb11798_comment_com11464">
+<label xml:id="GB03_2_BR309_0_note_011_178_21" copyOf="#start_com_2694"><hi rendition="#fett">178,21</hi>Die Trauer <gap quantity="3" reason="editorial"/> in der Dämmrung!</label>
+<p>Anklang an die Sprache des Alten Testaments, vgl. u. a. Psalm 137,1: „An dem wasser zu Babel sassen wir, und weineten, wenn wir an Zion gedachten.“ (Luther-Bibel 1772 AT, 523.) – ‚Dämmerung‛ im pietistischen Verständnis als Zwischenzustand der Seele, Zustand zwischen Gott und der Welt, zwischen Licht und Finsternis; zum Gebrauch des Begriffs beim jungen Goethe vgl. zu <ref target="gb:note#GB03_2_BR068_0_note_002_45_16-17">45,16-17</ref>.</p>
+
+</note>
+<note xml:id="gb11798_comment_com11465">
+<label xml:id="GB03_2_BR309_0_note_012_178_22-23" copyOf="#start_com_2695"><hi rendition="#fett">178,22-23</hi>dass ich das Messer <gap quantity="3" reason="editorial"/> nicht von Ihnen habe</label>
+<p>Vielleicht hatte sich Goethe vor der Reise Messer und Strümpfe von der Freundin gewünscht, aber nicht mehr rechtzeitig bekommen.</p>
+
+</note>
+<note xml:id="gb11798_comment_com11466">
+<label xml:id="GB03_2_BR309_0_note_013_179_1" copyOf="#start_com_2696"><hi rendition="#fett">179,1</hi>Ihren Handschuh</label>
+<p>Für ‚ein Paar Handschuhe‛; hier wohl auch in Anspielung auf den symbolischen Gehalt „als Unterpfand der Liebe“ (<ref target="sndb:sigle#397">GWb</ref> 4, 692).</p>
+
+</note>
+<note xml:id="gb11798_comment_com13953">
+<label xml:id="GB03_2_BR309_0_note_014_179_1" copyOf="#start_com_2697"><hi rendition="#fett">179,1</hi>ehmännischer Liebhaber</label>
+<p>‚Ehemännisch‛ bei Goethe nur einmal in dieser scherzhaft paradoxen Verbindung belegt (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 1379).</p>
+
+</note>
+<note xml:id="gb11798_comment_com15344">
+<label xml:id="GB03_2_BR309_0_note_015_179_3" copyOf="#start_com_2698"><hi rendition="#fett">179,3</hi>Einige Frazzen wo der Poete sich nicht verläugnet</label>
+<p>‚Fratzen‛ hier für „übermütiger Spaß“, „harmlose Exzentrizität“ (<ref target="sndb:sigle#397">GWb</ref> 3, 869); möglicherweise eine Anspielung auf das Reisen unter falschem Namen (vgl. <ref target="gb:text#GB03_1_BR310_0_180_021 #GB03_1_BR310_0_180_022">180,21–22</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11479">
+<label xml:id="GB03_2_BR309_0_note_016_179_4" copyOf="#start_com_2699"><hi rendition="#fett">179,4</hi>Kaufmanns Diener Aufmercksamkeit</label>
+<p>Okkasionelle Wortbildung Goethes; in metaphorischer Entgegensetzung zu den ‚Fratzen des Poeten‛ im Sinne ‚besonderer Sorgfalt‛, ‚Achtsamkeit‛; Hapaxlegomenon (vgl. <ref target="sndb:sigle#397">GWb</ref> 5, 316).</p>
+
+</note>
+<note xml:id="gb11798_comment_com18063">
+<label xml:id="GB03_2_BR309_0_note_017_179_5" copyOf="#start_com_2700"><hi rendition="#fett">179,5</hi>Auf seinem Pferde</label>
+<p>Den größten Teil der Reise unternahm Goethe zu Pferde (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_069_187_13-14">187,13-14</ref>). In Weimar war er am 29. November allein aufgebrochen; von seiner ersten Station Greußen ritt er am frühen Morgen des 30. in Begleitung eines <quote type="G">Boten</quote> (<ref target="gb:text#GB03_1_BR312_0_186_001">186,1</ref>), d. h. eines bezahlten Wegführers, weiter. Auch auf der nächsten Station Ilfeld nahm Goethe einen Boten, der ihn bis Elbingerode begleitete (vgl. zu <ref target="gb:note#GB03_2_BR312_0_note_004_186_1-2">186,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11480">
+<label xml:id="GB03_2_BR309_0_note_018_179_6" copyOf="#start_com_2701"><hi rendition="#fett">179,6</hi>Mantelsackgen</label>
+<p>Mantelsack, ein Reisebehältnis, ursprünglich aus Tuch zur Verwahrung des Mantels; später gleichbedeutend mit dem so genannten Felleisen, einem Reisebehältnis aus Leder in zylindrischer oder viereckiger Form (vgl. <ref target="sndb:sigle#3019">Pierer</ref> 10, 841).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11481">
+<label xml:id="GB03_2_BR309_0_note_019_179_8" copyOf="#start_com_2702"><hi rendition="#fett">179,8</hi><gap quantity="5" reason="illegible" unit="chars"/>r</label>
+<p>Goslar, wo Goethe am 4. Dezember eingetroffen war (vgl. „Goethes Harzreise“ in der einleitenden <ref target="gb:note#gb11798_comment_com4359">Erläuterung</ref> zum vorliegenden Brief). Noch immer hielt er seinen Aufenthaltsort und somit auch die Reiseroute vor Charlotte von Stein geheim (vgl. zu <ref target="gb:note#GB03_2_BR309_0_note_001_178_9">178,9</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11482">
+<label xml:id="GB03_2_BR309_0_note_020_179_9-10" copyOf="#start_com_2703"><hi rendition="#fett">179,9-10</hi>Bleystifft Blättgen</label>
+<p>Briefteil vom 2. Dezember 1777 (vgl. <ref target="gb:note#gb11798_comment_com2563">Überlieferung</ref>), der, nach Goethes Formulierung zu schließen, erst mit dem vorliegenden, am 4. Dezember begonnenen Brief abgeschickt wurde.</p>
+
+</note>
+<note xml:id="gb11798_comment_com11497">
+<label xml:id="GB03_2_BR309_0_note_021_179_10-11" copyOf="#start_com_2704"><hi rendition="#fett">179,10-11</hi>entsezlich Wetter <gap quantity="3" reason="editorial"/> ausgestanden</label>
+<p>Im Tagebuch vom 4. Dezember hält Goethe fest: 4. <quote type="G">Uber Ilsenburg, auf Goslar <gap quantity="3" reason="editorial"/> grimmig Wetter.</quote> (<ref target="gb:text#GB03_1_BR312_0_186_009">186,9</ref>.)</p>
+
+</note>
+<note xml:id="gb11798_comment_com15347">
+<label xml:id="GB03_2_BR309_0_note_022_179_12" copyOf="#start_com_2705"><hi rendition="#fett">179,12</hi>Schlossen</label>
+<p>Schloßen: Hagel.</p>
+
+</note>
+<note xml:id="gb11798_comment_com13966">
+<label xml:id="GB03_2_BR309_0_note_023_179_13" copyOf="#start_com_2706"><hi rendition="#fett">179,13</hi>an einer Nordwand eines Waldgebürgs</label>
+<p>Die Reiseroute von Wernigerode über Ilsenburg und Harzburg nach Goslar führt etwa 25 km an der Harznordwand entlang.</p>
+
+</note>
+<note xml:id="gb11798_comment_com11498">
+<label xml:id="GB03_2_BR309_0_note_024_179_15-18" copyOf="#start_com_2707"><hi rendition="#fett">179,15-18</hi>Mein Abenteuer <gap quantity="3" reason="editorial"/> muss es Geheimniss seyn.</label>
+<p>Anspielung auf den Besuch bei Friedrich Victor Leberecht Plessing, den Goethe, wie sein Reisetagebuch für Charlotte von Stein nahelegt, am 3. Dezember besucht hatte: <quote type="G">auf Wernigerode. mit P.</quote> <supplied>Plessing</supplied><quote type="G">spazieren auf die Berge pppp.</quote> (<ref target="gb:text#GB03_1_BR312_0_186_008">186,8</ref>; ebenso <ref target="gt:dokument#487">GT I 1, 53</ref>.) Der mit Goethe gleichaltrige Plessing war der Sohn eines Wernigeroder Theologen. Nach juristischen Studien in Göttigen, einer kurzen Zeit als Fähnrich in einem niederländischen Regiment und einem Theologiestudium in Wittenberg, Halle und Leipzig war er – wahrscheinlich ohne regulären Abschluss – ins Elternhaus zurückgekehrt. Wie viele seiner Generation war auch er ein begeisterter Leser der „Leiden des jungen Werthers“ (vgl. <ref target="gb:note#GB02_2_BR207_0_note_021_175_4-5">GB II 2, zu 175,4–5</ref>), dessen Verfasser er 1777 brieflich um Rat gebeten hatte. – Die Begegnung mit Plessing in Wernigerode beschrieb Goethe ausführlich in seiner 1821/22 entstandenen autobiographischen Schrift <q>Campagne in Frankreich 1792</q> (vgl. <ref target="sndb:sigle#1157">WA</ref> I 33, 208–226): Er habe in Plessing einen grüblerisch introvertierten Mann kennen gelernt, der <quote type="G">von der Außenwelt niemals Kenntniß genommen, dagegen sich durch Lectüre mannichfaltig ausgebildet, alle seine Kraft und Neigung aber nach innen gewendet und sich auf diese Weise, da er in der Tiefe seines Lebens kein productives Talent fand, so gut als zu Grunde gerichtet</quote> hat (ebd., 222). Goethes Bemühen, Plessing <quote type="G">die Natur und ihre gränzenlose Mannichfaltigkeit</quote> als <quote type="G">das beste Heilmittel</quote> (ebd., 223) nahezubringen, sei ohne Erfolg geblieben. Mit <quote type="G">der Versicherung, es könne und solle ihm</quote> <supplied>Plessing</supplied> <quote type="G">nichts in dieser Welt genügen,</quote> wurde Goethe <quote type="G">so entschieden abgewiesen</quote>, dass er sich schließlich <quote type="G">durch den beschwerlichen Weg, im Bewußtsein des besten Willens <gap quantity="3" reason="editorial"/> von jeder weiteren Pflicht entbunden glaubte.</quote> (Ebd., 225.) Er habe am nächsten Morgen brieflich Abschied genommen und sei weiter nach Goslar geritten (vgl. ebd., 226). Auch wenn die Schilderung, die erst mehr als vierzig Jahre später entstand, keineswegs als authentischer Reisebericht zu lesen ist und in vielen Details nicht zuverlässig sein mag (vgl. z. B. zu <ref target="gb:note#GB03_2_BR310_0_note_004_180_21">180,21</ref>), finden sich doch Parallelen zu den Aufzeichnungen, die unmittelbar während der Harzreise niedergeschrieben wurden. So bezeichnet Goethe noch in der „Campagne“ den überstandenen Besuch bei Plessing analog zum vorliegenden Brief als ein <quote type="G">Abenteuer</quote> (<ref target="sndb:sigle#1157">WA</ref> I 33, 226). Ebenso stimmt die Schilderung des morgendlichen Rittes am Nordosthang des Harzes mit den Tagebuchaufzeichnungen und Briefen an Charlotte von Stein überein (vgl. ebd.). Die ‚Plessing-Episode‘ der „Campagne“ leitet Goethe mit vier Strophen aus dem Gedicht „Harzreise im Winter“ ein (vgl. ebd., 217 f.; vgl. Beilage zu <ref target="gb:dokument#11894">Nr 388</ref>). Dadurch sowie durch Goethes 1821 im 3. Band von „Über Kunst und Alterthum“ erschienener Entgegnung auf die „Harzreise“-Interpretation Carl Ludwig Kannegießers (vgl. <ref target="sndb:sigle#1157">WA</ref> I 41.1, 328–339) wurde eine stark an der Biographie des Dichters orientierte Interpretationstradition begründet, die den ‚Unglücklichen‛ und ‚abseits Stehenden‛ des Gedichts mit der Person Plessings gleichsetzte. Erst etwa seit den 1970er Jahren wurde dieser Ansatz u. a. durch die Einbeziehung der Reisebriefe und Tagebuchaufzeichnungen erheblich ausgeweitet, später zum Teil auch gänzlich abgelehnt (eine Zusammenfassung der neueren Interpretationen bietet Bernd Leistner: Harzreise im Winter. In: <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 1, 159–163). – Der Kontakt zwischen Goethe und Plessing blieb nach der ersten persönlichen Begegnung noch einige Jahre bestehen. Wahrscheinlich vom 22. bis 24. Februar 1778 besuchte Plessing den Dichter in Weimar (vgl. <ref target="gt:dokument#530">GT I 1, 61</ref>), mit dem er auch weiterhin im Briefwechsel stand. Erhalten hat sich allerdings nur ein Brief Goethes an Plessing vom 26. Juli 1782 (<ref target="gb:dokument#11934">GB 5, Nr 183</ref>). Briefe Plessings an Goethe sind nicht überliefert. Zu einer letzten persönlichen Begegnung Goethes mit Plessing kam es Ende 1792 in Duisburg, wo dieser seit 1788 an der Universität als Professor der Philosophie angestellt war (vgl. Campagne in Frankreich 1792; <ref target="sndb:sigle#1157">WA</ref> I 33, 208).</p>
+
+</note>
+<note xml:id="gb11798_comment_com18182">
+<label xml:id="GB03_2_BR309_0_note_025_179_19-20" copyOf="#start_com_2708"><hi rendition="#fett">179,19-20</hi>die Götter wissen allein <gap quantity="3" reason="editorial"/> ihr Wille geschehe</label>
+<p>Der letzte Teil in Anklang an den Beginn des „Vaterunsers“: „Unser Vatter in dem himmel. Dein name werde geheiliget. Dein reich komme. Dein wille geschehe auf erden, wie im himmel.“ (Matthäus 6,9–10; Luther-Bibel 1772 NT, 8.) – Wohl auch mit Bezug auf den Besuch bei Plessing; mit deutlichen Parallelen hierzu schrieb Goethe noch im Brief an Plessing vom 26. Juli 1782: <quote type="G">So viel kann ich Sie versichern daß ich mitten im Glück in einem anhaltenden Entsagen lebe, und täglich bey aller Mühe und Arbeit sehe daß nicht mein Wille, sondern der Wille einer höhern Macht geschieht, deren Gedancken nicht meine Gedancken sind.</quote> (<ref target="gb:text#GB05_1_BR183_0_113_012 #GB05_1_BR183_0_113_015">GB 5 I, 113,12-15</ref>.) – In Anklang daran die Verse 6–8 des Gedichts „Auf dem Harz im Dezember. 1778 <supplied>1777</supplied>“: <quote type="G">Denn ein Gott hat / Jedem seine Bahn / Vorgezeichnet</quote> (<ref target="gb:text#GB03_1_BR388_0_222_012 #GB03_1_BR388_0_222_014">222,12–14</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11515">
+<label xml:id="GB03_2_BR309_0_note_026_179_21" copyOf="#start_com_2709"><hi rendition="#fett">179,21</hi>in Mauern und Dächern des Alterthums</label>
+<p>Anspielung auf das mittelalterliche Gepräge der (bis 1803) freien Reichsstadt Goslar mit Stadtmauer, Wehrtürmen, Kirchen, Dom und Kaiserpfalz (aus dem 11. Jahrhundert). – ‚Altertum‛ hier mit Bezug auf das deutsche Mittelalter (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 429). Noch stärker empfand Goethe den anachronistischen Charakter Goslars, als er nach Clausthal kam (vgl. <ref target="gb:text#GB03_1_BR312_0_186_015 #GB03_1_BR312_0_186_016">186,15–16</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com14093">
+<label xml:id="GB03_2_BR309_0_note_027_179_22" copyOf="#start_com_2710"><hi rendition="#fett">179,22</hi>Bey einem Wirthe</label>
+<p>Johann Nicolaus Scheffler (vgl. <ref target="gb:text#GB03_1_BR312_0_186_009">186,9</ref>); sein Gasthaus in der Worthstraße 2 in der Nähe des Marktplatzes soll noch bis in die Mitte des 19. Jahrhunderts bestanden haben (vgl. <ref target="sndb:sigle#2803">Dennert</ref>, 13, Anm. 3).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11516">
+<label xml:id="GB03_2_BR309_0_note_028_179_23" copyOf="#start_com_2711"><hi rendition="#fett">179,23</hi>Philisterey</label>
+<p>Hier auf den Hauswirt und guten Gastgeber bezogen (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 7, 1827 f.); nicht im üblichen pejorativen Sinn gebraucht, in dem auch Goethe das Wort überwiegend verwendet (vgl. <ref target="gb:text#GB01_1_BR090_0_223_008">GB 1 I, 223,8</ref>; <ref target="gb:text#GB01_1_BR095_0_227_021">227,21</ref>; <ref target="gb:text#GB01_1_BR109_0_239_004">239,4</ref>; vgl. die Paraphrasierung in „Zu brüderlichem Andenken Wielands / 1813“; <ref target="sndb:sigle#1157">WA</ref> I 36, 322).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11517">
+<label xml:id="GB03_2_BR309_0_note_029_180_1-2" copyOf="#start_com_2712"><hi rendition="#fett">180,1-2</hi>was schencken <gap quantity="3" reason="editorial"/> auf so einer Reise braucht</label>
+<p>Mit Bezug auf die wenig später erwähnte Uhr.</p>
+
+</note>
+<note xml:id="gb11798_comment_com11534">
+<label xml:id="GB03_2_BR309_0_note_030_180_2" copyOf="#start_com_2713"><hi rendition="#fett">180,2</hi>in</label>
+<p>Oberdt. für die „im Hochdeutschen außer der Zusammensetzung veraltete Partikel“ ‚ein‛ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 1686).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11535">
+<label xml:id="GB03_2_BR309_0_note_031_180_10" copyOf="#start_com_2714"><hi rendition="#fett">180,10</hi>Sorglichkeit</label>
+<p>Besorgtheit, Sorge; Ende des 18. Jahrhunderts im Hochdeutschen veraltet (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 152).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11536">
+<label xml:id="GB03_2_BR309_0_note_032_180_13" copyOf="#start_com_2715"><hi rendition="#fett">180,13</hi>d<g ref="#typoSuspension"/> 5. Dez.</label>
+<p>Am 5. Dezember besuchte Goethe von Goslar aus die Bergwerke am Rammelsberg, dem alten Bergbaurevier südlich der Stadt (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR312_0_note_016_186_11">186,11</ref>).</p>
+
+</note>
+<note xml:id="gb11798_comment_com11537">
+<label xml:id="GB03_2_BR309_0_note_033_180_16" copyOf="#start_com_2716"><hi rendition="#fett">180,16</hi>steinen</label>
+<p>Josias von Stein.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

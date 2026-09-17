@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="370"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10675" n="GB 3, Nr. 37">
+  <teiHeader xml:id="gb10675_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>37.</label> An <persName key="sndb:person#36161">Gottfried August Bürger</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 2. Februar 1776. Freitag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:49Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10675_tei.xml</idno>
+        <idno type="URI">gb10675</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR037_0</idno>
+        <idno type="KSW-ID">10675</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="27" to="29">27-29</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="124" to="126">124-126</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10675_header_hwit868" corresp="#gb10675_source_hwit868" sameAs="#gb10675_comment_hwit868" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Düsseldorf</placeName>
+            </settlement>
+            <institution key="sndb:standort#6">Goethe-Museum</institution>
+            <idno type="shelfmark">Anton-und-Katharina-Kippenberg-Stiftung, NW 1195/1970</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10675,,868/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Dein Brief L. Bruder that mir weh da er mich in einer glücklichen Stimmung traf</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb10675_header_acc352" corresp="gb10675_comment_acc352">
+            <objectIdentifier>
+              <objectName>1 Exemplar von Goethes „Stella. Ein Schauspiel für Liebende“ (Berlin 1776) </objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-02-02">2. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#36161">Bürger, Gottfried August</persName>
+            <supplied><placeName key="sndb:ort#96932">Altengleichen</placeName></supplied>
+            <supplied><placeName key="sndb:ort#92274">Wöllmarshausen</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#62">RA 1, Nr. 58</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#65">RA 1, Nr. 60</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10675_source_hwit868" corresp="#gb10675_header_hwit868" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10675/34140"/>
+      <p>
+        <anchor xml:id="GB03_1_BR037_0_027_019"/>
+        <ref target="gb:note#GB03_2_BR037_0_note_001_27_19" xml:id="start_com_0459"/>Dein Brief L. Bruder that mir weh<ref xml:id="end_com_0459"/> da er<ptr n="1" target="#a001_27.19"/> mich in einer glücklichen 
+<anchor xml:id="GB03_1_BR037_0_027_020"/>Stimmung traf. – Da ich iezt in einer Lage bin da ich mich immer 
+<anchor xml:id="GB03_1_BR037_0_027_021"/>von Tag zu Tage aufzubieten habe, tausend grosem und kleinem, Lie
+  <!--<figure><graphic url="abb01.tif"/><p rendition="#einrueck1">Abb. 1: Goethe an Charlotte von Stein,
+    <supplied>3. Februar? 1776</supplied> (Nr 39)</p></figure>-->
+        <anchor xml:id="GB03_1_BR037_0_029_001"/>be und Hass, Hundsfütterey und Kraft, meinen Kopf und Brust entge
+  <anchor xml:id="GB03_1_BR037_0_029_002"/>gen sezzen muss so ist mir’s wohl. O du lieber einsamer! – Hätt ich 
+  <anchor xml:id="GB03_1_BR037_0_029_003"/>ein <ref target="gb:note#GB03_2_BR037_0_note_002_29_3" xml:id="start_com_0460"/>Weib und Kind<ref xml:id="end_com_0460"/> für das alles was dünckt ich mir zu seyn – So sind 
+  <anchor xml:id="GB03_1_BR037_0_029_004"/>wir, und so müssen wir seyn. <ref target="gb:note#GB03_2_BR037_0_note_003_29_4-5" xml:id="start_com_0461"/>Hier was süser Junge das dir soll Liebes  <anchor xml:id="GB03_1_BR037_0_029_005"/>und Lebens Wärme in den Schnee bringen.<ref xml:id="end_com_0461"/> Lies lass dir wohl werden. 
+  <anchor xml:id="GB03_1_BR037_0_029_006"/>Herz die deinen und denck mein. D<g ref="#typoSuspension"/>. 2 Febr. im Augenblick des 
+  <anchor xml:id="GB03_1_BR037_0_029_007"/>Empf deines Briefs. 76. Weimar.</p>
+    <pb n="2" facs="gb:digitalisate#10675/34141" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10675_comment">
+<body>
+<div type="metadata" xml:id="gb10675_comment_com1018">
+  <ab type="numberAddressee"><label>37.</label> An <persName key="sndb:person#36161">Gottfried August Bürger</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 2. Februar 1776 → <supplied><placeName key="sndb:ort#96932">Altengleichen</placeName></supplied> und <supplied><placeName key="sndb:ort#92274">Wöllmarshausen</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10675_comment_com3062">
+  <p>H: Goethe-Museum Düsseldorf, Anton-und-Katharina-Kippenberg-Stiftung, Sign.: NW 1195/1970. – 1 Bl. 17 × 11 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte; Vs. oben links von fremder Hd: „36“.</p>
+  <p>E: <ref target="sndb:sigle#894">Strodtmann</ref> 1 (1874), 273, Nr 209.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 27, Nr 399.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb10675_comment_com3745">
+  <p>1 Exemplar von Goethes „Stella. Ein Schauspiel für Liebende“ (Berlin 1776) (vgl. zu <ref target="gb:note#GB03_2_BR037_0_note_003_29_4-5">29,4–5</ref>).</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10675_comment_com4858">
+  <p>Der Brief beantwortet Bürgers Brief von Januar 1776 (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 266, Nr 202; vgl. <ref target="ra:dokument#62">RA 1, 64, Nr 58</ref>). – Bürger antwortete am 9. März 1776 (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 282 f., Nr 218; vgl. <ref target="ra:dokument#65">RA 1, 65, Nr 60</ref>), zugleich auf den von Philipp Seidel im Auftrag Goethes geschriebenen Brief vom 26. Februar 1776 (<ref target="gb:dokument#15740">Nr 52</ref>).</p>
+  <p rendition="#einrueck1">Gottfried August Bürger (1747–1794) war seit 1772 Amtmann in der Gerichtshalterstelle zu Altengleichen (heute Gemeinde Gleichen) in der Nähe von Göttingen mit Amtssitz in Gelliehausen. Er wohnte seit September 1775 im nahe gelegenen Wöllmarshausen. Über seine Beziehung zu Goethe und den Briefwechsel zwischen beiden vgl. die einleitende Erläuterung zum Brief vom 12. Februar 1774 (<ref target="gb:note#gb10697_comment_com4848">GB 2 II, Nr 93</ref>). – Bürger litt unter beruflichen und privaten Sorgen. Immer wieder klagte er darüber in Briefen an Freunde. Seine juristische Tätigkeit wurde ihm durch desolates Aktenwesen, Intrigen und ausbleibende Einkünfte verleidet: „Verdruß über Verdruß! Chikane über Chikane! Hudeley über Hudeley! Und doch seit zwei Jahren kein Gehalt!“ (Brief an Johann Wilhelm Ludwig Gleim, 6. Juli 1775; <ref target="sndb:sigle#894">Strodtmann</ref> 1, 233.) Im Brief an Heinrich Christian Boie vom 11. November 1775 heißt es drastisch: „Indessen sitz ich doch immer auf meinem kleinen dämmernden Stübchen und schmiere so lange fort, bis ich nicht mehr kann, und den Kopf zum Fenster hinaushalten und einmal kotzen muß.“ (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 255.) Persönliche Probleme traten hinzu. Seit November 1774 war er mit Dorothea Leonhardt verheiratet, liebte jedoch deren Schwester Auguste und lebte in einer Doppelbeziehung. Zu den aktuellen privaten Kümmernissen gehörten auch der Tod der Mutter im Dezember 1775 und die damit notwendig gewordene „Anordnung meiner FamilienAngelegenheiten“ (Brief an Johann Wilhelm Ludwig Gleim, 2. Januar 1776; <ref target="sndb:sigle#894">Strodtmann</ref> 1, 264).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10675_comment_com17550">
+<label xml:id="GB03_2_BR037_0_note_001_27_19" copyOf="#start_com_0459"><hi rendition="#fett">27,19</hi>Dein Brief L. Bruder that mir weh</label>
+<p>Im Bezugsbrief hatte Bürger geschrieben: „Ich bin todt, mein lieber Junge, und in kalten Wasserfluthen versoffen, und versaufe täglich immer mehr und sterbe täglich immer mehr. Meine Lebenssäfte sind ausgetrocknet oder erstarrt bis auf die Galle. Diese ist nun einzige und Selbstherrscherinn meiner ganzen Maschine. Wie gefällt Dir Timon, zu deütsch Gifftmichel, in seiner Höhle? Und wie die Ogres, die so gern frisches Kinderfleisch wittern und fressen mögen? Wenn ich Dich nicht auch für einen Gifftmichel hielte, wenn ich wüste, daß Du ein galanter Menschenfreünd wärest, so würd’ ich keinen Schritt mehr nach Dir thun.“ (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 266.) – Timon: Anspielung auf den Misanthropen in Shakespeares Tragödie „Timon von Athen“; Oger, franz. ogre: Menschenfresser, Unhold in Märchen und Sagen (z. B. „Der kleine Däumling“).</p>
+
+</note>
+<note xml:id="gb10675_comment_com9823">
+<label xml:id="GB03_2_BR037_0_note_002_29_3" copyOf="#start_com_0460"><hi rendition="#fett">29,3</hi>Weib und Kind</label>
+<p>Im Bezugsbrief heißt es: „Ich habe ein gutes Weib und ein schönes Kind vom zweyten Geschlecht, aber was helfen die einem Herzen, über welchem Basilisken brüten.“ (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 266.) Gemeint sind Dorothea Bürger und die am 24. Mai 1775 geborene Tochter Antoinette, die bereits am 12. Dezember 1777 starb.</p>
+
+</note>
+<note xml:id="gb10675_comment_com17467">
+<label xml:id="GB03_2_BR037_0_note_003_29_4-5" copyOf="#start_com_0461"><hi rendition="#fett">29,4-5</hi>Hier was <gap quantity="3" reason="editorial"/> in den Schnee bringen.</label>
+<p>Goethes im Januar 1776 erschienenes Schauspiel „Stella“. – Die Art der Ankündigung seines Stückes wie auch der weitere Kontext beziehen sich auf Bürgers Brief vom Januar, in dem dieser abschließend gebeten hatte: „Apropos! mein lieber Göthe, schreib doch mal bey Gelegenheit, ob Du Dich kennst? Und wie Dus anfängst Dich kennen zu lernen? Denn ich lern’ es nimmer mehr, und kenne Keinen weniger als mich selbst. / Wenn Du was gemacht hast, das den bösen Geist auf ein Weilchen aus mir heraus bannen kann, so must Du mirs selbst nachweisen, denn ich liege verrammelt und scheere mich um nichts, was draußen vorgehet.“ (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 266.) Trotz aller Andeutungen konnte Goethe kaum Kenntnis von Bürgers Liebe zu seiner Schwägerin Auguste haben und wissen, in welchem Maß die Personenkonstellation in der „Stella“ – ein Mann zwischen zwei Frauen – dessen Situation widerspiegelte. Die durch die Sage vom Grafen von Gleichen literarisch vorgeprägte, jedoch alle religiösen Normen und moralischen Konventionen der Zeit sprengende Lösung in einer Ehe zu dritt muss bei Bürger im Unterschied zur Mehrheit der Zeitgenossen auf Zustimmung gestoßen sein (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>). Unter anderem die Lektüre dieses Stücks habe ihn, schrieb Bürger in seinem Antwortbrief vom 9. März 1776, „wieder elastisch gemacht, <gap quantity="3" reason="editorial"/> die dicke Luft um mich ventilirt und ätherisirt, <gap quantity="3" reason="editorial"/> den todten stehenden Sumpf umgerührt und die frische helle Quelle wieder aufgeraümt. Ich wandle wieder in der Krafft Gottes und schnaube den lebendigen Oden, den mir Gott in die Nase geblasen. Mich durchströmet der Muth und das Gefühl gesunder Jugend“ (ebd., 283).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

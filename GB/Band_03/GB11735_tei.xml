@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3140"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11735" n="GB 3, Nr. 308">
+  <teiHeader xml:id="gb11735_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>308.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 29. November 1777. Samstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:12:52Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11735_tei.xml</idno>
+        <idno type="URI">gb11735</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR308_0</idno>
+        <idno type="KSW-ID">11735</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="178" to="178">178</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="603" to="604">603-604</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11735_header_hwit1276" corresp="#gb11735_source_hwit1276" sameAs="#gb11735_comment_hwit1276" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 63</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11735,,1276/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Adieu liebe Frau, ich streiche gleich ab. Die Feder hab ich vergessen das ärgert mich</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-11-29">29. November 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11735_source_hwit1276" corresp="#gb11735_header_hwit1276" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11735/22732"/>
+      <p>
+        <anchor xml:id="GB03_1_BR308_0_178_003"/>Adieu liebe Frau, <ref target="gb:note#GB03_2_BR308_0_note_001_178_3" xml:id="start_com_2678"/>ich streiche gleich ab<ref xml:id="end_com_2678"/>. Die <ref target="gb:note#GB03_2_BR308_0_note_002_178_3" xml:id="start_com_2679"/>Feder<ref xml:id="end_com_2679"/> hab ich vergessen 
+<anchor xml:id="GB03_1_BR308_0_178_004"/>das ärgert mich. Sie hatten mir sie gestern wohl geben können. Indess 
+<anchor xml:id="GB03_1_BR308_0_178_005"/>sollen Sie doch einen Brief haben. Adieu sagen Sie auch <ref target="gb:note#GB03_2_BR308_0_note_003_178_5" xml:id="start_com_2680"/>Steinen<ref xml:id="end_com_2680"/>. Ich 
+<anchor xml:id="GB03_1_BR308_0_178_006"/>bin <ref target="gb:note#GB03_2_BR308_0_note_004_178_6" xml:id="start_com_2681"/>in wunderbaar dunckler Verwirung<ptr n="1" target="#a001_178.6"/>
+        <ref xml:id="end_com_2681"/> meiner Gedancken. Hören 
+<anchor xml:id="GB03_1_BR308_0_178_007"/>Sie den <ref target="gb:note#GB03_2_BR308_0_note_005_178_7" xml:id="start_com_2682"/>Sturm<ref xml:id="end_com_2682"/> der wird schön um mich pfeifen.    d<g ref="#typoSuspension"/>. 29 Nov 77.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR308_0_178_008"/>
+        <signed rend="paraph" rendition="#einrueck21">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11735_comment">
+<body>
+<div type="metadata" xml:id="gb11735_comment_com590">
+  <ab type="numberAddressee"><label>308.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 29. November 1777 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11735_comment_com2634">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 63. – 1 Bl. 19,5 × 7,4(–8) cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „56.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1777, Nr 59), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 125 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 188 f., Nr 649.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11735_comment_com4430">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11735_comment_com17936">
+<label xml:id="GB03_2_BR308_0_note_001_178_3" copyOf="#start_com_2678"><hi rendition="#fett">178,3</hi>ich streiche gleich ab</label>
+<p>Streichen: schnell gehen, laufen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 434); hier im Sinne von ‚sich heimlich davonmachen‛ (vgl. zu <ref target="gb:note#GB03_2_BR269_0_note_001_148_7">148,7</ref>). – Goethe trat am 29. November eine <quote type="G">heimliche Reise</quote> (<ref target="gt:dokument#480">GT I 1, 52</ref>) in den Harz an (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11798_comment_com4359">Nr 309</ref>).</p>
+
+</note>
+<note xml:id="gb11735_comment_com11208">
+<label xml:id="GB03_2_BR308_0_note_002_178_3" copyOf="#start_com_2679"><hi rendition="#fett">178,3</hi>Feder</label>
+<p>Schreib- und Zeichenfeder, offenbar ein Geschenk Charlotte von Steins (vgl. Beilage zu <ref target="gb:note#gb11652_comment_com3578">Nr 252</ref>).</p>
+
+</note>
+<note xml:id="gb11735_comment_com11209">
+<label xml:id="GB03_2_BR308_0_note_003_178_5" copyOf="#start_com_2680"><hi rendition="#fett">178,5</hi>Steinen</label>
+<p>Josias von Stein, der wohl nach längerer Abwesenheit wieder nach Weimar zurückgekehrt war (vgl. zu <ref target="gb:note#GB03_2_BR304_0_note_004_176_1-2">176,1-2</ref>).</p>
+
+</note>
+<note xml:id="gb11735_comment_com17992">
+<label xml:id="GB03_2_BR308_0_note_004_178_6" copyOf="#start_com_2681"><hi rendition="#fett">178,6</hi>in wunderbaar dunckler Verwirung</label>
+<p>Von der inneren Unruhe, in der sich Goethe trotz seiner äußerlich gefestigten Stellung in Weimar befand, ist in den vorausgehenden Briefen des Jahres 1777 vielfach die Rede (vgl. <ref target="gb:text#GB03_1_BR222_0_131_001 #GB03_1_BR222_0_131_002">131,1–2</ref>; <ref target="gb:text#GB03_1_BR279_0_154_017 #GB03_1_BR279_0_154_018">154,17–18</ref>). Auf seiner Reise durch den winterlichen Harz beschreibt sich Goethe, zumindest bis zur Brockenbesteigung am 10. Dezember, als Getriebenen, der an <quote type="G">keinem Orte Ruh</quote> (<ref target="gb:text#GB03_1_BR311_0_183_005">183,5</ref>) findet. – ‚Dunkel‘ im übertragenen Sinn: „ohne klares Bewußtsein von etw, aber ahnungsvoll“ (<ref target="sndb:sigle#397">GWb</ref> 2, 1293); etwa seit August 1777 von Goethe in seinen Briefen häufiger mit Bezug auf seinen Bewusstseinszustand gebraucht (vgl. zu <ref target="gb:note#GB03_2_BR282_0_note_004_159_20-21">159,20-21</ref>).</p>
+
+</note>
+<note xml:id="gb11735_comment_com11210">
+<label xml:id="GB03_2_BR308_0_note_005_178_7" copyOf="#start_com_2682"><hi rendition="#fett">178,7</hi>Sturm</label>
+<p>Wie Goethes Tagebucheintrag vom 29. November belegt, muss der vorliegende Brief ganz früh am Tag geschrieben worden sein: <quote type="G">Früh gegen sieben ab übern Ettersberg in scharfen Schlossen</quote> <supplied>Hagel</supplied> (<ref target="gt:dokument#483">GT I 1, 52</ref>). Von der ersten Station der Reise heißt es im Tagebuch: <quote type="G">20 Min. auf 1 in Weissensee</quote> <supplied>etwa 40 km nordöstlich von Weimar</supplied>. <quote type="G">stürmisch gebrochen Wetter, reine Ruh in der Seele <gap quantity="3" reason="editorial"/></quote> (ebd.).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

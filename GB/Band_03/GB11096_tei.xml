@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1410"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11096" n="GB 3, Nr. 140">
+  <teiHeader xml:id="gb11096_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>140.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName> mit <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 25. Juni &#x2012;9. Juli <supplied>1776. Dienstag&#x2012;Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:57Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11096_tei.xml</idno>
+        <idno type="URI">gb11096</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR140_0</idno>
+        <idno type="KSW-ID">11096</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="81" to="84">81-84</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="324" to="331">324-331</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11096_header_hwit1020" corresp="#gb11096_source_hwit1020" sameAs="#gb11096_comment_hwit1020" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 119 und Bl. 23</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11096,,1020/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>d. 25. Nachts. sagt ich's nicht! kaum sind Sie weg, schon so ein Tag, ein unendlich verwickelter Tag</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName> und
+            <persName key="sndb:person#40962">Sachsen-Weimar und Eisenach, Carl August Herzog von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date from="1776-06-25" to="1776-07-09">25. Juni-9. Juli <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <placeName key="sndb:ort#78959">Pyrmont</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11096_source_hwit1020" corresp="#gb11096_header_hwit1020" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11096/22395"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_081_022"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_001_81_22" xml:id="start_com_1277"/>d<g ref="#typoSuspension"/>. 25. Nachts. sagt ich’s nicht! kaum sind Sie weg<ref xml:id="end_com_1277"/>, schon so ein Tag, 
+<anchor xml:id="GB03_1_BR140_0_081_023"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_002_81_23" xml:id="start_com_1278"/>ein unendlich verwickelter Tag<ref xml:id="end_com_1278"/>, dass ich kaum schreiben, und eigentlich 
+<anchor xml:id="GB03_1_BR140_0_081_024"/>gar nichts schreiben kann. Was sich nur sagen liesse Kaum sagen 
+<anchor xml:id="GB03_1_BR140_0_081_025"/>liesse! – Gute Nacht Beste.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_082_001"/>d<g ref="#typoSuspension"/>. 2 Jul.<ptr n="1" target="#a001_82.1"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_003_82_1" xml:id="start_com_1279"/>Es ist und bleibt Gegenwart alles!<ref xml:id="end_com_1279"/> – Was hilft mich’s <ref target="gb:note#GB03_2_BR140_0_note_004_82_1-2" xml:id="start_com_1280"/>dass 
+<anchor xml:id="GB03_1_BR140_0_082_002"/>Sie in der Welt sind, dass Sie an mich dencken<ref xml:id="end_com_1280"/>. Sie fehlen mir an allen 
+<anchor xml:id="GB03_1_BR140_0_082_003"/>Ecken, ich schleiche meinen Tag herum und es ist mir eben weh bey 
+<anchor xml:id="GB03_1_BR140_0_082_004"/>der Sache. <ref target="gb:note#GB03_2_BR140_0_note_005_82_4" xml:id="start_com_1281"/>Mit Wielanden hab ich göttlich reine Stunden.<ref xml:id="end_com_1281"/> Das tröstet 
+<anchor xml:id="GB03_1_BR140_0_082_005"/>mich viel. <ref target="gb:note#GB03_2_BR140_0_note_006_82_5" xml:id="start_com_1282"/>Ihre Schwester<ref xml:id="end_com_1282"/> ist gut, sie kommt wohl einmal vor <ref target="gb:note#GB03_2_BR140_0_note_007_82_5-6" xml:id="start_com_1283"/>meinem 
+<anchor xml:id="GB03_1_BR140_0_082_006"/>Garten<ref xml:id="end_com_1283"/> vorbey und guckt ob ich drinn bin. hinein ist sie noch nicht 
+<anchor xml:id="GB03_1_BR140_0_082_007"/>kommen. Ich hab ihr Rosen geschickt und hab sie lieb. <ref target="gb:note#GB03_2_BR140_0_note_008_82_7-8" xml:id="start_com_1284"/>Dass sie für 
+<anchor xml:id="GB03_1_BR140_0_082_008"/>mich zeichnen<ref xml:id="end_com_1284"/> macht mir hoffnung. Der<ptr n="2" target="#a002_82.8"/> kleine ruhige<ptr n="3" target="#a003_82.8"/> Land Blick hat 
+<anchor xml:id="GB03_1_BR140_0_082_009"/>mir gar wohl an Herzen gethan. – Sie werden noch herrlich zeichnen 
+<anchor xml:id="GB03_1_BR140_0_082_010"/>lernen. Nur immer das Datum an ein Eckgen ganz klein. Addio.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_082_011"/>Nachts <ref target="gb:note#GB03_2_BR140_0_note_009_82_11" xml:id="start_com_1285"/>hab<ref xml:id="end_com_1285"/> eilf der Mondschein war so göttlich ich lief noch <ref target="gb:note#GB03_2_BR140_0_note_010_82_11-12" xml:id="start_com_1286"/>ins 
+<anchor xml:id="GB03_1_BR140_0_082_012"/>Wasser<ref xml:id="end_com_1286"/>. <ref target="gb:note#GB03_2_BR140_0_note_011_82_12" xml:id="start_com_1287"/>Auf der Wiese<ref xml:id="end_com_1287"/> und Mond. Gute Nacht <pb n="2" facs="gb:digitalisate#11096/22396"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_082_013"/>d<g ref="#typoSuspension"/>. 9 Juli. Gestern Nachts lieg ich im Bette schlafe schon halb<ptr n="4" target="#a004_82.13"/>,
+        <ref target="gb:note#GB03_2_BR140_0_note_012_82_13-14" xml:id="start_com_1288"/>Philip<ref xml:id="end_com_1288"/>
+        <anchor xml:id="GB03_1_BR140_0_082_014"/>bringt mir einen Brief, <ref target="gb:note#GB03_2_BR140_0_note_013_82_14" xml:id="start_com_1289"/>dumpfsinnig<ref xml:id="end_com_1289"/> les ich – <ref target="gb:note#GB03_2_BR140_0_note_014_82_14-15" xml:id="start_com_1290"/>dass Lili eine Braut 
+<anchor xml:id="GB03_1_BR140_0_082_015"/>ist<ref xml:id="end_com_1290"/>!! kehre mich um und schlafe fort. — — Wie ich das Schicksaal<ptr n="5" target="#a005_82.15"/> anbete 
+<anchor xml:id="GB03_1_BR140_0_082_016"/>dass es so mit mir verfährt! — So alles zur rechten Zeit — — Lieber 
+<anchor xml:id="GB03_1_BR140_0_082_017"/>Engel gute nacht.</p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_082_018"/>══</p>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_082_019"/>Ubrigens gehts so entsezlich durcheinander mit mir dass es eine Freud 
+<anchor xml:id="GB03_1_BR140_0_082_020"/>ist. Ade.</p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_1_BR140_0_082_021"/><graphic url="gb:digitalisate#11096/67462" width="60px"/>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_082_022"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_015_82_22" xml:id="start_com_1291"/>Die Imhof<ref xml:id="end_com_1291"/> kriegt manchmal<ptr n="6" target="#a006_82.22"/> was von <ref target="gb:note#GB03_2_BR140_0_note_016_82_22" xml:id="start_com_1292"/>Intressen<ref xml:id="end_com_1292"/> davon ich die <ref target="gb:note#GB03_2_BR140_0_note_017_82_22-23" xml:id="start_com_1293"/>Quittungen<ref xml:id="end_com_1293"/>
+        <anchor xml:id="GB03_1_BR140_0_082_023"/>aufweisen kann. </p>
+      <p rendition="#einrueck11">
+        <anchor xml:id="GB03_1_BR140_0_082_024"/><graphic url="gb:digitalisate#11096/67462" width="60px"/>
+      </p>
+      <p rendition="#einrueck10">
+        <anchor xml:id="GB03_1_BR140_0_082_025"/>Dein Tagbuch!!! </p>
+      <space quantity="1" unit="lines"/>
+      <pb n="3" facs="gb:digitalisate#11096/22398"/><p>
+        <anchor xml:id="GB03_1_BR140_0_082_026"/>D. 27. Jun. Nachts. <ref target="gb:note#GB03_2_BR140_0_note_018_82_26" xml:id="start_com_1294"/>Ich schlafe beym Herz.<ref xml:id="end_com_1294"/> und eh ich mich auf’s Canapee 
+<anchor xml:id="GB03_1_BR140_0_082_027"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_019_82_27" xml:id="start_com_1295"/>streiche<ref xml:id="end_com_1295"/> nur ein Wort Dancks für <ref target="gb:note#GB03_2_BR140_0_note_020_82_27" xml:id="start_com_1296"/>die Zeichnung<ref xml:id="end_com_1296"/>! Sie ist ganz 
+<anchor xml:id="GB03_1_BR140_0_082_028"/>herrlich, ganz wahr,<ptr n="7" target="#a007_82.28"/> und deine ganze Seele in der Wahrheit, das Gefühl 
+<anchor xml:id="GB03_1_BR140_0_082_029"/>des Friedens der mit dir geht an den <ref target="gb:note#GB03_2_BR140_0_note_021_82_29" xml:id="start_com_1297"/>Bauer Schwellen<ref xml:id="end_com_1297"/>. Liebe allen 
+<anchor xml:id="GB03_1_BR140_0_082_030"/>Danck und gute Nacht.</p>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_1_BR140_0_082_031"/><graphic url="gb:digitalisate#11096/67462" width="60px"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_001"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_022_83_1" xml:id="start_com_1298"/>d<g ref="#typoSuspension"/>. 28. Morgends!<ref xml:id="end_com_1298"/> schon <ref target="gb:note#GB03_2_BR140_0_note_023_83_1" xml:id="start_com_1299"/>in Fränzgen und schwarzem Rock<ref xml:id="end_com_1299"/>, erwartend, 
+<anchor xml:id="GB03_1_BR140_0_083_002"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_024_83_2" xml:id="start_com_1300"/>des Conseils erhabene Sizzung<ref xml:id="end_com_1300"/>. liebe Frau und dann <ref target="gb:note#GB03_2_BR140_0_note_025_83_2" xml:id="start_com_1301"/>bey Tisch<ref xml:id="end_com_1301"/>. 
+<anchor xml:id="GB03_1_BR140_0_083_003"/>Die Zeichnung freut mich! – Weil ich ganz überzeugt bin Sie werden 
+<anchor xml:id="GB03_1_BR140_0_083_004"/>in kurzem Ihrem Gefühl zu Danck und Liebe fürtragen können. Ich 
+<anchor xml:id="GB03_1_BR140_0_083_005"/>zeichne iezt leider nichts, doch wird hoff ich etwas fertig für Sie –</p>
+      <space quantity="1" unit="lines"/></div>
+     <div type="relatedText"> <p>
+        <anchor xml:id="GB03_1_BR140_0_083_006"/>Guten morgen liebe Frau, <ref target="gb:note#GB03_2_BR140_0_note_026_83_6-7" xml:id="start_com_1302"/>alle Geister der Berge, der Schlösser, der Morgen u. 
+<anchor xml:id="GB03_1_BR140_0_083_007"/>Abenddämmerung seyen ihre Begleiter<ref xml:id="end_com_1302"/>. Dencken Sie an mich; Ich<ptr n="8" target="#a008_83.7"/> treibe mich 
+<anchor xml:id="GB03_1_BR140_0_083_008"/>jetz <ref target="gb:note#GB03_2_BR140_0_note_027_83_8" xml:id="start_com_1303"/>mit Göthen ins Conseil<ref xml:id="end_com_1303"/>. <ref target="gb:note#GB03_2_BR140_0_note_028_83_8" xml:id="start_com_1304"/>Wan<ref xml:id="end_com_1304"/> Sie in <ref target="gb:note#GB03_2_BR140_0_note_029_83_8" xml:id="start_com_1305"/>Pirmont<ref xml:id="end_com_1305"/> ist liebe Frau, so <ref target="gb:note#GB03_2_BR140_0_note_030_83_8" xml:id="start_com_1306"/>trincke<ref xml:id="end_com_1306"/> Sie ja 
+<anchor xml:id="GB03_1_BR140_0_083_009"/>wenn der Morgen hübsch ist <ref target="gb:note#GB03_2_BR140_0_note_031_83_9" xml:id="start_com_1307"/>das<ptr n="9" target="#a009_83.9"/> erste glas<ref xml:id="end_com_1307"/>, auf<ptr n="10" target="#a010_83.9"/> Göthens, u. meine Gesundheit.</p>
+      <p rendition="#einrueck16">
+        <anchor xml:id="GB03_1_BR140_0_083_010"/>C. A.</p></div>
+      <div><space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_083_011"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_032_83_11" xml:id="start_com_1308"/>In deinem Zimmer<ref xml:id="end_com_1308"/> schreib ich das. habe mit den <ref target="gb:note#GB03_2_BR140_0_note_033_83_11" xml:id="start_com_1309"/>Gras affen<ref xml:id="end_com_1309"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_034_83_11" xml:id="start_com_1310"/>gessen<ref xml:id="end_com_1310"/>. 
+<anchor xml:id="GB03_1_BR140_0_083_012"/>
+        <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR140_0_note_035_83_12" xml:id="start_com_1311"/>Huder</hi> und der kleine Lauf<unclear reason="illegible">er</unclear> haben sich im Bassin gebadt<ref xml:id="end_com_1311"/> und allerley 
+<anchor xml:id="GB03_1_BR140_0_083_013"/>Possen gemacht – hier siz ich auf deinem Canape.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_014"/><graphic url="gb:digitalisate#11096/67462" width="60px"/>   Adieu Engel ——</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_015"/>5. Jul. <pb n="4" facs="gb:digitalisate#11096/22399"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_083_016"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_036_83_16" xml:id="start_com_1312"/>Wielands Garten<ref xml:id="end_com_1312"/> auch am 5. Jul. ich komm von deinem Zimmer<ptr n="11" target="#a011_83.16"/>.
+        <anchor xml:id="GB03_1_BR140_0_083_017"/>Noch ein Wort. Ich hab <ref target="gb:note#GB03_2_BR140_0_note_037_83_17" xml:id="start_com_1313"/>deine Briefe<ref xml:id="end_com_1313"/> bestellt. Grüs <ref target="gb:note#GB03_2_BR140_0_note_038_83_17" xml:id="start_com_1314"/>Zimmermannen<ref xml:id="end_com_1314"/>, 
+<anchor xml:id="GB03_1_BR140_0_083_018"/>sag ihm ich hab ihn nicht verkannt aber ich hab <ref target="gb:note#GB03_2_BR140_0_note_039_83_18-19" xml:id="start_com_1315"/>einen Pick auf all 
+<anchor xml:id="GB03_1_BR140_0_083_019"/>meine Freunde<ref xml:id="end_com_1315"/> die mich mit Schreiben von dem was man über<ptr n="12" target="#a012_83.19"/> mich 
+<anchor xml:id="GB03_1_BR140_0_083_020"/>sagte wider ihren Willen<ptr n="13" target="#a013_83.20"/> plagten. <ref target="gb:note#GB03_2_BR140_0_note_040_83_20" xml:id="start_com_1316"/>Du kennst meine Lage am besten<ref xml:id="end_com_1316"/>, 
+<anchor xml:id="GB03_1_BR140_0_083_021"/>also sag ihm was dir’s herz sagt<ptr n="14" target="#a014_83.21"/>. Sag ihm er solls für sich behalten, soll 
+<anchor xml:id="GB03_1_BR140_0_083_022"/>mich lieb behalten. Addio beste. Gestern hatt ich <ref target="gb:note#GB03_2_BR140_0_note_041_83_22-23" xml:id="start_com_1317"/>mit Louisen einen 
+<anchor xml:id="GB03_1_BR140_0_083_023"/>lieben Augenblick<ref xml:id="end_com_1317"/>   Leb wohl   denck mein wie sonst. Zeichne mir 
+<anchor xml:id="GB03_1_BR140_0_083_024"/>was.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_025"/>Mir ist ein Streich mit der<ptr n="15" target="#a015_83.25"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_042_83_25" xml:id="start_com_1318"/>Zeichnung für dich<ref xml:id="end_com_1318"/> begegnet schadt aber 
+<anchor xml:id="GB03_1_BR140_0_083_026"/>nichts. du kriegst sie doch<ptr n="16" target="#a016_83.26"/>. Adieu.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_027"/>Abends 9.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_083_028"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_043_83_28" xml:id="start_com_1319"/>Im Welschen Garten<ref xml:id="end_com_1319"/> getanzt. <ref target="gb:note#GB03_2_BR140_0_note_044_83_28" xml:id="start_com_1320"/>Deine Schwester<ref xml:id="end_com_1320"/> war da. Sie lachte mich 
+<anchor xml:id="GB03_1_BR140_0_083_029"/>aus da ich umweege machte ihr<ptr n="17" target="#a017_83.29"/> zu sagen was ich von dir wüsste. Addio 
+<anchor xml:id="GB03_1_BR140_0_083_030"/>Engel.</p>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_1_BR140_0_083_031"/><graphic url="gb:digitalisate#11096/67462" width="60px"/></p>
+     <pb n="5" facs="gb:digitalisate#11096/22401"/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_084_001"/>Als ich für dich zeichnete an der Ilm.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR140_0_084_002"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_045_84_2" xml:id="start_com_1321"/>d<g ref="#typoSuspension"/>. 29 Jun. 76. Zwischen Mittag und 1.<ref xml:id="end_com_1321"/>
+      </p>
+      <space quantity="1" unit="lines"/>
+      <lg type="poem">         
+          <anchor xml:id="GB03_1_BR140_0_084_003"/><l rendition="#einrueck3">Hier bildend nach der reinen stillen</l>
+        <anchor xml:id="GB03_1_BR140_0_084_004"/>
+        <l rendition="#einrueck3">Natur, ist ach mein Herz der alten Schmerzen voll</l>
+        <anchor xml:id="GB03_1_BR140_0_084_005"/>
+        <l rendition="#einrueck3">Leb ich doch stets um derentwillen</l>
+        <anchor xml:id="GB03_1_BR140_0_084_006"/>
+        <l rendition="#einrueck3">Um derentwillen ich nicht leben soll</l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck12">
+        <anchor xml:id="GB03_1_BR140_0_084_007"/><graphic url="gb:digitalisate#11096/67462" width="60px"/></p>
+      <space quantity="1" unit="lines"/>
+      <pb n="6" facs="gb:digitalisate#11096/22400"/>
+      <p>
+        <anchor xml:id="GB03_1_BR140_0_084_008"/>Sonst hab ich noch <ref target="gb:note#GB03_2_BR140_0_note_046_84_8" xml:id="start_com_1322"/>allerley Ihnen geschrieben<ref xml:id="end_com_1322"/>. <ref target="gb:note#GB03_2_BR140_0_note_047_84_8-9" xml:id="start_com_1323"/>Der Herzog nahm mir 
+<anchor xml:id="GB03_1_BR140_0_084_009"/>neulich was weg und wollt was drunter schreiben.<ref xml:id="end_com_1323"/> Es war danck für 
+<anchor xml:id="GB03_1_BR140_0_084_010"/>
+        <ref target="gb:note#GB03_2_BR140_0_note_048_84_10" xml:id="start_com_1324"/>ihre herzliche Zeichnung<ref xml:id="end_com_1324"/>. Brauch ich zu sagen dass ich Sie vermisse. — 
+<anchor xml:id="GB03_1_BR140_0_084_011"/>Es ist Prüfung dass Sie weg sind. Engel ade.  d<g ref="#typoSuspension"/>. 2 Juli 76.</p>
+    <pb n="7" facs="gb:digitalisate#11096/22402"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11096_comment">
+<body>
+<div type="metadata" xml:id="gb11096_comment_com51">
+  <ab type="numberAddressee"><label>140.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName> mit <persName key="sndb:person#40962">Carl August Herzog von Sachsen-Weimar und Eisenach</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 25. Juni-9. Juli <supplied>1776</supplied> → <placeName key="sndb:ort#78959">Pyrmont</placeName></ab>
+</div>
+
+<div type="date" xml:id="gb11096_comment_com1411">
+  <p>Der Brief besteht aus drei Teilen (vgl. <ref target="gb:note#gb11096_comment_com2095">Überlieferung</ref>), die im Konvolut der Briefe an Charlotte von Stein (Bd I) an zwei verschiedenen Stellen eingeordnet sind. Der erste Teil, geschrieben vom 25. Juni bis zum 9. Juli (<ref target="gb:text#GB03_1_BR140_0_081_022 #GB03_1_BR140_0_082_025">81,22–82,25</ref>), findet sich unter den undatierten Briefen am Ende des Jahrgangs 1778, die aus dem gesamten Zeitraum des ersten Bandes von 1776 bis 1778 stammen. Der Inhalt belegt jedoch eindeutig, dass er ins Jahr 1776 gehört: Zu Beginn des Briefes, datiert auf <quote type="G">d<g ref="#typoSuspension"/>. 25. Nachts </quote> (<ref target="gb:text#GB03_1_BR140_0_081_022">81,22</ref>), erwähnt Goethe eine Abreise Charlotte von Steins (vgl. <ref target="gb:text#GB03_1_BR140_0_081_022">81,22</ref>). Diese war am 25. Juni 1776 zur Kur nach Pyrmont aufgebrochen (vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>). Bestätigt wird das Jahr durch die wiederholte Erwähnung der Schwester der Adressatin (vgl. <ref target="gb:text#GB03_1_BR140_0_082_005">82,5</ref>; <ref target="gb:text#GB03_1_BR140_0_082_022">82,22</ref>), die sich seit Mitte Juni 1776 in Weimar aufhielt (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>), in den folgenden Sommern dagegen den Tagebuchaufzeichnungen und Briefen Goethes zufolge nicht in der Stadt war. Der zweite, adressierte Teil vom 27. Juni bis 5. Juli (<ref target="gb:text#GB03_1_BR140_0_082_026 #GB03_1_BR140_0_083_031">82,26–83,31</ref>) wurde im Konvolut der Briefe an Charlotte von Stein (Bd I) in den Juni/Juli 1776 eingeordnet, wofür der Inhalt des Briefes spricht: Die Mitteilung zu Beginn <quote type="G">D. 27. Jun. Nachts. Ich schlafe beym Herz.</quote> (<ref target="gb:text#GB03_1_BR140_0_082_026">82,26</ref>) stimmt mit dem Tagebucheintrag vom 27. Juni 1776 überein (vgl. <ref target="gt:dokument#81">GT I 1, 21</ref>), ebenso die Erwähnung der Sitzung des Geheimen Consiliums am folgenden Tag (vgl. <ref target="gb:text#GB03_1_BR140_0_083_002">83,2</ref>), das 1776 am 28. Juni tagte (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_022_83_1">83,1</ref>). Auf derselben Seite des Konvoluts befindet sich auch der vollständig datierte dritte Teil des Briefes vom 29. Juni und 2. Juli 1776 (<ref target="gb:text#GB03_1_BR140_0_084_001 #GB03_1_BR140_0_084_011">84,1–11</ref>).</p>
+  <p rendition="#einrueck1">Seit dem Erstdruck werden alle Teile ins Jahr 1776 gesetzt. Schöll ordnet den Text chronologisch an, so dass trotz der gemeinsamen Überlieferung der Eindruck entsteht, es handele sich um insgesamt neun separate Briefe. Seit Fielitz werden die Teile meist als drei, bei Düntzer, der sie ebenfalls chronologisch ordnet, als fünf getrennte Nummern gedruckt (vgl. <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 42–45, Nr 72–74; <ref target="sndb:sigle#2816">Düntzer, Goethe-Stein</ref>, 42–44, Nr 64–68). Abweichend davon betrachtet nur die WA alle Teile als einen Brief, ordnet sie aber ähnlich wie Schöll und Düntzer ohne Rücksicht auf die Überlieferung rein chronologisch „als eine Art Tagebuch“ an (<ref target="sndb:sigle#1157">WA</ref> IV 3, 286, zu Nr 484). Sie hier als einen Brief in drei getrennt überlieferten Teilen wiederzugeben, erscheint dadurch gerechtfertigt, dass die Briefteile zeitlich parallel entstanden sind, wobei der erste Teil in einem Zeitraum geschrieben wurde, der die Entstehungszeit der beiden anderen Teile einschließt. Der zweite Teil, am 27. Juli in den Räumen des Herzogs begonnen (vgl. <ref target="gb:text#GB03_1_BR140_0_082_026">82,26</ref>) und dort am folgenden Tag fortgeführt, blieb danach möglicherweise einige Tage in den Händen Herzog Carl Augusts (vgl. <ref target="gb:text#GB03_1_BR140_0_083_006 #GB03_1_BR140_0_083_010">83,6–10</ref>) und wurde von Goethe am 5. Juli beendet. In der Zwischenzeit muss Charlotte von Steins Brief aus Pyrmont angekommen sein, woraufhin Goethe am 2. Juli seinen am 25. Juni begonnenen Brief fortsetzte (vgl. <ref target="gb:text#GB03_1_BR140_0_082_001 #GB03_1_BR140_0_082_002">82,1–2</ref>) und auch den dritten Teil, das Gedicht vom 29. Juni, mit einem Zusatz versah (vgl. <ref target="gb:text#GB03_1_BR140_0_084_008 #GB03_1_BR140_0_084_011">84,8–11</ref>). Es ist daher anzunehmen, dass alle drei Briefteile gemeinsam abgesandt wurden. Dafür spricht auch der Umstand, dass nur der zweite Teil adressiert und gesiegelt ist und Versandspuren aufweist. Ihm könnten die beiden anderen Teile beigelegen haben, die jeweils auf einem Blatt in kleinerem Format als das für den zweiten Teil verwendete Doppelblatt überliefert sind (vgl. <ref target="gb:note#gb11096_comment_com2095">Überlieferung</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11096_comment_com2095">
+  <p>1) Briefteil vom 25. Juni bis 9. Juli (<ref target="gb:text#GB03_1_BR140_0_081_022 #GB03_1_BR140_0_082_025">81,22–82,25</ref> <quote type="G">d<g ref="#typoSuspension"/>. 25. <gap quantity="3" reason="editorial"/> Tagbuch!!!</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 119. – 1 Bl., 16,8 × 20 cm, 1 &#x2154; S. (S. 1 vollständig, S. 3 zu zwei Dritteln) beschr., egh., Tinte:; S. 1 oben rechts von fremder Hd, Tinte: „100“. – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 103), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 43, 44 f., 46 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 82, 83 f., 84 f., Nr 484 (Textkorrektur in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50 [1912], 214).</p>
+  <p>2) Briefteil vom 27. Juni bis 5. Juli (<ref target="gb:text#GB03_1_BR140_0_082_026 #GB03_1_BR140_0_083_031">82,26–83,31</ref> <quote type="G">D. 27. Jun. Nachts <gap quantity="3" reason="editorial"/> 5. Jul.</quote>, Rs.: <quote type="G">Wielands Garten <gap quantity="3" reason="editorial"/> wüßte. Addio Engel. <graphic url="gb:digitalisate#11096/67462" width="60px"/></quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 23. – Doppelblatt 19 &#xD7; 23 cm, 2 S. beschr., egh., Tinte, Bleistift (<ref target="gb:text#GB03_1_BR140_0_083_011 #GB03_1_BR140_0_083_014">83,11–14</ref> <quote type="G">In deinem Zimmer <gap quantity="3" reason="editorial"/> Adieu Engel –––</quote>), flüchtig geschrieben, Carl Augusts Hd, Tinte (Petitdruck); S. 3 Adresse: <quote type="G">An /Frau von Stein / gebohrne v. Schardt / nach / Pyrmont / fr. Cassel</quote>, rotes Initialsiegel: „G“, Postvermerk; S. 1 unten rechts von Charlotte von Steins Hd, Tinte: „(umge<unclear reason="illegible">w</unclear>)“, oben rechts von fremder Hd, Tinte: „63.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 63), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 43 f., 45 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 82 f., 84 f., Nr 484.</p>
+  <p>3) Briefteil vom 29. Juni und 2. Juli 1776 (<ref target="gb:text#GB03_1_BR140_0_084_001 #GB03_1_BR140_0_084_011">84,1–11</ref> <quote type="G">Als ich für dich zeichnete <gap quantity="3" reason="editorial"/> d<g ref="#typoSuspension"/>. 2 Juli 76.</quote>):</p>
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 23. – 1 Bl. 10,7 &#xD7; 10,6(–10,9) cm, aus größerem Blatt ausgeschnitten, jeweils &#xBD; S. beschr., Rs. quer zur Schreibrichtung der Vs. beschrieben, egh., Tinte; Vs. unten rechts, Charlotte von Steins Hand: „(verte)“, oben rechts von fremder Hd., Tinte: „62.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 62), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 44.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 83, Nr 484.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11096_comment_com3891">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief oder mehrere nicht überlieferte Briefe Charlotte von Steins von Ende Juni 1776 aus Pyrmont (vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_004_82_1-2">82,1-2</ref>; zu <ref target="gb:note#GB03_2_BR140_0_note_008_82_7-8">82,7-8</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11096_comment_com5886">
+<label xml:id="GB03_2_BR140_0_note_001_81_22" copyOf="#start_com_1277"><hi rendition="#fett">81,22</hi>d<g ref="#typoSuspension"/>. 25. Nachts. <gap quantity="3" reason="editorial"/> sind Sie weg</label>
+<p>Am 25. Juni 1776 brach Charlotte von Stein zur Kur nach Pyrmont auf. Goethe vermerkte unter diesem Datum im Tagebuch: <quote type="G">Morgens &#x2609;</quote> <supplied>Charlotte von Stein</supplied> <quote type="G">Weg.</quote> (<ref target="gt:dokument#80">GT I 1, 21</ref>.) Vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com17759">
+<label xml:id="GB03_2_BR140_0_note_002_81_23" copyOf="#start_com_1278"><hi rendition="#fett">81,23</hi>ein unendlich verwickelter Tag</label>
+<p>Am 25. Juni 1776 fand Goethes Amtseinführung und Vereidigung als Geheimer Legationsrat mit Sitz und Stimme im Geheimen Consilium statt (vgl. <ref target="gt:dokument#80">GT I 1, 19</ref>); beide Vorgänge sind protokollarisch belegt (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 197–200, Nr 4 und 5). Anschließend hat Goethe <quote type="G">Bey Hofe gessen</quote> (<ref target="gt:dokument#80">GT I 1, 19</ref>). Laut Fourierbuch nahmen an diesem Tag 18 Personen an der fürstlichen Mittagstafel teil, nach Jacob Friedrich von Fritsch und Christian Friedrich Schnauß wird „<supplied>H<g ref="#typoSuspension"/>.</supplied> Ge<g ref="#typoSuspension"/>. Leg<g ref="#typoSuspension"/>. Rath Gehde“ als 14. Gast namentlich genannt (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 189). Am Abend waren Wieland, Lenz und Johann August von Kalb zu Gast in Goethes Garten. Kalb war zeitgleich mit Goethe befördert worden und bekleidete nun das Amt des Kammerpräsidenten, das zuvor sein Vater innegehabt hatte. Außerdem anwesend war der erst am Tag zuvor in Weimar eingetroffene Friedrich Maximilian Klinger (vgl. <ref target="gt:dokument#80">GT I 1, 21</ref>; zu <ref target="gb:note#GB03_2_BR146_0_note_011_90_18-19">90,18-19</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com15803">
+<label xml:id="GB03_2_BR140_0_note_003_82_1" copyOf="#start_com_1279"><hi rendition="#fett">82,1</hi>Es ist <gap quantity="3" reason="editorial"/> Gegenwart alles!</label>
+<p>Ganz ähnlich hatte sich Goethe schon in den Briefen vom 24. Mai und 22. Juni 1776 geäußert (vgl. <ref target="gb:text#GB03_1_BR115_0_070_015 #GB03_1_BR115_0_070_016">70,15–16</ref>; <ref target="gb:text#GB03_1_BR133_0_077_008 #GB03_1_BR133_0_077_009">77,8–9</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10364">
+<label xml:id="GB03_2_BR140_0_note_004_82_1-2" copyOf="#start_com_1280"><hi rendition="#fett">82,1-2</hi>dass Sie in der Welt <gap quantity="3" reason="editorial"/> an mich dencken</label>
+<p>Wahrscheinlich mit Bezug auf einen nicht überlieferten Brief Charlotte von Steins von Ende Juni aus Pyrmont.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10365">
+<label xml:id="GB03_2_BR140_0_note_005_82_4" copyOf="#start_com_1281"><hi rendition="#fett">82,4</hi>Mit Wielanden <gap quantity="3" reason="editorial"/> reine Stunden.</label>
+<p>Wieland nennt Goethe in einem Brief an Merck vom 5. Juli 1776 einen „Mann nach meinem Herzen“, mit dem er „wieder ein paar Tage herrl. genoßen“ habe. „Er hat mich in Voriger Woche en profil (auf seinem Garten) gezeichnet – In Größe eines nicht gar kleinen Mignaturbildes. Alles was halbweg Menschenaugen hat, sagt, es sehe mir ungemein gleich. Mir kömts auch so vor. Noch kein Maler von Profess. hat mich nur leidlich getroffen. Der Hauptumstand ist, daß es <hi rendition="#hervor1">Göthe</hi>, und <hi rendition="#hervor1">con amore</hi> gemacht hat.“ (<ref target="sndb:sigle#141">WB</ref> 5, 519 f.)</p>
+
+</note>
+<note xml:id="gb11096_comment_com10366">
+<label xml:id="GB03_2_BR140_0_note_006_82_5" copyOf="#start_com_1282"><hi rendition="#fett">82,5</hi>Ihre Schwester</label>
+<p>Louise von Imhoff geb. von Schardt, eine jüngere Schwester Charlotte von Steins, die in Weimar die Geburt ihres ersten Kindes erwartete (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com13716">
+<label xml:id="GB03_2_BR140_0_note_007_82_5-6" copyOf="#start_com_1283"><hi rendition="#fett">82,5-6</hi>meinem Garten</label>
+<p>Goethes Garten oberhalb des „Sterns“ (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com17650">
+<label xml:id="GB03_2_BR140_0_note_008_82_7-8" copyOf="#start_com_1284"><hi rendition="#fett">82,7-8</hi>Dass sie für mich zeichnen</label>
+<p>Offenbar hatte Charlotte von Stein auf ihrer Reise nach Pyrmont gezeichnet und die Zeichnung von unterwegs an Goethe geschickt, da er sich bereits am 27. Juni dafür bedankt (vgl. <ref target="gb:text#GB03_1_BR140_0_082_027 #GB03_1_BR140_0_082_029">82,27–29</ref>). Goethe hatte die Freundin schon in den ersten Monaten ihrer Bekanntschaft für seine Zeichenleidenschaft zu begeistern versucht (vgl. zu <ref target="gb:note#GB03_2_BR081_0_note_004_52_10">52,10</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10379">
+<label xml:id="GB03_2_BR140_0_note_009_82_11" copyOf="#start_com_1285"><hi rendition="#fett">82,11</hi>hab</label>
+<p>Versehentlich für ‚halb‘.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10380">
+<label xml:id="GB03_2_BR140_0_note_010_82_11-12" copyOf="#start_com_1286"><hi rendition="#fett">82,11-12</hi>ins Wasser</label>
+<p>Wahrscheinlich bei der Badestelle am Wehr in der Nähe der Kegelbrücke (vgl. zu <ref target="gb:note#GB03_2_BR129_0_note_003_76_1">76,1</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10381">
+<label xml:id="GB03_2_BR140_0_note_011_82_12" copyOf="#start_com_1287"><hi rendition="#fett">82,12</hi>Auf der Wiese</label>
+<p>Die Ilmwiesen unterhalb von Goethes Garten (vgl. <ref target="gb:text#GB03_1_BR114_0_066_014">66,14</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10382">
+<label xml:id="GB03_2_BR140_0_note_012_82_13-14" copyOf="#start_com_1288"><hi rendition="#fett">82,13-14</hi>Philip</label>
+<p>Philipp Seidel, Goethes Diener und Hausgenosse.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10383">
+<label xml:id="GB03_2_BR140_0_note_013_82_14" copyOf="#start_com_1289"><hi rendition="#fett">82,14</hi>dumpfsinnig</label>
+<p>Hier: benommen, verworren (vgl. zu <ref target="gb:note#GB03_2_BR082_0_note_005_53_2">53,2</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com17656">
+<label xml:id="GB03_2_BR140_0_note_014_82_14-15" copyOf="#start_com_1290"><hi rendition="#fett">82,14-15</hi>dass Lili eine Braut ist</label>
+<p>Anna Elisabeth (Lili) Schönemann, mit der Goethe in Frankfurt 1775 nach eigener später Auskunft in „Dichtung und Wahrheit“ (17. Buch) inoffiziell verlobt gewesen war, ging im Sommer 1776 mit einem jungen Straßburger aus angesehener Familie eine neue Verlobung ein, die vermutlich den Wünschen ihrer Familie mehr entsprochen hat als eine Verbindung mit Goethe (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb51217_comment_com4802">GB 2 II, Z 1</ref>). Allerdings kam es wiederum nicht zu einer Heirat (vgl. zu <ref target="gb:note#GB03_2_BR079_0_note_008_51_18">51,18</ref>). Lili Schönemann heiratete schließlich am 25. August 1778 den Straßburger Bankier Bernhard Friedrich von Türckheim und folgte ihm in seine Heimatstadt (vgl. <ref target="gb:text#GB03_1_BR534_0_303_015 #GB03_1_BR534_0_303_023">303,15–23</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10390">
+<label xml:id="GB03_2_BR140_0_note_015_82_22" copyOf="#start_com_1291"><hi rendition="#fett">82,22</hi>Die Imhof</label>
+<p>Louise von Imhoff geb. von Schardt, Charlotte von Steins Schwester.</p>
+
+</note>
+<note xml:id="gb11096_comment_com17770">
+<label xml:id="GB03_2_BR140_0_note_016_82_22" copyOf="#start_com_1292"><hi rendition="#fett">82,22</hi>Intressen</label>
+<p>‚Interessen‘ hier in der zeitgenössischen Bedeutung ‚Zinsen‘. – Goethe hatte demnach wahrscheinlich auch von Charlotte von Stein ein Darlehen erhalten, für das er über deren Schwester Zinsen zahlte. In der ersten Weimarer Zeit musste sich Goethe mehrfach Geld leihen (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>; die erste Erläuterung zu <ref target="gb:note#GB03_2_BR058_0_note_001_41_12">41,12</ref>). Dass Louise von Imhoff selbst die Darlehensgeberin war, ist aufgrund der Kürze ihrer Bekanntschaft mit Goethe auszuschließen. Der Zeitpunkt der Zinszahlung hängt offenbar mit Goethes Berufung ins Geheime Consilium zusammen; laut Anstellungsdekret sollte ihm zu Johannis 1776, also am 24. Juni, sein erstes Gehalt gezahlt werden. Das Anfangsgehalt betrug jährlich 1200 Reichstaler. Die erste Zahlung wurde von der Fürstlichen Kammer tatsächlich am 21. Juni angewiesen und erfolgte fortan vierteljährlich (vgl. <ref target="sndb:sigle#1205">Bradish</ref>, 39).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10391">
+<label xml:id="GB03_2_BR140_0_note_017_82_22-23" copyOf="#start_com_1293"><hi rendition="#fett">82,22-23</hi>Quittungen</label>
+<p>Nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10392">
+<label xml:id="GB03_2_BR140_0_note_018_82_26" copyOf="#start_com_1294"><hi rendition="#fett">82,26</hi>Ich schlafe beym Herz.</label>
+<p>In den Wohnräumen des Herzogs im zweiten Stock des Fürstenhauses (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR033_0_note_004_26_10">26,10</ref>), wo Goethe bereits im April in der Zeit der Erkrankung Carl Augusts häufig übernachtet hatte (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR080_0_note_002_52_2">52,2</ref>). – Vgl. auch <ref target="gb:note#gb11096_comment_com1411">Datierung</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10393">
+<label xml:id="GB03_2_BR140_0_note_019_82_27" copyOf="#start_com_1295"><hi rendition="#fett">82,27</hi>streiche</label>
+<p>‚Streichen‘ hier für ‚strecken‘.</p>
+
+</note>
+<note xml:id="gb11096_comment_com18743">
+<label xml:id="GB03_2_BR140_0_note_020_82_27" copyOf="#start_com_1296"><hi rendition="#fett">82,27</hi>die Zeichnung</label>
+<p>Der im ersten Briefteil erwähnte <quote type="G">kleine ruhige Land Blick</quote> (<ref target="gb:text#GB03_1_BR140_0_082_008">82,8</ref>; vgl. zu <ref target="gb:note#GB03_2_BR140_0_note_008_82_7-8">82,7-8</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10394">
+<label xml:id="GB03_2_BR140_0_note_021_82_29" copyOf="#start_com_1297"><hi rendition="#fett">82,29</hi>Bauer Schwellen</label>
+<p>‚Schwelle‘ hier wohl für ‚Haus‘, ‚Wohnung‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 9, 2490); laut GWb steht ‚Bauerschwelle‘ symbolisch für die bäuerliche Welt insgesamt (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 105); allerdings ist das Kompositum bei Goethe nur im vorliegenden Brief belegt.</p>
+
+</note>
+<note xml:id="gb11096_comment_com17664">
+<label xml:id="GB03_2_BR140_0_note_022_83_1" copyOf="#start_com_1298"><hi rendition="#fett">83,1</hi>d<g ref="#typoSuspension"/>. 28. Morgends!</label>
+<p>Am 28. Juni 1776, einem Freitag, nahm Goethe zum ersten Mal an einer Sitzung des Geheimen Consiliums teil, dessen offizielles Mitglied er seit seiner Amtseinführung und Vereidigung am 25. Juni 1776 war (vgl. Tagebucheintrag vom 28. Juni 1776; <ref target="gt:dokument#82">GT I 1, 21</ref>). Gewöhnlich fanden die Sitzungen am Dienstag und/oder am Freitag statt, nicht selten wurde auch samstags getagt (vgl. <ref target="sndb:sigle#3094">Sessionskalender</ref> 1776–1786; <ref target="sndb:sigle#32">AS</ref> 1, LXX–LXXIX).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10406">
+<label xml:id="GB03_2_BR140_0_note_023_83_1" copyOf="#start_com_1299"><hi rendition="#fett">83,1</hi>in Fränzgen und schwarzem Rock</label>
+<p>Laut Fourierbuch mussten Minister, Räte und Hofkavaliere als Zeichen der Trauer um die am 30. April 1776 verstorbene russische Großfürstin Natalia Alexejewna, eine Schwester der Herzogin Louise, „schwarze Kleider mit seidenem Futter, Manschetten mit <hi rendition="#hervor1">Fränzchen</hi> <supplied>Fransen</supplied>, silberne Degen und Schnallen“ tragen (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 191).</p>
+
+</note>
+<note xml:id="gb11096_comment_com17719">
+<label xml:id="GB03_2_BR140_0_note_024_83_2" copyOf="#start_com_1300"><hi rendition="#fett">83,2</hi>des Conseils erhabene Sizzung</label>
+<p>Wahrscheinlich tagte das Geheime Consilium in einem Nebengebäude des so genannten Roten Schlosses, 1574–1576 als Witwensitz für die Herzogin Dorothea Susanna von Sachsen-Weimar errichtet (vgl. <ref target="sndb:sigle#3021">Plan der Stadt Weimar 1784</ref>). Das Nebengebäude wurde zu Beginn des 19. Jahrhunderts abgerissen. Im Nachtrag zu einer „Chronik der Stadt Weimar von 1763 bis 1811“, aus Anlass einer Reparatur des Daches der Schlossturmspitze mit in den Turmknopf eingelegt, findet sich der folgende Hinweis: „Zwischen dem H<supplied>erzoglichen</supplied> Hofmarschall-Amts Gebäude und dem Fürstenhauß lief von dem Gelben Schloß aus hinter dem Rothen Schloß, jetzt der H<supplied>erzoglichen</supplied> Regierung, weg, schräg nach dem Fürstenhauß zu, ehedem noch ein altes Gebäude, worinne, vor der Wiederaufbauung des Residenz-Schloßes, die Sessionen des Geh<supplied>eimen</supplied> Consilii gehalten und welches im Jahr 1808 abgetragen wurde. Ingleichen stand in eben dieser Gegend, dem Fürstenhauß gerade über, eine Küche, die ein Jahr später weggerissen wurde.“ (Nach einer Abschrift von Johann Friedrich August Zahn von 1811; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Landschaft und Landtag B 8479, Bl. 40a.) – Es wird auch vermutet, dass sich die Amtszimmer direkt im Roten Schloss befanden (heute Teil der Herzogin Anna Amalia Bibliothek), und zwar im zweiten Stock in drei benachbarten repräsentativen Räumen mit Blick in Richtung Marktplatz. Das Consilium könnte im größten Raum, dem zweifenstrigen Mittelzimmer, getagt haben, das noch im 19. Jahrhundert als ‚Rathszimmer‘ bezeichnet wurde und zentral über dem leicht versetzten Torportal liegt (vgl. Volker Wahl: Goethe im Conseil – aber wo? In: Schaukasten 10. Internetveröffentlichung des <ref target="sndb:sigle#1324">ThHStA Weimar</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10407">
+<label xml:id="GB03_2_BR140_0_note_025_83_2" copyOf="#start_com_1301"><hi rendition="#fett">83,2</hi>bey Tisch</label>
+<p>Am 28. Juni 1776 waren Goethe sowie die zwei anderen Mitglieder des Geheimen Consiliums, Jacob Friedrich von Fritsch und Christian Friedrich Schnauß, Gäste der fürstlichen Mittagstafel, an der laut Fourierbuch insgesamt 24 Personen teilnahmen (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 192).</p>
+
+</note>
+<note xml:id="gb11096_comment_com15037">
+<label xml:id="GB03_2_BR140_0_note_026_83_6-7" copyOf="#start_com_1302"><hi rendition="#fett">83,6-7</hi>alle Geister der Berge  <gap quantity="3" reason="editorial"/>  ihre Begleiter</label>
+<p>In Anspielung auf Charlotte von Steins Reise nach Pyrmont und ihre unterwegs angefertigte und wahrscheinlich schon abgeschickte Zeichnung (vgl. <ref target="gb:text#GB03_1_BR140_0_082_008">82,8</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com13663">
+<label xml:id="GB03_2_BR140_0_note_027_83_8" copyOf="#start_com_1303"><hi rendition="#fett">83,8</hi>mit Göthen ins Conseil</label>
+<p>Demnach stammt Carl Augusts Briefteil ebenfalls vom 28. Juni 1776, dem ersten Sitzungstag des Geheimen Consiliums, an dem Goethe teilgenommen hat.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10419">
+<label xml:id="GB03_2_BR140_0_note_028_83_8" copyOf="#start_com_1304"><hi rendition="#fett">83,8</hi>Wan</label>
+<p>Für ‚wenn‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1382). – Charlotte von Stein war auf direktem Weg nach Pyrmont gereist, also zum Zeitpunkt, als sie der vorliegende Brief erreichte, ganz gewiss schon dort (vgl. zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com15816">
+<label xml:id="GB03_2_BR140_0_note_029_83_8" copyOf="#start_com_1305"><hi rendition="#fett">83,8</hi>Pirmont</label>
+<p>Pyrmont (vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_006_62_6">62,6</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10420">
+<label xml:id="GB03_2_BR140_0_note_030_83_8" copyOf="#start_com_1306"><hi rendition="#fett">83,8</hi>trincke</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_006_62_6">62,6</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10421">
+<label xml:id="GB03_2_BR140_0_note_031_83_9" copyOf="#start_com_1307"><hi rendition="#fett">83,9</hi>das erste glas</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR102_0_note_006_62_6">62,6</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com15050">
+<label xml:id="GB03_2_BR140_0_note_032_83_11" copyOf="#start_com_1308"><hi rendition="#fett">83,11</hi>In deinem Zimmer</label>
+<p>Im Stadthaus der Familie von Stein in der Kleinen Teichgasse 8, nahe dem heutigen Kasseturm (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10706_comment_com4869">Nr 18</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10422">
+<label xml:id="GB03_2_BR140_0_note_033_83_11" copyOf="#start_com_1309"><hi rendition="#fett">83,11</hi>Gras affen</label>
+<p>Grasaffe: Kosename für ‚Kinder‘; mitunter auch leicht spöttisch für ‚junge Mädchen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 440); hier wohl die Söhne Charlotte von Steins und andere im Haus anwesende Kinder (zu Herkunft und Verwendung des Begriffs vgl. zu <ref target="gb:note#GB03_2_BR086_0_note_007_55_22">55,22</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10423">
+<label xml:id="GB03_2_BR140_0_note_034_83_11" copyOf="#start_com_1310"><hi rendition="#fett">83,11</hi>gessen</label>
+<p>Oberdt. Form des Partizips Perfekt (vgl. zu <ref target="gb:note#GB03_2_BR023_0_note_004_21_12">21,12</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10435">
+<label xml:id="GB03_2_BR140_0_note_035_83_12" copyOf="#start_com_1311"><hi rendition="#fett">83,12</hi><hi rendition="#hervor1">Huder</hi> und der kleine Lauf<unclear reason="illegible">er</unclear> <gap quantity="3" reason="editorial"/> im Bassin gebadt</label>
+<p>Namen zweier Kinder, die Carl von Imhoff aus Indien mitgebracht hatte (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR132_0_note_004_76_16">76,16</ref>). Nach Auskunft Friedrich von Steins: „Zwei kleine Mohrenknaben und Geschwister, die Imhoff aus Indien mitgebracht hatte, und die uns sehr liebe Gespielen waren. Die Gärten meiner Eltern und Großeltern stießen an einander und hatten ein Bassin.“ (Zitiert nach: <ref target="sndb:sigle#2832">Fielitz, Goethe-Stein</ref> 1, 413, Anm. 1 [zu S. 44].)</p>
+
+</note>
+<note xml:id="gb11096_comment_com15817">
+<label xml:id="GB03_2_BR140_0_note_036_83_16" copyOf="#start_com_1312"><hi rendition="#fett">83,16</hi>Wielands Garten</label>
+<p>Wielands Garten am „Wilden Graben“ vor dem Erfurter Tor südwestlich der Weimarer „Vorstadt vor dem Frauenthore“ (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR102_0_note_002_62_1">62,1</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com15051">
+<label xml:id="GB03_2_BR140_0_note_037_83_17" copyOf="#start_com_1313"><hi rendition="#fett">83,17</hi>deine Briefe</label>
+<p>Offenbar die dem nicht überlieferten Brief an Goethe beigeschlossenen Briefe Charlotte von Steins an andere Adressaten; gleichfalls nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10436">
+<label xml:id="GB03_2_BR140_0_note_038_83_17" copyOf="#start_com_1314"><hi rendition="#fett">83,17</hi>Zimmermannen</label>
+<p>Johann Georg Zimmermann; ihn vor allem hoffte Charlotte von Stein in Pyrmont wiederzusehen (vgl. zu <ref target="gb:note#GB03_2_BR097_0_note_008_59_14">59,14</ref>; zu <ref target="gb:note#GB03_2_BR133_0_note_004_77_7">77,7</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com14211">
+<label xml:id="GB03_2_BR140_0_note_039_83_18-19" copyOf="#start_com_1315"><hi rendition="#fett">83,18-19</hi>einen Pick auf all meine Freunde</label>
+<p>‚Pick‘ von franz. pique: Pike, Spieß, im übertragenen Sinn ‚Groll‘; nur in Goethes frühen Briefen belegt (vgl. u. a. <ref target="gb:text#GB03_1_BR072_0_048_022">48,22</ref>; <ref target="gb:text#GB03_1_BR193_0_120_011">120,11</ref>; <ref target="gb:text#GB03_1_BR218_0_129_015">129,15</ref>, <ref target="gb:text#GB03_1_BR302_0_175_011">175,11</ref> sowie <ref target="gb:text#GB02_1_BR266_0_219_019">GB 2 I, 219,19</ref>). Laut Herder soll der Ausdruck in Weimar aber noch in den 1780er Jahren ein „Lieblingswort“ gewesen sein (Herder an Johann Georg Hamann, 10. März 1783; <ref target="sndb:sigle#2904">HB</ref> 4, 258). – Zur Sache vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10437">
+<label xml:id="GB03_2_BR140_0_note_040_83_20" copyOf="#start_com_1316"><hi rendition="#fett">83,20</hi>Du kennst meine Lage am besten</label>
+<p>Vgl. dazu Charlotte von Steins Brief an Zimmermann vom 6. März 1776, abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com15063">
+<label xml:id="GB03_2_BR140_0_note_041_83_22-23" copyOf="#start_com_1317"><hi rendition="#fett">83,22-23</hi>mit Louisen einen lieben Augenblick</label>
+<p>Mit Bezug auf die junge Herzogin Louise (vgl. <ref target="gb:text#GB03_1_BR034_0_026_018 #GB03_1_BR034_0_026_019">26,18–19</ref>; zu <ref target="gb:note#GB03_2_BR035_0_note_004_27_3-4">27,3-4</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10446">
+<label xml:id="GB03_2_BR140_0_note_042_83_25" copyOf="#start_com_1318"><hi rendition="#fett">83,25</hi>Zeichnung für dich</label>
+<p>Um welche Zeichnung es sich handelt, konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11096_comment_com10447">
+<label xml:id="GB03_2_BR140_0_note_043_83_28" copyOf="#start_com_1319"><hi rendition="#fett">83,28</hi>Im Welschen Garten</label>
+<p>Der Welsche (auch Walscher oder Wälscher) Garten, südlich der Ackerwand gelegen, ursprünglich als Gemüse- und Obstgarten angelegt, seit Mitte des 17. Jahrhunderts zu einem Renaissancegarten umgestaltet und danach mehrfach verändert, heute Teil des Parks an der Ilm (Goethepark).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10448">
+<label xml:id="GB03_2_BR140_0_note_044_83_28" copyOf="#start_com_1320"><hi rendition="#fett">83,28</hi>Deine Schwester</label>
+<p>Louise von Imhoff.</p>
+
+</note>
+<note xml:id="gb11096_comment_com17691">
+<label xml:id="GB03_2_BR140_0_note_045_84_2" copyOf="#start_com_1321"><hi rendition="#fett">84,2</hi>d<g ref="#typoSuspension"/>. 29 Jun. 76. Zwischen Mittag und 1</label>
+<p>Laut Tagebuch war Goethe in seinem Garten, hatte am Vormittag Besuch von Wieland und dessen Frau sowie dem Eisenacher Vizekanzler Johann Ludwig von Mauchenheim gen. von Bechtolsheim und war <quote type="G">Mittag allein</quote> (<ref target="gt:dokument#83">GT I 1, 21</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10449">
+<label xml:id="GB03_2_BR140_0_note_046_84_8" copyOf="#start_com_1322"><hi rendition="#fett">84,8</hi>allerley Ihnen geschrieben</label>
+<p>Die beiden wahrscheinlich zugleich mit dem Gedicht abgesandten Briefteile (vgl. <ref target="gb:note#gb11096_comment_com1411">Datierung</ref>).</p>
+
+</note>
+<note xml:id="gb11096_comment_com10450">
+<label xml:id="GB03_2_BR140_0_note_047_84_8-9" copyOf="#start_com_1323"><hi rendition="#fett">84,8-9</hi>Der Herzog <gap quantity="3" reason="editorial"/> drunter schreiben</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR140_0_083_006 #GB03_1_BR140_0_083_010">83,6–10</ref>.</p>
+
+</note>
+<note xml:id="gb11096_comment_com15818">
+<label xml:id="GB03_2_BR140_0_note_048_84_10" copyOf="#start_com_1324"><hi rendition="#fett">84,10</hi>ihre herzliche Zeichnung</label>
+<p>Vgl. <ref target="gb:text#GB03_1_BR140_0_082_007 #GB03_1_BR140_0_082_008">82,7–8</ref>.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

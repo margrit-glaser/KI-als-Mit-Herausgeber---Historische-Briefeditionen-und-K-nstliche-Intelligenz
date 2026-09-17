@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="510"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10688" n="GB 3, Nr. 51">
+  <teiHeader xml:id="gb10688_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>51.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 24. Februar <supplied>1776. Samstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:10:42Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10688_tei.xml</idno>
+        <idno type="URI">gb10688</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR051_0</idno>
+        <idno type="KSW-ID">10688</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="36" to="37">36-37</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="155" to="156">155-156</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10688_header_hwit883" corresp="#gb10688_source_hwit883" sameAs="#gb10688_comment_hwit883" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 7</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10688,,883/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich musste fort aber du sollst doch noch eine gute Nacht haben. Du Einzige die ich so lieben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-24">24. Februar <supplied>1776</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10688_source_hwit883" corresp="#gb10688_header_hwit883" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10688/22267"/>
+      <p>
+        <anchor xml:id="GB03_1_BR051_0_036_013"/>
+        <ref target="gb:note#GB03_2_BR051_0_note_001_36_13" xml:id="start_com_0580"/>Ich musste fort<ref xml:id="end_com_0580"/> aber du sollst doch noch eine gute Nacht haben. <ref target="gb:note#GB03_2_BR051_0_note_002_36_13-14" xml:id="start_com_0581"/>Du 
+<anchor xml:id="GB03_1_BR051_0_036_014"/>Einzige die ich so lieben kann ohne dass mich’s plagt<ref xml:id="end_com_0581"/> – Und doch leb 
+<anchor xml:id="GB03_1_BR051_0_036_015"/>ich immer halb in Furcht – Nun mag’s. All mein Vertrauen hast du, 
+<anchor xml:id="GB03_1_BR051_0_036_016"/>und sollst so Gott will auch nach und nach all meine Vertraulichkeit 
+<anchor xml:id="GB03_1_BR051_0_036_017"/>haben. O hätte <ref target="gb:note#GB03_2_BR051_0_note_003_36_17" xml:id="start_com_0582"/>meine Schwester<ref xml:id="end_com_0582"/> einen Bruder irgend <ref target="gb:note#GB03_2_BR051_0_note_004_36_17-18" xml:id="start_com_0583"/>wie ich an dir 
+<anchor xml:id="GB03_1_BR051_0_036_018"/>eine Schwester habe<ref xml:id="end_com_0583"/>. Denck an mich und drück deine Hand an die 
+<anchor xml:id="GB03_1_BR051_0_036_019"/>Lippen, denn du wirst <ref target="gb:note#GB03_2_BR051_0_note_005_36_19" xml:id="start_com_0584"/>Gusteln<ref xml:id="end_com_0584"/> seine <ref target="gb:note#GB03_2_BR051_0_note_006_36_19" xml:id="start_com_0585"/>Ungezogenheiten<ref xml:id="end_com_0585"/><ptr n="1" target="#a001_36.19"/> nicht abgewöhnen, 
+<anchor xml:id="GB03_1_BR051_0_036_020"/>die werden nur mit seiner Unruhe und Liebe im Grab enden. 
+<anchor xml:id="GB03_1_BR051_0_037_001"/>Gute Nacht. Ich habe nun wieder <ref target="gb:note#GB03_2_BR051_0_note_007_37_1" xml:id="start_com_0586"/>auf der ganzen Redoute<ref xml:id="end_com_0586"/> nur 
+<anchor xml:id="GB03_1_BR051_0_037_002"/>deine Augen gesehn – Und da<ptr n="2" target="#a002_37.2"/> ist mir die Mücke um’s Licht eingefallen. 
+<anchor xml:id="GB03_1_BR051_0_037_003"/>Ade! Wunderbaar gehts in mir <ref target="gb:note#GB03_2_BR051_0_note_008_37_3" xml:id="start_com_0587"/>seit dem gestrigen lesen<ref xml:id="end_com_0587"/>   <ref target="gb:note#GB03_2_BR051_0_note_009_37_3-4" xml:id="start_com_0588"/>Morgen 
+<anchor xml:id="GB03_1_BR051_0_037_004"/>zu Pferd<ref xml:id="end_com_0588"/>
+      </p>
+      <closer>
+        <dateline rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR051_0_037_005"/>Febr d<g ref="#typoSuspension"/> 23 Nachts halb 1 Uhr.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10688_comment">
+<body>
+<div type="metadata" xml:id="gb10688_comment_com671">
+  <ab type="numberAddressee"><label>51.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 24. Februar <supplied>1776</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10688_comment_com1711">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) ist der vorliegende Brief unmittelbar nach dem vollständig datierten Brief vom 23. Februar 1776 (<ref target="gb:dokument#10386">Nr 50</ref>) eingeordnet, was auch die inhaltlichen Bezüge bestätigen (vgl. zu <ref target="gb:note#GB03_2_BR050_0_note_006_36_9">36,9</ref>; zu <ref target="gb:note#GB03_2_BR051_0_note_007_37_1">37,1</ref>). Demnach wurde der Brief, laut Datierung vom <quote type="G">Febr d<g ref="#typoSuspension"/> 23 Nachts halb 1 Uhr</quote> (<ref target="gb:text#GB03_1_BR051_0_037_005">37,5</ref>), in der ersten Morgenstunde des 24. Februar 1774 niedergeschrieben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10688_comment_com2715">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 7. – 1 Bl. ca. 19,2 × 9,1(–9,4) cm, 1 S. beschr., egh., Tinte; Reste eines roten Siegels; oben rechts von fremder Hd, Tinte: „16.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 16), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 12.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 34, Nr 407.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10688_comment_com4511">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10688_comment_com18786">
+<label xml:id="GB03_2_BR051_0_note_001_36_13" copyOf="#start_com_0580"><hi rendition="#fett">36,13</hi>Ich musste fort</label>
+<p>Wie aus dem Kontext hervorgeht, verließ Goethe die <quote type="G">Redoute</quote> (<ref target="gb:text#GB03_1_BR051_0_037_001">37,1</ref>), die er gemeinsam mit Charlotte von Stein besucht hatte.</p>
+
+</note>
+<note xml:id="gb10688_comment_com9662">
+<label xml:id="GB03_2_BR051_0_note_002_36_13-14" copyOf="#start_com_0581"><hi rendition="#fett">36,13-14</hi>Du Einzige <gap quantity="3" reason="editorial"/> mich’s plagt</label>
+<p>In Anknüpfung an den unmittelbar vorangehenden Brief (vgl. zu <ref target="gb:note#GB03_2_BR050_0_note_005_36_7-8">36,7-8</ref>); dass ihn nur Charlottes Liebe nicht plage, hatte Goethe auch schon in seinem Brief vom 2. Februar 1776 behauptet (vgl. <ref target="gb:text#GB03_1_BR038_0_029_018">29,18</ref>).</p>
+
+</note>
+<note xml:id="gb10688_comment_com14786">
+<label xml:id="GB03_2_BR051_0_note_003_36_17" copyOf="#start_com_0582"><hi rendition="#fett">36,17</hi>meine Schwester</label>
+<p>Cornelia Schlosser, die in Emmendingen zunehmend unter Einsamkeit und Heimweh litt, was Goethe schwer belastete (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_007_18_20">18,20</ref>).</p>
+
+</note>
+<note xml:id="gb10688_comment_com9663">
+<label xml:id="GB03_2_BR051_0_note_004_36_17-18" copyOf="#start_com_0583"><hi rendition="#fett">36,17-18</hi>wie ich an dir eine Schwester habe</label>
+<p>In seinen Briefen spricht Goethe Charlotte von Stein allerdings nur äußerst selten als ‚Schwester‘ an (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR086_0_note_006_55_20">55,20</ref>).</p>
+
+</note>
+<note xml:id="gb10688_comment_com9664">
+<label xml:id="GB03_2_BR051_0_note_005_36_19" copyOf="#start_com_0584"><hi rendition="#fett">36,19</hi>Gusteln</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_008_29_16">29,16</ref>.</p>
+
+</note>
+<note xml:id="gb10688_comment_com9665">
+<label xml:id="GB03_2_BR051_0_note_006_36_19" copyOf="#start_com_0585"><hi rendition="#fett">36,19</hi>Ungezogenheiten</label>
+<p>Wie der Kontext vermuten lässt, wahrscheinlich ein Kuss auf die Hand, den Goethe Charlotte von Stein auf dem Ball gegeben hatte.</p>
+
+</note>
+<note xml:id="gb10688_comment_com15925">
+<label xml:id="GB03_2_BR051_0_note_007_37_1" copyOf="#start_com_0586"><hi rendition="#fett">37,1</hi>auf der ganzen Redoute</label>
+<p>Dem letzten Maskenball der Saison, der am Abend des 23. Februar 1776 begonnen hatte und offenbar während der Niederschrift des Briefes noch andauerte (vgl. zu <ref target="gb:note#GB03_2_BR050_0_note_006_36_9">36,9</ref>).</p>
+
+</note>
+<note xml:id="gb10688_comment_com17372">
+<label xml:id="GB03_2_BR051_0_note_008_37_3" copyOf="#start_com_0587"><hi rendition="#fett">37,3</hi>seit dem gestrigen lesen</label>
+<p>Möglicherweise hatte Goethe etwas aus seinen Werken vorgelesen, zu denken wäre vor allem an die kürzlich erschienene „Stella“ (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR032_0_note_006_26_4">26,4</ref>); in Frage kämen auch die <quote type="G">Briefe</quote> (<ref target="gb:text#GB03_1_BR038_0_029_009">29,9</ref>), die Goethe der Adressatin am 2.? Februar 1776 wieder zugeschickt hatte (vgl. zu <ref target="gb:note#GB03_2_BR038_0_note_002_29_9">29,9</ref>).</p>
+
+</note>
+<note xml:id="gb10688_comment_com14133">
+<label xml:id="GB03_2_BR051_0_note_009_37_3-4" copyOf="#start_com_0588"><hi rendition="#fett">37,3-4</hi>Morgen zu Pferd</label>
+<p>Offenbar war für den folgenden Tag ein Ausritt – vielleicht gemeinsam mit Charlotte von Stein – geplant; Näheres dazu nicht ermittelt.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

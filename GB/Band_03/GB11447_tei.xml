@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2100"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11447" n="GB 3, Nr. 208">
+  <teiHeader xml:id="gb11447_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>208.</label> An <persName key="sndb:person#40055">Adam Friedrich Oeser</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 7. Januar 1777. Dienstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:17:11Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11447_tei.xml</idno>
+        <idno type="URI">gb11447</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR208_0</idno>
+        <idno type="KSW-ID">11447</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="125" to="125">125</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="458" to="463">458-463</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11447_header_hwit1135" corresp="#gb11447_source_hwit1135" sameAs="#gb11447_comment_hwit1135" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/364,I Bl. 7</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8445</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11447,,1135/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Wir wollen der Herzoginn Louise auf ihren Geburtstag auf unsern Brettern ein neu Stück geben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1777-01-07">7. Januar 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40055">Oeser, Adam Friedrich</persName>
+            <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#85">RA 1, Nr. 78</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11447_source_hwit1135" corresp="#gb11447_header_hwit1135" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11447/12186"/>
+      <p>
+        <anchor xml:id="GB03_1_BR208_0_125_001"/>Wir wollen <ref target="gb:note#GB03_2_BR208_0_note_001_125_1-2" xml:id="start_com_1920"/>der Hez. Louise auf ihren Geburtstag auf unsern Brettern 
+<anchor xml:id="GB03_1_BR208_0_125_002"/>ein neu Stück geben<ref xml:id="end_com_1920"/> und bedürfen dazu eines hintersten Vorhanges 
+<anchor xml:id="GB03_1_BR208_0_125_003"/>
+        <ref target="gb:note#GB03_2_BR208_0_note_002_125_3" xml:id="start_com_1921"/>zum <hi rendition="#hervor1">Wald</hi>
+        <ref xml:id="end_com_1921"/>. Wir mögten auf diesem <ref target="gb:note#GB03_2_BR208_0_note_003_125_3" xml:id="start_com_1922"/>Prospeckt<ref xml:id="end_com_1922"/> gern eine herrliche 
+<anchor xml:id="GB03_1_BR208_0_125_004"/>Gegend vorstellen mit Haynen Teichen, wenigen <ref target="gb:note#GB03_2_BR208_0_note_004_125_4" xml:id="start_com_1923"/>Achiteckturstücken<ref xml:id="end_com_1923"/>
+        <anchor xml:id="GB03_1_BR208_0_125_005"/>pp denn es soll einen Parck bedeuten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR208_0_125_006"/>
+        <ref target="gb:note#GB03_2_BR208_0_note_005_125_6" xml:id="start_com_1924"/>Hätten Sie<ptr n="1" target="#a001_125.6"/> so was vorräthig<ref xml:id="end_com_1924"/> so schicken Sies doch aber mit nächster 
+<anchor xml:id="GB03_1_BR208_0_125_007"/>Post, allenfalls ein Kupfer von <ref target="gb:note#GB03_2_BR208_0_note_006_125_7" xml:id="start_com_1925"/>Poussin<ref xml:id="end_com_1925"/>, oder sonst eine Idee, wir bitten 
+<anchor xml:id="GB03_1_BR208_0_125_008"/>recht sehr drum. Sie haben erinnr ich<ptr n="2" target="#a002_125.8"/> mich<ptr n="3" target="#a003_125.8"/> so was <ref target="gb:note#GB03_2_BR208_0_note_007_125_8-9" xml:id="start_com_1926"/>auf einem Vorhang 
+<anchor xml:id="GB03_1_BR208_0_125_009"/>in Leipzig<ref xml:id="end_com_1926"/>. <ref target="gb:note#GB03_2_BR208_0_note_008_125_9" xml:id="start_com_1927"/>Die Büste<ref xml:id="end_com_1927"/> kriegen Sie ehstens. <ref target="gb:note#GB03_2_BR208_0_note_009_125_9" xml:id="start_com_1928"/>Ihr Andencken<ref xml:id="end_com_1928"/> ist lebendig 
+<anchor xml:id="GB03_1_BR208_0_125_010"/>unter uns. Herzoginn Louise hat mir Vorwürfe gemacht <ref target="gb:note#GB03_2_BR208_0_note_010_125_10-11" xml:id="start_com_1929"/>dass ich Sie 
+<anchor xml:id="GB03_1_BR208_0_125_011"/>nicht zu ihr gebracht habe<ref xml:id="end_com_1929"/>, also müssen Sie bald wiederkomm das gut 
+<anchor xml:id="GB03_1_BR208_0_125_012"/>zu machen.     Addio<ptr n="4" target="#a004_125.12"/> ist Ihnen nichts weiter <ref target="gb:note#GB03_2_BR208_0_note_011_125_12" xml:id="start_com_1930"/>von meiner Gottheit<ref xml:id="end_com_1930"/>
+        <anchor xml:id="GB03_1_BR208_0_125_013"/>offenbaart worden? d<g ref="#typoSuspension"/>. 7 Jan. 77. Goethe</p>
+      <p rendition="#einrueck13">
+        <anchor xml:id="GB03_1_BR208_0_125_014"/>══</p>
+    <pb n="2" facs="gb:digitalisate#11447/12187" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11447_comment">
+<body>
+<div type="metadata" xml:id="gb11447_comment_com1307">
+  <ab type="numberAddressee"><label>208.</label> An <persName key="sndb:person#40055">Adam Friedrich Oeser</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 7. Januar 1777 → <supplied><placeName key="sndb:ort#78408">Leipzig</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11447_comment_com3351">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8445">GSA 29/364,I</ref>, Bl. 7. – 1 Bl. 17 × 20,5 cm, 1 S. beschr., egh., Tinte.</p>
+  <p>E: <ref target="sndb:sigle#2879">Goethes Briefe an Leipziger Freunde</ref> (1849),127, Nr 5.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 129 f., Nr 548.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11447_comment_com5147">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Oeser antwortete am 10. Januar 1777 (vgl. <ref target="ra:dokument#85">RA 1, 69, Nr 78</ref>; nach dem Konzept abgedruckt im <ref target="gb:note#gb11447_comment_com84649">Anschluss</ref> an die folgenden Erläuterungen).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11447_comment_com17892">
+<label xml:id="GB03_2_BR208_0_note_001_125_1-2" copyOf="#start_com_1920"><hi rendition="#fett">125,1-2</hi>der Hez. Louise <gap quantity="3" reason="editorial"/> ein neu Stück geben</label>
+<p>‚Hez.‘ verschrieben für ‚Herz<supplied>ogin</supplied>‘. – Zu Ehren des 20. Geburtstages von Herzogin Louise am 30. Januar 1777 sollte das Singspiel „Lila“ aufgeführt werden, an dem Goethe nachweislich seit dem 3. Januar 1777 arbeitete (vgl. zu <ref target="gb:note#GB03_2_BR205_0_note_003_124_1-2">124,1-2</ref>; zu <ref target="gb:note#GB03_2_BR205_0_note_004_124_4">124,4</ref>; zu <ref target="gb:note#GB03_2_BR205_0_note_005_124_5">124,5</ref>).</p>
+
+</note>
+<note xml:id="gb11447_comment_com10876">
+<label xml:id="GB03_2_BR208_0_note_002_125_3" copyOf="#start_com_1921"><hi rendition="#fett">125,3</hi>zum <hi rendition="#hervor1">Wald</hi></label>
+<p>Handlungsort des ‚Zauberspiels‘ als Stück im Stück zur Heilung der schwermütigen Lila ist ein „Zauber Wald, im Grunde eine Höhle“ (3. Aufzug der 2. Fassung; <ref target="sndb:sigle#1240">FA/Goethe</ref> I 5, 52).</p>
+
+</note>
+<note xml:id="gb11447_comment_com10877">
+<label xml:id="GB03_2_BR208_0_note_003_125_3" copyOf="#start_com_1922"><hi rendition="#fett">125,3</hi>Prospeckt</label>
+<p>Von lat. prospectus: Aussicht, Anblick. – Hier der perspektivisch gemalte Hintergrund auf der Bühne.</p>
+
+</note>
+<note xml:id="gb11447_comment_com10878">
+<label xml:id="GB03_2_BR208_0_note_004_125_4" copyOf="#start_com_1923"><hi rendition="#fett">125,4</hi>Achiteckturstücken</label>
+<p>Verschrieben für ‚Architekturstücken‘; dekorative Architektur, wie künstliche Ruinen, Brücken, Grotten, Eremitenbehausungen, Büsten und Denkmäler, war Teil nach englischen Vorbildern gestalteter Parkanlagen (vgl. zu <ref target="gb:note#GB03_2_BR388_0_note_005_220_3-6">220,3-6</ref>).</p>
+
+</note>
+<note xml:id="gb11447_comment_com17893">
+<label xml:id="GB03_2_BR208_0_note_005_125_6" copyOf="#start_com_1924"><hi rendition="#fett">125,6</hi>Hätten Sie so was vorräthig</label>
+<p>Vgl. Oesers <ref target="gb:note#gb11447_comment_com84649">Antwortbrief</ref> vom 10. Januar 1777, abgedruckt im Anschluss an die folgenden Erläuterungen. – Für die Aufführung des Singspiels musste die technische Ausstattung verbessert werden, da an die Dekoration große Anforderungen gestellt wurden. Der Weimarer Tischler Johann Martin Mieding schuf dafür Kulissen, die viermal verändert werden konnten. Vgl. dazu <ref target="sndb:sigle#854">Sichardt</ref>, 41–43.</p>
+
+</note>
+<note xml:id="gb11447_comment_com10879">
+<label xml:id="GB03_2_BR208_0_note_006_125_7" copyOf="#start_com_1925"><hi rendition="#fett">125,7</hi>Poussin</label>
+<p>Nicolas Poussin, der in Rom und Paris lebende Historienmaler und Kunsttheoretiker (vgl. <ref target="gb:note#GB07_2_BR135_0_note_031_234_20-21">GB 7 II, zu 234,20–21</ref>). Die Ausgestaltung englischer Parkanlagen orientierte sich an der Landschaftsmalerei des 17. Jahrhunderts, vor allem an der von Nicolas Poussin und Claude Lorrain.</p>
+
+</note>
+<note xml:id="gb11447_comment_com17790">
+<label xml:id="GB03_2_BR208_0_note_007_125_8-9" copyOf="#start_com_1926"><hi rendition="#fett">125,8-9</hi>auf einem Vorhang in Leipzig</label>
+<p>Während Goethes Zeit in Leipzig war Oeser 1766 von Gottlieb Benedict Zehmisch mit der Gestaltung des Bühnenvorhangs für das neue Leipziger Komödienhaus am Ranstädter Tor beauftragt worden, der bei den Zeitgenossen großes Aufsehen erregte. Allerdings war auf dem Vorhang keine idealisierte Landschaft dargestellt, sondern ein <quote type="G">Vorhof zum Tempel des Ruhms</quote>, den <quote type="G">die Statuen des Sophokles und Aristophanes</quote> schmückten, <quote type="G">um welche sich alle neuere Schauspieldichter versammelten.</quote> (<ref target="sndb:sigle#2747">AA DuW</ref> 1, 261 [8. Buch].) – Von Oeser sind Zeichnungen mit arkadischen Landschaften u. a. zu Idyllen Geßners überliefert.</p>
+
+</note>
+<note xml:id="gb11447_comment_com10891">
+<label xml:id="GB03_2_BR208_0_note_008_125_9" copyOf="#start_com_1927"><hi rendition="#fett">125,9</hi>Die Büste</label>
+<p>Näheres nicht ermittelt; möglicherweise noch im Zusammenhang mit Aufträgen an die Mailänder Gipsgießer und Antikenhändler Giugeio und Giacomo Ferrari, die sich im Mai 1776 in Weimar aufgehalten hatten und in Deutschland verschiedene Fürstenhöfe sowie Universitäten, darunter die Leipziger, belieferten (vgl. zu <ref target="gb:note#GB03_2_BR114_0_note_039_68_8">68,8</ref>; vgl. auch die dritte Erläuterung zu <ref target="gb:note#GB03_2_BR116_0_note_003_70_23">70,23</ref>).</p>
+
+</note>
+<note xml:id="gb11447_comment_com17957">
+<label xml:id="GB03_2_BR208_0_note_009_125_9" copyOf="#start_com_1928"><hi rendition="#fett">125,9</hi>Ihr Andencken</label>
+<p>Hier: Erinnerung (an Sie) (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 1, 275). – Am 21. Dezember 1776 waren Goethe und Carl August von einer Reise nach Leipzig, Dessau und Wörlitz nach Weimar zurückgekehrt. Schon auf der Hinreise hatte Goethe am 3. Dezember Oeser in Leipzig besucht (vgl. <ref target="gt:dokument#221">GT I 1, 30</ref>; vgl. zu <ref target="gb:note#GB03_2_BR197_0_note_002_121_7">121,7</ref>). Laut Fourierbuch kam am 21. Dezember auch „der H<g ref="#typoSuspension"/>. Professor Eser <supplied>Oeser</supplied> von Leipzig mit hier an, kahmen zu Logiren oben in Mansartt hier im Fürsten Hauße Speisten Sonntags auch mit an Fürst<g ref="#typoSuspension"/>. Tafel.“ (<ref target="sndb:sigle#3942">FB 1776</ref>, S. 314.) Goethes Tagebuch verzeichnet am <ref target="gt:dokument#243">25.</ref> und <ref target="gt:dokument#244">26.</ref> Dezember Begegnungen mit Oeser (vgl. GT I 1, 31). Oeser beriet in diesen Jahren das Herzogshaus bei der Garten- und Landschaftsgestaltung, vor allem bei der Gestaltung des Tiefurter Parks, und nahm 1776/77 für Anna Amalia die Ausmalung des Gartenpavillons am Wittumspalais vor, des so genannten Roten Turms, der später nach Belvedere versetzt wurde.</p>
+
+</note>
+<note xml:id="gb11447_comment_com10892">
+<label xml:id="GB03_2_BR208_0_note_010_125_10-11" copyOf="#start_com_1929"><hi rendition="#fett">125,10-11</hi>dass ich Sie nicht zu ihr gebracht habe</label>
+<p>Demnach war Oeser der Herzogin Louise nicht persönlich vorgestellt worden (vgl. Oesers <ref target="gb:note#gb11447_comment_com84649">Antwortbrief</ref> vom 10. Januar 1777, abgedruckt im Anschluss an die folgende Erläuterung).</p>
+
+</note>
+<note xml:id="gb11447_comment_com10898">
+<label xml:id="GB03_2_BR208_0_note_011_125_12" copyOf="#start_com_1930"><hi rendition="#fett">125,12</hi>von meiner Gottheit</label>
+<p>Anspielung auf die Göttin Fortuna (griech. Tyche), die Glücks- und Schicksalsgöttin. Während des Aufenthalts von Oeser in Weimar notierte Goethe am 25. Dezember 1776 in sein Tagebuch: <quote type="G">Zu Oesern. αγαϑη τυχη</quote> <supplied>griech.: dem guten Geschick</supplied> (<ref target="gt:dokument#243">GT I 1, 31</ref>). Goethe besprach mit Oeser den Entwurf zu einer Skulptur, die in Form einer Kugel auf einem Kubus als ‚Stein des guten Glücks‘ am 5. April 1777 in Goethes Garten aufgestellt wurde (vgl. <ref target="gt:dokument#328">GT I 1, 40</ref>; vgl. Oesers <ref target="gb:note#gb11447_comment_com84649">Antwortbrief</ref> vom 10. Januar 1777). Am 16. Januar 1777 ging Oeser in einem weiteren Brief noch einmal auf den Denkmalentwurf ein: „Sie wollen ein sinnliches Bild des immerwehrenden Glücks mit Geschmack ausgedrückt haben, da helfen die strengen mathematischen Wahrheiten nichts, erdenken Sie lieber etwas mit Ihrer strengen, Mathematic daß die Kugel gantz frey in der Luft schwebet, so erreichen Sie das, was bey jedem Bilde die erste Pflicht seyn muß: den denkenden Geist zu beschäftigen, so erreichen Sie den höchsten Grat dieser Hyroklife, Suchen Sie ums Himmelswillen keine Schulfüchsereyen im Werden des Geschmacks, was dem Auge plump und schwerfällig erscheint, weg damit das ist dasjenige welches wie das Magere alles verderbet, bleiben Sie bey der kleinen Idee so ich entworfen, so wird Ihr Bild gut ausfallen, und die Kugel ist nach ihrem Platz wo sie aufgestellet wird, groß genug, wenn sie 16. bis 18. Zoll im Durchschnitt ist, die Flügel bereichern das Bild genug, und vermuthlich sehen Sie warum ich die Wolke gemacht habe. Schreiben Sie mir bald wieder, so will ich zur Kugel anstallt machen. es ist gut wenn Sie alles auf einen erhöhten Posten setzen dero eine Pöschung von 45. Grad hat“. (Zitiert nach: <ref target="sndb:sigle#2182">John, Oeser</ref>, 231.) Noch am 9. Februar 1780 äußerte sich Oeser in einem Brief an Knebel unzufrieden über die Ausführung des Denkmals: „Ich berufe mich auf Erfahrungen, die ich nur zu oft gemacht, daß gewiße Vorstellungen, bey ihrer Ausführung keine Wirkung thaten. Hl: Ghr: Goethens Kugel, und Würfel, ist ein neuer Beweiß davon; Jederman sieht es für eine Kugel von einem alten Thorweg an; wäre meine Idee, die nur Scherz war, ausgeführt worden: so wäre doch der Beobachter in so fern zum Nachdenken gereizt worden, was es wohl bedeuten sollte.“ (<ref target="archivdb:dokument#244949">GSA 54/235</ref>, Bl. 12 f.)</p>
+
+</note>
+</div>
+<div xml:id="gb11447_comment_com84649">
+  <p>Adam Friedrich Oeser an Goethe (Konzept):</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56442_source" corresp="#gb56442_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck9">
+        <anchor xml:id="GB03_2_FB021_0_461_001"/>an Herrn Dr. G.   abgegan<supplied>gen</supplied> den 10 ten Jan: 77.</p>
+      <p>
+        <lb/>
+        <anchor xml:id="GB03_2_FB021_0_461_002"/>Für alle die Gnadenbezeugungen, <ref target="gb:note#GB03_2_FB021_0_note_136_462_2" xml:id="start_com_7144"/>so ich in Weymar empfangen<ref xml:id="end_com_7144"/> will ich keine 
+<anchor xml:id="GB03_2_FB021_0_461_003"/>Complimente machen, sondern thun was in meinen Vermögen stehet. Ich habe <ref target="gb:note#GB03_2_FB021_0_note_137_462_3-4" xml:id="start_com_7145"/>die 
+<anchor xml:id="GB03_2_FB021_0_461_004"/>Englischen Gärten<ref xml:id="end_com_7145"/> bestellt, welche die Durchℓ Herzogin Amalia verlangt, und 
+<anchor xml:id="GB03_2_FB021_0_461_005"/>diese sind besonders für Weymar so lehrreich, daß ich nichts beßerers empfehlen 
+<anchor xml:id="GB03_2_FB021_0_461_006"/>kan, sie sind schon so starck daß sie gegen 50 rℓ zu stehen kommen, und dieses 
+<anchor xml:id="GB03_2_FB021_0_461_007"/>Werck wird Continuirt. Unterdeßen als diese guten Ideen erwartet werden so baue 
+<anchor xml:id="GB03_2_FB021_0_461_008"/>ich <ref target="gb:note#GB03_2_FB021_0_note_138_462_8" xml:id="start_com_7146"/>ein Lustgebäude<ref xml:id="end_com_7146"/> für die Durchℓ Herzogin Amalie nach <ref target="gb:note#GB03_2_FB021_0_note_139_462_8" xml:id="start_com_7147"/>Difurt<ref xml:id="end_com_7147"/>, worüber mit 
+<anchor xml:id="GB03_2_FB021_0_461_009"/>dem Hℓ: von Knebel gesprochen, und bis die Zeit, da man etwas im Gartenbaue 
+<anchor xml:id="GB03_2_FB021_0_461_010"/>machen kan, sollen schon Gedancken folgen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB021_0_461_011"/>Sie machen mir das schmeichelhafteste Compliment; wenn die Sache selbst auch 
+<anchor xml:id="GB03_2_FB021_0_461_012"/>nicht wahr wäre, wenn Sie mir sagen daß die Durchℓ Herzogin Louise Ihnen 
+<anchor xml:id="GB03_2_FB021_0_461_013"/>erlaubt hätte mich zu praesentiren. Sie wollen auf ihren Geburtstag <ref target="gb:note#GB03_2_FB021_0_note_140_462_13-14" xml:id="start_com_7148"/>einen Prospect 
+<anchor xml:id="GB03_2_FB021_0_461_014"/>für das Theater haben<ref xml:id="end_com_7148"/>. Ich war bey Ihnen, ich würde bey meinen Aufenthalt daselbst 
+<anchor xml:id="GB03_2_FB021_0_461_015"/>mir das gröste Vergnügen daraus gemacht haben dieser vortreflichen Princessin 
+<anchor xml:id="GB03_2_FB021_0_462_016"/>zu Ihren Geburtstag selbst einen Prospect zu machen, oder dafür zu sorgen 
+<anchor xml:id="GB03_2_FB021_0_462_017"/>daß ich einen in Leipzig machte und denselben gantz leicht nach Weymar schickte, 
+<anchor xml:id="GB03_2_FB021_0_462_018"/>es sind vielmahle gantze <ref target="gb:note#GB03_2_FB021_0_note_141_462_18" xml:id="start_com_7149"/>Verwandlung<ref xml:id="end_com_7149"/> verschickt worden. Da aber die Sache so 
+<anchor xml:id="GB03_2_FB021_0_461_019"/>seyn soll, so übersende Ihnen eine Idee welche sich auf einen Theater gut ausnehmen 
+<anchor xml:id="GB03_2_FB021_0_461_020"/>sollte wenn sie gut gemacht wird. Warum schreiben Sie mir nicht, ob das 
+<anchor xml:id="GB03_2_FB021_0_461_021"/>Stück auf Ihren <ref target="gb:note#GB03_2_FB021_0_note_142_462_21" xml:id="start_com_7150"/>alten Theater<ref xml:id="end_com_7150"/> (welches Sie mir nicht gezeiget) oder auf den <ref target="gb:note#GB03_2_FB021_0_note_143_462_21-22" xml:id="start_com_7151"/>vorgeschlagenen 
+<anchor xml:id="GB03_2_FB021_0_461_022"/>Saal<ref xml:id="end_com_7151"/> aufgeführet werden soll?</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB021_0_461_023"/>Ich habe auf Sie nicht vergeßen, und lege die weitere uber Denckung Ihrer Idee 
+<anchor xml:id="GB03_2_FB021_0_461_024"/>mit bey, <ref target="gb:note#GB03_2_FB021_0_note_144_462_24" xml:id="start_com_7152"/>der kleinste Cubus No 2.<ref xml:id="end_com_7152"/> gefällt mir am besten <ref target="gb:note#GB03_2_FB021_0_note_145_462_24-25" xml:id="start_com_7153"/>den Pappillion würde ich 
+<anchor xml:id="GB03_2_FB021_0_461_025"/>machen wie er sich aus seiner Hülße entwickelt<ref xml:id="end_com_7153"/>, zur Zugabe wünsche ich zu wißen 
+<anchor xml:id="GB03_2_FB021_0_461_026"/>was Sie <ref target="gb:note#GB03_2_FB021_0_note_146_462_26" xml:id="start_com_7154"/>bey No: 3<ref xml:id="end_com_7154"/> empfinden. /</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB021_0_461_027"/>
+        <ref target="gb:note#GB03_2_FB021_0_note_147_462_26" xml:id="start_com_7155"/>Einen Trup Philosophen<ref xml:id="end_com_7155"/> mus man alle neuen erfindungen mittheilen, besonders 
+<anchor xml:id="GB03_2_FB021_0_461_028"/>bey denen, die sich mit der <ref target="gb:note#GB03_2_FB021_0_note_148_462_28" xml:id="start_com_7156"/>fisonomic<ref xml:id="end_com_7156"/> abgeben, es hat ein <ref target="gb:note#GB03_2_FB021_0_note_149_462_28" xml:id="start_com_7157"/>Junger Künstler<ref xml:id="end_com_7157"/> der sich 
+<anchor xml:id="GB03_2_FB021_0_461_029"/>mit <ref target="gb:note#GB03_2_FB021_0_note_150_462_29" xml:id="start_com_7158"/>Siloetten<ref xml:id="end_com_7158"/> viel abgiebt gefunden: das wenn man die Personen welche gezeichnet 
+<anchor xml:id="GB03_2_FB021_0_461_030"/>werden sollen, leget, viel beßer geraden, als wenn sie sitzen.</p>
+      <p>
+        <lb/>
+        <anchor xml:id="GB03_2_FB021_0_461_031"/>Neue Endeckungen muß man Freunden mittheilen, es hat sich ein junger Gelehrter 
+<anchor xml:id="GB03_2_FB021_0_461_032"/>der ein Freund der <ref target="gb:note#GB03_2_FB021_0_note_151_462_32" xml:id="start_com_7159"/>Visunomic<ref xml:id="end_com_7159"/>, und der sich mit Zeichnungen der Siloetten viel 
+<anchor xml:id="GB03_2_FB021_0_461_033"/>abgegeben, endeckt, das, wenn man die Personen, so man zeichnen will, leget, viel 
+<anchor xml:id="GB03_2_FB021_0_461_034"/>beßer geworden, als wenn sie sitzen</p>
+      <p>
+        <lb/>
+        <anchor xml:id="GB03_2_FB021_0_461_035"/>
+        <ref target="gb:note#GB03_2_FB021_0_note_152_462_35" xml:id="start_com_7160"/>Den Chinesischen Mahler<ref xml:id="end_com_7160"/> habe ich erhalten, ich wünschte mehrere Nachricht von 
+<anchor xml:id="GB03_2_FB021_0_461_036"/>diesen Asiaten und den Umgang mit dem Europeer in Absicht der Kunst und des 
+<anchor xml:id="GB03_2_FB021_0_461_037"/>verschiedenen Geschmacks.</p>
+      <lb/>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB021_0_462_038"/>Eine frohe Nachricht habe ich der <ref target="gb:note#GB03_2_FB021_0_note_153_462_37" xml:id="start_com_7161"/>Familie<ref xml:id="end_com_7161"/>, welchen <ref target="gb:note#GB03_2_FB021_0_note_154_462_37" xml:id="start_com_7162"/>die Schneyers<ref xml:id="end_com_7162"/> gehörten durch 
+<anchor xml:id="GB03_2_FB021_0_462_039"/>die gewißheit daß der <ref target="gb:note#GB03_2_FB021_0_note_155_463_39" xml:id="start_com_7163"/>Durchℓ Herzog<ref xml:id="end_com_7163"/> selbige behällt, gemacht, könnte ich denselben 
+<anchor xml:id="GB03_2_FB021_0_462_040"/>noch sagen wenn die bezahlung erfolgte so würde die Freude desto größer seyn</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56442_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56442_comment_com84628">
+  <p>(K: GSA Weimar, Sign.: <ref target="archivdb:dokument#7515">GSA 28/671</ref> St. 1).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56442_comment_com84629">
+<label xml:id="GB03_2_FB021_0_note_136_462_2" copyOf="#start_com_7144"><hi rendition="#normal">461,2</hi>so ich in Weymar empfangen</label>
+<p>Oeser hielt sich Ende Dezember 1776 in Weimar auf. Am 21. Dezember war er laut Fourierbuch angekommen, logierte im Fürstenhaus und war am 22. Dezember Gast der fürstlichen Tafel (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 314; die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR208_0_note_009_125_9">125,9</ref>).</p>
+</note>
+<note xml:id="gb56442_comment_com84630">
+<label xml:id="GB03_2_FB021_0_note_137_462_3-4" copyOf="#start_com_7145"><hi rendition="#normal">461,3-4</hi>die Englischen Gärten</label>
+<p>Möglicherweise handelt es sich um eine Sammlung von Kupfersichen. Am 16. Januar 1777 schrieb Oeser an Knebel: „Ich sehe schon wie Sie auf der Wiese eine regulare Partie für den Garten wählen, und um der Manigfaltigkeit willen auf beiden Seiten, die schönsten englischen Partien anzubringen wissen, und zu Ende der Wiese soweit Sie hinaus können, einen Platz für Ihre Durchl. die Herzogin Amalia übrig lassen, wo dieselben gesonnen sind ein Lustgebäude anzubringen. Vermutlich, wie in Cahier 4. p.6 welches ich mit B. bezeichnet, wo anbey den Seiten einige Gebäude zur Gemächlichkeit gemacht werden, welches sich fürtrefflich aussehen wird <gap quantity="3" reason="editorial"/>. Dieses Cahier kostete 20 Th., das Werk wird continuiert, melden Sie ob die folgenden auch verlangt werden.“ (Zitiert nach: <ref target="sndb:sigle#2182">John, Oeser</ref>, 137). Am 4. April 1777 schrieb Oeser nach Weimar: „Eben erhalte ich die Kupferstiche, welche hiermit folgen, zum 5ten Cahier macht man chinesische Gebäude welche recht gut sind. Der Preis für jedes Cahier ist 5. re.“ (Ebd., S. 139.) Im August 1777 erhielt Anna Amalia von Knebel Kupferstiche „englische[r] und andere[r] Gärten“ (zitiert nach: <ref target="sndb:sigle#2095">Berger, Anna Amalia</ref>, 378). Am 18. Februar 1778 schrieb Oeser an Knebel: „Die zwey L’d’ors für die Engℓ: Gärten, habe ich richtig erhalten“ (<ref target="archivdb:dokument#244949">GSA 54/235</ref>, Bl. 4r). Seit 1776 richtete sich Anna Amalia Schloss und Park in Ettersburg als Sommersitz ein. Die Umgestaltung des Parks erfolgte mit Hilfe Oesers im englischen Stil.</p>
+</note>
+<note xml:id="gb56442_comment_com84631">
+<label xml:id="GB03_2_FB021_0_note_138_462_8" copyOf="#start_com_7146"><hi rendition="#normal">461,8</hi>ein Lustgebäude</label>
+<p>Im Brief an Knebel vom 16. Januar 1777 geht Oeser noch einmal auf ein von Anna Amalia gewünschtes „Lustgebäude“ ein. Am 4. April 1777 schreibt er nur noch von einem „Ruhe Platz <gap quantity="3" reason="editorial"/> wohin ein Platz von Marmor kommen sollte“ (Zitiert nach: <ref target="sndb:sigle#2182">John, Oeser</ref>, 139). Pläne zu dieser Anlage sind nicht mehr vorhanden. 1777 ließ Anna Amalia ein heute nicht mehr erhaltenes zweistöckiges Lusthaus als Aussichtspunkt am Westrand des Ettersberges errichten (vgl. Weimarer Klassikerstätten. Geschichte und Denkmalpflege. Bearbeitet von Jürgen Beyer und Jürgen Seifert. Bad Homburg und Leipzig 1997, S. 344 f.).</p>
+</note>
+<note xml:id="gb56442_comment_com84632">
+<label xml:id="GB03_2_FB021_0_note_139_462_8" copyOf="#start_com_7147"><hi rendition="#normal">461,8</hi>Difurt</label>
+<p>Tiefurt.</p>
+</note>
+<note xml:id="gb56442_comment_com84633">
+<label xml:id="GB03_2_FB021_0_note_140_462_13-14" copyOf="#start_com_7148"><hi rendition="#normal">461,13-14</hi>einen Prospect für das Theater haben</label>
+<p>Vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR208_0_note_003_125_3">125,3</ref>; für die Aufführung des Singspiels „Lila“ am 30. Januar 1777. </p>
+</note>
+<note xml:id="gb56442_comment_com84634">
+<label xml:id="GB03_2_FB021_0_note_141_462_18" copyOf="#start_com_7149"><hi rendition="#normal">461,18</hi>Verwandlung</label>
+<p>Wahrscheinlich für ‚Kulissen‘, ‚Prospekte‘.</p>
+</note>
+<note xml:id="gb56442_comment_com84635">
+<label xml:id="GB03_2_FB021_0_note_142_462_21" copyOf="#start_com_7150"><hi rendition="#normal">461,21</hi>alten Theater</label>
+<p>Bühnenaufbau für das Liebhabertheater im so genannten Redoutenhaus (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR028_0_note_004_24_3">24,3</ref>). Im Dezember 1775 hatte der Theatertischler Johann Martin Mieding eine Bühne gebaut, die dreimal verändert und nach Bedarf wieder abgebaut werden konnte (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 18–20). </p>
+</note>
+<note xml:id="gb56442_comment_com84636">
+<label xml:id="GB03_2_FB021_0_note_143_462_21-22" copyOf="#start_com_7151"><hi rendition="#normal">461,21-22</hi>vorgeschlagenen Saal</label>
+<p>Wahrscheinlich die vergrößerte und technisch erweiterte Bühne im Redoutenhaus für die Aufführung des Singspiels „Lila“ am 30. Januar 1777 (vgl. zu <ref target="gb:note#GB03_2_BR208_0_note_005_125_6">125,6</ref>).</p>
+</note>
+<note xml:id="gb56442_comment_com84637">
+<label xml:id="GB03_2_FB021_0_note_144_462_24" copyOf="#start_com_7152"><hi rendition="#normal">461,24</hi>der kleinste Cubus No 2.</label>
+<p>Entwürfe zum ‚Stein des guten Glücks‘, der in Goethes Garten aufgestellt werden sollte (vgl. zu <ref target="gb:note#GB03_2_BR208_0_note_011_125_12">125,12</ref>).</p>
+</note>
+<note xml:id="gb56442_comment_com84638">
+<label xml:id="GB03_2_FB021_0_note_145_462_24-25" copyOf="#start_com_7153"><hi rendition="#normal">461,24-25</hi>den Pappillion <gap quantity="3" reason="editorial"/> wie er sich aus seiner Hülße entwickelt</label>
+<p>Franz. papillon: Schmetterling; der sich aus seiner leblosen Hülle befreiende Schmetterling war in der Antike und im Christentum ein Symbol für Wiedergeburt und Unsterblichkeit der Seele (griech. ψυχή <supplied>psyché</supplied>). Die Flügel stehen auch für die Flüchtigkeit des Glücks.</p>
+</note>
+<note xml:id="gb56442_comment_com84639">
+<label xml:id="GB03_2_FB021_0_note_146_462_26" copyOf="#start_com_7154"><hi rendition="#normal">461,26</hi>bey No: 3</label>
+<p>Näheres dazu nicht ermittelt.</p>
+</note>
+<note xml:id="gb56442_comment_com84640">
+<label xml:id="GB03_2_FB021_0_note_147_462_26" copyOf="#start_com_7155"><hi rendition="#normal">461,27</hi>Einen Trup Philosophen</label>
+<p>Wahrscheinlich Anspielung auf Goethe, Herder und andere Weimarer, die Anteil an Lavaters „Physiognomischen Fragmenten“ nahmen oder sogar daran mitarbeiteten (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11685_comment_com4378">GB 2 II, Nr 67</ref>).</p>
+</note>
+<note xml:id="gb56442_comment_com84641">
+<label xml:id="GB03_2_FB021_0_note_148_462_28" copyOf="#start_com_7156"><hi rendition="#normal">461,28</hi>fisonomic</label>
+<p>Physiognomik.</p>
+</note>
+<note xml:id="gb56442_comment_com84642">
+<label xml:id="GB03_2_FB021_0_note_149_462_28" copyOf="#start_com_7157"><hi rendition="#normal">461,28</hi>Junger Künstler</label>
+<p>Näheres dazu nicht ermittelt.</p>
+</note>
+<note xml:id="gb56442_comment_com84643">
+<label xml:id="GB03_2_FB021_0_note_150_462_29" copyOf="#start_com_7158"><hi rendition="#normal">461,29</hi>Siloetten</label>
+<p>Silhouetten. – Lavater nahm seine physiognomischen Deutungen vor allem anhand von Silhouetten vor, die er über künstlerische Porträts stellte und in großer Zahl in den „Fragmenten“ publizierte.</p>
+</note>
+<note xml:id="gb56442_comment_com84644">
+<label xml:id="GB03_2_FB021_0_note_151_462_32" copyOf="#start_com_7159"><hi rendition="#normal">461,32</hi>Visunomic</label>
+<p>Physiognomik.</p>
+</note>
+<note xml:id="gb56442_comment_com84645">
+<label xml:id="GB03_2_FB021_0_note_152_462_35" copyOf="#start_com_7160"><hi rendition="#normal">461,35</hi>Den Chinesischen Mahler</label>
+<p>Dem Kontext nach wird es sich um ein Buch gehandelt haben. Dessen Übersendung steht wohl im Zusammenhang mit Oesers Interesse an der Chinamode und mit seinen Arbeiten am Roten Turm, dem Gartenpavillon des Wittumspalais, für den er von chinoisen Ornamentbändern eingefasste Wandbilder mit chinesischen Figuren- und Landschaftsdarstellungen schuf.</p>
+</note>
+<note xml:id="gb56442_comment_com84646">
+<label xml:id="GB03_2_FB021_0_note_153_462_37" copyOf="#start_com_7161"><hi rendition="#normal">462,38</hi>Familie</label>
+<p>Nicht ermittelt.</p>
+</note>
+<note xml:id="gb56442_comment_com84647">
+<label xml:id="GB03_2_FB021_0_note_154_462_37" copyOf="#start_com_7162"><hi rendition="#normal">462,38</hi>die Schneyers</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR077_0_note_006_50_16">50,16</ref>.</p>
+</note>
+<note xml:id="gb56442_comment_com84648">
+<label xml:id="GB03_2_FB021_0_note_155_463_39" copyOf="#start_com_7163"><hi rendition="#normal">462,39</hi>Durchℓ Herzog</label>
+<p>Herzog Carl August, in dessen Auftrag Oeser den Ankauf von Kunstwerken vermittelte.</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

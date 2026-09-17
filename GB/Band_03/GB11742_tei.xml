@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5710"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11742" n="GB 3, Nr. 557">
+  <teiHeader xml:id="gb11742_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>557.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#84911" evidence="conjecture">Konstanz</placeName> oder <placeName key="sndb:ort#79162" evidence="conjecture">Schaffhausen</placeName>, zwischen dem 3. und 5. Dezember 1779. Zwischen Freitag und Sonntag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:47Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11742_tei.xml</idno>
+        <idno type="URI">gb11742</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR557_0</idno>
+        <idno type="KSW-ID">11742</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="360" to="364">360-364</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="1072" to="1074">1072-1074</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11742_header_hwit1552" corresp="#gb11742_source_hwit1552" sameAs="#gb11742_comment_hwit1552" type="draft">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 111</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11742,,1552/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich kann nicht weiter gehn ohne dir über eine Idee zu schreiben die mir sehr</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#84911" exclude="#xpath(self::*/following-sibling::placeName|preceding-sibling::placeName)">Konstanz</placeName></supplied> oder
+            <supplied><placeName key="sndb:ort#79162" exclude="#xpath(self::*/following-sibling::placeName|preceding-sibling::placeName)">Schaffhausen</placeName></supplied>
+            <date from="1779-12-03" to="1779-12-05"><supplied>zwischen 3. und 5. Dezember 1779</supplied></date>
+            <note>
+              <date type="WA" from="1779-11-21" to="1779-11-30"><supplied>Ende November 1779</supplied></date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#39033">Lavater, Johann Caspar</persName>
+            <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="answer"><ref target="ra:dokument#121">RA 1, Nr. 108a+</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11742_source_hwit1552" corresp="#gb11742_header_hwit1552" type="source" rend="draft">
+  <body>
+    <div>
+    <head><supplied>Konzept</supplied></head>
+    <pb n="1" facs="gb:digitalisate#11742/13971"/>
+      <p>
+        <anchor xml:id="GB03_1_BR557_0_360_016"/>Ich kann nicht weiter gehn ohne dir über eine <ref target="gb:note#GB03_2_BR557_0_note_001_360_16" xml:id="start_com_5114"/>Idee<ref xml:id="end_com_5114"/> zu schreiben die 
+<anchor xml:id="GB03_1_BR557_0_360_017"/>mir sehr an Herzen liegt. Du weisst wie wichtig in vielem Betracht 
+<anchor xml:id="GB03_1_BR557_0_360_018"/>diese Reise dem Herzog gewesen ist und wie gewiss eine neue Epoche 
+<anchor xml:id="GB03_1_BR557_0_360_019"/>seines und unsres Lebens sich davon anfängt. Wenn wir nach 
+<anchor xml:id="GB03_1_BR557_0_360_020"/>Hause kommen lebt er wieder in seinen Gärten und Gebüschen fort, 
+<anchor xml:id="GB03_1_BR557_0_360_021"/>dorthin an einen schönen Plaz mögt ich ihm ein Monument dieser 
+<anchor xml:id="GB03_1_BR557_0_360_022"/>glüklich vollbrachten Reise sezen, das<ptr n="1" target="#a001_360.22"/> ihm in guten Augenbliken eine 
+<anchor xml:id="GB03_1_BR557_0_360_023"/>fröliche Erinnerung wäre. Es sind auch <ref target="gb:note#GB03_2_BR557_0_note_002_360_23" xml:id="start_com_5115"/>Neben-Absichten<ref xml:id="end_com_5115"/> dabei. 
+<anchor xml:id="GB03_1_BR557_0_360_024"/>Ueberall spielt man iezt mit Monumenten und Urnen, deren leere 
+<anchor xml:id="GB03_1_BR557_0_360_025"/>Hülsen und Bäuche ihm<ptr n="2" target="#a002_360.25"/> immer <ref target="gb:note#GB03_2_BR557_0_note_003_360_25" xml:id="start_com_5116"/>fatal<ref xml:id="end_com_5116"/> gewesen sind. In den <ref target="gb:note#GB03_2_BR557_0_note_004_360_25-361_1" xml:id="start_com_5117"/>kleinen 
+<anchor xml:id="GB03_1_BR557_0_361_001"/>Anlagen<ref xml:id="end_com_5117"/> die er<ptr n="3" target="#a003_361.1"/> gemacht hat, steht noch gar nichts dergleichen, dieses 
+<anchor xml:id="GB03_1_BR557_0_361_002"/>wär’ das erste und wahrhaftig wahre, denn wir haben<ptr n="4" target="#a004_361.2"/> unterweegs 
+<anchor xml:id="GB03_1_BR557_0_361_003"/>mancherlei Anlas<ptr n="5" target="#a005_361.3"/> gehabt, dem guten Glük einen Stein der Dankbarkeit 
+<anchor xml:id="GB03_1_BR557_0_361_004"/>zu widmen und das <emph rendition="#latin"><ref target="gb:note#GB03_2_BR557_0_note_005_361_4" xml:id="start_com_5118"/>ex voto</emph><ref xml:id="end_com_5118"/> ist keine blose Phrase. Wir haben bei 
+<anchor xml:id="GB03_1_BR557_0_361_005"/>uns einen <ref target="gb:note#GB03_2_BR557_0_note_006_361_5" xml:id="start_com_5119"/>Bildhauer<ref xml:id="end_com_5119"/>, einen Mann von leichtem Begriff und schneller 
+<anchor xml:id="GB03_1_BR557_0_361_006"/>Hand, der sich täglich durch das <emph rendition="#latin">Studium</emph> der Natur und der Antike 
+<anchor xml:id="GB03_1_BR557_0_361_007"/>bessert, dem es aber an Imagination fehlt und der, wenn man ihm so 
+<anchor xml:id="GB03_1_BR557_0_361_008"/>was überlässt, wie andre seines gleichen in den neuen leeren <emph rendition="#latin">Decorations</emph>
+<anchor xml:id="GB03_1_BR557_0_361_009"/><ref target="gb:note#GB03_2_BR557_0_note_007_361_9" xml:id="start_com_5120"/>Gusto<ref xml:id="end_com_5120"/> verfällt. Zu diesem Monument<ptr n="6" target="#a006_361.9"/> habe ich in meinem Kopf 
+<anchor xml:id="GB03_1_BR557_0_361_010"/>allerlei Gedancken und Bilder<ptr n="7" target="#a007_361.10"/> herum getrieben und mir etwas, was 
+<anchor xml:id="GB03_1_BR557_0_361_011"/>ich durch die Künstler<ptr n="8" target="#a008_361.11"/>, die um mich sind, könnte <ref target="gb:note#GB03_2_BR557_0_note_008_361_11-12" xml:id="start_com_5121"/>zusammen 
+<anchor xml:id="GB03_1_BR557_0_361_012"/>posseln<ref xml:id="end_com_5121"/> lassen herbey gesucht<ptr n="9" target="#a009_361.12"/> doch<ptr n="10" target="#a010_361.12"/> seh’ ich zum voraus, es wird eine<ptr n="11" target="#a011_361.12"/> Plakerei 
+<anchor xml:id="GB03_1_BR557_0_361_013"/>geben und am Ende doch was schwaches und halbes herauskommen. 
+<anchor xml:id="GB03_1_BR557_0_361_014"/>Immer, seit dem mich der Gedancke beschäfftigt<ptr n="12" target="#a012_361.14"/>, habe ich gewünscht: 
+<anchor xml:id="GB03_1_BR557_0_361_015"/>du möchtest Füessli bereden können dass er aus seinem ungeheuren 
+<anchor xml:id="GB03_1_BR557_0_361_016"/>Reichthum etwas zu diesem guten Werke herüber gäbe!<ptr n="13" target="#a013_361.16"/> das ist der 
+<anchor xml:id="GB03_1_BR557_0_361_017"/>einzige Weeg; wenn alsdann unser Bildhauer nicht ganz von Gott verlassen 
+<anchor xml:id="GB03_1_BR557_0_361_018"/>ist, dass wir etwas auserordentliches und wills Gott vollkommnes 
+<anchor xml:id="GB03_1_BR557_0_361_019"/>kriegen können. Mein erster Gedanke war so: Ich wollte dem <ref target="gb:note#GB03_2_BR557_0_note_009_361_19-20" xml:id="start_com_5122"/>Monumet<ref xml:id="end_com_5122"/>
+        <anchor xml:id="GB03_1_BR557_0_361_020"/>eine vierekigte Form geben, etwas höher als breit, ganz einfach, 
+<anchor xml:id="GB03_1_BR557_0_361_021"/>wie man in den alten Ueberbleibsel dergleichen Steine<ptr n="14" target="#a014_361.21"/> oben mit einem 
+<anchor xml:id="GB03_1_BR557_0_361_022"/>eingekerbten Dach findet. Von<ptr n="15" target="#a015_361.22"/> drei Seiten sollte iede eine einzelne 
+<anchor xml:id="GB03_1_BR557_0_361_023"/>bedeutende Figur und die vierte eine Innschrifft haben. Zuforderst 
+<anchor xml:id="GB03_1_BR557_0_361_024"/>sollte<ptr n="16" target="#a016_361.24"/> <ref target="gb:note#GB03_2_BR557_0_note_010_361_24-27" xml:id="start_com_5123"/>das gute heilsame Glük <pb n="2" facs="gb:digitalisate#11742/13972"/> stehen<ptr n="17" target="#a017_361.24"/>, durch das<ptr n="18" target="#a018_361.24"/> die Schlachten 
+<anchor xml:id="GB03_1_BR557_0_361_025"/>gewonnen und die Schiffe regiret werden, günstigem<ptr n="19" target="#a019_361.25"/> Wind im Naken, 
+<anchor xml:id="GB03_1_BR557_0_361_026"/>die launische Freundinn und Belohnerinn keker Unternehmungen 
+<anchor xml:id="GB03_1_BR557_0_361_027"/>mit Steuerruder und Kranz<ref xml:id="end_com_5123"/>, im Felde zur Rechten hatte ich mir 
+<anchor xml:id="GB03_1_BR557_0_361_028"/><ref target="gb:note#GB03_2_BR557_0_note_011_361_28-362_1" xml:id="start_com_5124"/>den Genius, den Antreiber, Wegmacher, Wegweiser Fakelträger mutigen 
+<anchor xml:id="GB03_1_BR557_0_362_001"/>Schrittes<ref xml:id="end_com_5124"/><ptr n="20" target="#a020_362.1"/> gedacht. <pb n="3" facs="gb:digitalisate#11742/13973"/> In dem Felde zur lincken sollte <ref target="gb:note#GB03_2_BR557_0_note_012_362_1" xml:id="start_com_5125"/>Terminus<ref xml:id="end_com_5125"/> der 
+<anchor xml:id="GB03_1_BR557_0_362_002"/>ruhige Gränzbeschreiber, der<ptr n="56" target="#a056_362.2"/> bedächtige<ptr n="57" target="#aa057_362.2"/> mäsige<ptr n="58" target="#a058_362.2"/> Rathgeber stillstehend 
+<anchor xml:id="GB03_1_BR557_0_362_003"/><ref target="gb:note#GB03_2_BR557_0_note_013_362_3" xml:id="start_com_5126"/>mit dem Schlangenstabe<ref xml:id="end_com_5126"/> eine Granzstein bezeichnen. Jener lebend 
+<anchor xml:id="GB03_1_BR557_0_362_004"/>rührig vordringend, dieser ruhend sanft<ptr n="21" target="#a021_362.4"/>, in sich gekehrt <ref target="gb:note#GB03_2_BR557_0_note_014_362_4-5" xml:id="start_com_5127"/>zwey Sohne 
+<anchor xml:id="GB03_1_BR557_0_362_005"/>einer mutter<ref xml:id="end_com_5127"/> der altere iener der iungere dieser. Das hinterste Feld 
+<anchor xml:id="GB03_1_BR557_0_362_006"/>hatte die Inschrifft<ptr n="22" target="#a022_362.6"/>.</p>
+      <p rendition="#c">
+        <anchor xml:id="GB03_1_BR557_0_362_007"/><emph rendition="#latin"><ref target="gb:note#GB03_2_BR557_0_note_015_362_7-13" xml:id="start_com_5128"/>Fortunae<lb/>
+              <anchor xml:id="GB03_1_BR557_0_362_008"/>Duci reduci<lb/>
+        <anchor xml:id="GB03_1_BR557_0_362_009"/>natisque<lb/>
+        <anchor xml:id="GB03_1_BR557_0_362_010"/>Genio<lb/>
+        <anchor xml:id="GB03_1_BR557_0_362_011"/>et<lb/>
+        <anchor xml:id="GB03_1_BR557_0_362_012"/>Termino<lb/>
+        <anchor xml:id="GB03_1_BR557_0_362_013"/>ex Voto.<ptr n="55" target="#a055_362.1"/></emph><ref xml:id="end_com_5128"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR557_0_362_014"/>Du siehst was ich vor Ideen dadurch zusammenbinden wollte. Es 
+<anchor xml:id="GB03_1_BR557_0_362_015"/>sind keine Geheimnisse noch tiefe Räzel, aber sowohl auf dieser Reise 
+<anchor xml:id="GB03_1_BR557_0_362_016"/>als im ganzen Leben, sind wir diesen Gottheiten sehr zu Schuldnern 
+<anchor xml:id="GB03_1_BR557_0_362_017"/>geworden. Das erstemal<ptr n="23" target="#a023_362.17"/> dass wir nach einer langen nicht immer frohligen 
+<anchor xml:id="GB03_1_BR557_0_362_018"/>Zeit aus de<unclear reason="illegible">n</unclear> Loche<unclear reason="illegible">rn</unclear> in die freye Welt<ptr n="24" target="#a024_362.18"/> kommen, zusammen<ptr n="25" target="#a025_362.18"/> den 
+<anchor xml:id="GB03_1_BR557_0_363_001"/>ersten bedeutenden Schritt wagen, gleich<ptr n="26" target="#a026_363.1"/> mit dem schönsten Hauche 
+<anchor xml:id="GB03_1_BR557_0_363_002"/>des Glücks fortgetrieben zu werden. in<ptr n="27" target="#a027_363.2"/> der späten Jahrszeit alles mit 
+<anchor xml:id="GB03_1_BR557_0_363_003"/>günstiger Sonne und Gestirnen. Den<ptr n="28" target="#a028_363.3"/> ganzen Weeg den wir machen 
+<anchor xml:id="GB03_1_BR557_0_363_004"/>begleitet von einem guten <pb n="4" facs="gb:digitalisate#11742/13974"/> Geiste der überall die Fackel vorträgt 
+<anchor xml:id="GB03_1_BR557_0_363_005"/>hierhin lockt dorthin treibt dass wenn ich zurücksehe wir, zu so manchem 
+<anchor xml:id="GB03_1_BR557_0_363_006"/>das unsre reise ganz macht nicht durch unsren <ref target="gb:note#GB03_2_BR557_0_note_016_363_6" xml:id="start_com_5129"/>Wiz<ref xml:id="end_com_5129"/> und Wollen 
+<anchor xml:id="GB03_1_BR557_0_363_007"/>geleitet<ptr n="29" target="#a029_363.7"/> worden sind. Und<ptr n="30" target="#a030_363.7"/> dan am Ende das wir auch durch <ref target="gb:note#GB03_2_BR557_0_note_017_363_7-8" xml:id="start_com_5130"/>den 
+<anchor xml:id="GB03_1_BR557_0_363_008"/>schönen Glückssohn<ref xml:id="end_com_5130"/> bedeutet wurden wo wir aufhören, wo wir einen 
+<anchor xml:id="GB03_1_BR557_0_363_009"/>Gränzbogen<ptr n="31" target="#a031_363.9"/> beschreiben und wieder zurück kehren sollten, das wieder 
+<anchor xml:id="GB03_1_BR557_0_363_010"/>einen unglaublichen Einfluss<ptr n="32" target="#a032_363.10"/> auf unsre Zurückgebliebnen hat und 
+<anchor xml:id="GB03_1_BR557_0_363_011"/>haben wird. Das alles zusamen giebt uns<ptr n="33" target="#a033_363.11"/> eine Empfindung die ich 
+<anchor xml:id="GB03_1_BR557_0_363_012"/>nicht schoner zu ehren weis als womit alle Zeiten durch die Menschen 
+<anchor xml:id="GB03_1_BR557_0_363_013"/>Gott<unclear reason="illegible">er</unclear><ptr n="34" target="#a034_363.13"/> verehrt haben.</p>
+      <p rendition="#einrueck1">
+      <pb n="5" facs="gb:digitalisate#11742/13975"/>
+        <anchor xml:id="GB03_1_BR557_0_363_014"/>Im<ptr n="35" target="#a035_363.14"/> Beywesen und Verzierungen dacht<ptr n="36" target="#a036_363.14"/> ich manches anzubringen 
+<anchor xml:id="GB03_1_BR557_0_363_015"/>das eine<ptr n="37" target="#a037_363.15"/> Schweizer reise deren bester Theil zu Fus gemacht worden 
+<anchor xml:id="GB03_1_BR557_0_363_016"/>bezeichnete.<ptr n="38" target="#a038_363.16"/> Wanderstock mit Eisen beschlagen und mit Gemshorn 
+<anchor xml:id="GB03_1_BR557_0_363_017"/>zum Knopf. Gott weis was weiter.</p>
+      <p rendition="#einrueck1">
+      <pb n="6" facs="gb:digitalisate#11742/13976" type="empty"/>
+      <pb n="2" facs="gb:digitalisate#11742/13972"/>
+      
+        <anchor xml:id="GB03_1_BR557_0_363_018"/>Meine Gedancken wollt ich ich einigen Künstlern mittheilen, sie 
+<anchor xml:id="GB03_1_BR557_0_363_019"/>hinüber herüber mit ihnen durchtreiben und sehen ob ihnen einer 
+<anchor xml:id="GB03_1_BR557_0_363_020"/>vielleicht<ptr n="39" target="#a039_363.20"/> einen bessern Körper gabe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR557_0_363_021"/>Seitdem ich aber<ptr n="40" target="#a040_363.21"/> <ref target="gb:note#GB03_2_BR557_0_note_018_363_21" xml:id="start_com_5131"/>bei dir<ref xml:id="end_com_5131"/> Füesslis lezte Sachen gesehen habe, kann 
+<anchor xml:id="GB03_1_BR557_0_363_022"/>ich dich nicht los lassen du mußt versuchen<ptr n="41" target="#a041_363.22"/> ob du ihn bewegen 
+<anchor xml:id="GB03_1_BR557_0_363_023"/>kannst eine Zeichnung dazu zu machen. Den<ptr n="42" target="#a042_363.23"/> Gedanken und Entzwek 
+<anchor xml:id="GB03_1_BR557_0_363_024"/>weisst du, den sag ihm ganz rein und einfach und da es ihm fatal sein 
+<anchor xml:id="GB03_1_BR557_0_363_025"/>muss, wenn ihm iemand was vorerfinden oder angeben will, so geb 
+<anchor xml:id="GB03_1_BR557_0_363_026"/>ich gern meine Form des Ganzen meine einzelne Figuren und die 
+<anchor xml:id="GB03_1_BR557_0_363_027"/>Innschrifft dazu auf, wenn er sich des Dings annehmen<ptr n="43" target="#a043_363.27"/> will. er wird 
+<anchor xml:id="GB03_1_BR557_0_364_001"/>gewiss die Idee stärker grösser treffender und neuer ausdrüken.<ptr n="44" target="#a044_364.1"/> Du 
+<anchor xml:id="GB03_1_BR557_0_364_002"/>müsstest ihn bitten, er mag nun bei meinem <pb n="7" facs="gb:digitalisate#11742/13977"/> vorschlag bleiben oder 
+<anchor xml:id="GB03_1_BR557_0_364_003"/>nicht dass er eine bestimmte Zeichnung von der Form des Ganzen 
+<anchor xml:id="GB03_1_BR557_0_364_004"/>mit den Masen gäbe, auch so von den einzelnen Figuren und sie auf 
+<anchor xml:id="GB03_1_BR557_0_364_005"/>eine weise Zeichnete dass sich leicht ein <ref target="gb:note#GB03_2_BR557_0_note_019_364_5" xml:id="start_com_5132"/>basrelief<ref xml:id="end_com_5132"/> darnach arbeiten 
+<anchor xml:id="GB03_1_BR557_0_364_006"/>liese. Vielleicht sind ihm, der alles mit Geist und Feuer durcheinander 
+<anchor xml:id="GB03_1_BR557_0_364_007"/>arbeitet die einzelnstehende<ptr n="45" target="#a045_364.7"/> Figuren widrig, er bringe sie zusammen 
+<anchor xml:id="GB03_1_BR557_0_364_008"/>auf eins wenn er will, allenfalls nehme er statt des Vierecks eine<ptr n="46" target="#a046_364.8"/> runde 
+<anchor xml:id="GB03_1_BR557_0_364_009"/>Form, doch das würde<ptr n="47" target="#a047_364.9"/> freilig wieder bei der Ausführung in Stein 
+<anchor xml:id="GB03_1_BR557_0_364_010"/>mehrere<ptr n="48" target="#a048_364.10"/> Hinderniss geben. Noch muss ich dir dabei sagen, dass wir 
+<anchor xml:id="GB03_1_BR557_0_364_011"/><ref target="gb:note#GB03_2_BR557_0_note_020_364_11" xml:id="start_com_5133"/>einen auserordentlich schönen lichtgrauen sanften Stein<ref xml:id="end_com_5133"/>, der an den 
+<anchor xml:id="GB03_1_BR557_0_364_012"/>Marmor gränzt und keiner Witterung weicht, zu dieser Arbeit haben. 
+<anchor xml:id="GB03_1_BR557_0_364_013"/>Du müsstest Füesslien bitten, dass er selbst die Grösse vom ganzen 
+<anchor xml:id="GB03_1_BR557_0_364_014"/>Monument, nach<ptr n="49" target="#a049_364.14"/> seinen Gedanken angäbe, das man allenfalls um es 
+<anchor xml:id="GB03_1_BR557_0_364_015"/>etwas aus dem Auge zu rüken auf einen Rasen gegen ein Felsstück pp<ptr n="50" target="#a050_364.15"/>
+        <anchor xml:id="GB03_1_BR557_0_364_016"/>sezen<ptr n="51" target="#a051_364.16"/> könnte. Genug er denke sich das wie er’s wolle so wird es gut 
+<anchor xml:id="GB03_1_BR557_0_364_017"/>seyn und wir haben so viel und mancherlei Stüke Steine vorräthig dass 
+<anchor xml:id="GB03_1_BR557_0_364_018"/>wir zum zusammensezen des Ganzen nicht verlegen sein werden. 
+<anchor xml:id="GB03_1_BR557_0_364_019"/>Sieh’ ob du etwas <ref target="gb:note#GB03_2_BR557_0_note_021_364_19" xml:id="start_com_5134"/>über ihn vermagst<ref xml:id="end_com_5134"/> und ob du, der frölichen Zeiten, 
+<anchor xml:id="GB03_1_BR557_0_364_020"/>die wir wieder gelebt haben, immer gegenwärtiges Siegel dadurch, 
+<anchor xml:id="GB03_1_BR557_0_364_021"/>auf unsere Wohnung druken kannst. Wenigstens hat er gewiss in seinem 
+<anchor xml:id="GB03_1_BR557_0_364_022"/>Leben manchen Strich gemacht, der nicht so erkannt und ihm 
+<anchor xml:id="GB03_1_BR557_0_364_023"/>so gedankt worden ist, als wie das was, ich durch dich hoffe. Welchen 
+<anchor xml:id="GB03_1_BR557_0_364_024"/>Preiss er auch auf diese Arbeit sezen möge ist völlig<ptr n="52" target="#a052_364.24"/> einerlei. Nun ist 
+<anchor xml:id="GB03_1_BR557_0_364_025"/>aber noch ein Hauptpunkt nemlich die Geschwindigkeit. Ich wünsche 
+<anchor xml:id="GB03_1_BR557_0_364_026"/>es diesen Winter <ref target="gb:note#GB03_2_BR557_0_note_022_364_26" xml:id="start_com_5135"/>fertig zu kriegen<ref xml:id="end_com_5135"/> und auf das Frühiahr zum ersten 
+<anchor xml:id="GB03_1_BR557_0_364_027"/>Willkomm mit den Blüthen und Blättern aufzustellen. Versuche 
+<anchor xml:id="GB03_1_BR557_0_364_028"/>also, ich bitte dich deine Wunderkräfte um mir zu verschaffen was n
+<anchor xml:id="GB03_1_BR557_0_364_029"/>icht ein eitler Wunsch ist. Schaff dass<ptr n="53" target="#a053_364.29"/> er es macht und schnell macht 
+<anchor xml:id="GB03_1_BR557_0_364_030"/>und kröne mir auch dies Jahr und sein Glük mit<ptr n="54" target="#a054_364.30"/> diesem lezten Zeichen.
+<anchor xml:id="GB03_1_BR557_0_364_031"/>
+      </p>
+    <pb n="8" facs="gb:digitalisate#11742/13978" type="empty"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11742_comment">
+<body>
+<div type="metadata" xml:id="gb11742_comment_com508">
+  <ab type="numberAddressee"><label>557.</label> An <persName key="sndb:person#39033">Johann Caspar Lavater</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#84911">Konstanz</placeName></supplied> oder <supplied><placeName key="sndb:ort#79162">Schaffhausen</placeName></supplied>, <supplied>zwischen 3. und 5. Dezember 1779</supplied> → <supplied><placeName key="sndb:ort#79740">Zürich</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11742_comment_com1645">
+  <p>Die von fremder Hand vorgenommene Datierung auf „November 1779.“ (vgl. <ref target="gb:note#gb11742_comment_com2552">Überlieferung</ref>) beruht auf einem Irrtum. Goethe war erst am 2. Dezember 1779 von Zürich abgereist. Der Brief stammt aus der Zeit zwischen Goethes Aufbruch aus Zürich und Lavaters Eintreffen in Schaffhausen, wo er die Reisenden am 6. Dezember 1779 überraschte (vgl. <ref target="gb:text#GB03_1_BR558_0_365_005 #GB03_1_BR558_0_365_007">365,5–7</ref>) und mit ihnen bis zu ihrer Weiterreise am 8. Dezember zusammenblieb (vgl. Carl Augusts Brief an Herzogin Louise, 12. Dezember 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 126). In der Zeit danach kann der Brief nicht entstanden sein, denn am 12. Januar 1780 schrieb Lavater, er habe seit dem Zusammensein „kein Wort von Eüch“ gehört (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 94). Demnach kommen als Datum des vorliegenden Briefes der 3., 4. oder 5. Dezember 1779 in Frage. Mögliche Absendeorte sind Konstanz, wo Goethe vom Abend des 3. Dezember bis zum Morgen des 5. Dezember Station machte, und Schaffhausen, wo er am 5. Dezember „noch bey Tage“ (Herzog Carl Augusts Brief an seine Frau Louise, 12. Dezember 1779; <ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 125) eintraf.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11742_comment_com2552">
+  <p>H: Verbleib unbekannt.</p>
+  <p>K: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 111. – 2 Doppelblätter: 1. Doppelblatt 18,7 × 22,2(–22,7) cm, 3 S. beschr., Schreiberhd (Seidel) mit egh. Korrekturen, Tinte; S. 1 oben in der Mitte von fremder Hd (Lavater?), Tinte: „November 1779.“ Dass diese Angabe von Lavaters Hand stammt, wie in <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 406 und in <ref target="sndb:sigle#1157">WA</ref> IV 4, 360 angenommen, ist nicht nur der Fehldatierung wegen, sondern auch nach Prüfung der Handschrift unsicher. Sollte es sich tatsächlich um Lavaters Schrift handeln, müsste angenommen werden, dass er das vorliegende Konzept gewissermaßen als Ausfertigung erhalten hat, möglicherweise, weil eine Reinschrift (aus Zeitgründen?) nicht hergestellt worden war. – 2. Doppelblatt 18,2 × 22,7 cm, 2 &#x2153; S. beschr., egh., Tinte: Einfügungen zu den S. 1–3 (1. Doppelblatt), vgl. Var. zu 362–363.</p>
+  <p>E: <ref target="sndb:sigle#2867">Goethe-Lavater<hi rendition="#sup">1</hi></ref> (1833), 56–65, Nr 19 (nach K).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 141–146, Nr 870 (nach K).</p>
+  <p>Textgrundlage: K.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11742_comment_com4348">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Lavater antwortete am 12. Januar (<ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 94–97; vgl. <ref target="ra:dokument#119">RA 1, 77, Nr 107</ref>) und am 18. Februar 1780 (vgl. RA Erg.-Bd zu den Bänden 1–5, 543, <ref target="ra:dokument#121">Nr 1/108a<hi rendition="#sup">+</hi></ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11742_comment_com17999">
+<label xml:id="GB03_2_BR557_0_note_001_360_16" copyOf="#start_com_5114"><hi rendition="#fett">360,16</hi>Idee</label>
+<p>Goethe plante ein Monument für Herzog Carl August zur Erinnerung an die gemeinsame Schweizer Reise. Der Schweizer Maler Johann Heinrich Füßli, von dem Goethe bei Lavater einige <quote type="G">Gemählde und Skizzen</quote> (<ref target="gb:text#GB03_1_BR554_0_358_001 #GB03_1_BR554_0_358_002">358,1–2</ref>) kennen gelernt hatte, sollte auf Lavaters Bitte hin eine Entwurfszeichnung anfertigen. Doch nachdem Füßli zunächst gar nicht geantwortet hatte (vgl. Lavaters Brief an Goethe, 12. Januar 1780; <ref target="sndb:sigle#2134">Goethe-Lavater<hi rendition="#sup">3</hi></ref>, 95), lehnte er das Projekt schließlich ab. Am 7. Februar 1780 schickte Goethe einen abschlägigen Brief Füßlis an Lavater und bat diesen, <quote type="G">die Sache ruhen</quote> (<ref target="gb:text#GB04_1_BR012_0_014_020">GB 4 I, 14,20</ref>) zu lassen. Lavater äußerte sich in seinem Brief an Goethe vom 18. Februar 1780 verärgert über Füßlis Absage (vgl. RA Erg.-Bd zu den Bänden 1–5, 543, <ref target="ra:dokument#121">Nr 1/108a<hi rendition="#sup">+</hi></ref>).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11222">
+<label xml:id="GB03_2_BR557_0_note_002_360_23" copyOf="#start_com_5115"><hi rendition="#fett">360,23</hi>Neben-Absichten</label>
+<p>Goethe hatte die Reise in die Schweiz mit Herzog Carl August auch aus ‚pädagogischen‘ Gründen unternommen (über weitere Motive der Reise vgl. die einleitende Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>). Am Anfang stand die Überzeugung, sowohl sein eigenes Leben als auch das des Herzogs bedürfe der Neuorientierung. Aus Goethes Tagebuch von Anfang August 1779 geht hervor, dass er mit Carl August intensive Unterredungen über Privates (auch über dessen Ehe) und Politisches geführt hatte; in deren Verlauf sprachen sie <quote type="G">unaussprechliche Dinge durch</quote> (2. August 1779; <ref target="gt:dokument#748">GT I 1, 85</ref>). Auch Goethe selbst hatte einen kritischen <quote type="G">Rückblick aufs Leben</quote> (7. August 1779; <ref target="gt:dokument#752">ebd.</ref>) gehalten. Neue Umgebungen und Eindrücke sollten der Klärung dienen und einen Neuanfang befördern. Im Brief vom 24. bis 28. September 1779 schreibt er an Charlotte von Stein: <quote type="G">Die Schweiz liegt vor uns und wir hoffen mit Beystand des Himm<supplied>els</supplied> in den grosen Gestalten der Welt uns umzutreiben, und unsre Geister im Erhabnen der Natur zu baden.</quote> (<ref target="gb:text#GB03_1_BR534_0_299_009 #GB03_1_BR534_0_299_011">299,9–11</ref>.) Das geplante Monument mit seinen mahnenden Allegorien (vgl. <ref target="gb:text#GB03_1_BR557_0_361_023 #GB03_1_BR557_0_362_013">361,23–362,13</ref>) sollte mit der Erinnerung an die gemeinsame Reise zugleich die durch sie hervorgebrachten guten Wirkungen befestigen helfen.</p>
+
+</note>
+<note xml:id="gb11742_comment_com15787">
+<label xml:id="GB03_2_BR557_0_note_003_360_25" copyOf="#start_com_5116"><hi rendition="#fett">360,25</hi>fatal</label>
+<p>Hier: unangenehm, unerfreulich; von Goethe vorwiegend in der voritalienischen Zeit verwendet (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 610).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11238">
+<label xml:id="GB03_2_BR557_0_note_004_360_25-361_1" copyOf="#start_com_5117"><hi rendition="#fett">360,25-361,1</hi>kleinen Anlagen</label>
+<p>In den ersten Regierungsjahren hielt sich Carl August z. B. gern im von ihm umgebauten Borkenhäuschen auf, einer der frühesten Gartenarchitekturen, die am Beginn der Umgestaltung der Ilmhänge und  -auen zu einer englischen Parklandschaft standen.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11239">
+<label xml:id="GB03_2_BR557_0_note_005_361_4" copyOf="#start_com_5118"><hi rendition="#fett">361,4</hi><emph rendition="#latin">ex voto</emph></label>
+<p>Lat.: auf Grund eines Gelübdes (Formel in altrömischen Weiheinschriften); mit Bezug auf den Text der vorgesehenen Inschrift auf dem Monument (vgl. <ref target="gb:text#GB03_1_BR557_0_362_007 #GB03_1_BR557_0_362_013">362,7–13</ref>).</p>
+
+</note>
+<note xml:id="gb11742_comment_com15128">
+<label xml:id="GB03_2_BR557_0_note_006_361_5" copyOf="#start_com_5119"><hi rendition="#fett">361,5</hi>Bildhauer</label>
+<p>Martin Gottlieb Klauer, Weimarer Hofbildhauer.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11240">
+<label xml:id="GB03_2_BR557_0_note_007_361_9" copyOf="#start_com_5120"><hi rendition="#fett">361,9</hi>Gusto</label>
+<p>Ital.: Geschmack.</p>
+
+</note>
+<note xml:id="gb11742_comment_com14063">
+<label xml:id="GB03_2_BR557_0_note_008_361_11-12" copyOf="#start_com_5121"><hi rendition="#fett">361,11-12</hi>zusammen posseln</label>
+<p>Bosseln: aufwändige und komplizierte kunsthandwerkliche Arbeiten verrichten (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 843).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11241">
+<label xml:id="GB03_2_BR557_0_note_009_361_19-20" copyOf="#start_com_5122"><hi rendition="#fett">361,19-20</hi>Monumet</label>
+<p>Versehentlich für ‚Monument‘.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11242">
+<label xml:id="GB03_2_BR557_0_note_010_361_24-27" copyOf="#start_com_5123"><hi rendition="#fett">361,24-27</hi>das gute heilsame Glük <gap quantity="3" reason="editorial"/> mit Steuerruder und Kranz</label>
+<p>Griech. Τύχη (Tyche), lat. Fortuna, die Glücks- und Schicksalsgöttin; das Steuerrad symbolisiert die Lenkung des Schicksals, der Kranz steht für Ruhm und Sieg.</p>
+
+</note>
+<note xml:id="gb11742_comment_com17955">
+<label xml:id="GB03_2_BR557_0_note_011_361_28-362_1" copyOf="#start_com_5124"><hi rendition="#fett">361,28-362,1</hi>den Genius <gap quantity="3" reason="editorial"/> mutigen Schrittes</label>
+<p>Im Genius sahen die Römer einen unsichtbaren, persönlichen Schutzgeist. Zugleich galt er als Personifikation der Zeugungskraft. Hier wird der Genius – wie in Goethes Gedicht „Wanderers Sturmlied“ (vgl. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 2, 228 f.) – als Verkörperung menschlicher Kreativität und Tatkraft verstanden.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11252">
+<label xml:id="GB03_2_BR557_0_note_012_362_1" copyOf="#start_com_5125"><hi rendition="#fett">362,1</hi>Terminus</label>
+<p>Römischer Gott der Grenzsteine.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11253">
+<label xml:id="GB03_2_BR557_0_note_013_362_3" copyOf="#start_com_5126"><hi rendition="#fett">362,3</hi>mit dem Schlangenstabe</label>
+<p>Der Schlangenstab (lat. caduceus) war ein Attribut des römischen Gottes Mercurius (Merkur, griech. Hermes). Dieser hatte von Apollo einen Stab erhalten, den er einmal zwischen zwei kämpfend ineinander verschlungene Drachen warf, die daraufhin friedlich auseinandergingen. Seither wurde dem Stab „die Kraft, zwischen Streitenden Friede zu machen“ (<ref target="sndb:sigle#2906">Hederich</ref>, 597), zugesprochen.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11254">
+<label xml:id="GB03_2_BR557_0_note_014_362_4-5" copyOf="#start_com_5127"><hi rendition="#fett">362,4-5</hi>zwey Sohne einer mutter</label>
+<p>Dieser Zusammenhang ist nicht mythologisch, sondern Goethes eigene Interpretation.</p>
+
+</note>
+<note xml:id="gb11742_comment_com15144">
+<label xml:id="GB03_2_BR557_0_note_015_362_7-13" copyOf="#start_com_5128"><hi rendition="#fett">362,7-13</hi><emph rendition="#latin">Fortunae</emph> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">ex Voto.</emph></label>
+<p>Lat.: <supplied>Geweiht</supplied> der Fortuna <supplied>der Göttin des günstigen Geschicks</supplied> / der hinweg- und wieder zurückführenden / und ihren Söhnen / Genius / und / Terminus / auf Grund eines Gelübdes.</p>
+
+</note>
+<note xml:id="gb11742_comment_com16046">
+<label xml:id="GB03_2_BR557_0_note_016_363_6" copyOf="#start_com_5129"><hi rendition="#fett">363,6</hi>Wiz</label>
+<p>Verstand, Wissen; im ausgehenden 18. Jahrhundert in „der engsten, jetzt noch allein üblichen Bedeutung <gap quantity="3" reason="editorial"/> das Vermögen der Seele, Ähnlichkeiten, und besonders verborgene Ähnlichkeiten, zu entdecken, so wie Scharfsinn das Vermögen ist, verborgene Unterschiede aufzufinden“ (<ref target="sndb:sigle#2753">Adelung</ref> 4, 1586).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11255">
+<label xml:id="GB03_2_BR557_0_note_017_363_7-8" copyOf="#start_com_5130"><hi rendition="#fett">363,7-8</hi>den schönen Glückssohn</label>
+<p>Nach der Inschrift des Denkmals: Terminus (vgl. zu <ref target="gb:note#GB03_2_BR557_0_note_015_362_7-13">362,7-13</ref>).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11269">
+<label xml:id="GB03_2_BR557_0_note_018_363_21" copyOf="#start_com_5131"><hi rendition="#fett">363,21</hi>bei dir</label>
+<p>Goethe war vom 18. November bis 2. Dezember 1779 Lavaters Gast in Zürich gewesen.</p>
+
+</note>
+<note xml:id="gb11742_comment_com11270">
+<label xml:id="GB03_2_BR557_0_note_019_364_5" copyOf="#start_com_5132"><hi rendition="#fett">364,5</hi>basrelief</label>
+<p>Franz.: Flach- oder Halbrelief.</p>
+
+</note>
+<note xml:id="gb11742_comment_com15158">
+<label xml:id="GB03_2_BR557_0_note_020_364_11" copyOf="#start_com_5133"><hi rendition="#fett">364,11</hi>einen <gap quantity="3" reason="editorial"/> lichtgrauen sanften Stein</label>
+<p>Der so genannte Oetternsche Stein oder Thüringer Marmor; Goethe beschreibt ihn auch im Brief an Johann Heinrich Merck vom 5. August 1778 (vgl. <ref target="gb:text#GB03_1_BR388_0_221_027 #GB03_1_BR388_0_221_034">221,27–34</ref>).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11271">
+<label xml:id="GB03_2_BR557_0_note_021_364_19" copyOf="#start_com_5134"><hi rendition="#fett">364,19</hi>über ihn vermagst</label>
+<p>Hier im Sinne von ‚bei ihm ausrichten kannst‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 1095).</p>
+
+</note>
+<note xml:id="gb11742_comment_com11272">
+<label xml:id="GB03_2_BR557_0_note_022_364_26" copyOf="#start_com_5135"><hi rendition="#fett">364,26</hi>fertig zu kriegen</label>
+<p>Der von Goethe geplante Gedenkstein wurde nicht errichtet. Der Stein in Goethes Garten, der wie der hier beschriebene an <quote type="G">das gute heilsame Glük</quote> erinnert (vgl. zu <ref target="gb:note#GB03_2_BR320_0_note_011_190_5-6">190,5-6</ref>), wurde bereits 1777 aufgestellt; er hat mit der Schweizer Reise nichts zu tun.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

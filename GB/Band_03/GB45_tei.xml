@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4690"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb45" n="GB 3, Nr. 460">
+  <teiHeader xml:id="gb45_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>460.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName>, Ende Januar/Anfang Februar 1779</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:32Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb45_tei.xml</idno>
+        <idno type="URI">gb45</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR460_0</idno>
+        <idno type="KSW-ID">45</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="257" to="257">257</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="852" to="853">852-853</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb45_header_hwit1442" corresp="#gb45_source_hwit1442" sameAs="#gb45_comment_hwit1442" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#17">LATh - HStA</institution>
+            <idno type="shelfmark">Fürstenhaus A 1082</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/45,,1442/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Durchl. der Herzog hat befohlen einigen Versuch mit tobacks    bau auf ihre Kosten</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1779-01-21" to="1779-01-31"><supplied>Ende Januar 1779</supplied></date> oder
+            <date exclude="#xpath(self::*/following-sibling::date|preceding-sibling::date)" from="1779-02-01" to="1779-02-10"><supplied>Anfang Februar 1779</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#43118">Bertuch, Friedrich Justin</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb45_source_hwit1442" corresp="#gb45_header_hwit1442" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#45/26463"/>
+      <p>
+        <anchor xml:id="GB03_1_BR460_0_257_011"/>Durch<g ref="#typoSuspension"/> der Herzog hat befohlen einigen Versuch mit tobacks bau auf 
+<anchor xml:id="GB03_1_BR460_0_257_012"/>ihre Kosten zu machen Du wirst also die vorkommenden <ref target="gb:note#GB03_2_BR460_0_note_001_257_12-13" xml:id="start_com_3738"/>von mir attestirten 
+<anchor xml:id="GB03_1_BR460_0_257_013"/>Zettel<ref xml:id="end_com_3738"/> bezahlen, und von <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR460_0_note_002_257_13" xml:id="start_com_3739"/>Ser</emph>
+        <ref xml:id="end_com_3739"/> horn wie du sie <ref target="gb:note#GB03_2_BR460_0_note_003_257_13" xml:id="start_com_3740"/>verschreiben<ref xml:id="end_com_3740"/>
+        <anchor xml:id="GB03_1_BR460_0_257_014"/>sollst. Das beste wird seyn sie zusammen zu sezzen in ein <ref target="gb:note#GB03_2_BR460_0_note_004_257_14" xml:id="start_com_3741"/>Caput<ref xml:id="end_com_3741"/>.     G.</p>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb45_comment">
+<body>
+<div type="metadata" xml:id="gb45_comment_com1005">
+  <ab type="numberAddressee"><label>460.</label> An <persName key="sndb:person#43118">Friedrich Justin Bertuch</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, <supplied>Ende Januar 1779</supplied> oder <supplied>Anfang Februar 1779</supplied> → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb45_comment_com1853">
+  <p>Beim ersten der erwähnten von Goethe <quote type="G">attestirten Zettel</quote> (<ref target="gb:text#GB03_1_BR460_0_257_012 #GB03_1_BR460_0_257_013">257,12–13</ref>) handelt es sich um eine von Carl Heinrich Gentzsch aufgestellte Rechnung über das Ausbringen von Mist „auf die H<g ref="#typoSuspension"/>: Acker bey den Schis Hauß“ über 13 Reichstaler 22 Groschen 6 Pfennig (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 233). Die von Goethe abgezeichnete „Specification“ stammt vom 6. Februar 1779. Die gärtnerischen Arbeiten dürften in den Tagen zuvor erledigt worden sein. Der vorliegende Brief, in dem der Tabakanbau-Versuch und die damit zusammenhängenden Rechnungen angekündigt werden, wurde demnach Ende Januar oder Anfang Februar 1779 geschrieben.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb45_comment_com3049">
+  <p>H: <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 232. – Doppelblatt 19,4 × 33,6 cm, &#xBC; S. beschr., egh., Tinte, flüchtig geschrieben. – In einem gebundenen Konvolut mit grauem Pappeinband (22,2 × 36,4 cm), enthält 254 Bl.; auf dem vorderen Deckel mit Tinte: „Belege 430 – 619. / zur / Haupt-Rechnung v. 1 Oct 1778–1779“.</p>
+  <p>E: <ref target="sndb:sigle#1266">GJb</ref> N. F. 10 (1947), 291 (Wolfgang Huschke).</p>
+  <p><ref target="sndb:sigle#1158">WAN</ref> 1 (<ref target="sndb:sigle#1157">WA</ref> IV 51 [1990]), 50, Nr 776b.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb45_comment_com4845">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Herzog Carl August war – im Gegensatz zu Goethe, der den Genuss von Tabak ablehnte – Pfeifenraucher. Bertuch verbuchte wiederholt (etwa in der „Jahres-Rechnung von Serenissimi Regentis Scatol. vom 1 Oct: 1781 bis dahin 1782“; <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1097) Ausgaben für „Tabackspfeiffen Mundköpfe“ (Bl. 14r), für einen „meerschaumenen Pfeiffenkopf“ und „silberne Beschläge daran“ (Bl. 14v), für „Tabacks Röhrgen“ (ebd.) u. a. m. Auf Wunsch des Herzogs wurde im Lauf des Jahres 1779 auf einigen (später in den Park an der Ilm integrierten) Äckern in der Nähe des damaligen Schießhauses (hinter dem heutigen Liszt-Haus) unter der Aufsicht des Hofgärtners Carl Heinrich Gentzsch eine Tabakplantage angelegt. Goethe erwähnt in seinem Tagebuch unter dem 27. August 1779 einen Besuch der <quote type="G">Tobacks Acker</quote> (<ref target="gt:dokument#762">GT I 1, 88</ref>). Der Erfolg war gering, so dass der Versuch in den folgenden Jahren nicht wiederholt wurde.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb45_comment_com5317">
+<label xml:id="GB03_2_BR460_0_note_001_257_12-13" copyOf="#start_com_3738"><hi rendition="#fett">257,12-13</hi>von mir attestirten Zettel</label>
+<p>In den Schatullrechnungen finden sich von Goethe bestätigte Rechnungsbelege, der letzte vom 11. September 1779 (vgl. <ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 251), dem Vortag seiner Abreise in die Schweiz. Insgesamt beliefen sich die Aufwendungen für das Tabakanbau-Vorhaben auf 255 Reichstaler (vgl. Huschke in E).</p>
+
+</note>
+<note xml:id="gb45_comment_com5318">
+<label xml:id="GB03_2_BR460_0_note_002_257_13" copyOf="#start_com_3739"><hi rendition="#fett">257,13</hi><emph rendition="#latin">Ser</emph></label>
+<p>Serenissimus: Durchlauchtigster Herr, Titulierung regierender Fürsten.</p>
+
+</note>
+<note xml:id="gb45_comment_com13971">
+<label xml:id="GB03_2_BR460_0_note_003_257_13" copyOf="#start_com_3740"><hi rendition="#fett">257,13</hi>verschreiben</label>
+<p>Amtlich, urkundlich verzeichnen (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 25, 1153).</p>
+
+</note>
+<note xml:id="gb45_comment_com5319">
+<label xml:id="GB03_2_BR460_0_note_004_257_14" copyOf="#start_com_3741"><hi rendition="#fett">257,14</hi>Caput</label>
+<p>Lat.: Abschnitt, ‚Kapitel‘. – Bertuch richtete, wie vorgeschlagen, in den Schatullrechnungen von 1778/79 und 1779/80 ein „Cap: 13. / Tabacks Plantage“ (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1082, Bl. 231) und ein „Cap. XIII / Tabacks-Plantage“(<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 1089, Bl. 76) ein.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

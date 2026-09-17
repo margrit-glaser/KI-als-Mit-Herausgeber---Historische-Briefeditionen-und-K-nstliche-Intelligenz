@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="3780"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb52383" n="GB 3, Nr. 369">
+  <teiHeader xml:id="gb52383_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>369.</label> <persName key="sndb:person#45319">Philipp Seidel</persName> an <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 4. Juni 1778. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:22:22Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb52383_tei.xml</idno>
+        <idno type="URI">gb52383</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR369_0</idno>
+        <idno type="KSW-ID">52383</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="212" to="213">212-213</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="731" to="732">731-732</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb52383_header_hwit52533" corresp="#gb52383_source_hwit52533" sameAs="#gb52383_comment_hwit52533" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 102</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/52383,,52533/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Ich zweifle nicht Ew. Hochedl. verzeihen daß ich Sie im Nahmen des Hl. Geh. Leg. Rath</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#45319">Seidel, Philipp</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1778-06-04">4. Juni 1778</date>
+            <note>
+              <date type="WA" when="1778-06-04">4. Juni 1778</date>            </note>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb52383_source_hwit52533" corresp="#gb52383_header_hwit52533" type="source" rend="authorisedLetter">
+  <body>
+    <div type="proxyLetter">
+    <pb n="1" facs="gb:digitalisate#52383/13924"/>
+      <head><supplied>Auftragsbrief</supplied></head>
+      <opener>
+        <salute><hi rendition="#einrueck2">
+          <anchor xml:id="GB03_1_BR369_0_212_009"/>Hochedler</hi>
+        <lb/>
+        
+          <hi rendition="#einrueck2"><anchor xml:id="GB03_1_BR369_0_212_010"/>Hochzuehrender Herr,</hi></salute>
+      </opener>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR369_0_212_011"/>Ich zweifle nicht Ew. Hoched<g ref="#typoSuspension"/>. verzeihen daß ich Sie im Nahmen des 
+<anchor xml:id="GB03_1_BR369_0_212_012"/>H<g ref="#typoSuspension"/>. Geh. Leg. Rath<ptr n="1" target="#a001_212.12"/> Goethe mit folgender kleinen <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR369_0_note_001_212_12" xml:id="start_com_3234"/>Commission</emph>
+        <ref xml:id="end_com_3234"/> zu belästigen 
+<anchor xml:id="GB03_1_BR369_0_212_013"/>mir die Freiheit nehme</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR369_0_212_014"/>Der H<g ref="#typoSuspension"/>. Geh. Leg. R. hat bei seiner <ref target="gb:note#GB03_2_BR369_0_note_002_212_14" xml:id="start_com_3235"/>Durchreiße durch Leipzig<ref xml:id="end_com_3235"/> einem 
+<anchor xml:id="GB03_1_BR369_0_212_015"/>Uhrmacher in, oder neben dem <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR369_0_note_003_212_15" xml:id="start_com_3236"/>Hotel de Baviére</emph>
+        <ref xml:id="end_com_3236"/> (deßen Nahmen 
+<anchor xml:id="GB03_1_BR369_0_212_016"/>der Bediente nicht weiß) <ref target="gb:note#GB03_2_BR369_0_note_004_212_16" xml:id="start_com_3237"/>eine<ptr n="2" target="#a002_212.16"/> goldne Uhre<ref xml:id="end_com_3237"/> zu repariren gegeben. 
+<anchor xml:id="GB03_1_BR369_0_212_017"/>Haben sie die Güte diese zurükzufodern, die Gebühr auszulegen 
+<anchor xml:id="GB03_1_BR369_0_212_018"/>und solche anher zu senden.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR369_0_212_019"/>Ich melde Ihnen hiernächst <ref target="gb:note#GB03_2_BR369_0_note_005_212_19" xml:id="start_com_3238"/>die Ankunft der Phisiognomik<ref xml:id="end_com_3238"/> und eines 
+<anchor xml:id="GB03_1_BR369_0_212_020"/>
+        <emph rendition="#latin">Paquets</emph> durch <ref target="gb:note#GB03_2_BR369_0_note_006_212_20" xml:id="start_com_3239"/>Buchh. Hofmann<ref xml:id="end_com_3239"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR369_0_213_001"/>Ich verharre mit vollkommener Hochachtung</p>
+      <space quantity="1" unit="lines"/>
+      <closer>
+        <salute rendition="#einrueck14">
+          <anchor xml:id="GB03_1_BR369_0_213_002"/>Ew. Hoched<g ref="#typoSuspension"/>.</salute>
+        <lb/>
+        <space quantity="1" unit="lines"/>
+        <lb/><dateline>
+          <anchor xml:id="GB03_1_BR369_0_213_003"/>Weimar den 4 Juni. 1778.</dateline>                                     <salute>ergebenster <ref target="gb:note#GB03_2_BR369_0_note_007_213_2" xml:id="start_com_3240"/>Dir.<ref xml:id="end_com_3240"/>
+        </salute><lb/>
+        <signed rendition="#einrueck20">
+          <anchor xml:id="GB03_1_BR369_0_213_004"/>Ph. Fr. Seidel.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#52383/13925" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#52383/13926"/>
+    <pb n="4" facs="gb:digitalisate#52383/13927"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb52383_comment">
+<body>
+<div type="metadata" xml:id="gb52383_comment_com986">
+  <ab type="numberAddressee"><label>369.</label>
+    <persName key="sndb:person#45319">Philipp Seidel</persName> an <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 4. Juni 1778 → <placeName key="sndb:ort#78408">Leipzig</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb52383_comment_com3030">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B. 102. – Doppelblatt 17,3(–17,6) ×  20,9(–21,2) cm, 1 S. beschr., Seidels Hd, Tinte; S. 3 Adresse: <quote type="G">an / Herrn <hi rendition="#hervor1">Reich</hi> / Buchhändler / in / <hi rendition="#hervor1">Leipzig. frei</hi></quote>; rechts über der Adresse von fremder Hd, Tinte: „15.“; S. 4 Empfangs- und Antwortvermerk, Tinte: „1778. d. 6. Juny. Weimar. / Goethe / B<g ref="#typoSuspension"/>“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>); Bl. 2 Siegelausschnitte; am Mittelfalz aufgeklebt auf Trägerblatt (Pappe).</p>
+  <p>Ungedruckt.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb52383_comment_com4826">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. Überlieferung) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 4. Juni 1778 (vgl. <ref target="sndb:sigle#4230">GR/RB 1778,2</ref>, Bl. 7v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb52383_comment_com13827">
+<label xml:id="GB03_2_BR369_0_note_001_212_12" copyOf="#start_com_3234"><hi rendition="#fett">212,12</hi><emph rendition="#latin">Commission</emph></label>
+<p>Hier: Auftrag, Gefälligkeit; mit Bezug auf die im Folgenden erwähnte Bitte.</p>
+
+</note>
+<note xml:id="gb52383_comment_com13828">
+<label xml:id="GB03_2_BR369_0_note_002_212_14" copyOf="#start_com_3235"><hi rendition="#fett">212,14</hi>Durchreiße durch Leipzig</label>
+<p>Vom 10. bis 12. Mai 1778 hatten Goethe und Herzog Carl August auf ihrer Reise in die preußischen Residenzen in Leipzig Station gemacht (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11846_comment_com5148">Nr 359</ref> und zu <ref target="gb:note#GB03_2_BR359_0_note_001_207_1">207,1</ref>).</p>
+
+</note>
+<note xml:id="gb52383_comment_com16286">
+<label xml:id="GB03_2_BR369_0_note_003_212_15" copyOf="#start_com_3236"><hi rendition="#fett">212,15</hi><emph rendition="#latin">Hotel de Baviére</emph></label>
+<p>In der Petersstraße gelegen (vgl. die erste Erläuterung zu <ref target="gb:note#GB03_2_BR359_0_note_011_207_12">207,12</ref>).</p>
+
+</note>
+<note xml:id="gb52383_comment_com15877">
+<label xml:id="GB03_2_BR369_0_note_004_212_16" copyOf="#start_com_3237"><hi rendition="#fett">212,16</hi>eine goldne Uhre</label>
+<p>Näheres konnte dazu nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb52383_comment_com13829">
+<label xml:id="GB03_2_BR369_0_note_005_212_19" copyOf="#start_com_3238"><hi rendition="#fett">212,19</hi>die Ankunft der Phisiognomik</label>
+<p>Der 4. Teil von Lavaters „Physiognomischen Fragmenten“, die bei Reich in Leipzig gedruckt wurden, war im Mai 1778 zur Leipziger Ostermesse erschienen.</p>
+
+</note>
+<note xml:id="gb52383_comment_com18730">
+<label xml:id="GB03_2_BR369_0_note_006_212_20" copyOf="#start_com_3239"><hi rendition="#fett">212,20</hi>Buchh. Hofmann</label>
+<p>Der Hofbuchhändler Carl Ludolph Hoffmann führte die von seinem Vater Siegmund Heinrich Hoffmann 1732 in Weimar gegründete erste Verlagsbuchhandlung seit 1765. Die Buchhandlung befand sich im heutigen Cranachhaus am Markt. Rechnungen belegen, dass Goethe regelmäßig Kunde dieser Buchhandlung war. Nach Carl Ludolph Hoffmanns Tod 1780 wurde die Buchhandlung zunächst von seiner Witwe Eva Dorothea fortgeführt und durch einen Faktor geleitet. 1802 übernahm Carl Ludolph Hoffmanns Sohn Wilhelm die Leitung. Die Hoffmannsche Buchhandlung existiert heute noch in der Schillerstraße. (Vgl. Siegfried Seifert: „Commißorischer Debit“ statt „ewigem Verlagsrecht“. Die Hoffmannsche Buchhandlung in Weimar. In: „Der entfesselte Markt“. Verleger und Verlagsbuchhandel im thüringisch-sächsischen Kulturraum um 1800. Hrsg. von Werner Greiling und Siegfried Seifert. Leipzig 2004. S. 59–106, bes. S. 61–63.)</p>
+
+</note>
+<note xml:id="gb52383_comment_com13611">
+<label xml:id="GB03_2_BR369_0_note_007_213_2" copyOf="#start_com_3240"><hi rendition="#fett">213,3</hi>Dir.</label>
+<p>Diener.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1120"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10525" n="GB 3, Nr. 112">
+  <teiHeader xml:id="gb10525_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>112.</label> An <persName key="sndb:person#38664">Friedrich Gottlieb Klopstock</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. <supplied>Mai</supplied> 1776. <supplied>Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:26Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10525_tei.xml</idno>
+        <idno type="URI">gb10525</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR112_0</idno>
+        <idno type="KSW-ID">10525</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="65" to="65">65</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="254" to="266">254-266</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <bibl xml:id="gb10525_header_pwit1176" corresp="#gb10525_source_pwit1176" sameAs="#gb10525_comment_pwit1176"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-05-21">21. <supplied>Mai</supplied> 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38664">Klopstock, Friedrich Gottlieb</persName>
+            <supplied><placeName key="sndb:ort#78034">Hamburg</placeName></supplied>
+          </p>
+        </correspAction>
+        <correspContext>
+          <ref type="related"><ref target="ra:dokument#69">RA 1, Nr. 64</ref></ref>
+          <ref type="answer"><ref target="ra:dokument#79">RA 1, Nr. 73</ref></ref>
+        </correspContext>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10525_source_pwit1176" corresp="#gb10525_header_pwit1176" type="source" rend="print">
+  <body>
+    <div>
+      <head><supplied>Druck</supplied></head>
+      <p rendition="#einrueck14">
+        <anchor xml:id="GB03_1_BR112_0_065_006"/>
+        <hi rendition="#hervor1">Weimar</hi>, den 21. März 76.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR112_0_065_007"/>Verschonen Sie <ref target="gb:note#GB03_2_BR112_0_note_001_65_7" xml:id="start_com_1023"/>nur<ref xml:id="end_com_1023"/> künftig mit solchen Briefen, liebster Klopstock. 
+                    <anchor xml:id="GB03_1_BR112_0_065_008"/>Sie helfen Nichts und machen uns immer ein Paar böse Stunden. Sie 
+                    <anchor xml:id="GB03_1_BR112_0_065_009"/>fühlen selbst, daß ich darauf Nichts zu antworten habe. Entweder ich 
+                    <anchor xml:id="GB03_1_BR112_0_065_010"/>muß als Schulknabe ein <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR112_0_note_002_65_10" xml:id="start_com_1024"/>Pater peccavi</emph>
+        <ref xml:id="end_com_1024"/> anstimmen, oder <ref target="gb:note#GB03_2_BR112_0_note_003_65_10" xml:id="start_com_1025"/>sophistisch<ref xml:id="end_com_1025"/>
+        <anchor xml:id="GB03_1_BR112_0_065_011"/>entschuldigen, oder als ein ehrlicher <ref target="gb:note#GB03_2_BR112_0_note_004_65_11" xml:id="start_com_1026"/>Kerl<ref xml:id="end_com_1026"/> vertheidigen und käme vielleicht 
+                    <anchor xml:id="GB03_1_BR112_0_065_012"/>in der Wahrheit ein Gemisch von allen Dreien heraus und wozu? 
+                    <anchor xml:id="GB03_1_BR112_0_065_013"/>Also kein Wort mehr zwischen uns über diese Sache.     Glauben 
+                    <anchor xml:id="GB03_1_BR112_0_065_014"/>Sie mir, daß mir kein Augenblick meiner Exsistenz über bliebe, wenn 
+                    <anchor xml:id="GB03_1_BR112_0_065_015"/>ich auf <ref target="gb:note#GB03_2_BR112_0_note_005_65_15" xml:id="start_com_1027"/>alle solche Briefe<ref xml:id="end_com_1027"/>, auf all solche Anmahnungen antworten 
+                    <anchor xml:id="GB03_1_BR112_0_065_016"/>sollte. Dem Herzog that es einen Augenblick weh, daß es von Klopstock 
+                    <anchor xml:id="GB03_1_BR112_0_065_017"/>wäre. Er liebt und ehrt Sie, von mir wissen Sie eben das. Leben 
+                    <anchor xml:id="GB03_1_BR112_0_065_018"/>Sie wohl. <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR112_0_note_006_65_18" xml:id="start_com_1028"/>Stollberg</hi> soll immer kommen<ref xml:id="end_com_1028"/>. Wir sind nicht schlimmer 
+                    <anchor xml:id="GB03_1_BR112_0_065_019"/>und will es Gott besser, als er uns selbst gesehen hat.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR112_0_065_020"/>
+        <signed rend="paraph" rendition="#einrueck23">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10525_comment">
+<body>
+<div type="metadata" xml:id="gb10525_comment_com390">
+  <ab type="numberAddressee"><label>112.</label> An <persName key="sndb:person#38664">Friedrich Gottlieb Klopstock</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 21. <supplied>Mai</supplied> 1776 → <supplied><placeName key="sndb:ort#78034">Hamburg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb10525_comment_com1574">
+  <p>Dass der Brief am 21. Mai und nicht am 21. März 1776 (h<hi rendition="#sup">6</hi>, E, D<hi rendition="#sup">2</hi>) geschrieben wurde, geht aus Goethes Rechnungsbuch hervor (<ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 8r); dort ist die Absendung des Briefes unter dem 24. Mai 1776 verzeichnet: <quote type="G">Klopstok fr. Hamb<g ref="#typoSuspension"/>.</quote> Außerdem schickte Klopstock eine Abschrift des Briefes an Christian zu Stolberg, und zwar erst im Juni 1776, wie aus Friedrich Leopold zu Stolbergs Brief an Klopstock vom 8. Juni 1776 hervorgeht (vgl. <ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 35 und die Erläuterungen dazu in <ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 II, 414), nicht mit einem der vorhergehenden Briefe an die Brüder, was gewiss der Fall gewesen wäre, wenn Klopstock den Brief früher erhalten hätte.</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10525_comment_com2434">
+  <p>H: Verbleib unbekannt.</p>
+  <p>h<hi rendition="#sup">1</hi>: Niedersächsisches Staatsarchiv Oldenburg, Sign.: Best. 40, Nr 6: Des Grafen Friedrich Leopold von Stolberg ministerielle Korrespondenz mit dem Oldenburgischen Minister Grafen von Holmer vom Okt. 1776 bis Jan. 1782 und vom Sept. 1785 bis Jan. 1786, nebst einem Anhange verschiedener Briefe an den Grafen von Holmer aus den Jahren 1791 bis 1805 von Friedr. Leop. und Christian von Stolberg und Friedr. Heinr. Jakobi. (Abgeschrieben aus dem Holmerschen Nachlaß auf der Großhrzl. Kabinetsregistratur.) Juni 1850 (Abschrift von fremder Hd). – Doppelblatt, 3 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776; S. 2 f. Goethe an Klopstock, 21. Mai 1776; S. 3 Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext von der Hd des Abschreibers: „<hi rendition="#hervor1">Correspondenz zwischen Klopstock und Göthe.</hi>“, am oberen Rand von anderer Hd: „(Aus den Papieren des Herz. Peter Friedr. Ludwig.)“; S. 2 über dem Text des vorliegenden Briefes von der Hd des Abschreibers: „<hi rendition="#hervor1">Antwort.</hi>“; S. 3 über dem Brieftext von der Hd des Abschreibers: „<hi rendition="#hervor1">Zweytes Schreiben</hi>.“</p>
+  <p>h<hi rendition="#sup">2</hi>: Niedersächsische Staats- und Universitätsbibliothek Göttingen, Sign.: Cod. v. Einem 3<hi rendition="#sup">h</hi> (Abschrift von fremder Hand aus dem Nachlass von Charlotte Emminghaus geb. von Einem). – Doppelblatt, 3 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776; S. 2 f. Goethe an Klopstock, 21. Mai 1776; S. 3 Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext von der Hd des Abschreibers: „<hi rendition="#hervor1">Brief von Klopstock an Göthe</hi>.“; S. 2 über dem Text des vorliegenden Briefes: „<hi rendition="#hervor1">Göthe’s Antwort.</hi>“; S. 3 über dem Brieftext: „<hi rendition="#hervor1">Klopstocks Antwort.</hi>“</p>
+  <p>h<hi rendition="#sup">3</hi>: Niedersächsisches Staatsarchiv Wolfenbüttel, Sign.: VIII Hs 71,4a (Abschrift von fremder Hd aus dem Nachlass von Georg Septimus Andreas von Praun). – Doppelblatt, 4 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776, S. 3 Goethe an Klopstock, 21. Mai 1776, S. 4 Klopstock an Goethe, 29. Mai 1776; S. 1 am oberen Rand von der Hd des Abschreibers: „Copia /: K: an G.“, „Klopstok Goethen, Hamb.“; S. 3 über dem Brieftext von der Hd des Abschreibers: „G. —— an K. ——“; S. 4 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „K. —— an G. ——“.</p>
+  <p>h<hi rendition="#sup">4</hi>: Das Gleimhaus Halberstadt, Sign.: Hs A 8838 Klopstock 102 (Abschrift von fremder Hd). – Doppelblatt, 4 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776; S. 3 Goethe an Klopstock, 21. Mai 1776; S. 4 Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „Klopstock an Göthen“; S. 3 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „Göthe an Klopstock“; S. 4 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „Klopstock an Göthe“.</p>
+  <p>h<hi rendition="#sup">5</hi>: GSA Weimar, Sign.: GSA 56/95 (Abschrift von fremder Hd aus dem Nachlass von Sophie von La Roche). – Doppelblatt, 4 S. beschr., S. 1–3 Klopstock an Goethe, 8. Mai 1776; S. 3 f. Goethe an Klopstock, 21. Mai 1776; S. 4 Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „Klopstok an Göthe.“; S. 3 vor dem Brieftext vor dem Datum von der Hd des Abschreibers: „Göthe an Klopstock:“; S. 4 über dem Brieftext vor dem Datum von der Hd des Abschreibers: „Klopstok an Göthe.“</p>
+  <p>h<hi rendition="#sup">6</hi>: GSA Weimar, Sign.: GSA 68/762 (Abschrift von fremder Hd aus dem Nachlass von Friedrich von Müller). – Doppelblatt, 3 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776; S. 2 f. Goethe an Klopstock, 21. Mai 1776; S. 3 Klopstock an Goethe, 29. Mai 1776; S. 1 am oberen Rand links von der Hd des Abschreibers: „Kloppstock an Göthe“; S. 2 über dem Brieftext in der Mitte von der Hd des Abschreibers: „Göthens Antwort.“; S. 3 über dem Brieftext links von der Hd des Abschreibers: „Kloppstocks letztes Schreiben“.</p>
+  <p>h<hi rendition="#sup">7</hi>: Zentralbibliothek Zürich, Sign.: Ms M 61.51 Nr 8 (Abschrift von Johann Heinrich Schinz). – Doppelblatt, 3 S. beschr., S. 1 f. Klopstock an Goethe, 8. Mai 1776; S. 2 f. Goethe an Klopstock, 21. Mai 1776; S. 3 Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext vor dem Datum von Schinz’ Hd: „Klopstoks 1. Brief an Göthe.“; S. 2 über dem Brieftext von Schinz’ Hd: „2. Goethens Antwort an Klopstok.“; S. 3 über dem Brieftext von Schinz’ Hd: „3. Klopstoks Antwort an Goethen.“</p>
+  <p>h<hi rendition="#sup">8</hi>: Biblioteka Jagiellonska Kraków (Krakau), bis 1945 Preußische Staatsbibliothek Berlin, nicht nachweisbar; Faksimile in: Briefwechsel zwischen Klopstock und Goethe im Jahre 1776. <supplied>Hrsg. von Elias Erasmus [d. i. Paul Otto]. Berlin 1922, S. <supplied>7–10</supplied></supplied>; der vorliegende Brief: S. <supplied>9</supplied> (Abschrift von fremder Hd aus dem Nachlass von Joseph Maria von Radowitz). – Vermutlich Doppelblatt, 4 S. beschr., S. 1–3 Klopstock an Goethe, 8. Mai 1776; S. 3 Goethe an Klopstock, 21. Mai 1776; S. 3 f. Klopstock an Goethe, 29. Mai 1776; S. 1 über dem Brieftext von der Hd des Abschreibers: „Klopstocks 1 Brief an Göethe.“; S. 3 über dem Brieftext von der Hd des Abschreibers: „<hi rendition="#hervor1">Goethens Antwort an Klopstock</hi>“, über dem Brieftext von der Hand des Abschreibers: „Klopstoks Antw. an Got<supplied>he</supplied>“. Die Mitteilung in der Vorbemerkung des Herausgebers, bei dem Faksimile handle es sich um die „Abschrift <gap quantity="3" reason="editorial"/>, die Klopstock mit eigener Hand für seinen Freund Johann Lorenz Böckmann geschrieben hat“ (S. <supplied>3</supplied>), ist nicht zutreffend (vgl. D<hi rendition="#sup">2</hi> und Textgrundlage).</p>
+  <p>E: Allgemeiner litterarischer Anzeiger, oder Annalen der gesammten Litteratur für die geschwinde Bekanntmachung verschiedener Nachrichten aus dem Gebiete der Gelehrsamkeit und Kunst <supplied>Leipzig</supplied>. Bd 4. 1799. Nr 48 vom 28. März, Sp. 478 (Karl Johann Gottlieb von Wolffram und Wolfframitz; vgl. Das gelehrte Teutschland <gap quantity="3" reason="editorial"/>. Bd 16. Lemgo 1812, S. 273). – Nach nicht überlieferten Abschriften des vorliegenden sowie des Bezugs- und des Antwortbriefes, „die mir <supplied>dem nicht genannten Herausgeber</supplied> bei meinem Aufenthalte in <hi rendition="#hervor1">Jena</hi> zu Anfange des vorigen JahrZehnds in die Hände fielen“ (Sp. 477). Gedruckt unter dem falschen Datum des 21. März 1776.</p>
+  <p>D<hi rendition="#sup">1</hi>: Kurzer Briefwechsel zwischen Klopstock und Goethe im Jahre 1776. Leipzig 1833, S. 8–10. – Das Bändchen enthält ebenfalls den Bezugs- und den Antwortbrief Klopstocks (S. 1–7; S. 11 f.).</p>
+  <p>D<hi rendition="#sup">2</hi>: Briefe aus dem Freundeskreise von Goethe, Herder, Höpfner und Merck. Eine selbstständige Folge der beiden in den Jahren 1835 und 1838 erschienenen Merckischen Briefsammlungen. Aus den Handschriften hrsg. von Karl Wagner. Leipzig 1847, S. 138. – Fußnote des Herausgebers zu Klopstocks Brief an Goethe vom 8. Mai 1776 mit Bezug auf den vorliegenden Brief und Klopstocks Antwort darauf: „Dieser und die beiden folgenden Briefe wurden von Klopstock in eigenhändiger Abschrift seinem Freunde, dem Prof. Hofrath Böckmann in Karlsruhe, mitgetheilt.“ (S. 136.) Gedruckt unter dem falschen Datum des 21. März 1776. Die Abschriften schickte Klopstock mit seinem Brief vom 21. August 1776 an Johann Lorenz Böckmann, der sie dem Markgrafen Karl Friedrich von Baden aushändigen sollte (vgl. <ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 54).</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 63–64, Nr 462 (nach E).</p>
+  <p>Textgrundlage: D<hi rendition="#sup">2</hi>. – Aus der Überlieferungslage lässt sich schließen, dass keiner der Textzeugen unmittelbar auf H zurückgeht. Die Tatsache, dass alle Textzeugen den Brieftext im Kontext des Bezugs- und des Antwortbriefs Klopstocks – beide ebenfalls nicht überliefert – in einer fortlaufenden Abschrift bieten, spricht dafür, dass sie ihrerseits bereits auf Abschriften beruhen, von denen noch Ende 1776 etliche kursierten (vgl. die einleitende <ref target="gb:note#gb10913_comment_com3889">Erläuterung</ref>). Die Frage nach der textkritischen Bedeutung der einzelnen Textzeugen ist ebenso wenig sicher zu beantworten wie die Frage nach ihrer gegenseitigen Abhängigkeit, weil unbekannt ist, wie viele weitere Abschriften zwischen den überlieferten Abschriften existierten und in welchem Verhältnis sie zum Original standen. Lediglich im Fall von h<hi rendition="#sup">7</hi> und h<hi rendition="#sup">8</hi> kann festgestellt werden, dass sie aufgrund weitgehender Übereinstimmung in den Überlieferungsvarianten miteinander in Beziehung stehen; entweder folgen sie einer gemeinsamen Vorlage, oder h<hi rendition="#sup">7</hi> ist eine Abschrift des geringfügig vollständigeren Textzeugen h<hi rendition="#sup">8</hi>. Beide aber bieten einen lückenhaften und verderbten Text, insbesondere bei der Wiedergabe von Klopstocks Bezugsbrief, so dass sie keinen textkritischen Wert besitzen. Was die übrigen Textzeugen angeht, so weist D<hi rendition="#sup">2</hi> die – soweit sich ermitteln lässt – größte Nähe zu H auf, weil der Druck auf einer von Klopstock selbst angefertigten Abschrift beruht. Zwar gibt der Herausgeber von E an, ihm seien Anfang der 1780er Jahre in Jena die „drei Briefe <gap quantity="3" reason="editorial"/> in die Hände“ gefallen; doch dass damit die Originale gemeint sein sollen, ist nicht anzunehmen. Da nicht auszuschließen ist, dass die übrigen Textzeugen (außer h<hi rendition="#sup">7</hi> und h<hi rendition="#sup">8</hi>) im Einzelfall H zuverlässiger wiedergeben als D<hi rendition="#sup">2</hi>, werden die Abweichungen als Überlieferungsvarianten verzeichnet.</p>
+</div>
+
+</div>
+<div type="variants" xml:id="gb10525_comment_com18844">
+  <p>
+    <term>65,6<ref target="gb:text#GB03_1_BR112_0_065_006">
+        <hi rendition="#hervor1">Weimar</hi>, den 21. März 76.]</ref>
+    </term> W den 21<hi rendition="#sup #uu">te</hi>
+    <hi rendition="#sup">n</hi> <emph rendition="#latin">May</emph> 1776. <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>   <emph rendition="#latin">Weimar</emph> den 21<hi rendition="#sup #uu">t</hi>
+    <hi rendition="#sup">n</hi> <emph rendition="#latin">May</emph> 1776. <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>   Weimar dl: 21: <emph rendition="#latin">May</emph> 1776 <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>   Weimar 21 März / 1776. <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> Weimar den <unclear reason="illegible">3</unclear>1. May. 1776. <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> Weimar den 21. May 1776 <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> W., den 21. März 1776. <hi rendition="#italic">E (vgl. Überlieferungsvarianten zu <ref target="gb:text#GB03_1_BR112_0_065_020">65,20</ref>)</hi>
+    <term>65,7<ref target="gb:text#GB03_1_BR112_0_065_007"> Sie]</ref>
+    </term> s. <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,7<ref target="gb:text#GB03_1_BR112_0_065_007"> nur]</ref>
+    </term> uns <hi rendition="#italic">h<hi rendition="#sup">1–8</hi>
+    </hi> <hi rendition="#italic">E D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,7<ref target="gb:text#GB03_1_BR112_0_065_007"> künftig]</ref>
+    </term> ins künftige <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">
+    </hi>ins Künftige <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> E</hi> in Zukunft <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <term>65,7<ref target="gb:text#GB03_1_BR112_0_065_007"> Briefen,]</ref>
+    </term> Briefen <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> 65,7 liebster Klopstock.] liebster Klopstock, <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"/>lieber Klopstock!<hi rendition="#italic"> h<hi rendition="#sup">2</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> lieber <emph rendition="#latin">K</emph>
+    <hi rendition="#italic">–! h<hi rendition="#sup">3</hi>
+    </hi> lieber Klopstock. <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> Lieber Klopstok! <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>Lieber Kloppstock! <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic">lieber</hi> Klopstok! <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic">lieber</hi> K..! <hi rendition="#italic">E</hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> Sie]</ref>
+    </term> sie <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> helfen]</ref>
+    </term> helffen <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> Nichts]</ref>
+    </term> nichts, <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> <hi rendition="#italic">E</hi> nichts. <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> nichts <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> uns nichts, <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> und]</ref>
+    </term> u <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> immer]</ref>
+    </term> nur immer <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> Paar]</ref>
+    </term> paar <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6–8</hi>
+    </hi> <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi> <hi rendition="#italic">E</hi> par <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> böse]</ref>
+    </term> böße <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,8<ref target="gb:text#GB03_1_BR112_0_065_008"> Stunden.]</ref>
+    </term> Stunden <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <hi rendition="#italic">Absatz E</hi>
+    <term>65,9<ref target="gb:text#GB03_1_BR112_0_065_009"> selbst]</ref>
+    </term> Selbst <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <term>65,9<ref target="gb:text#GB03_1_BR112_0_065_009"> darauf Nichts]</ref>
+    </term> darauf nichts <hi rendition="#italic">h<hi rendition="#sup">1–2</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">8</hi>
+    </hi> <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi> nichts darauf <hi rendition="#italic">h<hi rendition="#sup">3–6</hi>
+    </hi> <hi rendition="#italic">E</hi>
+    <term>65,9<ref target="gb:text#GB03_1_BR112_0_065_009"> antworten]</ref>
+    </term> Antworten <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> zuantworten <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,9<ref target="gb:text#GB03_1_BR112_0_065_009"> habe. Entweder]</ref>
+    </term> habe; entweder <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> habe: entweder <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <term>65,9–10<ref target="gb:text#GB03_1_BR112_0_065_009"> ich muß]</ref>
+    </term> ich müßte <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> ich müßt’ <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi> ich müste <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> ich müßt <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> müßte ich <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> <hi rendition="#italic">E</hi>
+    <term>65,10<ref target="gb:text#GB03_1_BR112_0_065_010"> als Schulknabe]</ref>
+    </term> als ein Schulknabe <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi> als Schul-Knabe <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> als SchulKnabe <hi rendition="#italic">E</hi>
+    <term>65,10<ref target="gb:text#GB03_1_BR112_0_065_010">
+        <emph rendition="#latin">Pater peccavi</emph>]</ref>
+    </term>
+    <emph rendition="#latin">pater peccavi</emph>
+    <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> <hi rendition="#italic">E</hi>
+    <emph rendition="#latin">Paterpeccavi</emph> <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <emph rendition="#latin">pater pecavi</emph> <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> pater peccavi <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <emph rendition="#latin">
+    </emph>
+    <term>65,10<ref target="gb:text#GB03_1_BR112_0_065_010"> sophistisch]</ref>
+    </term> mich <emph rendition="#latin">Sophistisch</emph> <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> Sophistisch <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> mich sophistisch <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> <hi rendition="#italic">E</hi>
+    <term>65,11<ref target="gb:text#GB03_1_BR112_0_065_011"> ein ehrlicher]</ref>
+    </term> ein Ehrlicher <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> ehrlicher <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,11<ref target="gb:text#GB03_1_BR112_0_065_011"> vertheidigen und käme]</ref>
+    </term> vertheidigen, und käme <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> vertheidigen; und käme <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> vertheidigen, und käm <hi rendition="#italic">h<hi rendition="#sup">3–5</hi>
+    </hi> vertheidigen und käm’ <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> vertheidigen; und da käme <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> vertheidigen, und dann käm <hi rendition="#italic">E</hi> vertheidigen, und käme <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,11–12<ref target="gb:text#GB03_1_BR112_0_065_011"> vielleicht]</ref>
+    </term> vieleicht <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <term>65,12<ref target="gb:text#GB03_1_BR112_0_065_012"> in der Wahrheit]</ref>
+    </term> in der Warheit <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> in der wahrheit <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> in der Wahrheit, <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> in Wahrheit <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,12<ref target="gb:text#GB03_1_BR112_0_065_012"> Gemisch]</ref>
+    </term> gemisch <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <term>65,12<ref target="gb:text#GB03_1_BR112_0_065_012"> allen Dreien]</ref>
+    </term> allem drey <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> allen dreyen <hi rendition="#italic">h<hi rendition="#sup">2–5</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">7</hi>
+    </hi> allen dreien <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> <hi rendition="#italic">E</hi> allen 3en <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> allen Dreyen <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,12–13<ref target="gb:text#GB03_1_BR112_0_065_012"> heraus und wozu?]</ref>
+    </term> heraus, und wozu? <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>   heraus; und wozu? <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> heraus und wozu denn? <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> heraus – und wozu? <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> heraus – u wozu? <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> heraus, und wozu? <hi rendition="#italic">Absatz E</hi>
+    <term>65,13<ref target="gb:text#GB03_1_BR112_0_065_013"> Also]</ref>
+    </term> also <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,13<ref target="gb:text#GB03_1_BR112_0_065_013"> Wort]</ref>
+    </term> wort <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <term>65,13<ref target="gb:text#GB03_1_BR112_0_065_013"> zwischen uns]</ref>
+    </term> zwischen Uns <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> unter uns <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <term>65,13<ref target="gb:text#GB03_1_BR112_0_065_013"> über diese Sache.]</ref>
+    </term> über die Sache. <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> über diese Sache! <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">8</hi>
+    </hi>
+    <hi rendition="#italic">E</hi> von dieser Sache! <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> über diese Sachen! <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <term>65,13–14<ref target="gb:text#GB03_1_BR112_0_065_013"> Glauben Sie mir, daß mir]</ref>
+    </term> Glauben Sie, daß mir <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">6</hi>
+    </hi> <hi rendition="#italic">E D<hi rendition="#sup">1</hi>
+    </hi>  Glauben Sie mir, <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> Glauben Sie, daß mir <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> Glauben sie mir, daß mir <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,14<ref target="gb:text#GB03_1_BR112_0_065_014"> Augenblick]</ref>
+    </term> Augenblik <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> AugenBlick <hi rendition="#italic">E</hi>
+    <term>65,14<ref target="gb:text#GB03_1_BR112_0_065_014"> Exsistenz]</ref>
+    </term> Existens <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> Existenz <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4–7</hi>
+    </hi>
+    <hi rendition="#italic">E D<hi rendition="#sup">1</hi>
+    </hi>
+    <emph rendition="#latin">Existenz</emph>
+    <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <term>65,14<ref target="gb:text#GB03_1_BR112_0_065_014"> über bliebe]</ref>
+    </term> überbliebe <hi rendition="#italic">h<hi rendition="#sup">1–3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <hi rendition="#italic">E D<hi rendition="#sup">1</hi>
+    </hi> bliebe über <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> übrig bliebe <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <term>65,15<ref target="gb:text#GB03_1_BR112_0_065_015"> auf alle solche Briefe, auf all solche Anmahnungen]</ref>
+    </term> auf alle solche Briefe auf alle solche Ermahnungen <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> auf all solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> auf solche Briefe, auf alle solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> auf alle solche Briefe, auf alle solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> auf all solche Briefe, und auf all solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> auf alle solche Briefe, alle solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> auf all solche Briefe, auf all solche Anmahnungen <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> auf all’ solche Briefe, auf all’ solche Anmahnungen <hi rendition="#italic">E</hi> auf alle solche Anmahnungen <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,15<ref target="gb:text#GB03_1_BR112_0_065_015"> antworten]</ref>
+    </term> kommen <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,16<ref target="gb:text#GB03_1_BR112_0_065_016"> sollte.]</ref>
+    </term> sollte. – <hi rendition="#italic">Absatz h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> solte. – <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> sollt – <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> sollte. – <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">E</hi>
+    <term>65,16<ref target="gb:text#GB03_1_BR112_0_065_016"> Herzog]</ref>
+    </term> Herzoge <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> H… <hi rendition="#italic">E</hi>
+    <term>65,16<ref target="gb:text#GB03_1_BR112_0_065_016"> that es]</ref>
+    </term> that’s <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> thats <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic">E</hi>
+    <term>65,16<ref target="gb:text#GB03_1_BR112_0_065_016"> Augenblick]</ref>
+    </term> Augenblik <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> AugenBlick <hi rendition="#italic">E</hi>
+    <term>65,16<ref target="gb:text#GB03_1_BR112_0_065_016"> weh]</ref>
+    </term> wehe <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <term>65,16–17<ref target="gb:text#GB03_1_BR112_0_065_016"> von Klopstock]</ref>
+    </term> ein Klopstock <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi> von <emph rendition="#latin">K.</emph>– <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> von Klopstok <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> Kloppstock <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> von K… <hi rendition="#italic">E</hi>
+    <term>65,17<ref target="gb:text#GB03_1_BR112_0_065_017"> wäre]</ref>
+    </term> war <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,17<ref target="gb:text#GB03_1_BR112_0_065_017"> ehrt]</ref>
+    </term> ehret <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6–8</hi>
+    </hi>
+    <term>65,17<ref target="gb:text#GB03_1_BR112_0_065_017"> Sie, von]</ref>
+    </term> Sie, und von <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi> Sie. von <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> Sie. Von <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic"> E</hi> sie; von <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,17<ref target="gb:text#GB03_1_BR112_0_065_017"> wissen Sie]</ref>
+    </term> wißen und fühlen Sie <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> wissen und fühlen Sie <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic"> E</hi> wissen Sie und fühlen <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic"/>wissen und fühlen sie <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> wißen u fühlen sie <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,17<ref target="gb:text#GB03_1_BR112_0_065_017"> das.]</ref>
+    </term> das. – <hi rendition="#italic">E</hi>
+    <term>65,17–18<ref target="gb:text#GB03_1_BR112_0_065_017"> Leben Sie wohl.]</ref>
+    </term>
+    <hi rendition="#italic">fehlt h<hi rendition="#sup">3–8</hi>
+    </hi>
+    <term>65,18<ref target="gb:text#GB03_1_BR112_0_065_018">
+        <hi rendition="#hervor1">Stollberg</hi>]</ref>
+    </term> Stollberg <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> Stolberg <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> Graf Stollberg <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi> Graf Stolberg <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">8</hi>
+    </hi> Graf St… <hi rendition="#italic">E</hi>
+    <term>65,18<ref target="gb:text#GB03_1_BR112_0_065_018"> immer]</ref>
+    </term> nun <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">fehlt h<hi rendition="#sup">7</hi>
+    </hi>
+    <term>65,18<ref target="gb:text#GB03_1_BR112_0_065_018"> kommen. Wir]</ref>
+    </term> kommen. wir <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> kommen, Wir <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi> kommen, wir <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,18–9<ref target="gb:text#GB03_1_BR112_0_065_018"> schlimmer und]</ref>
+    </term> schlimmer, und <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi> schlimmer, und, <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic">E D<hi rendition="#sup">1</hi>
+    </hi> Schlimmer, und <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi> schlimmer, u <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> will es]</ref>
+    </term> will’s <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"> D<hi rendition="#sup">1</hi>
+    </hi> wills <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">6–8</hi>
+    </hi> <hi rendition="#italic">E</hi> wils <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> Gott]</ref>
+    </term> Gott, <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">E</hi> Gott! <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> besser,]</ref>
+    </term> besser <hi rendition="#italic">h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">5</hi>
+    </hi>   beßer <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">8</hi>
+    </hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>   beßer, <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> er uns]</ref>
+    </term> Er Uns <hi rendition="#italic">h<hi rendition="#sup">3</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> selbst]</ref>
+    </term>
+    <hi rendition="#italic">fehlt h<hi rendition="#sup">2</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">6</hi>
+    </hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,19<ref target="gb:text#GB03_1_BR112_0_065_019"> gesehen]</ref>
+    </term> gesehn <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+    <term>65,20<ref target="gb:text#GB03_1_BR112_0_065_020"> G.]</ref>
+    </term> Weymar dl 21 May <hi rendition="#italic">Unterschrift/Paraphe fehlt h<hi rendition="#sup">1</hi>
+    </hi>
+    <hi rendition="#hervor1">Göthe.</hi> / Weimar dl 21. <emph rendition="#latin">May</emph> 1776. <hi rendition="#italic">h<hi rendition="#sup">2</hi>
+    </hi> Göthe. <hi rendition="#italic">h<hi rendition="#sup">4</hi>
+    </hi>
+    <hi rendition="#italic"> h<hi rendition="#sup">6</hi>
+    </hi>
+    <emph rendition="#latin">Goethe.</emph>
+    <hi rendition="#italic">h<hi rendition="#sup">5</hi>
+    </hi> Goethe. <hi rendition="#italic">h<hi rendition="#sup">7</hi>
+    </hi>
+    <hi rendition="#italic">h<hi rendition="#sup">8</hi>
+    </hi> Weimar den 21. May 1776. / <hi rendition="#hervor1">Goethe.</hi>
+    <hi rendition="#italic">D<hi rendition="#sup">1</hi>
+    </hi>
+  </p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb10525_comment_com4230">
+  <p>Der Brief beantwortet Klopstocks Brief vom 8. Mai 1776 (vgl. <ref target="ra:dokument#69">RA 1, 66, Nr 64</ref>; abgedruckt in der einleitenden Erläuterung zum vorliegenden Brief). – Klopstock antwortete am 29. Mai 1776 (vgl. <ref target="ra:dokument#70">RA 1, 66, Nr 65</ref>; abgedruckt im <ref target="gb:note#gb10525_comment_com18935">Anschluss</ref> an die folgenden Erläuterungen).</p>
+  <p rendition="#einrueck1">Postsendungen: 24. Mai 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 8r).</p>
+  <p rendition="#einrueck1">Mit Friedrich Gottlieb Klopstock (1724–1803) stand Goethe seit Mai 1774 in Briefwechsel; im September desselben Jahres hatte er ihn in Frankfurt kennen gelernt. Über beider Beziehung zueinander vgl. des Näheren die einleitende Erläuterung zum Brief vom 28. Mai 1774 (<ref target="gb:note#gb10294_comment_com4009">GB 2 II, Nr 113</ref>). Klopstock gehörte zu denjenigen, die Berichte und Gerüchte über das ‚wilde‘ Treiben am Weimarer Hof um Herzog Carl August und Goethe sehr ernst nahmen. Er sah sich veranlasst, Goethe in diesem Zusammenhang am 8. Mai 1776 einen (unten abgedruckten) ‚Mahnbrief‘ zu schreiben. Der vorliegende Brief antwortet darauf; es ist der letzte Brief an Klopstock, der mit seiner Antwort vom 29. Mai 1776 die Verbindung zu Goethe abbrach.</p>
+  <p rendition="#einrueck1">Diese drei Briefe bilden einen unmittelbaren Zusammenhang; deshalb werden Bezugs- und Antwortbrief im Folgenden ebenfalls mitgeteilt. Als Einheit ist die kleine Korrespondenz auch überliefert (vgl. <ref target="gb:note#gb10525_comment_com2434">Überlieferung</ref>). Klopstock selbst schickte den Text der Briefe im Mai/Juni 1776 unverzüglich an die Brüder Stolberg (vgl. <ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 II, 373) und im August über Johann Lorenz Böckmann an den Markgrafen von Baden (vgl. D<hi rendition="#sup">2</hi>). Vermutlich erhielten andere Freunde weitere Abschriften. So schrieb Johann Heinrich Voß am 21. Juli 1776 an Ernestine Boie: „Klopstock will mir erlauben, dir eine Abschrift von seinem Briefwechsel mit G. zu schicken, wenn du versprichst, sie nachdem <hi rendition="#hervor1">du</hi> sie gelesen, gleich zu verbrennen. <gap quantity="3" reason="editorial"/> Das versprich mir also, denn ich hab mein Ehrenwort gegeben. Rudolf mag sie lesen, der kann schweigen, und Mama auch, wenn sie Lust hat; sonst kein Sterblicher, und kein Wort gegen Niemanden davon verloren.“ (H: Schleswig-Holsteinische Landesbibliothek Kiel.) Dass die Briefe dennoch weitere Verbreitung fanden, geht aus Heinrich Christian Boies Brief an Johann Arnold Ebert vom 16. Dezember 1776 hervor: „Leyder! geht Klopstocks und Göthens Korrespondenz hier in Handschrift herum, und wird weiter abgeschrieben.“ (Unveröffentlichte Briefe an Johann Arnold Ebert in Brauschweig. Mitgeteilt von Heinrich Schneider. In: Euphorion 27 [1926], S. 342.)</p>
+  <p>Klopstocks Bezugsbrief:</p>
+  <floatingText type="foreignDocument">
+    <group>
+<text type="source" xml:id="gb56385_source" corresp="#gb56385_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck17">
+        <anchor xml:id="GB03_2_FB008_0_259_001"/>Hamburg, den 8. May 1776.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB008_0_259_002"/>Hier einen Beweis meiner Freundschaft, liebster Göthe. Er wird mir zwar ein 
+                        <anchor xml:id="GB03_2_FB008_0_259_003"/>wenig schwer, aber er muß gegeben werden. Lassen Sie mich nicht damit anfangen, 
+                        <anchor xml:id="GB03_2_FB008_0_259_004"/>
+        <ref target="gb:note#GB03_2_FB008_0_note_046_259_4" xml:id="start_com_7045"/>daß ich es glaubwürdig weiß<ref xml:id="end_com_7045"/>, denn ohne Glaubwürdigkeit würd’ ich schweigen.
+        <anchor xml:id="GB03_2_FB008_0_260_005"/>Denken Sie auch nicht, daß ich Ihnen, wenn es auf Ihr Thun und Lassen ankommt, 
+                        <anchor xml:id="GB03_2_FB008_0_260_006"/>drein reden wolle; auch das denken Sie nicht, daß ich Sie deswegen, weil 
+                        <anchor xml:id="GB03_2_FB008_0_260_007"/>Sie vielleicht in diesem oder jenem andre Grundsätze haben, als ich, streng verurtheile. 
+                        <anchor xml:id="GB03_2_FB008_0_260_008"/>Aber Grundsätze – Ihre und meine bey Seite, was wird denn der unfehlbare 
+                        <anchor xml:id="GB03_2_FB008_0_260_009"/>Erfolg seyn, wenn er fortfährt? Der <ref target="gb:note#GB03_2_FB008_0_note_047_260_9" xml:id="start_com_7046"/>Herzog<ref xml:id="end_com_7046"/> wird, wenn er sich ferner bis zum 
+                        <anchor xml:id="GB03_2_FB008_0_260_010"/>Krankwerden betrinkt, <ref target="gb:note#GB03_2_FB008_0_note_048_260_10" xml:id="start_com_7047"/>anstatt, wie er sagt, seinen Körper dadurch zu stärken<ref xml:id="end_com_7047"/>, erliegen 
+                        <anchor xml:id="GB03_2_FB008_0_260_011"/>und <ref target="gb:note#GB03_2_FB008_0_note_049_260_11" xml:id="start_com_7048"/>nicht lange leben<ref xml:id="end_com_7048"/>. Es haben sich wohl starkgeborne Jünglinge, und <ref target="gb:note#GB03_2_FB008_0_note_050_260_11-12" xml:id="start_com_7049"/>das 
+                        <anchor xml:id="GB03_2_FB008_0_260_012"/>ist denn doch der Herzog gewiß nicht<ref xml:id="end_com_7049"/>, auf diese Art früh hingeopfert .....</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB008_0_260_013"/>Die Teutschen haben sich bisher mit Recht über ihre Fürsten beschweret, daß 
+                        <anchor xml:id="GB03_2_FB008_0_260_014"/>diese mit ihren Gelehrten Nichts zu schaffen haben wollen. Sie nehmen itzund 
+                        <anchor xml:id="GB03_2_FB008_0_260_015"/>den Herzog von Weimar mit Vergnügen aus. Aber was werden andre Fürsten, 
+                        <anchor xml:id="GB03_2_FB008_0_260_016"/>wenn sie in dem alten Tone fortfahren, nicht zu ihrer Rechtfertigung anzuführen 
+                        <anchor xml:id="GB03_2_FB008_0_260_017"/>haben, wenn es nun wird geschehen seyn, was ich fürchte, daß geschehen werde? – 
+                        <anchor xml:id="GB03_2_FB008_0_260_018"/>Die <ref target="gb:note#GB03_2_FB008_0_note_051_260_18" xml:id="start_com_7050"/>Herzogin<ref xml:id="end_com_7050"/> wird vielleicht itzt ihren Schmerz noch niederhalten können, denn 
+                        <anchor xml:id="GB03_2_FB008_0_260_019"/>sie denkt sehr männlich. Aber dieser Schmerz wird Gram werden. Und läßt sich 
+                        <anchor xml:id="GB03_2_FB008_0_260_020"/>der etwa auch niederhalten? Louisens Gram! Göthe! – Nein, rühmen Sie sich 
+                        <anchor xml:id="GB03_2_FB008_0_260_021"/>nur nicht, <ref target="gb:note#GB03_2_FB008_0_note_052_260_21" xml:id="start_com_7051"/>daß Sie sie lieben<ref xml:id="end_com_7051"/>, wie ich ..... Ich muß noch ein Wort von meinem 
+                        <anchor xml:id="GB03_2_FB008_0_260_022"/>Stollberg sagen. <ref target="gb:note#GB03_2_FB008_0_note_053_260_22" xml:id="start_com_7052"/>Er kommt aus Freundschaft zum Herzoge.<ref xml:id="end_com_7052"/> Er soll doch also mit 
+                        <anchor xml:id="GB03_2_FB008_0_260_023"/>ihm leben? Wie aber das? Auf seine Weise? Nein! Er geht, wenn es sich nicht 
+                        <anchor xml:id="GB03_2_FB008_0_260_024"/>ändert, wieder weg. Und was ist denn sein Schicksal? Nicht in Coppenhagen, 
+                        <anchor xml:id="GB03_2_FB008_0_260_025"/>nicht in Weimar. Ich muß Stollbergen schreiben. <ref target="gb:note#GB03_2_FB008_0_note_054_260_25" xml:id="start_com_7053"/>Was soll ich ihm schreiben?<ref xml:id="end_com_7053"/>
+      </p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB008_0_260_026"/>Es kommt auf Sie an, <ref target="gb:note#GB03_2_FB008_0_note_055_260_25" xml:id="start_com_7054"/>ob Sie dem Herzoge diesen Brief zeigen wollen<ref xml:id="end_com_7054"/> oder 
+                        <anchor xml:id="GB03_2_FB008_0_260_027"/>nicht. Ich für mich habe Nichts darwider. Im Gegentheil. Denn da ist er gewiß noch 
+                        <anchor xml:id="GB03_2_FB008_0_260_028"/>nicht, wo man die Wahrheit, die ein treuer Freund sagt, nicht mehr hören mag.</p>
+      <p rendition="#einrueck22">
+        <anchor xml:id="GB03_2_FB008_0_260_029"/>Ihr Klopstock.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56385_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56385_comment_com18924">
+  <p>(<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 22 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56385_comment_com84501">
+<label xml:id="GB03_2_FB008_0_note_046_259_4" copyOf="#start_com_7045"><hi rendition="#normal">259,4</hi>daß ich es glaubwürdig weiß</label>
+<p>Klopstocks Quelle ist nicht bekannt.</p>
+</note>
+<note xml:id="gb56385_comment_com84502">
+<label xml:id="GB03_2_FB008_0_note_047_260_9" copyOf="#start_com_7046"><hi rendition="#normal">260,9</hi>Herzog</label>
+<p>Carl August von Sachsen-Weimar und Eisenach, seit September 1775 Regent. Klopstock hatte ihn während seines Aufenthalts in Karlsruhe im Dezember 1774 kennen gelernt.</p>
+</note>
+<note xml:id="gb56385_comment_com84503">
+<label xml:id="GB03_2_FB008_0_note_048_260_10" copyOf="#start_com_7047"><hi rendition="#normal">260,10</hi>anstatt <gap quantity="3" reason="editorial"/> zu stärken</label>
+<p>Dass das ‚wilde‛ Leben der körperlichen Abhärtung des Herzogs dienen sollte, schreibt auch Charlotte von Stein im Brief an Louise von Döring vom 10. Mai 1776 (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>). Johann Heinrich Voß berichtet: „Ein Minister, der’s gewagt hat, ihm <supplied>Carl August</supplied> seiner Gesundheit halben die Ausschweifungen abzurathen, hat zur Antwort gekriegt, er müsste es thun, sich zu stärken.“ (Brief an Ernestine Boie, 14. Juli 1776; <ref target="sndb:sigle#1290">Herbst</ref> 1, 301.)</p>
+</note>
+<note xml:id="gb56385_comment_com84504">
+<label xml:id="GB03_2_FB008_0_note_049_260_11" copyOf="#start_com_7048"><hi rendition="#normal">260,11</hi>nicht lange leben</label>
+<p>Am 12. April berichtete Sigmund von Seckendorff seinem Bruder Albrecht in einem Brief über eine Erkrankung Carl Augusts an Rheumatismus, Gliederreißen und Schwindel in Verbindung mit Fieberanfällen (vgl. zu <ref target="gb:note#GB03_2_BR080_0_note_001_52_1-2">52,1-2</ref>). Die Erkrankung schien nicht unbedenklich; immerhin veranlasste sie Carl August zur Abfassung seines ersten Testaments, in dem bereits Goethe an der Spitze der Begünstigten stand (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>; ferner <ref target="sndb:sigle#4540">Andreas, Carl August</ref>, 270).</p>
+</note>
+<note xml:id="gb56385_comment_com84505">
+<label xml:id="GB03_2_FB008_0_note_050_260_11-12" copyOf="#start_com_7049"><hi rendition="#normal">260,11-12</hi>das ist denn doch der Herzog gewiß nicht</label>
+<p>Diese Sorge um Carl Augusts Gesundheitszustand teilte Johann Heinrich Voß: „Er ist sehr schwach von Körper und sein Vater ist vom Trinken gestorben.“ (Brief an Ernestine Boie, 14. Juli 1776; <ref target="sndb:sigle#1290">Herbst</ref> 1, 301.) Carl Augusts Vater, Herzog Ernst August II. Constantin, war, von Kind an kränklich und von schwacher Konstitution, am 28. Mai 1758 kurz vor Vollendung seines 21. Lebensjahres gestorben, an ‚Auszehrung‘ („eine mit Fieber verbundene allmähliche Abzehrung des Körpers, bis die Lebenskräfte endlich völlig erlöschen“ [<ref target="sndb:sigle#2753">Adelung</ref> 3, 1753], oft eine durch Tuberkulose herbeigeführte allgemeine Abnahme [Phthisis]); über die Ursache des Leidens gab es Vermutungen: „Man schrieb es einem unglücklichen Sturze mit dem Pferde zu daß sich ein Brustübel bildete, welches immer mehr und mehr in hektische Anlage überging“ (Ludwig Preller: Ernst August Constantin und Anna Amalia. 1756–1758. In: Zeitschrift des Vereins für thüringische Geschichte und Alterthumskunde. Bd 2. Jena 1857, S. 300). Der frühe Tod des Herzogs, der nur zwei Jahre lang regiert hatte, wird zu der in Weimar gehegten Besorgnis um Carl August beigetragen haben, insbesondere, da es noch keinen Stammhalter gab.</p>
+</note>
+<note xml:id="gb56385_comment_com84506">
+<label xml:id="GB03_2_FB008_0_note_051_260_18" copyOf="#start_com_7050"><hi rendition="#normal">260,18</hi>Herzogin</label>
+<p>Louise von Sachsen-Weimar und Eisenach; Klopstock hatte sie kennen gelernt, als er sich von Oktober 1774 bis März 1775 am badischen Hof in Karlsruhe aufhielt, wo Louise bei ihrer Schwester, der Erbprinzessin Amalie von Baden, lebte.</p>
+</note>
+<note xml:id="gb56385_comment_com84507">
+<label xml:id="GB03_2_FB008_0_note_052_260_21" copyOf="#start_com_7051"><hi rendition="#normal">260,21</hi>daß Sie sie lieben</label>
+<p>Über Goethes Verehrung der Herzogin, die er wiederholt als  <quote type="G">Engel</quote> (<ref target="gb:text#GB03_1_BR031_0_025_014">25,14</ref>; <ref target="gb:text#GB03_1_BR036_0_027_016">27,16</ref>; <ref target="gb:text#GB03_1_BR050_0_036_006">36,6–7</ref>) bezeichnete, vgl. seine Briefe an Charlotte von Stein vom 27. und vom 30.? Januar 1776 (<ref target="gb:dokument#10646">Nr 30</ref> und <ref target="gb:dokument#10645">34</ref>), von Ende Januar 1776 (<ref target="gb:dokument#10673">Nr 22</ref>) und vom 10. und 12. September 1776 (<ref target="gb:dokument#11175">Nr 169</ref>; Briefteil vom 12. September). </p>
+</note>
+<note xml:id="gb56385_comment_com84508">
+<label xml:id="GB03_2_FB008_0_note_053_260_22" copyOf="#start_com_7052"><hi rendition="#normal">260,22</hi>Er kommt aus Freundschaft zum Herzoge.</label>
+<p>Um die Stelle eines weimarischen Kammerherrn anzutreten.</p>
+</note>
+<note xml:id="gb56385_comment_com84509">
+<label xml:id="GB03_2_FB008_0_note_054_260_25" copyOf="#start_com_7053"><hi rendition="#normal">260,25</hi>Was soll ich ihm schreiben?</label>
+<p>In einem Brief vom 14. Juni 1776 setzte Klopstock Friedrich Leopold zu Stolberg die Gründe dafür auseinander, „warum Sie nicht hingehn müssen“. (<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 36.)</p>
+</note>
+<note xml:id="gb56385_comment_com84510">
+<label xml:id="GB03_2_FB008_0_note_055_260_25" copyOf="#start_com_7054"><hi rendition="#normal">260,26</hi>ob Sie dem Herzoge diesen Brief zeigen wollen</label>
+<p>Aus Goethes Antwort geht hervor, dass der Herzog Kenntnis von Klopstocks Brief erhielt (vgl. <ref target="gb:text#GB03_1_BR112_0_065_016 #GB03_1_BR112_0_065_017">65,16–17</ref>). </p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+  </floatingText>
+  <p>Anlass des ‚Mahnbriefes‘ von Klopstock war die Berufung des mit ihm befreundeten Grafen Friedrich Leopold zu Stolberg auf die Stelle eines weimarischen Kammerherrn, die diesem angeboten worden war, als er sich im November/Dezember 1775 in Weimar aufgehalten hatte. Im Frühjahr 1776 hatte Stolberg das Angebot angenommen und beabsichtigte, im Spätsommer nach Weimar zu gehen. Diese Absicht gab er – trotz Klopstocks Bedenken – erst im August auf und übernahm das Amt des fürstbischöflichen lübeckischen Gesandten am königlich dänischen Hof in Kopenhagen.</p>
+  <p>Wie sich Johann Georg Zimmermann veranlasst sah, Herder vor dessen Amtsantritt als Superintendent in einem Brief vom 19. Juni 1776 über die „<hi rendition="#hervor1">Wirthschaft in Weimar</hi>“ (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 2, 374) zu informieren (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>), so sah sich Klopstock verpflichtet, Friedrich Leopold zu Stolberg davor zu warnen, in Weimar Kammerherr zu werden. Vorher machte er mit seinem Brief an Goethe den Versuch, einen Beitrag zur Verbesserung der dortigen Missstände zu leisten. Damit war das vermeintlich ‚kraftgenialisch‘-wilde Treiben in Weimar gemeint, in dessen Mittelpunkt Herzog Carl August und Goethe standen. Zu der höfischen Opposition, die angelegentlich Aufsehen erregende Berichte kolportierte, weil sie Goethe wegen seiner engen Beziehung zum Herzog und des damit verbundenen Einflusses nicht wohlgesonnen war, zählten Johann Eustach Graf von Schlitz gen. von Goertz, der frühere Erzieher des Herzogs, und der Kammerherr Sigmund von Seckendorff. Dieser schrieb schon am 15. Februar 1776, wenige Wochen nach Goethes Ankunft in Weimar, an seinen Bruder Albrecht: „On court, chasse, crie, fouette, galoppe <gap quantity="3" reason="editorial"/> et ce qui est singulier, on s’y pique avec cela d’esprit et cela pour les beaux esprits qui en font nombre. Il b’y apas d’extravagance qu’on ne s’y permette.“ (<ref target="sndb:sigle#186">Seckendorff, Briefe</ref>, 6. – Man rennt herum, jagt, schreit, schlägt mit der Peitsche, reitet Galopp <gap quantity="3" reason="editorial"/> und was sonderbar ist, man stachelt sich dabei außerdem geistreich an, und zwar wegen der Schöngeister, die dazugehören. Es gibt keine Extravaganzen, die man sich nicht erlaubt.) In einem Brief vom 29. März an den Bruder ergänzte er: „Il y aurait de quoi remplir des volumes de gaité <gap quantity="3" reason="editorial"/>. Renchérissant chaque jour sur les anciennes extravagances, je crois que ce n’est que là qu’il n’existe point de plus ultra.“ (<ref target="sndb:sigle#186">Seckendorff, Briefe</ref>, 7. – Es gäbe etwas, um ganze Bände mit Heiterkeit zu füllen <gap quantity="3" reason="editorial"/>. Dadurch, dass jeder Tag die vorangegangenen tollen Streiche überbietet, glaube ich, dass es erst aufhört, wenn es gar nichts Übertriebenes mehr gibt. Übersetzung von Eva Beck, Weimar.) Außerhalb Weimars wurden Berichte dieser Art interessiert aufgenommen und weitergetragen. „Man erzählt hier lustiges Zeug von Weimar“, schrieb Matthias Claudius am 25. Mai 1776 an Herder (<ref target="sndb:sigle#206">Aus Herders Nachlaß</ref> 1, 413). Gottfried August Bürger hatte „die schreckliche Nachricht <gap quantity="3" reason="editorial"/> vernommen, daß <hi rendition="#hervor1">Göthe</hi> – alas! – auf der Jagd gestürzt sey und den Hals gebrochen habe“ (<ref target="sndb:sigle#894">Strodtmann</ref> 1, 316). Von Brief zu Brief wurden solche Neuigkeiten weiter verbreitet und ‚ausgeschmückt‘. Klopstock jedenfalls hörte (woher, ist unbekannt), dass Goethe und der Herzog „jezt eine Maitresse gemeinschaftl. haben“ sollen (<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 36). Dies teilte er am 14. Juni Friedrich Leopold zu Stolberg mit. Vier Tage später weiß es auch dessen Bruder Christian: „Der Herzog und er <supplied>Goethe</supplied> eine gemeinschaftliche Maitresse das wäre abominable, das habe ich Mühe zu glauben, aber beide sind unbändig, und beiden ist der Umgang mit einander höchst gefährlich.“ (Brief an Klopstock, 18. Juni 1776; Briefwechsel zwischen Klopstock und den Grafen Christian und Friedrich Leopold zu Stolberg. Hrsg. von Jürgen Behrens. Neumünster 1964, S. 193.) Einen Monat später berichtete Johann Heinrich Voß seiner Braut Ernestine Boie, bereits ohne den Potentialis zu benutzen: „Der Herzog läuft mit Göthen wie ein wilder Pursche auf den Dörfern herum, er besäuft sich, und geniesset brüderlich einerlei Mädchen mit ihm.“ (<ref target="sndb:sigle#1290">Herbst, Voß</ref> 1, 301.) Im selben Brief erwähnt Voß auch den Briefwechsel Klopstocks mit Goethe und gibt zu erkennen, was vielfach vermutet wurde, nämlich dass Goethe für diese Weimarer Zustände die Verantwortung trage: „Klopstock hat desfalls an Göthe geschrieben, und ihm seinen Wandel vorgerückt, dass er sich an dem Herzoge seinem Freunde, seiner Gemahlin, seiner Mutter, dem ganzen Lande und der ganzen Gelehrtenrepublik versündigte, weil kein Fürst künftig einen Dichter zu seiner Gesellschaft wählen würde. Göthe verbat sich in seinem und des Herzogs Namen solche Anmahnungen, die ihnen das süsse Leben verbitterten, und Klopstock schrieb ihm darauf, dass er seiner Freundschaft unwürdig sei.“ (Ebd.)</p>
+  <p>Diesen abfälligen Urteilen und Gerüchten widersprachen Äußerungen unmittelbarer Beobachter. So schrieb Friedrich Maximilian Klinger nach seiner Ankunft in Weimar an seinen Freund Ernst Schleiermacher: „Und hier sag ich Dir zugleich daß alles anders ist als wirs uns immaginirten und daß von allem nichts wahr ist was gesprochen wird“ (Brief vom 12. [recte: 26.] Juni 1776; Rieger, Klinger 1, 385). Und Wieland beschwor Johann Wilhelm Ludwig Gleim: „Überhaupt, mein Lieber, glauben Sie von allem Bösen was die Dame Fama von Weimar, und dem Herzog, und Göthen u: der ganzen Wirthschaft aus ihrer schändlichen Hinter-Trompete in die Welt hineinbläßt, <hi rendition="#hervor1">kein Wort</hi>.“ (Brief vom 3. September 1776; <ref target="sndb:sigle#141">WB</ref> 5, 546.) Dass das allgemeine Gerede nicht völlig grundlos war, belegen allerdings Aussagen zuverlässiger Zeugen wie Charlotte von Stein. Sie selbst fand Goethes Verhalten befremdlich, wie aus ihrem Brief an Johann Georg Zimmermann vom 6. März 1776 hervorgeht (abgedruckt in der einleitenden Erläuterung zu <ref target="gb:note#gb10659_comment_com4188">Nr 57</ref>): „ich <gap quantity="3" reason="editorial"/> gestund ihm ich wünschte selbst er mögte etwas von seinen wilden Wesen darum ihn die Leute hier so schieff beurtheilen, ablegen, daß im Grund zwar nichts ist als daß er jagd, scharff reit, mit der grosen Peitsche klatscht, alles in Geselschaft des Herzogs.“ Erklärend fügt sie sogleich hinzu: „Gewiß sind dies seine Neigungen nicht, aber ein Weile muß ers so treiben um den Herzog zu gewinnen und dann gutes zu stifften, so denck ich davon <gap quantity="3" reason="editorial"/>.“ Auch in ihrem Brief an Louise von Döring vom 10. Mai äußert sie kritisch: „Goethe cause içi un grand bouleversement; s’il sait y remettre ordre, tant mieux pour son génie.“ (Zitiert nach: <ref target="sndb:sigle#1252">Fränkel, Goethe-Stein<hi rendition="#sup">2</hi></ref> 3, 114. – „Goethe verursacht hier einen großen Umsturz; wenn er auch wieder Ordnung machen kann, um so besser für sein Genie!“ [<ref target="sndb:sigle#103">Bode</ref> 1, 180].) Und über Herzog Carl August heißt es: „Ein Herr, der mit sich selber und aller Welt unzufrieden ist, der täglich sein Leben und sein bißchen Gesundheit aufs Spiel setzt, um diese letztere zu stärken“ (ebd., 181). Im Brief an Johann Georg Zimmermann vom selben Tag (abgedruckt im Anschluss an die Erläuterungen zu <ref target="gb:note#gb10880_comment_com84492">Nr 102</ref>) bemüht sie sich wieder um eine Deutung Goethes: „<gap quantity="3" reason="editorial"/> jemehr ein Mensch faßen kan, deucht mir, je dunckler, anstößger wird ihn das Ganze je eher fehlt mann den ruhigen Weg, gewiß hatten die gefallnen Engel mehr Verstand wie die übrigen.“ Goethe selbst soll sich Jahrzehnte später in einem Gespräch mit Johann Peter Eckermann am 23. Oktober 1828 folgendermaßen an den Beginn seiner Beziehung zum Herzog erinnert haben: „Er war damals sehr jung <gap quantity="3" reason="editorial"/>; doch ging es mit uns freilich etwas toll her. Er war wie ein edler Wein, aber noch in gewaltiger Gährung. Er wußte mit seinen Kräften nicht wo hinaus und wir waren oft sehr nahe am Halsbrechen. Auf Parforçe-Pferden über Hecken, Gräben und durch Flüsse, und bergauf bergein sich tagelang abarbeiten, und dann Nachts unter freiem Himmel campiren, etwa bei einem Feuer im Walde: das war nach seinem Sinne. <gap quantity="3" reason="editorial"/> Ich läugne nicht, er hat mir anfänglich manche Noth und Sorge gemacht.“ (<ref target="sndb:sigle#4373">Eckermann, Gespräche</ref> 3, 266 und 268.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10525_comment_com8740">
+<label xml:id="GB03_2_BR112_0_note_001_65_7" copyOf="#start_com_1023"><hi rendition="#fett">65,7</hi>nur</label>
+<p>Offensichtlich irrtümlich für ‚uns‘ (vgl. Überlieferungsvarianten).</p>
+
+</note>
+<note xml:id="gb10525_comment_com8741">
+<label xml:id="GB03_2_BR112_0_note_002_65_10" copyOf="#start_com_1024"><hi rendition="#fett">65,10</hi><emph rendition="#latin">Pater peccavi</emph></label>
+<p>Lat.: Vater, ich habe gesündigt; aus dem Gleichnis vom verlorenen Sohn im Lukas-Evangelium (15,18 und 15,21).</p>
+
+</note>
+<note xml:id="gb10525_comment_com14777">
+<label xml:id="GB03_2_BR112_0_note_003_65_10" copyOf="#start_com_1025"><hi rendition="#fett">65,10</hi>sophistisch</label>
+<p>Sophisten waren ursprünglich Lehrer der Rede- und Überredungskunst im antiken Griechenland. In Platons Dialogen wurde ihre Kunst, die Sophistik, jedoch von Sokrates, ebenso wie hier von Goethe, als Synonym für eine geschwätzige und spitzfindige Scheinweisheit verstanden.</p>
+
+</note>
+<note xml:id="gb10525_comment_com8742">
+<label xml:id="GB03_2_BR112_0_note_004_65_11" copyOf="#start_com_1026"><hi rendition="#fett">65,11</hi>Kerl</label>
+<p>Das aus dem Mittelniederdeutschen stammende Wort trägt hier noch den Nebensinn ,freier Mann nicht ritterlichen Standes‘ (vgl. <ref target="sndb:sigle#2956">Kluge/Seebold</ref>, 438).</p>
+
+</note>
+<note xml:id="gb10525_comment_com8743">
+<label xml:id="GB03_2_BR112_0_note_005_65_15" copyOf="#start_com_1027"><hi rendition="#fett">65,15</hi>alle solche Briefe</label>
+<p>Außer einem ähnlichen (nicht überlieferten) Brief von Johann Georg Zimmermann, auf den Goethe am 6. März 1776 (<ref target="gb:dokument#10659">Nr 57</ref>) antwortete, sind keine Briefe überliefert, die hier gemeint sein könnten. Sie sind möglicherweise, wie andere frühe Briefe auch, im Juli 1797 vernichtet worden, als Goethe nach eigenem Bekenntnis in den „Tag- und Jahres-Heften“ (vgl. <ref target="sndb:sigle#1157">WA</ref> I 35, 73) alle seit 1772 empfangenen Briefe verbrannte.</p>
+
+</note>
+<note xml:id="gb10525_comment_com14778">
+<label xml:id="GB03_2_BR112_0_note_006_65_18" copyOf="#start_com_1028"><hi rendition="#fett">65,18</hi><hi rendition="#hervor1">Stollberg</hi> soll immer kommen.</label>
+<p>Vgl. einleitende <ref target="gb:note#gb10525_comment_com4230">Erläuterung</ref>.</p>
+
+</note>
+</div>
+<div xml:id="gb10525_comment_com18935">
+  <p>Klopstocks Antwortbrief:</p>
+  <floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56386_source" corresp="#gb56386_comment">
+  <body>
+    <div>
+      <p rendition="#einrueck19">
+        <anchor xml:id="GB03_2_FB009_0_264_001"/>Hamburg, 29. May 76.</p>
+      <p>
+        <anchor xml:id="GB03_2_FB009_0_264_002"/>Sie haben den <ref target="gb:note#GB03_2_FB009_0_note_056_264_2" xml:id="start_com_7055"/>Beweis meiner Freundschaft<ref xml:id="end_com_7055"/> so sehr verkannt, als er groß war; groß 
+                        <anchor xml:id="GB03_2_FB009_0_264_003"/>besonders deswegen, weil ich unaufgefordert mich höchst ungern in das mische, was 
+                        <anchor xml:id="GB03_2_FB009_0_264_004"/>Andre thun.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB009_0_264_005"/>Und da Sie sogar <ref target="gb:note#GB03_2_FB009_0_note_057_264_4-6" xml:id="start_com_7056"/>
+        <hi rendition="#hervor1">unter all solche Briefe und all solche Anmahnungen</hi><ref xml:id="end_com_7056"/>
+                        <anchor xml:id="GB03_2_FB009_0_264_006"/> (denn so stark drücken Sie sich aus) den Brief werfen, welcher diesen 
+                        <anchor xml:id="GB03_2_FB009_0_264_007"/>Beweis enthielt, so erklär’ ich Ihnen hierdurch, daß Sie nicht werth sind, daß ich 
+                        <anchor xml:id="GB03_2_FB009_0_264_008"/>ihn gegeben habe.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB009_0_265_009"/>Stollberg soll nicht kommen, wenn er mich hört, oder vielmehr, <ref target="gb:note#GB03_2_FB009_0_note_058_264_8-265_10" xml:id="start_com_7057"/>wenn er sich 
+                        <anchor xml:id="GB03_2_FB009_0_265_010"/>selbst hört.<ref xml:id="end_com_7057"/>
+      </p>
+      <p rendition="#einrueck23">
+        <anchor xml:id="GB03_2_FB009_0_265_011"/>Klopstock.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56386_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56386_comment_com18940">
+  <p>(<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 31.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56386_comment_com84511">
+<label xml:id="GB03_2_FB009_0_note_056_264_2" copyOf="#start_com_7055"><hi rendition="#normal">264,2</hi>Beweis meiner Freundschaft</label>
+<p>Bezieht sich auf den Anfang von Klopstocks (oben abgedruckten) Brief an Goethe vom 8. Mai 1776.</p>
+</note>
+<note xml:id="gb56386_comment_com84512">
+<label xml:id="GB03_2_FB009_0_note_057_264_4-6" copyOf="#start_com_7056"><hi rendition="#normal">264,5-6</hi><hi rendition="#hervor1">unter all solche</hi> <gap quantity="3" reason="editorial"/> <hi rendition="#hervor1">Anmahnungen</hi></label>
+<p>Bezieht sich auf Goethes Brief (vgl. <ref target="gb:text#GB03_1_BR112_0_065_015">65,15</ref>). </p>
+</note>
+<note xml:id="gb56386_comment_com84513">
+<label xml:id="GB03_2_FB009_0_note_058_264_8-265_10" copyOf="#start_com_7057"><hi rendition="#normal">265,9-10</hi>wenn er sich selbst hört</label>
+<p>Gegen Klopstocks Rat gab Friedrich Leopold zu Stolberg das Vorhaben, nach Weimar zu gehen, nicht auf; am 8. Juni schrieb er an Klopstock: „Und doch mein Allerliebster kann ich mich nicht entschliessen mein engagement mit dem Herzoge grade zu zu rompiren, ich werde hin müsse sobald er mich haben will, das hab ich versprochen. Ich hoffe mich früh so zu zeigen daß er mich genug kennen lernt um mir nichts anzumuthen daß meiner, daß Ihres Freundes mein Allerliebster, unwürdig wäre, thut ers so verlaß ich ihn gleich.“ (<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 34.) </p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Friedrich Leopold zu Stolberg kommentierte diesen Briefwechsel zwischen Klopstock und Goethe in seinem Brief an jenen vom 8. Juni 1776:</p>
+  <floatingText type="foreignDocument">
+<group>
+<text type="source" xml:id="gb56387_source" corresp="#gb56387_comment">
+  <body>
+    <div>
+      <p>
+        <anchor xml:id="GB03_2_FB010_0_265_001"/>Ich habe mit Verwundrung u: Aerger Ihre Correspondenz mit Göthe gelesen. Bester 
+                        <anchor xml:id="GB03_2_FB010_0_265_002"/>Klopstock <ref target="gb:note#GB03_2_FB010_0_note_001_265_2" xml:id="start_com_7058"/>ich kenne zwar ganz Göthens unbiegsames Wesen<ref xml:id="end_com_7058"/>, aber daß er einen 
+                        <anchor xml:id="GB03_2_FB010_0_265_003"/>solchen Brief, von Ihnen, so beantworten könnte, davon hatt ich keine Idee. Es thut 
+                        <anchor xml:id="GB03_2_FB010_0_265_004"/>mir in der Seele weh für ihn, er verdients Ihre Freundschaft zu verlieren, u: doch 
+                        <anchor xml:id="GB03_2_FB010_0_265_005"/>weiß ich wie er im Herzen Sie ehrt u: liebt; das sag ich nicht ihn zu entschuldigen, 
+                        <anchor xml:id="GB03_2_FB010_0_265_006"/>ich kann u: mag hierin ihn nicht entschuldigen, u: bin indignirt über seinen Brief. 
+                        <anchor xml:id="GB03_2_FB010_0_265_007"/>Starrkopf ist er im allerhöchsten Grade, u: seine Unbiegsamkeit welche er wenn es 
+                        <anchor xml:id="GB03_2_FB010_0_265_008"/>möglich wäre gern gegen Gott behauptete machte mich schon oft für ihn zittern.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB010_0_265_009"/>Gott welch ein Gemisch, ein TitanenKopf gegen seinen Gott, u: nun schwindelnd 
+                            <anchor xml:id="GB03_2_FB010_0_265_010"/>von der Gunst eines Herzogs!</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB010_0_265_011"/>Sagen Sie mein liebster, denn Sie erkannten früh seinen eisernen Nacken, dachten 
+                            <anchor xml:id="GB03_2_FB010_0_265_012"/>Sie nicht an ihn wie Sie <ref target="gb:note#GB03_2_FB010_0_note_002_265_12" xml:id="start_com_7059"/>die Warnung<ref xml:id="end_com_7059"/> machten? Und doch kann er so weich 
+                            <anchor xml:id="GB03_2_FB010_0_265_013"/>sein, ist so liebend, läst sich in guten Stunden leiten am seidnen Faden, ist seinen 
+                            <anchor xml:id="GB03_2_FB010_0_265_014"/>Freunden so herzlich zugethan – Gott erbarme sich über ihn u: mach ihn gut damit 
+                            <anchor xml:id="GB03_2_FB010_0_265_015"/>er treflich werde, aber wenn Gott nicht Wunder an ihm thut so wird er der Unseeligsten 
+                            <anchor xml:id="GB03_2_FB010_0_265_016"/>einer. Wie oft sah ich ihn schmelzend u: wütend in einer Viertelstunde.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_2_FB010_0_265_017"/>Die Sach über welche Sie ihm schrieben geht mir denn auch sehr nahe. Der 
+                            <anchor xml:id="GB03_2_FB010_0_265_018"/>junge Herzog hat viel Anlagen zum Guten u bösen. Sein gutes kennen Sie, aber 
+                            <anchor xml:id="GB03_2_FB010_0_265_019"/>er hat natürliche Wildheit, u: was unendlich schlimmer ist, Härte.</p>
+    </div>
+  </body>
+</text>
+<text xml:space="preserve" type="comment" xml:id="gb56387_comment">
+<body>
+<div type="explanations">
+<div type="explanation" xml:id="gb56387_comment_com18943">
+  <p>(<ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 I, 33 f.)</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb56387_comment_com84514">
+<label xml:id="GB03_2_FB010_0_note_001_265_2" copyOf="#start_com_7058"><hi rendition="#normal">265,2</hi>ich kenne <gap quantity="3" reason="editorial"/> Wesen</label>
+<p>Friedrich Leopold zu Stolberg und sein Bruder Christian hatten Goethe im Mai 1775 in Frankfurt zusammen mit Christian von Haugwitz kennen gelernt und sich mit ihm angefreundet. Goethe begleitete sie auf einer Reise in die Schweiz, wo sich in Zürich um den 6. Juli 1775 ihre Wege trennten, als Goethe die Heimreise antrat. Vgl. im Einzelnen die einleitende Erläuterung zu <ref target="gb:note#gb10593_comment_com4223">GB 2 II, Nr 266</ref>. Im November/Dezember 1775 besuchte Stolberg Goethe in Weimar.</p>
+</note>
+<note xml:id="gb56387_comment_com84515">
+<label xml:id="GB03_2_FB010_0_note_002_265_12" copyOf="#start_com_7059"><hi rendition="#normal">265,12</hi>die Warnung</label>
+<p>Gemeint ist Klopstocks Ode „Warnung“, entstanden 1772, gedruckt im „Musenalmanach fur das Jahr 1776“ (Lauenburg) von Johann Heinrich Voß (S. 174 f.). Auch in einem wohl gleichzeitigen Brief an einen unbekannten Adressaten bezieht Stolberg Klopstocks Ode auf Goethe: „Göthe ist nicht bloß ein Genie, sondern er hat auch ein wahrhaft gutes Herz, aber es ergriff mich ein Grausen, als er mir an einem der letzten Tage meiner Anwesenheit in Weimar von Riesengeistern sprach, die sich auch den ewigen geoffenbarten Wahrheiten nicht beugen. Dieser unbeugsame Trotz wird, wenn er in ihm weiter wuchert, auch sein Herz kalt machen. Armer Erdenwurm! Sich den ewigen geoffenbarten Wahrheiten nicht beugen, gleichsam rechten wollen mit Gott! Da fielen mir die Worte von Klopstock ein: ‚Ihr rechtet mit Dem, / Deß großen Namen / Der sterbliche Weise / Kaum waget auszusprechen, / Mit Dem, deß großen schrecklichen Namen / Der hohe Engel / Staunend nennet, / Mit Gott, mit Gott!‘“ (Janssen 1, 70 f.)</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</group>
+
+</floatingText>
+  <p>Nachdem Stolberg das Amt eines oldenburgischen Gesandten in Kopenhagen angenommen und Goethe darüber in einem nicht überlieferten Brief unterrichtet hatte, antwortete dieser – vermutlich Anfang Oktober 1776 – mit einem ebenfalls nicht überlieferten Brief (<ref target="gb:dokument#52579">EB 116</ref>). Darin habe er, so Johann Heinrich Voß in seinem Brief an Ernestine Boie vom 17. Oktober 1776, Klopstocks Briefe an ihn vom 8. und 29. Mai als „impertinent“ (Herbst 1, 301) bezeichnet. In einem Brief von Carl Friedrich Cramer an Goethe vom 11. Oktober 1776 (vgl. <ref target="ra:dokument#79">RA 1, 67 f., Nr 73</ref>), dessen Konzept überliefert ist, wird berichtet: „Ich war so eben mit Christian Stollberg u Gustchen auf Klopst. Stube als Ihr Brief an Leopold ankam. Er ward geöfnet. Als Stolberg den Innhalt sah, erröthete er und wollt ihn verbergen. Aber es war zu spät. Er ward gelesen. <gap quantity="3" reason="editorial"/> Das <supplied>Klopstocks Briefe</supplied> nennen Sie <hi rendition="#hervor1">unerhörte Impertinenz</hi>!! Klopstock wandte sich um als Ihrer gelesen war – und sagte so gelassen u kalt wie möglich: Izt verachte ich Göthen!“ (H: <ref target="sndb:sigle#3170">SUB</ref> Hamburg KN 48,218; vgl. auch <ref target="sndb:sigle#2955">Klopstock, Briefe HKA</ref> 7 II, 370 f.)</p>
+</div>
+
+</div>
+</body>
+</text>
+
+</TEI>

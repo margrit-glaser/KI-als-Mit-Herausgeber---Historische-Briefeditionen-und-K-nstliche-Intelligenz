@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2590"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb15824" n="GB 3, Nr. 255">
+  <teiHeader xml:id="gb15824_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>255.</label> <persName key="sndb:person#45319">Philipp Seidel</persName> an <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Mai 1777. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:11Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb15824_tei.xml</idno>
+        <idno type="URI">gb15824</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR255_0</idno>
+        <idno type="KSW-ID">15824</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="143" to="143">143</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="516" to="516">516</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb15824_header_hwit1192" corresp="#gb15824_source_hwit1192" sameAs="#gb15824_comment_hwit1192" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 92</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/15824,,1192/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Seien Sie doch so gütig und schiken dem Herrn Geh. Leg. Rath Goethe ehstens</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#45319">Seidel, Philipp</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-05-01">1. Mai 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb15824_source_hwit1192" corresp="#gb15824_header_hwit1192" type="source" rend="authorisedLetter">
+  <body>
+    <div type="proxyLetter">
+    <pb n="1" facs="gb:digitalisate#15824/13899"/>
+      <head><supplied>Auftragsbrief</supplied></head>
+      <p>
+        <anchor xml:id="GB03_1_BR255_0_143_015"/>Seien Sie doch so gütig und schiken dem Herrn Geh. Leg. Rath 
+<anchor xml:id="GB03_1_BR255_0_143_016"/>Goethe ehstens</p>
+      <p rendition="#einrueck2">
+        <anchor xml:id="GB03_1_BR255_0_143_017"/>
+        <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR255_0_note_001_143_17-19" xml:id="start_com_2213"/>Essay sur les Haras ou Examen méthodique</emph>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR255_0_143_018"/>
+        <emph rendition="#latin">des moyens propres pour etablir, diriger</emph>
+      </p>
+      <p rendition="#einrueck4">
+        <anchor xml:id="GB03_1_BR255_0_143_019"/>
+        <emph rendition="#latin">et faire prosperer les Haras</emph>.<ref xml:id="end_com_2213"/>
+      </p>
+      <p rendition="#einrueck8">
+        <anchor xml:id="GB03_1_BR255_0_143_020"/>
+        &#x2012;&#x2012;&#x2012;&#x2012;
+      </p>
+      <space quantity="1" unit="lines"/>
+      <p rendition="#einrueck18">
+        <anchor xml:id="GB03_1_BR255_0_143_021"/><ref target="gb:note#GB03_2_BR255_0_note_002_143_21" xml:id="start_com_2214"/>Dw.<ref xml:id="end_com_2214"/> Diener</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR255_0_143_022"/>Weimar am 1 Mai <hi rendition="#hervor1">1777</hi>.                                              Seidel</p>
+    <pb n="2" facs="gb:digitalisate#15824/13900"/>
+    <pb n="3" facs="gb:digitalisate#15824/13901"/>
+    <pb n="4" facs="gb:digitalisate#15824/13902" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb15824_comment">
+<body>
+<div type="metadata" xml:id="gb15824_comment_com1035">
+  <ab type="numberAddressee"><label>255.</label>
+    <persName key="sndb:person#45319">Philipp Seidel</persName> an <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 1. Mai 1777 → <placeName key="sndb:ort#78408">Leipzig</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb15824_comment_com3079">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 92. – Doppelblatt 17,5 × 20,6(–20,9) cm, &#xBD; S. beschr., Seidels Hd, Tinte; S. 3 Adresse: <quote type="G">Herrn Buchhändler <hi rendition="#hervor1">Reich</hi> / in / <hi rendition="#hervor1">Leipzig. / frei</hi></quote>, Reste eines roten Motivsiegels, rechts über der Adresse von fremder Hd, Tinte: „12.“; S. 2 Empfangsvermerk, Tinte: „1777. 13. May. Weimar / Goethe / B<g ref="#typoSuspension"/>“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>); am Mittelfalz aufgeklebt auf Trägerblatt (Pappe).</p>
+  <p>Ungedruckt.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb15824_comment_com4875">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief (vgl. <ref target="gb:note#gb15824_comment_com3079">Überlieferung</ref>) ist nicht überliefert.</p>
+  <p rendition="#einrueck1">Postsendungen: 1. Mai 1777 (vgl. <ref target="sndb:sigle#4225">GR/RB 1777,1</ref>, Bl. 6r).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb15824_comment_com18645">
+<label xml:id="GB03_2_BR255_0_note_001_143_17-19" copyOf="#start_com_2213"><hi rendition="#fett">143,17-19</hi><emph rendition="#latin">Essay sur les Haras</emph> <gap quantity="3" reason="editorial"/> <emph rendition="#latin">les Haras</emph>.</label>
+<p>Gioachino Bonaventura Argentero marchese di Brézé: Essai sur les Haras, ou Examen méthodique des moyens propres pour établir, diriger &amp; faire prospérer les Haras. Turin 1769 (Versuch über Gestüte, oder methodische Untersuchung der geeigneten Mittel, um Gestüte zu errichten, zu leiten und in Schwung zu bringen). – Auf einer Rechnung, von Weidmanns Erben und Reich am 29. November 1777 an Goethe ausgestellt, erscheint der Titel unter „1777. April“. Am 28. März 1778 wurde die Zahlung der Rechnung bestätigt (vgl. <ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 31). Der Weimarer Buchbinder Johann Christoph Große stellte am 21. März 1778 eine Rechnung für „Essai Sur Les Haras in Frantz Pape in Groß. 8.“ (<ref target="sndb:sigle#2573">GR/Belege 1778, 1</ref>, Bl. 25) aus. – In Goethes Bibliothek ist der Titel nicht nachweisbar. Ob Goethe das Werk tatsächlich für sich selbst oder als Geschenk – z. B. für den Herzog oder den Oberstallmeister Josias von Stein – bestellt hatte, muss offenbleiben. Der Hof bezog seine Pferde vom Gestüt in der etwa 60 km nördlich von Weimar entfernten Exklave Allstedt, die auch Goethe häufig besuchte (vgl. zu <ref target="gb:note#GB03_2_BR472_0_note_007_263_22">263,22</ref>). Möglicherweise gab es damals Pläne für die Einrichtung eines Gestüts in der näheren Umgebung Weimars.</p>
+
+</note>
+<note xml:id="gb15824_comment_com85646">
+<label xml:id="GB03_2_BR255_0_note_002_143_21" copyOf="#start_com_2214"><hi rendition="#fett">143,21</hi>Dw.</label>
+<p>Möglicherweise verstrichen für ,Ew.‘ (Euer).</p>
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4200"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11904" n="GB 3, Nr. 411">
+  <teiHeader xml:id="gb11904_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>411.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 31. Oktober und 3. November <supplied>1778. Samstag und Dienstag</supplied></title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:13:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11904_tei.xml</idno>
+        <idno type="URI">gb11904</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR411_0</idno>
+        <idno type="KSW-ID">11904</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="234" to="235">234-235</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="793" to="796">793-796</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11904_header_hwit1406" corresp="#gb11904_source_hwit1406" sameAs="#gb11904_comment_hwit1406" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 101</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11904,,1406/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Sagen Sie doch Kestnern dass er mir Moose von allen Sorten    durch den Schäfer</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1778-10-31">31. Oktober</date> und
+            <date when="1778-11-03">3. November <supplied>1778</supplied></date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11904_source_hwit1406" corresp="#gb11904_header_hwit1406" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11904/22940"/>
+      <opener>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR411_0_234_005"/>d<g ref="#typoSuspension"/>. 31 Oktbr.</dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR411_0_234_006"/>Sagen Sie doch <ref target="gb:note#GB03_2_BR411_0_note_001_234_6" xml:id="start_com_3540"/>Kestnern<ref xml:id="end_com_3540"/> dass er mir <ref target="gb:note#GB03_2_BR411_0_note_002_234_6" xml:id="start_com_3541"/>Moose von allen Sorten<ref xml:id="end_com_3541"/> durch 
+<anchor xml:id="GB03_1_BR411_0_234_007"/>den <ref target="gb:note#GB03_2_BR411_0_note_003_234_7" xml:id="start_com_3542"/>Schäfer<ref xml:id="end_com_3542"/> suchen lässt und wo möglich mit den Wurzeln und feucht 
+<anchor xml:id="GB03_1_BR411_0_234_008"/>erhält dass sie sich wieder fortpflanzen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR411_0_234_009"/>Die Welt ist so lachend und die Gegend so frey dass ich wieder 
+<anchor xml:id="GB03_1_BR411_0_234_010"/>zeichnen würde<ptr n="1" target="#a001_234.10"/>, wenn die Umstände nicht wieder Ball mit mir spielten. 
+<anchor xml:id="GB03_1_BR411_0_234_011"/>Ich bin wie <ref target="gb:note#GB03_2_BR411_0_note_004_234_11" xml:id="start_com_3543"/>der Komet im Spiel<ref xml:id="end_com_3543"/> den man zu allen Karten macht. 
+<anchor xml:id="GB03_1_BR411_0_234_012"/>
+        <ref target="gb:note#GB03_2_BR411_0_note_005_234_12-14" xml:id="start_com_3544"/>Der Philosoph ist gepuzt und steht nun an mit wem er den Reyen 
+<anchor xml:id="GB03_1_BR411_0_234_013"/>eröffnen soll, sein* Wiz<ptr n="2" target="#a002_234.13"/> wird ihn einen Ausweeg lehren da er seinem 
+<anchor xml:id="GB03_1_BR411_0_234_014"/>Herzen nicht folgen kann.<ref xml:id="end_com_3544"/>
+      </p>
+      <p rendition="#c">
+        <anchor xml:id="GB03_1_BR411_0_234_015"/>&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;
+      </p>
+      <p>
+        <anchor xml:id="GB03_1_BR411_0_234_016"/>*Sie haben hier wieder ein weites Feld mich zu necken, dass ich in 
+<anchor xml:id="GB03_1_BR411_0_234_017"/>den Fall komme <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR411_0_note_006_234_17" xml:id="start_com_3545"/>Herz</hi> in <hi rendition="#hervor1">Wiz</hi> zu korrigiren<ref xml:id="end_com_3545"/>. <pb n="2" facs="gb:digitalisate#11904/22941"/></p>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR411_0_234_018"/>d<g ref="#typoSuspension"/>. 3 Nov.</p>
+      <p>
+        <anchor xml:id="GB03_1_BR411_0_234_019"/>
+        <ref target="gb:note#GB03_2_BR411_0_note_007_234_19" xml:id="start_com_3546"/>Steinen hab ich versaumt das Zettelchen mitzugeben<ref xml:id="end_com_3546"/>, und von Ihnen 
+<anchor xml:id="GB03_1_BR411_0_234_020"/>hör ich auch nichts. Es lebe die Gegenwart, und ich wollt Sie wären 
+<anchor xml:id="GB03_1_BR411_0_234_021"/>wieder hier. Des Abends wird nun meist zu hause geblieben. Gestern 
+<anchor xml:id="GB03_1_BR411_0_234_022"/>waren Herders da und der Herzog und <ref target="gb:note#GB03_2_BR411_0_note_008_234_22" xml:id="start_com_3547"/>Seckend.<ref xml:id="end_com_3547"/> bis 8 Uhr Musick 
+<anchor xml:id="GB03_1_BR411_0_234_023"/>nachher assen<ptr n="3" target="#a003_234.23"/> wir und zum Nachtisch <ref target="gb:note#GB03_2_BR411_0_note_009_234_23" xml:id="start_com_3548"/>las<ptr n="4" target="#a004_234.23"/> ich was das zu lachen machte<ref xml:id="end_com_3548"/>
+        <anchor xml:id="GB03_1_BR411_0_234_024"/>und verdauen half. <ref target="gb:note#GB03_2_BR411_0_note_010_234_24-25" xml:id="start_com_3549"/>Ich habe wieder eine Scheere zugerichtet um eine 
+<anchor xml:id="GB03_1_BR411_0_234_025"/>grose Heerde zu scheeren und gelegentlich zu schinden.<ref xml:id="end_com_3549"/> Daran hindern 
+<anchor xml:id="GB03_1_BR411_0_234_026"/>mich eifrige Gedancken an einen <ref target="gb:note#GB03_2_BR411_0_note_011_234_26" xml:id="start_com_3550"/>Theater Bau<ref xml:id="end_com_3550"/> dazu ich ohnablässig 
+<anchor xml:id="GB03_1_BR411_0_235_001"/>
+        <ref target="gb:note#GB03_2_BR411_0_note_012_235_1" xml:id="start_com_3551"/>Risse krizzle<ref xml:id="end_com_3551"/> und verkrizzle, nächstens ein Modell hinstellen werde 
+<anchor xml:id="GB03_1_BR411_0_235_002"/>dabey’s bleiben<ptr n="5" target="#a005_235.2"/> wird. <pb n="3" facs="gb:digitalisate#11904/22942"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR411_0_235_003"/>Auf den Freytag ist <ref target="gb:note#GB03_2_BR411_0_note_013_235_3" xml:id="start_com_3552"/>das Schauspiel in Ettersb<ref xml:id="end_com_3552"/> zum Schluss diesiähriger 
+<anchor xml:id="GB03_1_BR411_0_235_004"/>
+        <ref target="gb:note#GB03_2_BR411_0_note_014_235_4" xml:id="start_com_3553"/>Landunlust<ref xml:id="end_com_3553"/>, vergebens hab ich meinen <ref target="gb:note#GB03_2_BR411_0_note_015_235_4" xml:id="start_com_3554"/>Mardochai<ref xml:id="end_com_3554"/> loszuwerden 
+<anchor xml:id="GB03_1_BR411_0_235_005"/>gesucht, ich muss dies Kunstwerck noch einmal vortragen. Sie wissen und 
+<anchor xml:id="GB03_1_BR411_0_235_006"/>mögen von alle dem nichts wenn Sie da draussen stecken. Nun 
+<anchor xml:id="GB03_1_BR411_0_235_007"/>haben wir Ihnen Steinen bald geschickt,<ptr n="6" target="#a006_235.7"/> kommen Sie nun auch bald.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR411_0_235_008"/>Zu<ptr n="7" target="#a007_235.8"/> Anfang künftger Woche <ref target="gb:note#GB03_2_BR411_0_note_016_235_8" xml:id="start_com_3555"/>wirds von<ptr n="8" target="#a008_235.8"/> Belvedere hereinkommen<ref xml:id="end_com_3555"/>,
+<anchor xml:id="GB03_1_BR411_0_235_009"/>und ich werde also auch für diesmal <ref target="gb:note#GB03_2_BR411_0_note_017_235_9-10" xml:id="start_com_3556"/>die Sorge für Fusböden, Ofen, 
+<anchor xml:id="GB03_1_BR411_0_235_010"/>Treppen und Nachtstühle<ref xml:id="end_com_3556"/> losseyn. bis es wieder von forne angeht. <pb n="4" facs="gb:digitalisate#11904/22943"/></p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR411_0_235_011"/>Wenn Sie Abwesend<ptr n="9" target="#a009_235.11"/> an meinen Seelenumständen Theil nehmen so 
+<anchor xml:id="GB03_1_BR411_0_235_012"/>dient zur Nachricht dass sie ruhig beschäfftigt, liebreich und possenhafft 
+<anchor xml:id="GB03_1_BR411_0_235_013"/>sind. Grüsen Sie Steinen und die <ref target="gb:note#GB03_2_BR411_0_note_018_235_13" xml:id="start_com_3557"/>Kinder<ref xml:id="end_com_3557"/>.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR411_0_235_014"/>
+        <ref target="gb:note#GB03_2_BR411_0_note_019_235_14" xml:id="start_com_3558"/>Die Waldnern<ref xml:id="end_com_3558"/> wird alle Tag koketter, mit meinen Lieben gehts 
+<anchor xml:id="GB03_1_BR411_0_235_015"/>auch nicht vom Flecke ich schiebs auf die Jahrs zeit dass mich <ref target="gb:note#GB03_2_BR411_0_note_020_235_15-16" xml:id="start_com_3559"/>Mauern 
+<anchor xml:id="GB03_1_BR411_0_235_016"/>und Hängewercke<ref xml:id="end_com_3559"/> mehr unterhalten als die <ref target="gb:note#GB03_2_BR411_0_note_021_235_16" xml:id="start_com_3560"/>Misels<ref xml:id="end_com_3560"/>. Schreiben Sie mir 
+<anchor xml:id="GB03_1_BR411_0_235_017"/>nun auch wies Ihnen geht Sie sehn das liebe <hi rendition="#hervor1">Ich</hi> füllt meinen ganzen 
+<anchor xml:id="GB03_1_BR411_0_235_018"/>Brief. Denn von<ptr n="10" target="#a010_235.18"/> der ganzen Cristenheit hab ich Ihnen nichts zu erzehlen. 
+<anchor xml:id="GB03_1_BR411_0_235_019"/>Der Herzog ist wohl wir sind einmal viel zusammen</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR411_0_235_020"/>
+        <signed rend="paraph" rendition="#einrueck14">G.</signed>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11904_comment">
+<body>
+<div type="metadata" xml:id="gb11904_comment_com853">
+  <ab type="numberAddressee"><label>411.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 31. Oktober und 3. November <supplied>1778</supplied> → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="date" xml:id="gb11904_comment_com1780">
+  <p>Im Konvolut der Briefe an Charlotte von Stein (Bd I) wurde der vorliegende Brief zwischen die Briefe vom 14. Oktober und vom 15. November 1778 (<ref target="gb:dokument#11896">Nr 406</ref> und <ref target="gb:dokument#11906">414</ref>) eingeordnet. Seit dem Erstdruck wird er im Jahr 1778 belassen, wofür auch der Inhalt spricht (vgl. zu <ref target="gb:note#GB03_2_BR411_0_note_013_235_3">235,3</ref>; zu <ref target="gb:note#GB03_2_BR411_0_note_017_235_9-10">235,9-10</ref>).</p>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11904_comment_com2897">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 101. – Doppelblatt ca. 11,5 × 18,3 cm, Briefpapier mit Goldschnitt, 4 S. beschr., egh., Tinte; S. 1 oben rechts von fremder Hd, Tinte: „57.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1778, Nr 59), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 186–188.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 253–255, Nr 753.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11904_comment_com4693">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11904_comment_com11657">
+<label xml:id="GB03_2_BR411_0_note_001_234_6" copyOf="#start_com_3540"><hi rendition="#fett">234,6</hi>Kestnern</label>
+<p>Johann Friedrich Kästner, Hauslehrer der älteren Söhne Charlotte von Steins, der offenbar nicht nur Goethes Interesse am Zeichnen teilte.</p>
+
+</note>
+<note xml:id="gb11904_comment_com18183">
+<label xml:id="GB03_2_BR411_0_note_002_234_6" copyOf="#start_com_3541"><hi rendition="#fett">234,6</hi>Moose von allen Sorten</label>
+<p>Gemeint sind wahrscheinlich klassische Sorten wie Horn-, Leber- und Laubmoose. Zur Beschäftigung mit den Moosen könnte Goethe die Diskussion um die von Carl von Linné als Kryptogamen (von griech. κρυπτός: verborgen, heimlich; γαμεῖν: vermählen, begatten) bezeichneten Pflanzen angeregt haben, die keine äußerlich erkennbaren Blüten und Samen aufweisen. Zu ihnen gehören auch die Moose, von denen bis in die 1770er Jahre nicht bekannt war, auf welche Weise sie sich geschlechtlich vermehren, für Linné das Charakteristikum aller Lebewesen und Grundlage seiner Systematik. 1774 entdeckte Johannes Hedwig unter dem Mikroskop die männlichen und weiblichen Sexualorgane der Laubmoose und entwickelte eine Theorie der Zeugung und Befruchtung der Kryptogamen. Dass Goethe 1778 bereits damit vertraut war, lässt sich nicht belegen. Mit Linnés Systematik war er während seiner Leipziger Studienzeit bekannt geworden, als er am Mittagstisch des Botanikers und Mediziners Christian Gottlieb Ludwig teilnahm (vgl. <ref target="gb:note#GB01_2_BR009_0_note_016_24_5-7">GB 1 II, zu 24,5–7</ref>). Goethes sich um die Jahreswende 1778/79 verstärkendes botanisches Interesse wird auch durch die Anschaffung von Linnés Werken „Nomenclator botanicus“, „Systema plantarum“ und „Termini botanici“ belegt (vgl. Buchhändlerrechnung und Quittung Carl Ludolf Hoffmanns vom 29. März 1779; <ref target="sndb:sigle#2574">GR/Belege 1779</ref>, Bl. 17); die beiden zuletzt genannten Titel sind in Goethes Bibliothek überliefert (vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 692 f., Nr 4821 und 4824).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11664">
+<label xml:id="GB03_2_BR411_0_note_003_234_7" copyOf="#start_com_3542"><hi rendition="#fett">234,7</hi>Schäfer</label>
+<p>Näheres zu seiner Person konnte nicht ermittelt werden.</p>
+
+</note>
+<note xml:id="gb11904_comment_com15706">
+<label xml:id="GB03_2_BR411_0_note_004_234_11" copyOf="#start_com_3543"><hi rendition="#fett">234,11</hi>der Komet im Spiel</label>
+<p>Im ‚Kometenspiel‘, einem historischen Kartenspiel mit französischem Blatt, konnten die mit einem Kometenzeichen versehenen Kreuz- und Karo-Neun-Karten als eine Art Joker für alle Blätter eingesetzt werden.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11665">
+<label xml:id="GB03_2_BR411_0_note_005_234_12-14" copyOf="#start_com_3544"><hi rendition="#fett">234,12-14</hi>Der Philosoph <gap quantity="3" reason="editorial"/> seinem Herzen nicht folgen kann.</label>
+<p>Dies und das Folgende wohl noch in metaphorischer Anspielung auf das eben erwähnte ‚Kometenspiel‘. – Wie auch Goethes wiederholte Erwähnungen in seinen Briefen an Charlotte von Stein nahelegen, war Kartenspielen ein bevorzugter abendlicher Zeitvertreib nicht nur in der höfischen Gesellschaft.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11666">
+<label xml:id="GB03_2_BR411_0_note_006_234_17" copyOf="#start_com_3545"><hi rendition="#fett">234,17</hi><hi rendition="#hervor1">Herz</hi> in <hi rendition="#hervor1">Wiz</hi> zu korrigiren</label>
+<p>Vgl. die Variante zu <ref target="gb:text#GB03_1_BR411_0_234_013">234,13</ref>; im Kontext Anspielung auf die gegensätzlichen Bedeutungen von ‚Herz‘ und ‚Witz‘; im 18. Jahrhundert wurde ‚Herz‘ im metaphorischen Sinn gemeinhin als „Sitz der Seele und <gap quantity="3" reason="editorial"/> der innern Empfindungen“ betrachtet (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1145), während ‚Witz‘ den „Verstand überhaupt“ bezeichnete, in engerer Bedeutung den Scharfsinn als „Vermögen <gap quantity="3" reason="editorial"/>, verborgene Unterschiede aufzufinden“ (ebd. 4, 1586).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11675">
+<label xml:id="GB03_2_BR411_0_note_007_234_19" copyOf="#start_com_3546"><hi rendition="#fett">234,19</hi>Steinen <gap quantity="3" reason="editorial"/> das Zettelchen mitzugeben</label>
+<p>Laut Fourierbuch war Josias von Stein am 2. November 1778 noch Gast bei der mittäglichen Hoftafel, danach wird er bis zum 19. November nicht wieder erwähnt (vgl. <ref target="sndb:sigle#3944">FB 1778</ref>, S. 200 und 209). Er könnte also am 2. oder 3. November nach Kochberg gereist sein. – Zettelchen: wahrscheinlich der Briefteil vom 31. Oktober.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11676">
+<label xml:id="GB03_2_BR411_0_note_008_234_22" copyOf="#start_com_3547"><hi rendition="#fett">234,22</hi>Seckend.</label>
+<p>Carl Friedrich Sigmund von Seckendorff, Kammerherr Carl Augusts, als Gelegenheitsdichter, Komponist und Veranstalter von Redouten, Theateraufführungen und Konzerten eine der Stützen der Weimarer Hofgesellschaft.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11677">
+<label xml:id="GB03_2_BR411_0_note_009_234_23" copyOf="#start_com_3548"><hi rendition="#fett">234,23</hi>las ich was das zu lachen machte</label>
+<p>Der Kontext lässt vermuten, dass Goethe aus Hans Sachs’ Fastnachtsspiel „Das Narrenschneiden“ (1534) vorgelesen hat, das er für eine Aufführung des Weimarer Liebhabertheaters bearbeitete.</p>
+
+</note>
+<note xml:id="gb11904_comment_com18077">
+<label xml:id="GB03_2_BR411_0_note_010_234_24-25" copyOf="#start_com_3549"><hi rendition="#fett">234,24-25</hi>Ich habe wieder eine Scheere zugerichtet <gap quantity="3" reason="editorial"/> zu schinden.</label>
+<p>In Anspielung auf den Titel des Fastnachtsspiels von Hans Sachs. ‚Narrenschneiden‘ oder ‚Narrenschnitt‘ bezeichnet eine mittelalterliche Form der Trepanation, bei der die Schädeldecke geöffnet wurde, um ‚Steine‘ zu entfernen und so den vom Wahnsinn Befallenen zu heilen. – Eine Aufführung des „Narrenschneidens“ nach Hans Sachs durch das Weimarer Liebhabertheater wird für den 11. Dezember 1778 vermutet, lässt sich aber nicht belegen. Dagegen verweist eine Rechnung Philipp Seidels vom 20. Juli 1779 (<ref target="sndb:sigle#1324">ThHStA Weimar</ref>, Fürstenhaus A 935, Nr 1237) auf eine Aufführung im Sommer 1779 (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 154, 157).</p>
+
+</note>
+<note xml:id="gb11904_comment_com18129">
+<label xml:id="GB03_2_BR411_0_note_011_234_26" copyOf="#start_com_3550"><hi rendition="#fett">234,26</hi>Theater Bau</label>
+<p>Offenbar im Zusammenhang mit den Plänen zu einem Theater-Neubau, die der Bauunternehmer Anton Georg Hauptmann dem Herzog schon im April 1778 unterbreitet hatte. Mit seinem „Vorschlag zu Erbauung eines geräumlichen Haußes für das Theater, worinnen zugleich ein großer und zur Redoute schicklicher Saal und Gallerie“ vom 2. April 1778 erbat er insgesamt 1500 Reichstaler (Akte „Das von dem Hof-Jäger, Hauptmann, allhier, angebrachte Gesuch um einen Vorschuß von 1500 rthlr. zu Erbauung eines Haußes für das Theater und die Redoute betr. <gap quantity="3" reason="editorial"/>“; <ref target="sndb:sigle#1324">ThHStA</ref>, Weimar, Bausachen B 9158<hi rendition="#sup #uu">a</hi>). Die Vorschläge wurden schließlich Anfang 1779 angenommen und das Geld bewilligt. Der Bau des neuen Komödienhauses gegenüber dem Wittumspalais im so genannten Eichmannischen Garten war Anfang 1780 vollendet (vgl. zu <ref target="gb:note#GB03_2_BR552_0_note_007_359_23-25">359,23-25</ref>).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11687">
+<label xml:id="GB03_2_BR411_0_note_012_235_1" copyOf="#start_com_3551"><hi rendition="#fett">235,1</hi>Risse krizzle</label>
+<p>Architektur-Skizzen Goethes sind aus dieser frühen Zeit nicht überliefert. In die im Laufe der Jahre 1778 und 1779 von Hauptmann vorgelegten Pläne dürften jedoch auch Goethes Vorstellungen eingegangen sein. Nachweislich ab dem 7. Dezember 1778 beschäftigte er sich mit dem Werk des französischen Baumeisters und Architekturtheoretikers Jacques François Blondel und fertigte Zeichnungen von Gesimsen, Säulen und Kapitellen an (vgl. <ref target="gt:dokument#649">GT I 1, 67 f.</ref>; vgl. <ref target="sndb:sigle#1117">Ruppert</ref>, 340, Nr 2328; 339, Nr 2327).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11688">
+<label xml:id="GB03_2_BR411_0_note_013_235_3" copyOf="#start_com_3552"><hi rendition="#fett">235,3</hi>das Schauspiel in Ettersb</label>
+<p>Am Freitag, dem 6. November, fand in Ettersburg die zweite Aufführung von Goethes „Jahrmarktsfest zu Plundersweilern“ statt, nachdem es am selben Ort bereits am 20. Oktober aufgeführt worden war (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11896_comment_com5011">Nr 406</ref>).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11689">
+<label xml:id="GB03_2_BR411_0_note_014_235_4" copyOf="#start_com_3553"><hi rendition="#fett">235,4</hi>Landunlust</label>
+<p>Okkasionelle Wortschöpfung Goethes, nur in diesem Kontext belegt, in Abwandlung zu ‚Landlust‘; in Anspielung auf die sommerlichen Theateraufführungen in Ettersburg, wo es mehrere improvisierte Bühnen gab, darunter auch eine kleine Naturbühne (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 25–29).</p>
+
+</note>
+<note xml:id="gb11904_comment_com15217">
+<label xml:id="GB03_2_BR411_0_note_015_235_4" copyOf="#start_com_3554"><hi rendition="#fett">235,4</hi>Mardochai</label>
+<p>Die Rolle des vom Tode bedrohten Pflegevaters und Geldverleihers der Königin Esther im „Jahrmarktsfest“ hatte Goethe schon in der ersten Aufführung am 20. Oktober gespielt, außerdem noch die Rollen des Marktschreiers und des Hamann (vgl. <ref target="sndb:sigle#854">Sichardt</ref>, 153 f.).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11700">
+<label xml:id="GB03_2_BR411_0_note_016_235_8" copyOf="#start_com_3555"><hi rendition="#fett">235,8</hi>wirds von Belvedere hereinkommen</label>
+<p>Laut Fourierbuch zog die Herzogin Louise erst am 20. November „von Bellvedere wiederum in die Stadt“ (<ref target="sndb:sigle#3944">FB 1778</ref>, S. 210).</p>
+
+</note>
+<note xml:id="gb11904_comment_com18092">
+<label xml:id="GB03_2_BR411_0_note_017_235_9-10" copyOf="#start_com_3556"><hi rendition="#fett">235,9-10</hi>die Sorge für Fusböden, Ofen, Treppen und Nachtstühle</label>
+<p>In Vorbereitung der Niederkunft der Herzogin, die am 3. Februar 1779 ihre erste Tochter Louise Auguste Amalie zur Welt brachte, wurden seit Herbst 1778 im Fürstenhaus Renovierungs- und Umbauarbeiten durchgeführt. Dass Goethe mit deren Beaufsichtigung betraut war, belegen seine Tagebucheinträge vom September und Oktober (vgl. GT I 1, 66).</p>
+
+</note>
+<note xml:id="gb11904_comment_com11701">
+<label xml:id="GB03_2_BR411_0_note_018_235_13" copyOf="#start_com_3557"><hi rendition="#fett">235,13</hi>Kinder</label>
+<p>Carl, Ernst und Friedrich von Stein.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11702">
+<label xml:id="GB03_2_BR411_0_note_019_235_14" copyOf="#start_com_3558"><hi rendition="#fett">235,14</hi>Die Waldnern</label>
+<p>Louise Adelaide Waldner von Freundstein, die damals 30-jährige Hofdame der Herzogin Louise (vgl. zu <ref target="gb:note#GB03_2_BR169_0_note_017_104_28">104,28</ref>).</p>
+
+</note>
+<note xml:id="gb11904_comment_com14126">
+<label xml:id="GB03_2_BR411_0_note_020_235_15-16" copyOf="#start_com_3559"><hi rendition="#fett">235,15-16</hi>Mauern und Hängewercke</label>
+<p>Vgl. zu <ref target="gb:note#GB03_2_BR404_0_note_004_231_3">231,3</ref>.</p>
+
+</note>
+<note xml:id="gb11904_comment_com11703">
+<label xml:id="GB03_2_BR411_0_note_021_235_16" copyOf="#start_com_3560"><hi rendition="#fett">235,16</hi>Misels</label>
+<p>Junge Mädchen (vgl. zu <ref target="gb:note#GB03_2_BR025_0_note_007_22_10">22,10</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

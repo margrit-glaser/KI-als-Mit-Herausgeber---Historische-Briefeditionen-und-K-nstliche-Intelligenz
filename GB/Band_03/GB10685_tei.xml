@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="460"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10685" n="GB 3, Nr. 46">
+  <teiHeader xml:id="gb10685_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>46.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 19. Februar 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:24Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10685_tei.xml</idno>
+        <idno type="URI">gb10685</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR046_0</idno>
+        <idno type="KSW-ID">10685</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="32" to="33">32-33</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="146" to="147">146-147</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10685_header_hwit876" corresp="#gb10685_source_hwit876" sameAs="#gb10685_comment_hwit876" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10685,,876/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante ein politisch Lied! Wären Sie hier, könnten Sie die Ehre alle Tage haben</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-02-19">19. Februar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10685_source_hwit876" corresp="#gb10685_header_hwit876" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10685/62339"/>
+      <p>
+        <anchor xml:id="GB03_1_BR046_0_032_012"/>Liebe Tante <ref target="gb:note#GB03_2_BR046_0_note_001_32_12" xml:id="start_com_0524"/>ein politisch Lied<ref xml:id="end_com_0524"/>! Wären Sie hier, könnten Sie die Ehre 
+<anchor xml:id="GB03_1_BR046_0_032_013"/>alle Tage haben. Es ist nun wohl nicht anders <ref target="gb:note#GB03_2_BR046_0_note_002_32_13" xml:id="start_com_0525"/>ich bleibe hier<ref xml:id="end_com_0525"/>, und nun 
+<anchor xml:id="GB03_1_BR046_0_032_014"/>muss ich euch auf einen Besuch vorbereiten. Beherzigen Sie diesen 
+<anchor xml:id="GB03_1_BR046_0_032_015"/>Brief mit der Mama. Der <ref target="gb:note#GB03_2_BR046_0_note_003_32_15" xml:id="start_com_0526"/>Oberstallmeister v. Stein<ref xml:id="end_com_0526"/> geht ehstens durch 
+<anchor xml:id="GB03_1_BR046_0_032_016"/>Franckfurt und wird <ref target="gb:note#GB03_2_BR046_0_note_004_32_16" xml:id="start_com_0527"/>Vater und Mutter<ref xml:id="end_com_0527"/> besuchen. Es ist ein braver 
+<anchor xml:id="GB03_1_BR046_0_032_017"/>Mann, den ihr wohl empfangen mögt, nur muss man über meinen 
+<anchor xml:id="GB03_1_BR046_0_032_018"/>hiesigen Zustand nicht allzu <hi rendition="#hervor1">entzückt</hi> scheinen. Ferner ist er <ref target="gb:note#GB03_2_BR046_0_note_005_32_18-19" xml:id="start_com_0528"/>nicht 
+<anchor xml:id="GB03_1_BR046_0_032_019"/>ganz mit dem Herzog zufrieden<ref xml:id="end_com_0528"/>, wie fast all der Hof weil er ihnen 
+<anchor xml:id="GB03_1_BR046_0_032_020"/>nicht nach der Pfeife tanzt, und mir wird heim<g ref="#typoSuspension"/>. und öffentlich die 
+<anchor xml:id="GB03_1_BR046_0_032_021"/>Schuld gegeben, sollt er so was fallen lassen, muss man auch drüber 
+<anchor xml:id="GB03_1_BR046_0_032_022"/>hingehn. Uberhaupt mehr fragen als sagen, ihn mehr reden lassen als 
+<anchor xml:id="GB03_1_BR046_0_032_023"/>reden, das übrige lass ich euren Klugheiten. Ich wollt die <ref target="gb:note#GB03_2_BR046_0_note_006_32_23-24" xml:id="start_com_0529"/>Geschichte 
+<anchor xml:id="GB03_1_BR046_0_032_024"/>meiner vier lezten Monate<ref xml:id="end_com_0529"/> lies sich schreiben, das wär ein Fras für ein 
+<anchor xml:id="GB03_1_BR046_0_033_001"/>gutes Volck. Lebt wohl und schreibt mir dass Euer Andencken erhalten 
+<anchor xml:id="GB03_1_BR046_0_033_002"/>wer<supplied>de</supplied> für und für. 19 Febr. 76.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR046_0_033_003"/>
+        <signed rend="paraph" rendition="#einrueck18">G.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#10685/62340" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#10685/62341" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#10685/62342" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10685_comment">
+<body>
+<div type="metadata" xml:id="gb10685_comment_com670">
+  <ab type="numberAddressee"><label>46.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 19. Februar 1776 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10685_comment_com2714">
+  <p>H: Privatbesitz, Deutschland. – Doppelblatt 10,4 × 17 cm, 1 S. beschr., egh., Tinte; S. 1 oben links von Johanna Fahlmers Hd, Tinte: „N<hi rendition="#sup #u">&#xA0;r</hi> 4“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), in der Mitte von fremder Hd, Bleistift: „41 ×××“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 107 f., Nr 41.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 30, Nr 403 (nach E; Textkorrektur nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10685_comment_com4510">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 20. Februar 1776 (vgl. <ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 5v).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10685_comment_com9796">
+<label xml:id="GB03_2_BR046_0_note_001_32_12" copyOf="#start_com_0524"><hi rendition="#fett">32,12</hi>ein politisch Lied</label>
+<p>In der frühen Fassung des „Faust“, die Johanna Fahlmer offenbar kannte, sagt Brander in Auerbachs Keller: <quote type="G">Pfuy ein garstig Lied! Ein politisch Lied, ein leidig Lied.</quote> (<ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 5, 288.) – Hier wohl mit Bezug auf die Missbilligung, die Herzog Carl Augusts Vorhaben auslöste, Goethe als Regierungsmitglied im Geheimen Consilium zu etablieren. Zu denen, die diese Pläne ablehnten, gehörten v. a. der ehemalige Prinzenerzieher und nunmehrige Oberhofmeister Johann Eustach Graf von Schlitz gen. von Goertz und der Präsident des Consiliums Jacob Friedrich von Fritsch. Wie aus dem vorliegenden Brief hervorgeht, scheint auch der Oberstallmeister Gottlob Ernst Josias Friedrich von Stein, Charlotte von Steins Ehemann, gewisse Bedenken gehegt zu haben.</p>
+
+</note>
+<note xml:id="gb10685_comment_com17532">
+<label xml:id="GB03_2_BR046_0_note_002_32_13" copyOf="#start_com_0525"><hi rendition="#fett">32,13</hi>ich bleibe hier</label>
+<p>Erste Äußerung Goethes über seinen Entschluss, in Weimar zu bleiben (vgl. auch zu <ref target="gb:note#GB03_2_BR027_0_note_006_23_14">23,14</ref>). Fünf Tage zuvor, im Brief an Johanna Fahlmer vom 14. Februar 1776, hatte Goethe noch mit Vorbehalt geschrieben: <quote type="G">Ich werd auch wohl dableiben</quote> (<ref target="gb:text#GB03_1_BR043_0_031_010">31,10</ref>). Die endgültige Entscheidung darüber fiel spätestens Mitte März 1776; dies geht aus dem Testament des Herzogs Carl August vom 16. März 1776 hervor (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>).</p>
+
+</note>
+<note xml:id="gb10685_comment_com9804">
+<label xml:id="GB03_2_BR046_0_note_003_32_15" copyOf="#start_com_0526"><hi rendition="#fett">32,15</hi>Oberstallmeister v. Stein</label>
+<p>Josias Friedrich von Stein; über seine Reise, die <quote type="G">ehstens</quote>, also „in sehr kurzer Zeit“ (<ref target="sndb:sigle#2890">Grimm</ref> 1, 1647), vonstatten gehen und ihn möglicherweise mit einem Auftrag nach Darmstadt führen sollte, konnte nichts weiter ermittelt werden. Unklar ist, wann sie stattgefunden hat; Stein wird zwar vom 21. bis 25. Februar im Fourierbuch nicht als Teilnehmer der fürstlichen Tafel erwähnt, doch erscheint dieser Zeitraum für eine Reise nach Frankfurt und Darmstadt und zurück zu kurz. Von Goethes Eltern ist keine Nachricht von einem Besuch Steins bekannt.</p>
+
+</note>
+<note xml:id="gb10685_comment_com9805">
+<label xml:id="GB03_2_BR046_0_note_004_32_16" copyOf="#start_com_0527"><hi rendition="#fett">32,16</hi>Vater und Mutter</label>
+<p>Johann Caspar und Catharina Elisabeth Goethe.</p>
+
+</note>
+<note xml:id="gb10685_comment_com17612">
+<label xml:id="GB03_2_BR046_0_note_005_32_18-19" copyOf="#start_com_0528"><hi rendition="#fett">32,18-19</hi>nicht ganz mit dem Herzog zufrieden</label>
+<p>Das burschikose Auftreten und die unhöfische Lebensweise des 18-jährigen Regenten (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10525_comment_com4230">Nr 112</ref>) missfielen in den etablierten Hofkreisen ebenso wie seine freundschaftliche Beziehung zu Goethe und dessen Förderung. Auch Charlotte von Stein war besorgt über Gerüchte vom angeblich schlechten Einfluss Goethes auf den Herzog. Dieser habe „sich wunderbahr geändert“, schrieb sie im Brief vom 6. bis 8. März 1776 an Johann Georg Zimmermann, „gestern war er bey mir behaubtete daß alle Leute mit Anstand mit Manieren nicht den Namen eines ehrlichen Mannes tragen könten <gap quantity="3" reason="editorial"/>; daher er auch niemanden mehr leiden mag der nicht etwas ungeschliffnes an sich hat. Das ist nun alles von Goethen“ (vollständig mitgeteilt in den Erläuterungen zu <ref target="gb:dokument#10659">Nr 57</ref>).</p>
+
+</note>
+<note xml:id="gb10685_comment_com9813">
+<label xml:id="GB03_2_BR046_0_note_006_32_23-24" copyOf="#start_com_0529"><hi rendition="#fett">32,23-24</hi>Geschichte meiner vier lezten Monate</label>
+<p>Goethe lebte seit dem 7. November 1775 in Weimar. – Auch im vorhergehenden Brief an Johanna Fahlmer (<ref target="gb:dokument#10607">Nr 43</ref>) bedauerte Goethe, <quote type="G">ohne Diarium</quote> (<ref target="gb:text#GB03_1_BR043_0_031_007">31,7</ref>) <quote type="G">nichts anschaulichs</quote> (<ref target="gb:text#GB03_1_BR043_0_031_008">31,8</ref>) über seinen Eintritt in Weimar berichten zu können.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

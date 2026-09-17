@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="320"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10343" n="GB 3, Nr. 32">
+  <teiHeader xml:id="gb10343_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>32.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 29. Januar 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10343_tei.xml</idno>
+        <idno type="URI">gb10343</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR032_0</idno>
+        <idno type="KSW-ID">10343</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="25" to="26">25-26</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="115" to="117">115-117</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10343_header_hwit861" corresp="#gb10343_source_hwit861" sameAs="#gb10343_comment_hwit861" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/486,I Bl. 2</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8657</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10343,,861/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Frau. Um fünfe seh ich Sie, kann Ihnen iezt nichts von mir sagen. Auf der Gallerie</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1776-01-29">29. Januar 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10343_source_hwit861" corresp="#gb10343_header_hwit861" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10343/22253"/>
+      <p>
+        <anchor xml:id="GB03_1_BR032_0_025_022"/>Liebe Frau. <ref target="gb:note#GB03_2_BR032_0_note_001_25_22" xml:id="start_com_0419"/>Um fünfe seh ich Sie<ref xml:id="end_com_0419"/>, kann Ihnen iezt nichts von mir 
+<anchor xml:id="GB03_1_BR032_0_025_023"/>sagen. Auf der <ref target="gb:note#GB03_2_BR032_0_note_002_25_23" xml:id="start_com_0420"/>Gallerie<ref xml:id="end_com_0420"/> war mir’s wunderlich, habe nachher <ref target="gb:note#GB03_2_BR032_0_note_003_25_23-24" xml:id="start_com_0421"/>aller<g ref="#typoSuspension"/>. 
+<anchor xml:id="GB03_1_BR032_0_025_024"/>Schicksaale<ref xml:id="end_com_0421"/> ausgestanden. <ref target="gb:note#GB03_2_BR032_0_note_004_25_24" xml:id="start_com_0422"/>Lindau<ref xml:id="end_com_0422"/> ist fort. – Vielleicht mach ich mir 
+<anchor xml:id="GB03_1_BR032_0_026_001"/>auch weis, dass ich sehe wenns Tag ist, dass ich mich wärme<ptr n="1" target="#a001_26.1"/> an der 
+<anchor xml:id="GB03_1_BR032_0_026_002"/>Hizze, und friere am Frost. Es kann all <ref target="gb:note#GB03_2_BR032_0_note_005_26_2" xml:id="start_com_0423"/>Grille<ref xml:id="end_com_0423"/> seyn – Genug vor der 
+<anchor xml:id="GB03_1_BR032_0_026_003"/>Hand ist mir s, so, wenn mir’s anders wird, wird sich s zeigen. Meine 
+<anchor xml:id="GB03_1_BR032_0_026_004"/>
+        <ref target="gb:note#GB03_2_BR032_0_note_006_26_4" xml:id="start_com_0424"/>Stella ist ankommen gedruckt<ref xml:id="end_com_0424"/>, sollst auch <ref target="gb:note#GB03_2_BR032_0_note_007_26_4" xml:id="start_com_0425"/>ein Exemplar<ref xml:id="end_com_0425"/> haben. Sollst 
+<anchor xml:id="GB03_1_BR032_0_026_005"/>mich auch ein Bissgen liebhaben. Es geht mir verflucht durch Kopf 
+<anchor xml:id="GB03_1_BR032_0_026_006"/>und Herz <ref target="gb:note#GB03_2_BR032_0_note_008_26_6" xml:id="start_com_0426"/>ob ich bleibe oder gehe<ref xml:id="end_com_0426"/>.                   G.   29 Jan</p>
+      <closer>
+        <dateline rendition="#einrueck25">
+          <anchor xml:id="GB03_1_BR032_0_026_007"/>76.</dateline>
+      </closer>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10343_comment">
+<body>
+<div type="metadata" xml:id="gb10343_comment_com480">
+  <ab type="numberAddressee"><label>32.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 29. Januar 1776 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10343_comment_com2524">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8657">GSA 29/486,I</ref>, Bl. 2. – 1 Bl. ca. 17 × 10,9(–11,1) cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); oben rechts von fremder Hd, Tinte: „4.“ – In einem gebundenen Handschriftenkonvolut (Bd I, Jg 1776, Nr 4), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 6.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 25, Nr 395.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10343_comment_com4320">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10343_comment_com7997">
+<label xml:id="GB03_2_BR032_0_note_001_25_22" copyOf="#start_com_0419"><hi rendition="#fett">25,22</hi>Um fünfe seh ich Sie</label>
+<p>Vor der fürstlichen Abendtafel, an der Charlotte von Stein laut Fourierbuch am 29. Januar 1776 teilnahm (vgl. <ref target="sndb:sigle#3942">FB 1776</ref>, S. 34; vgl. Datierung zu <ref target="gb:note#gb10680_comment_com1497">Nr 33</ref>).</p>
+
+</note>
+<note xml:id="gb10343_comment_com14553">
+<label xml:id="GB03_2_BR032_0_note_002_25_23" copyOf="#start_com_0420"><hi rendition="#fett">25,23</hi>Gallerie</label>
+<p>Auf der Galerie des Gesellschaftssaales im Fürstenhaus, in dem das sonntägliche Konzert stattgefunden hatte (vgl. <ref target="gb:text#GB03_1_BR033_0_026_011">26,11</ref>).</p>
+
+</note>
+<note xml:id="gb10343_comment_com7998">
+<label xml:id="GB03_2_BR032_0_note_003_25_23-24" copyOf="#start_com_0421"><hi rendition="#fett">25,23-24</hi>aller<g ref="#typoSuspension"/>. Schicksaale</label>
+<p>‚Schicksal‘ hier: unwillkürliche Veränderungen; Begebenheiten, deren Ursachen im Verborgenen liegen (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 1339). – Wahrscheinlich mit Bezug auf das Abschiedstreffen mit dem nachfolgend erwähnten Heinrich Julius von Lindau.</p>
+
+</note>
+<note xml:id="gb10343_comment_com16933">
+<label xml:id="GB03_2_BR032_0_note_004_25_24" copyOf="#start_com_0422"><hi rendition="#fett">25,24</hi>Lindau</label>
+<p>Im Mai 1776 ging dieser als Offizier in hessischen Diensten nach Nordamerika. Nach Weimar war er u. a. auch gekommen, um Vorsorge für seinen Pflegesohn zu treffen, den Schweizer Hirtenjungen Peter im Baumgarten, für den Goethe nach dem Tod Lindaus Ende 1776 oder Anfang 1777 sorgte (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10502_comment_com4275">Nr 19</ref>).</p>
+
+</note>
+<note xml:id="gb10343_comment_com15851">
+<label xml:id="GB03_2_BR032_0_note_005_26_2" copyOf="#start_com_0423"><hi rendition="#fett">26,2</hi>Grille</label>
+<p>Hier: „von der Norm abweichende Vorstellung, befremdl Ansicht, Eigenwilligkeit, Überspanntheit, Schrulle“ (<ref target="sndb:sigle#397">GWb</ref> 4, 475).</p>
+
+</note>
+<note xml:id="gb10343_comment_com7999">
+<label xml:id="GB03_2_BR032_0_note_006_26_4" copyOf="#start_com_0424"><hi rendition="#fett">26,4</hi>Stella ist ankommen gedruckt</label>
+<p>Stella. Ein Schauspiel für Liebende in fünf Akten von J. W. Göthe. Berlin 1776 (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb10612_comment_com4185">GB 2 II, Nr 226</ref>). – Das noch in Frankfurt im Wesentlichen im Februar/März 1775 entstandene Stück hatte Goethe im Herbst, als sein Entschluss, nach Weimar zu gehen, schon gefasst war, über Merck dem Berliner Buchhändler und Verleger August Mylius zum Druck angeboten, allerdings ohne dass dieser das Manuskript zuvor gesehen hatte. Mylius erklärte sich dennoch zum Verlag bereit und schrieb am 24. Oktober 1775 an Merck: „Inzwischen damit ich nicht den Vorwurf auf mich lade als ob nichts mit mir anzufangen wäre, so werde ich die Probe machen und künftigen Posttag an meinen Vetter nach Weimar 20. # <supplied>Dukaten</supplied> senden um von H D. Göthe das Mst der Stella in Empfang zu nehmen, hauptsächlich aber um mit diesem allerdings seltnen Genie und fruchtbaren Schriftsteller in Bekandschaft zu kommen. <gap quantity="3" reason="editorial"/> Mich wundert übrigens daß der Herr D. Göthe die Buchhändler so quälen will da er wie ich immer gehört habe, solches aus öconomischen Gründen nicht nöthig hat. Soll es also vielleicht Ruhm seyn daß ihm seine Mste so theuer sind bezahlt worden?“ (<ref target="sndb:sigle#2251">Merck, Briefwechsel</ref> 1, 599.) – Dem Erstdruck bei Mylius in Berlin folgten noch 1776 sechs Nachdrucke, die für das große Interesse der Zeitgenossen sprechen (vgl. <ref target="sndb:sigle#2894">Hagen</ref>, 120 f., Nr 121–127). Ähnlich wie beim „Werther“ waren die Reaktionen gespalten, neben euphorischer Zustimmung stand kategorische, vor allem religiös und moralisch begründete Ablehnung, die mit dem unkonventionellen Ausgang des Stückes zusammenhing (vgl. zu <ref target="gb:note#GB03_2_BR009_0_note_004_11_23">11,23</ref>; zu <ref target="gb:note#GB03_2_BR037_0_note_003_29_4-5">29,4–5</ref>; zur Rezeption vgl. die zusammenfassende Darstellung von Georg-Michael Schulz in: <ref target="sndb:sigle#2860">Goethe-Handbuch<hi rendition="#sup">3</hi></ref> 2, 136–138). Moralisch-religiöse Vorbehalte führten dazu, dass das Stück nach seiner Uraufführung am 8. Februar 1776 am Hamburger Nationaltheater nach zehn Aufführungen verboten und in der frühen Fassung zu Goethes Lebzeiten nicht mehr gespielt wurde (vgl. ebd., 137).</p>
+
+</note>
+<note xml:id="gb10343_comment_com8000">
+<label xml:id="GB03_2_BR032_0_note_007_26_4" copyOf="#start_com_0425"><hi rendition="#fett">26,4</hi>ein Exemplar</label>
+<p>Vgl. Beilage zu <ref target="gb:note#gb10681_comment_com3631">Nr 35</ref>. – In Goethes Rechnungsbuch findet sich unter dem 29. Januar 1776 der Eintrag: <quote type="G">8 Stella <gap quantity="3" reason="editorial"/> Buchbind.</quote> Unter dem 16. Februar 1776 folgt noch einmal: <quote type="G">3 Stella einzubinden</quote> (<ref target="sndb:sigle#4221">GR/RB 1775/76, 1</ref>, Bl. 5).</p>
+
+</note>
+<note xml:id="gb10343_comment_com10451">
+<label xml:id="GB03_2_BR032_0_note_008_26_6" copyOf="#start_com_0426"><hi rendition="#fett">26,6</hi>ob ich bleibe oder gehe</label>
+<p>Auswärtigen Freunden gegenüber äußert sich Goethe etwa zur selben Zeit weit weniger unschlüssig. So schreibt er im Brief an Merck vom 22. Januar 1776, dass er nun aus Weimar <quote type="G">fast nicht wieder weg</quote> könne (<ref target="gb:text#GB03_1_BR027_0_023_014">23,14</ref>). Überhaupt deutet dieser Brief auf den Vorsatz eines geplanten längeren Aufenthaltes, hielt Goethe doch die <quote type="G">Herzogthümer Weimar und Eisenach</quote> für einen <quote type="G">Schauplaz um zu versuchen wie einem die Weltrolle zu Gesicht stünde</quote> (<ref target="gb:text#GB03_1_BR027_0_023_015 #GB03_1_BR027_0_023_016">23,15–16</ref>). Ähnlich äußert er sich im Brief an Herder etwa vom 24. Januar (vgl. <ref target="gb:text#GB03_1_BR029_0_024_009 #GB03_1_BR029_0_024_010">24,9–10</ref>). Am 26. Januar stellt Wieland gegenüber Merck fest: „Göthe kömt nicht wieder von hier loß. C[arl] A[ugust] kan nicht mehr ohne ihn schwimmen noch watten.“ Allerdings fügt auch er hinzu: „S’ist aber doch noch nichts entschiednes.“ (<ref target="sndb:sigle#141">WB</ref> 5, 466.) An die Frankfurter Freundin Johanna Fahlmer schreibt Goethe wenig später, dass er bleiben würde, und <quote type="G">Wär’s auch nur auf ein paar Jahre</quote> (<ref target="gb:text#GB03_1_BR043_0_031_011 #GB03_1_BR043_0_031_012">31,11–12</ref>). – Die Entscheidung für Weimar fiel in den folgenden Monaten, spätestens Mitte März 1776 mit Carl Augusts testamentarischer Festsetzung von Goethes künftiger Besoldung und Pension (vgl. zu <ref target="gb:note#GB03_2_BR061_0_note_004_42_14-15">42,14-15</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

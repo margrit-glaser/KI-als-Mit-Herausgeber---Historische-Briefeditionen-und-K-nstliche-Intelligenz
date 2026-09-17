@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2840"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11712" n="GB 3, Nr. 279">
+  <teiHeader xml:id="gb11712_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>279.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 17. Juli 1777. Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:50Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11712_tei.xml</idno>
+        <idno type="URI">gb11712</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR279_0</idno>
+        <idno type="KSW-ID">11712</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="154" to="155">154-155</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="544" to="546">544-546</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11712_header_hwit1227" corresp="#gb11712_source_hwit1227" sameAs="#gb11712_comment_hwit1227" type="authorisedLetter">
+          <msIdentifier>
+            <country>USA</country>
+            <settlement>
+              <placeName>New Haven</placeName>
+            </settlement>
+            <institution key="sndb:standort#68">Yale University Library, Beinecke Rare Book and Manuscript Library</institution>
+            <idno type="shelfmark">William A. Speck Collection of Goetheana: Manuscripts, YCGL MSS 6, Box 9, folder 299</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11712,,1227/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Danck Gustgen dass du aus deiner Ruhe mir in die Unruhe des Lebens einen Laut herüber gegeben hast</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-07-17">17. Juli 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#48315">Stolberg-Stolberg, Augusta Louise Gräfin zu</persName>
+            <supplied><placeName key="sndb:ort#96834" cert="low">? Schloss Bernstorff bei Kopenhagen</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11712_source_hwit1227" corresp="#gb11712_header_hwit1227" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11712/27837"/>
+      <p>
+        <anchor xml:id="GB03_1_BR279_0_154_017"/>Danck Gustgen <ref target="gb:note#GB03_2_BR279_0_note_001_154_17-18" xml:id="start_com_2372"/>dass du aus deiner Ruhe mir in die Unruhe des Lebens 
+<anchor xml:id="GB03_1_BR279_0_154_018"/>einen Laut herüber gegeben hast<ref xml:id="end_com_2372"/>.</p>
+      <space quantity="1" unit="lines"/>
+      <lg>
+        <anchor xml:id="GB03_1_BR279_0_154_019"/>
+        <l rendition="#einrueck6">
+          <ref target="gb:note#GB03_2_BR279_0_note_002_154_19-22" xml:id="start_com_2373"/>Alles gaben Götter die unendlichen</l>
+        <anchor xml:id="GB03_1_BR279_0_154_020"/>
+        <l rendition="#einrueck6">Ihren Lieblingen ganz</l>
+        <anchor xml:id="GB03_1_BR279_0_154_021"/>
+        <l rendition="#einrueck6">Alle Freuden die unendlichen</l>
+        <anchor xml:id="GB03_1_BR279_0_154_022"/>
+        <l rendition="#einrueck6">Alle Schmerzen die unendlichen ganz.<ref xml:id="end_com_2373"/>
+        </l>
+      </lg>
+      <space quantity="1" unit="lines"/>
+      <p>
+        <anchor xml:id="GB03_1_BR279_0_154_023"/>So sang ich neulich als ich tief <ref target="gb:note#GB03_2_BR279_0_note_003_154_23" xml:id="start_com_2374"/>in einer herrlichen Mondnacht<ref xml:id="end_com_2374"/> <ref target="gb:note#GB03_2_BR279_0_note_004_154_23-24" xml:id="start_com_2375"/>aus 
+<anchor xml:id="GB03_1_BR279_0_154_024"/>dem Flusse stieg<ref xml:id="end_com_2375"/> der vor <ref target="gb:note#GB03_2_BR279_0_note_005_154_24" xml:id="start_com_2376"/>meinem Garten<ref xml:id="end_com_2376"/> durch die Wiesen fliest, und 
+<anchor xml:id="GB03_1_BR279_0_154_025"/>das bewahrheitet sich täglich an mir. Ich muss das Glück für meine 
+<anchor xml:id="GB03_1_BR279_0_155_001"/>Liebste erkennen, dafür <ref target="gb:note#GB03_2_BR279_0_note_006_155_1" xml:id="start_com_2377"/>schiert<ref xml:id="end_com_2377"/> sie mich auch wieder wie ein geliebtes 
+<anchor xml:id="GB03_1_BR279_0_155_002"/>Weib.      Den <ref target="gb:note#GB03_2_BR279_0_note_007_155_2" xml:id="start_com_2378"/>Todt meiner Schwester<ref xml:id="end_com_2378"/> wirst du wissen.      Mir geht 
+<anchor xml:id="GB03_1_BR279_0_155_003"/>in allem alles erwünscht, und leide allein um andre. Leb wohl grüse 
+<anchor xml:id="GB03_1_BR279_0_155_004"/><ref target="gb:note#GB03_2_BR279_0_note_008_155_4" xml:id="start_com_2379"/>Henrietten<ref xml:id="end_com_2379"/>! <ref target="gb:note#GB03_2_BR279_0_note_009_155_4" xml:id="start_com_2380"/>Ist<ptr n="1" target="#a001_155.4"/> das noch eine eurer Schwestern?<ref xml:id="end_com_2380"/> oder <ref target="gb:note#GB03_2_BR279_0_note_010_155_4" xml:id="start_com_2381"/>Gustels Frau<ref xml:id="end_com_2381"/>? 
+<anchor xml:id="GB03_1_BR279_0_155_005"/>Zwar sie hat <ref target="gb:note#GB03_2_BR279_0_note_011_155_5" xml:id="start_com_2382"/>der Brüder<ref xml:id="end_com_2382"/> Handschrifft<ptr n="2" target="#a002_155.5"/>! Wenn ich einmal wieder ans 
+<anchor xml:id="GB03_1_BR279_0_155_006"/>Schreiben komme, will ich ia wohl sehn ob ich über <ref target="gb:note#GB03_2_BR279_0_note_012_155_6" xml:id="start_com_2383"/>dadrüber<ref xml:id="end_com_2383"/> was 
+<anchor xml:id="GB03_1_BR279_0_155_007"/>sagen kan was sie will. Grüse die Brüder, und behaltet mich lieb.</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR279_0_155_008"/>Weimar d<g ref="#typoSuspension"/>. 17 Juli 77                       </dateline>
+        <signed rend="signature">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11712/27838"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11712_comment">
+<body>
+<div type="metadata" xml:id="gb11712_comment_com585">
+  <ab type="numberAddressee"><label>279.</label> An <persName key="sndb:person#48315">Augusta Louise Gräfin zu Stolberg-Stolberg</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 17. Juli 1777 → <supplied><placeName key="sndb:ort#96834" cert="low">? Schloss Bernstorff bei Kopenhagen</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11712_comment_com2629">
+  <p>H: Yale University Library/Beinecke Rare Book and Manuscript Library, New Haven (Connecticut/USA), William A. Speck Collection of Goetheana: Manuscripts, Sign.: YCGL MSS 6, Box 9, folder 299. – 1 Bl. 17(–17,2) × 20,5 cm, 1 S. beschr., egh., Tinte; Rs. Adresse: <quote type="G">An Augusten / Gräfinn Stollberg / nach</quote>, Reste eines roten Siegels; am linken Rand restauriert; Vs. oben links von fremder Hd: „16.“  (vgl. Überlieferung zu <ref target="gb:note#gb11158_comment_com3382">GB 2 II, Nr 253</ref>). – Faksimile: Carl Frederick Schreiber: Goethe’s Works with the Exception of Faust. A Catalogue compiled by Members of the Yale University Library Staff. New Haven 1940, nach S. 4, Nr 526.</p>
+  <p>E: <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> (1839), 127 f., Nr 16.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 165 f., Nr 621 (nach <ref target="sndb:sigle#2869">Goethe-Stolberg<hi rendition="#sup">2</hi></ref> [1881], 63 f., Nr 17).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11712_comment_com4425">
+  <p>Der Bezugsbrief (vgl. zu <ref target="gb:note#GB03_2_BR279_0_note_001_154_17-18">154,17-18</ref>) ist nicht überliefert. – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Mit dem vorliegenden Brief nimmt Goethe den Briefwechsel mit Augusta zu Stolberg wieder auf, an die er sich den überlieferten Briefen zufolge zuletzt in seinem Brief vom 28. bis 30. August 1776 gewandt hatte (<ref target="gb:dokument#11169">Nr 161</ref>). Anlass für sein langes Schweigen dürfte zumindest anfangs die Verärgerung über das Verhalten von Augustas Bruder Friedrich Leopold zu Stolberg gewesen sein. Dieser hatte eine von Herzog Carl August angebotene Stelle als Kammerherr zunächst angenommen, sich dann aber anders entschieden und weder Goethe noch Carl August rechtzeitig davon unterrichtet (vgl. <ref target="gb:text#GB03_1_BR161_0_101_004 #GB03_1_BR161_0_101_006">101,4–6</ref>). Auch Goethes Vermutung, dass die Geschwister zu Stolberg in der Kontroverse mit Friedrich Gottlieb Klopstock auf dessen Seite standen, dürfte zum vorübergehenden Erliegen der Korrespondenz beigetragen haben (vgl. zu <ref target="gb:note#GB03_2_BR161_0_note_016_101_3-4">101,3-4</ref>).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11712_comment_com18070">
+<label xml:id="GB03_2_BR279_0_note_001_154_17-18" copyOf="#start_com_2372"><hi rendition="#fett">154,17-18</hi>dass du aus deiner Ruhe mir <gap quantity="3" reason="editorial"/> gegeben hast</label>
+<p>Augusta zu Stolberg verbrachte den Sommer mit ihren Geschwistern auf Schloss Bernstoff bei Kopenhagen, von wo aus sie offenbar an Goethe geschrieben hatte (über das Leben auf Schloss Bernstorff vgl. <ref target="gb:note#GB02_2_BR263_0_note_004_213_11">GB 2 II, zu 213,11</ref>).</p>
+
+</note>
+<note xml:id="gb11712_comment_com18131">
+<label xml:id="GB03_2_BR279_0_note_002_154_19-22" copyOf="#start_com_2373"><hi rendition="#fett">154,19-22</hi>Alles gaben Götter <gap quantity="3" reason="editorial"/> die unendlichen ganz.</label>
+<p>Das Gedicht wurde zu Lebzeiten Goethes von ihm selbst nicht veröffentlicht. – Friedrich Leopold zu Stolberg druckte es 1780 in der folgenden leicht veränderten Fassung, sicher ohne Wissen Goethes, aber immerhin mit dem Hinweis auf dessen Autorschaft:
+ <space unit="lines" quantity="1"/>
+  <lg>
+    <l rendition="#einrueck7">Alles geben die Götter, die Unendlichen,</l>
+    <l rendition="#einrueck7">ihren Lieblingen ganz!</l>
+    <l rendition="#einrueck7">alle Freuden die Unendlichen,</l>
+    <l rendition="#einrueck7">alle Schmerzen die Unendlichen ganz!</l>
+  </lg>
+ <space unit="lines" quantity="1"/>
+ (Friedrich Leopold zu Stolberg: Ueber die Ruhe nach dem Genuß und über den Zustand des Dichters in dieser Ruhe. In: Deutsches Museum. Bd 2. Leipzig 1780. 7. Stück, S. 7.) Diese Version sowie die des Erstdrucks des Briefes, die gleichfalls von der Handschrift abweicht (vgl. <ref target="sndb:sigle#4461">Goethe-Stolberg<hi rendition="#sup">1</hi></ref> [1839)], 127), liegen späteren Drucken, auch dem in der WA, zugrunde (vgl. <ref target="sndb:sigle#1157">WA</ref> I 4, 99). Diplomatisch genau nach der Handschrift wurde der Brief und damit auch das Gedicht zuerst gedruckt bei <ref target="sndb:sigle#2759">Behrens</ref>, 47. – Das Gedicht ist nach dem Tod von Goethes Schwester Cornelia Schlosser entstanden. Die Gleichzeitigkeit von Glück und Schmerz als Grundklang seiner Existenz, die ihm keinen <quote type="G">Mittelzustand erlauben will</quote> (<ref target="gb:text#GB02_1_BR253_0_205_001">GB 2 I, 205,1</ref>), thematisiert Goethe aber auch schon in früheren Briefen an Augusta zu Stolberg (vgl. <ref target="gb:dokument#11158">GB 2 I, Nr 253</ref>). Ganz ähnlich beschreibt er dieses innere Spannungsverhältnis im Brief an seine Mutter, mit dem er auf die Todesnachricht reagierte (vgl. <ref target="gb:text#GB03_1_BR276_0_151_011 #GB03_1_BR276_0_151_013">151,11–13</ref>).</p>
+
+</note>
+<note xml:id="gb11712_comment_com15806">
+<label xml:id="GB03_2_BR279_0_note_003_154_23" copyOf="#start_com_2374"><hi rendition="#fett">154,23</hi>in einer herrlichen Mondnacht</label>
+<p>Vgl. das Briefgedicht für Charlotte von Stein „An den Mond“ (<ref target="gb:dokument#11675">Nr 326</ref>).</p>
+
+</note>
+<note xml:id="gb11712_comment_com15899">
+<label xml:id="GB03_2_BR279_0_note_004_154_23-24" copyOf="#start_com_2375"><hi rendition="#fett">154,23-24</hi>aus dem Flusse stieg</label>
+<p>Goethes gewöhnliche Badestelle scheint am Wehr in der Nähe der Kegelbrücke gelegen zu haben, wo der Floßgraben in die Ilm geleitet wurde.</p>
+
+</note>
+<note xml:id="gb11712_comment_com11137">
+<label xml:id="GB03_2_BR279_0_note_005_154_24" copyOf="#start_com_2376"><hi rendition="#fett">154,24</hi>meinem Garten</label>
+<p>Goethes Garten am „Stern“ (vgl. <ref target="gb:note#GB03_2_BR102_0_note_003_62_4">62,4</ref>).</p>
+
+</note>
+<note xml:id="gb11712_comment_com11138">
+<label xml:id="GB03_2_BR279_0_note_006_155_1" copyOf="#start_com_2377"><hi rendition="#fett">155,1</hi>schiert</label>
+<p>Scheren; hier in der übertragenen Bedeutung von „einen plagen, belästigen, quälen, placken, ihm verdrusz machen“ (<ref target="sndb:sigle#2890">Grimm</ref> 8, 2575).</p>
+
+</note>
+<note xml:id="gb11712_comment_com17959">
+<label xml:id="GB03_2_BR279_0_note_007_155_2" copyOf="#start_com_2378"><hi rendition="#fett">155,2</hi>Todt meiner Schwester</label>
+<p>Cornelia Schlosser war am 8. Juni 1777 in Emmendingen gestorben. Goethe hatte erst am 16. Juni davon erfahren (vgl. zu <ref target="gb:note#GB03_2_BR274_0_note_002_151_3">151,3</ref>). Im Brief vom 17. bis 24. Mai 1776 hatte Goethe Augusta zu Stolberg gebeten, seiner Schwester zu schreiben (vgl. <ref target="gb:text#GB03_1_BR114_0_069_002 #GB03_1_BR114_0_069_003">69,2–3</ref>).</p>
+
+</note>
+<note xml:id="gb11712_comment_com11139">
+<label xml:id="GB03_2_BR279_0_note_008_155_4" copyOf="#start_com_2379"><hi rendition="#fett">155,4</hi>Henrietten</label>
+<p>Augustas älteste Schwester Henriette, geb. 1747, seit 1762 die Frau des dänischen Ministers Andreas Peter Graf von Bernstorff und Herrin auf Schloss Bernstoff bei Kopenhagen.</p>
+
+</note>
+<note xml:id="gb11712_comment_com11140">
+<label xml:id="GB03_2_BR279_0_note_009_155_4" copyOf="#start_com_2380"><hi rendition="#fett">155,4</hi>Ist das noch eine eurer Schwestern?</label>
+<p>Dies und das Folgende wahrscheinlich mit Bezug auf einen Zusatz von fremder Hand auf dem nicht überlieferten Brief Augusta zu Stolbergs. – Außer Henriette von Bernstorff lebten damals noch zwei Schwestern Augustas, die etwa 22-jährige Katharina und die jüngste, erst knapp 18-jährige Schwester Juliane. Die vierte Schwester Magdalena war bereits 1773 im Alter von 15 Jahren gestorben.</p>
+
+</note>
+<note xml:id="gb11712_comment_com17963">
+<label xml:id="GB03_2_BR279_0_note_010_155_4" copyOf="#start_com_2381"><hi rendition="#fett">155,4</hi>Gustels Frau</label>
+<p>Mit ‚Gustel‘ ist wahrscheinlich Christian zu Stolberg gemeint, im Familien- und Freundeskreis auch ‚Christel‘ genannt (vgl. <ref target="gb:note#GB02_2_BR271_0_note_002_223_18">GB 2 II, zu 223,18</ref>). Er hatte am 15. Juni 1777 Friederike Louise von Gramm geb. Gräfin von Reventlow geheiratet. – Auch Augusta zu Stolberg unterschrieb in Briefen gelegentlich mit ‚Gustel‘ (vgl. <ref target="sndb:sigle#1266/448">Schumann, Auguste Stolberg</ref>, 289).</p>
+
+</note>
+<note xml:id="gb11712_comment_com11149">
+<label xml:id="GB03_2_BR279_0_note_011_155_5" copyOf="#start_com_2382"><hi rendition="#fett">155,5</hi>der Brüder</label>
+<p>Friedrich Leopold und Christian zu Stolberg.</p>
+
+</note>
+<note xml:id="gb11712_comment_com13692">
+<label xml:id="GB03_2_BR279_0_note_012_155_6" copyOf="#start_com_2383"><hi rendition="#fett">155,6</hi>dadrüber</label>
+<p>Näheres dazu konnte nicht ermittelt werden. – Briefe Goethes an Henriette von Bernstorff oder eine der anderen Schwestern Augustas sind nicht überliefert.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

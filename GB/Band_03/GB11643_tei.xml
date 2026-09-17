@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="2500"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11643" n="GB 3, Nr. 247">
+  <teiHeader xml:id="gb11643_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>247.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. April 1777. Sonntag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:04Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11643_tei.xml</idno>
+        <idno type="URI">gb11643</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR247_0</idno>
+        <idno type="KSW-ID">11643</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="140" to="140">140</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="506" to="506">506</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11643_header_hwit1178" corresp="#gb11643_source_hwit1178" sameAs="#gb11643_comment_hwit1178" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Leipzig</placeName>
+            </settlement>
+            <institution key="sndb:standort#1" corresp="sndb:sigle#928">UB</institution>
+            <idno type="shelfmark">Slg Hirzel, B 90</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11643,,1178/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Des achten Abschnitts viertes Fragment ist weggeblieben, dafür das folgende angerückt worden</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1777-04-06">6. April 1777</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#40565">Reich, Philipp Erasmus</persName>
+            <placeName key="sndb:ort#78408">Leipzig</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11643_source_hwit1178" corresp="#gb11643_header_hwit1178" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11643/13889"/>
+      <p>
+        <anchor xml:id="GB03_1_BR247_0_140_001"/>
+        <ref target="gb:note#GB03_2_BR247_0_note_001_140_1" xml:id="start_com_2167"/>Des achten Abschnitts viertes Fragment ist weggeblieben<ref xml:id="end_com_2167"/>, dafür das 
+<anchor xml:id="GB03_1_BR247_0_140_002"/>folgende angerückt worden, nun mögte aber dieses in Absicht auf die 
+<anchor xml:id="GB03_1_BR247_0_140_003"/>Tafeln einige Unordnung verursachen. Die Kupfer sind assortirt und 
+<anchor xml:id="GB03_1_BR247_0_140_004"/>
+        <ref target="gb:note#GB03_2_BR247_0_note_002_140_4" xml:id="start_com_2168"/>die LXste Tafel<ref xml:id="end_com_2168"/> befindet sich drunter, nun dächt ich liesse man sie an 
+<anchor xml:id="GB03_1_BR247_0_140_005"/>ihrem Plaz<ptr n="1" target="#a001_140.5"/>, gäbe hinten in dem <ref target="gb:note#GB03_2_BR247_0_note_003_140_5" xml:id="start_com_2169"/>Avis<ref xml:id="end_com_2169"/> an Buchbinder den Ort an wo 
+<anchor xml:id="GB03_1_BR247_0_140_006"/>sie hingebunden werden sollte, und verspräche das erlauternde Fragment 
+<anchor xml:id="GB03_1_BR247_0_140_007"/>für den folgenden Theil. Schreiben Sie mir gefällig Ihre Meynung 
+<anchor xml:id="GB03_1_BR247_0_140_008"/>darüber.     d<g ref="#typoSuspension"/>. 6 Apr 77. W.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR247_0_140_009"/>
+        <signed rend="signature" rendition="#einrueck21">Goethe</signed>
+        <lb/><dateline rendition="#einrueck22">
+          <anchor xml:id="GB03_1_BR247_0_140_010"/>
+          <graphic url="gb:digitalisate#11643/70168" width="60px"/>
+        </dateline>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11643/13890" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11643/13891"/>
+    <pb n="4" facs="gb:digitalisate#11643/13892"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11643_comment">
+<body>
+<div type="metadata" xml:id="gb11643_comment_com1328">
+  <ab type="numberAddressee"><label>247.</label> An <persName key="sndb:person#40565">Philipp Erasmus Reich</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 6. April 1777 → <placeName key="sndb:ort#78408">Leipzig</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11643_comment_com3372">
+  <p>H: <ref target="sndb:sigle#928">UB</ref> Leipzig, Slg Hirzel, Sign.: B 90. – Doppelblatt 19,7 × 27,6 cm, &#xBD; S. beschr., egh., Tinte; S. 3 Adresse von Schreiberhd (Seidel?): <quote type="G">an / Herrn Buchhändler Reich / in / Leipzig</quote>, Rest eines roten Initialsiegels : „G“ ; Beschädigung des Papiers durch Öffnen des Siegels; S. 4 Empfangs- und Antwortvermerk, Tinte: „1777. 9. Ap<g ref="#typoSuspension"/>. Weimar / Goethe / B<g ref="#typoSuspension"/>“ (vgl. Überlieferung zu <ref target="gb:note#gb11390_comment_com3338">Nr 21</ref>); Bl. 2 am Rand in der Mitte Siegelausriss.</p>
+  <p>E: <ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 148, Nr 588 (Friedrich Strehlke). – Incipit zuvor schon in: <ref target="sndb:sigle#2912">Hirzel, Goethe-Bibliothek 1874</ref>, 187 (<ref target="gb:text#GB03_1_BR247_0_140_001">140,1</ref> <quote type="G">Des achten Abschnitts viertes Fragment ist weggeblieben</quote>).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11643_comment_com5168">
+  <p>Der Bezugsbrief, in dem Reich möglicherweise nach dem Verbleib des Manuskripts zum 4. Fragment gefragt hatte (vgl. <ref target="gb:text#GB03_1_BR247_0_140_001">140,1</ref>), ist nicht überliefert. – Der Antwortbrief (vgl. <ref target="gb:note#gb11643_comment_com3372">Überlieferung</ref>) ist nicht überliefert. Möglicherweise begleitete er die Übersendung eines Katalogs der Leipziger Buchmesse (vgl. <ref target="gb:text#GB03_1_BR251_0_141_016">141,16</ref>).</p>
+  <p rendition="#einrueck1">Der vorliegende Brief ist der letzte überlieferte Brief, der sich mit dem 3. Band der „Physiognomischen Fragmente“ befasst. Zur Leipziger Ostermesse, die 1777 am 20. April begann, erschien: Physiognomische Fragmente, zur Beförderung der Menschenkenntniß und Menschenliebe, von Johann Caspar Lavater. Dritter Versuch. Leipzig und Winterthur, 1777. Bey Weidmanns Erben und Reich, und Heinrich Steiner und Compagnie.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11643_comment_com17868">
+<label xml:id="GB03_2_BR247_0_note_001_140_1" copyOf="#start_com_2167"><hi rendition="#fett">140,1</hi>Des achten Abschnitts <gap quantity="3" reason="editorial"/> ist weggeblieben</label>
+<p>Das 4. Fragment des 8. Abschnitts war dem Porträt des Weimarer Kapellmeisters Ernst Wilhelm Wolf gewidmet gewesen, das Goethe als <quote type="G">Scheisgesicht</quote> (<ref target="gb:text#GB03_1_BR224_0_131_014">131,14</ref>) bezeichnet hatte. Er hatte Lavaters Artikel über Wolf unterdrückt (vgl. zu <ref target="gb:note#GB03_2_BR228_0_note_003_133_6-7">133,6-7</ref>). Im gedruckten Band behandelt das 4. Fragment (S. 202) nun „Ein schattirtes männliches Porträt im Profil. K.“; gemeint ist der in Zürich lebende Frankfurter Komponist Philipp Christoph Kayser (vgl. die einleitende Erläuterung zu <ref target="gb:note#gb11146_comment_com5174">Nr 155</ref>).</p>
+
+</note>
+<note xml:id="gb11643_comment_com11100">
+<label xml:id="GB03_2_BR247_0_note_002_140_4" copyOf="#start_com_2168"><hi rendition="#fett">140,4</hi>die LXste Tafel</label>
+<p>Die Tafel LX sollte das Bildnis Ernst Wilhelm Wolfs zeigen. Goethes Vorschlag, die Tafel ohne das kommentierende Fragment abzudrucken, den er auch schon in <ref target="gb:dokument#10850">Nr 224</ref> gemacht hatte, wurde nicht befolgt. Weiter vgl. zu <ref target="gb:note#GB03_2_BR224_0_note_003_131_15-16">131,15-16</ref>.</p>
+
+</note>
+<note xml:id="gb11643_comment_com15767">
+<label xml:id="GB03_2_BR247_0_note_003_140_5" copyOf="#start_com_2169"><hi rendition="#fett">140,5</hi>Avis</label>
+<p>Franz.: Anzeige, Nachricht.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

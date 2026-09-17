@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="620"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb10693" n="GB 3, Nr. 62">
+  <teiHeader xml:id="gb10693_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>62.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 18. März 1776. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:21:36Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb10693_tei.xml</idno>
+        <idno type="URI">gb10693</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR062_0</idno>
+        <idno type="KSW-ID">10693</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="43" to="43">43</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="177" to="178">177-178</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb10693_header_hwit902" corresp="#gb10693_source_hwit902" sameAs="#gb10693_comment_hwit902" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName></placeName>
+            </settlement>
+            <institution key="sndb:standort#62">Privatbesitz</institution>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/10693,,902/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Liebe Tante übermorgen reisen wir ab nach Dessau, ich sehe also Leipzig wieder, wird wunderbaare</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-03-18">18. März 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45158">Fahlmer, Johanna</persName>
+            <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb10693_source_hwit902" corresp="#gb10693_header_hwit902" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#10693/62345"/>
+      <p>
+        <anchor xml:id="GB03_1_BR062_0_043_001"/>Liebe Tante übermorgen <ref target="gb:note#GB03_2_BR062_0_note_001_43_1" xml:id="start_com_0667"/>reisen wir ab nach Dessau<ref xml:id="end_com_0667"/>, ich <ref target="gb:note#GB03_2_BR062_0_note_002_43_1-2" xml:id="start_com_0668"/>sehe also 
+<anchor xml:id="GB03_1_BR062_0_043_002"/>Leipzig wieder<ref xml:id="end_com_0668"/>, wird <ref target="gb:note#GB03_2_BR062_0_note_003_43_2" xml:id="start_com_0669"/>wunderbaare Empfindung<ref xml:id="end_com_0669"/> seyn. Sagen Sie niemand 
+<anchor xml:id="GB03_1_BR062_0_043_003"/>nichts. Die <ref target="gb:note#GB03_2_BR062_0_note_004_43_3" xml:id="start_com_0670"/>Mama<ref xml:id="end_com_0670"/> mag wenn der <ref target="gb:note#GB03_2_BR062_0_note_005_43_3" xml:id="start_com_0671"/>Vater<ref xml:id="end_com_0671"/> sich erklärt hat <ref target="gb:note#GB03_2_BR062_0_note_006_43_3-4" xml:id="start_com_0672"/>was er 
+<anchor xml:id="GB03_1_BR062_0_043_004"/>mir zur Ausstattung geben will<ref xml:id="end_com_0672"/>, vorzüglich mich mit <ref target="gb:note#GB03_2_BR062_0_note_007_43_4" xml:id="start_com_0673"/>grosem Geräthe<ref xml:id="end_com_0673"/>
+        <anchor xml:id="GB03_1_BR062_0_043_005"/>und noch einigen guten <ref target="gb:note#GB03_2_BR062_0_note_008_43_5" xml:id="start_com_0674"/>Manschetten<ref xml:id="end_com_0674"/> |:versteht sich recht guten:| versehen. 
+<anchor xml:id="GB03_1_BR062_0_043_006"/>
+        <ref target="gb:note#GB03_2_BR062_0_note_009_43_6" xml:id="start_com_0675"/>Alle meine Meubles<ref xml:id="end_com_0675"/> hat der Herzog heimlich befohlen mir 
+<anchor xml:id="GB03_1_BR062_0_043_007"/>machen zu lassen um mir ein Geschenck mit bey unsrer Rückkunft 
+<anchor xml:id="GB03_1_BR062_0_043_008"/>zu machen. Das braucht aber der Vater auch nicht zu wissen Lebt 
+<anchor xml:id="GB03_1_BR062_0_043_009"/>wohl ich schreib euch von Dessau aus vielleicht</p>
+      <closer>
+        <dateline rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR062_0_043_010"/>d<g ref="#typoSuspension"/>. 18 Merz 76.         </dateline>
+        <signed rend="paraph">G</signed>         Weimar.   <pb n="2" facs="gb:digitalisate#10693/62346" type="empty"/><pb n="3" facs="gb:digitalisate#10693/62347"/></closer>
+      <postscript>
+        <space quantity="1" unit="lines"/>
+        <p>
+          <anchor xml:id="GB03_1_BR062_0_043_011"/>Die Mama soll nur auch an ihre Casse dencken ich hab sie rasend ausgeben 
+<anchor xml:id="GB03_1_BR062_0_043_012"/>gemacht. Es ist auch noch ein Conto an <ref target="gb:note#GB03_2_BR062_0_note_010_43_12" xml:id="start_com_0676"/>Schneider Eberhard<ref xml:id="end_com_0676"/> zu 
+<anchor xml:id="GB03_1_BR062_0_043_013"/>bezahlen. Ferner soll sie nur alle Kleider die von mir zurück sind verkaufen.
+<anchor xml:id="GB03_1_BR062_0_043_014"/>
+        </p>
+      </postscript>
+    <pb n="4" facs="gb:digitalisate#10693/62348" type="empty"/>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb10693_comment">
+<body>
+<div type="metadata" xml:id="gb10693_comment_com686">
+  <ab type="numberAddressee"><label>62.</label> An <persName key="sndb:person#45158">Johanna Fahlmer</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 18. März 1776 → <supplied><placeName key="sndb:ort#77853">Frankfurt a. M.</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb10693_comment_com2730">
+  <p>H: Privatbesitz, Deutschland. – 2 Bl. 10,6(–10,8) × 17,7 cm, Bordüre aus gereihten Krönchen (vgl. <ref target="sndb:sigle#2998">Mick</ref>, Nr 1), 1 &#xBD; S. (jeweils Vs.) beschr. (Bl. 1: Brief, Bl. 2: Nachschrift), egh., Tinte; Bl. 1 Vs. oben links von Johanna Fahlmers Hd, Tinte: „Nr 6“ (Zählung vermutlich bezogen auf die Briefe Goethes nach dessen Eintreffen in Weimar am 7. November 1775), in der Mitte von fremder Hd, Bleistift: „43“ (vgl. E); Bl. 2 Vs. oben in der Mitte von fremder Hd, Bleistift: „Zu <unclear reason="illegible">Nr</unclear> 43×“ (vgl. E).</p>
+  <p>E: <ref target="sndb:sigle#2857">Goethe-Fahlmer</ref> (1875), 111 f., Nr 43.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 39 f., Nr 417 (nach E; Textkorrektur nach H in den „Berichtigungen“, vgl. <ref target="sndb:sigle#1157">WA</ref> IV 50, 214).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb10693_comment_com4526">
+  <p>Ein Bezugsbrief ist nicht bekannt. – Der Antwortbrief, auf den sich möglicherweise Goethes Brief vom 10. April 1776 bezieht (vgl. <ref target="gb:text#GB03_1_BR079_0_051_013">51,13</ref>), ist nicht überliefert.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb10693_comment_com17442">
+<label xml:id="GB03_2_BR062_0_note_001_43_1" copyOf="#start_com_0667"><hi rendition="#fett">43,1</hi>reisen wir ab nach Dessau</label>
+<p>Die Reise nach Leipzig und Dessau konnte wegen einer Erkrankung des Herzogs Carl August nicht stattfinden (vgl. zu <ref target="gb:note#GB03_2_BR048_0_note_006_35_7">35,7</ref>). Auch Goethe erkrankte noch in der folgenden Nacht (vgl. zu <ref target="gb:note#GB03_2_BR063_0_note_001_43_15-16">43,15–16</ref>). Erst am 24. März brach er, ohne den Herzog, nach Leipzig auf und blieb dort bis zum 4. April.</p>
+
+</note>
+<note xml:id="gb10693_comment_com9723">
+<label xml:id="GB03_2_BR062_0_note_002_43_1-2" copyOf="#start_com_0668"><hi rendition="#fett">43,1-2</hi>sehe also Leipzig wieder</label>
+<p>Goethe war erstmals seit seiner Studentenzeit von Oktober 1765 bis August 1768 wieder in der Universitätsstadt; unter dem 25. März 1776 heißt es in seinem Tagebuch: <quote type="G">Nachmittags 3 Uhr in Leipzig.</quote> (<ref target="gt:dokument#18">GT I 1, 17</ref>.) Er hatte u. a. den Auftrag, die Sängerin Corona Schröter für Weimar zu gewinnen.</p>
+
+</note>
+<note xml:id="gb10693_comment_com17443">
+<label xml:id="GB03_2_BR062_0_note_003_43_2" copyOf="#start_com_0669"><hi rendition="#fett">43,2</hi>wunderbaare Empfindung</label>
+<p>Darüber geben Goethes in Leipzig geschriebenen Briefe an Herzog Carl August und Charlotte von Stein (<ref target="gb:dokument#10700">Nr 70</ref>, <ref target="gb:dokument#11923">71</ref>, <ref target="gb:dokument#10397">72</ref> und <ref target="gb:dokument#10713">73</ref>) Auskunft. – ‚Wunderbar‘ hier im Sinn von ‚seltsam‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 4, 1622).</p>
+
+</note>
+<note xml:id="gb10693_comment_com9724">
+<label xml:id="GB03_2_BR062_0_note_004_43_3" copyOf="#start_com_0670"><hi rendition="#fett">43,3</hi>Mama</label>
+<p>Catharina Elisabeth Goethe.</p>
+
+</note>
+<note xml:id="gb10693_comment_com9738">
+<label xml:id="GB03_2_BR062_0_note_005_43_3" copyOf="#start_com_0671"><hi rendition="#fett">43,3</hi>Vater</label>
+<p>Johann Caspar Goethe.</p>
+
+</note>
+<note xml:id="gb10693_comment_com17498">
+<label xml:id="GB03_2_BR062_0_note_006_43_3-4" copyOf="#start_com_0672"><hi rendition="#fett">43,3-4</hi>was er mir zur Ausstattung geben will</label>
+<p>Goethe hatte gerade am 18. März 1776 eine neue Wohnung bezogen (vgl. zu <ref target="gb:note#GB03_2_BR062_0_note_009_43_6">43,6</ref>) und seinen Vater um Unterstützung bei deren Einrichtung gebeten (vgl. <ref target="gb:dokument#10691">Nr 55</ref>), die ihm dieser jedoch nicht gewährte (vgl. zu <ref target="gb:note#GB03_2_BR015_0_note_006_15_25-26">15,25-26</ref>).</p>
+
+</note>
+<note xml:id="gb10693_comment_com9739">
+<label xml:id="GB03_2_BR062_0_note_007_43_4" copyOf="#start_com_0673"><hi rendition="#fett">43,4</hi>grosem Geräthe</label>
+<p>Einrichtungsgegenstände, Hausrat (vgl. <ref target="sndb:sigle#397">GWb</ref> 3, 1506).</p>
+
+</note>
+<note xml:id="gb10693_comment_com9740">
+<label xml:id="GB03_2_BR062_0_note_008_43_5" copyOf="#start_com_0674"><hi rendition="#fett">43,5</hi>Manschetten</label>
+<p>Ein „aus dem Franz. Manchette entlehntes Wort, diejenigen in viele Falten gelegten Streifen feinen Zeuges zu bezeichnen, welche man zum Zierathe an das Ende der Hemdärmel zu befestigen pfleget“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 67).</p>
+
+</note>
+<note xml:id="gb10693_comment_com9741">
+<label xml:id="GB03_2_BR062_0_note_009_43_6" copyOf="#start_com_0675"><hi rendition="#fett">43,6</hi>Alle meine Meubles</label>
+<p>Unter dem Datum des vorliegenden Briefes zog Goethe aus seiner Wohnung im Stadthaus des Kammerpräsidenten Carl Alexander von Kalb aus in eine „Zwischenwohnung“ (vgl. weiter die erste Erläuterung zu <ref target="gb:note#GB03_2_BR063_0_note_003_43_18">43,18</ref>), bevor er Ende Juni 1776 in das Haus des Hofkassierers König am heutigen Burgplatz gegenüber dem Gelben Schloss (heute Herzogin Anna Amalia Bibliothek) wechselte (vgl. <ref target="sndb:sigle#1266/761">Burkhardt, Goethes Stadtwohnungen in Weimar</ref>, 244 f.).</p>
+
+</note>
+<note xml:id="gb10693_comment_com17503">
+<label xml:id="GB03_2_BR062_0_note_010_43_12" copyOf="#start_com_0676"><hi rendition="#fett">43,12</hi>Schneider Eberhard</label>
+<p>Vermutlich der Schneidermeister Georg Philipp Eberhardt in der Barfüßergasse, „einer der vornehmsten“ in Frankfurt (nach freundlicher Mitteilung von Roman Fischer, Institut für Stadtgeschichte, Frankfurt a. M.). – Vermutlich war noch der <quote type="G">Rock</quote> (<ref target="gb:text#GB03_1_BR002_0_003_021">3,21</ref>) zu bezahlen, von dem in <ref target="gb:dokument#10638">Nr 2</ref> die Rede ist (vgl. <ref target="gb:text#GB03_1_BR002_0_003_021">3,21–22</ref>).</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

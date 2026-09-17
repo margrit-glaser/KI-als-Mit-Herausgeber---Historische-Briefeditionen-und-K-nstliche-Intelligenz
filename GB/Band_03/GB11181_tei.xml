@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="1700"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11181" n="GB 3, Nr. 168">
+  <teiHeader xml:id="gb11181_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>168.</label> An <persName key="sndb:person#38507">Anna Louisa Karsch</persName></title>
+        <title type="sub"><placeName key="sndb:ort#79627">Weimar</placeName>, 11. September 1776. Mittwoch</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:14:42Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11181_tei.xml</idno>
+        <idno type="URI">gb11181</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR168_0</idno>
+        <idno type="KSW-ID">11181</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="103" to="104">103-104</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="384" to="387">384-387</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11181_header_hwit1061" corresp="#gb11181_source_hwit1061" sameAs="#gb11181_comment_hwit1061" type="authorisedLetter">
+          <msIdentifier>
+            <country>PL</country>
+            <settlement>
+              <placeName>Kraków</placeName>
+            </settlement>
+            <institution key="sndb:standort#21">Biblioteka Jagiellonska</institution>
+            <idno type="shelfmark">Autographensammlung Goethe, Kasten 71</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11181,,1061/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Ich gedenke an meine Sünde! Liebe Frau, in dem Gewürge des Lebens vergess' ich Alles</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#79627">Weimar</placeName>
+            <date when="1776-09-11">11. September 1776</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#38507">Karsch, Anna Louisa</persName>
+            <placeName key="sndb:ort#77386">Berlin</placeName>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11181_source_hwit1061" corresp="#gb11181_header_hwit1061" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11181/18680"/>
+      <p>
+        <anchor xml:id="GB03_1_BR168_0_103_011"/>Ich gedenck an <ref target="gb:note#GB03_2_BR168_0_note_001_103_11" xml:id="start_com_1595"/>meine Sünde<ref xml:id="end_com_1595"/>! Liebe Frau, in dem <ref target="gb:note#GB03_2_BR168_0_note_002_103_11-12" xml:id="start_com_1596"/>Gewürge des Lebens<ref xml:id="end_com_1596"/>
+        <anchor xml:id="GB03_1_BR168_0_103_012"/>vergess ich alles. Zwar doch nur zu schreiben, denn eh ihr lezter 
+<anchor xml:id="GB03_1_BR168_0_103_013"/>Brief kam, dacht ich, ich hätt Ihnen und <ref target="gb:note#GB03_2_BR168_0_note_003_103_13" xml:id="start_com_1597"/>ihrer Tochter<ref xml:id="end_com_1597"/> geantwortet, 
+<anchor xml:id="GB03_1_BR168_0_103_014"/>so manchmal hatt ich im Stillen mit Ihnen gesprochen, auf irgendeiner 
+<anchor xml:id="GB03_1_BR168_0_103_015"/>Wandrung, und dachte: wenn ich nach Haus komme, schreibst 
+<anchor xml:id="GB03_1_BR168_0_103_016"/>du, und schrieb nicht. Meine Lage hier ist die glücklichste, die eine 
+<anchor xml:id="GB03_1_BR168_0_103_017"/>menschliche Einbildung sich kaum zu wünschen wagt, dafür hab ich 
+<anchor xml:id="GB03_1_BR168_0_103_018"/>nun aber auch freylich alle Zulagen zu geniessen, die das Schicksaal an 
+<anchor xml:id="GB03_1_BR168_0_103_019"/>seine Gaben <ref target="gb:note#GB03_2_BR168_0_note_004_103_19" xml:id="start_com_1598"/>anzuhäckeln<ref xml:id="end_com_1598"/> pflegt. Bleiben Sie mir lieb. Schicken Sie 
+<anchor xml:id="GB03_1_BR168_0_103_020"/>mir offt was. Machen Sie mir einmal einen Pack <ref target="gb:note#GB03_2_BR168_0_note_005_103_20" xml:id="start_com_1599"/>Impromtüs<ptr n="1" target="#a001_103.20"/>
+        <ref xml:id="end_com_1599"/> zusammen 
+<anchor xml:id="GB03_1_BR168_0_103_021"/>die Sie nicht mehr achten. Und gehn Sie doch einmal zu <ref target="gb:note#GB03_2_BR168_0_note_006_103_21-22" xml:id="start_com_1600"/>Chodowiecki<ref xml:id="end_com_1600"/>
+        <anchor xml:id="GB03_1_BR168_0_103_022"/>und räumen Sie bey ihm auf, was so von alten Abdrücken 
+<anchor xml:id="GB03_1_BR168_0_103_023"/>seiner Sachen herumfährt, schicken sie mir’s und stehlen ihm etwa 
+<anchor xml:id="GB03_1_BR168_0_103_024"/>eine Zeichnung. Es wird mir wohl wenn ich ihn nennen höre, oder 
+<anchor xml:id="GB03_1_BR168_0_104_001"/>ein Schnizzel Papier finde, wo er das Zeichen seines lebhafften Daseyns 
+<anchor xml:id="GB03_1_BR168_0_104_002"/>drauf gestempelt hat.</p>
+      <closer>
+        <dateline rendition="#einrueck7">
+          <anchor xml:id="GB03_1_BR168_0_104_003"/>Weimar d<g ref="#typoSuspension"/>. 11 Sept. 76. </dateline>
+        <signed rend="signature">Goethe.</signed>
+      </closer>
+    <pb n="2" facs="gb:digitalisate#11181/18681" type="empty"/>
+    <pb n="3" facs="gb:digitalisate#11181/18682" type="empty"/>
+    <pb n="4" facs="gb:digitalisate#11181/18683"/>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11181_comment">
+<body>
+<div type="metadata" xml:id="gb11181_comment_com624">
+  <ab type="numberAddressee"><label>168.</label> An <persName key="sndb:person#38507">Anna Louisa Karsch</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#79627">Weimar</placeName>, 11. September 1776 → <placeName key="sndb:ort#77386">Berlin</placeName></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11181_comment_com2668">
+  <p>H: Biblioteka Jagiellonska Kraków (Krakau), Autographensammlung Goethe, bis 1945 Preußische Staatsbibliothek Berlin. – Doppelblatt 17,2 &#xD7; 20,3 cm, 1 S. beschr., egh., Tinte; S. 4 Adresse: <quote type="G">An / Frau Karschinn / nach / Berlin. / franck.</quote>, rotes (Initial-?) Siegel; Bl. 2 am Rand in der Mitte eingerissen durch Öffnen des Siegels; S. 1 oben links von Karl August Varnhagen von Enses Hd, Tinte: <q><hi rendition="#hervor1">Goethe</hi> an Frau Karschin.</q>, oben rechts von fremder Hd, Bleistift: <q>70.</q>; S. 4 unten links von fremder Hd, Bleistift: <q>Varnhagen m 30</q>. – Beischluss: <ref target="gb:dokument#11174">Nr 167</ref>.</p>
+  <p>E: Aurikeln. Eine Blumengabe von deutschen Händen, hrsg. von Helmina von Chézy geb. Freyin von Klencke. Bd 1. Berlin 1818, S. 28 f.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 3 (1888), 104 f., Nr 508 (nach E).</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11181_comment_com4464">
+  <p>Der Brief beantwortet einen nicht überlieferten Brief Anna Louisa Karschs (vgl. <ref target="gb:text#GB03_1_BR168_0_103_012 #GB03_1_BR168_0_103_013">103,12–13</ref>). – Ein Antwortbrief ist nicht bekannt.</p>
+  <p rendition="#einrueck1">Postsendungen: 16. September 1776 (vgl. <ref target="sndb:sigle#4223">GR/RB 1776,2</ref>, Bl. 16v). – Ein Grund für die verzögerte Absendung könnte im Weimarer Postfahrplan liegen; danach ging die Post von Weimar nach Berlin montags ab (vgl. den Weimarischen Postbericht in: Werner Bühling: Die Post in Weimar. <gap quantity="3" reason="editorial"/> Weimar 1995, S. 57). Der 16. September 1776 war ein Montag.</p>
+  <p rendition="#einrueck1">Anna Louisa Karsch (1722–1791) hatte trotz ihrer Herkunft aus einfachen Verhältnissen, gefördert vor allem durch Johann Wilhelm Ludwig Gleim, mit Gelegenheitsgedichten öffentliche Beachtung gefunden. Ihr bemerkenswerter Lebenslauf von der Magd und Rinderhirtin zur ‚deutschen Sappho‘ hatte auch Goethes Aufmerksamkeit erregt. Im August 1775 hatte sich die als kurios und als Original geltende Dichterin an den von ihr verehrten Dichter gewandt. Die von ihr gewünschte Annäherung kam jedoch nicht in Gang. Goethe verhielt sich distanziert (vgl. über Goethes Beziehung zu Anna Louisa Karsch des Näheren die einleitende Erläuterung zu <ref target="gb:note#gb10379_comment_com4315">GB 2 II, Nr 257</ref>). In ihrem Brief an Johann Wilhelm Ludwig Gleim vom 3. Februar 1776 hatte die Dichterin angekündigt, sie „schreibe mitt nächster Post an Ihm <supplied>Wieland</supplied> und ann Göthen“ (<ref target="sndb:sigle#2185">Karsch-Gleim</ref> 2, 109); dem Brief an Wieland, der vom 17. Februar 1776 stammt (vgl. <ref target="sndb:sigle#141">WB</ref> 5 475 f.), legte sie einen nicht überlieferten Brief an Goethe bei, den sie als „beygeschloßnes schuldopfer“ (<ref target="sndb:sigle#141">WB</ref> 5, 475) bezeichnete, offenbar für einen von diesem erhaltenen, ebenfalls nicht überlieferten Brief. Im Brief an Gleim vom 27. April 1776 schrieb sie dann: „<gap quantity="3" reason="editorial"/> mann sagt Er <supplied>Goethe</supplied> käme nach Berlin, kan möglich sein, Er ist mir Antwort schuldig auff zween briefe, Er wird Sie vielleicht selber bringen wollen“ (<ref target="sndb:sigle#2185">Karsch-Gleim</ref> 2, 111). Einer der erwähnten Briefe könnte derjenige sein, den Anna Louisa Karsch über Wieland an Goethe gelangen ließ; über dessen Inhalt heißt es im gerade zitierten Brief an Gleim: „Was wird Göthe zu meinem leztten Versbrieffchen gesagt haben? Ich schriebs bey der Wittwe Winnttern <gap quantity="3" reason="editorial"/>, Sie baht mich dem Originalgeist zu grüßen, ich Thats, und gab Ihm die Nachricht vonn der Gebuhrt meines Ennkels“ (ebd.). Gemeint ist Carl, der Sohn von Anna Louisa Karschs Tochter Caroline Louise Hempel, der am 28. März 1776 geboren wurde.</p>
+  <p rendition="#einrueck1">Der vorliegende Brief, nach langem Schweigen erst auf einen weiteren Brief der Karsch hin geschrieben sowie allgemein und unpersönlich gehalten, scheint Goethes wenig ausgeprägtes Interesse an einer Korrespondenz zu belegen. Von gleicher Art ist der Brief an Caroline Louise Hempel vom selben Tag (<ref target="gb:dokument#11174">Nr 167</ref>). Abgesehen vom Brief vom 18. Mai 1778 (<ref target="gb:dokument#9516">Nr 361</ref>), in dem Goethe in Berlin die Einladung zu einem Treffen ausspricht, sind keine weiteren Briefe an die Adressatin überliefert; nur ein Brief wurde erschlossen (<ref target="gb:dokument#52562">EB 36</ref> von Anfang 1776–17. Februar 1776).</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11181_comment_com10520">
+<label xml:id="GB03_2_BR168_0_note_001_103_11" copyOf="#start_com_1595"><hi rendition="#fett">103,11</hi>meine Sünde</label>
+<p>Goethe hatte bisher versäumt, auf Briefe von Anna Louisa Karsch und ihrer Tochter Caroline Louise Hempel zu antworten; beide Briefe sind nicht überliefert.</p>
+
+</note>
+<note xml:id="gb11181_comment_com17646">
+<label xml:id="GB03_2_BR168_0_note_002_103_11-12" copyOf="#start_com_1596"><hi rendition="#fett">103,11-12</hi>Gewürge des Lebens</label>
+<p>Ähnlich beschreibt Goethe sein Weimarer Leben in dieser Zeit mehrfach. Im Brief an Augusta zu Stolberg vom 28. und 30. August 1776 ist von Zerstreuung im <quote type="G">Getreibe des Tags</quote> (<ref target="gb:text#GB03_1_BR161_0_100_013">100,13</ref>) die Rede, im Brief an Lavater vom 16. September 1776 von <quote type="G">der unendlich beweglichen Welt in der ich lebe</quote> (<ref target="gb:text#GB03_1_BR170_0_106_012">106,12</ref>).</p>
+
+</note>
+<note xml:id="gb11181_comment_com10521">
+<label xml:id="GB03_2_BR168_0_note_003_103_13" copyOf="#start_com_1597"><hi rendition="#fett">103,13</hi>ihrer Tochter</label>
+<p>Caroline Louise Hempel; ihr Brief an Goethe ist nicht überliefert (vgl. <ref target="gb:dokument#11174">Nr 167</ref>).</p>
+
+</note>
+<note xml:id="gb11181_comment_com10531">
+<label xml:id="GB03_2_BR168_0_note_004_103_19" copyOf="#start_com_1598"><hi rendition="#fett">103,19</hi>anzuhäckeln</label>
+<p>Anhäkeln: Diminutiv zu ‚anhaken‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 1, 577).</p>
+
+</note>
+<note xml:id="gb11181_comment_com14240">
+<label xml:id="GB03_2_BR168_0_note_005_103_20" copyOf="#start_com_1599"><hi rendition="#fett">103,20</hi>Impromtüs</label>
+<p>Hier im Sinn von ‚Improvisationen‘, ‚Stegreifdichtungen‘ (vgl. <ref target="sndb:sigle#397">GWb</ref> 4, 1506).</p>
+
+</note>
+<note xml:id="gb11181_comment_com10532">
+<label xml:id="GB03_2_BR168_0_note_006_103_21-22" copyOf="#start_com_1600"><hi rendition="#fett">103,21-22</hi>Chodowiecki</label>
+<p>Daniel Nikolaus Chodowiecki, Maler, Radierer und Kupferstecher in Berlin. Er war mit Anna Louisa Karsch befreundet. Chodowiecki, der sich als Illustrator sowohl von wissenschaftlichen als auch von literarischen Werken einen Namen gemacht hatte, arbeitete an Lavaters „Physiognomischen Fragmenten“ mit und hatte das Porträt Goethes nach einer Zeichnung von Georg Melchior Kraus gestochen (vgl. <ref target="sndb:sigle#3085">Schulte-Strathaus</ref>, Nr 26 sowie Wilhelm Engelmann: Daniel Chodowiecki’s sämmtliche Kupferstiche. Leipzig 1857 [Nachdruck Berlin 1926], S. 105, Nr 166; Abbildung u. a. in: Jens-Heiner Bauer: Daniel Nikolaus Chodowiecki. Das druckgraphische Werk. <gap quantity="3" reason="editorial"/> Ein Bildband mit 2340 Abbildungen in Ergänzung zum Werkverzeichnis von Wilhelm Engelmann. Hannover 1982, S. 54, Nr 299), das in Friedrich Nicolais „Allgemeiner Deutscher Bibliothek“ (29. Bd. 1776) als Titelkupfer erschienen war. Ferner lieferte er Kupferstiche zu Goethes Werken, u. a. für die bei Christian Friedrich Himburg unrechtmäßig erschienene Ausgabe von „Goethens Schriften“ (3 Tle. Berlin 1775/76) sowie für die französische Übersetzung der „Leiden des jungen Werthers“ (Werther; traduit de l’allemand <supplied>par Jacques Georges Deyverdun</supplied>. Maastricht 1776). Auch die Titelvignette zu Friedrich Nicolais Parodie „Freuden des jungen Werthers“ (Berlin 1775) stammt von Chodowiecki (vgl. <ref target="gb:note#GB02_2_BR199_0_note_005_166_13_linkeSpalte">GB 2 II, zu 166,13, linke Spalte</ref>). Goethe schätzte den Kupferstecher, wenn auch nicht vorbehaltlos: <quote type="G">Chodowiecky ist ein sehr respektabler und wir sagen <hi rendition="#hervor1">idealer</hi> Künstler. / Seine <hi rendition="#hervor1">guten</hi> Werke zeugen durchaus vom <hi rendition="#hervor1">Geist</hi> und <hi rendition="#hervor1">Geschmack</hi>. Mehr Ideales war in dem Kreise, in dem er arbeitete, nicht zu fordern.</quote> (Maximen und Reflexionen [Nr 1131]. Aus dem Nachlaß; <ref target="sndb:sigle#1157">WA</ref> I 48, 212.) Vgl. auch Goethes Äußerungen über Chodowiecki im Brief an Johann Friedrich Krafft vom 9. September 1779 (<ref target="gb:text#GB03_1_BR528_0_296_007 #GB03_1_BR528_0_296_009">296,7–9</ref>). Seinen Besuch in Berlin im Mai 1778 nutzte Goethe, um den Künstler zweimal zu besuchen (vgl. zu <ref target="gb:note#GB03_2_BR363_0_note_006_209_5">209,5</ref>). Über den ersten Besuch am Nachmittag des 16. Mai 1778 berichtet Anna Louisa Karschs Tochter Caroline Louise Hempel in einem Brief an Johann Wilhelm Ludwig Gleim vom 27. Mai: „Waß ihm Chodowieky unter allen seinen neuen Zeichnungen zuerst wies, war jener Barbier. Ich glaube, der Mann will sich furchtbar machen, denn er zeigt dies Bild allen und jedem von dem er glaubt das ers beurtheilen kann.“ (Zitiert nach: <ref target="sndb:sigle#2805">Detemple</ref>, 40.) Mit dem „Barbier“ ist eine Karikatur gemeint, die Karl Wilhelm Ramler zeigt, der den toten Ewald von Kleist barbiert, dazu den Text: „Oh, wenn er doch die Toten ungeschoren ließe!“ (Ebd.) Die Karikatur bezieht sich auf Ramlers (zweibändige) Kleist-Ausgabe: Des Herrn Christian Ewald von Kleist sämtliche Werke. Berlin 1760.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

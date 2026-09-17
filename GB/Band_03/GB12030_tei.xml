@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="5460"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb12030" n="GB 3, Nr. 536">
+  <teiHeader xml:id="gb12030_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>536.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><placeName key="sndb:ort#78399">Lauterbrunnen</placeName>, 9. Oktober und <placeName key="sndb:ort#79462">Thun</placeName>, 14. Oktober 1779. Samstag und Donnerstag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:19:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb12030_tei.xml</idno>
+        <idno type="URI">gb12030</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR536_0</idno>
+        <idno type="KSW-ID">12030</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="305" to="309">305-309</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="993" to="999">993-999</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb12030_header_hwit1526" corresp="#gb12030_source_hwit1526" sameAs="#gb12030_comment_hwit1526" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 31</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/12030,,1526/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>- Wir sind 1/2 5 wirklich hier in der Gegend angelangt und    alles was ich bisher</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+        <listObject type="attachments">
+          <object xml:id="gb12030_header_acc267" corresp="gb12030_comment_acc267">
+            <objectIdentifier>
+              <objectName><quote type="G">Zettel</quote>, Avertissement des Augenarztes Tavaros</objectName>
+            </objectIdentifier>
+          </object>
+          <object xml:id="gb12030_header_acc612" corresp="gb12030_comment_acc612">
+            <objectIdentifier>
+              <objectName><quote type="G">Gesang der Geister</quote>, Manuskript einiger Strophen</objectName>
+            </objectIdentifier>
+          </object>
+        </listObject>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <placeName key="sndb:ort#78399">Lauterbrunnen</placeName> und
+            <placeName key="sndb:ort#79462">Thun</placeName>
+            <date when="1779-10-09">9. Oktober 1779</date> und
+            <date when="1779-10-14">14. Oktober 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb12030_source_hwit1526" corresp="#gb12030_header_hwit1526" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#12030/23137"/>
+      <opener>
+        <dateline rendition="#right">
+          <anchor xml:id="GB03_1_BR536_0_305_017"/>
+          <ref target="gb:note#GB03_2_BR536_0_note_001_305_17" xml:id="start_com_4388"/>Lauterbrunnen<ref xml:id="end_com_4388"/> den 9 Oktbr. 1779. Ab ½ 7. U.<ptr n="1" target="#a001_305.17"/>
+        </dateline>
+      </opener>
+      <p>
+        <anchor xml:id="GB03_1_BR536_0_305_018"/>Wir sind ½ 5 <ref target="gb:note#GB03_2_BR536_0_note_002_305_18" xml:id="start_com_4389"/>wirklich<ref xml:id="end_com_4389"/> hier in der Gegend angelangt und alles was ich 
+<anchor xml:id="GB03_1_BR536_0_305_019"/>bisher gewünscht, wir haben den <ref target="gb:note#GB03_2_BR536_0_note_003_305_19" xml:id="start_com_4390"/>Staubbach<ref xml:id="end_com_4390"/> bei Gutem Wetter zum 
+<anchor xml:id="GB03_1_BR536_0_305_020"/>erstenmal gesehen die Wolken der Obern Luft waren gebrochen und 
+<anchor xml:id="GB03_1_BR536_0_305_021"/>der blaue Himmel schien durch. An den Felswänden hielten Wolken, 
+<anchor xml:id="GB03_1_BR536_0_305_022"/>selbst das Haupt wo der Staubbach herunter kommt, war leicht bedekt. 
+<anchor xml:id="GB03_1_BR536_0_305_023"/>Es ist ein sehr <ref target="gb:note#GB03_2_BR536_0_note_004_305_23" xml:id="start_com_4391"/>erhabener Gegenstand<ref xml:id="end_com_4391"/>. Und es ist vor ihm, wie 
+<anchor xml:id="GB03_1_BR536_0_305_024"/>bei allem grossen so lang es Bild ist so weis man doch nicht recht was 
+<anchor xml:id="GB03_1_BR536_0_305_025"/>man will. Es lässt sich von ihm kein Bild machen, die Sie von ihm 
+<anchor xml:id="GB03_1_BR536_0_305_026"/>gesehen haben sehen sich mehr oder weniger ähnlich; aber wenn man 
+<anchor xml:id="GB03_1_BR536_0_305_027"/>drunter ist, wo man weder mehr Bilden noch beschreiben kann, dann 
+<anchor xml:id="GB03_1_BR536_0_305_028"/>ist man erst auf dem rechten Flek. Jezo sind die Wolken herein ins 
+<anchor xml:id="GB03_1_BR536_0_306_001"/>Thal gezogen und deken <ref target="gb:note#GB03_2_BR536_0_note_005_306_1" xml:id="start_com_4392"/>dolle<ref xml:id="end_com_4392"/> die heitern Gründe. Auf der rechten 
+<anchor xml:id="GB03_1_BR536_0_306_002"/>Seite steht die hohe Wand noch hervor über die der Staubbach herab<ptr n="2" target="#a002_306.2"/>
+        <anchor xml:id="GB03_1_BR536_0_306_003"/>kommt. Es wird Nacht, wir sind beim <ref target="gb:note#GB03_2_BR536_0_note_006_306_3" xml:id="start_com_4393"/>Pfarrer<ref xml:id="end_com_4393"/> in Lauterbrun eingekehrt 
+<anchor xml:id="GB03_1_BR536_0_306_004"/>es ist ein aus ein ander liegendes Dorf, genannt, wie die Leute 
+<anchor xml:id="GB03_1_BR536_0_306_005"/>sagen weil lauter Brunnen <ref target="gb:note#GB03_2_BR536_0_note_007_306_5" xml:id="start_com_4394"/>nichts als Brunnen<ref xml:id="end_com_4394"/> in dieser Gegend von 
+<anchor xml:id="GB03_1_BR536_0_306_006"/>den Felsen herunter kommen.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR536_0_306_007"/>Ueber das <ref target="gb:note#GB03_2_BR536_0_note_008_306_7" xml:id="start_com_4395"/>Münsterthal<ref xml:id="end_com_4395"/> wodurch wir gekommen sind hab ich <ref target="gb:note#GB03_2_BR536_0_note_009_306_7-8" xml:id="start_com_4396"/>ein 
+<anchor xml:id="GB03_1_BR536_0_306_008"/>eigen Papier<ref xml:id="end_com_4396"/> geschrieben <ref target="gb:note#GB03_2_BR536_0_note_010_306_8" xml:id="start_com_4397"/>die Gegenstände darinn sind sehr erhaben<ref xml:id="end_com_4397"/>
+        <anchor xml:id="GB03_1_BR536_0_306_009"/>aber proportionirter zu dem Begriff der menschlichen Seele als wie 
+<anchor xml:id="GB03_1_BR536_0_306_010"/>die <ref target="gb:note#GB03_2_BR536_0_note_011_306_10" xml:id="start_com_4398"/>gegen die wir näher rüken<ref xml:id="end_com_4398"/>, Gegen das übergrosse ist und bleibt 
+<anchor xml:id="GB03_1_BR536_0_306_011"/>man zu klein. Ich werde mich entschliessen müssen ihnen rükwärts 
+<anchor xml:id="GB03_1_BR536_0_306_012"/>ein Tagbuch so leicht und leidlich als möglich von unserer Reise zu 
+<anchor xml:id="GB03_1_BR536_0_306_013"/>machen. Heute Sonnabend den 9ten gingen<ptr n="3" target="#a003_306.13"/> wir früh von <ref target="gb:note#GB03_2_BR536_0_note_012_306_13" xml:id="start_com_4399"/>Thun<ref xml:id="end_com_4399"/> ab zu 
+<anchor xml:id="GB03_1_BR536_0_306_014"/>Schiff über den See. Die Nebel fielen wenn wir in unserer Landssprache 
+<anchor xml:id="GB03_1_BR536_0_306_015"/>sagen es regnete, die Gipfel der Berge waren eingehüllt wir sassen 
+<anchor xml:id="GB03_1_BR536_0_306_016"/>in einem bedekten Schiff ich las<ptr n="4" target="#a004_306.16"/>
+        <ref target="gb:note#GB03_2_BR536_0_note_013_306_16" xml:id="start_com_4400"/>den     Ge<pb n="2" facs="gb:digitalisate#12030/23138"/>sang<ref xml:id="end_com_4400"/> aus <ref target="gb:note#GB03_2_BR536_0_note_014_306_16" xml:id="start_com_4401"/>Bodmers Homer<ref xml:id="end_com_4401"/>. 
+<anchor xml:id="GB03_1_BR536_0_306_017"/>Gegen zwölfe kamen wir in <ref target="gb:note#GB03_2_BR536_0_note_015_306_17" xml:id="start_com_4402"/>Untersewen<ref xml:id="end_com_4402"/> an assen eine grosse Forelle<ptr n="5" target="#a005_306.17"/>, 
+<anchor xml:id="GB03_1_BR536_0_306_018"/>
+        <ref target="gb:note#GB03_2_BR536_0_note_016_306_18" xml:id="start_com_4403"/>examinirten einen Augenarzt<ref xml:id="end_com_4403"/> wovon ich den <ref target="gb:note#GB03_2_BR536_0_note_017_306_18" xml:id="start_com_4404"/>Zettel<ref xml:id="end_com_4404"/> hier beischliesse 
+<anchor xml:id="GB03_1_BR536_0_306_019"/>und fuhren auf<ptr n="6" target="#a006_306.19"/> einem engen Leiterwägelgen zusammen gepakt ab 
+   <anchor xml:id="GB03_1_BR536_0_306_020"/>gingen aber bald zu Fusse <ref target="gb:note#GB03_2_BR536_0_note_018_306_20" xml:id="start_com_4405"/>durch das Thal bis nach Lauterbrun<ref xml:id="end_com_4405"/>. <g ref="#NB"/>. 
+<anchor xml:id="GB03_1_BR536_0_306_021"/>man sagt auch hier zu Land auf dem Wagen reiten.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR536_0_306_022"/>Den 8 t<g ref="#typoSuspension"/> <ref target="gb:note#GB03_2_BR536_0_note_019_306_22-23" xml:id="start_com_4406"/>konnte ich in Bern früh mit dem Perükenmacher nicht 
+<anchor xml:id="GB03_1_BR536_0_306_023"/>fertig werden<ref xml:id="end_com_4406"/>, suchte<ptr n="7" target="#a007_306.23"/> Leute auf die ich nicht fand und durchstrich bei 
+<anchor xml:id="GB03_1_BR536_0_306_024"/>der Gelegenheit<ptr n="8" target="#a008_306.24"/> die Stadt, sie ist die schönste die wir gesehen haben 
+<anchor xml:id="GB03_1_BR536_0_306_025"/>in Bürgerlicher Gleichheit eins<ptr n="9" target="#a009_306.25"/> wie das andere gebaut, all aus einem 
+<anchor xml:id="GB03_1_BR536_0_306_026"/>graulichen weichen Sandstein, die <emph rendition="#latin">egalitaet</emph> und Reinlichkeit<ptr n="10" target="#a010_306.26"/> drinne 
+<anchor xml:id="GB03_1_BR536_0_306_027"/>thut einem sehr wohl, besonders da man fühlt, dass nichts leere <emph rendition="#latin">Decoration
+<anchor xml:id="GB03_1_BR536_0_306_028"/>
+        </emph> oder <ref target="gb:note#GB03_2_BR536_0_note_020_306_28" xml:id="start_com_4407"/>Durchschnitt des <emph rendition="#latin">Despotismus</emph>
+        <ref xml:id="end_com_4407"/> ist.<ptr n="11" target="#a011_306.28"/> Die Gebäude die <ref target="gb:note#GB03_2_BR536_0_note_021_306_28-29" xml:id="start_com_4408"/>der 
+<anchor xml:id="GB03_1_BR536_0_306_029"/>Stand Bern<ref xml:id="end_com_4408"/> selbst aufführt sind gros und <ref target="gb:note#GB03_2_BR536_0_note_022_306_29" xml:id="start_com_4409"/>kostbar<ref xml:id="end_com_4409"/> doch haben sie keinen 
+<anchor xml:id="GB03_1_BR536_0_306_030"/>Anschein von Pracht der eins vor dem andern in die Augen würfe, 
+<anchor xml:id="GB03_1_BR536_0_306_031"/>wir nahmen ein Frühstük statt des Mittagsessens und ritten drauf 
+<anchor xml:id="GB03_1_BR536_0_306_032"/>
+        <ref target="gb:note#GB03_2_BR536_0_note_023_306_32" xml:id="start_com_4410"/>nach Thun<ref xml:id="end_com_4410"/><ptr n="12" target="#a012_306.32"/>, wo wir beizeiten anlangten<ptr n="13" target="#a013_306.32"/> um noch die schöne Aussicht 
+<anchor xml:id="GB03_1_BR536_0_306_033"/>vom Kirchhof auf den See zu sehen und an der <ref target="gb:note#GB03_2_BR536_0_note_024_306_33" xml:id="start_com_4411"/>Aar<ref xml:id="end_com_4411"/> bis gegen den See 
+<anchor xml:id="GB03_1_BR536_0_307_001"/>zu spazieren. Wir machten mit einem <ref target="gb:note#GB03_2_BR536_0_note_025_307_1" xml:id="start_com_4412"/>Bürger<ref xml:id="end_com_4412"/> Bekanndtschaft, der uns 
+<anchor xml:id="GB03_1_BR536_0_307_002"/>geleitete, drauf unser Schiffer war und künftig unser Geleitsman seyn 
+<anchor xml:id="GB03_1_BR536_0_307_003"/>wird.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR536_0_307_004"/>Den 7 brachen<ptr n="14" target="#a014_307.4"/> wir von <hi rendition="#hervor1">
+          <ref target="gb:note#GB03_2_BR536_0_note_026_307_4" xml:id="start_com_4413"/>Annet</hi>
+        <ref xml:id="end_com_4413"/> auf, es rieselte stark, wir mussten 
+<anchor xml:id="GB03_1_BR536_0_307_005"/>durch den Moor und Moos was man bei uns durch <ref target="gb:note#GB03_2_BR536_0_note_027_307_5" xml:id="start_com_4414"/>Rieder<ref xml:id="end_com_4414"/> nennen 
+<anchor xml:id="GB03_1_BR536_0_307_006"/>möchte, wodurch uns <ref target="gb:note#GB03_2_BR536_0_note_028_307_6" xml:id="start_com_4415"/>der Wirth<ref xml:id="end_com_4415"/><ptr n="15" target="#a015_307.6"/> begleite, wo wir doch oft unsere 
+<anchor xml:id="GB03_1_BR536_0_307_007"/>Pferde führen musste aus Furcht nicht ein zu<pb n="3" facs="gb:digitalisate#12030/23139"/>sinken. Wir kamen tüchtig<ptr n="16" target="#a016_307.8"/>
+        <anchor xml:id="GB03_1_BR536_0_307_008"/>im Regen nach <ref target="gb:note#GB03_2_BR536_0_note_029_307_8" xml:id="start_com_4416"/>Murten<ref xml:id="end_com_4416"/> ritten aufs <ref target="gb:note#GB03_2_BR536_0_note_030_307_8" xml:id="start_com_4417"/>Beinhaus<ref xml:id="end_com_4417"/> und ich nahm ein 
+<anchor xml:id="GB03_1_BR536_0_307_009"/>Stükgen Hinterschädel <ref target="gb:note#GB03_2_BR536_0_note_031_307_9" xml:id="start_com_4418"/>von den Burgundern<ref xml:id="end_com_4418"/>
+        <ptr n="17" target="#a017_307.9"/> mit, in Murten<ptr n="18" target="#a018_307.9"/> assen wir 
+<anchor xml:id="GB03_1_BR536_0_307_010"/>zu Mittag und lassen aus<ptr n="19" target="#a019_307.10"/> einem treflich geschriebenen <ref target="gb:note#GB03_2_BR536_0_note_032_307_10" xml:id="start_com_4419"/>Buche<ref xml:id="end_com_4419"/> die Geschichte 
+<anchor xml:id="GB03_1_BR536_0_307_011"/>der Murten Schlacht. Es ist äusserst rührend von einem Zeugen 
+<anchor xml:id="GB03_1_BR536_0_307_012"/>und Mitstreiter, die Thaten dieser Zeit erzählen zu hören. Das 
+<anchor xml:id="GB03_1_BR536_0_307_013"/>Wetter klärte sich auf als wir von Murten wegritten und wir zogen 
+<anchor xml:id="GB03_1_BR536_0_307_014"/>durch die schöne Landschaft <ref target="gb:note#GB03_2_BR536_0_note_033_307_14" xml:id="start_com_4420"/>nach Bern<ref xml:id="end_com_4420"/>, wo alles gar glüklich abgetheilt 
+<anchor xml:id="GB03_1_BR536_0_307_015"/>und genuzt ist und frölich und nahrhaft und reich aussieht.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR536_0_307_016"/>Den 6 t<g ref="#typoSuspension"/> hatten wir einen etwas verworrnen Tag wurden aber doch 
+<anchor xml:id="GB03_1_BR536_0_307_017"/>von einem guten Geist irre geführt.<ptr n="20" target="#a020_307.17"/> früh ritten wir <ref target="gb:note#GB03_2_BR536_0_note_034_307_17-18" xml:id="start_com_4421"/>von Biel<ptr n="21" target="#a021_307.17"/> aus am 
+<anchor xml:id="GB03_1_BR536_0_307_018"/>See weg über Erlach nach Annet<ref xml:id="end_com_4421"/> von da wollt ich nach <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR536_0_note_035_307_18" xml:id="start_com_4422"/>La Sauge</emph><ref xml:id="end_com_4422"/><ptr n="22" target="#a022_307.18"/> allein 
+<anchor xml:id="GB03_1_BR536_0_307_019"/>der Weeg war wiedrig und wir verirrten uns im Ried, wir waren gezwungen 
+<anchor xml:id="GB03_1_BR536_0_307_020"/>auf die Hauptstrasse zurük zu gehen und genöthigt von Ort 
+<anchor xml:id="GB03_1_BR536_0_307_021"/>zu Ort wo theils keine Wirthshäusser waren theils die Leute uns nicht 
+<anchor xml:id="GB03_1_BR536_0_307_022"/>aufnehmen konnten bis nach <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR536_0_note_036_307_22" xml:id="start_com_4423"/>St. Blaise</emph><ref xml:id="end_com_4423"/><ptr n="23" target="#a023_307.22"/> zu gehen das zu oberst<ptr n="24" target="#a024_307.22"/> des <ref target="gb:note#GB03_2_BR536_0_note_037_307_22-23" xml:id="start_com_4424"/>Neustädter 
+<anchor xml:id="GB03_1_BR536_0_307_023"/>Sees<ref xml:id="end_com_4424"/> liegt, es war eben ein schöner Mittagsblik der Sonne aus 
+<anchor xml:id="GB03_1_BR536_0_307_024"/>dem Gewölk als wir ankamen, wir freuten uns des und genossens recht 
+<anchor xml:id="GB03_1_BR536_0_307_025"/>sehr assen zu Mittag, sezten uns wieder an den See und ritten endlich 
+<anchor xml:id="GB03_1_BR536_0_307_026"/>auf Annet wieder zurük, wo wir in einem leidlichen Wirthshaus über 
+<anchor xml:id="GB03_1_BR536_0_307_027"/>Nacht blieben.</p>
+      <p rendition="#einrueck1">
+        <anchor xml:id="GB03_1_BR536_0_307_028"/>Den 5 fuhren wir früh auf dem <ref target="gb:note#GB03_2_BR536_0_note_038_307_28" xml:id="start_com_4425"/>Rathsschiffe<ref xml:id="end_com_4425"/> von Biel<ptr n="25" target="#a025_307.28"/> aus nach der 
+<anchor xml:id="GB03_1_BR536_0_307_029"/>
+        <ref target="gb:note#GB03_2_BR536_0_note_039_307_29" xml:id="start_com_4426"/>Insel des Bieler<ptr n="26" target="#a026_307.29"/> Sees<ref xml:id="end_com_4426"/> <pb n="4" facs="gb:digitalisate#12030/23140"/> <ref target="gb:note#GB03_2_BR536_0_note_040_307_29-30" xml:id="start_com_4427"/>wohin <emph rendition="#latin">Rousseau</emph> sich begab als er von <emph rendition="#latin">Geneve</emph>
+        <anchor xml:id="GB03_1_BR536_0_307_030"/>weggetrieben wurde<ref xml:id="end_com_4427"/>. Die Insel gehört den <emph rendition="#latin">
+          <ref target="gb:note#GB03_2_BR536_0_note_041_307_30" xml:id="start_com_4428"/>Hospital</emph> zu Bern<ref xml:id="end_com_4428"/> und <ref target="gb:note#GB03_2_BR536_0_note_042_307_30-31" xml:id="start_com_4429"/>der 
+<anchor xml:id="GB03_1_BR536_0_307_031"/>Schaffner und seine Frau<ref xml:id="end_com_4429"/> die die Wirthschaft<ptr n="27" target="#a027_307.31"/> selbst führen sind noch 
+<anchor xml:id="GB03_1_BR536_0_307_032"/>eben dieselben die Rouss. bewirtheten.</p>
+      <p rendition="#einrueck2_voll">
+        <anchor xml:id="GB03_1_BR536_0_308_001"/>Gute Nacht für heute. es ist wenigstens etwas und mehr als ich 
+<anchor xml:id="GB03_1_BR536_0_308_002"/>von Ihnen die Zeit gehört habe.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR536_0_308_003"/>
+        <signed rend="paraph" rendition="#einrueck22">G.</signed>
+      </closer>
+      <space quantity="1" unit="lines"/>
+      <postscript>
+        <p>
+          <anchor xml:id="GB03_1_BR536_0_308_004"/>Thun d<g ref="#typoSuspension"/>. 14 Oktb. Abends 7. wir sind glücklich <ref target="gb:note#GB03_2_BR536_0_note_043_308_4-5" xml:id="start_com_4430"/>wieder hier angekommen<ref xml:id="end_com_4430"/>. 
+<anchor xml:id="GB03_1_BR536_0_308_005"/>
+          <ref target="gb:note#GB03_2_BR536_0_note_044_308_5" xml:id="start_com_4431"/>Diese vier Tage<ref xml:id="end_com_4431"/> das schonste Wetter, heut und gestern keine 
+<anchor xml:id="GB03_1_BR536_0_308_006"/>Wolcke am Himmel, und die <ref target="gb:note#GB03_2_BR536_0_note_045_308_6" xml:id="start_com_4432"/>merckwürdigsten<ref xml:id="end_com_4432"/> Gegenden ganz rein 
+<anchor xml:id="GB03_1_BR536_0_308_007"/>in dem himmlischen Lichte genossen. Es fällt schweer nach allem diesem 
+<anchor xml:id="GB03_1_BR536_0_308_008"/>zu schreiben, ich will nachher aus<ptr n="28" target="#a028_308.8"/> meinem Bleystifft Gekrizzel<ptr n="29" target="#a029_308.8"/>
+          <anchor xml:id="GB03_1_BR536_0_308_009"/>
+          <ref target="gb:note#GB03_2_BR536_0_note_046_308_9" xml:id="start_com_4433"/>Phillippen wieder dicktiren<ref xml:id="end_com_4433"/>.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR536_0_308_010"/>Die merckwürdige <ref target="gb:note#GB03_2_BR536_0_note_047_308_10" xml:id="start_com_4434"/>Tour durch die Bernischen Glätscher<ref xml:id="end_com_4434"/> ist geendigt 
+<anchor xml:id="GB03_1_BR536_0_308_011"/>wir haben leicht vorübergehend die Blüte abgeschöpft an einigen 
+<anchor xml:id="GB03_1_BR536_0_308_012"/>Orten <ref target="gb:note#GB03_2_BR536_0_note_048_308_12" xml:id="start_com_4435"/>hätt ich mit dem Bogen noch einmal schlagen konnen<ref xml:id="end_com_4435"/> aber es 
+<anchor xml:id="GB03_1_BR536_0_308_013"/>ist auch so gut. Wär ich allein gewesen ich wäre hoher und <ref target="gb:note#GB03_2_BR536_0_note_049_308_13" xml:id="start_com_4436"/>tiefer<ref xml:id="end_com_4436"/> gegangen 
+<anchor xml:id="GB03_1_BR536_0_308_014"/>aber mit dem Herzog muss ich thun was mäsig ist. Doch 
+<anchor xml:id="GB03_1_BR536_0_308_015"/>könnt ich uns mehr erlauben wenn er die bose Art nicht hätte <ref target="gb:note#GB03_2_BR536_0_note_050_308_15-16" xml:id="start_com_4437"/>den 
+<anchor xml:id="GB03_1_BR536_0_308_016"/>Speck zu spicken<ref xml:id="end_com_4437"/>, und wenn man auf dem Gipfel des Bergs mit Müh 
+<anchor xml:id="GB03_1_BR536_0_308_017"/>und Gefahr ist, <ref target="gb:note#GB03_2_BR536_0_note_051_308_17-18" xml:id="start_com_4438"/>noch ein Stiegelgen ohne Zweck und Noth mit Müh 
+<anchor xml:id="GB03_1_BR536_0_308_018"/>und Gefahr such<pb n="5" facs="gb:digitalisate#12030/23141"/>te<ref xml:id="end_com_4438"/>. Ich<ptr n="30" target="#a030_308.18"/> bin auch einigemal unmutig in mir drüber 
+<anchor xml:id="GB03_1_BR536_0_308_019"/>geworden, dass ich heut Nacht geträumt habe ich hätte mich drüber 
+<anchor xml:id="GB03_1_BR536_0_308_020"/>mit ihm überworfen, wäre von ihm gegangen, und hätte die Leute die 
+<anchor xml:id="GB03_1_BR536_0_308_021"/>er mir nachschickte mit allerley Listen hintergangen. Wenn ich aber 
+<anchor xml:id="GB03_1_BR536_0_308_022"/>wieder sehe <ref target="gb:note#GB03_2_BR536_0_note_052_308_22" xml:id="start_com_4439"/>wie iedem der Pfal in’s Fleisch geben ist<ref xml:id="end_com_4439"/> den er zu schleppen 
+<anchor xml:id="GB03_1_BR536_0_308_023"/>hat, und wie er sonst von dieser Reise wahren <ref target="gb:note#GB03_2_BR536_0_note_053_308_23" xml:id="start_com_4440"/>Nuzzen<ref xml:id="end_com_4440"/> hat, ist alles 
+<anchor xml:id="GB03_1_BR536_0_308_024"/>wieder weg. Er hat gar eine gute Art von Aufpassen<ptr n="31" target="#a031_308.24"/>, Theilnehmen, 
+<anchor xml:id="GB03_1_BR536_0_308_025"/>und Neugier, beschämt mich offt wenn er da anhaltend oder dringend 
+<anchor xml:id="GB03_1_BR536_0_308_026"/>ist, etwas zu sehen oder zu erfahren, wenn ich offt am Flecke vergessen 
+<anchor xml:id="GB03_1_BR536_0_308_027"/>oder gleichgültig bin.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR536_0_308_028"/>Es soll recht gut werden denck ich und bisher hat uns das Glück 
+<anchor xml:id="GB03_1_BR536_0_308_029"/>gar unerhört<ptr n="32" target="#a032_308.29"/> begleitet. Kein Gedancke, Keine Beschreibung noch Erinnerung 
+<anchor xml:id="GB03_1_BR536_0_308_030"/>reicht an die Schönheit und Grösse der Gegenstände, und 
+<anchor xml:id="GB03_1_BR536_0_308_031"/>ihre Lieblichkeit in solchen Lichtern Tageszeiten und Standpunckten.</p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR536_0_309_001"/>
+          <ref target="gb:note#GB03_2_BR536_0_note_054_309_1" xml:id="start_com_4441"/>Wedel hat des tags hundert tolle Einfälle<ref xml:id="end_com_4441"/>, und wenn ihn nicht 
+<anchor xml:id="GB03_1_BR536_0_309_002"/>manchmal der <ref target="gb:note#GB03_2_BR536_0_note_055_309_2" xml:id="start_com_4442"/>Schwindel<ref xml:id="end_com_4442"/> ankäme und ihn auf Augenblicke böser 
+<anchor xml:id="GB03_1_BR536_0_309_003"/>Laune machte, wäre kein Gesellschaffter über ihn. <pb n="6" facs="gb:digitalisate#12030/23142"/></p>
+        <p rendition="#einrueck1">
+          <anchor xml:id="GB03_1_BR536_0_309_004"/>Von dem <ref target="gb:note#GB03_2_BR536_0_note_056_309_4" xml:id="start_com_4443"/>Gesange der Geister<ref xml:id="end_com_4443"/> hab ich noch wundersame Strophen 
+<anchor xml:id="GB03_1_BR536_0_309_005"/>gehört, kann mich aber kaum beyliegender erinnern. <ref target="gb:note#GB03_2_BR536_0_note_057_309_5-6" xml:id="start_com_4444"/>Schreiben Sie 
+<anchor xml:id="GB03_1_BR536_0_309_006"/>doch sie für Knebeln ab<ref xml:id="end_com_4444"/>, mit einem Grus von mir. Ich habe offt an 
+<anchor xml:id="GB03_1_BR536_0_309_007"/>ihn gedacht.</p>
+        <space quantity="1" unit="lines"/>
+        <p rendition="#einrueck1"/>
+        <p rendition="#einrueck1"/>
+        <p rendition="#einrueck11">
+          <anchor xml:id="GB03_1_BR536_0_309_008"/>
+          <ref target="gb:note#GB03_2_BR536_0_note_058_309_8-9" xml:id="start_com_4445"/>Nun geht die Erzählung wieder ordentlich<ptr n="33" target="#a033_309.9"/>
+          <anchor xml:id="GB03_1_BR536_0_309_009"/>von Lauterbrunn an.<ref xml:id="end_com_4445"/> Wie wir 
+<anchor xml:id="GB03_1_BR536_0_309_010"/>von Emmedingen nach der <ref target="gb:note#GB03_2_BR536_0_note_059_309_10-11" xml:id="start_com_4446"/>Bieler Insel<ref xml:id="end_com_4446"/>
+          <anchor xml:id="GB03_1_BR536_0_309_011"/>gekommen sind. <ref target="gb:note#GB03_2_BR536_0_note_060_309_11-12" xml:id="start_com_4447"/>Wird wohl Lücke 
+<anchor xml:id="GB03_1_BR536_0_309_012"/>bleiben.<ref xml:id="end_com_4447"/>
+        </p>
+      </postscript>
+    </div>
+    
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb12030_comment">
+<body>
+<div type="metadata" xml:id="gb12030_comment_com803">
+  <ab type="numberAddressee"><label>536.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><placeName key="sndb:ort#78399">Lauterbrunnen</placeName> und <placeName key="sndb:ort#79462">Thun</placeName>, 9. Oktober 1779 und 14. Oktober 1779 → <supplied><placeName key="sndb:ort#78290">Kochberg</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb12030_comment_com2847">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 31. – Doppelblatt 17,8 × 22,2 cm und 1 Bl. 16,4(–16,6) × 20(–20,3) cm, 5 &#x2153; S. beschr., Schreiberhd (Seidel) mit egh. Korrekturen (S. 1–4: <ref target="gb:text#GB03_1_BR536_0_305_017 #GB03_1_BR536_0_307_031">305,17–307,31</ref> <quote type="G">Lauterbrunnen <gap quantity="3" reason="editorial"/> selbst führen</quote>) und egh. (S. 4–6: <ref target="gb:text#GB03_1_BR536_0_307_031 #GB03_1_BR536_0_309_012">307,31–309,12</ref> <quote type="G">sind noch eben <gap quantity="3" reason="editorial"/> Lücke bleiben.</quote>), Tinte, Ort und Datum von Schreiberhd (Seidel), Tinte; Blätter oben rechts foliiert (S. 1, 3, 5), egh., Tinte: <quote type="G">1</quote>; <quote type="G">2</quote>; <quote type="G">3</quote>; S. 1 oben rechts von fremder Hd (Charlotte von Stein?), Tinte: „7.“ (Nummerierung vermutlich zur chronologischen Anordnung der Reiseberichte). – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 53), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 248–254.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 74–80, Nr 852.</p>
+</div>
+
+</div>
+<div type="attachments" xml:id="gb12030_comment_com3678">
+  <p>1) <quote type="G">Zettel</quote>, Avertissement des Augenarztes Tavaros (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR536_0_note_017_306_18">306,18</ref>); nicht überliefert.</p>
+  <p>2) <quote type="G">Gesang der Geister</quote>, Manuskript einiger Strophen (vgl. zu <ref target="gb:note#GB03_2_BR536_0_note_056_309_4">309,4</ref>); nicht überliefert.</p>
+</div>
+
+<div type="explanations">
+<div type="explanation" xml:id="gb12030_comment_com4643">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb12030_comment_com12207">
+<label xml:id="GB03_2_BR536_0_note_001_305_17" copyOf="#start_com_4388"><hi rendition="#fett">305,17</hi>Lauterbrunnen</label>
+<p>Ortschaft im Kanton Bern im Lauterbrunnental, das von der Weißen Lütschine durchflossen wird.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12208">
+<label xml:id="GB03_2_BR536_0_note_002_305_18" copyOf="#start_com_4389"><hi rendition="#fett">305,18</hi>wirklich</label>
+<p>Hier auch in der (im Oberdeutschen verbreiteten) Bedeutung von ‚gegenwärtig‘, ‚gerade jetzt‘, ‚zur Zeit‘ (vgl. <ref target="sndb:sigle#2890">Grimm</ref> 30, 581).</p>
+
+</note>
+<note xml:id="gb12030_comment_com14203">
+<label xml:id="GB03_2_BR536_0_note_003_305_19" copyOf="#start_com_4390"><hi rendition="#fett">305,19</hi>Staubbach</label>
+<p>Gemeint ist der Staubbachfall, ein Wasserfall am Ortsrand von Lauterbrunnen auf der linken Seite des Tals, der 300 m tief über die Mürrenflue herabstürzt. In der Umgebung des Wasserfalls wird das Wasser unter dem Einfluss von Thermik zerstäubt. Darauf bezieht sich der Name. Albrecht von Haller schildert das Naturschauspiel in seinem Gedicht „Die Alpen“ (1729; Verse 351–360).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12220">
+<label xml:id="GB03_2_BR536_0_note_004_305_23" copyOf="#start_com_4391"><hi rendition="#fett">305,23</hi>erhabener Gegenstand</label>
+<p>Zum Begriff des Erhabenen vgl. zu <ref target="gb:note#GB03_2_BR534_0_note_005_299_10-11">299,10-11</ref>.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12221">
+<label xml:id="GB03_2_BR536_0_note_005_306_1" copyOf="#start_com_4392"><hi rendition="#fett">306,1</hi>dolle</label>
+<p>Adverb, das sich bei Goethe sonst nicht findet, vermutlich in gleicher Bedeutung wie ‚toll‘; hier im Sinn von ‚seltsam‘, ‚wunderlich‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 4, 621). Nicht auszuschließen ist ein Hörfehler Seidels.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15319">
+<label xml:id="GB03_2_BR536_0_note_006_306_3" copyOf="#start_com_4393"><hi rendition="#fett">306,3</hi>Pfarrer</label>
+<p>Johannes Unger; vgl. über ihn <ref target="gb:text#GB03_1_BR538_0_310_006 #GB03_1_BR538_0_310_007">310,6–7</ref>.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12222">
+<label xml:id="GB03_2_BR536_0_note_007_306_5" copyOf="#start_com_4394"><hi rendition="#fett">306,5</hi>nichts als Brunnen</label>
+<p>Die Zahl der Wasserfälle im Lauterbrunnental wird mit 72 angegeben.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12223">
+<label xml:id="GB03_2_BR536_0_note_008_306_7" copyOf="#start_com_4395"><hi rendition="#fett">306,7</hi>Münsterthal</label>
+<p>Südlich von Courrendlin (Rennendorf) mit dem Hauptort Moutier (Münster); die Reisenden durchquerten das von der Birs durchflossene Tal am 3./4. Oktober 1779.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12224">
+<label xml:id="GB03_2_BR536_0_note_009_306_7-8" copyOf="#start_com_4396"><hi rendition="#fett">306,7-8</hi>ein eigen Papier</label>
+<p>Vgl. Seidels Abschrift der Aufzeichnungen in <ref target="gb:dokument#12029">Nr 538</ref> (S. 317–319).</p>
+
+</note>
+<note xml:id="gb12030_comment_com15320">
+<label xml:id="GB03_2_BR536_0_note_010_306_8" copyOf="#start_com_4397"><hi rendition="#fett">306,8</hi>die Gegenstände darinn sind sehr erhaben</label>
+<p>Zum Begriff des Erhabenen vgl. zu <ref target="gb:note#GB03_2_BR534_0_note_005_299_10-11">299,10-11</ref>.</p>
+
+</note>
+<note xml:id="gb12030_comment_com13865">
+<label xml:id="GB03_2_BR536_0_note_011_306_10" copyOf="#start_com_4398"><hi rendition="#fett">306,10</hi>gegen die wir näher rüken</label>
+<p>Die hochalpine Landschaft um Lauterbrunnen mit Tschingelgletscher, Grindelwaldgletscher, Große Scheidegg, zu denen Goethe am 10. bzw. 12. Oktober 1779 aufstieg (vgl. <ref target="gb:text#GB03_1_BR538_0_312_014 #GB03_1_BR538_0_312_017">312,14–17</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com15725">
+<label xml:id="GB03_2_BR536_0_note_012_306_13" copyOf="#start_com_4399"><hi rendition="#fett">306,13</hi>Thun</label>
+<p>Am nordwestlichen Ende des Thuner Sees.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12235">
+<label xml:id="GB03_2_BR536_0_note_013_306_16" copyOf="#start_com_4400"><hi rendition="#fett">306,16</hi>den     Gesang</label>
+<p>Lücke in Seidels Abschrift; es fehlt die Nummer des Gesangs von Homers „Odyssee“, aus dem Goethe vorlas. Unter dem 14. Oktober 1779 berichtet Philipp Seidel in der Abschrift aus seinem Reisetagebuch, Goethe habe von den Sirenen vorgelesen (vgl. <ref target="gb:text#GB03_1_BR538_0_315_023 #GB03_1_BR538_0_315_025">315,23–25</ref>), von denen im 12. Gesang erzählt wird.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18266">
+<label xml:id="GB03_2_BR536_0_note_014_306_16" copyOf="#start_com_4401"><hi rendition="#fett">306,16</hi>Bodmers Homer</label>
+<p>Homers Werke. Aus dem Griechischen übersetzt von dem Dichter der Noachide <supplied>Johann Jacob Bodmer</supplied>. 2 Bde. Zürich 1778. – Goethe hatte die Übersetzung schon im Sommer 1778 gelesen (vgl. sein Tagebuch unter dem 20. Juni 1778; <ref target="gt:dokument#592">GT I 1, 64</ref>). Nachdem er den Dichter am 20. November 1779 besucht hatte, schrieb Bodmer am 23. November an Johann Rudolf Schinz, „er <supplied>Goethe</supplied> habe die Odyssee ex professo <supplied>ausführlich</supplied> auf dem Lemanischen <supplied>Genfer</supplied> See gelesen <gap quantity="3" reason="editorial"/>. Auf den Alpen habe er den Homer den Alpinern vorgelesen.“ (<ref target="bug:dokument#6224">BuG 2, 194</ref>.)</p>
+
+</note>
+<note xml:id="gb12030_comment_com12236">
+<label xml:id="GB03_2_BR536_0_note_015_306_17" copyOf="#start_com_4402"><hi rendition="#fett">306,17</hi>Untersewen</label>
+<p>Unterseen an der Aare, zwischen Thuner See und Brienzer See. Herzog Carl August schreibt am 16. Oktober 1779 an seine Frau Louise: „Wir stiegen am Ende des <supplied>Thuner</supplied> Sees, weil er uns auf den Lande nicht mehr schwimmen laßen konnte, aus; Und gingen biß Untersewen zu Fuß“ (<ref target="sndb:sigle#1266/785">Karl August-Luise</ref>, 114).</p>
+
+</note>
+<note xml:id="gb12030_comment_com18375">
+<label xml:id="GB03_2_BR536_0_note_016_306_18" copyOf="#start_com_4403"><hi rendition="#fett">306,18</hi>examinirten einen Augenarzt</label>
+<p>Es handelte sich um den <quote type="G">berühmten Doktor Tavaros</quote> (<ref target="gb:text#GB03_1_BR538_0_315_019 #GB03_1_BR538_0_315_020">315,19–20</ref>); so schrieb jedenfalls Philipp Seidel nach Goethes Diktat. Der Doktor gehörte zu den wandernden Augenärzten, die als Starstecher umherzogen und überall ihre Dienste anboten. Mit dem Begriff ‚examinieren‘ ist ‚prüfend betrachten‘ und nicht, wie bisher angenommen, ‚konsultieren‘ gemeint; dass jemand aus Goethes Reisegesellschaft an einer Augenerkrankung gelitten hätte, ist nicht bekannt. Goethe spielt vielmehr darauf an, dass sich zur damaligen Zeit wandernde Ärzte einer Begutachtung durch ansässige Fachkollegen unterziehen mussten, um in einer Stadt die Erlaubnis zum Praktizieren zu erhalten (nach freundlicher Mitteilung von Margrit Wyder, Medizinhistorisches Institut der Universität Zürich).</p>
+
+</note>
+<note xml:id="gb12030_comment_com14046">
+<label xml:id="GB03_2_BR536_0_note_017_306_18" copyOf="#start_com_4404"><hi rendition="#fett">306,18</hi>Zettel</label>
+<p>In <ref target="gb:dokument#12029">Nr 538</ref> ist von einem <quote type="G">Avertiss. des Docktors</quote> (<ref target="gb:text#GB03_1_BR538_0_316_029">316,29</ref>) die Rede. Auf diesem ‚Avertissement‘ hatte der Augenarzt Tavaros vermutlich Werbung für seine Künste gemacht und angekündigt, wo und wann er diese anbieten werde. In Unterseen praktizierte er im „Stadthaus“.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12252">
+<label xml:id="GB03_2_BR536_0_note_018_306_20" copyOf="#start_com_4405"><hi rendition="#fett">306,20</hi>durch das Thal bis nach Lauterbrun</label>
+<p>Die Strecke von Unterseen durch das Lütschinetal nach Lauterbrunnen ist etwa 13 km lang.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12253">
+<label xml:id="GB03_2_BR536_0_note_019_306_22-23" copyOf="#start_com_4406"><hi rendition="#fett">306,22-23</hi>konnte ich <gap quantity="3" reason="editorial"/> nicht fertig werden</label>
+<p>Der Besuch beim Perückenmacher deutet möglicherweise darauf hin, dass eine offizielle Begegnung mit Berner Honoratioren geplant war. – Zu ‚Perückenmacher‘ vgl. zu <ref target="gb:note#GB03_2_BR002_0_note_014_3_24-4_1">3,24-4,1</ref>.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18387">
+<label xml:id="GB03_2_BR536_0_note_020_306_28" copyOf="#start_com_4407"><hi rendition="#fett">306,28</hi>Durchschnitt des <emph rendition="#latin">Despotismus</emph></label>
+<p>Möglicherweise bezieht sich diese Stelle auf Justus Mösers „Patriotische Phantasien“. Im 2. Teil dieser Sammlung von Aufsätzen und Zeitungsartikeln (Berlin 1776) findet sich der Beitrag „Der jetzige Hang zu allgemeinen Gesetzen und Verordnungen, ist der gemeinen Freyheit gefährlich“ (S. 15–21). Darin heißt es: „In der That aber entfernen wir uns dadurch von dem wahren Plan der Natur, die ihren Reichthum in der Mannigfaltigkeit zeigt; und bahnen den Weg zum Despotismus, der alles nach wenigen Regeln zwingen will, und darüber den Reichthum der Mannigfaltigkeit verlieret.“ (S. 15; der Hinweis ist Hartmut Reinhardt zu danken; vgl. <ref target="sndb:sigle#1240">FA/Goethe</ref> II 2, 856 f.) Mit Möser hatte sich Goethe schon in Frankfurt beschäftigt (vgl. dazu <ref target="gb:note#gb10371_comment_com4326">GB 2 II, 382 f.</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12254">
+<label xml:id="GB03_2_BR536_0_note_021_306_28-29" copyOf="#start_com_4408"><hi rendition="#fett">306,28-29</hi>der Stand Bern</label>
+<p>Der (Innere) Stand der Republik Bern setzte sich aus dem Großen Rat (Parlament) und dem Kleinen Rat (Regierung) zusammen.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12255">
+<label xml:id="GB03_2_BR536_0_note_022_306_29" copyOf="#start_com_4409"><hi rendition="#fett">306,29</hi>kostbar</label>
+<p>Hier im Sinn von „kostspielig“ (<ref target="sndb:sigle#2753">Adelung</ref> 2, 1729).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12256">
+<label xml:id="GB03_2_BR536_0_note_023_306_32" copyOf="#start_com_4410"><hi rendition="#fett">306,32</hi>nach Thun</label>
+<p>Die Entfernung von Bern nach Thun beträgt etwa 30 km.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12269">
+<label xml:id="GB03_2_BR536_0_note_024_306_33" copyOf="#start_com_4411"><hi rendition="#fett">306,33</hi>Aar</label>
+<p>Gemeint ist die Aare.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18393">
+<label xml:id="GB03_2_BR536_0_note_025_307_1" copyOf="#start_com_4412"><hi rendition="#fett">307,1</hi>Bürger</label>
+<p>Peter Kocher, der Goethes Reisegesellschaft von Thun aus führte. Unter dem 10. Oktober 1779 heißt es in Goethes Tagebuch über die von Lauterbrunnen aus unternommene Bergwanderung auf den Steinberg und zum Tschingelgletscher: <quote type="G">Es war ein narrsches Origin von Thun mit den wir herauf geschl. hatten. </quote> (<ref target="gt:dokument#780">GT I 1, 94</ref>.) In Goethes Brief an Carl Ludwig von Knebel vom 4. Juni 1780 mit Empfehlungen für dessen „Reise-Route durch die Schweiz“ heißt es, er solle in Thun nach Peter Kocher fragen, <quote type="G">der unser Schiffer und Führer auf der Reise war und den wir was ehrlichs zum Narren gehabt haben.</quote> (<ref target="gb:text#GB04_1_BR106_0_065_007 #GB04_1_BR106_0_065_008">GB 4 I, 65,7-8</ref>.)</p>
+
+</note>
+<note xml:id="gb12030_comment_com12270">
+<label xml:id="GB03_2_BR536_0_note_026_307_4" copyOf="#start_com_4413"><hi rendition="#fett">307,4</hi><hi rendition="#hervor1">Annet</hi></label>
+<p>Anet, deutsch Ins, zwischen Bieler und Neuenburger See (Lac de Neuchâtel).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12271">
+<label xml:id="GB03_2_BR536_0_note_027_307_5" copyOf="#start_com_4414"><hi rendition="#fett">307,5</hi>Rieder</label>
+<p>Ried: eine „sumpfige, moorige Gegend“ (<ref target="sndb:sigle#2753">Adelung</ref> 3, 1116).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12272">
+<label xml:id="GB03_2_BR536_0_note_028_307_6" copyOf="#start_com_4415"><hi rendition="#fett">307,6</hi>der Wirth</label>
+<p>Namentlich nicht bekannt; die Reisenden hatten in Anet (Ins) in einem <quote type="G">leidlichen Wirthshaus</quote> (<ref target="gb:text#GB03_1_BR536_0_307_026">307,26</ref>) übernachtet.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12273">
+<label xml:id="GB03_2_BR536_0_note_029_307_8" copyOf="#start_com_4416"><hi rendition="#fett">307,8</hi>Murten</label>
+<p>Am Südostufer des Murtensees, etwa 10 km von Anet entfernt.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15738">
+<label xml:id="GB03_2_BR536_0_note_030_307_8" copyOf="#start_com_4417"><hi rendition="#fett">307,8</hi>Beinhaus</label>
+<p>Aufbewahrungsstätte ausgegrabener Totengebeine auf Friedhöfen oder in der Nähe von Schlachtfeldern (vgl. <ref target="sndb:sigle#397">GWb</ref> 2, 301).</p>
+
+</note>
+<note xml:id="gb12030_comment_com18278">
+<label xml:id="GB03_2_BR536_0_note_031_307_9" copyOf="#start_com_4418"><hi rendition="#fett">307,9</hi>von den Burgundern</label>
+<p>Karl der Kühne, 1467–1477 Herzog von Burgund, der die Gründung eines burgundischen Großreiches und den Königstitel anstrebte, führte gegen Frankreich, Habsburg und die schweizerische Eidgenossenschaft Krieg. Im Verlauf dieser ‚Burgunderkriege‘ kam es 1476 zur Schlacht bei Murten, in der Karl von den Schweizern geschlagen wurde.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12286">
+<label xml:id="GB03_2_BR536_0_note_032_307_10" copyOf="#start_com_4419"><hi rendition="#fett">307,10</hi>Buche</label>
+<p>Vermutlich die „Beschreibung Der Burgundischen Kriegen. Und einicher anderer in der Schweitz, und sonderlich zu Bern, Um selbige Zeit vorgefallenen Merckwürdigen Begebenheiten“ (Bern 1743) von Diebold Schilling d. Ä., der an der Schlacht selbst teilnahm (vgl. die 6. Seite der unpaginierten „Vorrede“ des Werkes), oder die „Kronica von der loblichen Eydtgnoschaft Ir harkomen vnd sust seltzam strittenn und geschichten“ (Basel 1507; <hi rendition="#sup">2</hi>1752) von Petermann Etterlin, der ebenfalls Augenzeuge der Schlacht war.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12287">
+<label xml:id="GB03_2_BR536_0_note_033_307_14" copyOf="#start_com_4420"><hi rendition="#fett">307,14</hi>nach Bern</label>
+<p>Die Strecke von Murten nach Bern beträgt etwa 27 km.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12288">
+<label xml:id="GB03_2_BR536_0_note_034_307_17-18" copyOf="#start_com_4421"><hi rendition="#fett">307,17-18</hi>von Biel <gap quantity="3" reason="editorial"/> nach Annet</label>
+<p>Von Biel am Nordostende des Bieler Sees nach Erlach am Südwestende, von dort nach Anet (Ins) zwischen Bieler und Neuenburger See.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15355">
+<label xml:id="GB03_2_BR536_0_note_035_307_18" copyOf="#start_com_4422"><hi rendition="#fett">307,18</hi><emph rendition="#latin">La Sauge</emph></label>
+<p>Etwa 5 km von Anet entfernt am Nordostufer des Neuenburger Sees.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15777">
+<label xml:id="GB03_2_BR536_0_note_036_307_22" copyOf="#start_com_4423"><hi rendition="#fett">307,22</hi><emph rendition="#latin">St. Blaise</emph></label>
+<p>Etwa 10 km von Anet entfernt am Nordostufer des Neuenburger Sees.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12289">
+<label xml:id="GB03_2_BR536_0_note_037_307_22-23" copyOf="#start_com_4424"><hi rendition="#fett">307,22-23</hi>Neustädter Sees</label>
+<p>Irrtümlich für Neuenburger See.</p>
+
+</note>
+<note xml:id="gb12030_comment_com14054">
+<label xml:id="GB03_2_BR536_0_note_038_307_28" copyOf="#start_com_4425"><hi rendition="#fett">307,28</hi>Rathsschiffe</label>
+<p>Ein der Stadt gehörendes Schiff; ein solches reichsstädtisches „Ratsschiff“ besaß z. B. auch Frankfurt (vgl. <ref target="sndb:sigle#2809">Dietz, Handelsgeschichte</ref> 3, 299).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12303">
+<label xml:id="GB03_2_BR536_0_note_039_307_29" copyOf="#start_com_4426"><hi rendition="#fett">307,29</hi>Insel des Bieler Sees</label>
+<p>Die St. Petersinsel, langgestreckte Insel (heute Halbinsel) im südwestlichen Bieler See, Sitz eines ehemaligen Cluniazenserklosters, dessen Gebäude als landwirtschaftliches Gut und als Gasthaus genutzt wurde.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18286">
+<label xml:id="GB03_2_BR536_0_note_040_307_29-30" copyOf="#start_com_4427"><hi rendition="#fett">307,29-30</hi>wohin <emph rendition="#latin">Rousseau</emph><gap quantity="3" reason="editorial"/> weggetrieben wurde</label>
+<p>Jean Jacques Rousseau, der nach dem Verbot seines Romans „Émile“ (1762) aus Frankreich geflohen war und sich drei Jahre inkognito in Môtiers westlich des Neuenburger Sees aufgehalten hatte, verbrachte im September/Oktober 1765 sechs Wochen auf der Petersinsel, bevor er auch dort von der Berner Aristokratie vertrieben wurde.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12304">
+<label xml:id="GB03_2_BR536_0_note_041_307_30" copyOf="#start_com_4428"><hi rendition="#fett">307,30</hi><emph rendition="#latin">Hospital</emph> zu Bern</label>
+<p>Im Jahr 1530 hatte die Regierung von Bern die Sankt Petersinsel dem Niederen Spital (heute Burgerspital) übergeben, um dessen ökonomische Grundlage zu sichern.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12305">
+<label xml:id="GB03_2_BR536_0_note_042_307_30-31" copyOf="#start_com_4429"><hi rendition="#fett">307,30-31</hi>der Schaffner und seine Frau</label>
+<p>Das Berner Spital setzte so genannte Inselschaffner ein, Gutsverwalter, die sich vor allem um den Weinanbau, die Weinlese, die Einkellerung und den Transport zu kümmern hatten. Die Schaffner stammten zur Hälfte aus Twann, zur anderen Hälfte aus Ligerz (beides Orte am Nordufer des Bieler Sees). Zu Rousseaus und Goethes Zeit wurde das Amt von Gabriel Engel aus Ligerz und dessen Frau, einer geborenen Heuer aus Nidau, versehen.</p>
+
+</note>
+<note xml:id="gb12030_comment_com14218">
+<label xml:id="GB03_2_BR536_0_note_043_308_4-5" copyOf="#start_com_4430"><hi rendition="#fett">308,4-5</hi>wieder hier angekommen</label>
+<p>In Thun, das Goethe zum ersten Mal am 8. Oktober 1779 erreicht hatte; am Tag darauf war er weiter nach Lauterbrunnen gereist.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15373">
+<label xml:id="GB03_2_BR536_0_note_044_308_5" copyOf="#start_com_4431"><hi rendition="#fett">308,5</hi>Diese vier Tage</label>
+<p>Gemeint sind die Tage der Gebirgs- und Gletscherwanderung von Lauterbrunnen über Grindelwald, Guttannen, Meiringen und Brienz zurück nach Thun vom 11. bis zum 14. Oktober 1779.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12306">
+<label xml:id="GB03_2_BR536_0_note_045_308_6" copyOf="#start_com_4432"><hi rendition="#fett">308,6</hi>merckwürdigsten</label>
+<p>‚Merkwürdig‘ im 18. Jahrhundert noch im Wortsinn: ‚wert, bemerkt oder beachtet zu werden‘ (vgl. <ref target="sndb:sigle#2753">Adelung</ref> 3, 183).</p>
+
+</note>
+<note xml:id="gb12030_comment_com13844">
+<label xml:id="GB03_2_BR536_0_note_046_308_9" copyOf="#start_com_4433"><hi rendition="#fett">308,9</hi>Phillippen wieder dicktiren</label>
+<p>Die Schilderung der Reise vom 11. bis zum 14. Oktober 1779 findet sich in <ref target="gb:dokument#12029">Nr 538</ref> (2. Briefteil).</p>
+
+</note>
+<note xml:id="gb12030_comment_com18302">
+<label xml:id="GB03_2_BR536_0_note_047_308_10" copyOf="#start_com_4434"><hi rendition="#fett">308,10</hi>Tour durch die Bernischen Glätscher</label>
+<p>Sie führte am 10. Oktober 1779 von Lauterbrunnen aus durch das südliche Lauterbrunnental wieder zurück zum Ausgangspunkt; am 11. Oktober von Lauterbrunnen durch das Lütschinental nach Grindelwald; am 12. Oktober von Grindelwald nach Guttannen; am 13. Oktober von Guttannen nach Brienz; am 14. Oktober von Brienz nach Thun (vgl. im Einzelnen die Übersicht „Goethes zweite Reise in die Schweiz“ in der einleitenden Erläuterung zu <ref target="gb:note#gb12015_comment_com4625">Nr 530</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12319">
+<label xml:id="GB03_2_BR536_0_note_048_308_12" copyOf="#start_com_4435"><hi rendition="#fett">308,12</hi>hätt ich <gap quantity="3" reason="editorial"/> noch einmal schlagen konnen</label>
+<p>Wie aus dem Folgenden hervorgeht, will Goethe zum Ausdruck bringen, er habe an einigen Orten länger verweilen und hier und da mehr und andere Touren machen wollen. – Die Formulierung, die sich auf eine „magische Geste des Wünschens“ (<ref target="sndb:sigle#397">GWb</ref> 2, 825) bezieht, zitiert 2 Könige 13,18 f. im Alten Testament; sie findet sich auch in Brief <ref target="gb:dokument#10661">Nr 311</ref> unter dem 11. Dezember 1777, als Goethe sich auf der Harzreise befand (vgl. zu <ref target="gb:note#GB03_2_BR311_0_note_057_185_7-8">185,7-8</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12320">
+<label xml:id="GB03_2_BR536_0_note_049_308_13" copyOf="#start_com_4436"><hi rendition="#fett">308,13</hi>tiefer</label>
+<p>Vermutlich: tiefer ins Gebirge hinein.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12321">
+<label xml:id="GB03_2_BR536_0_note_050_308_15-16" copyOf="#start_com_4437"><hi rendition="#fett">308,15-16</hi>den Speck zu spicken</label>
+<p>Das Sprichwort „Speck braucht man nicht zu spicken“ (vgl. Thesaurus proverbiorum medii aevi. Lexikon der Sprichwörter des romanisch-germanischen Mittelalters. Bd 11. Berlin, New York 2001, S. 40) warnt vor Unmäßigkeit und Übertreibung.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18303">
+<label xml:id="GB03_2_BR536_0_note_051_308_17-18" copyOf="#start_com_4438"><hi rendition="#fett">308,17-18</hi>noch <gap quantity="3" reason="editorial"/> Gefahr suchte</label>
+<p>In seinem Gedicht „Ilmenau am 3. September 1783“ (<ref target="sndb:sigle#1157">WA</ref> I 2, 141–147), mit dem Goethe dem Herzog zu dessen 26. Geburtstag gratulierte und ihn an „eine Epoche“ erinnerte, „die im Jahre 1783 <gap quantity="3" reason="editorial"/> bereits mehrere Jahre hinter uns lag“ (zu Eckermann am 23. Oktober 1828; <ref target="sndb:sigle#4373">Eckermann, Gespräche</ref> 3, 267), heißt es: <quote type="G">Der Vorwitz lockt ihn in die Weite, / Kein Fels ist ihm zu schroff, kein Steg zu schmal; / Der Unfall lauert an der Seite / Und stürzt ihn in den Arm der Qual.</quote> (Verse 140–143; <ref target="sndb:sigle#1157">WA</ref> I 2, 146.)</p>
+
+</note>
+<note xml:id="gb12030_comment_com12076">
+<label xml:id="GB03_2_BR536_0_note_052_308_22" copyOf="#start_com_4439"><hi rendition="#fett">308,22</hi>wie iedem der Pfal in’s Fleisch geben ist</label>
+<p>Das Bild vom ‚Pfahl im Fleisch‘ benutzt der Apostel Paulus im 2. Brief an die Korinther (vgl. zu <ref target="gb:note#GB03_2_BR170_0_note_012_106_7-8">106,7-8</ref>); dort ist er ein Mittel gegen Überheblichkeit, hier wohl gegen individuelle Untugenden allgemein.</p>
+
+</note>
+<note xml:id="gb12030_comment_com15206">
+<label xml:id="GB03_2_BR536_0_note_053_308_23" copyOf="#start_com_4440"><hi rendition="#fett">308,23</hi>Nuzzen</label>
+<p>Über die Wirkungen der Reise auf Herzog Carl August vgl. zu <ref target="gb:note#GB03_2_BR557_0_note_002_360_23">360,23</ref>.</p>
+
+</note>
+<note xml:id="gb12030_comment_com18190">
+<label xml:id="GB03_2_BR536_0_note_054_309_1" copyOf="#start_com_4441"><hi rendition="#fett">309,1</hi>Wedel hat <gap quantity="3" reason="editorial"/> tolle Einfälle</label>
+<p>Der Oberforstmeister und Kammerherr Moritz von Wedel hatte schon in Straßburg Anlass zur Unterhaltung der Reisegesellschaft gegeben, wie Carl August am 29. September 1779 seiner Mutter berichtete: „Eine Komediantin, welche die Rolle der verkleideten Liebhaberin in spanischen Mannskleidern spielte, machte durch ihre Reize und Spiel Wedelns Felsenherz schmelzen, und er ist nun mit schweren, von Liebe entbrannten Herzen aus Strassburg ausgezogen, und mit nassen Auge blickt er noch zuzeiten nach den geliebten Gegenstand zurück.“ (<ref target="sndb:sigle#76">Bergmann</ref>, 26.) Dass Wedel zu allerlei Späßen und Streichen aufgelegt war, geht auch aus <ref target="gb:dokument#11887">Nr 392</ref> (vgl. <ref target="gb:text#GB03_1_BR392_0_226_006">226,6</ref>) hervor.</p>
+
+</note>
+<note xml:id="gb12030_comment_com12077">
+<label xml:id="GB03_2_BR536_0_note_055_309_2" copyOf="#start_com_4442"><hi rendition="#fett">309,2</hi>Schwindel</label>
+<p>Auch in <ref target="gb:dokument#12029">Nr 538</ref> wird von Wedels Anfälligkeit für Schwindelgefühle berichtet (vgl. <ref target="gb:text#GB03_1_BR538_0_311_001 #GB03_1_BR538_0_311_003">311,1–3</ref>; <ref target="gb:text#GB03_1_BR538_0_313_023 #GB03_1_BR538_0_313_025">313,23–25</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com15559">
+<label xml:id="GB03_2_BR536_0_note_056_309_4" copyOf="#start_com_4443"><hi rendition="#fett">309,4</hi>Gesange der Geister</label>
+<p>Goethes Gedicht, das nach Charlotte von Steins Abschrift (als Beilage ihres Briefes an Carl Ludwig von Knebel vom 4. November 1779) die Überschrift „Gesang der lieblichen Geister in der Wüste“ (H: <ref target="archivdb:dokument#245009">GSA 54/274,1</ref>, Bl. 7) trägt, im Erstdruck die Überschrift „Gesang der Geister über den Wassern“ (Goethe’s Schriften. Bd 8. Leipzig 1789, S. 187 f.; vgl. auch <ref target="sndb:sigle#1157">WA</ref> I 2, 56 f.). – Das Gedicht steht offensichtlich mit dem Erlebnis des Staubbachfalls in Zusammenhang: <quote type="G">Strömt von der hohen / Steilen Felswand / Der reine Strahl, / Dann stäubt er lieblich / In Wolkenwellen / Zum glatten</quote> Fels (Verse 8–13). In einer Abschrift Louise von Göchhausens lautet der Titel „Vor’m Staubbach“ (H: <ref target="archivdb:dokument#411780">GSA 24/15,2</ref>, Bl. 22). Dass Goethe dennoch angibt, er schreibe die beigelegten Strophen aus der Erinnerung, wird durch die Vermutung erklärt, ein erster Entwurf des Gedichts sei viel früher entstanden, 1772/73, als der Dichter mit dem Plan eines Mahomet-Dramas beschäftigt war, von dem nur eine Prosaszene und ein Gesang bekannt sind (vgl. <ref target="sndb:sigle#497">DjG<hi rendition="#sup">3</hi></ref> 3, 128–133; 450).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12088">
+<label xml:id="GB03_2_BR536_0_note_057_309_5-6" copyOf="#start_com_4444"><hi rendition="#fett">309,5-6</hi>Schreiben Sie doch sie für Knebeln ab</label>
+<p>Charlotte von Stein sandte ihre Abschrift (vgl. die vorhergehende <ref target="gb:note#GB03_2_BR536_0_note_056_309_4">Erläuterung</ref>) am 4. November 1779 wie gewünscht an Carl Ludwig von Knebel; in ihrem Begleitbrief heißt es: „Dieser Gesang ist nicht ganz Ihre und meine Religion; die Waßer mögen ewig in ihrer Atmosphäre auf und absteigen, aber unßre Seelen kan ich mir nicht anders als in die unendliche Welten der ewigen Schöpfung verkettet dencken.“ (H: <ref target="archivdb:dokument#245009">GSA 54/274,1</ref>, Bl. 6r.)</p>
+
+</note>
+<note xml:id="gb12030_comment_com18300">
+<label xml:id="GB03_2_BR536_0_note_058_309_8-9" copyOf="#start_com_4445"><hi rendition="#fett">309,8-9</hi>Nun geht die Erzählung <gap quantity="3" reason="editorial"/> von Lauterbrunn an.</label>
+<p>Dies bezieht sich auf Brief <ref target="gb:dokument#12029">Nr 538</ref>, der den Reisebericht mit der von Lauterbrunnen aus unternommenen Gebirgswanderung vom 10. Oktober 1779 wieder aufnimmt und dann – mit Hilfe von Philipp Seidels Abschriften und Aufzeichnungen – chronologisch fortsetzt. Die eigenhändige Nummerierung der Handschriften (vgl. jeweils Überlieferung) zeigt, dass Charlotte von Stein den Bericht in folgender Reihenfolge lesen sollte: zunächst den vorliegenden Brief (<ref target="gb:dokument#12030">Nr 536</ref>), dann den Brief vom 15. und 16. Oktober (<ref target="gb:dokument#12029">Nr 538</ref>) und schließlich die darin enthaltenen Reiseaufzeichnungen Philipp Seidels (vgl. auch zu <ref target="gb:note#GB03_2_BR538_0_note_076_316_27">316,27</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12089">
+<label xml:id="GB03_2_BR536_0_note_059_309_10-11" copyOf="#start_com_4446"><hi rendition="#fett">309,10-11</hi>Bieler Insel</label>
+<p>Die St. Petersinsel (vgl. zu <ref target="gb:note#GB03_2_BR536_0_note_039_307_29">307,29</ref>).</p>
+
+</note>
+<note xml:id="gb12030_comment_com12090">
+<label xml:id="GB03_2_BR536_0_note_060_309_11-12" copyOf="#start_com_4447"><hi rendition="#fett">309,11-12</hi>Wird wohl Lücke bleiben.</label>
+<p>Ein Teil der Reise, der Weg von Basel durch das Birstal nach Münster (Moutier), wird in Seidels Abschrift von Reiseaufzeichnungen Goethes vom 3. Oktober 1779 in <ref target="gb:dokument#12029">Nr 538</ref> beschrieben.</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>

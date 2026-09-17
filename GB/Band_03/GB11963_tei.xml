@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?gb-sorting-number bd="3" n="4700"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gb11963" n="GB 3, Nr. 461">
+  <teiHeader xml:id="gb11963_header">
+    <fileDesc>
+      <titleStmt>
+        <title type="main"><label>461.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></title>
+        <title type="sub"><supplied><placeName key="sndb:ort#79627" evidence="conjecture">Weimar</placeName></supplied>, 8. Februar 1779. Montag</title>
+
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          <orgName key="gnd:organisation#6045529-9">Klassik Stiftung Weimar</orgName>
+        </distributor>
+        <publisher>
+          <orgName type="project">PROPYLÄEN – Forschungsplattform zu Goethes Biograpica</orgName>
+          <orgName type="subproject">Johann Wolfgang Goethe. Briefe. Historisch-kritische Ausgabe.</orgName>
+          <orgName key="gnd:organisation#2012525-2" type="co-publisher">Goethe- und Schiller-Archiv</orgName>
+          <orgName key="gnd:organisation#37863-X" type="co-publisher">Sächsische Akademie der Wissenschaften zu Leipzig</orgName>
+          <orgName key="gnd:organisation#35487-9" type="co-publisher">Akademie der Wissenschaften und der Literatur Mainz</orgName>
+        </publisher>
+        <pubPlace key="gnd:ort#4065105-8">Weimar</pubPlace>
+        <date when="2026-09-08T10:16:31Z"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International (CC BY 4.0)</licence>
+        </availability>
+        <idno type="file">gb11963_tei.xml</idno>
+        <idno type="URI">gb11963</idno>
+        <idno type="PURL">#PURL#</idno>
+        <idno type="PROPY-ID">GB03_BR461_0</idno>
+        <idno type="KSW-ID">11963</idno>
+      </publicationStmt>
+      <notesStmt>
+        <relatedItem>
+            <bibl type="printedEdition">
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 I. 8. November 1775–Ende 1779. Text. Herausgegeben von Georg Kurscheidt und Elke Richter. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="257" to="257">257</biblScope>
+              <bibl>Johann Wolfgang Goethe. Briefe. Band 3 IIA und IIB. 8. November 1775–Ende 1779. Kommentar. Herausgegeben von Georg Kurscheidt und Elke Richter unter Mitarbeit von Gerhard Müller und Bettina Zschiedrich. Berlin: Akademie Verlag 2014. (Johann Wolfgang Goethe Briefe. Historisch-kritische Ausgabe. Im Auftrag der Klassik Stiftung Weimar Goethe- und Schiller-Archiv, herausgegeben von Georg Kurscheidt, Norbert Oellers und Elke Richter.)</bibl>
+              <biblScope unit="page" from="853" to="854">853-854</biblScope>
+            </bibl>
+        </relatedItem>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc xml:id="gb11963_header_hwit1438" corresp="#gb11963_source_hwit1438" sameAs="#gb11963_comment_hwit1438" type="authorisedLetter">
+          <msIdentifier>
+            <country>D</country>
+            <settlement>
+              <placeName>Weimar</placeName>
+            </settlement>
+            <institution key="sndb:standort#2" corresp="sndb:sigle#1278">GSA</institution>
+            <collection>29 Goethe, Johann Wolfgang / Ausgegangene Briefe</collection>
+            <idno type="shelfmark">GSA 29/487,I Bl. 3</idno>
+            <idno type="URLCatalogue">https://ores.klassik-stiftung.de/ords/f?p=401:2:::::P2_ID:8658</idno>
+            <idno type="IIIF">https://ores.klassik-stiftung.de/ords/rest_api/iiif/v2/propy_gb/11963,,1438/manifest</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <incipit>Gute Nacht allerliebste. Ich muss mich wieder an meine Wohnung    gewöhnen</incipit>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <scriptDesc>
+              <scriptNote scope="sole" script="german"/>
+            </scriptDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Die historisch-kritische Ausgabe der Briefe Johann Wolfgang Goethes ist seit 2015 Teil des Akademienvorhabens PROPYLÄEN. Forschungsplattform zu Goethes Biographica. Im Rahmen dieses Vorhabens wurde diese Datei erzeugt und daraus auch ein gedruckter Band abgeleitet.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>[ER, inkl. Link auf Doku]</p>
+      </editorialDecl>
+      <tagsDecl partial="true">
+        <rendition>[Erläuterungen aller/spezifischer `@rendition`-Werte (nicht briefspezifisch sondern GB-global!)]</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage source="iso639-3">
+        <language ident="deu" scope="sole">Deutsch</language>
+      </langUsage>
+      <correspDesc>
+        <correspAction type="sent">
+          <p>
+            <persName key="sndb:person#2475">Goethe, Johann Wolfgang</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+            <date when="1779-02-08">8. Februar 1779</date>
+          </p>
+        </correspAction>
+        <correspAction type="received">
+          <p>
+            <persName key="sndb:person#45394">Stein, Charlotte von</persName>
+            <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>
+          </p>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+<text xml:space="preserve"  xml:id="gb11963_source_hwit1438" corresp="#gb11963_header_hwit1438" type="source" rend="authorisedLetter">
+  <body>
+    <div>
+    <pb n="1" facs="gb:digitalisate#11963/22996"/>
+      <p>
+        <anchor xml:id="GB03_1_BR461_0_257_015"/>Gute Nacht allerliebste. <ref target="gb:note#GB03_2_BR461_0_note_001_257_15-16" xml:id="start_com_3743"/>Ich muss mich wieder an meine Wohnung 
+<anchor xml:id="GB03_1_BR461_0_257_016"/>gewöhnen.<ref xml:id="end_com_3743"/> Eigentlich käm ich lieber zu Ihnen. Schicken Sie mir ein 
+<anchor xml:id="GB03_1_BR461_0_257_017"/>bisgen zu Essen    d<g ref="#typoSuspension"/>. 8 Febr 79.</p>
+      <closer>
+        <anchor xml:id="GB03_1_BR461_0_257_018"/>
+        <signed rend="paraph" rendition="#einrueck20">G.</signed>
+      </closer>
+    </div>
+  </body>
+</text>
+
+
+<text xml:space="preserve" type="comment" xml:id="gb11963_comment">
+<body>
+<div type="metadata" xml:id="gb11963_comment_com824">
+  <ab type="numberAddressee"><label>461.</label> An <persName key="sndb:person#45394">Charlotte von Stein</persName></ab>
+  <ab type="creationDestination"><supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied>, 8. Februar 1779 → <supplied><placeName key="sndb:ort#79627">Weimar</placeName></supplied></ab>
+</div>
+
+<div type="tradition">
+<div type="textual_witness" xml:id="gb11963_comment_com2868">
+  <p>H: GSA Weimar, Sign.: <ref target="archivdb:dokument#8658">GSA 29/487,I</ref>, Bl. 3. – 1 Bl. 18,2 &#xD7; 7,3(–7,6) cm, 1 S. beschr., egh., Tinte, Fidibusfaltung (vgl. zu <ref target="gb:note#GB03_2_BR018_0_note_005_18_18">18,18</ref>); Vs. und Rs. Reste eines roten Siegels; Vs. oben rechts von fremder Hd, Tinte: „7“, rechts neben dem Brief von fremder Hd, Bleistift: „8“. – In einem gebundenen Handschriftenkonvolut (Bd II, Jg 1779, Nr 8), vgl. Überlieferung zu <ref target="gb:note#gb10706_comment_com3073">Nr 18</ref>.</p>
+  <p>E: <ref target="sndb:sigle#818">Schöll, Goethe-Stein</ref> 1 (1848), 212.</p>
+  <p><ref target="sndb:sigle#1157">WA</ref> IV 4 (1889), 10 f., Nr 780.</p>
+</div>
+
+</div>
+<div type="explanations">
+<div type="explanation" xml:id="gb11963_comment_com4664">
+  <p>Ein Bezugs- und ein Antwortbrief sind nicht bekannt.</p>
+</div>
+
+<div type="singleExplanations">
+<note xml:id="gb11963_comment_com18168">
+<label xml:id="GB03_2_BR461_0_note_001_257_15-16" copyOf="#start_com_3743"><hi rendition="#fett">257,15-16</hi>Ich muss mich wieder an meine Wohnung gewöhnen.</label>
+<p>Goethe hatte als Freund des Herzogs, aber vor allem als Geheimer Rat in der vorangegangenen Woche an den Feierlichkeiten anlässlich der Geburt der Prinzessin Louise Auguste Amalie von Sachsen-Weimar und Eisenach am 3. Februar teilgenommen (vgl. die zweite Erläuterung zu <ref target="gb:note#GB03_2_BR404_0_note_008_231_8">231,8</ref>). Am Abend des 4. Februar wurde die Prinzessin im großen Saal des Fürstenhauses von Herder, Oberhofprediger und Superintendent, getauft, und zwar im Beisein „sämmtlicher Herrn Ministres, Damen, Cavaliers und Räthe“ sowie unter „allgemeiner Theilnehmung“ einer „unbeschreiblichen Menge Volks, welches sich, nach erhaltener gnädigsten Erlaubniß, aus allerley Stande, auf der geräumigen Galerie des Saals versammlete“ (<ref target="sndb:sigle#3147">WWA</ref>, 6. Februar 1779, Nr 11, S. 42). Am 5. Februar fand ein großer Maskenball statt, wofür Herzog Carl August 300 Freibilletts verteilen ließ und bei dem auch der regierende Herzog Ernst II. Ludwig von Sachsen-Gotha und Altenburg anwesend war, neben der Herzoginmutter und Prinz Constantin einer der Taufpaten. Am Sonntag, dem 7. Februar, schließlich wurde „ein feyerliches DankFest gehalten, und nach der Predigt und Gebeth das Te Deum unter Trompeten und Paucken, unter dem Geläute der Glocken auf allen Thürmen der Stadt, und unter Abfeurung der Canonen, die des Endes auf die Höhe vor dem Jacobs-Thore aufgepflanzt worden, abgesungen.“ (<ref target="sndb:sigle#3147">WWA</ref>, 10. Februar 1779, Nr 12, S. 45.)</p>
+
+</note>
+</div>
+</div>
+</body>
+</text>
+
+</TEI>
