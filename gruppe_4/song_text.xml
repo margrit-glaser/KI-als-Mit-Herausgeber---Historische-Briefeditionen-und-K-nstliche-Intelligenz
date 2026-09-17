@@ -23,80 +23,180 @@
             </sourceDesc>
 
         </fileDesc>
-        <encodingDesc>
-        <classDecl>
-            <taxonomy xml:id="themes">
-                <category xml:id="love">
-                    <catDesc>Liebe</catDesc>
-                </category>
-                 <category xml:id="dreams">
-                    <catDesc>Träume</catDesc>
-                </category>
-                <category xml:id="pain">
-                    <catDesc>Schmerz</catDesc>
-                </category>
-                <category xml:id="loneliness">
-                    <catDesc>Einsamkeit</catDesc>
-                </category>
-            </taxonomy>
-        </classDecl>
-</encodingDesc>
 
+        <encodingDesc>
+            <classDecl>
+
+                <!-- Thematic categories -->
+                <taxonomy xml:id="themes">
+                    <category xml:id="love">
+                        <catDesc>Liebe</catDesc>
+                    </category>
+
+                    <category xml:id="dreams">
+                        <catDesc>Träume</catDesc>
+                    </category>
+
+                    <category xml:id="pain">
+                        <catDesc>Schmerz</catDesc>
+                    </category>
+
+                    <category xml:id="loneliness">
+                        <catDesc>Einsamkeit</catDesc>
+                    </category>
+                </taxonomy>
+
+                <!-- Linguistic categories -->
+                <taxonomy xml:id="linguistic">
+                    <category xml:id="pronoun">
+                        <catDesc>Pronoun</catDesc>
+                    </category>
+                </taxonomy>
+
+            </classDecl>
+        </encodingDesc>
 
     </teiHeader>
 
     <text type="song">
         <body>
-            <lg type="refrain">
-                <l>Und <w type="pronoun">ich</w> sitz schon wieder</l>
+
+            <!-- Refrain 1 -->
+            <lg type="refrain" n="1">
+                <l>Und <w ana="#pronoun">ich</w> sitz schon wieder</l>
                 <l>Barfuß am Klavier</l>
-                <l><w type="pronoun">Ich</w> <seg ana="#dreams">träume</seg> <seg ana="#love">Liebeslieder</seg></l>
-                <l>Und sing dabei von <w type="pronoun">dir</w>.</l>
+                <l>
+                    <w ana="#pronoun">Ich</w>
+                    <seg ana="#dreams">träume</seg>
+                    <seg ana="#love">Liebeslieder</seg>
+                </l>
+                <l>Und sing dabei von <w ana="#pronoun">dir</w>.</l>
             </lg>
 
+            <!-- Stanza 1 -->
             <lg type="stanza" n="1">
-                <l><w type="pronoun">Du</w> und <w type="pronoun">ich</w>, <w type="pronoun">wir</w> waren wunderlich</l>
-                <l>Nicht für <w type="pronoun">mich</w></l>
+                <l>
+                    <w ana="#pronoun">Du</w> und
+                    <w ana="#pronoun">ich</w>,
+                    <w ana="#pronoun">wir</w> waren wunderlich
+                </l>
+
+                <l>Nicht für <w ana="#pronoun">mich</w></l>
+
                 <l>Für die, die es störte,</l>
+
                 <l>Wenn man uns nachts hörte</l>
-                <l><w type="pronoun">Ich</w> hab mit <w type="pronoun">dir</w> gemeinsam einsam rumgesessen und geschwiegen</l>
-                <l><w type="pronoun">Ich</w> erinner <w type="pronoun">mich</w> am Besten ans gemeinsam einsam Liegen</l>
-                <l>Jeden Morgen danach, bei <w type="pronoun">dir</w></l>
-                <l><w type="pronoun">Du</w> nackt im Bett - und <w type="pronoun">ich</w> barfuß am Klavier</l>
+
+                <l>
+                    <w ana="#pronoun">Ich</w> hab mit
+                    <w ana="#pronoun">dir</w>
+                    gemeinsam einsam rumgesessen und geschwiegen
+                </l>
+
+                <l>
+                    <w ana="#pronoun">Ich</w> erinner
+                    <w ana="#pronoun">mich</w>
+                    am Besten ans gemeinsam einsam Liegen
+                </l>
+
+                <l>Jeden Morgen danach, bei <w ana="#pronoun">dir</w></l>
+
+                <l>
+                    <w ana="#pronoun">Du</w> nackt im Bett -
+                    und <w ana="#pronoun">ich</w> barfuß am Klavier
+                </l>
             </lg>
-            <lg type="refrain">
-                <l>Und <w type="pronoun">ich</w> sitz schon wieder</l>
+
+            <!-- Refrain 2 -->
+            <lg type="refrain" n="2">
+                <l>Und <w ana="#pronoun">ich</w> sitz schon wieder</l>
                 <l>Barfuß am Klavier</l>
-                <l><w type="pronoun">Ich</w> <seg ana="#dreams">träume</seg> <seg ana="#love">Liebeslieder</seg></l>
-                <l>Und sing dabei von <w type="pronoun">dir</w>.</l>
+                <l>
+                    <w ana="#pronoun">Ich</w>
+                    <seg ana="#dreams">träume</seg>
+                    <seg ana="#love">Liebeslieder</seg>
+                </l>
+                <l>Und sing dabei von <w ana="#pronoun">dir</w>.</l>
             </lg>
-            
+
+            <!-- Stanza 2 -->
             <lg type="stanza" n="2">
-                <l><w type="pronoun">Du</w> und <w type="pronoun">ich</w>, wir war'n mal <w type="pronoun">wir</w>.</l>
-                <l>Und sind jetzt nichts du da, <w type="pronoun">ich</w> hier</l>
-                <l><w type="pronoun">Du</w> wolltest alles wissen und das hat <w type="pronoun">mich</w> vertrieben</l>
-                <l>Eigentlich <w type="pronoun">dich</w>, <w type="pronoun">du</w> bist nicht länger geblieben; bei <w type="pronoun">mir</w></l>
-                <l>Also sitz <w type="pronoun">ich</w>, um zu <seg ana="#love">lieben</seg>, lieber barfuß am Klavier</l>
+                <l>
+                    <w ana="#pronoun">Du</w> und
+                    <w ana="#pronoun">ich</w>,
+                    <w ana="#pronoun">wir</w> war'n mal
+                    <w ana="#pronoun">wir</w>.
+                </l>
+
+                <l>
+                    Und sind jetzt nichts
+                    <w ana="#pronoun">du</w> da,
+                    <w ana="#pronoun">ich</w> hier
+                </l>
+
+                <l>
+                    <w ana="#pronoun">Du</w> wolltest alles wissen
+                    und das hat
+                    <w ana="#pronoun">mich</w> vertrieben
+                </l>
+
+                <l>
+                    Eigentlich
+                    <w ana="#pronoun">dich</w>,
+                    <w ana="#pronoun">du</w> bist nicht länger geblieben;
+                    bei <w ana="#pronoun">mir</w>
+                </l>
+
+                <l>
+                    Also sitz
+                    <w ana="#pronoun">ich</w>,
+                    um zu <seg ana="#love">lieben</seg>,
+                    lieber barfuß am Klavier
+                </l>
             </lg>
 
-            <lg type="refrain">
-                <l>Und <w type="pronoun">ich</w> sitz schon wieder</l>
+            <!-- Refrain 3 -->
+            <lg type="refrain" n="3">
+                <l>Und <w ana="#pronoun">ich</w> sitz schon wieder</l>
                 <l>Barfuß am Klavier</l>
-                <l><w type="pronoun">Ich</w> <seg ana="#dreams">träume</seg> <seg ana="#love">Liebeslieder</seg></l>
-                <l>Und sing dabei von <w type="pronoun">dir</w>.</l>
+                <l>
+                    <w ana="#pronoun">Ich</w>
+                    <seg ana="#dreams">träume</seg>
+                    <seg ana="#love">Liebeslieder</seg>
+                </l>
+                <l>Und sing dabei von <w ana="#pronoun">dir</w>.</l>
             </lg>
 
+            <!-- Bridge -->
             <lg type="bridge">
-                <l><w type="pronoun">Du</w> und <w type="pronoun">ich</w>, das war zu wenig</l>
+                <l>
+                    <w ana="#pronoun">Du</w> und
+                    <w ana="#pronoun">ich</w>,
+                    das war zu wenig
+                </l>
             </lg>
 
+            <!-- Outro -->
             <lg type="outro">
-                <l>Und <w type="pronoun">ich</w> sitz schon wieder</l>
+                <l>Und <w ana="#pronoun">ich</w> sitz schon wieder</l>
                 <l>Barfuß am Klavier</l>
-                <l>Und <seg ana="#dreams">träum</seg> dabei von <w type="pronoun">dir</w></l>
-                <l>Ich <seg ana="#dreams">träum</seg> dabei von <w type="pronoun">dir</w></l>
-                <l>Ich <seg ana="#dreams">träum</seg> dabei von <w type="pronoun">dir</w></l>
+                <l>
+                    Und <seg ana="#dreams">träum</seg>
+                    dabei von <w ana="#pronoun">dir</w>
+                </l>
+                <l>
+                    <w ana="#pronoun">Ich</w>
+                    <seg ana="#dreams">träum</seg>
+                    dabei von <w ana="#pronoun">dir</w>
+                </l>
+                <l>
+                    <w ana="#pronoun">Ich</w>
+                    <seg ana="#dreams">träum</seg>
+                    dabei von <w ana="#pronoun">dir</w>
+                </l>
             </lg>
+
         </body>
     </text>
+
 </TEI>
