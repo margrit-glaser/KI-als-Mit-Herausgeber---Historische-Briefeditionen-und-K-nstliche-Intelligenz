@@ -23,6 +23,21 @@
             </sourceDesc>
 
         </fileDesc>
+        <encodingDesc>
+        <classDecl>
+            <taxonomy xml:id="themes">
+                <category xml:id="love">
+                    <catDesc>Liebe</catDesc>
+                </category>
+                <category xml:id="pain">
+                    <catDesc>Schmerz</catDesc>
+                </category>
+                <category xml:id="loneliness">
+                    <catDesc>Einsamkeit</catDesc>
+                </category>
+            </taxonomy>
+        </classDecl>
+</encodingDesc>
 
 
     </teiHeader>
@@ -32,7 +47,7 @@
             <lg type="refrain">
                 <l>Und ich sitz schon wieder</l>
                 <l>Barfuß am Klavier</l>
-                <l>Ich träume Liebeslieder</l>
+                <l>Ich träume <seg ana="#love">Liebeslieder</seg></l>
                 <l>Und sing dabei von dir.</l>
             </lg>
 
