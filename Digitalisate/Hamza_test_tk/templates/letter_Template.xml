@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brieftranskription – Hamza</title>
+        <author>
+          <persName>Unbekannt</persName>
+        </author>
+        <respStmt>
+          <resp>Transkription und Auszeichnung</resp>
+          <name>Bearbeiter:in</name>
+        </respStmt>
+      </titleStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <institution>Institution</institution>
+            <repository>Repository</repository>
+            <collection>Sammlung</collection>
+            <idno type="shelfmark">Signatur</idno>
+            <idno type="URI">URI oder Digitalisat</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transkription nach dem Schriftbild. Abkürzungen werden zunächst nicht aufgelöst. Unsichere Lesungen sind mit unclear gekennzeichnet.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName>Absender</persName>
+          <placeName>Schreibort</placeName>
+          <date when="YYYY-MM-DD">Datum</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName>Empfänger</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <p>Text hier eintragen.</p>
+    </body>
+  </text>
+</TEI>
